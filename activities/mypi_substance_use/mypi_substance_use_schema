@@ -93,10 +93,26 @@
             "items/mypi_pr_lst_wk",
             "items/mypi_coke_used",
             "items/mypi_coke_first",
+            "items/mypi_cath_used",
+            "items/mypi_cath_first",
             "items/mypi_meth_used",
             "items/mypi_meth_first",
+            "items/mypi_mdma_used",
+            "items/mypi_mdma_first",
+            "items/mypi_keta_used",
+            "items/mypi_keta_first",
+            "items/mypi_ghb_used",
+            "items/mypi_ghb_first",
             "items/mypi_heroin_used",
             "items/mypi_heroin_first",
+            "items/mypi_hallu_used",
+            "items/mypi_hallu_first",
+            "items/mypi_shrooms_used",
+            "items/mypi_shrooms_first",
+            "items/mypi_saliva_used",
+            "items/mypi_saliva_first",
+            "items/mypi_roids_used",
+            "items/mypi_roids_first",
             "items/mypi_cold_used",
             "items/mypi_cold_first",
             "items/mypi_cold_pst_6mo",
@@ -629,6 +645,18 @@
                 "variableName": "mypi_coke_first"
             },
             {
+                "isAbout": "items/mypi_cath_used",
+                "isVis": "(event - name == '30_month_follow_up_arm_1')",
+                "valueRequired": true,
+                "variableName": "mypi_cath_used"
+            },
+            {
+                "isAbout": "items/mypi_cath_first",
+                "isVis": "(event - name == '30_month_follow_up_arm_1')&& mypi_cath_used == '1'",
+                "valueRequired": true,
+                "variableName": "mypi_cath_first"
+            },
+            {
                 "isAbout": "items/mypi_meth_used",
                 "isVis": "(event - name == '30_month_follow_up_arm_1')",
                 "valueRequired": true,
@@ -641,6 +669,42 @@
                 "variableName": "mypi_meth_first"
             },
             {
+                "isAbout": "items/mypi_mdma_used",
+                "isVis": "(event - name == '30_month_follow_up_arm_1')",
+                "valueRequired": true,
+                "variableName": "mypi_mdma_used"
+            },
+            {
+                "isAbout": "items/mypi_mdma_first",
+                "isVis": "(event - name == '30_month_follow_up_arm_1')&& mypi_mdma_used == '1'",
+                "valueRequired": true,
+                "variableName": "mypi_mdma_first"
+            },
+            {
+                "isAbout": "items/mypi_keta_used",
+                "isVis": "(event - name == '30_month_follow_up_arm_1')",
+                "valueRequired": true,
+                "variableName": "mypi_keta_used"
+            },
+            {
+                "isAbout": "items/mypi_keta_first",
+                "isVis": "(event - name == '30_month_follow_up_arm_1')&& mypi_keta_used == '1'",
+                "valueRequired": true,
+                "variableName": "mypi_keta_first"
+            },
+            {
+                "isAbout": "items/mypi_ghb_used",
+                "isVis": "(event - name == '30_month_follow_up_arm_1')",
+                "valueRequired": true,
+                "variableName": "mypi_ghb_used"
+            },
+            {
+                "isAbout": "items/mypi_ghb_first",
+                "isVis": "(event - name == '30_month_follow_up_arm_1')&& mypi_ghb_used == '1'",
+                "valueRequired": true,
+                "variableName": "mypi_ghb_first"
+            },
+            {
                 "isAbout": "items/mypi_heroin_used",
                 "isVis": "(event - name == '30_month_follow_up_arm_1')",
                 "valueRequired": true,
@@ -651,6 +715,54 @@
                 "isVis": "(event - name == '30_month_follow_up_arm_1')&& mypi_heroin_used == '1'",
                 "valueRequired": true,
                 "variableName": "mypi_heroin_first"
+            },
+            {
+                "isAbout": "items/mypi_hallu_used",
+                "isVis": "(event - name == '30_month_follow_up_arm_1')",
+                "valueRequired": true,
+                "variableName": "mypi_hallu_used"
+            },
+            {
+                "isAbout": "items/mypi_hallu_first",
+                "isVis": "(event - name == '30_month_follow_up_arm_1')&& mypi_hallu_used == '1'",
+                "valueRequired": true,
+                "variableName": "mypi_hallu_first"
+            },
+            {
+                "isAbout": "items/mypi_shrooms_used",
+                "isVis": "(event - name == '30_month_follow_up_arm_1')",
+                "valueRequired": true,
+                "variableName": "mypi_shrooms_used"
+            },
+            {
+                "isAbout": "items/mypi_shrooms_first",
+                "isVis": "(event - name == '30_month_follow_up_arm_1')&& mypi_shrooms_used == '1'",
+                "valueRequired": true,
+                "variableName": "mypi_shrooms_first"
+            },
+            {
+                "isAbout": "items/mypi_saliva_used",
+                "isVis": "(event - name == '30_month_follow_up_arm_1')",
+                "valueRequired": true,
+                "variableName": "mypi_saliva_used"
+            },
+            {
+                "isAbout": "items/mypi_saliva_first",
+                "isVis": "(event - name == '30_month_follow_up_arm_1')&& mypi_saliva_used == '1'",
+                "valueRequired": true,
+                "variableName": "mypi_saliva_first"
+            },
+            {
+                "isAbout": "items/mypi_roids_used",
+                "isVis": "(event - name == '30_month_follow_up_arm_1')",
+                "valueRequired": true,
+                "variableName": "mypi_roids_used"
+            },
+            {
+                "isAbout": "items/mypi_roids_first",
+                "isVis": "(event - name == '30_month_follow_up_arm_1')&& mypi_roids_used == '1'",
+                "valueRequired": true,
+                "variableName": "mypi_roids_first"
             },
             {
                 "isAbout": "items/mypi_cold_used",

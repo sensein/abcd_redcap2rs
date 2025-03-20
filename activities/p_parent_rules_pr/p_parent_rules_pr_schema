@@ -19,9 +19,6 @@
             "items/parent_rules_q7",
             "items/parent_rules_q8",
             "items/parent_rules_q9",
-            "items/parent_rules_q_10",
-            "items/parent_rules_q_11",
-            "items/parent_rules_q_12",
             "items/p_parent_rules_pr_complete"
         ],
         "addProperties": [
@@ -96,24 +93,6 @@
                 "isVis": "parent_rules_q7 == '1' || parent_rules_q7 == '2' || parent_rules_q7 == '3' || parent_rules_q7 == '4'",
                 "valueRequired": true,
                 "variableName": "parent_rules_q9"
-            },
-            {
-                "isAbout": "items/parent_rules_q_10",
-                "isVis": "event - name == '3_year_follow_up_y_arm_1'",
-                "valueRequired": false,
-                "variableName": "parent_rules_q_10"
-            },
-            {
-                "isAbout": "items/parent_rules_q_11",
-                "isVis": "parent_rules_q_10 == 1 || parent_rules_q_10 ==2 || parent_rules_q_10 ==3 || parent_rules_q_10 ==4",
-                "valueRequired": false,
-                "variableName": "parent_rules_q_11"
-            },
-            {
-                "isAbout": "items/parent_rules_q_12",
-                "isVis": "parent_rules_q_10 == 1 || parent_rules_q_10 ==2 || parent_rules_q_10 ==3 || parent_rules_q_10 ==4",
-                "valueRequired": false,
-                "variableName": "parent_rules_q_12"
             },
             {
                 "isAbout": "items/p_parent_rules_pr_complete",
