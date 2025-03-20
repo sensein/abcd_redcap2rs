@@ -30,7 +30,6 @@
             "../activities/pubertal_development_scale_pdsmenstrual_historyyou/pubertal_development_scale_pdsmenstrual_historyyou_schema",
             "../activities/gish2_youth/gish2_youth_schema",
             "../activities/pubertal_hormone_saliva_psyouth/pubertal_hormone_saliva_psyouth_schema",
-            "../activities/ra_scanning_checklist_and_notes/ra_scanning_checklist_and_notes_schema",
             "../activities/pre_scan_questionnaireyouth_1/pre_scan_questionnaireyouth_1_schema",
             "../activities/post_scan_questionnaireyouth_1/post_scan_questionnaireyouth_1_schema",
             "../activities/pre_scan_questionnaireyouth_2/pre_scan_questionnaireyouth_2_schema",
@@ -259,7 +258,8 @@
             "../activities/fitbit_substudy_raw_daic_use_only/fitbit_substudy_raw_daic_use_only_schema",
             "../activities/met_transform_sports_activity/met_transform_sports_activity_schema",
             "../activities/pguid_error_tracking/pguid_error_tracking_schema",
-            "../activities/test_daic_only/test_daic_only_schema"
+            "../activities/test_daic_only/test_daic_only_schema",
+            "../activities/ra_scanning_checklist_and_notes/ra_scanning_checklist_and_notes_schema"
         ],
         "addProperties": [
             {
@@ -421,14 +421,6 @@
                     "en": "Pubertal Hormone Saliva Psyouth"
                 },
                 "variableName": "pubertal_hormone_saliva_psyouth_schema"
-            },
-            {
-                "isAbout": "../activities/ra_scanning_checklist_and_notes/ra_scanning_checklist_and_notes_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Ra Scanning Checklist And Notes"
-                },
-                "variableName": "ra_scanning_checklist_and_notes_schema"
             },
             {
                 "isAbout": "../activities/pre_scan_questionnaireyouth_1/pre_scan_questionnaireyouth_1_schema",
@@ -2261,6 +2253,14 @@
                     "en": "Test Daic Only"
                 },
                 "variableName": "test_daic_only_schema"
+            },
+            {
+                "isAbout": "../activities/ra_scanning_checklist_and_notes/ra_scanning_checklist_and_notes_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Ra Scanning Checklist And Notes"
+                },
+                "variableName": "ra_scanning_checklist_and_notes_schema"
             }
         ],
         "shuffle": false

@@ -7,9 +7,11 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/ra_scan_timestamp",
+            "items/ra_scan_not_scanned",
+            "items/ra_scan_no_scan_reason",
+            "items/ra_scan_no_scan_reason_other",
             "items/ra_scan_start_time",
-            "items/ra_scan_check_list_ms",
-            "items/ra_scan_cl_mc",
             "items/ra_scan_check_list_tog",
             "items/ra_scan_cl_prescr_order",
             "items/ra_scan_cl_non_rand",
@@ -22,6 +24,8 @@
             "items/ra_scan_check_list_emoo",
             "items/ra_scan_check_list_vemo",
             "items/ra_scan_check_list_ssto",
+            "items/ra_scan_check_list_ms",
+            "items/ra_scan_cl_mc",
             "items/ra_scan_check_list_pmid",
             "items/ra_scan_check_list_psst",
             "items/ra_scan_check_list_pemo",
@@ -40,13 +44,19 @@
             "items/ra_scan_check_list_rsc",
             "items/restscan_notes",
             "items/ra_scan_check_list_rcom",
+            "items/ra_scan_cl_mid_scan",
+            "items/ra_scan_cl_mid_lap",
             "items/ra_scan_cl_mid_scan_lap",
             "items/ra_scan_check_mid_earn",
             "items/mid_notes",
             "items/ra_scan_check_list_vemorc",
+            "items/ra_scan_cl_nback_scan",
+            "items/ra_scan_cl_nback_lap",
             "items/ra_scan_cl_nbac_scan_lap",
             "items/nback_notes",
             "items/ra_scan_check_list_sstrc",
+            "items/ra_scan_cl_sst_scan",
+            "items/ra_scan_cl_sst_lap",
             "items/ra_scan_cl_sst_scan_lap",
             "items/sst_notes",
             "items/ra_scan_check_list_pnotes",
@@ -57,22 +67,34 @@
         ],
         "addProperties": [
             {
+                "isAbout": "items/ra_scan_timestamp",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ra_scan_timestamp"
+            },
+            {
+                "isAbout": "items/ra_scan_not_scanned",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ra_scan_not_scanned"
+            },
+            {
+                "isAbout": "items/ra_scan_no_scan_reason",
+                "isVis": "ra_scan_not_scanned___1 == '1'",
+                "valueRequired": true,
+                "variableName": "ra_scan_no_scan_reason"
+            },
+            {
+                "isAbout": "items/ra_scan_no_scan_reason_other",
+                "isVis": "ra_scan_no_scan_reason == '5'",
+                "valueRequired": true,
+                "variableName": "ra_scan_no_scan_reason_other"
+            },
+            {
                 "isAbout": "items/ra_scan_start_time",
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "ra_scan_start_time"
-            },
-            {
-                "isAbout": "items/ra_scan_check_list_ms",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "ra_scan_check_list_ms"
-            },
-            {
-                "isAbout": "items/ra_scan_cl_mc",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "ra_scan_cl_mc"
             },
             {
                 "isAbout": "items/ra_scan_check_list_tog",
@@ -145,6 +167,18 @@
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "ra_scan_check_list_ssto"
+            },
+            {
+                "isAbout": "items/ra_scan_check_list_ms",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ra_scan_check_list_ms"
+            },
+            {
+                "isAbout": "items/ra_scan_cl_mc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ra_scan_cl_mc"
             },
             {
                 "isAbout": "items/ra_scan_check_list_pmid",
@@ -250,13 +284,25 @@
             },
             {
                 "isAbout": "items/ra_scan_check_list_rcom",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "ra_scan_check_list_rcom"
             },
             {
-                "isAbout": "items/ra_scan_cl_mid_scan_lap",
+                "isAbout": "items/ra_scan_cl_mid_scan",
                 "isVis": true,
+                "valueRequired": true,
+                "variableName": "ra_scan_cl_mid_scan"
+            },
+            {
+                "isAbout": "items/ra_scan_cl_mid_lap",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ra_scan_cl_mid_lap"
+            },
+            {
+                "isAbout": "items/ra_scan_cl_mid_scan_lap",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "ra_scan_cl_mid_scan_lap"
             },
@@ -274,13 +320,25 @@
             },
             {
                 "isAbout": "items/ra_scan_check_list_vemorc",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "ra_scan_check_list_vemorc"
             },
             {
-                "isAbout": "items/ra_scan_cl_nbac_scan_lap",
+                "isAbout": "items/ra_scan_cl_nback_scan",
                 "isVis": true,
+                "valueRequired": true,
+                "variableName": "ra_scan_cl_nback_scan"
+            },
+            {
+                "isAbout": "items/ra_scan_cl_nback_lap",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ra_scan_cl_nback_lap"
+            },
+            {
+                "isAbout": "items/ra_scan_cl_nbac_scan_lap",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "ra_scan_cl_nbac_scan_lap"
             },
@@ -292,13 +350,25 @@
             },
             {
                 "isAbout": "items/ra_scan_check_list_sstrc",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "ra_scan_check_list_sstrc"
             },
             {
-                "isAbout": "items/ra_scan_cl_sst_scan_lap",
+                "isAbout": "items/ra_scan_cl_sst_scan",
                 "isVis": true,
+                "valueRequired": true,
+                "variableName": "ra_scan_cl_sst_scan"
+            },
+            {
+                "isAbout": "items/ra_scan_cl_sst_lap",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ra_scan_cl_sst_lap"
+            },
+            {
+                "isAbout": "items/ra_scan_cl_sst_scan_lap",
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ra_scan_cl_sst_scan_lap"
             },
