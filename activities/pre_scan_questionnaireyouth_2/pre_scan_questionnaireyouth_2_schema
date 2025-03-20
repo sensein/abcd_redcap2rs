@@ -25,79 +25,79 @@
         "addProperties": [
             {
                 "isAbout": "items/pre_scan_need",
-                "isVis": true,
+                "isVis": "ra_scan_not_scanned___1 <> '1'",
                 "valueRequired": false,
                 "variableName": "pre_scan_need"
             },
             {
                 "isAbout": "items/prescan_2_dt",
-                "isVis": "pre_scan_need == '1'",
+                "isVis": "pre_scan_need == '1' && ra_scan_not_scanned___1 <> '1'",
                 "valueRequired": false,
                 "variableName": "prescan_2_dt"
             },
             {
                 "isAbout": "items/prescan_relaxed_2",
-                "isVis": "pre_scan_need == '1'",
+                "isVis": "pre_scan_need == '1' && ra_scan_not_scanned___1 <> '1'",
                 "valueRequired": true,
                 "variableName": "prescan_relaxed_2"
             },
             {
                 "isAbout": "items/prescan_happy_2",
-                "isVis": "pre_scan_need == '1'",
+                "isVis": "pre_scan_need == '1' && ra_scan_not_scanned___1 <> '1'",
                 "valueRequired": true,
                 "variableName": "prescan_happy_2"
             },
             {
                 "isAbout": "items/prescan_scared_2",
-                "isVis": "pre_scan_need == '1'",
+                "isVis": "pre_scan_need == '1' && ra_scan_not_scanned___1 <> '1'",
                 "valueRequired": true,
                 "variableName": "prescan_scared_2"
             },
             {
                 "isAbout": "items/prescan_awake_2",
-                "isVis": "pre_scan_need == '1'",
+                "isVis": "pre_scan_need == '1' && ra_scan_not_scanned___1 <> '1'",
                 "valueRequired": true,
                 "variableName": "prescan_awake_2"
             },
             {
                 "isAbout": "items/prescan_upset_2",
-                "isVis": "pre_scan_need == '1'",
+                "isVis": "pre_scan_need == '1' && ra_scan_not_scanned___1 <> '1'",
                 "valueRequired": true,
                 "variableName": "prescan_upset_2"
             },
             {
                 "isAbout": "items/prescan_angry_2",
-                "isVis": "pre_scan_need == '1'",
+                "isVis": "pre_scan_need == '1' && ra_scan_not_scanned___1 <> '1'",
                 "valueRequired": true,
                 "variableName": "prescan_angry_2"
             },
             {
                 "isAbout": "items/prescan_excited_2",
-                "isVis": "pre_scan_need == '1'",
+                "isVis": "pre_scan_need == '1' && ra_scan_not_scanned___1 <> '1'",
                 "valueRequired": true,
                 "variableName": "prescan_excited_2"
             },
             {
                 "isAbout": "items/prescan_tired_2",
-                "isVis": "pre_scan_need == '1'",
+                "isVis": "pre_scan_need == '1' && ra_scan_not_scanned___1 <> '1'",
                 "valueRequired": true,
                 "variableName": "prescan_tired_2"
             },
             {
                 "isAbout": "items/prescan_sleepy_2",
-                "isVis": "pre_scan_need == '1'",
+                "isVis": "pre_scan_need == '1' && ra_scan_not_scanned___1 <> '1'",
                 "valueRequired": true,
                 "variableName": "prescan_sleepy_2"
             },
             {
                 "isAbout": "items/prescan_sad_2",
-                "isVis": "pre_scan_need == '1'",
+                "isVis": "pre_scan_need == '1' && ra_scan_not_scanned___1 <> '1'",
                 "valueRequired": true,
                 "variableName": "prescan_sad_2"
             },
             {
                 "isAbout": "items/prescan2_comment",
-                "isVis": true,
+                "isVis": "pre_scan_need == '1' && ra_scan_not_scanned___1 <> '1'",
                 "valueRequired": false,
                 "variableName": "prescan2_comment"
             },
@@ -110,6 +110,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2214",
+    "version": "revid2215",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
