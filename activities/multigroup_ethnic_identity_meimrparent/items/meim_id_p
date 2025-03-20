@@ -6,11 +6,6 @@
             "column": "Field Note",
             "source": "redcap",
             "value": "<span lang=\"en\"><b>If you do not identify with an ethnic group, type \"0\"</span><span lang=\"es\" style= \"color:maroon\">Si usted no se identifica con un grupo \u00c3\u00a9tnico, introduzca '0'.</b>"
-        },
-        {
-            "column": "Field Annotation",
-            "source": "redcap",
-            "value": "@HIDDEN"
         }
     ],
     "prefLabel": {
@@ -18,7 +13,7 @@
     },
     "question": {
         "en": "Please fill in: In terms of ethnic group, I consider myself to be:",
-        "es": "Responda...\nEn cuanto a mi grupo \u00c3\u00a9tnico, me considero:"
+        "es": "Responda...\r\nEn cuanto a mi grupo \u00c3\u00a9tnico, me considero:"
     },
     "responseOptions": {
         "valueType": [
@@ -26,8 +21,7 @@
         ]
     },
     "ui": {
-        "inputType": "text",
-        "readonlyValue": true
+        "inputType": "text"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
