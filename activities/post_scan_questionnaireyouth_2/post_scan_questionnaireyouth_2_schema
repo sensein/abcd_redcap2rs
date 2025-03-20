@@ -25,79 +25,79 @@
         "addProperties": [
             {
                 "isAbout": "items/postscan_2_need",
-                "isVis": true,
+                "isVis": "ra_scan_not_scanned___1 <> '1'",
                 "valueRequired": false,
                 "variableName": "postscan_2_need"
             },
             {
                 "isAbout": "items/postscan_2_dt",
-                "isVis": "postscan_2_need == '1'",
+                "isVis": "postscan_2_need == '1' && ra_scan_not_scanned___1 <> '1'",
                 "valueRequired": false,
                 "variableName": "postscan_2_dt"
             },
             {
                 "isAbout": "items/postscan_relaxed_2",
-                "isVis": "postscan_2_need == '1'",
+                "isVis": "postscan_2_need == '1' && ra_scan_not_scanned___1 <> '1'",
                 "valueRequired": true,
                 "variableName": "postscan_relaxed_2"
             },
             {
                 "isAbout": "items/postscan_happy_2",
-                "isVis": "postscan_2_need == '1'",
+                "isVis": "postscan_2_need == '1' && ra_scan_not_scanned___1 <> '1'",
                 "valueRequired": true,
                 "variableName": "postscan_happy_2"
             },
             {
                 "isAbout": "items/postscan_afraid_2",
-                "isVis": "postscan_2_need == '1'",
+                "isVis": "postscan_2_need == '1' && ra_scan_not_scanned___1 <> '1'",
                 "valueRequired": true,
                 "variableName": "postscan_afraid_2"
             },
             {
                 "isAbout": "items/postscan_alert_2",
-                "isVis": "postscan_2_need == '1'",
+                "isVis": "postscan_2_need == '1' && ra_scan_not_scanned___1 <> '1'",
                 "valueRequired": true,
                 "variableName": "postscan_alert_2"
             },
             {
                 "isAbout": "items/postscan_upset_2",
-                "isVis": "postscan_2_need == '1'",
+                "isVis": "postscan_2_need == '1' && ra_scan_not_scanned___1 <> '1'",
                 "valueRequired": true,
                 "variableName": "postscan_upset_2"
             },
             {
                 "isAbout": "items/postscan_angry_2",
-                "isVis": "postscan_2_need == '1'",
+                "isVis": "postscan_2_need == '1' && ra_scan_not_scanned___1 <> '1'",
                 "valueRequired": true,
                 "variableName": "postscan_angry_2"
             },
             {
                 "isAbout": "items/postscan_excited_2",
-                "isVis": "postscan_2_need == '1'",
+                "isVis": "postscan_2_need == '1' && ra_scan_not_scanned___1 <> '1'",
                 "valueRequired": true,
                 "variableName": "postscan_excited_2"
             },
             {
                 "isAbout": "items/postscan_tired_2",
-                "isVis": "postscan_2_need == '1'",
+                "isVis": "postscan_2_need == '1' && ra_scan_not_scanned___1 <> '1'",
                 "valueRequired": true,
                 "variableName": "postscan_tired_2"
             },
             {
                 "isAbout": "items/postscan_sleep_2",
-                "isVis": "postscan_2_need == '1'",
+                "isVis": "postscan_2_need == '1' && ra_scan_not_scanned___1 <> '1'",
                 "valueRequired": true,
                 "variableName": "postscan_sleep_2"
             },
             {
                 "isAbout": "items/postscan_sad_2",
-                "isVis": "postscan_2_need == '1'",
+                "isVis": "postscan_2_need == '1' && ra_scan_not_scanned___1 <> '1'",
                 "valueRequired": true,
                 "variableName": "postscan_sad_2"
             },
             {
                 "isAbout": "items/postscan2_comment",
-                "isVis": true,
+                "isVis": "postscan_2_need == '1' && ra_scan_not_scanned___1 <> '1'",
                 "valueRequired": false,
                 "variableName": "postscan2_comment"
             },
