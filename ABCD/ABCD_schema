@@ -261,7 +261,10 @@
             "../activities/pguid_error_tracking/pguid_error_tracking_schema",
             "../activities/test_daic_only/test_daic_only_schema",
             "../activities/barkley/barkley_schema",
-            "../activities/breast_feeding_questionaire/breast_feeding_questionaire_schema"
+            "../activities/breast_feeding_questionaire/breast_feeding_questionaire_schema",
+            "../activities/ders_parent/ders_parent_schema",
+            "../activities/erq_feelings_self/erq_feelings_self_schema",
+            "../activities/international_physical_activity_q/international_physical_activity_q_schema"
         ],
         "addProperties": [
             {
@@ -2279,6 +2282,30 @@
                     "en": "Breast Feeding Questionaire"
                 },
                 "variableName": "breast_feeding_questionaire_schema"
+            },
+            {
+                "isAbout": "../activities/ders_parent/ders_parent_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Ders Parent"
+                },
+                "variableName": "ders_parent_schema"
+            },
+            {
+                "isAbout": "../activities/erq_feelings_self/erq_feelings_self_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Erq Feelings Self"
+                },
+                "variableName": "erq_feelings_self_schema"
+            },
+            {
+                "isAbout": "../activities/international_physical_activity_q/international_physical_activity_q_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "International Physical Activity Q"
+                },
+                "variableName": "international_physical_activity_q_schema"
             }
         ],
         "shuffle": false
