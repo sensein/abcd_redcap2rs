@@ -268,6 +268,7 @@ class ReproSchemaConverter:
     def is_version_only_change(self, file_path):
         """Check if the only change in the file is the 'version' field"""
         try:
+            # Load working content
             with open(file_path, 'r') as f:
                 working_content = json.load(f)
             
@@ -279,23 +280,44 @@ class ReproSchemaConverter:
                 logger.info(f"File {file_path} is new or not in the last commit")
                 return False
             
-            # Extract and compare versions
-            working_version = working_content.pop("version", None)
-            last_commit_version = last_commit_content.pop("version", None)
+            # Store versions before comparison
+            working_version = working_content.get("version")
+            last_version = last_commit_content.get("version")
             
-            # Compare the rest of the content (excluding version)
-            return working_content == last_commit_content and working_version != last_commit_version
+            # Create copies without version field for comparison
+            working_copy = {k: v for k, v in working_content.items() if k != "version"}
+            last_copy = {k: v for k, v in last_commit_content.items() if k != "version"}
+            
+            # Convert both to JSON strings with sorted keys for consistent comparison
+            working_json = json.dumps(working_copy, sort_keys=True)
+            last_json = json.dumps(last_copy, sort_keys=True)
+            
+            # Log the differences if they exist (for debugging)
+            if working_json != last_json:
+                logger.debug(f"Found changes in {file_path} beyond version:")
+                logger.debug(f"Working content length: {len(working_json)}")
+                logger.debug(f"Last commit length: {len(last_json)}")
+            
+            # Compare content and versions
+            content_same = (working_json == last_json)
+            version_different = (working_version != last_version)
+            
+            return content_same and version_different
+            
         except Exception as e:
             logger.error(f"Error checking version changes for {file_path}: {e}")
             return False
 
     def process_changed_files(self):
-        """Process changed files and discard changes if only 'version' is modified"""
+        """Process changed files and discard changes if only version is modified"""
         self.repo.git.add(update=True)  # Ensure index is up to date
         
         changed_files = []
+        relevant_folders = [f"{self.protocol_name}", "activities"]
+        
         for item in self.repo.index.diff(None):  # Compare working directory against HEAD
-            if item.change_type == 'M' and item.a_path.endswith('.json'):
+            # Check if file is in one of our relevant folders
+            if any(folder in item.a_path for folder in relevant_folders):
                 file_path = os.path.join(self.repo_path, item.a_path)
                 
                 if self.is_version_only_change(file_path):
@@ -412,76 +434,66 @@ class ReproSchemaConverter:
             # Process changed files (handle version-only changes)
             changed_files = self.process_changed_files()
             
-            # If no substantial changes were made, just update the YAML file and commit it
+            # If no substantial changes were made, revert folder updates and only update YAML
             if not changed_files and current_version > 0:
                 logger.info(f"No substantial changes found in {filename}, updating YAML version only")
                 
-                # Add and commit only the YAML file to update the version tracking
-                yaml_path = os.path.relpath(self.yaml_file_path, self.repo_path)
+                # Revert any folder changes
+                for folder in folders_to_update:
+                    self.repo.git.checkout('HEAD', '--', folder)
                 
+                # Update the YAML file with the new redcap_version
                 try:
-                    # Stage the YAML file
+                    with open(self.yaml_file_path, 'r') as f:
+                        yaml_content = yaml.safe_load(f)
+                    
+                    # Update the redcap_version
+                    yaml_content['redcap_version'] = f"revid{redcap_version}"
+                    
+                    # Write back to the file
+                    with open(self.yaml_file_path, 'w') as f:
+                        yaml.dump(yaml_content, f, default_flow_style=False)
+                    
+                    # Add and commit only the YAML file
+                    yaml_path = os.path.relpath(self.yaml_file_path, self.repo_path)
                     self.repo.git.add(yaml_path)
                     
-                    # If there are changes in the YAML file
-                    if self.repo.index.diff('HEAD'):
-                        # Commit just the YAML update
-                        date_time_str = file_info['datetime']
-                        version_commit_message = f"Update redcap version to revid{redcap_version} (no schema changes)"
-                        
-                        self.repo.index.commit(version_commit_message)
-                        logger.info(f"Committed YAML version update: {version_commit_message}")
-                        
-                        # Push changes to remote
-                        origin = self.repo.remote(name='origin')
-                        origin.push()
-                        logger.info(f"Pushed YAML version update to remote")
-                    else:
-                        logger.info(f"No changes to YAML file needed, version already up to date")
-                
-                    # If archive is enabled, copy the processed file to archive (but don't delete original)
-                    if self.archive_processed_files:
-                        archive_key = f"{self.s3_prefix}processed/{filename}"
-                        try:
-                            self.s3.copy_object(
-                                Bucket=self.s3_bucket,
-                                CopySource={'Bucket': self.s3_bucket, 'Key': s3_key},
-                                Key=archive_key
-                            )
-                            logger.info(f"Copied {s3_key} to archive at {archive_key} (original preserved)")
-                        except Exception as e:
-                            logger.error(f"Failed to archive file: {e}")
-                            # Continue anyway, this is non-critical
-                
+                    # Commit and push the YAML update
+                    version_commit_message = f"Update redcap version to revid{redcap_version} (no schema changes)"
+                    self.repo.index.commit(version_commit_message)
+                    logger.info(f"Committed YAML version update: {version_commit_message}")
+                    
+                    # Push changes to remote
+                    origin = self.repo.remote(name='origin')
+                    origin.push()
+                    logger.info(f"Pushed YAML version update to remote")
+                    
                     return True
+                    
                 except Exception as e:
-                    logger.error(f"Error updating YAML version: {e}")
+                    logger.error(f"Failed to update YAML file: {e}")
                     return False
-            
-            # Commit and tag the changes
-            date_time_str = file_info['datetime']
-            commit_message = f"converted {self.protocol_name} redcap data dictionary {date_time_str} to reproschema"
-            tag_message = f"redcap data dictionary {date_time_str} to reproschema"
-            tag_name = date_time_str.replace("-", ".").replace("_", ".")
-            
-            if self.commit_and_tag(commit_message, tag_name, tag_message, folders_to_update):
-                # Archive processed file in S3 if enabled
-                if self.archive_processed_files:
-                    archive_key = f"{self.s3_prefix}processed/{filename}"
-                    try:
-                        self.s3.copy_object(
-                            Bucket=self.s3_bucket,
-                            CopySource={'Bucket': self.s3_bucket, 'Key': s3_key},
-                            Key=archive_key
-                        )
-                        self.s3.delete_object(Bucket=self.s3_bucket, Key=s3_key)
-                        logger.info(f"Archived {s3_key} to {archive_key}")
-                    except Exception as e:
-                        logger.error(f"Failed to archive file: {e}")
-                
-                return True
-                
-            return False
+            else:
+                # There are substantial changes, update YAML and commit everything
+                try:
+                    # Update the YAML file
+                    with open(self.yaml_file_path, 'r') as f:
+                        yaml_content = yaml.safe_load(f)
+                    yaml_content['redcap_version'] = f"revid{redcap_version}"
+                    with open(self.yaml_file_path, 'w') as f:
+                        yaml.dump(yaml_content, f, default_flow_style=False)
+                    
+                    # Commit and tag all changes
+                    date_time_str = file_info['datetime']
+                    commit_message = f"converted {self.protocol_name} redcap data dictionary {date_time_str} to reproschema"
+                    tag_message = f"redcap data dictionary {date_time_str} to reproschema"
+                    tag_name = date_time_str.replace("-", ".").replace("_", ".")
+                    
+                    return self.commit_and_tag(commit_message, tag_name, tag_message, folders_to_update)
+                    
+                except Exception as e:
+                    logger.error(f"Error in processing changes: {e}")
+                    return False
             
         except Exception as e:
             logger.error(f"Error processing {filename if 'filename' in locals() else 'file'}: {e}")
