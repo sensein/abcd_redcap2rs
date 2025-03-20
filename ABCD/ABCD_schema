@@ -259,7 +259,9 @@
             "../activities/fitbit_substudy_raw_daic_use_only/fitbit_substudy_raw_daic_use_only_schema",
             "../activities/met_transform_sports_activity/met_transform_sports_activity_schema",
             "../activities/pguid_error_tracking/pguid_error_tracking_schema",
-            "../activities/test_daic_only/test_daic_only_schema"
+            "../activities/test_daic_only/test_daic_only_schema",
+            "../activities/barkley/barkley_schema",
+            "../activities/breast_feeding_questionaire/breast_feeding_questionaire_schema"
         ],
         "addProperties": [
             {
@@ -2261,6 +2263,22 @@
                     "en": "Test Daic Only"
                 },
                 "variableName": "test_daic_only_schema"
+            },
+            {
+                "isAbout": "../activities/barkley/barkley_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Barkley"
+                },
+                "variableName": "barkley_schema"
+            },
+            {
+                "isAbout": "../activities/breast_feeding_questionaire/breast_feeding_questionaire_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Breast Feeding Questionaire"
+                },
+                "variableName": "breast_feeding_questionaire_schema"
             }
         ],
         "shuffle": false
