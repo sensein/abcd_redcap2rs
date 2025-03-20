@@ -95,10 +95,10 @@
             "../activities/neighborhood_safety_crimemodified_phenx_nscyouth/neighborhood_safety_crimemodified_phenx_nscyouth_schema",
             "../activities/peer_behavior_profile/peer_behavior_profile_schema",
             "../activities/peer_network_health_protective_scaler/peer_network_health_protective_scaler_schema",
+            "../activities/pet_ownership/pet_ownership_schema",
             "../activities/y_discrimination_measure_l/y_discrimination_measure_l_schema",
             "../activities/mexican_american_cultural_values_scale_youth/mexican_american_cultural_values_scale_youth_schema",
             "../activities/y_gender_identity/y_gender_identity_schema",
-            "../activities/pet_ownership/pet_ownership_schema",
             "../activities/neglectful_behavior/neglectful_behavior_schema",
             "../activities/y_wills_problem_solving_scale_l/y_wills_problem_solving_scale_l_schema",
             "../activities/y_school_attendance_and_grades/y_school_attendance_and_grades_schema",
@@ -957,6 +957,14 @@
                 "variableName": "peer_network_health_protective_scaler_schema"
             },
             {
+                "isAbout": "../activities/pet_ownership/pet_ownership_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Pet Ownership"
+                },
+                "variableName": "pet_ownership_schema"
+            },
+            {
                 "isAbout": "../activities/y_discrimination_measure_l/y_discrimination_measure_l_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -979,14 +987,6 @@
                     "en": "Y Gender Identity"
                 },
                 "variableName": "y_gender_identity_schema"
-            },
-            {
-                "isAbout": "../activities/pet_ownership/pet_ownership_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Pet Ownership"
-                },
-                "variableName": "pet_ownership_schema"
             },
             {
                 "isAbout": "../activities/neglectful_behavior/neglectful_behavior_schema",
