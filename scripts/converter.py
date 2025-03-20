@@ -372,22 +372,7 @@ class ReproSchemaConverter:
             if current_version > 0 and redcap_version <= current_version:
                 logger.info(f"Skipping {filename}, already processed (version {redcap_version} ≤ {current_version})")
                 return False
-                
-            if redcap_version < 101:  # Assuming minimum version requirement
-                logger.info(f"Skipping {filename}, version too low (< 101)")
-                return False
-                
-            # Update YAML with new redcap_version
-            with open(self.yaml_file_path, 'r') as f:
-                yaml_content = yaml.safe_load(f)
-                
-            yaml_content['redcap_version'] = f"revid{redcap_version}"
-            
-            with open(self.yaml_file_path, 'w') as f:
-                yaml.safe_dump(yaml_content, f)
-                
-            logger.info(f"Updated YAML with redcap_version: {yaml_content['redcap_version']}")
-            
+         
             # Run the redcap2reproschema command
             cmd = [
                 "reproschema",
@@ -427,10 +412,51 @@ class ReproSchemaConverter:
             # Process changed files (handle version-only changes)
             changed_files = self.process_changed_files()
             
-            # If no substantial changes were made, log and return
+            # If no substantial changes were made, just update the YAML file and commit it
             if not changed_files and current_version > 0:
-                logger.info(f"No substantial changes found in {filename}, skipping commit")
-                return False
+                logger.info(f"No substantial changes found in {filename}, updating YAML version only")
+                
+                # Add and commit only the YAML file to update the version tracking
+                yaml_path = os.path.relpath(self.yaml_file_path, self.repo_path)
+                
+                try:
+                    # Stage the YAML file
+                    self.repo.git.add(yaml_path)
+                    
+                    # If there are changes in the YAML file
+                    if self.repo.index.diff('HEAD'):
+                        # Commit just the YAML update
+                        date_time_str = file_info['datetime']
+                        version_commit_message = f"Update redcap version to revid{redcap_version} (no schema changes)"
+                        
+                        self.repo.index.commit(version_commit_message)
+                        logger.info(f"Committed YAML version update: {version_commit_message}")
+                        
+                        # Push changes to remote
+                        origin = self.repo.remote(name='origin')
+                        origin.push()
+                        logger.info(f"Pushed YAML version update to remote")
+                    else:
+                        logger.info(f"No changes to YAML file needed, version already up to date")
+                
+                    # If archive is enabled, copy the processed file to archive (but don't delete original)
+                    if self.archive_processed_files:
+                        archive_key = f"{self.s3_prefix}processed/{filename}"
+                        try:
+                            self.s3.copy_object(
+                                Bucket=self.s3_bucket,
+                                CopySource={'Bucket': self.s3_bucket, 'Key': s3_key},
+                                Key=archive_key
+                            )
+                            logger.info(f"Copied {s3_key} to archive at {archive_key} (original preserved)")
+                        except Exception as e:
+                            logger.error(f"Failed to archive file: {e}")
+                            # Continue anyway, this is non-critical
+                
+                    return True
+                except Exception as e:
+                    logger.error(f"Error updating YAML version: {e}")
+                    return False
             
             # Commit and tag the changes
             date_time_str = file_info['datetime']
