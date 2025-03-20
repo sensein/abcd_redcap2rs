@@ -1,0 +1,25 @@
+# ReproSchema Conversion Configuration
+aws:
+  access_key: "${AWS_ACCESS_KEY_ID}"
+  secret_key: "${AWS_SECRET_ACCESS_KEY}"
+  endpoint_url: "https://gateway.storjshare.io"
+  region: "us-east-1"
+  prefix: "postprod_datadictionaries/"  # Update this - removed bucket name from prefix
+  bucket_name: "abcd-dd-rev"  # Add the actual bucket name here
+
+git:
+  # repo_path: "${GITHUB_WORKSPACE}"  # For GitHub Actions
+  repo_path: "."
+
+protocol:
+  name: "ABCD"  
+  # yaml_path: "${GITHUB_WORKSPACE}/abcd_redcap2rs.yaml"
+  yaml_path: "abcd_redcap2rs.yaml"
+
+# Added processing options
+processing:
+  max_files: 1  # Process at most one file per run
+  validate: true  # Validate generated schemas
+
+# Archive processed files option
+archive_processed_files: false  # Set to true to move processed files to a subfolder
