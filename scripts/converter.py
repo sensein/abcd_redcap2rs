@@ -12,6 +12,7 @@ import re
 import argparse
 import sys
 from concurrent.futures import ThreadPoolExecutor
+from dotenv import load_dotenv  
 
 # Set up logging
 logging.basicConfig(
@@ -19,6 +20,8 @@ logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
 logger = logging.getLogger('redcap2reproschema-ci')
+
+load_dotenv()
 
 class ReproSchemaConverter:
     def __init__(self, config_path='config.yaml'):
@@ -48,12 +51,15 @@ class ReproSchemaConverter:
         self.processed_count = 0
         self.error_count = 0
         
+        # Get AWS credentials with flexible fallback strategy
+        aws_access_key, aws_secret_key = self._get_aws_credentials()
+        
         # Initialize AWS client with retry configuration
         try:
             self.s3 = boto3.client(
                 's3',
-                aws_access_key_id=self.config['aws']['access_key'],
-                aws_secret_access_key=self.config['aws']['secret_key'],
+                aws_access_key_id=aws_access_key,
+                aws_secret_access_key=aws_secret_key,
                 endpoint_url=self.config['aws']['endpoint_url'],
                 region_name=self.config['aws']['region'],
                 config=boto3.session.Config(
@@ -61,6 +67,7 @@ class ReproSchemaConverter:
                     retries={'max_attempts': 3, 'mode': 'standard'}
                 )
             )
+            logger.info(f"AWS S3 client initialized with access key: {aws_access_key[:4]}..." if aws_access_key else "No access key")
         except Exception as e:
             logger.error(f"Failed to initialize S3 client: {e}")
             sys.exit(1)
@@ -94,6 +101,38 @@ class ReproSchemaConverter:
             logger.info(f"Removed temporary directory: {self.temp_dir}")
         except Exception as e:
             logger.error(f"Error removing temporary directory: {e}")
+
+    def _get_aws_credentials(self):
+        """Flexibly get AWS credentials from different sources in order of priority"""
+        # Define all potential sources for credentials
+        sources = [
+            # 1. Environment variables (from GitHub Actions or shell)
+            {
+                'access_key': os.environ.get('AWS_ACCESS_KEY_ID'),
+                'secret_key': os.environ.get('AWS_SECRET_ACCESS_KEY'),
+                'source_name': 'environment variables'
+            },
+            # 2. Config file values
+            {
+                'access_key': self.config['aws'].get('access_key'),
+                'secret_key': self.config['aws'].get('secret_key'),
+                'source_name': 'config file'
+            }
+        ]
+        
+        # Try each source in order
+        for source in sources:
+            access_key = source['access_key']
+            secret_key = source['secret_key']
+            
+            # If both keys are available from this source, use them
+            if access_key and secret_key:
+                logger.info(f"Using AWS credentials from {source['source_name']}")
+                return access_key, secret_key
+        
+        # If we got here, we couldn't find valid credentials
+        logger.warning("No valid AWS credentials found from any source")
+        return None, None
 
     def list_s3_files(self):
         """List CSV files in S3 bucket with specified prefix and parse versions"""
