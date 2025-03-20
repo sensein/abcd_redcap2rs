@@ -1,0 +1,33 @@
+{
+    "id": "hormone_scr_hse_rep2_ll",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "hormone_scr_hse_rep2_ll"
+    },
+    "question": {
+        "en": "Salimetrics hormone test estradiol (HSE)  below lower limit of sensitivity (repetition 2)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "True"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "False"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

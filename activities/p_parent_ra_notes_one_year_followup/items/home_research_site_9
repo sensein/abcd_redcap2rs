@@ -1,0 +1,49 @@
+{
+    "id": "home_research_site_9",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20180418"
+        }
+    ],
+    "preamble": {
+        "en": "COMPLETION METHODTake Home Surveys / Remote Completion"
+    },
+    "prefLabel": {
+        "en": "home_research_site_9"
+    },
+    "question": {
+        "en": "Where did the \"parent\" complete the nine surveys that can be completed at home?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Research Site"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Home (all 9)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Some but Not All Completed at Home"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

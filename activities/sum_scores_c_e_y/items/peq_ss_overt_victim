@@ -1,0 +1,30 @@
+{
+    "id": "peq_ss_overt_victim",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Peer Experiences"
+    },
+    "prefLabel": {
+        "en": "peq_ss_overt_victim"
+    },
+    "question": {
+        "en": "Overt Victimization Summary Score\r\nsum (peq_chase_vic, peq_threat_vic, peq_hit_vic)\r\n\r\nValidation: All items must be answered"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

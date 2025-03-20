@@ -1,0 +1,30 @@
+{
+    "id": "abcl_scr_prob_somatic_nm",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Somatic Complaints"
+    },
+    "prefLabel": {
+        "en": "abcl_scr_prob_somatic_nm"
+    },
+    "question": {
+        "en": "Number Missing"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

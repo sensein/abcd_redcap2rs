@@ -1,0 +1,40 @@
+{
+    "id": "via_p_ss_hc",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Vancouver Index of Acculturation"
+    },
+    "prefLabel": {
+        "en": "via_p_ss_hc"
+    },
+    "question": {
+        "en": "VIA Heritage Culture Subscale: Mean(vancouver_q2_p +  vancouver_q4_p + vancouver_q6_p + vancouver_q8_p + vancouver_q10_p + vancouver_q12_p + vancouver_q14_p + vancouver_q16_p)/8\nValidation: All items must be answered"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,37 @@
+{
+    "id": "ocp_prnt_acs_job_cat_23_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "\u00e2\u0080\u00a2 If you had no job or business last week, give information for your last job or business.",
+        "es": "\u00e2\u0080\u00a2 Si no tuvo trabajo o negocio la semana pasada, provea informaci\u00c3\u00b3n acerca de su \u00c3\u00baltimo trabajo o negocio."
+    },
+    "prefLabel": {
+        "en": "ocp_prnt_acs_job_cat_23_p"
+    },
+    "question": {
+        "en": "Please specify the Legal Occupations Job Title:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Lawyers, Judges, and Related Workers"
+                },
+                "value": 23100
+            },
+            {
+                "name": {
+                    "en": "Legal Support Workers"
+                },
+                "value": 23200
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

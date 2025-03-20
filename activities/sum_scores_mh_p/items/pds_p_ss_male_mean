@@ -1,0 +1,40 @@
+{
+    "id": "pds_p_ss_male_mean",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Pubertal Developmental Scale P"
+    },
+    "prefLabel": {
+        "en": "pds_p_ss_male_mean"
+    },
+    "question": {
+        "en": "Pubertal Developmental Scale Parent: Male Mean\n(pds_1_p + pds_2_p + pds_3_p + pds_m4_p + pds_m5_p)/5\nValidation: All items must be answered"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

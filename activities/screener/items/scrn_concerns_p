@@ -1,0 +1,34 @@
+{
+    "id": "scrn_concerns_p",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "scrn_concerns_p"
+    },
+    "question": {
+        "en": "\"As I mentioned before, this study involves your child working with our research team to answer questions and solve puzzles on an iPad, follow directions, and lie still in the MRI scanner. Do you have any concerns about (Child's name)'s ability to do these things that have not already been discussed?\"",
+        "es": "\"Como mencion\u00c3\u00a9 anteriormente, este estudio requiere que su ni\u00c3\u00b1o(a) trabaje con nuestro equipo de investigaci\u00c3\u00b3n contestando preguntas y resolviendo rompecabezas en un iPad, que siga indicaciones y que se recueste y permanezca quieto en el aparato de MRI. \u00c2\u00bfTiene usted alguna inquietud de la que no hayamos hablado sobre la capacidad de (nombre del menor) para hacer estas cosas?\""
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

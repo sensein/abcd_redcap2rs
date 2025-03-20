@@ -1,0 +1,50 @@
+{
+    "id": "first_nicotine_4_l",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "Choose One"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "7"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "7"
+        }
+    ],
+    "prefLabel": {
+        "en": "first_nicotine_4_l"
+    },
+    "question": {
+        "en": "Which type of smokeless tobacco product was it?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "chew"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "snus"
+                },
+                "value": 7
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

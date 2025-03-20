@@ -1,0 +1,48 @@
+{
+    "id": "fitb_s4_q1e_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "History of Activity Tracker Use"
+    },
+    "prefLabel": {
+        "en": "fitb_s4_q1e_p"
+    },
+    "question": {
+        "en": "&nbspHow often did he/she check the activity tracker throughout \n\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&nbspthe day? (while awake)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Several times per day,"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "About once per day,"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Several times per week,"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "About once per week"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

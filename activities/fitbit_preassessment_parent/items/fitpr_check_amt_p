@@ -1,0 +1,61 @@
+{
+    "id": "fitpr_check_amt_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20181006"
+        }
+    ],
+    "preamble": {
+        "en": "Another question for you:",
+        "es": "Otra pregunta para usted:"
+    },
+    "prefLabel": {
+        "en": "fitpr_check_amt_p"
+    },
+    "question": {
+        "en": "How often did s/he check the activity tracker throughout the day (while awake)?",
+        "es": "\u00c2\u00bfCon qu\u00c3\u00a9 frecuencia revisaba el rastreador de actividades durante el d\u00c3\u00ada (mientras estaba despierto/a)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Several time per day",
+                    "es": "Varias veces al d\u00c3\u00ada"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "About once per day",
+                    "es": "Aproximadamente una vez al d\u00c3\u00ada"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Several time per week",
+                    "es": "Varias veces a la semana"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "About once per week",
+                    "es": "Aproximadamente una vez a la semana"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

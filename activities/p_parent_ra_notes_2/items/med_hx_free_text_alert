@@ -1,0 +1,20 @@
+{
+    "id": "med_hx_free_text_alert",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "med_hx_free_text_alert"
+    },
+    "question": {
+        "en": "Free text has been entered in Medical History data collection instrument.  Please review the instrument and ensure that no PII has been entered."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

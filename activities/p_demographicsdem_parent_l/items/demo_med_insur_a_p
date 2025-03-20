@@ -1,0 +1,47 @@
+{
+    "id": "demo_med_insur_a_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Mark \"Yes\" or \"No\" for EACH type of coverage in items a - h.",
+        "es": "Marque \"S\u00c3\u00ad\" o \"No\" para CADA tipo de cobertura en los puntos a - h."
+    },
+    "prefLabel": {
+        "en": "demo_med_insur_a_p"
+    },
+    "question": {
+        "en": "a. Insurance through a current or former employer or union (of this person or another family member)",
+        "es": "a. Seguro a trav\u00c3\u00a9s de un empleador o sindicato actual o anterior (de esta persona u otro miembro de la familia)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Refuse to Answer",
+                    "es": "Me Niego a Responder"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

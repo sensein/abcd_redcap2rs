@@ -1,0 +1,115 @@
+{
+    "id": "post_scan_questionnaireyouth_2_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "post_scan_questionnaireyouth_2"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/postscan_2_need",
+            "items/postscan_2_dt",
+            "items/postscan_relaxed_2",
+            "items/postscan_happy_2",
+            "items/postscan_afraid_2",
+            "items/postscan_alert_2",
+            "items/postscan_upset_2",
+            "items/postscan_angry_2",
+            "items/postscan_excited_2",
+            "items/postscan_tired_2",
+            "items/postscan_sleep_2",
+            "items/postscan_sad_2",
+            "items/postscan2_comment",
+            "items/post_scan_questionnaireyouth_2_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/postscan_2_need",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "postscan_2_need"
+            },
+            {
+                "isAbout": "items/postscan_2_dt",
+                "isVis": "postscan_2_need == '1'",
+                "valueRequired": false,
+                "variableName": "postscan_2_dt"
+            },
+            {
+                "isAbout": "items/postscan_relaxed_2",
+                "isVis": "postscan_2_need == '1'",
+                "valueRequired": true,
+                "variableName": "postscan_relaxed_2"
+            },
+            {
+                "isAbout": "items/postscan_happy_2",
+                "isVis": "postscan_2_need == '1'",
+                "valueRequired": true,
+                "variableName": "postscan_happy_2"
+            },
+            {
+                "isAbout": "items/postscan_afraid_2",
+                "isVis": "postscan_2_need == '1'",
+                "valueRequired": true,
+                "variableName": "postscan_afraid_2"
+            },
+            {
+                "isAbout": "items/postscan_alert_2",
+                "isVis": "postscan_2_need == '1'",
+                "valueRequired": true,
+                "variableName": "postscan_alert_2"
+            },
+            {
+                "isAbout": "items/postscan_upset_2",
+                "isVis": "postscan_2_need == '1'",
+                "valueRequired": true,
+                "variableName": "postscan_upset_2"
+            },
+            {
+                "isAbout": "items/postscan_angry_2",
+                "isVis": "postscan_2_need == '1'",
+                "valueRequired": true,
+                "variableName": "postscan_angry_2"
+            },
+            {
+                "isAbout": "items/postscan_excited_2",
+                "isVis": "postscan_2_need == '1'",
+                "valueRequired": true,
+                "variableName": "postscan_excited_2"
+            },
+            {
+                "isAbout": "items/postscan_tired_2",
+                "isVis": "postscan_2_need == '1'",
+                "valueRequired": true,
+                "variableName": "postscan_tired_2"
+            },
+            {
+                "isAbout": "items/postscan_sleep_2",
+                "isVis": "postscan_2_need == '1'",
+                "valueRequired": true,
+                "variableName": "postscan_sleep_2"
+            },
+            {
+                "isAbout": "items/postscan_sad_2",
+                "isVis": "postscan_2_need == '1'",
+                "valueRequired": true,
+                "variableName": "postscan_sad_2"
+            },
+            {
+                "isAbout": "items/postscan2_comment",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "postscan2_comment"
+            },
+            {
+                "isAbout": "items/post_scan_questionnaireyouth_2_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "post_scan_questionnaireyouth_2_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2206",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

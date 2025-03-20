@@ -1,0 +1,59 @@
+{
+    "id": "ksads_r_intro_15_t",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "ksads_r_intro_15_t"
+    },
+    "question": {
+        "en": "What kind of grades do you get on average?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "As"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Bs"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Cs"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Ds"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Fs"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

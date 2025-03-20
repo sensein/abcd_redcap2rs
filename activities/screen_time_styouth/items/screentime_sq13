@@ -1,0 +1,70 @@
+{
+    "id": "screentime_sq13",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDECHOICE = '5'"
+        }
+    ],
+    "prefLabel": {
+        "en": "screentime_sq13"
+    },
+    "question": {
+        "en": "In the past week, when you woke up during the night, how often have you used your phone or other device to send messages/play games/search or browse the internet/use social media/read or write emails?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not Applicable"
+                },
+                "value": -1
+            },
+            {
+                "name": {
+                    "en": "0 nights in the past week"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "1-2 nights"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3-4 nights"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "5-7 nights"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Always"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Refused to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,640 @@
+{
+    "id": "prodromal_psychosis_scale_pps_youth_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "prodromal_psychosis_scale_pps_youth"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/prodromal_start_time",
+            "items/prodromal_1_y",
+            "items/prodromal_1_notes_y",
+            "items/pps_1_bother_yn",
+            "items/prodromal_image1_y",
+            "items/prodromal_1b_y",
+            "items/prodromal_2_y",
+            "items/pps_2_bother_yn",
+            "items/prodromal_image2_y",
+            "items/prodromal_2b_y",
+            "items/prodromal_3_y",
+            "items/pps_3_bother_yn",
+            "items/prodromal_image3_y",
+            "items/prodromal_3b_y",
+            "items/prodromal_4_y",
+            "items/pps_4_bother_yn",
+            "items/prodromal_image4_y",
+            "items/prodromal_4b_y",
+            "items/prodromal_5_y",
+            "items/pps_5_bother_yn",
+            "items/prodromal_image5_y",
+            "items/prodromal_5b_y",
+            "items/prodromal_6_y",
+            "items/pps_6_bother_yn",
+            "items/prodromal_image6_y",
+            "items/prodromal_6b_y",
+            "items/prodromal_7_y",
+            "items/pps_7_bother_yn",
+            "items/prodromal_image7_y",
+            "items/prodromal_7b_y",
+            "items/prodromal_8_y",
+            "items/pps_8_bother_yn",
+            "items/prodromal_image8_y",
+            "items/prodromal_8b_y",
+            "items/prodromal_9_y",
+            "items/pps_9_bother_yn",
+            "items/prodromal_image9_y",
+            "items/prodromal_9b_y",
+            "items/prodromal_10_y",
+            "items/pps_10_bother_yn",
+            "items/prodromal_image10_y",
+            "items/prodromal_10b_y",
+            "items/prodromal_11_y",
+            "items/pps_11_bother_yn",
+            "items/prodromal_image11_y",
+            "items/prodromal_11b_y",
+            "items/prodromal_12_y",
+            "items/prodromal_12_notes_y",
+            "items/pps_12_bother_yn",
+            "items/prodromal_image12_y",
+            "items/prodromal_12b_y",
+            "items/prodromal_13_y",
+            "items/pps_13_bother_yn",
+            "items/prodromal_image13_y",
+            "items/prodromal_13b_y",
+            "items/prodromal_14_y",
+            "items/pps_14_bother_yn",
+            "items/prodromal_image14_y",
+            "items/prodromal_14b_y",
+            "items/prodromal_15_y",
+            "items/prodromal_15_notes_y",
+            "items/pps_15_bother_yn",
+            "items/prodromal_image15_y",
+            "items/prodromal_15b_y",
+            "items/prodromal_16_y",
+            "items/pps_16_bother_yn",
+            "items/prodromal_image16_y",
+            "items/prodromal_16b_y",
+            "items/prodromal_17_y",
+            "items/pps_17_bother_yn",
+            "items/prodromal_image17_y",
+            "items/prodromal_17b_y",
+            "items/prodromal_18_y",
+            "items/pps_18_bother_yn",
+            "items/prodromal_image18_y",
+            "items/prodromal_18b_y",
+            "items/prodromal_19_y",
+            "items/pps_19_bother_yn",
+            "items/prodromal_image19_y",
+            "items/prodromal_19b_y",
+            "items/prodromal_20_y",
+            "items/pps_20_bother_yn",
+            "items/prodromal_image20_y",
+            "items/prodromal_20b_y",
+            "items/prodromal_21_y",
+            "items/pps_21_bother_yn",
+            "items/prodromal_image21_y",
+            "items/prodromal_21b_y",
+            "items/prodromal_psychosis_scale_pps_youth_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/prodromal_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "prodromal_start_time"
+            },
+            {
+                "isAbout": "items/prodromal_1_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_1_y"
+            },
+            {
+                "isAbout": "items/prodromal_1_notes_y",
+                "isVis": "prodromal_1_y == '1'",
+                "valueRequired": true,
+                "variableName": "prodromal_1_notes_y"
+            },
+            {
+                "isAbout": "items/pps_1_bother_yn",
+                "isVis": "prodromal_1_y == '1'",
+                "valueRequired": true,
+                "variableName": "pps_1_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_image1_y",
+                "isVis": "pps_1_bother_yn == '1'",
+                "valueRequired": false,
+                "variableName": "prodromal_image1_y"
+            },
+            {
+                "isAbout": "items/prodromal_1b_y",
+                "isVis": "pps_1_bother_yn == '1'",
+                "valueRequired": true,
+                "variableName": "prodromal_1b_y"
+            },
+            {
+                "isAbout": "items/prodromal_2_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_2_y"
+            },
+            {
+                "isAbout": "items/pps_2_bother_yn",
+                "isVis": "prodromal_2_y == '1'",
+                "valueRequired": true,
+                "variableName": "pps_2_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_image2_y",
+                "isVis": "pps_2_bother_yn == '1'",
+                "valueRequired": false,
+                "variableName": "prodromal_image2_y"
+            },
+            {
+                "isAbout": "items/prodromal_2b_y",
+                "isVis": "pps_2_bother_yn == '1'",
+                "valueRequired": true,
+                "variableName": "prodromal_2b_y"
+            },
+            {
+                "isAbout": "items/prodromal_3_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_3_y"
+            },
+            {
+                "isAbout": "items/pps_3_bother_yn",
+                "isVis": "prodromal_3_y == '1'",
+                "valueRequired": true,
+                "variableName": "pps_3_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_image3_y",
+                "isVis": "pps_3_bother_yn == '1'",
+                "valueRequired": false,
+                "variableName": "prodromal_image3_y"
+            },
+            {
+                "isAbout": "items/prodromal_3b_y",
+                "isVis": "pps_3_bother_yn == '1'",
+                "valueRequired": true,
+                "variableName": "prodromal_3b_y"
+            },
+            {
+                "isAbout": "items/prodromal_4_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_4_y"
+            },
+            {
+                "isAbout": "items/pps_4_bother_yn",
+                "isVis": "prodromal_4_y == '1'",
+                "valueRequired": true,
+                "variableName": "pps_4_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_image4_y",
+                "isVis": "pps_4_bother_yn == '1'",
+                "valueRequired": false,
+                "variableName": "prodromal_image4_y"
+            },
+            {
+                "isAbout": "items/prodromal_4b_y",
+                "isVis": "pps_4_bother_yn == '1'",
+                "valueRequired": true,
+                "variableName": "prodromal_4b_y"
+            },
+            {
+                "isAbout": "items/prodromal_5_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_5_y"
+            },
+            {
+                "isAbout": "items/pps_5_bother_yn",
+                "isVis": "prodromal_5_y == '1'",
+                "valueRequired": true,
+                "variableName": "pps_5_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_image5_y",
+                "isVis": "pps_5_bother_yn == '1'",
+                "valueRequired": false,
+                "variableName": "prodromal_image5_y"
+            },
+            {
+                "isAbout": "items/prodromal_5b_y",
+                "isVis": "pps_5_bother_yn == '1'",
+                "valueRequired": true,
+                "variableName": "prodromal_5b_y"
+            },
+            {
+                "isAbout": "items/prodromal_6_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_6_y"
+            },
+            {
+                "isAbout": "items/pps_6_bother_yn",
+                "isVis": "prodromal_6_y == '1'",
+                "valueRequired": true,
+                "variableName": "pps_6_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_image6_y",
+                "isVis": "pps_6_bother_yn == '1'",
+                "valueRequired": false,
+                "variableName": "prodromal_image6_y"
+            },
+            {
+                "isAbout": "items/prodromal_6b_y",
+                "isVis": "pps_6_bother_yn == '1'",
+                "valueRequired": true,
+                "variableName": "prodromal_6b_y"
+            },
+            {
+                "isAbout": "items/prodromal_7_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_7_y"
+            },
+            {
+                "isAbout": "items/pps_7_bother_yn",
+                "isVis": "prodromal_7_y == '1'",
+                "valueRequired": true,
+                "variableName": "pps_7_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_image7_y",
+                "isVis": "pps_7_bother_yn == '1'",
+                "valueRequired": false,
+                "variableName": "prodromal_image7_y"
+            },
+            {
+                "isAbout": "items/prodromal_7b_y",
+                "isVis": "pps_7_bother_yn == '1'",
+                "valueRequired": true,
+                "variableName": "prodromal_7b_y"
+            },
+            {
+                "isAbout": "items/prodromal_8_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_8_y"
+            },
+            {
+                "isAbout": "items/pps_8_bother_yn",
+                "isVis": "prodromal_8_y == '1'",
+                "valueRequired": true,
+                "variableName": "pps_8_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_image8_y",
+                "isVis": "pps_8_bother_yn == '1'",
+                "valueRequired": false,
+                "variableName": "prodromal_image8_y"
+            },
+            {
+                "isAbout": "items/prodromal_8b_y",
+                "isVis": "pps_8_bother_yn == '1'",
+                "valueRequired": true,
+                "variableName": "prodromal_8b_y"
+            },
+            {
+                "isAbout": "items/prodromal_9_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_9_y"
+            },
+            {
+                "isAbout": "items/pps_9_bother_yn",
+                "isVis": "prodromal_9_y == '1'",
+                "valueRequired": true,
+                "variableName": "pps_9_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_image9_y",
+                "isVis": "pps_9_bother_yn == '1'",
+                "valueRequired": false,
+                "variableName": "prodromal_image9_y"
+            },
+            {
+                "isAbout": "items/prodromal_9b_y",
+                "isVis": "pps_9_bother_yn == '1'",
+                "valueRequired": true,
+                "variableName": "prodromal_9b_y"
+            },
+            {
+                "isAbout": "items/prodromal_10_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_10_y"
+            },
+            {
+                "isAbout": "items/pps_10_bother_yn",
+                "isVis": "prodromal_10_y == '1'",
+                "valueRequired": true,
+                "variableName": "pps_10_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_image10_y",
+                "isVis": "pps_10_bother_yn == '1'",
+                "valueRequired": false,
+                "variableName": "prodromal_image10_y"
+            },
+            {
+                "isAbout": "items/prodromal_10b_y",
+                "isVis": "pps_10_bother_yn == '1'",
+                "valueRequired": true,
+                "variableName": "prodromal_10b_y"
+            },
+            {
+                "isAbout": "items/prodromal_11_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_11_y"
+            },
+            {
+                "isAbout": "items/pps_11_bother_yn",
+                "isVis": "prodromal_11_y == '1'",
+                "valueRequired": true,
+                "variableName": "pps_11_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_image11_y",
+                "isVis": "pps_11_bother_yn == '1'",
+                "valueRequired": false,
+                "variableName": "prodromal_image11_y"
+            },
+            {
+                "isAbout": "items/prodromal_11b_y",
+                "isVis": "pps_11_bother_yn == '1'",
+                "valueRequired": true,
+                "variableName": "prodromal_11b_y"
+            },
+            {
+                "isAbout": "items/prodromal_12_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_12_y"
+            },
+            {
+                "isAbout": "items/prodromal_12_notes_y",
+                "isVis": "prodromal_12_y == '1'",
+                "valueRequired": true,
+                "variableName": "prodromal_12_notes_y"
+            },
+            {
+                "isAbout": "items/pps_12_bother_yn",
+                "isVis": "prodromal_12_y == '1'",
+                "valueRequired": true,
+                "variableName": "pps_12_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_image12_y",
+                "isVis": "pps_12_bother_yn == '1'",
+                "valueRequired": false,
+                "variableName": "prodromal_image12_y"
+            },
+            {
+                "isAbout": "items/prodromal_12b_y",
+                "isVis": "pps_12_bother_yn == '1'",
+                "valueRequired": true,
+                "variableName": "prodromal_12b_y"
+            },
+            {
+                "isAbout": "items/prodromal_13_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_13_y"
+            },
+            {
+                "isAbout": "items/pps_13_bother_yn",
+                "isVis": "prodromal_13_y == '1'",
+                "valueRequired": true,
+                "variableName": "pps_13_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_image13_y",
+                "isVis": "pps_13_bother_yn == '1'",
+                "valueRequired": false,
+                "variableName": "prodromal_image13_y"
+            },
+            {
+                "isAbout": "items/prodromal_13b_y",
+                "isVis": "pps_13_bother_yn == '1'",
+                "valueRequired": true,
+                "variableName": "prodromal_13b_y"
+            },
+            {
+                "isAbout": "items/prodromal_14_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_14_y"
+            },
+            {
+                "isAbout": "items/pps_14_bother_yn",
+                "isVis": "prodromal_14_y == '1'",
+                "valueRequired": true,
+                "variableName": "pps_14_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_image14_y",
+                "isVis": "pps_14_bother_yn == '1'",
+                "valueRequired": false,
+                "variableName": "prodromal_image14_y"
+            },
+            {
+                "isAbout": "items/prodromal_14b_y",
+                "isVis": "pps_14_bother_yn == '1'",
+                "valueRequired": true,
+                "variableName": "prodromal_14b_y"
+            },
+            {
+                "isAbout": "items/prodromal_15_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_15_y"
+            },
+            {
+                "isAbout": "items/prodromal_15_notes_y",
+                "isVis": "prodromal_15_y == '1'",
+                "valueRequired": true,
+                "variableName": "prodromal_15_notes_y"
+            },
+            {
+                "isAbout": "items/pps_15_bother_yn",
+                "isVis": "prodromal_15_y == '1'",
+                "valueRequired": true,
+                "variableName": "pps_15_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_image15_y",
+                "isVis": "pps_15_bother_yn == '1'",
+                "valueRequired": false,
+                "variableName": "prodromal_image15_y"
+            },
+            {
+                "isAbout": "items/prodromal_15b_y",
+                "isVis": "pps_15_bother_yn == '1'",
+                "valueRequired": true,
+                "variableName": "prodromal_15b_y"
+            },
+            {
+                "isAbout": "items/prodromal_16_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_16_y"
+            },
+            {
+                "isAbout": "items/pps_16_bother_yn",
+                "isVis": "prodromal_16_y == '1'",
+                "valueRequired": true,
+                "variableName": "pps_16_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_image16_y",
+                "isVis": "pps_16_bother_yn == '1'",
+                "valueRequired": false,
+                "variableName": "prodromal_image16_y"
+            },
+            {
+                "isAbout": "items/prodromal_16b_y",
+                "isVis": "pps_16_bother_yn == '1'",
+                "valueRequired": true,
+                "variableName": "prodromal_16b_y"
+            },
+            {
+                "isAbout": "items/prodromal_17_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_17_y"
+            },
+            {
+                "isAbout": "items/pps_17_bother_yn",
+                "isVis": "prodromal_17_y == '1'",
+                "valueRequired": true,
+                "variableName": "pps_17_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_image17_y",
+                "isVis": "pps_17_bother_yn == '1'",
+                "valueRequired": false,
+                "variableName": "prodromal_image17_y"
+            },
+            {
+                "isAbout": "items/prodromal_17b_y",
+                "isVis": "pps_17_bother_yn == '1'",
+                "valueRequired": true,
+                "variableName": "prodromal_17b_y"
+            },
+            {
+                "isAbout": "items/prodromal_18_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_18_y"
+            },
+            {
+                "isAbout": "items/pps_18_bother_yn",
+                "isVis": "prodromal_18_y == '1'",
+                "valueRequired": true,
+                "variableName": "pps_18_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_image18_y",
+                "isVis": "pps_18_bother_yn == '1'",
+                "valueRequired": false,
+                "variableName": "prodromal_image18_y"
+            },
+            {
+                "isAbout": "items/prodromal_18b_y",
+                "isVis": "pps_18_bother_yn == '1'",
+                "valueRequired": true,
+                "variableName": "prodromal_18b_y"
+            },
+            {
+                "isAbout": "items/prodromal_19_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_19_y"
+            },
+            {
+                "isAbout": "items/pps_19_bother_yn",
+                "isVis": "prodromal_19_y == '1'",
+                "valueRequired": true,
+                "variableName": "pps_19_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_image19_y",
+                "isVis": "pps_19_bother_yn == '1'",
+                "valueRequired": false,
+                "variableName": "prodromal_image19_y"
+            },
+            {
+                "isAbout": "items/prodromal_19b_y",
+                "isVis": "pps_19_bother_yn == '1'",
+                "valueRequired": true,
+                "variableName": "prodromal_19b_y"
+            },
+            {
+                "isAbout": "items/prodromal_20_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_20_y"
+            },
+            {
+                "isAbout": "items/pps_20_bother_yn",
+                "isVis": "prodromal_20_y == '1'",
+                "valueRequired": true,
+                "variableName": "pps_20_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_image20_y",
+                "isVis": "pps_20_bother_yn == '1'",
+                "valueRequired": false,
+                "variableName": "prodromal_image20_y"
+            },
+            {
+                "isAbout": "items/prodromal_20b_y",
+                "isVis": "pps_20_bother_yn == '1'",
+                "valueRequired": true,
+                "variableName": "prodromal_20b_y"
+            },
+            {
+                "isAbout": "items/prodromal_21_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "prodromal_21_y"
+            },
+            {
+                "isAbout": "items/pps_21_bother_yn",
+                "isVis": "prodromal_21_y == '1'",
+                "valueRequired": true,
+                "variableName": "pps_21_bother_yn"
+            },
+            {
+                "isAbout": "items/prodromal_image21_y",
+                "isVis": "pps_21_bother_yn == '1'",
+                "valueRequired": false,
+                "variableName": "prodromal_image21_y"
+            },
+            {
+                "isAbout": "items/prodromal_21b_y",
+                "isVis": "pps_21_bother_yn == '1'",
+                "valueRequired": true,
+                "variableName": "prodromal_21b_y"
+            },
+            {
+                "isAbout": "items/prodromal_psychosis_scale_pps_youth_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "prodromal_psychosis_scale_pps_youth_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2206",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

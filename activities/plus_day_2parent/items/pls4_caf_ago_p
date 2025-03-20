@@ -1,0 +1,41 @@
+{
+    "id": "pls4_caf_ago_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "<span lang=\"en\">(in hours; 30 mins=0.5)</span><span lang=\"es\" style=\"color:maroon;\">(en horas; 30 min = 0.5)</span>"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Text Validation Max",
+            "source": "redcap",
+            "value": "24.0"
+        }
+    ],
+    "preamble": {
+        "en": "PLUS DAY 4"
+    },
+    "prefLabel": {
+        "en": "pls4_caf_ago_p"
+    },
+    "question": {
+        "en": "How long ago did your son/daughter last consume a caffeinated beverage?",
+        "es": "\u00c2\u00bfHace cu\u00c3\u00a1nto tiempo que su ni\u00c3\u00b1o(a) consumi\u00c3\u00b3 una bebida con cafe\u00c3\u00adna?"
+    },
+    "responseOptions": {
+        "maxValue": 24,
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

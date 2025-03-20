@@ -1,0 +1,53 @@
+{
+    "id": "tlfb_rx_misuse_l",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "7b"
+        },
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "tlfb_heard_of_l"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "7b"
+        }
+    ],
+    "preamble": {
+        "en": "The next set of questions are about alcohol, cigarettes and other drugs. First I'm going to ask if you have heard of some different drugs. Remember: I won't tell anyone what you tell me - not even your parent(s), unless I find out somebody might be getting hurt in some way.\n\n{interviewer- Do NOT show pictures during the \"heard of\" questions.\n\nHave you heard of..."
+    },
+    "prefLabel": {
+        "en": "tlfb_rx_misuse_l"
+    },
+    "question": {
+        "en": "Taking pills, liquids, or medications, such as Ritalin, Adderall, Xanax, Ativan, Oxycontin, Vicodin, Fentanyl, or Cough Syrup, to get high or in a way that your doctor or parents did not direct you to use them?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

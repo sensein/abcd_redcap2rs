@@ -1,0 +1,146 @@
+{
+    "id": "demo_race_youth_acs_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "The following questions are about thechild.",
+        "es": "Las siguientes preguntas son acerca desuni\u00c3\u00b1o(a)."
+    },
+    "prefLabel": {
+        "en": "demo_race_youth_acs_p"
+    },
+    "question": {
+        "en": "What is the child's race? Mark (X) one or more boxes",
+        "es": "\u00c2\u00bfCu\u00c3\u00a1l es la raza del ni\u00c3\u00b1o(a)? Marque (X) una o m\u00c3\u00a1s casillas"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "White",
+                    "es": "Blanca"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Black or African American",
+                    "es": "Negra o Afroamericana"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "American Indian, or Alaska Native",
+                    "es": "India Americana o Nativa de Alaska"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Asian Indian",
+                    "es": "India Asi\u00c3\u00a1tica"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Chinese",
+                    "es": "China"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "Filipino",
+                    "es": "Filipina"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "Other Asian, for example, Hmong, Laotian, Thai, Pakistani, Cambodian, and so on:_________",
+                    "es": "Otras Asi\u00c3\u00a1ticas, por ejemplo, Hmong, Laosiana, Tailand\u00c3\u00a9s, Paquistan\u00c3\u00ad, Camboyana, etc.: _________"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "Japanese",
+                    "es": "Japonesa"
+                },
+                "value": 17
+            },
+            {
+                "name": {
+                    "en": "Korean",
+                    "es": "Coreana"
+                },
+                "value": 18
+            },
+            {
+                "name": {
+                    "en": "Vietnamese",
+                    "es": "Vietnamita"
+                },
+                "value": 19
+            },
+            {
+                "name": {
+                    "en": "Native Hawaiian",
+                    "es": "Nativa de Hawaii"
+                },
+                "value": 20
+            },
+            {
+                "name": {
+                    "en": "Guamanian or Chamorro",
+                    "es": "Guamaniana o Chamorra"
+                },
+                "value": 21
+            },
+            {
+                "name": {
+                    "en": "Samoan",
+                    "es": "Samoana"
+                },
+                "value": 22
+            },
+            {
+                "name": {
+                    "en": "Other Pacific Islander, for example, Fijian, Tongan, and so on:_________",
+                    "es": "Otras Isle\u00c3\u00b1as del Pac\u00c3\u00adfico, por ejemplo, Fiyianas, Tonganas, etc.: _________"
+                },
+                "value": 23
+            },
+            {
+                "name": {
+                    "en": "Some other race:",
+                    "es": "Alguna otra raza:"
+                },
+                "value": 24
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer",
+                    "es": "Se niega a responder"
+                },
+                "value": 777
+            },
+            {
+                "name": {
+                    "en": "Don't know",
+                    "es": "No s\u00c3\u00a9"
+                },
+                "value": 999
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

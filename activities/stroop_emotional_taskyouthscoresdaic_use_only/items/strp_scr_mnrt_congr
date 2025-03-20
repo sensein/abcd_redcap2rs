@@ -1,0 +1,27 @@
+{
+    "id": "strp_scr_mnrt_congr",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "strp_scr_mnrt_congr"
+    },
+    "question": {
+        "en": "mean correct latency (in ms) in \"congruent\" pairings trials (across test blocks)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

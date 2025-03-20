@@ -1,0 +1,33 @@
+{
+    "id": "iqc_sst_ep_datetime_found",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "iqc_sst_ep_datetime_found"
+    },
+    "question": {
+        "en": "Eprime SST file found and readable"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not found"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Found"
+                },
+                "value": 1
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

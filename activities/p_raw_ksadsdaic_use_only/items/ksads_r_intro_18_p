@@ -1,0 +1,63 @@
+{
+    "id": "ksads_r_intro_18_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "ksads_r_intro_18_p"
+    },
+    "question": null,
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Sports"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Band or orchestra"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Student government"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Theatre"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "News/literary magazines"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 6
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

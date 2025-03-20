@@ -1,0 +1,48 @@
+{
+    "id": "asr_q124_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "If you don't know, please choose \"don't know\" in what follows below</span><span lang=\"es\" style=\"color:maroon;\">  Si no sabe, por favor escoja \"no s\u00c3\u00a9\" en lo que sigue abajo.</span>"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "124"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        },
+        {
+            "column": "Text Validation Max",
+            "source": "redcap",
+            "value": "100.0"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "124"
+        }
+    ],
+    "prefLabel": {
+        "en": "asr_q124_p"
+    },
+    "question": {
+        "en": "In the past 6 months, about how many times per day did you use tobacco (including smokeless tobacco)?",
+        "es": "En los \u00c3\u00baltimos 6 meses, aproximadamente \u00c2\u00bfcu\u00c3\u00a1ntas veces por d\u00c3\u00ada consumi\u00c3\u00b3 tabaco (incluyendo tabaco sin humo)?"
+    },
+    "responseOptions": {
+        "maxValue": 100,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

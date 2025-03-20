@@ -1,0 +1,39 @@
+{
+    "id": "fu_6mo_4",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "If don't know/refuse to answer check \"don't know\" or \"refuse to answer\" below"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "4"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "4"
+        }
+    ],
+    "preamble": {
+        "en": "Do you have any questions before I begin? Great, let's get started."
+    },
+    "prefLabel": {
+        "en": "fu_6mo_4"
+    },
+    "question": {
+        "en": "What is yourleastfavorite class at school?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,53 @@
+{
+    "id": "isip_2_2",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "3"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "3"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20170915"
+        }
+    ],
+    "preamble": {
+        "en": "You mentioned earlier that you have had a sip of alcohol in the past. I want to ask some more questions about that. Remember your responses are confidential - we will not share your answers with anyone."
+    },
+    "prefLabel": {
+        "en": "isip_2_2"
+    },
+    "question": {
+        "en": "Did you continue to drink the alcoholic drink (and finish it) after the first sip?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

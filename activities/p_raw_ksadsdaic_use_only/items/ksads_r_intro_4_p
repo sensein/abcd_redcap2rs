@@ -1,0 +1,129 @@
+{
+    "id": "ksads_r_intro_4_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "ksads_r_intro_4_p"
+    },
+    "question": null,
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Biological mother"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Biological father"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Stepmother"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Stepfather"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Mom\u0089\u00db\u00aas boyfriend"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Dad\u0089\u00db\u00aas girlfriend"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Adopted mother"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Adopted father"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Foster mother"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Foster father"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Grandmother"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Grandfather"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Aunt"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Uncle"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "Brother(s)"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "Sister(s)"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "Group home"
+                },
+                "value": 17
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

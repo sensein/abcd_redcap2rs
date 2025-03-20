@@ -1,0 +1,32 @@
+{
+    "id": "tfmri_rec_all_beh_place_br",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "tfmri_rec_all_beh_place_br"
+    },
+    "question": {
+        "en": "Response bias for places computed as (tfmri_rec_all_beh_new.place_fa/(1-(tfmri_rec_all_beh_old.place_hr-tfmri_rec_all_beh_new.place_fa)))  - 0.5"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

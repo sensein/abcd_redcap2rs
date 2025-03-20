@@ -1,0 +1,55 @@
+{
+    "id": "psra_a2",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "LIBRv1.0"
+        }
+    ],
+    "preamble": {
+        "en": "Day 1"
+    },
+    "prefLabel": {
+        "en": "psra_a2"
+    },
+    "question": {
+        "en": "A2. Careful, interested in accuracy; not careless"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Child takes the time to look and appears to make thoughtful choices, particularly on hard items."
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Child generally careful but interest flags, particularly at end of testing session"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Child is careless at times"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Child is frequently haphazard and unfocused when answering items"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

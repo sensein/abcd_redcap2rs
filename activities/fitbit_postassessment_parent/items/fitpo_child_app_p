@@ -1,0 +1,47 @@
+{
+    "id": "fitpo_child_app_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20181006"
+        }
+    ],
+    "preamble": {
+        "en": "Another question for you:",
+        "es": "Otra pregunta para usted:"
+    },
+    "prefLabel": {
+        "en": "fitpo_child_app_p"
+    },
+    "question": {
+        "en": "Did your child use the app and/or website to see his/her Fitbit activity?",
+        "es": "\u00c2\u00bfSu hijo/a us\u00c3\u00b3 la aplicaci\u00c3\u00b3n y/o el sitio web para ver su actividad en Fitbit?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,53 @@
+{
+    "id": "ksads_r_sup_959_t",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "ksads_r_sup_959_t"
+    },
+    "question": {
+        "en": "What was the longest number of days in a row that you have had these problems back then?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "1-3 days"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "4-6 days"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "7-14 days"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "15 days or more"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

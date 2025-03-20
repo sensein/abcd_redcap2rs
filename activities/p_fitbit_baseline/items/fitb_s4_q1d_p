@@ -1,0 +1,55 @@
+{
+    "id": "fitb_s4_q1d_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "History of Activity Tracker Use"
+    },
+    "prefLabel": {
+        "en": "fitb_s4_q1d_p"
+    },
+    "question": {
+        "en": "&nbspWhat kind of information did he/she get from the activity \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&nbsptracker? (Can choose more than one)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "heart rate"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "active minutes/hourly activity"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "sleep"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "overall fitness"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "calories burned"
+                },
+                "value": 5
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

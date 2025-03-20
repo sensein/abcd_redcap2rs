@@ -1,0 +1,27 @@
+{
+    "id": "nihtbx_demo_startlevel",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY HIDEFROMCOMPLETION"
+        }
+    ],
+    "prefLabel": {
+        "en": "nihtbx_demo_startlevel"
+    },
+    "question": {
+        "en": "NIH Toolbox Demographics Starting Level Override"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

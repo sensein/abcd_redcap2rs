@@ -1,0 +1,26 @@
+{
+    "id": "asnt_timestamp_c",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "datetime_mdy"
+        }
+    ],
+    "prefLabel": {
+        "en": "asnt_timestamp_c"
+    },
+    "question": {
+        "en": "asnt_timestamp_c\r\nbaseline assent date"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:dateTime"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

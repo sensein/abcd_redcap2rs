@@ -1,0 +1,61 @@
+{
+    "id": "brought_medications",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "<font color=\"blue\">Mark the form status as 'Unverified' if you are waiting on the parent to provide child's medications.</font>"
+        }
+    ],
+    "preamble": {
+        "en": "The ABCD Study will be describing all medications its participants are using, both prescription and over-the-counter. These include pills, liquid medications; skin patches, eye drops, creams, salves, inhalers and injections, as well as cold or allergy medications, vitamins, herbal remedies and other supplements.",
+        "es": "El Estudio ABCD estar\u00c3\u00a1 describiendo todos los medicamentos que utilicen los participantes, tanto recetados como de venta libre. Estos incluyen pastillas, jarabes, parches cut\u00c3\u00a1neos, gotas para los ojos, cremas, ung\u00c3\u00bcentos, inhaladores e inyecciones, as\u00c3\u00ad como medicamentos para el resfriado o las alergias, vitaminas, remedios herbarios y otros suplementos."
+    },
+    "prefLabel": {
+        "en": "brought_medications"
+    },
+    "question": {
+        "en": "Did your child take any medications in the past two weeks and if so did you bring them with you?",
+        "es": "\u00c2\u00bfSu ni\u00c3\u00b1o(a) tom\u00c3\u00b3 alg\u00c3\u00ban medicamento en las \u00c3\u00baltimas dos semanas? Si la respuesta es s\u00c3\u00ad, trajo todos los medicamentos de su ni\u00c3\u00b1o(a) a esta visita?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes, brought medications.",
+                    "es": "S\u00c3\u00ad, trajo los medicamentos."
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes, but did not bring medications - Make arrangements to obtain.",
+                    "es": "Si, pero no trajo los medicamentos - haga arreglos para conseguirlos."
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Refused - Record reason for refusal in Comments Section",
+                    "es": "Se neg\u00c3\u00b3 - anote el motivo por el cual se neg\u00c3\u00b3 en la secci\u00c3\u00b3n de Comentarios."
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Took No Medications",
+                    "es": "No us\u00c3\u00b3 ning\u00c3\u00ban medicamento"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

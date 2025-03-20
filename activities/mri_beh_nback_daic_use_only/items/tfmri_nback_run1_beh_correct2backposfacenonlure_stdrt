@@ -1,0 +1,32 @@
+{
+    "id": "tfmri_nback_run1_beh_correct2backposfacenonlure_stdrt",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "tfmri_nback_run1_beh_correct2backposfacenonlure_stdrt"
+    },
+    "question": {
+        "en": "Average reaction time for all correct responses to 2 back with positive face nonlure stimuli during run 1"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

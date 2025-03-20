@@ -1,0 +1,54 @@
+{
+    "id": "peq_invite_vic",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "How often has this happened to you?"
+    },
+    "prefLabel": {
+        "en": "peq_invite_vic"
+    },
+    "question": {
+        "en": "A kid did not invite me to a party or social event though they knew that I wanted to go."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Once or twice"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A few times"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "About once a week"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "A few times a week"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

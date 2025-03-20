@@ -1,0 +1,71 @@
+{
+    "id": "dapi_q04_l",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "4"
+        },
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "dapi_section1_l"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "4"
+        }
+    ],
+    "preamble": {
+        "en": "Different things happen to people while they are consumingDRUGSor as a result of theirDRUGuse. Some of these things are listed below. Please indicatehow many timeseach has happened to youduring the last six monthswhile you were consuming drugs or as the result of your drug use (consider any drugs you've used, except caffeine, alcohol, nicotine and marijuana)."
+    },
+    "prefLabel": {
+        "en": "dapi_q04_l"
+    },
+    "question": {
+        "en": "Went to work or school high."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1-2"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "3-5"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "6-10"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "10+"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

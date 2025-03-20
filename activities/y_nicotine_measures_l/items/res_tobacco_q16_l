@@ -1,0 +1,33 @@
+{
+    "id": "res_tobacco_q16_l",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "res_tobacco_q16_l"
+    },
+    "question": {
+        "en": "Were you alone the first time you experimented with an e-cigarette or e-hookah?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

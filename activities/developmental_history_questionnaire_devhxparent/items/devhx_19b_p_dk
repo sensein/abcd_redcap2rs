@@ -1,0 +1,40 @@
+{
+    "id": "devhx_19b_p_dk",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        }
+    ],
+    "preamble": {
+        "en": "At approximately what age (number ofmonths) was he/she FIRST able to do each of the following?",
+        "es": "\u00c2\u00bfAproximadamente a qu\u00c3\u00a9 edad (enmeses) pudo realizar por primera vez cada una de las siguientes actividades?"
+    },
+    "prefLabel": {
+        "en": "devhx_19b_p_dk"
+    },
+    "question": {
+        "en": "Sit without assistance?",
+        "es": "\u00c2\u00bfSentarse sin ayuda?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Don't know",
+                    "es": "No lo s\u00c3\u00a9"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

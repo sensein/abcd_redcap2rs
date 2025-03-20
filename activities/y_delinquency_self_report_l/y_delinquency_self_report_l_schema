@@ -1,0 +1,311 @@
+{
+    "id": "y_delinquency_self_report_l_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "y_delinquency_self_report_l"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/deiq_start_time",
+            "items/delq_1_y",
+            "items/delq_1a_y",
+            "items/delq_1a_y_dk",
+            "items/delq_ss_1a_y",
+            "items/delq_2_y",
+            "items/delq_2a_y",
+            "items/delq_2a_y_dk",
+            "items/delq_ss_2a_y",
+            "items/delq_3_y",
+            "items/delq_3a_y",
+            "items/delq_3a_y_dk",
+            "items/delq_ss_3a_y",
+            "items/delq_4_y",
+            "items/delq_4a_y",
+            "items/delq_4a_y_dk",
+            "items/delq_ss_4a_y",
+            "items/delq_5_y",
+            "items/delq_5a_y",
+            "items/delq_5a_y_dk",
+            "items/delq_ss_5a_y",
+            "items/delq_6_y",
+            "items/delq_6a_y",
+            "items/delq_6a_y_dk",
+            "items/delq_ss_6a_y",
+            "items/delq_7_y",
+            "items/delq_7a_y",
+            "items/delq_7a_y_dk",
+            "items/delq_ss_7a_y",
+            "items/delq_8_y",
+            "items/delq_8a_y",
+            "items/delq_8a_y_dk",
+            "items/delq_ss_8a_y",
+            "items/delq_9_y",
+            "items/delq_9a_y",
+            "items/delq_9a_y_dk",
+            "items/delq_ss_9a_y",
+            "items/delq_10_y",
+            "items/delq_10a_y",
+            "items/delq_10a_y_dk",
+            "items/delq_ss_10a_y",
+            "items/y_delinquency_self_report_l_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/deiq_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "deiq_start_time"
+            },
+            {
+                "isAbout": "items/delq_1_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "delq_1_y"
+            },
+            {
+                "isAbout": "items/delq_1a_y",
+                "isVis": "delq_1_y == '1' && delq_1a_y_dk == ''",
+                "valueRequired": true,
+                "variableName": "delq_1a_y"
+            },
+            {
+                "isAbout": "items/delq_1a_y_dk",
+                "isVis": "delq_1_y == '1' && delq_1a_y == ''",
+                "valueRequired": true,
+                "variableName": "delq_1a_y_dk"
+            },
+            {
+                "isAbout": "items/delq_ss_1a_y",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "delq_ss_1a_y"
+            },
+            {
+                "isAbout": "items/delq_2_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "delq_2_y"
+            },
+            {
+                "isAbout": "items/delq_2a_y",
+                "isVis": "delq_2_y == '1' && delq_2a_y_dk == ''",
+                "valueRequired": true,
+                "variableName": "delq_2a_y"
+            },
+            {
+                "isAbout": "items/delq_2a_y_dk",
+                "isVis": "delq_2_y == '1' && delq_2a_y == ''",
+                "valueRequired": true,
+                "variableName": "delq_2a_y_dk"
+            },
+            {
+                "isAbout": "items/delq_ss_2a_y",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "delq_ss_2a_y"
+            },
+            {
+                "isAbout": "items/delq_3_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "delq_3_y"
+            },
+            {
+                "isAbout": "items/delq_3a_y",
+                "isVis": "delq_3_y == '1' && delq_3a_y_dk == ''",
+                "valueRequired": true,
+                "variableName": "delq_3a_y"
+            },
+            {
+                "isAbout": "items/delq_3a_y_dk",
+                "isVis": "delq_3_y == '1' && delq_3a_y == ''",
+                "valueRequired": true,
+                "variableName": "delq_3a_y_dk"
+            },
+            {
+                "isAbout": "items/delq_ss_3a_y",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "delq_ss_3a_y"
+            },
+            {
+                "isAbout": "items/delq_4_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "delq_4_y"
+            },
+            {
+                "isAbout": "items/delq_4a_y",
+                "isVis": "delq_4_y == '1' && delq_4a_y_dk == ''",
+                "valueRequired": true,
+                "variableName": "delq_4a_y"
+            },
+            {
+                "isAbout": "items/delq_4a_y_dk",
+                "isVis": "delq_4_y == '1' && delq_4a_y == ''",
+                "valueRequired": true,
+                "variableName": "delq_4a_y_dk"
+            },
+            {
+                "isAbout": "items/delq_ss_4a_y",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "delq_ss_4a_y"
+            },
+            {
+                "isAbout": "items/delq_5_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "delq_5_y"
+            },
+            {
+                "isAbout": "items/delq_5a_y",
+                "isVis": "delq_5_y == '1' && delq_5a_y_dk == ''",
+                "valueRequired": true,
+                "variableName": "delq_5a_y"
+            },
+            {
+                "isAbout": "items/delq_5a_y_dk",
+                "isVis": "delq_5_y == '1' && delq_5a_y == ''",
+                "valueRequired": true,
+                "variableName": "delq_5a_y_dk"
+            },
+            {
+                "isAbout": "items/delq_ss_5a_y",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "delq_ss_5a_y"
+            },
+            {
+                "isAbout": "items/delq_6_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "delq_6_y"
+            },
+            {
+                "isAbout": "items/delq_6a_y",
+                "isVis": "delq_6_y == '1' && delq_6a_y_dk == ''",
+                "valueRequired": true,
+                "variableName": "delq_6a_y"
+            },
+            {
+                "isAbout": "items/delq_6a_y_dk",
+                "isVis": "delq_6_y == '1' && delq_6a_y == ''",
+                "valueRequired": true,
+                "variableName": "delq_6a_y_dk"
+            },
+            {
+                "isAbout": "items/delq_ss_6a_y",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "delq_ss_6a_y"
+            },
+            {
+                "isAbout": "items/delq_7_y",
+                "isVis": "event_name_number == '11'",
+                "valueRequired": true,
+                "variableName": "delq_7_y"
+            },
+            {
+                "isAbout": "items/delq_7a_y",
+                "isVis": "delq_7_y == '1' && delq_7a_y_dk == ''",
+                "valueRequired": true,
+                "variableName": "delq_7a_y"
+            },
+            {
+                "isAbout": "items/delq_7a_y_dk",
+                "isVis": "delq_7_y == '1' && delq_7a_y == ''",
+                "valueRequired": true,
+                "variableName": "delq_7a_y_dk"
+            },
+            {
+                "isAbout": "items/delq_ss_7a_y",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "delq_ss_7a_y"
+            },
+            {
+                "isAbout": "items/delq_8_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "delq_8_y"
+            },
+            {
+                "isAbout": "items/delq_8a_y",
+                "isVis": "delq_8_y == '1' && delq_8a_y_dk == ''",
+                "valueRequired": true,
+                "variableName": "delq_8a_y"
+            },
+            {
+                "isAbout": "items/delq_8a_y_dk",
+                "isVis": "delq_8_y == '1' && delq_8a_y == ''",
+                "valueRequired": true,
+                "variableName": "delq_8a_y_dk"
+            },
+            {
+                "isAbout": "items/delq_ss_8a_y",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "delq_ss_8a_y"
+            },
+            {
+                "isAbout": "items/delq_9_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "delq_9_y"
+            },
+            {
+                "isAbout": "items/delq_9a_y",
+                "isVis": "delq_9_y == '1' && delq_9a_y_dk == ''",
+                "valueRequired": true,
+                "variableName": "delq_9a_y"
+            },
+            {
+                "isAbout": "items/delq_9a_y_dk",
+                "isVis": "delq_9_y == '1' && delq_9a_y == ''",
+                "valueRequired": true,
+                "variableName": "delq_9a_y_dk"
+            },
+            {
+                "isAbout": "items/delq_ss_9a_y",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "delq_ss_9a_y"
+            },
+            {
+                "isAbout": "items/delq_10_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "delq_10_y"
+            },
+            {
+                "isAbout": "items/delq_10a_y",
+                "isVis": "delq_10_y == '1' && delq_10a_y_dk == ''",
+                "valueRequired": true,
+                "variableName": "delq_10a_y"
+            },
+            {
+                "isAbout": "items/delq_10a_y_dk",
+                "isVis": "delq_10_y == '1' && delq_10a_y == ''",
+                "valueRequired": true,
+                "variableName": "delq_10a_y_dk"
+            },
+            {
+                "isAbout": "items/delq_ss_10a_y",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "delq_ss_10a_y"
+            },
+            {
+                "isAbout": "items/y_delinquency_self_report_l_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "y_delinquency_self_report_l_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2206",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

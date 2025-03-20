@@ -1,0 +1,35 @@
+{
+    "id": "fes_p_ss_org_sum",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Family Environment Scale: Family Organization"
+    },
+    "prefLabel": {
+        "en": "fes_p_ss_org_sum"
+    },
+    "question": {
+        "en": "Organization subscale from the Family Environment Scale Sum of Parent Report (RAW Score)\nfes_9_p + fes_19_p + fes_29r_p + fes_39_p + fes_49r_p + fes_59_p + fes_69_p + fes_79r_p + fes_89_p\nValidation: Minimum of 5 items answered"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,206 @@
+{
+    "id": "y_nicotine_measures_l_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "y_nicotine_measures_l"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/nic_measures_time_start",
+            "items/ascq_section_q01",
+            "items/ascq_section_q02",
+            "items/ascq_section_q03",
+            "items/ascq_section_q04",
+            "items/ascq_section_q05",
+            "items/ascq_section_q06",
+            "items/res_tobacco_q01_l",
+            "items/res_tobacco_q02_l",
+            "items/res_tobacco_q08_l",
+            "items/res_tobacco_q09_l",
+            "items/res_tobacco_q10_l",
+            "items/res_tobacco_q16_l",
+            "items/res_tobacco_q17_l",
+            "items/res_tobacco_q18_l",
+            "items/res_tobacco_q24_l",
+            "items/path_nic_dep_q01_l",
+            "items/path_nic_dep_q02_l",
+            "items/path_nic_dep_q03_l",
+            "items/path_nic_dep_q04_l",
+            "items/path_nic_dep_q05_l",
+            "items/path_nic_dep_q06_l",
+            "items/path_nic_dep_q07_l",
+            "items/path_nic_dep_q08_l",
+            "items/path_nic_dep_q09_l",
+            "items/path_nic_dep_q10_l",
+            "items/y_nicotine_measures_l_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/nic_measures_time_start",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nic_measures_time_start"
+            },
+            {
+                "isAbout": "items/ascq_section_q01",
+                "isVis": "tlfb_tob_c_l == '1' || tlfb_tob_l == '1'",
+                "valueRequired": true,
+                "variableName": "ascq_section_q01"
+            },
+            {
+                "isAbout": "items/ascq_section_q02",
+                "isVis": "tlfb_tob_c_l == '1' || tlfb_tob_l == '1'",
+                "valueRequired": true,
+                "variableName": "ascq_section_q02"
+            },
+            {
+                "isAbout": "items/ascq_section_q03",
+                "isVis": "tlfb_tob_c_l == '1' || tlfb_tob_l == '1'",
+                "valueRequired": true,
+                "variableName": "ascq_section_q03"
+            },
+            {
+                "isAbout": "items/ascq_section_q04",
+                "isVis": "tlfb_tob_c_l == '1' || tlfb_tob_l == '1'",
+                "valueRequired": true,
+                "variableName": "ascq_section_q04"
+            },
+            {
+                "isAbout": "items/ascq_section_q05",
+                "isVis": "tlfb_tob_c_l == '1' || tlfb_tob_l == '1'",
+                "valueRequired": true,
+                "variableName": "ascq_section_q05"
+            },
+            {
+                "isAbout": "items/ascq_section_q06",
+                "isVis": "tlfb_tob_c_l == '1' || tlfb_tob_l == '1'",
+                "valueRequired": true,
+                "variableName": "ascq_section_q06"
+            },
+            {
+                "isAbout": "items/res_tobacco_q01_l",
+                "isVis": "tlfb_cig_use_l== '1' && tlfb_cig_use_c_l == 0",
+                "valueRequired": true,
+                "variableName": "res_tobacco_q01_l"
+            },
+            {
+                "isAbout": "items/res_tobacco_q02_l",
+                "isVis": "tlfb_cig_use_l== '1' && tlfb_cig_use_c_l == 0",
+                "valueRequired": true,
+                "variableName": "res_tobacco_q02_l"
+            },
+            {
+                "isAbout": "items/res_tobacco_q08_l",
+                "isVis": "tlfb_cig_use_l== '1' && tlfb_cig_use_c_l == 0",
+                "valueRequired": true,
+                "variableName": "res_tobacco_q08_l"
+            },
+            {
+                "isAbout": "items/res_tobacco_q09_l",
+                "isVis": "tlfb_ecig_use_l== '1' && tlfb_ecig_use_c_l == '0'",
+                "valueRequired": true,
+                "variableName": "res_tobacco_q09_l"
+            },
+            {
+                "isAbout": "items/res_tobacco_q10_l",
+                "isVis": "tlfb_ecig_use_l== '1' && tlfb_ecig_use_c_l== '0'",
+                "valueRequired": true,
+                "variableName": "res_tobacco_q10_l"
+            },
+            {
+                "isAbout": "items/res_tobacco_q16_l",
+                "isVis": "tlfb_ecig_use_l== '1' && tlfb_ecig_use_c_l== '0'",
+                "valueRequired": true,
+                "variableName": "res_tobacco_q16_l"
+            },
+            {
+                "isAbout": "items/res_tobacco_q17_l",
+                "isVis": "tlfb_chew_use_l== '1' && tlfb_chew_use_c_l== '0'",
+                "valueRequired": true,
+                "variableName": "res_tobacco_q17_l"
+            },
+            {
+                "isAbout": "items/res_tobacco_q18_l",
+                "isVis": "tlfb_chew_use_l== '1' && tlfb_chew_use_c_l== '0'",
+                "valueRequired": true,
+                "variableName": "res_tobacco_q18_l"
+            },
+            {
+                "isAbout": "items/res_tobacco_q24_l",
+                "isVis": "tlfb_chew_use_l== '1' && tlfb_chew_use_c_l== '0'",
+                "valueRequired": true,
+                "variableName": "res_tobacco_q24_l"
+            },
+            {
+                "isAbout": "items/path_nic_dep_q01_l",
+                "isVis": "xskipout_tob_l == '1'",
+                "valueRequired": true,
+                "variableName": "path_nic_dep_q01_l"
+            },
+            {
+                "isAbout": "items/path_nic_dep_q02_l",
+                "isVis": "xskipout_tob_l == '1'",
+                "valueRequired": true,
+                "variableName": "path_nic_dep_q02_l"
+            },
+            {
+                "isAbout": "items/path_nic_dep_q03_l",
+                "isVis": "xskipout_tob_l == '1'",
+                "valueRequired": true,
+                "variableName": "path_nic_dep_q03_l"
+            },
+            {
+                "isAbout": "items/path_nic_dep_q04_l",
+                "isVis": "xskipout_tob_l == '1'",
+                "valueRequired": true,
+                "variableName": "path_nic_dep_q04_l"
+            },
+            {
+                "isAbout": "items/path_nic_dep_q05_l",
+                "isVis": "xskipout_tob_l == '1'",
+                "valueRequired": true,
+                "variableName": "path_nic_dep_q05_l"
+            },
+            {
+                "isAbout": "items/path_nic_dep_q06_l",
+                "isVis": "xskipout_tob_l == '1'",
+                "valueRequired": true,
+                "variableName": "path_nic_dep_q06_l"
+            },
+            {
+                "isAbout": "items/path_nic_dep_q07_l",
+                "isVis": "xskipout_tob_l == '1'",
+                "valueRequired": true,
+                "variableName": "path_nic_dep_q07_l"
+            },
+            {
+                "isAbout": "items/path_nic_dep_q08_l",
+                "isVis": "xskipout_tob_l == '1'",
+                "valueRequired": true,
+                "variableName": "path_nic_dep_q08_l"
+            },
+            {
+                "isAbout": "items/path_nic_dep_q09_l",
+                "isVis": "xskipout_tob_l == '1'",
+                "valueRequired": true,
+                "variableName": "path_nic_dep_q09_l"
+            },
+            {
+                "isAbout": "items/path_nic_dep_q10_l",
+                "isVis": "xskipout_tob_l == '1'",
+                "valueRequired": true,
+                "variableName": "path_nic_dep_q10_l"
+            },
+            {
+                "isAbout": "items/y_nicotine_measures_l_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "y_nicotine_measures_l_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2206",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

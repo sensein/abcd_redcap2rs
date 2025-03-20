@@ -1,0 +1,71 @@
+{
+    "id": "first_nicotine_2",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "Choose One"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "2"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "2"
+        }
+    ],
+    "preamble": {
+        "en": "You mentioned earlier that you have tried a tobacco product in the past. I want to ask some more questions about that. Remember your responses are confidential - we will not share your answers with anyone.\n\nWhen answering these questions, pleasedo notinclude cigarettes or other tobacco products (e.g., hookah, e-cigarettes) you had as part of a religious ceremony.\n\nPleasedoinclude any other experiences you have had with cigarettes or tobacco including puffs or dips you may have had with your parents."
+    },
+    "prefLabel": {
+        "en": "first_nicotine_2"
+    },
+    "question": {
+        "en": "Which type of cigarette/e-cigarette product was it?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "cigarette"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "e-cigarette or vape pen"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "hookah"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "cigar"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "pipe"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

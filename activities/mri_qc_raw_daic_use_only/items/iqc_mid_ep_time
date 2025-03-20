@@ -1,0 +1,26 @@
+{
+    "id": "iqc_mid_ep_time",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "time"
+        }
+    ],
+    "prefLabel": {
+        "en": "iqc_mid_ep_time"
+    },
+    "question": {
+        "en": "Eprime MID starting time"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:time"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

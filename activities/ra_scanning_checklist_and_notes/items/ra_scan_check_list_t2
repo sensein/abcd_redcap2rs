@@ -1,0 +1,42 @@
+{
+    "id": "ra_scan_check_list_t2",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Scanning Checklist"
+    },
+    "prefLabel": {
+        "en": "ra_scan_check_list_t2"
+    },
+    "question": {
+        "en": "Number of T2 Scans the Child Completed"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

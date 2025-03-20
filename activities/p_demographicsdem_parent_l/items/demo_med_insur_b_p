@@ -1,0 +1,47 @@
+{
+    "id": "demo_med_insur_b_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Mark \"Yes\" or \"No\" for EACH type of coverage in items a - h.",
+        "es": "Marque \"S\u00c3\u00ad\" o \"No\" para CADA tipo de cobertura en los puntos a - h."
+    },
+    "prefLabel": {
+        "en": "demo_med_insur_b_p"
+    },
+    "question": {
+        "en": "b. Insurance purchased directly from an insurance company (by this person or another family member)",
+        "es": "b. Seguro comprado directamente de una compa\u00c3\u00b1\u00c3\u00ada de seguros (por esta persona u otro miembro de la familia)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Refuse to Answer",
+                    "es": "Me Niego a Responder"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

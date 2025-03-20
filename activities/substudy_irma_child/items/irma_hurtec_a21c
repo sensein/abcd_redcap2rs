@@ -1,0 +1,61 @@
+{
+    "id": "irma_hurtec_a21c",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "hurtec_a4"
+        }
+    ],
+    "preamble": {
+        "en": "The following questions are about you and your family's experiences in the days AFTERHurricane Irma(September 2017).",
+        "es": "Las siguientes preguntas son sobre usted y las experiencias de su familia DESPU\u00c3\u0089Sdel hurac\u00c3\u00a1n Irma(Septiembre 2017)."
+    },
+    "prefLabel": {
+        "en": "irma_hurtec_a21c"
+    },
+    "question": {
+        "en": "c. Family members not getting along",
+        "es": "c. Los miembros de la familia no se llevan bien"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all",
+                    "es": "De ningun modo"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "A little",
+                    "es": "Un poco"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A lot",
+                    "es": "Mucho"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A whole lot",
+                    "es": "Muchisimo"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,41 @@
+{
+    "id": "menstrualcycle1_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "8"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "date_dmy"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "8"
+        }
+    ],
+    "preamble": {
+        "en": "Now I'm going to ask you some questions about the history of your daughter's menstrual cycle. If you do not remember specific details, just try to answer as best you can.",
+        "es": "Ahora le haremos algunas preguntas sobre el historial del ciclo menstrual de su ni\u00c3\u00b1a. Si no recuerda los detalles espec\u00c3\u00adficos, solo intente responder lo mejor que pueda."
+    },
+    "prefLabel": {
+        "en": "menstrualcycle1_p"
+    },
+    "question": {
+        "en": "What was the date of the first day of your daughter's last period?",
+        "es": "\u00c2\u00bfCu\u00c3\u00a1l fue la fecha del primer d\u00c3\u00ada del \u00c3\u00baltimo periodo de su ni\u00c3\u00b1a?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "date"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

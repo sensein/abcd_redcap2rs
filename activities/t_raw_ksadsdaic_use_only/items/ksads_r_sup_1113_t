@@ -1,0 +1,65 @@
+{
+    "id": "ksads_r_sup_1113_t",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "ksads_r_sup_1113_t"
+    },
+    "question": {
+        "en": "You mentioned that in the past two weeks you had made a suicide attempt. What did you do?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Took pills"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "With a gun"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "By hanging"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "By jumping"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "By cutting"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Other (type in)"
+                },
+                "value": 6
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

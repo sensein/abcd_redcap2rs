@@ -1,0 +1,36 @@
+{
+    "id": "su_des_h3_p",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "su_des_h3_p"
+    },
+    "question": {
+        "en": "Is there a third household your child spends regular time in?",
+        "es": "\u00c2\u00bfHay un tercer hogar en el que su hijo/a pase tiempo con regularidad?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

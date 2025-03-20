@@ -1,0 +1,171 @@
+{
+    "id": "pubertal_development_scale_pdsmenstrual_historyyou_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "pubertal_development_scale_pdsmenstrual_historyyou"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/pds_start_time",
+            "items/pds_intro_y",
+            "items/pds_sex_y",
+            "items/pds_ht2_y",
+            "items/pds_skin2_y",
+            "items/pds_bdyhair_y",
+            "items/pds_f4_2_y",
+            "items/pds_f5_y",
+            "items/pds_f6_y",
+            "items/pds_f6_y_dk",
+            "items/pds_m4_y",
+            "items/pds_m5_y",
+            "items/menstrual_cycle_script",
+            "items/menstrualcycle1_y",
+            "items/menstrualcycle2_y",
+            "items/menstrualcycle2_y_dk",
+            "items/menstrualcycle3_y",
+            "items/menstrualcycle4_y",
+            "items/menstrualcycle5_y",
+            "items/menstrualcycle6_y",
+            "items/pdsms_notes",
+            "items/pubertal_development_scale_pdsmenstrual_historyyou_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/pds_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pds_start_time"
+            },
+            {
+                "isAbout": "items/pds_intro_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pds_intro_y"
+            },
+            {
+                "isAbout": "items/pds_sex_y",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "pds_sex_y"
+            },
+            {
+                "isAbout": "items/pds_ht2_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pds_ht2_y"
+            },
+            {
+                "isAbout": "items/pds_skin2_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pds_skin2_y"
+            },
+            {
+                "isAbout": "items/pds_bdyhair_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pds_bdyhair_y"
+            },
+            {
+                "isAbout": "items/pds_f4_2_y",
+                "isVis": "baseline_year_1_arm_1demo_sex_v2b == '2' || baseline_year_1_arm_1demo_sex_v2b == '4'",
+                "valueRequired": true,
+                "variableName": "pds_f4_2_y"
+            },
+            {
+                "isAbout": "items/pds_f5_y",
+                "isVis": "baseline_year_1_arm_1demo_sex_v2b == '2' || baseline_year_1_arm_1demo_sex_v2b == '4'",
+                "valueRequired": true,
+                "variableName": "pds_f5_y"
+            },
+            {
+                "isAbout": "items/pds_f6_y",
+                "isVis": "pds_f5_y == '4' && pds_f6_y_dk == ''",
+                "valueRequired": true,
+                "variableName": "pds_f6_y"
+            },
+            {
+                "isAbout": "items/pds_f6_y_dk",
+                "isVis": "pds_f5_y == '4' && pds_f6_y == ''",
+                "valueRequired": true,
+                "variableName": "pds_f6_y_dk"
+            },
+            {
+                "isAbout": "items/pds_m4_y",
+                "isVis": "baseline_year_1_arm_1demo_sex_v2b == '1' || baseline_year_1_arm_1demo_sex_v2b == '3'",
+                "valueRequired": true,
+                "variableName": "pds_m4_y"
+            },
+            {
+                "isAbout": "items/pds_m5_y",
+                "isVis": "baseline_year_1_arm_1demo_sex_v2b == '1' || baseline_year_1_arm_1demo_sex_v2b == '3'",
+                "valueRequired": true,
+                "variableName": "pds_m5_y"
+            },
+            {
+                "isAbout": "items/menstrual_cycle_script",
+                "isVis": "pds_f5_y == '4'",
+                "valueRequired": false,
+                "variableName": "menstrual_cycle_script"
+            },
+            {
+                "isAbout": "items/menstrualcycle1_y",
+                "isVis": "pds_f5_y == '4'",
+                "valueRequired": true,
+                "variableName": "menstrualcycle1_y"
+            },
+            {
+                "isAbout": "items/menstrualcycle2_y",
+                "isVis": "pds_f5_y == '4' && menstrualcycle2_y_dk == ''",
+                "valueRequired": true,
+                "variableName": "menstrualcycle2_y"
+            },
+            {
+                "isAbout": "items/menstrualcycle2_y_dk",
+                "isVis": "pds_f5_y == '4' && menstrualcycle2_y == ''",
+                "valueRequired": true,
+                "variableName": "menstrualcycle2_y_dk"
+            },
+            {
+                "isAbout": "items/menstrualcycle3_y",
+                "isVis": "pds_f5_y == '4'",
+                "valueRequired": true,
+                "variableName": "menstrualcycle3_y"
+            },
+            {
+                "isAbout": "items/menstrualcycle4_y",
+                "isVis": "pds_f5_y == '4'",
+                "valueRequired": true,
+                "variableName": "menstrualcycle4_y"
+            },
+            {
+                "isAbout": "items/menstrualcycle5_y",
+                "isVis": "pds_f5_y == '4'",
+                "valueRequired": true,
+                "variableName": "menstrualcycle5_y"
+            },
+            {
+                "isAbout": "items/menstrualcycle6_y",
+                "isVis": "pds_f5_y == '4'",
+                "valueRequired": true,
+                "variableName": "menstrualcycle6_y"
+            },
+            {
+                "isAbout": "items/pdsms_notes",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pdsms_notes"
+            },
+            {
+                "isAbout": "items/pubertal_development_scale_pdsmenstrual_historyyou_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pubertal_development_scale_pdsmenstrual_historyyou_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2206",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

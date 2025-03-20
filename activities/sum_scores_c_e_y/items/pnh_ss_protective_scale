@@ -1,0 +1,30 @@
+{
+    "id": "pnh_ss_protective_scale",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Peer Network Health: Protective Scale**"
+    },
+    "prefLabel": {
+        "en": "pnh_ss_protective_scale"
+    },
+    "question": {
+        "en": "Peer Network Health: Protective Scale Score\r\nsum (pnh_substance, pnh_help, pnh_how_much_help, pnh_encourage, pnh_how_much_encourage)\r\n\r\nValidation: Items #1,#2, and #3 must be answered"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

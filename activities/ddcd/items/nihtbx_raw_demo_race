@@ -1,0 +1,71 @@
+{
+    "id": "nihtbx_raw_demo_race",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "nihtbx_raw_demo_race"
+    },
+    "question": {
+        "en": "NIH Toolbox Raw Data Task Demographics Race"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "White"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Black or African American"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Asian"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "American Indian or Alaska Native"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Native Hawaiian or Other Pacific Islanders"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 32
+            },
+            {
+                "name": {
+                    "en": "Not Provided"
+                },
+                "value": 64
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

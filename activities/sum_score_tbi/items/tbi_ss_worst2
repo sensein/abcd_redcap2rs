@@ -1,0 +1,37 @@
+{
+    "id": "tbi_ss_worst2",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "tbi_ss_worst2"
+    },
+    "question": {
+        "en": "Worst Injury2 = possible mild TBI\r\n (TBI w/o LOC but memory loss) \r\nResponse to at least one question about head injury is \"yes\" and all responses to LOC are \"no\", but at least one response to dazed/memory is \"yes.\"\r\n=IF(AND(OR([tbi_1]=1,[tbi_2]=1,[tbi_3]=1,[tbi_4]=1,[tbi_5]=1,[tbi_7a]=1,[tbi_7g]=1,[tbi_8g]=1),AND([tbi_1b]< 1,[tbi_2b]< 1,[tbi_3b]< 1,[tbi_4b]< 1,[tbi_5b]< 1,[tbi_6o]=0,[tbi_7c1]< 1,[tbi_7i]< 1,[tbi_8i]< 1),OR([tbi_1c]=1,[tbi_2c]=1,[tbi_3c]=1,[tbi_4c]=1,[tbi_5c]=1,[tbi_7c2]=1,[tbi_7i]=\"0\",[tbi_8i]=\"0\")),2,\"\")"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

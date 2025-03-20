@@ -1,0 +1,68 @@
+{
+    "id": "demo_ethnic_youth_acs_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "The following questions are about thechild.",
+        "es": "Las siguientes preguntas son acerca desuni\u00c3\u00b1o(a)."
+    },
+    "prefLabel": {
+        "en": "demo_ethnic_youth_acs_p"
+    },
+    "question": {
+        "en": "Is the child of Hispanic, Latino, or Spanish origin?",
+        "es": "\u00c2\u00bfEs el ni\u00c3\u00b1o(a) de origen hispano, latino o espa\u00c3\u00b1ol?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "##en##No, not of Hispanic, Latino, or Spanish origin##/en####es##no, no soy de origen hispano, latino, o espa\u00c3\u00b1ol)##/es##"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "##en##Yes, Mexican, Mexican Am., Chicano##/en####es##S\u00c3\u00ad, Mexicano, Mexicano Am., Chicano##/es##"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "##en##Yes, Puerto Rican##/en####es##S\u00c3\u00ad, Puerto Rique\u00c3\u00b1o##/es##"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "##en##Yes, Cubanen##/en####es##S\u00c3\u00ad, Cubano##/es##"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "##en##Yes, another Hispanic, Latino, or Spanish origin, for example, Argentinean, Colombian, Dominican, Nicaraguan, Salvadoran, Spaniard, and so on##/en####es##S\u00c3\u00ad, de otro origen hispano, latino, o espa\u00c3\u00b1ol, por ejemplo Argentino, Colombiano, Dominicano, Nicaraguense, Salvadore\u00c3\u00b1o, Espa\u00c3\u00b1ol, entre otros##/es##"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "##en##Refused to answer##/en####es##Prefiero no responder##/es##"
+                },
+                "value": 777
+            },
+            {
+                "name": {
+                    "en": "##en##Don't know##/en####es##No lo ses\u00c3\u00a9##/es##"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

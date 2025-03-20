@@ -1,0 +1,54 @@
+{
+    "id": "asr_q125_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "If you don't know, please choose \"don't know\" in what follows below</span><span lang=\"es\" style=\"color:maroon;\">  Si no sabe, por favor escoja \"no s\u00c3\u00a9\" en lo que sigue abajo.</span>"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "125"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        },
+        {
+            "column": "Text Validation Min",
+            "source": "redcap",
+            "value": "0"
+        },
+        {
+            "column": "Text Validation Max",
+            "source": "redcap",
+            "value": "180.0"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "125"
+        }
+    ],
+    "prefLabel": {
+        "en": "asr_q125_p"
+    },
+    "question": {
+        "en": "In the past 6 months, on how many days were you drunk?",
+        "es": "En los \u00c3\u00baltimos 6 meses, \u00c2\u00bfcu\u00c3\u00a1ntos d\u00c3\u00adas estuvo borracho(a)?"
+    },
+    "responseOptions": {
+        "maxValue": 180,
+        "minValue": 0,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,59 @@
+{
+    "id": "bpmt_q12",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "12"
+        },
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "bpmt_2"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "12"
+        }
+    ],
+    "preamble": {
+        "en": "Below is a list of items that describe students. Please rate each item to describe the student  now or within the past ____ days. Please choose whether the the item is Not True (as far as you know), Somewhat True, or Very True of the student. Please answer all items as well as you can, even if some do not seem to apply to this student."
+    },
+    "prefLabel": {
+        "en": "bpmt_q12"
+    },
+    "question": {
+        "en": "Self-conscious or easily embarrassed."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not True (as far as you know)"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Somewhat True"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Very True"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

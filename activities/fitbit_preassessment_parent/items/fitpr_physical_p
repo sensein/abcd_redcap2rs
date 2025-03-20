@@ -1,0 +1,68 @@
+{
+    "id": "fitpr_physical_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20181006"
+        }
+    ],
+    "preamble": {
+        "en": "Some examples of physical activity are running, brisk walking, rollerblading, biking, skateboarding, dancing, swimming, soccer, basketball, football, and surfing.",
+        "es": "Algunos ejemplos de actividad f\u00c3\u00adsica son correr, caminar r\u00c3\u00a1pido, patinar, andar en bicicleta, patinar, bailar, nadar, jugar f\u00c3\u00batbol, jugar b\u00c3\u00a1squetbol, f\u00c3\u00batbol americano y hacer surf."
+    },
+    "prefLabel": {
+        "en": "fitpr_physical_p"
+    },
+    "question": {
+        "en": "In your opinion, compared to other kids your child's age, how much physical activity does your child engage in?",
+        "es": "En su opini\u00c3\u00b3n, en comparaci\u00c3\u00b3n con otros ni\u00c3\u00b1os(as) de la edad de su hijo/a, \u00c2\u00bfcu\u00c3\u00a1nta actividad f\u00c3\u00adsica realiza su hijo/a?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Much less",
+                    "es": "Mucho menos"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A little less",
+                    "es": "Un poco menos"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "About the same",
+                    "es": "M\u00c3\u00a1s o menos la misma"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "A little more",
+                    "es": "Un poco m\u00c3\u00a1s"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Much more",
+                    "es": "Mucho m\u00c3\u00a1s"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

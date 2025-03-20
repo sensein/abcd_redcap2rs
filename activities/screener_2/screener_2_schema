@@ -1,0 +1,262 @@
+{
+    "id": "screener_2_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "screener_2"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/scrn2_select_language",
+            "items/scrn_begin_v2",
+            "items/scrn_braces_v2",
+            "items/scrn_future_braces",
+            "items/scrn_bracesdate_v2",
+            "items/scrn_bracescallback_v2",
+            "items/scrn_nr_hair_v2",
+            "items/scrn_nr_hair_metal_v2",
+            "items/scrn_nr_hair_remove",
+            "items/scrn_nr_hair_date_v2",
+            "items/scrn_nr_hair_callback_v2",
+            "items/scrn_eyeliner_v2",
+            "items/scrn_nr_piercing_v2",
+            "items/scrn_nr_piercing_remove",
+            "items/scrn_nr_piercing_date",
+            "items/scrn_nr_piercing_callback",
+            "items/scrn_surgery_v2",
+            "items/scrn_height_v2",
+            "items/scrn_weight_v2",
+            "items/scrn_weight_warning",
+            "items/scrn_concerns",
+            "items/scrn_concerns_desc",
+            "items/scrn_health_issues",
+            "items/scrn_health_describe",
+            "items/scrn_meds",
+            "items/scrn_meds_describe",
+            "items/scrn_time_v2",
+            "items/scrn_status_2_v2",
+            "items/scrn_status_2_v3",
+            "items/scrn_consult_script",
+            "items/scrn_dental_delay_v2",
+            "items/scrn_eligible_v2",
+            "items/checkbox_reminders_fuss",
+            "items/reminders_fuss",
+            "items/screener_2_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/scrn2_select_language",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "scrn2_select_language"
+            },
+            {
+                "isAbout": "items/scrn_begin_v2",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "scrn_begin_v2"
+            },
+            {
+                "isAbout": "items/scrn_braces_v2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "scrn_braces_v2"
+            },
+            {
+                "isAbout": "items/scrn_future_braces",
+                "isVis": "scrn_braces_v2 == '0' || scrn_braces_v2 == '2'",
+                "valueRequired": true,
+                "variableName": "scrn_future_braces"
+            },
+            {
+                "isAbout": "items/scrn_bracesdate_v2",
+                "isVis": "scrn_braces_v2 == '1' || scrn_future_braces == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_bracesdate_v2"
+            },
+            {
+                "isAbout": "items/scrn_bracescallback_v2",
+                "isVis": "scrn_braces_v2 == '1' || scrn_future_braces == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_bracescallback_v2"
+            },
+            {
+                "isAbout": "items/scrn_nr_hair_v2",
+                "isVis": "scrn_future_braces == '0' || scrn_bracescallback_v2 == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_nr_hair_v2"
+            },
+            {
+                "isAbout": "items/scrn_nr_hair_metal_v2",
+                "isVis": "scrn_nr_hair_v2 == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_nr_hair_metal_v2"
+            },
+            {
+                "isAbout": "items/scrn_nr_hair_remove",
+                "isVis": "scrn_nr_hair_metal_v2 == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_nr_hair_remove"
+            },
+            {
+                "isAbout": "items/scrn_nr_hair_date_v2",
+                "isVis": "scrn_nr_hair_remove == '0'",
+                "valueRequired": false,
+                "variableName": "scrn_nr_hair_date_v2"
+            },
+            {
+                "isAbout": "items/scrn_nr_hair_callback_v2",
+                "isVis": "scrn_nr_hair_remove == '0'",
+                "valueRequired": true,
+                "variableName": "scrn_nr_hair_callback_v2"
+            },
+            {
+                "isAbout": "items/scrn_eyeliner_v2",
+                "isVis": "scrn_nr_hair_v2 == '0' || scrn_nr_hair_metal_v2 == '0' || scrn_nr_hair_remove == '1' || scrn_nr_hair_callback_v2 == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_eyeliner_v2"
+            },
+            {
+                "isAbout": "items/scrn_nr_piercing_v2",
+                "isVis": "scrn_eyeliner_v2 == '0' || scrn_eyeliner_v2 == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_nr_piercing_v2"
+            },
+            {
+                "isAbout": "items/scrn_nr_piercing_remove",
+                "isVis": "scrn_nr_piercing_v2 == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_nr_piercing_remove"
+            },
+            {
+                "isAbout": "items/scrn_nr_piercing_date",
+                "isVis": "scrn_nr_piercing_remove == '0'",
+                "valueRequired": false,
+                "variableName": "scrn_nr_piercing_date"
+            },
+            {
+                "isAbout": "items/scrn_nr_piercing_callback",
+                "isVis": "scrn_nr_piercing_remove == '0'",
+                "valueRequired": true,
+                "variableName": "scrn_nr_piercing_callback"
+            },
+            {
+                "isAbout": "items/scrn_surgery_v2",
+                "isVis": "scrn_nr_piercing_v2 == '0' || scrn_nr_piercing_remove == '1' || scrn_nr_piercing_callback == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_surgery_v2"
+            },
+            {
+                "isAbout": "items/scrn_height_v2",
+                "isVis": "scrn_surgery_v2 == '0'",
+                "valueRequired": true,
+                "variableName": "scrn_height_v2"
+            },
+            {
+                "isAbout": "items/scrn_weight_v2",
+                "isVis": "scrn_surgery_v2 == '0'",
+                "valueRequired": true,
+                "variableName": "scrn_weight_v2"
+            },
+            {
+                "isAbout": "items/scrn_weight_warning",
+                "isVis": "scrn_weight_v2 > '300'",
+                "valueRequired": false,
+                "variableName": "scrn_weight_warning"
+            },
+            {
+                "isAbout": "items/scrn_concerns",
+                "isVis": "scrn_bracescallback_v2 == '0' || scrn_surgery_v2 == '0' || scrn_nr_piercing_callback == '0' || scrn_nr_hair_callback_v2 == '0' || scrn_surgery_v2 == '1'",
+                "valueRequired": false,
+                "variableName": "scrn_concerns"
+            },
+            {
+                "isAbout": "items/scrn_concerns_desc",
+                "isVis": "scrn_concerns == '1'",
+                "valueRequired": false,
+                "variableName": "scrn_concerns_desc"
+            },
+            {
+                "isAbout": "items/scrn_health_issues",
+                "isVis": "scrn_concerns == '1' || scrn_concerns == '0'",
+                "valueRequired": false,
+                "variableName": "scrn_health_issues"
+            },
+            {
+                "isAbout": "items/scrn_health_describe",
+                "isVis": "scrn_health_issues == '1'",
+                "valueRequired": false,
+                "variableName": "scrn_health_describe"
+            },
+            {
+                "isAbout": "items/scrn_meds",
+                "isVis": "scrn_health_issues == '1' || scrn_health_issues == '0'",
+                "valueRequired": false,
+                "variableName": "scrn_meds"
+            },
+            {
+                "isAbout": "items/scrn_meds_describe",
+                "isVis": "scrn_meds == '1'",
+                "valueRequired": false,
+                "variableName": "scrn_meds_describe"
+            },
+            {
+                "isAbout": "items/scrn_time_v2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "scrn_time_v2"
+            },
+            {
+                "isAbout": "items/scrn_status_2_v2",
+                "isVis": "scrn_bracescallback_v2 == '1' || scrn_nr_hair_callback_v2 == '1' || scrn_nr_piercing_callback == '1' || scrn_concerns == '1' || scrn_eyeliner_v2 == '1' || scrn_health_issues == '1' || scrn_meds == '1'",
+                "valueRequired": false,
+                "variableName": "scrn_status_2_v2"
+            },
+            {
+                "isAbout": "items/scrn_status_2_v3",
+                "isVis": "((scrn_bracescallback_v2 == '0' || scrn_nr_hair_callback_v2 == '0' || scrn_nr_piercing_callback == '0' || scrn_eyeliner_v2 == '0' || scrn_surgery_v2 == '1')&& scrn_concerns == '0')|| scrn_status_2_v2___2 == '1' ||(scrn_concerns == '0' && scrn_eyeliner_v2 <> '1')",
+                "valueRequired": false,
+                "variableName": "scrn_status_2_v3"
+            },
+            {
+                "isAbout": "items/scrn_consult_script",
+                "isVis": "scrn_status_2_v2___0 == '1' && scrn_status_2_v2___2 <> '1'",
+                "valueRequired": false,
+                "variableName": "scrn_consult_script"
+            },
+            {
+                "isAbout": "items/scrn_dental_delay_v2",
+                "isVis": "scrn_status_2_v2___1 == '1'",
+                "valueRequired": false,
+                "variableName": "scrn_dental_delay_v2"
+            },
+            {
+                "isAbout": "items/scrn_eligible_v2",
+                "isVis": "scrn_status_2_v2___2 == '1' && scrn_status_2_v3 == '0' && scrn_status_2_v3 == '1'",
+                "valueRequired": false,
+                "variableName": "scrn_eligible_v2"
+            },
+            {
+                "isAbout": "items/checkbox_reminders_fuss",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "checkbox_reminders_fuss"
+            },
+            {
+                "isAbout": "items/reminders_fuss",
+                "isVis": "checkbox_reminders_fuss___1 == '1'",
+                "valueRequired": false,
+                "variableName": "reminders_fuss"
+            },
+            {
+                "isAbout": "items/screener_2_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "screener_2_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2206",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

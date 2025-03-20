@@ -1,0 +1,38 @@
+{
+    "id": "pguid_error_tracking_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "pguid_error_tracking"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/error_pguid",
+            "items/error_instrument",
+            "items/pguid_error_tracking_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/error_pguid",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "error_pguid"
+            },
+            {
+                "isAbout": "items/error_instrument",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "error_instrument"
+            },
+            {
+                "isAbout": "items/pguid_error_tracking_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pguid_error_tracking_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2206",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

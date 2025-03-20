@@ -1,0 +1,27 @@
+{
+    "id": "ksads_r_scr_512_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "ksads_r_scr_512_p"
+    },
+    "question": {
+        "en": "You said that in the past two weeks your child often cut school without the permission of their parents; often got into a lot of physical fights with people; often made fun of or picked on other kids; and often stole things worth at least $20. When did this begin?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

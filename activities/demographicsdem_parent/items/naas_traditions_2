@@ -1,0 +1,75 @@
+{
+    "id": "naas_traditions_2",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20180116"
+        }
+    ],
+    "preamble": {
+        "en": "The following questions are about you or the child's family.",
+        "es": "Las siguientes preguntas son acerca de usted o de la familia del ni\u00c3\u00b1o / de la ni\u00c3\u00b1a."
+    },
+    "prefLabel": {
+        "en": "naas_traditions_2"
+    },
+    "question": {
+        "en": "Does your family participate in Native American traditions, ceremonies, occasions, and so on?",
+        "es": "\u00c2\u00bfParticipa su familia en tradiciones, eventos o ceremonias Americanas Nativas?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "All of them",
+                    "es": "En Todas"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Most of them",
+                    "es": "En la mayor\u00c3\u00ada de ellas"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Some of them",
+                    "es": "Algunas de ellas"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "A few of them",
+                    "es": "Unas cuantas de ellas"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "None at all",
+                    "es": "Ninguna de ellas"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Don't Know",
+                    "es": "No lo s\u00c3\u00a9"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

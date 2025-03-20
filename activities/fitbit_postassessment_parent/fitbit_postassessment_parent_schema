@@ -1,0 +1,143 @@
+{
+    "id": "fitbit_postassessment_parent_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "fitbit_postassessment_parent"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/fitpo_select_language",
+            "items/fitpo_physical_p",
+            "items/fitpo_physical_health_p",
+            "items/fitpo_sedentary_p",
+            "items/fitpo_sedentary_healthy_p",
+            "items/fitpo_sleep_health_p",
+            "items/fitpo_sleep_amt_p",
+            "items/fitpo_use_app_p",
+            "items/fitpo_encourage_p",
+            "items/fitpo_child_app_p",
+            "items/fitpo_change_p",
+            "items/fitpo_in_school_p",
+            "items/fitpo_at_camp_p",
+            "items/fitpo_vacation_p",
+            "items/fitpo_sick_p",
+            "items/fitpo_beyond_typical_p",
+            "items/fitpo_unusual_routine_p",
+            "items/fitbit_postassessment_parent_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/fitpo_select_language",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "fitpo_select_language"
+            },
+            {
+                "isAbout": "items/fitpo_physical_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_physical_p"
+            },
+            {
+                "isAbout": "items/fitpo_physical_health_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_physical_health_p"
+            },
+            {
+                "isAbout": "items/fitpo_sedentary_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_sedentary_p"
+            },
+            {
+                "isAbout": "items/fitpo_sedentary_healthy_p",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "fitpo_sedentary_healthy_p"
+            },
+            {
+                "isAbout": "items/fitpo_sleep_health_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_sleep_health_p"
+            },
+            {
+                "isAbout": "items/fitpo_sleep_amt_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_sleep_amt_p"
+            },
+            {
+                "isAbout": "items/fitpo_use_app_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_use_app_p"
+            },
+            {
+                "isAbout": "items/fitpo_encourage_p",
+                "isVis": "fitpo_use_app_p == '1'",
+                "valueRequired": true,
+                "variableName": "fitpo_encourage_p"
+            },
+            {
+                "isAbout": "items/fitpo_child_app_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_child_app_p"
+            },
+            {
+                "isAbout": "items/fitpo_change_p",
+                "isVis": "fitpo_child_app_p == '1'",
+                "valueRequired": true,
+                "variableName": "fitpo_change_p"
+            },
+            {
+                "isAbout": "items/fitpo_in_school_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_in_school_p"
+            },
+            {
+                "isAbout": "items/fitpo_at_camp_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_at_camp_p"
+            },
+            {
+                "isAbout": "items/fitpo_vacation_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_vacation_p"
+            },
+            {
+                "isAbout": "items/fitpo_sick_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_sick_p"
+            },
+            {
+                "isAbout": "items/fitpo_beyond_typical_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_beyond_typical_p"
+            },
+            {
+                "isAbout": "items/fitpo_unusual_routine_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitpo_unusual_routine_p"
+            },
+            {
+                "isAbout": "items/fitbit_postassessment_parent_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "fitbit_postassessment_parent_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2206",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

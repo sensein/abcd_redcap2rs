@@ -1,0 +1,46 @@
+{
+    "id": "screentime_smq_followers",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "choose yes below if not applicable"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Text Validation Min",
+            "source": "redcap",
+            "value": "0"
+        },
+        {
+            "column": "Text Validation Max",
+            "source": "redcap",
+            "value": "150000000.0"
+        }
+    ],
+    "preamble": {
+        "en": "Which social media sites do you have an account on? List the number of accounts you have on each of the social media sites below."
+    },
+    "prefLabel": {
+        "en": "screentime_smq_followers"
+    },
+    "question": {
+        "en": "On [screentime_smq_use_most], how many followers do you have?"
+    },
+    "responseOptions": {
+        "maxValue": 150000000,
+        "minValue": 0,
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

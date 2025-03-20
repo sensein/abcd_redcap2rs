@@ -1,0 +1,54 @@
+{
+    "id": "cna_2_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "cna_p"
+        }
+    ],
+    "preamble": {
+        "en": "Think about what your child eats in a typical week, during this past year since we last saw you. \n\nIn a typical week, does your child eat:",
+        "es": "Piense en lo que su ni\u00c3\u00b1o(a) come durante una semana  t\u00c3\u00adpica, durante el \u00c3\u00baltimo a\u00c3\u00b1o; desde la \u00c3\u00baltima vez que lo vimos. \n\nEn una semana t\u00c3\u00adpica, su ni\u00c3\u00b1o(a) come:"
+    },
+    "prefLabel": {
+        "en": "cna_2_p"
+    },
+    "question": {
+        "en": "Green leafy vegetables 6 or more times per week",
+        "es": "Vegetales de hojas verdes 6 veces o m\u00c3\u00a1s por semana."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "Si"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't Know",
+                    "es": "No Recuerdo"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

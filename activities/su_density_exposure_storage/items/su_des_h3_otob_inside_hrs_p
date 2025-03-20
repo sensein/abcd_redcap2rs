@@ -1,0 +1,39 @@
+{
+    "id": "su_des_h3_otob_inside_hrs_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Text Validation Min",
+            "source": "redcap",
+            "value": "1"
+        },
+        {
+            "column": "Text Validation Max",
+            "source": "redcap",
+            "value": "24.0"
+        }
+    ],
+    "prefLabel": {
+        "en": "su_des_h3_otob_inside_hrs_p"
+    },
+    "question": {
+        "en": "How many hours in a typical day did someone use other tobacco products inside your home while your child was home or in a vehicle your child was in?",
+        "es": "\u00c2\u00bfCu\u00c3\u00a1ntas horas en un d\u00c3\u00ada t\u00c3\u00adpico us\u00c3\u00b3 alguien productos de tabaco dentro de su hogar cuando su hijo/a estaba en casa o en un veh\u00c3\u00adculo en el que estaba su hijo/a?"
+    },
+    "responseOptions": {
+        "maxValue": 24,
+        "minValue": 1,
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

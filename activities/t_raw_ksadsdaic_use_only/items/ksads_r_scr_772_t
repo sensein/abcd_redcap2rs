@@ -1,0 +1,27 @@
+{
+    "id": "ksads_r_scr_772_t",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "ksads_r_scr_772_t"
+    },
+    "question": {
+        "en": "You answered yes to the following bad events. Could you describe what happened, if you are comfortable doing so? If you are not comfortable talking about it, just enter the date and press the next button."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

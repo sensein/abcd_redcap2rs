@@ -1,0 +1,52 @@
+{
+    "id": "social_development_child_firearms_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "social_development_child_firearms"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/socialdev_cfire_1",
+            "items/socialdev_cfire_2",
+            "items/socialdev_cfire_3",
+            "items/socialdev_cfire_4",
+            "items/social_development_child_firearms_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/socialdev_cfire_1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "socialdev_cfire_1"
+            },
+            {
+                "isAbout": "items/socialdev_cfire_2",
+                "isVis": "socialdev_cfire_1=='1'",
+                "valueRequired": false,
+                "variableName": "socialdev_cfire_2"
+            },
+            {
+                "isAbout": "items/socialdev_cfire_3",
+                "isVis": "socialdev_cfire_1=='1'",
+                "valueRequired": false,
+                "variableName": "socialdev_cfire_3"
+            },
+            {
+                "isAbout": "items/socialdev_cfire_4",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "socialdev_cfire_4"
+            },
+            {
+                "isAbout": "items/social_development_child_firearms_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "social_development_child_firearms_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2206",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

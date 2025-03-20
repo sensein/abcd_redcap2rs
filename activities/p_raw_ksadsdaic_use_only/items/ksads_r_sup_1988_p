@@ -1,0 +1,41 @@
+{
+    "id": "ksads_r_sup_1988_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "ksads_r_sup_1988_p"
+    },
+    "question": {
+        "en": "You said that back in April 2011 your child often had unwanted thoughts such as thoughts or images about harming others or doing something horrible when your child didn\u00cc\u00a5t want to, worries about throwing seemingly unimportant things away, thoughts about dirt and germs or contamination. Back then, did your child wish he/she could stop him/herself from having these thoughts?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,136 @@
+{
+    "id": "demo_relig_v2",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "demo_relig_v2"
+    },
+    "question": {
+        "en": "What is the child's religious preference?",
+        "es": "\u00c2\u00bfCu\u00c3\u00a1l es la preferencia religiosa del ni\u00c3\u00b1o / de la ni\u00c3\u00b1a?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "##en##Mainline Protestant (e.g., Lutheran, Presbyterian, Methodist, Episcopal, mainline or American Baptist)##/en####es##Protestante tradicional (p. ej., luterana, presbiteriana, metodista, episcopal, bautista tradicional o americana)##/es##"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "##en##Evangelical Protestant (e.g., Southern Baptist, Pentecostal, Foursquare Gospel Church, Brethren, Nazarene, Evangelical Christian, Assembly of God)##/en####es##Protestante evang\u00c3\u00a9lica (p. ej., bautista del sur, pentecostal, Iglesia Evang\u00c3\u00a9lica Cuadrangular, de los hermanos, nazarena, cristiana evang\u00c3\u00a9lica, Asamblea de Dios)##/es##"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "##en##Historically Black Church (e.g., African Methodist Episcopal, African Methodist Episcopal Zion, National Baptist Convention, Church of God in Christ)##/en####es##Iglesia negra tradicional (p. ej., episcopal metodista africana, episcopal metodista africana Si\u00c3\u00b3n, Convenci\u00c3\u00b3n Nacional Bautista, Iglesia de Dios en Cristo)##/es##"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "##en##Roman Catholic (Catholic)##/en####es##Cat\u00c3\u00b3lica romana (catolicismo)##/es##"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "##en##Jewish (Judaism)##/en####es##Jud\u00c3\u00ada (juda\u00c3\u00adsmo)##/es##"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "##en##Mormon (Church of Jesus Christ of Latter Day Saints/LDS)##/en####es##Mormona (Iglesia de Jesucristo de los Santos de los \u00c3\u009altimos D\u00c3\u00adas)##/es##"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "##en##Jehovah's Witness##/en####es##Testigo de Jehov\u00c3\u00a1##/es##"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "##en##Muslim (Islam)##/en####es##Musulmana (Islam)##/es##"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "##en##Buddhist##/en####es##Budista##/es##"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "##en##Hindu##/en####es##Hind\u00c3\u00ba##/es##"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "##en##Orthodox Christian (Greek, Russian, or other Eastern orthodox church)##/en####es##Cristiana ortodoxa (griega, rusa u otra iglesia ortodoxa oriental)##/es##"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "##en##Unitarian (Universalist)##/en####es##\tUnitaria (universalista)##/es##"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "##en##Other Christian##/en####es##Otra religi\u00c3\u00b3n cristiana##/es##"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "##en##Atheist (do not believe in God)##/en####es##Ate\u00c3\u00adsmo (no cree en Dios)##/es##"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "##en##Agnostic (not sure if there is a God)##/en####es##Agnosticismo (no est\u00c3\u00a1 seguro(a) de la existencia de un dios)##/es##"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "##en##Something else (Specify)##/en####es##\tOtra (Especifique)##/es##"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "##en##Nothing in Particular##/en####es##Ninguna en particular##/es##"
+                },
+                "value": 17
+            },
+            {
+                "name": {
+                    "en": "##en##Refused to answer##/en####es##Prefiero no responder##/es##"
+                },
+                "value": 777
+            },
+            {
+                "name": {
+                    "en": "##en##Don't know##/en####es##No lo s\u00c3\u00a9##/es##"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

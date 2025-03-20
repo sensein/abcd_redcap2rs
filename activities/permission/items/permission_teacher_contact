@@ -1,0 +1,49 @@
+{
+    "id": "permission_teacher_contact",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "LH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@DEFAULT='2'"
+        }
+    ],
+    "preamble": {
+        "en": "As part of the ABCD Study, we will be contacting teachers to help us answer a few questions about our participants. By signing this form, you are giving us permission to contact your child's teacher and have him or her complete a brief questionnaire about your child. We will keep this information completely private and secure.",
+        "es": "Como parte del estudio ABCD, contactaremos a maestros y maestras para que nos ayuden a responder algunas preguntas sobre los participantes. Al firmar este formulario, usted nos est\u00c3\u00a1 dando permiso para que contactemos a la maestra o maestro de su ni\u00c3\u00b1o(a) a quien se le pedir\u00c3\u00a1 que complete un cuestionario breve acerca de su ni\u00c3\u00b1o(a). Mantendremos esta informaci\u00c3\u00b3n completamente privada y segura."
+    },
+    "prefLabel": {
+        "en": "permission_teacher_contact"
+    },
+    "question": {
+        "en": "Parent/Legal Guardian gives permission to contact participant's teacher?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

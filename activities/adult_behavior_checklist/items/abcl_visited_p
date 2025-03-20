@@ -1,0 +1,54 @@
+{
+    "id": "abcl_visited_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "FRIENDS:",
+        "es": "AMISTADES:"
+    },
+    "prefLabel": {
+        "en": "abcl_visited_p"
+    },
+    "question": {
+        "en": "About how many times a month do any friends or family visit him/her?",
+        "es": "\u00c2\u00bfAproximadamente cu\u00c3\u00a1ntas veces al mes lo(a) visitan sus amistades o parientes?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Less than 1",
+                    "es": "menos que 1"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1 or 2",
+                    "es": "1 o 2"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "3 or 4",
+                    "es": "3 o 4"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "": "5 or more",
+                    "es": "5 o m\u00c3\u00a1s"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

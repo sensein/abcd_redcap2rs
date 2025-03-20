@@ -1,0 +1,35 @@
+{
+    "id": "comc_ss_control_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN @READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Community Cohesion"
+    },
+    "prefLabel": {
+        "en": "comc_ss_control_p"
+    },
+    "question": {
+        "en": "Control Sum Score\r\nMean(comc_phenx_skip_p,\r\ncomc_phenx_graffiti_p,\r\ncomc_phenx_disrespect_p,\r\ncomc_phenx_fight_p,\r\ncomc_phenx_budget_p)\r\n \r\nValidation: Minimum of 1 item must be answered"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

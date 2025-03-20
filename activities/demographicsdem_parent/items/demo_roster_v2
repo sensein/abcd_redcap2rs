@@ -1,0 +1,37 @@
+{
+    "id": "demo_roster_v2",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "<span lang=\"en\">If you refuse to answer, please choose \"refuse to answer\" in what follows below</span><span lang=\"es\" style=\"color:maroon;\">   Si no sabe, por favor escoja \"niego contestar\" en lo que sigue abajo.</span>"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "LV"
+        }
+    ],
+    "prefLabel": {
+        "en": "demo_roster_v2"
+    },
+    "question": {
+        "en": "How many people are living at your address?INCLUDE everyone who is living or staying at your address for more than 2 months.\n\nINCLUDE yourself if you have lived at your address for more than 2 months.\n\nINCLUDE anyone else staying at your address who does not have another place to stay, even if they are at your address for 2 months or less.\n\nDO NOT INCLUDE anyone who is living somewhere else for more than 2 months, such as a college student living away or someone in the Armed Forces on deployment.",
+        "es": "\u00c2\u00bfCu\u00c3\u00a1ntas personas est\u00c3\u00a1n viviendo o qued\u00c3\u00a1ndose en su domicilio?INCLUYA a todas las personas que lleven viviendo o qued\u00c3\u00a1ndose en su domicilio durante m\u00c3\u00a1s de 2 meses.\rINCL\u00c3\u009aYASE si ha vivido en su domicilio durante m\u00c3\u00a1s de 2 meses.\rINCLUYA a cualquier otra persona que se est\u00c3\u00a9 quedando en su domicilio porque no tiene otro lugar d\u00c3\u00b3nde quedarse, incluso si lleva all\u00c3\u00ad 2 meses o menos.\rNO INCLUYA a ninguna persona que lleve m\u00c3\u00a1s de 2 meses viviendo en otro lugar, como un estudiante universitario que viva lejos de casa o alguien que sea miembro de las fuerzas armadas a quien hayan desplegado a una misi\u00c3\u00b3n."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

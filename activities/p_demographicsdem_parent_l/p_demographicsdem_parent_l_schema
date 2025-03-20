@@ -1,0 +1,773 @@
+{
+    "id": "p_demographicsdem_parent_l_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "p_demographicsdem_parent_l"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/demo_start_time_p",
+            "items/demo_l_p_select_language",
+            "items/demo_prim_l",
+            "items/demo_other_specify_l",
+            "items/demo_brthdat_v2_l",
+            "items/demo_ed_v2_l",
+            "items/demo_gender_id_v2_l",
+            "items/demo_gender_notes_p_l",
+            "items/demo_ethnic_youth_acs_p",
+            "items/demo_race_youth_acs_p",
+            "items/demo_race_youth_acs_tribe_p",
+            "items/demo_race_youth_acs_oth_asian_p",
+            "items/demo_race_youth_acs_oth_pi_p",
+            "items/demo_race_youth_acs_other_p",
+            "items/demo_nat_lang_l",
+            "items/demo_nat_lang_other_l",
+            "items/demo_nat_lang_2_l",
+            "items/demo_dual_lang_v2_l",
+            "items/demo_dual_lang_start_2yr_l",
+            "items/demo_dual_lang_years_p",
+            "items/demo_relig_v2_l",
+            "items/demo_relig2_v2_l",
+            "items/demo_prnt_age_v2_l",
+            "items/demo_prnt_age_v2_refuse_l",
+            "items/demo_prnt_gender_id_v2_l",
+            "items/prnt_gender_notes_v2_l",
+            "items/demo_prnt_ethnic_acs_p",
+            "items/demo_prnt_race_a_v2_l",
+            "items/prnt_race_notes_v2_l",
+            "items/demo_prnt_race_acs_p",
+            "items/demo_prnt_race_acs_tribe",
+            "items/demo_prnt_race_acs_oth_asian",
+            "items/demo_prnt_race_acs_oth_pi",
+            "items/demo_prnt_race_acs_other",
+            "items/demo_prnt_ethn_v2_l",
+            "items/demo_prnt_ethn2_v2_l",
+            "items/demo_prnt_nat_lang_l",
+            "items/demo_prnt_ethn2_v2_other_l",
+            "items/demo_prnt_nat_lang_2_l",
+            "items/demo_prnt_marital_v2_l",
+            "items/demo_prnt_ed_v2_l",
+            "items/demo_prnt_ed_v2_2yr_l",
+            "items/demo_prnt_empl_v2_l",
+            "items/demo_prnt_empl_time_l",
+            "items/demo_prnt_empl_notes_v2_l",
+            "items/demo_prnt_indust_v26_l",
+            "items/demo_prnt_indust_refuse_l",
+            "items/demo_prnt_job_v2_l",
+            "items/demo_prnt_job_v2_refuse_l",
+            "items/demo_prnt_income_v2_l",
+            "items/demo_prnt_prtnr_v2_l",
+            "items/demo_prnt_prtnr_bio_l",
+            "items/demo_prnt_prtnr_adopt_l",
+            "items/demo_prtnr_ed_v2_l",
+            "items/demo_prtnr_ed_v2_2yr_l",
+            "items/demo_prtnr_empl_v2_l",
+            "items/demo_prtnr_empl_time_l",
+            "items/prtnr_empl_notes_v2_l",
+            "items/demo_prtnr_indus_desc_v2_l",
+            "items/demo_prtnr_indus_v29_l",
+            "items/demo_prtnr_indust_refuse_l",
+            "items/demo_prtnr_job_v2_l",
+            "items/demo_prtnr_job_v2_refuse_l",
+            "items/demo_prtnr_income_v2_l",
+            "items/demo_child_time_v2_l",
+            "items/demo_child_time2_v2_l",
+            "items/demo_child_time2_v2_dk_l",
+            "items/demo_child_time3_v2_l",
+            "items/demo_ct3_v2_other_l",
+            "items/demo_comb_income_v2_l",
+            "items/demo_roster_v2_l",
+            "items/demo_roster_v2_refuse_l",
+            "items/fam_roster_2c_v2_l",
+            "items/fam_roster_3c_v2_l",
+            "items/fam_roster_4c_v2_l",
+            "items/fam_roster_5c_v2_l",
+            "items/fam_roster_6c_v2_l",
+            "items/fam_roster_7c_v2_l",
+            "items/fam_roster_8c_v2_l",
+            "items/fam_roster_9c_v2_l",
+            "items/fam_roster_10c_v2_l",
+            "items/fam_roster_11c_v2_l",
+            "items/fam_roster_12c_v2_l",
+            "items/fam_roster_13c_v2_l",
+            "items/fam_roster_14c_v2_l",
+            "items/fam_roster_15c_v2_l",
+            "items/demo_fam_exp1_v2_l",
+            "items/demo_fam_exp2_v2_l",
+            "items/demo_fam_exp3_v2_l",
+            "items/demo_fam_exp4_v2_l",
+            "items/demo_fam_exp5_v2_l",
+            "items/demo_fam_exp6_v2_l",
+            "items/demo_fam_exp7_v2_l",
+            "items/demo_yrs_1_l",
+            "items/demo_yrs_2_l",
+            "items/demo_yrs_2a_l",
+            "items/demo_yrs_2b_l",
+            "items/demo_yrs_2_no_display_l",
+            "items/demo_med_insur_a_p",
+            "items/demo_med_insur_b_p",
+            "items/demo_med_insur_c_p",
+            "items/demo_med_insur_d_p",
+            "items/demo_med_insur_e_p",
+            "items/demo_med_insur_f_p",
+            "items/demo_med_insur_g_p",
+            "items/demo_med_insur_h_p",
+            "items/demo_med_insur_other",
+            "items/p_demographicsdem_parent_l_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/demo_start_time_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "demo_start_time_p"
+            },
+            {
+                "isAbout": "items/demo_l_p_select_language",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "demo_l_p_select_language"
+            },
+            {
+                "isAbout": "items/demo_prim_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_prim_l"
+            },
+            {
+                "isAbout": "items/demo_other_specify_l",
+                "isVis": "demo_prim_l== '5'",
+                "valueRequired": false,
+                "variableName": "demo_other_specify_l"
+            },
+            {
+                "isAbout": "items/demo_brthdat_v2_l",
+                "isVis": "demo_prim_l == '1' || demo_prim_l == '2' || demo_prim_l == '3' || demo_prim_l== '4' || demo_prim_l== '5'",
+                "valueRequired": false,
+                "variableName": "demo_brthdat_v2_l"
+            },
+            {
+                "isAbout": "items/demo_ed_v2_l",
+                "isVis": "demo_prim_l == '1' || demo_prim_l == '2' || demo_prim_l == '3' || demo_prim_l== '4' || demo_prim_l== '5'",
+                "valueRequired": true,
+                "variableName": "demo_ed_v2_l"
+            },
+            {
+                "isAbout": "items/demo_gender_id_v2_l",
+                "isVis": "demo_prim_l == '1' || demo_prim_l == '2' || demo_prim_l == '3' || demo_prim_l== '4' || demo_prim_l== '5'",
+                "valueRequired": true,
+                "variableName": "demo_gender_id_v2_l"
+            },
+            {
+                "isAbout": "items/demo_gender_notes_p_l",
+                "isVis": "demo_gender_id_v2_l == '6'",
+                "valueRequired": false,
+                "variableName": "demo_gender_notes_p_l"
+            },
+            {
+                "isAbout": "items/demo_ethnic_youth_acs_p",
+                "isVis": "event_name_number <> '11' && baseline_year_1_arm_1race_ethnicity == ''",
+                "valueRequired": false,
+                "variableName": "demo_ethnic_youth_acs_p"
+            },
+            {
+                "isAbout": "items/demo_race_youth_acs_p",
+                "isVis": "event_name_number <> '11' && baseline_year_1_arm_1race_ethnicity == ''",
+                "valueRequired": true,
+                "variableName": "demo_race_youth_acs_p"
+            },
+            {
+                "isAbout": "items/demo_race_youth_acs_tribe_p",
+                "isVis": "demo_race_youth_acs_p___12 == '1'",
+                "valueRequired": true,
+                "variableName": "demo_race_youth_acs_tribe_p"
+            },
+            {
+                "isAbout": "items/demo_race_youth_acs_oth_asian_p",
+                "isVis": "demo_race_youth_acs_p___16 == '1'",
+                "valueRequired": true,
+                "variableName": "demo_race_youth_acs_oth_asian_p"
+            },
+            {
+                "isAbout": "items/demo_race_youth_acs_oth_pi_p",
+                "isVis": "demo_race_youth_acs_p___23 == '1'",
+                "valueRequired": true,
+                "variableName": "demo_race_youth_acs_oth_pi_p"
+            },
+            {
+                "isAbout": "items/demo_race_youth_acs_other_p",
+                "isVis": "demo_race_youth_acs_p___24 == '1'",
+                "valueRequired": true,
+                "variableName": "demo_race_youth_acs_other_p"
+            },
+            {
+                "isAbout": "items/demo_nat_lang_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_nat_lang_l"
+            },
+            {
+                "isAbout": "items/demo_nat_lang_other_l",
+                "isVis": "demo_nat_lang_l == '57'",
+                "valueRequired": true,
+                "variableName": "demo_nat_lang_other_l"
+            },
+            {
+                "isAbout": "items/demo_nat_lang_2_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_nat_lang_2_l"
+            },
+            {
+                "isAbout": "items/demo_dual_lang_v2_l",
+                "isVis": "event_name_number == '11'",
+                "valueRequired": true,
+                "variableName": "demo_dual_lang_v2_l"
+            },
+            {
+                "isAbout": "items/demo_dual_lang_start_2yr_l",
+                "isVis": "event_name_number <> '11'",
+                "valueRequired": true,
+                "variableName": "demo_dual_lang_start_2yr_l"
+            },
+            {
+                "isAbout": "items/demo_dual_lang_years_p",
+                "isVis": "demo_dual_lang_v2_l == '1' || demo_dual_lang_start_2yr_l == '1' && event_name_number <> '11'",
+                "valueRequired": true,
+                "variableName": "demo_dual_lang_years_p"
+            },
+            {
+                "isAbout": "items/demo_relig_v2_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_relig_v2_l"
+            },
+            {
+                "isAbout": "items/demo_relig2_v2_l",
+                "isVis": "demo_relig_v2_l == '16'",
+                "valueRequired": false,
+                "variableName": "demo_relig2_v2_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_age_v2_l",
+                "isVis": "demo_prnt_age_v2_refuse_l == ''",
+                "valueRequired": true,
+                "variableName": "demo_prnt_age_v2_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_age_v2_refuse_l",
+                "isVis": "demo_prnt_age_v2_l == ''",
+                "valueRequired": true,
+                "variableName": "demo_prnt_age_v2_refuse_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_gender_id_v2_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_prnt_gender_id_v2_l"
+            },
+            {
+                "isAbout": "items/prnt_gender_notes_v2_l",
+                "isVis": "demo_prnt_gender_id_v2_l == '6'",
+                "valueRequired": true,
+                "variableName": "prnt_gender_notes_v2_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_ethnic_acs_p",
+                "isVis": "event_name_number <> '11'",
+                "valueRequired": false,
+                "variableName": "demo_prnt_ethnic_acs_p"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_a_v2_l",
+                "isVis": "event_name == '11'",
+                "valueRequired": true,
+                "variableName": "demo_prnt_race_a_v2_l"
+            },
+            {
+                "isAbout": "items/prnt_race_notes_v2_l",
+                "isVis": "demo_prnt_race_a_v2_l___17 == '1' || demo_prnt_race_a_v2_l___24 == '1' || demo_prnt_race_a_v2_l___25 == '1'",
+                "valueRequired": false,
+                "variableName": "prnt_race_notes_v2_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_acs_p",
+                "isVis": "event_name_number <> '11'",
+                "valueRequired": true,
+                "variableName": "demo_prnt_race_acs_p"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_acs_tribe",
+                "isVis": "demo_prnt_race_acs_p___12 == '1'",
+                "valueRequired": true,
+                "variableName": "demo_prnt_race_acs_tribe"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_acs_oth_asian",
+                "isVis": "demo_prnt_race_acs_p___16 == '1'",
+                "valueRequired": true,
+                "variableName": "demo_prnt_race_acs_oth_asian"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_acs_oth_pi",
+                "isVis": "demo_prnt_race_acs_p___23 == '1'",
+                "valueRequired": true,
+                "variableName": "demo_prnt_race_acs_oth_pi"
+            },
+            {
+                "isAbout": "items/demo_prnt_race_acs_other",
+                "isVis": "demo_prnt_race_acs_p___24 == '1'",
+                "valueRequired": true,
+                "variableName": "demo_prnt_race_acs_other"
+            },
+            {
+                "isAbout": "items/demo_prnt_ethn_v2_l",
+                "isVis": "event_name_number == '11'",
+                "valueRequired": true,
+                "variableName": "demo_prnt_ethn_v2_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_ethn2_v2_l",
+                "isVis": "demo_prnt_ethn_v2_l == '1' && event_name_number == '11'",
+                "valueRequired": true,
+                "variableName": "demo_prnt_ethn2_v2_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_nat_lang_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_prnt_nat_lang_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_ethn2_v2_other_l",
+                "isVis": "demo_prnt_nat_lang_l == '57'",
+                "valueRequired": false,
+                "variableName": "demo_prnt_ethn2_v2_other_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_nat_lang_2_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_prnt_nat_lang_2_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_marital_v2_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_prnt_marital_v2_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_ed_v2_l",
+                "isVis": "event_name_number == '11'",
+                "valueRequired": true,
+                "variableName": "demo_prnt_ed_v2_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_ed_v2_2yr_l",
+                "isVis": "event_name_number == '21'",
+                "valueRequired": true,
+                "variableName": "demo_prnt_ed_v2_2yr_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_empl_v2_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_prnt_empl_v2_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_empl_time_l",
+                "isVis": "demo_prnt_empl_v2_l== '1'",
+                "valueRequired": true,
+                "variableName": "demo_prnt_empl_time_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_empl_notes_v2_l",
+                "isVis": "demo_prnt_empl_v2_l == '8'",
+                "valueRequired": false,
+                "variableName": "demo_prnt_empl_notes_v2_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_indust_v26_l",
+                "isVis": "demo_prnt_indust_refuse_l == '' && event_name_number == '11'",
+                "valueRequired": true,
+                "variableName": "demo_prnt_indust_v26_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_indust_refuse_l",
+                "isVis": "demo_prnt_indust_v26_l == '' && event_name_number == '11'",
+                "valueRequired": false,
+                "variableName": "demo_prnt_indust_refuse_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_job_v2_l",
+                "isVis": "demo_prnt_job_v2_refuse_l == '' && event_name_number == '11'",
+                "valueRequired": true,
+                "variableName": "demo_prnt_job_v2_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_job_v2_refuse_l",
+                "isVis": "demo_prnt_job_v2_l == '' && event_name_number == '11'",
+                "valueRequired": false,
+                "variableName": "demo_prnt_job_v2_refuse_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_income_v2_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_prnt_income_v2_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_prtnr_v2_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_prnt_prtnr_v2_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_prtnr_bio_l",
+                "isVis": "demo_prnt_prtnr_v2_l== '1'",
+                "valueRequired": true,
+                "variableName": "demo_prnt_prtnr_bio_l"
+            },
+            {
+                "isAbout": "items/demo_prnt_prtnr_adopt_l",
+                "isVis": "demo_prnt_prtnr_bio_l == '2'",
+                "valueRequired": true,
+                "variableName": "demo_prnt_prtnr_adopt_l"
+            },
+            {
+                "isAbout": "items/demo_prtnr_ed_v2_l",
+                "isVis": "demo_prnt_prtnr_v2_l== '1' && event_name_number == '11'",
+                "valueRequired": true,
+                "variableName": "demo_prtnr_ed_v2_l"
+            },
+            {
+                "isAbout": "items/demo_prtnr_ed_v2_2yr_l",
+                "isVis": "demo_prnt_prtnr_v2_l== '1' && event_name_number == '21'",
+                "valueRequired": true,
+                "variableName": "demo_prtnr_ed_v2_2yr_l"
+            },
+            {
+                "isAbout": "items/demo_prtnr_empl_v2_l",
+                "isVis": "demo_prnt_prtnr_v2_l== '1'",
+                "valueRequired": true,
+                "variableName": "demo_prtnr_empl_v2_l"
+            },
+            {
+                "isAbout": "items/demo_prtnr_empl_time_l",
+                "isVis": "demo_prtnr_empl_v2_l=='1'",
+                "valueRequired": true,
+                "variableName": "demo_prtnr_empl_time_l"
+            },
+            {
+                "isAbout": "items/prtnr_empl_notes_v2_l",
+                "isVis": "demo_prtnr_empl_v2_l == '8'",
+                "valueRequired": false,
+                "variableName": "prtnr_empl_notes_v2_l"
+            },
+            {
+                "isAbout": "items/demo_prtnr_indus_desc_v2_l",
+                "isVis": "demo_prnt_prtnr_v2_l== '1' && event_name_number == '11'",
+                "valueRequired": false,
+                "variableName": "demo_prtnr_indus_desc_v2_l"
+            },
+            {
+                "isAbout": "items/demo_prtnr_indus_v29_l",
+                "isVis": "demo_prnt_prtnr_v2_l== '1' && demo_prtnr_indust_refuse_l == '' && event_name_number == '11'",
+                "valueRequired": true,
+                "variableName": "demo_prtnr_indus_v29_l"
+            },
+            {
+                "isAbout": "items/demo_prtnr_indust_refuse_l",
+                "isVis": "demo_prnt_prtnr_v2_l == '1' && demo_prtnr_indus_v29_l == '' && event_name_number == '11'",
+                "valueRequired": false,
+                "variableName": "demo_prtnr_indust_refuse_l"
+            },
+            {
+                "isAbout": "items/demo_prtnr_job_v2_l",
+                "isVis": "demo_prnt_prtnr_v2_l== '1' && demo_prtnr_job_v2_refuse_l == '' && event_name_number == '11'",
+                "valueRequired": true,
+                "variableName": "demo_prtnr_job_v2_l"
+            },
+            {
+                "isAbout": "items/demo_prtnr_job_v2_refuse_l",
+                "isVis": "demo_prnt_prtnr_v2_l == '1' && demo_prtnr_job_v2_l == '' && event_name_number == '11'",
+                "valueRequired": false,
+                "variableName": "demo_prtnr_job_v2_refuse_l"
+            },
+            {
+                "isAbout": "items/demo_prtnr_income_v2_l",
+                "isVis": "demo_prnt_prtnr_v2_l== '1'",
+                "valueRequired": true,
+                "variableName": "demo_prtnr_income_v2_l"
+            },
+            {
+                "isAbout": "items/demo_child_time_v2_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_child_time_v2_l"
+            },
+            {
+                "isAbout": "items/demo_child_time2_v2_l",
+                "isVis": "demo_child_time_v2_l== '1' && demo_child_time2_v2_dk_l == ''",
+                "valueRequired": true,
+                "variableName": "demo_child_time2_v2_l"
+            },
+            {
+                "isAbout": "items/demo_child_time2_v2_dk_l",
+                "isVis": "demo_child_time_v2_l== '1' && demo_child_time2_v2_l == ''",
+                "valueRequired": false,
+                "variableName": "demo_child_time2_v2_dk_l"
+            },
+            {
+                "isAbout": "items/demo_child_time3_v2_l",
+                "isVis": "demo_child_time_v2_l== '1'",
+                "valueRequired": true,
+                "variableName": "demo_child_time3_v2_l"
+            },
+            {
+                "isAbout": "items/demo_ct3_v2_other_l",
+                "isVis": "demo_child_time3_v2_l == 8",
+                "valueRequired": false,
+                "variableName": "demo_ct3_v2_other_l"
+            },
+            {
+                "isAbout": "items/demo_comb_income_v2_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_comb_income_v2_l"
+            },
+            {
+                "isAbout": "items/demo_roster_v2_l",
+                "isVis": "demo_roster_v2_refuse_l == ''",
+                "valueRequired": true,
+                "variableName": "demo_roster_v2_l"
+            },
+            {
+                "isAbout": "items/demo_roster_v2_refuse_l",
+                "isVis": "demo_roster_v2_l == ''",
+                "valueRequired": false,
+                "variableName": "demo_roster_v2_refuse_l"
+            },
+            {
+                "isAbout": "items/fam_roster_2c_v2_l",
+                "isVis": "demo_roster_v2_l > 1",
+                "valueRequired": false,
+                "variableName": "fam_roster_2c_v2_l"
+            },
+            {
+                "isAbout": "items/fam_roster_3c_v2_l",
+                "isVis": "demo_roster_v2_l > 2",
+                "valueRequired": false,
+                "variableName": "fam_roster_3c_v2_l"
+            },
+            {
+                "isAbout": "items/fam_roster_4c_v2_l",
+                "isVis": "demo_roster_v2_l > 3",
+                "valueRequired": false,
+                "variableName": "fam_roster_4c_v2_l"
+            },
+            {
+                "isAbout": "items/fam_roster_5c_v2_l",
+                "isVis": "demo_roster_v2_l > 4",
+                "valueRequired": false,
+                "variableName": "fam_roster_5c_v2_l"
+            },
+            {
+                "isAbout": "items/fam_roster_6c_v2_l",
+                "isVis": "demo_roster_v2_l > 5",
+                "valueRequired": false,
+                "variableName": "fam_roster_6c_v2_l"
+            },
+            {
+                "isAbout": "items/fam_roster_7c_v2_l",
+                "isVis": "demo_roster_v2_l > 6",
+                "valueRequired": false,
+                "variableName": "fam_roster_7c_v2_l"
+            },
+            {
+                "isAbout": "items/fam_roster_8c_v2_l",
+                "isVis": "demo_roster_v2_l > 7",
+                "valueRequired": false,
+                "variableName": "fam_roster_8c_v2_l"
+            },
+            {
+                "isAbout": "items/fam_roster_9c_v2_l",
+                "isVis": "demo_roster_v2_l > 8",
+                "valueRequired": false,
+                "variableName": "fam_roster_9c_v2_l"
+            },
+            {
+                "isAbout": "items/fam_roster_10c_v2_l",
+                "isVis": "demo_roster_v2_l > 9",
+                "valueRequired": false,
+                "variableName": "fam_roster_10c_v2_l"
+            },
+            {
+                "isAbout": "items/fam_roster_11c_v2_l",
+                "isVis": "demo_roster_v2_l > 10",
+                "valueRequired": false,
+                "variableName": "fam_roster_11c_v2_l"
+            },
+            {
+                "isAbout": "items/fam_roster_12c_v2_l",
+                "isVis": "demo_roster_v2_l > 11",
+                "valueRequired": false,
+                "variableName": "fam_roster_12c_v2_l"
+            },
+            {
+                "isAbout": "items/fam_roster_13c_v2_l",
+                "isVis": "demo_roster_v2_l > 12",
+                "valueRequired": false,
+                "variableName": "fam_roster_13c_v2_l"
+            },
+            {
+                "isAbout": "items/fam_roster_14c_v2_l",
+                "isVis": "demo_roster_v2_l > 13",
+                "valueRequired": false,
+                "variableName": "fam_roster_14c_v2_l"
+            },
+            {
+                "isAbout": "items/fam_roster_15c_v2_l",
+                "isVis": "demo_roster_v2_l > 14",
+                "valueRequired": false,
+                "variableName": "fam_roster_15c_v2_l"
+            },
+            {
+                "isAbout": "items/demo_fam_exp1_v2_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_fam_exp1_v2_l"
+            },
+            {
+                "isAbout": "items/demo_fam_exp2_v2_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_fam_exp2_v2_l"
+            },
+            {
+                "isAbout": "items/demo_fam_exp3_v2_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_fam_exp3_v2_l"
+            },
+            {
+                "isAbout": "items/demo_fam_exp4_v2_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_fam_exp4_v2_l"
+            },
+            {
+                "isAbout": "items/demo_fam_exp5_v2_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_fam_exp5_v2_l"
+            },
+            {
+                "isAbout": "items/demo_fam_exp6_v2_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_fam_exp6_v2_l"
+            },
+            {
+                "isAbout": "items/demo_fam_exp7_v2_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_fam_exp7_v2_l"
+            },
+            {
+                "isAbout": "items/demo_yrs_1_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_yrs_1_l"
+            },
+            {
+                "isAbout": "items/demo_yrs_2_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_yrs_2_l"
+            },
+            {
+                "isAbout": "items/demo_yrs_2a_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_yrs_2a_l"
+            },
+            {
+                "isAbout": "items/demo_yrs_2b_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_yrs_2b_l"
+            },
+            {
+                "isAbout": "items/demo_yrs_2_no_display_l",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "demo_yrs_2_no_display_l"
+            },
+            {
+                "isAbout": "items/demo_med_insur_a_p",
+                "isVis": "event_name_number <> '11'",
+                "valueRequired": true,
+                "variableName": "demo_med_insur_a_p"
+            },
+            {
+                "isAbout": "items/demo_med_insur_b_p",
+                "isVis": "event_name_number <> '11'",
+                "valueRequired": true,
+                "variableName": "demo_med_insur_b_p"
+            },
+            {
+                "isAbout": "items/demo_med_insur_c_p",
+                "isVis": "event_name_number <> '11'",
+                "valueRequired": true,
+                "variableName": "demo_med_insur_c_p"
+            },
+            {
+                "isAbout": "items/demo_med_insur_d_p",
+                "isVis": "event_name_number <> '11'",
+                "valueRequired": true,
+                "variableName": "demo_med_insur_d_p"
+            },
+            {
+                "isAbout": "items/demo_med_insur_e_p",
+                "isVis": "event_name_number <> '11'",
+                "valueRequired": true,
+                "variableName": "demo_med_insur_e_p"
+            },
+            {
+                "isAbout": "items/demo_med_insur_f_p",
+                "isVis": "event_name_number <> '11'",
+                "valueRequired": true,
+                "variableName": "demo_med_insur_f_p"
+            },
+            {
+                "isAbout": "items/demo_med_insur_g_p",
+                "isVis": "event_name_number <> '11'",
+                "valueRequired": true,
+                "variableName": "demo_med_insur_g_p"
+            },
+            {
+                "isAbout": "items/demo_med_insur_h_p",
+                "isVis": "event_name_number <> '11'",
+                "valueRequired": false,
+                "variableName": "demo_med_insur_h_p"
+            },
+            {
+                "isAbout": "items/demo_med_insur_other",
+                "isVis": "demo_med_insur_h_p == '1'",
+                "valueRequired": true,
+                "variableName": "demo_med_insur_other"
+            },
+            {
+                "isAbout": "items/p_demographicsdem_parent_l_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "p_demographicsdem_parent_l_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2206",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

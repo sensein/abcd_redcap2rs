@@ -1,0 +1,30 @@
+{
+    "id": "tlfb_6mo_4_mj_dk_l",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Smoked MJ Follow-up Questions:"
+    },
+    "prefLabel": {
+        "en": "tlfb_6mo_4_mj_dk_l"
+    },
+    "question": {
+        "en": "During the past year, what brand or strain of marijuana do you smoke? If you do not know, just say \"I don't know.\"Interviewer: enter name, say \"home grown,\" if unknown click on \"don't know"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

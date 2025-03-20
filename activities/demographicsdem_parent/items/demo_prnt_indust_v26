@@ -1,0 +1,31 @@
+{
+    "id": "demo_prnt_indust_v26",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "<span lang=\"en\">If you don't know or refuse to answer, please choose \"don't know\" or \"refuse to answer\" in what follows below</span><span lang=\"es\" style=\"color:maroon;\">   Si no sabe o niega contestar, por favor escoja \"no se\" o \"niego contestar\" en lo que sigue abajo.</span>"
+        }
+    ],
+    "preamble": {
+        "en": "Okay, I am now going to ask you a series of questions about the different members of your child's family and where they were born:",
+        "es": "Bien, ahora voy a hacerle una serie de preguntas sobre los diferentes miembros de la familia de su ni\u00c3\u00b1o(a) y d\u00c3\u00b3nde nacieron."
+    },
+    "prefLabel": {
+        "en": "demo_prnt_indust_v26"
+    },
+    "question": {
+        "en": "In what kind of business or industry do (did) you work? For example: hospital, newspaper publishing, mail order house, auto engine manufacturing, bank.",
+        "es": "\u00c2\u00bfEn qu\u00c3\u00a9 tipo de negocio o industria trabaja (o trabajaba) (p. ej., hospital, peri\u00c3\u00b3dico, empresa de venta por correspondencia, fabricaci\u00c3\u00b3n de motores para autos, banco)?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

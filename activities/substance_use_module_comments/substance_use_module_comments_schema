@@ -1,0 +1,59 @@
+{
+    "id": "substance_use_module_comments_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "substance_use_module_comments"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/su_issues",
+            "items/su_assess",
+            "items/su_instructions",
+            "items/comm_su_int",
+            "items/comm_tf",
+            "items/substance_use_module_comments_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/su_issues",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "su_issues"
+            },
+            {
+                "isAbout": "items/su_assess",
+                "isVis": "su_issues == '1'",
+                "valueRequired": false,
+                "variableName": "su_assess"
+            },
+            {
+                "isAbout": "items/su_instructions",
+                "isVis": "su_assess___1 == '1' || su_assess___2 == '1'",
+                "valueRequired": false,
+                "variableName": "su_instructions"
+            },
+            {
+                "isAbout": "items/comm_su_int",
+                "isVis": "su_assess___1 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_su_int"
+            },
+            {
+                "isAbout": "items/comm_tf",
+                "isVis": "su_assess___2 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_tf"
+            },
+            {
+                "isAbout": "items/substance_use_module_comments_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "substance_use_module_comments_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2206",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

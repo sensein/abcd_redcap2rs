@@ -1,0 +1,33 @@
+{
+    "id": "scrn_nr_hair_callback",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "scrn_nr_hair_callback"
+    },
+    "question": {
+        "en": "If hair extensions or hair piece will be removed before end of enrollment period, mark to Yes call back.\n\nIf hair piece or hair extensions will not be removed before end of enrollment period, mark No call back.If parent is unsure, ask for their best guess, mark to Yes call back."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes - Need to Call Back"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No Call Back - GO TO END"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

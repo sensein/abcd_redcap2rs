@@ -1,0 +1,75 @@
+{
+    "id": "screentime_pmum_short_9_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "screentime_pmum_short_p"
+        }
+    ],
+    "preamble": {
+        "en": "For each statement, please select the option that is true for your child in the past month:",
+        "es": "En cada afirmaci\u00c3\u00b3n, seleccione la opci\u00c3\u00b3n que sea cierta para su hijo/a en el \u00c3\u00baltimo mes:"
+    },
+    "prefLabel": {
+        "en": "screentime_pmum_short_9_p"
+    },
+    "question": {
+        "en": "My child's screen media use interferes with family activities.",
+        "es": "El uso de los medios en pantalla de mi hijo/a interfiere en las actividades familiares."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never",
+                    "es": "Nunca"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Rarely",
+                    "es": "Rara vez"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Sometimes",
+                    "es": "A veces"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Very often",
+                    "es": "Con mucha frecuencia"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Always",
+                    "es": "Siempre"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer",
+                    "es": "niego a contestar"
+                },
+                "value": 6
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

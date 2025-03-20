@@ -1,0 +1,29 @@
+{
+    "id": "nih_tb_no_data_other",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "leave blank if n/a"
+        }
+    ],
+    "preamble": {
+        "en": "SECTION 2: NIH TB Assessments"
+    },
+    "prefLabel": {
+        "en": "nih_tb_no_data_other"
+    },
+    "question": {
+        "en": "IFNIH TB data is missing for this participant, please indicate reason:Some examples include: not administered because of time constraints,  lost/stolen/missing/broken iPad, NIH TB app deleted before exporting assessment, etc."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

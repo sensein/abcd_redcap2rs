@@ -1,0 +1,157 @@
+{
+    "id": "pubertal_hormone_saliva_psyouth_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "pubertal_hormone_saliva_psyouth"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/hormone_start_time",
+            "items/hormone_sal_sex",
+            "items/hormone_sal_notcoll_reas",
+            "items/hormone_sal_wake_y",
+            "items/hormone_sal_last_meal_y",
+            "items/hormone_sal_caff_y",
+            "items/hormone_sal_caff_mg_y",
+            "items/hormone_sal_active",
+            "items/hormone_sal_active_minutes_y",
+            "items/hormone_sal_start_y",
+            "items/hormone_sa_time_last_meal",
+            "items/hormone_sa_last_meal_hrs",
+            "items/hormone_sa_last_meal_min",
+            "items/hormone_sal_end_y",
+            "items/hormone_sal_bc_y",
+            "items/hormons_sal_freeztemp_y",
+            "items/hormone_sal_freezer_y",
+            "items/hormon_sal_notes_y",
+            "items/hormone_sal_other_y",
+            "items/pubertal_hormone_saliva_psyouth_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/hormone_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "hormone_start_time"
+            },
+            {
+                "isAbout": "items/hormone_sal_sex",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "hormone_sal_sex"
+            },
+            {
+                "isAbout": "items/hormone_sal_notcoll_reas",
+                "isVis": "hormone_sal_sex == '5' || hormone_sal_sex == '4'",
+                "valueRequired": true,
+                "variableName": "hormone_sal_notcoll_reas"
+            },
+            {
+                "isAbout": "items/hormone_sal_wake_y",
+                "isVis": "hormone_sal_sex == '1' || hormone_sal_sex == '2'",
+                "valueRequired": true,
+                "variableName": "hormone_sal_wake_y"
+            },
+            {
+                "isAbout": "items/hormone_sal_last_meal_y",
+                "isVis": "hormone_sal_sex == '1' || hormone_sal_sex == '2'",
+                "valueRequired": true,
+                "variableName": "hormone_sal_last_meal_y"
+            },
+            {
+                "isAbout": "items/hormone_sal_caff_y",
+                "isVis": "hormone_sal_sex == '1' || hormone_sal_sex == '2'",
+                "valueRequired": true,
+                "variableName": "hormone_sal_caff_y"
+            },
+            {
+                "isAbout": "items/hormone_sal_caff_mg_y",
+                "isVis": "hormone_sal_caff_y=='1'",
+                "valueRequired": true,
+                "variableName": "hormone_sal_caff_mg_y"
+            },
+            {
+                "isAbout": "items/hormone_sal_active",
+                "isVis": "hormone_sal_sex == '1' || hormone_sal_sex == '2'",
+                "valueRequired": true,
+                "variableName": "hormone_sal_active"
+            },
+            {
+                "isAbout": "items/hormone_sal_active_minutes_y",
+                "isVis": "hormone_sal_active == '1'",
+                "valueRequired": true,
+                "variableName": "hormone_sal_active_minutes_y"
+            },
+            {
+                "isAbout": "items/hormone_sal_start_y",
+                "isVis": "hormone_sal_sex == '1' || hormone_sal_sex == '2'",
+                "valueRequired": true,
+                "variableName": "hormone_sal_start_y"
+            },
+            {
+                "isAbout": "items/hormone_sa_time_last_meal",
+                "isVis": "hormone_sal_sex == '1' || hormone_sal_sex == '2'",
+                "valueRequired": false,
+                "variableName": "hormone_sa_time_last_meal"
+            },
+            {
+                "isAbout": "items/hormone_sa_last_meal_hrs",
+                "isVis": "hormone_sal_sex == '1' || hormone_sal_sex == '2'",
+                "valueRequired": true,
+                "variableName": "hormone_sa_last_meal_hrs"
+            },
+            {
+                "isAbout": "items/hormone_sa_last_meal_min",
+                "isVis": "hormone_sal_sex == '1' || hormone_sal_sex == '2'",
+                "valueRequired": true,
+                "variableName": "hormone_sa_last_meal_min"
+            },
+            {
+                "isAbout": "items/hormone_sal_end_y",
+                "isVis": "hormone_sal_sex == '1' || hormone_sal_sex == '2'",
+                "valueRequired": true,
+                "variableName": "hormone_sal_end_y"
+            },
+            {
+                "isAbout": "items/hormone_sal_bc_y",
+                "isVis": "hormone_sal_sex == '1' || hormone_sal_sex == '2'",
+                "valueRequired": true,
+                "variableName": "hormone_sal_bc_y"
+            },
+            {
+                "isAbout": "items/hormons_sal_freeztemp_y",
+                "isVis": "hormone_sal_sex == '1' || hormone_sal_sex == '2'",
+                "valueRequired": true,
+                "variableName": "hormons_sal_freeztemp_y"
+            },
+            {
+                "isAbout": "items/hormone_sal_freezer_y",
+                "isVis": "hormone_sal_sex == '1' || hormone_sal_sex == '2'",
+                "valueRequired": true,
+                "variableName": "hormone_sal_freezer_y"
+            },
+            {
+                "isAbout": "items/hormon_sal_notes_y",
+                "isVis": "hormone_sal_sex == '1' || hormone_sal_sex == '2'",
+                "valueRequired": true,
+                "variableName": "hormon_sal_notes_y"
+            },
+            {
+                "isAbout": "items/hormone_sal_other_y",
+                "isVis": "hormon_sal_notes_y___6 == '1'",
+                "valueRequired": false,
+                "variableName": "hormone_sal_other_y"
+            },
+            {
+                "isAbout": "items/pubertal_hormone_saliva_psyouth_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pubertal_hormone_saliva_psyouth_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2206",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

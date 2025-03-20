@@ -1,0 +1,43 @@
+{
+    "id": "tlfb_edible_use_l",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "tlfb_ever_used_l"
+        }
+    ],
+    "preamble": {
+        "en": "USED SINCE WE LAST SAW YOUI want to start by asking if you have used any of the following drugs since we last saw you on [asnt_timestamp_c]."
+    },
+    "prefLabel": {
+        "en": "tlfb_edible_use_l"
+    },
+    "question": {
+        "en": "Marijuana that you eat, such as pot cookies, gummy bears, brownies."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

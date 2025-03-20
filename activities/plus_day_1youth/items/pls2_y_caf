@@ -1,0 +1,36 @@
+{
+    "id": "pls2_y_caf",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Participant Section:\"I just have a few questions before we start the next activity.\""
+    },
+    "prefLabel": {
+        "en": "pls2_y_caf"
+    },
+    "question": {
+        "en": "Have you consumed a caffeinated beverage (such as Mountain Dew, Coke, Pepsi, Barq's root beer, energy drink like Red Bull or Monster, coffee or espresso, or green tea, black tea, or sweet tea) in the last 24 hours?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

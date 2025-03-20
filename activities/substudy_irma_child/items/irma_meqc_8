@@ -1,0 +1,68 @@
+{
+    "id": "irma_meqc_8",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "meqc_2"
+        }
+    ],
+    "preamble": {
+        "en": "Media Exposure Questionnaire",
+        "es": "Cuestionario de exposici\u00c3\u00b3n de medios"
+    },
+    "prefLabel": {
+        "en": "irma_meqc_8"
+    },
+    "question": {
+        "en": "8. Internet media coverage of Hurricane Irma during the storm",
+        "es": "8. Cobertura de los medios de Internet del Hurac\u00c3\u00a1n Irma durante la tormenta"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Once per day or less0",
+                    "es": "Una ves por d\u00c3\u00ada on menos0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Several times per day1",
+                    "es": "Varias veses por d\u00c3\u00ada1"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Almost every hour2",
+                    "es": "Casi cada hora2"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Several times per hour3",
+                    "es": "Varias veses por hora3"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Almost continuously4",
+                    "es": "Casi continuamente4"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,39 @@
+{
+    "id": "tlfb_hookah_date1",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "date_mdy"
+        },
+        {
+            "column": "Text Validation Min",
+            "source": "redcap",
+            "value": "2005-01-01"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDEBUTTON"
+        }
+    ],
+    "preamble": {
+        "en": "Age First Use and Age Regular UseNow I'm going to ask how old you were you when you first tried each of these tobacco products we have been talking about, and how old you were when you first started using the drug regularly (which means using it every week for at least SIX MONTHS).Interviewer: fill out first use and regular use using mm/dd/yyyy. If the day is unknown, assume the 15th of the given month."
+    },
+    "prefLabel": {
+        "en": "tlfb_hookah_date1"
+    },
+    "question": {
+        "en": "When did you first try HOOKAH?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "date"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

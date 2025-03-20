@@ -1,0 +1,51 @@
+{
+    "id": "socialdev_prd_16",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "socialdev_prd_16"
+    },
+    "question": {
+        "en": "Has your child taken anything at school from the teacher or other kids that did not belong to him/her?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Once or twice"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "More often"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "I don't know"
+                },
+                "value": 98
+            },
+            {
+                "name": {
+                    "en": "I'd rather not say"
+                },
+                "value": 99
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

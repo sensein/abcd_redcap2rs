@@ -1,0 +1,44 @@
+{
+    "id": "mypi_perm_retain_yn",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN-SURVEY HIDEFROMCOMPLETION20180302"
+        }
+    ],
+    "prefLabel": {
+        "en": "mypi_perm_retain_yn"
+    },
+    "question": {
+        "en": "Does your child currently have a permanent retainer?",
+        "es": "\u00c2\u00bfSu hijo actualmente tiene un retenedor fijo?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

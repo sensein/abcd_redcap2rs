@@ -1,0 +1,86 @@
+{
+    "id": "home_9",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20180418"
+        }
+    ],
+    "preamble": {
+        "en": "COMPLETION METHODTake Home Surveys / Remote Completion"
+    },
+    "prefLabel": {
+        "en": "home_9"
+    },
+    "question": {
+        "en": "Please Check Each Assessment that was Completed at Home"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Pubertal Development Scale"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Sleep Disturbance Scale for Children"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Screen Time"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Prosocial Behavior"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Parent Rules"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Community Risk and Protective Factors"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Acculturation"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Mexican American Culture Values Scale"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Neighborhood, Safety and Crime"
+                },
+                "value": 9
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

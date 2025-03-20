@@ -1,0 +1,94 @@
+{
+    "id": "y_nih_tb_positive_affect_l_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "y_nih_tb_positive_affect_l"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/poa_start_time",
+            "items/poa_nihtb_1_y",
+            "items/poa_nihtb_2_y",
+            "items/poa_nihtb_3_y",
+            "items/poa_nihtb_4_y",
+            "items/poa_nihtb_5_y",
+            "items/poa_nihtb_6_y",
+            "items/poa_nihtb_7_y",
+            "items/poa_nihtb_8_y",
+            "items/poa_nihtb_9_y",
+            "items/y_nih_tb_positive_affect_l_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/poa_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "poa_start_time"
+            },
+            {
+                "isAbout": "items/poa_nihtb_1_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "poa_nihtb_1_y"
+            },
+            {
+                "isAbout": "items/poa_nihtb_2_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "poa_nihtb_2_y"
+            },
+            {
+                "isAbout": "items/poa_nihtb_3_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "poa_nihtb_3_y"
+            },
+            {
+                "isAbout": "items/poa_nihtb_4_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "poa_nihtb_4_y"
+            },
+            {
+                "isAbout": "items/poa_nihtb_5_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "poa_nihtb_5_y"
+            },
+            {
+                "isAbout": "items/poa_nihtb_6_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "poa_nihtb_6_y"
+            },
+            {
+                "isAbout": "items/poa_nihtb_7_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "poa_nihtb_7_y"
+            },
+            {
+                "isAbout": "items/poa_nihtb_8_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "poa_nihtb_8_y"
+            },
+            {
+                "isAbout": "items/poa_nihtb_9_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "poa_nihtb_9_y"
+            },
+            {
+                "isAbout": "items/y_nih_tb_positive_affect_l_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "y_nih_tb_positive_affect_l_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2206",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

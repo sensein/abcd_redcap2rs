@@ -1,0 +1,55 @@
+{
+    "id": "vrs_rec_mem",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        }
+    ],
+    "preamble": {
+        "en": "This is done on ePRIME (fMRI testing laptop). \r\n\r\nOpen the Eprime file called \"ABCD_Emo_Nback_RecMem [releasedate].es2\". This file contains both the recognition memory practice and task. Be sure to select the version that corresponds to the version played in the scanner."
+    },
+    "prefLabel": {
+        "en": "vrs_rec_mem"
+    },
+    "question": {
+        "en": "Version of Rec Memory Task?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "1"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

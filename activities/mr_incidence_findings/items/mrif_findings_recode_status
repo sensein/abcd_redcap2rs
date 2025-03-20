@@ -1,0 +1,50 @@
+{
+    "id": "mrif_findings_recode_status",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "Not in use!"
+        }
+    ],
+    "preamble": {
+        "en": "A new scheme to categorize radiology findings by type and location."
+    },
+    "prefLabel": {
+        "en": "mrif_findings_recode_status"
+    },
+    "question": {
+        "en": "Status of recoding"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Work in progress"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Unverified"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Verified"
+                },
+                "value": 2
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

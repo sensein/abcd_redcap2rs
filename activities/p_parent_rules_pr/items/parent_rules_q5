@@ -1,0 +1,59 @@
+{
+    "id": "parent_rules_q5",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "2a"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "2a"
+        }
+    ],
+    "preamble": {
+        "en": "The next questions are about your household rules about alcohol and drugs.",
+        "es": "Las siguientes preguntas son acerca de las reglas de su hogar con respecto al consumo de alcohol y drogas."
+    },
+    "prefLabel": {
+        "en": "parent_rules_q5"
+    },
+    "question": {
+        "en": "Are these the same rules for all family members?",
+        "es": "Estas reglas son las mismas para todos los miembros de la familia?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No, applies only to children, not teen or adults",
+                    "es": "No; s\u00c3\u00b3lo se le hacen cumplir a los ni\u00c3\u00b1os, pero no a los adolescentes o adultos"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No, applies only to children and teen, not adults",
+                    "es": "No; s\u00c3\u00b3lo se le hacen cumplir a los ni\u00c3\u00b1os y adolescentes, pero no a los adultos"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Yes, applies to everyone",
+                    "es": "S\u00c3\u00ad, todos deben cumplir las reglas."
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

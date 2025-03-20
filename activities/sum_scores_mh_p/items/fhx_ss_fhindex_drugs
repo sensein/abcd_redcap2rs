@@ -1,0 +1,35 @@
+{
+    "id": "fhx_ss_fhindex_drugs",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Family History of Problems"
+    },
+    "prefLabel": {
+        "en": "fhx_ss_fhindex_drugs"
+    },
+    "question": {
+        "en": "Family history density of drug use problem, excluding full and half siblings = fhx_ss_numparents_drugs/fhx_ss_totparents_drugs + 0.5*fhx_ss_per2degrels_drugs"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,74 @@
+{
+    "id": "demo_child_time3_v2_l",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "The following questions are about your family and household:",
+        "es": "Las siguientes preguntas son acerca de su familia y su hogar."
+    },
+    "prefLabel": {
+        "en": "demo_child_time3_v2_l"
+    },
+    "question": {
+        "en": "Who is the best person to contact about that household? Please select the relationship they have with the child.",
+        "es": "\u00c2\u00bfQuien es la mejor persona para contactar con respecto a ese hogar? Por favor seleccione la relaci\u00c3\u00b3n que tienen con su ni\u00c3\u00b1o(a)."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "##en##other biological parent##/en####es##otro(a) padre(madre) biol\u00c3\u00b3gico(a)##/es##"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "##en##step mother##/en####es##madrasta##/es##"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "##en##step father##/en####es##padrasto##/es##"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "##en##grandmother##/en####es##abuela##/es##"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "##en##grandfather##/en####es##abuelo##/es##"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "##en##aunt##/en####es##tia##/es##"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "##en##uncle##/en####es##tio##/es##"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "##en##other##/en####es##otro##/es##"
+                },
+                "value": 8
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

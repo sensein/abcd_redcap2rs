@@ -1,0 +1,45 @@
+{
+    "id": "nih_tb_ls1lap1",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "nih_tb_ls1lap1"
+    },
+    "question": {
+        "en": "nih_tb_LS1LAP1"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "That's right!"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Let's try that again. You saw a DOG and a HORSE; the DOG is smaller than the HORSE. Now say the animals in size order."
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Let's try that one more time. You saw a DOG and a HORSE; the DOG is smaller than the HORSE. Now say the smaller animal and then the bigger animal."
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "\"\""
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,48 @@
+{
+    "id": "medhx_6l_notes",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Text Validation Min",
+            "source": "redcap",
+            "value": "0"
+        },
+        {
+            "column": "Text Validation Max",
+            "source": "redcap",
+            "value": "50.0"
+        },
+        {
+            "column": "Identifier?",
+            "source": "redcap",
+            "value": "y"
+        }
+    ],
+    "preamble": {
+        "en": "What about...",
+        "es": "\u00c2\u00bfQu\u00c3\u00a9 tal?..."
+    },
+    "prefLabel": {
+        "en": "medhx_6l_notes"
+    },
+    "question": {
+        "en": "How many times?",
+        "es": "\u00c2\u00bfCu\u00c3\u00a1ntas veces?"
+    },
+    "responseOptions": {
+        "maxValue": 50,
+        "minValue": 0,
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

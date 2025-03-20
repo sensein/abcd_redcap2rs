@@ -1,0 +1,34 @@
+{
+    "id": "scrn_percept",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "scrn_percept"
+    },
+    "question": {
+        "en": "\"Does (Child's name) have any vision, hearing, or coordination problems that would affect your child's understanding and responding to the tests, questionnaires, and brain scans?\"",
+        "es": "\"\u00c2\u00bf(Nombre del menor) tiene alg\u00c3\u00ban problema visual, auditivo o de coordinaci\u00c3\u00b3n que pudiera afectar su comprensi\u00c3\u00b3n de las pruebas, los cuestionarios y los estudios cerebrales y su capacidad de responder los mismos?\""
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

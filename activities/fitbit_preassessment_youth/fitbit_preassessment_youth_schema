@@ -1,0 +1,73 @@
+{
+    "id": "fitbit_preassessment_youth_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "fitbit_preassessment_youth"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/fitpr_submit",
+            "items/fitpr_physical",
+            "items/fitpr_physical_health",
+            "items/fitpr_sedentary",
+            "items/fitpr_sedentary_health",
+            "items/fitpr_sleep",
+            "items/fitpr_sleep_health",
+            "items/fitbit_preassessment_youth_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/fitpr_submit",
+                "isVis": "fitbit_assent == '0'",
+                "valueRequired": false,
+                "variableName": "fitpr_submit"
+            },
+            {
+                "isAbout": "items/fitpr_physical",
+                "isVis": "fitbit_assent == '1' && fitbit_permission == '1'",
+                "valueRequired": true,
+                "variableName": "fitpr_physical"
+            },
+            {
+                "isAbout": "items/fitpr_physical_health",
+                "isVis": "fitbit_assent == '1' && fitbit_permission == '1'",
+                "valueRequired": true,
+                "variableName": "fitpr_physical_health"
+            },
+            {
+                "isAbout": "items/fitpr_sedentary",
+                "isVis": "fitbit_assent == '1' && fitbit_permission == '1'",
+                "valueRequired": true,
+                "variableName": "fitpr_sedentary"
+            },
+            {
+                "isAbout": "items/fitpr_sedentary_health",
+                "isVis": "fitbit_assent == '1' && fitbit_permission == '1'",
+                "valueRequired": true,
+                "variableName": "fitpr_sedentary_health"
+            },
+            {
+                "isAbout": "items/fitpr_sleep",
+                "isVis": "fitbit_assent == '1' && fitbit_permission == '1'",
+                "valueRequired": true,
+                "variableName": "fitpr_sleep"
+            },
+            {
+                "isAbout": "items/fitpr_sleep_health",
+                "isVis": "fitbit_assent == '1' && fitbit_permission == '1'",
+                "valueRequired": true,
+                "variableName": "fitpr_sleep_health"
+            },
+            {
+                "isAbout": "items/fitbit_preassessment_youth_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "fitbit_preassessment_youth_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2206",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

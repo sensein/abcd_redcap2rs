@@ -1,0 +1,129 @@
+{
+    "id": "y_crpf_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "y_crpf"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/su_crpf_avail_start_time",
+            "items/su_crpf_avail_1",
+            "items/su_crpf_avail_2",
+            "items/su_crpf_avail_3",
+            "items/su_crpf_avail_4",
+            "items/su_crpf_avail_5",
+            "items/su_crpf_avail_6",
+            "items/su_crpf_avail_7",
+            "items/su_crpf_avail_8",
+            "items/su_crpf_avail_9",
+            "items/su_crpf_avail_10",
+            "items/su_crpf_avail_11",
+            "items/su_crpf_avail_12",
+            "items/su_crpf_avail_13",
+            "items/testdatestamp",
+            "items/y_crpf_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/su_crpf_avail_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "su_crpf_avail_start_time"
+            },
+            {
+                "isAbout": "items/su_crpf_avail_1",
+                "isVis": "tlfb_alc_c_l == '1' || tlfb_alc_l == '1'",
+                "valueRequired": false,
+                "variableName": "su_crpf_avail_1"
+            },
+            {
+                "isAbout": "items/su_crpf_avail_2",
+                "isVis": "tlfb_tob_l == '1' || tlfb_tob_c_l == '1'",
+                "valueRequired": false,
+                "variableName": "su_crpf_avail_2"
+            },
+            {
+                "isAbout": "items/su_crpf_avail_3",
+                "isVis": "tlfb_tob_c_l == '1' || tlfb_tob_l == '1'",
+                "valueRequired": false,
+                "variableName": "su_crpf_avail_3"
+            },
+            {
+                "isAbout": "items/su_crpf_avail_4",
+                "isVis": "tlfb_mj_l == '1' || tlfb_mj_synth_l == '1' || tlfb_mj_c_l == '1' || tlfb_mj_synth_c_l == '1'",
+                "valueRequired": false,
+                "variableName": "su_crpf_avail_4"
+            },
+            {
+                "isAbout": "items/su_crpf_avail_5",
+                "isVis": "tlfb_list_yes_no_c_l== '1' || tlfb_list_yes_no_l == '1'",
+                "valueRequired": false,
+                "variableName": "su_crpf_avail_5"
+            },
+            {
+                "isAbout": "items/su_crpf_avail_6",
+                "isVis": "tlfb_mj_l == '1' || tlfb_mj_synth_l == '1' || tlfb_mj_c_l == '1' || tlfb_mj_synth_c_l == '1'",
+                "valueRequired": false,
+                "variableName": "su_crpf_avail_6"
+            },
+            {
+                "isAbout": "items/su_crpf_avail_7",
+                "isVis": "su_crpf_avail_6 == '1'",
+                "valueRequired": false,
+                "variableName": "su_crpf_avail_7"
+            },
+            {
+                "isAbout": "items/su_crpf_avail_8",
+                "isVis": "su_crpf_avail_6 == '1'",
+                "valueRequired": false,
+                "variableName": "su_crpf_avail_8"
+            },
+            {
+                "isAbout": "items/su_crpf_avail_9",
+                "isVis": "su_crpf_avail_6 == '1'",
+                "valueRequired": false,
+                "variableName": "su_crpf_avail_9"
+            },
+            {
+                "isAbout": "items/su_crpf_avail_10",
+                "isVis": "tlfb_inhalant_c_l == '1' || tlfb_inhalant_l == '1'",
+                "valueRequired": false,
+                "variableName": "su_crpf_avail_10"
+            },
+            {
+                "isAbout": "items/su_crpf_avail_11",
+                "isVis": "tlfb_rx_misuse_c_l == '1' || tlfb_rx_misuse_l == '1'",
+                "valueRequired": false,
+                "variableName": "su_crpf_avail_11"
+            },
+            {
+                "isAbout": "items/su_crpf_avail_12",
+                "isVis": "tlfb_rx_misuse_c_l == '1' || tlfb_rx_misuse_l == '1'",
+                "valueRequired": false,
+                "variableName": "su_crpf_avail_12"
+            },
+            {
+                "isAbout": "items/su_crpf_avail_13",
+                "isVis": "tlfb_rx_misuse_c_l == '1' || tlfb_rx_misuse_l == '1'",
+                "valueRequired": false,
+                "variableName": "su_crpf_avail_13"
+            },
+            {
+                "isAbout": "items/testdatestamp",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "testdatestamp"
+            },
+            {
+                "isAbout": "items/y_crpf_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "y_crpf_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2206",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

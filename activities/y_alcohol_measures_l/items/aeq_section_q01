@@ -1,0 +1,61 @@
+{
+    "id": "aeq_section_q01",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "aeq_section"
+        }
+    ],
+    "preamble": {
+        "en": "The following page contains statements about the effects of alcohol.\u00c2\u00a0 Answer each statement according to your own personal thoughts, feelings, and beliefs about alcohol.\u00c2\u00a0 We're interested in what you think about alcohol, not what others might think.\u00c2\u00a0 Whether or not you've had actual drinking experience, you should answer in terms of how you think alcohol affects the typical or average drinker.\u00c2\u00a0 By alcohol, we mean beer, wine, whiskey, liquor, rum, scotch, vodka, gin, or various alcoholic mixed drinks."
+    },
+    "prefLabel": {
+        "en": "aeq_section_q01"
+    },
+    "question": {
+        "en": "Alcohol helps a person relax, feel happy, feel less tense, and can keep a person's mind off of mistakes at school or work."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Disagree Strongly"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Disagree Somewhat"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Uncertain"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Agree Somewhat"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Agree Strongly"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,31 @@
+{
+    "id": "curr_time",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "datetime_dmy"
+        }
+    ],
+    "preamble": {
+        "en": "Caffeinated Drink",
+        "es": "Bebidas con cafe\u00c3\u00adna"
+    },
+    "prefLabel": {
+        "en": "curr_time"
+    },
+    "question": {
+        "en": "What is the current time/date:",
+        "es": "\u00c2\u00bfCu\u00c3\u00a1l es la fecha y hora actual?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:dateTime"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

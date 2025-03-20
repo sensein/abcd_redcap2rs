@@ -1,0 +1,39 @@
+{
+    "id": "irma_substudy_irma_p8_select_language",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "LV"
+        }
+    ],
+    "preamble": {
+        "en": "Perceived Stress Scale",
+        "es": "Escala de estr\u00c3\u00a9s percibida"
+    },
+    "prefLabel": {
+        "en": "irma_substudy_irma_p8_select_language"
+    },
+    "question": {
+        "en": "\u00c2\u00bfEspa\u00c3\u00b1ol?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "S\u00c3\u00ad"
+                },
+                "value": 1
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,409 @@
+{
+    "id": "toxicology_test_dtyouth_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "toxicology_test_dtyouth"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/tox_intro_not",
+            "items/tox_intro_not_2yr",
+            "items/tox_start_time",
+            "items/tox_intro_y",
+            "items/tox1_results_y",
+            "items/tox1_notcoll_reas",
+            "items/tox1_dot_y",
+            "items/tox1_results_yn_y",
+            "items/instruct_redo_tox",
+            "items/tox1_coc_y",
+            "items/tox1_op_y",
+            "items/tox1_bzo_y",
+            "items/tox1_thc_y",
+            "items/tox1_amp_y",
+            "items/tox1_meth_y",
+            "items/tox1_mtd_y",
+            "items/tox1_notes",
+            "items/tox1_results_2_y",
+            "items/tox1_notcoll_reas_2",
+            "items/tox1_dot_2_y",
+            "items/tox1_coc_2_y",
+            "items/tox1_op_2_y",
+            "items/tox1_bzo_2_y",
+            "items/tox1_thc_2_y",
+            "items/tox1_amp_2_y",
+            "items/tox1_meth_2_y",
+            "items/tox1_mtd_2_y",
+            "items/tox1_notes_2",
+            "items/tox2_des",
+            "items/tox2_need",
+            "items/tox_intro_y2",
+            "items/tox2_results_y",
+            "items/tox2_notcoll_reas",
+            "items/tox2_dot_y",
+            "items/tox2_results_yn_y",
+            "items/instruct2_redo_tox",
+            "items/tox2_coc_y",
+            "items/tox2_op_y",
+            "items/tox2_bzo_y",
+            "items/tox2_thc_y",
+            "items/tox2_amp_y",
+            "items/tox2_meth_y",
+            "items/tox2_mtd_y",
+            "items/tox2_notes",
+            "items/tox2_results_2_y",
+            "items/tox2_notcoll_reas_2",
+            "items/tox2_dot_2_y",
+            "items/tox2_coc_2_y",
+            "items/tox2_op_2_y",
+            "items/tox2_bzo_2_y",
+            "items/tox2_thc_2_y",
+            "items/tox2_amp_2_y",
+            "items/tox2_meth_2_y",
+            "items/tox2_mtd_2_y",
+            "items/tox2_notes_2",
+            "items/toxicology_test_dtyouth_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/tox_intro_not",
+                "isVis": "bio_10perc_draeger == '0' && event_name_number == '11'",
+                "valueRequired": false,
+                "variableName": "tox_intro_not"
+            },
+            {
+                "isAbout": "items/tox_intro_not_2yr",
+                "isVis": "bio_15perc_draeger == '0' && event_name_number <> '11'",
+                "valueRequired": false,
+                "variableName": "tox_intro_not_2yr"
+            },
+            {
+                "isAbout": "items/tox_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tox_start_time"
+            },
+            {
+                "isAbout": "items/tox_intro_y",
+                "isVis": "bio_10perc_draeger == '1' || bio_15perc_draeger == '1'",
+                "valueRequired": false,
+                "variableName": "tox_intro_y"
+            },
+            {
+                "isAbout": "items/tox1_results_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "tox1_results_y"
+            },
+            {
+                "isAbout": "items/tox1_notcoll_reas",
+                "isVis": "tox1_results_y == '6' || tox1_results_y == '5'",
+                "valueRequired": true,
+                "variableName": "tox1_notcoll_reas"
+            },
+            {
+                "isAbout": "items/tox1_dot_y",
+                "isVis": "tox1_results_y == '1' || tox1_results_y == '2'",
+                "valueRequired": true,
+                "variableName": "tox1_dot_y"
+            },
+            {
+                "isAbout": "items/tox1_results_yn_y",
+                "isVis": "tox1_results_y == '1' || tox1_results_y == '2'",
+                "valueRequired": true,
+                "variableName": "tox1_results_yn_y"
+            },
+            {
+                "isAbout": "items/instruct_redo_tox",
+                "isVis": "tox1_results_yn_y == '1'",
+                "valueRequired": false,
+                "variableName": "instruct_redo_tox"
+            },
+            {
+                "isAbout": "items/tox1_coc_y",
+                "isVis": "tox1_results_y == '1'",
+                "valueRequired": true,
+                "variableName": "tox1_coc_y"
+            },
+            {
+                "isAbout": "items/tox1_op_y",
+                "isVis": "tox1_results_y == '1'",
+                "valueRequired": true,
+                "variableName": "tox1_op_y"
+            },
+            {
+                "isAbout": "items/tox1_bzo_y",
+                "isVis": "tox1_results_y == '1'",
+                "valueRequired": true,
+                "variableName": "tox1_bzo_y"
+            },
+            {
+                "isAbout": "items/tox1_thc_y",
+                "isVis": "tox1_results_y == '1'",
+                "valueRequired": true,
+                "variableName": "tox1_thc_y"
+            },
+            {
+                "isAbout": "items/tox1_amp_y",
+                "isVis": "tox1_results_y == '1'",
+                "valueRequired": true,
+                "variableName": "tox1_amp_y"
+            },
+            {
+                "isAbout": "items/tox1_meth_y",
+                "isVis": "tox1_results_y == '1'",
+                "valueRequired": true,
+                "variableName": "tox1_meth_y"
+            },
+            {
+                "isAbout": "items/tox1_mtd_y",
+                "isVis": "tox1_results_y == '1'",
+                "valueRequired": true,
+                "variableName": "tox1_mtd_y"
+            },
+            {
+                "isAbout": "items/tox1_notes",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "tox1_notes"
+            },
+            {
+                "isAbout": "items/tox1_results_2_y",
+                "isVis": "tox1_results_yn_y == '1'",
+                "valueRequired": true,
+                "variableName": "tox1_results_2_y"
+            },
+            {
+                "isAbout": "items/tox1_notcoll_reas_2",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "tox1_notcoll_reas_2"
+            },
+            {
+                "isAbout": "items/tox1_dot_2_y",
+                "isVis": "tox1_results_2_y == '1' || tox1_results_2_y == '2'",
+                "valueRequired": true,
+                "variableName": "tox1_dot_2_y"
+            },
+            {
+                "isAbout": "items/tox1_coc_2_y",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "tox1_coc_2_y"
+            },
+            {
+                "isAbout": "items/tox1_op_2_y",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "tox1_op_2_y"
+            },
+            {
+                "isAbout": "items/tox1_bzo_2_y",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "tox1_bzo_2_y"
+            },
+            {
+                "isAbout": "items/tox1_thc_2_y",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "tox1_thc_2_y"
+            },
+            {
+                "isAbout": "items/tox1_amp_2_y",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "tox1_amp_2_y"
+            },
+            {
+                "isAbout": "items/tox1_meth_2_y",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "tox1_meth_2_y"
+            },
+            {
+                "isAbout": "items/tox1_mtd_2_y",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "tox1_mtd_2_y"
+            },
+            {
+                "isAbout": "items/tox1_notes_2",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tox1_notes_2"
+            },
+            {
+                "isAbout": "items/tox2_des",
+                "isVis": "baseline_visits_num > '1'",
+                "valueRequired": false,
+                "variableName": "tox2_des"
+            },
+            {
+                "isAbout": "items/tox2_need",
+                "isVis": "baseline_visits_num > '1'",
+                "valueRequired": false,
+                "variableName": "tox2_need"
+            },
+            {
+                "isAbout": "items/tox_intro_y2",
+                "isVis": "tox2_need == '1'",
+                "valueRequired": false,
+                "variableName": "tox_intro_y2"
+            },
+            {
+                "isAbout": "items/tox2_results_y",
+                "isVis": "tox2_need == '1'",
+                "valueRequired": true,
+                "variableName": "tox2_results_y"
+            },
+            {
+                "isAbout": "items/tox2_notcoll_reas",
+                "isVis": "tox2_results_y == '6' || tox2_results_y == '5'",
+                "valueRequired": true,
+                "variableName": "tox2_notcoll_reas"
+            },
+            {
+                "isAbout": "items/tox2_dot_y",
+                "isVis": "tox2_results_y == '1' || tox2_results_y == '2' && tox2_need == '1'",
+                "valueRequired": false,
+                "variableName": "tox2_dot_y"
+            },
+            {
+                "isAbout": "items/tox2_results_yn_y",
+                "isVis": "tox2_results_y == '1' || tox2_results_y == '2'",
+                "valueRequired": true,
+                "variableName": "tox2_results_yn_y"
+            },
+            {
+                "isAbout": "items/instruct2_redo_tox",
+                "isVis": "tox2_results_yn_y == '1'",
+                "valueRequired": false,
+                "variableName": "instruct2_redo_tox"
+            },
+            {
+                "isAbout": "items/tox2_coc_y",
+                "isVis": "tox2_results_y == '1' && tox2_need == '1'",
+                "valueRequired": false,
+                "variableName": "tox2_coc_y"
+            },
+            {
+                "isAbout": "items/tox2_op_y",
+                "isVis": "tox2_results_y == '1' && tox2_need == '1'",
+                "valueRequired": false,
+                "variableName": "tox2_op_y"
+            },
+            {
+                "isAbout": "items/tox2_bzo_y",
+                "isVis": "tox2_results_y == '1' && tox2_need == '1'",
+                "valueRequired": false,
+                "variableName": "tox2_bzo_y"
+            },
+            {
+                "isAbout": "items/tox2_thc_y",
+                "isVis": "tox2_results_y == '1' && tox2_need == '1'",
+                "valueRequired": false,
+                "variableName": "tox2_thc_y"
+            },
+            {
+                "isAbout": "items/tox2_amp_y",
+                "isVis": "tox2_results_y == '1' && tox2_need == '1'",
+                "valueRequired": false,
+                "variableName": "tox2_amp_y"
+            },
+            {
+                "isAbout": "items/tox2_meth_y",
+                "isVis": "tox2_results_y == '1' && tox2_need == '1'",
+                "valueRequired": false,
+                "variableName": "tox2_meth_y"
+            },
+            {
+                "isAbout": "items/tox2_mtd_y",
+                "isVis": "tox2_results_y == '1' && tox2_need == '1'",
+                "valueRequired": false,
+                "variableName": "tox2_mtd_y"
+            },
+            {
+                "isAbout": "items/tox2_notes",
+                "isVis": "baseline_visits_num > '1'",
+                "valueRequired": false,
+                "variableName": "tox2_notes"
+            },
+            {
+                "isAbout": "items/tox2_results_2_y",
+                "isVis": "tox2_results_yn_y == '1'",
+                "valueRequired": true,
+                "variableName": "tox2_results_2_y"
+            },
+            {
+                "isAbout": "items/tox2_notcoll_reas_2",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "tox2_notcoll_reas_2"
+            },
+            {
+                "isAbout": "items/tox2_dot_2_y",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tox2_dot_2_y"
+            },
+            {
+                "isAbout": "items/tox2_coc_2_y",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tox2_coc_2_y"
+            },
+            {
+                "isAbout": "items/tox2_op_2_y",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tox2_op_2_y"
+            },
+            {
+                "isAbout": "items/tox2_bzo_2_y",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tox2_bzo_2_y"
+            },
+            {
+                "isAbout": "items/tox2_thc_2_y",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tox2_thc_2_y"
+            },
+            {
+                "isAbout": "items/tox2_amp_2_y",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tox2_amp_2_y"
+            },
+            {
+                "isAbout": "items/tox2_meth_2_y",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tox2_meth_2_y"
+            },
+            {
+                "isAbout": "items/tox2_mtd_2_y",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tox2_mtd_2_y"
+            },
+            {
+                "isAbout": "items/tox2_notes_2",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tox2_notes_2"
+            },
+            {
+                "isAbout": "items/toxicology_test_dtyouth_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "toxicology_test_dtyouth_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2206",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

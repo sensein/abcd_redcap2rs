@@ -1,0 +1,73 @@
+{
+    "id": "mri_qc_scores_daic_use_only_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "mri_qc_scores_daic_use_only"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/mriqc_date",
+            "items/mriqc_qc_present",
+            "items/mriqc_eprime_qc",
+            "items/mriqc_mpr1_qc",
+            "items/mriqc_mpr2_qc",
+            "items/mriqc_xetat21_qc",
+            "items/mriqc_xetat22_qc",
+            "items/mri_qc_scores_daic_use_only_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/mriqc_date",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mriqc_date"
+            },
+            {
+                "isAbout": "items/mriqc_qc_present",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mriqc_qc_present"
+            },
+            {
+                "isAbout": "items/mriqc_eprime_qc",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mriqc_eprime_qc"
+            },
+            {
+                "isAbout": "items/mriqc_mpr1_qc",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mriqc_mpr1_qc"
+            },
+            {
+                "isAbout": "items/mriqc_mpr2_qc",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mriqc_mpr2_qc"
+            },
+            {
+                "isAbout": "items/mriqc_xetat21_qc",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mriqc_xetat21_qc"
+            },
+            {
+                "isAbout": "items/mriqc_xetat22_qc",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mriqc_xetat22_qc"
+            },
+            {
+                "isAbout": "items/mri_qc_scores_daic_use_only_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_qc_scores_daic_use_only_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2206",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

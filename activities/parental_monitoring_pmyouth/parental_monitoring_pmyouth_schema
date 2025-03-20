@@ -1,0 +1,66 @@
+{
+    "id": "parental_monitoring_pmyouth_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "parental_monitoring_pmyouth"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/parental_monitor_start_time",
+            "items/parent_monitor_q1_y",
+            "items/parent_monitor_q2_y",
+            "items/parent_monitor_q3_y",
+            "items/parent_monitor_q4_y",
+            "items/parent_monitor_q5_y",
+            "items/parental_monitoring_pmyouth_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/parental_monitor_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "parental_monitor_start_time"
+            },
+            {
+                "isAbout": "items/parent_monitor_q1_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "parent_monitor_q1_y"
+            },
+            {
+                "isAbout": "items/parent_monitor_q2_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "parent_monitor_q2_y"
+            },
+            {
+                "isAbout": "items/parent_monitor_q3_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "parent_monitor_q3_y"
+            },
+            {
+                "isAbout": "items/parent_monitor_q4_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "parent_monitor_q4_y"
+            },
+            {
+                "isAbout": "items/parent_monitor_q5_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "parent_monitor_q5_y"
+            },
+            {
+                "isAbout": "items/parental_monitoring_pmyouth_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "parental_monitoring_pmyouth_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2206",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

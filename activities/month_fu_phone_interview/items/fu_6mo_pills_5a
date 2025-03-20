@@ -1,0 +1,43 @@
+{
+    "id": "fu_6mo_pills_5a",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        }
+    ],
+    "preamble": {
+        "en": "Now I'm going to ask you some questions about drugs and alcohol that you can answer with \"YES\" or \"NO\", so that no one else knows we're talking about drugs."
+    },
+    "prefLabel": {
+        "en": "fu_6mo_pills_5a"
+    },
+    "question": {
+        "en": "Did you use prescription stimulant drugs such as amphetamine, Ritalin, Adderall, or ephedrine in any way a doctor did not direct you to use them in thelast week?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

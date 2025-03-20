@@ -1,0 +1,20 @@
+{
+    "id": "mrif_note",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "mrif_note"
+    },
+    "question": {
+        "en": "Interpretation of reported scores:\r\n\r\n0 The study could not be read because of technical factors.\r\n1 No abnormal findings\r\n2 Normal anatomic variant or common incidental finding unlikely to be of clinical significance in a healthy individual. No referral necessary.\r\n3 Consider referral\r\n4 Consider immediate referral"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,52 @@
+{
+    "id": "y_intro_to_neurocog_1_yr_followup_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "y_intro_to_neurocog_1_yr_followup"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/intro_neurocog_start_time",
+            "items/intro_neurocog_ipad",
+            "items/intro_neurocog_ipad_other",
+            "items/intro_neurocog_1_yr",
+            "items/y_intro_to_neurocog_1_yr_followup_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/intro_neurocog_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "intro_neurocog_start_time"
+            },
+            {
+                "isAbout": "items/intro_neurocog_ipad",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "intro_neurocog_ipad"
+            },
+            {
+                "isAbout": "items/intro_neurocog_ipad_other",
+                "isVis": "intro_neurocog_ipad == '3'",
+                "valueRequired": false,
+                "variableName": "intro_neurocog_ipad_other"
+            },
+            {
+                "isAbout": "items/intro_neurocog_1_yr",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "intro_neurocog_1_yr"
+            },
+            {
+                "isAbout": "items/y_intro_to_neurocog_1_yr_followup_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "y_intro_to_neurocog_1_yr_followup_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2206",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

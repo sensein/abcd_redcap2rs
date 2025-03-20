@@ -1,0 +1,61 @@
+{
+    "id": "peer_deviance_7_beb683",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "peer_deviance"
+        }
+    ],
+    "preamble": {
+        "en": "Friends are people who you see regularly and spend time with in school and outside of school.How many of your friends:"
+    },
+    "prefLabel": {
+        "en": "peer_deviance_7_beb683"
+    },
+    "question": {
+        "en": "Use other drugs like cocaine, downers, or LSD (lysergic acid diethylamide)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "None"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "A Few"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Some"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Most"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "All"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

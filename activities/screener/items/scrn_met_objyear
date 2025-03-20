@@ -1,0 +1,39 @@
+{
+    "id": "scrn_met_objyear",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        },
+        {
+            "column": "Text Validation Min",
+            "source": "redcap",
+            "value": "2005"
+        },
+        {
+            "column": "Text Validation Max",
+            "source": "redcap",
+            "value": "2018.0"
+        }
+    ],
+    "prefLabel": {
+        "en": "scrn_met_objyear"
+    },
+    "question": {
+        "en": "\"What year was it put in?\"",
+        "es": "\"\u00c2\u00bfEn qu\u00c3\u00a9 a\u00c3\u00b1o se le coloc\u00c3\u00b3?\""
+    },
+    "responseOptions": {
+        "maxValue": 2018,
+        "minValue": 2005,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

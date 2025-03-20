@@ -1,0 +1,64 @@
+{
+    "id": "fitc_items_sent",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "Check all that apply"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@DEFAULT='1,2'  HIDEFROMCOMPLETION20190206"
+        }
+    ],
+    "prefLabel": {
+        "en": "fitc_items_sent"
+    },
+    "question": {
+        "en": "Items Sent"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Device"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Charger"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Device Replacement"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Charger Replacement"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Band Replacement"
+                },
+                "value": 5
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
