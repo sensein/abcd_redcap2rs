@@ -1,0 +1,40 @@
+{
+    "id": "ple_lockdown_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        }
+    ],
+    "prefLabel": {
+        "en": "ple_lockdown_y"
+    },
+    "question": {
+        "en": "Had a lockdown at your school due to concerns about a school shooting or violence?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
