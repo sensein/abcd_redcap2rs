@@ -24,9 +24,15 @@
             "items/menstrualcycle2_y",
             "items/menstrualcycle2_y_dk",
             "items/menstrualcycle3_y",
+            "items/menstrualcycle7_y",
+            "items/menstrualcycle8_y",
             "items/menstrualcycle4_y",
+            "items/menstrualcycle4a_y",
             "items/menstrualcycle5_y",
             "items/menstrualcycle6_y",
+            "items/menstrualcycle9_y",
+            "items/menstrualcycle10_y",
+            "items/menstrualcycle11_y",
             "items/pdsms_notes",
             "items/pubertal_development_scale_pdsmenstrual_historyyou_complete"
         ],
@@ -134,10 +140,28 @@
                 "variableName": "menstrualcycle3_y"
             },
             {
+                "isAbout": "items/menstrualcycle7_y",
+                "isVis": "pds_f5_y == '4' && event - name == '3_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "menstrualcycle7_y"
+            },
+            {
+                "isAbout": "items/menstrualcycle8_y",
+                "isVis": "pds_f5_y == '4' && event - name == '3_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "menstrualcycle8_y"
+            },
+            {
                 "isAbout": "items/menstrualcycle4_y",
                 "isVis": "pds_f5_y == '4'",
                 "valueRequired": true,
                 "variableName": "menstrualcycle4_y"
+            },
+            {
+                "isAbout": "items/menstrualcycle4a_y",
+                "isVis": "pds_f5_y == '4' && menstrualcycle4_y == '1' && event - name == '3_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "menstrualcycle4a_y"
             },
             {
                 "isAbout": "items/menstrualcycle5_y",
@@ -152,8 +176,26 @@
                 "variableName": "menstrualcycle6_y"
             },
             {
+                "isAbout": "items/menstrualcycle9_y",
+                "isVis": "pds_f5_y == '4' && event - name == '3_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "menstrualcycle9_y"
+            },
+            {
+                "isAbout": "items/menstrualcycle10_y",
+                "isVis": "pds_f5_y == '4' && event - name == '3_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "menstrualcycle10_y"
+            },
+            {
+                "isAbout": "items/menstrualcycle11_y",
+                "isVis": "pds_f5_y == '4' && event - name == '3_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "menstrualcycle11_y"
+            },
+            {
                 "isAbout": "items/pdsms_notes",
-                "isVis": false,
+                "isVis": true,
                 "valueRequired": false,
                 "variableName": "pdsms_notes"
             },
