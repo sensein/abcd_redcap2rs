@@ -17,6 +17,7 @@
             "items/demo_gender_notes_p_l",
             "items/demo_ethnic_youth_acs_p",
             "items/demo_race_youth_acs_p",
+            "items/demo_race_youth_acs_tribe_p",
             "items/demo_race_youth_acs_oth_asian_p",
             "items/demo_race_youth_acs_oth_pi_p",
             "items/demo_race_youth_acs_other_p",
@@ -175,6 +176,12 @@
                 "isVis": "event_name_number <> '11' && baseline_year_1_arm_1race_ethnicity == ''",
                 "valueRequired": true,
                 "variableName": "demo_race_youth_acs_p"
+            },
+            {
+                "isAbout": "items/demo_race_youth_acs_tribe_p",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "demo_race_youth_acs_tribe_p"
             },
             {
                 "isAbout": "items/demo_race_youth_acs_oth_asian_p",
