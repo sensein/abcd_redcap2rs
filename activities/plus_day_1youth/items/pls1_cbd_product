@@ -1,0 +1,61 @@
+{
+    "id": "pls1_cbd_product",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        }
+    ],
+    "preamble": {
+        "en": "Participant Section:\"I just have a few questions before we start the next activity.\""
+    },
+    "prefLabel": {
+        "en": "pls1_cbd_product"
+    },
+    "question": {
+        "en": "What type of CBD product did you use?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Epidiolex"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Oil or tincture by mouth"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Inhaled or smoked product"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Edible, capsule, or pill"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Topical lotion or transdermal patch"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

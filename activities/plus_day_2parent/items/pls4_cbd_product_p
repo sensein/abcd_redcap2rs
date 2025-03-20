@@ -1,0 +1,55 @@
+{
+    "id": "pls4_cbd_product_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "PLUS DAY 4"
+    },
+    "prefLabel": {
+        "en": "pls4_cbd_product_p"
+    },
+    "question": {
+        "en": "What type of CBD product did they use?",
+        "es": "XXXXXXX"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "##en##Epidiolex##/en####es##XXXXXXX##/es##"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "##en##Oil or tincture by mouth##/en####es##XXXXXXX##/es##"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "##en##Inhaled or smoked product##/en####es##XXXXXXXX##/es##"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "##en##Edible, capsule, or pill##/en####es##XXXXXXX##/es##"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "##en##Topical lotion or transdermal patch##/en####es##XXXXXX##/es##"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
