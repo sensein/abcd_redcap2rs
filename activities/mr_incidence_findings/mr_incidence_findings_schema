@@ -13,6 +13,8 @@
             "items/mrif_hydrocephalus",
             "items/mrif_herniation",
             "items/mrif_other_notes",
+            "items/mrif_fu_mismatch",
+            "items/mrif_fu_diff",
             "items/mrif_read_series_ids",
             "items/mrif_read_series_filenames",
             "items/mrif_daic2rad_send",
@@ -83,6 +85,18 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "mrif_other_notes"
+            },
+            {
+                "isAbout": "items/mrif_fu_mismatch",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mrif_fu_mismatch"
+            },
+            {
+                "isAbout": "items/mrif_fu_diff",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mrif_fu_diff"
             },
             {
                 "isAbout": "items/mrif_read_series_ids",
