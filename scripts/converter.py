@@ -310,13 +310,26 @@ class ReproSchemaConverter:
 
     def process_changed_files(self):
         """Process changed files and discard changes if only version is modified"""
-        self.repo.git.add(update=True)  # Ensure index is up to date
+        # Add all files in the relevant folders to ensure we catch new files
+        relevant_folders = [f"{self.protocol_name}", "activities"]
+        for folder in relevant_folders:
+            folder_path = os.path.join(self.repo_path, folder)
+            if os.path.exists(folder_path):
+                self.repo.git.add(folder_path)
         
         changed_files = []
-        relevant_folders = [f"{self.protocol_name}", "activities"]
         
-        for item in self.repo.index.diff(None):  # Compare working directory against HEAD
-            # Check if file is in one of our relevant folders
+        # Get both staged and unstaged changes compared to HEAD
+        diffs = list(self.repo.index.diff('HEAD')) + list(self.repo.index.diff(None))
+        
+        # Also check for untracked files
+        untracked = [
+            item for item in self.repo.untracked_files
+            if any(folder in item for folder in relevant_folders)
+        ]
+        
+        # Process all changes
+        for item in diffs:
             if any(folder in item.a_path for folder in relevant_folders):
                 file_path = os.path.join(self.repo_path, item.a_path)
                 
@@ -327,6 +340,12 @@ class ReproSchemaConverter:
                     logger.info(f"{file_path} has substantial changes")
                     changed_files.append(item.a_path)
         
+        # Add any untracked files to changed_files
+        for item in untracked:
+            logger.info(f"New file detected: {item}")
+            changed_files.append(item)
+        
+        logger.info(f"Found {len(changed_files)} files with substantial changes")
         return changed_files
 
     def commit_and_tag(self, commit_message, tag_name, tag_message, folders_to_update):
