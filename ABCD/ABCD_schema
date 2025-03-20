@@ -268,7 +268,10 @@
             "../activities/neglectful_behavior/neglectful_behavior_schema",
             "../activities/perceived_stress/perceived_stress_schema",
             "../activities/pet_ownership/pet_ownership_schema",
-            "../activities/p_ra_feedback_3yr_pilot/p_ra_feedback_3yr_pilot_schema"
+            "../activities/p_ra_feedback_3yr_pilot/p_ra_feedback_3yr_pilot_schema",
+            "../activities/screentime_parent_psq/screentime_parent_psq_schema",
+            "../activities/sports_activities_read_music_parent/sports_activities_read_music_parent_schema",
+            "../activities/sports_activities_read_music_youth/sports_activities_read_music_youth_schema"
         ],
         "addProperties": [
             {
@@ -2342,10 +2345,34 @@
                     "en": "P Ra Feedback 3Yr Pilot"
                 },
                 "variableName": "p_ra_feedback_3yr_pilot_schema"
+            },
+            {
+                "isAbout": "../activities/screentime_parent_psq/screentime_parent_psq_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Screentime Parent Psq"
+                },
+                "variableName": "screentime_parent_psq_schema"
+            },
+            {
+                "isAbout": "../activities/sports_activities_read_music_parent/sports_activities_read_music_parent_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Sports Activities Read Music Parent"
+                },
+                "variableName": "sports_activities_read_music_parent_schema"
+            },
+            {
+                "isAbout": "../activities/sports_activities_read_music_youth/sports_activities_read_music_youth_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Sports Activities Read Music Youth"
+                },
+                "variableName": "sports_activities_read_music_youth_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2226",
+    "version": "revid2227",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
