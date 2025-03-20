@@ -319,25 +319,25 @@
             {
                 "isAbout": "items/ple_injur_p",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "ple_injur_p"
             },
             {
                 "isAbout": "items/ple_injur_p_past",
                 "isVis": "ple_injur_p == '1'",
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "ple_injur_p_past"
             },
             {
                 "isAbout": "items/ple_injur_fu_p",
                 "isVis": "ple_injur_p == '1'",
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "ple_injur_fu_p"
             },
             {
                 "isAbout": "items/ple_injur_fu2_p",
                 "isVis": "ple_injur_p == '1'",
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "ple_injur_fu2_p"
             },
             {
