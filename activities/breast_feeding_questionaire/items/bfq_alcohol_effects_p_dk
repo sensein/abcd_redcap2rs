@@ -1,0 +1,36 @@
+{
+    "id": "bfq_alcohol_effects_p_dk",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        }
+    ],
+    "prefLabel": {
+        "en": "bfq_alcohol_effects_p_dk"
+    },
+    "question": {
+        "en": "How many drinks did it take to feel the effects of alcohol?",
+        "es": "\u00c2\u00bfCu\u00c3\u00a1ntas bebidas tomaba para sentir los efectos del alcohol?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Don't know",
+                    "es": "No lo s\u00c3\u00a9"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
