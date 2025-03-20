@@ -470,7 +470,7 @@ class ReproSchemaConverter:
             run(["reproschema", "--version"], check=True, stdout=PIPE, stderr=PIPE)
         except (CalledProcessError, FileNotFoundError):
             logger.error("reproschema command not found. Please ensure it's installed.")
-            return
+            sys.exit(1)
         
         start_time = datetime.datetime.now()
         logger.info(f"Job started at {start_time}")
@@ -482,7 +482,7 @@ class ReproSchemaConverter:
             logger.info("Pulled latest changes from the repository")
         except git_exc.GitCommandError as e:
             logger.error(f"Error pulling from repository: {e}")
-            # Continue anyway, we might have local changes
+            sys.exit(1)  # Exit on git error
         
         # List and sort files in S3 bucket
         s3_files = self.list_s3_files()
@@ -514,17 +514,16 @@ class ReproSchemaConverter:
         for file_info in new_files:
             logger.info(f"Processing file {file_info['filename']} (revid: {file_info['revid']})")
             
-            if self.process_file(file_info):
+            success = self.process_file(file_info)
+            if success:
                 processed_count += 1
                 logger.info(f"Successfully processed {file_info['filename']}")
             else:
                 error_count += 1
-                logger.warning(f"Failed to process {file_info['filename']}")
-            
-            # Break after processing first successful file if starting from scratch
-            if current_version == 0 and processed_count > 0:
-                logger.info("Initial conversion completed. Stopping to establish baseline.")
-                break
+                logger.error(f"Failed to process {file_info['filename']}")
+                # Exit immediately if any file fails processing
+                logger.error("Stopping further processing due to file conversion failure")
+                sys.exit(1)  # Exit with error status
         
         end_time = datetime.datetime.now()
         duration = end_time - start_time
@@ -532,6 +531,11 @@ class ReproSchemaConverter:
         logger.info(f"Job completed at {end_time}")
         logger.info(f"Duration: {duration}")
         logger.info(f"Processed {processed_count} files with {error_count} errors")
+        
+        # Exit with error if no files were processed successfully (but files were available)
+        if processed_count == 0 and len(new_files) > 0:
+            logger.error("No files were successfully processed")
+            sys.exit(1)
 
 
 if __name__ == "__main__":
