@@ -1,0 +1,74 @@
+{
+    "id": "ra_fb_3yr_ph_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "LV"
+        }
+    ],
+    "preamble": {
+        "en": "Please use this form to document both NeuroCog tasks start and end time AND any feedback regarding the 3-year follow-up YOUTH protocol elements. \n\nInput information on REDCap related issues such as typos, branching logic, redundancy or omissions, etc.; \nconcerns about the wording or meaning of items; pilot's observations; checklists, SOP(s), etc."
+    },
+    "prefLabel": {
+        "en": "ra_fb_3yr_ph_y"
+    },
+    "question": {
+        "en": "Public Health Module"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Anthropometrics"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Pubertal Hormone Saliva"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Pubertal Development Scale"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Munich Chronotype Questionaire"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Nutrition"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Pain Questionnaire"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Sports Activities Involvement"
+                },
+                "value": 7
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

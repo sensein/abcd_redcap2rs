@@ -1,0 +1,42 @@
+{
+    "id": "youth_self_report_complete",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Form Status"
+    },
+    "prefLabel": {
+        "en": "youth_self_report_complete"
+    },
+    "question": {
+        "en": "Complete?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Incomplete"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Unverified"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Complete"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
