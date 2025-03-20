@@ -30,6 +30,9 @@
             "items/pls2_p_youth_ago_5",
             "items/pls2_p_caf",
             "items/pls2_p_caf_ago",
+            "items/pls2_cbd_p",
+            "items/pls2_cbd_ago_p",
+            "items/pls2_cbd_product_p",
             "items/pls2_p_notes",
             "items/pls2_p_date_year",
             "items/pls3_need_p",
@@ -52,6 +55,9 @@
             "items/pls3_med5_youth_ago_p",
             "items/pls3_caf_p",
             "items/pls3_caf_ago_p",
+            "items/pls3_cbd_p",
+            "items/pls3_cbd_ago_p",
+            "items/pls3_cbd_product_p",
             "items/pls3_notes_p",
             "items/pls3_date_year_p",
             "items/pls4_need_p",
@@ -74,6 +80,9 @@
             "items/pls4_med5_youth_ago_p",
             "items/pls4_caf_p",
             "items/pls4_caf_ago_p",
+            "items/pls4_cbd_p",
+            "items/pls4_cbd_ago_p",
+            "items/pls4_cbd_product_p",
             "items/pls4_notes_p",
             "items/pls4_date_year_p",
             "items/plus_day_2parent_complete"
@@ -218,6 +227,24 @@
                 "variableName": "pls2_p_caf_ago"
             },
             {
+                "isAbout": "items/pls2_cbd_p",
+                "isVis": "event_name_number > 20 && pls2_need_p == '1'",
+                "valueRequired": true,
+                "variableName": "pls2_cbd_p"
+            },
+            {
+                "isAbout": "items/pls2_cbd_ago_p",
+                "isVis": "pls2_cbd_p == '1'",
+                "valueRequired": true,
+                "variableName": "pls2_cbd_ago_p"
+            },
+            {
+                "isAbout": "items/pls2_cbd_product_p",
+                "isVis": "pls2_cbd_p == '1'",
+                "valueRequired": true,
+                "variableName": "pls2_cbd_product_p"
+            },
+            {
                 "isAbout": "items/pls2_p_notes",
                 "isVis": "pls2_need_p == '1'",
                 "valueRequired": false,
@@ -350,6 +377,24 @@
                 "variableName": "pls3_caf_ago_p"
             },
             {
+                "isAbout": "items/pls3_cbd_p",
+                "isVis": "event_name_number > 20 && pls3_need_p == '1'",
+                "valueRequired": true,
+                "variableName": "pls3_cbd_p"
+            },
+            {
+                "isAbout": "items/pls3_cbd_ago_p",
+                "isVis": "pls3_cbd_p == '1'",
+                "valueRequired": true,
+                "variableName": "pls3_cbd_ago_p"
+            },
+            {
+                "isAbout": "items/pls3_cbd_product_p",
+                "isVis": "pls3_cbd_p == '1'",
+                "valueRequired": true,
+                "variableName": "pls3_cbd_product_p"
+            },
+            {
                 "isAbout": "items/pls3_notes_p",
                 "isVis": "pls3_need_p == '1'",
                 "valueRequired": false,
@@ -480,6 +525,24 @@
                 "isVis": "pls4_caf_p == '1'",
                 "valueRequired": false,
                 "variableName": "pls4_caf_ago_p"
+            },
+            {
+                "isAbout": "items/pls4_cbd_p",
+                "isVis": "event_name_number > 20 && pls4_need_p == '1'",
+                "valueRequired": true,
+                "variableName": "pls4_cbd_p"
+            },
+            {
+                "isAbout": "items/pls4_cbd_ago_p",
+                "isVis": "pls4_cbd_p == '1'",
+                "valueRequired": true,
+                "variableName": "pls4_cbd_ago_p"
+            },
+            {
+                "isAbout": "items/pls4_cbd_product_p",
+                "isVis": "pls4_cbd_p == '1'",
+                "valueRequired": true,
+                "variableName": "pls4_cbd_product_p"
             },
             {
                 "isAbout": "items/pls4_notes_p",
