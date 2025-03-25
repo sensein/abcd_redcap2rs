@@ -74,12 +74,12 @@
             "../activities/social_influence_sum_scores/social_influence_sum_scores_schema",
             "../activities/little_man_task_daic_use_only/little_man_task_daic_use_only_schema",
             "../activities/y_intro_to_neurocog_1_yr_followup/y_intro_to_neurocog_1_yr_followup_schema",
+            "../activities/stroop_emotional_taskyouthscoresdaic_use_only/stroop_emotional_taskyouthscoresdaic_use_only_schema",
+            "../activities/delay_discounting_sum_scores/delay_discounting_sum_scores_schema",
             "../activities/pain_questionnaire/pain_questionnaire_schema",
             "../activities/munich_chronotype_questionnaire_mctq_for_children/munich_chronotype_questionnaire_mctq_for_children_schema",
             "../activities/sports_activities_read_music_youth/sports_activities_read_music_youth_schema",
             "../activities/youth_risk_behavior_physical_activity_payouth/youth_risk_behavior_physical_activity_payouth_schema",
-            "../activities/stroop_emotional_taskyouthscoresdaic_use_only/stroop_emotional_taskyouthscoresdaic_use_only_schema",
-            "../activities/delay_discounting_sum_scores/delay_discounting_sum_scores_schema",
             "../activities/screen_time_styouth/screen_time_styouth_schema",
             "../activities/uppsshortphenxyouth/uppsshortphenxyouth_schema",
             "../activities/bisbasphenxyouth/bisbasphenxyouth_schema",
@@ -789,6 +789,22 @@
                 "variableName": "y_intro_to_neurocog_1_yr_followup_schema"
             },
             {
+                "isAbout": "../activities/stroop_emotional_taskyouthscoresdaic_use_only/stroop_emotional_taskyouthscoresdaic_use_only_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Stroop Emotional Taskyouthscoresdaic Use Only"
+                },
+                "variableName": "stroop_emotional_taskyouthscoresdaic_use_only_schema"
+            },
+            {
+                "isAbout": "../activities/delay_discounting_sum_scores/delay_discounting_sum_scores_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Delay Discounting Sum Scores"
+                },
+                "variableName": "delay_discounting_sum_scores_schema"
+            },
+            {
                 "isAbout": "../activities/pain_questionnaire/pain_questionnaire_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -819,22 +835,6 @@
                     "en": "Youth Risk Behavior Physical Activity Payouth"
                 },
                 "variableName": "youth_risk_behavior_physical_activity_payouth_schema"
-            },
-            {
-                "isAbout": "../activities/stroop_emotional_taskyouthscoresdaic_use_only/stroop_emotional_taskyouthscoresdaic_use_only_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Stroop Emotional Taskyouthscoresdaic Use Only"
-                },
-                "variableName": "stroop_emotional_taskyouthscoresdaic_use_only_schema"
-            },
-            {
-                "isAbout": "../activities/delay_discounting_sum_scores/delay_discounting_sum_scores_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Delay Discounting Sum Scores"
-                },
-                "variableName": "delay_discounting_sum_scores_schema"
             },
             {
                 "isAbout": "../activities/screen_time_styouth/screen_time_styouth_schema",
@@ -2391,6 +2391,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2230",
+    "version": "revid2231",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
