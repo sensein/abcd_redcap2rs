@@ -19,6 +19,9 @@
             "items/parent_rules_q7",
             "items/parent_rules_q8",
             "items/parent_rules_q9",
+            "items/parent_rules_q_10",
+            "items/parent_rules_q_11",
+            "items/parent_rules_q_12",
             "items/p_parent_rules_pr_complete"
         ],
         "addProperties": [
@@ -95,6 +98,24 @@
                 "variableName": "parent_rules_q9"
             },
             {
+                "isAbout": "items/parent_rules_q_10",
+                "isVis": "event - name == '3_year_follow_up_y_arm_1'",
+                "valueRequired": false,
+                "variableName": "parent_rules_q_10"
+            },
+            {
+                "isAbout": "items/parent_rules_q_11",
+                "isVis": "parent_rules_q_10 == 1 || parent_rules_q_10 ==2 || parent_rules_q_10 ==3 || parent_rules_q_10 ==4",
+                "valueRequired": false,
+                "variableName": "parent_rules_q_11"
+            },
+            {
+                "isAbout": "items/parent_rules_q_12",
+                "isVis": "parent_rules_q_10 == 1 || parent_rules_q_10 ==2 || parent_rules_q_10 ==3 || parent_rules_q_10 ==4",
+                "valueRequired": false,
+                "variableName": "parent_rules_q_12"
+            },
+            {
                 "isAbout": "items/p_parent_rules_pr_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -103,6 +124,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2247",
+    "version": "revid2248",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

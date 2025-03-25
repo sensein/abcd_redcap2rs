@@ -1,0 +1,55 @@
+{
+    "id": "parent_rules_q_12",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "The next questions are about your household rules about alcohol and drugs.",
+        "es": "Las siguientes preguntas son acerca de las reglas de su hogar con respecto al consumo de alcohol y drogas."
+    },
+    "prefLabel": {
+        "en": "parent_rules_q_12"
+    },
+    "question": {
+        "en": "Do you enforce penalties for violating family rules about using electronic nicotine or vaping products?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Rarely"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Often"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "I have not had to enforce these rules"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
