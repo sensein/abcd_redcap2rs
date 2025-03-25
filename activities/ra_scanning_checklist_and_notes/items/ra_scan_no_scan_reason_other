@@ -1,0 +1,26 @@
+{
+    "id": "ra_scan_no_scan_reason_other",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20190425"
+        }
+    ],
+    "prefLabel": {
+        "en": "ra_scan_no_scan_reason_other"
+    },
+    "question": {
+        "en": "Please describe \"Other\" reason."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
