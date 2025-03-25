@@ -1,0 +1,47 @@
+{
+    "id": "ple_shot_past_yr_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        }
+    ],
+    "preamble": {
+        "en": "Next I am going to ask you about events that may have happened during your child's lifetime.",
+        "es": "A continuaci\u00c3\u00b3n, le voy a preguntar sobre eventos que pueden haber ocurrido durante la vida de su hijo(a)."
+    },
+    "prefLabel": {
+        "en": "ple_shot_past_yr_p"
+    },
+    "question": {
+        "en": "Did this happen in the past year?",
+        "es": "\u00c2\u00bfEsto ha sucedido en el \u00c3\u00baltimo a\u00c3\u00b1o?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "Si"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
