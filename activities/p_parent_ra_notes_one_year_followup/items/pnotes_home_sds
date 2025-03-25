@@ -1,0 +1,49 @@
+{
+    "id": "pnotes_home_sds",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "home_completion"
+        }
+    ],
+    "preamble": {
+        "en": "COMPLETION METHODTake Home Surveys / Remote Completion"
+    },
+    "prefLabel": {
+        "en": "pnotes_home_sds"
+    },
+    "question": {
+        "en": "Sleep Disturbance Scale for Children"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "By Phone"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "By Link"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Off-site, In-person"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

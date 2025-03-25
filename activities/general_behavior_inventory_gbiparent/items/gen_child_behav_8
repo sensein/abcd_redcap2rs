@@ -1,0 +1,70 @@
+{
+    "id": "gen_child_behav_8",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "8"
+        },
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "gen_behav"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "8"
+        }
+    ],
+    "preamble": {
+        "en": "Form Status"
+    },
+    "prefLabel": {
+        "en": "gen_child_behav_8"
+    },
+    "question": {
+        "en": "Has your child had periods lasting several days or more when he/she felt depressed or irritable, and then other periods of several days or more when he/she felt extremely high, elated, and overflowing with energy?",
+        "es": "\u00c2\u00bfSu ni\u00c3\u00b1o(a) ha tenido per\u00c3\u00adodos de varios d\u00c3\u00adas o m\u00c3\u00a1s en los que se ha sentido deprimido(a) o irritable, y luego otros per\u00c3\u00adodos de varios d\u00c3\u00adas o m\u00c3\u00a1s en los que se ha sentido extremadamente euf\u00c3\u00b3rico(a), entusiasmado(a) y desbordante de energ\u00c3\u00ada?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never - Hardly ever",
+                    "es": "Nunca o casi nunca"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Sometimes",
+                    "es": "A veces"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Often",
+                    "es": "Con frecuencia"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Very often - almost constantly",
+                    "es": "Con mucha frecuencia - casi constantemente"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

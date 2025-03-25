@@ -1,0 +1,122 @@
+{
+    "id": "p_short_social_responsiveness_scale_l_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "p_short_social_responsiveness_scale_l"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ssrs_start_time",
+            "items/ssrs_select_language",
+            "items/ssrs_6_p",
+            "items/ssrs_15_p",
+            "items/ssrs_15r_p",
+            "items/ssrs_16_p",
+            "items/ssrs_18_p",
+            "items/ssrs_24_p",
+            "items/ssrs_29_p",
+            "items/ssrs_35_p",
+            "items/ssrs_37_p",
+            "items/ssrs_39_p",
+            "items/ssrs_42_p",
+            "items/ssrs_58_p",
+            "items/p_short_social_responsiveness_scale_l_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ssrs_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ssrs_start_time"
+            },
+            {
+                "isAbout": "items/ssrs_select_language",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ssrs_select_language"
+            },
+            {
+                "isAbout": "items/ssrs_6_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ssrs_6_p"
+            },
+            {
+                "isAbout": "items/ssrs_15_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ssrs_15_p"
+            },
+            {
+                "isAbout": "items/ssrs_15r_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ssrs_15r_p"
+            },
+            {
+                "isAbout": "items/ssrs_16_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ssrs_16_p"
+            },
+            {
+                "isAbout": "items/ssrs_18_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ssrs_18_p"
+            },
+            {
+                "isAbout": "items/ssrs_24_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ssrs_24_p"
+            },
+            {
+                "isAbout": "items/ssrs_29_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ssrs_29_p"
+            },
+            {
+                "isAbout": "items/ssrs_35_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ssrs_35_p"
+            },
+            {
+                "isAbout": "items/ssrs_37_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ssrs_37_p"
+            },
+            {
+                "isAbout": "items/ssrs_39_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ssrs_39_p"
+            },
+            {
+                "isAbout": "items/ssrs_42_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ssrs_42_p"
+            },
+            {
+                "isAbout": "items/ssrs_58_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ssrs_58_p"
+            },
+            {
+                "isAbout": "items/p_short_social_responsiveness_scale_l_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "p_short_social_responsiveness_scale_l_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

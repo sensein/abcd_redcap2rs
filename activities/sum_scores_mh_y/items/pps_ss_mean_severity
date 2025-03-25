@@ -1,0 +1,35 @@
+{
+    "id": "pps_ss_mean_severity",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Prodromal Psychosis Scale (PPS)"
+    },
+    "prefLabel": {
+        "en": "pps_ss_mean_severity"
+    },
+    "question": {
+        "en": "Prodromal Psychosis: Mean Endorsed Severity Score\nPPS severity score/Number of yes response\npps_y_ss_severity_score / pps_y_ss_number"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

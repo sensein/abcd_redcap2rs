@@ -1,0 +1,54 @@
+{
+    "id": "video_adult",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "substudies_other_adult"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@DEFAULT='-1'"
+        }
+    ],
+    "preamble": {
+        "en": "SUBSTUDIES & OPTIONAL CONSENT DOCUMENTS for PARENTSNOTE for RA:Please choose \"NA\", if not applicable to your site site or if not given."
+    },
+    "prefLabel": {
+        "en": "video_adult"
+    },
+    "question": {
+        "en": "ADULTVideo/Photograph Release Permission (Optional release for newsletters etc.)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "NA"
+                },
+                "value": -1
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,48 @@
+{
+    "id": "image_data_site_contact_md",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@DEFAULT=0"
+        }
+    ],
+    "preamble": {
+        "en": "Image Track"
+    },
+    "prefLabel": {
+        "en": "image_data_site_contact_md"
+    },
+    "question": {
+        "en": "Site has been contacted about missing data"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

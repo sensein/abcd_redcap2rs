@@ -1,0 +1,51 @@
+{
+    "id": "ksads_r_intro_7_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "ksads_r_intro_7_p"
+    },
+    "question": null,
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Less than once a month"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A few times a month"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Once a week or more often"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

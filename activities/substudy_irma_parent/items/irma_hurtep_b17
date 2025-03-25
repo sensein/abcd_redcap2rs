@@ -1,0 +1,47 @@
+{
+    "id": "irma_hurtep_b17",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "hurtep_b2"
+        }
+    ],
+    "preamble": {
+        "en": "The following questions are about you and your family's experiences in the days BEFOREHurricane Irma(September 2017).",
+        "es": "Las siguientes preguntas son sobre usted y las experiencias de su familia en los d\u00c3\u00adas ANTES delHurac\u00c3\u00a1n Irma(septiembre de 2017)."
+    },
+    "prefLabel": {
+        "en": "irma_hurtep_b17"
+    },
+    "question": {
+        "en": "At any time before the hurricane, did you think that the hurricane might cause major damage to your home, or that you might lose your home",
+        "es": "En cualquier momento antes del hurac\u00c3\u00a1n, \u00c2\u00bfpens\u00c3\u00b3 que el hurac\u00c3\u00a1n podr\u00c3\u00ada causar un da\u00c3\u00b1o mayor a su hogar, o que podr\u00c3\u00ada perder su hogar?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "Si"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

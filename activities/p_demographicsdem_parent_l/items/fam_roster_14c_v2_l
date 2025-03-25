@@ -1,0 +1,116 @@
+{
+    "id": "fam_roster_14c_v2_l",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Fill out the following questions for everyone who is living or staying at this address for more than 2 months (including yourself).",
+        "es": "Responda las siguientes preguntas para todas las personas que est\u00c3\u00a9n viviendo o que se hayan estado quedando en este domicilio durante m\u00c3\u00a1s de 2 meses (incluy\u00c3\u00a9ndose a usted mismo(a))."
+    },
+    "prefLabel": {
+        "en": "fam_roster_14c_v2_l"
+    },
+    "question": {
+        "en": "Person #14, relationship to you:",
+        "es": "Persona #14, parentesco a usted:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "##en##Husband or wife##/en####es##Esposo(a)##/es##"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "##en##Son-in-law or daughter-in-law##/en####es##Yerno / nuera##/es##"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "##en##Biological son or daughter##/en####es##Hijo(a) biol\u00c3\u00b3gico(a)##/es##"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "##en##Other relative##/en####es##Otro pariente##/es##"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "##en##Adopted son or daughter##/en####es##Hijo(a) adoptado(a)##/es##"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "##en##Roomer or boarder##/en####es##Ocupante o inquilino##/es##"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "##en##Stepson or stepdaughter##/en####es##Hijastro(a)##/es##"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "##en##Housemate or roommate##/en####es##Compa\u00c3\u00b1ero(a) de casa o de habitaci\u00c3\u00b3n##/es##"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "##en##Brother or sister##/en####es##Hermano(a)##/es##"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "##en##Unmarried partner##/en####es##Pareja en uni\u00c3\u00b3n libre##/es##"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "##en##Father or mother##/en####es##Padre o madre##/es##"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "##en##Foster child##/en####es##Hijo(a) en cuidado tutelar##/es##"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "##en##Grandchild##/en####es##Nieto(a)##/es##"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "##en##Other nonrelative##/en####es##Otra persona que no es su pariente##/es##"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "##en##Parent-in-law##/en####es##Suegro(a)##/es##"
+                },
+                "value": 15
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

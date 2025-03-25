@@ -1,0 +1,34 @@
+{
+    "id": "su_assess",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "su_assess"
+    },
+    "question": {
+        "en": "Which assessments?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "SU Interview"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Timeline Followback (ABCD Reports)"
+                },
+                "value": 2
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,45 @@
+{
+    "id": "substudies_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "substudies"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/substudy_irma",
+            "items/substudy_fitbit",
+            "items/substudy_social_dev",
+            "items/substudies_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/substudy_irma",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "substudy_irma"
+            },
+            {
+                "isAbout": "items/substudy_fitbit",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "substudy_fitbit"
+            },
+            {
+                "isAbout": "items/substudy_social_dev",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "substudy_social_dev"
+            },
+            {
+                "isAbout": "items/substudies_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "substudies_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

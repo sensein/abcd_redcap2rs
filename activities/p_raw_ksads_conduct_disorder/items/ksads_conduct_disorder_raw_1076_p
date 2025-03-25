@@ -1,0 +1,90 @@
+{
+    "id": "ksads_conduct_disorder_raw_1076_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "ksads_conduct_disorder_raw_1076_p"
+    },
+    "question": {
+        "en": "Please review the symptoms you endorsed in the current and past questions and mark all the grades your child did these things. Bullied others"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "3rd"
+                },
+                "value": "3rd"
+            },
+            {
+                "name": {
+                    "en": "4th"
+                },
+                "value": "4th"
+            },
+            {
+                "name": {
+                    "en": "5th"
+                },
+                "value": "5th"
+            },
+            {
+                "name": {
+                    "en": "6th"
+                },
+                "value": "6th"
+            },
+            {
+                "name": {
+                    "en": "7th"
+                },
+                "value": "7th"
+            },
+            {
+                "name": {
+                    "en": "8th"
+                },
+                "value": "8th"
+            },
+            {
+                "name": {
+                    "en": "9th"
+                },
+                "value": "9th"
+            },
+            {
+                "name": {
+                    "en": "10th"
+                },
+                "value": "10th"
+            },
+            {
+                "name": {
+                    "en": "11th"
+                },
+                "value": "11th"
+            },
+            {
+                "name": {
+                    "en": "12th"
+                },
+                "value": "12th"
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

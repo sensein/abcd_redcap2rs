@@ -1,0 +1,38 @@
+{
+    "id": "tlfb_age",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        },
+        {
+            "column": "Text Validation Min",
+            "source": "redcap",
+            "value": "9"
+        },
+        {
+            "column": "Text Validation Max",
+            "source": "redcap",
+            "value": "10.0"
+        }
+    ],
+    "prefLabel": {
+        "en": "tlfb_age"
+    },
+    "question": {
+        "en": "How old is the youth? \n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 (in years)?"
+    },
+    "responseOptions": {
+        "maxValue": 10,
+        "minValue": 9,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

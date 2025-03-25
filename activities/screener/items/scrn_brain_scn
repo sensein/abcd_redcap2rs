@@ -1,0 +1,34 @@
+{
+    "id": "scrn_brain_scn",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "scrn_brain_scn"
+    },
+    "question": {
+        "en": "\"Has your doctor ever requested a brain scan for your child?\"",
+        "es": "\"\u00c2\u00bfSu m\u00c3\u00a9dico alguna vez le ha ordenado un estudio cerebral para su ni\u00c3\u00b1o(a)?\""
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

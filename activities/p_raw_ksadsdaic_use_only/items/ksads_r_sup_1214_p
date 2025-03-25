@@ -1,0 +1,53 @@
+{
+    "id": "ksads_r_sup_1214_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "ksads_r_sup_1214_p"
+    },
+    "question": {
+        "en": "You endorsed the symptoms listed below as occurring at some time in the past. Please note if these symptoms were present in the past 0-3 months and also if they were present in the past 4-12 months.Your child's drinking time replaced the time he or she used to spend doing his or her usual activities, like sports, hobbies, spending time with family or friends, or work or school."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

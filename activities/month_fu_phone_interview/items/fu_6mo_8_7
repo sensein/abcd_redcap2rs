@@ -1,0 +1,71 @@
+{
+    "id": "fu_6mo_8_7",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "7"
+        },
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "felt"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "7"
+        }
+    ],
+    "preamble": {
+        "en": "Now I'm going to read you a list of items that describe how kids feel. Please rate how each item describes you now or within the past 7 days.  After I read each item, please answer with one of the following 3 options: Not True(pause), Somewhat True(pause), or Very True.\n\nIn the past 7 days...(read first item).Okay, now tell me if the best answer for you is: Not True(pause), Somewhat True(pause), or Very True. (Read items 2-9. You do not need to provide coding options after each item if the child responds appropriately.)"
+    },
+    "prefLabel": {
+        "en": "fu_6mo_8_7"
+    },
+    "question": {
+        "en": "I felt confident."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not True"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Somewhat True"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Very True"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer"
+                },
+                "value": 777
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

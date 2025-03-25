@@ -1,0 +1,30 @@
+{
+    "id": "bpm_t_ss_internal_mean",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Internal Mean Score"
+    },
+    "prefLabel": {
+        "en": "bpm_t_ss_internal_mean"
+    },
+    "question": {
+        "en": "Mean:\nMean(bpmt_q8 + bpmt_q10 +\nbpmt_q11 + bpmt_q12 +\nbpmt_q17 + bpmt_q18)\nValidation: All items must be answered"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

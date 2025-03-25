@@ -1,0 +1,43 @@
+{
+    "id": "kbi_p_c_best_friend_len_l",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "kbi_p_c_best_friend_len_l"
+    },
+    "question": {
+        "en": "How long has your child been friends with this best friend?",
+        "es": "\u00c2\u00bfHace cu\u00c3\u00a1nto tiempo que su ni\u00c3\u00b1o(a) es amigo(a) de este mejor amigo o amiga?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Less than a year",
+                    "es": "Menos de un a\u00c3\u00b1o"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "1-2 years",
+                    "es": "De 1 a 2 a\u00c3\u00b1os"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "More than 3 years",
+                    "es": "M\u00c3\u00a1s de 3 a\u00c3\u00b1os"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

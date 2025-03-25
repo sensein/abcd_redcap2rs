@@ -1,0 +1,80 @@
+{
+    "id": "gish_m11_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "11"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "11"
+        }
+    ],
+    "preamble": {
+        "en": "Please answer the following behavioral statements as they currently characterize your child's behavior. For each question indicate the response that most accurately describes your child:",
+        "es": "Por favor, responda a las siguientes declaraciones seg\u00c3\u00ban caracterizan actualmente la conducta de su hijo(a). En cada pregunta, indique la respuesta que mejor describa a su hijo(a)."
+    },
+    "prefLabel": {
+        "en": "gish_m11_p"
+    },
+    "question": {
+        "en": "In dress-up games, he likes to dress up as",
+        "es": "Cuando juega a disfrazarse, le gusta vestirse como:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "##en##A girl or woman at all times##/en####es##Una ni\u00c3\u00b1a o mujer, todo el tiempo ##/es##"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "##en##Usually a girl or woman##/en####es##Una ni\u00c3\u00b1a o mujer, por lo general##/es##"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "##en##Half the time a girl or woman and half the time a boy or man##/en####es##Una ni\u00c3\u00b1a o mujer la mitad de las veces, y la otra mitad de un ni\u00c3\u00b1o o un hombre##/es##"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "##en##Usually a boy or man##/en####es##Un ni\u00c3\u00b1o o un hombre, por lo general##/es##"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "##en##A boy or man at all times##/en####es##Un ni\u00c3\u00b1o o un hombre, todo el tiempo##/es##"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "##en##Does not play these games##/en####es##No juega estos juegos##/es##"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "##en##Decline to answer##/en####es##Prefiero no responder##/es##"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

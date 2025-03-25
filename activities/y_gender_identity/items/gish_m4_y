@@ -1,0 +1,69 @@
+{
+    "id": "gish_m4_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "4"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "4"
+        }
+    ],
+    "prefLabel": {
+        "en": "gish_m4_y"
+    },
+    "question": {
+        "en": "How much have you dressed or acted as a girl during play?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Always"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Often"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Rarely"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

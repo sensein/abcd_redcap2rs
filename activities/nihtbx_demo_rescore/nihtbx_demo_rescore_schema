@@ -1,0 +1,486 @@
+{
+    "id": "nihtbx_demo_rescore_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "nihtbx_demo_rescore"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/nihtbx_demo_rescore_fail",
+            "items/nihtbx_demo_rescore_pin",
+            "items/nihtbx_demo_rescore_deviceid",
+            "items/nihtbx_demo_rescore_name",
+            "items/nihtbx_demo_rescore_age",
+            "items/nihtbx_demo_rescore_education",
+            "items/nihtbx_demo_rescore_mothereduc",
+            "items/nihtbx_demo_rescore_fathereduc",
+            "items/nihtbx_demo_rescore_guardianeduc",
+            "items/nihtbx_demo_rescore_startlevel",
+            "items/nihtbx_demo_rescore_gender",
+            "items/nihtbx_demo_rescore_hand",
+            "items/nihtbx_demo_rescore_race",
+            "items/nihtbx_demo_rescore_ethnicity",
+            "items/nihtbx_demo_rescore_assessname",
+            "items/nihtbx_demo_rescore_rawdccs",
+            "items/nihtbx_demo_rescore_dccsaccuracy",
+            "items/nihtbx_demo_rescore_dccsreactiontime",
+            "items/nihtbx_demo_rescore_computeddccs",
+            "items/nihtbx_demo_rescore_uncorrdccs",
+            "items/nihtbx_demo_rescore_agecorrdccs",
+            "items/nihtbx_demo_rescore_fulltdccs",
+            "items/nihtbx_demo_rescore_rawflanker",
+            "items/nihtbx_demo_rescore_flankeraccuracy",
+            "items/nihtbx_demo_rescore_flankerreactiontime",
+            "items/nihtbx_demo_rescore_computedflanker",
+            "items/nihtbx_demo_rescore_uncorrflanker",
+            "items/nihtbx_demo_rescore_agecorrflanker",
+            "items/nihtbx_demo_rescore_fulltflanker",
+            "items/nihtbx_demo_rescore_rawpsm",
+            "items/nihtbx_demo_rescore_thetapsm",
+            "items/nihtbx_demo_rescore_computedpsm",
+            "items/nihtbx_demo_rescore_uncorrpsm",
+            "items/nihtbx_demo_rescore_agecorrpsm",
+            "items/nihtbx_demo_rescore_fulltpsm",
+            "items/nihtbx_demo_rescore_rawpatterncomp",
+            "items/nihtbx_demo_rescore_computedpatterncomp",
+            "items/nihtbx_demo_rescore_uncorrpatterncomp",
+            "items/nihtbx_demo_rescore_agecorrpatterncomp",
+            "items/nihtbx_demo_rescore_fulltpatterncomp",
+            "items/nihtbx_demo_rescore_rawlistsort",
+            "items/nihtbx_demo_rescore_uncorrlistsort",
+            "items/nihtbx_demo_rescore_agecorrlistsort",
+            "items/nihtbx_demo_rescore_fulltlistsort",
+            "items/nihtbx_demo_rescore_thetaengread",
+            "items/nihtbx_demo_rescore_computedengread",
+            "items/nihtbx_demo_rescore_uncorrengread",
+            "items/nihtbx_demo_rescore_agecorrengread",
+            "items/nihtbx_demo_rescore_fulltengread",
+            "items/nihtbx_demo_rescore_thetaengvocab",
+            "items/nihtbx_demo_rescore_computedengvocab",
+            "items/nihtbx_demo_rescore_uncorrengvocab",
+            "items/nihtbx_demo_rescore_agecorrengvocab",
+            "items/nihtbx_demo_rescore_fulltengvocab",
+            "items/nihtbx_demo_rescore_uncorrfluid",
+            "items/nihtbx_demo_rescore_agecorrfluid",
+            "items/nihtbx_demo_rescore_fulltfluid",
+            "items/nihtbx_demo_rescore_uncorrcrystal",
+            "items/nihtbx_demo_rescore_agecorrcrystal",
+            "items/nihtbx_demo_rescore_fulltcrystal",
+            "items/nihtbx_demo_rescore_uncorrtotal",
+            "items/nihtbx_demo_rescore_agecorrtotal",
+            "items/nihtbx_demo_rescore_fullttotal",
+            "items/nihtbx_demo_rescore_uncorrearly",
+            "items/nihtbx_demo_rescore_agecorrearly",
+            "items/nihtbx_demo_rescore_fulltearly",
+            "items/nihtbx_demo_rescore_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/nihtbx_demo_rescore_fail",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_fail"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_pin",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_pin"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_deviceid",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_deviceid"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_name",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_name"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_age",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_age"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_education",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_education"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_mothereduc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_mothereduc"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_fathereduc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_fathereduc"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_guardianeduc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_guardianeduc"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_startlevel",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_startlevel"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_gender",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_gender"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_hand",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_hand"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_race",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_race"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_ethnicity",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_ethnicity"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_assessname",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_assessname"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_rawdccs",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_rawdccs"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_dccsaccuracy",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_dccsaccuracy"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_dccsreactiontime",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_dccsreactiontime"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_computeddccs",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_computeddccs"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_uncorrdccs",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_uncorrdccs"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_agecorrdccs",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_agecorrdccs"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_fulltdccs",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_fulltdccs"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_rawflanker",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_rawflanker"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_flankeraccuracy",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_flankeraccuracy"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_flankerreactiontime",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_flankerreactiontime"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_computedflanker",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_computedflanker"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_uncorrflanker",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_uncorrflanker"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_agecorrflanker",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_agecorrflanker"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_fulltflanker",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_fulltflanker"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_rawpsm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_rawpsm"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_thetapsm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_thetapsm"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_computedpsm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_computedpsm"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_uncorrpsm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_uncorrpsm"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_agecorrpsm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_agecorrpsm"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_fulltpsm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_fulltpsm"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_rawpatterncomp",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_rawpatterncomp"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_computedpatterncomp",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_computedpatterncomp"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_uncorrpatterncomp",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_uncorrpatterncomp"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_agecorrpatterncomp",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_agecorrpatterncomp"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_fulltpatterncomp",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_fulltpatterncomp"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_rawlistsort",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_rawlistsort"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_uncorrlistsort",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_uncorrlistsort"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_agecorrlistsort",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_agecorrlistsort"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_fulltlistsort",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_fulltlistsort"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_thetaengread",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_thetaengread"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_computedengread",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_computedengread"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_uncorrengread",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_uncorrengread"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_agecorrengread",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_agecorrengread"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_fulltengread",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_fulltengread"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_thetaengvocab",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_thetaengvocab"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_computedengvocab",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_computedengvocab"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_uncorrengvocab",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_uncorrengvocab"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_agecorrengvocab",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_agecorrengvocab"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_fulltengvocab",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_fulltengvocab"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_uncorrfluid",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_uncorrfluid"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_agecorrfluid",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_agecorrfluid"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_fulltfluid",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_fulltfluid"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_uncorrcrystal",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_uncorrcrystal"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_agecorrcrystal",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_agecorrcrystal"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_fulltcrystal",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_fulltcrystal"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_uncorrtotal",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_uncorrtotal"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_agecorrtotal",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_agecorrtotal"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_fullttotal",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_fullttotal"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_uncorrearly",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_uncorrearly"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_agecorrearly",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_agecorrearly"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_fulltearly",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_fulltearly"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

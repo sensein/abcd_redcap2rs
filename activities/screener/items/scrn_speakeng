@@ -1,0 +1,40 @@
+{
+    "id": "scrn_speakeng",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "scrn_speakeng"
+    },
+    "question": {
+        "en": "\"Does (Child's name) speak and understand English well?\"",
+        "es": "\"\u00c2\u00bf(Nombre del menor) habla y entiende bien el ingl\u00c3\u00a9s?\""
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No - GO TO END"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Unsure"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

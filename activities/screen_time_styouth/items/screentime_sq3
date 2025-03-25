@@ -1,0 +1,66 @@
+{
+    "id": "screentime_sq3",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "screentime_sq"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDECHOICE = '5'"
+        }
+    ],
+    "preamble": {
+        "en": "In the past week, how often did you do the following activities while already in bed before going to sleep?"
+    },
+    "prefLabel": {
+        "en": "screentime_sq3"
+    },
+    "question": {
+        "en": "Watch or stream movies, videos or TV shows"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0 nights in the past week"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "1-2 nights"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3-4 nights"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "5-7 nights"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Refused to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

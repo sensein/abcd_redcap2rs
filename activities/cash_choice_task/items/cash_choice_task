@@ -1,0 +1,46 @@
+{
+    "id": "cash_choice_task",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "LV"
+        }
+    ],
+    "prefLabel": {
+        "en": "cash_choice_task"
+    },
+    "question": {
+        "en": "Let's pretend a kind person wanted to give you some money.  Would you rather have $75 in three days or $115 in 3 months?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "$75 in three days"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "$115 in 3 months"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Don't Know"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

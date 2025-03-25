@@ -1,0 +1,45 @@
+{
+    "id": "mypi_lst_fav_class",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "If don't know/refuse to answer check \"don't know\" or \"refuse to answer\" below"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "4"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "4"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
+    "preamble": {
+        "en": "Let's get started!"
+    },
+    "prefLabel": {
+        "en": "mypi_lst_fav_class"
+    },
+    "question": {
+        "en": "What is yourleastfavorite class at school?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

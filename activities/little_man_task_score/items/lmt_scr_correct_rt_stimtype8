@@ -1,0 +1,32 @@
+{
+    "id": "lmt_scr_correct_rt_stimtype8",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY HIDEFROMCOMPLETION"
+        }
+    ],
+    "prefLabel": {
+        "en": "lmt_scr_correct_rt_stimtype8"
+    },
+    "question": {
+        "en": "Latency (msec) for Correct Per Stimulus Type (Forward Up Right)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

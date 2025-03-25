@@ -1,0 +1,47 @@
+{
+    "id": "sai_p_crafts_self_l",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        }
+    ],
+    "preamble": {
+        "en": "Crafts like Knitting, Building Model Cars or Airplanes",
+        "es": "Manualidades, como tejer o armar modelos de autos o aviones"
+    },
+    "prefLabel": {
+        "en": "sai_p_crafts_self_l"
+    },
+    "question": {
+        "en": "Did your child learn this activity without formal instruction?",
+        "es": "\u00c2\u00bfSu ni\u00c3\u00b1o(a) aprendi\u00c3\u00b3 esta actividad sin instrucci\u00c3\u00b3n formal?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

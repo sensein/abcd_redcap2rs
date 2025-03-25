@@ -1,0 +1,74 @@
+{
+    "id": "mex_american15_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "15"
+        },
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "mex_american_q11_q15_d7e13f_6bfc62"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "15"
+        }
+    ],
+    "prefLabel": {
+        "en": "mex_american15_p"
+    },
+    "question": {
+        "en": "If everything is taken away, one still has their faith in God.",
+        "es": "Si a uno le quitan todo, todav\u00c3\u00ada le queda la fe en Dios."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at All",
+                    "es": "Nada"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A Little",
+                    "es": "Poquito"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Somewhat",
+                    "es": "Algo"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Very Much",
+                    "es": "Bastante"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Completely",
+                    "es": "Completamente"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

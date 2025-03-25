@@ -1,0 +1,48 @@
+{
+    "id": "withdraw_letter_yn_l",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "If yes, subject is formally withdrawn from the ABCD study."
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20180328"
+        }
+    ],
+    "preamble": {
+        "en": "RA Internal Use Only (Do Not Ask)"
+    },
+    "prefLabel": {
+        "en": "withdraw_letter_yn_l"
+    },
+    "question": {
+        "en": "Withdrawal LETTER or EMAIL received?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

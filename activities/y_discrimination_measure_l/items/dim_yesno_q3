@@ -1,0 +1,55 @@
+{
+    "id": "dim_yesno_q3",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "dm_matrix_q1"
+        }
+    ],
+    "preamble": {
+        "en": "In the past 12 months, have you felt discriminated against:RA, if needed: Discrimination: unfairly treating a person or group of people differently from other people or groups of people"
+    },
+    "prefLabel": {
+        "en": "dim_yesno_q3"
+    },
+    "question": {
+        "en": "Because someone thought you were gay, lesbian, or bisexual?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 777
+            },
+            {
+                "name": {
+                    "en": "Refused to answer"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

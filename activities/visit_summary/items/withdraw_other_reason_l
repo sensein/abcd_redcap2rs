@@ -1,0 +1,27 @@
+{
+    "id": "withdraw_other_reason_l",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20180301\n@HIDDEN"
+        }
+    ],
+    "prefLabel": {
+        "en": "withdraw_other_reason_l"
+    },
+    "question": {
+        "en": "Reason for Withdrawal -Comments:"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

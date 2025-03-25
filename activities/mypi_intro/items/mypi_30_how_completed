@@ -1,0 +1,41 @@
+{
+    "id": "mypi_30_how_completed",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN-SURVEY"
+        }
+    ],
+    "prefLabel": {
+        "en": "mypi_30_how_completed"
+    },
+    "question": {
+        "en": "PLEASE CONFIRMhow YOUTH completed this mid-year interview."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Survey link"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "RA-administered phone interview"
+                },
+                "value": 1
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

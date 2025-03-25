@@ -1,0 +1,34 @@
+{
+    "id": "dna_sal_hk_date",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "date_dmy"
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        }
+    ],
+    "preamble": {
+        "en": "1. Make sure the subject hasnot had food, snacks, beverages, gum, candy or smoke for 30 minutes before collecting the sample. If subject recently ate, have subject rinse mouth with water, then wait 30 minutes.2. Sample collection should be completed within 30 minutes. It is acceptable to collect interview data, except neurocognition assessments, from the participant during this time. \r\n\r\n3. Subject should spit into the funnel until the amount of liquid saliva (not bubbles) reaches the black fill line. Bubbles are not included in the volume.\r\n\r\n4. Instructions to Subject:\"Please fill this tube with your saliva up to the black line by spitting into the funnel on the top. Bubbles and foam are a normal part of saliva, but the bubbles have to be above the black line in this tube. Let me know when you are done and I will close the tube for you.\"NOTE:IFthe participant asks what the sample is for, say: \"This is to look at your DNA (genetic material inside your cells).\"\r\n\r\n5. Do not overfill. \r\n\r\n6. Hold the tube upright, remove the funnel from the tube.\r\n\r\n7. Screw enclosed cap TIGHTLY until the blue solution empties into the tube. \r\n\r\n8. Gently shake the capped tube for 5 seconds.\r\n\r\n9. Scan the RUCDR barcode on saliva tube into REDCap survey, place duplicate barcode (attached to saliva outer packaging) on the RUCDR Collection Form. Place triplicate barcode (attached to saliva outer packaging) on the Biospecimen Site Form.\r\n\r\n10. Place in Biospecimen bag with absorbent pad (included in kit from RUCDR), remove the plastic strip and seal. \r\n\r\n11. Funnel can be discarded in regular trash or recycled.Mark the form status as 'Unverified' if you are waiting on the parent to send you any saliva samples."
+    },
+    "prefLabel": {
+        "en": "dna_sal_hk_date"
+    },
+    "question": {
+        "en": "Home sample date received:"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "date"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

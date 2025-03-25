@@ -1,0 +1,109 @@
+{
+    "id": "mrif_findings_loc04",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "A new scheme to categorize radiology findings by type and location."
+    },
+    "prefLabel": {
+        "en": "mrif_findings_loc04"
+    },
+    "question": {
+        "en": "Findings location 04"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "cerebral cortex"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "cerebral white matter"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "basal ganglia"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "thalami"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "intraventricular"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "midbrain"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "pons"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "medulla"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "cerebellum"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "intraventricular"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "extraaxial space"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "skull"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "face"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "neck"
+                },
+                "value": 14
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

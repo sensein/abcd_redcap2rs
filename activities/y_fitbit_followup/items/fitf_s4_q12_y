@@ -1,0 +1,39 @@
+{
+    "id": "fitf_s4_q12_y",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "fitf_s4_q12_y"
+    },
+    "question": {
+        "en": "How much did you change your physical activity while wearing the Fitbit?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "A lot"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Not at all"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A little"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

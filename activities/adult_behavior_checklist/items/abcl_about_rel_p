@@ -1,0 +1,106 @@
+{
+    "id": "abcl_about_rel_p",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "abcl_about_rel_p"
+    },
+    "question": {
+        "en": "Who this person is in relationship to the child",
+        "es": "\u00c2\u00bfQui\u00c3\u00a9n es esta persona en relaci\u00c3\u00b3n al ni\u00c3\u00b1o(a)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "##en##Biological Mother##/en####es##madre biol\u00c3\u00b3gica##/es##"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "##en##Biological Father##/en####es##padre biol\u00c3\u00b3gico##/es##"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "##en##Adoptive Mother##/en####es##madre adoptiva##/es##"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "##en##Adoptive Father##/en####es##padre adoptivo##/es##"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "##en##Custodial Mother##/en####es##madre custodia##/es##"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "##en##Custodial Father##/en####es##padre custodio##/es##"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "##en##Paternal Grandfather##/en####es##abuelo paterno##/es##"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "##en##Maternal Grandfather##/en####es##abuelo materno##/es##"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "##en##Paternal Grandmother##/en####es##abuela paterna##/es##"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "##en##Maternal Grandmother##/en####es##abuela materna##/es##"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "##en##Other Female Relative##/en####es##Otro pariente femenina##/es##"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "##en##Other Male Relative##/en####es##Otro pariente masculino##/es##"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "##en##Other Female##/en####es##Otro femenina##/es##"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "##en##Other Male##/en####es##Otro masculino##/es##"
+                },
+                "value": 14
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

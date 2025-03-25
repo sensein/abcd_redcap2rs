@@ -1,0 +1,55 @@
+{
+    "id": "psra_c1",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "LIBRv1.0"
+        }
+    ],
+    "preamble": {
+        "en": "Day 1"
+    },
+    "prefLabel": {
+        "en": "psra_c1"
+    },
+    "question": {
+        "en": "C1. Alert and interactive; is not withdrawn"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Child participates in interaction; body posture suggests relaxed engagement with the interviewer"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Child generally interacts, but at times turns away, lowers head, takes \"break\" from interaction"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Child repeatedly withdraws from testing situation and needs encouragement to finish task"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Child seems \"shut down\" and difficult to engage in starting task"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

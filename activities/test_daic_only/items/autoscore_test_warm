@@ -1,0 +1,63 @@
+{
+    "id": "autoscore_test_warm",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "autoscore_test_warm"
+    },
+    "question": {
+        "en": "Is it warm outside?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not True"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Somewhat True"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Very True"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Test-3"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Test-4"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer"
+                },
+                "value": 777
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

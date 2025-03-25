@@ -1,0 +1,55 @@
+{
+    "id": "instructions_do_never_delete_move_or_use_schema",
+    "category": "reproschema:Activity",
+    "preamble": {
+        "en": "Form Status"
+    },
+    "prefLabel": {
+        "en": "instructions_do_never_delete_move_or_use"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/id_redcap",
+            "items/barcode_id_redcap",
+            "items/ksads_barcode_1year",
+            "items/survey_handle",
+            "items/instructions_do_never_delete_move_or_use_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/id_redcap",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "id_redcap"
+            },
+            {
+                "isAbout": "items/barcode_id_redcap",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "barcode_id_redcap"
+            },
+            {
+                "isAbout": "items/ksads_barcode_1year",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ksads_barcode_1year"
+            },
+            {
+                "isAbout": "items/survey_handle",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "survey_handle"
+            },
+            {
+                "isAbout": "items/instructions_do_never_delete_move_or_use_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "instructions_do_never_delete_move_or_use_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

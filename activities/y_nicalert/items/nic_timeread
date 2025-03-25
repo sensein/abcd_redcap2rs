@@ -1,0 +1,36 @@
+{
+    "id": "nic_timeread",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "Read results after waiting 10-15 minutes for test to develop."
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "datetime_mdy"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20171025"
+        }
+    ],
+    "prefLabel": {
+        "en": "nic_timeread"
+    },
+    "question": {
+        "en": "Urine sample READ (date and time):"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:dateTime"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

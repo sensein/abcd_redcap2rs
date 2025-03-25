@@ -1,0 +1,44 @@
+{
+    "id": "first_mj_1b",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "Frequency"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "1b"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "1b"
+        }
+    ],
+    "preamble": {
+        "en": "You mentioned earlier that you have had a puff of marijuana, weed or pot in the past. I want to ask some more questions about that. Remember your responses are confidential - we will not share your answers with anyone.\n\nWhen answering these questions, include any experiences you have had with marijuana, including smoking joints, blunts, bongs, or eating marijuana food, or smoking concentrates like dabs or hash."
+    },
+    "prefLabel": {
+        "en": "first_mj_1b"
+    },
+    "question": {
+        "en": "How many total times have you used marijuana?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,31 @@
+{
+    "id": "cash_choice_task_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "cash_choice_task"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/cash_choice_task",
+            "items/cash_choice_task_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/cash_choice_task",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "cash_choice_task"
+            },
+            {
+                "isAbout": "items/cash_choice_task_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "cash_choice_task_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

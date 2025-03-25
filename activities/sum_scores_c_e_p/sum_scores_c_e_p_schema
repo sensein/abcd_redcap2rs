@@ -1,0 +1,576 @@
+{
+    "id": "sum_scores_c_e_p_schema",
+    "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "fes_p_ss_fc * fes_p_ss_fc_nt / fes_p_ss_fc_na",
+            "variableName": "fes_p_ss_fc_pr"
+        },
+        {
+            "jsExpression": "fes_p_ss_cohesion_sum * fes_p_ss_cohesion_sum_nt / fes_p_ss_cohesion_sum_na",
+            "variableName": "fes_p_ss_cohesion_sum_pr"
+        },
+        {
+            "jsExpression": "fes_p_ss_exp_sum * fes_p_ss_exp_sum_nt / fes_p_ss_exp_sum_na",
+            "variableName": "fes_p_ss_exp_sum_pr"
+        },
+        {
+            "jsExpression": "fes_p_ss_int_cult_sum * fes_p_ss_int_cult_sum_nt / fes_p_ss_int_cult_sum_na",
+            "variableName": "fes_p_ss_int_cult_sum_pr"
+        },
+        {
+            "jsExpression": "fes_p_ss_act_rec_sum * fes_p_ss_act_rec_sum_nt / fes_p_ss_act_rec_sum_na",
+            "variableName": "fes_p_ss_act_rec_sum_pr"
+        },
+        {
+            "jsExpression": "fes_p_ss_org_sum * fes_p_ss_org_sum_nt / fes_p_ss_org_sum_na",
+            "variableName": "fes_p_ss_org_sum_pr"
+        }
+    ],
+    "prefLabel": {
+        "en": "sum_scores_c_e_p"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/meim_p_ss_exp",
+            "items/meim_p_ss_exp_nm",
+            "items/meim_p_ss_exp_nt",
+            "items/meim_p_ss_com",
+            "items/meim_p_ss_com_nm",
+            "items/meim_p_ss_com_nt",
+            "items/meim_p_ss_total",
+            "items/meim_p_ss_total_nm",
+            "items/meim_p_ss_total_nt",
+            "items/via_p_ss_hc",
+            "items/via_p_ss_hc_nm",
+            "items/via_p_ss_hc_nt",
+            "items/via_p_ss_amer",
+            "items/via_p_ss_amer_nm",
+            "items/via_p_ss_amer_nt",
+            "items/nsc_p_ss_mean_3_items",
+            "items/nsc_p_ss_mean_3_items_nm",
+            "items/nsc_p_ss_mean_3_items_nt",
+            "items/fes_p_ss_fc",
+            "items/fes_p_ss_fc_nm",
+            "items/fes_p_ss_fc_nt",
+            "items/fes_p_ss_fc_na",
+            "items/fes_p_ss_cohesion_sum",
+            "items/fes_p_ss_cohesion_sum_nm",
+            "items/fes_p_ss_cohesion_sum_nt",
+            "items/fes_p_ss_cohesion_sum_na",
+            "items/fes_p_ss_exp_sum",
+            "items/fes_p_ss_exp_sum_nm",
+            "items/fes_p_ss_exp_sum_nt",
+            "items/fes_p_ss_exp_sum_na",
+            "items/fes_p_ss_int_cult_sum",
+            "items/fes_p_ss_int_cult_sum_nm",
+            "items/fes_p_ss_int_cult_sum_nt",
+            "items/fes_p_ss_int_cult_sum_na",
+            "items/fes_p_ss_act_rec_sum",
+            "items/fes_p_ss_act_rec_sum_nm",
+            "items/fes_p_ss_act_rec_sum_nt",
+            "items/fes_p_ss_act_rec_sum_na",
+            "items/fes_p_ss_org_sum",
+            "items/fes_p_ss_org_sum_nm",
+            "items/fes_p_ss_org_sum_nt",
+            "items/fes_p_ss_org_sum_na",
+            "items/macv_p_ss_fs",
+            "items/macv_p_ss_fs_nm",
+            "items/macv_p_ss_fs_nt",
+            "items/macv_p_ss_fo",
+            "items/macv_p_ss_fo_nm",
+            "items/macv_p_ss_fo_nt",
+            "items/macv_p_ss_isr",
+            "items/macv_p_ss_isr_nm",
+            "items/macv_p_ss_isr_nt",
+            "items/macv_p_ss_fr",
+            "items/macv_p_ss_fr_nm",
+            "items/macv_p_ss_fr_nt",
+            "items/macv_p_ss_r",
+            "items/macv_p_ss_r_nm",
+            "items/macv_p_ss_r_nt",
+            "items/psb_p_ss_mean",
+            "items/psb_p_ss_answered",
+            "items/psb_p_ss_mean_nm",
+            "items/psb_p_ss_mean_nt",
+            "items/comc_ss_cohesion_p",
+            "items/comc_ss_cohesion_p_nm",
+            "items/comc_ss_cohesion_p_nt",
+            "items/comc_ss_control_p",
+            "items/comc_ss_control_p_nm",
+            "items/comc_ss_control_p_nt",
+            "items/comc_ss_collective_capacity_p",
+            "items/comc_ss_collective_capacity_p_nm",
+            "items/comc_ss_collective_capacity_p_nt",
+            "items/sum_scores_c_e_p_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/meim_p_ss_exp",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "meim_p_ss_exp"
+            },
+            {
+                "isAbout": "items/meim_p_ss_exp_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "meim_p_ss_exp_nm"
+            },
+            {
+                "isAbout": "items/meim_p_ss_exp_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "meim_p_ss_exp_nt"
+            },
+            {
+                "isAbout": "items/meim_p_ss_com",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "meim_p_ss_com"
+            },
+            {
+                "isAbout": "items/meim_p_ss_com_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "meim_p_ss_com_nm"
+            },
+            {
+                "isAbout": "items/meim_p_ss_com_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "meim_p_ss_com_nt"
+            },
+            {
+                "isAbout": "items/meim_p_ss_total",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "meim_p_ss_total"
+            },
+            {
+                "isAbout": "items/meim_p_ss_total_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "meim_p_ss_total_nm"
+            },
+            {
+                "isAbout": "items/meim_p_ss_total_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "meim_p_ss_total_nt"
+            },
+            {
+                "isAbout": "items/via_p_ss_hc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "via_p_ss_hc"
+            },
+            {
+                "isAbout": "items/via_p_ss_hc_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "via_p_ss_hc_nm"
+            },
+            {
+                "isAbout": "items/via_p_ss_hc_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "via_p_ss_hc_nt"
+            },
+            {
+                "isAbout": "items/via_p_ss_amer",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "via_p_ss_amer"
+            },
+            {
+                "isAbout": "items/via_p_ss_amer_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "via_p_ss_amer_nm"
+            },
+            {
+                "isAbout": "items/via_p_ss_amer_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "via_p_ss_amer_nt"
+            },
+            {
+                "isAbout": "items/nsc_p_ss_mean_3_items",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nsc_p_ss_mean_3_items"
+            },
+            {
+                "isAbout": "items/nsc_p_ss_mean_3_items_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nsc_p_ss_mean_3_items_nm"
+            },
+            {
+                "isAbout": "items/nsc_p_ss_mean_3_items_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nsc_p_ss_mean_3_items_nt"
+            },
+            {
+                "isAbout": "items/fes_p_ss_fc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "fes_p_ss_fc"
+            },
+            {
+                "isAbout": "items/fes_p_ss_fc_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "fes_p_ss_fc_nm"
+            },
+            {
+                "isAbout": "items/fes_p_ss_fc_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "fes_p_ss_fc_nt"
+            },
+            {
+                "isAbout": "items/fes_p_ss_fc_na",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "fes_p_ss_fc_na"
+            },
+            {
+                "isAbout": "items/fes_p_ss_fc_pr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "fes_p_ss_fc_pr"
+            },
+            {
+                "isAbout": "items/fes_p_ss_cohesion_sum",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "fes_p_ss_cohesion_sum"
+            },
+            {
+                "isAbout": "items/fes_p_ss_cohesion_sum_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "fes_p_ss_cohesion_sum_nm"
+            },
+            {
+                "isAbout": "items/fes_p_ss_cohesion_sum_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "fes_p_ss_cohesion_sum_nt"
+            },
+            {
+                "isAbout": "items/fes_p_ss_cohesion_sum_na",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "fes_p_ss_cohesion_sum_na"
+            },
+            {
+                "isAbout": "items/fes_p_ss_cohesion_sum_pr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "fes_p_ss_cohesion_sum_pr"
+            },
+            {
+                "isAbout": "items/fes_p_ss_exp_sum",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "fes_p_ss_exp_sum"
+            },
+            {
+                "isAbout": "items/fes_p_ss_exp_sum_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "fes_p_ss_exp_sum_nm"
+            },
+            {
+                "isAbout": "items/fes_p_ss_exp_sum_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "fes_p_ss_exp_sum_nt"
+            },
+            {
+                "isAbout": "items/fes_p_ss_exp_sum_na",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "fes_p_ss_exp_sum_na"
+            },
+            {
+                "isAbout": "items/fes_p_ss_exp_sum_pr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "fes_p_ss_exp_sum_pr"
+            },
+            {
+                "isAbout": "items/fes_p_ss_int_cult_sum",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "fes_p_ss_int_cult_sum"
+            },
+            {
+                "isAbout": "items/fes_p_ss_int_cult_sum_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "fes_p_ss_int_cult_sum_nm"
+            },
+            {
+                "isAbout": "items/fes_p_ss_int_cult_sum_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "fes_p_ss_int_cult_sum_nt"
+            },
+            {
+                "isAbout": "items/fes_p_ss_int_cult_sum_na",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "fes_p_ss_int_cult_sum_na"
+            },
+            {
+                "isAbout": "items/fes_p_ss_int_cult_sum_pr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "fes_p_ss_int_cult_sum_pr"
+            },
+            {
+                "isAbout": "items/fes_p_ss_act_rec_sum",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "fes_p_ss_act_rec_sum"
+            },
+            {
+                "isAbout": "items/fes_p_ss_act_rec_sum_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "fes_p_ss_act_rec_sum_nm"
+            },
+            {
+                "isAbout": "items/fes_p_ss_act_rec_sum_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "fes_p_ss_act_rec_sum_nt"
+            },
+            {
+                "isAbout": "items/fes_p_ss_act_rec_sum_na",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "fes_p_ss_act_rec_sum_na"
+            },
+            {
+                "isAbout": "items/fes_p_ss_act_rec_sum_pr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "fes_p_ss_act_rec_sum_pr"
+            },
+            {
+                "isAbout": "items/fes_p_ss_org_sum",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "fes_p_ss_org_sum"
+            },
+            {
+                "isAbout": "items/fes_p_ss_org_sum_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "fes_p_ss_org_sum_nm"
+            },
+            {
+                "isAbout": "items/fes_p_ss_org_sum_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "fes_p_ss_org_sum_nt"
+            },
+            {
+                "isAbout": "items/fes_p_ss_org_sum_na",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "fes_p_ss_org_sum_na"
+            },
+            {
+                "isAbout": "items/fes_p_ss_org_sum_pr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "fes_p_ss_org_sum_pr"
+            },
+            {
+                "isAbout": "items/macv_p_ss_fs",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "macv_p_ss_fs"
+            },
+            {
+                "isAbout": "items/macv_p_ss_fs_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "macv_p_ss_fs_nm"
+            },
+            {
+                "isAbout": "items/macv_p_ss_fs_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "macv_p_ss_fs_nt"
+            },
+            {
+                "isAbout": "items/macv_p_ss_fo",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "macv_p_ss_fo"
+            },
+            {
+                "isAbout": "items/macv_p_ss_fo_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "macv_p_ss_fo_nm"
+            },
+            {
+                "isAbout": "items/macv_p_ss_fo_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "macv_p_ss_fo_nt"
+            },
+            {
+                "isAbout": "items/macv_p_ss_isr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "macv_p_ss_isr"
+            },
+            {
+                "isAbout": "items/macv_p_ss_isr_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "macv_p_ss_isr_nm"
+            },
+            {
+                "isAbout": "items/macv_p_ss_isr_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "macv_p_ss_isr_nt"
+            },
+            {
+                "isAbout": "items/macv_p_ss_fr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "macv_p_ss_fr"
+            },
+            {
+                "isAbout": "items/macv_p_ss_fr_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "macv_p_ss_fr_nm"
+            },
+            {
+                "isAbout": "items/macv_p_ss_fr_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "macv_p_ss_fr_nt"
+            },
+            {
+                "isAbout": "items/macv_p_ss_r",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "macv_p_ss_r"
+            },
+            {
+                "isAbout": "items/macv_p_ss_r_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "macv_p_ss_r_nm"
+            },
+            {
+                "isAbout": "items/macv_p_ss_r_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "macv_p_ss_r_nt"
+            },
+            {
+                "isAbout": "items/psb_p_ss_mean",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "psb_p_ss_mean"
+            },
+            {
+                "isAbout": "items/psb_p_ss_answered",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "psb_p_ss_answered"
+            },
+            {
+                "isAbout": "items/psb_p_ss_mean_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "psb_p_ss_mean_nm"
+            },
+            {
+                "isAbout": "items/psb_p_ss_mean_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "psb_p_ss_mean_nt"
+            },
+            {
+                "isAbout": "items/comc_ss_cohesion_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "comc_ss_cohesion_p"
+            },
+            {
+                "isAbout": "items/comc_ss_cohesion_p_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "comc_ss_cohesion_p_nm"
+            },
+            {
+                "isAbout": "items/comc_ss_cohesion_p_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "comc_ss_cohesion_p_nt"
+            },
+            {
+                "isAbout": "items/comc_ss_control_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "comc_ss_control_p"
+            },
+            {
+                "isAbout": "items/comc_ss_control_p_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "comc_ss_control_p_nm"
+            },
+            {
+                "isAbout": "items/comc_ss_control_p_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "comc_ss_control_p_nt"
+            },
+            {
+                "isAbout": "items/comc_ss_collective_capacity_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "comc_ss_collective_capacity_p"
+            },
+            {
+                "isAbout": "items/comc_ss_collective_capacity_p_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "comc_ss_collective_capacity_p_nm"
+            },
+            {
+                "isAbout": "items/comc_ss_collective_capacity_p_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "comc_ss_collective_capacity_p_nt"
+            },
+            {
+                "isAbout": "items/sum_scores_c_e_p_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sum_scores_c_e_p_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

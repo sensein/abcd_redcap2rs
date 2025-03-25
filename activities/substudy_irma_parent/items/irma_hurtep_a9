@@ -1,0 +1,47 @@
+{
+    "id": "irma_hurtep_a9",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "hurtep_a2"
+        }
+    ],
+    "preamble": {
+        "en": "The following questions are about you and your family's experiences in the days AFTERHurricane Irma(September 2017).",
+        "es": "Las siguientes preguntas son sobre usted y las experiencias de su familia DESPU\u00c3\u0089Sdel hurac\u00c3\u00a1n Irma(Septiembre 2017)."
+    },
+    "prefLabel": {
+        "en": "irma_hurtep_a9"
+    },
+    "question": {
+        "en": "Has anyone stolen anything from your home since the hurricane?",
+        "es": "\u00c2\u00bfAlguien ha robado algo de su casa desde el hurac\u00c3\u00a1n?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "Si"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

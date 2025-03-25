@@ -1,0 +1,65 @@
+{
+    "id": "isip_5_2",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "6"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "6"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDECHOICE='0'\nHIDEFROMCOMPLETION20170915"
+        }
+    ],
+    "preamble": {
+        "en": "You mentioned earlier that you have had a sip of alcohol in the past. I want to ask some more questions about that. Remember your responses are confidential - we will not share your answers with anyone."
+    },
+    "prefLabel": {
+        "en": "isip_5_2"
+    },
+    "question": {
+        "en": "Did the person the drink belonged to offer you a sip or did you take it when they weren't looking?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not applicable"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "They offered me a sip"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "I intentionally took it when they weren't looking"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "I accidentally took it when they weren't looking"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

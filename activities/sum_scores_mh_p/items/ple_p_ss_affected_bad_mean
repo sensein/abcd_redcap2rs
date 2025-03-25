@@ -1,0 +1,30 @@
+{
+    "id": "ple_p_ss_affected_bad_mean",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "description": {
+        "en": "How Much Affected Bad Mean\nValidation: No Minimum"
+    },
+    "preamble": {
+        "en": "Life Events Parent"
+    },
+    "prefLabel": {
+        "en": "ple_p_ss_affected_bad_mean"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,73 @@
+{
+    "id": "dim_matrix_q4",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "dm_matrix_2"
+        }
+    ],
+    "preamble": {
+        "en": "How often does the following occur?"
+    },
+    "prefLabel": {
+        "en": "dim_matrix_q4"
+    },
+    "question": {
+        "en": "I feel that others behave in an unfair  or negative way toward my ethnic group:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "almost never"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "rarely"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "sometimes"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "often"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "very often"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "don't know"
+                },
+                "value": 777
+            },
+            {
+                "name": {
+                    "en": "refused to answer"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

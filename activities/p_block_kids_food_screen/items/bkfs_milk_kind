@@ -1,0 +1,82 @@
+{
+    "id": "bkfs_milk_kind",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "HOW MANY DAYS LAST WEEK DID YOUR CHILD EAT OR DRINK IT?",
+        "es": "\u00c2\u00bfCU\u00c3\u0081NTOS D\u00c3\u008dAS DE LA SEMANA PASADA SU NI\u00c3\u0091O(A) COMI\u00c3\u0093 O BEBI\u00c3\u0093?"
+    },
+    "prefLabel": {
+        "en": "bkfs_milk_kind"
+    },
+    "question": {
+        "en": "What kind of milk did your child drink?",
+        "es": "\u00c2\u00bfQu\u00c3\u00a9 tipo de leche bebe su ni\u00c3\u00b1o(a)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Whole Milk",
+                    "es": "Leche entera"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Reduced fat 2% milk",
+                    "es": "Leche 2%"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Low fat 1% milk",
+                    "es": "Leche 1%"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Nonfat milk",
+                    "es": "Leche sin grasa"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Chocolate milk",
+                    "es": "Leche con chocolate"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Soy milk",
+                    "es": "Leche de soya"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Lactaid milk",
+                    "es": "Leche Lactaid"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Don't know",
+                    "es": "No se"
+                },
+                "value": 7
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

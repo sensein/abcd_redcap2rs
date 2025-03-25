@@ -1,0 +1,27 @@
+{
+    "id": "matrix_reasoning_taskyouthdaic_use_only_schema",
+    "category": "reproschema:Activity",
+    "preamble": {
+        "en": "Form Status"
+    },
+    "prefLabel": {
+        "en": "matrix_reasoning_taskyouthdaic_use_only"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/matrix_reasoning_taskyouthdaic_use_only_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/matrix_reasoning_taskyouthdaic_use_only_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "matrix_reasoning_taskyouthdaic_use_only_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

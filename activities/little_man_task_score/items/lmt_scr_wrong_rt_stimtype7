@@ -1,0 +1,32 @@
+{
+    "id": "lmt_scr_wrong_rt_stimtype7",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY HIDEFROMCOMPLETION"
+        }
+    ],
+    "prefLabel": {
+        "en": "lmt_scr_wrong_rt_stimtype7"
+    },
+    "question": {
+        "en": "Latency (msec) for Wrong Per Stimulus Type (Forward Up Left)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

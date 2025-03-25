@@ -1,0 +1,76 @@
+{
+    "id": "nic_results_",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "Note: If recent (past 48 hours) use was not reported (or not expected), report the result as \"Level 2\"."
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
+    "prefLabel": {
+        "en": "nic_results_"
+    },
+    "question": {
+        "en": "NicAlertlowestred band reading level (read results after waiting 10-15 minutes for test to develop):"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Level 0 (Negative; Non-user of tobacco products, or minimal or no exposure)"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Level 1 (Negative; Non-user of tobacco products, moderate passive exposure)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Level 2 (Negative; Non-user of tobacco products, higher passive exposure)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Level 3 (Positive; User of tobacco products)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Level 4 (Positive; User of tobacco products)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Level 5 (Positive; User of tobacco products)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Level 6 (Positive; User of tobacco products)"
+                },
+                "value": 6
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

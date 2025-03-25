@@ -1,0 +1,37 @@
+{
+    "id": "tbi_ss_worst5",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "tbi_ss_worst5"
+    },
+    "question": {
+        "en": "Worst Injury5 = Severe TBI\r\n(TBI w/ LOC \u00e2\u0089\u00a5 24 h)\r\nResponse to at least one question about head injury is \"yes\" and at least one response to LOC is \">24hrs.\"\r\n=IF(AND(OR([tbi_1]=1,[tbi_2]=1,[tbi_3]=1,[tbi_4]=1,[tbi_5]=1,[tbi_7a]=1,[tbi_7g]=1,[tbi_8g]=1),OR([tbi_1b]=2,[tbi_2b]=2,[tbi_3b]=2,[tbi_4b]=2,[tbi_5b]=2,[tbi_7c1]=2,[tbi_7i]=2,[tbi_8i]=2)),5,\"\")"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

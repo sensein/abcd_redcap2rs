@@ -1,0 +1,55 @@
+{
+    "id": "psra_d1_d2",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "LIBRv1.0"
+        }
+    ],
+    "preamble": {
+        "en": "Day 2"
+    },
+    "prefLabel": {
+        "en": "psra_d1_d2"
+    },
+    "question": {
+        "en": "D1. Shows pleasure in accomplishment and active task mastery"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Child appears happy after completing task; may show excited body movements (e.g. \"alright!\" clapping)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Child appears slightly pleased in completing tasks"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Child is neutral when getting task right"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Child makes negative comment or negative expression when completing task"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

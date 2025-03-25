@@ -1,0 +1,35 @@
+{
+    "id": "pgbi_p_ss_score",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Parent General Behavior Inventory"
+    },
+    "prefLabel": {
+        "en": "pgbi_p_ss_score"
+    },
+    "question": {
+        "en": "Parent General Behavior Inventory SUM\ngen_child_behav_1 + gen_child_behav_2 + gen_child_behav_3 + gen_child_behav_4 + gen_child_behav_5 + gen_child_behav_6 + gen_child_behav_7 + gen_child_behav_8 + gen_child_behav_9 +  gen_child_behav_10\nValidation: All items must be answered"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

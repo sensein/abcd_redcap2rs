@@ -1,0 +1,101 @@
+{
+    "id": "ksads5background_items_youth_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "ksads5background_items_youth"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/kbi_start_time",
+            "items/kbi_y_grade_repeat",
+            "items/kbi_y_drop_in_grades",
+            "items/kbi_y_det_susp",
+            "items/kbi_y_det_reason",
+            "items/kbi_y_det_reason_other",
+            "items/ksads_bully_raw_26",
+            "items/kbi_y_sex_orient",
+            "items/kbi_y_sex_orient_probs",
+            "items/kbi_y_trans_id",
+            "items/kbi_y_trans_prob",
+            "items/ksads5background_items_youth_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/kbi_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "kbi_start_time"
+            },
+            {
+                "isAbout": "items/kbi_y_grade_repeat",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "kbi_y_grade_repeat"
+            },
+            {
+                "isAbout": "items/kbi_y_drop_in_grades",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "kbi_y_drop_in_grades"
+            },
+            {
+                "isAbout": "items/kbi_y_det_susp",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "kbi_y_det_susp"
+            },
+            {
+                "isAbout": "items/kbi_y_det_reason",
+                "isVis": "kbi_y_det_susp == '1'",
+                "valueRequired": false,
+                "variableName": "kbi_y_det_reason"
+            },
+            {
+                "isAbout": "items/kbi_y_det_reason_other",
+                "isVis": "kbi_y_det_reason___8 == '1'",
+                "valueRequired": false,
+                "variableName": "kbi_y_det_reason_other"
+            },
+            {
+                "isAbout": "items/ksads_bully_raw_26",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_bully_raw_26"
+            },
+            {
+                "isAbout": "items/kbi_y_sex_orient",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "kbi_y_sex_orient"
+            },
+            {
+                "isAbout": "items/kbi_y_sex_orient_probs",
+                "isVis": "kbi_y_sex_orient == '1' || kbi_y_sex_orient == '2'",
+                "valueRequired": false,
+                "variableName": "kbi_y_sex_orient_probs"
+            },
+            {
+                "isAbout": "items/kbi_y_trans_id",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "kbi_y_trans_id"
+            },
+            {
+                "isAbout": "items/kbi_y_trans_prob",
+                "isVis": "kbi_y_trans_id == '2' || kbi_y_trans_id == '1'",
+                "valueRequired": false,
+                "variableName": "kbi_y_trans_prob"
+            },
+            {
+                "isAbout": "items/ksads5background_items_youth_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ksads5background_items_youth_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

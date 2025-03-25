@@ -1,0 +1,73 @@
+{
+    "id": "parent_partial_r",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20180301"
+        }
+    ],
+    "preamble": {
+        "en": "Parent Protocol"
+    },
+    "prefLabel": {
+        "en": "parent_partial_r"
+    },
+    "question": {
+        "en": "Please indicate reason for partial completion or why parent did not complete any surveys"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Out of Area (i.e., Remote Follow-Up)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Only take home surveys completed/visit no show"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Refused part of assessment"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Schedule complications"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Site errors - earthquake, equipment failure, missed administration, etc."
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Time constraints"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 6
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

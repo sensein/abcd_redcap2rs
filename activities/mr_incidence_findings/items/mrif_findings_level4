@@ -1,0 +1,53 @@
+{
+    "id": "mrif_findings_level4",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "Not in use!"
+        }
+    ],
+    "prefLabel": {
+        "en": "mrif_findings_level4"
+    },
+    "question": {
+        "en": "Findings categories for level 4"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "lesions include large thalamic masses"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "large suprasellar mass"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "diffuse with matter abnormality"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "craniocevical junction instability"
+                },
+                "value": 3
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

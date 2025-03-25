@@ -1,0 +1,43 @@
+{
+    "id": "su_des_h3_sure_p",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "su_des_h3_sure_p"
+    },
+    "question": {
+        "en": "You just answered a number of questions about the since I behaviors in another household where your child the spends a significant time.",
+        "es": "Acaba de responder a una serie de preguntas sobre el comportamiento en otro hogar donde su hijo/a pasa un tiempo considerable."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "I had to \"guess\" on most of the questions have had little or no contact with them over the past six months and have heard little about from other people who know them.",
+                    "es": "Tuve que \"adivinar\" para la mayor\u00c3\u00ada de las preguntas, he tenido poco o ning\u00c3\u00ban contacto con ellos en los \u00c3\u00baltimos seis meses y he o\u00c3\u00addo hablar poco de otras personas que los conocen."
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "I interact with them on a semi-regular basis and feel moderately informed about their behavior but there is a lot I don't know about them.",
+                    "es": "Me relaciono con ellos de manera m\u00c3\u00a1s o menos regular y me siento moderadamente informado/a acerca de su comportamiento, pero hay muchas cosas que no s\u00c3\u00a9 acerca de ellos."
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "I interact with them regularly and feel like I know them well enough to answer the questions that were asked.",
+                    "es": "Me relaciono con ellos con regularidad y siento que los conozco lo suficientemente bien como para responder las preguntas."
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

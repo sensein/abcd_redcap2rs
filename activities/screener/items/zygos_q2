@@ -1,0 +1,40 @@
+{
+    "id": "zygos_q2",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "zygos_q2"
+    },
+    "question": {
+        "en": "\"How does their hair compare...is their hair the same color and shade, different shade, or different color?",
+        "es": "\"\u00c2\u00bfC\u00c3\u00b3mo se compara su cabello? \u00c2\u00bfEs del mismo color y tonalidad, diferente tonalidad o diferente color?\""
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Same Color and Shade"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Different Shade"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Different Color"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,39 @@
+{
+    "id": "hair_results_benzos1_scrn",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "hair_results_benzos1_scrn"
+    },
+    "question": {
+        "en": "Benzos1"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "NEG"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "POS"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "QNS"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

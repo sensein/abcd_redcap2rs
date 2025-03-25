@@ -1,0 +1,38 @@
+{
+    "id": "kbi_p_c_mental_health_l",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "<span lang=\"en\"> If you don't know, please choose \"don't know\" in what follows below</span><span lang=\"es\" style= \"color:maroon\">Si no sabe, por favor escoja \"no se\" en lo que sigue abajo.</span>"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        },
+        {
+            "column": "Text Validation Max",
+            "source": "redcap",
+            "value": "100.0"
+        }
+    ],
+    "prefLabel": {
+        "en": "kbi_p_c_mental_health_l"
+    },
+    "question": {
+        "en": "Since we last saw you, how many times has your child been in the hospital for mental health problems?",
+        "es": "Desde la \u00c3\u00baltima vez que nos vimos, \u00c2\u00bfcu\u00c3\u00a1ntas veces ha estado su ni\u00c3\u00b1o(a) en el hospital por problemas de salud mental?"
+    },
+    "responseOptions": {
+        "maxValue": 100,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

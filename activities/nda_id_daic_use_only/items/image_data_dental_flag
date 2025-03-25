@@ -1,0 +1,43 @@
+{
+    "id": "image_data_dental_flag",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        }
+    ],
+    "preamble": {
+        "en": "Image Track"
+    },
+    "prefLabel": {
+        "en": "image_data_dental_flag"
+    },
+    "question": {
+        "en": "Indicates of participant had dental implants (extracted from note fields in RA scanning checklist)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "don't know"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "suspected dental implants"
+                },
+                "value": 1
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

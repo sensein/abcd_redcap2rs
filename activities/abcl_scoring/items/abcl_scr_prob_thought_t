@@ -1,0 +1,30 @@
+{
+    "id": "abcl_scr_prob_thought_t",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Thought Problems"
+    },
+    "prefLabel": {
+        "en": "abcl_scr_prob_thought_t"
+    },
+    "question": {
+        "en": "T-Score"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

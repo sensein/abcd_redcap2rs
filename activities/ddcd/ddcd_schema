@@ -1,0 +1,129 @@
+{
+    "id": "ddcd_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "ddcd"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/nihtbx_raw_demo_pin",
+            "items/nihtbx_raw_demo_name",
+            "items/nihtbx_raw_demo_age",
+            "items/nihtbx_raw_demo_education",
+            "items/nihtbx_raw_demo_mothered",
+            "items/nihtbx_raw_demo_fathered",
+            "items/nihtbx_raw_demo_guardianed",
+            "items/nihtbx_raw_demo_startingleveloveride",
+            "items/nihtbx_raw_demo_gender",
+            "items/nihtbx_raw_demo_hand",
+            "items/nihtbx_raw_demo_race",
+            "items/nihtbx_raw_demo_eth",
+            "items/nihtbx_raw_demo_assesname",
+            "items/nihtbx_raw_demo_id",
+            "items/nihtbx_raw_demo_inst",
+            "items/ddcd_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/nihtbx_raw_demo_pin",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_raw_demo_pin"
+            },
+            {
+                "isAbout": "items/nihtbx_raw_demo_name",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_raw_demo_name"
+            },
+            {
+                "isAbout": "items/nihtbx_raw_demo_age",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_raw_demo_age"
+            },
+            {
+                "isAbout": "items/nihtbx_raw_demo_education",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_raw_demo_education"
+            },
+            {
+                "isAbout": "items/nihtbx_raw_demo_mothered",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_raw_demo_mothered"
+            },
+            {
+                "isAbout": "items/nihtbx_raw_demo_fathered",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_raw_demo_fathered"
+            },
+            {
+                "isAbout": "items/nihtbx_raw_demo_guardianed",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_raw_demo_guardianed"
+            },
+            {
+                "isAbout": "items/nihtbx_raw_demo_startingleveloveride",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_raw_demo_startingleveloveride"
+            },
+            {
+                "isAbout": "items/nihtbx_raw_demo_gender",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_raw_demo_gender"
+            },
+            {
+                "isAbout": "items/nihtbx_raw_demo_hand",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_raw_demo_hand"
+            },
+            {
+                "isAbout": "items/nihtbx_raw_demo_race",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_raw_demo_race"
+            },
+            {
+                "isAbout": "items/nihtbx_raw_demo_eth",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_raw_demo_eth"
+            },
+            {
+                "isAbout": "items/nihtbx_raw_demo_assesname",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_raw_demo_assesname"
+            },
+            {
+                "isAbout": "items/nihtbx_raw_demo_id",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_raw_demo_id"
+            },
+            {
+                "isAbout": "items/nihtbx_raw_demo_inst",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_raw_demo_inst"
+            },
+            {
+                "isAbout": "items/ddcd_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ddcd_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,36 @@
+{
+    "id": "abcl_about_gender_p",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "abcl_about_gender_p"
+    },
+    "question": {
+        "en": "What is this adult's gender identity?",
+        "es": "\u00c2\u00bfCu\u00c3\u00a1l es la identidad de g\u00c3\u00a9nero de este adulto?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "male",
+                    "es": "masculino"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "female",
+                    "es": "feminino"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,32 @@
+{
+    "id": "tfmri_mid_all_beh_hilorewardnegfeedback_numtrials",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "tfmri_mid_all_beh_hilorewardnegfeedback_numtrials"
+    },
+    "question": {
+        "en": "Total number of large and small reward trials with negative feedback for run 1 and run 2"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

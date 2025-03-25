@@ -1,0 +1,41 @@
+{
+    "id": "caff_intake_9",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "Enter as DECIMAL. Typical serving size - 1 cup (8 oz) * 5 hr energy is 2 oz"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "5"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "5"
+        }
+    ],
+    "prefLabel": {
+        "en": "caff_intake_9"
+    },
+    "question": {
+        "en": "Energy drinks (Red Bull, Monster, Rock Star, 5-hr energy*, AMP, Full Throttle)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

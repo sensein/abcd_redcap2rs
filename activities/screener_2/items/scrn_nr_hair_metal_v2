@@ -1,0 +1,41 @@
+{
+    "id": "scrn_nr_hair_metal_v2",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "If parent does not know, mark 'Yes'."
+        }
+    ],
+    "prefLabel": {
+        "en": "scrn_nr_hair_metal_v2"
+    },
+    "question": {
+        "en": "\"Do the extensions or hair piece contain metal fasteners or any other metallic elements?\"",
+        "es": "\"\u00c2\u00bfLas extensiones o pieza de cabello contienen sujetadores de metal o cualquier otro elemento met\u00c3\u00a1lico?\""
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

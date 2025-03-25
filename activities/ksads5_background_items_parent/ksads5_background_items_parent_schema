@@ -1,0 +1,255 @@
+{
+    "id": "ksads5_background_items_parent_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "ksads5_background_items_parent"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/kbi_p_select_language",
+            "items/kbi_p",
+            "items/kbi_p_c_live_full_time",
+            "items/kbi_p_c_guard",
+            "items/kbi_p_conflict",
+            "items/kbi_p_conflict_causes",
+            "items/kbi_p_c_school_setting",
+            "items/kbi_p_how_well_c_school",
+            "items/kbi_p_grades_in_school",
+            "items/kbi_p_c_drop_in_grades",
+            "items/kbi_p_c_spec_serv",
+            "items/kbi_p_c_det_susp",
+            "items/kbi_p_c_det_reason",
+            "items/kbi_p_c_best_friend",
+            "items/kbi_p_c_best_friend_len",
+            "items/kbi_p_c_reg_friend_group",
+            "items/kbi_p_c_reg_friend_group_len",
+            "items/kbi_p_c_reg_friend_group_opin",
+            "items/kbi_p_c_bully",
+            "items/kbi_p_c_gay",
+            "items/kbi_p_c_gay_problems",
+            "items/kbi_p_c_trans",
+            "items/kbi_p_c_trans_problems",
+            "items/kbi_p_c_mh_sa",
+            "items/kbi_p_c_age_services",
+            "items/kbi_p_c_age_services_bl_dk",
+            "items/kbi_p_c_services_checklist",
+            "items/kbi_p_c_mental_health",
+            "items/kbi_ss_c_mental_health_p",
+            "items/kbi_p_c_mental_health_dk",
+            "items/kbi_p_c_substance_abuse",
+            "items/kbi_ss_c_substance_abuse_p",
+            "items/kbi_p_c_substance_abuse_dk",
+            "items/ksads5_background_items_parent_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/kbi_p_select_language",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "kbi_p_select_language"
+            },
+            {
+                "isAbout": "items/kbi_p",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "kbi_p"
+            },
+            {
+                "isAbout": "items/kbi_p_c_live_full_time",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_live_full_time"
+            },
+            {
+                "isAbout": "items/kbi_p_c_guard",
+                "isVis": "kbi_p_c_live_full_time == '0'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_guard"
+            },
+            {
+                "isAbout": "items/kbi_p_conflict",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_conflict"
+            },
+            {
+                "isAbout": "items/kbi_p_conflict_causes",
+                "isVis": "kbi_p_conflict == '2' || kbi_p_conflict == '3'",
+                "valueRequired": true,
+                "variableName": "kbi_p_conflict_causes"
+            },
+            {
+                "isAbout": "items/kbi_p_c_school_setting",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_school_setting"
+            },
+            {
+                "isAbout": "items/kbi_p_how_well_c_school",
+                "isVis": "kbi_p_c_school_setting == '2' || kbi_p_c_school_setting == '3' || kbi_p_c_school_setting == '4' || kbi_p_c_school_setting == '5' || kbi_p_c_school_setting == '6' || kbi_p_c_school_setting == '7' || kbi_p_c_school_setting == '9'",
+                "valueRequired": true,
+                "variableName": "kbi_p_how_well_c_school"
+            },
+            {
+                "isAbout": "items/kbi_p_grades_in_school",
+                "isVis": "kbi_p_c_school_setting == '2' || kbi_p_c_school_setting == '3' || kbi_p_c_school_setting == '4' || kbi_p_c_school_setting == '5' || kbi_p_c_school_setting == '6' || kbi_p_c_school_setting == '7' || kbi_p_c_school_setting == '9'",
+                "valueRequired": true,
+                "variableName": "kbi_p_grades_in_school"
+            },
+            {
+                "isAbout": "items/kbi_p_c_drop_in_grades",
+                "isVis": "kbi_p_c_school_setting == '2' || kbi_p_c_school_setting == '3' || kbi_p_c_school_setting == '4' || kbi_p_c_school_setting == '5' || kbi_p_c_school_setting == '6' || kbi_p_c_school_setting == '7' || kbi_p_c_school_setting == '9'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_drop_in_grades"
+            },
+            {
+                "isAbout": "items/kbi_p_c_spec_serv",
+                "isVis": "kbi_p_c_school_setting == '2' || kbi_p_c_school_setting == '3' || kbi_p_c_school_setting == '4' || kbi_p_c_school_setting == '5' || kbi_p_c_school_setting == '6' || kbi_p_c_school_setting == '7' || kbi_p_c_school_setting == '9'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_spec_serv"
+            },
+            {
+                "isAbout": "items/kbi_p_c_det_susp",
+                "isVis": "kbi_p_c_school_setting == '2' || kbi_p_c_school_setting == '3' || kbi_p_c_school_setting == '4' || kbi_p_c_school_setting == '5' || kbi_p_c_school_setting == '6' || kbi_p_c_school_setting == '7' || kbi_p_c_school_setting == '9'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_det_susp"
+            },
+            {
+                "isAbout": "items/kbi_p_c_det_reason",
+                "isVis": "kbi_p_c_det_susp == '1'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_det_reason"
+            },
+            {
+                "isAbout": "items/kbi_p_c_best_friend",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_best_friend"
+            },
+            {
+                "isAbout": "items/kbi_p_c_best_friend_len",
+                "isVis": "kbi_p_c_best_friend == '1'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_best_friend_len"
+            },
+            {
+                "isAbout": "items/kbi_p_c_reg_friend_group",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_reg_friend_group"
+            },
+            {
+                "isAbout": "items/kbi_p_c_reg_friend_group_len",
+                "isVis": "kbi_p_c_reg_friend_group == '1'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_reg_friend_group_len"
+            },
+            {
+                "isAbout": "items/kbi_p_c_reg_friend_group_opin",
+                "isVis": "kbi_p_c_reg_friend_group == '1'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_reg_friend_group_opin"
+            },
+            {
+                "isAbout": "items/kbi_p_c_bully",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_bully"
+            },
+            {
+                "isAbout": "items/kbi_p_c_gay",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_gay"
+            },
+            {
+                "isAbout": "items/kbi_p_c_gay_problems",
+                "isVis": "kbi_p_c_gay == '1' || kbi_p_c_gay == '2'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_gay_problems"
+            },
+            {
+                "isAbout": "items/kbi_p_c_trans",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_trans"
+            },
+            {
+                "isAbout": "items/kbi_p_c_trans_problems",
+                "isVis": "kbi_p_c_trans == '1' || kbi_p_c_trans == '2'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_trans_problems"
+            },
+            {
+                "isAbout": "items/kbi_p_c_mh_sa",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_mh_sa"
+            },
+            {
+                "isAbout": "items/kbi_p_c_age_services",
+                "isVis": "kbi_p_c_mh_sa == '1' && kbi_p_c_age_services_bl_dk == ''",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_age_services"
+            },
+            {
+                "isAbout": "items/kbi_p_c_age_services_bl_dk",
+                "isVis": "kbi_p_c_mh_sa == '1' && kbi_p_c_age_services == ''",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_age_services_bl_dk"
+            },
+            {
+                "isAbout": "items/kbi_p_c_services_checklist",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_p_c_services_checklist"
+            },
+            {
+                "isAbout": "items/kbi_p_c_mental_health",
+                "isVis": "kbi_p_c_services_checklist___3 == '1' && kbi_p_c_mental_health_dk == ''",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_mental_health"
+            },
+            {
+                "isAbout": "items/kbi_ss_c_mental_health_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "kbi_ss_c_mental_health_p"
+            },
+            {
+                "isAbout": "items/kbi_p_c_mental_health_dk",
+                "isVis": "kbi_p_c_services_checklist___3 == '1' && kbi_p_c_mental_health == ''",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_mental_health_dk"
+            },
+            {
+                "isAbout": "items/kbi_p_c_substance_abuse",
+                "isVis": "kbi_p_c_services_checklist___6 == '1' && kbi_p_c_substance_abuse_dk == ''",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_substance_abuse"
+            },
+            {
+                "isAbout": "items/kbi_ss_c_substance_abuse_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "kbi_ss_c_substance_abuse_p"
+            },
+            {
+                "isAbout": "items/kbi_p_c_substance_abuse_dk",
+                "isVis": "kbi_p_c_services_checklist___6 == '1' && kbi_p_c_substance_abuse == ''",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_substance_abuse_dk"
+            },
+            {
+                "isAbout": "items/ksads5_background_items_parent_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ksads5_background_items_parent_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

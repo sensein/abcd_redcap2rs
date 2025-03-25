@@ -1,0 +1,115 @@
+{
+    "id": "general_behavior_inventory_gbiparent_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "general_behavior_inventory_gbiparent"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/gbi_start_time_p",
+            "items/gbi_select_language",
+            "items/gbi_p_instructions",
+            "items/gen_child_behav_1",
+            "items/gen_child_behav_2",
+            "items/gen_child_behav_3",
+            "items/gen_child_behav_4",
+            "items/gen_child_behav_5",
+            "items/gen_child_behav_6",
+            "items/general_behavior_inventory_gbiparent_complete",
+            "items/gen_child_behav_7",
+            "items/gen_child_behav_8",
+            "items/gen_child_behav_9",
+            "items/gen_child_behav_10"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/gbi_start_time_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "gbi_start_time_p"
+            },
+            {
+                "isAbout": "items/gbi_select_language",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "gbi_select_language"
+            },
+            {
+                "isAbout": "items/gbi_p_instructions",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "gbi_p_instructions"
+            },
+            {
+                "isAbout": "items/gen_child_behav_1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gen_child_behav_1"
+            },
+            {
+                "isAbout": "items/gen_child_behav_2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gen_child_behav_2"
+            },
+            {
+                "isAbout": "items/gen_child_behav_3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gen_child_behav_3"
+            },
+            {
+                "isAbout": "items/gen_child_behav_4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gen_child_behav_4"
+            },
+            {
+                "isAbout": "items/gen_child_behav_5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gen_child_behav_5"
+            },
+            {
+                "isAbout": "items/gen_child_behav_6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gen_child_behav_6"
+            },
+            {
+                "isAbout": "items/general_behavior_inventory_gbiparent_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "general_behavior_inventory_gbiparent_complete"
+            },
+            {
+                "isAbout": "items/gen_child_behav_7",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gen_child_behav_7"
+            },
+            {
+                "isAbout": "items/gen_child_behav_8",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gen_child_behav_8"
+            },
+            {
+                "isAbout": "items/gen_child_behav_9",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gen_child_behav_9"
+            },
+            {
+                "isAbout": "items/gen_child_behav_10",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gen_child_behav_10"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

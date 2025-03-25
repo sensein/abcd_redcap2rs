@@ -1,0 +1,35 @@
+{
+    "id": "macv_y_ss_fs",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Mexican American Cultural Values Scale"
+    },
+    "prefLabel": {
+        "en": "macv_y_ss_fs"
+    },
+    "question": {
+        "en": "Family Support Sum Score\r\nmean([macv_q2],  [macv_q7], [macv_q12], [macv_q16], [macv_q21], [macv_q26] )\r\n\r\nValidation: All items must be answered"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

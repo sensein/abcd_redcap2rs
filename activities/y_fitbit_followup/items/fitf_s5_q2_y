@@ -1,0 +1,42 @@
+{
+    "id": "fitf_s5_q2_y",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Peer Perceptions"
+    },
+    "prefLabel": {
+        "en": "fitf_s5_q2_y"
+    },
+    "question": {
+        "en": "How interested were your friends in the Fitbit?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not interested"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Kind of interested"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Very interested"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

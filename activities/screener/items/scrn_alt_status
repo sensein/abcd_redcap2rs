@@ -1,0 +1,48 @@
+{
+    "id": "scrn_alt_status",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "END"
+    },
+    "prefLabel": {
+        "en": "scrn_alt_status"
+    },
+    "question": {
+        "en": "Screener Status"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Waiting for Doctor's note"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Waiting for PI Consult"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Doctor's note received"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Consulted PI"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

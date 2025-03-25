@@ -1,0 +1,106 @@
+{
+    "id": "edinburgh_handedness_inventory_short_form_schema",
+    "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "if((mean(ehi1b,ehi2b,ehi3b,ehi4b)< - 59),2,if((mean(ehi1b,ehi2b,ehi3b,ehi4b)> 60),1,3))",
+            "variableName": "ehi_y_ss_scoreb"
+        }
+    ],
+    "prefLabel": {
+        "en": "edinburgh_handedness_inventory_short_form"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ehi_start_time",
+            "items/ehi1b",
+            "items/ehi2b",
+            "items/ehi3b",
+            "items/ehi4b",
+            "items/ehi_time",
+            "items/ehi_rhandb",
+            "items/ehi_lhandb",
+            "items/ehi_mhandb",
+            "items/ehi_notes",
+            "items/edinburgh_handedness_inventory_short_form_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ehi_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ehi_start_time"
+            },
+            {
+                "isAbout": "items/ehi1b",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ehi1b"
+            },
+            {
+                "isAbout": "items/ehi2b",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ehi2b"
+            },
+            {
+                "isAbout": "items/ehi3b",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ehi3b"
+            },
+            {
+                "isAbout": "items/ehi4b",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ehi4b"
+            },
+            {
+                "isAbout": "items/ehi_time",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "ehi_time"
+            },
+            {
+                "isAbout": "items/ehi_rhandb",
+                "isVis": "ehi_y_ss_scoreb == '1'",
+                "valueRequired": false,
+                "variableName": "ehi_rhandb"
+            },
+            {
+                "isAbout": "items/ehi_lhandb",
+                "isVis": "ehi_y_ss_scoreb == '2'",
+                "valueRequired": false,
+                "variableName": "ehi_lhandb"
+            },
+            {
+                "isAbout": "items/ehi_mhandb",
+                "isVis": "ehi_y_ss_scoreb == '3'",
+                "valueRequired": false,
+                "variableName": "ehi_mhandb"
+            },
+            {
+                "isAbout": "items/ehi_notes",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ehi_notes"
+            },
+            {
+                "isAbout": "items/ehi_y_ss_scoreb",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ehi_y_ss_scoreb"
+            },
+            {
+                "isAbout": "items/edinburgh_handedness_inventory_short_form_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "edinburgh_handedness_inventory_short_form_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

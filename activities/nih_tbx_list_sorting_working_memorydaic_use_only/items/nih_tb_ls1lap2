@@ -1,0 +1,45 @@
+{
+    "id": "nih_tb_ls1lap2",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "nih_tb_ls1lap2"
+    },
+    "question": {
+        "en": "nih_tb_LS1LAP2"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "If participant says RABBIT, SHEEP, ELEPHANT, say:That's right. Click this button; then click NEXT."
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "If participant gives wrong order, say: Let's try that again.  You saw a RABBIT, SHEEP and ELEPHANT; the RABBIT is smaller than the SHEEP and the SHEEP is smaller than the ELEPHANT. The RABBIT is the smallest animal, the SHEEP is the NEXT biggest animal, and the ELEPHANT is the biggest animal.  Now, tell me the animals in size order, starting with the smallest animal.   If participant says RABBIT, SHEEP, ELEPHANT, say: That's right.  Click this button; then click NEXT."
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "If incorrect again, say: Let's try that one more time.  Click PLAY again; when the screen is blank, repeat above. If participant says RABBIT, SHEEP, ELEPHANT, say:That's right.  Click this button; then click NEXT."
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "If participant does not know animals in size order after 3 trials, click this button; then click NEXT.  Test will be discontinued."
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

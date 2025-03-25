@@ -1,0 +1,43 @@
+{
+    "id": "zyg_r1_dz",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        }
+    ],
+    "preamble": {
+        "en": "ZYGOSITY JUDGEMENT:"
+    },
+    "prefLabel": {
+        "en": "zyg_r1_dz"
+    },
+    "question": {
+        "en": "Rating:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "DZ"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "MZ"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

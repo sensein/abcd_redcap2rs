@@ -1,0 +1,661 @@
+{
+    "id": "mri_beh_sst_daic_use_only_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "mri_beh_sst_daic_use_only"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/tfmri_sst_beh_visitid",
+            "items/tfmri_sst_beh_switchflag",
+            "items/tfmri_sst_beh_performflag",
+            "items/tfmri_sst_nbeh_nruns",
+            "items/tfmri_sst_all_beh_go_numtrials",
+            "items/tfmri_sst_all_beh_stop_numtrials",
+            "items/tfmri_sst_all_beh_total_numtrials",
+            "items/tfmri_sst_run1_beh_go_numtrials",
+            "items/tfmri_sst_run1_beh_stop_numtrials",
+            "items/tfmri_sst_run2_beh_go_numtrials",
+            "items/tfmri_sst_run2_beh_stop_numtrials",
+            "items/tfmri_sst_all_beh_correctgo_numtrials",
+            "items/tfmri_sst_run1_beh_correctgo_numtrials",
+            "items/tfmri_sst_run2_beh_correctgo_numtrials",
+            "items/tfmri_sst_all_beh_correctgo_rate",
+            "items/tfmri_sst_run1_beh_correctgo_rate",
+            "items/tfmri_sst_run2_beh_correctgo_rate",
+            "items/tfmri_sst_all_beh_correctgo_meanrt",
+            "items/tfmri_sst_all_beh_correctgo_stdrt",
+            "items/tfmri_sst_run1_beh_correctgo_meanrt",
+            "items/tfmri_sst_run1_beh_correctgo_stdrt",
+            "items/tfmri_sst_run2_beh_correctgo_meanrt",
+            "items/tfmri_sst_run2_beh_correctgo_stdrt",
+            "items/tfmri_sst_all_beh_correctlatego_numtrials",
+            "items/tfmri_sst_run1_beh_correctlatego_numtrials",
+            "items/tfmri_sst_run2_beh_correctlatego_numtrials",
+            "items/tfmri_sst_all_beh_correctlatego_rate",
+            "items/tfmri_sst_run1_beh_correctlatego_rate",
+            "items/tfmri_sst_run2_beh_correctlatego_rate",
+            "items/tfmri_sst_all_beh_correctlatego_meanrt",
+            "items/tfmri_sst_all_beh_correctlatego_stdrt",
+            "items/tfmri_sst_run1_beh_correctlatego_meanrt",
+            "items/tfmri_sst_run1_beh_correctlatego_stdrt",
+            "items/tfmri_sst_run2_beh_correctlatego_meanrt",
+            "items/tfmri_sst_run2_beh_correctlatego_stdrt",
+            "items/tfmri_sst_all_beh_incorrectgo_numtrials",
+            "items/tfmri_sst_run1_beh_incorrectgo_numtrials",
+            "items/tfmri_sst_run2_beh_incorrectgo_numtrials",
+            "items/tfmri_sst_all_beh_incorrectgo_rate",
+            "items/tfmri_sst_run1_beh_incorrectgo_rate",
+            "items/tfmri_sst_run2_beh_incorrectgo_rate",
+            "items/tfmri_sst_all_beh_incorrectgo_meanrt",
+            "items/tfmri_sst_all_beh_incorrectgo_stdrt",
+            "items/tfmri_sst_run1_beh_incorrectgo_meanrt",
+            "items/tfmri_sst_run1_beh_incorrectgo_stdrt",
+            "items/tfmri_sst_run2_beh_incorrectgo_meanrt",
+            "items/tfmri_sst_run2_beh_incorrectgo_stdrt",
+            "items/tfmri_sst_all_beh_incorrectlatego_numtrials",
+            "items/tfmri_sst_run1_beh_incorrectlatego_numtrials",
+            "items/tfmri_sst_run2_beh_incorrectlatego_numtrials",
+            "items/tfmri_sst_all_beh_incorrectlatego_rate",
+            "items/tfmri_sst_run1_beh_incorrectlatego_rate",
+            "items/tfmri_sst_run2_beh_incorrectlatego_rate",
+            "items/tfmri_sst_all_beh_incorrectlatego_meanrt",
+            "items/tfmri_sst_all_beh_incorrectlatego_stdrt",
+            "items/tfmri_sst_run1_beh_incorrectlatego_meanrt",
+            "items/tfmri_sst_run1_beh_incorrectlatego_stdrt",
+            "items/tfmri_sst_run2_beh_incorrectlatego_meanrt",
+            "items/tfmri_sst_run2_beh_incorrectlatego_stdrt",
+            "items/tfmri_sst_all_beh_norespgo_numtrials",
+            "items/tfmri_sst_run1_beh_norespgo_numtrials",
+            "items/tfmri_sst_run2_beh_norespgo_numtrials",
+            "items/tfmri_sst_all_beh_norespgo_rate",
+            "items/tfmri_sst_run1_beh_norespgo_rate",
+            "items/tfmri_sst_run2_beh_norespgo_rate",
+            "items/tfmri_sst_all_beh_correctstop_numtrials",
+            "items/tfmri_sst_run1_beh_correctstop_numtrials",
+            "items/tfmri_sst_run2_beh_correctstop_numtrials",
+            "items/tfmri_sst_all_beh_correctstop_rate",
+            "items/tfmri_sst_run1_beh_correctstop_rate",
+            "items/tfmri_sst_run2_beh_correctstop_rate",
+            "items/tfmri_sst_all_beh_incorrectstop_numtrials",
+            "items/tfmri_sst_run1_beh_incorrectstop_numtrials",
+            "items/tfmri_sst_run2_beh_incorrectstop_numtrials",
+            "items/tfmri_sst_all_beh_incorrectstop_rate",
+            "items/tfmri_sst_run1_beh_incorrectstop_rate",
+            "items/tfmri_sst_run2_beh_incorrectstop_rate",
+            "items/tfmri_sst_all_beh_incorrectstop_meanrt",
+            "items/tfmri_sst_all_beh_incorrectstop_stdrt",
+            "items/tfmri_sst_run1_beh_incorrectstop_meanrt",
+            "items/tfmri_sst_run1_beh_incorrectstop_stdrt",
+            "items/tfmri_sst_run2_beh_incorrectstop_meanrt",
+            "items/tfmri_sst_run2_beh_incorrectstop_stdrt",
+            "items/tfmri_sst_all_beh_ssdstop_numtrials",
+            "items/tfmri_sst_run1_beh_ssdstop_numtrials",
+            "items/tfmri_sst_run2_beh_ssdstop_numtrials",
+            "items/tfmri_sst_all_beh_ssdstop_rate",
+            "items/tfmri_sst_run1_beh_ssdstop_rate",
+            "items/tfmri_sst_run2_beh_ssdstop_rate",
+            "items/tfmri_sst_all_beh_total_meanssd",
+            "items/tfmri_sst_all_beh_total_meanrt",
+            "items/mri_beh_sst_daic_use_only_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/tfmri_sst_beh_visitid",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_beh_visitid"
+            },
+            {
+                "isAbout": "items/tfmri_sst_beh_switchflag",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_beh_switchflag"
+            },
+            {
+                "isAbout": "items/tfmri_sst_beh_performflag",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_beh_performflag"
+            },
+            {
+                "isAbout": "items/tfmri_sst_nbeh_nruns",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_nbeh_nruns"
+            },
+            {
+                "isAbout": "items/tfmri_sst_all_beh_go_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_all_beh_go_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_sst_all_beh_stop_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_all_beh_stop_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_sst_all_beh_total_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_all_beh_total_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run1_beh_go_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run1_beh_go_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run1_beh_stop_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run1_beh_stop_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run2_beh_go_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run2_beh_go_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run2_beh_stop_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run2_beh_stop_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_sst_all_beh_correctgo_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_all_beh_correctgo_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run1_beh_correctgo_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run1_beh_correctgo_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run2_beh_correctgo_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run2_beh_correctgo_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_sst_all_beh_correctgo_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_all_beh_correctgo_rate"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run1_beh_correctgo_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run1_beh_correctgo_rate"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run2_beh_correctgo_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run2_beh_correctgo_rate"
+            },
+            {
+                "isAbout": "items/tfmri_sst_all_beh_correctgo_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_all_beh_correctgo_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_sst_all_beh_correctgo_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_all_beh_correctgo_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run1_beh_correctgo_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run1_beh_correctgo_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run1_beh_correctgo_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run1_beh_correctgo_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run2_beh_correctgo_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run2_beh_correctgo_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run2_beh_correctgo_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run2_beh_correctgo_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_sst_all_beh_correctlatego_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_all_beh_correctlatego_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run1_beh_correctlatego_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run1_beh_correctlatego_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run2_beh_correctlatego_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run2_beh_correctlatego_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_sst_all_beh_correctlatego_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_all_beh_correctlatego_rate"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run1_beh_correctlatego_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run1_beh_correctlatego_rate"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run2_beh_correctlatego_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run2_beh_correctlatego_rate"
+            },
+            {
+                "isAbout": "items/tfmri_sst_all_beh_correctlatego_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_all_beh_correctlatego_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_sst_all_beh_correctlatego_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_all_beh_correctlatego_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run1_beh_correctlatego_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run1_beh_correctlatego_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run1_beh_correctlatego_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run1_beh_correctlatego_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run2_beh_correctlatego_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run2_beh_correctlatego_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run2_beh_correctlatego_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run2_beh_correctlatego_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_sst_all_beh_incorrectgo_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_all_beh_incorrectgo_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run1_beh_incorrectgo_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run1_beh_incorrectgo_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run2_beh_incorrectgo_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run2_beh_incorrectgo_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_sst_all_beh_incorrectgo_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_all_beh_incorrectgo_rate"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run1_beh_incorrectgo_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run1_beh_incorrectgo_rate"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run2_beh_incorrectgo_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run2_beh_incorrectgo_rate"
+            },
+            {
+                "isAbout": "items/tfmri_sst_all_beh_incorrectgo_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_all_beh_incorrectgo_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_sst_all_beh_incorrectgo_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_all_beh_incorrectgo_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run1_beh_incorrectgo_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run1_beh_incorrectgo_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run1_beh_incorrectgo_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run1_beh_incorrectgo_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run2_beh_incorrectgo_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run2_beh_incorrectgo_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run2_beh_incorrectgo_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run2_beh_incorrectgo_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_sst_all_beh_incorrectlatego_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_all_beh_incorrectlatego_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run1_beh_incorrectlatego_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run1_beh_incorrectlatego_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run2_beh_incorrectlatego_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run2_beh_incorrectlatego_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_sst_all_beh_incorrectlatego_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_all_beh_incorrectlatego_rate"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run1_beh_incorrectlatego_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run1_beh_incorrectlatego_rate"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run2_beh_incorrectlatego_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run2_beh_incorrectlatego_rate"
+            },
+            {
+                "isAbout": "items/tfmri_sst_all_beh_incorrectlatego_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_all_beh_incorrectlatego_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_sst_all_beh_incorrectlatego_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_all_beh_incorrectlatego_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run1_beh_incorrectlatego_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run1_beh_incorrectlatego_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run1_beh_incorrectlatego_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run1_beh_incorrectlatego_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run2_beh_incorrectlatego_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run2_beh_incorrectlatego_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run2_beh_incorrectlatego_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run2_beh_incorrectlatego_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_sst_all_beh_norespgo_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_all_beh_norespgo_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run1_beh_norespgo_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run1_beh_norespgo_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run2_beh_norespgo_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run2_beh_norespgo_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_sst_all_beh_norespgo_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_all_beh_norespgo_rate"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run1_beh_norespgo_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run1_beh_norespgo_rate"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run2_beh_norespgo_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run2_beh_norespgo_rate"
+            },
+            {
+                "isAbout": "items/tfmri_sst_all_beh_correctstop_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_all_beh_correctstop_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run1_beh_correctstop_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run1_beh_correctstop_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run2_beh_correctstop_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run2_beh_correctstop_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_sst_all_beh_correctstop_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_all_beh_correctstop_rate"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run1_beh_correctstop_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run1_beh_correctstop_rate"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run2_beh_correctstop_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run2_beh_correctstop_rate"
+            },
+            {
+                "isAbout": "items/tfmri_sst_all_beh_incorrectstop_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_all_beh_incorrectstop_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run1_beh_incorrectstop_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run1_beh_incorrectstop_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run2_beh_incorrectstop_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run2_beh_incorrectstop_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_sst_all_beh_incorrectstop_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_all_beh_incorrectstop_rate"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run1_beh_incorrectstop_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run1_beh_incorrectstop_rate"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run2_beh_incorrectstop_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run2_beh_incorrectstop_rate"
+            },
+            {
+                "isAbout": "items/tfmri_sst_all_beh_incorrectstop_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_all_beh_incorrectstop_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_sst_all_beh_incorrectstop_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_all_beh_incorrectstop_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run1_beh_incorrectstop_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run1_beh_incorrectstop_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run1_beh_incorrectstop_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run1_beh_incorrectstop_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run2_beh_incorrectstop_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run2_beh_incorrectstop_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run2_beh_incorrectstop_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run2_beh_incorrectstop_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_sst_all_beh_ssdstop_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_all_beh_ssdstop_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run1_beh_ssdstop_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run1_beh_ssdstop_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run2_beh_ssdstop_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run2_beh_ssdstop_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_sst_all_beh_ssdstop_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_all_beh_ssdstop_rate"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run1_beh_ssdstop_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run1_beh_ssdstop_rate"
+            },
+            {
+                "isAbout": "items/tfmri_sst_run2_beh_ssdstop_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_run2_beh_ssdstop_rate"
+            },
+            {
+                "isAbout": "items/tfmri_sst_all_beh_total_meanssd",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_all_beh_total_meanssd"
+            },
+            {
+                "isAbout": "items/tfmri_sst_all_beh_total_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_all_beh_total_meanrt"
+            },
+            {
+                "isAbout": "items/mri_beh_sst_daic_use_only_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_beh_sst_daic_use_only_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

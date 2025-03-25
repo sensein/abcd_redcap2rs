@@ -1,0 +1,54 @@
+{
+    "id": "tbi_3b_l",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "We want to know about injuries to your child's head or neck that he/she may have since we last saw you on [asnt_timestamp_c].",
+        "es": "Queremos saber sobre lesiones en la cabeza o a el cuello que su ni\u00c3\u00b1o/a haya sufrido en cualquier momento desde la \u00c3\u00baltima vez que nos vimos en [asnt_timestamp_c]."
+    },
+    "prefLabel": {
+        "en": "tbi_3b_l"
+    },
+    "question": {
+        "en": "Was he/she knocked out or did he/she lose consciousness (LOC)? If yes, how long?",
+        "es": "\u00c2\u00bfEstuvo \u00c3\u00a9l o ella noqueado/a o perdi\u00c3\u00b3 el conocimiento? \u00c2\u00bfSi la respuesta es si, por cu\u00c3\u00a1nto tiempo?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No LOC",
+                    "es": "Sin p\u00c3\u00a9rdida de conocimiento"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "< 30min",
+                    "es": "< 30min"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "30min-24hrs",
+                    "es": "30min-24hrs"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": ">24 hrs",
+                    "es": ">24 hrs"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

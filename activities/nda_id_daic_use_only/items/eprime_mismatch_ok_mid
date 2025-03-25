@@ -1,0 +1,36 @@
+{
+    "id": "eprime_mismatch_ok_mid",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Image Track"
+    },
+    "prefLabel": {
+        "en": "eprime_mismatch_ok_mid"
+    },
+    "question": {
+        "en": "Ignore difference between time of MID image series and MID E-prime file."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

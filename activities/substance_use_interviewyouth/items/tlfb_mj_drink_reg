@@ -1,0 +1,36 @@
+{
+    "id": "tlfb_mj_drink_reg",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Age First Use and Age Regular UseNow I'm going to ask how old you were you when you first tried each of the drugs we have been talking about, and how old you were when you first started using the drug regularly (which means using it every week for at least SIX MONTHS).Interviewer: go through each drug they endorsed in their lifetime and fill out first use and regular use using mm/dd/yyyy. If the day is unknown, assume the 15th of the given month"
+    },
+    "prefLabel": {
+        "en": "tlfb_mj_drink_reg"
+    },
+    "question": {
+        "en": "INTERVIEWER (code silently): Have you begun using MARIJUANA INFUSED ALCOHOL DRINKS regularly?(at least once a week for 6 months)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

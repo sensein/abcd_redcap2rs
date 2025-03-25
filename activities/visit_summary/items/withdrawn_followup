@@ -1,0 +1,46 @@
+{
+    "id": "withdrawn_followup",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20180301"
+        }
+    ],
+    "prefLabel": {
+        "en": "withdrawn_followup"
+    },
+    "question": {
+        "en": "Withdrawn: By Parent, By Youth or Both"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "By Parent"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "By Youth"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Both"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

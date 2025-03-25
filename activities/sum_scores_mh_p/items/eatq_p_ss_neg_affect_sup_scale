@@ -1,0 +1,35 @@
+{
+    "id": "eatq_p_ss_neg_affect_sup_scale",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Super Scale"
+    },
+    "prefLabel": {
+        "en": "eatq_p_ss_neg_affect_sup_scale"
+    },
+    "question": {
+        "en": "Super Scale Negative Affect mean(eatq_p_ss_frustration, eatq_p_ss_depressive_mood,  eatq_p_ss_aggression)\r\n\r\nValidation: All three scores calculated"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

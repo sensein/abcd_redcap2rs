@@ -1,0 +1,59 @@
+{
+    "id": "ksads_r_sup_1978_t",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "ksads_r_sup_1978_t"
+    },
+    "question": {
+        "en": "You mentioned earlier that in the past two weeks there were certain things you feel driven to do over and over again, such as ordering or arranging things a certain way. About how much time do you spend each day doing these things?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "None"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Less than 1 hr"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "1-3 hrs"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "3-8 hours"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Over 8 hours"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

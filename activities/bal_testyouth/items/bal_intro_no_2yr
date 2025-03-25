@@ -1,0 +1,27 @@
+{
+    "id": "bal_intro_no_2yr",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Choices, Calculations, OR Slider Labels (Descriptive Field)",
+            "source": "redcap",
+            "value": "[{\"name\": {\"en\": \"Not part of 10%\"}, \"value\": 1}]"
+        }
+    ],
+    "prefLabel": {
+        "en": "bal_intro_no_2yr"
+    },
+    "question": {
+        "en": "Participant hasNOTbeen assigned to BAL.Select \"Not applicable (not part of 20 %)\"within next field, change form status to complete, and save."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

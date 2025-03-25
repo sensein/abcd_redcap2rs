@@ -1,0 +1,119 @@
+{
+    "id": "isip_4_2",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "5"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "5"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDECHOICE='0'\nHIDEFROMCOMPLETION20170915"
+        }
+    ],
+    "preamble": {
+        "en": "You mentioned earlier that you have had a sip of alcohol in the past. I want to ask some more questions about that. Remember your responses are confidential - we will not share your answers with anyone."
+    },
+    "prefLabel": {
+        "en": "isip_4_2"
+    },
+    "question": {
+        "en": "Whose drink was it / who did the drink belong to?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not applicable"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "My mom"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "My dad"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Other guardian"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "An uncle or aunt"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Brother or sister who was age 21 or older"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Brother or sister who was age 20 or younger"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Other adult (non-guardian) family member"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Another adult (e.g., neighbor, friend of your parents, etc.)"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Friend"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Other young person who is not a friend (20 years or younger)"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "I didn't know the person/it was a stranger"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "I don't know who the drink belonged to"
+                },
+                "value": 12
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

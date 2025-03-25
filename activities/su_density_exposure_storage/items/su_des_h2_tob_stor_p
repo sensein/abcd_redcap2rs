@@ -1,0 +1,54 @@
+{
+    "id": "su_des_h2_tob_stor_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "storage_h2"
+        }
+    ],
+    "preamble": {
+        "en": "Above you reported that some alcohol and drugs are used in the second household your child spends time in. Next, we would like to know where family members in that household stored the following drugs in that household during the past year(answer for the most accessible product if multiple types are used in the household).\n\nIf you are not sure, please make your best guess.",
+        "es": "Anteriormente, usted inform\u00c3\u00b3 que se consumen algunas drogas y alcohol en el tercer hogar donde su hijo/a pasa tiempo. A continuaci\u00c3\u00b3n, nos gustar\u00c3\u00ada saber d\u00c3\u00b3nde los miembros de la familia en ese hogar guardaron las siguientes drogas en ese hogar durante el a\u00c3\u00b1o pasado (si se utilizan m\u00c3\u00baltiples tipos de productos en el hogar, conteste por el producto m\u00c3\u00a1s accesible).\n\nSi no esta seguro, por favor eliga la respuesta que m\u00c3\u00a1s se aproxime."
+    },
+    "prefLabel": {
+        "en": "su_des_h2_tob_stor_p"
+    },
+    "question": {
+        "en": "Tobacco products (cigarettes, e-cigarettes, pipes, cigars, smokeless tobacco)?",
+        "es": "\u00c2\u00bfProductos de tabaco (cigarrillos, cigarrillos electr\u00c3\u00b3nicos, pipas, puros, tabaco sin humo)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Visible and unlocked (counter top, table top, fridge, easy to reach drawer)",
+                    "es": "A la vista y sin llave (mostrador, mesa, refrigerador, caj\u00c3\u00b3n de f\u00c3\u00a1cil acceso)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Not visible and unlocked (cabinet, hard to reach drawer, hidden)",
+                    "es": "Fuera de la vista y sin llave (gabinete, caj\u00c3\u00b3n con dif\u00c3\u00adcil acceso, escondido/a)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Locked cabinet, drawer, or storage area",
+                    "es": "Gabinete, caj\u00c3\u00b3n o \u00c3\u00a1rea de almacenamiento bajo llave"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

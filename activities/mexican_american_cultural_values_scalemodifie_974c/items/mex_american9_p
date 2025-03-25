@@ -1,0 +1,74 @@
+{
+    "id": "mex_american9_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "9"
+        },
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "mex_american_q9_q12_a0e368_6265ea"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "9"
+        }
+    ],
+    "prefLabel": {
+        "en": "mex_american9_p"
+    },
+    "question": {
+        "en": "When it comes to important decisions, the family should ask for advice from close relatives.",
+        "es": "La familia deber\u00c3\u00ada pedir consejos a sus parientes m\u00c3\u00a1s cercanos cuando se trata de decisiones importantes."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at All",
+                    "es": "Nada"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A Little",
+                    "es": "Poquito"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Somewhat",
+                    "es": "Algo"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Very Much",
+                    "es": "Bastante"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Completely",
+                    "es": "Completamente"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

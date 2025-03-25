@@ -1,0 +1,29 @@
+{
+    "id": "eatq_p_ss_surgency",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        }
+    ],
+    "preamble": {
+        "en": "PhenX Early Adolescent Temperament Q - Parent"
+    },
+    "prefLabel": {
+        "en": "eatq_p_ss_surgency"
+    },
+    "question": {
+        "en": "PhenX Early Adolescent Temperament Q - Parent surgency sum\r\n\r\nValidation: Maximum of 1 item missing"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

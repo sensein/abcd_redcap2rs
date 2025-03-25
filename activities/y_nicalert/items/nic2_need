@@ -1,0 +1,43 @@
+{
+    "id": "nic2_need",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "Select 'Yes\" if participant will complete Ncog and/or MRI on day 2."
+        }
+    ],
+    "preamble": {
+        "en": "DAY 2"
+    },
+    "prefLabel": {
+        "en": "nic2_need"
+    },
+    "question": {
+        "en": "Is NIC Test Day 2 needed for this participant?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

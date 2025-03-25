@@ -1,0 +1,53 @@
+{
+    "id": "su_caff_intake_4_calc",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "Typical serving size - 1 Cup (8 oz)"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "3"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Text Validation Min",
+            "source": "redcap",
+            "value": "0"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "3"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN @READONLY @SHARED"
+        }
+    ],
+    "prefLabel": {
+        "en": "su_caff_intake_4_calc"
+    },
+    "question": {
+        "en": "Tea with caffeine (Green Tea, Black Tea, Sweet Tea, Earl Grey)\r\n\r\nIf  \"Have you heard of caffeine ...?\" is not endorsed , values for  \"caff_intake_4\" will be missing.  Here, these missing values have been replaced with \"0.\""
+    },
+    "responseOptions": {
+        "minValue": 0,
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

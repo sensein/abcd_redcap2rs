@@ -1,0 +1,61 @@
+{
+    "id": "demo_yrs_2a_l",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20180301\n@HIDECHOICE = '7'"
+        }
+    ],
+    "preamble": {
+        "en": "We would like to ask you a few questions about your religious experiences and beliefs.",
+        "es": "Nos gustara hacerle algunas preguntas sobre sus experiencias religiosas y creencias."
+    },
+    "prefLabel": {
+        "en": "demo_yrs_2a_l"
+    },
+    "question": {
+        "en": "Does your child's religion have rules forbidding the use of alcohol?",
+        "es": "\u00c2\u00bfLa religi\u00c3\u00b3n de su ni\u00c3\u00b1o(a) tiene reglas que proh\u00c3\u00adben el uso del alcohol?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't know",
+                    "es": "No lo s\u00c3\u00a9"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Don't know",
+                    "es": "No lo s\u00c3\u00a9"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

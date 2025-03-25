@@ -1,0 +1,54 @@
+{
+    "id": "demo_prnt_nat_lang_2_l",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "The following questions are about you or the child's family.",
+        "es": "Las siguientes preguntas son acerca de usted o de la familia del ni\u00c3\u00b1o / de la ni\u00c3\u00b1a."
+    },
+    "prefLabel": {
+        "en": "demo_prnt_nat_lang_2_l"
+    },
+    "question": {
+        "en": "Please choose one of these four options regarding the first language or languages most spoken to you by your parents or guardians after birth.",
+        "es": "Por favor escoja una de estas tres opciones sobre el primer idioma o idiomas m\u00c3\u00a1s hablados a usted, despu\u00c3\u00a9s de nacer, por sus padres o guardianes."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Your parents or guardians spoke to you in English more than any other language after birth",
+                    "es": "Sus padres o guardianes le hablaron en ingles, despu\u00c3\u00a9s de nacer, m\u00c3\u00a1s que cualquier otro lenguaje."
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "English and another language were spoken equally",
+                    "es": "Hablaron tanto en ingles como en otro idioma."
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Your parents or guardians spoke to you in a language other than English more than any other language after birth.",
+                    "es": "Sus padres o tutores hablaban con usted en un idioma diferente al Ingl\u00c3\u00a9s, desde su nacimiento, m\u00c3\u00a1s que cualquier otro idioma."
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Two languages, other than English, were spoken about equally",
+                    "es": "Hablaron igualmente en otros dos idiomas que no eran ingles."
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

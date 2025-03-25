@@ -1,0 +1,57 @@
+{
+    "id": "tbi_2_l",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "2"
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "2"
+        }
+    ],
+    "preamble": {
+        "en": "We want to know about injuries to your child's head or neck that he/she may have since we last saw you on [asnt_timestamp_c].",
+        "es": "Queremos saber sobre lesiones en la cabeza o a el cuello que su ni\u00c3\u00b1o/a haya sufrido en cualquier momento desde la \u00c3\u00baltima vez que nos vimos en [asnt_timestamp_c]."
+    },
+    "prefLabel": {
+        "en": "tbi_2_l"
+    },
+    "question": {
+        "en": "Since we last saw you on [asnt_timestamp_c], has your child injured his/her head or neck in a car accident or from crashing some other moving vehicle like a bicycle, motorcyle, or ATV?",
+        "es": "Desde la \u00c3\u00baltima vez que nos vimos en [asnt_timestamp_c],\u00c2\u00a0\u00c2\u00bfsu ni\u00c3\u00b1o/a se ha lesionado  la cabeza o el cuello en un accidente de auto o al chocar cuando iba en alg\u00c3\u00ban otro veh\u00c3\u00adculo en movimiento, como una bicicleta, motocicleta o veh\u00c3\u00adculo todo terreno?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "Si"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

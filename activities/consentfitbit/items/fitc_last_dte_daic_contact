@@ -1,0 +1,30 @@
+{
+    "id": "fitc_last_dte_daic_contact",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Syncing and Automated Alerts History"
+    },
+    "prefLabel": {
+        "en": "fitc_last_dte_daic_contact"
+    },
+    "question": {
+        "en": "Date of last DAIC automated contact"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

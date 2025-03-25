@@ -1,0 +1,55 @@
+{
+    "id": "isip_1d_2",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "Years"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "2"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        },
+        {
+            "column": "Text Validation Min",
+            "source": "redcap",
+            "value": "1"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "2"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20170915"
+        }
+    ],
+    "preamble": {
+        "en": "You mentioned earlier that you have had a sip of alcohol in the past. I want to ask some more questions about that. Remember your responses are confidential - we will not share your answers with anyone."
+    },
+    "prefLabel": {
+        "en": "isip_1d_2"
+    },
+    "question": {
+        "en": "How old were you the first time you had a sip of alcohol?"
+    },
+    "responseOptions": {
+        "minValue": 1,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

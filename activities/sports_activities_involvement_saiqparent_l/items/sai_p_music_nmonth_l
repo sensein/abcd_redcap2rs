@@ -1,0 +1,128 @@
+{
+    "id": "sai_p_music_nmonth_l",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "(1-12)"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDECHOICE = '0'"
+        }
+    ],
+    "preamble": {
+        "en": "Musical Instrument (Singing, Choir, Guitar, Piano, Drums, Violin, Flute, Band, Rock Band, Orchestra)",
+        "es": "Instrumento musical (canto, coro, guitarra, piano, bater\u00c3\u00ada, viol\u00c3\u00adn, flauta, banda, banda de rock, orquesta)"
+    },
+    "prefLabel": {
+        "en": "sai_p_music_nmonth_l"
+    },
+    "question": {
+        "en": "Since we last saw you, about how many months did your child participate in this activity?",
+        "es": "Desde la \u00c3\u00baltima vez que nos vimos, \u00c2\u00bfaproximadamente cu\u00c3\u00a1ntos meses al a\u00c3\u00b1o particip\u00c3\u00b3 su ni\u00c3\u00b1o(a) en esta actividad?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "##en##Don't know##/en####es##No lo s\u00c3\u00a9##/es##"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "5"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "6"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "7"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "8"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "9"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "10"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "11"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "12"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "##en##More than 12 months##/en####es##M\u00c3\u00a1s de 12 meses##/es##"
+                },
+                "value": 13
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

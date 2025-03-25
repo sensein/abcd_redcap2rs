@@ -1,0 +1,53 @@
+{
+    "id": "tlfb_alc_sip",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "1"
+        },
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "tlfb_ever_used"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "1"
+        }
+    ],
+    "preamble": {
+        "en": "EVER USEDI want to start by asking if you have EVER TRIED any of the following drugs in your life. Have you ever tried___________at any time in your life?"
+    },
+    "prefLabel": {
+        "en": "tlfb_alc_sip"
+    },
+    "question": {
+        "en": "A sip of alcohol such as beer, wine or liquor (rum, vodka, gin, whiskey)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

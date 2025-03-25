@@ -1,0 +1,40 @@
+{
+    "id": "scrn_claustrophob",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "scrn_claustrophob"
+    },
+    "question": {
+        "en": "\"Does (Child's name) have serious problems with claustrophobia or being in small places?\"",
+        "es": "\"\u00c2\u00bf(Nombre del menor) tiene problemas serios de claustrofobia o para estar en lugares peque\u00c3\u00b1os?\""
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes - GO TO END"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Unsure"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

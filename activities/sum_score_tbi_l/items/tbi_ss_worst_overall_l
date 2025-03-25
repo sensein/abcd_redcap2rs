@@ -1,0 +1,64 @@
+{
+    "id": "tbi_ss_worst_overall_l",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "tbi_ss_worst_overall_l"
+    },
+    "question": {
+        "en": "Worst Injury Overall\r\nWorst TBI -  \r\n1, Improbable  TBI (no TBI or TBI w/o LOC or memory loss)\r\n2, Possible mild TBI (TBI w/o LOC but memory loss)\r\n3, Mild TBI (TBI w/LOC \u00e2\u0089\u00a4 30 min)\r\n4, Moderate TBI (TBI w/LOC  30 min - 24 hrs)\r\n5, Severe TBI (TBI w/ LOC \u00e2\u0089\u00a5 24 hrs)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Improbable  TBI"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Possible mild TBI"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Mild TBI"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Moderate TBI"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Severe TBI"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

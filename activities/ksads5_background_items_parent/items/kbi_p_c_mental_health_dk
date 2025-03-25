@@ -1,0 +1,29 @@
+{
+    "id": "kbi_p_c_mental_health_dk",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "kbi_p_c_mental_health_dk"
+    },
+    "question": {
+        "en": "How many times has your child been in the hospital for mental health problems?",
+        "es": "\u00c2\u00bfCu\u00c3\u00a1ntas veces ha estado su ni\u00c3\u00b1o(a) en el hospital por problemas de salud mental?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Don't know",
+                    "es": "No lo s\u00c3\u00a9"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

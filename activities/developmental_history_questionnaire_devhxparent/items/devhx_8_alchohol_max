@@ -1,0 +1,36 @@
+{
+    "id": "devhx_8_alchohol_max",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "<span lang=\"en\">If you don't know, please choose \"don't know\" in what follows below</span><span lang=\"es\" style=\"color:maroon;\">   Si no sabe, por favor escoja \"no se\" en lo que sigue abajo.</span>"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        }
+    ],
+    "preamble": {
+        "en": "We are now going to ask some questions about the birth and early development of the child who is participating in this study.",
+        "es": "Ahora le vamos a hacer algunas preguntas sobre el nacimiento y la etapa temprana de desarrollo del ni\u00c3\u00b1o(a) quien est\u00c3\u00a1 participando en este estudio."
+    },
+    "prefLabel": {
+        "en": "devhx_8_alchohol_max"
+    },
+    "question": {
+        "en": "Maximum drinks in one sitting?",
+        "es": "\u00c2\u00bfN\u00c3\u00bamero de bebidas m\u00c3\u00a1ximas en una sola sesi\u00c3\u00b3n?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

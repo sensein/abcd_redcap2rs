@@ -1,0 +1,78 @@
+{
+    "id": "scrn_race",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "Select all that apply if more than one race."
+        }
+    ],
+    "prefLabel": {
+        "en": "scrn_race"
+    },
+    "question": {
+        "en": "\"What is your child's race?\"",
+        "es": "\"\u00c2\u00bfCual es la raza de su ni\u00c3\u00b1o(a)?\""
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "American Indian/Alaska Native"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Asian"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Native Hawaiian/Other Pacific Islander"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Black or African-American"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "White"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

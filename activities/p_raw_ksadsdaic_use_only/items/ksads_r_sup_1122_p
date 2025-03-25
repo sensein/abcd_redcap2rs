@@ -1,0 +1,83 @@
+{
+    "id": "ksads_r_sup_1122_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "ksads_r_sup_1122_p"
+    },
+    "question": {
+        "en": "Back then, did your child make any preparations for killing themself?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Bought or stored pills"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Obtained a knife"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Obtained a gun"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Obtained a rope"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Gave away my things"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Wrote a suicide note"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Researched methods on internet"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Other (type in)"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "None; I have not made any preparations"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

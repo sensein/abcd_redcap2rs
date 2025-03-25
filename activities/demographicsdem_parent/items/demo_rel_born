@@ -1,0 +1,25 @@
+{
+    "id": "demo_rel_born",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Okay, I am now going to ask you a series of questions about the different members of your child's family and where they were born:",
+        "es": "Bien, ahora voy a hacerle una serie de preguntas sobre los diferentes miembros de la familia de su ni\u00c3\u00b1o(a) y d\u00c3\u00b3nde nacieron."
+    },
+    "prefLabel": {
+        "en": "demo_rel_born"
+    },
+    "question": {
+        "en": "In which country were the following relatives of the child born?",
+        "es": "\u00c2\u00bfEn qu\u00c3\u00a9 pa\u00c3\u00ads nacieron los siguientes parientes del/la ni\u00c3\u00b1o(a)?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

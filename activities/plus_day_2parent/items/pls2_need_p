@@ -1,0 +1,33 @@
+{
+    "id": "pls2_need_p",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pls2_need_p"
+    },
+    "question": {
+        "en": "PLUS 2,  For RA ONLY: Will Neurocog and/or MRI be completed in Session 2?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

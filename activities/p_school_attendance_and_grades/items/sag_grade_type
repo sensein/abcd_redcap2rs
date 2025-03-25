@@ -1,0 +1,111 @@
+{
+    "id": "sag_grade_type",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Identifier?",
+            "source": "redcap",
+            "value": "y"
+        }
+    ],
+    "preamble": {
+        "en": "Now we'd like you to pick the best answer about your child's grades.",
+        "es": "Ahora queremos que elija la mejor respuesta sobre las calificaciones o notas de su hijo/a."
+    },
+    "prefLabel": {
+        "en": "sag_grade_type"
+    },
+    "question": {
+        "en": "Please look at the list and pick the line that best describes your child's grades in school last year.",
+        "es": "Mire la lista y seleccione el rengl\u00c3\u00b3n que mejor describa las calificaciones o notas de su hijo/a en la escuela el a\u00c3\u00b1o pasado."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "##en##A+ / 97-100 /4.0 or higher / Exceeding the Standards / Exceeds excellent##/en####es##A+ / 97-100 /4.0 o superior / Supera los par\u00c3\u00a1metros est\u00c3\u00a1ndar / Supera excelente##/es##"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "##en##A / 93-96 / 3.70-3.99 / Exceeding the Standards / Excellent##/en####es##A / 93-96 / 3.70-3.99 / Supera los par\u00c3\u00a1metros est\u00c3\u00a1ndar / Excelente##/es##"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "##en##A- / 90-92 / 3.5-3.69 /Meeting the Standards / Approaching Excellent##/en####es##A- / 90-92 / 3.5-3.69 / Cumple con los par\u00c3\u00a1metros est\u00c3\u00a1ndar / Se acerca a excelente##/es##"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "##en##B+ / 87-89 / 3.30-3.49 /Meeting the Standards / Very Good##/en####es##B+ / 87-89 / 3.30-3.49 /Cumple con los par\u00c3\u00a1metros est\u00c3\u00a1ndar / Muy bien##/es##"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "##en##B / 83-86 /3.00-3.29 / Meeting the Standards / Very Good##/en####es##B / 83-86 /3.00-3.29 / Cumple con los par\u00c3\u00a1metros est\u00c3\u00a1ndar / Muy bien##/es##"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "##en##B- / 80-82 / 2.70-2.99 / Approaching Proficiency / Approaching Very Good##/en####es##B- / 80-82 / 2.70-2.99 / Se acerca a la aptitud necesaria / Se acerca a muy bien##/es##"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "##en##C+ / 77-79 / 2.30-2.69 / Approaching Proficiency / Good+##/en####es##C+ / 77-79 / 2.30-2.69 / Se acerca a la aptitud necesaria / Bien+##/es##"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "##en##C / 73-76 / 2.29 - 2.29 / Approaching Proficiency / Good##/en####es##C / 73-76 / 2.29 - 2.29 / Se acerca a la aptitud necesaria / Bien##/es##"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "##en##C- / 70-72 / 1.70-1.99 / Beginning / Approaching Good##/en####es##C- / 70-72 / 1.70-1.99 / B\u00c3\u00a1sico / Se acerca a bien##/es##"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "##en##D+ / 67-69 / 1.30-1.69 / Beginning / Satisfactory##/en####es##D+ / 67-69 / 1.30-1.69 / B\u00c3\u00a1sico / Satisfactorio##/es##"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "##en##D / 65-66 / 1.00-1.29 / Beginning / Sufficient##/en####es##D / 65-66 / 1.00-1.29 / B\u00c3\u00a1sico / Suficiente##/es##"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "##en##F / 0-65 / 0.00 - 0.99 / No Evidence / Standards / Fail (Does not meet minimum standards)##/en####es##F / 0-65 / 0.00 - 0.99 / Sin evidencia / Par\u00c3\u00a1metros est\u00c3\u00a1ndar / Reprobado (No cumple con los par\u00c3\u00a1metros m\u00c3\u00adnimos est\u00c3\u00a1ndar)##/es##"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "##en##Refuse to answer##/en####es##niego a contestar##/es##"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

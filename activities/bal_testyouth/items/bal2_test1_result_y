@@ -1,0 +1,54 @@
+{
+    "id": "bal2_test1_result_y",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "DAY 2"
+    },
+    "prefLabel": {
+        "en": "bal2_test1_result_y"
+    },
+    "question": {
+        "en": "Breathalyzer Test 2 Result:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Negative (.000)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Positive (.001 or above)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Participant unable to complete (tried 3 times)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Participant refused"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Not collected (other)"
+                },
+                "value": 6
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

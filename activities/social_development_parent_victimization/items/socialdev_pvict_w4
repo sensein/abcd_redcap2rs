@@ -1,0 +1,45 @@
+{
+    "id": "socialdev_pvict_w4",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "socialdev_pvict_w4"
+    },
+    "question": {
+        "en": "At any time in your child's life did your child SEE anyone get attacked or hit on purpose WITHOUT using a stick, rock, gun, knife, or other thing that would hurt?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "I don't know"
+                },
+                "value": 98
+            },
+            {
+                "name": {
+                    "en": "I'd rather not say"
+                },
+                "value": 99
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

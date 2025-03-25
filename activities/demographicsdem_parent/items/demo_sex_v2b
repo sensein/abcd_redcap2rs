@@ -1,0 +1,71 @@
+{
+    "id": "demo_sex_v2b",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20180116"
+        }
+    ],
+    "prefLabel": {
+        "en": "demo_sex_v2b"
+    },
+    "question": {
+        "en": "What sex was the child assigned at birth, on the original birth certificate?",
+        "es": "\u00c2\u00bfQu\u00c3\u00a9 sexo se le asign\u00c3\u00b3 al/la ni\u00c3\u00b1o(a) cuando naci\u00c3\u00b3, en su acta de nacimiento original?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Male",
+                    "es": "Masculino"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Female",
+                    "es": "Femenino"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Intersex-Male",
+                    "es": "Entre sexo-masculino"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Intersex-Female",
+                    "es": "Entre sexo-femenino"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Don't know",
+                    "es": "No lo s\u00c3\u00a9"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer",
+                    "es": "Prefiero no responder"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

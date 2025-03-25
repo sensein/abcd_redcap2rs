@@ -1,0 +1,40 @@
+{
+    "id": "scrn_edu_2",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "scrn_edu_2"
+    },
+    "question": {
+        "en": "\"What is the highest grade or level of education you completed in school?\"",
+        "es": "\"\u00c2\u00bfCu\u00c3\u00a1l es su m\u00c3\u00a1ximo nivel de estudios completados?\""
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Less than 1 year of college credit/post-secondary education (or less than 10 classes)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "One year or more of college credit"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

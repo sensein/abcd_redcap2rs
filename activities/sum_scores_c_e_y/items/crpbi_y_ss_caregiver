@@ -1,0 +1,40 @@
+{
+    "id": "crpbi_y_ss_caregiver",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "CRPBI Acceptance Subscale"
+    },
+    "prefLabel": {
+        "en": "crpbi_y_ss_caregiver"
+    },
+    "question": {
+        "en": "CRPBI - Acceptance Subscale Mean of Report by Secondary Caregiver\n(crpbi_caregiver12_y + crpbi_caregiver13_y + crpbi_caregiver14_y + crpbi_caregiver15_y + crpbi_caregiver16_y)/5\nValidation: Minimum of four items answered"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

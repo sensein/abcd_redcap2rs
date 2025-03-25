@@ -1,0 +1,27 @@
+{
+    "id": "mypi_intro2",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN-SURVEY"
+        }
+    ],
+    "prefLabel": {
+        "en": "mypi_intro2"
+    },
+    "question": {
+        "en": "CLICK 'SAVE AND STAY' WHEN DONE WITH THE ABOVE SECTION AND THENOPEN SURVEY MODE'TO START YOUTH SECTION OF THE MID-YEAR INTERVIEW."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

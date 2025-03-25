@@ -1,0 +1,217 @@
+{
+    "id": "tlfb_6mo_skip",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "6-month TLFB"
+    },
+    "prefLabel": {
+        "en": "tlfb_6mo_skip"
+    },
+    "question": {
+        "en": "Interviewer: Select the drugs they have used in the PAST SIX MONTHS?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Alcohol"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Tobacco cigarettes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Electronic cigarettes, vape pens or e-hookah"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Smokeless tobacco, chew, or snus"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Cigars"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Hookah"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Pipes"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Nicotine replacements (patches, gums, nasal sprays, inhalers, and lozenges)"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Smoked marijuana (pot, grass, weed, or ganja)"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Blunts"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Marijuana that you eat (cookies, gummy bears, brownies)"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Marijuana oils or concentrates (\"710\"; hash oil; BHO/butane hash oil/dabs/shatter/budder/honey oil; Co2 oil/vaporizor pen; Rick Simpson Oil/RSO/phoenix tears)"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Marijuana infused alcohol drinks"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Concentrated marijuana tinctures"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "\"Fake\" marijuana or synthetics (K2 or spice)"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "Stimulant drugs such as cocaine, crack cocaine"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "Methamphetamine, meth or crystal meth"
+                },
+                "value": 17
+            },
+            {
+                "name": {
+                    "en": "Cathinones such as Bath salts, drone, M-cat, DVP or meph"
+                },
+                "value": 18
+            },
+            {
+                "name": {
+                    "en": "Ecstasy, molly or MDMA"
+                },
+                "value": 19
+            },
+            {
+                "name": {
+                    "en": "Ketamine or special K"
+                },
+                "value": 20
+            },
+            {
+                "name": {
+                    "en": "The depressant drug GHB, liquid G or Georgia home boy"
+                },
+                "value": 21
+            },
+            {
+                "name": {
+                    "en": "Heroin, opium, junk, smack, or dope"
+                },
+                "value": 22
+            },
+            {
+                "name": {
+                    "en": "Hallucinogen drugs that cause people to see or experience things that are not real, such as LSD or acid, PCP or angel dust, peyote, mescaline, DMT, AMT, Foxy"
+                },
+                "value": 23
+            },
+            {
+                "name": {
+                    "en": "Hallucinogen drug: magic mushrooms or shrooms"
+                },
+                "value": 24
+            },
+            {
+                "name": {
+                    "en": "Hallucinogen drug: salvia"
+                },
+                "value": 25
+            },
+            {
+                "name": {
+                    "en": "Steroids such as arnolds, pumpers, or roids"
+                },
+                "value": 26
+            },
+            {
+                "name": {
+                    "en": "Inhalants (poppers, correction fluid, gasoline, glue, shoe polish, spray paints, or nitroud oxide of 'whippits')"
+                },
+                "value": 27
+            },
+            {
+                "name": {
+                    "en": "Stimulant drugs (amphetamine, Ritalin, Adderall, ephederine)"
+                },
+                "value": 28
+            },
+            {
+                "name": {
+                    "en": "Prescription anxiolytics, tranquilizers, or sedatives such as Xanax, Ativan, Valium, Rohypnol, or sleeping pills"
+                },
+                "value": 29
+            },
+            {
+                "name": {
+                    "en": "Prescription pain relievers such as Vicodin, Lortab, Norco, Hydrocodone, Oxycontin or Percocet"
+                },
+                "value": 30
+            },
+            {
+                "name": {
+                    "en": "Cough or cold medicine or DXM"
+                },
+                "value": 31
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 32
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

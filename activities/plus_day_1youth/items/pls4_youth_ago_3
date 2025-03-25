@@ -1,0 +1,40 @@
+{
+    "id": "pls4_youth_ago_3",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "(in hours; 30 mins=0.5, max hours = 24)"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Text Validation Max",
+            "source": "redcap",
+            "value": "24.0"
+        }
+    ],
+    "preamble": {
+        "en": "Participant Section:\"I just have a few questions before we start the next activity.\""
+    },
+    "prefLabel": {
+        "en": "pls4_youth_ago_3"
+    },
+    "question": {
+        "en": "How long ago did you take the medication?"
+    },
+    "responseOptions": {
+        "maxValue": 24,
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

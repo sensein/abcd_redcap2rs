@@ -1,0 +1,76 @@
+{
+    "id": "irma_hurtep_b7",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "LV"
+        }
+    ],
+    "preamble": {
+        "en": "The following questions are about you and your family's experiences in the days BEFOREHurricane Irma(September 2017).",
+        "es": "Las siguientes preguntas son sobre usted y las experiencias de su familia en los d\u00c3\u00adas ANTES delHurac\u00c3\u00a1n Irma(septiembre de 2017)."
+    },
+    "prefLabel": {
+        "en": "irma_hurtep_b7"
+    },
+    "question": {
+        "en": "How did you get news of information about Hurricane Irma? Check all that apply.",
+        "es": "\u00c2\u00bfC\u00c3\u00b3mo obtuvo noticias de informaci\u00c3\u00b3n sobre el hurac\u00c3\u00a1n? Marque todo lo que corresponda."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "TV (e.g., weather channel, news reports)",
+                    "es": "TV (e.g., Canal de clima, reportes de noticia)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Internet (e.g., online news)",
+                    "es": "Internet (e.g., noticias del internet)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Social media (e.g., Facebook, Twitter, Instagram)",
+                    "es": "Medios de Comunicaci\u00c3\u00b3n social (e.g., Facebook, Twitter, Instagram)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "From family and friends",
+                    "es": "De familia y amigos"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Other",
+                    "es": "Otro"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "I did not get news or information about Hurricane Irma",
+                    "es": "No recib\u00c3\u00ad noticias o informaci\u00c3\u00b3n sobre el hurac\u00c3\u00a1n Irma"
+                },
+                "value": 6
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

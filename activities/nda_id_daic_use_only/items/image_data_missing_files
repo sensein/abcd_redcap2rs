@@ -1,0 +1,36 @@
+{
+    "id": "image_data_missing_files",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Image Track"
+    },
+    "prefLabel": {
+        "en": "image_data_missing_files"
+    },
+    "question": {
+        "en": "All incomplete scans for this participant have been investigated and no additional data can be recovered"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

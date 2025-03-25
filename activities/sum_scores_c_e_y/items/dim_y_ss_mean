@@ -1,0 +1,35 @@
+{
+    "id": "dim_y_ss_mean",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Discrimination Measure"
+    },
+    "prefLabel": {
+        "en": "dim_y_ss_mean"
+    },
+    "question": {
+        "en": "Discrimination Measure\nmean(dim_matrix_q1,dim_matrix_q2,dim_matrix_q3,dim_matrix_q4,dim_matrix_q5,dim_matrix_q6,dim_matrix_q7)   \nOnly add if value  1 - 5 and MAX Score = 5\nValidation: Minimum of four items must be answered"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

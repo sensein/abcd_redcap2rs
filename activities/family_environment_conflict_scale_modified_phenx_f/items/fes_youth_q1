@@ -1,0 +1,40 @@
+{
+    "id": "fes_youth_q1",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        }
+    ],
+    "prefLabel": {
+        "en": "fes_youth_q1"
+    },
+    "question": {
+        "en": "We fight a lot in our family."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "True"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "False"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,37 @@
+{
+    "id": "tbi_ss_agefirst",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "tbi_ss_agefirst"
+    },
+    "question": {
+        "en": "Age at first TBI-LOC\n=IF(OR(AND([tbi_1]=1,[tbi_1b]>0),AND([tbi_2]=1,[tbi_2b]>0),AND([tbi_3]=1,[tbi_3b]>0),AND([tbi_4]=1,[tbi_4b]>0),AND([tbi_5]=1,[tbi_5b]>0),[tbi_6o]=1,AND([tbi_7a]=1,[tbi_7c1]>0),\nAND([tbi_7g]=1,[tbi_7i]=1),AND([tbi_8g]=1,[tbi_8i]=1)),MIN([tbi_1d],[tbi_2d],[tbi_3d],[tbi_4d],[tbi_5d],[tbi_6s],[tbi_7e],[tbi_7k],[tbi_8k]),\"\")\nValidation: No minimum"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

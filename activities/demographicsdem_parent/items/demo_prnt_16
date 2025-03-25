@@ -1,0 +1,47 @@
+{
+    "id": "demo_prnt_16",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        }
+    ],
+    "preamble": {
+        "en": "Okay, I am now going to ask you a series of questions about the different members of your child's family and where they were born:",
+        "es": "Bien, ahora voy a hacerle una serie de preguntas sobre los diferentes miembros de la familia de su ni\u00c3\u00b1o(a) y d\u00c3\u00b3nde nacieron."
+    },
+    "prefLabel": {
+        "en": "demo_prnt_16"
+    },
+    "question": {
+        "en": "Was anyone in your child's family born outside of the United States?  By your child's family, I mean you, your child's father (or mother if talking to father) or your child's maternal or paternal grandparents.",
+        "es": "\u00c2\u00bfHubo alguien en la familia de su ni\u00c3\u00b1o(a) que naci\u00c3\u00b3 fuera de los Estados Unidos? Por la familia de su ni\u00c3\u00b1o(a), me refiero a usted, al padre de su ni\u00c3\u00b1o(a) (o madre si habla con su padre) o los abuelos maternos o paternos de su ni\u00c3\u00b1o(a)."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

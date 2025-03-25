@@ -1,0 +1,50 @@
+{
+    "id": "prodromal_11_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "11"
+        },
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "prodromal_psych11"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "11"
+        }
+    ],
+    "prefLabel": {
+        "en": "prodromal_11_y"
+    },
+    "question": {
+        "en": "Although you could not see anything or anyone, did you suddenly start to feel that an invisible energy, creature, or some person was around you?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

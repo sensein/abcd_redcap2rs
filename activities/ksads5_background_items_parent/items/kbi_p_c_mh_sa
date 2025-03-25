@@ -1,0 +1,43 @@
+{
+    "id": "kbi_p_c_mh_sa",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "kbi_p_c_mh_sa"
+    },
+    "question": {
+        "en": "Has your child ever received mental health or substance abuse services?",
+        "es": "\u00c2\u00bfSu ni\u00c3\u00b1o(a) ha recibido alguna vez servicios de salud mental o para el abuso de sustancias?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Not sure",
+                    "es": "No estoy seguro(a)"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

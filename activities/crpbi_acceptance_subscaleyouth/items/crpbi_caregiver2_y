@@ -1,0 +1,75 @@
+{
+    "id": "crpbi_caregiver2_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "7"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "7"
+        }
+    ],
+    "prefLabel": {
+        "en": "crpbi_caregiver2_y"
+    },
+    "question": {
+        "en": "Who is this caregiver? \r\n\r\nIf more than one caregiver, choose the person you spend the most time with."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "mother"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "father"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "grandmother"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "grandfather"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "aunt"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "uncle"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "other"
+                },
+                "value": 7
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

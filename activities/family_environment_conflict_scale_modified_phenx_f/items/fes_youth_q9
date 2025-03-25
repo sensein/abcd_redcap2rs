@@ -1,0 +1,40 @@
+{
+    "id": "fes_youth_q9",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        }
+    ],
+    "prefLabel": {
+        "en": "fes_youth_q9"
+    },
+    "question": {
+        "en": "In our family, we believe you don't ever get anywhere by raising your voice."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "True"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "False"
+                },
+                "value": 1
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

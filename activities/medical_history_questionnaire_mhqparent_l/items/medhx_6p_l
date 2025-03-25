@@ -1,0 +1,47 @@
+{
+    "id": "medhx_6p_l",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        }
+    ],
+    "preamble": {
+        "en": "What about...",
+        "es": "\u00c2\u00bfQu\u00c3\u00a9 tal?..."
+    },
+    "prefLabel": {
+        "en": "medhx_6p_l"
+    },
+    "question": {
+        "en": "Seizure",
+        "es": "Convulsi\u00c3\u00b3n"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
