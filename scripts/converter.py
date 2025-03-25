@@ -505,11 +505,13 @@ class ReproSchemaConverter:
                     # Commit and tag all changes
                     date_time_str = file_info['datetime']
                     commit_message = f"converted {self.protocol_name} redcap data dictionary {date_time_str} to reproschema"
-                    tag_message = f"redcap data dictionary {date_time_str} to reproschema"
-                    tag_name = date_time_str.replace("-", ".").replace("_", ".")
+                    tag_message = f"redcap data dictionary {date_time_str} revid{redcap_version} to reproschema"
+                    
+                    # Include revision ID in the tag name to make it unique
+                    tag_name = f"{date_time_str.replace('-', '.').replace('_', '.')}-rev{redcap_version}"
                     
                     return self.commit_and_tag(commit_message, tag_name, tag_message, folders_to_update)
-                    
+                
                 except Exception as e:
                     logger.error(f"Error in processing changes: {e}")
                     return False
