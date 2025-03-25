@@ -1,0 +1,39 @@
+{
+    "id": "socialdev_contact_type_v",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "socialdev_contact_type_v"
+    },
+    "question": {
+        "en": "Contact Type:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Phone"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Email"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "In-person"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
