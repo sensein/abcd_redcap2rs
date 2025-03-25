@@ -1,0 +1,66 @@
+{
+    "id": "erq_feelings_self_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "erq_feelings_self"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/erq_feelings_self",
+            "items/erq_feelings_think",
+            "items/erq_feelings_control",
+            "items/erq_feelings_happy",
+            "items/erq_feelings_hide",
+            "items/erq_feelings_less_bad",
+            "items/erq_feelings_self_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/erq_feelings_self",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "erq_feelings_self"
+            },
+            {
+                "isAbout": "items/erq_feelings_think",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "erq_feelings_think"
+            },
+            {
+                "isAbout": "items/erq_feelings_control",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "erq_feelings_control"
+            },
+            {
+                "isAbout": "items/erq_feelings_happy",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "erq_feelings_happy"
+            },
+            {
+                "isAbout": "items/erq_feelings_hide",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "erq_feelings_hide"
+            },
+            {
+                "isAbout": "items/erq_feelings_less_bad",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "erq_feelings_less_bad"
+            },
+            {
+                "isAbout": "items/erq_feelings_self_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "erq_feelings_self_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2225",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
