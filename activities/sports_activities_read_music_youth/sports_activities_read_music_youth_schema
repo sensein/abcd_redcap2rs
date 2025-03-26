@@ -1,0 +1,73 @@
+{
+    "id": "sports_activities_read_music_youth_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "sports_activities_read_music_youth"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sai_yr_3_read",
+            "items/sai_read_hrs_wk",
+            "items/sai_yr_3_read_enjoy",
+            "items/sai_yr_3_music",
+            "items/sai_yr_3_music_hrs_day",
+            "items/sai_yr_3_music_studying",
+            "items/sai_yr_3_music_feel",
+            "items/sports_activities_read_music_youth_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sai_yr_3_read",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sai_yr_3_read"
+            },
+            {
+                "isAbout": "items/sai_read_hrs_wk",
+                "isVis": "sai_yr_3_read == '1'",
+                "valueRequired": false,
+                "variableName": "sai_read_hrs_wk"
+            },
+            {
+                "isAbout": "items/sai_yr_3_read_enjoy",
+                "isVis": "sai_yr_3_read == '1'",
+                "valueRequired": false,
+                "variableName": "sai_yr_3_read_enjoy"
+            },
+            {
+                "isAbout": "items/sai_yr_3_music",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sai_yr_3_music"
+            },
+            {
+                "isAbout": "items/sai_yr_3_music_hrs_day",
+                "isVis": "sai_yr_3_music == '1'",
+                "valueRequired": false,
+                "variableName": "sai_yr_3_music_hrs_day"
+            },
+            {
+                "isAbout": "items/sai_yr_3_music_studying",
+                "isVis": "sai_yr_3_music == '1'",
+                "valueRequired": false,
+                "variableName": "sai_yr_3_music_studying"
+            },
+            {
+                "isAbout": "items/sai_yr_3_music_feel",
+                "isVis": "sai_yr_3_music == '1'",
+                "valueRequired": false,
+                "variableName": "sai_yr_3_music_feel"
+            },
+            {
+                "isAbout": "items/sports_activities_read_music_youth_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sports_activities_read_music_youth_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2227",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

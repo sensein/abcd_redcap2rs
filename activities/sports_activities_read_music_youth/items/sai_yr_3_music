@@ -1,0 +1,33 @@
+{
+    "id": "sai_yr_3_music",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sai_yr_3_music"
+    },
+    "question": {
+        "en": "Do you enjoy listening to music?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
