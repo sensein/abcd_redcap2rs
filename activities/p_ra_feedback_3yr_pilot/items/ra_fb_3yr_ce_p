@@ -1,0 +1,76 @@
+{
+    "id": "ra_fb_3yr_ce_p",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ra_fb_3yr_ce_p"
+    },
+    "question": {
+        "en": "Please check any instrument where you have issues to report in the Culture and Environment Module"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "P_Prosocial Tendencies"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "P_Acculturation"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "P_Mexican American Cultural Values Scale"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "P_Family Environment Scale Family Conflict Subscale"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "P_Neighborhood Safety & Crime"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "P_Multi-Group Ethnic Identity"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "P_Vancouver Index of Acculturation"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "P_School Attendance of Youth"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "P_Community Cohesion"
+                },
+                "value": 12
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

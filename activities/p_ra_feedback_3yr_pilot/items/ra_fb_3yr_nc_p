@@ -1,0 +1,28 @@
+{
+    "id": "ra_fb_3yr_nc_p",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ra_fb_3yr_nc_p"
+    },
+    "question": {
+        "en": "Please check any instrument where you have issues to report in Neurocognition"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "P_Barkeley Deficits in Executive Functioning"
+                },
+                "value": 1
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
