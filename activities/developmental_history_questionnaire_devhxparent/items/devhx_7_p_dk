@@ -1,0 +1,40 @@
+{
+    "id": "devhx_7_p_dk",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        }
+    ],
+    "preamble": {
+        "en": "We are now going to ask some questions about the birth and early development of the child who is participating in this study.",
+        "es": "Ahora le vamos a hacer algunas preguntas sobre el nacimiento y la etapa temprana de desarrollo del ni\u00c3\u00b1o(a) quien est\u00c3\u00a1 participando en este estudio."
+    },
+    "prefLabel": {
+        "en": "devhx_7_p_dk"
+    },
+    "question": {
+        "en": "How far along (in weeks) were you with your child when you found out that you were pregnant?",
+        "es": "\u00c2\u00bfQu\u00c3\u00a9 tan avanzada (en semanas) estaba usted con su hijo(a) cuando se enter\u00c3\u00b3 de que estaba embarazada?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Don't know",
+                    "es": "No lo s\u00c3\u00a9"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

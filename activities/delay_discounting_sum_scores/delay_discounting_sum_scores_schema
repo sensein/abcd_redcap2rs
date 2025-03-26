@@ -1,0 +1,213 @@
+{
+    "id": "delay_discounting_sum_scores_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "delay_discounting_sum_scores"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ddis_scr_script_startdte",
+            "items/ddis_scr_script_starttme",
+            "items/ddis_scr_subjectid",
+            "items/ddis_scr_session",
+            "items/ddis_scr_event",
+            "items/ddis_scr_script_elaptme",
+            "items/ddis_scr_computer_platform",
+            "items/ddis_scr_values_completed",
+            "items/ddis_scr_param_delayrewamt",
+            "items/ddis_scr_val_testdelays",
+            "items/ddis_scr_val_immedcho",
+            "items/ddis_scr_val_indif_point_6h",
+            "items/ddis_scr_val_indif_pnt_1da",
+            "items/ddis_scr_val_indif_pnt_1week",
+            "items/ddis_scr_val_indif_pnt_1mth",
+            "items/ddis_scr_val_indif_pnt_3mth",
+            "items/ddis_scr_val_indif_pnt_1yr",
+            "items/ddis_scr_val_indif_pnt_5yr",
+            "items/ddis_scr_val_jbpass1_num_violations",
+            "items/ddis_scr_val_cons_per_jbcrit1",
+            "items/ddis_scr_val_cons_per_jbcrit2",
+            "items/ddis_scr_expr_mnrt_allcho",
+            "items/ddis_scr_expr_medrt_allcho",
+            "items/ddis_scr_expr_mnrt_immcho",
+            "items/ddis_scr_expr_medrt_immedcho",
+            "items/ddis_scr_expr_mnrt_delaycho",
+            "items/ddis_scr_expr_medrt_delaycho",
+            "items/delay_discounting_sum_scores_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ddis_scr_script_startdte",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ddis_scr_script_startdte"
+            },
+            {
+                "isAbout": "items/ddis_scr_script_starttme",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ddis_scr_script_starttme"
+            },
+            {
+                "isAbout": "items/ddis_scr_subjectid",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ddis_scr_subjectid"
+            },
+            {
+                "isAbout": "items/ddis_scr_session",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ddis_scr_session"
+            },
+            {
+                "isAbout": "items/ddis_scr_event",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ddis_scr_event"
+            },
+            {
+                "isAbout": "items/ddis_scr_script_elaptme",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ddis_scr_script_elaptme"
+            },
+            {
+                "isAbout": "items/ddis_scr_computer_platform",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ddis_scr_computer_platform"
+            },
+            {
+                "isAbout": "items/ddis_scr_values_completed",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ddis_scr_values_completed"
+            },
+            {
+                "isAbout": "items/ddis_scr_param_delayrewamt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ddis_scr_param_delayrewamt"
+            },
+            {
+                "isAbout": "items/ddis_scr_val_testdelays",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ddis_scr_val_testdelays"
+            },
+            {
+                "isAbout": "items/ddis_scr_val_immedcho",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ddis_scr_val_immedcho"
+            },
+            {
+                "isAbout": "items/ddis_scr_val_indif_point_6h",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ddis_scr_val_indif_point_6h"
+            },
+            {
+                "isAbout": "items/ddis_scr_val_indif_pnt_1da",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ddis_scr_val_indif_pnt_1da"
+            },
+            {
+                "isAbout": "items/ddis_scr_val_indif_pnt_1week",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ddis_scr_val_indif_pnt_1week"
+            },
+            {
+                "isAbout": "items/ddis_scr_val_indif_pnt_1mth",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ddis_scr_val_indif_pnt_1mth"
+            },
+            {
+                "isAbout": "items/ddis_scr_val_indif_pnt_3mth",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ddis_scr_val_indif_pnt_3mth"
+            },
+            {
+                "isAbout": "items/ddis_scr_val_indif_pnt_1yr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ddis_scr_val_indif_pnt_1yr"
+            },
+            {
+                "isAbout": "items/ddis_scr_val_indif_pnt_5yr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ddis_scr_val_indif_pnt_5yr"
+            },
+            {
+                "isAbout": "items/ddis_scr_val_jbpass1_num_violations",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ddis_scr_val_jbpass1_num_violations"
+            },
+            {
+                "isAbout": "items/ddis_scr_val_cons_per_jbcrit1",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ddis_scr_val_cons_per_jbcrit1"
+            },
+            {
+                "isAbout": "items/ddis_scr_val_cons_per_jbcrit2",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ddis_scr_val_cons_per_jbcrit2"
+            },
+            {
+                "isAbout": "items/ddis_scr_expr_mnrt_allcho",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ddis_scr_expr_mnrt_allcho"
+            },
+            {
+                "isAbout": "items/ddis_scr_expr_medrt_allcho",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ddis_scr_expr_medrt_allcho"
+            },
+            {
+                "isAbout": "items/ddis_scr_expr_mnrt_immcho",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ddis_scr_expr_mnrt_immcho"
+            },
+            {
+                "isAbout": "items/ddis_scr_expr_medrt_immedcho",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ddis_scr_expr_medrt_immedcho"
+            },
+            {
+                "isAbout": "items/ddis_scr_expr_mnrt_delaycho",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ddis_scr_expr_mnrt_delaycho"
+            },
+            {
+                "isAbout": "items/ddis_scr_expr_medrt_delaycho",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ddis_scr_expr_medrt_delaycho"
+            },
+            {
+                "isAbout": "items/delay_discounting_sum_scores_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "delay_discounting_sum_scores_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,227 @@
+{
+    "id": "mexican_american_cultural_values_scale_youth_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "mexican_american_cultural_values_scale_youth"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/macv_start_time",
+            "items/macv_q1",
+            "items/macv_q2",
+            "items/macv_q3",
+            "items/macv_q4",
+            "items/macv_q5",
+            "items/macv_q6",
+            "items/macv_q7",
+            "items/macv_q8",
+            "items/macv_q9",
+            "items/macv_q10",
+            "items/macv_q11",
+            "items/macv_q12",
+            "items/macv_q13",
+            "items/macv_q14",
+            "items/macv_q15",
+            "items/macv_q16",
+            "items/macv_q17",
+            "items/macv_q18",
+            "items/macv_q19",
+            "items/macv_q20",
+            "items/macv_q21",
+            "items/macv_q22",
+            "items/macv_q23",
+            "items/macv_q24",
+            "items/macv_q25",
+            "items/macv_q26",
+            "items/macv_q27",
+            "items/macv_q28",
+            "items/mexican_american_cultural_values_scale_youth_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/macv_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "macv_start_time"
+            },
+            {
+                "isAbout": "items/macv_q1",
+                "isVis": "event_name_number > '31'",
+                "valueRequired": false,
+                "variableName": "macv_q1"
+            },
+            {
+                "isAbout": "items/macv_q2",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "macv_q2"
+            },
+            {
+                "isAbout": "items/macv_q3",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "macv_q3"
+            },
+            {
+                "isAbout": "items/macv_q4",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "macv_q4"
+            },
+            {
+                "isAbout": "items/macv_q5",
+                "isVis": "event_name_number > '31'",
+                "valueRequired": true,
+                "variableName": "macv_q5"
+            },
+            {
+                "isAbout": "items/macv_q6",
+                "isVis": "event_name_number > '31'",
+                "valueRequired": true,
+                "variableName": "macv_q6"
+            },
+            {
+                "isAbout": "items/macv_q7",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "macv_q7"
+            },
+            {
+                "isAbout": "items/macv_q8",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "macv_q8"
+            },
+            {
+                "isAbout": "items/macv_q9",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "macv_q9"
+            },
+            {
+                "isAbout": "items/macv_q10",
+                "isVis": "event_name_number > '31'",
+                "valueRequired": true,
+                "variableName": "macv_q10"
+            },
+            {
+                "isAbout": "items/macv_q11",
+                "isVis": "event_name_number > '31'",
+                "valueRequired": true,
+                "variableName": "macv_q11"
+            },
+            {
+                "isAbout": "items/macv_q12",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "macv_q12"
+            },
+            {
+                "isAbout": "items/macv_q13",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "macv_q13"
+            },
+            {
+                "isAbout": "items/macv_q14",
+                "isVis": "event_name_number > '31'",
+                "valueRequired": true,
+                "variableName": "macv_q14"
+            },
+            {
+                "isAbout": "items/macv_q15",
+                "isVis": "event_name_number > '31'",
+                "valueRequired": true,
+                "variableName": "macv_q15"
+            },
+            {
+                "isAbout": "items/macv_q16",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "macv_q16"
+            },
+            {
+                "isAbout": "items/macv_q17",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "macv_q17"
+            },
+            {
+                "isAbout": "items/macv_q18",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "macv_q18"
+            },
+            {
+                "isAbout": "items/macv_q19",
+                "isVis": "event_name_number > '31'",
+                "valueRequired": true,
+                "variableName": "macv_q19"
+            },
+            {
+                "isAbout": "items/macv_q20",
+                "isVis": "event_name_number > '31'",
+                "valueRequired": true,
+                "variableName": "macv_q20"
+            },
+            {
+                "isAbout": "items/macv_q21",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "macv_q21"
+            },
+            {
+                "isAbout": "items/macv_q22",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "macv_q22"
+            },
+            {
+                "isAbout": "items/macv_q23",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "macv_q23"
+            },
+            {
+                "isAbout": "items/macv_q24",
+                "isVis": "event_name_number > '31'",
+                "valueRequired": true,
+                "variableName": "macv_q24"
+            },
+            {
+                "isAbout": "items/macv_q25",
+                "isVis": "event_name_number > '31'",
+                "valueRequired": true,
+                "variableName": "macv_q25"
+            },
+            {
+                "isAbout": "items/macv_q26",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "macv_q26"
+            },
+            {
+                "isAbout": "items/macv_q27",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "macv_q27"
+            },
+            {
+                "isAbout": "items/macv_q28",
+                "isVis": "event_name_number > '31'",
+                "valueRequired": true,
+                "variableName": "macv_q28"
+            },
+            {
+                "isAbout": "items/mexican_american_cultural_values_scale_youth_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mexican_american_cultural_values_scale_youth_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,80 @@
+{
+    "id": "gish_m1_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "1"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "1"
+        }
+    ],
+    "preamble": {
+        "en": "Please answer the following behavioral statements as they currently characterize your child's behavior. For each question indicate the response that most accurately describes your child:",
+        "es": "Por favor, responda a las siguientes declaraciones seg\u00c3\u00ban caracterizan actualmente la conducta de su hijo(a). En cada pregunta, indique la respuesta que mejor describa a su hijo(a)."
+    },
+    "prefLabel": {
+        "en": "gish_m1_p"
+    },
+    "question": {
+        "en": "His favorite playmates are",
+        "es": "Sus compa\u00c3\u00b1eros favoritos de juego son:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "##en##Always boys##/en####es##Siempre ni\u00c3\u00b1os##/es##"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "##en##Usually boys##/en####es##Por lo general, ni\u00c3\u00b1os##/es##"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "##en##Boys and girls equally##/en####es##Ni\u00c3\u00b1os y ni\u00c3\u00b1as por igual##/es##"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "##en##Usually girls##/es####/en####es##Por lo general, ni\u00c3\u00b1as##/es##"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "##en##Always girls##/es####/en####es##Siempre ni\u00c3\u00b1as##/es##"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "##en##Does not play with other children##/en####es##No juega con otros ni\u00c3\u00b1os/as##/es##"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "##en##Decline to answer##/en####es##Prefiero no responder##/es##"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,39 @@
+{
+    "id": "socialdev_cfbc_12",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "socialdev_cfbc_12"
+    },
+    "question": {
+        "en": "The day was difficult because I did 2 studies."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "I don't know"
+                },
+                "value": 98
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

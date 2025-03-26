@@ -1,0 +1,49 @@
+{
+    "id": "parent_assess_status",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20180301"
+        }
+    ],
+    "preamble": {
+        "en": "Parent Protocol"
+    },
+    "prefLabel": {
+        "en": "parent_assess_status"
+    },
+    "question": {
+        "en": "Parent Protocol Completion Status"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Complete"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Partial"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Parent did not complete any surveys"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

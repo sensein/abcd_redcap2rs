@@ -1,0 +1,32 @@
+{
+    "id": "med15_rxnorm_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "These include PRESCRIBED pills, liquid medications, skin patches, eye drops, creams, salves, inhalers and injections, as well as cold or allergy medications, vitamins, herbal remedies and other supplements. If NOT PRESCRIBED medication, supplement, vitamin etc., please enter under Over the Counter Medications in the next section.If medication name was not listed in the drop-down menu, scroll down to Comments section and enter information there.",
+        "es": "Medicamentos de Receta Medica\n\n\"Puedo verlos?\"\n\nEstos incluyen RECETAS MEDICAS de pastillas, medicaciones liquidas, parches de piel, gotas para los ojos, cremas, pomadas, inhaladores e inyecciones, tanto como medicaciones para resfriados o alergias, remedios a base de hierbas y otros suplementos que fueron recetados por su doctor. Si NO fueron recetados por su doctor, por favor incl\u00c3\u00bayalos bajo la siguiente secci\u00c3\u00b3n de Medicamentos de Venta Libre.Si el nombre del medicamento no est\u00c3\u00a1 en  la lista desplegable, deslice hacia abajo hasta la secci\u00c3\u00b3n de Comentarios e ingrese la informaci\u00c3\u00b3n ah\u00c3\u00ad."
+    },
+    "prefLabel": {
+        "en": "med15_rxnorm_p"
+    },
+    "question": {
+        "en": "Medication Name (please choose the formulation that most closely matches the medication taken by your child; no need to include dosage)",
+        "es": "Nombre del Medicamento (por favor, elija la formulaci\u00c3\u00b3n que m\u00c3\u00a1s se aproxime a la medicaci\u00c3\u00b3n tomada por su ni\u00c3\u00b1o(a); no hay necesidad de incluir la dosis)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "BIOPORTAL:RXNORM"
+                },
+                "value": "BIOPORTAL:RXNORM"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

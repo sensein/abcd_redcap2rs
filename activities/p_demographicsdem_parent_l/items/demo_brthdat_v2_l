@@ -1,0 +1,48 @@
+{
+    "id": "demo_brthdat_v2_l",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "<span lang=\"en\"><b>years old</span><span lang=\"es\" style= \"color:maroon\">a\u00c3\u00b1os de edad</span>"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Text Validation Min",
+            "source": "redcap",
+            "value": "9"
+        },
+        {
+            "column": "Text Validation Max",
+            "source": "redcap",
+            "value": "13.0"
+        }
+    ],
+    "preamble": {
+        "en": "The following questions are about thechild.",
+        "es": "Las siguientes preguntas son acerca desuni\u00c3\u00b1o(a)."
+    },
+    "prefLabel": {
+        "en": "demo_brthdat_v2_l"
+    },
+    "question": {
+        "en": "How old is the child?",
+        "es": "\u00c2\u00bfQu\u00c3\u00a9 edad tiene el/la ni\u00c3\u00b1o(a)?"
+    },
+    "responseOptions": {
+        "maxValue": 13,
+        "minValue": 9,
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

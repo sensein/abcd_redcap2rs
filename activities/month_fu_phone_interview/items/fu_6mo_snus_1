@@ -1,0 +1,53 @@
+{
+    "id": "fu_6mo_snus_1",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "3"
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "3"
+        }
+    ],
+    "preamble": {
+        "en": "Now I'm going to ask you some questions about drugs and alcohol that you can answer with \"YES\" or \"NO\", so that no one else knows we're talking about drugs."
+    },
+    "prefLabel": {
+        "en": "fu_6mo_snus_1"
+    },
+    "question": {
+        "en": "Have you heard of smokeless tobacco, chew, or snus?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

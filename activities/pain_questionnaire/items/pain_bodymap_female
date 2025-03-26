@@ -1,0 +1,484 @@
+{
+    "id": "pain_bodymap_female",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "LH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@IMAGEMAP=PAINMAP_FEMALE_MOUTH"
+        }
+    ],
+    "prefLabel": {
+        "en": "pain_bodymap_female"
+    },
+    "question": {
+        "en": "The image on the LEFT side of your screen is the FRONT of the body. The image on the RIGHT side of your screen is the BACK of the body. Please touch each body region where you have felt pain during the last month. The body region you touch will become red. If you make a mistake and touch the wrong body region, touch it again and the red color will disappear."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Mouth"
+                },
+                "value": "f99"
+            },
+            {
+                "name": {
+                    "en": "Cranium (front-right)"
+                },
+                "value": "f01"
+            },
+            {
+                "name": {
+                    "en": "Cranium (front-left)"
+                },
+                "value": "f02"
+            },
+            {
+                "name": {
+                    "en": "Face (front-right)"
+                },
+                "value": "f03"
+            },
+            {
+                "name": {
+                    "en": "Face (front-left)"
+                },
+                "value": "f04"
+            },
+            {
+                "name": {
+                    "en": "Neck (front-right)"
+                },
+                "value": "f05"
+            },
+            {
+                "name": {
+                    "en": "Neck (front-left)"
+                },
+                "value": "f06"
+            },
+            {
+                "name": {
+                    "en": "Shoulder (front-right)"
+                },
+                "value": "f07"
+            },
+            {
+                "name": {
+                    "en": "Chest (front-right)"
+                },
+                "value": "f08"
+            },
+            {
+                "name": {
+                    "en": "Chest (front-left)"
+                },
+                "value": "f09"
+            },
+            {
+                "name": {
+                    "en": "Shoulder (front-left)"
+                },
+                "value": "f10"
+            },
+            {
+                "name": {
+                    "en": "Bicep (front-right)"
+                },
+                "value": "f11"
+            },
+            {
+                "name": {
+                    "en": "Bicep (front-left)"
+                },
+                "value": "f12"
+            },
+            {
+                "name": {
+                    "en": "Elbow (front-right)"
+                },
+                "value": "f13"
+            },
+            {
+                "name": {
+                    "en": "Elbow (front-left)"
+                },
+                "value": "f14"
+            },
+            {
+                "name": {
+                    "en": "Forearm (front-right)"
+                },
+                "value": "f15"
+            },
+            {
+                "name": {
+                    "en": "Abdomen (front-right)"
+                },
+                "value": "f16"
+            },
+            {
+                "name": {
+                    "en": "Abdomen (front-left)"
+                },
+                "value": "f17"
+            },
+            {
+                "name": {
+                    "en": "Forearm (front-left)"
+                },
+                "value": "f18"
+            },
+            {
+                "name": {
+                    "en": "Wrist (front-right)"
+                },
+                "value": "f19"
+            },
+            {
+                "name": {
+                    "en": "Hip (front-right)"
+                },
+                "value": "f20"
+            },
+            {
+                "name": {
+                    "en": "Pubic (front-right)"
+                },
+                "value": "f21"
+            },
+            {
+                "name": {
+                    "en": "Pubic (front-left)"
+                },
+                "value": "f22"
+            },
+            {
+                "name": {
+                    "en": "Hip (front-left)"
+                },
+                "value": "f23"
+            },
+            {
+                "name": {
+                    "en": "Wrist (front-left)"
+                },
+                "value": "f24"
+            },
+            {
+                "name": {
+                    "en": "Hand (palm-right)"
+                },
+                "value": "f25"
+            },
+            {
+                "name": {
+                    "en": "Upper Leg (front-right)"
+                },
+                "value": "f26"
+            },
+            {
+                "name": {
+                    "en": "Upper Leg (front-left)"
+                },
+                "value": "f27"
+            },
+            {
+                "name": {
+                    "en": "Hand (palm-left)"
+                },
+                "value": "f28"
+            },
+            {
+                "name": {
+                    "en": "Knee (front-right)"
+                },
+                "value": "f29"
+            },
+            {
+                "name": {
+                    "en": "Knee (front-left)"
+                },
+                "value": "f30"
+            },
+            {
+                "name": {
+                    "en": "Lower Leg (front-right)"
+                },
+                "value": "f31"
+            },
+            {
+                "name": {
+                    "en": "Lower Leg (front-left)"
+                },
+                "value": "f32"
+            },
+            {
+                "name": {
+                    "en": "Ankle (front-right)"
+                },
+                "value": "f33"
+            },
+            {
+                "name": {
+                    "en": "Ankle (front-left)"
+                },
+                "value": "f34"
+            },
+            {
+                "name": {
+                    "en": "Foot (top-right)"
+                },
+                "value": "f35"
+            },
+            {
+                "name": {
+                    "en": "Foot (top-left)"
+                },
+                "value": "f36"
+            },
+            {
+                "name": {
+                    "en": "Cranium (back-left)"
+                },
+                "value": "b01"
+            },
+            {
+                "name": {
+                    "en": "Cranium (back-right)"
+                },
+                "value": "b02"
+            },
+            {
+                "name": {
+                    "en": "Head (back-left)"
+                },
+                "value": "b03"
+            },
+            {
+                "name": {
+                    "en": "Head (back-right)"
+                },
+                "value": "b04"
+            },
+            {
+                "name": {
+                    "en": "Neck (back-left)"
+                },
+                "value": "b05"
+            },
+            {
+                "name": {
+                    "en": "Neck (back-right)"
+                },
+                "value": "b06"
+            },
+            {
+                "name": {
+                    "en": "Shoulder (back-left)"
+                },
+                "value": "b07"
+            },
+            {
+                "name": {
+                    "en": "Upper Back (back-left)"
+                },
+                "value": "b08"
+            },
+            {
+                "name": {
+                    "en": "Upper Back (back-right)"
+                },
+                "value": "b09"
+            },
+            {
+                "name": {
+                    "en": "Shoulder (back-right)"
+                },
+                "value": "b10"
+            },
+            {
+                "name": {
+                    "en": "Bicep (back-left)"
+                },
+                "value": "b11"
+            },
+            {
+                "name": {
+                    "en": "Middle Back (back-left)"
+                },
+                "value": "b12"
+            },
+            {
+                "name": {
+                    "en": "Middle Back (back-right)"
+                },
+                "value": "b13"
+            },
+            {
+                "name": {
+                    "en": "Bicep (back-right)"
+                },
+                "value": "b14"
+            },
+            {
+                "name": {
+                    "en": "Elbow (back-left)"
+                },
+                "value": "b15"
+            },
+            {
+                "name": {
+                    "en": "Elbow (back-right)"
+                },
+                "value": "b16"
+            },
+            {
+                "name": {
+                    "en": "Forearm (back-left)"
+                },
+                "value": "b17"
+            },
+            {
+                "name": {
+                    "en": "Lower Back (back-left)"
+                },
+                "value": "b18"
+            },
+            {
+                "name": {
+                    "en": "Lower Back (back-right)"
+                },
+                "value": "b19"
+            },
+            {
+                "name": {
+                    "en": "Forearm (back-right)"
+                },
+                "value": "b20"
+            },
+            {
+                "name": {
+                    "en": "Wrist (back-left)"
+                },
+                "value": "b21"
+            },
+            {
+                "name": {
+                    "en": "Hip (back-left)"
+                },
+                "value": "b22"
+            },
+            {
+                "name": {
+                    "en": "Buttocks (back-left)"
+                },
+                "value": "b23"
+            },
+            {
+                "name": {
+                    "en": "Buttocks (back-right)"
+                },
+                "value": "b24"
+            },
+            {
+                "name": {
+                    "en": "Hip (back-right)"
+                },
+                "value": "b25"
+            },
+            {
+                "name": {
+                    "en": "Wrist (back-right)"
+                },
+                "value": "b26"
+            },
+            {
+                "name": {
+                    "en": "Hand (top-left)"
+                },
+                "value": "b27"
+            },
+            {
+                "name": {
+                    "en": "Upper Leg (back-left)"
+                },
+                "value": "b28"
+            },
+            {
+                "name": {
+                    "en": "Upper Leg (back-right)"
+                },
+                "value": "b29"
+            },
+            {
+                "name": {
+                    "en": "Hand (top-right)"
+                },
+                "value": "b30"
+            },
+            {
+                "name": {
+                    "en": "Knee (back-left)"
+                },
+                "value": "b31"
+            },
+            {
+                "name": {
+                    "en": "Knee (back-right)"
+                },
+                "value": "b32"
+            },
+            {
+                "name": {
+                    "en": "Lower Leg (back-left)"
+                },
+                "value": "b33"
+            },
+            {
+                "name": {
+                    "en": "Lower Leg (back-right)"
+                },
+                "value": "b34"
+            },
+            {
+                "name": {
+                    "en": "Ankle (back-left)"
+                },
+                "value": "b35"
+            },
+            {
+                "name": {
+                    "en": "Ankle (back-right)"
+                },
+                "value": "b36"
+            },
+            {
+                "name": {
+                    "en": "Foot (bottom-left)"
+                },
+                "value": "b37"
+            },
+            {
+                "name": {
+                    "en": "Foot (bottom-right)"
+                },
+                "value": "b38"
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

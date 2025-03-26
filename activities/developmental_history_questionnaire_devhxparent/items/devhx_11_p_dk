@@ -1,0 +1,36 @@
+{
+    "id": "devhx_11_p_dk",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        }
+    ],
+    "prefLabel": {
+        "en": "devhx_11_p_dk"
+    },
+    "question": {
+        "en": "About how many times did you/biological mother see a doctor or other medical professional for prenatal care during this pregnancy?",
+        "es": "\u00c2\u00bfAproximadamente cu\u00c3\u00a1ntas veces usted o la madre biol\u00c3\u00b3gica visit\u00c3\u00b3  a un m\u00c3\u00a9dico u otro profesional de la salud para recibir atenci\u00c3\u00b3n prenatal durante este embarazo?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Don't know",
+                    "es": "No lo s\u00c3\u00a9"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,2761 @@
+{
+    "id": "y_youth_ra_notes_one_year_followup_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "y_youth_ra_notes_one_year_followup"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/yr1fb_start_time",
+            "items/yr1fb_gender_y",
+            "items/yr1fb_where_completed_y",
+            "items/ynotes_sched_visit_reason",
+            "items/ynotes_how_completed",
+            "items/yr1_2_remote_anthro",
+            "items/yr1_2_remote_pds",
+            "items/yr1_2_remote_suip",
+            "items/yr1_2_remote_sua",
+            "items/yr1_2_remote_alc",
+            "items/yr1_2_remote_nic",
+            "items/yr1_2_remote_mj",
+            "items/yr1_2_remote_tlfb_cal",
+            "items/yr1_2_remote_crpf",
+            "items/yr1_2_remote_pps",
+            "items/yr1_2_remote_bpm",
+            "items/yr1_2_remote_sup",
+            "items/yr1_2_remote_delq",
+            "items/yr1_2_remote_poa",
+            "items/yr1_2_remote_ple",
+            "items/yr1_2_remote_bisbas",
+            "items/yr1_2_remote_upps",
+            "items/yr1_2_remote_yrs",
+            "items/yr1_2_remote_yr",
+            "items/yr1_2_remote_kbi",
+            "items/yr1_2_remote_ksads",
+            "items/yr1_2_remote_plus_1234",
+            "items/yr1_2_remote_pain",
+            "items/yr1_2_remote_mctq",
+            "items/yr1_2_remote_stq",
+            "items/yr1_2_remote_psb",
+            "items/yr1_2_remote_acc",
+            "items/yr1_2_remote_pmq",
+            "items/yr1_2_remote_fes",
+            "items/yr1_2_remote_nsc",
+            "items/yr1_2_remote_pbp",
+            "items/yr1_2_remote_pnh",
+            "items/yr1_2_remote_peq",
+            "items/yr1_2_remote_discrim",
+            "items/yr1_2_remote_macv",
+            "items/yr1_2_remote_gish",
+            "items/yr1_2_remote_gish2",
+            "items/yr1_2_remote_sag",
+            "items/yr1_2_remote_wps",
+            "items/yr1_2_remote_srpf",
+            "items/yr1_2_remote_bkfs",
+            "items/yr1_2_remote_cybb",
+            "items/yr1_2_remote_gad",
+            "items/yr1_2_remote_sirp",
+            "items/yr1_2_remote_ravlt",
+            "items/yr1_2_remote_lmt",
+            "items/yr1_2_remote_pvt",
+            "items/yr1_2_remote_fi",
+            "items/yr1_2_remote_pc",
+            "items/yr1_2_remote_ps",
+            "items/yr1_2_remote_orr",
+            "items/yr1_2_remote_strp",
+            "items/remote_ddt",
+            "items/yr1_2_remote_fitpre",
+            "items/remote_fit_po",
+            "items/yr1_2_remote_feedback",
+            "items/yr1_2_remote_other",
+            "items/youth_notes_yn",
+            "items/yr1fb_cl_y",
+            "items/yr2fb_cl_l",
+            "items/yr1fb_na_y",
+            "items/yr1fb_na_cmphnsn_y",
+            "items/yr1fb_na_cmplnc_note_y",
+            "items/yr1fb_na_tech_note_y",
+            "items/yr1fb_na_techstaff_y",
+            "items/yr1fb_bal_y",
+            "items/yr1fb_bal_cmphnsn_notes_y",
+            "items/yr1fb_bal_cmplnc_notes_y",
+            "items/yr1fb_bal_tech_note_y",
+            "items/yr1fb_bal_techstaff_y",
+            "items/yr1fb_tox_y",
+            "items/yr1fb_tox_cmphnsn_notes_y",
+            "items/yr1fb_tox_cmplnc_notes_y",
+            "items/yr1fb_tox_tech_note_y",
+            "items/yr1fb_tox_techstaff_y",
+            "items/yr1fb_nicalert_y",
+            "items/yr1fb_nicalert_cmphnsn_notes_y",
+            "items/yr1fb_nicalert_cmplnc_notes_y",
+            "items/yr1fb_nicalert_tech_note_y",
+            "items/yr1fb_nicalert_techstaff_y",
+            "items/yr1fb_blddraw_y",
+            "items/yr1fb_blddraw_cmphnsn_notes_y",
+            "items/yr1fb_blddraw_cmplnc_notes_y",
+            "items/yr1fb_blddraw_tech_note_y",
+            "items/yr1fb_blddraw_techstaff_y",
+            "items/yr2fb_bldpress_y",
+            "items/yr2fb_bldpress_cmphnsn_notes_y",
+            "items/yr2fb_bldpress_cmplnc_notes_y",
+            "items/yr2fb_bldpress_tech_note_y",
+            "items/yr2fb_bldpress_techstaff_y",
+            "items/yr1fb_ant_y",
+            "items/yr1fb_ant_cmphnsn_notes_y",
+            "items/yr1fb_ant_cmplnc_notes_y",
+            "items/yr1fb_ant_tech_note_y",
+            "items/yr1fb_ant_techstaff_y",
+            "items/yr1fb_pdms_y",
+            "items/yr1fb_pdms_cmphnsn_notes_y",
+            "items/yr1fb_pdms_cmplnc_notes_y",
+            "items/yr1fb_pdms_tech_note_y",
+            "items/yr1fb_pdms_techstaff_y",
+            "items/yr1fb_sph_y",
+            "items/yr1fb_sph_cmphnsn_notes_y",
+            "items/yr1fb_sph_cmplnc_notes_y",
+            "items/yr1fb_sph_tech_note_y",
+            "items/yr1fb_sph_techstaff_y",
+            "items/yr1fb_hair_y",
+            "items/yr1fb_hair_cmphnsn_notes_y",
+            "items/yr1fb_hair_cmplnc_notes_y",
+            "items/yr1fb_hair_tech_note_y",
+            "items/yr1fb_hair_techstaff_y",
+            "items/yr1fb_sui_y",
+            "items/yr1fb_sui_cmphnsn_notes_y",
+            "items/yr1fb_sui_cmplnc_notes_y",
+            "items/yr1fb_sui_tech_note_y",
+            "items/yr1fb_sui_techstaff_y",
+            "items/yr1fb_sua_y",
+            "items/yr1fb_sua_cmphnsn_notes_y",
+            "items/yr1fb_sua_cmplnc_notes_y",
+            "items/yr1fb_sua_tech_note_y",
+            "items/yr1fb_sua_techstaff_y",
+            "items/yr1fb_suam_y",
+            "items/yr1fb_suam_cmphnsn_notes_y",
+            "items/yr1fb_suam_cmplnc_notes_y",
+            "items/yr1fb_suam_tech_note_y",
+            "items/yr1fb_suam_techstaff_y",
+            "items/yr1fb_sunm_y",
+            "items/yr1fb_sunm_cmphnsn_notes_y",
+            "items/yr1fb_sunm_cmplnc_notes_y",
+            "items/yr1fb_sunm_tech_note_y",
+            "items/yr1fb_sunm_techstaff_y",
+            "items/yr1fb_summ_y",
+            "items/yr1fb_summ_cmphnsn_notes_y",
+            "items/yr1fb_summ_cmplnc_notes_y",
+            "items/yr1fb_summ_tech_note_y",
+            "items/yr1fb_summ_techstaff_y",
+            "items/yr1fb_tlfb_y",
+            "items/yr1fb_tlfb_cmphnsn_notes_y",
+            "items/yr1fb_tlfb_cmplnc_notes_y",
+            "items/yr1fb_tlfb_tech_note_y",
+            "items/yr1fb_tlfb_techstaff_y",
+            "items/yr1fb_pps_y",
+            "items/yr1fb_pps_cmphnsn_notes_y",
+            "items/yr1fb_pps_cmplnc_notes_y",
+            "items/yr1fb_pps_tech_note_y",
+            "items/yr1fb_pps_techstaff_y",
+            "items/yr1fb_bpm_y",
+            "items/yr1fb_bpm_cmphnsn_notes_y",
+            "items/yr1fb_bpm_cmplnc_notes_y",
+            "items/yr1fb_bpm_tech_note_y",
+            "items/yr1fb_bpm_techstaff_y",
+            "items/yr1fb_sup_y",
+            "items/yr1fb_sup_cmphnsn_notes_y",
+            "items/yr1fb_sup_cmplnc_notes_y",
+            "items/yr1fb_sup_tech_note_y",
+            "items/yr1fb_sup_techstaff_y",
+            "items/yr1fb_delq_y",
+            "items/yr1fb_delq_cmphnsn_notes_y",
+            "items/yr1fb_delq_cmplnc_notes_y",
+            "items/yr1fb_delq_tech_note_y",
+            "items/yr1fb_delq_techstaff_y",
+            "items/yr1fb_poa_y",
+            "items/yr1fb_poa_cmphnsn_notes_y",
+            "items/yr1fb_poa_cmplnc_notes_y",
+            "items/yr1fb_poa_tech_note_y",
+            "items/yr1fb_poa_techstaff_y",
+            "items/yr1fb_yle_y",
+            "items/yr1fb_yle_cmphnsn_notes_y",
+            "items/yr1fb_yle_cmplnc_notes_y",
+            "items/yr1fb_yle_tech_note_y",
+            "items/yr1fb_yle_techstaff_y",
+            "items/yr1fb_kbi_y",
+            "items/yr1fb_kbi_cmphnsn_notes_y",
+            "items/yr1fb_kbi_cmplnc_notes_y",
+            "items/yr1fb_kbi_tech_note_y",
+            "items/yr1fb_kbi_techstaff_y",
+            "items/yr1fb_ksad_y",
+            "items/yr1fb_ksad_cmphnsn_notes_y",
+            "items/yr1fb_ksad_cmplnc_note_y",
+            "items/yr1fb_ksad_tech_note_y",
+            "items/yr1fb_ksad_techstaff_y",
+            "items/yr2fb_upps_y",
+            "items/yr2fb_upps_cmphnsn_notes_y",
+            "items/yr2fb_upps_cmplnc_notes_y",
+            "items/yr2fb_upps_tech_note_y",
+            "items/yr2fb_upps_techstaff_y",
+            "items/yr2fb_bis_y",
+            "items/yr2fb_bis_cmphnsn_notes_y",
+            "items/yr2fb_bis_cmplnc_notes_y",
+            "items/yr2fb_bis_tech_note_y",
+            "items/yr2fb_bis_techstaff_y",
+            "items/yr2fb_yrs_y",
+            "items/yr2fb_or_cmphnsn_notes_y",
+            "items/yr2fb_or_cmplnc_notes_y",
+            "items/yr2fb_or_tech_note_y",
+            "items/yr2fb_or_techstaff_y",
+            "items/yr2fb_yrb_y",
+            "items/yr2fb_yrb_cmphnsn_notes_y",
+            "items/yr2fb_yrb_cmplnc_notes_y",
+            "items/yr2fb_yrb_tech_note_y",
+            "items/yr2fb_yrb_techstaff_y",
+            "items/yr1fb_plus_y",
+            "items/yr1fb_plus_cmphnsn_notes_y",
+            "items/yr1fb_plus_cmplnc_notes_y",
+            "items/yr1fb_plus_tech_note_y",
+            "items/yr1fb_plus_techstaff_y",
+            "items/yr1fb_stq_y",
+            "items/yr1fb_stq_cmphnsn_notes_y",
+            "items/yr1fb_stq_cmplnc_notes_y",
+            "items/yr1fb_stq_tech_note_y",
+            "items/yr1fb_stq_techstaff_y",
+            "items/yr1fb_pst_y",
+            "items/yr1fb_pst_cmphnsn_notes_y",
+            "items/yr1fb_pst_cmplnc_notes_y",
+            "items/yr1fb_pst_tech_note_y",
+            "items/yr1fb_pst_techstaff_y",
+            "items/yr1fb_acc_y",
+            "items/yr1fb_acc_cmphnsn_notes_y",
+            "items/yr1fb_acc_cmplnc_notes_y",
+            "items/yr1fb_acc_tech_note_y",
+            "items/yr1fb_acc_techstaff_y",
+            "items/yr1fb_pmq_y",
+            "items/yr1fb_pmq_cmphnsn_notes_y",
+            "items/yr1fb_pmq_cmplnc_notes_y",
+            "items/yr1fb_pmq_tech_note_y",
+            "items/yr1fb_pmq_techstaff_y",
+            "items/yr1fb_asq_y",
+            "items/yr1fb_asq_cmphnsn_notes_y",
+            "items/yr1fb_asq_cmplnc_notes_y",
+            "items/yr1fb_asq_tech_note_y",
+            "items/yr1fb_asq_techstaff_y",
+            "items/yr1fb_fes_y",
+            "items/yr1fb_fes_cmphnsn_notes_y",
+            "items/yr1fb_fes_cmplnc_notes_y",
+            "items/yr1fb_fes_tech_note_y",
+            "items/yr1fb_fes_techstaff_y",
+            "items/yr1fb_nsc_y",
+            "items/yr1fb_nsc_cmphnsn_notes_y",
+            "items/yr1fb_nsc_cmplnc_notes_y",
+            "items/yr1fb_nsc_tech_note_y",
+            "items/yr1fb_nsc_techstaff_y",
+            "items/yr1fb_dim_y",
+            "items/yr1fb_dim_cmphnsn_notes_y",
+            "items/yr1fb_dim_cmplnc_notes_y",
+            "items/yr1fb_dim_tech_note_y",
+            "items/yr1fb_dim_techstaff_y",
+            "items/yr1fb_gish_y",
+            "items/yr1fb_gish_cmphnsn_notes_y",
+            "items/yr1fb_gish_cmplnc_notes_y",
+            "items/yr1fb_gish_tech_note_y",
+            "items/yr1fb_gish_techstaff_y",
+            "items/yr1fb_wills_y",
+            "items/yr1fb_wills_cmphnsn_notes_y",
+            "items/yr1fb_wills_cmplnc_notes_y",
+            "items/yr1fb_wills_tech_note_y",
+            "items/yr1fb_wills_techstaff_y",
+            "items/yr1fb_srpf_y",
+            "items/yr1fb_srpf_cmphnsn_notes_y",
+            "items/yr1fb_srpf_cmplnc_notes_y",
+            "items/yr1fb_srpf_tech_note_y",
+            "items/yr1fb_srpf_techstaff_y",
+            "items/yr1fb_emo_y",
+            "items/yr1fb_emo_cmphnsn_notes_y",
+            "items/yr1fb_emo_cmplnc_notes_y",
+            "items/yr1fb_emo_tech_note_y",
+            "items/yr1fb_emo_techstaff_y",
+            "items/yr1fb_ddt_y",
+            "items/yr1fb_ddt_cmphnsn_notes_y",
+            "items/yr1fb_ddt_cmplnc_notes_y",
+            "items/yr1fb_ddt_tech_note_y",
+            "items/yr1fb_ddt_techstaff_y",
+            "items/yr2fb_crpf",
+            "items/yr2fb_crpf_cmphnsn_notes",
+            "items/yr2fb_crpf_cmplnc_notes",
+            "items/yr2fb_crpf_tech_note",
+            "items/yr2fb_crpf_techstaff",
+            "items/yr2fb_peq",
+            "items/yr2fb_peq_cmphnsn_notes",
+            "items/yr2fb_peq_cmplnc_notes",
+            "items/yr2fb_peq_tech_note",
+            "items/yr2fb_peq_techstaff",
+            "items/yr2fb_cybb",
+            "items/yr2fb_cybb_cmphnsn_notes",
+            "items/yr2fb_cybb_cmplnc_notes",
+            "items/yr2fb_cybb_tech_note",
+            "items/yr2fb_cybb_techstaff",
+            "items/yr2fb_pain",
+            "items/yr2fb_pain_cmphnsn_notes",
+            "items/yr2fb_pain_cmplnc_notes",
+            "items/yr2fb_pain_tech_note",
+            "items/yr2fb_pain_techstaff",
+            "items/yr2fb_mctq",
+            "items/yr2fb_mctq_cmphnsn_notes",
+            "items/yr2fb_mctq_cmplnc_notes",
+            "items/yr2fb_mctq_tech_note",
+            "items/yr2fb_mctq_techstaff",
+            "items/yr2fb_pbp",
+            "items/yr2fb_pbp_cmphnsn_notes",
+            "items/yr2fb_pbp_cmplnc_notes",
+            "items/yr2fb_pbp_tech_note",
+            "items/yr2fb_pbp_techstaff",
+            "items/yr2fb_pnh",
+            "items/yr2fb_pnh_cmphnsn_notes",
+            "items/yr2fb_pnh_cmplnc_notes",
+            "items/yr2fb_pnh_tech_note",
+            "items/yr2fb_pnh_techstaff",
+            "items/yr2fb_macv",
+            "items/yr2fb_macv_cmphnsn_notes",
+            "items/yr2fb_macv_cmplnc_notes",
+            "items/yr2fb_macv_tech_note",
+            "items/yr2fb_macv_techstaff",
+            "items/yr2fb_gish2",
+            "items/yr2fb_gish2_cmphnsn_notes",
+            "items/yr2fb_gish2_cmplnc_notes",
+            "items/yr2fb_gish2_tech_note",
+            "items/yr2fb_gish2_techstaff",
+            "items/yr2fb_sag",
+            "items/yr2fb_sag_cmphnsn_notes",
+            "items/yr2fb_sag_cmplnc_notes",
+            "items/yr2fb_sag_tech_note",
+            "items/yr2fb_sag_techstaff",
+            "items/yr2fb_fitpre",
+            "items/yr2fb_fitpre_cmphnsn_notes",
+            "items/yr2fb_fitpre_cmplnc_notes",
+            "items/yr2fb_fitpre_tech_note",
+            "items/yr2fb_fitpre_techstaff",
+            "items/yr2fb_fitpo",
+            "items/yr2fb_fitpo_cmphnsn_notes",
+            "items/yr2fb_fitpo_cmplnc_notes",
+            "items/yr2fb_fitpo_tech_note",
+            "items/yr2fb_fitpo_techstaff",
+            "items/yr2fb_bkfs",
+            "items/yr2fb_bkfs_cmphnsn_notes",
+            "items/yr2fb_bkfs_cmplnc_notes",
+            "items/yr2fb_bkfs_tech_note",
+            "items/yr2fb_bkfs_techstaff",
+            "items/yr2fb_nrg1",
+            "items/yr2fb_nrg1_cmphnsn_notes",
+            "items/yr2fb_nrg1_cmplnc_notes",
+            "items/yr2fb_nrg1_tech_note",
+            "items/yr2fb_nrg1_techstaff",
+            "items/yr2fb_gdt",
+            "items/yr2fb_gdt_cmphnsn_notes",
+            "items/yr2fb_gdt_cmplnc_notes",
+            "items/yr2fb_gdt_tech_note",
+            "items/yr2fb_gdt_techstaff",
+            "items/yr2fb_sit",
+            "items/yr2fb_sit_cmphnsn_notes",
+            "items/yr2fb_sit_cmplnc_notes",
+            "items/yr2fb_sit_tech_note",
+            "items/yr2fb_sit_techstaff",
+            "items/yr2fb_ravlt_y",
+            "items/yr2fb_ravlt_cmphnsn_notes_y",
+            "items/yr2fb_ravlt_cmplnc_notes_y",
+            "items/yr2fb_ravlt_tech_note_y",
+            "items/yr2fb_ravlt_techstaff_y",
+            "items/yr2fb_lmt_y",
+            "items/yr2fb_lmt_cmphnsn_notes_y",
+            "items/yr2fb_lmt_cmplnc_notes_y",
+            "items/yr2fb_lmt_tech_note_y",
+            "items/yr2fb_lmt_techstaff_y",
+            "items/yr2fb_pvt_y",
+            "items/yr2fb_pvt_cmphnsn_notes_y",
+            "items/yr2fb_pvt_cmplnc_notes_y",
+            "items/yr2fb_pvt_tech_note_y",
+            "items/yr2fb_pvt_techstaff_y",
+            "items/yr2fb_fic_y",
+            "items/yr2fb_fic_cmphnsn_notes_y",
+            "items/yr2fb_fic_cmplnc_notes_y",
+            "items/yr2fb_fic_tech_note_y",
+            "items/yr2fb_fic_techstaff_y",
+            "items/yr2fb_pcp_y",
+            "items/yr2fb_pcp_cmphnsn_notes_y",
+            "items/yr2fb_pcp_cmplnc_notes_y",
+            "items/yr2fb_pcp_tech_note_y",
+            "items/yr2fb_pcp_techstaff_y",
+            "items/yr2fb_psm_y",
+            "items/yr2fb_psm_cmphnsn_notes_y",
+            "items/yr2fb_psm_cmplnc_notes_y",
+            "items/yr2fb_psm_tech_note_y",
+            "items/yr2fb_psm_techstaff_y",
+            "items/yr2fb_orr_y",
+            "items/yr2fb_orr_cmphnsn_notes_y",
+            "items/yr2fb_orr_cmplnc_notes_y",
+            "items/yr2fb_orr_tech_note_y",
+            "items/yr2fb_orr_techstaff_y",
+            "items/yr2fb_other",
+            "items/y_youth_ra_notes_one_year_followup_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/yr1fb_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "yr1fb_start_time"
+            },
+            {
+                "isAbout": "items/yr1fb_gender_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "yr1fb_gender_y"
+            },
+            {
+                "isAbout": "items/yr1fb_where_completed_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "yr1fb_where_completed_y"
+            },
+            {
+                "isAbout": "items/ynotes_sched_visit_reason",
+                "isVis": "yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9'",
+                "valueRequired": true,
+                "variableName": "ynotes_sched_visit_reason"
+            },
+            {
+                "isAbout": "items/ynotes_how_completed",
+                "isVis": "yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9'",
+                "valueRequired": false,
+                "variableName": "ynotes_how_completed"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_anthro",
+                "isVis": "yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_anthro"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_pds",
+                "isVis": "yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_pds"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_suip",
+                "isVis": "yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_suip"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_sua",
+                "isVis": "yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_sua"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_alc",
+                "isVis": "yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_alc"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_nic",
+                "isVis": "yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_nic"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_mj",
+                "isVis": "yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay =='9'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_mj"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_tlfb_cal",
+                "isVis": "yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_tlfb_cal"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_crpf",
+                "isVis": "yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9' && event_name_number =='11'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_crpf"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_pps",
+                "isVis": "yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_pps"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_bpm",
+                "isVis": "yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_bpm"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_sup",
+                "isVis": "(yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9')&& event_name_number =='11'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_sup"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_delq",
+                "isVis": "yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_delq"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_poa",
+                "isVis": "(yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9')&& event_name_number =='11'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_poa"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_ple",
+                "isVis": "yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_ple"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_bisbas",
+                "isVis": "(yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9')&& event_name_number =='21'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_bisbas"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_upps",
+                "isVis": "(yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9')&& event_name_number =='21'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_upps"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_yrs",
+                "isVis": "yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9' && event_name_number =='21'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_yrs"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_yr",
+                "isVis": "yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9' && event_name_number =='21'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_yr"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_kbi",
+                "isVis": "yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_kbi"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_ksads",
+                "isVis": "yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_ksads"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_plus_1234",
+                "isVis": "yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_plus_1234"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_pain",
+                "isVis": "(yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9')&& event_name_number =='21'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_pain"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_mctq",
+                "isVis": "(yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9')&& event_name_number =='21'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_mctq"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_stq",
+                "isVis": "yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_stq"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_psb",
+                "isVis": "yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_psb"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_acc",
+                "isVis": "yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_acc"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_pmq",
+                "isVis": "yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_pmq"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_fes",
+                "isVis": "yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_fes"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_nsc",
+                "isVis": "yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_nsc"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_pbp",
+                "isVis": "(yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9')&& event_name_number =='21'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_pbp"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_pnh",
+                "isVis": "(yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9')&& event_name_number =='21'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_pnh"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_peq",
+                "isVis": "(yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9')&& event_name_number =='21'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_peq"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_discrim",
+                "isVis": "yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_discrim"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_macv",
+                "isVis": "(yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9')&& event_name_number =='21'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_macv"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_gish",
+                "isVis": "yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_gish"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_gish2",
+                "isVis": "(yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9')&& event_name_number =='21'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_gish2"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_sag",
+                "isVis": "(yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9')&& event_name_number =='21'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_sag"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_wps",
+                "isVis": "(yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9')&& event_name_number =='11'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_wps"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_srpf",
+                "isVis": "yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_srpf"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_bkfs",
+                "isVis": "(yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9')&& event_name_number =='21'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_bkfs"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_cybb",
+                "isVis": "(yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9')&& event_name_number =='21'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_cybb"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_gad",
+                "isVis": "(yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9')&& event_name_number =='21'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_gad"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_sirp",
+                "isVis": "(yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9')&& event_name_number =='21'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_sirp"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_ravlt",
+                "isVis": "(yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9')&& event_name_number =='21'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_ravlt"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_lmt",
+                "isVis": "(yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9')&& event_name_number =='21'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_lmt"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_pvt",
+                "isVis": "(yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9')&& event_name_number =='21'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_pvt"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_fi",
+                "isVis": "(yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9')&& event_name_number =='21'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_fi"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_pc",
+                "isVis": "(yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9')&& event_name_number =='21'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_pc"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_ps",
+                "isVis": "(yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9')&& event_name_number =='21'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_ps"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_orr",
+                "isVis": "(yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9')&& event_name_number =='21'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_orr"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_strp",
+                "isVis": "(yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9')&& event_name_number =='11'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_strp"
+            },
+            {
+                "isAbout": "items/remote_ddt",
+                "isVis": "(yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9')&& event_name_number =='11'",
+                "valueRequired": false,
+                "variableName": "remote_ddt"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_fitpre",
+                "isVis": "(yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9')&& event_name_number =='21'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_fitpre"
+            },
+            {
+                "isAbout": "items/remote_fit_po",
+                "isVis": "(yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9')&& event_name_number =='21'",
+                "valueRequired": false,
+                "variableName": "remote_fit_po"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_feedback",
+                "isVis": "yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_feedback"
+            },
+            {
+                "isAbout": "items/yr1_2_remote_other",
+                "isVis": "yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9'",
+                "valueRequired": false,
+                "variableName": "yr1_2_remote_other"
+            },
+            {
+                "isAbout": "items/youth_notes_yn",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "youth_notes_yn"
+            },
+            {
+                "isAbout": "items/yr1fb_cl_y",
+                "isVis": "youth_notes_yn == '1' && event_name_number == '11'",
+                "valueRequired": true,
+                "variableName": "yr1fb_cl_y"
+            },
+            {
+                "isAbout": "items/yr2fb_cl_l",
+                "isVis": "youth_notes_yn == '1' && event_name_number == '21'",
+                "valueRequired": true,
+                "variableName": "yr2fb_cl_l"
+            },
+            {
+                "isAbout": "items/yr1fb_na_y",
+                "isVis": "yr1fb_cl_y___36 == '1' || yr2fb_cl_l___36 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_na_y"
+            },
+            {
+                "isAbout": "items/yr1fb_na_cmphnsn_y",
+                "isVis": "yr1fb_na_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_na_cmphnsn_y"
+            },
+            {
+                "isAbout": "items/yr1fb_na_cmplnc_note_y",
+                "isVis": "yr1fb_na_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_na_cmplnc_note_y"
+            },
+            {
+                "isAbout": "items/yr1fb_na_tech_note_y",
+                "isVis": "yr1fb_na_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_na_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr1fb_na_techstaff_y",
+                "isVis": "yr1fb_na_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_na_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr1fb_bal_y",
+                "isVis": "yr1fb_cl_y___0 == '1' || yr2fb_cl_l___0 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_bal_y"
+            },
+            {
+                "isAbout": "items/yr1fb_bal_cmphnsn_notes_y",
+                "isVis": "yr1fb_bal_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_bal_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_bal_cmplnc_notes_y",
+                "isVis": "yr1fb_bal_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_bal_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_bal_tech_note_y",
+                "isVis": "yr1fb_bal_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_bal_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr1fb_bal_techstaff_y",
+                "isVis": "yr1fb_bal_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_bal_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr1fb_tox_y",
+                "isVis": "yr1fb_cl_y___1 == '1' || yr2fb_cl_l___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_tox_y"
+            },
+            {
+                "isAbout": "items/yr1fb_tox_cmphnsn_notes_y",
+                "isVis": "yr1fb_tox_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_tox_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_tox_cmplnc_notes_y",
+                "isVis": "yr1fb_tox_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_tox_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_tox_tech_note_y",
+                "isVis": "yr1fb_tox_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_tox_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr1fb_tox_techstaff_y",
+                "isVis": "yr1fb_tox_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_tox_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr1fb_nicalert_y",
+                "isVis": "yr1fb_cl_y___2 == '1' || yr2fb_cl_l___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_nicalert_y"
+            },
+            {
+                "isAbout": "items/yr1fb_nicalert_cmphnsn_notes_y",
+                "isVis": "yr1fb_nicalert_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_nicalert_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_nicalert_cmplnc_notes_y",
+                "isVis": "yr1fb_nicalert_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_nicalert_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_nicalert_tech_note_y",
+                "isVis": "yr1fb_nicalert_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_nicalert_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr1fb_nicalert_techstaff_y",
+                "isVis": "yr1fb_nicalert_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_nicalert_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr1fb_blddraw_y",
+                "isVis": "yr2fb_cl_l___67 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_blddraw_y"
+            },
+            {
+                "isAbout": "items/yr1fb_blddraw_cmphnsn_notes_y",
+                "isVis": "yr1fb_blddraw_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_blddraw_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_blddraw_cmplnc_notes_y",
+                "isVis": "yr1fb_blddraw_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_blddraw_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_blddraw_tech_note_y",
+                "isVis": "yr1fb_blddraw_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_blddraw_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr1fb_blddraw_techstaff_y",
+                "isVis": "yr1fb_blddraw_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_blddraw_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr2fb_bldpress_y",
+                "isVis": "yr2fb_cl_l___68 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_bldpress_y"
+            },
+            {
+                "isAbout": "items/yr2fb_bldpress_cmphnsn_notes_y",
+                "isVis": "yr2fb_bldpress_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_bldpress_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr2fb_bldpress_cmplnc_notes_y",
+                "isVis": "yr2fb_bldpress_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_bldpress_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr2fb_bldpress_tech_note_y",
+                "isVis": "yr2fb_bldpress_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_bldpress_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr2fb_bldpress_techstaff_y",
+                "isVis": "yr2fb_bldpress_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_bldpress_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr1fb_ant_y",
+                "isVis": "yr1fb_cl_y___19 == '1' || yr2fb_cl_l___19 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_ant_y"
+            },
+            {
+                "isAbout": "items/yr1fb_ant_cmphnsn_notes_y",
+                "isVis": "yr1fb_ant_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_ant_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_ant_cmplnc_notes_y",
+                "isVis": "yr1fb_ant_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_ant_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_ant_tech_note_y",
+                "isVis": "yr1fb_ant_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_ant_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr1fb_ant_techstaff_y",
+                "isVis": "yr1fb_ant_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_ant_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr1fb_pdms_y",
+                "isVis": "yr1fb_cl_y___26 == '1' || yr2fb_cl_l___26 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_pdms_y"
+            },
+            {
+                "isAbout": "items/yr1fb_pdms_cmphnsn_notes_y",
+                "isVis": "yr1fb_pdms_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_pdms_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_pdms_cmplnc_notes_y",
+                "isVis": "yr1fb_pdms_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_pdms_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_pdms_tech_note_y",
+                "isVis": "yr1fb_pdms_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_pdms_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr1fb_pdms_techstaff_y",
+                "isVis": "yr1fb_pdms_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_pdms_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr1fb_sph_y",
+                "isVis": "yr1fb_cl_y___5 == '1' || yr2fb_cl_l___5 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_sph_y"
+            },
+            {
+                "isAbout": "items/yr1fb_sph_cmphnsn_notes_y",
+                "isVis": "yr1fb_sph_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_sph_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_sph_cmplnc_notes_y",
+                "isVis": "yr1fb_sph_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_sph_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_sph_tech_note_y",
+                "isVis": "yr1fb_sph_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_sph_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr1fb_sph_techstaff_y",
+                "isVis": "yr1fb_sph_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_sph_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr1fb_hair_y",
+                "isVis": "yr1fb_cl_y___3 == '1' || yr2fb_cl_l___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_hair_y"
+            },
+            {
+                "isAbout": "items/yr1fb_hair_cmphnsn_notes_y",
+                "isVis": "yr1fb_hair_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_hair_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_hair_cmplnc_notes_y",
+                "isVis": "yr1fb_hair_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_hair_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_hair_tech_note_y",
+                "isVis": "yr1fb_hair_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_hair_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr1fb_hair_techstaff_y",
+                "isVis": "yr1fb_hair_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_hair_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr1fb_sui_y",
+                "isVis": "yr1fb_cl_y___29 == '1' || yr2fb_cl_l___29 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_sui_y"
+            },
+            {
+                "isAbout": "items/yr1fb_sui_cmphnsn_notes_y",
+                "isVis": "yr1fb_sui_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_sui_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_sui_cmplnc_notes_y",
+                "isVis": "yr1fb_sui_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_sui_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_sui_tech_note_y",
+                "isVis": "yr1fb_sui_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_sui_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr1fb_sui_techstaff_y",
+                "isVis": "yr1fb_sui_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_sui_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr1fb_sua_y",
+                "isVis": "yr1fb_cl_y___30 == '1' || yr2fb_cl_l___30 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_sua_y"
+            },
+            {
+                "isAbout": "items/yr1fb_sua_cmphnsn_notes_y",
+                "isVis": "yr1fb_sua_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_sua_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_sua_cmplnc_notes_y",
+                "isVis": "yr1fb_sua_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_sua_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_sua_tech_note_y",
+                "isVis": "yr1fb_sua_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_sua_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr1fb_sua_techstaff_y",
+                "isVis": "yr1fb_sua_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_sua_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr1fb_suam_y",
+                "isVis": "yr1fb_cl_y___31 == '1' || yr2fb_cl_l___31 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_suam_y"
+            },
+            {
+                "isAbout": "items/yr1fb_suam_cmphnsn_notes_y",
+                "isVis": "yr1fb_suam_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_suam_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_suam_cmplnc_notes_y",
+                "isVis": "yr1fb_suam_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_suam_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_suam_tech_note_y",
+                "isVis": "yr1fb_suam_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_suam_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr1fb_suam_techstaff_y",
+                "isVis": "yr1fb_suam_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_suam_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr1fb_sunm_y",
+                "isVis": "yr1fb_cl_y___32 == '1' || yr2fb_cl_l___32 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_sunm_y"
+            },
+            {
+                "isAbout": "items/yr1fb_sunm_cmphnsn_notes_y",
+                "isVis": "yr1fb_sunm_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_sunm_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_sunm_cmplnc_notes_y",
+                "isVis": "yr1fb_sunm_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_sunm_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_sunm_tech_note_y",
+                "isVis": "yr1fb_sunm_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_sunm_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr1fb_sunm_techstaff_y",
+                "isVis": "yr1fb_sunm_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_sunm_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr1fb_summ_y",
+                "isVis": "yr1fb_cl_y___33 == '1' || yr2fb_cl_l___33 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_summ_y"
+            },
+            {
+                "isAbout": "items/yr1fb_summ_cmphnsn_notes_y",
+                "isVis": "yr1fb_summ_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_summ_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_summ_cmplnc_notes_y",
+                "isVis": "yr1fb_summ_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_summ_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_summ_tech_note_y",
+                "isVis": "yr1fb_summ_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_summ_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr1fb_summ_techstaff_y",
+                "isVis": "yr1fb_summ_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_summ_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr1fb_tlfb_y",
+                "isVis": "yr2fb_cl_l___54 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_tlfb_y"
+            },
+            {
+                "isAbout": "items/yr1fb_tlfb_cmphnsn_notes_y",
+                "isVis": "yr1fb_tlfb_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_tlfb_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_tlfb_cmplnc_notes_y",
+                "isVis": "yr1fb_tlfb_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_tlfb_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_tlfb_tech_note_y",
+                "isVis": "yr1fb_tlfb_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_tlfb_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr1fb_tlfb_techstaff_y",
+                "isVis": "yr1fb_tlfb_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_tlfb_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr1fb_pps_y",
+                "isVis": "yr1fb_cl_y___25 == '1' || yr2fb_cl_l___25 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_pps_y"
+            },
+            {
+                "isAbout": "items/yr1fb_pps_cmphnsn_notes_y",
+                "isVis": "yr1fb_pps_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_pps_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_pps_cmplnc_notes_y",
+                "isVis": "yr1fb_pps_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_pps_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_pps_tech_note_y",
+                "isVis": "yr1fb_pps_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_pps_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr1fb_pps_techstaff_y",
+                "isVis": "yr1fb_pps_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_pps_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr1fb_bpm_y",
+                "isVis": "yr1fb_cl_y___20 == '1' || yr2fb_cl_l___20 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_bpm_y"
+            },
+            {
+                "isAbout": "items/yr1fb_bpm_cmphnsn_notes_y",
+                "isVis": "yr1fb_bpm_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_bpm_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_bpm_cmplnc_notes_y",
+                "isVis": "yr1fb_bpm_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_bpm_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_bpm_tech_note_y",
+                "isVis": "yr1fb_bpm_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_bpm_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr1fb_bpm_techstaff_y",
+                "isVis": "yr1fb_bpm_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_bpm_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr1fb_sup_y",
+                "isVis": "yr1fb_cl_y___18 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_sup_y"
+            },
+            {
+                "isAbout": "items/yr1fb_sup_cmphnsn_notes_y",
+                "isVis": "yr1fb_sup_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_sup_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_sup_cmplnc_notes_y",
+                "isVis": "yr1fb_sup_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_sup_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_sup_tech_note_y",
+                "isVis": "yr1fb_sup_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_sup_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr1fb_sup_techstaff_y",
+                "isVis": "yr1fb_sup_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_sup_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr1fb_delq_y",
+                "isVis": "yr1fb_cl_y___17 == '1' || yr2fb_cl_l___17 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_delq_y"
+            },
+            {
+                "isAbout": "items/yr1fb_delq_cmphnsn_notes_y",
+                "isVis": "yr1fb_delq_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_delq_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_delq_cmplnc_notes_y",
+                "isVis": "yr1fb_delq_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_delq_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_delq_tech_note_y",
+                "isVis": "yr1fb_delq_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_delq_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr1fb_delq_techstaff_y",
+                "isVis": "yr1fb_delq_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_delq_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr1fb_poa_y",
+                "isVis": "yr1fb_cl_y___28 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_poa_y"
+            },
+            {
+                "isAbout": "items/yr1fb_poa_cmphnsn_notes_y",
+                "isVis": "yr1fb_poa_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_poa_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_poa_cmplnc_notes_y",
+                "isVis": "yr1fb_poa_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_poa_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_poa_tech_note_y",
+                "isVis": "yr1fb_poa_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_poa_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr1fb_poa_techstaff_y",
+                "isVis": "yr1fb_poa_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_poa_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr1fb_yle_y",
+                "isVis": "yr1fb_cl_y___24 == '1' || yr2fb_cl_l___24 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_yle_y"
+            },
+            {
+                "isAbout": "items/yr1fb_yle_cmphnsn_notes_y",
+                "isVis": "yr1fb_yle_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_yle_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_yle_cmplnc_notes_y",
+                "isVis": "yr1fb_yle_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_yle_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_yle_tech_note_y",
+                "isVis": "yr1fb_yle_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_yle_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr1fb_yle_techstaff_y",
+                "isVis": "yr1fb_yle_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_yle_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr1fb_kbi_y",
+                "isVis": "yr1fb_cl_y___23 == '1' || yr2fb_cl_l___23 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_kbi_y"
+            },
+            {
+                "isAbout": "items/yr1fb_kbi_cmphnsn_notes_y",
+                "isVis": "yr1fb_kbi_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_kbi_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_kbi_cmplnc_notes_y",
+                "isVis": "yr1fb_kbi_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_kbi_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_kbi_tech_note_y",
+                "isVis": "yr1fb_kbi_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_kbi_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr1fb_kbi_techstaff_y",
+                "isVis": "yr1fb_kbi_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_kbi_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr1fb_ksad_y",
+                "isVis": "yr1fb_cl_y___37 == '1' || yr2fb_cl_l___37 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_ksad_y"
+            },
+            {
+                "isAbout": "items/yr1fb_ksad_cmphnsn_notes_y",
+                "isVis": "yr1fb_ksad_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_ksad_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_ksad_cmplnc_note_y",
+                "isVis": "yr1fb_ksad_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_ksad_cmplnc_note_y"
+            },
+            {
+                "isAbout": "items/yr1fb_ksad_tech_note_y",
+                "isVis": "yr1fb_ksad_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_ksad_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr1fb_ksad_techstaff_y",
+                "isVis": "yr1fb_ksad_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_ksad_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr2fb_upps_y",
+                "isVis": "yr2fb_cl_l___55 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_upps_y"
+            },
+            {
+                "isAbout": "items/yr2fb_upps_cmphnsn_notes_y",
+                "isVis": "yr2fb_upps_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_upps_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr2fb_upps_cmplnc_notes_y",
+                "isVis": "yr2fb_upps_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_upps_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr2fb_upps_tech_note_y",
+                "isVis": "yr2fb_upps_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_upps_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr2fb_upps_techstaff_y",
+                "isVis": "yr2fb_upps_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_upps_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr2fb_bis_y",
+                "isVis": "yr2fb_cl_l___56 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_bis_y"
+            },
+            {
+                "isAbout": "items/yr2fb_bis_cmphnsn_notes_y",
+                "isVis": "yr2fb_bis_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_bis_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr2fb_bis_cmplnc_notes_y",
+                "isVis": "yr2fb_bis_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_bis_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr2fb_bis_tech_note_y",
+                "isVis": "yr2fb_bis_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_bis_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr2fb_bis_techstaff_y",
+                "isVis": "yr2fb_bis_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_bis_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr2fb_yrs_y",
+                "isVis": "yr2fb_cl_l___57 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_yrs_y"
+            },
+            {
+                "isAbout": "items/yr2fb_or_cmphnsn_notes_y",
+                "isVis": "yr2fb_yrs_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_or_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr2fb_or_cmplnc_notes_y",
+                "isVis": "yr2fb_yrs_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_or_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr2fb_or_tech_note_y",
+                "isVis": "yr2fb_yrs_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_or_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr2fb_or_techstaff_y",
+                "isVis": "yr2fb_yrs_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_or_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr2fb_yrb_y",
+                "isVis": "yr2fb_cl_l___58 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_yrb_y"
+            },
+            {
+                "isAbout": "items/yr2fb_yrb_cmphnsn_notes_y",
+                "isVis": "yr2fb_yrb_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_yrb_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr2fb_yrb_cmplnc_notes_y",
+                "isVis": "yr2fb_yrb_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_yrb_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr2fb_yrb_tech_note_y",
+                "isVis": "yr2fb_yrb_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_yrb_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr2fb_yrb_techstaff_y",
+                "isVis": "yr2fb_yrb_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_yrb_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr1fb_plus_y",
+                "isVis": "yr1fb_cl_y___34 == '1' || yr2fb_cl_l___34 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_plus_y"
+            },
+            {
+                "isAbout": "items/yr1fb_plus_cmphnsn_notes_y",
+                "isVis": "yr1fb_plus_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_plus_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_plus_cmplnc_notes_y",
+                "isVis": "yr1fb_plus_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_plus_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_plus_tech_note_y",
+                "isVis": "yr1fb_plus_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_plus_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr1fb_plus_techstaff_y",
+                "isVis": "yr1fb_plus_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_plus_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr1fb_stq_y",
+                "isVis": "yr1fb_cl_y___27 == '1' || yr2fb_cl_l___27 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_stq_y"
+            },
+            {
+                "isAbout": "items/yr1fb_stq_cmphnsn_notes_y",
+                "isVis": "yr1fb_stq_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_stq_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_stq_cmplnc_notes_y",
+                "isVis": "yr1fb_stq_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_stq_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_stq_tech_note_y",
+                "isVis": "yr1fb_stq_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_stq_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr1fb_stq_techstaff_y",
+                "isVis": "yr1fb_stq_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_stq_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr1fb_pst_y",
+                "isVis": "yr1fb_cl_y___13 == '1' || yr2fb_cl_l___13 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_pst_y"
+            },
+            {
+                "isAbout": "items/yr1fb_pst_cmphnsn_notes_y",
+                "isVis": "yr1fb_pst_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_pst_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_pst_cmplnc_notes_y",
+                "isVis": "yr1fb_pst_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_pst_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_pst_tech_note_y",
+                "isVis": "yr1fb_pst_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_pst_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr1fb_pst_techstaff_y",
+                "isVis": "yr1fb_pst_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_pst_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr1fb_acc_y",
+                "isVis": "yr1fb_cl_y___10 == '1' || yr2fb_cl_l___10 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_acc_y"
+            },
+            {
+                "isAbout": "items/yr1fb_acc_cmphnsn_notes_y",
+                "isVis": "yr1fb_acc_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_acc_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_acc_cmplnc_notes_y",
+                "isVis": "yr1fb_acc_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_acc_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_acc_tech_note_y",
+                "isVis": "yr1fb_acc_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_acc_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr1fb_acc_techstaff_y",
+                "isVis": "yr1fb_acc_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_acc_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr1fb_pmq_y",
+                "isVis": "yr1fb_cl_y___9 == '1' || yr2fb_cl_l___9 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_pmq_y"
+            },
+            {
+                "isAbout": "items/yr1fb_pmq_cmphnsn_notes_y",
+                "isVis": "yr1fb_pmq_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_pmq_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_pmq_cmplnc_notes_y",
+                "isVis": "yr1fb_pmq_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_pmq_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_pmq_tech_note_y",
+                "isVis": "yr1fb_pmq_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_pmq_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr1fb_pmq_techstaff_y",
+                "isVis": "yr1fb_pmq_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_pmq_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr1fb_asq_y",
+                "isVis": "yr1fb_cl_y___6 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_asq_y"
+            },
+            {
+                "isAbout": "items/yr1fb_asq_cmphnsn_notes_y",
+                "isVis": "yr1fb_asq_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_asq_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_asq_cmplnc_notes_y",
+                "isVis": "yr1fb_asq_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_asq_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_asq_tech_note_y",
+                "isVis": "yr1fb_asq_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_asq_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr1fb_asq_techstaff_y",
+                "isVis": "yr1fb_asq_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_asq_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr1fb_fes_y",
+                "isVis": "yr1fb_cl_y___8 == '1' || yr2fb_cl_l___8 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_fes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_fes_cmphnsn_notes_y",
+                "isVis": "yr1fb_fes_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_fes_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_fes_cmplnc_notes_y",
+                "isVis": "yr1fb_fes_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_fes_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_fes_tech_note_y",
+                "isVis": "yr1fb_fes_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_fes_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr1fb_fes_techstaff_y",
+                "isVis": "yr1fb_fes_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_fes_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr1fb_nsc_y",
+                "isVis": "yr1fb_cl_y___11 == '1' || yr2fb_cl_l___11 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_nsc_y"
+            },
+            {
+                "isAbout": "items/yr1fb_nsc_cmphnsn_notes_y",
+                "isVis": "yr1fb_nsc_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_nsc_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_nsc_cmplnc_notes_y",
+                "isVis": "yr1fb_nsc_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_nsc_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_nsc_tech_note_y",
+                "isVis": "yr1fb_nsc_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_nsc_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr1fb_nsc_techstaff_y",
+                "isVis": "yr1fb_nsc_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_nsc_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr1fb_dim_y",
+                "isVis": "yr1fb_cl_y___7 == '1' || yr2fb_cl_l___7 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_dim_y"
+            },
+            {
+                "isAbout": "items/yr1fb_dim_cmphnsn_notes_y",
+                "isVis": "yr1fb_dim_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_dim_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_dim_cmplnc_notes_y",
+                "isVis": "yr1fb_dim_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_dim_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_dim_tech_note_y",
+                "isVis": "yr1fb_dim_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_dim_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr1fb_dim_techstaff_y",
+                "isVis": "yr1fb_dim_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_dim_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr1fb_gish_y",
+                "isVis": "yr1fb_cl_y___21 == '1' || yr2fb_cl_l___21 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_gish_y"
+            },
+            {
+                "isAbout": "items/yr1fb_gish_cmphnsn_notes_y",
+                "isVis": "yr1fb_gish_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_gish_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_gish_cmplnc_notes_y",
+                "isVis": "yr1fb_gish_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_gish_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_gish_tech_note_y",
+                "isVis": "yr1fb_gish_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_gish_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr1fb_gish_techstaff_y",
+                "isVis": "yr1fb_gish_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_gish_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr1fb_wills_y",
+                "isVis": "yr1fb_cl_y___14 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_wills_y"
+            },
+            {
+                "isAbout": "items/yr1fb_wills_cmphnsn_notes_y",
+                "isVis": "yr1fb_wills_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_wills_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_wills_cmplnc_notes_y",
+                "isVis": "yr1fb_wills_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_wills_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_wills_tech_note_y",
+                "isVis": "yr1fb_wills_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_wills_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr1fb_wills_techstaff_y",
+                "isVis": "yr1fb_wills_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_wills_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr1fb_srpf_y",
+                "isVis": "yr1fb_cl_y___12 == '1' || yr2fb_cl_l___12 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_srpf_y"
+            },
+            {
+                "isAbout": "items/yr1fb_srpf_cmphnsn_notes_y",
+                "isVis": "yr1fb_srpf_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_srpf_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_srpf_cmplnc_notes_y",
+                "isVis": "yr1fb_srpf_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_srpf_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_srpf_tech_note_y",
+                "isVis": "yr1fb_srpf_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_srpf_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr1fb_srpf_techstaff_y",
+                "isVis": "yr1fb_srpf_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_srpf_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr1fb_emo_y",
+                "isVis": "yr1fb_cl_y___39 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_emo_y"
+            },
+            {
+                "isAbout": "items/yr1fb_emo_cmphnsn_notes_y",
+                "isVis": "yr1fb_emo_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_emo_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_emo_cmplnc_notes_y",
+                "isVis": "yr1fb_emo_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_emo_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_emo_tech_note_y",
+                "isVis": "yr1fb_emo_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_emo_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr1fb_emo_techstaff_y",
+                "isVis": "yr1fb_emo_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_emo_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr1fb_ddt_y",
+                "isVis": "yr1fb_cl_y___38 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_ddt_y"
+            },
+            {
+                "isAbout": "items/yr1fb_ddt_cmphnsn_notes_y",
+                "isVis": "yr1fb_ddt_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_ddt_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_ddt_cmplnc_notes_y",
+                "isVis": "yr1fb_ddt_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_ddt_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr1fb_ddt_tech_note_y",
+                "isVis": "yr1fb_ddt_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_ddt_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr1fb_ddt_techstaff_y",
+                "isVis": "yr1fb_ddt_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_ddt_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr2fb_crpf",
+                "isVis": "yr2fb_cl_l___51 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_crpf"
+            },
+            {
+                "isAbout": "items/yr2fb_crpf_cmphnsn_notes",
+                "isVis": "yr2fb_crpf___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_crpf_cmphnsn_notes"
+            },
+            {
+                "isAbout": "items/yr2fb_crpf_cmplnc_notes",
+                "isVis": "yr2fb_crpf___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_crpf_cmplnc_notes"
+            },
+            {
+                "isAbout": "items/yr2fb_crpf_tech_note",
+                "isVis": "yr2fb_crpf___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_crpf_tech_note"
+            },
+            {
+                "isAbout": "items/yr2fb_crpf_techstaff",
+                "isVis": "yr2fb_crpf___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_crpf_techstaff"
+            },
+            {
+                "isAbout": "items/yr2fb_peq",
+                "isVis": "yr2fb_cl_l___40 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_peq"
+            },
+            {
+                "isAbout": "items/yr2fb_peq_cmphnsn_notes",
+                "isVis": "yr2fb_peq___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_peq_cmphnsn_notes"
+            },
+            {
+                "isAbout": "items/yr2fb_peq_cmplnc_notes",
+                "isVis": "yr2fb_peq___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_peq_cmplnc_notes"
+            },
+            {
+                "isAbout": "items/yr2fb_peq_tech_note",
+                "isVis": "yr2fb_peq___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_peq_tech_note"
+            },
+            {
+                "isAbout": "items/yr2fb_peq_techstaff",
+                "isVis": "yr2fb_peq___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_peq_techstaff"
+            },
+            {
+                "isAbout": "items/yr2fb_cybb",
+                "isVis": "yr2fb_cl_l___41 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_cybb"
+            },
+            {
+                "isAbout": "items/yr2fb_cybb_cmphnsn_notes",
+                "isVis": "yr2fb_cybb___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_cybb_cmphnsn_notes"
+            },
+            {
+                "isAbout": "items/yr2fb_cybb_cmplnc_notes",
+                "isVis": "yr2fb_cybb___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_cybb_cmplnc_notes"
+            },
+            {
+                "isAbout": "items/yr2fb_cybb_tech_note",
+                "isVis": "yr2fb_cybb___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_cybb_tech_note"
+            },
+            {
+                "isAbout": "items/yr2fb_cybb_techstaff",
+                "isVis": "yr2fb_cybb___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_cybb_techstaff"
+            },
+            {
+                "isAbout": "items/yr2fb_pain",
+                "isVis": "yr2fb_cl_l___42 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_pain"
+            },
+            {
+                "isAbout": "items/yr2fb_pain_cmphnsn_notes",
+                "isVis": "yr2fb_pain___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_pain_cmphnsn_notes"
+            },
+            {
+                "isAbout": "items/yr2fb_pain_cmplnc_notes",
+                "isVis": "yr2fb_pain___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_pain_cmplnc_notes"
+            },
+            {
+                "isAbout": "items/yr2fb_pain_tech_note",
+                "isVis": "yr2fb_pain___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_pain_tech_note"
+            },
+            {
+                "isAbout": "items/yr2fb_pain_techstaff",
+                "isVis": "yr2fb_pain___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_pain_techstaff"
+            },
+            {
+                "isAbout": "items/yr2fb_mctq",
+                "isVis": "yr2fb_cl_l___43 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_mctq"
+            },
+            {
+                "isAbout": "items/yr2fb_mctq_cmphnsn_notes",
+                "isVis": "yr2fb_mctq___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_mctq_cmphnsn_notes"
+            },
+            {
+                "isAbout": "items/yr2fb_mctq_cmplnc_notes",
+                "isVis": "yr2fb_mctq___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_mctq_cmplnc_notes"
+            },
+            {
+                "isAbout": "items/yr2fb_mctq_tech_note",
+                "isVis": "yr2fb_mctq___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_mctq_tech_note"
+            },
+            {
+                "isAbout": "items/yr2fb_mctq_techstaff",
+                "isVis": "yr2fb_mctq___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_mctq_techstaff"
+            },
+            {
+                "isAbout": "items/yr2fb_pbp",
+                "isVis": "yr2fb_cl_l___44 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_pbp"
+            },
+            {
+                "isAbout": "items/yr2fb_pbp_cmphnsn_notes",
+                "isVis": "yr2fb_pbp___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_pbp_cmphnsn_notes"
+            },
+            {
+                "isAbout": "items/yr2fb_pbp_cmplnc_notes",
+                "isVis": "yr2fb_pbp___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_pbp_cmplnc_notes"
+            },
+            {
+                "isAbout": "items/yr2fb_pbp_tech_note",
+                "isVis": "yr2fb_pbp___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_pbp_tech_note"
+            },
+            {
+                "isAbout": "items/yr2fb_pbp_techstaff",
+                "isVis": "yr2fb_pbp___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_pbp_techstaff"
+            },
+            {
+                "isAbout": "items/yr2fb_pnh",
+                "isVis": "yr2fb_cl_l___45 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_pnh"
+            },
+            {
+                "isAbout": "items/yr2fb_pnh_cmphnsn_notes",
+                "isVis": "yr2fb_pnh___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_pnh_cmphnsn_notes"
+            },
+            {
+                "isAbout": "items/yr2fb_pnh_cmplnc_notes",
+                "isVis": "yr2fb_pnh___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_pnh_cmplnc_notes"
+            },
+            {
+                "isAbout": "items/yr2fb_pnh_tech_note",
+                "isVis": "yr2fb_pnh___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_pnh_tech_note"
+            },
+            {
+                "isAbout": "items/yr2fb_pnh_techstaff",
+                "isVis": "yr2fb_pnh___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_pnh_techstaff"
+            },
+            {
+                "isAbout": "items/yr2fb_macv",
+                "isVis": "yr2fb_cl_l___46 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_macv"
+            },
+            {
+                "isAbout": "items/yr2fb_macv_cmphnsn_notes",
+                "isVis": "yr2fb_macv___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_macv_cmphnsn_notes"
+            },
+            {
+                "isAbout": "items/yr2fb_macv_cmplnc_notes",
+                "isVis": "yr2fb_macv___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_macv_cmplnc_notes"
+            },
+            {
+                "isAbout": "items/yr2fb_macv_tech_note",
+                "isVis": "yr2fb_macv___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_macv_tech_note"
+            },
+            {
+                "isAbout": "items/yr2fb_macv_techstaff",
+                "isVis": "yr2fb_macv___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_macv_techstaff"
+            },
+            {
+                "isAbout": "items/yr2fb_gish2",
+                "isVis": "yr2fb_cl_l___47 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_gish2"
+            },
+            {
+                "isAbout": "items/yr2fb_gish2_cmphnsn_notes",
+                "isVis": "yr2fb_gish2___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_gish2_cmphnsn_notes"
+            },
+            {
+                "isAbout": "items/yr2fb_gish2_cmplnc_notes",
+                "isVis": "yr2fb_gish2___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_gish2_cmplnc_notes"
+            },
+            {
+                "isAbout": "items/yr2fb_gish2_tech_note",
+                "isVis": "yr2fb_gish2___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_gish2_tech_note"
+            },
+            {
+                "isAbout": "items/yr2fb_gish2_techstaff",
+                "isVis": "yr2fb_gish2___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_gish2_techstaff"
+            },
+            {
+                "isAbout": "items/yr2fb_sag",
+                "isVis": "yr2fb_cl_l___48 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_sag"
+            },
+            {
+                "isAbout": "items/yr2fb_sag_cmphnsn_notes",
+                "isVis": "yr2fb_sag___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_sag_cmphnsn_notes"
+            },
+            {
+                "isAbout": "items/yr2fb_sag_cmplnc_notes",
+                "isVis": "yr2fb_sag___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_sag_cmplnc_notes"
+            },
+            {
+                "isAbout": "items/yr2fb_sag_tech_note",
+                "isVis": "yr2fb_sag___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_sag_tech_note"
+            },
+            {
+                "isAbout": "items/yr2fb_sag_techstaff",
+                "isVis": "yr2fb_sag___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_sag_techstaff"
+            },
+            {
+                "isAbout": "items/yr2fb_fitpre",
+                "isVis": "yr2fb_cl_l___49 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_fitpre"
+            },
+            {
+                "isAbout": "items/yr2fb_fitpre_cmphnsn_notes",
+                "isVis": "yr2fb_fitpre___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_fitpre_cmphnsn_notes"
+            },
+            {
+                "isAbout": "items/yr2fb_fitpre_cmplnc_notes",
+                "isVis": "yr2fb_fitpre___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_fitpre_cmplnc_notes"
+            },
+            {
+                "isAbout": "items/yr2fb_fitpre_tech_note",
+                "isVis": "yr2fb_fitpre___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_fitpre_tech_note"
+            },
+            {
+                "isAbout": "items/yr2fb_fitpre_techstaff",
+                "isVis": "yr2fb_fitpre___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_fitpre_techstaff"
+            },
+            {
+                "isAbout": "items/yr2fb_fitpo",
+                "isVis": "yr2fb_cl_l___50 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_fitpo"
+            },
+            {
+                "isAbout": "items/yr2fb_fitpo_cmphnsn_notes",
+                "isVis": "yr2fb_fitpo___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_fitpo_cmphnsn_notes"
+            },
+            {
+                "isAbout": "items/yr2fb_fitpo_cmplnc_notes",
+                "isVis": "yr2fb_fitpo___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_fitpo_cmplnc_notes"
+            },
+            {
+                "isAbout": "items/yr2fb_fitpo_tech_note",
+                "isVis": "yr2fb_fitpo___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_fitpo_tech_note"
+            },
+            {
+                "isAbout": "items/yr2fb_fitpo_techstaff",
+                "isVis": "yr2fb_fitpo___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_fitpo_techstaff"
+            },
+            {
+                "isAbout": "items/yr2fb_bkfs",
+                "isVis": "yr2fb_cl_l___66 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_bkfs"
+            },
+            {
+                "isAbout": "items/yr2fb_bkfs_cmphnsn_notes",
+                "isVis": "yr2fb_bkfs___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_bkfs_cmphnsn_notes"
+            },
+            {
+                "isAbout": "items/yr2fb_bkfs_cmplnc_notes",
+                "isVis": "yr2fb_bkfs___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_bkfs_cmplnc_notes"
+            },
+            {
+                "isAbout": "items/yr2fb_bkfs_tech_note",
+                "isVis": "yr2fb_bkfs___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_bkfs_tech_note"
+            },
+            {
+                "isAbout": "items/yr2fb_bkfs_techstaff",
+                "isVis": "yr2fb_bkfs___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_bkfs_techstaff"
+            },
+            {
+                "isAbout": "items/yr2fb_nrg1",
+                "isVis": "yr2fb_cl_l___69 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_nrg1"
+            },
+            {
+                "isAbout": "items/yr2fb_nrg1_cmphnsn_notes",
+                "isVis": "yr2fb_nrg1___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_nrg1_cmphnsn_notes"
+            },
+            {
+                "isAbout": "items/yr2fb_nrg1_cmplnc_notes",
+                "isVis": "yr2fb_nrg1___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_nrg1_cmplnc_notes"
+            },
+            {
+                "isAbout": "items/yr2fb_nrg1_tech_note",
+                "isVis": "yr2fb_nrg1___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_nrg1_tech_note"
+            },
+            {
+                "isAbout": "items/yr2fb_nrg1_techstaff",
+                "isVis": "yr2fb_nrg1___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_nrg1_techstaff"
+            },
+            {
+                "isAbout": "items/yr2fb_gdt",
+                "isVis": "yr2fb_cl_l___52 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_gdt"
+            },
+            {
+                "isAbout": "items/yr2fb_gdt_cmphnsn_notes",
+                "isVis": "yr2fb_gdt___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_gdt_cmphnsn_notes"
+            },
+            {
+                "isAbout": "items/yr2fb_gdt_cmplnc_notes",
+                "isVis": "yr2fb_gdt___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_gdt_cmplnc_notes"
+            },
+            {
+                "isAbout": "items/yr2fb_gdt_tech_note",
+                "isVis": "yr2fb_gdt___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_gdt_tech_note"
+            },
+            {
+                "isAbout": "items/yr2fb_gdt_techstaff",
+                "isVis": "yr2fb_gdt___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_gdt_techstaff"
+            },
+            {
+                "isAbout": "items/yr2fb_sit",
+                "isVis": "yr2fb_cl_l___53 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_sit"
+            },
+            {
+                "isAbout": "items/yr2fb_sit_cmphnsn_notes",
+                "isVis": "yr2fb_sit___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_sit_cmphnsn_notes"
+            },
+            {
+                "isAbout": "items/yr2fb_sit_cmplnc_notes",
+                "isVis": "yr2fb_sit___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_sit_cmplnc_notes"
+            },
+            {
+                "isAbout": "items/yr2fb_sit_tech_note",
+                "isVis": "yr2fb_sit___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_sit_tech_note"
+            },
+            {
+                "isAbout": "items/yr2fb_sit_techstaff",
+                "isVis": "yr2fb_sit___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_sit_techstaff"
+            },
+            {
+                "isAbout": "items/yr2fb_ravlt_y",
+                "isVis": "yr2fb_cl_l___59 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_ravlt_y"
+            },
+            {
+                "isAbout": "items/yr2fb_ravlt_cmphnsn_notes_y",
+                "isVis": "yr2fb_ravlt_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_ravlt_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr2fb_ravlt_cmplnc_notes_y",
+                "isVis": "yr2fb_ravlt_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_ravlt_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr2fb_ravlt_tech_note_y",
+                "isVis": "yr2fb_ravlt_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_ravlt_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr2fb_ravlt_techstaff_y",
+                "isVis": "yr2fb_ravlt_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_ravlt_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr2fb_lmt_y",
+                "isVis": "yr2fb_cl_l___60 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_lmt_y"
+            },
+            {
+                "isAbout": "items/yr2fb_lmt_cmphnsn_notes_y",
+                "isVis": "yr2fb_lmt_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_lmt_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr2fb_lmt_cmplnc_notes_y",
+                "isVis": "yr2fb_lmt_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_lmt_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr2fb_lmt_tech_note_y",
+                "isVis": "yr2fb_lmt_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_lmt_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr2fb_lmt_techstaff_y",
+                "isVis": "yr2fb_lmt_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_lmt_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr2fb_pvt_y",
+                "isVis": "yr2fb_cl_l___61 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_pvt_y"
+            },
+            {
+                "isAbout": "items/yr2fb_pvt_cmphnsn_notes_y",
+                "isVis": "yr2fb_pvt_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_pvt_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr2fb_pvt_cmplnc_notes_y",
+                "isVis": "yr2fb_pvt_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_pvt_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr2fb_pvt_tech_note_y",
+                "isVis": "yr2fb_pvt_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_pvt_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr2fb_pvt_techstaff_y",
+                "isVis": "yr2fb_pvt_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_pvt_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr2fb_fic_y",
+                "isVis": "yr2fb_cl_l___62 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_fic_y"
+            },
+            {
+                "isAbout": "items/yr2fb_fic_cmphnsn_notes_y",
+                "isVis": "yr2fb_fic_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_fic_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr2fb_fic_cmplnc_notes_y",
+                "isVis": "yr2fb_fic_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_fic_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr2fb_fic_tech_note_y",
+                "isVis": "yr2fb_fic_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_fic_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr2fb_fic_techstaff_y",
+                "isVis": "yr2fb_fic_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_fic_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr2fb_pcp_y",
+                "isVis": "yr2fb_cl_l___63 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_pcp_y"
+            },
+            {
+                "isAbout": "items/yr2fb_pcp_cmphnsn_notes_y",
+                "isVis": "yr2fb_pcp_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_pcp_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr2fb_pcp_cmplnc_notes_y",
+                "isVis": "yr2fb_pcp_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_pcp_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr2fb_pcp_tech_note_y",
+                "isVis": "yr2fb_pcp_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_pcp_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr2fb_pcp_techstaff_y",
+                "isVis": "yr2fb_pcp_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_pcp_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr2fb_psm_y",
+                "isVis": "yr2fb_cl_l___64 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_psm_y"
+            },
+            {
+                "isAbout": "items/yr2fb_psm_cmphnsn_notes_y",
+                "isVis": "yr2fb_psm_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_psm_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr2fb_psm_cmplnc_notes_y",
+                "isVis": "yr2fb_psm_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_psm_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr2fb_psm_tech_note_y",
+                "isVis": "yr2fb_psm_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_psm_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr2fb_psm_techstaff_y",
+                "isVis": "yr2fb_psm_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_psm_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr2fb_orr_y",
+                "isVis": "yr2fb_cl_l___65 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_orr_y"
+            },
+            {
+                "isAbout": "items/yr2fb_orr_cmphnsn_notes_y",
+                "isVis": "yr2fb_orr_y___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_orr_cmphnsn_notes_y"
+            },
+            {
+                "isAbout": "items/yr2fb_orr_cmplnc_notes_y",
+                "isVis": "yr2fb_orr_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_orr_cmplnc_notes_y"
+            },
+            {
+                "isAbout": "items/yr2fb_orr_tech_note_y",
+                "isVis": "yr2fb_orr_y___3 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_orr_tech_note_y"
+            },
+            {
+                "isAbout": "items/yr2fb_orr_techstaff_y",
+                "isVis": "yr2fb_orr_y___4 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_orr_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr2fb_other",
+                "isVis": "yr2fb_cl_l___35 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_other"
+            },
+            {
+                "isAbout": "items/y_youth_ra_notes_one_year_followup_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "y_youth_ra_notes_one_year_followup_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

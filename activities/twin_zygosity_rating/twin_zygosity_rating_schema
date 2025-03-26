@@ -1,0 +1,304 @@
+{
+    "id": "twin_zygosity_rating_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "twin_zygosity_rating"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/zyg_fam_no",
+            "items/zyg_rater",
+            "items/zyg_age",
+            "items/consent_photos",
+            "items/photos_y_n",
+            "items/photos_issues_twins",
+            "items/zyg_fac",
+            "items/zyg_eye_col",
+            "items/zyg_cmplxn",
+            "items/zyg_hair_col",
+            "items/zyg_hair_txtr",
+            "items/zyg_hair_crly",
+            "items/zyg_hair_pttrn",
+            "items/zyg_hair_amt",
+            "items/zyg_ear_app",
+            "items/zyg_fac_0",
+            "items/zyg_eye_col_0",
+            "items/zyg_cmplxn_0",
+            "items/zyg_hair_col_0",
+            "items/zyg_hair_txtr_0",
+            "items/zyg_hair_crly_0",
+            "items/zyg_hair_pttrn_0",
+            "items/zyg_hair_amt_0",
+            "items/zyg_ear_app_0",
+            "items/zyg_t1_hair_col",
+            "items/zyg_t1_hair_dark",
+            "items/zyg_t1_hair_txtr",
+            "items/zyg_t1_hair_amt",
+            "items/zyg_t1_hair_type",
+            "items/zyg_t1_eye_col",
+            "items/twin2_pguid",
+            "items/zyg_t2_hair_col",
+            "items/zyg_t2_hair_dark",
+            "items/zyg_t2_hair_txtr",
+            "items/zyg_t2_hair_amt",
+            "items/zyg_t2_hair_type",
+            "items/zyg_t2_eye_col",
+            "items/zyg_r1_dz",
+            "items/zyg_call_reviewed",
+            "items/zyg_call_approved",
+            "items/twin_zygosity_rating_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/zyg_fam_no",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "zyg_fam_no"
+            },
+            {
+                "isAbout": "items/zyg_rater",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "zyg_rater"
+            },
+            {
+                "isAbout": "items/zyg_age",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "zyg_age"
+            },
+            {
+                "isAbout": "items/consent_photos",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "consent_photos"
+            },
+            {
+                "isAbout": "items/photos_y_n",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "photos_y_n"
+            },
+            {
+                "isAbout": "items/photos_issues_twins",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "photos_issues_twins"
+            },
+            {
+                "isAbout": "items/zyg_fac",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "zyg_fac"
+            },
+            {
+                "isAbout": "items/zyg_eye_col",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "zyg_eye_col"
+            },
+            {
+                "isAbout": "items/zyg_cmplxn",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "zyg_cmplxn"
+            },
+            {
+                "isAbout": "items/zyg_hair_col",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "zyg_hair_col"
+            },
+            {
+                "isAbout": "items/zyg_hair_txtr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "zyg_hair_txtr"
+            },
+            {
+                "isAbout": "items/zyg_hair_crly",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "zyg_hair_crly"
+            },
+            {
+                "isAbout": "items/zyg_hair_pttrn",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "zyg_hair_pttrn"
+            },
+            {
+                "isAbout": "items/zyg_hair_amt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "zyg_hair_amt"
+            },
+            {
+                "isAbout": "items/zyg_ear_app",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "zyg_ear_app"
+            },
+            {
+                "isAbout": "items/zyg_fac_0",
+                "isVis": "zyg_fac == '0'",
+                "valueRequired": true,
+                "variableName": "zyg_fac_0"
+            },
+            {
+                "isAbout": "items/zyg_eye_col_0",
+                "isVis": "zyg_eye_col == '0'",
+                "valueRequired": true,
+                "variableName": "zyg_eye_col_0"
+            },
+            {
+                "isAbout": "items/zyg_cmplxn_0",
+                "isVis": "zyg_cmplxn == '0'",
+                "valueRequired": true,
+                "variableName": "zyg_cmplxn_0"
+            },
+            {
+                "isAbout": "items/zyg_hair_col_0",
+                "isVis": "zyg_hair_col == '0'",
+                "valueRequired": true,
+                "variableName": "zyg_hair_col_0"
+            },
+            {
+                "isAbout": "items/zyg_hair_txtr_0",
+                "isVis": "zyg_hair_txtr == '0'",
+                "valueRequired": true,
+                "variableName": "zyg_hair_txtr_0"
+            },
+            {
+                "isAbout": "items/zyg_hair_crly_0",
+                "isVis": "zyg_hair_crly == '0'",
+                "valueRequired": true,
+                "variableName": "zyg_hair_crly_0"
+            },
+            {
+                "isAbout": "items/zyg_hair_pttrn_0",
+                "isVis": "zyg_hair_pttrn == '0'",
+                "valueRequired": true,
+                "variableName": "zyg_hair_pttrn_0"
+            },
+            {
+                "isAbout": "items/zyg_hair_amt_0",
+                "isVis": "zyg_hair_amt == '0'",
+                "valueRequired": true,
+                "variableName": "zyg_hair_amt_0"
+            },
+            {
+                "isAbout": "items/zyg_ear_app_0",
+                "isVis": "zyg_ear_app == '0'",
+                "valueRequired": true,
+                "variableName": "zyg_ear_app_0"
+            },
+            {
+                "isAbout": "items/zyg_t1_hair_col",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "zyg_t1_hair_col"
+            },
+            {
+                "isAbout": "items/zyg_t1_hair_dark",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "zyg_t1_hair_dark"
+            },
+            {
+                "isAbout": "items/zyg_t1_hair_txtr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "zyg_t1_hair_txtr"
+            },
+            {
+                "isAbout": "items/zyg_t1_hair_amt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "zyg_t1_hair_amt"
+            },
+            {
+                "isAbout": "items/zyg_t1_hair_type",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "zyg_t1_hair_type"
+            },
+            {
+                "isAbout": "items/zyg_t1_eye_col",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "zyg_t1_eye_col"
+            },
+            {
+                "isAbout": "items/twin2_pguid",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "twin2_pguid"
+            },
+            {
+                "isAbout": "items/zyg_t2_hair_col",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "zyg_t2_hair_col"
+            },
+            {
+                "isAbout": "items/zyg_t2_hair_dark",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "zyg_t2_hair_dark"
+            },
+            {
+                "isAbout": "items/zyg_t2_hair_txtr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "zyg_t2_hair_txtr"
+            },
+            {
+                "isAbout": "items/zyg_t2_hair_amt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "zyg_t2_hair_amt"
+            },
+            {
+                "isAbout": "items/zyg_t2_hair_type",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "zyg_t2_hair_type"
+            },
+            {
+                "isAbout": "items/zyg_t2_eye_col",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "zyg_t2_eye_col"
+            },
+            {
+                "isAbout": "items/zyg_r1_dz",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "zyg_r1_dz"
+            },
+            {
+                "isAbout": "items/zyg_call_reviewed",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "zyg_call_reviewed"
+            },
+            {
+                "isAbout": "items/zyg_call_approved",
+                "isVis": "zyg_call_reviewed == '1'",
+                "valueRequired": false,
+                "variableName": "zyg_call_approved"
+            },
+            {
+                "isAbout": "items/twin_zygosity_rating_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "twin_zygosity_rating_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,35 @@
+{
+    "id": "base_line_min_total",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "This field will be autocalculated."
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY\r\nHIDEFROMCOMPLETION20161001"
+        }
+    ],
+    "description": {
+        "en": "Total MinutesPlease note that prior to 2/20/17  this calculation was based on data included in the Baseline Visit #1 fields."
+    },
+    "preamble": {
+        "en": "TOTAL TIME across however many sessions were needed:(Include imaging, breaks, and all other components - \r\ndo not include phone screening and scheduling.)"
+    },
+    "prefLabel": {
+        "en": "base_line_min_total"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

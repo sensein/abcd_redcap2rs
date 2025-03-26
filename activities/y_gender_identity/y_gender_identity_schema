@@ -1,0 +1,87 @@
+{
+    "id": "y_gender_identity_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "y_gender_identity"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/gish_y_start_time",
+            "items/gish_m1_y",
+            "items/gish_m2_y",
+            "items/gish_f1_y",
+            "items/gish_f2_y",
+            "items/gish_m3_y",
+            "items/gish_m4_y",
+            "items/gish_f3_y",
+            "items/gish_f4_y",
+            "items/y_gender_identity_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/gish_y_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "gish_y_start_time"
+            },
+            {
+                "isAbout": "items/gish_m1_y",
+                "isVis": "baseline_year_1_arm_1demo_sex_v2b == 1 || baseline_year_1_arm_1demo_sex_v2b == 3",
+                "valueRequired": true,
+                "variableName": "gish_m1_y"
+            },
+            {
+                "isAbout": "items/gish_m2_y",
+                "isVis": "baseline_year_1_arm_1demo_sex_v2b == 1 || baseline_year_1_arm_1demo_sex_v2b == 3",
+                "valueRequired": true,
+                "variableName": "gish_m2_y"
+            },
+            {
+                "isAbout": "items/gish_f1_y",
+                "isVis": "baseline_year_1_arm_1demo_sex_v2b == 2 || baseline_year_1_arm_1demo_sex_v2b == 4",
+                "valueRequired": true,
+                "variableName": "gish_f1_y"
+            },
+            {
+                "isAbout": "items/gish_f2_y",
+                "isVis": "baseline_year_1_arm_1demo_sex_v2b == 2 || baseline_year_1_arm_1demo_sex_v2b == 4",
+                "valueRequired": true,
+                "variableName": "gish_f2_y"
+            },
+            {
+                "isAbout": "items/gish_m3_y",
+                "isVis": "baseline_year_1_arm_1demo_sex_v2b == 1 || baseline_year_1_arm_1demo_sex_v2b == 3",
+                "valueRequired": true,
+                "variableName": "gish_m3_y"
+            },
+            {
+                "isAbout": "items/gish_m4_y",
+                "isVis": "baseline_year_1_arm_1demo_sex_v2b == 1 || baseline_year_1_arm_1demo_sex_v2b == 3",
+                "valueRequired": true,
+                "variableName": "gish_m4_y"
+            },
+            {
+                "isAbout": "items/gish_f3_y",
+                "isVis": "baseline_year_1_arm_1demo_sex_v2b == 2 || baseline_year_1_arm_1demo_sex_v2b == 4",
+                "valueRequired": true,
+                "variableName": "gish_f3_y"
+            },
+            {
+                "isAbout": "items/gish_f4_y",
+                "isVis": "baseline_year_1_arm_1demo_sex_v2b == 2 || baseline_year_1_arm_1demo_sex_v2b == 4",
+                "valueRequired": true,
+                "variableName": "gish_f4_y"
+            },
+            {
+                "isAbout": "items/y_gender_identity_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "y_gender_identity_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

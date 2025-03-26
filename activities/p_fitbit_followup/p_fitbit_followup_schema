@@ -1,0 +1,276 @@
+{
+    "id": "p_fitbit_followup_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "p_fitbit_followup"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/fitf_s1_p",
+            "items/fitf_s1_q1_p",
+            "items/fitf_s1_q2_p",
+            "items/fitf_s2_p",
+            "items/fitf_s2_q1_p",
+            "items/fitf_s2_q2_p",
+            "items/fitf_s3_q1_p",
+            "items/fitf_s3_q2_p",
+            "items/fitf_s4_q1_p",
+            "items/fitf_s4_q2a_p",
+            "items/fitf_s4_q2a_1_p",
+            "items/fitf_s4_q2b_p",
+            "items/fitf_s4_q2b_1_p",
+            "items/fitf_s4_q3_p",
+            "items/fitf_s4_q4_p",
+            "items/fitf_s4_q5_p",
+            "items/fitf_s4_q5a_p",
+            "items/fitf_s5_q2_p",
+            "items/fitf_s5_q2a_p",
+            "items/fitf_s5_q2ai_p",
+            "items/fitf_s5_q2b_p",
+            "items/fitf_s5_q2bi_p",
+            "items/fitf_s5_q3_p",
+            "items/fitf_s5_q3a_p",
+            "items/fitf_s5_q3ai_p",
+            "items/fitf_s5_q3b_p",
+            "items/fitf_s5_q3bi_p",
+            "items/fitf_s5_q4_p",
+            "items/fitf_s5_q4_header_p",
+            "items/fitf_s5_q4a_p",
+            "items/fitf_s5_q4ai_p",
+            "items/fitf_s5_q4b_p",
+            "items/fitf_s5_q4bi_p",
+            "items/fitf_s5_q5a_p",
+            "items/fitf_s5_q5b_p",
+            "items/fitf_s5_q6_p",
+            "items/p_fitbit_followup_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/fitf_s1_p",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "fitf_s1_p"
+            },
+            {
+                "isAbout": "items/fitf_s1_q1_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitf_s1_q1_p"
+            },
+            {
+                "isAbout": "items/fitf_s1_q2_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitf_s1_q2_p"
+            },
+            {
+                "isAbout": "items/fitf_s2_p",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "fitf_s2_p"
+            },
+            {
+                "isAbout": "items/fitf_s2_q1_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitf_s2_q1_p"
+            },
+            {
+                "isAbout": "items/fitf_s2_q2_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitf_s2_q2_p"
+            },
+            {
+                "isAbout": "items/fitf_s3_q1_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitf_s3_q1_p"
+            },
+            {
+                "isAbout": "items/fitf_s3_q2_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitf_s3_q2_p"
+            },
+            {
+                "isAbout": "items/fitf_s4_q1_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitf_s4_q1_p"
+            },
+            {
+                "isAbout": "items/fitf_s4_q2a_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitf_s4_q2a_p"
+            },
+            {
+                "isAbout": "items/fitf_s4_q2a_1_p",
+                "isVis": "fitf_s4_q2a_p == '1'",
+                "valueRequired": true,
+                "variableName": "fitf_s4_q2a_1_p"
+            },
+            {
+                "isAbout": "items/fitf_s4_q2b_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitf_s4_q2b_p"
+            },
+            {
+                "isAbout": "items/fitf_s4_q2b_1_p",
+                "isVis": "fitf_s4_q2b_p == '1'",
+                "valueRequired": true,
+                "variableName": "fitf_s4_q2b_1_p"
+            },
+            {
+                "isAbout": "items/fitf_s4_q3_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitf_s4_q3_p"
+            },
+            {
+                "isAbout": "items/fitf_s4_q4_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitf_s4_q4_p"
+            },
+            {
+                "isAbout": "items/fitf_s4_q5_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitf_s4_q5_p"
+            },
+            {
+                "isAbout": "items/fitf_s4_q5a_p",
+                "isVis": "fitf_s4_q5_p == '1'",
+                "valueRequired": true,
+                "variableName": "fitf_s4_q5a_p"
+            },
+            {
+                "isAbout": "items/fitf_s5_q2_p",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "fitf_s5_q2_p"
+            },
+            {
+                "isAbout": "items/fitf_s5_q2a_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitf_s5_q2a_p"
+            },
+            {
+                "isAbout": "items/fitf_s5_q2ai_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitf_s5_q2ai_p"
+            },
+            {
+                "isAbout": "items/fitf_s5_q2b_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitf_s5_q2b_p"
+            },
+            {
+                "isAbout": "items/fitf_s5_q2bi_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitf_s5_q2bi_p"
+            },
+            {
+                "isAbout": "items/fitf_s5_q3_p",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "fitf_s5_q3_p"
+            },
+            {
+                "isAbout": "items/fitf_s5_q3a_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitf_s5_q3a_p"
+            },
+            {
+                "isAbout": "items/fitf_s5_q3ai_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitf_s5_q3ai_p"
+            },
+            {
+                "isAbout": "items/fitf_s5_q3b_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitf_s5_q3b_p"
+            },
+            {
+                "isAbout": "items/fitf_s5_q3bi_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitf_s5_q3bi_p"
+            },
+            {
+                "isAbout": "items/fitf_s5_q4_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitf_s5_q4_p"
+            },
+            {
+                "isAbout": "items/fitf_s5_q4_header_p",
+                "isVis": "fitf_s5_q4_p == '0'",
+                "valueRequired": false,
+                "variableName": "fitf_s5_q4_header_p"
+            },
+            {
+                "isAbout": "items/fitf_s5_q4a_p",
+                "isVis": "fitf_s5_q4_p == '0'",
+                "valueRequired": true,
+                "variableName": "fitf_s5_q4a_p"
+            },
+            {
+                "isAbout": "items/fitf_s5_q4ai_p",
+                "isVis": "fitf_s5_q4_p == '0'",
+                "valueRequired": true,
+                "variableName": "fitf_s5_q4ai_p"
+            },
+            {
+                "isAbout": "items/fitf_s5_q4b_p",
+                "isVis": "fitf_s5_q4_p == '0'",
+                "valueRequired": true,
+                "variableName": "fitf_s5_q4b_p"
+            },
+            {
+                "isAbout": "items/fitf_s5_q4bi_p",
+                "isVis": "fitf_s5_q4_p == '0'",
+                "valueRequired": true,
+                "variableName": "fitf_s5_q4bi_p"
+            },
+            {
+                "isAbout": "items/fitf_s5_q5a_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitf_s5_q5a_p"
+            },
+            {
+                "isAbout": "items/fitf_s5_q5b_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitf_s5_q5b_p"
+            },
+            {
+                "isAbout": "items/fitf_s5_q6_p",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "fitf_s5_q6_p"
+            },
+            {
+                "isAbout": "items/p_fitbit_followup_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "p_fitbit_followup_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

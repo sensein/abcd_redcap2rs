@@ -1,0 +1,30 @@
+{
+    "id": "other_contact_method",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Recruitment Variables"
+    },
+    "prefLabel": {
+        "en": "other_contact_method"
+    },
+    "question": {
+        "en": "other_contact_method = (Text field) (Only filled in if \"Contact Other\" was selected)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

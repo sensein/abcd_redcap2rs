@@ -1,0 +1,21 @@
+{
+    "id": "mypi_singleton_script1",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "mypi_singleton_script1"
+    },
+    "question": {
+        "en": "Hello, is(contact name)available?(Once contact is on the line, continue with script)My name is(your name)and I'm calling from(name of University). Do you remember coming to see us last(month that child completed last visit)? Today, I would like to update your information and ask your child some questions that we ask everyone about 6 months after their annual visit.\n\nIs now a convenient time for us to speak?IF NOT, arrange call back. IF YES:\"Great!\"(continue with script)Thank you for letting us speak briefly with you and[name of child]today for[his/her]half-yearly follow-up with the ABCD study. I will be asking[him/her]some questions about school, health, things[he/she]likes and dislikes, knowledge of substances, and about[his/her]mood. We will be asking your child to go to a private place if possible while we ask these brief questions, where she/he will not be distracted and will feel comfortable to speak privately. We will tell your child that we will not share anything they tell us with anyone unless they tell us they plan to hurt themselves or others, or if we learn that a child or elder has been abused. \n\nWe'd like to thank [him/her] for [his/her] time by sending a $10(gift card/check)and this phone call should only take about 15 minutes.\n\nFirst, let's update your contact information to make sure we can reach you for future assessments.[Go to PII database, verify the information that is in the Locator & Residential Form and collect as much of the missing information.]",
+        "es": "Hola mi nombre es(your name)y le estoy llamando de(name of university). \u00c2\u00bfRecuerda venir a vernos durante el mes de(month that child completed baseline)para el estudio ABCD? En el d\u00c3\u00ada de hoy, me gustar\u00c3\u00ada actualizar su informaci\u00c3\u00b3n de contacto y preguntarle a su ni\u00c3\u00b1o(a) algunas preguntas que le hacemos a todos los participantes aproximadamente 6 meses despu\u00c3\u00a9s de su visita inicial.\n\n\u00c2\u00bfEs este un momento oportuno para hablar?Si la respuesta es NO: Determine una buena hora para volver a llamar. Si la respuesta es S\u00c3\u00ad:\u00c2\u00a1Qu\u00c3\u00a9 Bien!\n\nGracias por permitirnos hablar brevemente con usted y su ni\u00c3\u00b1o(a) en el d\u00c3\u00ada de hoy para el seguimiento semestral(bianual) del estudio ABCD. Le preguntar\u00c3\u00a9 a su ni\u00c3\u00b1o(a) sobre la escuela, la salud, las cosas que le gustan y disgustan, el conocimiento de las sustancias y sobre su humor. Le pediremos a su hijo(a) que vaya a un lugar privado si es posible mientras hacemos estas breves preguntas, donde \u00c3\u00a9l/ella no se distraer\u00c3\u00a1 y se sentir\u00c3\u00a1 c\u00c3\u00b3modo hablando en privado. Le diremos a su hijo(a) que no compartiremos con nadie nada de lo que nos cuente al menos que nos diga que planea lastimarse a s\u00c3\u00ad mismos o a  otros, o si nos enteramos de que un ni\u00c3\u00b1o o anciano ha sido abusado. \n\nNos gustar\u00c3\u00ada agradecerle a \u00c3\u00a9l/ella por su tiempo mediante el env\u00c3\u00ado de(una tarjeta de regalo / un cheque)de $10. Esta llamada telef\u00c3\u00b3nica s\u00c3\u00b3lo debe tomar unos 15 minutos.\"\n\nPara empezar, le pediremos que actualice su informaci\u00c3\u00b3n de contacto para asegurarnos de que nos podamos comunicar con usted en el futuro."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

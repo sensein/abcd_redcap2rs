@@ -1,0 +1,55 @@
+{
+    "id": "su_tlfb_past_yr_mj_edible_l",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20180614"
+        }
+    ],
+    "preamble": {
+        "en": "ANY Type of MJ Follow-up Questions"
+    },
+    "prefLabel": {
+        "en": "su_tlfb_past_yr_mj_edible_l"
+    },
+    "question": {
+        "en": "Was your marijuana edible made with:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Only THC"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Only cannabidiol (CBD)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Both THC and CBD"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "I don't know"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

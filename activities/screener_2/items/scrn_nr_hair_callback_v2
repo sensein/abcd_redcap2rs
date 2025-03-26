@@ -1,0 +1,33 @@
+{
+    "id": "scrn_nr_hair_callback_v2",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "scrn_nr_hair_callback_v2"
+    },
+    "question": {
+        "en": "If removal is within =/- 90 days of ideal date, schedule after removal within +/-90 period.\n\ni. If removal is not within +/-365 range, bring child in +/-90 days of ideal visit to complete all portions of the protocol, except the MRI (do fMRI tasks behaviorally.If parent is unsure, ask for their best guess; if estimated removal is within =/- 90 days of ideal date, schedule after removal within +/-90 period."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Removal is scheduled +/-90 days of ideal visit-delay appt until removed if no other contraindications or concerns"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Removal is not within +/-365 range-schedule child within +/-90 days for non-imaging appt if there are no other concerns"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,78 @@
+{
+    "id": "sleepdisturb1_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "1"
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "LV"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "1"
+        }
+    ],
+    "preamble": {
+        "en": "This questionnaire will allow us to have a better understanding of the sleep-wake rhythm of your child and any problems in his/her sleep behavior. Try to answer every question; in answering, consider each question pertaining to the PAST 6 MONTHS of the child's life.",
+        "es": "Este cuestionario nos permitir\u00c3\u00a1 entender mejor el ritmo de dormir y despertar de su ni\u00c3\u00b1o(a), as\u00c3\u00ad como cualquier problema en sus h\u00c3\u00a1bitos de sue\u00c3\u00b1o. Intente responder todas las preguntas y, al hacerlo, considere cada pregunta como refiri\u00c3\u00a9ndose a los \u00c3\u009aLTIMOS 6 MESES de la vida de su ni\u00c3\u00b1o(a)."
+    },
+    "prefLabel": {
+        "en": "sleepdisturb1_p"
+    },
+    "question": {
+        "en": "How many hours of sleep does your child get on most nights?",
+        "es": "\u00c2\u00bfCu\u00c3\u00a1ntas horas duerme su ni\u00c3\u00b1o(a) la mayor\u00c3\u00ada de las noches?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "9-11 hours",
+                    "es": "9 a 11 horas"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "8-9 hours",
+                    "es": "8 a 9 horas"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "7-8 hours",
+                    "es": "7 a 8 horas"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "5-7 hours",
+                    "es": "5 a 7 horas"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Less than 5 hours",
+                    "es": "Menos de 5 horas"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

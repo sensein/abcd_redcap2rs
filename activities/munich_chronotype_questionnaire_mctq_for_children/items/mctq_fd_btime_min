@@ -1,0 +1,103 @@
+{
+    "id": "mctq_fd_btime_min",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "Minutes"
+        }
+    ],
+    "preamble": {
+        "en": "Free Days"
+    },
+    "prefLabel": {
+        "en": "mctq_fd_btime_min"
+    },
+    "question": {
+        "en": "I go to bed at:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0 minutes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "5 minutes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "10 minutes"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "15 minutes"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "20 minutes"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "25 minutes"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "30 minutes"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "35 minutes"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "40 minutes"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "45 minutes"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "50 minutes"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "55 minutes"
+                },
+                "value": 12
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

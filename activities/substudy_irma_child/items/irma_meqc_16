@@ -1,0 +1,82 @@
+{
+    "id": "irma_meqc_16",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "LV"
+        }
+    ],
+    "preamble": {
+        "en": "Media Exposure Questionnaire",
+        "es": "Cuestionario de exposici\u00c3\u00b3n de medios"
+    },
+    "prefLabel": {
+        "en": "irma_meqc_16"
+    },
+    "question": {
+        "en": "16.  WhichTelevisionchannel did you watch most when viewing news related to Hurricane Irma?",
+        "es": "16. \u00c2\u00bfQu\u00c3\u00a9 canal detelevisi\u00c3\u00b3nviste m\u00c3\u00a1s cuando viste noticias relacionadas con el hurac\u00c3\u00a1n?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "The Weather Channel",
+                    "es": "The Weather Channel"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "CNN",
+                    "es": "CNN"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Fox News",
+                    "es": "Fox News"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "MSNBC",
+                    "es": "MSNBC"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Local news station",
+                    "es": "Estaci\u00c3\u00b3n de noticias local"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Other",
+                    "es": "Otro"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "I did not watch any television related to Hurricane Irma",
+                    "es": "No vi ning\u00c3\u00ban televisor relacionado con el hurac\u00c3\u00a1n Irma"
+                },
+                "value": 7
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

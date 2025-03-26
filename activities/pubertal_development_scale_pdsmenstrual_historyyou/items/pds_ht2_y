@@ -1,0 +1,64 @@
+{
+    "id": "pds_ht2_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20171018\r\n@HIDECHOICE = '999'"
+        }
+    ],
+    "prefLabel": {
+        "en": "pds_ht2_y"
+    },
+    "question": {
+        "en": "Would you say that your growth in height:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "has not yet begun to spurt (spurt means grow faster than usual)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "has barely started"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "is definitely underway (has definitely started)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "seems complete"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "I don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

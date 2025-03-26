@@ -1,0 +1,57 @@
+{
+    "id": "tbi_4_l",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "4"
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "4"
+        }
+    ],
+    "preamble": {
+        "en": "We want to know about injuries to your child's head or neck that he/she may have since we last saw you on [asnt_timestamp_c].",
+        "es": "Queremos saber sobre lesiones en la cabeza o a el cuello que su ni\u00c3\u00b1o/a haya sufrido en cualquier momento desde la \u00c3\u00baltima vez que nos vimos en [asnt_timestamp_c]."
+    },
+    "prefLabel": {
+        "en": "tbi_4_l"
+    },
+    "question": {
+        "en": "Since we last saw you on [asnt_timestamp_c], has your child injured his/her head or neck in a fight, from being hit by something, or from being shaken violently? In the past year, has your child been shot in the head?",
+        "es": "Desde la \u00c3\u00baltima vez que nos vimos en [asnt_timestamp_c], \u00c2\u00bfsu ni\u00c3\u00b1o/a se ha lastimado la cabeza o el cuello en una pelea, al recibir un golpe de alg\u00c3\u00ban objeto o porque lo/la hayan sacudido con violencia? En el \u00c3\u00baltimo a\u00c3\u00b1o, \u00c2\u00bfsu ni\u00c3\u00b1o(a) ha recibido un disparo en la cabeza?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "Si"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

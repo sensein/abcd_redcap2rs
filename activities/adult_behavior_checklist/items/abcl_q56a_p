@@ -1,0 +1,54 @@
+{
+    "id": "abcl_q56a_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "abcl_12"
+        }
+    ],
+    "preamble": {
+        "en": "Physical problems without known medical cause:",
+        "es": "Problemas f\u00c3\u00adsicossin causa m\u00c3\u00a9dica:"
+    },
+    "prefLabel": {
+        "en": "abcl_q56a_p"
+    },
+    "question": {
+        "en": "Aches or pains (not stomach or headaches)",
+        "es": "Dolores o molestias (sin que sean del est\u00c3\u00b3mago o dolores de cabeza)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not True (as far as you know)",
+                    "es": "No es cierto (por lo que usted sabe)"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Somewhat or Sometimes True",
+                    "es": "En cierta manera, algunas veces"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Very True or Often True",
+                    "es": "Muy cierto o cierto a menudo"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,66 @@
+{
+    "id": "teeth_opt_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "<font color=\"blue\">Mark the form status as 'Unverified' if you are waiting on the parent to send you any baby teeth.</font>"
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "LV"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDECHOICE  = '4'"
+        }
+    ],
+    "prefLabel": {
+        "en": "teeth_opt_p"
+    },
+    "question": {
+        "en": "RA: please indicate parent's willingness to donate baby teeth and the collection status?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes and collected",
+                    "es": "S\u00c3\u00adXXXXXXXX"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No, not interested in donating teeth",
+                    "es": "No, no estoy interesado(a) en donar los dientes."
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "None now, willing to send newly shed teeth",
+                    "es": "Ninguno ahora, estoy dispuesto(a) a enviar los dientes reci\u00c3\u00a9n se les caiga."
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Parent already donated teeth (Only relevant to followup visits)",
+                    "es": "Padre o madre ya dono dientes (solamente relevante en visitas de seguimiento)"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

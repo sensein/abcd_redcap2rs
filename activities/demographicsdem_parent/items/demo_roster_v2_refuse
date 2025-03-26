@@ -1,0 +1,35 @@
+{
+    "id": "demo_roster_v2_refuse",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "demo_roster_v2_refuse"
+    },
+    "question": {
+        "en": "How many people are living at your address?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "refuse to answer",
+                    "es": "prefiere no contestar"
+                },
+                "value": 777
+            },
+            {
+                "name": {
+                    "en": "Don't know",
+                    "es": "No lo s\u00c3\u00a9"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,37 @@
+{
+    "id": "mypi_removed_dk",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN-SURVEY"
+        }
+    ],
+    "prefLabel": {
+        "en": "mypi_removed_dk"
+    },
+    "question": {
+        "en": "When do you expect this to be removed?",
+        "es": "\u00c2\u00bfCu\u00c3\u00a1ndo espera que esto se remueva?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Don't knowNo s\u00c3\u00a9",
+                    "es": "No s\u00c3\u00a9"
+                },
+                "value": 1
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

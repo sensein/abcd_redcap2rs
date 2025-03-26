@@ -1,0 +1,61 @@
+{
+    "id": "eatq_phenx_care_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "You will find a series of statements that people might use to describe their child. The statements refer to a wide number of activities and attitudes.\n\nFor each statement, please pick the answer which best describes how true each statement is for your child. There are no best answers. People are very different in how they feel about these statements. Please pick the first answer that comes to you.\n\nYou will use the following scale to describe how true or false a statement is about your child:Almost always untrue of your child\nUsually untrue of your child\nSometimes true, sometimes untrue of your child\nUsually true of your child\nAlmost always true of your child",
+        "es": "Encontrar\u00c3\u00a1 una serie de afirmaciones que la gente podr\u00c3\u00ada usar para describir a su hijo/a. Las afirmaciones se refieren a un amplio n\u00c3\u00bamero de actividades y actitudes.\n\nEn cada afirmaci\u00c3\u00b3n, seleccione la respuesta que mejor describa qu\u00c3\u00a9 tan cierta es cada afirmaci\u00c3\u00b3n en relaci\u00c3\u00b3n a su hijo/a. No hay una respuesta mejor que otra. Las personas son muy diferentes en c\u00c3\u00b3mo se sienten acerca de estas afirmaciones. Por favor escoja la primera respuesta que le parezca.Usar\u00c3\u00a1 la siguiente escala para describir qu\u00c3\u00a9 tan cierta o falsa es una afirmaci\u00c3\u00b3n acerca su hijo/a:\nCasi siempre falso de su hijo/a\nPor lo general, falso de su hijo/a\nAlgunas veces verdadero, algunas veces falso de su hijo/a\nPor lo general, verdadero de su hijo/a\nCasi siempre verdadero de su hijo/a"
+    },
+    "prefLabel": {
+        "en": "eatq_phenx_care_p"
+    },
+    "question": {
+        "en": "Likes taking care of other people.",
+        "es": "Le gusta cuidar de otras personas."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Almost alwaysuntrue",
+                    "es": "Casi siemprefalso"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Usuallyuntrue",
+                    "es": "Por lo general,falso"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Sometimestrue, sometimesuntrue",
+                    "es": "Algunas vecesverdadero,algunas vecesfalso"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Usuallytrue",
+                    "es": "Por lo general,verdadero"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Almost alwaystrue",
+                    "es": "Casi siempreverdadero"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

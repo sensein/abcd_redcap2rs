@@ -1,0 +1,105 @@
+{
+    "id": "demo_prnt_empl_v2b",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20180116"
+        }
+    ],
+    "preamble": {
+        "en": "Okay, I am now going to ask you a series of questions about the different members of your child's family and where they were born:",
+        "es": "Bien, ahora voy a hacerle una serie de preguntas sobre los diferentes miembros de la familia de su ni\u00c3\u00b1o(a) y d\u00c3\u00b3nde nacieron."
+    },
+    "prefLabel": {
+        "en": "demo_prnt_empl_v2b"
+    },
+    "question": {
+        "en": "Are you working now, looking for work, retired, stay at home parent, a student, or something else?",
+        "es": "\u00c2\u00bfTrabaja actualmente, est\u00c3\u00a1 buscando trabajo, est\u00c3\u00a1 retirado, se dedica al hogar, estudia o realiza alguna otra actividad?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "##en##Working now: FULL TIME/PART TIME##/en####es##Trabajo de TIEMPO COMPLETO o MEDIO TIEMPO##/es##"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "##en##Temporarily Laid off##/en####es##Desempleado(a) temporalmente##/es##"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "##en##Sick Leave##/en####es##En licencia por enfermedad##/es##"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "##en##Maternity Leave##/en####es##En licencia por maternidad##/es##"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "##en##Looking for work, unemployed##/en####es##Desempleado(a), buscando empleo##/es##"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "##en##Unemployed not looking for work##/en####es##Desempleado(a), no buscando empleo##/es##"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "##en##Retired##/en####es##Retirado(a)##/es##"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "##en##Disabled: Permanently or Temporarily##/en####es##Incapacitado(a): permanente o temporalmente##/es##"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "##en##Stay at Home Parent##/en####es##Se dedica al hogar##/es##"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "##en##Student##/en####es##Estudiante##/es##"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "##en##Other (Specify):##/en####es##Otro (especifique):##/es##"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "##en##Refused to answer##/en####es## Prefiero no responder##/es##"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

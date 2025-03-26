@@ -1,0 +1,30 @@
+{
+    "id": "ple_y_ss_total_bad",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "description": {
+        "en": "Total Number of Bad Events\r\n\r\nValidation: No Minimum"
+    },
+    "preamble": {
+        "en": "Phenx Life Events"
+    },
+    "prefLabel": {
+        "en": "ple_y_ss_total_bad"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

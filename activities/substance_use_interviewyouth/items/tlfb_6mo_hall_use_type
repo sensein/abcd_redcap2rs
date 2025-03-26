@@ -1,0 +1,80 @@
+{
+    "id": "tlfb_6mo_hall_use_type",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "Please check all that apply."
+        }
+    ],
+    "preamble": {
+        "en": "6-month TLFB"
+    },
+    "prefLabel": {
+        "en": "tlfb_6mo_hall_use_type"
+    },
+    "question": {
+        "en": "Which of these have you used in the PAST SIX MONTHS?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "LSD or acid"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "PCP or angel dust"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Peyote"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Mescaline"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "DMT"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "AMT"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Foxy"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 9
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

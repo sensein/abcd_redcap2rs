@@ -1,0 +1,36 @@
+{
+    "id": "devhx_9_her_morph_amt",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "<span lang=\"en\">If you don't know, please choose \"don't know\" in what follows below</span><span lang=\"es\" style=\"color:maroon;\">   Si no sabe, por favor escoja \"no se\" en lo que sigue abajo.</span>"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        }
+    ],
+    "preamble": {
+        "en": "We are now going to ask some questions about the birth and early development of the child who is participating in this study.",
+        "es": "Ahora le vamos a hacer algunas preguntas sobre el nacimiento y la etapa temprana de desarrollo del ni\u00c3\u00b1o(a) quien est\u00c3\u00a1 participando en este estudio."
+    },
+    "prefLabel": {
+        "en": "devhx_9_her_morph_amt"
+    },
+    "question": {
+        "en": "How many times per day?",
+        "es": "\u00c2\u00bfCuantas veces al d\u00c3\u00ada?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

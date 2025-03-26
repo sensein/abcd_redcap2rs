@@ -1,0 +1,61 @@
+{
+    "id": "famhx_4_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "LH"
+        }
+    ],
+    "preamble": {
+        "en": "The following are questions about people in your child's family. I only need to know about people who are your child's blood relatives, such as biological mother and father, the child's grandparents, your child's aunts and uncles (siblings of the biological mother/father), and your child's siblings.",
+        "es": "Las siguientes son preguntas sobr\u00c3\u00a9 las personas que integran la familia de su ni\u00c3\u00b1o(a). Solamente necesitamos informaci\u00c3\u00b3n sobre los familiares consangu\u00c3\u00adneos de su ni\u00c3\u00b1o(a),como por  ejemplo  la madre  y el padre biol\u00c3\u00b3gico de su ni\u00c3\u00b1o/a, as\u00c3\u00ad como los abuelos de su ni\u00c3\u00b1o(a), los t\u00c3\u00ados de su ni\u00c3\u00b1o(a) (los hermanos de la madre y el padre biol\u00c3\u00b3gicos) y los hermanos de su ni\u00c3\u00b1o(a)."
+    },
+    "prefLabel": {
+        "en": "famhx_4_p"
+    },
+    "question": {
+        "en": "Has ANY blood relative of your child ever had any problems due toalcohol, such as: Marital  separation or divorce; Laid off or fired from work; Arrests or DUIs; Alcohol harmed their health; In an alcohol treatment program; Suspended or expelled from school 2 or more times; Isolated self from family, caused arguments or were drunk a lot.",
+        "es": "\u00c2\u00bfAlg\u00c3\u00ban pariente consangu\u00c3\u00adneo de su ni\u00c3\u00b1o(a) ha tenido alguna vez problemas debido alalcohol, como una separaci\u00c3\u00b3n o divorcio, Despido o cese laboral, Arrestos o multas por conducir bajo la influencia de drogas, Da\u00c3\u00b1os a la salud por causa del alcohol, Ingreso a un programa de tratamiento contra el alcoholismo, suspensi\u00c3\u00b3n o expulsi\u00c3\u00b3n de la escuela en 2 o m\u00c3\u00a1s ocasiones, se aisl\u00c3\u00b3 de la familia, provoc\u00c3\u00b3 conflictos o con frecuencia estaba embriagado?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't know",
+                    "es": "No lo s\u00c3\u00a9"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer",
+                    "es": "Niego contestar"
+                },
+                "value": 7
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

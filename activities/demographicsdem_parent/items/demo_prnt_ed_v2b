@@ -1,0 +1,171 @@
+{
+    "id": "demo_prnt_ed_v2b",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20180116"
+        }
+    ],
+    "preamble": {
+        "en": "Okay, I am now going to ask you a series of questions about the different members of your child's family and where they were born:",
+        "es": "Bien, ahora voy a hacerle una serie de preguntas sobre los diferentes miembros de la familia de su ni\u00c3\u00b1o(a) y d\u00c3\u00b3nde nacieron."
+    },
+    "prefLabel": {
+        "en": "demo_prnt_ed_v2b"
+    },
+    "question": {
+        "en": "What is the highest grade or level of school you have completed or the highest degree you have received?",
+        "es": "\u00c2\u00bfCu\u00c3\u00a1l es su m\u00c3\u00a1ximo nivel de estudios completados o el m\u00c3\u00a1ximo t\u00c3\u00adtulo que ha recibido?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "##en##Never attended/Kindergarten only##/en####es##Nunca asist\u00c3\u00ad/Kinder solamente##/es##"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "##en##1st grade##/en####es##1.er grado##/es##"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "##en##2nd grade##/en####es##2.\u00c2\u00ba grado##/es##"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "##en##3rd grade##/en####es##3.er grado##/es##"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "##en##4th grade##/en####es##4.\u00c2\u00ba grado##/es##"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "##en##5th grade##/en####es##5.\u00c2\u00ba grado##/es##"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "##en##6th grade##/en####es##6.\u00c2\u00ba grado##/es##"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "##en##7th grade##/en####es##7.\u00c2\u00ba grado##/es##"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "##en##8th grade##/en####es##8.\u00c2\u00ba grado##/es##"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "##en##9th grade##/en####es##9.\u00c2\u00ba grado##/es##"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "##en##10th grade##/en####es##10.\u00c2\u00ba grado##/es##"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "##en##11th grade##/en####es##11.\u00c2\u00ba grado##/es##"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "##en##12th grade, no diploma##/en####es## 12.\u00c2\u00ba grado, sin certificado/diploma##/es##"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "##en##High school graduate##/en####es##Preparatoria terminada##/es##"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "##en##GED or equivalent##/en####es##Diploma General de Equivalencia (GED) o equivalente##/es##"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "##en##Some college, no degree##/en####es##Estudios universitarios parciales; sin t\u00c3\u00adtulo##/es##"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "##en##Associate degree: Occupational, Technical, or Vocational##/en####es##T\u00c3\u00adtulo de asociado: programa ocupacional, t\u00c3\u00a9cnico o vocacional##/es##"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "##en##Associate degree: Academic Program##/en####es##T\u00c3\u00adtulo de asociado: programa acad\u00c3\u00a9mico##/es##"
+                },
+                "value": 17
+            },
+            {
+                "name": {
+                    "en": "##en##Bachelor's degree (ex. BA, AB, BS, BBS)##/en####es##Licenciatura (p. ej., BA, AB, BS, BBA)##/es##"
+                },
+                "value": 18
+            },
+            {
+                "name": {
+                    "en": "##en##Master's degree (ex. MA, MS, MEng, MEd, MBA)##/en####es##Maestr\u00c3\u00ada (p. ej., MA, MS, MEng, MEd, MBA)##/es##"
+                },
+                "value": 19
+            },
+            {
+                "name": {
+                    "en": "##en##Professional School degree (ex. MD, DDS, DVN, JD)##/en####es##T\u00c3\u00adtulo de escuela profesional (p. ej., MD, DDS, DVM, JD)##/es##"
+                },
+                "value": 20
+            },
+            {
+                "name": {
+                    "en": "##en##Doctoral degree (ex. PhD, EdD)##/en####es##Doctorado (p. ej., PhD, EdD)##/es##"
+                },
+                "value": 21
+            },
+            {
+                "name": {
+                    "en": "##en##Refused to answer##/en####es##Prefiero no responder##/es##"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

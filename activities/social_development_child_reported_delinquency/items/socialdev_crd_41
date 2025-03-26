@@ -1,0 +1,51 @@
+{
+    "id": "socialdev_crd_41",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "socialdev_crd_41"
+    },
+    "question": {
+        "en": "Have you sold hard drugs, such as heroin, cocaine (crack), or LSD?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Once or twice"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "More often"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "I don't know"
+                },
+                "value": 98
+            },
+            {
+                "name": {
+                    "en": "I'd rather not say"
+                },
+                "value": 99
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

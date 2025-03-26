@@ -1,0 +1,45 @@
+{
+    "id": "isip_1b_yn_l",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "1a"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "1a"
+        }
+    ],
+    "prefLabel": {
+        "en": "isip_1b_yn_l"
+    },
+    "question": {
+        "en": "Some people have alcohol as part of a religious ceremony such as in church or at a Seder dinner. Since the last time we saw you, have have you had a sip of alcohol that was NOT part of a religious service ?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

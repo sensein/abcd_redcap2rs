@@ -1,0 +1,49 @@
+{
+    "id": "ra_scan_check_list_sspc",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "autocomplete"
+        }
+    ],
+    "preamble": {
+        "en": "Scanning Checklist"
+    },
+    "prefLabel": {
+        "en": "ra_scan_check_list_sspc"
+    },
+    "question": {
+        "en": "Number of Scanning Sessions for Child"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

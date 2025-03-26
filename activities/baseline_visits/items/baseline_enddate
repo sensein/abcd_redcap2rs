@@ -1,0 +1,34 @@
+{
+    "id": "baseline_enddate",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "date_mdy"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20170904\r\n@HIDEBUTTON"
+        }
+    ],
+    "preamble": {
+        "en": "TOTAL TIME across however many sessions were needed:(Include imaging, breaks, and all other components - \r\ndo not include phone screening and scheduling.)"
+    },
+    "prefLabel": {
+        "en": "baseline_enddate"
+    },
+    "question": {
+        "en": "Date Baseline Visit Completed (If 2 appointments necessary to complete baseline visit, enter the  date of the 2nd baseline appointment)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "date"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

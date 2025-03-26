@@ -1,0 +1,33 @@
+{
+    "id": "vis_flg",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "vis_flg"
+    },
+    "question": {
+        "en": "Can the participant read the stimuli on the iPad?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "YES = proceed with testing"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "NO = stop testing"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

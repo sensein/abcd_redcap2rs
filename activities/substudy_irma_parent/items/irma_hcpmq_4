@@ -1,0 +1,68 @@
+{
+    "id": "irma_hcpmq_4",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "hcpmq_1"
+        }
+    ],
+    "preamble": {
+        "en": "Irma-Related Household Conversations and Parental Media Regulation",
+        "es": "Conversaciones dom\u00c3\u00a9sticas relacionadas con Irma y regulaci\u00c3\u00b3n de medios por los padres"
+    },
+    "prefLabel": {
+        "en": "irma_hcpmq_4"
+    },
+    "question": {
+        "en": "4. I tried to prevent other people from discussing the hurricane in front of my child.",
+        "es": "4. Trat\u00c3\u00a9 de evitar que otras personas hablen del hurac\u00c3\u00a1n delante de mi hijo(a)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all like me or my family0",
+                    "es": "Nada como yo o mi familia0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1",
+                    "es": "1"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Somewhat like me or my family2",
+                    "es": "Algo as\u00c3\u00ad como yo o mi familia2"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3",
+                    "es": "3"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Very much like me or my family4",
+                    "es": "Muy parecido a m\u00c3\u00ad o mi familia4"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

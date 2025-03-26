@@ -1,0 +1,38 @@
+{
+    "id": "demo_adopt_agex_v2",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "<span lang=\"en\"><b>years old</span><span lang=\"es\" style= \"color:maroon\">a\u00c3\u00b1os de edad</span>"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Text Validation Max",
+            "source": "redcap",
+            "value": "20.0"
+        }
+    ],
+    "prefLabel": {
+        "en": "demo_adopt_agex_v2"
+    },
+    "question": {
+        "en": "How old was he/she at the time of adoption?",
+        "es": "\u00c2\u00bfQu\u00c3\u00a9 edad ten\u00c3\u00ada el/ella en el momento de la adopci\u00c3\u00b3n?"
+    },
+    "responseOptions": {
+        "maxValue": 20,
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

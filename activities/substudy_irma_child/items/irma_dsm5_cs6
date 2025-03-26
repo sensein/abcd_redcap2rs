@@ -1,0 +1,47 @@
+{
+    "id": "irma_dsm5_cs6",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "dsm5_cs"
+        }
+    ],
+    "preamble": {
+        "en": "UCLA Reaction Index for DSM-5",
+        "es": "\u00c3\u008dndice de reacci\u00c3\u00b3n del UCLA para DSM-5"
+    },
+    "prefLabel": {
+        "en": "irma_dsm5_cs6"
+    },
+    "question": {
+        "en": "CS6. Do these reactions, thoughts, and feelings cause other problems at school?",
+        "es": "CS6. \u00c2\u00bfEstas reacciones, pensamientos y sentimientos causan otros problemas en la escuela?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "Si"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

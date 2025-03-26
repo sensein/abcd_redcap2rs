@@ -1,0 +1,42 @@
+{
+    "id": "devhx_19c_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "<span lang=\"en\">CDC Average = 18 months, </span><span lang=\"es\" style=\"color:maroon;\">CDC Promedio=18 meses  </span><span lang=\"en\">If you don't know, please choose \"don't know\" in what follows below</span><span lang=\"es\" style=\"color:maroon;\">   Si no sabe, por favor escoja \"no se\" en lo que sigue abajo.</span>"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Text Validation Min",
+            "source": "redcap",
+            "value": "5"
+        }
+    ],
+    "preamble": {
+        "en": "At approximately what age (number ofmonths) was he/she FIRST able to do each of the following?",
+        "es": "\u00c2\u00bfAproximadamente a qu\u00c3\u00a9 edad (enmeses) pudo realizar por primera vez cada una de las siguientes actividades?"
+    },
+    "prefLabel": {
+        "en": "devhx_19c_p"
+    },
+    "question": {
+        "en": "Walk without assistance?",
+        "es": "\u00c2\u00bfCaminar sin ayuda?"
+    },
+    "responseOptions": {
+        "minValue": 5,
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

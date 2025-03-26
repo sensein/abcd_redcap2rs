@@ -1,0 +1,26 @@
+{
+    "id": "hormone_scr_ert_mean",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        }
+    ],
+    "prefLabel": {
+        "en": "hormone_scr_ert_mean"
+    },
+    "question": {
+        "en": "Salimetrics hormone test testosterone (ERT) mean of measures (pg/mL)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

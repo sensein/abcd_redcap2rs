@@ -1,0 +1,53 @@
+{
+    "id": "su_caff_intake_6_calc",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "Typical serving size - 1 Can (12 oz)"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "4"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Text Validation Min",
+            "source": "redcap",
+            "value": "0"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "4"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN @READONLY @SHARED"
+        }
+    ],
+    "prefLabel": {
+        "en": "su_caff_intake_6_calc"
+    },
+    "question": {
+        "en": "Soda with caffeine (Mountain Dew, Jolt, Coke, Pepsi, Dr. Pepper, Barq's root beer)\r\n\r\nIf \"Have you heard of caffeine ...?\" is not endorsed , values for \"caff_intake_6\" will be missing.  Here, these missing values have been replaced with \"0.\""
+    },
+    "responseOptions": {
+        "minValue": 0,
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

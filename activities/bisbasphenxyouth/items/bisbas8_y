@@ -1,0 +1,52 @@
+{
+    "id": "bisbas8_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "bis_m2"
+        }
+    ],
+    "prefLabel": {
+        "en": "bisbas8_y"
+    },
+    "question": {
+        "en": "I feel excited and full of energy when I get something that I want."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not true"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Somewhat true"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "True"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Very true"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,47 @@
+{
+    "id": "scrn_birthcomp",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "Note: If hospitalization was due to prematurity alone then that is not a basis for exclusion."
+        }
+    ],
+    "prefLabel": {
+        "en": "scrn_birthcomp"
+    },
+    "question": {
+        "en": "\"Were there any birth complications that resulted in (Child's name) being hospitalized for more than a month?\"",
+        "es": "\"\u00c2\u00bfHubo complicaciones en el parto que causaran que (nombre del menor) tuviera que estar hospitalizado(a) durante m\u00c3\u00a1s de un mes?\""
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

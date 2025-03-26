@@ -1,0 +1,27 @@
+{
+    "id": "nihtbx_demo_rescore_agecorrlistsort",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "nihtbx_demo_rescore_agecorrlistsort"
+    },
+    "question": {
+        "en": "NIH Toolbox List Sorting Working Memory Test Age 7+ v2.0 - (Age-Corrected Standard Score)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

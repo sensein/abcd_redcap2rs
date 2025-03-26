@@ -1,0 +1,38 @@
+{
+    "id": "delq_ss_5a_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        },
+        {
+            "column": "Text Validation Min",
+            "source": "redcap",
+            "value": "0"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN @READONLY @SHARED"
+        }
+    ],
+    "prefLabel": {
+        "en": "delq_ss_5a_y"
+    },
+    "question": {
+        "en": "How many times in the past year have you taken something from a store without paying for it?\n\nIf yes is endorsed,  youth is then asked \"How many times.\" If no is endorsed, \"0\" has replaced missing [delq_5a_y]."
+    },
+    "responseOptions": {
+        "minValue": 0,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

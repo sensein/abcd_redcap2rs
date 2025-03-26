@@ -1,0 +1,34 @@
+{
+    "id": "withdraw_other_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20180301"
+        }
+    ],
+    "preamble": {
+        "en": "Parent Protocol"
+    },
+    "prefLabel": {
+        "en": "withdraw_other_p"
+    },
+    "question": {
+        "en": "Other Withdrawal Reason Parent"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

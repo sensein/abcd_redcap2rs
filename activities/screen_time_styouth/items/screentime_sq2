@@ -1,0 +1,60 @@
+{
+    "id": "screentime_sq2",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Sleep Questions"
+    },
+    "prefLabel": {
+        "en": "screentime_sq2"
+    },
+    "question": {
+        "en": "What do you usually do with your phone when you are ready to go to sleep? Do you"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not Applicable"
+                },
+                "value": -1
+            },
+            {
+                "name": {
+                    "en": "Turn the phone off"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Put the ringer on silent or vibrate"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Leave the ringer on?"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Put it outside of the room where I sleep"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

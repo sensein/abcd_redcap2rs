@@ -1,0 +1,137 @@
+{
+    "id": "blood_pressure_schema",
+    "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "mean(blood_pressure_test_sys_1,blood_pressure_test_sys_2,blood_pressure_test_sys_3)",
+            "variableName": "blood_pressure_sys_mean"
+        },
+        {
+            "jsExpression": "mean(blood_pressure_test_dia_1,blood_pressure_test_dia_2,blood_pressure_test_dia_3)",
+            "variableName": "blood_pressure_dia_mean"
+        }
+    ],
+    "prefLabel": {
+        "en": "blood_pressure"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/blood_pressure_start_time",
+            "items/spanishtest",
+            "items/test_p_select_language",
+            "items/test1",
+            "items/blood_pressure_test_sys_1",
+            "items/blood_pressure_test_dia_1",
+            "items/blood_pressure_pulse_1",
+            "items/blood_pressure_test_sys_2",
+            "items/blood_pressure_test_dia_2",
+            "items/blood_pressure_pulse_2",
+            "items/blood_pressure_test_sys_3",
+            "items/blood_pressure_test_dia_3",
+            "items/blood_pressure_pulse_3",
+            "items/blood_pressure_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/blood_pressure_start_time",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "blood_pressure_start_time"
+            },
+            {
+                "isAbout": "items/spanishtest",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "spanishtest"
+            },
+            {
+                "isAbout": "items/test_p_select_language",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "test_p_select_language"
+            },
+            {
+                "isAbout": "items/test1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "test1"
+            },
+            {
+                "isAbout": "items/blood_pressure_test_sys_1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "blood_pressure_test_sys_1"
+            },
+            {
+                "isAbout": "items/blood_pressure_test_dia_1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "blood_pressure_test_dia_1"
+            },
+            {
+                "isAbout": "items/blood_pressure_pulse_1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "blood_pressure_pulse_1"
+            },
+            {
+                "isAbout": "items/blood_pressure_test_sys_2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "blood_pressure_test_sys_2"
+            },
+            {
+                "isAbout": "items/blood_pressure_test_dia_2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "blood_pressure_test_dia_2"
+            },
+            {
+                "isAbout": "items/blood_pressure_pulse_2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "blood_pressure_pulse_2"
+            },
+            {
+                "isAbout": "items/blood_pressure_test_sys_3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "blood_pressure_test_sys_3"
+            },
+            {
+                "isAbout": "items/blood_pressure_test_dia_3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "blood_pressure_test_dia_3"
+            },
+            {
+                "isAbout": "items/blood_pressure_pulse_3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "blood_pressure_pulse_3"
+            },
+            {
+                "isAbout": "items/blood_pressure_sys_mean",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "blood_pressure_sys_mean"
+            },
+            {
+                "isAbout": "items/blood_pressure_dia_mean",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "blood_pressure_dia_mean"
+            },
+            {
+                "isAbout": "items/blood_pressure_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "blood_pressure_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,101 @@
+{
+    "id": "demo_ethn2_v2b",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20180116"
+        }
+    ],
+    "prefLabel": {
+        "en": "demo_ethn2_v2b"
+    },
+    "question": {
+        "en": "Please choose the group that best represents the child's Hispanic origin or ancestry",
+        "es": "Elija el grupo que mejor represente el origen o la ascendencia hispana del ni\u00c3\u00b1o o la ni\u00c3\u00b1a."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "##en##Puerto Rican##/en####es## Puertorrique\u00c3\u00b1o##/es##"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "##en##Dominican (Republic)##/en####es##Dominicano##/es##"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "##en##Mexican##/en####es##Mexicano##/es##"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "##en##Mexican American##/en####es##M\u00c3\u00a9xico-estadounidense##/es##"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "Chicano"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "##en##Cuban##/en####es##Cubano##/es##"
+                },
+                "value": 18
+            },
+            {
+                "name": {
+                    "en": "##en##Cuban American##/en####es##Cubano-estadounidense##/es##"
+                },
+                "value": 19
+            },
+            {
+                "name": {
+                    "en": "##en##Central or South American##/en####es##Centroamericano o sudamericano##/es##"
+                },
+                "value": 20
+            },
+            {
+                "name": {
+                    "en": "##en##Other Latin American##/en####es##Otro origen latinoamericano##/es##"
+                },
+                "value": 40
+            },
+            {
+                "name": {
+                    "en": "##en##Other Hispanic##/en####es##Otro origen hispano##/es##"
+                },
+                "value": 41
+            },
+            {
+                "name": {
+                    "en": "##en##Refused to answer##/en####es##Prefiero no responder##/es##"
+                },
+                "value": 777
+            },
+            {
+                "name": {
+                    "en": "##en##Don't know##/en####es##No lo s\u00c3\u00a9##/es##"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

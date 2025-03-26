@@ -1,0 +1,47 @@
+{
+    "id": "teeth_total",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Text Validation Min",
+            "source": "redcap",
+            "value": "0"
+        },
+        {
+            "column": "Text Validation Max",
+            "source": "redcap",
+            "value": "20.0"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN\r@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "TOOTH items 1-10 to be completed by study personnel."
+    },
+    "prefLabel": {
+        "en": "teeth_total"
+    },
+    "question": {
+        "en": "Total teeth donated"
+    },
+    "responseOptions": {
+        "maxValue": 20,
+        "minValue": 0,
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

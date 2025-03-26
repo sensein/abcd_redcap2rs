@@ -1,0 +1,33 @@
+{
+    "id": "screentime1_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "1"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "1"
+        }
+    ],
+    "prefLabel": {
+        "en": "screentime1_p"
+    },
+    "question": {
+        "en": "For example, if on a typical weekday, total screen time equals 2 hours/day, you would enter \"2\" for hours and \"0\"   for minutes.",
+        "es": "Por ejemplo, si en un d\u00c3\u00ada laboral normal, el tiempo total frente a una pantalla es igual a 2 horas/d\u00c3\u00ada, deber\u00c3\u00a1 ingresar \"2\" para las horas y \"0\" para los minutos."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

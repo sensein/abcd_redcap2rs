@@ -1,0 +1,45 @@
+{
+    "id": "hair_status_y",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "hair_status_y"
+    },
+    "question": {
+        "en": "Hair Sample Collection:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Collected"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Participant refused"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Not collected, hair was not appropriate (too short, braids, etc.)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Not collected (other)"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,31 @@
+{
+    "id": "checkbox_reminders_fuss",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "END"
+    },
+    "prefLabel": {
+        "en": "checkbox_reminders_fuss"
+    },
+    "question": {
+        "en": "Please check yes if you would like to display reminders for the 2 year followup visit"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "yes"
+                },
+                "value": 1
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

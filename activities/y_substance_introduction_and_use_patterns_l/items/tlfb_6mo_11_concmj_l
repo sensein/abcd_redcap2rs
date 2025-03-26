@@ -1,0 +1,54 @@
+{
+    "id": "tlfb_6mo_11_concmj_l",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Marijuana Concentrates Follow-Up Questions:"
+    },
+    "prefLabel": {
+        "en": "tlfb_6mo_11_concmj_l"
+    },
+    "question": {
+        "en": "How strong or potent do you think your typical marijuana concentrate was during the past year? Try to estimate the potency:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Low is around 20% THC"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Medium (40%)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "High (60%)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Very high (80%+)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "If you do not know."
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

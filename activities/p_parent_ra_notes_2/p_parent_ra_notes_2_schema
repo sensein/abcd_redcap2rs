@@ -1,0 +1,290 @@
+{
+    "id": "p_parent_ra_notes_2_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "p_parent_ra_notes_2"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/pnotes_inform_d2",
+            "items/pnotes_inform_warn",
+            "items/parent_issues",
+            "items/p_asssessment_issues",
+            "items/parent_instructionsp",
+            "items/comm_med_inv_plus",
+            "items/comm_fha",
+            "items/comm_ksads",
+            "items/comm_kbi",
+            "items/comm_dem_na",
+            "items/comm_devhx",
+            "items/comm_medhx",
+            "items/comm_osts",
+            "items/comm_pds_mc",
+            "items/comm_sds",
+            "items/comm_gbi",
+            "items/comm_cbcl",
+            "items/comm_screentime",
+            "items/comm_pst",
+            "items/comm_sports",
+            "items/comm_asr",
+            "items/comm_p_rules",
+            "items/comm_su_risk",
+            "items/comm_accult",
+            "items/comm_mgei",
+            "items/comm_via",
+            "items/comm_macvs",
+            "items/comm_fes",
+            "items/comm_parent_issues",
+            "items/comm_nsc",
+            "items/comm_plusd2",
+            "items/comm_bt",
+            "items/cbcl_18_alert",
+            "items/cbcl_91_alert",
+            "items/asr_18_alert",
+            "items/asr_91_alert",
+            "items/tbi_free_text_alert",
+            "items/med_hx_free_text_alert",
+            "items/p_parent_ra_notes_2_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/pnotes_inform_d2",
+                "isVis": "baseline_visits_num > '1'",
+                "valueRequired": true,
+                "variableName": "pnotes_inform_d2"
+            },
+            {
+                "isAbout": "items/pnotes_inform_warn",
+                "isVis": "pnotes_inform_d2 == '0'",
+                "valueRequired": true,
+                "variableName": "pnotes_inform_warn"
+            },
+            {
+                "isAbout": "items/parent_issues",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "parent_issues"
+            },
+            {
+                "isAbout": "items/p_asssessment_issues",
+                "isVis": "parent_issues == '1'",
+                "valueRequired": false,
+                "variableName": "p_asssessment_issues"
+            },
+            {
+                "isAbout": "items/parent_instructionsp",
+                "isVis": "parent_issues == '1'",
+                "valueRequired": false,
+                "variableName": "parent_instructionsp"
+            },
+            {
+                "isAbout": "items/comm_med_inv_plus",
+                "isVis": "p_asssessment_issues___1 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_med_inv_plus"
+            },
+            {
+                "isAbout": "items/comm_fha",
+                "isVis": "p_asssessment_issues___2 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_fha"
+            },
+            {
+                "isAbout": "items/comm_ksads",
+                "isVis": "p_asssessment_issues___3 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_ksads"
+            },
+            {
+                "isAbout": "items/comm_kbi",
+                "isVis": "p_asssessment_issues___4 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_kbi"
+            },
+            {
+                "isAbout": "items/comm_dem_na",
+                "isVis": "p_asssessment_issues___5 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_dem_na"
+            },
+            {
+                "isAbout": "items/comm_devhx",
+                "isVis": "p_asssessment_issues___6 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_devhx"
+            },
+            {
+                "isAbout": "items/comm_medhx",
+                "isVis": "p_asssessment_issues___7 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_medhx"
+            },
+            {
+                "isAbout": "items/comm_osts",
+                "isVis": "p_asssessment_issues___8 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_osts"
+            },
+            {
+                "isAbout": "items/comm_pds_mc",
+                "isVis": "p_asssessment_issues___9 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_pds_mc"
+            },
+            {
+                "isAbout": "items/comm_sds",
+                "isVis": "p_asssessment_issues___10 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_sds"
+            },
+            {
+                "isAbout": "items/comm_gbi",
+                "isVis": "p_asssessment_issues___11 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_gbi"
+            },
+            {
+                "isAbout": "items/comm_cbcl",
+                "isVis": "p_asssessment_issues___12 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_cbcl"
+            },
+            {
+                "isAbout": "items/comm_screentime",
+                "isVis": "p_asssessment_issues___13 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_screentime"
+            },
+            {
+                "isAbout": "items/comm_pst",
+                "isVis": "p_asssessment_issues___14 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_pst"
+            },
+            {
+                "isAbout": "items/comm_sports",
+                "isVis": "p_asssessment_issues___15 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_sports"
+            },
+            {
+                "isAbout": "items/comm_asr",
+                "isVis": "p_asssessment_issues___16 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_asr"
+            },
+            {
+                "isAbout": "items/comm_p_rules",
+                "isVis": "p_asssessment_issues___17 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_p_rules"
+            },
+            {
+                "isAbout": "items/comm_su_risk",
+                "isVis": "p_asssessment_issues___18 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_su_risk"
+            },
+            {
+                "isAbout": "items/comm_accult",
+                "isVis": "p_asssessment_issues___19 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_accult"
+            },
+            {
+                "isAbout": "items/comm_mgei",
+                "isVis": "p_asssessment_issues___20 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_mgei"
+            },
+            {
+                "isAbout": "items/comm_via",
+                "isVis": "p_asssessment_issues___21 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_via"
+            },
+            {
+                "isAbout": "items/comm_macvs",
+                "isVis": "p_asssessment_issues___22 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_macvs"
+            },
+            {
+                "isAbout": "items/comm_fes",
+                "isVis": "p_asssessment_issues___23 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_fes"
+            },
+            {
+                "isAbout": "items/comm_parent_issues",
+                "isVis": "p_asssessment_issues___27 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_parent_issues"
+            },
+            {
+                "isAbout": "items/comm_nsc",
+                "isVis": "p_asssessment_issues___24 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_nsc"
+            },
+            {
+                "isAbout": "items/comm_plusd2",
+                "isVis": "p_asssessment_issues___25 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_plusd2"
+            },
+            {
+                "isAbout": "items/comm_bt",
+                "isVis": "p_asssessment_issues___26 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_bt"
+            },
+            {
+                "isAbout": "items/cbcl_18_alert",
+                "isVis": "cbcl_q18_p == '1' || cbcl_q18_p == '2'",
+                "valueRequired": false,
+                "variableName": "cbcl_18_alert"
+            },
+            {
+                "isAbout": "items/cbcl_91_alert",
+                "isVis": "cbcl_q91_p == '1' || cbcl_q91_p == '2'",
+                "valueRequired": false,
+                "variableName": "cbcl_91_alert"
+            },
+            {
+                "isAbout": "items/asr_18_alert",
+                "isVis": "asr_q18_p == '1' || asr_q18_p == '2'",
+                "valueRequired": false,
+                "variableName": "asr_18_alert"
+            },
+            {
+                "isAbout": "items/asr_91_alert",
+                "isVis": "asr_q91_p == '1' || asr_q91_p == '2'",
+                "valueRequired": false,
+                "variableName": "asr_91_alert"
+            },
+            {
+                "isAbout": "items/tbi_free_text_alert",
+                "isVis": "(tbi_1a <> '')||(tbi_2a <> '')||(tbi_3a <> '')||(tbi_4a <> '')||(tbi_5a <> '')||(tbi_7b <> '')||(tbi_7h <> '')||(tbi_8h <> '')",
+                "valueRequired": false,
+                "variableName": "tbi_free_text_alert"
+            },
+            {
+                "isAbout": "items/med_hx_free_text_alert",
+                "isVis": "(medhx_2_notes2 <> '')||(medhx_2_notes <> '')||(medhx_6e_describe <> '')||(medhx_6t_describe <> '')||(medhx_8b_describe <> '')",
+                "valueRequired": false,
+                "variableName": "med_hx_free_text_alert"
+            },
+            {
+                "isAbout": "items/p_parent_ra_notes_2_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "p_parent_ra_notes_2_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

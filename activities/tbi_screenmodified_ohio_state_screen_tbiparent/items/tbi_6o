@@ -1,0 +1,57 @@
+{
+    "id": "tbi_6o",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "6"
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "6"
+        }
+    ],
+    "preamble": {
+        "en": "We want to know about injuries to your child's head or neck that he/she may have had anytime in his/her life.",
+        "es": "Queremos saber sobre lesiones a la cabeza o a el cuello que su ni\u00c3\u00b1o/a haya sufrido en cualquier momento de su vida."
+    },
+    "prefLabel": {
+        "en": "tbi_6o"
+    },
+    "question": {
+        "en": "Do you want to report any more injuries with LOC?",
+        "es": "\u00c2\u00bfQuisiera reportar otras lesiones que hayan resultado en la p\u00c3\u00a9rdida de conocimiento?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "Si"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

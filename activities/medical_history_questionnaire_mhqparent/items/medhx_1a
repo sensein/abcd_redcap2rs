@@ -1,0 +1,47 @@
+{
+    "id": "medhx_1a",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Now I'd like to ask you about your child's use of health services during the past year and throughout his/her whole life.",
+        "es": "Ahora nos gustar\u00c3\u00ada hacerle algunas preguntas sobre el uso que su ni\u00c3\u00b1o(a) ha hecho de los servicios de salud durante el \u00c3\u00baltimo a\u00c3\u00b1o y a lo largo de toda su vida."
+    },
+    "prefLabel": {
+        "en": "medhx_1a"
+    },
+    "question": {
+        "en": "During the past year, has your child been to see a doctor, nurse, nurse practitioner, dentist, or any other health professional like that, OTHER than for regular checkups?",
+        "es": "En el \u00c3\u00baltimo a\u00c3\u00b1o, \u00c2\u00bfsu ni\u00c3\u00b1o(a) ha visto a un m\u00c3\u00a9dico, enfermero(a), dentista o alg\u00c3\u00ban otro profesional similar de la salud, por alg\u00c3\u00ban motivo distinto a sus chequeos peri\u00c3\u00b3dicos?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u008d"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't know",
+                    "es": "No s\u00c3\u00a9"
+                },
+                "value": 6
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

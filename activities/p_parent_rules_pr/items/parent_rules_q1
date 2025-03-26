@@ -1,0 +1,80 @@
+{
+    "id": "parent_rules_q1",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "1"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "1"
+        }
+    ],
+    "preamble": {
+        "en": "The next questions are about your household rules about alcohol and drugs.",
+        "es": "Las siguientes preguntas son acerca de las reglas de su hogar con respecto al consumo de alcohol y drogas."
+    },
+    "prefLabel": {
+        "en": "parent_rules_q1"
+    },
+    "question": {
+        "en": "Which statement best describes the rules foryour child'sdrinking in your house?",
+        "es": "\u00c2\u00bfCu\u00c3\u00a1l de las siguientes afirmaciones describe mejor las reglas que debe seguirsu ni\u00c3\u00b1o(a)con respecto al consumo de alcohol en su casa?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "My child is not allowed to drink under any circumstances",
+                    "es": "Mi ni\u00c3\u00b1o(a) no tiene permitido beber bajo ninguna circunstancia"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "My child is allowed to drink at home but only on special occasions and under parent supervision",
+                    "es": "Mi ni\u00c3\u00b1o(a) tiene permitido beber en casa, pero s\u00c3\u00b3lo en ocasiones especiales y bajo la supervisi\u00c3\u00b3n de sus padres."
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "My child can have a drink when he/she asks for one",
+                    "es": "Mi ni\u00c3\u00b1o(a) puede tomar una copa cuando pide una"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "My child can drink at home whenever he/she wants to",
+                    "es": "Mi ni\u00c3\u00b1o(a) puede beber en casa cuando lo desee"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "I don't set rules about my child's drinking",
+                    "es": "No le pongo reglas a mi ni\u00c3\u00b1o(a) con respecto al consumo de alcohol"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "I haven't made rules yet about my child drinking",
+                    "es": "Todav\u00c3\u00ada no le he puesto reglas a mi ni\u00c3\u00b1o(a) con respecto al consumo de alcohol"
+                },
+                "value": 6
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

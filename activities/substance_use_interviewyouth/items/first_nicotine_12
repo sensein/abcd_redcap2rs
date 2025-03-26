@@ -1,0 +1,48 @@
+{
+    "id": "first_nicotine_12",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "9"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "9"
+        }
+    ],
+    "preamble": {
+        "en": "You mentioned earlier that you have tried a tobacco product in the past. I want to ask some more questions about that. Remember your responses are confidential - we will not share your answers with anyone.\n\nWhen answering these questions, pleasedo notinclude cigarettes or other tobacco products (e.g., hookah, e-cigarettes) you had as part of a religious ceremony.\n\nPleasedoinclude any other experiences you have had with cigarettes or tobacco including puffs or dips you may have had with your parents."
+    },
+    "prefLabel": {
+        "en": "first_nicotine_12"
+    },
+    "question": {
+        "en": "Did you continue to use the smokeless tobacco product and finish it, after the first dip?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

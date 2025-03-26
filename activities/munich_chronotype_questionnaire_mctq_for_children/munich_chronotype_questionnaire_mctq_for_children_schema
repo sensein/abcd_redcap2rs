@@ -1,0 +1,381 @@
+{
+    "id": "munich_chronotype_questionnaire_mctq_for_children_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "munich_chronotype_questionnaire_mctq_for_children"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/mctq_start_time",
+            "items/mctq_go_to_school",
+            "items/mctq_days_per_week",
+            "items/mctq_notes",
+            "items/mctq_sd_btime",
+            "items/mctq_sd_btime_hrs1",
+            "items/mctq_sd_btime_hrs2",
+            "items/mctq_sd_btime_min",
+            "items/mctq_sd_fall_asleep",
+            "items/mctq_sd_asleep_hrs1",
+            "items/mctq_sd_asleep_hrs2",
+            "items/mctq_sd_asleep_min",
+            "items/mctq_sd_min_to_sleep",
+            "items/mctq_sd_num_wake_up",
+            "items/mctq_sd_awakening_min",
+            "items/mctq_sd_wake_up_time",
+            "items/mctq_sd_wake_up_time_hrs1",
+            "items/mctq_sd_wake_up_time_hrs2",
+            "items/mctq_sd_wake_up_miin",
+            "items/mctq_sd_min_to_get_up",
+            "items/mctq_sd_alarm_clock",
+            "items/mctq_sd_before_alarm",
+            "items/mctq_fd_btime",
+            "items/mctq_fd_btime_hrs1",
+            "items/mctq_fd_btime_hrs2",
+            "items/mctq_fd_btime_min",
+            "items/mctq_fd_time_asleep",
+            "items/mctq_fd_asleep_hrs1",
+            "items/mctq_fd_asleep_hrs2",
+            "items/mctq_fd_asleep_min",
+            "items/mctq_fd_min_to_sleep",
+            "items/mctq_fd_num_wake_up",
+            "items/mctq_fd_awakening_min",
+            "items/mctq_fd_wake_up_time",
+            "items/mctq_fd_wake_up_hrs1",
+            "items/mctq_fd_wake_up_hrs2",
+            "items/mctq_fd_wake_up_min",
+            "items/mctq_fd_min_to_get_up",
+            "items/mctq_fd_alarm_parent",
+            "items/mctq_fd_reason_btime",
+            "items/mctq_fd_reason",
+            "items/mctq_fd_reason2",
+            "items/mctq_fd_other_reason",
+            "items/mctq_schedule_time",
+            "items/mctq_schedule_time_hrs1",
+            "items/mctq_schedule_time_hrs2",
+            "items/mctq_schedule_time_min",
+            "items/mctq_time_to_school",
+            "items/mctq_time_to_school_hrs1",
+            "items/mctq_time_to_school_hrs2",
+            "items/mctq_time_to_school_min",
+            "items/munich_chronotype_questionnaire_mctq_for_children_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/mctq_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mctq_start_time"
+            },
+            {
+                "isAbout": "items/mctq_go_to_school",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mctq_go_to_school"
+            },
+            {
+                "isAbout": "items/mctq_days_per_week",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mctq_days_per_week"
+            },
+            {
+                "isAbout": "items/mctq_notes",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mctq_notes"
+            },
+            {
+                "isAbout": "items/mctq_sd_btime",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mctq_sd_btime"
+            },
+            {
+                "isAbout": "items/mctq_sd_btime_hrs1",
+                "isVis": "mctq_sd_btime == '1' || mctq_sd_btime == '2'",
+                "valueRequired": true,
+                "variableName": "mctq_sd_btime_hrs1"
+            },
+            {
+                "isAbout": "items/mctq_sd_btime_hrs2",
+                "isVis": "mctq_sd_btime == '3' || mctq_sd_btime == '4'",
+                "valueRequired": true,
+                "variableName": "mctq_sd_btime_hrs2"
+            },
+            {
+                "isAbout": "items/mctq_sd_btime_min",
+                "isVis": "mctq_sd_btime == '1' || mctq_sd_btime == '2' || mctq_sd_btime == '3' || mctq_sd_btime == '4'",
+                "valueRequired": true,
+                "variableName": "mctq_sd_btime_min"
+            },
+            {
+                "isAbout": "items/mctq_sd_fall_asleep",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mctq_sd_fall_asleep"
+            },
+            {
+                "isAbout": "items/mctq_sd_asleep_hrs1",
+                "isVis": "mctq_sd_fall_asleep == '1' || mctq_sd_fall_asleep == '2'",
+                "valueRequired": true,
+                "variableName": "mctq_sd_asleep_hrs1"
+            },
+            {
+                "isAbout": "items/mctq_sd_asleep_hrs2",
+                "isVis": "mctq_sd_fall_asleep == '3' || mctq_sd_fall_asleep == '4'",
+                "valueRequired": true,
+                "variableName": "mctq_sd_asleep_hrs2"
+            },
+            {
+                "isAbout": "items/mctq_sd_asleep_min",
+                "isVis": "mctq_sd_fall_asleep == '1' || mctq_sd_fall_asleep == '2' || mctq_sd_fall_asleep == '3' || mctq_sd_fall_asleep == '4'",
+                "valueRequired": true,
+                "variableName": "mctq_sd_asleep_min"
+            },
+            {
+                "isAbout": "items/mctq_sd_min_to_sleep",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mctq_sd_min_to_sleep"
+            },
+            {
+                "isAbout": "items/mctq_sd_num_wake_up",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mctq_sd_num_wake_up"
+            },
+            {
+                "isAbout": "items/mctq_sd_awakening_min",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mctq_sd_awakening_min"
+            },
+            {
+                "isAbout": "items/mctq_sd_wake_up_time",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mctq_sd_wake_up_time"
+            },
+            {
+                "isAbout": "items/mctq_sd_wake_up_time_hrs1",
+                "isVis": "mctq_sd_wake_up_time == '1' || mctq_sd_wake_up_time == '2'",
+                "valueRequired": true,
+                "variableName": "mctq_sd_wake_up_time_hrs1"
+            },
+            {
+                "isAbout": "items/mctq_sd_wake_up_time_hrs2",
+                "isVis": "mctq_sd_wake_up_time == '3' || mctq_sd_wake_up_time == '4'",
+                "valueRequired": true,
+                "variableName": "mctq_sd_wake_up_time_hrs2"
+            },
+            {
+                "isAbout": "items/mctq_sd_wake_up_miin",
+                "isVis": "mctq_sd_wake_up_time == '1' || mctq_sd_wake_up_time == '2' || mctq_sd_wake_up_time == '3' || mctq_sd_wake_up_time == '4'",
+                "valueRequired": true,
+                "variableName": "mctq_sd_wake_up_miin"
+            },
+            {
+                "isAbout": "items/mctq_sd_min_to_get_up",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mctq_sd_min_to_get_up"
+            },
+            {
+                "isAbout": "items/mctq_sd_alarm_clock",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mctq_sd_alarm_clock"
+            },
+            {
+                "isAbout": "items/mctq_sd_before_alarm",
+                "isVis": "mctq_sd_alarm_clock == '1'",
+                "valueRequired": true,
+                "variableName": "mctq_sd_before_alarm"
+            },
+            {
+                "isAbout": "items/mctq_fd_btime",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mctq_fd_btime"
+            },
+            {
+                "isAbout": "items/mctq_fd_btime_hrs1",
+                "isVis": "mctq_fd_btime == '1' || mctq_fd_btime == '2'",
+                "valueRequired": true,
+                "variableName": "mctq_fd_btime_hrs1"
+            },
+            {
+                "isAbout": "items/mctq_fd_btime_hrs2",
+                "isVis": "mctq_fd_btime == '3' || mctq_fd_btime == '4'",
+                "valueRequired": true,
+                "variableName": "mctq_fd_btime_hrs2"
+            },
+            {
+                "isAbout": "items/mctq_fd_btime_min",
+                "isVis": "mctq_fd_btime == '1' || mctq_fd_btime == '2' || mctq_fd_btime == '3' || mctq_fd_btime == '4'",
+                "valueRequired": true,
+                "variableName": "mctq_fd_btime_min"
+            },
+            {
+                "isAbout": "items/mctq_fd_time_asleep",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mctq_fd_time_asleep"
+            },
+            {
+                "isAbout": "items/mctq_fd_asleep_hrs1",
+                "isVis": "mctq_fd_time_asleep == '1' || mctq_fd_time_asleep == '2'",
+                "valueRequired": true,
+                "variableName": "mctq_fd_asleep_hrs1"
+            },
+            {
+                "isAbout": "items/mctq_fd_asleep_hrs2",
+                "isVis": "mctq_fd_time_asleep == '3' || mctq_fd_time_asleep == '4'",
+                "valueRequired": true,
+                "variableName": "mctq_fd_asleep_hrs2"
+            },
+            {
+                "isAbout": "items/mctq_fd_asleep_min",
+                "isVis": "mctq_fd_time_asleep == '1' || mctq_fd_time_asleep == '2' || mctq_fd_time_asleep == '3' || mctq_fd_time_asleep == '4'",
+                "valueRequired": true,
+                "variableName": "mctq_fd_asleep_min"
+            },
+            {
+                "isAbout": "items/mctq_fd_min_to_sleep",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mctq_fd_min_to_sleep"
+            },
+            {
+                "isAbout": "items/mctq_fd_num_wake_up",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mctq_fd_num_wake_up"
+            },
+            {
+                "isAbout": "items/mctq_fd_awakening_min",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mctq_fd_awakening_min"
+            },
+            {
+                "isAbout": "items/mctq_fd_wake_up_time",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mctq_fd_wake_up_time"
+            },
+            {
+                "isAbout": "items/mctq_fd_wake_up_hrs1",
+                "isVis": "mctq_fd_wake_up_time == '1' || mctq_fd_wake_up_time == '2'",
+                "valueRequired": true,
+                "variableName": "mctq_fd_wake_up_hrs1"
+            },
+            {
+                "isAbout": "items/mctq_fd_wake_up_hrs2",
+                "isVis": "mctq_fd_wake_up_time == '3' || mctq_fd_wake_up_time == '4'",
+                "valueRequired": true,
+                "variableName": "mctq_fd_wake_up_hrs2"
+            },
+            {
+                "isAbout": "items/mctq_fd_wake_up_min",
+                "isVis": "mctq_fd_wake_up_time == '1' || mctq_fd_wake_up_time == '2' || mctq_fd_wake_up_time == '3' || mctq_fd_wake_up_time == '4'",
+                "valueRequired": true,
+                "variableName": "mctq_fd_wake_up_min"
+            },
+            {
+                "isAbout": "items/mctq_fd_min_to_get_up",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mctq_fd_min_to_get_up"
+            },
+            {
+                "isAbout": "items/mctq_fd_alarm_parent",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mctq_fd_alarm_parent"
+            },
+            {
+                "isAbout": "items/mctq_fd_reason_btime",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mctq_fd_reason_btime"
+            },
+            {
+                "isAbout": "items/mctq_fd_reason",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "mctq_fd_reason"
+            },
+            {
+                "isAbout": "items/mctq_fd_reason2",
+                "isVis": "mctq_fd_reason_btime == '0'",
+                "valueRequired": true,
+                "variableName": "mctq_fd_reason2"
+            },
+            {
+                "isAbout": "items/mctq_fd_other_reason",
+                "isVis": "mctq_fd_reason___5 == '1'",
+                "valueRequired": true,
+                "variableName": "mctq_fd_other_reason"
+            },
+            {
+                "isAbout": "items/mctq_schedule_time",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mctq_schedule_time"
+            },
+            {
+                "isAbout": "items/mctq_schedule_time_hrs1",
+                "isVis": "mctq_schedule_time == '1' || mctq_schedule_time== '2'",
+                "valueRequired": true,
+                "variableName": "mctq_schedule_time_hrs1"
+            },
+            {
+                "isAbout": "items/mctq_schedule_time_hrs2",
+                "isVis": "mctq_schedule_time == '3' || mctq_schedule_time== '4'",
+                "valueRequired": true,
+                "variableName": "mctq_schedule_time_hrs2"
+            },
+            {
+                "isAbout": "items/mctq_schedule_time_min",
+                "isVis": "mctq_schedule_time == '1' || mctq_schedule_time== '2' || mctq_schedule_time == '3' || mctq_schedule_time== '4'",
+                "valueRequired": true,
+                "variableName": "mctq_schedule_time_min"
+            },
+            {
+                "isAbout": "items/mctq_time_to_school",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mctq_time_to_school"
+            },
+            {
+                "isAbout": "items/mctq_time_to_school_hrs1",
+                "isVis": "mctq_time_to_school == '1' || mctq_time_to_school == '2'",
+                "valueRequired": true,
+                "variableName": "mctq_time_to_school_hrs1"
+            },
+            {
+                "isAbout": "items/mctq_time_to_school_hrs2",
+                "isVis": "mctq_time_to_school == '3' || mctq_time_to_school == '4'",
+                "valueRequired": true,
+                "variableName": "mctq_time_to_school_hrs2"
+            },
+            {
+                "isAbout": "items/mctq_time_to_school_min",
+                "isVis": "mctq_time_to_school == '1' || mctq_time_to_school == '2' || mctq_time_to_school == '3' || mctq_time_to_school == '4'",
+                "valueRequired": true,
+                "variableName": "mctq_time_to_school_min"
+            },
+            {
+                "isAbout": "items/munich_chronotype_questionnaire_mctq_for_children_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "munich_chronotype_questionnaire_mctq_for_children_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

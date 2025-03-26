@@ -1,0 +1,941 @@
+{
+    "id": "substudy_irma_child_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "substudy_irma_child"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/irma_substudy_irma_child_select_language",
+            "items/irma_gatea_c",
+            "items/irma_gateb_c",
+            "items/irma_substudy_irma_c2_select_language",
+            "items/irma_hurtec_bdesc1",
+            "items/irma_hurtec_b7",
+            "items/irma_hurtec_b7_oth",
+            "items/irma_hurtec_b8",
+            "items/irma_hurtec_bdesc2",
+            "items/irma_hurtec_b9",
+            "items/irma_hurtec_b10",
+            "items/irma_hurtec_b11",
+            "items/irma_hurtec_b12",
+            "items/irma_hurtec_b13",
+            "items/irma_hurtec_b14",
+            "items/irma_hurtec_b15",
+            "items/irma_hurtec_b16",
+            "items/irma_hurtec_b17",
+            "items/irma_hurtec_b18",
+            "items/irma_hurtec_b19",
+            "items/irma_hurtec_b20",
+            "items/irma_hurtec_b21",
+            "items/irma_substudy_irma_c3_select_language",
+            "items/irma_hurtec_ddesc1",
+            "items/irma_hurtec_d5",
+            "items/irma_hurtec_d11",
+            "items/irma_hurtec_d12",
+            "items/irma_hurtec_d13",
+            "items/irma_hurtec_d14",
+            "items/irma_hurtec_d15",
+            "items/irma_hurtec_d16",
+            "items/irma_hurtec_d17",
+            "items/irma_hurtec_d18",
+            "items/irma_hurtec_d19",
+            "items/irma_hurtec_d20",
+            "items/irma_substudy_irma_c4_select_language",
+            "items/irma_hurtec_adesc1",
+            "items/irma_hurtec_a15",
+            "items/irma_hurtec_a16",
+            "items/irma_hurtec_a17",
+            "items/irma_hurtec_a18",
+            "items/irma_hurtec_a19",
+            "items/irma_hurtec_a20",
+            "items/irma_hurtec_a21",
+            "items/irma_hurtec_a21a",
+            "items/irma_hurtec_a21b",
+            "items/irma_hurtec_a21c",
+            "items/irma_hurtec_a21d",
+            "items/irma_hurtec_a21e",
+            "items/irma_substudy_irma_c5_select_language",
+            "items/irma_hurtec_cdesc1",
+            "items/irma_hurtec_c1",
+            "items/irma_hurtec_c2",
+            "items/irma_hurtec_c3",
+            "items/irma_hurtec_c4",
+            "items/irma_substudy_irma_c6_select_language",
+            "items/irma_meqc_desc1",
+            "items/irma_meqc_desc2",
+            "items/irma_meqc_1",
+            "items/irma_meqc_2",
+            "items/irma_meqc_3",
+            "items/irma_meqc_4",
+            "items/irma_meqc_5",
+            "items/irma_meqc_desc3",
+            "items/irma_meqc_6",
+            "items/irma_meqc_7",
+            "items/irma_meqc_8",
+            "items/irma_meqc_9",
+            "items/irma_meqc_10",
+            "items/irma_meqc_desc4",
+            "items/irma_meqc_11",
+            "items/irma_meqc_12",
+            "items/irma_meqc_13",
+            "items/irma_meqc_14",
+            "items/irma_meqc_15",
+            "items/irma_meqc_16",
+            "items/irma_meqc_16_oth",
+            "items/irma_meqc_17",
+            "items/irma_meqc_17_oth",
+            "items/irma_substudy_irma_c7_select_language",
+            "items/irma_dsm5_desc",
+            "items/irma_dsm5_1",
+            "items/irma_dsm5_2",
+            "items/irma_dsm5_3",
+            "items/irma_dsm5_4",
+            "items/irma_dsm5_5",
+            "items/irma_dsm5_6",
+            "items/irma_dsm5_7",
+            "items/irma_dsm5_8",
+            "items/irma_dsm5_9",
+            "items/irma_dsm5_10",
+            "items/irma_dsm5_11",
+            "items/irma_dsm5_12",
+            "items/irma_dsm5_13",
+            "items/irma_dsm5_14",
+            "items/irma_dsm5_15",
+            "items/irma_dsm5_16",
+            "items/irma_dsm5_17",
+            "items/irma_dsm5_18",
+            "items/irma_dsm5_19",
+            "items/irma_dsm5_20",
+            "items/irma_dsm5_21",
+            "items/irma_dsm5_22",
+            "items/irma_dsm5_23",
+            "items/irma_dsm5_24",
+            "items/irma_dsm5_25",
+            "items/irma_dsm5_26",
+            "items/irma_dsm5_27",
+            "items/irma_dsm5_28",
+            "items/irma_dsm5_29",
+            "items/irma_dsm5_30",
+            "items/irma_dsm5_31",
+            "items/irma_dsm5_cs1",
+            "items/irma_dsm5_cs2",
+            "items/irma_dsm5_cs3",
+            "items/irma_dsm5_cs4",
+            "items/irma_dsm5_cs5",
+            "items/irma_dsm5_cs6",
+            "items/irma_dsm5_cs7",
+            "items/irma_dsm5_cs8",
+            "items/irma_substudy_irma_c8_select_language",
+            "items/irma_pssc_1",
+            "items/irma_pssc_2",
+            "items/irma_pssc_3",
+            "items/irma_pssc_4",
+            "items/irma_pssc_5",
+            "items/irma_pssc_6",
+            "items/irma_pssc_7",
+            "items/irma_pssc_8",
+            "items/irma_pssc_9",
+            "items/irma_pssc_10",
+            "items/substudy_irma_child_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/irma_substudy_irma_child_select_language",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "irma_substudy_irma_child_select_language"
+            },
+            {
+                "isAbout": "items/irma_gatea_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_gatea_c"
+            },
+            {
+                "isAbout": "items/irma_gateb_c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_gateb_c"
+            },
+            {
+                "isAbout": "items/irma_substudy_irma_c2_select_language",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "irma_substudy_irma_c2_select_language"
+            },
+            {
+                "isAbout": "items/irma_hurtec_bdesc1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "irma_hurtec_bdesc1"
+            },
+            {
+                "isAbout": "items/irma_hurtec_b7",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_hurtec_b7"
+            },
+            {
+                "isAbout": "items/irma_hurtec_b7_oth",
+                "isVis": "irma_hurtec_b7___5 == '1'",
+                "valueRequired": true,
+                "variableName": "irma_hurtec_b7_oth"
+            },
+            {
+                "isAbout": "items/irma_hurtec_b8",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_hurtec_b8"
+            },
+            {
+                "isAbout": "items/irma_hurtec_bdesc2",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "irma_hurtec_bdesc2"
+            },
+            {
+                "isAbout": "items/irma_hurtec_b9",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_hurtec_b9"
+            },
+            {
+                "isAbout": "items/irma_hurtec_b10",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_hurtec_b10"
+            },
+            {
+                "isAbout": "items/irma_hurtec_b11",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_hurtec_b11"
+            },
+            {
+                "isAbout": "items/irma_hurtec_b12",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_hurtec_b12"
+            },
+            {
+                "isAbout": "items/irma_hurtec_b13",
+                "isVis": "irma_gatea_c == '1' || irma_gateb_c == '1'",
+                "valueRequired": true,
+                "variableName": "irma_hurtec_b13"
+            },
+            {
+                "isAbout": "items/irma_hurtec_b14",
+                "isVis": "irma_gatea_c == '1' || irma_gateb_c == '1'",
+                "valueRequired": true,
+                "variableName": "irma_hurtec_b14"
+            },
+            {
+                "isAbout": "items/irma_hurtec_b15",
+                "isVis": "irma_gatea_c == '1' || irma_gateb_c == '1'",
+                "valueRequired": true,
+                "variableName": "irma_hurtec_b15"
+            },
+            {
+                "isAbout": "items/irma_hurtec_b16",
+                "isVis": "irma_gatea_c == '1' || irma_gateb_c == '1'",
+                "valueRequired": true,
+                "variableName": "irma_hurtec_b16"
+            },
+            {
+                "isAbout": "items/irma_hurtec_b17",
+                "isVis": "irma_gatea_c == '1' || irma_gateb_c == '1'",
+                "valueRequired": true,
+                "variableName": "irma_hurtec_b17"
+            },
+            {
+                "isAbout": "items/irma_hurtec_b18",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_hurtec_b18"
+            },
+            {
+                "isAbout": "items/irma_hurtec_b19",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_hurtec_b19"
+            },
+            {
+                "isAbout": "items/irma_hurtec_b20",
+                "isVis": "irma_gatea_c == '1' || irma_gateb_c == '1'",
+                "valueRequired": false,
+                "variableName": "irma_hurtec_b20"
+            },
+            {
+                "isAbout": "items/irma_hurtec_b21",
+                "isVis": "irma_gatea_c == '1' || irma_gateb_c == '1'",
+                "valueRequired": false,
+                "variableName": "irma_hurtec_b21"
+            },
+            {
+                "isAbout": "items/irma_substudy_irma_c3_select_language",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "irma_substudy_irma_c3_select_language"
+            },
+            {
+                "isAbout": "items/irma_hurtec_ddesc1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "irma_hurtec_ddesc1"
+            },
+            {
+                "isAbout": "items/irma_hurtec_d5",
+                "isVis": "irma_gatea_c == '1' || irma_gateb_c == '1'",
+                "valueRequired": true,
+                "variableName": "irma_hurtec_d5"
+            },
+            {
+                "isAbout": "items/irma_hurtec_d11",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_hurtec_d11"
+            },
+            {
+                "isAbout": "items/irma_hurtec_d12",
+                "isVis": "irma_gatea_c == '1' || irma_gateb_c == '1'",
+                "valueRequired": true,
+                "variableName": "irma_hurtec_d12"
+            },
+            {
+                "isAbout": "items/irma_hurtec_d13",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_hurtec_d13"
+            },
+            {
+                "isAbout": "items/irma_hurtec_d14",
+                "isVis": "irma_gatea_c == '1' || irma_gateb_c == '1'",
+                "valueRequired": true,
+                "variableName": "irma_hurtec_d14"
+            },
+            {
+                "isAbout": "items/irma_hurtec_d15",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_hurtec_d15"
+            },
+            {
+                "isAbout": "items/irma_hurtec_d16",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_hurtec_d16"
+            },
+            {
+                "isAbout": "items/irma_hurtec_d17",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_hurtec_d17"
+            },
+            {
+                "isAbout": "items/irma_hurtec_d18",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_hurtec_d18"
+            },
+            {
+                "isAbout": "items/irma_hurtec_d19",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_hurtec_d19"
+            },
+            {
+                "isAbout": "items/irma_hurtec_d20",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_hurtec_d20"
+            },
+            {
+                "isAbout": "items/irma_substudy_irma_c4_select_language",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "irma_substudy_irma_c4_select_language"
+            },
+            {
+                "isAbout": "items/irma_hurtec_adesc1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "irma_hurtec_adesc1"
+            },
+            {
+                "isAbout": "items/irma_hurtec_a15",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_hurtec_a15"
+            },
+            {
+                "isAbout": "items/irma_hurtec_a16",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_hurtec_a16"
+            },
+            {
+                "isAbout": "items/irma_hurtec_a17",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_hurtec_a17"
+            },
+            {
+                "isAbout": "items/irma_hurtec_a18",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_hurtec_a18"
+            },
+            {
+                "isAbout": "items/irma_hurtec_a19",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_hurtec_a19"
+            },
+            {
+                "isAbout": "items/irma_hurtec_a20",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_hurtec_a20"
+            },
+            {
+                "isAbout": "items/irma_hurtec_a21",
+                "isVis": "irma_gatea_c == '1' || irma_gateb_c == '1'",
+                "valueRequired": false,
+                "variableName": "irma_hurtec_a21"
+            },
+            {
+                "isAbout": "items/irma_hurtec_a21a",
+                "isVis": "irma_gatea_c == '1' || irma_gateb_c == '1'",
+                "valueRequired": true,
+                "variableName": "irma_hurtec_a21a"
+            },
+            {
+                "isAbout": "items/irma_hurtec_a21b",
+                "isVis": "irma_gatea_c == '1' || irma_gateb_c == '1'",
+                "valueRequired": true,
+                "variableName": "irma_hurtec_a21b"
+            },
+            {
+                "isAbout": "items/irma_hurtec_a21c",
+                "isVis": "irma_gatea_c == '1' || irma_gateb_c == '1'",
+                "valueRequired": true,
+                "variableName": "irma_hurtec_a21c"
+            },
+            {
+                "isAbout": "items/irma_hurtec_a21d",
+                "isVis": "irma_gatea_c == '1' || irma_gateb_c == '1'",
+                "valueRequired": true,
+                "variableName": "irma_hurtec_a21d"
+            },
+            {
+                "isAbout": "items/irma_hurtec_a21e",
+                "isVis": "irma_gatea_c == '1' || irma_gateb_c == '1'",
+                "valueRequired": true,
+                "variableName": "irma_hurtec_a21e"
+            },
+            {
+                "isAbout": "items/irma_substudy_irma_c5_select_language",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "irma_substudy_irma_c5_select_language"
+            },
+            {
+                "isAbout": "items/irma_hurtec_cdesc1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "irma_hurtec_cdesc1"
+            },
+            {
+                "isAbout": "items/irma_hurtec_c1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_hurtec_c1"
+            },
+            {
+                "isAbout": "items/irma_hurtec_c2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_hurtec_c2"
+            },
+            {
+                "isAbout": "items/irma_hurtec_c3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_hurtec_c3"
+            },
+            {
+                "isAbout": "items/irma_hurtec_c4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_hurtec_c4"
+            },
+            {
+                "isAbout": "items/irma_substudy_irma_c6_select_language",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "irma_substudy_irma_c6_select_language"
+            },
+            {
+                "isAbout": "items/irma_meqc_desc1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "irma_meqc_desc1"
+            },
+            {
+                "isAbout": "items/irma_meqc_desc2",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "irma_meqc_desc2"
+            },
+            {
+                "isAbout": "items/irma_meqc_1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_meqc_1"
+            },
+            {
+                "isAbout": "items/irma_meqc_2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_meqc_2"
+            },
+            {
+                "isAbout": "items/irma_meqc_3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_meqc_3"
+            },
+            {
+                "isAbout": "items/irma_meqc_4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_meqc_4"
+            },
+            {
+                "isAbout": "items/irma_meqc_5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_meqc_5"
+            },
+            {
+                "isAbout": "items/irma_meqc_desc3",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "irma_meqc_desc3"
+            },
+            {
+                "isAbout": "items/irma_meqc_6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_meqc_6"
+            },
+            {
+                "isAbout": "items/irma_meqc_7",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_meqc_7"
+            },
+            {
+                "isAbout": "items/irma_meqc_8",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_meqc_8"
+            },
+            {
+                "isAbout": "items/irma_meqc_9",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_meqc_9"
+            },
+            {
+                "isAbout": "items/irma_meqc_10",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_meqc_10"
+            },
+            {
+                "isAbout": "items/irma_meqc_desc4",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "irma_meqc_desc4"
+            },
+            {
+                "isAbout": "items/irma_meqc_11",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_meqc_11"
+            },
+            {
+                "isAbout": "items/irma_meqc_12",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_meqc_12"
+            },
+            {
+                "isAbout": "items/irma_meqc_13",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_meqc_13"
+            },
+            {
+                "isAbout": "items/irma_meqc_14",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_meqc_14"
+            },
+            {
+                "isAbout": "items/irma_meqc_15",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_meqc_15"
+            },
+            {
+                "isAbout": "items/irma_meqc_16",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_meqc_16"
+            },
+            {
+                "isAbout": "items/irma_meqc_16_oth",
+                "isVis": "irma_meqc_16 == '6'",
+                "valueRequired": true,
+                "variableName": "irma_meqc_16_oth"
+            },
+            {
+                "isAbout": "items/irma_meqc_17",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_meqc_17"
+            },
+            {
+                "isAbout": "items/irma_meqc_17_oth",
+                "isVis": "irma_meqc_17 == '6'",
+                "valueRequired": true,
+                "variableName": "irma_meqc_17_oth"
+            },
+            {
+                "isAbout": "items/irma_substudy_irma_c7_select_language",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "irma_substudy_irma_c7_select_language"
+            },
+            {
+                "isAbout": "items/irma_dsm5_desc",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "irma_dsm5_desc"
+            },
+            {
+                "isAbout": "items/irma_dsm5_1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_dsm5_1"
+            },
+            {
+                "isAbout": "items/irma_dsm5_2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_dsm5_2"
+            },
+            {
+                "isAbout": "items/irma_dsm5_3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_dsm5_3"
+            },
+            {
+                "isAbout": "items/irma_dsm5_4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_dsm5_4"
+            },
+            {
+                "isAbout": "items/irma_dsm5_5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_dsm5_5"
+            },
+            {
+                "isAbout": "items/irma_dsm5_6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_dsm5_6"
+            },
+            {
+                "isAbout": "items/irma_dsm5_7",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_dsm5_7"
+            },
+            {
+                "isAbout": "items/irma_dsm5_8",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_dsm5_8"
+            },
+            {
+                "isAbout": "items/irma_dsm5_9",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_dsm5_9"
+            },
+            {
+                "isAbout": "items/irma_dsm5_10",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_dsm5_10"
+            },
+            {
+                "isAbout": "items/irma_dsm5_11",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_dsm5_11"
+            },
+            {
+                "isAbout": "items/irma_dsm5_12",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_dsm5_12"
+            },
+            {
+                "isAbout": "items/irma_dsm5_13",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_dsm5_13"
+            },
+            {
+                "isAbout": "items/irma_dsm5_14",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_dsm5_14"
+            },
+            {
+                "isAbout": "items/irma_dsm5_15",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_dsm5_15"
+            },
+            {
+                "isAbout": "items/irma_dsm5_16",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_dsm5_16"
+            },
+            {
+                "isAbout": "items/irma_dsm5_17",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_dsm5_17"
+            },
+            {
+                "isAbout": "items/irma_dsm5_18",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_dsm5_18"
+            },
+            {
+                "isAbout": "items/irma_dsm5_19",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_dsm5_19"
+            },
+            {
+                "isAbout": "items/irma_dsm5_20",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_dsm5_20"
+            },
+            {
+                "isAbout": "items/irma_dsm5_21",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_dsm5_21"
+            },
+            {
+                "isAbout": "items/irma_dsm5_22",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_dsm5_22"
+            },
+            {
+                "isAbout": "items/irma_dsm5_23",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_dsm5_23"
+            },
+            {
+                "isAbout": "items/irma_dsm5_24",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_dsm5_24"
+            },
+            {
+                "isAbout": "items/irma_dsm5_25",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_dsm5_25"
+            },
+            {
+                "isAbout": "items/irma_dsm5_26",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_dsm5_26"
+            },
+            {
+                "isAbout": "items/irma_dsm5_27",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_dsm5_27"
+            },
+            {
+                "isAbout": "items/irma_dsm5_28",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_dsm5_28"
+            },
+            {
+                "isAbout": "items/irma_dsm5_29",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_dsm5_29"
+            },
+            {
+                "isAbout": "items/irma_dsm5_30",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_dsm5_30"
+            },
+            {
+                "isAbout": "items/irma_dsm5_31",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_dsm5_31"
+            },
+            {
+                "isAbout": "items/irma_dsm5_cs1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_dsm5_cs1"
+            },
+            {
+                "isAbout": "items/irma_dsm5_cs2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_dsm5_cs2"
+            },
+            {
+                "isAbout": "items/irma_dsm5_cs3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_dsm5_cs3"
+            },
+            {
+                "isAbout": "items/irma_dsm5_cs4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_dsm5_cs4"
+            },
+            {
+                "isAbout": "items/irma_dsm5_cs5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_dsm5_cs5"
+            },
+            {
+                "isAbout": "items/irma_dsm5_cs6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_dsm5_cs6"
+            },
+            {
+                "isAbout": "items/irma_dsm5_cs7",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_dsm5_cs7"
+            },
+            {
+                "isAbout": "items/irma_dsm5_cs8",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_dsm5_cs8"
+            },
+            {
+                "isAbout": "items/irma_substudy_irma_c8_select_language",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "irma_substudy_irma_c8_select_language"
+            },
+            {
+                "isAbout": "items/irma_pssc_1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_pssc_1"
+            },
+            {
+                "isAbout": "items/irma_pssc_2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_pssc_2"
+            },
+            {
+                "isAbout": "items/irma_pssc_3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_pssc_3"
+            },
+            {
+                "isAbout": "items/irma_pssc_4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_pssc_4"
+            },
+            {
+                "isAbout": "items/irma_pssc_5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_pssc_5"
+            },
+            {
+                "isAbout": "items/irma_pssc_6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_pssc_6"
+            },
+            {
+                "isAbout": "items/irma_pssc_7",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_pssc_7"
+            },
+            {
+                "isAbout": "items/irma_pssc_8",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_pssc_8"
+            },
+            {
+                "isAbout": "items/irma_pssc_9",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_pssc_9"
+            },
+            {
+                "isAbout": "items/irma_pssc_10",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "irma_pssc_10"
+            },
+            {
+                "isAbout": "items/substudy_irma_child_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "substudy_irma_child_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

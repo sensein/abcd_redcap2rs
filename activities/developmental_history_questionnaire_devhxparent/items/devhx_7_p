@@ -1,0 +1,48 @@
+{
+    "id": "devhx_7_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "<span lang=\"en\">weeks;</span><span lang=\"es\" style=\"color:maroon;\">semanas;</span><span lang=\"en\">If you don't know, please choose \"don't know\" in what follows below</span><span lang=\"es\" style=\"color:maroon;\">   Si no sabe, por favor escoja \"no se\" en lo que sigue abajo.</span>"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        },
+        {
+            "column": "Text Validation Min",
+            "source": "redcap",
+            "value": "1"
+        },
+        {
+            "column": "Text Validation Max",
+            "source": "redcap",
+            "value": "40.0"
+        }
+    ],
+    "preamble": {
+        "en": "We are now going to ask some questions about the birth and early development of the child who is participating in this study.",
+        "es": "Ahora le vamos a hacer algunas preguntas sobre el nacimiento y la etapa temprana de desarrollo del ni\u00c3\u00b1o(a) quien est\u00c3\u00a1 participando en este estudio."
+    },
+    "prefLabel": {
+        "en": "devhx_7_p"
+    },
+    "question": {
+        "en": "How far along (in weeks) were you with your child when you found out that you were pregnant?",
+        "es": "\u00c2\u00bfQu\u00c3\u00a9 tan avanzada (en semanas) estaba usted con su hijo(a) cuando se enter\u00c3\u00b3 de que estaba embarazada?"
+    },
+    "responseOptions": {
+        "maxValue": 40,
+        "minValue": 1,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

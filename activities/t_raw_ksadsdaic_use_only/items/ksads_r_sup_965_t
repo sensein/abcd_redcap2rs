@@ -1,0 +1,59 @@
+{
+    "id": "ksads_r_sup_965_t",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "ksads_r_sup_965_t"
+    },
+    "question": {
+        "en": "How many times per week do you kick or punch people or things when you are upset?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Zero"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "One"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Two"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Three"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Four or more"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

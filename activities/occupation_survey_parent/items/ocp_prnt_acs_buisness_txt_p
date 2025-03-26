@@ -1,0 +1,31 @@
+{
+    "id": "ocp_prnt_acs_buisness_txt_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "Do NOT enter any PII."
+        }
+    ],
+    "preamble": {
+        "en": "\u00e2\u0080\u00a2 If you had no job or business last week, give information for your last job or business.",
+        "es": "\u00e2\u0080\u00a2 Si no tuvo trabajo o negocio la semana pasada, provea informaci\u00c3\u00b3n acerca de su \u00c3\u00baltimo trabajo o negocio."
+    },
+    "prefLabel": {
+        "en": "ocp_prnt_acs_buisness_txt_p"
+    },
+    "question": {
+        "en": "What kind of business or industry is this?",
+        "es": "\u00c2\u00bfQu\u00c3\u00a9 tipo de negocio o industria es?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

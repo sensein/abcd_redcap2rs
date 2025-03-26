@@ -1,0 +1,55 @@
+{
+    "id": "ocp_prnt_acs_job_cat_15_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "\u00e2\u0080\u00a2 If you had no job or business last week, give information for your last job or business.",
+        "es": "\u00e2\u0080\u00a2 Si no tuvo trabajo o negocio la semana pasada, provea informaci\u00c3\u00b3n acerca de su \u00c3\u00baltimo trabajo o negocio."
+    },
+    "prefLabel": {
+        "en": "ocp_prnt_acs_job_cat_15_p"
+    },
+    "question": {
+        "en": "Please specify the Sales and Related Occupations Job Title:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Supervisors of Sales Workers"
+                },
+                "value": 41100
+            },
+            {
+                "name": {
+                    "en": "Retail Sales Workers"
+                },
+                "value": 41200
+            },
+            {
+                "name": {
+                    "en": "Sales Representatives, Services"
+                },
+                "value": 41300
+            },
+            {
+                "name": {
+                    "en": "Sales Representatives, Wholesale and Manufacturing"
+                },
+                "value": 41400
+            },
+            {
+                "name": {
+                    "en": "Other Sales and Related Workers ("
+                },
+                "value": 41900
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

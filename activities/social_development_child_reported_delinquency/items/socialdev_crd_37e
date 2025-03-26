@@ -1,0 +1,45 @@
+{
+    "id": "socialdev_crd_37e",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "socialdev_crd_37e"
+    },
+    "question": {
+        "en": "How long were you away?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Less than 2 hours"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "2 hours to all day"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Overnight"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "More than 1 night"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

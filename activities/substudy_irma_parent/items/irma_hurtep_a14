@@ -1,0 +1,47 @@
+{
+    "id": "irma_hurtep_a14",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "hurtep_a2"
+        }
+    ],
+    "preamble": {
+        "en": "The following questions are about you and your family's experiences in the days AFTERHurricane Irma(September 2017).",
+        "es": "Las siguientes preguntas son sobre usted y las experiencias de su familia DESPU\u00c3\u0089Sdel hurac\u00c3\u00a1n Irma(Septiembre 2017)."
+    },
+    "prefLabel": {
+        "en": "irma_hurtep_a14"
+    },
+    "question": {
+        "en": "Has there been lots of damage in your neighborhood, such as large unearthed trees or badly damaged homes?",
+        "es": "\u00c2\u00bfHubo mucho da\u00c3\u00b1o en su vecindario, como grandes \u00c3\u00a1rboles sin segar o casas gravemente da\u00c3\u00b1adas?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "Si"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

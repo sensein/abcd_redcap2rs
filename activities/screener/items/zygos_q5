@@ -1,0 +1,40 @@
+{
+    "id": "zygos_q5",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "zygos_q5"
+    },
+    "question": {
+        "en": "\"Based on their  appearance now, how often do people have trouble telling them apart?  Would you say never, sometimes, or always?\"",
+        "es": "\"Con base en la apariencia actual de los ni\u00c3\u00b1os, \u00c2\u00bfcon qu\u00c3\u00a9 frecuencia tiene problemas la gente para distinguirlos? \u00c2\u00bfDir\u00c3\u00ada que nunca, a veces o siempre?\""
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Always"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

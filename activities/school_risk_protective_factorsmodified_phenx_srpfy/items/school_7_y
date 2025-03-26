@@ -1,0 +1,55 @@
+{
+    "id": "school_7_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "school_1_y"
+        }
+    ],
+    "preamble": {
+        "en": "Mark (the BIG) YES! if you think the statement isdefinitely truefor you.\nMark (the little) yes if you think the statement ismostly truefor you.\nMark (the little) no if you think the statement ismostly not truefor you.\nMark (the BIG) NO! if you think the statement isdefinitely not truefor you."
+    },
+    "prefLabel": {
+        "en": "school_7_y"
+    },
+    "question": {
+        "en": "The school lets my parents know when I have done something well."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "NO!"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "no"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "yes"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "YES!"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,39 @@
+{
+    "id": "tlfb_mj_conc_date1_l",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "date_mdy"
+        },
+        {
+            "column": "Text Validation Min",
+            "source": "redcap",
+            "value": "2005-01-01"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDEBUTTON"
+        }
+    ],
+    "preamble": {
+        "en": "B. \"Now I'm going to ask if you tried these drugs for thefirst timeduring the period since we last saw you on  [asnt_timestamp_c]. Was this thefirst timeyou tried _____?\"\n\nC. Date of First Use?IF YES,  ASK:\"What was the date of thefirst timeyou tried______?\"Interviewer: Estimate first use date using mm/dd/yyyy. If the day is unknown, assume the 15th of the given month.D. Age of First Use Onset (calculated in years based on [current date]-[date of first use])."
+    },
+    "prefLabel": {
+        "en": "tlfb_mj_conc_date1_l"
+    },
+    "question": {
+        "en": "When did you first try MARIJUANA OILS OR CONCENTRATES, such as 710; hash oil; BHO/butane hash oil/dabs/shatter/budder/honey oil; Co2 oil/vaporizer pen; Rick Simpson Oil/RSO/phoenix tears)?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "date"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,27 @@
+{
+    "id": "nihtbx_picvocab_computedscore",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY HIDEFROMCOMPLETION"
+        }
+    ],
+    "prefLabel": {
+        "en": "nihtbx_picvocab_computedscore"
+    },
+    "question": {
+        "en": "NIH Toolbox Picture Vocabulary Test Age 3+ v2.0 Computed Score"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

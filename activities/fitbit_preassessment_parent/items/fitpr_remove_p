@@ -1,0 +1,69 @@
+{
+    "id": "fitpr_remove_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20181006"
+        }
+    ],
+    "preamble": {
+        "en": "Another question for you:",
+        "es": "Otra pregunta para usted:"
+    },
+    "prefLabel": {
+        "en": "fitpr_remove_p"
+    },
+    "question": {
+        "en": "When did s/he take it off (during what activities)?",
+        "es": "\u00c2\u00bfCu\u00c3\u00a1ndo se lo quitaba (durante qu\u00c3\u00a9 actividades)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Shower/Bath",
+                    "es": "Para ducharse/ba\u00c3\u00b1arse"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Sports",
+                    "es": "Deportes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Swimming",
+                    "es": "Nadar"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Sleep",
+                    "es": "Dormir"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Other",
+                    "es": "Otro"
+                },
+                "value": 5
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

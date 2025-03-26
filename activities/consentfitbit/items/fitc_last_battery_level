@@ -1,0 +1,62 @@
+{
+    "id": "fitc_last_battery_level",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Syncing and Automated Alerts History"
+    },
+    "prefLabel": {
+        "en": "fitc_last_battery_level"
+    },
+    "question": {
+        "en": "Battery charge level during last sync"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No data available"
+                },
+                "value": "NONE"
+            },
+            {
+                "name": {
+                    "en": "Less than 10%"
+                },
+                "value": "EMPTY"
+            },
+            {
+                "name": {
+                    "en": "10% to 25%"
+                },
+                "value": "LOW"
+            },
+            {
+                "name": {
+                    "en": "25% to 75%"
+                },
+                "value": "MEDIUM"
+            },
+            {
+                "name": {
+                    "en": "75% and higher"
+                },
+                "value": "HIGH"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

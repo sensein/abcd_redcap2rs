@@ -1,0 +1,94 @@
+{
+    "id": "y_ce_module_comments_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "y_ce_module_comments"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/c_e_issues",
+            "items/c_e_assessments",
+            "items/c_e_instructions",
+            "items/comm_pst_y",
+            "items/comm_acc_y",
+            "items/comm_pmq_y",
+            "items/comm_crpb_y",
+            "items/comm_fes_y",
+            "items/comm_nsc_y",
+            "items/comm_srpf_y",
+            "items/y_ce_module_comments_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/c_e_issues",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "c_e_issues"
+            },
+            {
+                "isAbout": "items/c_e_assessments",
+                "isVis": "c_e_issues == '1'",
+                "valueRequired": false,
+                "variableName": "c_e_assessments"
+            },
+            {
+                "isAbout": "items/c_e_instructions",
+                "isVis": "c_e_assessments___1 == '1' || c_e_assessments___2 == '1' || c_e_assessments___3 == '1' || c_e_assessments___4 == '1' || c_e_assessments___5 == '1' || c_e_assessments___6 == '1' || c_e_assessments___7 == '1'",
+                "valueRequired": false,
+                "variableName": "c_e_instructions"
+            },
+            {
+                "isAbout": "items/comm_pst_y",
+                "isVis": "c_e_assessments___1 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_pst_y"
+            },
+            {
+                "isAbout": "items/comm_acc_y",
+                "isVis": "c_e_assessments___2 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_acc_y"
+            },
+            {
+                "isAbout": "items/comm_pmq_y",
+                "isVis": "c_e_assessments___3 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_pmq_y"
+            },
+            {
+                "isAbout": "items/comm_crpb_y",
+                "isVis": "c_e_assessments___4 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_crpb_y"
+            },
+            {
+                "isAbout": "items/comm_fes_y",
+                "isVis": "c_e_assessments___5 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_fes_y"
+            },
+            {
+                "isAbout": "items/comm_nsc_y",
+                "isVis": "c_e_assessments___6 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_nsc_y"
+            },
+            {
+                "isAbout": "items/comm_srpf_y",
+                "isVis": "c_e_assessments___7 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_srpf_y"
+            },
+            {
+                "isAbout": "items/y_ce_module_comments_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "y_ce_module_comments_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

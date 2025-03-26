@@ -1,0 +1,43 @@
+{
+    "id": "scrn_hr_som",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "scrn_hr_som"
+    },
+    "question": {
+        "en": "\"Experiences physical problems that are without known medical cause; such as aches or pains, feeling sick, headaches, stomachaches, rashes, or vomiting?\"",
+        "es": "\"\u00c2\u00bfTiene problemas f\u00c3\u00adsicos sin causa m\u00c3\u00a9dica conocida, como achaques o dolores, n\u00c3\u00a1useas, dolores de cabeza, dolores de est\u00c3\u00b3mago, sarpullidos o v\u00c3\u00b3mitos?\""
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "very true or often true",
+                    "es": "Muy cierto o frecuentemente cierto"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "somewhat or sometimes true",
+                    "es": "algo cierto o a veces cierto"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "not true",
+                    "es": "falso"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

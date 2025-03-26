@@ -1,0 +1,61 @@
+{
+    "id": "irma_hurtep_c4",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "hurtep_c1"
+        }
+    ],
+    "preamble": {
+        "en": "Current Functioning",
+        "es": "Funcionamiento actual"
+    },
+    "prefLabel": {
+        "en": "irma_hurtep_c4"
+    },
+    "question": {
+        "en": "Keep you from enjoying or doingother things?(For example: do you have problems sleeping, eating, or keeping your mind on things like work or school?)",
+        "es": "\u00c2\u00bfEvita que disfrute o hagaotras cosas?(Por ejemplo: \u00c2\u00bftiene problemas para dormir, comer o mantener la mente en cosas como el trabajo o la escuela?)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all",
+                    "es": "De ningun modo"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "A little",
+                    "es": "Un poco"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A lot",
+                    "es": "Mucho"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A whole lot",
+                    "es": "Muchisimo"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

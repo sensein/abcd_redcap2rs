@@ -1,0 +1,70 @@
+{
+    "id": "tlfb_inhalant_use_type",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "tlfb_inhalant_use_type"
+    },
+    "question": {
+        "en": "Which of these have you used? (Please check all that apply)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Poppers"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Correction Fluid"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Gasoline"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Glue"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Shoe Polish"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Spray Paint"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Nitrous Oxide or Whippits"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 8
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

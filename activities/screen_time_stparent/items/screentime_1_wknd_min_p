@@ -1,0 +1,62 @@
+{
+    "id": "screentime_1_wknd_min_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20161104"
+        }
+    ],
+    "preamble": {
+        "en": "On a typical WEEKEND DAY (Saturday-Sunday), how much TIME per day does your child spend in TOTAL on a computer, cellphone, tablet, iPod, or other electronic device?",
+        "es": "Favor NO incluya el tiempo que pasa haciendo trabajos relacionados con la escuela, pero s\u00c3\u00ad incluya el tiempo que pasa viendo televisi\u00c3\u00b3n, programas o videos, enviando mensajes de texto o chateando, jugando videojuegos o visitando sitios de redes sociales (Facebook, Twitter, Instagram)."
+    },
+    "prefLabel": {
+        "en": "screentime_1_wknd_min_p"
+    },
+    "question": {
+        "en": "Minutes:",
+        "es": "Minutos:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "15"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "30"
+                },
+                "value": 30
+            },
+            {
+                "name": {
+                    "en": "45"
+                },
+                "value": 45
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

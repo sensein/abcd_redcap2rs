@@ -1,0 +1,54 @@
+{
+    "id": "demo_dual_lang_v2_l",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "The following questions are about thechild.",
+        "es": "Las siguientes preguntas son acerca desuni\u00c3\u00b1o(a)."
+    },
+    "prefLabel": {
+        "en": "demo_dual_lang_v2_l"
+    },
+    "question": {
+        "en": "Does your child attend a dual-language or language immersion program at their school? In other words, are several of their classes taught in a language other than English?",
+        "es": "\u00c2\u00bfSu ni\u00c3\u00b1o(a) asiste a un programa biling\u00c3\u00bce o de inmersi\u00c3\u00b3n ling\u00c3\u00bc\u00c3\u00adstica en su escuela? En otras palabras, \u00c2\u00bfa su ni\u00c3\u00b1o(a) le ense\u00c3\u00b1an algunas de sus clases en otro idioma que no es el ingl\u00c3\u00a9s?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't know",
+                    "es": "No s\u00c3\u00a9"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer",
+                    "es": "Me niego a responder"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

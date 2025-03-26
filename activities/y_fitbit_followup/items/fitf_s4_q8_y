@@ -1,0 +1,52 @@
+{
+    "id": "fitf_s4_q8_y",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "fitf_s4_q8_y"
+    },
+    "question": {
+        "en": "When did you take it off (during what activities)? (Can choose more than one)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Shower/Bath"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Sports"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Swimming"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Sleep"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 5
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

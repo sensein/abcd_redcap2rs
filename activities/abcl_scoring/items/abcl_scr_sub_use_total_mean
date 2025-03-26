@@ -1,0 +1,30 @@
+{
+    "id": "abcl_scr_sub_use_total_mean",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Substance Use Mean Score"
+    },
+    "prefLabel": {
+        "en": "abcl_scr_sub_use_total_mean"
+    },
+    "question": {
+        "en": "Number Total"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

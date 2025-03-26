@@ -1,0 +1,43 @@
+{
+    "id": "screentime1_p_minutes",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        },
+        {
+            "column": "Text Validation Max",
+            "source": "redcap",
+            "value": "59.0"
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20161104"
+        }
+    ],
+    "prefLabel": {
+        "en": "screentime1_p_minutes"
+    },
+    "question": {
+        "en": "Minutes:",
+        "es": "Minutos:"
+    },
+    "responseOptions": {
+        "maxValue": 59,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

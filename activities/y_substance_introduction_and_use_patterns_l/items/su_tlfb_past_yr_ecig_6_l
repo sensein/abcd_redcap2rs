@@ -1,0 +1,73 @@
+{
+    "id": "su_tlfb_past_yr_ecig_6_l",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20180614"
+        }
+    ],
+    "preamble": {
+        "en": "E-Cigarette Follow-up Questions:"
+    },
+    "prefLabel": {
+        "en": "su_tlfb_past_yr_ecig_6_l"
+    },
+    "question": {
+        "en": "When you smoked e-cigarettes during the past year, did you ever use the \"dripping\" method to add e-liquid to your e-cigarette?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Almost never"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Most of the time"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Almost always"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Always"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 7
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,41 @@
+{
+    "id": "ksads_r_sup_1718_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "ksads_r_sup_1718_p"
+    },
+    "question": {
+        "en": "Did your child only have these thoughts that god had chosen your child to do something special for him, your child's thoughts could be broadcast out loud so other people could know what he or she was thinking, people could take thoughts out of your child's mind against his or her will, people could put thoughts in your child's head that are not their own, the tv or radio was sending your child messages, someone was out to get him/her, was following him/her and or spying on him/her, when he/she had been drinking a lot or using drugs?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

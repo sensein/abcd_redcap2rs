@@ -1,0 +1,30 @@
+{
+    "id": "referred_by_contact_id",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Recruitment Variables"
+    },
+    "prefLabel": {
+        "en": "referred_by_contact_id"
+    },
+    "question": {
+        "en": "referred_by_contact_id = (Text field) (For example: 57578f8514817)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

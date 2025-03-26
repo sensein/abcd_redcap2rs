@@ -1,0 +1,74 @@
+{
+    "id": "feedback_13_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "13"
+        },
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "feedback_3"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "13"
+        }
+    ],
+    "prefLabel": {
+        "en": "feedback_13_p"
+    },
+    "question": {
+        "en": "I am confident we could commit to participating in this study for years to come.",
+        "es": "Estoy seguro de que podr\u00c3\u00adamos comprometernos a participar en este estudio durante los pr\u00c3\u00b3ximos diez a\u00c3\u00b1os."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "StronglyAgree",
+                    "es": "Totalmente de acuerdo"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Agree",
+                    "es": "De acuerdo"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Neutral(neither agree nor disagree)",
+                    "es": "Neutral (ni de acuerdo ni en desacuerdo)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Disagree",
+                    "es": "En desacuerdo"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Strongly Disagree",
+                    "es": "Totalmente en desacuerdo"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

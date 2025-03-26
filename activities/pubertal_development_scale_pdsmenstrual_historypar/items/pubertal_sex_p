@@ -1,0 +1,63 @@
+{
+    "id": "pubertal_sex_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "1"
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "1"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
+    "preamble": {
+        "en": "The next questions are about changes that may be happening to your child's body. These changes normally happen to different young people at different ages. Since they may have something to do with your child's brain image results, do your best to answer carefully.",
+        "es": "Las siguientes preguntas son acerca de los cambios que pueden estar ocurriendo en el cuerpo de su ni\u00c3\u00b1o(a). Estos cambios normalmente suelen ocurrirles a personas j\u00c3\u00b3venes a diferentes edades. Debido a que estos cambios podr\u00c3\u00adan tener algo que ver con los resultados del estudio de im\u00c3\u00a1genes del cerebro de su ni\u00c3\u00b1o(a), le pedimos que haga su mejor esfuerzo para responderlas cuidadosamente."
+    },
+    "prefLabel": {
+        "en": "pubertal_sex_p"
+    },
+    "question": {
+        "en": "What sex was your child assigned at birth?",
+        "es": "\u00c2\u00bfQu\u00c3\u00a9 sexo le fue asignado a su ni\u00c3\u00b1o(a) al nacer?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Male",
+                    "es": "Masculino"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Female",
+                    "es": "Femenino"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

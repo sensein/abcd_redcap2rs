@@ -1,0 +1,50 @@
+{
+    "id": "zyg_ss_t2_hair_type",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Co-Twin:"
+    },
+    "prefLabel": {
+        "en": "zyg_ss_t2_hair_type"
+    },
+    "question": {
+        "en": "Hair type:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "curly"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "wavy"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "straight"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

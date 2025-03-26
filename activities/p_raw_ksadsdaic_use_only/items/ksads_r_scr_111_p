@@ -1,0 +1,27 @@
+{
+    "id": "ksads_r_scr_111_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "ksads_r_scr_111_p"
+    },
+    "question": {
+        "en": "You said that in the past there was a time that lasted at least two weeks when for most of the day your child felt sad or down. When was that? If your child felt that way more than once, let me know when it was the worst."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

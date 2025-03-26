@@ -1,0 +1,31 @@
+{
+    "id": "tbi_6p_l",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        }
+    ],
+    "preamble": {
+        "en": "We want to know about injuries to your child's head or neck that he/she may have since we last saw you on [asnt_timestamp_c].",
+        "es": "Queremos saber sobre lesiones en la cabeza o a el cuello que su ni\u00c3\u00b1o/a haya sufrido en cualquier momento desde la \u00c3\u00baltima vez que nos vimos en [asnt_timestamp_c]."
+    },
+    "prefLabel": {
+        "en": "tbi_6p_l"
+    },
+    "question": {
+        "en": "If yes, how many more?",
+        "es": "\u00c2\u00bfSi la respuesta fue s\u00c3\u00ad, cuantas m\u00c3\u00a1s?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

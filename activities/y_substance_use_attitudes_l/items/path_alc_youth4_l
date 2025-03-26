@@ -1,0 +1,67 @@
+{
+    "id": "path_alc_youth4_l",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "path_alc_youth2_l"
+        }
+    ],
+    "preamble": {
+        "en": "These next questions ask about your plans regarding alcohol and other drug use."
+    },
+    "prefLabel": {
+        "en": "path_alc_youth4_l"
+    },
+    "question": {
+        "en": "Do you think you will try a tobacco product soon?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Definitely yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Probably yes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Probably not"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Definitely not"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Refused"
+                },
+                "value": 6
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

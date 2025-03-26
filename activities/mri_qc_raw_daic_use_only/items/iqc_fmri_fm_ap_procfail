@@ -1,0 +1,19 @@
+{
+    "id": "iqc_fmri_fm_ap_procfail",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "iqc_fmri_fm_ap_procfail"
+    },
+    "question": {
+        "en": "fMRI FM AP: at least one series has a processing error before autoQC"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

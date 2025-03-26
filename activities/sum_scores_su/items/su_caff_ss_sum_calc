@@ -1,0 +1,37 @@
+{
+    "id": "su_caff_ss_sum_calc",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "When heard of caffeine was not endorsed, values for the sum of the five caffeine followup questions will be missing. Here, missing values for  the  caffeine summary scores have been replaced with \"0.\""
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "su_caff_ss_sum_calc"
+    },
+    "question": {
+        "en": "Sum of caff_intake_1, caff_intake_3, caff_intake_4, caff_intake_6 caff_intake_9  at baseline\r\n0\" replaces blank when tlfb_caff = 0"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

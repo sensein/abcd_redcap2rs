@@ -1,0 +1,67 @@
+{
+    "id": "path_alc_youth3",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "path_alc_youth1"
+        }
+    ],
+    "preamble": {
+        "en": "These next questions ask about your plans regarding alcohol and other drug use."
+    },
+    "prefLabel": {
+        "en": "path_alc_youth3"
+    },
+    "question": {
+        "en": "Have you ever been curious about trying marijuana?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Very curious"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Somewhat curious"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A little curious"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Not at all curious"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Refused to answer"
+                },
+                "value": 6
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

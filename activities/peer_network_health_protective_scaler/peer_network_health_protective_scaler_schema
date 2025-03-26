@@ -1,0 +1,73 @@
+{
+    "id": "peer_network_health_protective_scaler_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "peer_network_health_protective_scaler"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/pnh_start_time",
+            "items/pnh_substance",
+            "items/pnh_help",
+            "items/pnh_how_much_help",
+            "items/pnh_encourage",
+            "items/pnh_how_much_encourage",
+            "items/pnh_art_involve",
+            "items/peer_network_health_protective_scaler_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/pnh_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pnh_start_time"
+            },
+            {
+                "isAbout": "items/pnh_substance",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pnh_substance"
+            },
+            {
+                "isAbout": "items/pnh_help",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pnh_help"
+            },
+            {
+                "isAbout": "items/pnh_how_much_help",
+                "isVis": "pnh_help == '2'",
+                "valueRequired": true,
+                "variableName": "pnh_how_much_help"
+            },
+            {
+                "isAbout": "items/pnh_encourage",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pnh_encourage"
+            },
+            {
+                "isAbout": "items/pnh_how_much_encourage",
+                "isVis": "pnh_encourage == '2'",
+                "valueRequired": true,
+                "variableName": "pnh_how_much_encourage"
+            },
+            {
+                "isAbout": "items/pnh_art_involve",
+                "isVis": "pnh_encourage == '2'",
+                "valueRequired": true,
+                "variableName": "pnh_art_involve"
+            },
+            {
+                "isAbout": "items/peer_network_health_protective_scaler_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "peer_network_health_protective_scaler_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

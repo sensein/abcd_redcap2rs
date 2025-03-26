@@ -1,0 +1,34 @@
+{
+    "id": "scrn_medcond_other",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "scrn_medcond_other"
+    },
+    "question": {
+        "en": "\"Any other serious medical or neurological conditions, including, for example, epilepsy or seizures?\"",
+        "es": "\"\u00c2\u00bfAlg\u00c3\u00bana otra enfermedad o condici\u00c3\u00b3n m\u00c3\u00a9dica o neurol\u00c3\u00b3gica severa, como por ejemplo, epilepsia o convulsiones?\""
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

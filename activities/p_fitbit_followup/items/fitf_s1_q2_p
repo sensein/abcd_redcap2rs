@@ -1,0 +1,33 @@
+{
+    "id": "fitf_s1_q2_p",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "fitf_s1_q2_p"
+    },
+    "question": {
+        "en": "In your opinion, do you do think the amount of physical activity your child does is healthy?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

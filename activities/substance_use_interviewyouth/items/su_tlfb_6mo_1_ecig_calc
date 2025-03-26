@@ -1,0 +1,46 @@
+{
+    "id": "su_tlfb_6mo_1_ecig_calc",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "(ml)"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Text Validation Min",
+            "source": "redcap",
+            "value": "0"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN @READONLY @SHARED"
+        }
+    ],
+    "preamble": {
+        "en": "E-Cigarette Follow-up Questions:"
+    },
+    "prefLabel": {
+        "en": "su_tlfb_6mo_1_ecig_calc"
+    },
+    "question": {
+        "en": "In the past 6 months,how much liquiddid you typically smoke in your Electronic cigarettes, vape pens, or e-hookah? \r\n\r\nFor example, 1 pen-style cartridge typically contains 1ml of liquid.Measure in ml; 1 pen-style cartridge=1 ml; 10ml bottles, choose \"don't know\" below if unknownIf either  \"Have you heard of tobacco products ,  ...?\" or \"Have you had a puff ...?\" or \"Have you used Electronic cigarettes, vape pens, or e-hookah is not endorsed ,\" values for  \"tlfb_6mo_1_ecig\" will be missing.  Here, these missing values have been replaced with \"0.\""
+    },
+    "responseOptions": {
+        "minValue": 0,
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,34 @@
+{
+    "id": "scrn_psychdx_other",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "scrn_psychdx_other"
+    },
+    "question": {
+        "en": "\"Any other psychological or psychiatric diagnoses?\"",
+        "es": "\"\u00c2\u00bfLe han dado alg\u00c3\u00ban otro diagn\u00c3\u00b3stico psicol\u00c3\u00b3gico o psiqui\u00c3\u00a1trico?\""
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

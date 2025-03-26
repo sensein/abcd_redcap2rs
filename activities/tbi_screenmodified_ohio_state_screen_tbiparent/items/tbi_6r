@@ -1,0 +1,31 @@
+{
+    "id": "tbi_6r",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        }
+    ],
+    "preamble": {
+        "en": "We want to know about injuries to your child's head or neck that he/she may have had anytime in his/her life.",
+        "es": "Queremos saber sobre lesiones a la cabeza o a el cuello que su ni\u00c3\u00b1o/a haya sufrido en cualquier momento de su vida."
+    },
+    "prefLabel": {
+        "en": "tbi_6r"
+    },
+    "question": {
+        "en": "How many were more than or equal to 30 min?",
+        "es": "\u00c2\u00bfCu\u00c3\u00a1ntas veces ha estado inconsciente por \u00e2\u0089\u00a5 30 min o m\u00c3\u00a1s?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

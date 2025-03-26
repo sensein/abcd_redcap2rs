@@ -1,0 +1,43 @@
+{
+    "id": "withdraw_consent_yn",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20180301"
+        }
+    ],
+    "preamble": {
+        "en": "RA Internal Use Only (Do Not Ask)"
+    },
+    "prefLabel": {
+        "en": "withdraw_consent_yn"
+    },
+    "question": {
+        "en": "Did the family indicate that they WITHDRAW CONSENT TO SHARE DATA?\n\nIf they choose to withdraw their data have family include the request in their withdrawal letter."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

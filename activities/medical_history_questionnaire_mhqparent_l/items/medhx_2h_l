@@ -1,0 +1,47 @@
+{
+    "id": "medhx_2h_l",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "med_dx_cd8169"
+        }
+    ],
+    "preamble": {
+        "en": "Since we last saw you, has she/he been to a doctor for any of these things?",
+        "es": "Desde la \u00c3\u00baltima vez que nos vimos en [asnt_timestamp_c], \u00c2\u00bfha visitado \u00c3\u00a9l/ella a un m\u00c3\u00a9dico por cualquiera de las siguientes razones?"
+    },
+    "prefLabel": {
+        "en": "medhx_2h_l"
+    },
+    "question": {
+        "en": "Epilepsy or Seizures",
+        "es": "Epilepsia o convulsiones"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u008d"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

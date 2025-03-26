@@ -1,0 +1,30 @@
+{
+    "id": "tlfb_mj_calc_reg",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "years old"
+        }
+    ],
+    "description": {
+        "en": "Age of regular use:"
+    },
+    "preamble": {
+        "en": "Age First Use and Age Regular UseNow I'm going to ask how old you were you when you first tried each of the drugs we have been talking about, and how old you were when you first started using the drug regularly (which means using it every week for at least SIX MONTHS).Interviewer: go through each drug they endorsed in their lifetime and fill out first use and regular use using mm/dd/yyyy. If the day is unknown, assume the 15th of the given month"
+    },
+    "prefLabel": {
+        "en": "tlfb_mj_calc_reg"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

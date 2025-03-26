@@ -1,0 +1,36 @@
+{
+    "id": "mctq_sd_alarm_clock",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Note that some people stay awake for some time when in bed!"
+    },
+    "prefLabel": {
+        "en": "mctq_sd_alarm_clock"
+    },
+    "question": {
+        "en": "On school days, I wake up by using an alarm clock or my parents wake me up"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

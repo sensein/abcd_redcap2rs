@@ -1,0 +1,27 @@
+{
+    "id": "ddis_scr_val_cons_per_jbcrit1",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "ddis_scr_val_cons_per_jbcrit1"
+    },
+    "question": {
+        "en": "Consistent_per_JBcriterion1-  no: if any indifference point (proportion of full delayed amount) is > 20%  larger than that of the next shorter delay interval  => rule violation due to inconsistent responding     yes: otherwise"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
