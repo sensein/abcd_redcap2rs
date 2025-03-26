@@ -1,18 +1,11 @@
 {
-    "id": "mrif_fu_diff",
+    "id": "blood_pressure_collected",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Field Annotation",
-            "source": "redcap",
-            "value": "@READONLY"
-        }
-    ],
     "prefLabel": {
-        "en": "mrif_fu_diff"
+        "en": "blood_pressure_collected"
     },
     "question": {
-        "en": "Does follow up study show significant difference compared with previous study?"
+        "en": "Blood Pressure (BP) collected:"
     },
     "responseOptions": {
         "choices": [
@@ -24,15 +17,27 @@
             },
             {
                 "name": {
-                    "en": "No"
+                    "en": "Participant unable to complete"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "NA"
+                    "en": "Participant refused"
                 },
-                "value": -1
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Equipment malfunction"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Not Collected (other)"
+                },
+                "value": 5
             }
         ],
         "valueType": [
@@ -40,8 +45,7 @@
         ]
     },
     "ui": {
-        "inputType": "radio",
-        "readonlyValue": true
+        "inputType": "radio"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
