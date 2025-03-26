@@ -1,0 +1,61 @@
+{
+    "id": "psq_q1_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "psq_1"
+        }
+    ],
+    "preamble": {
+        "en": "Below are statements about different households and screens.  To indicate screen in your household, please read each statement and indicate the best response."
+    },
+    "prefLabel": {
+        "en": "psq_q1_p"
+    },
+    "question": {
+        "en": "When I am with my child, I use a screen-based device."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Strongly Disagree"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Somewhat Disagree"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Somewhat Agree"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Strongly Agree"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Refuse to Answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
