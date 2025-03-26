@@ -509,7 +509,7 @@ class ReproSchemaConverter:
                     tag_message = f"redcap data dictionary {date_time_str} revid{redcap_version} to reproschema"
 
                     # Include revision ID in the tag name to make it unique
-                    tag_name = f"{date_time_str.replace('-', '.').replace('_', '.')}-rev{redcap_version}-rev{rev}"
+                    tag_name = f"{date_time_str.replace('-', '.').replace('_', '.')}-revid{redcap_version}-rev{rev}"
 
                     return self.commit_and_tag(commit_message, tag_name, tag_message, folders_to_update)
 
