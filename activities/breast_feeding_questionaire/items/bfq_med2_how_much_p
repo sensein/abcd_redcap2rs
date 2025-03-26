@@ -1,0 +1,32 @@
+{
+    "id": "bfq_med2_how_much_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "<span lang=\"en\">If you don't know, please choose \"don't know\" in what follows below</span><span lang=\"es\" style=\"color:maroon;\">   Si no sabe, por favor escoja \"no se\" en lo que sigue abajo.</span>"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        }
+    ],
+    "prefLabel": {
+        "en": "bfq_med2_how_much_p"
+    },
+    "question": {
+        "en": "How much each time?",
+        "es": "\u00c2\u00bfQue tanto cada vez?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
