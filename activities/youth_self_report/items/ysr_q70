@@ -1,0 +1,56 @@
+{
+    "id": "ysr_q70",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "70"
+        },
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "ysr_q67_q70"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "70"
+        }
+    ],
+    "prefLabel": {
+        "en": "ysr_q70"
+    },
+    "question": {
+        "en": "I see things that other people think aren't there"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not True"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Somewhat or Sometimes True"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Very True or Often True"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
