@@ -17,12 +17,14 @@
             "items/demo_gender_notes_p_l",
             "items/demo_ethnic_youth_acs_p",
             "items/demo_race_youth_acs_p",
-            "items/demo_race_youth_acs_tribe_p",
             "items/demo_race_youth_acs_oth_asian_p",
             "items/demo_race_youth_acs_oth_pi_p",
             "items/demo_race_youth_acs_other_p",
             "items/demo_nat_lang_l",
             "items/demo_nat_lang_other_l",
+            "items/demo_nat_lang_3_p",
+            "items/demo_nat_lang_3_yrs_eng_p",
+            "items/demo_nat_lang_3_yrs_other_p",
             "items/demo_nat_lang_2_l",
             "items/demo_dual_lang_v2_l",
             "items/demo_dual_lang_start_2yr_l",
@@ -178,12 +180,6 @@
                 "variableName": "demo_race_youth_acs_p"
             },
             {
-                "isAbout": "items/demo_race_youth_acs_tribe_p",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "demo_race_youth_acs_tribe_p"
-            },
-            {
                 "isAbout": "items/demo_race_youth_acs_oth_asian_p",
                 "isVis": "demo_race_youth_acs_p___16 == '1'",
                 "valueRequired": true,
@@ -214,8 +210,26 @@
                 "variableName": "demo_nat_lang_other_l"
             },
             {
+                "isAbout": "items/demo_nat_lang_3_p",
+                "isVis": "event - name == '3_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "demo_nat_lang_3_p"
+            },
+            {
+                "isAbout": "items/demo_nat_lang_3_yrs_eng_p",
+                "isVis": "demo_nat_lang_3_p == '1'",
+                "valueRequired": true,
+                "variableName": "demo_nat_lang_3_yrs_eng_p"
+            },
+            {
+                "isAbout": "items/demo_nat_lang_3_yrs_other_p",
+                "isVis": "demo_nat_lang_3_p == '1'",
+                "valueRequired": true,
+                "variableName": "demo_nat_lang_3_yrs_other_p"
+            },
+            {
                 "isAbout": "items/demo_nat_lang_2_l",
-                "isVis": true,
+                "isVis": "event_name_number < 30",
                 "valueRequired": true,
                 "variableName": "demo_nat_lang_2_l"
             },
@@ -299,7 +313,7 @@
             },
             {
                 "isAbout": "items/demo_prnt_race_acs_tribe",
-                "isVis": false,
+                "isVis": "demo_prnt_race_acs_p___12 == '1'",
                 "valueRequired": true,
                 "variableName": "demo_prnt_race_acs_tribe"
             },
@@ -768,6 +782,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2252",
+    "version": "revid2253",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
