@@ -1,0 +1,31 @@
+{
+    "id": "pet_ownership_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "pet_ownership"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/pet_identify",
+            "items/pet_ownership_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/pet_identify",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pet_identify"
+            },
+            {
+                "isAbout": "items/pet_ownership_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pet_ownership_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2226",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
