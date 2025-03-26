@@ -1,0 +1,76 @@
+{
+    "id": "bfq_breastfeed_time_p",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "bfq_breastfeed_time_p"
+    },
+    "question": {
+        "en": "If yes, for how long was s/he breastfed?",
+        "es": "XXXXXXX?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "several days"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "1-4 weeks"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "4-6 months"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "7-9 months"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "10-12 months"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "13-18 months"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "19-24 months"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "more than 24 months"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Don't Know"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

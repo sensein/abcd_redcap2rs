@@ -1,0 +1,38 @@
+{
+    "id": "bfq_med3_times_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "<span lang=\"en\">If you don't know, please choose \"don't know\" in what follows below</span><span lang=\"es\" style=\"color:maroon;\">   Si no sabe, por favor escoja \"no se\" en lo que sigue abajo.</span>"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        },
+        {
+            "column": "Text Validation Max",
+            "source": "redcap",
+            "value": "25.0"
+        }
+    ],
+    "prefLabel": {
+        "en": "bfq_med3_times_p"
+    },
+    "question": {
+        "en": "How many times per day?",
+        "es": "\u00c2\u00bfCuantas veces al d\u00c3\u00ada?"
+    },
+    "responseOptions": {
+        "maxValue": 25,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
