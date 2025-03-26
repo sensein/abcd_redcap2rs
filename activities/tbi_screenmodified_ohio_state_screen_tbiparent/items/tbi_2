@@ -1,0 +1,57 @@
+{
+    "id": "tbi_2",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "2"
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "2"
+        }
+    ],
+    "preamble": {
+        "en": "We want to know about injuries to your child's head or neck that he/she may have had anytime in his/her life.",
+        "es": "Queremos saber sobre lesiones a la cabeza o a el cuello que su ni\u00c3\u00b1o/a haya sufrido en cualquier momento de su vida."
+    },
+    "prefLabel": {
+        "en": "tbi_2"
+    },
+    "question": {
+        "en": "Has your child ever injured his/her head or neck in a car accident or from crashing some other moving vehicle like a bicycle, motorcyle, or ATV?",
+        "es": "\u00c2\u00bfSu ni\u00c3\u00b1o/a alguna vez se ha lastimado la cabeza o el cuello en un accidente de auto o por chocar cuando iba en alg\u00c3\u00ban otro veh\u00c3\u00adculo en movimiento, como una bicicleta, motocicleta o veh\u00c3\u00adculo todo terreno?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "Si"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

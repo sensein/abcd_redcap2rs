@@ -1,0 +1,61 @@
+{
+    "id": "teeth_8_store_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "check one"
+        }
+    ],
+    "preamble": {
+        "en": "TOOTH items 1-10 to be completed by study personnel."
+    },
+    "prefLabel": {
+        "en": "teeth_8_store_p"
+    },
+    "question": {
+        "en": "\u00c2\u00a0 \u00c2\u00a0 \u00c2\u00a0 \u00c2\u00a0 How was Tooth #8 stored at home?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Dry (not in water or any other liquid)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "In water"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "In another liquid"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Other (specify)"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

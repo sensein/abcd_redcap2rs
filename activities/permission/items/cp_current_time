@@ -1,0 +1,26 @@
+{
+    "id": "cp_current_time",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "datetime_mdy"
+        }
+    ],
+    "prefLabel": {
+        "en": "cp_current_time"
+    },
+    "question": {
+        "en": "Current Time:"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:dateTime"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

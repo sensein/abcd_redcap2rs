@@ -1,0 +1,27 @@
+{
+    "id": "pea_wiscv_item_20_rs",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY HIDEFROMCOMPLETION"
+        }
+    ],
+    "prefLabel": {
+        "en": "pea_wiscv_item_20_rs"
+    },
+    "question": {
+        "en": "WISC-V Matrix Reasoning Sample Item 20 Raw Score"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

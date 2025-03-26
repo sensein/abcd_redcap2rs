@@ -1,0 +1,34 @@
+{
+    "id": "teeth_8_shed_dte_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "date_mdy"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION201802603"
+        }
+    ],
+    "preamble": {
+        "en": "TOOTH items 1-10 to be completed by study personnel."
+    },
+    "prefLabel": {
+        "en": "teeth_8_shed_dte_p"
+    },
+    "question": {
+        "en": "Date tooth was shed?Interviewer: If parent knows the month and year but not the exact date please enter month/15/year.\rIf parent only knows the year, please enter 01/01/year. Please choose 'Don't Know' if the parent does not recall the year."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "date"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

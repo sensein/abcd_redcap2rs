@@ -1,0 +1,34 @@
+{
+    "id": "scrn_tbi_mem",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "scrn_tbi_mem"
+    },
+    "question": {
+        "en": "\"Has (Child's name) ever had a head injury that resulted in difficulties remembering that lasted for longer than a day?\"",
+        "es": "\"\u00c2\u00bfAlguna vez tuvo (nombre del menor) una lesi\u00c3\u00b3n en la cabeza que haya causado que tuviera dificultades para recordar durante m\u00c3\u00a1s de un d\u00c3\u00ada?\""
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes - GO TO END"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

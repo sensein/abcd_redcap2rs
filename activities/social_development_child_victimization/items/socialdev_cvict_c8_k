@@ -1,0 +1,45 @@
+{
+    "id": "socialdev_cvict_c8_k",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "socialdev_cvict_c8_k"
+    },
+    "question": {
+        "en": "Were you actually kidnapped, or did you get away before it happened?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Kidnapped"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Got away"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "I don't know"
+                },
+                "value": 98
+            },
+            {
+                "name": {
+                    "en": "I'd rather not say"
+                },
+                "value": 99
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

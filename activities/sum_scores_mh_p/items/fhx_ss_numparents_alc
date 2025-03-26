@@ -1,0 +1,35 @@
+{
+    "id": "fhx_ss_numparents_alc",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Family History of Problems"
+    },
+    "prefLabel": {
+        "en": "fhx_ss_numparents_alc"
+    },
+    "question": {
+        "en": "Sum of nonmissing alcohol fhx_ss_moth_prob_alc and fhx_ss_fath_prob_alc"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

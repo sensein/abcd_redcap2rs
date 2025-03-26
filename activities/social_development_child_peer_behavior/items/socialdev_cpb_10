@@ -1,0 +1,45 @@
+{
+    "id": "socialdev_cpb_10",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "socialdev_cpb_10"
+    },
+    "question": {
+        "en": "My friends steal things from others."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "ALL of my friends"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "MOST of my friends"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A FEW of my friends"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "NONE of my friends"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

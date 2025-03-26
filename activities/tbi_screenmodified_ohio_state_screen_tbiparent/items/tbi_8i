@@ -1,0 +1,40 @@
+{
+    "id": "tbi_8i",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "We want to know about injuries to your child's head or neck that he/she may have had anytime in his/her life.",
+        "es": "Queremos saber sobre lesiones a la cabeza o a el cuello que su ni\u00c3\u00b1o/a haya sufrido en cualquier momento de su vida."
+    },
+    "prefLabel": {
+        "en": "tbi_8i"
+    },
+    "question": {
+        "en": "What was the typical effect of the injury?",
+        "es": "Cu\u00c3\u00a1l fue el efecto t\u00c3\u00adpico de la lesi\u00c3\u00b3n?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Dazed/memory gap,noLOC",
+                    "es": "Aturdido/lapsos de memoria,sinp\u00c3\u00a9rdida de conocimiento."
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "LOC",
+                    "es": "p\u00c3\u00a9rdida de conocimiento"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

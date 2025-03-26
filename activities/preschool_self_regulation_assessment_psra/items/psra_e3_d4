@@ -1,0 +1,55 @@
+{
+    "id": "psra_e3_d4",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "LIBRv1.0"
+        }
+    ],
+    "preamble": {
+        "en": "Day 4"
+    },
+    "prefLabel": {
+        "en": "psra_e3_d4"
+    },
+    "question": {
+        "en": "E3. Modulates and regulates arousal level in self--keeps \"an even keel\""
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Child highly regulated. Never becomes sad, frustrated, or silly"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Child becomes briefly sad, frustrated, OR silly, but quickly calms without help from adult assessor"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Child becomes sad, frustrated, OR silly and needs prompt from assessor but is able to calm down"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Child becomes very sad, frustrated OR silly, and has difficulty regaining self-control"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

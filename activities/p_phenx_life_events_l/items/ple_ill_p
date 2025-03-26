@@ -1,0 +1,57 @@
+{
+    "id": "ple_ill_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "8"
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "8"
+        }
+    ],
+    "preamble": {
+        "en": "Next I am going to ask you about events that may have happened during your child's lifetime.",
+        "es": "A continuaci\u00c3\u00b3n, le voy a preguntar sobre eventos que pueden haber ocurrido durante la vida de su hijo(a)."
+    },
+    "prefLabel": {
+        "en": "ple_ill_p"
+    },
+    "question": {
+        "en": "Child was seriously sick?",
+        "es": "\u00c2\u00bfNi\u00c3\u00b1o(a) se enferm\u00c3\u00b3 gravemente?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "Si"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

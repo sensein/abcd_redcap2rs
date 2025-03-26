@@ -1,0 +1,101 @@
+{
+    "id": "ksads_r_scr_578_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "ksads_r_scr_578_p"
+    },
+    "question": {
+        "en": "What are your child's favorite alcoholic beverages to drink? (You can mark more than one):"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Beer"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Wine"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Vodka"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Gin"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Tequila"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Whiskey"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Rum"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Bourbon"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Scotch"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Mixed drinks"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Don\u0089\u00db\u00aat drink alcohol"
+                },
+                "value": 12
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

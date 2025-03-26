@@ -1,0 +1,59 @@
+{
+    "id": "crpbi_caregiver16_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "12"
+        },
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "crpbi_caregiver"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "12"
+        }
+    ],
+    "preamble": {
+        "en": "My [caregiver named above]  is a person who....."
+    },
+    "prefLabel": {
+        "en": "crpbi_caregiver16_y"
+    },
+    "question": {
+        "en": "Is easy to talk to."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not like him/her"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Somewhat like him/her"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A lot like him/her"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,43 @@
+{
+    "id": "midq_2_rescan_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "midq_thoughts_rescan"
+        }
+    ],
+    "preamble": {
+        "en": "Please answer YES or NO to the following question:"
+    },
+    "prefLabel": {
+        "en": "midq_2_rescan_y"
+    },
+    "question": {
+        "en": "While the game was being explained to you, did you think about what you would like to do with the money you might win during the game?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

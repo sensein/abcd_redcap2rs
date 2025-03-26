@@ -1,0 +1,87 @@
+{
+    "id": "y_neurocog_part_2_comments_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "y_neurocog_part_2_comments"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ncog_gender_v2",
+            "items/ncog_issues_v2",
+            "items/ncog_assessments_v2",
+            "items/comm_ravl_y_s",
+            "items/comm_mrt_y",
+            "items/comm_lmt_y",
+            "items/comm_cct_y",
+            "items/comm_ravl_y_d",
+            "items/ncog_other_notes",
+            "items/y_neurocog_part_2_comments_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ncog_gender_v2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncog_gender_v2"
+            },
+            {
+                "isAbout": "items/ncog_issues_v2",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncog_issues_v2"
+            },
+            {
+                "isAbout": "items/ncog_assessments_v2",
+                "isVis": "ncog_issues_v2 == '1'",
+                "valueRequired": false,
+                "variableName": "ncog_assessments_v2"
+            },
+            {
+                "isAbout": "items/comm_ravl_y_s",
+                "isVis": "ncog_assessments_v2___1 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_ravl_y_s"
+            },
+            {
+                "isAbout": "items/comm_mrt_y",
+                "isVis": "ncog_assessments_v2___2 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_mrt_y"
+            },
+            {
+                "isAbout": "items/comm_lmt_y",
+                "isVis": "ncog_assessments_v2___3 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_lmt_y"
+            },
+            {
+                "isAbout": "items/comm_cct_y",
+                "isVis": "ncog_assessments_v2___4 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_cct_y"
+            },
+            {
+                "isAbout": "items/comm_ravl_y_d",
+                "isVis": "ncog_assessments_v2___5 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_ravl_y_d"
+            },
+            {
+                "isAbout": "items/ncog_other_notes",
+                "isVis": "ncog_issues_v2 == '1'",
+                "valueRequired": false,
+                "variableName": "ncog_other_notes"
+            },
+            {
+                "isAbout": "items/y_neurocog_part_2_comments_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "y_neurocog_part_2_comments_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

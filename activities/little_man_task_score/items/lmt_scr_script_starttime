@@ -1,0 +1,27 @@
+{
+    "id": "lmt_scr_script_starttime",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY\r\nHIDEFROMCOMPLETION"
+        }
+    ],
+    "prefLabel": {
+        "en": "lmt_scr_script_starttime"
+    },
+    "question": {
+        "en": "Time script was started (local time for participant)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

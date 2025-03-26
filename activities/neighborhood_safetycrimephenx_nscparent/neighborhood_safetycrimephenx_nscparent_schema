@@ -1,0 +1,59 @@
+{
+    "id": "neighborhood_safetycrimephenx_nscparent_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "neighborhood_safetycrimephenx_nscparent"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/neighborhood_start_time_p",
+            "items/neighborhood_p_select_language",
+            "items/neighborhood1r_p",
+            "items/neighborhood2r_p",
+            "items/neighborhood3r_p",
+            "items/neighborhood_safetycrimephenx_nscparent_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/neighborhood_start_time_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "neighborhood_start_time_p"
+            },
+            {
+                "isAbout": "items/neighborhood_p_select_language",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "neighborhood_p_select_language"
+            },
+            {
+                "isAbout": "items/neighborhood1r_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neighborhood1r_p"
+            },
+            {
+                "isAbout": "items/neighborhood2r_p",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "neighborhood2r_p"
+            },
+            {
+                "isAbout": "items/neighborhood3r_p",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "neighborhood3r_p"
+            },
+            {
+                "isAbout": "items/neighborhood_safetycrimephenx_nscparent_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "neighborhood_safetycrimephenx_nscparent_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,78 @@
+{
+    "id": "neighborhood2r_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "2"
+        },
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "neigh_safety"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "2"
+        }
+    ],
+    "preamble": {
+        "en": "The following questions are about your neighborhood. Your neighborhood is the area within about a 20-minute walk (or about a mile) from your home. For each of the statements please indicate whether youstrongly agree,agree,neither agree nor disagree,disagree, orstrongly disagree.",
+        "es": "Las siguientes preguntas tratan  acerca de su vecindario. Su vecindario es el \u00c3\u00a1rea que recorre en una caminata de alrededor de 20 minutos (o alrededor de una milla) desde su casa. Para cada una de estas oraciones o frases, indique si est\u00c3\u00a1muy de acuerdo,de acuerdo,ni de acuerdo ni en desacuerdo,en desacuerdoomuy en desacuerdo."
+    },
+    "prefLabel": {
+        "en": "neighborhood2r_p"
+    },
+    "question": {
+        "en": "Violence is not a problem in my neighborhood.",
+        "es": "La violencia no es un problema en mi vecindario."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Strongly Disagree",
+                    "es": "Muy en desacuerdo"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Disagree",
+                    "es": "En desacuerdo"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Neutral (neither agree nor disagree)",
+                    "es": "Neutral (ni de acuerdo ni en desacuerdo)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Agree",
+                    "es": "De acuerdo"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Strongly Agree",
+                    "es": "Muy de acuerdo"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

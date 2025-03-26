@@ -1,0 +1,51 @@
+{
+    "id": "ra_scan_check_list_rtmid",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "seconds"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        },
+        {
+            "column": "Text Validation Min",
+            "source": "redcap",
+            "value": "99"
+        },
+        {
+            "column": "Text Validation Max",
+            "source": "redcap",
+            "value": "800.0"
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        }
+    ],
+    "preamble": {
+        "en": "Pre-Scan Checklist"
+    },
+    "prefLabel": {
+        "en": "ra_scan_check_list_rtmid"
+    },
+    "question": {
+        "en": "RT from MID Practice"
+    },
+    "responseOptions": {
+        "maxValue": 800,
+        "minValue": 99,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

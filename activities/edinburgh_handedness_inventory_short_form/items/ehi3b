@@ -1,0 +1,63 @@
+{
+    "id": "ehi3b",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "handedness_new"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20170905"
+        }
+    ],
+    "prefLabel": {
+        "en": "ehi3b"
+    },
+    "question": {
+        "en": "Toothbrush"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Always Right"
+                },
+                "value": 100
+            },
+            {
+                "name": {
+                    "en": "Usually Right"
+                },
+                "value": 50
+            },
+            {
+                "name": {
+                    "en": "Both Equally"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Usually Left"
+                },
+                "value": -50
+            },
+            {
+                "name": {
+                    "en": "Always Left"
+                },
+                "value": -100
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,59 @@
+{
+    "id": "mrif_findings_level2",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "Not in use!"
+        }
+    ],
+    "prefLabel": {
+        "en": "mrif_findings_level2"
+    },
+    "question": {
+        "en": "Findings categories for level 2"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "pineal cysts"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "arachnoid cysts"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "developmental venous anomalies"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "mastoid effusions"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "significant sinus disease"
+                },
+                "value": 4
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

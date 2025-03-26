@@ -1,0 +1,33 @@
+{
+    "id": "hormone_scr_ert_rep1_nd",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "hormone_scr_ert_rep1_nd"
+    },
+    "question": {
+        "en": "Salimetrics hormone test testosterone (ERT) none detected (repetition 1)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "True"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "False"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

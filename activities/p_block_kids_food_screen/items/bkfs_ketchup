@@ -1,0 +1,75 @@
+{
+    "id": "bkfs_ketchup",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "HOW MANY DAYS LAST WEEK DID YOUR CHILD EAT OR DRINK IT?",
+        "es": "\u00c2\u00bfCU\u00c3\u0081NTOS D\u00c3\u008dAS DE LA SEMANA PASADA SU NI\u00c3\u0091O(A) COMI\u00c3\u0093 O BEBI\u00c3\u0093?"
+    },
+    "prefLabel": {
+        "en": "bkfs_ketchup"
+    },
+    "question": {
+        "en": "Ketchup or salsa",
+        "es": "K\u00c3\u00a9tchup or salsa"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "None last week",
+                    "es": "Nunca la semana pasada"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1 day last week",
+                    "es": "1 d\u00c3\u00ada de la semana pasada"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2 days last week",
+                    "es": "2 d\u00c3\u00adas de la semana pasada"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3-4 days last week",
+                    "es": "3-4 d\u00c3\u00adas de la semana pasada"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "5-6 days last week",
+                    "es": "5-6 d\u00c3\u00adas de la semana pasada"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Every day last week",
+                    "es": "Cada d\u00c3\u00ada de la semana pasada"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer",
+                    "es": "Negarse a responder"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

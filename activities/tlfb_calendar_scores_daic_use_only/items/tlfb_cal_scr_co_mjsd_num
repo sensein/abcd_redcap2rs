@@ -1,0 +1,26 @@
+{
+    "id": "tlfb_cal_scr_co_mjsd_num",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        }
+    ],
+    "prefLabel": {
+        "en": "tlfb_cal_scr_co_mjsd_num"
+    },
+    "question": {
+        "en": "Number of co-use days of Marijuana and Alcohol"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

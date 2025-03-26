@@ -1,0 +1,39 @@
+{
+    "id": "pls4_med3_days_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "PLUS DAY 4"
+    },
+    "prefLabel": {
+        "en": "pls4_med3_days_p"
+    },
+    "question": {
+        "en": "Is the medication extended-release (XR)?",
+        "es": "\u00c2\u00bfEl medicamento es de liberaci\u00c3\u00b3n prolongada (XR)?M"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes, the medication is Extended-Release (XR)",
+                    "es": "S\u00c3\u00ad, el medicamento es de liberaci\u00c3\u00b3n prolongada (XR)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

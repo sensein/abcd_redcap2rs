@@ -1,0 +1,85 @@
+{
+    "id": "accult_q3b_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDECHOICE='8,9'"
+        }
+    ],
+    "prefLabel": {
+        "en": "accult_q3b_p"
+    },
+    "question": {
+        "en": "How well do you speak [accult_q3_dropdwn_p]?",
+        "es": "\u00c2\u00bfQu\u00c3\u00a9 tan bien habla usted el [accult_q3_dropdwn_p]?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Poor",
+                    "es": "Mal"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Fair",
+                    "es": "Regular"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Good",
+                    "es": "Bien"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Excellent",
+                    "es": "Excelente"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Don't Know",
+                    "es": "No se"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Refused",
+                    "es": "Niego contestar"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Don't Know",
+                    "es": "No se"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Refused",
+                    "es": "Niego contestar"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

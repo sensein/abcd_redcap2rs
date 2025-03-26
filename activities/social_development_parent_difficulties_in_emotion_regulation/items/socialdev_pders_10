@@ -1,0 +1,51 @@
+{
+    "id": "socialdev_pders_10",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "socialdev_pders_10"
+    },
+    "question": {
+        "en": "When I'm upset, I acknowledge my emotions."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "About half the time"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Most of the time"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Almost always"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

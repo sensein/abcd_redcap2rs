@@ -1,0 +1,61 @@
+{
+    "id": "fitpr_sedentary",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20181006"
+        }
+    ],
+    "preamble": {
+        "en": "Sedentary behaviors are things you do while sitting or lying down that don't use a lot of physical energy. Things like sitting or lying down while watching TV, playing video games, or riding in a car are sedentary behaviors. Sitting or lying down to read, study, or do homework are also sedentary behaviors (sleep is not a sedentary behavior)."
+    },
+    "prefLabel": {
+        "en": "fitpr_sedentary"
+    },
+    "question": {
+        "en": "In your opinion, compared to other kids your age, how many sedentary behaviors do you do?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Much less"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A little less"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "About the same"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "A little more"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Much more"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

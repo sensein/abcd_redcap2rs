@@ -1,0 +1,48 @@
+{
+    "id": "mctq_sd_fall_asleep",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Note that some people stay awake for some time when in bed!"
+    },
+    "prefLabel": {
+        "en": "mctq_sd_fall_asleep"
+    },
+    "question": {
+        "en": "I actually start trying to fall asleep at:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Morning (4:00 AM to 11:59 AM)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Afternoon (12:00 PM Noon to 4:59 PM)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Evening (5:00 PM to 8:59 PM)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Nighttime (9:00 PM to 3:59 AM)"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

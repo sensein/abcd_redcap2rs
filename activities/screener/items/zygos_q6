@@ -1,0 +1,40 @@
+{
+    "id": "zygos_q6",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "zygos_q6"
+    },
+    "question": {
+        "en": "\"Could one twin fool friends or family by pretending to be the other?  Would you say yes, maybe or no?\"",
+        "es": "\"\u00c2\u00bfUno de los gemelos podr\u00c3\u00ada enga\u00c3\u00b1ar a sus amigos o familiares haci\u00c3\u00a9ndose pasar por el otro?\n\u00c2\u00bfDir\u00c3\u00ada que s\u00c3\u00ad, tal vez o no?\""
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Maybe"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

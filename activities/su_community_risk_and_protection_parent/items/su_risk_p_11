@@ -1,0 +1,57 @@
+{
+    "id": "su_risk_p_11",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "su_risk_p_11"
+    },
+    "question": {
+        "en": "If your child wanted to get prescription anxiolytics or tranquillizers (such as Xanax and Ativan)that were not prescribed to her/him by a doctor, how easy would it be for her/him to get some?",
+        "es": "Si su ni\u00c3\u00b1o(a) quisiera obtener ansiol\u00c3\u00adticos recetados o tranquilizantes (como Xanax y Ativan)que un m\u00c3\u00a9dico no le recet\u00c3\u00b3\u00c2\u00bfque tan f\u00c3\u00a1cil ser\u00c3\u00ada para \u00c3\u00a9l / ella obtenerlos?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Very hard",
+                    "es": "Muy dif\u00c3\u00adcil"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Sort of hard",
+                    "es": "Algo dif\u00c3\u00adcil"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Sort of easy",
+                    "es": "Algo f\u00c3\u00a1cil"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Very easy",
+                    "es": "Muy f\u00c3\u00a1cil"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Don't know",
+                    "es": "No lo s\u00c3\u00a9"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

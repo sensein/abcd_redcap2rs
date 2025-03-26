@@ -1,0 +1,39 @@
+{
+    "id": "scrn_concerns_excl",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "scrn_concerns_excl"
+    },
+    "question": {
+        "en": "Are the concerns deemed exclusionary?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes - GO TO END"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Unsure - (Consult PI)"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

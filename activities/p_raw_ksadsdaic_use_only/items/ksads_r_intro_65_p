@@ -1,0 +1,53 @@
+{
+    "id": "ksads_r_intro_65_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "ksads_r_intro_65_p"
+    },
+    "question": {
+        "en": "Click below areas that showed delays:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Walking"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Talking"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Toilet training"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

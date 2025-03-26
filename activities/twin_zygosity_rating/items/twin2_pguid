@@ -1,0 +1,34 @@
+{
+    "id": "twin2_pguid",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "abcd_id"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "abcd_id"
+        }
+    ],
+    "preamble": {
+        "en": "Co-Twin:"
+    },
+    "prefLabel": {
+        "en": "twin2_pguid"
+    },
+    "question": {
+        "en": "Co-Twin's pGUID: Please copy and paste\r\nfrom REDCap. Do not enter manually.\r\nMust be in format  NDAR_INVxxxxxxxx"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

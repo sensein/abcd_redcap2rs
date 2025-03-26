@@ -1,0 +1,42 @@
+{
+    "id": "preschool_self_regulation_assessment_psra_complete",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Form Status"
+    },
+    "prefLabel": {
+        "en": "preschool_self_regulation_assessment_psra_complete"
+    },
+    "question": {
+        "en": "Complete?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Incomplete"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Unverified"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Complete"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

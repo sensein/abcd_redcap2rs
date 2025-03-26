@@ -1,0 +1,57 @@
+{
+    "id": "hair_sent",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "<font color=\"blue\">Change response ONLY if and when status changes.</font>"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@DEFAULT='3'"
+        }
+    ],
+    "prefLabel": {
+        "en": "hair_sent"
+    },
+    "question": {
+        "en": "Sample sent to Psychemedics?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Sent as requested by CC"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Not sent although requested by CC"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Not requested to be sent (sample remains on site)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Sent at the request of site"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

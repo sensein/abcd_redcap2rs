@@ -1,0 +1,150 @@
+{
+    "id": "sum_score_tbi_l_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "sum_score_tbi_l"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/tbi_ss_ntbiloc_l",
+            "items/tbi_ss_ntbiloc_nm_l",
+            "items/tbi_ss_ntbiloc30_l",
+            "items/tbi_ss_ntbiloc30_nm_l",
+            "items/tbi_ss_nmrpi_l",
+            "items/tbi_ss_nmrpi_nm_l",
+            "items/tbi_ss_agefirst_l",
+            "items/tbi_ss_agefirst_nm_l",
+            "items/tbi_ss_agefirst_nt_l",
+            "items/tbi_ss_before15_l",
+            "items/tbi_ss_before15_nm_l",
+            "items/tbi_ss_worst1_l",
+            "items/tbi_ss_worst1b_l",
+            "items/tbi_ss_worst2_l",
+            "items/tbi_ss_worst3_l",
+            "items/tbi_ss_worst4_l",
+            "items/tbi_ss_worst5_l",
+            "items/tbi_ss_worst_overall_l",
+            "items/sum_score_tbi_l_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/tbi_ss_ntbiloc_l",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tbi_ss_ntbiloc_l"
+            },
+            {
+                "isAbout": "items/tbi_ss_ntbiloc_nm_l",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tbi_ss_ntbiloc_nm_l"
+            },
+            {
+                "isAbout": "items/tbi_ss_ntbiloc30_l",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tbi_ss_ntbiloc30_l"
+            },
+            {
+                "isAbout": "items/tbi_ss_ntbiloc30_nm_l",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tbi_ss_ntbiloc30_nm_l"
+            },
+            {
+                "isAbout": "items/tbi_ss_nmrpi_l",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tbi_ss_nmrpi_l"
+            },
+            {
+                "isAbout": "items/tbi_ss_nmrpi_nm_l",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tbi_ss_nmrpi_nm_l"
+            },
+            {
+                "isAbout": "items/tbi_ss_agefirst_l",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tbi_ss_agefirst_l"
+            },
+            {
+                "isAbout": "items/tbi_ss_agefirst_nm_l",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tbi_ss_agefirst_nm_l"
+            },
+            {
+                "isAbout": "items/tbi_ss_agefirst_nt_l",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tbi_ss_agefirst_nt_l"
+            },
+            {
+                "isAbout": "items/tbi_ss_before15_l",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tbi_ss_before15_l"
+            },
+            {
+                "isAbout": "items/tbi_ss_before15_nm_l",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tbi_ss_before15_nm_l"
+            },
+            {
+                "isAbout": "items/tbi_ss_worst1_l",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tbi_ss_worst1_l"
+            },
+            {
+                "isAbout": "items/tbi_ss_worst1b_l",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tbi_ss_worst1b_l"
+            },
+            {
+                "isAbout": "items/tbi_ss_worst2_l",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tbi_ss_worst2_l"
+            },
+            {
+                "isAbout": "items/tbi_ss_worst3_l",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tbi_ss_worst3_l"
+            },
+            {
+                "isAbout": "items/tbi_ss_worst4_l",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tbi_ss_worst4_l"
+            },
+            {
+                "isAbout": "items/tbi_ss_worst5_l",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tbi_ss_worst5_l"
+            },
+            {
+                "isAbout": "items/tbi_ss_worst_overall_l",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tbi_ss_worst_overall_l"
+            },
+            {
+                "isAbout": "items/sum_score_tbi_l_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sum_score_tbi_l_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,43 @@
+{
+    "id": "cna_15_p",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "cna_15_p"
+    },
+    "question": {
+        "en": "Were you/biological mother taking daily prenatal vitamins or folic acid supplementsbeforeyou/she became pregnant?",
+        "es": "\u00c2\u00bfTomo usted o la madre biol\u00c3\u00b3gica vitaminas prenatales diarias o acido f\u00c3\u00b3licoantesde quedar embarazada?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "Si"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't Know",
+                    "es": "No Recuerdo"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

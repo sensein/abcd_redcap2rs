@@ -1,0 +1,30 @@
+{
+    "id": "bio_15perc_nic",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Participate in NICALERT"
+    },
+    "prefLabel": {
+        "en": "bio_15perc_nic"
+    },
+    "question": {
+        "en": "NicAlert selected at 15 percent level? (1 - yes)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

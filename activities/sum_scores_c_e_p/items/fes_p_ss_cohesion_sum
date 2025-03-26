@@ -1,0 +1,35 @@
+{
+    "id": "fes_p_ss_cohesion_sum",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Family Environment Scale: Family Cohesion"
+    },
+    "prefLabel": {
+        "en": "fes_p_ss_cohesion_sum"
+    },
+    "question": {
+        "en": "Cohesion subscale from the Family Environment Scale Sum of Parent Report (RAW Score)\nfes_1_p + fes_11r_p + fes_21_p + fes_31_p + fes_41r_p + fes_51_p + fes_61r_p + fes_71_p + fes_81_p\nValidation: Minimum of 5 items answered"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

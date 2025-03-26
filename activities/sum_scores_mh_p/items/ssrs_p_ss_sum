@@ -1,0 +1,35 @@
+{
+    "id": "ssrs_p_ss_sum",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "SSRS"
+    },
+    "prefLabel": {
+        "en": "ssrs_p_ss_sum"
+    },
+    "question": {
+        "en": "SSRS sum\n\nsum[ssrs_15r, ssrs_6, ssrs_16, ssrs_18, ssrs_24, ssrs_29, ssrs_35, ssrs_37, ssrs_39, ssrs_42, ssrs_58]\nValidation: All items must be answered"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,55 @@
+{
+    "id": "ra_scan_check_list_vmidrc",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY HIDEFROMCOMPLETION"
+        }
+    ],
+    "preamble": {
+        "en": "Pre-Scan Checklist"
+    },
+    "prefLabel": {
+        "en": "ra_scan_check_list_vmidrc"
+    },
+    "question": {
+        "en": "Version of MID"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "A"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "B"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "C"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

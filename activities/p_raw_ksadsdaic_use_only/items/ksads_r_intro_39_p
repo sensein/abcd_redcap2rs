@@ -1,0 +1,53 @@
+{
+    "id": "ksads_r_intro_39_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "ksads_r_intro_39_p"
+    },
+    "question": {
+        "en": "In general, how does your child do in school?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Very well"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Average"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Below average"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Failing"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

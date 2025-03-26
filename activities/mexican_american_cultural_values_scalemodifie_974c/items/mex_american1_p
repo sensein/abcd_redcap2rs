@@ -1,0 +1,68 @@
+{
+    "id": "mex_american1_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "mex_american_q1_q4_2affc1_6350ee"
+        }
+    ],
+    "preamble": {
+        "en": "The next statements are about what people may think or believe. Remember, there are no right or wrong answers. Tell me how much you believe that . . .",
+        "es": "Las siguientes frases son acerca de lo que la gente puede pensar o creer. Recuerda, no hay respuestas correctas o incorrectas. Dime que tanto crees que..."
+    },
+    "prefLabel": {
+        "en": "mex_american1_p"
+    },
+    "question": {
+        "en": "One's belief in God gives inner strength and meaning to life.",
+        "es": "La creencia en Dios da fuerza interna y significado a la vida."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at All",
+                    "es": "Nada"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A Little",
+                    "es": "Poquito"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Somewhat",
+                    "es": "Algo"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Very Much",
+                    "es": "Bastante"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Completely",
+                    "es": "Completamente"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

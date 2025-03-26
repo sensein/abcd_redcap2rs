@@ -1,0 +1,36 @@
+{
+    "id": "fitb_s4_q1f_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "History of Activity Tracker Use"
+    },
+    "prefLabel": {
+        "en": "fitb_s4_q1f_p"
+    },
+    "question": {
+        "en": "&nbspHas he/she changed her activity based on the information \n\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0&nbspfrom the tracker?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

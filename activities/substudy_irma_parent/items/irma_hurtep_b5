@@ -1,0 +1,61 @@
+{
+    "id": "irma_hurtep_b5",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "LV"
+        }
+    ],
+    "preamble": {
+        "en": "The following questions are about you and your family's experiences in the days BEFOREHurricane Irma(September 2017).",
+        "es": "Las siguientes preguntas son sobre usted y las experiencias de su familia en los d\u00c3\u00adas ANTES delHurac\u00c3\u00a1n Irma(septiembre de 2017)."
+    },
+    "prefLabel": {
+        "en": "irma_hurtep_b5"
+    },
+    "question": {
+        "en": "How many hours in total did your child spend traveling before the hurricane?",
+        "es": "\u00c2\u00bfCu\u00c3\u00a1ntas horas en total paso tu hijo viajando antes del hurac\u00c3\u00a1n?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Under 2 hours",
+                    "es": "Menos de 2 horas"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2-5 hours",
+                    "es": "2-5 horas"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "5-10 hours",
+                    "es": "5-10 horas"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "More than 10 hours total",
+                    "es": "M\u00c3\u00a1s de 10 horas en total"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

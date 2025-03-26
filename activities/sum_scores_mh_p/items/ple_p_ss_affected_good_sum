@@ -1,0 +1,30 @@
+{
+    "id": "ple_p_ss_affected_good_sum",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "description": {
+        "en": "How Much Affected Good \nValidation: No Minimum"
+    },
+    "preamble": {
+        "en": "Life Events Parent"
+    },
+    "prefLabel": {
+        "en": "ple_p_ss_affected_good_sum"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

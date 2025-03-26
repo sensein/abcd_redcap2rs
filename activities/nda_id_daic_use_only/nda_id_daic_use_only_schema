@@ -1,0 +1,185 @@
+{
+    "id": "nda_id_daic_use_only_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "nda_id_daic_use_only"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/pilot_subject",
+            "items/redo_baseline",
+            "items/baseline_redo_first_pguid",
+            "items/daic_copy_id",
+            "items/daic_sibtwin_copy_type",
+            "items/daic_same_household",
+            "items/daic_sibtwin_copy_yn",
+            "items/id_nda",
+            "items/parent_spanish_preferred",
+            "items/image_data_request_daic",
+            "items/received_image_data_daic",
+            "items/image_data_send_date",
+            "items/image_data_site_contact_md",
+            "items/image_data_site_data_lost",
+            "items/image_data_dental_flag",
+            "items/image_data_missing_files",
+            "items/eprime_mismatch_ok_mid",
+            "items/eprime_mismatch_ok_sst",
+            "items/eprime_mismatch_ok_nback",
+            "items/roll10dice",
+            "items/biospec10perc",
+            "items/roll10dice2",
+            "items/biospec10perc2",
+            "items/nda_id_daic_use_only_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/pilot_subject",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pilot_subject"
+            },
+            {
+                "isAbout": "items/redo_baseline",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "redo_baseline"
+            },
+            {
+                "isAbout": "items/baseline_redo_first_pguid",
+                "isVis": "redo_baseline == '1'",
+                "valueRequired": true,
+                "variableName": "baseline_redo_first_pguid"
+            },
+            {
+                "isAbout": "items/daic_copy_id",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "daic_copy_id"
+            },
+            {
+                "isAbout": "items/daic_sibtwin_copy_type",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "daic_sibtwin_copy_type"
+            },
+            {
+                "isAbout": "items/daic_same_household",
+                "isVis": "event_name_number > '11'",
+                "valueRequired": false,
+                "variableName": "daic_same_household"
+            },
+            {
+                "isAbout": "items/daic_sibtwin_copy_yn",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "daic_sibtwin_copy_yn"
+            },
+            {
+                "isAbout": "items/id_nda",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "id_nda"
+            },
+            {
+                "isAbout": "items/parent_spanish_preferred",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "parent_spanish_preferred"
+            },
+            {
+                "isAbout": "items/image_data_request_daic",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "image_data_request_daic"
+            },
+            {
+                "isAbout": "items/received_image_data_daic",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "received_image_data_daic"
+            },
+            {
+                "isAbout": "items/image_data_send_date",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "image_data_send_date"
+            },
+            {
+                "isAbout": "items/image_data_site_contact_md",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "image_data_site_contact_md"
+            },
+            {
+                "isAbout": "items/image_data_site_data_lost",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "image_data_site_data_lost"
+            },
+            {
+                "isAbout": "items/image_data_dental_flag",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "image_data_dental_flag"
+            },
+            {
+                "isAbout": "items/image_data_missing_files",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "image_data_missing_files"
+            },
+            {
+                "isAbout": "items/eprime_mismatch_ok_mid",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eprime_mismatch_ok_mid"
+            },
+            {
+                "isAbout": "items/eprime_mismatch_ok_sst",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eprime_mismatch_ok_sst"
+            },
+            {
+                "isAbout": "items/eprime_mismatch_ok_nback",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eprime_mismatch_ok_nback"
+            },
+            {
+                "isAbout": "items/roll10dice",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "roll10dice"
+            },
+            {
+                "isAbout": "items/biospec10perc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "biospec10perc"
+            },
+            {
+                "isAbout": "items/roll10dice2",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "roll10dice2"
+            },
+            {
+                "isAbout": "items/biospec10perc2",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "biospec10perc2"
+            },
+            {
+                "isAbout": "items/nda_id_daic_use_only_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nda_id_daic_use_only_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

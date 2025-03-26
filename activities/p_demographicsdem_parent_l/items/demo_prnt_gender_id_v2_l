@@ -1,0 +1,103 @@
+{
+    "id": "demo_prnt_gender_id_v2_l",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDECHOICE='7,8'"
+        }
+    ],
+    "preamble": {
+        "en": "The following questions are about you or the child's family.",
+        "es": "Las siguientes preguntas son acerca de usted o de la familia del ni\u00c3\u00b1o / de la ni\u00c3\u00b1a."
+    },
+    "prefLabel": {
+        "en": "demo_prnt_gender_id_v2_l"
+    },
+    "question": {
+        "en": "What is your current gender identity?",
+        "es": "\u00c2\u00bfCu\u00c3\u00a1l es su identidad de g\u00c3\u00a9nero actual?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Male",
+                    "es": "Hombre"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Female",
+                    "es": "Mujer"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Trans male",
+                    "es": "Transexual masculino / hombre transexual"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Trans female",
+                    "es": "Transexual femenino / mujer transexual"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Gender queer",
+                    "es": "Interg\u00c3\u00a9nero (\"genderqueer\") / No conforme con el g\u00c3\u00a9nero"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Different",
+                    "es": "Otra identididad"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer",
+                    "es": "Niego contestar"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Don't know",
+                    "es": "No lo se"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer",
+                    "es": "Niego contestar"
+                },
+                "value": 777
+            },
+            {
+                "name": {
+                    "en": "Don't know",
+                    "es": "No lo se"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

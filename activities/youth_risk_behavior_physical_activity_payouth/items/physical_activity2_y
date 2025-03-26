@@ -1,0 +1,76 @@
+{
+    "id": "physical_activity2_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "LV"
+        }
+    ],
+    "prefLabel": {
+        "en": "physical_activity2_y"
+    },
+    "question": {
+        "en": "On how many of the past 7 days did you do exercises tostrengthen or tone your muscles, such as push-ups, sit-ups, or weight lifting?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0 days"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "1 day"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "2 days"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "3 days"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "4 days"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "5 days"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "6 days"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "7 days"
+                },
+                "value": 8
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

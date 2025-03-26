@@ -1,0 +1,388 @@
+{
+    "id": "y_alcohol_measures_l_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "y_alcohol_measures_l"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/alc_measure_start_time",
+            "items/aeq_section_q01",
+            "items/aeq_section_q02",
+            "items/aeq_section_q03",
+            "items/aeq_section_q04",
+            "items/aeq_section_q05",
+            "items/aeq_section_q06",
+            "items/aeq_section_q07",
+            "items/subj_resp_alc_1a_l",
+            "items/subj_resp_alc_2a_l",
+            "items/subj_resp_alc_3a_l",
+            "items/subj_resp_alc_4a_l",
+            "items/subj_resp_alc_1b_l",
+            "items/subj_resp_alc_2b_l",
+            "items/subj_resp_alc_3b_l",
+            "items/subj_resp_alc_4b_l",
+            "items/subj_resp_alc_1c_l",
+            "items/subj_resp_alc_2c_l",
+            "items/subj_resp_alc_3c_l",
+            "items/subj_resp_alc_4c_l",
+            "items/hangover1_l",
+            "items/hangover2_l",
+            "items/hangover3_l",
+            "items/hangover4_l",
+            "items/hangover5_l",
+            "items/hangover6_l",
+            "items/hangover7_l",
+            "items/hangover8_l",
+            "items/hangover9_l",
+            "items/hangover10_l",
+            "items/hangover11_l",
+            "items/hangover12_l",
+            "items/hangover13_l",
+            "items/hangover14_l",
+            "items/rapi_section1_q01_l",
+            "items/rapi_section1_q02_l",
+            "items/rapi_section1_q03_l",
+            "items/rapi_section1_q04_l",
+            "items/rapi_section1_q05_l",
+            "items/rapi_section1_q06_l",
+            "items/rapi_section1_q07_l",
+            "items/rapi_section2_q08_l",
+            "items/rapi_section2_q09_l",
+            "items/rapi_section2_q10_l",
+            "items/rapi_section2_q11_l",
+            "items/rapi_section2_q12_l",
+            "items/rapi_section2_q13_l",
+            "items/rapi_section2_q14_l",
+            "items/rapi_section3_q15_l",
+            "items/rapi_section3_q16_l",
+            "items/rapi_section3_q17_l",
+            "items/rapi_section3_q18_l",
+            "items/y_alcohol_measures_l_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/alc_measure_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "alc_measure_start_time"
+            },
+            {
+                "isAbout": "items/aeq_section_q01",
+                "isVis": "tlfb_alc_l == '1' || tlfb_alc_c_l == '1'",
+                "valueRequired": true,
+                "variableName": "aeq_section_q01"
+            },
+            {
+                "isAbout": "items/aeq_section_q02",
+                "isVis": "tlfb_alc_l == '1' || tlfb_alc_c_l == '1'",
+                "valueRequired": true,
+                "variableName": "aeq_section_q02"
+            },
+            {
+                "isAbout": "items/aeq_section_q03",
+                "isVis": "tlfb_alc_l == '1' || tlfb_alc_c_l == '1'",
+                "valueRequired": true,
+                "variableName": "aeq_section_q03"
+            },
+            {
+                "isAbout": "items/aeq_section_q04",
+                "isVis": "tlfb_alc_l == '1' || tlfb_alc_c_l == '1'",
+                "valueRequired": true,
+                "variableName": "aeq_section_q04"
+            },
+            {
+                "isAbout": "items/aeq_section_q05",
+                "isVis": "tlfb_alc_l == '1' || tlfb_alc_c_l == '1'",
+                "valueRequired": true,
+                "variableName": "aeq_section_q05"
+            },
+            {
+                "isAbout": "items/aeq_section_q06",
+                "isVis": "tlfb_alc_l == '1' || tlfb_alc_c_l == '1'",
+                "valueRequired": true,
+                "variableName": "aeq_section_q06"
+            },
+            {
+                "isAbout": "items/aeq_section_q07",
+                "isVis": "tlfb_alc_l == '1' || tlfb_alc_c_l == '1'",
+                "valueRequired": true,
+                "variableName": "aeq_section_q07"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_1a_l",
+                "isVis": "tlfb_alc_use_l == '1' && tlfb_alc_use_c_l == '0'",
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_1a_l"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_2a_l",
+                "isVis": "tlfb_alc_use_l == '1' && tlfb_alc_use_c_l == '0'",
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_2a_l"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_3a_l",
+                "isVis": "tlfb_alc_use_l == '1' && tlfb_alc_use_c_l == '0'",
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_3a_l"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_4a_l",
+                "isVis": "tlfb_alc_use_l == '1' && tlfb_alc_use_c_l == '0'",
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_4a_l"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_1b_l",
+                "isVis": "tlfb_alc_use_l == '1' && tlfb_alc_use_c_l == '0'",
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_1b_l"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_2b_l",
+                "isVis": "tlfb_alc_use_l == '1' && tlfb_alc_use_c_l == '0'",
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_2b_l"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_3b_l",
+                "isVis": "tlfb_alc_use_l == '1' && tlfb_alc_use_c_l == '0'",
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_3b_l"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_4b_l",
+                "isVis": "tlfb_alc_use_l == '1' && tlfb_alc_use_c_l == '0'",
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_4b_l"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_1c_l",
+                "isVis": "tlfb_alc_use_l == '1' && tlfb_alc_use_c_l == '0'",
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_1c_l"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_2c_l",
+                "isVis": "tlfb_alc_use_l == '1' && tlfb_alc_use_c_l == '0'",
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_2c_l"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_3c_l",
+                "isVis": "tlfb_alc_use_l == '1' && tlfb_alc_use_c_l == '0'",
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_3c_l"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_4c_l",
+                "isVis": "tlfb_alc_use_l == '1' && tlfb_alc_use_c_l == '0'",
+                "valueRequired": true,
+                "variableName": "subj_resp_alc_4c_l"
+            },
+            {
+                "isAbout": "items/hangover1_l",
+                "isVis": "xskipout_alc_l == '1'",
+                "valueRequired": true,
+                "variableName": "hangover1_l"
+            },
+            {
+                "isAbout": "items/hangover2_l",
+                "isVis": "xskipout_alc_l == '1'",
+                "valueRequired": true,
+                "variableName": "hangover2_l"
+            },
+            {
+                "isAbout": "items/hangover3_l",
+                "isVis": "xskipout_alc_l == '1'",
+                "valueRequired": true,
+                "variableName": "hangover3_l"
+            },
+            {
+                "isAbout": "items/hangover4_l",
+                "isVis": "xskipout_alc_l == '1'",
+                "valueRequired": true,
+                "variableName": "hangover4_l"
+            },
+            {
+                "isAbout": "items/hangover5_l",
+                "isVis": "xskipout_alc_l == '1'",
+                "valueRequired": true,
+                "variableName": "hangover5_l"
+            },
+            {
+                "isAbout": "items/hangover6_l",
+                "isVis": "xskipout_alc_l == '1'",
+                "valueRequired": true,
+                "variableName": "hangover6_l"
+            },
+            {
+                "isAbout": "items/hangover7_l",
+                "isVis": "xskipout_alc_l == '1'",
+                "valueRequired": true,
+                "variableName": "hangover7_l"
+            },
+            {
+                "isAbout": "items/hangover8_l",
+                "isVis": "xskipout_alc_l == '1'",
+                "valueRequired": true,
+                "variableName": "hangover8_l"
+            },
+            {
+                "isAbout": "items/hangover9_l",
+                "isVis": "xskipout_alc_l == '1'",
+                "valueRequired": true,
+                "variableName": "hangover9_l"
+            },
+            {
+                "isAbout": "items/hangover10_l",
+                "isVis": "xskipout_alc_l == '1'",
+                "valueRequired": true,
+                "variableName": "hangover10_l"
+            },
+            {
+                "isAbout": "items/hangover11_l",
+                "isVis": "xskipout_alc_l == '1'",
+                "valueRequired": true,
+                "variableName": "hangover11_l"
+            },
+            {
+                "isAbout": "items/hangover12_l",
+                "isVis": "xskipout_alc_l == '1'",
+                "valueRequired": true,
+                "variableName": "hangover12_l"
+            },
+            {
+                "isAbout": "items/hangover13_l",
+                "isVis": "xskipout_alc_l == '1'",
+                "valueRequired": true,
+                "variableName": "hangover13_l"
+            },
+            {
+                "isAbout": "items/hangover14_l",
+                "isVis": "xskipout_alc_l == '1'",
+                "valueRequired": true,
+                "variableName": "hangover14_l"
+            },
+            {
+                "isAbout": "items/rapi_section1_q01_l",
+                "isVis": "xskipout_alc_l == '1'",
+                "valueRequired": true,
+                "variableName": "rapi_section1_q01_l"
+            },
+            {
+                "isAbout": "items/rapi_section1_q02_l",
+                "isVis": "xskipout_alc_l == '1'",
+                "valueRequired": true,
+                "variableName": "rapi_section1_q02_l"
+            },
+            {
+                "isAbout": "items/rapi_section1_q03_l",
+                "isVis": "xskipout_alc_l == '1'",
+                "valueRequired": true,
+                "variableName": "rapi_section1_q03_l"
+            },
+            {
+                "isAbout": "items/rapi_section1_q04_l",
+                "isVis": "xskipout_alc_l == '1'",
+                "valueRequired": true,
+                "variableName": "rapi_section1_q04_l"
+            },
+            {
+                "isAbout": "items/rapi_section1_q05_l",
+                "isVis": "xskipout_alc_l == '1'",
+                "valueRequired": true,
+                "variableName": "rapi_section1_q05_l"
+            },
+            {
+                "isAbout": "items/rapi_section1_q06_l",
+                "isVis": "xskipout_alc_l == '1'",
+                "valueRequired": true,
+                "variableName": "rapi_section1_q06_l"
+            },
+            {
+                "isAbout": "items/rapi_section1_q07_l",
+                "isVis": "xskipout_alc_l == '1'",
+                "valueRequired": true,
+                "variableName": "rapi_section1_q07_l"
+            },
+            {
+                "isAbout": "items/rapi_section2_q08_l",
+                "isVis": "xskipout_alc_l == '1'",
+                "valueRequired": true,
+                "variableName": "rapi_section2_q08_l"
+            },
+            {
+                "isAbout": "items/rapi_section2_q09_l",
+                "isVis": "xskipout_alc_l == '1'",
+                "valueRequired": true,
+                "variableName": "rapi_section2_q09_l"
+            },
+            {
+                "isAbout": "items/rapi_section2_q10_l",
+                "isVis": "xskipout_alc_l == '1'",
+                "valueRequired": true,
+                "variableName": "rapi_section2_q10_l"
+            },
+            {
+                "isAbout": "items/rapi_section2_q11_l",
+                "isVis": "xskipout_alc_l == '1'",
+                "valueRequired": true,
+                "variableName": "rapi_section2_q11_l"
+            },
+            {
+                "isAbout": "items/rapi_section2_q12_l",
+                "isVis": "xskipout_alc_l == '1'",
+                "valueRequired": true,
+                "variableName": "rapi_section2_q12_l"
+            },
+            {
+                "isAbout": "items/rapi_section2_q13_l",
+                "isVis": "xskipout_alc_l == '1'",
+                "valueRequired": true,
+                "variableName": "rapi_section2_q13_l"
+            },
+            {
+                "isAbout": "items/rapi_section2_q14_l",
+                "isVis": "xskipout_alc_l == '1'",
+                "valueRequired": true,
+                "variableName": "rapi_section2_q14_l"
+            },
+            {
+                "isAbout": "items/rapi_section3_q15_l",
+                "isVis": "xskipout_alc_l == '1'",
+                "valueRequired": true,
+                "variableName": "rapi_section3_q15_l"
+            },
+            {
+                "isAbout": "items/rapi_section3_q16_l",
+                "isVis": "xskipout_alc_l == '1'",
+                "valueRequired": true,
+                "variableName": "rapi_section3_q16_l"
+            },
+            {
+                "isAbout": "items/rapi_section3_q17_l",
+                "isVis": "xskipout_alc_l == '1'",
+                "valueRequired": true,
+                "variableName": "rapi_section3_q17_l"
+            },
+            {
+                "isAbout": "items/rapi_section3_q18_l",
+                "isVis": "xskipout_alc_l == '1'",
+                "valueRequired": true,
+                "variableName": "rapi_section3_q18_l"
+            },
+            {
+                "isAbout": "items/y_alcohol_measures_l_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "y_alcohol_measures_l_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

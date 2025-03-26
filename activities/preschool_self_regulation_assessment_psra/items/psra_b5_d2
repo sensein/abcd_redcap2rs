@@ -1,0 +1,55 @@
+{
+    "id": "psra_b5_d2",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "LIBRv1.0"
+        }
+    ],
+    "preamble": {
+        "en": "Day 2"
+    },
+    "prefLabel": {
+        "en": "psra_b5_d2"
+    },
+    "question": {
+        "en": "B5. Child has difficulty waiting between tasks"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Transitions between tasks made difficult because of child's activity level/impulsivity"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Child needs multiple prompts to wait while assessor gathers materials for new task"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Child sometimes shows anticipation for interesting task materials but rarely needs reminder"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Child waits patiently for new tasks to begin, shows relaxed body posture during transitions"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,115 @@
+{
+    "id": "genomics_sample_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "genomics_sample"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/genom_experiment_id",
+            "items/genom_sample_description",
+            "items/genom_sample_id_original",
+            "items/genom_organism",
+            "items/genom_sample_amount",
+            "items/genom_sample_unit",
+            "items/genom_data_file1_type",
+            "items/genom_data_file1",
+            "items/genom_storage_protocol",
+            "items/genom_data_file_location",
+            "items/genom_biorepository",
+            "items/genom_patient_id_biorepository",
+            "items/genom_sample_id_biorepository",
+            "items/genomics_sample_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/genom_experiment_id",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "genom_experiment_id"
+            },
+            {
+                "isAbout": "items/genom_sample_description",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "genom_sample_description"
+            },
+            {
+                "isAbout": "items/genom_sample_id_original",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "genom_sample_id_original"
+            },
+            {
+                "isAbout": "items/genom_organism",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "genom_organism"
+            },
+            {
+                "isAbout": "items/genom_sample_amount",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "genom_sample_amount"
+            },
+            {
+                "isAbout": "items/genom_sample_unit",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "genom_sample_unit"
+            },
+            {
+                "isAbout": "items/genom_data_file1_type",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "genom_data_file1_type"
+            },
+            {
+                "isAbout": "items/genom_data_file1",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "genom_data_file1"
+            },
+            {
+                "isAbout": "items/genom_storage_protocol",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "genom_storage_protocol"
+            },
+            {
+                "isAbout": "items/genom_data_file_location",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "genom_data_file_location"
+            },
+            {
+                "isAbout": "items/genom_biorepository",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "genom_biorepository"
+            },
+            {
+                "isAbout": "items/genom_patient_id_biorepository",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "genom_patient_id_biorepository"
+            },
+            {
+                "isAbout": "items/genom_sample_id_biorepository",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "genom_sample_id_biorepository"
+            },
+            {
+                "isAbout": "items/genomics_sample_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "genomics_sample_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

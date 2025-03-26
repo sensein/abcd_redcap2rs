@@ -1,0 +1,33 @@
+{
+    "id": "youth_notes_yn",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "youth_notes_yn"
+    },
+    "question": {
+        "en": "Any issues with the youth assessments (i.e. technical problems, instruments that were not administered, concerns etc.)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

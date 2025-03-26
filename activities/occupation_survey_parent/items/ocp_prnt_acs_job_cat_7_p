@@ -1,0 +1,55 @@
+{
+    "id": "ocp_prnt_acs_job_cat_7_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "\u00e2\u0080\u00a2 If you had no job or business last week, give information for your last job or business.",
+        "es": "\u00e2\u0080\u00a2 Si no tuvo trabajo o negocio la semana pasada, provea informaci\u00c3\u00b3n acerca de su \u00c3\u00baltimo trabajo o negocio."
+    },
+    "prefLabel": {
+        "en": "ocp_prnt_acs_job_cat_7_p"
+    },
+    "question": {
+        "en": "Please specify the Education, Training, and Library  Occupations Job Title:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Postsecondary Teachers"
+                },
+                "value": 25100
+            },
+            {
+                "name": {
+                    "en": "Preschool, Primary, Secondary, and Special Education School Teachers"
+                },
+                "value": 25200
+            },
+            {
+                "name": {
+                    "en": "Other Teachers and Instructors"
+                },
+                "value": 25300
+            },
+            {
+                "name": {
+                    "en": "Librarians, Curators, and Archivists"
+                },
+                "value": 25400
+            },
+            {
+                "name": {
+                    "en": "Other Education, Training, and Library Occupations"
+                },
+                "value": 25900
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,35 @@
+{
+    "id": "baseline_complete",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "date_mdy"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@TODAY @READONLY\r\n@HIDDEN"
+        }
+    ],
+    "preamble": {
+        "en": "TOTAL TIME across however many sessions were needed:(Include imaging, breaks, and all other components - \r\ndo not include phone screening and scheduling.)"
+    },
+    "prefLabel": {
+        "en": "baseline_complete"
+    },
+    "question": {
+        "en": "Baseline completed date"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "date",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

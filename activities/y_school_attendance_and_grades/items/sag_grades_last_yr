@@ -1,0 +1,102 @@
+{
+    "id": "sag_grades_last_yr",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Now we'd like you to pick the best answer about your grades."
+    },
+    "prefLabel": {
+        "en": "sag_grades_last_yr"
+    },
+    "question": {
+        "en": "What grades did you receive in school last year? Please look at the list and pick the line that best describes your grades in school last year."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "A+ / 97-100 /4.0 or higher / Exceeding the Standards / Exceeds excellent"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A / 93-96 / 3.70-3.99 / Exceeding the Standards / Excellent"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A- / 90-92 / 3.5-3.69 /Meeting the Standards / Approaching Excellent"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "B+ / 87-89 / 3.30-3.49 /Meeting the Standards / Very Good"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "B / 83-86 /3.00-3.29 / Meeting the Standards / Very Good"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "B- / 80-82 / 2.70-2.99 / Approaching Proficiency / Approaching Very Good"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "C+ / 77-79 / 2.30-2.69 / Approaching Proficiency / Good+"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "C / 73-76 / 2.29 - 2.29 / Approaching Proficiency / Good"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "C- / 70-72 / 1.70-1.99 / Beginning / Approaching Good"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "D+ / 67-69 / 1.30-1.69 / Beginning / Satisfactory"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "D / 65-66 / 1.00-1.29 / Beginning / Sufficient"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "F / 0-65 / 0.00 - 0.99 / No Evidence / Standards / Fail (Does not meet minimum standards)"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

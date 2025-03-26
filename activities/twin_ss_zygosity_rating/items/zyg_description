@@ -1,0 +1,32 @@
+{
+    "id": "zyg_description",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        },
+        {
+            "column": "Choices, Calculations, OR Slider Labels (Descriptive Field)",
+            "source": "redcap",
+            "value": "[{\"name\": {\"en\": \"Twin1 (t1)\\r\\n2, Twin2 (t2)\"}, \"value\": 1}]"
+        }
+    ],
+    "prefLabel": {
+        "en": "zyg_description"
+    },
+    "question": {
+        "en": "Identification of twin 1 and twin 2\r\nIf 1 this co-twin is twin1 for both comparisons.\r\nIf 2 this co-twin is twin2 for both comparisons.\r\n\r\nCo-twins can be matched by sorting by \"rel_family_id\" and \"rel_group_id\" where \"rel_group_id\" = 2 (twin). These variables can be found in the ACS instrument."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

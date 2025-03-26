@@ -1,0 +1,45 @@
+{
+    "id": "medhx_2m",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "med_dx"
+        }
+    ],
+    "preamble": {
+        "en": "Has she/he ever been to a doctor for any of these things...",
+        "es": "\u00c2\u00bfAlguna vez ha visitado  \u00c3\u00a9l/ella a un m\u00c3\u00a9dico por cualquiera de las siguientes razones?"
+    },
+    "prefLabel": {
+        "en": "medhx_2m"
+    },
+    "question": {
+        "en": "Multiple Sclerosis",
+        "es": "Esclerosis m\u00c3\u00baltiple"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

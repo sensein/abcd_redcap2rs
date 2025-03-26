@@ -1,0 +1,53 @@
+{
+    "id": "sai_p_lmusic_2",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "<span lang=\"en\">If you don't know, please choose \"don't know\" in what follows below</span><span lang=\"es\" style=\"color:maroon;\">   Si no sabe, por favor escoja \"no se\" en lo que sigue abajo.</span>"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Text Validation Min",
+            "source": "redcap",
+            "value": "0"
+        },
+        {
+            "column": "Text Validation Max",
+            "source": "redcap",
+            "value": "10.0"
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        }
+    ],
+    "preamble": {
+        "en": "Just a few more questions...",
+        "es": "S\u00c3\u00b3lo unas pocas preguntas m\u00c3\u00a1s..."
+    },
+    "prefLabel": {
+        "en": "sai_p_lmusic_2"
+    },
+    "question": {
+        "en": "For how many years has your child listened to music for pleasure?",
+        "es": "\u00c2\u00bfPor cu\u00c3\u00a1ntos a\u00c3\u00b1os ha escuchado su ni\u00c3\u00b1o(a) la m\u00c3\u00basica por placer?"
+    },
+    "responseOptions": {
+        "maxValue": 10,
+        "minValue": 0,
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

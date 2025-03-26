@@ -1,0 +1,56 @@
+{
+    "id": "fhx_ss_parent_drugs",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Family History of Problems"
+    },
+    "prefLabel": {
+        "en": "fhx_ss_parent_drugs"
+    },
+    "question": {
+        "en": "Overall parents drug use problem."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "none"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "father only"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "mother only"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "both"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

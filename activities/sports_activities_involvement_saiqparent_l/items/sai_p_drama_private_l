@@ -1,0 +1,47 @@
+{
+    "id": "sai_p_drama_private_l",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        }
+    ],
+    "preamble": {
+        "en": "Theater, Acting, Film",
+        "es": "Teatro, actuaci\u00c3\u00b3n, cinematograf\u00c3\u00ada"
+    },
+    "prefLabel": {
+        "en": "sai_p_drama_private_l"
+    },
+    "question": {
+        "en": "Did your child receive individual private instruction?",
+        "es": "\u00c2\u00bfSu ni\u00c3\u00b1o(a) recibi\u00c3\u00b3 instrucci\u00c3\u00b3n privada individual?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

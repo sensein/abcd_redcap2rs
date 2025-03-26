@@ -1,0 +1,99 @@
+{
+    "id": "ksads_r_intro_33_t",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "ksads_r_intro_33_t"
+    },
+    "question": null,
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Biological mother"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Biological father"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Stepmother"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Stepfather"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Adopted mother"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Adopted father"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Foster parent"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Grandmother"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Grandfather"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Aunt"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Uncle"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 12
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

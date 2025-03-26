@@ -1,0 +1,41 @@
+{
+    "id": "scrn_percept_corr",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "If unsure, ask if the child is able to sufficiently hear without the correction device during brain scans, which may require the device to be removed. Mark NO if child is not able to sufficiently hear during brain scans  without a correction device."
+        }
+    ],
+    "prefLabel": {
+        "en": "scrn_percept_corr"
+    },
+    "question": {
+        "en": "\"Can these problems be corrected with glasses, hearing aids, or other devices?\"",
+        "es": "\"\u00c2\u00bfEstos problemas pueden corregirse con lentes, aparatos auditivos o otros dispositivos?\""
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No - GO TO END"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

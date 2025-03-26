@@ -1,0 +1,48 @@
+{
+    "id": "demo_prnt_years_us_v2",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "<span lang=\"en\">If you don't know, please choose \"don't know\" in what follows below</span><span lang=\"es\" style=\"color:maroon;\">   Si no sabe, por favor escoja \"no se\" en lo que sigue abajo.</span>"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Text Validation Min",
+            "source": "redcap",
+            "value": "1"
+        },
+        {
+            "column": "Text Validation Max",
+            "source": "redcap",
+            "value": "100.0"
+        }
+    ],
+    "preamble": {
+        "en": "Okay, I am now going to ask you a series of questions about the different members of your child's family and where they were born:",
+        "es": "Bien, ahora voy a hacerle una serie de preguntas sobre los diferentes miembros de la familia de su ni\u00c3\u00b1o(a) y d\u00c3\u00b3nde nacieron."
+    },
+    "prefLabel": {
+        "en": "demo_prnt_years_us_v2"
+    },
+    "question": {
+        "en": "How many years have you lived in the United States?",
+        "es": "\u00c2\u00bfCu\u00c3\u00a1ntos a\u00c3\u00b1os lleva usted viviendo en los Estados Unidos?"
+    },
+    "responseOptions": {
+        "maxValue": 100,
+        "minValue": 1,
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

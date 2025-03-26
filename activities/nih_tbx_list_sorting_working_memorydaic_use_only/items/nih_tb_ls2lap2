@@ -1,0 +1,45 @@
+{
+    "id": "nih_tb_ls2lap2",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "nih_tb_ls2lap2"
+    },
+    "question": {
+        "en": "nih_tb_LS2LAP2"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "If participant says PINEAPPLE, FROG, TIGER, say: That's right.  Click this button; then click NEXT."
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "If participant gives a wrong order, say: Let's try that again.  You saw a frog, a pineapple, and a tiger.  The pineapple is a food; the frog is the smallest animal, and the tiger is the biggest animal.  Now, you tell me the food in size order starting with the smallest food, and THEN the animals in size order, from smallest to biggest.  If participant says PINEAPPLE, FROG, TIGER, say: That's right. Click this button; then click NEXT."
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "If incorrect again, say: Let's try that once more. Click PLAY again.  When screen is blank, repeat above. If participant knows food, then animals in size order, say: That's right. Click this button; then click NEXT."
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "If participant does not know food and then animals after 3 trials, click this button; then click NEXT. Test will be discontinued."
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

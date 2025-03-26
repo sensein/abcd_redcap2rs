@@ -1,0 +1,451 @@
+{
+    "id": "occupation_survey_parent_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "occupation_survey_parent"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ocp_start_time_p",
+            "items/ocp_p_select_language",
+            "items/ocp_prnt_work_na_p",
+            "items/ocp_prnt_acs_buisness_txt_p",
+            "items/ocp_prnt_acs_indust_code_p",
+            "items/ocp_descrip_acs_indust_code_p",
+            "items/ocp_prnt_acs_ocp_txt_p",
+            "items/ocp_prnt_acs_ocp_code_p",
+            "items/ocp_descrip_ocp_code_p",
+            "items/ocp_prnt_acs_job_cat_1_p",
+            "items/ocp_prnt_acs_job_cat_2_p",
+            "items/ocp_prnt_acs_job_cat_3_p",
+            "items/ocp_prnt_acs_job_cat_4_p",
+            "items/ocp_prnt_acs_job_cat_5_p",
+            "items/ocp_prnt_acs_job_cat_6_p",
+            "items/ocp_prnt_acs_job_cat_7_p",
+            "items/ocp_prnt_acs_job_cat_8_p",
+            "items/ocp_prnt_acs_job_cat_9_p",
+            "items/ocp_prnt_acs_job_cat_10_p",
+            "items/ocp_prnt_acs_job_cat_11_p",
+            "items/ocp_prnt_acs_job_cat_12_p",
+            "items/ocp_prnt_acs_job_cat_13_p",
+            "items/ocp_prnt_acs_job_cat_14_p",
+            "items/ocp_prnt_acs_job_cat_15_p",
+            "items/ocp_prnt_acs_job_cat_16_p",
+            "items/ocp_prnt_acs_job_cat_17_p",
+            "items/ocp_prnt_acs_job_cat_18_p",
+            "items/ocp_prnt_acs_job_cat_19_p",
+            "items/ocp_prnt_acs_job_cat_20_p",
+            "items/ocp_prnt_acs_job_cat_21_p",
+            "items/ocp_prnt_acs_job_cat_22_p",
+            "items/ocp_prnt_acs_job_cat_23_p",
+            "items/ocp_prtnr_p",
+            "items/ocp_prtnr_work_na_p",
+            "items/ocp_prtnr_acs_business_txt_p",
+            "items/ocp_prtnr_acs_indust_code_p",
+            "items/ocp_prtnr_acs_ocp_job_txt_p",
+            "items/ocp_prtnr_acs_ocp_code_p",
+            "items/ocp_prtnr_acs_job_cat_1_p",
+            "items/ocp_prtnr_acs_job_cat_2_p",
+            "items/ocp_prtnr_acs_job_cat_3_p",
+            "items/ocp_prtnr_acs_job_cat_4_p",
+            "items/ocp_prtnr_acs_job_cat_5_p",
+            "items/ocp_prtnr_acs_job_cat_6_p",
+            "items/ocp_prtnr_acs_job_cat_7_p",
+            "items/ocp_prtnr_acs_job_cat_8_p",
+            "items/ocp_prtnr_acs_job_cat_9_p",
+            "items/ocp_prtnr_acs_job_cat_10_p",
+            "items/ocp_prtnr_acs_job_cat_11_p",
+            "items/ocp_prtnr_acs_job_cat_12_p",
+            "items/ocp_prtnr_acs_job_cat_13_p",
+            "items/ocp_prtnr_acs_job_cat_14_p",
+            "items/ocp_prtnr_acs_job_cat_15_p",
+            "items/ocp_prtnr_acs_job_cat_16_p",
+            "items/ocp_prtnr_acs_job_cat_17_p",
+            "items/ocp_prtnr_acs_job_cat_18_p",
+            "items/ocp_prtnr_acs_job_cat_19_p",
+            "items/ocp_prtnr_acs_job_cat_20_p",
+            "items/ocp_prtnr_acs_job_cat_21_p",
+            "items/ocp_prtnr_acs_job_cat_22_p",
+            "items/ocp_prtnr_acs_job_cat_23_p",
+            "items/occupation_survey_parent_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ocp_start_time_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ocp_start_time_p"
+            },
+            {
+                "isAbout": "items/ocp_p_select_language",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ocp_p_select_language"
+            },
+            {
+                "isAbout": "items/ocp_prnt_work_na_p",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ocp_prnt_work_na_p"
+            },
+            {
+                "isAbout": "items/ocp_prnt_acs_buisness_txt_p",
+                "isVis": "ocp_prnt_work_na_p___0 <> '1'",
+                "valueRequired": true,
+                "variableName": "ocp_prnt_acs_buisness_txt_p"
+            },
+            {
+                "isAbout": "items/ocp_prnt_acs_indust_code_p",
+                "isVis": "ocp_prnt_work_na_p___0 <> '1'",
+                "valueRequired": true,
+                "variableName": "ocp_prnt_acs_indust_code_p"
+            },
+            {
+                "isAbout": "items/ocp_descrip_acs_indust_code_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ocp_descrip_acs_indust_code_p"
+            },
+            {
+                "isAbout": "items/ocp_prnt_acs_ocp_txt_p",
+                "isVis": "ocp_prnt_work_na_p___0 <> '1'",
+                "valueRequired": true,
+                "variableName": "ocp_prnt_acs_ocp_txt_p"
+            },
+            {
+                "isAbout": "items/ocp_prnt_acs_ocp_code_p",
+                "isVis": "ocp_prnt_work_na_p___0 <> '1'",
+                "valueRequired": true,
+                "variableName": "ocp_prnt_acs_ocp_code_p"
+            },
+            {
+                "isAbout": "items/ocp_descrip_ocp_code_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ocp_descrip_ocp_code_p"
+            },
+            {
+                "isAbout": "items/ocp_prnt_acs_job_cat_1_p",
+                "isVis": "ocp_prnt_acs_ocp_code_p == '1'",
+                "valueRequired": true,
+                "variableName": "ocp_prnt_acs_job_cat_1_p"
+            },
+            {
+                "isAbout": "items/ocp_prnt_acs_job_cat_2_p",
+                "isVis": "ocp_prnt_acs_ocp_code_p == '2'",
+                "valueRequired": true,
+                "variableName": "ocp_prnt_acs_job_cat_2_p"
+            },
+            {
+                "isAbout": "items/ocp_prnt_acs_job_cat_3_p",
+                "isVis": "ocp_prnt_acs_ocp_code_p == '3'",
+                "valueRequired": true,
+                "variableName": "ocp_prnt_acs_job_cat_3_p"
+            },
+            {
+                "isAbout": "items/ocp_prnt_acs_job_cat_4_p",
+                "isVis": "ocp_prnt_acs_ocp_code_p == '4'",
+                "valueRequired": true,
+                "variableName": "ocp_prnt_acs_job_cat_4_p"
+            },
+            {
+                "isAbout": "items/ocp_prnt_acs_job_cat_5_p",
+                "isVis": "ocp_prnt_acs_ocp_code_p == '5'",
+                "valueRequired": true,
+                "variableName": "ocp_prnt_acs_job_cat_5_p"
+            },
+            {
+                "isAbout": "items/ocp_prnt_acs_job_cat_6_p",
+                "isVis": "ocp_prnt_acs_ocp_code_p == '6'",
+                "valueRequired": true,
+                "variableName": "ocp_prnt_acs_job_cat_6_p"
+            },
+            {
+                "isAbout": "items/ocp_prnt_acs_job_cat_7_p",
+                "isVis": "ocp_prnt_acs_ocp_code_p == '7'",
+                "valueRequired": true,
+                "variableName": "ocp_prnt_acs_job_cat_7_p"
+            },
+            {
+                "isAbout": "items/ocp_prnt_acs_job_cat_8_p",
+                "isVis": "ocp_prnt_acs_ocp_code_p == '8'",
+                "valueRequired": true,
+                "variableName": "ocp_prnt_acs_job_cat_8_p"
+            },
+            {
+                "isAbout": "items/ocp_prnt_acs_job_cat_9_p",
+                "isVis": "ocp_prnt_acs_ocp_code_p == '9'",
+                "valueRequired": true,
+                "variableName": "ocp_prnt_acs_job_cat_9_p"
+            },
+            {
+                "isAbout": "items/ocp_prnt_acs_job_cat_10_p",
+                "isVis": "ocp_prnt_acs_ocp_code_p == '10'",
+                "valueRequired": true,
+                "variableName": "ocp_prnt_acs_job_cat_10_p"
+            },
+            {
+                "isAbout": "items/ocp_prnt_acs_job_cat_11_p",
+                "isVis": "ocp_prnt_acs_ocp_code_p == '11'",
+                "valueRequired": true,
+                "variableName": "ocp_prnt_acs_job_cat_11_p"
+            },
+            {
+                "isAbout": "items/ocp_prnt_acs_job_cat_12_p",
+                "isVis": "ocp_prnt_acs_ocp_code_p == '12'",
+                "valueRequired": true,
+                "variableName": "ocp_prnt_acs_job_cat_12_p"
+            },
+            {
+                "isAbout": "items/ocp_prnt_acs_job_cat_13_p",
+                "isVis": "ocp_prnt_acs_ocp_code_p == '13'",
+                "valueRequired": true,
+                "variableName": "ocp_prnt_acs_job_cat_13_p"
+            },
+            {
+                "isAbout": "items/ocp_prnt_acs_job_cat_14_p",
+                "isVis": "ocp_prnt_acs_ocp_code_p == '14'",
+                "valueRequired": true,
+                "variableName": "ocp_prnt_acs_job_cat_14_p"
+            },
+            {
+                "isAbout": "items/ocp_prnt_acs_job_cat_15_p",
+                "isVis": "ocp_prnt_acs_ocp_code_p == '15'",
+                "valueRequired": true,
+                "variableName": "ocp_prnt_acs_job_cat_15_p"
+            },
+            {
+                "isAbout": "items/ocp_prnt_acs_job_cat_16_p",
+                "isVis": "ocp_prnt_acs_ocp_code_p == '16'",
+                "valueRequired": true,
+                "variableName": "ocp_prnt_acs_job_cat_16_p"
+            },
+            {
+                "isAbout": "items/ocp_prnt_acs_job_cat_17_p",
+                "isVis": "ocp_prnt_acs_ocp_code_p == '17'",
+                "valueRequired": true,
+                "variableName": "ocp_prnt_acs_job_cat_17_p"
+            },
+            {
+                "isAbout": "items/ocp_prnt_acs_job_cat_18_p",
+                "isVis": "ocp_prnt_acs_ocp_code_p == '18'",
+                "valueRequired": true,
+                "variableName": "ocp_prnt_acs_job_cat_18_p"
+            },
+            {
+                "isAbout": "items/ocp_prnt_acs_job_cat_19_p",
+                "isVis": "ocp_prnt_acs_ocp_code_p == '19'",
+                "valueRequired": true,
+                "variableName": "ocp_prnt_acs_job_cat_19_p"
+            },
+            {
+                "isAbout": "items/ocp_prnt_acs_job_cat_20_p",
+                "isVis": "ocp_prnt_acs_ocp_code_p == '20'",
+                "valueRequired": true,
+                "variableName": "ocp_prnt_acs_job_cat_20_p"
+            },
+            {
+                "isAbout": "items/ocp_prnt_acs_job_cat_21_p",
+                "isVis": "ocp_prnt_acs_ocp_code_p == '21'",
+                "valueRequired": true,
+                "variableName": "ocp_prnt_acs_job_cat_21_p"
+            },
+            {
+                "isAbout": "items/ocp_prnt_acs_job_cat_22_p",
+                "isVis": "ocp_prnt_acs_ocp_code_p == '22'",
+                "valueRequired": true,
+                "variableName": "ocp_prnt_acs_job_cat_22_p"
+            },
+            {
+                "isAbout": "items/ocp_prnt_acs_job_cat_23_p",
+                "isVis": "ocp_prnt_acs_ocp_code_p == '23'",
+                "valueRequired": true,
+                "variableName": "ocp_prnt_acs_job_cat_23_p"
+            },
+            {
+                "isAbout": "items/ocp_prtnr_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ocp_prtnr_p"
+            },
+            {
+                "isAbout": "items/ocp_prtnr_work_na_p",
+                "isVis": "ocp_prtnr_p==1",
+                "valueRequired": false,
+                "variableName": "ocp_prtnr_work_na_p"
+            },
+            {
+                "isAbout": "items/ocp_prtnr_acs_business_txt_p",
+                "isVis": "ocp_prtnr_p==1 && ocp_prtnr_work_na_p___0<>1",
+                "valueRequired": true,
+                "variableName": "ocp_prtnr_acs_business_txt_p"
+            },
+            {
+                "isAbout": "items/ocp_prtnr_acs_indust_code_p",
+                "isVis": "ocp_prtnr_p==1 && ocp_prtnr_work_na_p___0<>1",
+                "valueRequired": true,
+                "variableName": "ocp_prtnr_acs_indust_code_p"
+            },
+            {
+                "isAbout": "items/ocp_prtnr_acs_ocp_job_txt_p",
+                "isVis": "ocp_prtnr_p==1 && ocp_prtnr_work_na_p___0<>1",
+                "valueRequired": true,
+                "variableName": "ocp_prtnr_acs_ocp_job_txt_p"
+            },
+            {
+                "isAbout": "items/ocp_prtnr_acs_ocp_code_p",
+                "isVis": "ocp_prtnr_p==1 && ocp_prtnr_work_na_p___0<>1",
+                "valueRequired": true,
+                "variableName": "ocp_prtnr_acs_ocp_code_p"
+            },
+            {
+                "isAbout": "items/ocp_prtnr_acs_job_cat_1_p",
+                "isVis": "ocp_prtnr_acs_ocp_code_p == '1'",
+                "valueRequired": true,
+                "variableName": "ocp_prtnr_acs_job_cat_1_p"
+            },
+            {
+                "isAbout": "items/ocp_prtnr_acs_job_cat_2_p",
+                "isVis": "ocp_prtnr_acs_ocp_code_p == '2'",
+                "valueRequired": true,
+                "variableName": "ocp_prtnr_acs_job_cat_2_p"
+            },
+            {
+                "isAbout": "items/ocp_prtnr_acs_job_cat_3_p",
+                "isVis": "ocp_prtnr_acs_ocp_code_p == '3'",
+                "valueRequired": true,
+                "variableName": "ocp_prtnr_acs_job_cat_3_p"
+            },
+            {
+                "isAbout": "items/ocp_prtnr_acs_job_cat_4_p",
+                "isVis": "ocp_prtnr_acs_ocp_code_p == '4'",
+                "valueRequired": true,
+                "variableName": "ocp_prtnr_acs_job_cat_4_p"
+            },
+            {
+                "isAbout": "items/ocp_prtnr_acs_job_cat_5_p",
+                "isVis": "ocp_prtnr_acs_ocp_code_p == '5'",
+                "valueRequired": true,
+                "variableName": "ocp_prtnr_acs_job_cat_5_p"
+            },
+            {
+                "isAbout": "items/ocp_prtnr_acs_job_cat_6_p",
+                "isVis": "ocp_prtnr_acs_ocp_code_p == '6'",
+                "valueRequired": true,
+                "variableName": "ocp_prtnr_acs_job_cat_6_p"
+            },
+            {
+                "isAbout": "items/ocp_prtnr_acs_job_cat_7_p",
+                "isVis": "ocp_prtnr_acs_ocp_code_p == '7'",
+                "valueRequired": true,
+                "variableName": "ocp_prtnr_acs_job_cat_7_p"
+            },
+            {
+                "isAbout": "items/ocp_prtnr_acs_job_cat_8_p",
+                "isVis": "ocp_prtnr_acs_ocp_code_p == '8'",
+                "valueRequired": true,
+                "variableName": "ocp_prtnr_acs_job_cat_8_p"
+            },
+            {
+                "isAbout": "items/ocp_prtnr_acs_job_cat_9_p",
+                "isVis": "ocp_prtnr_acs_ocp_code_p == '9'",
+                "valueRequired": true,
+                "variableName": "ocp_prtnr_acs_job_cat_9_p"
+            },
+            {
+                "isAbout": "items/ocp_prtnr_acs_job_cat_10_p",
+                "isVis": "ocp_prtnr_acs_ocp_code_p == '10'",
+                "valueRequired": true,
+                "variableName": "ocp_prtnr_acs_job_cat_10_p"
+            },
+            {
+                "isAbout": "items/ocp_prtnr_acs_job_cat_11_p",
+                "isVis": "ocp_prtnr_acs_ocp_code_p == '11'",
+                "valueRequired": true,
+                "variableName": "ocp_prtnr_acs_job_cat_11_p"
+            },
+            {
+                "isAbout": "items/ocp_prtnr_acs_job_cat_12_p",
+                "isVis": "ocp_prtnr_acs_ocp_code_p == '12'",
+                "valueRequired": true,
+                "variableName": "ocp_prtnr_acs_job_cat_12_p"
+            },
+            {
+                "isAbout": "items/ocp_prtnr_acs_job_cat_13_p",
+                "isVis": "ocp_prtnr_acs_ocp_code_p == '13'",
+                "valueRequired": true,
+                "variableName": "ocp_prtnr_acs_job_cat_13_p"
+            },
+            {
+                "isAbout": "items/ocp_prtnr_acs_job_cat_14_p",
+                "isVis": "ocp_prtnr_acs_ocp_code_p == '14'",
+                "valueRequired": true,
+                "variableName": "ocp_prtnr_acs_job_cat_14_p"
+            },
+            {
+                "isAbout": "items/ocp_prtnr_acs_job_cat_15_p",
+                "isVis": "ocp_prtnr_acs_ocp_code_p == '15'",
+                "valueRequired": true,
+                "variableName": "ocp_prtnr_acs_job_cat_15_p"
+            },
+            {
+                "isAbout": "items/ocp_prtnr_acs_job_cat_16_p",
+                "isVis": "ocp_prtnr_acs_ocp_code_p == '16'",
+                "valueRequired": true,
+                "variableName": "ocp_prtnr_acs_job_cat_16_p"
+            },
+            {
+                "isAbout": "items/ocp_prtnr_acs_job_cat_17_p",
+                "isVis": "ocp_prtnr_acs_ocp_code_p == '17'",
+                "valueRequired": true,
+                "variableName": "ocp_prtnr_acs_job_cat_17_p"
+            },
+            {
+                "isAbout": "items/ocp_prtnr_acs_job_cat_18_p",
+                "isVis": "ocp_prtnr_acs_ocp_code_p == '18'",
+                "valueRequired": true,
+                "variableName": "ocp_prtnr_acs_job_cat_18_p"
+            },
+            {
+                "isAbout": "items/ocp_prtnr_acs_job_cat_19_p",
+                "isVis": "ocp_prtnr_acs_ocp_code_p == '19'",
+                "valueRequired": true,
+                "variableName": "ocp_prtnr_acs_job_cat_19_p"
+            },
+            {
+                "isAbout": "items/ocp_prtnr_acs_job_cat_20_p",
+                "isVis": "ocp_prtnr_acs_ocp_code_p == '20'",
+                "valueRequired": true,
+                "variableName": "ocp_prtnr_acs_job_cat_20_p"
+            },
+            {
+                "isAbout": "items/ocp_prtnr_acs_job_cat_21_p",
+                "isVis": "ocp_prtnr_acs_ocp_code_p == '21'",
+                "valueRequired": true,
+                "variableName": "ocp_prtnr_acs_job_cat_21_p"
+            },
+            {
+                "isAbout": "items/ocp_prtnr_acs_job_cat_22_p",
+                "isVis": "ocp_prtnr_acs_ocp_code_p == '22'",
+                "valueRequired": true,
+                "variableName": "ocp_prtnr_acs_job_cat_22_p"
+            },
+            {
+                "isAbout": "items/ocp_prtnr_acs_job_cat_23_p",
+                "isVis": "ocp_prtnr_acs_ocp_code_p == '23'",
+                "valueRequired": true,
+                "variableName": "ocp_prtnr_acs_job_cat_23_p"
+            },
+            {
+                "isAbout": "items/occupation_survey_parent_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "occupation_survey_parent_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

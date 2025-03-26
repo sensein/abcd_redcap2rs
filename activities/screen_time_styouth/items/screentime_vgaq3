@@ -1,0 +1,73 @@
+{
+    "id": "screentime_vgaq3",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "screentime_vgaq"
+        }
+    ],
+    "preamble": {
+        "en": "VGAQ"
+    },
+    "prefLabel": {
+        "en": "screentime_vgaq3"
+    },
+    "question": {
+        "en": "I play video games so I can forget about my problems."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Very rarely"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Rarely"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Often"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Very often"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

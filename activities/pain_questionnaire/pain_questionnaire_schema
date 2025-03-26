@@ -1,0 +1,80 @@
+{
+    "id": "pain_questionnaire_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "pain_questionnaire"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/pain_start_time",
+            "items/pain_last_month",
+            "items/pain_bodymap_male",
+            "items/pain_bodymap_female",
+            "items/pain_scale",
+            "items/pain_scale_worst",
+            "items/pain_how_long",
+            "items/pain_limit",
+            "items/pain_questionnaire_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/pain_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pain_start_time"
+            },
+            {
+                "isAbout": "items/pain_last_month",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pain_last_month"
+            },
+            {
+                "isAbout": "items/pain_bodymap_male",
+                "isVis": "pain_last_month == '1' &&(baseline_year_1_arm_1demo_sex_v2b == '1' || baseline_year_1_arm_1demo_sex_v2b == '3')",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_male"
+            },
+            {
+                "isAbout": "items/pain_bodymap_female",
+                "isVis": "pain_last_month == '1' &&(baseline_year_1_arm_1demo_sex_v2b == '2' || baseline_year_1_arm_1demo_sex_v2b == '4')",
+                "valueRequired": true,
+                "variableName": "pain_bodymap_female"
+            },
+            {
+                "isAbout": "items/pain_scale",
+                "isVis": "pain_last_month == '1'",
+                "valueRequired": true,
+                "variableName": "pain_scale"
+            },
+            {
+                "isAbout": "items/pain_scale_worst",
+                "isVis": "pain_last_month == '1'",
+                "valueRequired": true,
+                "variableName": "pain_scale_worst"
+            },
+            {
+                "isAbout": "items/pain_how_long",
+                "isVis": "pain_last_month == '1'",
+                "valueRequired": true,
+                "variableName": "pain_how_long"
+            },
+            {
+                "isAbout": "items/pain_limit",
+                "isVis": "pain_last_month == '1'",
+                "valueRequired": true,
+                "variableName": "pain_limit"
+            },
+            {
+                "isAbout": "items/pain_questionnaire_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pain_questionnaire_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,80 @@
+{
+    "id": "tlfb_6mo_lsd_use_type_l",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "Please check all that apply."
+        }
+    ],
+    "preamble": {
+        "en": "Interviewer: DO NOT READ the list of substances aloud, instead select the drugs this participant has used since we last saw them on [asnt_timestamp_c]."
+    },
+    "prefLabel": {
+        "en": "tlfb_6mo_lsd_use_type_l"
+    },
+    "question": {
+        "en": "Which of these have you used since we last saw you on [asnt_timestamp_c]?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "LSD or acid"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "PCP or angel dust"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Peyote"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Mescaline"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "DMT"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "AMT"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Foxy"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 9
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

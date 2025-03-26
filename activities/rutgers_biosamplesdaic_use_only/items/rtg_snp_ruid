@@ -1,0 +1,30 @@
+{
+    "id": "rtg_snp_ruid",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "96 SNP panel reported by Rutgers"
+    },
+    "prefLabel": {
+        "en": "rtg_snp_ruid"
+    },
+    "question": {
+        "en": "Assigned Rutgers ID for this sample"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

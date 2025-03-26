@@ -1,0 +1,39 @@
+{
+    "id": "socialdev_crd_24c",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "socialdev_crd_24c"
+    },
+    "question": {
+        "en": "Did you do this activity:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "By yourself"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "With a friend"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "In a group"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,26 @@
+{
+    "id": "blood_pressure_pulse_3",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        }
+    ],
+    "prefLabel": {
+        "en": "blood_pressure_pulse_3"
+    },
+    "question": {
+        "en": "Test #3\npulse/min"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

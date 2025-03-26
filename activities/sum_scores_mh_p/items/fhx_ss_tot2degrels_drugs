@@ -1,0 +1,35 @@
+{
+    "id": "fhx_ss_tot2degrels_drugs",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Family History of Problems"
+    },
+    "prefLabel": {
+        "en": "fhx_ss_tot2degrels_drugs"
+    },
+    "question": {
+        "en": "Total number of 2nd degree relatives (excluding siblings) nonmissing drug use problem variables, including fhx_ss_patgf_prob_drugs , fhx_ss_patgm_prob_drugs , fhx_ss_matgf_prob_drugs , fhx_ss_matgm_prob_drugs , fhx_ss_patunc1_prob_drugs , fhx_ss_patunc2_prob_drugs , fhx_ss_patunc3_prob_drugs , fhx_ss_patunc4_prob_drugs , fhx_ss_patunc5_prob_drugs , fhx_ss_matunc1_prob_drugs , fhx_ss_matunc2_prob_drugs , fhx_ss_matunc3_prob_drugs , fhx_ss_matunc4_prob_drugs , fhx_ss_matunc5_prob_drugs , fhx_ss_patant1_prob_drugs , fhx_ss_patant2_prob_drugs , fhx_ss_patant3_prob_drugs , fhx_ss_patant4_prob_drugs , fhx_ss_patant5_prob_drugs , fhx_ss_matant1_prob_drugs , fhx_ss_matant2_prob_drugs , fhx_ss_matant3_prob_drugs , fhx_ss_matant4_prob_drugs , fhx_ss_matant5_prob_drugs"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

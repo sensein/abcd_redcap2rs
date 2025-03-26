@@ -1,0 +1,46 @@
+{
+    "id": "tlfb_blunt_lt",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "(grams)"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Text Validation Min",
+            "source": "redcap",
+            "value": "0"
+        },
+        {
+            "column": "Text Validation Max",
+            "source": "redcap",
+            "value": "1000.0"
+        }
+    ],
+    "preamble": {
+        "en": "Lifetime QuantityFor the drugs you have tried, I want to know how many times you have used them in your life. We are going to measure this in standard units, do not worry, I will help you with each drug to measure this in standard units, such as one beer, one cigarette, or one gram of marijuana.Interviewer: measure the estimated standard units they have used in their lifetime, refer to the table, and only ask about drugs they endorsed using."
+    },
+    "prefLabel": {
+        "en": "tlfb_blunt_lt"
+    },
+    "question": {
+        "en": "How many BLUNTS have you used in your life? (grams). [Interviewer Note: If blunt ONLY contains MJ, then count as smoked MJ.]"
+    },
+    "responseOptions": {
+        "maxValue": 1000,
+        "minValue": 0,
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

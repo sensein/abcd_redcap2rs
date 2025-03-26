@@ -1,0 +1,35 @@
+{
+    "id": "anthro_timestamp",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "datetime_mdy"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@NOW @READONLY @READONLY HIDEFROMCOMPLETION"
+        }
+    ],
+    "preamble": {
+        "en": "Abdominal (Waist) Circumference"
+    },
+    "prefLabel": {
+        "en": "anthro_timestamp"
+    },
+    "question": {
+        "en": "Current Time:"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:dateTime"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

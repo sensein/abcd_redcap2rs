@@ -1,0 +1,120 @@
+{
+    "id": "mypi_fav_class2",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "2."
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "2."
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN-FORM\r\nHIDEFROMCOMPLETION20190322"
+        }
+    ],
+    "preamble": {
+        "en": "Let's get started!"
+    },
+    "prefLabel": {
+        "en": "mypi_fav_class2"
+    },
+    "question": {
+        "en": "What is yourfavoriteclass or topic at school?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Art/Photography/Film"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Computer Science"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "English/Language Arts"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Foreign Language"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "History/Social Studies"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Leadership/Student Government"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Math"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Media Studies"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Music/Performing Arts"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Science"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "P.E/Athletics"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

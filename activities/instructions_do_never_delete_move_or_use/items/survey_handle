@@ -1,0 +1,32 @@
+{
+    "id": "survey_handle",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "email"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN @READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "survey_handle"
+    },
+    "question": {
+        "en": "Do not enter any participant identifying information (i.e. email) into this field. This field is here for technical reasons only and should not be used."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "email",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

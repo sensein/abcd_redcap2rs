@@ -1,0 +1,34 @@
+{
+    "id": "scrn_nr_hair_remove",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "scrn_nr_hair_remove"
+    },
+    "question": {
+        "en": "\"Can they be removed for the MRI scan or within the next few months?\"",
+        "es": "\"\u00c2\u00bfSe pueden remover para la toma de im\u00c3\u00a1genes de MRI o en los pr\u00c3\u00b3ximos meses?\""
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

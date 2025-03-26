@@ -1,0 +1,33 @@
+{
+    "id": "nih_tb_dccs_shape_prac1",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "nih_tb_dccs_shape_prac1"
+    },
+    "question": {
+        "en": "nih_tb_DCCS_SHAPE_PRAC1"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "WhiteRabbit"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "BrownBoat"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

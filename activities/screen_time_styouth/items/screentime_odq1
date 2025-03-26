@@ -1,0 +1,48 @@
+{
+    "id": "screentime_odq1",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "ODQ"
+    },
+    "prefLabel": {
+        "en": "screentime_odq1"
+    },
+    "question": {
+        "en": "Have you ever used a dating app?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "I don't know what that is?"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

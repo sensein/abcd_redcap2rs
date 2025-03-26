@@ -1,0 +1,54 @@
+{
+    "id": "zyg_t2_eye_col",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Co-Twin:"
+    },
+    "prefLabel": {
+        "en": "zyg_t2_eye_col"
+    },
+    "question": {
+        "en": "Eye Color:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "blue"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "gray"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "green"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "hazel"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "brown"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

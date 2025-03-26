@@ -1,0 +1,59 @@
+{
+    "id": "menstrualcycle3_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "10"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "10"
+        }
+    ],
+    "preamble": {
+        "en": "Now I'm going to ask you some questions about the history of your daughter's menstrual cycle. If you do not remember specific details, just try to answer as best you can.",
+        "es": "Ahora le haremos algunas preguntas sobre el historial del ciclo menstrual de su ni\u00c3\u00b1a. Si no recuerda los detalles espec\u00c3\u00adficos, solo intente responder lo mejor que pueda."
+    },
+    "prefLabel": {
+        "en": "menstrualcycle3_p"
+    },
+    "question": {
+        "en": "Is her menstrual cycle regular?",
+        "es": "\u00c2\u00bfEl ciclo menstrual de ella es regular?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't know",
+                    "es": "No s\u00c3\u00a9"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

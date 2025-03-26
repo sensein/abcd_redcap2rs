@@ -1,0 +1,47 @@
+{
+    "id": "fitpr_physical_health_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20181006"
+        }
+    ],
+    "preamble": {
+        "en": "Some examples of physical activity are running, brisk walking, rollerblading, biking, skateboarding, dancing, swimming, soccer, basketball, football, and surfing.",
+        "es": "Algunos ejemplos de actividad f\u00c3\u00adsica son correr, caminar r\u00c3\u00a1pido, patinar, andar en bicicleta, patinar, bailar, nadar, jugar f\u00c3\u00batbol, jugar b\u00c3\u00a1squetbol, f\u00c3\u00batbol americano y hacer surf."
+    },
+    "prefLabel": {
+        "en": "fitpr_physical_health_p"
+    },
+    "question": {
+        "en": "In your opinion, do you think the amount of physical activity your child does is healthy?",
+        "es": "En su opini\u00c3\u00b3n, \u00c2\u00bfcree usted que la cantidad de actividad f\u00c3\u00adsica que su hijo/a hace es saludable?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,108 @@
+{
+    "id": "y_discrimination_measure_l_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "y_discrimination_measure_l"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/dim_start_time",
+            "items/dim_yesno_q1",
+            "items/dim_yesno_q2",
+            "items/dim_yesno_q3",
+            "items/dim_yesno_q4",
+            "items/dim_matrix_q1",
+            "items/dim_matrix_q2",
+            "items/dim_matrix_q3",
+            "items/dim_matrix_q4",
+            "items/dim_matrix_q5",
+            "items/dim_matrix_q6",
+            "items/dim_matrix_q7",
+            "items/y_discrimination_measure_l_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/dim_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "dim_start_time"
+            },
+            {
+                "isAbout": "items/dim_yesno_q1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "dim_yesno_q1"
+            },
+            {
+                "isAbout": "items/dim_yesno_q2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "dim_yesno_q2"
+            },
+            {
+                "isAbout": "items/dim_yesno_q3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "dim_yesno_q3"
+            },
+            {
+                "isAbout": "items/dim_yesno_q4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "dim_yesno_q4"
+            },
+            {
+                "isAbout": "items/dim_matrix_q1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "dim_matrix_q1"
+            },
+            {
+                "isAbout": "items/dim_matrix_q2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "dim_matrix_q2"
+            },
+            {
+                "isAbout": "items/dim_matrix_q3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "dim_matrix_q3"
+            },
+            {
+                "isAbout": "items/dim_matrix_q4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "dim_matrix_q4"
+            },
+            {
+                "isAbout": "items/dim_matrix_q5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "dim_matrix_q5"
+            },
+            {
+                "isAbout": "items/dim_matrix_q6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "dim_matrix_q6"
+            },
+            {
+                "isAbout": "items/dim_matrix_q7",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "dim_matrix_q7"
+            },
+            {
+                "isAbout": "items/y_discrimination_measure_l_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "y_discrimination_measure_l_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,34 @@
+{
+    "id": "scrn_met_injmdnote",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "scrn_met_injmdnote"
+    },
+    "question": {
+        "en": "\"Would you be willing to give us a doctor's note confirming that?\"",
+        "es": "\"\u00c2\u00bfEstar\u00c3\u00ada dispuesto a proporcionarnos una nota de su m\u00c3\u00a9dico que lo confirme?\""
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No - GO TO END"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

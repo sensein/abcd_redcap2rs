@@ -1,0 +1,40 @@
+{
+    "id": "demo_prtnr_empl_time",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "The following questions are about your partner. Your \"partner\" refers to any significant figure in your life that helps you in raising your child or has helped you for more than 2 years. This person should be involved 40% or more of the daily activities your child does. For example, your partner could be your spouse. However, your partner could also be your boyfriend/girlfriend or relative.",
+        "es": "Las siguientes preguntas son acerca de su pareja.  Su \"pareja\" se refiere a cualquier persona importante en su vida que le ayude a criar a su ni\u00c3\u00b1o(a) o que le haya ayudado durante m\u00c3\u00a1s de 2 a\u00c3\u00b1os. Esta persona debe participar en 40% o m\u00c3\u00a1s de las actividades diarias de su ni\u00c3\u00b1o(a) . Por ejemplo, su pareja podr\u00c3\u00ada ser su c\u00c3\u00b3nyuge;  sin embargo, tambi\u00c3\u00a9n podr\u00c3\u00ada ser un(a) novio(a) o un pariente."
+    },
+    "prefLabel": {
+        "en": "demo_prtnr_empl_time"
+    },
+    "question": {
+        "en": "Work Full time or Part time?",
+        "es": "a. \u00c2\u00bfTrabaja de tiempo completo o medio tiempo?</span"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Full time",
+                    "es": "Tiempo COMPLETO"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Part time",
+                    "es": "MEDIO Tiempo"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

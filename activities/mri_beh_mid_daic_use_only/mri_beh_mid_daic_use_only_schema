@@ -1,0 +1,1711 @@
+{
+    "id": "mri_beh_mid_daic_use_only_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "mri_beh_mid_daic_use_only"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/tfmri_mid_beh_visitid",
+            "items/tfmri_mid_beh_switchflag",
+            "items/tfmri_mid_beh_performflag",
+            "items/tfmri_mid_beh_nruns",
+            "items/tfmri_mid_all_beh_total_numtrials",
+            "items/tfmri_mid_run1_beh_total_numtrials",
+            "items/tfmri_mid_run2_beh_total_numtrails",
+            "items/tfmri_mid_all_beh_smallreward_numtrails",
+            "items/tfmri_mid_all_beh_smallreward_meanrt",
+            "items/tfmri_mid_all_beh_smallreward_stdrt",
+            "items/tfmri_mid_run1_beh_smallreward_numtrails",
+            "items/tfmri_mid_run1_beh_smallreward_meanrt",
+            "items/tfmri_mid_run1_beh_smallreward_stdrt",
+            "items/tfmri_mid_run2_beh_smallreward_numtrails",
+            "items/tfmri_mid_run2_beh_smallreward_meanrt",
+            "items/tfmri_mid_run2_beh_smallreward_stdrt",
+            "items/tfmri_mid_all_beh_smallrewardposfeedback_numtrials",
+            "items/tfmri_mid_all_beh_smallrewardposfeedback_rate",
+            "items/tfmri_mid_all_beh_smallrewardposfeedback_meanrt",
+            "items/tfmri_mid_all_beh_smallrewardposfeedback_stdrt",
+            "items/tfmri_mid_run1_beh_smallrewardposfeedback_numtrials",
+            "items/tfmri_mid_run1_beh_smallrewardposfeedback_rate",
+            "items/tfmri_mid_run1_beh_smallrewardposfeedback_meanrt",
+            "items/tfmri_mid_run1_beh_smallrewardposfeedback_stdrt",
+            "items/tfmri_mid_run2_beh_smallrewardposfeedback_numtrials",
+            "items/tfmri_mid_run2_beh_smallrewardposfeedback_rate",
+            "items/tfmri_mid_run2_beh_smallrewardposfeedback_meanrt",
+            "items/tfmri_mid_run2_beh_smallrewardposfeedback_stdrt",
+            "items/tfmri_mid_all_beh_smallrewardnegfeedback_numtrials",
+            "items/tfmri_mid_all_beh_smallrewardnegfeedback_rate",
+            "items/tfmri_mid_all_beh_smallrewardnegfeedback_meanrt",
+            "items/tfmri_mid_all_beh_smallrewardnegfeedback_stdrt",
+            "items/tfmri_mid_run1_beh_smallrewardnegfeedback_numtrials",
+            "items/tfmri_mid_run1_beh_smallrewardnegfeedback_rate",
+            "items/tfmri_mid_run1_beh_smallrewardnegfeedback_meanrt",
+            "items/tfmri_mid_run1_beh_smallrewardnegfeedback_stdrt",
+            "items/tfmri_mid_run2_beh_smallrewardnegfeedback_numtrials",
+            "items/tfmri_mid_run2_beh_smallrewardnegfeedback_rate",
+            "items/tfmri_mid_run2_beh_smallrewardnegfeedback_meanrt",
+            "items/tfmri_mid_run2_beh_smallrewardnegfeedback_stdrt",
+            "items/tfmri_mid_all_beh_largereward_numtrials",
+            "items/tfmri_mid_all_beh_largereward_meanrt",
+            "items/tfmri_mid_all_beh_largereward_stdrt",
+            "items/tfmri_mid_run1_beh_largereward_numtrials",
+            "items/tfmri_mid_run1_beh_largereward_meanrt",
+            "items/tfmri_mid_run1_beh_largereward_stdrt",
+            "items/tfmri_mid_run2_beh_largereward_numtrials",
+            "items/tfmri_mid_run2_beh_largereward_meanrt",
+            "items/tfmri_mid_run2_beh_largereward_stdrt",
+            "items/tfmri_mid_all_beh_largerewardposfeedback_numtrials",
+            "items/tfmri_mid_all_beh_largerewardposfeedback_rate",
+            "items/tfmri_mid_all_beh_largerewardposfeedback_meanrt",
+            "items/tfmri_mid_all_beh_largerewardposfeedback_stdrt",
+            "items/tfmri_mid_run1_beh_largerewardposfeedback_numtrials",
+            "items/tfmri_mid_run1_beh_largerewardposfeedback_rate",
+            "items/tfmri_mid_run1_beh_largerewardposfeedback_meanrt",
+            "items/tfmri_mid_run1_beh_largerewardposfeedback_stdrt",
+            "items/tfmri_mid_run2_beh_largerewardposfeedback_numtrials",
+            "items/tfmri_mid_run2_beh_largerewardposfeedback_rate",
+            "items/tfmri_mid_run2_beh_largerewardposfeedback_meanrt",
+            "items/tfmri_mid_run2_beh_largerewardposfeedback_stdrt",
+            "items/tfmri_mid_all_beh_largerewardnegfeedback_numtrials",
+            "items/tfmri_mid_all_beh_largerewardnegfeedback_rate",
+            "items/tfmri_mid_all_beh_largerewardnegfeedback_meanrt",
+            "items/tfmri_mid_all_beh_largerewardnegfeedback_stdrt",
+            "items/tfmri_mid_run1_beh_largerewardnegfeedback_numtrials",
+            "items/tfmri_mid_run1_beh_largerewardnegfeedback_rate",
+            "items/tfmri_mid_run1_beh_largerewardnegfeedback_meanrt",
+            "items/tfmri_mid_run1_beh_largerewardnegfeedback_stdrt",
+            "items/tfmri_mid_run2_beh_largerewardnegfeedback_numtrials",
+            "items/tfmri_mid_run2_beh_largerewardnegfeedback_rate",
+            "items/tfmri_mid_run2_beh_largerewardnegfeedback_meanrt",
+            "items/tfmri_mid_run2_beh_largerewardnegfeedback_stdrt",
+            "items/tfmri_mid_all_beh_smallloss_numtrials",
+            "items/tfmri_mid_all_beh_smallloss_meanrt",
+            "items/tfmri_mid_all_beh_smallloss_stdrt",
+            "items/tfmri_mid_run1_beh_smallloss_numtrials",
+            "items/tfmri_mid_run1_beh_smallloss_meanrt",
+            "items/tfmri_mid_run1_beh_smallloss_stdrt",
+            "items/tfmri_mid_run2_beh_smallloss_numtrials",
+            "items/tfmri_mid_run2_beh_smallloss_meanrt",
+            "items/tfmri_mid_run2_beh_smallloss_stdrt",
+            "items/tfmri_mid_all_beh_smalllossposfeedback_numtrials",
+            "items/tfmri_mid_all_beh_smalllossposfeedback_rate",
+            "items/tfmri_mid_all_beh_smalllossposfeedback_meanrt",
+            "items/tfmri_mid_all_beh_smalllossposfeedback_stdrt",
+            "items/tfmri_mid_run1_beh_smalllossposfeedback_numtrials",
+            "items/tfmri_mid_run1_beh_smalllossposfeedback_rate",
+            "items/tfmri_mid_run1_beh_smalllossposfeedback_meanrt",
+            "items/tfmri_mid_run1_beh_smalllossposfeedback_stdrt",
+            "items/tfmri_mid_run2_beh_smalllossposfeedback_numtrials",
+            "items/tfmri_mid_run2_beh_smalllossposfeedback_rate",
+            "items/tfmri_mid_run2_beh_smalllossposfeedback_meanrt",
+            "items/tfmri_mid_run2_beh_smalllossposfeedback_stdrt",
+            "items/tfmri_mid_all_beh_smalllossnegfeedback_numtrials",
+            "items/tfmri_mid_all_beh_smalllossnegfeedback_rate",
+            "items/tfmri_mid_all_beh_smalllossnegfeedback_meanrt",
+            "items/tfmri_mid_all_beh_smalllossnegfeedback_stdrt",
+            "items/tfmri_mid_run1_beh_smalllossnegfeedback_numtrials",
+            "items/tfmri_mid_run1_beh_smalllossnegfeedback_rate",
+            "items/tfmri_mid_run1_beh_smalllossnegfeedback_meanrt",
+            "items/tfmri_mid_run1_beh_smalllossnegfeedback_stdrt",
+            "items/tfmri_mid_run2_beh_smalllossnegfeedback_numtrials",
+            "items/tfmri_mid_run2_beh_smalllossnegfeedback_rate",
+            "items/tfmri_mid_run2_beh_smalllossnegfeedback_meanrt",
+            "items/tfmri_mid_run2_beh_smalllossnegfeedback_stdrt",
+            "items/tfmri_mid_all_beh_largeloss_numtrials",
+            "items/tfmri_mid_all_beh_largeloss_meanrt",
+            "items/tfmri_mid_all_beh_largeloss_stdrt",
+            "items/tfmri_mid_run1_beh_largeloss_numtrials",
+            "items/tfmri_mid_run1_beh_largeloss_meanrt",
+            "items/tfmri_mid_run1_beh_largeloss_stdrt",
+            "items/tfmri_mid_run2_beh_largeloss_numtrials",
+            "items/tfmri_mid_run2_beh_largeloss_meanrt",
+            "items/tfmri_mid_run2_beh_largeloss_stdrt",
+            "items/tfmri_mid_all_beh_largelossposfeedback_numtrials",
+            "items/tfmri_mid_all_beh_largelossposfeedback_rate",
+            "items/tfmri_mid_all_beh_largelossposfeedback_meanrt",
+            "items/tfmri_mid_all_beh_largelossposfeedback_stdrt",
+            "items/tfmri_mid_run1_beh_largelossposfeedback_numtrials",
+            "items/tfmri_mid_run1_beh_largelossposfeedback_rate",
+            "items/tfmri_mid_run1_beh_largelossposfeedback_meanrt",
+            "items/tfmri_mid_run1_beh_largelossposfeedback_stdrt",
+            "items/tfmri_mid_run2_beh_largelossposfeedback_numtrials",
+            "items/tfmri_mid_run2_beh_largelossposfeedback_rate",
+            "items/tfmri_mid_run2_beh_largelossposfeedback_meanrt",
+            "items/tfmri_mid_run2_beh_largelossposfeedback_stdrt",
+            "items/tfmri_mid_all_beh_largelossnegfeedback_numtrials",
+            "items/tfmri_mid_all_beh_largelossnegfeedback_rate",
+            "items/tfmri_mid_all_beh_largelossnegfeedback_meanrt",
+            "items/tfmri_mid_all_beh_largelossnegfeedback_stdrt",
+            "items/tfmri_mid_run1_beh_largelossnegfeedback_numtrials",
+            "items/tfmri_mid_run1_beh_largelossnegfeedback_rate",
+            "items/tfmri_mid_run1_beh_largelossnegfeedback_meanrt",
+            "items/tfmri_mid_run1_beh_largelossnegfeedback_stdrt",
+            "items/tfmri_mid_run2_beh_largelossnegfeedback_numtrials",
+            "items/tfmri_mid_run2_beh_largelossnegfeedback_rate",
+            "items/tfmri_mid_run2_beh_largelossnegfeedback_meanrt",
+            "items/tfmri_mid_run2_beh_largelossnegfeedback_stdrt",
+            "items/tfmri_mid_all_beh_neutral_numtrials",
+            "items/tfmri_mid_all_beh_neutral_meanrt",
+            "items/tfmri_mid_all_beh_neutral_stdrt",
+            "items/tfmri_mid_run1_beh_neutral_numtrials",
+            "items/tfmri_mid_run1_beh_neutral_meanrt",
+            "items/tfmri_mid_run1_beh_neutral_stdrt",
+            "items/tfmri_mid_run2_beh_neutral_numtrials",
+            "items/tfmri_mid_run2_beh_neutral_meanrt",
+            "items/tfmri_mid_run2_beh_neutral_stdrt",
+            "items/tfmri_mid_all_beh_neutralposfeedback_numtrials",
+            "items/tfmri_mid_all_beh_neutralposfeedback_rate",
+            "items/tfmri_mid_all_beh_neutralposfeedback_meanrt",
+            "items/tfmri_mid_all_beh_neutralposfeedback_stdrt",
+            "items/tfmri_mid_run1_beh_neutralposfeedback_numtrials",
+            "items/tfmri_mid_run1_beh_neutralposfeedback_rate",
+            "items/tfmri_mid_run1_beh_neutralposfeedback_meanrt",
+            "items/tfmri_mid_run1_beh_neutralposfeedback_stdrt",
+            "items/tfmri_mid_run2_beh_neutralposfeedback_numtrials",
+            "items/tfmri_mid_run2_beh_neutralposfeedback_rate",
+            "items/tfmri_mid_run2_beh_neutralposfeedback_meanrt",
+            "items/tfmri_mid_run2_beh_neutralposfeedback_stdrt",
+            "items/tfmri_mid_all_beh_neutralnegfeedback_numtrials",
+            "items/tfmri_mid_all_beh_neutralnegfeedback_rate",
+            "items/tfmri_mid_all_beh_neutralnegfeedback_meanrt",
+            "items/tfmri_mid_all_beh_neutralnegfeedback_stdrt",
+            "items/tfmri_mid_run1_beh_neutralnegfeedback_numtrials",
+            "items/tfmri_mid_run1_beh_neutralnegfeedback_rate",
+            "items/tfmri_mid_run1_beh_neutralnegfeedback_meanrt",
+            "items/tfmri_mid_run1_beh_neutralnegfeedback_stdrt",
+            "items/tfmri_mid_run2_beh_neutralnegfeedback_numtrials",
+            "items/tfmri_mid_run2_beh_neutralnegfeedback_rate",
+            "items/tfmri_mid_run2_beh_neutralnegfeedback_meanrt",
+            "items/tfmri_mid_run2_beh_neutralnegfeedback_stdrt",
+            "items/tfmri_mid_all_beh_hiloreward_numtrials",
+            "items/tfmri_mid_all_beh_hiloreward_meanrt",
+            "items/tfmri_mid_all_beh_hiloreward_stdrt",
+            "items/tfmri_mid_run1_beh_hiloreward_numtrials",
+            "items/tfmri_mid_run1_beh_hiloreward_meanrt",
+            "items/tfmri_mid_run1_beh_hiloreward_stdrt",
+            "items/tfmri_mid_run2_beh_hiloreward_numtrials",
+            "items/tfmri_mid_run2_beh_hiloreward_meanrt",
+            "items/tfmri_mid_run2_beh_hiloreward_stdrt",
+            "items/tfmri_mid_all_beh_hilorewardposfeedback_numtrials",
+            "items/tfmri_mid_all_beh_hilorewardposfeedback_rate",
+            "items/tfmri_mid_all_beh_hilorewardposfeedback_meanrt",
+            "items/tfmri_mid_all_beh_hilorewardposfeedback_stdrt",
+            "items/tfmri_mid_run1_beh_hilorewardposfeedback_numtrials",
+            "items/tfmri_mid_run1_beh_hilorewardposfeedback_rate",
+            "items/tfmri_mid_run1_beh_hilorewardposfeedback_meanrt",
+            "items/tfmri_mid_run1_beh_hilorewardposfeedback_stdrt",
+            "items/tfmri_mid_run2_beh_hilorewardposfeedback_numtrials",
+            "items/tfmri_mid_run2_beh_hilorewardposfeedback_rate",
+            "items/tfmri_mid_run2_beh_hilorewardposfeedback_meanrt",
+            "items/tfmri_mid_run2_beh_hilorewardposfeedback_stdrt",
+            "items/tfmri_mid_all_beh_hilorewardnegfeedback_numtrials",
+            "items/tfmri_mid_all_beh_hilorewardnegfeedback_rate",
+            "items/tfmri_mid_all_beh_hilorewardnegfeedback_meanrt",
+            "items/tfmri_mid_all_beh_hilorewardnegfeedback_stdrt",
+            "items/tfmri_mid_run1_beh_hilorewardnegfeedback_numtrials",
+            "items/tfmri_mid_run1_beh_hilorewardnegfeedback_rate",
+            "items/tfmri_mid_run1_beh_hilorewardnegfeedback_meanrt",
+            "items/tfmri_mid_run1_beh_hilorewardnegfeedback_stdrt",
+            "items/tfmri_mid_run2_beh_hilorewardnegfeedback_numtrials",
+            "items/tfmri_mid_run2_beh_hilorewardnegfeedback_rate",
+            "items/tfmri_mid_run2_beh_hilorewardnegfeedback_meanrt",
+            "items/tfmri_mid_run2_beh_hilorewardnegfeedback_stdrt",
+            "items/tfmri_mid_all_beh_hiloloss_numtrials",
+            "items/tfmri_mid_all_beh_hiloloss_meanrt",
+            "items/tfmri_mid_all_beh_hiloloss_stdrt",
+            "items/tfmri_mid_run1_beh_hiloloss_numtrials",
+            "items/tfmri_mid_run1_beh_hiloloss_meanrt",
+            "items/tfmri_mid_run1_beh_hiloloss_stdrt",
+            "items/tfmri_mid_run2_beh_hiloloss_numtrials",
+            "items/tfmri_mid_run2_beh_hiloloss_meanrt",
+            "items/tfmri_mid_run2_beh_hiloloss_stdrt",
+            "items/tfmri_mid_all_beh_hilolossposfeedback_numtrials",
+            "items/tfmri_mid_all_beh_hilolossposfeedback_rate",
+            "items/tfmri_mid_all_beh_hilolossposfeedback_meanrt",
+            "items/tfmri_mid_all_beh_hilolossposfeedback_stdrt",
+            "items/tfmri_mid_run1_beh_hilolossposfeedback_numtrials",
+            "items/tfmri_mid_run1_beh_hilolossposfeedback_rate",
+            "items/tfmri_mid_run1_beh_hilolossposfeedback_meanrt",
+            "items/tfmri_mid_run1_beh_hilolossposfeedback_stdrt",
+            "items/tfmri_mid_run2_beh_hilolossposfeedback_numtrials",
+            "items/tfmri_mid_run2_beh_hilolossposfeedback_rate",
+            "items/tfmri_mid_run2_beh_hilolossposfeedback_meanrt",
+            "items/tfmri_mid_run2_beh_hilolossposfeedback_stdrt",
+            "items/tfmri_mid_all_beh_hilolossnegfeedback_numtrials",
+            "items/tfmri_mid_all_beh_hilolossnegfeedback_rate",
+            "items/tfmri_mid_all_beh_hilolossnegfeedback_meanrt",
+            "items/tfmri_mid_all_beh_hilolossnegfeedback_stdrt",
+            "items/tfmri_mid_run1_beh_hilolossnegfeedback_numtrials",
+            "items/tfmri_mid_run1_beh_hilolossnegfeedback_rate",
+            "items/tfmri_mid_run1_beh_hilolossnegfeedback_meanrt",
+            "items/tfmri_mid_run1_beh_hilolossnegfeedback_stdrt",
+            "items/tfmri_mid_run2_beh_hilolossnegfeedback_numtrials",
+            "items/tfmri_mid_run2_beh_hilolossnegfeedback_rate",
+            "items/tfmri_mid_run2_beh_hilolossnegfeedback_meanrt",
+            "items/tfmri_mid_run2_beh_hilolossnegfeedback_stdrt",
+            "items/tfmri_mid_all_beh_total_earnings",
+            "items/tfmri_mid_run1_beh_total_earnings",
+            "items/tfmri_mid_run2_beh_total_earnings",
+            "items/mri_beh_mid_daic_use_only_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/tfmri_mid_beh_visitid",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_beh_visitid"
+            },
+            {
+                "isAbout": "items/tfmri_mid_beh_switchflag",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_beh_switchflag"
+            },
+            {
+                "isAbout": "items/tfmri_mid_beh_performflag",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_beh_performflag"
+            },
+            {
+                "isAbout": "items/tfmri_mid_beh_nruns",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_beh_nruns"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_total_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_total_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_total_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_total_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_total_numtrails",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_total_numtrails"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_smallreward_numtrails",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_smallreward_numtrails"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_smallreward_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_smallreward_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_smallreward_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_smallreward_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_smallreward_numtrails",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_smallreward_numtrails"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_smallreward_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_smallreward_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_smallreward_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_smallreward_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_smallreward_numtrails",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_smallreward_numtrails"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_smallreward_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_smallreward_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_smallreward_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_smallreward_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_smallrewardposfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_smallrewardposfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_smallrewardposfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_smallrewardposfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_smallrewardposfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_smallrewardposfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_smallrewardposfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_smallrewardposfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_smallrewardposfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_smallrewardposfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_smallrewardposfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_smallrewardposfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_smallrewardposfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_smallrewardposfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_smallrewardposfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_smallrewardposfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_smallrewardposfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_smallrewardposfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_smallrewardposfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_smallrewardposfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_smallrewardposfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_smallrewardposfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_smallrewardposfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_smallrewardposfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_smallrewardnegfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_smallrewardnegfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_smallrewardnegfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_smallrewardnegfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_smallrewardnegfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_smallrewardnegfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_smallrewardnegfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_smallrewardnegfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_smallrewardnegfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_smallrewardnegfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_smallrewardnegfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_smallrewardnegfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_smallrewardnegfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_smallrewardnegfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_smallrewardnegfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_smallrewardnegfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_smallrewardnegfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_smallrewardnegfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_smallrewardnegfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_smallrewardnegfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_smallrewardnegfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_smallrewardnegfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_smallrewardnegfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_smallrewardnegfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_largereward_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_largereward_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_largereward_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_largereward_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_largereward_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_largereward_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_largereward_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_largereward_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_largereward_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_largereward_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_largereward_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_largereward_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_largereward_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_largereward_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_largereward_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_largereward_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_largereward_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_largereward_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_largerewardposfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_largerewardposfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_largerewardposfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_largerewardposfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_largerewardposfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_largerewardposfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_largerewardposfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_largerewardposfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_largerewardposfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_largerewardposfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_largerewardposfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_largerewardposfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_largerewardposfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_largerewardposfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_largerewardposfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_largerewardposfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_largerewardposfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_largerewardposfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_largerewardposfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_largerewardposfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_largerewardposfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_largerewardposfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_largerewardposfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_largerewardposfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_largerewardnegfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_largerewardnegfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_largerewardnegfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_largerewardnegfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_largerewardnegfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_largerewardnegfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_largerewardnegfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_largerewardnegfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_largerewardnegfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_largerewardnegfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_largerewardnegfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_largerewardnegfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_largerewardnegfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_largerewardnegfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_largerewardnegfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_largerewardnegfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_largerewardnegfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_largerewardnegfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_largerewardnegfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_largerewardnegfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_largerewardnegfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_largerewardnegfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_largerewardnegfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_largerewardnegfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_smallloss_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_smallloss_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_smallloss_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_smallloss_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_smallloss_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_smallloss_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_smallloss_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_smallloss_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_smallloss_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_smallloss_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_smallloss_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_smallloss_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_smallloss_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_smallloss_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_smallloss_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_smallloss_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_smallloss_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_smallloss_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_smalllossposfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_smalllossposfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_smalllossposfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_smalllossposfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_smalllossposfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_smalllossposfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_smalllossposfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_smalllossposfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_smalllossposfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_smalllossposfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_smalllossposfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_smalllossposfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_smalllossposfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_smalllossposfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_smalllossposfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_smalllossposfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_smalllossposfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_smalllossposfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_smalllossposfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_smalllossposfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_smalllossposfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_smalllossposfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_smalllossposfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_smalllossposfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_smalllossnegfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_smalllossnegfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_smalllossnegfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_smalllossnegfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_smalllossnegfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_smalllossnegfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_smalllossnegfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_smalllossnegfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_smalllossnegfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_smalllossnegfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_smalllossnegfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_smalllossnegfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_smalllossnegfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_smalllossnegfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_smalllossnegfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_smalllossnegfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_smalllossnegfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_smalllossnegfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_smalllossnegfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_smalllossnegfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_smalllossnegfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_smalllossnegfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_smalllossnegfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_smalllossnegfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_largeloss_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_largeloss_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_largeloss_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_largeloss_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_largeloss_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_largeloss_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_largeloss_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_largeloss_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_largeloss_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_largeloss_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_largeloss_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_largeloss_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_largeloss_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_largeloss_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_largeloss_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_largeloss_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_largeloss_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_largeloss_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_largelossposfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_largelossposfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_largelossposfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_largelossposfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_largelossposfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_largelossposfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_largelossposfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_largelossposfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_largelossposfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_largelossposfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_largelossposfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_largelossposfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_largelossposfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_largelossposfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_largelossposfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_largelossposfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_largelossposfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_largelossposfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_largelossposfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_largelossposfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_largelossposfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_largelossposfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_largelossposfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_largelossposfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_largelossnegfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_largelossnegfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_largelossnegfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_largelossnegfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_largelossnegfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_largelossnegfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_largelossnegfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_largelossnegfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_largelossnegfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_largelossnegfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_largelossnegfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_largelossnegfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_largelossnegfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_largelossnegfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_largelossnegfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_largelossnegfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_largelossnegfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_largelossnegfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_largelossnegfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_largelossnegfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_largelossnegfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_largelossnegfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_largelossnegfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_largelossnegfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_neutral_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_neutral_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_neutral_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_neutral_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_neutral_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_neutral_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_neutral_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_neutral_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_neutral_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_neutral_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_neutral_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_neutral_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_neutral_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_neutral_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_neutral_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_neutral_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_neutral_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_neutral_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_neutralposfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_neutralposfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_neutralposfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_neutralposfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_neutralposfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_neutralposfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_neutralposfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_neutralposfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_neutralposfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_neutralposfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_neutralposfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_neutralposfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_neutralposfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_neutralposfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_neutralposfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_neutralposfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_neutralposfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_neutralposfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_neutralposfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_neutralposfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_neutralposfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_neutralposfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_neutralposfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_neutralposfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_neutralnegfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_neutralnegfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_neutralnegfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_neutralnegfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_neutralnegfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_neutralnegfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_neutralnegfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_neutralnegfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_neutralnegfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_neutralnegfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_neutralnegfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_neutralnegfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_neutralnegfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_neutralnegfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_neutralnegfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_neutralnegfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_neutralnegfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_neutralnegfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_neutralnegfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_neutralnegfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_neutralnegfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_neutralnegfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_neutralnegfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_neutralnegfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_hiloreward_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_hiloreward_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_hiloreward_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_hiloreward_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_hiloreward_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_hiloreward_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_hiloreward_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_hiloreward_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_hiloreward_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_hiloreward_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_hiloreward_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_hiloreward_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_hiloreward_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_hiloreward_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_hiloreward_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_hiloreward_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_hiloreward_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_hiloreward_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_hilorewardposfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_hilorewardposfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_hilorewardposfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_hilorewardposfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_hilorewardposfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_hilorewardposfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_hilorewardposfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_hilorewardposfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_hilorewardposfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_hilorewardposfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_hilorewardposfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_hilorewardposfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_hilorewardposfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_hilorewardposfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_hilorewardposfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_hilorewardposfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_hilorewardposfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_hilorewardposfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_hilorewardposfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_hilorewardposfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_hilorewardposfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_hilorewardposfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_hilorewardposfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_hilorewardposfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_hilorewardnegfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_hilorewardnegfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_hilorewardnegfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_hilorewardnegfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_hilorewardnegfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_hilorewardnegfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_hilorewardnegfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_hilorewardnegfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_hilorewardnegfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_hilorewardnegfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_hilorewardnegfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_hilorewardnegfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_hilorewardnegfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_hilorewardnegfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_hilorewardnegfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_hilorewardnegfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_hilorewardnegfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_hilorewardnegfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_hilorewardnegfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_hilorewardnegfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_hilorewardnegfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_hilorewardnegfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_hilorewardnegfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_hilorewardnegfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_hiloloss_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_hiloloss_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_hiloloss_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_hiloloss_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_hiloloss_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_hiloloss_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_hiloloss_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_hiloloss_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_hiloloss_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_hiloloss_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_hiloloss_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_hiloloss_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_hiloloss_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_hiloloss_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_hiloloss_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_hiloloss_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_hiloloss_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_hiloloss_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_hilolossposfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_hilolossposfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_hilolossposfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_hilolossposfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_hilolossposfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_hilolossposfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_hilolossposfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_hilolossposfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_hilolossposfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_hilolossposfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_hilolossposfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_hilolossposfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_hilolossposfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_hilolossposfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_hilolossposfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_hilolossposfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_hilolossposfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_hilolossposfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_hilolossposfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_hilolossposfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_hilolossposfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_hilolossposfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_hilolossposfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_hilolossposfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_hilolossnegfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_hilolossnegfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_hilolossnegfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_hilolossnegfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_hilolossnegfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_hilolossnegfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_hilolossnegfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_hilolossnegfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_hilolossnegfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_hilolossnegfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_hilolossnegfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_hilolossnegfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_hilolossnegfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_hilolossnegfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_hilolossnegfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_hilolossnegfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_hilolossnegfeedback_numtrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_hilolossnegfeedback_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_hilolossnegfeedback_rate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_hilolossnegfeedback_rate"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_hilolossnegfeedback_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_hilolossnegfeedback_meanrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_hilolossnegfeedback_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_hilolossnegfeedback_stdrt"
+            },
+            {
+                "isAbout": "items/tfmri_mid_all_beh_total_earnings",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_all_beh_total_earnings"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run1_beh_total_earnings",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run1_beh_total_earnings"
+            },
+            {
+                "isAbout": "items/tfmri_mid_run2_beh_total_earnings",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_mid_run2_beh_total_earnings"
+            },
+            {
+                "isAbout": "items/mri_beh_mid_daic_use_only_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_beh_mid_daic_use_only_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

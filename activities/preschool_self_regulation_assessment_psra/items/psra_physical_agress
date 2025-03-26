@@ -1,0 +1,48 @@
+{
+    "id": "psra_physical_agress",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "LIBRv1.0"
+        }
+    ],
+    "preamble": {
+        "en": "Child does the following at ANY TIME during the NRS or PSRA?"
+    },
+    "prefLabel": {
+        "en": "psra_physical_agress"
+    },
+    "question": {
+        "en": "Physical aggression(hit, scratch, throw, spit, using object as weapon to shoot at assessor, grab, shove)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

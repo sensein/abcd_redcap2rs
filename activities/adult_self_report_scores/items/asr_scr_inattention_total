@@ -1,0 +1,44 @@
+{
+    "id": "asr_scr_inattention_total",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        },
+        {
+            "column": "Text Validation Min",
+            "source": "redcap",
+            "value": "0"
+        },
+        {
+            "column": "Text Validation Max",
+            "source": "redcap",
+            "value": "7.0"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "asr_scr_inattention_total"
+    },
+    "question": {
+        "en": "Inattention ASR DSM-5-Oriented Scale (number of dependent raw scores)"
+    },
+    "responseOptions": {
+        "maxValue": 7,
+        "minValue": 0,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

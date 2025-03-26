@@ -1,0 +1,73 @@
+{
+    "id": "withdraw_reasons_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20180301"
+        }
+    ],
+    "preamble": {
+        "en": "Parent Protocol"
+    },
+    "prefLabel": {
+        "en": "withdraw_reasons_p"
+    },
+    "question": {
+        "en": "Withdrawal reasons - Parent"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Parent is not comfortable with content of questionnaires"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Parent is not comfortable with the collection of biological specimens"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Parent is uncomfortable with confidentiality policy"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Parent uncomfortable with repeated imaging"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Perceives as too burdensome"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Other guardian is in disagreement with child's participation"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Other / No longer interested/ serious physical/mental health problem/ Death"
+                },
+                "value": 7
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

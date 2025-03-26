@@ -1,0 +1,36 @@
+{
+    "id": "fitf_s4_q2a_1_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Future Use"
+    },
+    "prefLabel": {
+        "en": "fitf_s4_q2a_1_p"
+    },
+    "question": {
+        "en": "Did you encourage your child to change his/her activity or sleep based on the information?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

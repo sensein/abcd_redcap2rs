@@ -1,0 +1,37 @@
+{
+    "id": "pls4_med5",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "If unknown, choose \"pill.\" Please complete follow-up questions.  leave blank if no more medications taken."
+        }
+    ],
+    "preamble": {
+        "en": "Participant Section:\"I just have a few questions before we start the next activity.\""
+    },
+    "prefLabel": {
+        "en": "pls4_med5"
+    },
+    "question": {
+        "en": "Medication Name (please choose the formulation that most closely matches the medication you took; no need to include dosage)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "BIOPORTAL:RXNORM"
+                },
+                "value": "BIOPORTAL:RXNORM"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

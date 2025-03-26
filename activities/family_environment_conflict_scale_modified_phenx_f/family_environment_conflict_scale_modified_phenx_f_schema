@@ -1,0 +1,94 @@
+{
+    "id": "family_environment_conflict_scale_modified_phenx_f_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "family_environment_conflict_scale_modified_phenx_f"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/fes_start_time",
+            "items/fes_youth_q1",
+            "items/fes_youth_q2",
+            "items/fes_youth_q3",
+            "items/fes_youth_q4",
+            "items/fes_youth_q5",
+            "items/fes_youth_q6",
+            "items/fes_youth_q7",
+            "items/fes_youth_q8",
+            "items/fes_youth_q9",
+            "items/family_environment_conflict_scale_modified_phenx_f_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/fes_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "fes_start_time"
+            },
+            {
+                "isAbout": "items/fes_youth_q1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fes_youth_q1"
+            },
+            {
+                "isAbout": "items/fes_youth_q2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fes_youth_q2"
+            },
+            {
+                "isAbout": "items/fes_youth_q3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fes_youth_q3"
+            },
+            {
+                "isAbout": "items/fes_youth_q4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fes_youth_q4"
+            },
+            {
+                "isAbout": "items/fes_youth_q5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fes_youth_q5"
+            },
+            {
+                "isAbout": "items/fes_youth_q6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fes_youth_q6"
+            },
+            {
+                "isAbout": "items/fes_youth_q7",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fes_youth_q7"
+            },
+            {
+                "isAbout": "items/fes_youth_q8",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fes_youth_q8"
+            },
+            {
+                "isAbout": "items/fes_youth_q9",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fes_youth_q9"
+            },
+            {
+                "isAbout": "items/family_environment_conflict_scale_modified_phenx_f_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "family_environment_conflict_scale_modified_phenx_f_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

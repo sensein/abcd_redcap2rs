@@ -1,0 +1,55 @@
+{
+    "id": "psra_a5_d2",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "LIBRv1.0"
+        }
+    ],
+    "preamble": {
+        "en": "Day 2"
+    },
+    "prefLabel": {
+        "en": "psra_a5_d2"
+    },
+    "question": {
+        "en": "A5. Distracted by sights and sounds"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Child is frequently distracted nearby noises or materials, and has trouble focusing even with assessor help"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Child occasionally becomes distracted but returns to task with several prompts"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Child occasionally distracted but refocuses attention with only one prompt"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Child does not become distracted by sounds and sights in room."
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

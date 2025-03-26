@@ -1,0 +1,59 @@
+{
+    "id": "devhx_14b3_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "birth_comp_2"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20171105"
+        }
+    ],
+    "preamble": {
+        "en": "Did he/she have any of the following complications at birth?",
+        "es": "\u00c2\u00bfTuvo su ni\u00c3\u00b1o(a) alguna de las siguientes complicaciones al nacer?"
+    },
+    "prefLabel": {
+        "en": "devhx_14b3_p"
+    },
+    "question": {
+        "en": "Slow heart beat?",
+        "es": "\u00c2\u00bfFrecuencia card\u00c3\u00adaca lenta?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't know",
+                    "es": "No lo s\u00c3\u00a9"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,41 @@
+{
+    "id": "sib_twin1_p_feedback",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "LH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN-SURVEY"
+        }
+    ],
+    "prefLabel": {
+        "en": "sib_twin1_p_feedback"
+    },
+    "question": {
+        "en": "TWIN/SIB PROTOCOLDoes this record belong to TWIN/SIB #1 AND will parent measures for Child #1ANDChild #2 be completed on thesame day?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "YES"
+                },
+                "value": 1
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

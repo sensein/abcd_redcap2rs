@@ -1,0 +1,78 @@
+{
+    "id": "first_mj_4",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "4"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "4"
+        }
+    ],
+    "preamble": {
+        "en": "You mentioned earlier that you have had a puff of marijuana, weed or pot in the past. I want to ask some more questions about that. Remember your responses are confidential - we will not share your answers with anyone.\n\nWhen answering these questions, include any experiences you have had with marijuana, including smoking joints, blunts, bongs, or eating marijuana food, or smoking concentrates like dabs or hash."
+    },
+    "prefLabel": {
+        "en": "first_mj_4"
+    },
+    "question": {
+        "en": "What type of marijuana was your first experience with?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Regular smoked marijuana (smoked pot, grass, weed, ganja)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Smoked marijuana that was very strong (sensimilla, >20% THC strain)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Marijuana that you eat (pot cookies, gummy bears, brownies, etc)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Fake marijuana or synthetics such as K2 and spice (fake weed, herbal incense)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Marijuana oils or concentrates ((\"710\"; hash oil; BHO/butane hash oil/dabs/ shatter/budder/honey oil; Co2 oil/vaporizer pen; Rick Simpson Oil/RSO/phoenix tears)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Marijuana infused alcohol drinks"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Concentrated marijuana tinctures"
+                },
+                "value": 7
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

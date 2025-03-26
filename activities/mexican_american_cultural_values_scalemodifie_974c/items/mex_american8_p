@@ -1,0 +1,74 @@
+{
+    "id": "mex_american8_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "8"
+        },
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "mex_american_q5_q8_9779c9_90197e"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "8"
+        }
+    ],
+    "prefLabel": {
+        "en": "mex_american8_p"
+    },
+    "question": {
+        "en": "If a relative is having a hard time financially, one should help them out if possible.",
+        "es": "Si un pariente est\u00c3\u00a1 teniendo dificultades econ\u00c3\u00b3micas, uno deber\u00c3\u00ada ayudarlo si puede."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at All",
+                    "es": "Nada"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A Little",
+                    "es": "Poquito"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Somewhat",
+                    "es": "Algo"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Very Much",
+                    "es": "Bastante"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Completely",
+                    "es": "Completamente"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

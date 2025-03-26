@@ -1,0 +1,82 @@
+{
+    "id": "sched_delay",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDECHOICE = '1,2,3,4,5,6,8'"
+        }
+    ],
+    "prefLabel": {
+        "en": "sched_delay"
+    },
+    "question": {
+        "en": "What is the participant's SCHEDULING STATUS?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Scheduled"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Remote FOLLOW-UP Visit Scheduled"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Unsure of availability- Parent will call back"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Unsure of availability- RA schedule call back"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Delayed for dental- call back date scheduled"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Delayed for age- call back date scheduled"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Eligible, but lost contact."
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Eligible but family decided not to participate prior to the visit."
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "No longer eligible. For example, after rescheduling child will be 11 years old"
+                },
+                "value": 8
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

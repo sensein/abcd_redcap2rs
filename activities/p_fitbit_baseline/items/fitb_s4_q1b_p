@@ -1,0 +1,48 @@
+{
+    "id": "fitb_s4_q1b_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "History of Activity Tracker Use"
+    },
+    "prefLabel": {
+        "en": "fitb_s4_q1b_p"
+    },
+    "question": {
+        "en": "&nbspHow often did he/she have to remove it?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Often"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Infrequently"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

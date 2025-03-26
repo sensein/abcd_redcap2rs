@@ -1,0 +1,1942 @@
+{
+    "id": "sports_activities_involvement_saiqparent_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "sports_activities_involvement_saiqparent"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sai_p_select_language",
+            "items/sai_intro",
+            "items/sai_p_activities",
+            "items/sai_p_dance_school",
+            "items/sai_p_dance_outside",
+            "items/sai_p_dance_private",
+            "items/sai_p_dance_self",
+            "items/sai_p_dance_nyr",
+            "items/sai_p_dance_nmonth",
+            "items/sai_p_dance_perwk",
+            "items/sai_p_dance_tspent",
+            "items/sai_p_dance_p12",
+            "items/sai_p_base_school",
+            "items/sai_p_base_outside",
+            "items/sai_p_base_private",
+            "items/sai_p_base_self",
+            "items/sai_p_base_nyr",
+            "items/sai_p_base_nmonth",
+            "items/sai_p_base_perwk",
+            "items/sai_p_base_tspent",
+            "items/sai_p_base_p12",
+            "items/sai_p_basket_school",
+            "items/sai_p_basket_outside",
+            "items/sai_p_basket_private",
+            "items/sai_p_basket_self",
+            "items/sai_p_basket_nyr",
+            "items/sai_p_basket_nmonth",
+            "items/sai_p_basket_perwk",
+            "items/sai_p_basket_tspent",
+            "items/sai_p_basket_p12",
+            "items/sai_p_climb_school",
+            "items/sai_p_climb_outside",
+            "items/sai_p_climb_private",
+            "items/sai_p_climb_self",
+            "items/sai_p_climb_nyr",
+            "items/sai_p_climb_nmonth",
+            "items/sai_p_climb_perwk",
+            "items/sai_p_climb_tspent",
+            "items/sai_p_climb_p12",
+            "items/sai_p_fhock_school",
+            "items/sai_p_fhock_outside",
+            "items/sai_p_fhock_private",
+            "items/sai_p_fhock_self",
+            "items/sai_p_fhock_nyr",
+            "items/sai_p_fhock_nmonth",
+            "items/sai_p_fhock_perwk",
+            "items/sai_p_fhock_tspent",
+            "items/sai_p_fhock_p12",
+            "items/sai_p_fball_school",
+            "items/sai_p_fball_outside",
+            "items/sai_p_fball_private",
+            "items/sai_p_fball_self",
+            "items/sai_p_fball_nyr",
+            "items/sai_p_fball_nmonth",
+            "items/sai_p_fball_perwk",
+            "items/sai_p_fball_tspent",
+            "items/sai_p_fball_p12",
+            "items/sai_p_gym_school",
+            "items/sai_p_gym_outside",
+            "items/sai_p_gym_private",
+            "items/sai_p_gym_self",
+            "items/sai_p_gym_nyr",
+            "items/sai_p_gym_nmonth",
+            "items/sai_p_gym_perwk",
+            "items/sai_p_gym_tspent",
+            "items/sai_p_gym_p12",
+            "items/sai_p_ihock_school",
+            "items/sai_p_ihock_outside",
+            "items/sai_p_ihock_private",
+            "items/sai_p_ihock_self",
+            "items/sai_p_ihock_nyr",
+            "items/sai_p_ihock_nmonth",
+            "items/sai_p_ihock_perwk",
+            "items/sai_p_ihock_tspent",
+            "items/sai_p_ihock_p12",
+            "items/sai_p_polo_school",
+            "items/sai_p_polo_outside",
+            "items/sai_p_polo_private",
+            "items/sai_p_polo_self",
+            "items/sai_p_polo_nyr",
+            "items/sai_p_polo_nmonth",
+            "items/sai_p_polo_perwk",
+            "items/sai_p_polo_tspent",
+            "items/sai_p_polo_p12",
+            "items/sai_p_iskate_school",
+            "items/sai_p_iskate_outside",
+            "items/sai_p_iskate_private",
+            "items/sai_p_iskate_self",
+            "items/sai_p_iskate_nyr",
+            "items/sai_p_iskate_nmonth",
+            "items/sai_p_iskate_perwk",
+            "items/sai_p_iskate_tspent",
+            "items/sai_p_iskate_p12",
+            "items/sai_p_m_arts_school",
+            "items/sai_p_m_arts_outside",
+            "items/sai_p_m_arts_private",
+            "items/sai_p_m_arts_self",
+            "items/sai_p_m_arts_nyr",
+            "items/sai_p_m_arts_nmonth",
+            "items/sai_p_m_arts_perwk",
+            "items/sai_p_m_arts_tspent",
+            "items/sai_p_m_arts_p12",
+            "items/sai_p_lax_school",
+            "items/sai_p_lax_outside",
+            "items/sai_p_lax_private",
+            "items/sai_p_lax_self",
+            "items/sai_p_lax_nyr",
+            "items/sai_p_lax_nmonth",
+            "items/sai_p_lax_perwk",
+            "items/sai_p_lax_tspent",
+            "items/sai_p_lax_p12",
+            "items/sai_p_rugby_school",
+            "items/sai_p_rugby_outside",
+            "items/sai_p_rugby_private",
+            "items/sai_p_rugby_self",
+            "items/sai_p_rugby_nyr",
+            "items/sai_p_rugby_nmonth",
+            "items/sai_p_rugby_perwk",
+            "items/sai_p_rugby_tspent",
+            "items/sai_p_rugby_p12",
+            "items/sai_p_skate_school",
+            "items/sai_p_skate_outside",
+            "items/sai_p_skate_private",
+            "items/sai_p_skate_self",
+            "items/sai_p_skate_nyr",
+            "items/sai_p_skate_nmonth",
+            "items/sai_p_skate_perwk",
+            "items/sai_p_skate_tspent",
+            "items/sai_p_skate_p12",
+            "items/sai_p_sboard_school",
+            "items/sai_p_sboard_outside",
+            "items/sai_p_sboard_private",
+            "items/sai_p_sboard_self",
+            "items/sai_p_sboard_nyr",
+            "items/sai_p_sboard_nmonth",
+            "items/sai_p_sboard_perwk",
+            "items/sai_p_sboard_tspent",
+            "items/sai_p_sboard_p12",
+            "items/sai_p_soc_school",
+            "items/sai_p_soc_outside",
+            "items/sai_p_soc_private",
+            "items/sai_p_soc_self",
+            "items/sai_p_soc_nyr",
+            "items/sai_p_soc_nmonth",
+            "items/sai_p_soc_perwk",
+            "items/sai_p_soc_tspent",
+            "items/sai_p_soc_p12",
+            "items/sai_p_surf_school",
+            "items/sai_p_surf_outside",
+            "items/sai_p_surf_private",
+            "items/sai_p_surf_self",
+            "items/sai_p_surf_nyr",
+            "items/sai_p_surf_nmonth",
+            "items/sai_p_surf_perwk",
+            "items/sai_p_surf_tspent",
+            "items/sai_p_surf_p12",
+            "items/sai_p_wpolo_school",
+            "items/sai_p_wpolo_outside",
+            "items/sai_p_wpolo_private",
+            "items/sai_p_wpolo_self",
+            "items/sai_p_wpolo_nyr",
+            "items/sai_p_wpolo_nmonth",
+            "items/sai_p_wpolo_perwk",
+            "items/sai_p_wpolo_tspent",
+            "items/sai_p_wpolo_p12",
+            "items/sai_p_tennis_school",
+            "items/sai_p_tennis_outside",
+            "items/sai_p_tennis_private",
+            "items/sai_p_tennis_self",
+            "items/sai_p_tennis_nyr",
+            "items/sai_p_tennis_nmonth",
+            "items/sai_p_tennis_perwk",
+            "items/sai_p_tennis_tspent",
+            "items/sai_p_tennis_p12",
+            "items/sai_p_run_school",
+            "items/sai_p_run_outside",
+            "items/sai_p_run_private",
+            "items/sai_p_run_self",
+            "items/sai_p_run_nyr",
+            "items/sai_p_run_nmonth",
+            "items/sai_p_run_perwk",
+            "items/sai_p_run_tspent",
+            "items/sai_p_run_p12",
+            "items/sai_p_mma_school",
+            "items/sai_p_mma_outside",
+            "items/sai_p_mma_private",
+            "items/sai_p_mma_self",
+            "items/sai_p_mma_nyr",
+            "items/sai_p_mma_nmonth",
+            "items/sai_p_mma_perwk",
+            "items/sai_p_mma_tspent",
+            "items/sai_p_mma_p12",
+            "items/sai_p_vball_school",
+            "items/sai_p_vball_outside",
+            "items/sai_p_vball_private",
+            "items/sai_p_vball_self",
+            "items/sai_p_vball_nyr",
+            "items/sai_p_vball_nmonth",
+            "items/sai_p_vball_perwk",
+            "items/sai_p_vball_tspent",
+            "items/sai_p_vball_p12",
+            "items/sai_p_yoga_school",
+            "items/sai_p_yoga_outside",
+            "items/sai_p_yoga_private",
+            "items/sai_p_yoga_self",
+            "items/sai_p_yoga_nyr",
+            "items/sai_p_yoga_nmonth",
+            "items/sai_p_yoga_perwk",
+            "items/sai_p_yoga_tspent",
+            "items/sai_p_yoga_p12",
+            "items/sai_p_music_school",
+            "items/sai_p_music_outside",
+            "items/sai_p_music_private",
+            "items/sai_p_music_self",
+            "items/sai_p_music_nyr",
+            "items/sai_p_music_nmonth",
+            "items/sai_p_music_perwk",
+            "items/sai_p_music_tspent",
+            "items/sai_p_music_p12",
+            "items/sai_p_art_school",
+            "items/sai_p_art_outside",
+            "items/sai_p_art_private",
+            "items/sai_p_art_self",
+            "items/sai_p_art_nyr",
+            "items/sai_p_art_nmonth",
+            "items/sai_p_art_perwk",
+            "items/sai_p_art_tspent",
+            "items/sai_p_art_p12",
+            "items/sai_p_drama_school",
+            "items/sai_p_drama_outside",
+            "items/sai_p_drama_private",
+            "items/sai_p_drama_self",
+            "items/sai_p_drama_nyr",
+            "items/sai_p_drama_nmonth",
+            "items/sai_p_drama_perwk",
+            "items/sai_p_drama_tspent",
+            "items/sai_p_drama_p12",
+            "items/sai_p_crafts_school",
+            "items/sai_p_crafts_outside",
+            "items/sai_p_crafts_private",
+            "items/sai_p_crafts_self",
+            "items/sai_p_crafts_nyr",
+            "items/sai_p_crafts_nmonth",
+            "items/sai_p_crafts_perwk",
+            "items/sai_p_crafts_tspent",
+            "items/sai_p_crafts_p12",
+            "items/sai_p_chess_school",
+            "items/sai_p_chess_outside",
+            "items/sai_p_chess_private",
+            "items/sai_p_chess_self",
+            "items/sai_p_chess_nyr",
+            "items/sai_p_chess_nmonth",
+            "items/sai_p_chess_perwk",
+            "items/sai_p_chess_tspent",
+            "items/sai_p_chess_p12",
+            "items/sai_p_collect_school",
+            "items/sai_p_collect_outside",
+            "items/sai_p_collect_private",
+            "items/sai_p_collect_self",
+            "items/sai_p_collect_nyr",
+            "items/sai_p_collect_nmonth",
+            "items/sai_p_collect_perwk",
+            "items/sai_p_collect_tspent",
+            "items/sai_p_collect_p12",
+            "items/sai_p_lmusic",
+            "items/sai_p_lmusic_2",
+            "items/sai_p_lmusic_dk",
+            "items/sai_p_lmusic_hours",
+            "items/sai_p_lmusic_hours_dk",
+            "items/sai_p_read",
+            "items/sai_p_read_years",
+            "items/sai_p_read_years_dk",
+            "items/sai_p_read_hours",
+            "items/sai_p_read_hours_dk",
+            "items/sports_activities_involvement_saiqparent_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sai_p_select_language",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sai_p_select_language"
+            },
+            {
+                "isAbout": "items/sai_intro",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sai_intro"
+            },
+            {
+                "isAbout": "items/sai_p_activities",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sai_p_activities"
+            },
+            {
+                "isAbout": "items/sai_p_dance_school",
+                "isVis": "sai_p_activities___0 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_dance_school"
+            },
+            {
+                "isAbout": "items/sai_p_dance_outside",
+                "isVis": "sai_p_activities___0 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_dance_outside"
+            },
+            {
+                "isAbout": "items/sai_p_dance_private",
+                "isVis": "sai_p_activities___0 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_dance_private"
+            },
+            {
+                "isAbout": "items/sai_p_dance_self",
+                "isVis": "sai_p_activities___0 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_dance_self"
+            },
+            {
+                "isAbout": "items/sai_p_dance_nyr",
+                "isVis": "sai_p_activities___0 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_dance_nyr"
+            },
+            {
+                "isAbout": "items/sai_p_dance_nmonth",
+                "isVis": "sai_p_activities___0 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_dance_nmonth"
+            },
+            {
+                "isAbout": "items/sai_p_dance_perwk",
+                "isVis": "sai_p_activities___0 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_dance_perwk"
+            },
+            {
+                "isAbout": "items/sai_p_dance_tspent",
+                "isVis": "sai_p_activities___0 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_dance_tspent"
+            },
+            {
+                "isAbout": "items/sai_p_dance_p12",
+                "isVis": "sai_p_activities___0 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_dance_p12"
+            },
+            {
+                "isAbout": "items/sai_p_base_school",
+                "isVis": "sai_p_activities___1 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_base_school"
+            },
+            {
+                "isAbout": "items/sai_p_base_outside",
+                "isVis": "sai_p_activities___1 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_base_outside"
+            },
+            {
+                "isAbout": "items/sai_p_base_private",
+                "isVis": "sai_p_activities___1 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_base_private"
+            },
+            {
+                "isAbout": "items/sai_p_base_self",
+                "isVis": "sai_p_activities___1 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_base_self"
+            },
+            {
+                "isAbout": "items/sai_p_base_nyr",
+                "isVis": "sai_p_activities___1 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_base_nyr"
+            },
+            {
+                "isAbout": "items/sai_p_base_nmonth",
+                "isVis": "sai_p_activities___1 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_base_nmonth"
+            },
+            {
+                "isAbout": "items/sai_p_base_perwk",
+                "isVis": "sai_p_activities___1 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_base_perwk"
+            },
+            {
+                "isAbout": "items/sai_p_base_tspent",
+                "isVis": "sai_p_activities___1 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_base_tspent"
+            },
+            {
+                "isAbout": "items/sai_p_base_p12",
+                "isVis": "sai_p_activities___1 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_base_p12"
+            },
+            {
+                "isAbout": "items/sai_p_basket_school",
+                "isVis": "sai_p_activities___2 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_basket_school"
+            },
+            {
+                "isAbout": "items/sai_p_basket_outside",
+                "isVis": "sai_p_activities___2 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_basket_outside"
+            },
+            {
+                "isAbout": "items/sai_p_basket_private",
+                "isVis": "sai_p_activities___2 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_basket_private"
+            },
+            {
+                "isAbout": "items/sai_p_basket_self",
+                "isVis": "sai_p_activities___2 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_basket_self"
+            },
+            {
+                "isAbout": "items/sai_p_basket_nyr",
+                "isVis": "sai_p_activities___2 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_basket_nyr"
+            },
+            {
+                "isAbout": "items/sai_p_basket_nmonth",
+                "isVis": "sai_p_activities___2 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_basket_nmonth"
+            },
+            {
+                "isAbout": "items/sai_p_basket_perwk",
+                "isVis": "sai_p_activities___2 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_basket_perwk"
+            },
+            {
+                "isAbout": "items/sai_p_basket_tspent",
+                "isVis": "sai_p_activities___2 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_basket_tspent"
+            },
+            {
+                "isAbout": "items/sai_p_basket_p12",
+                "isVis": "sai_p_activities___2 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_basket_p12"
+            },
+            {
+                "isAbout": "items/sai_p_climb_school",
+                "isVis": "sai_p_activities___3 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_climb_school"
+            },
+            {
+                "isAbout": "items/sai_p_climb_outside",
+                "isVis": "sai_p_activities___3 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_climb_outside"
+            },
+            {
+                "isAbout": "items/sai_p_climb_private",
+                "isVis": "sai_p_activities___3 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_climb_private"
+            },
+            {
+                "isAbout": "items/sai_p_climb_self",
+                "isVis": "sai_p_activities___3 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_climb_self"
+            },
+            {
+                "isAbout": "items/sai_p_climb_nyr",
+                "isVis": "sai_p_activities___3 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_climb_nyr"
+            },
+            {
+                "isAbout": "items/sai_p_climb_nmonth",
+                "isVis": "sai_p_activities___3 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_climb_nmonth"
+            },
+            {
+                "isAbout": "items/sai_p_climb_perwk",
+                "isVis": "sai_p_activities___3 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_climb_perwk"
+            },
+            {
+                "isAbout": "items/sai_p_climb_tspent",
+                "isVis": "sai_p_activities___3 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_climb_tspent"
+            },
+            {
+                "isAbout": "items/sai_p_climb_p12",
+                "isVis": "sai_p_activities___3 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_climb_p12"
+            },
+            {
+                "isAbout": "items/sai_p_fhock_school",
+                "isVis": "sai_p_activities___4 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_fhock_school"
+            },
+            {
+                "isAbout": "items/sai_p_fhock_outside",
+                "isVis": "sai_p_activities___4 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_fhock_outside"
+            },
+            {
+                "isAbout": "items/sai_p_fhock_private",
+                "isVis": "sai_p_activities___4 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_fhock_private"
+            },
+            {
+                "isAbout": "items/sai_p_fhock_self",
+                "isVis": "sai_p_activities___4 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_fhock_self"
+            },
+            {
+                "isAbout": "items/sai_p_fhock_nyr",
+                "isVis": "sai_p_activities___4 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_fhock_nyr"
+            },
+            {
+                "isAbout": "items/sai_p_fhock_nmonth",
+                "isVis": "sai_p_activities___4 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_fhock_nmonth"
+            },
+            {
+                "isAbout": "items/sai_p_fhock_perwk",
+                "isVis": "sai_p_activities___4 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_fhock_perwk"
+            },
+            {
+                "isAbout": "items/sai_p_fhock_tspent",
+                "isVis": "sai_p_activities___4 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_fhock_tspent"
+            },
+            {
+                "isAbout": "items/sai_p_fhock_p12",
+                "isVis": "sai_p_activities___4 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_fhock_p12"
+            },
+            {
+                "isAbout": "items/sai_p_fball_school",
+                "isVis": "sai_p_activities___5 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_fball_school"
+            },
+            {
+                "isAbout": "items/sai_p_fball_outside",
+                "isVis": "sai_p_activities___5 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_fball_outside"
+            },
+            {
+                "isAbout": "items/sai_p_fball_private",
+                "isVis": "sai_p_activities___5 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_fball_private"
+            },
+            {
+                "isAbout": "items/sai_p_fball_self",
+                "isVis": "sai_p_activities___5 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_fball_self"
+            },
+            {
+                "isAbout": "items/sai_p_fball_nyr",
+                "isVis": "sai_p_activities___5 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_fball_nyr"
+            },
+            {
+                "isAbout": "items/sai_p_fball_nmonth",
+                "isVis": "sai_p_activities___5 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_fball_nmonth"
+            },
+            {
+                "isAbout": "items/sai_p_fball_perwk",
+                "isVis": "sai_p_activities___5 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_fball_perwk"
+            },
+            {
+                "isAbout": "items/sai_p_fball_tspent",
+                "isVis": "sai_p_activities___5 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_fball_tspent"
+            },
+            {
+                "isAbout": "items/sai_p_fball_p12",
+                "isVis": "sai_p_activities___5 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_fball_p12"
+            },
+            {
+                "isAbout": "items/sai_p_gym_school",
+                "isVis": "sai_p_activities___6 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_gym_school"
+            },
+            {
+                "isAbout": "items/sai_p_gym_outside",
+                "isVis": "sai_p_activities___6 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_gym_outside"
+            },
+            {
+                "isAbout": "items/sai_p_gym_private",
+                "isVis": "sai_p_activities___6 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_gym_private"
+            },
+            {
+                "isAbout": "items/sai_p_gym_self",
+                "isVis": "sai_p_activities___6 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_gym_self"
+            },
+            {
+                "isAbout": "items/sai_p_gym_nyr",
+                "isVis": "sai_p_activities___6 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_gym_nyr"
+            },
+            {
+                "isAbout": "items/sai_p_gym_nmonth",
+                "isVis": "sai_p_activities___6 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_gym_nmonth"
+            },
+            {
+                "isAbout": "items/sai_p_gym_perwk",
+                "isVis": "sai_p_activities___6 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_gym_perwk"
+            },
+            {
+                "isAbout": "items/sai_p_gym_tspent",
+                "isVis": "sai_p_activities___6 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_gym_tspent"
+            },
+            {
+                "isAbout": "items/sai_p_gym_p12",
+                "isVis": "sai_p_activities___6 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_gym_p12"
+            },
+            {
+                "isAbout": "items/sai_p_ihock_school",
+                "isVis": "sai_p_activities___7 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_ihock_school"
+            },
+            {
+                "isAbout": "items/sai_p_ihock_outside",
+                "isVis": "sai_p_activities___7 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_ihock_outside"
+            },
+            {
+                "isAbout": "items/sai_p_ihock_private",
+                "isVis": "sai_p_activities___7 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_ihock_private"
+            },
+            {
+                "isAbout": "items/sai_p_ihock_self",
+                "isVis": "sai_p_activities___7 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_ihock_self"
+            },
+            {
+                "isAbout": "items/sai_p_ihock_nyr",
+                "isVis": "sai_p_activities___7 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_ihock_nyr"
+            },
+            {
+                "isAbout": "items/sai_p_ihock_nmonth",
+                "isVis": "sai_p_activities___7 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_ihock_nmonth"
+            },
+            {
+                "isAbout": "items/sai_p_ihock_perwk",
+                "isVis": "sai_p_activities___7 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_ihock_perwk"
+            },
+            {
+                "isAbout": "items/sai_p_ihock_tspent",
+                "isVis": "sai_p_activities___7 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_ihock_tspent"
+            },
+            {
+                "isAbout": "items/sai_p_ihock_p12",
+                "isVis": "sai_p_activities___7 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_ihock_p12"
+            },
+            {
+                "isAbout": "items/sai_p_polo_school",
+                "isVis": "sai_p_activities___8 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_polo_school"
+            },
+            {
+                "isAbout": "items/sai_p_polo_outside",
+                "isVis": "sai_p_activities___8 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_polo_outside"
+            },
+            {
+                "isAbout": "items/sai_p_polo_private",
+                "isVis": "sai_p_activities___8 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_polo_private"
+            },
+            {
+                "isAbout": "items/sai_p_polo_self",
+                "isVis": "sai_p_activities___8 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_polo_self"
+            },
+            {
+                "isAbout": "items/sai_p_polo_nyr",
+                "isVis": "sai_p_activities___8 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_polo_nyr"
+            },
+            {
+                "isAbout": "items/sai_p_polo_nmonth",
+                "isVis": "sai_p_activities___8 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_polo_nmonth"
+            },
+            {
+                "isAbout": "items/sai_p_polo_perwk",
+                "isVis": "sai_p_activities___8 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_polo_perwk"
+            },
+            {
+                "isAbout": "items/sai_p_polo_tspent",
+                "isVis": "sai_p_activities___8 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_polo_tspent"
+            },
+            {
+                "isAbout": "items/sai_p_polo_p12",
+                "isVis": "sai_p_activities___8 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_polo_p12"
+            },
+            {
+                "isAbout": "items/sai_p_iskate_school",
+                "isVis": "sai_p_activities___9 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_iskate_school"
+            },
+            {
+                "isAbout": "items/sai_p_iskate_outside",
+                "isVis": "sai_p_activities___9 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_iskate_outside"
+            },
+            {
+                "isAbout": "items/sai_p_iskate_private",
+                "isVis": "sai_p_activities___9 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_iskate_private"
+            },
+            {
+                "isAbout": "items/sai_p_iskate_self",
+                "isVis": "sai_p_activities___9 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_iskate_self"
+            },
+            {
+                "isAbout": "items/sai_p_iskate_nyr",
+                "isVis": "sai_p_activities___9 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_iskate_nyr"
+            },
+            {
+                "isAbout": "items/sai_p_iskate_nmonth",
+                "isVis": "sai_p_activities___9 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_iskate_nmonth"
+            },
+            {
+                "isAbout": "items/sai_p_iskate_perwk",
+                "isVis": "sai_p_activities___9 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_iskate_perwk"
+            },
+            {
+                "isAbout": "items/sai_p_iskate_tspent",
+                "isVis": "sai_p_activities___9 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_iskate_tspent"
+            },
+            {
+                "isAbout": "items/sai_p_iskate_p12",
+                "isVis": "sai_p_activities___9 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_iskate_p12"
+            },
+            {
+                "isAbout": "items/sai_p_m_arts_school",
+                "isVis": "sai_p_activities___10 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_m_arts_school"
+            },
+            {
+                "isAbout": "items/sai_p_m_arts_outside",
+                "isVis": "sai_p_activities___10 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_m_arts_outside"
+            },
+            {
+                "isAbout": "items/sai_p_m_arts_private",
+                "isVis": "sai_p_activities___10 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_m_arts_private"
+            },
+            {
+                "isAbout": "items/sai_p_m_arts_self",
+                "isVis": "sai_p_activities___10 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_m_arts_self"
+            },
+            {
+                "isAbout": "items/sai_p_m_arts_nyr",
+                "isVis": "sai_p_activities___10 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_m_arts_nyr"
+            },
+            {
+                "isAbout": "items/sai_p_m_arts_nmonth",
+                "isVis": "sai_p_activities___10 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_m_arts_nmonth"
+            },
+            {
+                "isAbout": "items/sai_p_m_arts_perwk",
+                "isVis": "sai_p_activities___10 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_m_arts_perwk"
+            },
+            {
+                "isAbout": "items/sai_p_m_arts_tspent",
+                "isVis": "sai_p_activities___10 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_m_arts_tspent"
+            },
+            {
+                "isAbout": "items/sai_p_m_arts_p12",
+                "isVis": "sai_p_activities___10 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_m_arts_p12"
+            },
+            {
+                "isAbout": "items/sai_p_lax_school",
+                "isVis": "sai_p_activities___11 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_lax_school"
+            },
+            {
+                "isAbout": "items/sai_p_lax_outside",
+                "isVis": "sai_p_activities___11 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_lax_outside"
+            },
+            {
+                "isAbout": "items/sai_p_lax_private",
+                "isVis": "sai_p_activities___11 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_lax_private"
+            },
+            {
+                "isAbout": "items/sai_p_lax_self",
+                "isVis": "sai_p_activities___11 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_lax_self"
+            },
+            {
+                "isAbout": "items/sai_p_lax_nyr",
+                "isVis": "sai_p_activities___11 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_lax_nyr"
+            },
+            {
+                "isAbout": "items/sai_p_lax_nmonth",
+                "isVis": "sai_p_activities___11 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_lax_nmonth"
+            },
+            {
+                "isAbout": "items/sai_p_lax_perwk",
+                "isVis": "sai_p_activities___11 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_lax_perwk"
+            },
+            {
+                "isAbout": "items/sai_p_lax_tspent",
+                "isVis": "sai_p_activities___11 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_lax_tspent"
+            },
+            {
+                "isAbout": "items/sai_p_lax_p12",
+                "isVis": "sai_p_activities___11 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_lax_p12"
+            },
+            {
+                "isAbout": "items/sai_p_rugby_school",
+                "isVis": "sai_p_activities___12 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_rugby_school"
+            },
+            {
+                "isAbout": "items/sai_p_rugby_outside",
+                "isVis": "sai_p_activities___12 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_rugby_outside"
+            },
+            {
+                "isAbout": "items/sai_p_rugby_private",
+                "isVis": "sai_p_activities___12 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_rugby_private"
+            },
+            {
+                "isAbout": "items/sai_p_rugby_self",
+                "isVis": "sai_p_activities___12 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_rugby_self"
+            },
+            {
+                "isAbout": "items/sai_p_rugby_nyr",
+                "isVis": "sai_p_activities___12 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_rugby_nyr"
+            },
+            {
+                "isAbout": "items/sai_p_rugby_nmonth",
+                "isVis": "sai_p_activities___12 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_rugby_nmonth"
+            },
+            {
+                "isAbout": "items/sai_p_rugby_perwk",
+                "isVis": "sai_p_activities___12 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_rugby_perwk"
+            },
+            {
+                "isAbout": "items/sai_p_rugby_tspent",
+                "isVis": "sai_p_activities___12 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_rugby_tspent"
+            },
+            {
+                "isAbout": "items/sai_p_rugby_p12",
+                "isVis": "sai_p_activities___12 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_rugby_p12"
+            },
+            {
+                "isAbout": "items/sai_p_skate_school",
+                "isVis": "sai_p_activities___13 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_skate_school"
+            },
+            {
+                "isAbout": "items/sai_p_skate_outside",
+                "isVis": "sai_p_activities___13 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_skate_outside"
+            },
+            {
+                "isAbout": "items/sai_p_skate_private",
+                "isVis": "sai_p_activities___13 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_skate_private"
+            },
+            {
+                "isAbout": "items/sai_p_skate_self",
+                "isVis": "sai_p_activities___13 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_skate_self"
+            },
+            {
+                "isAbout": "items/sai_p_skate_nyr",
+                "isVis": "sai_p_activities___13 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_skate_nyr"
+            },
+            {
+                "isAbout": "items/sai_p_skate_nmonth",
+                "isVis": "sai_p_activities___13 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_skate_nmonth"
+            },
+            {
+                "isAbout": "items/sai_p_skate_perwk",
+                "isVis": "sai_p_activities___13 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_skate_perwk"
+            },
+            {
+                "isAbout": "items/sai_p_skate_tspent",
+                "isVis": "sai_p_activities___13 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_skate_tspent"
+            },
+            {
+                "isAbout": "items/sai_p_skate_p12",
+                "isVis": "sai_p_activities___13 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_skate_p12"
+            },
+            {
+                "isAbout": "items/sai_p_sboard_school",
+                "isVis": "sai_p_activities___14 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_sboard_school"
+            },
+            {
+                "isAbout": "items/sai_p_sboard_outside",
+                "isVis": "sai_p_activities___14 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_sboard_outside"
+            },
+            {
+                "isAbout": "items/sai_p_sboard_private",
+                "isVis": "sai_p_activities___14 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_sboard_private"
+            },
+            {
+                "isAbout": "items/sai_p_sboard_self",
+                "isVis": "sai_p_activities___14 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_sboard_self"
+            },
+            {
+                "isAbout": "items/sai_p_sboard_nyr",
+                "isVis": "sai_p_activities___14 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_sboard_nyr"
+            },
+            {
+                "isAbout": "items/sai_p_sboard_nmonth",
+                "isVis": "sai_p_activities___14 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_sboard_nmonth"
+            },
+            {
+                "isAbout": "items/sai_p_sboard_perwk",
+                "isVis": "sai_p_activities___14 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_sboard_perwk"
+            },
+            {
+                "isAbout": "items/sai_p_sboard_tspent",
+                "isVis": "sai_p_activities___14 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_sboard_tspent"
+            },
+            {
+                "isAbout": "items/sai_p_sboard_p12",
+                "isVis": "sai_p_activities___14 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_sboard_p12"
+            },
+            {
+                "isAbout": "items/sai_p_soc_school",
+                "isVis": "sai_p_activities___15 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_soc_school"
+            },
+            {
+                "isAbout": "items/sai_p_soc_outside",
+                "isVis": "sai_p_activities___15 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_soc_outside"
+            },
+            {
+                "isAbout": "items/sai_p_soc_private",
+                "isVis": "sai_p_activities___15 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_soc_private"
+            },
+            {
+                "isAbout": "items/sai_p_soc_self",
+                "isVis": "sai_p_activities___15 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_soc_self"
+            },
+            {
+                "isAbout": "items/sai_p_soc_nyr",
+                "isVis": "sai_p_activities___15 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_soc_nyr"
+            },
+            {
+                "isAbout": "items/sai_p_soc_nmonth",
+                "isVis": "sai_p_activities___15 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_soc_nmonth"
+            },
+            {
+                "isAbout": "items/sai_p_soc_perwk",
+                "isVis": "sai_p_activities___15 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_soc_perwk"
+            },
+            {
+                "isAbout": "items/sai_p_soc_tspent",
+                "isVis": "sai_p_activities___15 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_soc_tspent"
+            },
+            {
+                "isAbout": "items/sai_p_soc_p12",
+                "isVis": "sai_p_activities___15 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_soc_p12"
+            },
+            {
+                "isAbout": "items/sai_p_surf_school",
+                "isVis": "sai_p_activities___16 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_surf_school"
+            },
+            {
+                "isAbout": "items/sai_p_surf_outside",
+                "isVis": "sai_p_activities___16 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_surf_outside"
+            },
+            {
+                "isAbout": "items/sai_p_surf_private",
+                "isVis": "sai_p_activities___16 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_surf_private"
+            },
+            {
+                "isAbout": "items/sai_p_surf_self",
+                "isVis": "sai_p_activities___16 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_surf_self"
+            },
+            {
+                "isAbout": "items/sai_p_surf_nyr",
+                "isVis": "sai_p_activities___16 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_surf_nyr"
+            },
+            {
+                "isAbout": "items/sai_p_surf_nmonth",
+                "isVis": "sai_p_activities___16 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_surf_nmonth"
+            },
+            {
+                "isAbout": "items/sai_p_surf_perwk",
+                "isVis": "sai_p_activities___16 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_surf_perwk"
+            },
+            {
+                "isAbout": "items/sai_p_surf_tspent",
+                "isVis": "sai_p_activities___16 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_surf_tspent"
+            },
+            {
+                "isAbout": "items/sai_p_surf_p12",
+                "isVis": "sai_p_activities___16 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_surf_p12"
+            },
+            {
+                "isAbout": "items/sai_p_wpolo_school",
+                "isVis": "sai_p_activities___17 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_wpolo_school"
+            },
+            {
+                "isAbout": "items/sai_p_wpolo_outside",
+                "isVis": "sai_p_activities___17 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_wpolo_outside"
+            },
+            {
+                "isAbout": "items/sai_p_wpolo_private",
+                "isVis": "sai_p_activities___17 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_wpolo_private"
+            },
+            {
+                "isAbout": "items/sai_p_wpolo_self",
+                "isVis": "sai_p_activities___17 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_wpolo_self"
+            },
+            {
+                "isAbout": "items/sai_p_wpolo_nyr",
+                "isVis": "sai_p_activities___17 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_wpolo_nyr"
+            },
+            {
+                "isAbout": "items/sai_p_wpolo_nmonth",
+                "isVis": "sai_p_activities___17 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_wpolo_nmonth"
+            },
+            {
+                "isAbout": "items/sai_p_wpolo_perwk",
+                "isVis": "sai_p_activities___17 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_wpolo_perwk"
+            },
+            {
+                "isAbout": "items/sai_p_wpolo_tspent",
+                "isVis": "sai_p_activities___17 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_wpolo_tspent"
+            },
+            {
+                "isAbout": "items/sai_p_wpolo_p12",
+                "isVis": "sai_p_activities___17 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_wpolo_p12"
+            },
+            {
+                "isAbout": "items/sai_p_tennis_school",
+                "isVis": "sai_p_activities___18 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_tennis_school"
+            },
+            {
+                "isAbout": "items/sai_p_tennis_outside",
+                "isVis": "sai_p_activities___18 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_tennis_outside"
+            },
+            {
+                "isAbout": "items/sai_p_tennis_private",
+                "isVis": "sai_p_activities___18 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_tennis_private"
+            },
+            {
+                "isAbout": "items/sai_p_tennis_self",
+                "isVis": "sai_p_activities___18 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_tennis_self"
+            },
+            {
+                "isAbout": "items/sai_p_tennis_nyr",
+                "isVis": "sai_p_activities___18 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_tennis_nyr"
+            },
+            {
+                "isAbout": "items/sai_p_tennis_nmonth",
+                "isVis": "sai_p_activities___18 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_tennis_nmonth"
+            },
+            {
+                "isAbout": "items/sai_p_tennis_perwk",
+                "isVis": "sai_p_activities___18 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_tennis_perwk"
+            },
+            {
+                "isAbout": "items/sai_p_tennis_tspent",
+                "isVis": "sai_p_activities___18 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_tennis_tspent"
+            },
+            {
+                "isAbout": "items/sai_p_tennis_p12",
+                "isVis": "sai_p_activities___18 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_tennis_p12"
+            },
+            {
+                "isAbout": "items/sai_p_run_school",
+                "isVis": "sai_p_activities___19 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_run_school"
+            },
+            {
+                "isAbout": "items/sai_p_run_outside",
+                "isVis": "sai_p_activities___19 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_run_outside"
+            },
+            {
+                "isAbout": "items/sai_p_run_private",
+                "isVis": "sai_p_activities___19 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_run_private"
+            },
+            {
+                "isAbout": "items/sai_p_run_self",
+                "isVis": "sai_p_activities___19 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_run_self"
+            },
+            {
+                "isAbout": "items/sai_p_run_nyr",
+                "isVis": "sai_p_activities___19 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_run_nyr"
+            },
+            {
+                "isAbout": "items/sai_p_run_nmonth",
+                "isVis": "sai_p_activities___19 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_run_nmonth"
+            },
+            {
+                "isAbout": "items/sai_p_run_perwk",
+                "isVis": "sai_p_activities___19 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_run_perwk"
+            },
+            {
+                "isAbout": "items/sai_p_run_tspent",
+                "isVis": "sai_p_activities___19 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_run_tspent"
+            },
+            {
+                "isAbout": "items/sai_p_run_p12",
+                "isVis": "sai_p_activities___19 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_run_p12"
+            },
+            {
+                "isAbout": "items/sai_p_mma_school",
+                "isVis": "sai_p_activities___20 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_mma_school"
+            },
+            {
+                "isAbout": "items/sai_p_mma_outside",
+                "isVis": "sai_p_activities___20 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_mma_outside"
+            },
+            {
+                "isAbout": "items/sai_p_mma_private",
+                "isVis": "sai_p_activities___20 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_mma_private"
+            },
+            {
+                "isAbout": "items/sai_p_mma_self",
+                "isVis": "sai_p_activities___20 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_mma_self"
+            },
+            {
+                "isAbout": "items/sai_p_mma_nyr",
+                "isVis": "sai_p_activities___20 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_mma_nyr"
+            },
+            {
+                "isAbout": "items/sai_p_mma_nmonth",
+                "isVis": "sai_p_activities___20 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_mma_nmonth"
+            },
+            {
+                "isAbout": "items/sai_p_mma_perwk",
+                "isVis": "sai_p_activities___20 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_mma_perwk"
+            },
+            {
+                "isAbout": "items/sai_p_mma_tspent",
+                "isVis": "sai_p_activities___20 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_mma_tspent"
+            },
+            {
+                "isAbout": "items/sai_p_mma_p12",
+                "isVis": "sai_p_activities___20 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_mma_p12"
+            },
+            {
+                "isAbout": "items/sai_p_vball_school",
+                "isVis": "sai_p_activities___21 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_vball_school"
+            },
+            {
+                "isAbout": "items/sai_p_vball_outside",
+                "isVis": "sai_p_activities___21 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_vball_outside"
+            },
+            {
+                "isAbout": "items/sai_p_vball_private",
+                "isVis": "sai_p_activities___21 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_vball_private"
+            },
+            {
+                "isAbout": "items/sai_p_vball_self",
+                "isVis": "sai_p_activities___21 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_vball_self"
+            },
+            {
+                "isAbout": "items/sai_p_vball_nyr",
+                "isVis": "sai_p_activities___21 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_vball_nyr"
+            },
+            {
+                "isAbout": "items/sai_p_vball_nmonth",
+                "isVis": "sai_p_activities___21 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_vball_nmonth"
+            },
+            {
+                "isAbout": "items/sai_p_vball_perwk",
+                "isVis": "sai_p_activities___21 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_vball_perwk"
+            },
+            {
+                "isAbout": "items/sai_p_vball_tspent",
+                "isVis": "sai_p_activities___21 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_vball_tspent"
+            },
+            {
+                "isAbout": "items/sai_p_vball_p12",
+                "isVis": "sai_p_activities___21 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_vball_p12"
+            },
+            {
+                "isAbout": "items/sai_p_yoga_school",
+                "isVis": "sai_p_activities___22 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_yoga_school"
+            },
+            {
+                "isAbout": "items/sai_p_yoga_outside",
+                "isVis": "sai_p_activities___22 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_yoga_outside"
+            },
+            {
+                "isAbout": "items/sai_p_yoga_private",
+                "isVis": "sai_p_activities___22 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_yoga_private"
+            },
+            {
+                "isAbout": "items/sai_p_yoga_self",
+                "isVis": "sai_p_activities___22 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_yoga_self"
+            },
+            {
+                "isAbout": "items/sai_p_yoga_nyr",
+                "isVis": "sai_p_activities___22 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_yoga_nyr"
+            },
+            {
+                "isAbout": "items/sai_p_yoga_nmonth",
+                "isVis": "sai_p_activities___22 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_yoga_nmonth"
+            },
+            {
+                "isAbout": "items/sai_p_yoga_perwk",
+                "isVis": "sai_p_activities___22 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_yoga_perwk"
+            },
+            {
+                "isAbout": "items/sai_p_yoga_tspent",
+                "isVis": "sai_p_activities___22 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_yoga_tspent"
+            },
+            {
+                "isAbout": "items/sai_p_yoga_p12",
+                "isVis": "sai_p_activities___22 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_yoga_p12"
+            },
+            {
+                "isAbout": "items/sai_p_music_school",
+                "isVis": "sai_p_activities___23 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_music_school"
+            },
+            {
+                "isAbout": "items/sai_p_music_outside",
+                "isVis": "sai_p_activities___23 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_music_outside"
+            },
+            {
+                "isAbout": "items/sai_p_music_private",
+                "isVis": "sai_p_activities___23 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_music_private"
+            },
+            {
+                "isAbout": "items/sai_p_music_self",
+                "isVis": "sai_p_activities___23 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_music_self"
+            },
+            {
+                "isAbout": "items/sai_p_music_nyr",
+                "isVis": "sai_p_activities___23 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_music_nyr"
+            },
+            {
+                "isAbout": "items/sai_p_music_nmonth",
+                "isVis": "sai_p_activities___23 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_music_nmonth"
+            },
+            {
+                "isAbout": "items/sai_p_music_perwk",
+                "isVis": "sai_p_activities___23 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_music_perwk"
+            },
+            {
+                "isAbout": "items/sai_p_music_tspent",
+                "isVis": "sai_p_activities___23 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_music_tspent"
+            },
+            {
+                "isAbout": "items/sai_p_music_p12",
+                "isVis": "sai_p_activities___23 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_music_p12"
+            },
+            {
+                "isAbout": "items/sai_p_art_school",
+                "isVis": "sai_p_activities___24 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_art_school"
+            },
+            {
+                "isAbout": "items/sai_p_art_outside",
+                "isVis": "sai_p_activities___24 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_art_outside"
+            },
+            {
+                "isAbout": "items/sai_p_art_private",
+                "isVis": "sai_p_activities___24 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_art_private"
+            },
+            {
+                "isAbout": "items/sai_p_art_self",
+                "isVis": "sai_p_activities___24 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_art_self"
+            },
+            {
+                "isAbout": "items/sai_p_art_nyr",
+                "isVis": "sai_p_activities___24 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_art_nyr"
+            },
+            {
+                "isAbout": "items/sai_p_art_nmonth",
+                "isVis": "sai_p_activities___24 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_art_nmonth"
+            },
+            {
+                "isAbout": "items/sai_p_art_perwk",
+                "isVis": "sai_p_activities___24 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_art_perwk"
+            },
+            {
+                "isAbout": "items/sai_p_art_tspent",
+                "isVis": "sai_p_activities___24 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_art_tspent"
+            },
+            {
+                "isAbout": "items/sai_p_art_p12",
+                "isVis": "sai_p_activities___24 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_art_p12"
+            },
+            {
+                "isAbout": "items/sai_p_drama_school",
+                "isVis": "sai_p_activities___25 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_drama_school"
+            },
+            {
+                "isAbout": "items/sai_p_drama_outside",
+                "isVis": "sai_p_activities___25 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_drama_outside"
+            },
+            {
+                "isAbout": "items/sai_p_drama_private",
+                "isVis": "sai_p_activities___25 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_drama_private"
+            },
+            {
+                "isAbout": "items/sai_p_drama_self",
+                "isVis": "sai_p_activities___25 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_drama_self"
+            },
+            {
+                "isAbout": "items/sai_p_drama_nyr",
+                "isVis": "sai_p_activities___25 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_drama_nyr"
+            },
+            {
+                "isAbout": "items/sai_p_drama_nmonth",
+                "isVis": "sai_p_activities___25 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_drama_nmonth"
+            },
+            {
+                "isAbout": "items/sai_p_drama_perwk",
+                "isVis": "sai_p_activities___25 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_drama_perwk"
+            },
+            {
+                "isAbout": "items/sai_p_drama_tspent",
+                "isVis": "sai_p_activities___25 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_drama_tspent"
+            },
+            {
+                "isAbout": "items/sai_p_drama_p12",
+                "isVis": "sai_p_activities___25 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_drama_p12"
+            },
+            {
+                "isAbout": "items/sai_p_crafts_school",
+                "isVis": "sai_p_activities___26 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_crafts_school"
+            },
+            {
+                "isAbout": "items/sai_p_crafts_outside",
+                "isVis": "sai_p_activities___26 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_crafts_outside"
+            },
+            {
+                "isAbout": "items/sai_p_crafts_private",
+                "isVis": "sai_p_activities___26 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_crafts_private"
+            },
+            {
+                "isAbout": "items/sai_p_crafts_self",
+                "isVis": "sai_p_activities___26 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_crafts_self"
+            },
+            {
+                "isAbout": "items/sai_p_crafts_nyr",
+                "isVis": "sai_p_activities___26 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_crafts_nyr"
+            },
+            {
+                "isAbout": "items/sai_p_crafts_nmonth",
+                "isVis": "sai_p_activities___26 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_crafts_nmonth"
+            },
+            {
+                "isAbout": "items/sai_p_crafts_perwk",
+                "isVis": "sai_p_activities___26 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_crafts_perwk"
+            },
+            {
+                "isAbout": "items/sai_p_crafts_tspent",
+                "isVis": "sai_p_activities___26 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_crafts_tspent"
+            },
+            {
+                "isAbout": "items/sai_p_crafts_p12",
+                "isVis": "sai_p_activities___26 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_crafts_p12"
+            },
+            {
+                "isAbout": "items/sai_p_chess_school",
+                "isVis": "sai_p_activities___27 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_chess_school"
+            },
+            {
+                "isAbout": "items/sai_p_chess_outside",
+                "isVis": "sai_p_activities___27 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_chess_outside"
+            },
+            {
+                "isAbout": "items/sai_p_chess_private",
+                "isVis": "sai_p_activities___27 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_chess_private"
+            },
+            {
+                "isAbout": "items/sai_p_chess_self",
+                "isVis": "sai_p_activities___27 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_chess_self"
+            },
+            {
+                "isAbout": "items/sai_p_chess_nyr",
+                "isVis": "sai_p_activities___27 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_chess_nyr"
+            },
+            {
+                "isAbout": "items/sai_p_chess_nmonth",
+                "isVis": "sai_p_activities___27 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_chess_nmonth"
+            },
+            {
+                "isAbout": "items/sai_p_chess_perwk",
+                "isVis": "sai_p_activities___27 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_chess_perwk"
+            },
+            {
+                "isAbout": "items/sai_p_chess_tspent",
+                "isVis": "sai_p_activities___27 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_chess_tspent"
+            },
+            {
+                "isAbout": "items/sai_p_chess_p12",
+                "isVis": "sai_p_activities___27 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_chess_p12"
+            },
+            {
+                "isAbout": "items/sai_p_collect_school",
+                "isVis": "sai_p_activities___28 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_collect_school"
+            },
+            {
+                "isAbout": "items/sai_p_collect_outside",
+                "isVis": "sai_p_activities___28 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_collect_outside"
+            },
+            {
+                "isAbout": "items/sai_p_collect_private",
+                "isVis": "sai_p_activities___28 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_collect_private"
+            },
+            {
+                "isAbout": "items/sai_p_collect_self",
+                "isVis": "sai_p_activities___28 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_collect_self"
+            },
+            {
+                "isAbout": "items/sai_p_collect_nyr",
+                "isVis": "sai_p_activities___28 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_collect_nyr"
+            },
+            {
+                "isAbout": "items/sai_p_collect_nmonth",
+                "isVis": "sai_p_activities___28 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_collect_nmonth"
+            },
+            {
+                "isAbout": "items/sai_p_collect_perwk",
+                "isVis": "sai_p_activities___28 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_collect_perwk"
+            },
+            {
+                "isAbout": "items/sai_p_collect_tspent",
+                "isVis": "sai_p_activities___28 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_collect_tspent"
+            },
+            {
+                "isAbout": "items/sai_p_collect_p12",
+                "isVis": "sai_p_activities___28 == '1'",
+                "valueRequired": false,
+                "variableName": "sai_p_collect_p12"
+            },
+            {
+                "isAbout": "items/sai_p_lmusic",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sai_p_lmusic"
+            },
+            {
+                "isAbout": "items/sai_p_lmusic_2",
+                "isVis": "sai_p_lmusic == '1' && sai_p_lmusic_dk == ''",
+                "valueRequired": false,
+                "variableName": "sai_p_lmusic_2"
+            },
+            {
+                "isAbout": "items/sai_p_lmusic_dk",
+                "isVis": "sai_p_lmusic == '1' && sai_p_lmusic_2 == ''",
+                "valueRequired": false,
+                "variableName": "sai_p_lmusic_dk"
+            },
+            {
+                "isAbout": "items/sai_p_lmusic_hours",
+                "isVis": "sai_p_lmusic == '1' && sai_p_lmusic_hours_dk == ''",
+                "valueRequired": false,
+                "variableName": "sai_p_lmusic_hours"
+            },
+            {
+                "isAbout": "items/sai_p_lmusic_hours_dk",
+                "isVis": "sai_p_lmusic == '1' && sai_p_lmusic_hours == ''",
+                "valueRequired": false,
+                "variableName": "sai_p_lmusic_hours_dk"
+            },
+            {
+                "isAbout": "items/sai_p_read",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sai_p_read"
+            },
+            {
+                "isAbout": "items/sai_p_read_years",
+                "isVis": "sai_p_read == '1' && sai_p_read_years_dk == ''",
+                "valueRequired": false,
+                "variableName": "sai_p_read_years"
+            },
+            {
+                "isAbout": "items/sai_p_read_years_dk",
+                "isVis": "sai_p_read == '1' && sai_p_read_years == ''",
+                "valueRequired": false,
+                "variableName": "sai_p_read_years_dk"
+            },
+            {
+                "isAbout": "items/sai_p_read_hours",
+                "isVis": "sai_p_read == '1' && sai_p_read_hours_dk == ''",
+                "valueRequired": false,
+                "variableName": "sai_p_read_hours"
+            },
+            {
+                "isAbout": "items/sai_p_read_hours_dk",
+                "isVis": "sai_p_read == '1' && sai_p_read_hours == ''",
+                "valueRequired": false,
+                "variableName": "sai_p_read_hours_dk"
+            },
+            {
+                "isAbout": "items/sports_activities_involvement_saiqparent_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sports_activities_involvement_saiqparent_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,36 @@
+{
+    "id": "pls4_y_nic_use",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Participant Section:\"I just have a few questions before we start the next activity.\""
+    },
+    "prefLabel": {
+        "en": "pls4_y_nic_use"
+    },
+    "question": {
+        "en": "Have you used nicotine (such as cigarettes, electronic cigarettes/vape pen/e-hookah, hookah, chewing tobacco, or cigar) in the last 24 hours?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

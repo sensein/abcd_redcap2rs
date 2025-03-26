@@ -1,0 +1,70 @@
+{
+    "id": "tlfb_hall_use_type",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "tlfb_hall_use_type"
+    },
+    "question": {
+        "en": "Which of these have you used? (Please check all that apply)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "LSD or acid"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "PCP or angel dust"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Peyote"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Mescaline"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "DMT"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "AMT"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Foxy"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 10
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
