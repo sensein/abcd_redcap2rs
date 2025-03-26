@@ -1,6 +1,13 @@
 {
     "id": "demo_prnt_race_acs_tribe",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
     "preamble": {
         "en": "The following questions are about you or the child's family.",
         "es": "Las siguientes preguntas son acerca de usted o de la familia del ni\u00c3\u00b1o / de la ni\u00c3\u00b1a."
@@ -18,7 +25,8 @@
         ]
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "text",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
