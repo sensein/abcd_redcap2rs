@@ -12,7 +12,7 @@ import re
 import argparse
 import sys
 from concurrent.futures import ThreadPoolExecutor
-from dotenv import load_dotenv  
+from dotenv import load_dotenv
 
 # Set up logging
 logging.basicConfig(
@@ -32,28 +32,28 @@ class ReproSchemaConverter:
         except (FileNotFoundError, yaml.YAMLError) as e:
             logger.error(f"Failed to load config from {config_path}: {e}")
             sys.exit(1)
-        
+
         # AWS configuration
         self.s3_bucket = self.config['aws']['bucket_name']
         self.s3_prefix = self.config['aws']['prefix']
-        
+
         # Git repository configuration
         self.repo_path = self.config['git']['repo_path']
         self.protocol_name = self.config['protocol']['name']
         self.yaml_file_path = self.config['protocol']['yaml_path']
-        
+
         # Processing configuration
         self.max_files = self.config.get('processing', {}).get('max_files', 1)
         self.archive_processed_files = self.config.get('archive_processed_files', False)
         self.validate_after_conversion = self.config.get('processing', {}).get('validate', True)
-        
+
         # Setup progress and error tracking
         self.processed_count = 0
         self.error_count = 0
-        
+
         # Get AWS credentials with flexible fallback strategy
         aws_access_key, aws_secret_key = self._get_aws_credentials()
-        
+
         # Initialize AWS client with retry configuration
         try:
             self.s3 = boto3.client(
@@ -71,7 +71,7 @@ class ReproSchemaConverter:
         except Exception as e:
             logger.error(f"Failed to initialize S3 client: {e}")
             sys.exit(1)
-        
+
         # Initialize Git repository
         try:
             self.repo = Repo(self.repo_path)
@@ -85,11 +85,11 @@ class ReproSchemaConverter:
         except git_exc.NoSuchPathError:
             logger.error(f"No such path: {self.repo_path}")
             sys.exit(1)
-        
+
         # Create temp directory for downloads
         self.temp_dir = tempfile.mkdtemp()
         logger.info(f"Created temporary directory: {self.temp_dir}")
-        
+
         # Working directory for conversions
         self.work_dir = os.path.join(self.temp_dir, 'work')
         os.makedirs(self.work_dir, exist_ok=True)
@@ -119,17 +119,17 @@ class ReproSchemaConverter:
                 'source_name': 'config file'
             }
         ]
-        
+
         # Try each source in order
         for source in sources:
             access_key = source['access_key']
             secret_key = source['secret_key']
-            
+
             # If both keys are available from this source, use them
             if access_key and secret_key:
                 logger.info(f"Using AWS credentials from {source['source_name']}")
                 return access_key, secret_key
-        
+
         # If we got here, we couldn't find valid credentials
         logger.warning("No valid AWS credentials found from any source")
         return None, None
@@ -141,19 +141,19 @@ class ReproSchemaConverter:
                 Bucket=self.s3_bucket,
                 Prefix=self.s3_prefix
             )
-            
+
             if 'Contents' not in response:
                 logger.info(f"No files found in s3://{self.s3_bucket}/{self.s3_prefix}")
                 return []
-            
+
             # Process and parse files with version information
             parsed_files = []
             for item in response['Contents']:
                 if not item['Key'].endswith('.csv'):
                     continue
-                    
+
                 filename = os.path.basename(item['Key'])
-                
+
                 # Parse DataDict_2019-04-29_0930_revid2218_rev11.csv format
                 match = re.match(r'DataDict_(\d{4}-\d{2}-\d{2})_(\d{4})_revid(\d+)_rev(\d+)\.csv', filename)
                 if match:
@@ -168,13 +168,13 @@ class ReproSchemaConverter:
                         'datetime': f"{date_str}_{time_str}",
                         'full_version': f"{date_str}-{time_str}-{revid}-{rev}"
                     })
-            
+
             # Sort by revid (version), then date and time
             sorted_files = sorted(parsed_files, key=lambda x: (x['revid'], x['date'], x['time'], x['rev']))
-            
+
             logger.info(f"Found {len(sorted_files)} CSV files in S3")
             return sorted_files
-            
+
         except Exception as e:
             logger.error(f"Error listing S3 files: {e}")
             return []
@@ -183,7 +183,7 @@ class ReproSchemaConverter:
         """Download file from S3 to local path with retry logic"""
         max_retries = 3
         retry_count = 0
-        
+
         while retry_count < max_retries:
             try:
                 self.s3.download_file(
@@ -199,25 +199,25 @@ class ReproSchemaConverter:
                 if retry_count >= max_retries:
                     logger.error(f"Failed to download {s3_key} after {max_retries} attempts")
                     return False
-        
+
         return False
 
     def get_latest_tag_version(self):
         """Retrieve the latest tag version from the repository based on tag names"""
         try:
             tags = sorted(self.repo.tags, key=lambda t: t.name)
-            
+
             if not tags:
                 logger.info("No tags found in repository")
                 return 0
-            
+
             # The latest tag is the last one in the sorted list
             latest_tag = tags[-1]
             logger.info(f"Latest Tag: {latest_tag.name}")
-            
+
             # Get the commit associated with the latest tag
             commit = latest_tag.commit
-            
+
             # Retrieve the schema file content from the commit
             schema_file_path = f"{self.protocol_name}/{self.protocol_name}_schema"
             try:
@@ -239,7 +239,7 @@ class ReproSchemaConverter:
             except Exception as e:
                 logger.error(f"Error reading schema file from tag {latest_tag.name}: {e}")
                 return 0
-                
+
         except Exception as e:
             logger.error(f"Error getting latest tag version: {e}")
             return 0
@@ -249,15 +249,15 @@ class ReproSchemaConverter:
         for folder in folders_to_update:
             dest_path = os.path.join(self.repo_path, folder)
             src_path = os.path.join(output_folder, folder)
-            
+
             if not os.path.exists(src_path):
                 logger.warning(f"Source path does not exist: {src_path}")
                 continue
-                
+
             if os.path.exists(dest_path):
                 shutil.rmtree(dest_path)
                 logger.info(f"Removed existing folder {dest_path}")
-            
+
             try:
                 shutil.copytree(src_path, dest_path)
                 logger.info(f"Copied {src_path} to {dest_path}")
@@ -271,7 +271,7 @@ class ReproSchemaConverter:
             # Load working content
             with open(file_path, 'r') as f:
                 working_content = json.load(f)
-            
+
             # Get content from last commit
             try:
                 last_commit_content = self.repo.git.show(f'HEAD:{file_path}')
@@ -279,31 +279,31 @@ class ReproSchemaConverter:
             except Exception:
                 logger.info(f"File {file_path} is new or not in the last commit")
                 return False
-            
+
             # Store versions before comparison
             working_version = working_content.get("version")
             last_version = last_commit_content.get("version")
-            
+
             # Create copies without version field for comparison
             working_copy = {k: v for k, v in working_content.items() if k != "version"}
             last_copy = {k: v for k, v in last_commit_content.items() if k != "version"}
-            
+
             # Convert both to JSON strings with sorted keys for consistent comparison
             working_json = json.dumps(working_copy, sort_keys=True)
             last_json = json.dumps(last_copy, sort_keys=True)
-            
+
             # Log the differences if they exist (for debugging)
             if working_json != last_json:
                 logger.debug(f"Found changes in {file_path} beyond version:")
                 logger.debug(f"Working content length: {len(working_json)}")
                 logger.debug(f"Last commit length: {len(last_json)}")
-            
+
             # Compare content and versions
             content_same = (working_json == last_json)
             version_different = (working_version != last_version)
-            
+
             return content_same and version_different
-            
+
         except Exception as e:
             logger.error(f"Error checking version changes for {file_path}: {e}")
             return False
@@ -316,35 +316,35 @@ class ReproSchemaConverter:
             folder_path = os.path.join(self.repo_path, folder)
             if os.path.exists(folder_path):
                 self.repo.git.add(folder_path)
-        
+
         changed_files = []
-        
+
         # Get both staged and unstaged changes compared to HEAD
         diffs = list(self.repo.index.diff('HEAD')) + list(self.repo.index.diff(None))
-        
+
         # Also check for untracked files
         untracked = [
             item for item in self.repo.untracked_files
             if any(folder in item for folder in relevant_folders)
         ]
-        
+
         # Process all changes
         for item in diffs:
             if any(folder in item.a_path for folder in relevant_folders):
                 file_path = os.path.join(self.repo_path, item.a_path)
-                
+
                 if self.is_version_only_change(file_path):
                     self.repo.git.checkout(file_path)
                     logger.info(f"Checked out {file_path} (version-only change)")
                 else:
                     logger.info(f"{file_path} has substantial changes")
                     changed_files.append(item.a_path)
-        
+
         # Add any untracked files to changed_files
         for item in untracked:
             logger.info(f"New file detected: {item}")
             changed_files.append(item)
-        
+
         logger.info(f"Found {len(changed_files)} files with substantial changes")
         return changed_files
 
@@ -359,20 +359,20 @@ class ReproSchemaConverter:
                     logger.info(f"Added folder to git: {folder_path}")
                 else:
                     logger.warning(f"Folder does not exist: {folder_path}")
-            
+
             # Check if there are changes to commit
             if not self.repo.index.diff('HEAD'):
                 logger.info("No changes to commit")
                 return False
-            
+
             # Commit changes
             self.repo.index.commit(commit_message)
             logger.info(f"Committed with message: {commit_message}")
-            
+
             # Create and push tag
             self.repo.create_tag(tag_name, message=tag_message)
             logger.info(f"Created tag: {tag_name}")
-            
+
             # Push changes to remote
             origin = self.repo.remote(name='origin')
             try:
@@ -384,10 +384,10 @@ class ReproSchemaConverter:
                 logger.info("Attempting force push")
                 origin.push(force=True)
                 origin.push(tag_name, force=True)
-                
+
             logger.info(f"Git tagged {tag_name}")
             return True
-            
+
         except Exception as e:
             logger.error(f"Error in commit_and_tag: {e}")
             return False
@@ -398,22 +398,23 @@ class ReproSchemaConverter:
             s3_key = file_info['key']
             filename = file_info['filename']
             local_path = os.path.join(self.temp_dir, filename)
-            
+
             # Download the file
             if not self.download_file(s3_key, local_path):
                 return False
-                
+
             # Get current version from repo
             current_version = self.get_latest_tag_version()
             redcap_version = file_info['revid']
-            
+            rev = file_info["rev"]
+
             logger.info(f"Processing file {filename}, redcap_version={redcap_version}, current_version={current_version}")
-            
+
             # Check if this is a newer version that needs processing
             if current_version > 0 and redcap_version <= current_version:
                 logger.info(f"Skipping {filename}, already processed (version {redcap_version} ≤ {current_version})")
                 return False
-         
+
             # Run the redcap2reproschema command
             cmd = [
                 "reproschema",
@@ -423,19 +424,19 @@ class ReproSchemaConverter:
                 "--output-path",
                 self.work_dir
             ]
-            
+
             logger.info(f"Running command: {' '.join(cmd)}")
-            
+
             try:
                 result = run(cmd, check=True, capture_output=True, text=True)
                 logger.info(f"Conversion output: {result.stdout}")
             except CalledProcessError as e:
                 logger.error(f"Conversion failed: {e.stderr}")
                 return False
-            
+
             # Validate the generated schema if enabled
             output_folder = os.path.join(self.work_dir, self.protocol_name)
-            
+
             if self.validate_after_conversion:
                 validate_cmd = ["reproschema", "validate", output_folder]
                 logger.info(f"Running validation: {' '.join(validate_cmd)}")
@@ -445,50 +446,50 @@ class ReproSchemaConverter:
                 except CalledProcessError as e:
                     logger.error(f"Validation failed: {e.stderr}")
                     return False
-            
+
             # Update repository with new/modified files
             folders_to_update = [f"{self.protocol_name}", "activities"]
             self.update_repo(output_folder, folders_to_update)
-            
+
             # Process changed files (handle version-only changes)
             changed_files = self.process_changed_files()
-            
+
             # If no substantial changes were made, revert folder updates and only update YAML
             if not changed_files and current_version > 0:
                 logger.info(f"No substantial changes found in {filename}, updating YAML version only")
-                
+
                 # Revert any folder changes
                 for folder in folders_to_update:
                     self.repo.git.checkout('HEAD', '--', folder)
-                
+
                 # Update the YAML file with the new redcap_version
                 try:
                     with open(self.yaml_file_path, 'r') as f:
                         yaml_content = yaml.safe_load(f)
-                    
+
                     # Update the redcap_version
                     yaml_content['redcap_version'] = f"revid{redcap_version}"
-                    
+
                     # Write back to the file
                     with open(self.yaml_file_path, 'w') as f:
                         yaml.dump(yaml_content, f, default_flow_style=False)
-                    
+
                     # Add and commit only the YAML file
                     yaml_path = os.path.relpath(self.yaml_file_path, self.repo_path)
                     self.repo.git.add(yaml_path)
-                    
+
                     # Commit and push the YAML update
                     version_commit_message = f"Update redcap version to revid{redcap_version} (no schema changes)"
                     self.repo.index.commit(version_commit_message)
                     logger.info(f"Committed YAML version update: {version_commit_message}")
-                    
+
                     # Push changes to remote
                     origin = self.repo.remote(name='origin')
                     origin.push()
                     logger.info(f"Pushed YAML version update to remote")
-                    
+
                     return True
-                    
+
                 except Exception as e:
                     logger.error(f"Failed to update YAML file: {e}")
                     return False
@@ -501,21 +502,21 @@ class ReproSchemaConverter:
                     yaml_content['redcap_version'] = f"revid{redcap_version}"
                     with open(self.yaml_file_path, 'w') as f:
                         yaml.dump(yaml_content, f, default_flow_style=False)
-                    
+
                     # Commit and tag all changes
                     date_time_str = file_info['datetime']
                     commit_message = f"converted {self.protocol_name} redcap data dictionary {date_time_str} to reproschema"
                     tag_message = f"redcap data dictionary {date_time_str} revid{redcap_version} to reproschema"
-                    
+
                     # Include revision ID in the tag name to make it unique
-                    tag_name = f"{date_time_str.replace('-', '.').replace('_', '.')}-rev{redcap_version}"
-                    
+                    tag_name = f"{date_time_str.replace('-', '.').replace('_', '.')}-rev{redcap_version}-rev{rev}"
+
                     return self.commit_and_tag(commit_message, tag_name, tag_message, folders_to_update)
-                
+
                 except Exception as e:
                     logger.error(f"Error in processing changes: {e}")
                     return False
-            
+
         except Exception as e:
             logger.error(f"Error processing {filename if 'filename' in locals() else 'file'}: {e}")
             return False
@@ -523,17 +524,17 @@ class ReproSchemaConverter:
     def run(self):
         """Main method to check for new files and process them"""
         logger.info("Starting ReproSchema conversion CI job")
-        
+
         # Check if reproschema command is available
         try:
             run(["reproschema", "--version"], check=True, stdout=PIPE, stderr=PIPE)
         except (CalledProcessError, FileNotFoundError):
             logger.error("reproschema command not found. Please ensure it's installed.")
             sys.exit(1)
-        
+
         start_time = datetime.datetime.now()
         logger.info(f"Job started at {start_time}")
-        
+
         # Pull latest changes from the repository
         try:
             origin = self.repo.remote(name='origin')
@@ -542,17 +543,17 @@ class ReproSchemaConverter:
         except git_exc.GitCommandError as e:
             logger.error(f"Error pulling from repository: {e}")
             sys.exit(1)  # Exit on git error
-        
+
         # List and sort files in S3 bucket
         s3_files = self.list_s3_files()
         if not s3_files:
             logger.info("No files to process")
             return
-            
+
         # Get current version from repo
         current_version = self.get_latest_tag_version()
         logger.info(f"Current repository version: {current_version}")
-        
+
         # Filter for files newer than current version
         if current_version > 0:
             new_files = [f for f in s3_files if f['revid'] > current_version]
@@ -560,19 +561,19 @@ class ReproSchemaConverter:
         else:
             new_files = s3_files
             logger.info(f"No current version found, processing all {len(new_files)} files")
-        
+
         # Limit number of files to process
         if self.max_files > 0 and len(new_files) > self.max_files:
             logger.info(f"Limiting to {self.max_files} files per run")
             new_files = new_files[:self.max_files]
-        
+
         # Process each file in sequence
         processed_count = 0
         error_count = 0
-        
+
         for file_info in new_files:
             logger.info(f"Processing file {file_info['filename']} (revid: {file_info['revid']})")
-            
+
             success = self.process_file(file_info)
             if success:
                 processed_count += 1
@@ -583,14 +584,14 @@ class ReproSchemaConverter:
                 # Exit immediately if any file fails processing
                 logger.error("Stopping further processing due to file conversion failure")
                 sys.exit(1)  # Exit with error status
-        
+
         end_time = datetime.datetime.now()
         duration = end_time - start_time
-        
+
         logger.info(f"Job completed at {end_time}")
         logger.info(f"Duration: {duration}")
         logger.info(f"Processed {processed_count} files with {error_count} errors")
-        
+
         # Exit with error if no files were processed successfully (but files were available)
         if processed_count == 0 and len(new_files) > 0:
             logger.error("No files were successfully processed")
@@ -602,6 +603,6 @@ if __name__ == "__main__":
     parser.add_argument('--config', type=str, default='config/config.yaml',
                       help='Path to configuration file (default: config/config.yaml)')
     args = parser.parse_args()
-    
+
     converter = ReproSchemaConverter(config_path=args.config)
     converter.run()
