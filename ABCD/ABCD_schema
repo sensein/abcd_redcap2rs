@@ -219,15 +219,12 @@
             "../activities/locator/locator_schema",
             "../activities/testeventname_daiconly/testeventname_daiconly_schema",
             "../activities/fitbit_scores/fitbit_scores_schema",
-            "../activities/fsurf_qc_daic_use_only/fsurf_qc_daic_use_only_schema",
-            "../activities/mri_info/mri_info_schema",
             "../activities/mri_beh_mid_daic_use_only/mri_beh_mid_daic_use_only_schema",
             "../activities/mri_beh_nback_daic_use_only/mri_beh_nback_daic_use_only_schema",
             "../activities/mri_beh_rec_daic_use_only/mri_beh_rec_daic_use_only_schema",
             "../activities/mri_beh_sst_daic_use_only/mri_beh_sst_daic_use_only_schema",
             "../activities/month_fu_phone_interview/month_fu_phone_interview_schema",
             "../activities/mri_qc_raw_daic_use_only/mri_qc_raw_daic_use_only_schema",
-            "../activities/dti_postqc_daic_use_only/dti_postqc_daic_use_only_schema",
             "../activities/blood_pressure/blood_pressure_schema",
             "../activities/p_fitbit_baseline/p_fitbit_baseline_schema",
             "../activities/p_fitbit_followup/p_fitbit_followup_schema",
@@ -258,11 +255,11 @@
             "../activities/social_development_child_difficulties_in_emotion_regulation/social_development_child_difficulties_in_emotion_regulation_schema",
             "../activities/social_development_child_alabama_parenting_questionnaire/social_development_child_alabama_parenting_questionnaire_schema",
             "../activities/social_development_child_feedback/social_development_child_feedback_schema",
-            "../activities/test_daic_only/test_daic_only_schema",
             "../activities/genomics_sample/genomics_sample_schema",
             "../activities/fitbit_substudy_raw_daic_use_only/fitbit_substudy_raw_daic_use_only_schema",
             "../activities/met_transform_sports_activity/met_transform_sports_activity_schema",
-            "../activities/pguid_error_tracking/pguid_error_tracking_schema"
+            "../activities/pguid_error_tracking/pguid_error_tracking_schema",
+            "../activities/test_daic_only/test_daic_only_schema"
         ],
         "addProperties": [
             {
@@ -1938,22 +1935,6 @@
                 "variableName": "fitbit_scores_schema"
             },
             {
-                "isAbout": "../activities/fsurf_qc_daic_use_only/fsurf_qc_daic_use_only_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Fsurf Qc Daic Use Only"
-                },
-                "variableName": "fsurf_qc_daic_use_only_schema"
-            },
-            {
-                "isAbout": "../activities/mri_info/mri_info_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Mri Info"
-                },
-                "variableName": "mri_info_schema"
-            },
-            {
                 "isAbout": "../activities/mri_beh_mid_daic_use_only/mri_beh_mid_daic_use_only_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -2000,14 +1981,6 @@
                     "en": "Mri Qc Raw Daic Use Only"
                 },
                 "variableName": "mri_qc_raw_daic_use_only_schema"
-            },
-            {
-                "isAbout": "../activities/dti_postqc_daic_use_only/dti_postqc_daic_use_only_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Dti Postqc Daic Use Only"
-                },
-                "variableName": "dti_postqc_daic_use_only_schema"
             },
             {
                 "isAbout": "../activities/blood_pressure/blood_pressure_schema",
@@ -2250,14 +2223,6 @@
                 "variableName": "social_development_child_feedback_schema"
             },
             {
-                "isAbout": "../activities/test_daic_only/test_daic_only_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Test Daic Only"
-                },
-                "variableName": "test_daic_only_schema"
-            },
-            {
                 "isAbout": "../activities/genomics_sample/genomics_sample_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -2288,10 +2253,18 @@
                     "en": "Pguid Error Tracking"
                 },
                 "variableName": "pguid_error_tracking_schema"
+            },
+            {
+                "isAbout": "../activities/test_daic_only/test_daic_only_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Test Daic Only"
+                },
+                "variableName": "test_daic_only_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2207",
+    "version": "revid2208",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
