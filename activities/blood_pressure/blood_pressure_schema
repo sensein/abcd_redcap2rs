@@ -18,6 +18,7 @@
     "ui": {
         "order": [
             "items/blood_pressure_start_time",
+            "items/blood_pressure_intro",
             "items/blood_pressure_collected",
             "items/blood_pressure_refuse",
             "items/blood_pressure_test_sys_1",
@@ -37,6 +38,12 @@
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "blood_pressure_start_time"
+            },
+            {
+                "isAbout": "items/blood_pressure_intro",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "blood_pressure_intro"
             },
             {
                 "isAbout": "items/blood_pressure_collected",
@@ -125,6 +132,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2269",
+    "version": "revid2272",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

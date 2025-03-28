@@ -87,6 +87,7 @@
             "../activities/erq_feelings_self/erq_feelings_self_schema",
             "../activities/youth_resiliency_scale_yrsyouth/youth_resiliency_scale_yrsyouth_schema",
             "../activities/y_h_mh_demography_part_2_comments/y_h_mh_demography_part_2_comments_schema",
+            "../activities/mexican_american_cultural_values_scale_youth/mexican_american_cultural_values_scale_youth_schema",
             "../activities/prosocial_tendencies_pstyouth/prosocial_tendencies_pstyouth_schema",
             "../activities/acculturationmodified_phenx_actyouth/acculturationmodified_phenx_actyouth_schema",
             "../activities/neglectful_behavior/neglectful_behavior_schema",
@@ -98,7 +99,6 @@
             "../activities/peer_network_health_protective_scaler/peer_network_health_protective_scaler_schema",
             "../activities/pet_ownership/pet_ownership_schema",
             "../activities/y_discrimination_measure_l/y_discrimination_measure_l_schema",
-            "../activities/mexican_american_cultural_values_scale_youth/mexican_american_cultural_values_scale_youth_schema",
             "../activities/y_gender_identity/y_gender_identity_schema",
             "../activities/y_wills_problem_solving_scale_l/y_wills_problem_solving_scale_l_schema",
             "../activities/y_school_attendance_and_grades/y_school_attendance_and_grades_schema",
@@ -896,6 +896,14 @@
                 "variableName": "y_h_mh_demography_part_2_comments_schema"
             },
             {
+                "isAbout": "../activities/mexican_american_cultural_values_scale_youth/mexican_american_cultural_values_scale_youth_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mexican American Cultural Values Scale Youth"
+                },
+                "variableName": "mexican_american_cultural_values_scale_youth_schema"
+            },
+            {
                 "isAbout": "../activities/prosocial_tendencies_pstyouth/prosocial_tendencies_pstyouth_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -982,14 +990,6 @@
                     "en": "Y Discrimination Measure L"
                 },
                 "variableName": "y_discrimination_measure_l_schema"
-            },
-            {
-                "isAbout": "../activities/mexican_american_cultural_values_scale_youth/mexican_american_cultural_values_scale_youth_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Mexican American Cultural Values Scale Youth"
-                },
-                "variableName": "mexican_american_cultural_values_scale_youth_schema"
             },
             {
                 "isAbout": "../activities/y_gender_identity/y_gender_identity_schema",
@@ -2418,6 +2418,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2269",
+    "version": "revid2272",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
