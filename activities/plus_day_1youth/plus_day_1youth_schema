@@ -287,13 +287,13 @@
             },
             {
                 "isAbout": "items/pls1_cbd_ago",
-                "isVis": "event_name_number > 20 && pls1_cbd == '1'",
+                "isVis": "pls1_cbd == '1'",
                 "valueRequired": true,
                 "variableName": "pls1_cbd_ago"
             },
             {
                 "isAbout": "items/pls1_cbd_product",
-                "isVis": "event_name_number > 20 && pls1_cbd == '1'",
+                "isVis": "pls1_cbd == '1'",
                 "valueRequired": true,
                 "variableName": "pls1_cbd_product"
             },
@@ -852,6 +852,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2306",
+    "version": "revid2307",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
