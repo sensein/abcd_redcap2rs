@@ -10,7 +10,6 @@
             "items/ysr_start_time",
             "items/ysr_q1",
             "items/ysr_q2",
-            "items/ysr_q2_describe",
             "items/ysr_q3",
             "items/ysr_q4",
             "items/ysr_q5",
@@ -18,7 +17,6 @@
             "items/ysr_q7",
             "items/ysr_q8",
             "items/ysr_q9",
-            "items/ysr_q9_describe",
             "items/ysr_q10",
             "items/ysr_q11",
             "items/ysr_q12",
@@ -39,7 +37,6 @@
             "items/ysr_q27",
             "items/ysr_q28",
             "items/ysr_q29",
-            "items/ysr_q29_describe",
             "items/ysr_q30",
             "items/ysr_q31",
             "items/ysr_q32",
@@ -51,14 +48,12 @@
             "items/ysr_q38",
             "items/ysr_q39",
             "items/ysr_q40",
-            "items/ysr_q40_describe",
             "items/ysr_q41",
             "items/ysr_q42",
             "items/ysr_q43",
             "items/ysr_q44",
             "items/ysr_q45",
             "items/ysr_q46",
-            "items/ysr_q46_describe",
             "items/ysr_q47",
             "items/ysr_q48",
             "items/ysr_q49",
@@ -72,7 +67,6 @@
             "items/ysr_q56b",
             "items/ysr_q56c",
             "items/ysr_q56d",
-            "items/ysr_q56d_describe",
             "items/ysr_q56e",
             "items/ysr_q56f",
             "items/ysr_q56g",
@@ -166,12 +160,6 @@
                 "variableName": "ysr_q2"
             },
             {
-                "isAbout": "items/ysr_q2_describe",
-                "isVis": "ysr_q2 == '1' || ysr_q2 == '2'",
-                "valueRequired": true,
-                "variableName": "ysr_q2_describe"
-            },
-            {
                 "isAbout": "items/ysr_q3",
                 "isVis": true,
                 "valueRequired": true,
@@ -212,12 +200,6 @@
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "ysr_q9"
-            },
-            {
-                "isAbout": "items/ysr_q9_describe",
-                "isVis": "ysr_q9 == '1' || ysr_q9 == '2'",
-                "valueRequired": true,
-                "variableName": "ysr_q9_describe"
             },
             {
                 "isAbout": "items/ysr_q10",
@@ -340,12 +322,6 @@
                 "variableName": "ysr_q29"
             },
             {
-                "isAbout": "items/ysr_q29_describe",
-                "isVis": "ysr_q29 == '1' || ysr_q29 == '2'",
-                "valueRequired": true,
-                "variableName": "ysr_q29_describe"
-            },
-            {
                 "isAbout": "items/ysr_q30",
                 "isVis": true,
                 "valueRequired": true,
@@ -412,12 +388,6 @@
                 "variableName": "ysr_q40"
             },
             {
-                "isAbout": "items/ysr_q40_describe",
-                "isVis": "ysr_q40 == '1' || ysr_q40 == '2'",
-                "valueRequired": true,
-                "variableName": "ysr_q40_describe"
-            },
-            {
                 "isAbout": "items/ysr_q41",
                 "isVis": true,
                 "valueRequired": true,
@@ -452,12 +422,6 @@
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "ysr_q46"
-            },
-            {
-                "isAbout": "items/ysr_q46_describe",
-                "isVis": "ysr_q46 == '1' || ysr_q46 == '2'",
-                "valueRequired": true,
-                "variableName": "ysr_q46_describe"
             },
             {
                 "isAbout": "items/ysr_q47",
@@ -536,12 +500,6 @@
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "ysr_q56d"
-            },
-            {
-                "isAbout": "items/ysr_q56d_describe",
-                "isVis": "ysr_q56d == '1' || ysr_q56d == '2'",
-                "valueRequired": true,
-                "variableName": "ysr_q56d_describe"
             },
             {
                 "isAbout": "items/ysr_q56e",
@@ -978,6 +936,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2278",
+    "version": "revid2279",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

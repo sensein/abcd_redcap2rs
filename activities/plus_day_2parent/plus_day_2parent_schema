@@ -528,7 +528,7 @@
             },
             {
                 "isAbout": "items/pls4_cbd_p",
-                "isVis": false,
+                "isVis": "event_name_number > 30 && pls4_need_p == '1'",
                 "valueRequired": true,
                 "variableName": "pls4_cbd_p"
             },
@@ -565,6 +565,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2278",
+    "version": "revid2279",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

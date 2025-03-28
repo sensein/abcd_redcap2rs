@@ -11,6 +11,11 @@
             "column": "Question Number (surveys only)",
             "source": "redcap",
             "value": "11"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
         }
     ],
     "preamble": {
@@ -74,7 +79,8 @@
         ]
     },
     "ui": {
-        "inputType": "select"
+        "inputType": "select",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

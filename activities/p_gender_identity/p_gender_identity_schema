@@ -102,7 +102,7 @@
             },
             {
                 "isAbout": "items/gish_m9_p",
-                "isVis": "baseline_year_1_arm_1demo_sex_v2b == '1' || baseline_year_1_arm_1demo_sex_v2b == '3'",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "gish_m9_p"
             },
@@ -114,7 +114,7 @@
             },
             {
                 "isAbout": "items/gish_m11_p",
-                "isVis": "baseline_year_1_arm_1demo_sex_v2b == '1' || baseline_year_1_arm_1demo_sex_v2b == '3'",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "gish_m11_p"
             },
@@ -186,7 +186,7 @@
             },
             {
                 "isAbout": "items/gish_f9_p",
-                "isVis": "baseline_year_1_arm_1demo_sex_v2b == '2' || baseline_year_1_arm_1demo_sex_v2b == '4'",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "gish_f9_p"
             },
@@ -198,7 +198,7 @@
             },
             {
                 "isAbout": "items/gish_f11_p",
-                "isVis": "baseline_year_1_arm_1demo_sex_v2b == '2' || baseline_year_1_arm_1demo_sex_v2b == '4'",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "gish_f11_p"
             },
@@ -229,6 +229,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2278",
+    "version": "revid2279",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
