@@ -28,6 +28,7 @@
             "../activities/edinburgh_handedness_inventory_short_form/edinburgh_handedness_inventory_short_form_schema",
             "../activities/snellen_vision_screener_visyouth/snellen_vision_screener_visyouth_schema",
             "../activities/pubertal_development_scale_pdsmenstrual_historyyou/pubertal_development_scale_pdsmenstrual_historyyou_schema",
+            "../activities/gish2_youth/gish2_youth_schema",
             "../activities/pubertal_hormone_saliva_psyouth/pubertal_hormone_saliva_psyouth_schema",
             "../activities/ra_scanning_checklist_and_notes/ra_scanning_checklist_and_notes_schema",
             "../activities/pre_scan_questionnaireyouth_1/pre_scan_questionnaireyouth_1_schema",
@@ -94,7 +95,6 @@
             "../activities/y_discrimination_measure_l/y_discrimination_measure_l_schema",
             "../activities/mexican_american_cultural_values_scale_youth/mexican_american_cultural_values_scale_youth_schema",
             "../activities/y_gender_identity/y_gender_identity_schema",
-            "../activities/gish2_youth/gish2_youth_schema",
             "../activities/y_wills_problem_solving_scale_l/y_wills_problem_solving_scale_l_schema",
             "../activities/y_school_attendance_and_grades/y_school_attendance_and_grades_schema",
             "../activities/school_risk_protective_factorsmodified_phenx_srpfy/school_risk_protective_factorsmodified_phenx_srpfy_schema",
@@ -405,6 +405,14 @@
                     "en": "Pubertal Development Scale Pdsmenstrual Historyyou"
                 },
                 "variableName": "pubertal_development_scale_pdsmenstrual_historyyou_schema"
+            },
+            {
+                "isAbout": "../activities/gish2_youth/gish2_youth_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Gish2 Youth"
+                },
+                "variableName": "gish2_youth_schema"
             },
             {
                 "isAbout": "../activities/pubertal_hormone_saliva_psyouth/pubertal_hormone_saliva_psyouth_schema",
@@ -933,14 +941,6 @@
                     "en": "Y Gender Identity"
                 },
                 "variableName": "y_gender_identity_schema"
-            },
-            {
-                "isAbout": "../activities/gish2_youth/gish2_youth_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Gish2 Youth"
-                },
-                "variableName": "gish2_youth_schema"
             },
             {
                 "isAbout": "../activities/y_wills_problem_solving_scale_l/y_wills_problem_solving_scale_l_schema",
@@ -2265,6 +2265,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2209",
+    "version": "revid2212",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
