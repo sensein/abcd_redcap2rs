@@ -1,6 +1,12 @@
 {
     "id": "sum_scores_su_schema",
     "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "if(ple_died_fu_p == '2',ple_died_fu2_p,0)+ if(ple_injured_fu_p == '2',ple_injured_fu2_p,0)+ if(ple_crime_fu_p== '2',ple_crime_fu2_p,0)+ if(ple_friend_fu_p== '2',ple_friend_fu2_p,0)+ if(ple_friend_injur_fu_p == '2',ple_friend_injur_fu2_p,0)+ if(ple_financial_fu_p== '2',ple_financial_fu2_p,0)+ if(ple_sud_fu_p== '2',ple_sud_fu2_p,0)+ if(ple_ill_fu_p== '2',ple_ill_fu2_p,0)+ if(ple_injur_fu_p== '2',ple_injur_fu2_p,0)+ if(ple_argue_fu_p== '2',ple_argue_fu2_p,0)+ if(ple_job_fu_p== '2',ple_job_fu2_p,0)+ if(ple_away_fu_p== '2',ple_away_fu2_p,0)+ if(ple_arrest_fu_p== '2',ple_arrest_fu2_p,0)+ if(ple_friend_died_fu_p== '2',ple_friend_died_fu2_p,0)+ if(ple_mh_fu_p== '2',ple_mh_fu2_p,0)+ if(ple_sib_fu_p== '2',ple_sib_fu2_p,0)+ if(ple_victim_fu_p== '2',ple_victim_fu2_p,0)+ if(ple_separ_fu_p== '2',ple_separ_fu2_p,0)+ if(ple_law_fu_p== '2',ple_law_fu2_p,0)+ if(ple_school_fu_p== '2',ple_school_fu2_p,0)+ if(ple_move_fu_p== '2',ple_move_fu2_p,0)+ if(ple_jail_fu_p== '2',ple_jail_fu2_p,0)+ if(ple_step_fu_p== '2',ple_step_fu2_p,0)+ if(ple_new_job_fu_p== '2',ple_new_job_fu2_p,0)+ if(ple_new_sib_fu_p == '2',ple_new_sib_fu2_p,0)",
+            "variableName": "ple_sum"
+        }
+    ],
     "prefLabel": {
         "en": "sum_scores_su"
     },
@@ -151,6 +157,12 @@
                 "variableName": "su_caff_ss_sum_calc_l"
             },
             {
+                "isAbout": "items/ple_sum",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_sum"
+            },
+            {
                 "isAbout": "items/sum_scores_su_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -159,6 +171,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2311",
+    "version": "revid2312",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

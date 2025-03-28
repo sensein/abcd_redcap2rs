@@ -1,6 +1,13 @@
 {
     "id": "su_tlfb_cbd_first_use",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20190601"
+        }
+    ],
     "preamble": {
         "en": "B. \"Now I'm going to ask if you tried these drugs for thefirst timeduring the period since we last saw you on  [asnt_timestamp_c]. Was this thefirst timeyou tried _____?\"\n\nC. Date of First Use?IF YES,  ASK:\"What was the date of thefirst timeyou tried______?\"Interviewer: Estimate first use date using mm/dd/yyyy. If the day is unknown, assume the 15th of the given month.D. Age of First Use Onset (calculated in years based on [current date]-[date of first use])."
     },

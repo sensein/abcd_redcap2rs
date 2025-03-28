@@ -609,7 +609,7 @@
             },
             {
                 "isAbout": "items/su_tlfb_cbd_use_l",
-                "isVis": "tlfb_mj_l == '1' || tlfb_mj_c_l == '1' ||(event - name == '3_year_follow_up_y_arm_1')",
+                "isVis": "tlfb_mj_l == '1' || tlfb_mj_c_l == '1' ||(event_name_number > '20')",
                 "valueRequired": true,
                 "variableName": "su_tlfb_cbd_use_l"
             },
@@ -1887,7 +1887,7 @@
             },
             {
                 "isAbout": "items/su_tlfb_cbd_follow_up_l",
-                "isVis": "tlfb_6mo_skip_l___33 == '1'",
+                "isVis": "tlfb_6mo_skip_l___33 == '1' && event_name_number > '20'",
                 "valueRequired": true,
                 "variableName": "su_tlfb_cbd_follow_up_l"
             },
@@ -2044,6 +2044,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2311",
+    "version": "revid2312",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,6 +1,13 @@
 {
     "id": "su_tlfb_cbd_calc_l",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20190601"
+        }
+    ],
     "description": {
         "en": "Age of onset:"
     },
@@ -16,8 +23,7 @@
         ]
     },
     "ui": {
-        "inputType": "number",
-        "readonlyValue": true
+        "inputType": "number"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
