@@ -19,6 +19,7 @@
             "items/ra_fb_3yr_su_9_y",
             "items/ra_fb_3yr_su_10_y",
             "items/ra_fb_3yr_su_11_y",
+            "items/ra_fb_3yr_su_12_y",
             "items/ra_fb_3yr_mh_y",
             "items/ra_fb_3yr_mh_1_y",
             "items/ra_fb_3yr_mh_2_y",
@@ -49,6 +50,10 @@
             "items/ra_fb_3yr_ce_11_y",
             "items/ra_fb_3yr_ce_12_y",
             "items/ra_fb_3yr_ce_13_y",
+            "items/ra_fb_3yr_ce_14_y",
+            "items/ra_fb_3yr_ce_15_y",
+            "items/ra_fb_3yr_ce_16_y",
+            "items/ra_fb_3yr_ce_17_y",
             "items/ra_fb_3yr_ph_y",
             "items/ra_fb_3yr_ph_1_y",
             "items/ra_fb_3yr_ph_2_y",
@@ -61,6 +66,7 @@
             "items/ra_fb_3yr_mt_1_y",
             "items/ra_fb_3yr_mt_2_y",
             "items/ra_fb_3yr_mt_3_y",
+            "items/ra_fb_3yr_mt_4_y",
             "items/ra_fb_3yr_ncg_y",
             "items/ra_fb_3yr_ncg_1_y",
             "items/ra_fb_3yr_ncg_2_y",
@@ -145,6 +151,12 @@
                 "isVis": "ra_fb_3yr_su_y___11 == '1'",
                 "valueRequired": false,
                 "variableName": "ra_fb_3yr_su_11_y"
+            },
+            {
+                "isAbout": "items/ra_fb_3yr_su_12_y",
+                "isVis": "ra_fb_3yr_su_y___12 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_3yr_su_12_y"
             },
             {
                 "isAbout": "items/ra_fb_3yr_mh_y",
@@ -327,6 +339,30 @@
                 "variableName": "ra_fb_3yr_ce_13_y"
             },
             {
+                "isAbout": "items/ra_fb_3yr_ce_14_y",
+                "isVis": "ra_fb_3yr_ce_y___14 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_3yr_ce_14_y"
+            },
+            {
+                "isAbout": "items/ra_fb_3yr_ce_15_y",
+                "isVis": "ra_fb_3yr_ce_y___15 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_3yr_ce_15_y"
+            },
+            {
+                "isAbout": "items/ra_fb_3yr_ce_16_y",
+                "isVis": "ra_fb_3yr_ce_y___16 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_3yr_ce_16_y"
+            },
+            {
+                "isAbout": "items/ra_fb_3yr_ce_17_y",
+                "isVis": "ra_fb_3yr_ce_y___17 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_3yr_ce_17_y"
+            },
+            {
                 "isAbout": "items/ra_fb_3yr_ph_y",
                 "isVis": true,
                 "valueRequired": false,
@@ -399,6 +435,12 @@
                 "variableName": "ra_fb_3yr_mt_3_y"
             },
             {
+                "isAbout": "items/ra_fb_3yr_mt_4_y",
+                "isVis": "ra_fb_3yr_mt_y___4 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_3yr_mt_4_y"
+            },
+            {
                 "isAbout": "items/ra_fb_3yr_ncg_y",
                 "isVis": true,
                 "valueRequired": false,
@@ -467,6 +509,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2281",
+    "version": "revid2282",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

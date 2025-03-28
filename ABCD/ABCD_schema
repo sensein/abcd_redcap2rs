@@ -274,9 +274,9 @@
             "../activities/pguid_error_tracking/pguid_error_tracking_schema",
             "../activities/test_daic_only/test_daic_only_schema",
             "../activities/p_ra_feedback_3yr_pilot/p_ra_feedback_3yr_pilot_schema",
-            "../activities/y_ra_feedback_3_yr_pilot/y_ra_feedback_3_yr_pilot_schema",
             "../activities/vancouver_index_of_acculturation_y/vancouver_index_of_acculturation_y_schema",
-            "../activities/multigroup_ethnic_identity_meim/multigroup_ethnic_identity_meim_schema"
+            "../activities/multigroup_ethnic_identity_meim/multigroup_ethnic_identity_meim_schema",
+            "../activities/y_ra_feedback_3_yr_pilot/y_ra_feedback_3_yr_pilot_schema"
         ],
         "addProperties": [
             {
@@ -2392,14 +2392,6 @@
                 "variableName": "p_ra_feedback_3yr_pilot_schema"
             },
             {
-                "isAbout": "../activities/y_ra_feedback_3_yr_pilot/y_ra_feedback_3_yr_pilot_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Y Ra Feedback 3 Yr Pilot"
-                },
-                "variableName": "y_ra_feedback_3_yr_pilot_schema"
-            },
-            {
                 "isAbout": "../activities/vancouver_index_of_acculturation_y/vancouver_index_of_acculturation_y_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -2414,10 +2406,18 @@
                     "en": "Multigroup Ethnic Identity Meim"
                 },
                 "variableName": "multigroup_ethnic_identity_meim_schema"
+            },
+            {
+                "isAbout": "../activities/y_ra_feedback_3_yr_pilot/y_ra_feedback_3_yr_pilot_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Ra Feedback 3 Yr Pilot"
+                },
+                "variableName": "y_ra_feedback_3_yr_pilot_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2281",
+    "version": "revid2282",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
