@@ -1,0 +1,30 @@
+{
+    "id": "ders_ss_impulse_test",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "DERS"
+    },
+    "prefLabel": {
+        "en": "ders_ss_impulse_test"
+    },
+    "question": {
+        "en": "test round"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0)"
+                },
+                "value": "round([ders_ss_impulse_test]"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

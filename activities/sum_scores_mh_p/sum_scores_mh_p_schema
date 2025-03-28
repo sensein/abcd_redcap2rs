@@ -238,6 +238,7 @@
             "items/eatq_p_ss_neg_affect_sup_scale",
             "items/eatq_p_ss_neg_affect_sup_scale_nm",
             "items/eatq_p_ss_neg_affect_sup_scale_nt",
+            "items/ders_ss_impulse_test",
             "items/sum_scores_mh_p_complete"
         ],
         "addProperties": [
@@ -1454,6 +1455,12 @@
                 "variableName": "eatq_p_ss_neg_affect_sup_scale_nt"
             },
             {
+                "isAbout": "items/ders_ss_impulse_test",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ders_ss_impulse_test"
+            },
+            {
                 "isAbout": "items/sum_scores_mh_p_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -1462,6 +1469,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2307",
+    "version": "revid2308",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

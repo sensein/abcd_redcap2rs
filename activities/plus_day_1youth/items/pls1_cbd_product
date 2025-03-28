@@ -1,13 +1,6 @@
 {
     "id": "pls1_cbd_product",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Custom Alignment",
-            "source": "redcap",
-            "value": "RH"
-        }
-    ],
     "preamble": {
         "en": "Participant Section:\"I just have a few questions before we start the next activity.\""
     },
@@ -15,7 +8,7 @@
         "en": "pls1_cbd_product"
     },
     "question": {
-        "en": "What type of CBD product did you use?"
+        "en": "What type of CBD product did you use (Choose all that apply)?"
     },
     "responseOptions": {
         "choices": [
@@ -56,12 +49,13 @@
                 "value": 999
             }
         ],
+        "multipleChoice": true,
         "valueType": [
             "xsd:integer"
         ]
     },
     "ui": {
-        "inputType": "select"
+        "inputType": "radio"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
