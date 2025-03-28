@@ -1,0 +1,91 @@
+{
+    "id": "screentime_smq_use",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Social Media"
+    },
+    "prefLabel": {
+        "en": "screentime_smq_use"
+    },
+    "question": {
+        "en": "Which social media sites do you have an account on? Select all that are applicable."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Facebook"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Instagram"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Snapchat"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Twitter"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "YouTube"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Pinterest,"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Tumblr"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Reddit"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "TikTok"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Multiplayer Videogame Online Chatting"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 10
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
