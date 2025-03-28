@@ -39,7 +39,7 @@
             "items/demo_prnt_race_a_v2_l",
             "items/prnt_race_notes_v2_l",
             "items/demo_prnt_race_acs_p",
-            "items/demo_prnt_race_acs_tribe",
+            "items/demo_race_youth_acs_tribe_p",
             "items/demo_prnt_race_acs_oth_asian",
             "items/demo_prnt_race_acs_oth_pi",
             "items/demo_prnt_race_acs_other",
@@ -312,10 +312,10 @@
                 "variableName": "demo_prnt_race_acs_p"
             },
             {
-                "isAbout": "items/demo_prnt_race_acs_tribe",
-                "isVis": "demo_prnt_race_acs_p___12 == '1'",
-                "valueRequired": true,
-                "variableName": "demo_prnt_race_acs_tribe"
+                "isAbout": "items/demo_race_youth_acs_tribe_p",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "demo_race_youth_acs_tribe_p"
             },
             {
                 "isAbout": "items/demo_prnt_race_acs_oth_asian",
@@ -782,6 +782,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2254",
+    "version": "revid2255",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
