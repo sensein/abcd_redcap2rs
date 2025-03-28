@@ -7,6 +7,7 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/sai_yr_3_start_time",
             "items/sai_yr_3_read",
             "items/sai_read_hrs_wk",
             "items/sai_yr_3_read_enjoy",
@@ -17,6 +18,12 @@
             "items/sports_activities_read_music_youth_complete"
         ],
         "addProperties": [
+            {
+                "isAbout": "items/sai_yr_3_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sai_yr_3_start_time"
+            },
             {
                 "isAbout": "items/sai_yr_3_read",
                 "isVis": true,
@@ -68,6 +75,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2268",
+    "version": "revid2269",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

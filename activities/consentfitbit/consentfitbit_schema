@@ -7,6 +7,7 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/fitc_start_time",
             "items/fitc_p_select_language",
             "items/fitc_participant_name_v2",
             "items/fitc_consent_sign_v2",
@@ -46,6 +47,12 @@
             "items/consentfitbit_complete"
         ],
         "addProperties": [
+            {
+                "isAbout": "items/fitc_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "fitc_start_time"
+            },
             {
                 "isAbout": "items/fitc_p_select_language",
                 "isVis": true,
@@ -271,6 +278,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2268",
+    "version": "revid2269",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

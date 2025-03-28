@@ -7,6 +7,7 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/bfq_start_time",
             "items/bfq_p_select_language",
             "items/bfq_breastfeed_p",
             "items/bfq_breastfeed_time_p",
@@ -96,6 +97,12 @@
             "items/breast_feeding_questionaire_complete"
         ],
         "addProperties": [
+            {
+                "isAbout": "items/bfq_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bfq_start_time"
+            },
             {
                 "isAbout": "items/bfq_p_select_language",
                 "isVis": true,
@@ -621,6 +628,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2268",
+    "version": "revid2269",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

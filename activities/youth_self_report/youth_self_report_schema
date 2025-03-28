@@ -7,6 +7,7 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/ysr_start_time",
             "items/ysr_q1",
             "items/ysr_q2",
             "items/ysr_q2_describe",
@@ -146,6 +147,12 @@
             "items/youth_self_report_complete"
         ],
         "addProperties": [
+            {
+                "isAbout": "items/ysr_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ysr_start_time"
+            },
             {
                 "isAbout": "items/ysr_q1",
                 "isVis": true,
@@ -971,6 +978,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2268",
+    "version": "revid2269",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

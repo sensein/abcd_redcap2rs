@@ -7,6 +7,7 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/ipaq_start_time",
             "items/ipaq_vig_acts",
             "items/ipaq_vig_acts_hrs",
             "items/ipaq_vig_acts_min",
@@ -21,6 +22,12 @@
             "items/international_physical_activity_q_complete"
         ],
         "addProperties": [
+            {
+                "isAbout": "items/ipaq_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ipaq_start_time"
+            },
             {
                 "isAbout": "items/ipaq_vig_acts",
                 "isVis": true,
@@ -96,6 +103,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2268",
+    "version": "revid2269",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -7,6 +7,7 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/stp_start_time",
             "items/stp_1_wkdy_hr_p",
             "items/stp_1_wkdy_min_p",
             "items/stp_2_wkdy_hr_p",
@@ -56,6 +57,12 @@
             "items/screentime_parent_psq_complete"
         ],
         "addProperties": [
+            {
+                "isAbout": "items/stp_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "stp_start_time"
+            },
             {
                 "isAbout": "items/stp_1_wkdy_hr_p",
                 "isVis": true,
@@ -341,6 +348,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2268",
+    "version": "revid2269",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

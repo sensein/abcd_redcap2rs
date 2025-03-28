@@ -7,10 +7,17 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/pet_start_time",
             "items/pet_identify",
             "items/pet_ownership_complete"
         ],
         "addProperties": [
+            {
+                "isAbout": "items/pet_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pet_start_time"
+            },
             {
                 "isAbout": "items/pet_identify",
                 "isVis": true,
@@ -26,6 +33,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2268",
+    "version": "revid2269",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
