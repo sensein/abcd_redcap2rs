@@ -1,0 +1,51 @@
+{
+    "id": "kbi_gender",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "kbi_gender"
+    },
+    "question": {
+        "en": "What is your current gender identity?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Boy"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Girl"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Another gender"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "I don't understand the question"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

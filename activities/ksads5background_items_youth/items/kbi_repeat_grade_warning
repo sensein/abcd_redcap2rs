@@ -1,0 +1,20 @@
+{
+    "id": "kbi_repeat_grade_warning",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "kbi_repeat_grade_warning"
+    },
+    "question": {
+        "en": "You have responded to the last 2 questions in a way that appears to be  inconsistent. You answered \"Yes\" to \"Has your child ever repeated a grade?\"  But answered no to both \"Has your child repeated a grade in the past year?\" and \"Has your child repeated a grade before the past year?\"\n\nPlease review your answers before proceeding."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,6 +1,13 @@
 {
     "id": "kbi_y_det_reason",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@NONEOFTHEABOVE = '777'"
+        }
+    ],
     "prefLabel": {
         "en": "kbi_y_det_reason"
     },
@@ -53,9 +60,15 @@
             },
             {
                 "name": {
-                    "en": "Other (fill in blank)"
+                    "en": "Other"
                 },
                 "value": 8
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer"
+                },
+                "value": 777
             }
         ],
         "multipleChoice": true,

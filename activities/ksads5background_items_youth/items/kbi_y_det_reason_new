@@ -1,0 +1,149 @@
+{
+    "id": "kbi_y_det_reason_new",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@NONEOFTHEABOVE = '777'"
+        }
+    ],
+    "prefLabel": {
+        "en": "kbi_y_det_reason_new"
+    },
+    "question": {
+        "en": "For what? Click all that apply:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Fighting"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Talking Back to a Teacher"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Threatening a Teacher"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Cutting Classes"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Using Drugs at School"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Drinking at School"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Bringing a Weapon to School"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Dress code violation"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Stealing"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Throwing things,  breaking things, or vandalism"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Whole class got a suspension"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Smoking, vaping or cell use"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "\"Bullying\" or threatening a student"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Physically hurting someone, intentionally or accidentally (but not as part of a fight, choose item #1 for a fight)"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "Using bad language or saying mean or hurtful things"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "Bringing something to school that is not allowed (other than a weapon, alcohol, or drugs, choose options # 5 for these)"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "Being disruptive (e.g., talking or arguing in class, making noises, not following instructions, passing notes, standing on school bus, running in hallway, playing in class or in the bathroom)"
+                },
+                "value": 17
+            },
+            {
+                "name": {
+                    "en": "Not doing or not handing in homework"
+                },
+                "value": 18
+            },
+            {
+                "name": {
+                    "en": "Being late for class or school"
+                },
+                "value": 19
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
