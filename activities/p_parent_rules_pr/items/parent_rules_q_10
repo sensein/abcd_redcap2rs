@@ -1,0 +1,61 @@
+{
+    "id": "parent_rules_q_10",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "The next questions are about your household rules about alcohol and drugs.",
+        "es": "Las siguientes preguntas son acerca de las reglas de su hogar con respecto al consumo de alcohol y drogas."
+    },
+    "prefLabel": {
+        "en": "parent_rules_q_10"
+    },
+    "question": {
+        "en": "What are the family rules about using electronic nicotine or vaping products, such as e-cigarettes, vape pens, or Juuls, for your son/daughter?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not allowed to use electronic nicotine products under any circumstances"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Not allowed to use electronic nicotine products in home - no family rules outside home"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Allowed to use electronic nicotine products in designated areas at home"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Allowed to use electronic nicotine products anywhere"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "I don't set rules about using electronic nicotine products"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "I haven't made rules yet about my child using electronic nicotine products"
+                },
+                "value": 6
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
