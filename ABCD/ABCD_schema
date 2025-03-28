@@ -28,7 +28,6 @@
             "../activities/edinburgh_handedness_inventory_short_form/edinburgh_handedness_inventory_short_form_schema",
             "../activities/snellen_vision_screener_visyouth/snellen_vision_screener_visyouth_schema",
             "../activities/pubertal_development_scale_pdsmenstrual_historyyou/pubertal_development_scale_pdsmenstrual_historyyou_schema",
-            "../activities/gish2_youth/gish2_youth_schema",
             "../activities/pubertal_hormone_saliva_psyouth/pubertal_hormone_saliva_psyouth_schema",
             "../activities/ra_scanning_checklist_and_notes/ra_scanning_checklist_and_notes_schema",
             "../activities/pre_scan_questionnaireyouth_1/pre_scan_questionnaireyouth_1_schema",
@@ -276,7 +275,8 @@
             "../activities/p_ra_feedback_3yr_pilot/p_ra_feedback_3yr_pilot_schema",
             "../activities/y_ra_feedback_3_yr_pilot/y_ra_feedback_3_yr_pilot_schema",
             "../activities/vancouver_index_of_acculturation_y/vancouver_index_of_acculturation_y_schema",
-            "../activities/multigroup_ethnic_identity_meim/multigroup_ethnic_identity_meim_schema"
+            "../activities/multigroup_ethnic_identity_meim/multigroup_ethnic_identity_meim_schema",
+            "../activities/gish2_youth/gish2_youth_schema"
         ],
         "addProperties": [
             {
@@ -422,14 +422,6 @@
                     "en": "Pubertal Development Scale Pdsmenstrual Historyyou"
                 },
                 "variableName": "pubertal_development_scale_pdsmenstrual_historyyou_schema"
-            },
-            {
-                "isAbout": "../activities/gish2_youth/gish2_youth_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Gish2 Youth"
-                },
-                "variableName": "gish2_youth_schema"
             },
             {
                 "isAbout": "../activities/pubertal_hormone_saliva_psyouth/pubertal_hormone_saliva_psyouth_schema",
@@ -2414,10 +2406,18 @@
                     "en": "Multigroup Ethnic Identity Meim"
                 },
                 "variableName": "multigroup_ethnic_identity_meim_schema"
+            },
+            {
+                "isAbout": "../activities/gish2_youth/gish2_youth_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Gish2 Youth"
+                },
+                "variableName": "gish2_youth_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2272",
+    "version": "revid2273",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

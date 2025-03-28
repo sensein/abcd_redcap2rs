@@ -1,0 +1,48 @@
+{
+    "id": "gish2_nr_kiss_type",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "The next questions are only about boys and girls who are not related to you, but are not just about boyfriends or girlfriends."
+    },
+    "prefLabel": {
+        "en": "gish2_nr_kiss_type"
+    },
+    "question": {
+        "en": "I have kissed"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Only boyfriends"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Only girlfriends"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Both boyfriends and girlfriends"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

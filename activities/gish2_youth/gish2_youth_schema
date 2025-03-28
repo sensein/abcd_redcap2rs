@@ -8,9 +8,13 @@
     "ui": {
         "order": [
             "items/gish2_start_time",
+            "items/gish2_sexual_attract",
             "items/gish2_had_bf_gf",
+            "items/gish2_ever_type",
             "items/gish2_want_bf_gf",
+            "items/gish2_want_type",
             "items/gish2_nr_kiss",
+            "items/gish2_nr_kiss_type",
             "items/gish2_nr_hands",
             "items/gish2_nr_self_hands",
             "items/gish2_cf_have_bf_gf",
@@ -21,6 +25,13 @@
             "items/gish2_f_kiss",
             "items/gish2_f_hands",
             "items/gish2_f_self_hands",
+            "items/gish2_currently_have",
+            "items/gish2_how_old",
+            "items/gish2_spend_time",
+            "items/gish2_use_alc",
+            "items/gish2_use_tob",
+            "items/gish2_use_mj",
+            "items/gish2_use_other",
             "items/gish2_youth_complete"
         ],
         "addProperties": [
@@ -31,10 +42,22 @@
                 "variableName": "gish2_start_time"
             },
             {
+                "isAbout": "items/gish2_sexual_attract",
+                "isVis": "event_name_number > '30'",
+                "valueRequired": true,
+                "variableName": "gish2_sexual_attract"
+            },
+            {
                 "isAbout": "items/gish2_had_bf_gf",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "gish2_had_bf_gf"
+            },
+            {
+                "isAbout": "items/gish2_ever_type",
+                "isVis": "gish2_had_bf_gf == '1' && event_name_number > '30'",
+                "valueRequired": true,
+                "variableName": "gish2_ever_type"
             },
             {
                 "isAbout": "items/gish2_want_bf_gf",
@@ -43,10 +66,22 @@
                 "variableName": "gish2_want_bf_gf"
             },
             {
+                "isAbout": "items/gish2_want_type",
+                "isVis": "gish2_want_bf_gf == '1' && event_name_number > '30'",
+                "valueRequired": false,
+                "variableName": "gish2_want_type"
+            },
+            {
                 "isAbout": "items/gish2_nr_kiss",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "gish2_nr_kiss"
+            },
+            {
+                "isAbout": "items/gish2_nr_kiss_type",
+                "isVis": "gish2_nr_kiss == '1' && event_name_number > '30'",
+                "valueRequired": false,
+                "variableName": "gish2_nr_kiss_type"
             },
             {
                 "isAbout": "items/gish2_nr_hands",
@@ -109,6 +144,48 @@
                 "variableName": "gish2_f_self_hands"
             },
             {
+                "isAbout": "items/gish2_currently_have",
+                "isVis": "event_name_number > '30'",
+                "valueRequired": true,
+                "variableName": "gish2_currently_have"
+            },
+            {
+                "isAbout": "items/gish2_how_old",
+                "isVis": "gish2_currently_have == '1' && event_name_number > '30'",
+                "valueRequired": true,
+                "variableName": "gish2_how_old"
+            },
+            {
+                "isAbout": "items/gish2_spend_time",
+                "isVis": "gish2_currently_have == '1' && event_name_number > '30'",
+                "valueRequired": true,
+                "variableName": "gish2_spend_time"
+            },
+            {
+                "isAbout": "items/gish2_use_alc",
+                "isVis": "gish2_currently_have == '1' && event_name_number > '30'",
+                "valueRequired": true,
+                "variableName": "gish2_use_alc"
+            },
+            {
+                "isAbout": "items/gish2_use_tob",
+                "isVis": "gish2_currently_have == '1' && event_name_number > '30'",
+                "valueRequired": true,
+                "variableName": "gish2_use_tob"
+            },
+            {
+                "isAbout": "items/gish2_use_mj",
+                "isVis": "gish2_currently_have == '1' && event_name_number > '30'",
+                "valueRequired": true,
+                "variableName": "gish2_use_mj"
+            },
+            {
+                "isAbout": "items/gish2_use_other",
+                "isVis": "gish2_currently_have == '1' && event_name_number > '30'",
+                "valueRequired": true,
+                "variableName": "gish2_use_other"
+            },
+            {
                 "isAbout": "items/gish2_youth_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -117,6 +194,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2272",
+    "version": "revid2273",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

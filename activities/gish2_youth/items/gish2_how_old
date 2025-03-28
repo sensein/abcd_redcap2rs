@@ -1,0 +1,45 @@
+{
+    "id": "gish2_how_old",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "gish2_how_old"
+    },
+    "question": {
+        "en": "How old is your boyfriend /girlfriend compared to you?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Younger"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "About the same age"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Older"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Decline to Answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

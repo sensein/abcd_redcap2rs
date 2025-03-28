@@ -1,0 +1,69 @@
+{
+    "id": "gish2_sexual_attract",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "gish2_sexual_attract"
+    },
+    "question": {
+        "en": "People differ in their sexual attraction to other people. Which best describes your feelings?\r I am..."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Attracted only to girls"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Attracted mostly to girls and a little to boys"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Attracted equally to girls and boys"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Attracted mostly to boys and a little to girls"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Attracted only to boys"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Not attracted to either boys or girls"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "I don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
