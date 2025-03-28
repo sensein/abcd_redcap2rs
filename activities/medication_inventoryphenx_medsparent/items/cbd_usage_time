@@ -1,0 +1,67 @@
+{
+    "id": "cbd_usage_time",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Comments"
+    },
+    "prefLabel": {
+        "en": "cbd_usage_time"
+    },
+    "question": {
+        "en": "During the past year, how often did you use CBD products?",
+        "es": "XXXXXXX"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Every day or nearly daily",
+                    "es": "XXXXXX"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A few times a week",
+                    "es": "XXXXXX"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "1-11 times a year",
+                    "es": "XXXXXX"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "3-4 times a month",
+                    "es": "XXXXXX"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "12-24 times a year",
+                    "es": "XXXXXX"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Don't know",
+                    "es": "XXXXXX"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

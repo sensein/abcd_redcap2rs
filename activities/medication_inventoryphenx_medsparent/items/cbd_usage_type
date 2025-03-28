@@ -1,0 +1,69 @@
+{
+    "id": "cbd_usage_type",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@NONEOFTHEABOVE = '999'"
+        }
+    ],
+    "preamble": {
+        "en": "Comments"
+    },
+    "prefLabel": {
+        "en": "cbd_usage_type"
+    },
+    "question": {
+        "en": "During the past year, what type of CBD product did you use (choose all that apply)",
+        "es": "XXXXXXX"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "##en##Epidiolex##/en####es##XXXXXX##/es##"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "##en##Oil or tincture by mouth##/en####es##XXXXXX##/es##"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "##en##Inhaled or smoked product##/en####es##XXXXXX##/es##"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "##en##Edible, capsule, or pill##/en####es##XXXXXX##/es##"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "##en##Topical lotion or transdermal patch##/en####es##XXXXXX##/es##"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "##en##Don't know##/en####es##No lo s\u00c3\u00a9##/es##"
+                },
+                "value": 999
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
