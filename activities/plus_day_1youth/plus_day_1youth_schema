@@ -32,6 +32,9 @@
             "items/pls1_y_nic_tlfb",
             "items/pls1_y_nic_use",
             "items/pls1_youth_tobacco_t",
+            "items/pls1_cbd",
+            "items/pls1_cbd_ago",
+            "items/pls1_cbd_product",
             "items/pls1_notes",
             "items/pls2_need",
             "items/pls2_sess",
@@ -64,6 +67,9 @@
             "items/pls2_y_nic_tlfb",
             "items/pls2_y_nic_use",
             "items/pls2_youth_tobacco_t",
+            "items/pls2_cbd",
+            "items/pls2_cbd_ago",
+            "items/pls2_cbd_product",
             "items/pls2_notes",
             "items/pls3_need",
             "items/pls3_sess",
@@ -90,6 +96,9 @@
             "items/pls3_y_nic_tlfb",
             "items/pls3_y_nic_use",
             "items/pls3_youth_tobacco_t",
+            "items/pls3_cbd",
+            "items/pls3_cbd_ago",
+            "items/pls3_cbd_product",
             "items/pls3_notes",
             "items/pls4_need",
             "items/pls4_sess",
@@ -269,6 +278,24 @@
                 "isVis": "pls1_y_nic_use == '1' && baseline_visits_num >= 1",
                 "valueRequired": true,
                 "variableName": "pls1_youth_tobacco_t"
+            },
+            {
+                "isAbout": "items/pls1_cbd",
+                "isVis": "event_name_number > 20",
+                "valueRequired": true,
+                "variableName": "pls1_cbd"
+            },
+            {
+                "isAbout": "items/pls1_cbd_ago",
+                "isVis": "event_name_number > 20 && pls1_cbd == '1'",
+                "valueRequired": true,
+                "variableName": "pls1_cbd_ago"
+            },
+            {
+                "isAbout": "items/pls1_cbd_product",
+                "isVis": "event_name_number > 20 && pls1_cbd == '1'",
+                "valueRequired": true,
+                "variableName": "pls1_cbd_product"
             },
             {
                 "isAbout": "items/pls1_notes",
@@ -463,6 +490,24 @@
                 "variableName": "pls2_youth_tobacco_t"
             },
             {
+                "isAbout": "items/pls2_cbd",
+                "isVis": "event_name_number > 20 && pls2_need == '1' && baseline_visits_num >= 2",
+                "valueRequired": true,
+                "variableName": "pls2_cbd"
+            },
+            {
+                "isAbout": "items/pls2_cbd_ago",
+                "isVis": "event_name_number > 20 && pls2_cbd == '1'",
+                "valueRequired": true,
+                "variableName": "pls2_cbd_ago"
+            },
+            {
+                "isAbout": "items/pls2_cbd_product",
+                "isVis": "event_name_number > 20 && pls2_cbd == '1'",
+                "valueRequired": true,
+                "variableName": "pls2_cbd_product"
+            },
+            {
                 "isAbout": "items/pls2_notes",
                 "isVis": "baseline_visits_num >= 2",
                 "valueRequired": false,
@@ -617,6 +662,24 @@
                 "isVis": "pls3_y_nic_use == '1' && baseline_visits_num >= 3",
                 "valueRequired": false,
                 "variableName": "pls3_youth_tobacco_t"
+            },
+            {
+                "isAbout": "items/pls3_cbd",
+                "isVis": "event_name_number > 20 && pls2_need == '1' && baseline_visits_num >= 3",
+                "valueRequired": true,
+                "variableName": "pls3_cbd"
+            },
+            {
+                "isAbout": "items/pls3_cbd_ago",
+                "isVis": "event_name_number > 20 && pls3_cbd == '1'",
+                "valueRequired": true,
+                "variableName": "pls3_cbd_ago"
+            },
+            {
+                "isAbout": "items/pls3_cbd_product",
+                "isVis": "event_name_number > 20 && pls3_cbd == '1'",
+                "valueRequired": true,
+                "variableName": "pls3_cbd_product"
             },
             {
                 "isAbout": "items/pls3_notes",
@@ -789,6 +852,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2246",
+    "version": "revid2247",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

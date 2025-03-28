@@ -1,0 +1,53 @@
+{
+    "id": "pls3_cbd_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        }
+    ],
+    "preamble": {
+        "en": "PLUS DAY 3"
+    },
+    "prefLabel": {
+        "en": "pls3_cbd_p"
+    },
+    "question": {
+        "en": "Has your son/daughter used any CBD (or cannabidiol) products with your or your doctor's permission, such as Epidiolex or other over the counter CBD product, in the last 24 hours?",
+        "es": "XXXXXXX"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't know",
+                    "es": "No lo s\u00c3\u00a9"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
