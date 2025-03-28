@@ -3,19 +3,24 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        },
+        {
             "column": "Field Annotation",
             "source": "redcap",
             "value": "@READONLY"
         }
     ],
-    "description": {
-        "en": "Total Number of Events\nValidation: No Minimum"
-    },
     "preamble": {
         "en": "Life Events Parent"
     },
     "prefLabel": {
         "en": "ple_p_ss_total_number"
+    },
+    "question": {
+        "en": "Total Number of Events\r\nsum( [ple_died_p], [ple_injured_p], [ple_crime_p], [ple_friend_p], [ple_friend_injur_p], [ple_financial_p], [ple_sud_p], [ple_ill_p], [ple_injur_p], [ple_argue_p], [ple_job_p], [ple_away_p], [ple_arrest_p], [ple_friend_died_p], [ple_mh_p], [ple_sib_p], [ple_victim_p], [ple_separ_p], [ple_law_p], [ple_school_p], [ple_move_p], [ple_jail_p], [ple_step_p], [ple_new_job_p], [ple_new_sib_p] )\r\nValidation: No Minimum"
     },
     "responseOptions": {
         "valueType": [
