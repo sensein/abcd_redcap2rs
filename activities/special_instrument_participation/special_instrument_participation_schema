@@ -30,6 +30,7 @@
             "items/bio_10perc_nic",
             "items/bio_15perc_nic",
             "items/sip_stroop_rand",
+            "items/strp_rand_3yr_used",
             "items/fmri_task_order_rand",
             "items/fmri_trial_order_mid_rand",
             "items/fmri_trial_order_sst_rand",
@@ -125,6 +126,12 @@
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "sip_stroop_rand"
+            },
+            {
+                "isAbout": "items/strp_rand_3yr_used",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "strp_rand_3yr_used"
             },
             {
                 "isAbout": "items/fmri_task_order_rand",
@@ -261,6 +268,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2317",
+    "version": "revid2318",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

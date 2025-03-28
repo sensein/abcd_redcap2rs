@@ -1,0 +1,35 @@
+{
+    "id": "strp_rand_3yr_used",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        },
+        {
+            "column": "Choices, Calculations, OR Slider Labels (Descriptive Field)",
+            "source": "redcap",
+            "value": "[{\"name\": {\"en\": \"left button positive 2, left button negative\"}, \"value\": 1}]"
+        }
+    ],
+    "preamble": {
+        "en": "Stroop Randomization"
+    },
+    "prefLabel": {
+        "en": "strp_rand_3yr_used"
+    },
+    "question": {
+        "en": "Stroop button order randomization for 3 yr followup. Randomization used at 1 year followup:\r\n[1_year_follow_up_1_arm_1][values.keyAssignment]"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
