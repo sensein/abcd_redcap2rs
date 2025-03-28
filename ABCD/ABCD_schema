@@ -90,6 +90,8 @@
             "../activities/mexican_american_cultural_values_scale_youth/mexican_american_cultural_values_scale_youth_schema",
             "../activities/prosocial_tendencies_pstyouth/prosocial_tendencies_pstyouth_schema",
             "../activities/acculturationmodified_phenx_actyouth/acculturationmodified_phenx_actyouth_schema",
+            "../activities/multigroup_ethnic_identity_meim/multigroup_ethnic_identity_meim_schema",
+            "../activities/vancouver_index_of_acculturation_y/vancouver_index_of_acculturation_y_schema",
             "../activities/neglectful_behavior/neglectful_behavior_schema",
             "../activities/parental_monitoring_pmyouth/parental_monitoring_pmyouth_schema",
             "../activities/crpbi_acceptance_subscaleyouth/crpbi_acceptance_subscaleyouth_schema",
@@ -108,6 +110,7 @@
             "../activities/feedbackyouth/feedbackyouth_schema",
             "../activities/y_feedback_odd_l/y_feedback_odd_l_schema",
             "../activities/baseline_visits/baseline_visits_schema",
+            "../activities/y_ra_feedback_3_yr_pilot/y_ra_feedback_3_yr_pilot_schema",
             "../activities/y_youth_ra_notes_one_year_followup/y_youth_ra_notes_one_year_followup_schema",
             "../activities/visit_summary/visit_summary_schema",
             "../activities/medication_inventoryphenx_medsparent/medication_inventoryphenx_medsparent_schema",
@@ -130,6 +133,7 @@
             "../activities/p_youth_diet_form_l/p_youth_diet_form_l_schema",
             "../activities/sports_activities_involvement_saiqparent_l/sports_activities_involvement_saiqparent_l_schema",
             "../activities/p_gender_identity/p_gender_identity_schema",
+            "../activities/sports_activities_read_music_parent/sports_activities_read_music_parent_schema",
             "../activities/sports_activities_involvement_saiqparent/sports_activities_involvement_saiqparent_schema",
             "../activities/adult_self_report_aseba_asrparent/adult_self_report_aseba_asrparent_schema",
             "../activities/adult_behavior_checklist/adult_behavior_checklist_schema",
@@ -161,6 +165,7 @@
             "../activities/feedbackparent/feedbackparent_schema",
             "../activities/consentfitbit/consentfitbit_schema",
             "../activities/fitbit_preassessment_parent/fitbit_preassessment_parent_schema",
+            "../activities/p_ra_feedback_3yr_pilot/p_ra_feedback_3yr_pilot_schema",
             "../activities/p_parent_ra_notes_2/p_parent_ra_notes_2_schema",
             "../activities/p_parent_ra_notes_one_year_followup/p_parent_ra_notes_one_year_followup_schema",
             "../activities/twin_zygosity_rating/twin_zygosity_rating_schema",
@@ -175,7 +180,6 @@
             "../activities/nih_tbx_picture_vocabularydaic_use_only/nih_tbx_picture_vocabularydaic_use_only_schema",
             "../activities/nih_tbx_flanker_inhibitory_controlattentiondaic_us/nih_tbx_flanker_inhibitory_controlattentiondaic_us_schema",
             "../activities/nih_tbx_picture_sequence_memorydaic_use_only/nih_tbx_picture_sequence_memorydaic_use_only_schema",
-            "../activities/sports_activities_read_music_parent/sports_activities_read_music_parent_schema",
             "../activities/nih_tbx_pattern_comparison_processing_speeddaic_us/nih_tbx_pattern_comparison_processing_speeddaic_us_schema",
             "../activities/nih_tbx_oral_reading_recognitiondaic_use_only/nih_tbx_oral_reading_recognitiondaic_use_only_schema",
             "../activities/nih_tbx_list_sorting_working_memorydaic_use_only/nih_tbx_list_sorting_working_memorydaic_use_only_schema",
@@ -219,6 +223,7 @@
             "../activities/twin_ss_zygosity_rating/twin_ss_zygosity_rating_schema",
             "../activities/sum_scores_enroll/sum_scores_enroll_schema",
             "../activities/mri_qc_scores_daic_use_only/mri_qc_scores_daic_use_only_schema",
+            "../activities/mri_qc_raw_daic_use_only/mri_qc_raw_daic_use_only_schema",
             "../activities/residential_history_derived_scores_daic_use_only/residential_history_derived_scores_daic_use_only_schema",
             "../activities/acs_post_stratification_weights_daic_use_only/acs_post_stratification_weights_daic_use_only_schema",
             "../activities/release_tracking_daic_use_only/release_tracking_daic_use_only_schema",
@@ -271,12 +276,7 @@
             "../activities/fitbit_substudy_raw_daic_use_only/fitbit_substudy_raw_daic_use_only_schema",
             "../activities/met_transform_sports_activity/met_transform_sports_activity_schema",
             "../activities/pguid_error_tracking/pguid_error_tracking_schema",
-            "../activities/test_daic_only/test_daic_only_schema",
-            "../activities/p_ra_feedback_3yr_pilot/p_ra_feedback_3yr_pilot_schema",
-            "../activities/vancouver_index_of_acculturation_y/vancouver_index_of_acculturation_y_schema",
-            "../activities/multigroup_ethnic_identity_meim/multigroup_ethnic_identity_meim_schema",
-            "../activities/y_ra_feedback_3_yr_pilot/y_ra_feedback_3_yr_pilot_schema",
-            "../activities/mri_qc_raw_daic_use_only/mri_qc_raw_daic_use_only_schema"
+            "../activities/test_daic_only/test_daic_only_schema"
         ],
         "addProperties": [
             {
@@ -920,6 +920,22 @@
                 "variableName": "acculturationmodified_phenx_actyouth_schema"
             },
             {
+                "isAbout": "../activities/multigroup_ethnic_identity_meim/multigroup_ethnic_identity_meim_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Multigroup Ethnic Identity Meim"
+                },
+                "variableName": "multigroup_ethnic_identity_meim_schema"
+            },
+            {
+                "isAbout": "../activities/vancouver_index_of_acculturation_y/vancouver_index_of_acculturation_y_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Vancouver Index Of Acculturation Y"
+                },
+                "variableName": "vancouver_index_of_acculturation_y_schema"
+            },
+            {
                 "isAbout": "../activities/neglectful_behavior/neglectful_behavior_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -1062,6 +1078,14 @@
                     "en": "Baseline Visits"
                 },
                 "variableName": "baseline_visits_schema"
+            },
+            {
+                "isAbout": "../activities/y_ra_feedback_3_yr_pilot/y_ra_feedback_3_yr_pilot_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Ra Feedback 3 Yr Pilot"
+                },
+                "variableName": "y_ra_feedback_3_yr_pilot_schema"
             },
             {
                 "isAbout": "../activities/y_youth_ra_notes_one_year_followup/y_youth_ra_notes_one_year_followup_schema",
@@ -1238,6 +1262,14 @@
                     "en": "P Gender Identity"
                 },
                 "variableName": "p_gender_identity_schema"
+            },
+            {
+                "isAbout": "../activities/sports_activities_read_music_parent/sports_activities_read_music_parent_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Sports Activities Read Music Parent"
+                },
+                "variableName": "sports_activities_read_music_parent_schema"
             },
             {
                 "isAbout": "../activities/sports_activities_involvement_saiqparent/sports_activities_involvement_saiqparent_schema",
@@ -1488,6 +1520,14 @@
                 "variableName": "fitbit_preassessment_parent_schema"
             },
             {
+                "isAbout": "../activities/p_ra_feedback_3yr_pilot/p_ra_feedback_3yr_pilot_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "P Ra Feedback 3Yr Pilot"
+                },
+                "variableName": "p_ra_feedback_3yr_pilot_schema"
+            },
+            {
                 "isAbout": "../activities/p_parent_ra_notes_2/p_parent_ra_notes_2_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -1598,14 +1638,6 @@
                     "en": "Nih Tbx Picture Sequence Memorydaic Use Only"
                 },
                 "variableName": "nih_tbx_picture_sequence_memorydaic_use_only_schema"
-            },
-            {
-                "isAbout": "../activities/sports_activities_read_music_parent/sports_activities_read_music_parent_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Sports Activities Read Music Parent"
-                },
-                "variableName": "sports_activities_read_music_parent_schema"
             },
             {
                 "isAbout": "../activities/nih_tbx_pattern_comparison_processing_speeddaic_us/nih_tbx_pattern_comparison_processing_speeddaic_us_schema",
@@ -1950,6 +1982,14 @@
                     "en": "Mri Qc Scores Daic Use Only"
                 },
                 "variableName": "mri_qc_scores_daic_use_only_schema"
+            },
+            {
+                "isAbout": "../activities/mri_qc_raw_daic_use_only/mri_qc_raw_daic_use_only_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mri Qc Raw Daic Use Only"
+                },
+                "variableName": "mri_qc_raw_daic_use_only_schema"
             },
             {
                 "isAbout": "../activities/residential_history_derived_scores_daic_use_only/residential_history_derived_scores_daic_use_only_schema",
@@ -2374,50 +2414,10 @@
                     "en": "Test Daic Only"
                 },
                 "variableName": "test_daic_only_schema"
-            },
-            {
-                "isAbout": "../activities/p_ra_feedback_3yr_pilot/p_ra_feedback_3yr_pilot_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "P Ra Feedback 3Yr Pilot"
-                },
-                "variableName": "p_ra_feedback_3yr_pilot_schema"
-            },
-            {
-                "isAbout": "../activities/vancouver_index_of_acculturation_y/vancouver_index_of_acculturation_y_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Vancouver Index Of Acculturation Y"
-                },
-                "variableName": "vancouver_index_of_acculturation_y_schema"
-            },
-            {
-                "isAbout": "../activities/multigroup_ethnic_identity_meim/multigroup_ethnic_identity_meim_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Multigroup Ethnic Identity Meim"
-                },
-                "variableName": "multigroup_ethnic_identity_meim_schema"
-            },
-            {
-                "isAbout": "../activities/y_ra_feedback_3_yr_pilot/y_ra_feedback_3_yr_pilot_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Y Ra Feedback 3 Yr Pilot"
-                },
-                "variableName": "y_ra_feedback_3_yr_pilot_schema"
-            },
-            {
-                "isAbout": "../activities/mri_qc_raw_daic_use_only/mri_qc_raw_daic_use_only_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Mri Qc Raw Daic Use Only"
-                },
-                "variableName": "mri_qc_raw_daic_use_only_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2293",
+    "version": "revid2294",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
