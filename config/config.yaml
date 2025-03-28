@@ -16,7 +16,7 @@ protocol:
 
 # Added processing options
 processing:
-  max_files: 50  # Process at most one file per run
+  max_files: 100  # Process at most one file per run
   validate: true  # Validate generated schemas
 
 # Archive processed files option

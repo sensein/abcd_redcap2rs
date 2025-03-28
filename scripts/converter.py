@@ -414,6 +414,14 @@ class ReproSchemaConverter:
             if current_version > 0 and redcap_version <= current_version:
                 logger.info(f"Skipping {filename}, already processed (version {redcap_version} ≤ {current_version})")
                 return False
+            
+            with open(self.yaml_file_path, 'r') as f:
+                        yaml_content = yaml.safe_load(f)
+
+            yaml_content['redcap_version'] = f"revid{redcap_version}"
+            
+            with open(self.yaml_file_path, 'w') as f:
+                yaml.dump(yaml_content, f, default_flow_style=False)
 
             # Run the redcap2reproschema command
             cmd = [
@@ -464,9 +472,6 @@ class ReproSchemaConverter:
 
                 # Update the YAML file with the new redcap_version
                 try:
-                    with open(self.yaml_file_path, 'r') as f:
-                        yaml_content = yaml.safe_load(f)
-
                     # Update the redcap_version
                     yaml_content['redcap_version'] = f"revid{redcap_version}"
 
@@ -497,9 +502,6 @@ class ReproSchemaConverter:
                 # There are substantial changes, update YAML and commit everything
                 try:
                     # Update the YAML file
-                    with open(self.yaml_file_path, 'r') as f:
-                        yaml_content = yaml.safe_load(f)
-                    yaml_content['redcap_version'] = f"revid{redcap_version}"
                     with open(self.yaml_file_path, 'w') as f:
                         yaml.dump(yaml_content, f, default_flow_style=False)
 
