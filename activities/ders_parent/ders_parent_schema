@@ -7,15 +7,13 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/ders_start_time",
             "items/ders_clear_feelings_p",
             "items/ders_attn_awareness_p",
             "items/ders_emotion_overwhelm_p",
-            "items/ders_feelings_idea_p",
-            "items/ders_feelings_difficulty_p",
             "items/ders_feelings_attentive_p",
             "items/ders_feelings_know_p",
             "items/ders_feelings_care_p",
-            "items/ders_feelings_confused_p",
             "items/ders_upset_ack_p",
             "items/ders_upset_angry_p",
             "items/ders_upset_embarrassed_p",
@@ -23,10 +21,8 @@
             "items/ders_upset_control_p",
             "items/ders_upset_time_p",
             "items/ders_upset_depressed_p",
-            "items/ders_upset_important_p",
             "items/ders_upset_focus_p",
             "items/ders_upset_out_control_p",
-            "items/ders_upset_done_p",
             "items/ders_upset_ashamed_p",
             "items/ders_upset_better_p",
             "items/ders_upset_weak_p",
@@ -37,15 +33,19 @@
             "items/ders_upset_feel_better_p",
             "items/ders_upset_irritation_p",
             "items/ders_upset_esteem_p",
-            "items/ders_upset_wallow_p",
             "items/ders_upset_lose_control_p",
             "items/ders_upset_fixation_p",
-            "items/ders_upset_time_to_figure_out_p",
             "items/ders_upset_long_time_better_p",
             "items/ders_upset_emotion_overwhelm_p",
             "items/ders_parent_complete"
         ],
         "addProperties": [
+            {
+                "isAbout": "items/ders_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ders_start_time"
+            },
             {
                 "isAbout": "items/ders_clear_feelings_p",
                 "isVis": true,
@@ -65,18 +65,6 @@
                 "variableName": "ders_emotion_overwhelm_p"
             },
             {
-                "isAbout": "items/ders_feelings_idea_p",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "ders_feelings_idea_p"
-            },
-            {
-                "isAbout": "items/ders_feelings_difficulty_p",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "ders_feelings_difficulty_p"
-            },
-            {
                 "isAbout": "items/ders_feelings_attentive_p",
                 "isVis": true,
                 "valueRequired": true,
@@ -93,12 +81,6 @@
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "ders_feelings_care_p"
-            },
-            {
-                "isAbout": "items/ders_feelings_confused_p",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "ders_feelings_confused_p"
             },
             {
                 "isAbout": "items/ders_upset_ack_p",
@@ -143,12 +125,6 @@
                 "variableName": "ders_upset_depressed_p"
             },
             {
-                "isAbout": "items/ders_upset_important_p",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "ders_upset_important_p"
-            },
-            {
                 "isAbout": "items/ders_upset_focus_p",
                 "isVis": true,
                 "valueRequired": true,
@@ -159,12 +135,6 @@
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "ders_upset_out_control_p"
-            },
-            {
-                "isAbout": "items/ders_upset_done_p",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "ders_upset_done_p"
             },
             {
                 "isAbout": "items/ders_upset_ashamed_p",
@@ -227,12 +197,6 @@
                 "variableName": "ders_upset_esteem_p"
             },
             {
-                "isAbout": "items/ders_upset_wallow_p",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "ders_upset_wallow_p"
-            },
-            {
                 "isAbout": "items/ders_upset_lose_control_p",
                 "isVis": true,
                 "valueRequired": true,
@@ -243,12 +207,6 @@
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "ders_upset_fixation_p"
-            },
-            {
-                "isAbout": "items/ders_upset_time_to_figure_out_p",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "ders_upset_time_to_figure_out_p"
             },
             {
                 "isAbout": "items/ders_upset_long_time_better_p",
@@ -271,6 +229,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2276",
+    "version": "revid2277",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
