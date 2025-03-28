@@ -236,7 +236,6 @@
             "../activities/mri_beh_rec_daic_use_only/mri_beh_rec_daic_use_only_schema",
             "../activities/mri_beh_sst_daic_use_only/mri_beh_sst_daic_use_only_schema",
             "../activities/month_fu_phone_interview/month_fu_phone_interview_schema",
-            "../activities/mri_qc_raw_daic_use_only/mri_qc_raw_daic_use_only_schema",
             "../activities/blood_pressure/blood_pressure_schema",
             "../activities/p_fitbit_baseline/p_fitbit_baseline_schema",
             "../activities/p_fitbit_followup/p_fitbit_followup_schema",
@@ -276,7 +275,8 @@
             "../activities/p_ra_feedback_3yr_pilot/p_ra_feedback_3yr_pilot_schema",
             "../activities/vancouver_index_of_acculturation_y/vancouver_index_of_acculturation_y_schema",
             "../activities/multigroup_ethnic_identity_meim/multigroup_ethnic_identity_meim_schema",
-            "../activities/y_ra_feedback_3_yr_pilot/y_ra_feedback_3_yr_pilot_schema"
+            "../activities/y_ra_feedback_3_yr_pilot/y_ra_feedback_3_yr_pilot_schema",
+            "../activities/mri_qc_raw_daic_use_only/mri_qc_raw_daic_use_only_schema"
         ],
         "addProperties": [
             {
@@ -2088,14 +2088,6 @@
                 "variableName": "month_fu_phone_interview_schema"
             },
             {
-                "isAbout": "../activities/mri_qc_raw_daic_use_only/mri_qc_raw_daic_use_only_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Mri Qc Raw Daic Use Only"
-                },
-                "variableName": "mri_qc_raw_daic_use_only_schema"
-            },
-            {
                 "isAbout": "../activities/blood_pressure/blood_pressure_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -2414,10 +2406,18 @@
                     "en": "Y Ra Feedback 3 Yr Pilot"
                 },
                 "variableName": "y_ra_feedback_3_yr_pilot_schema"
+            },
+            {
+                "isAbout": "../activities/mri_qc_raw_daic_use_only/mri_qc_raw_daic_use_only_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mri Qc Raw Daic Use Only"
+                },
+                "variableName": "mri_qc_raw_daic_use_only_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2286",
+    "version": "revid2287",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

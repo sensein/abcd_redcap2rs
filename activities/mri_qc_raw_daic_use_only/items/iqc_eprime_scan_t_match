@@ -8,32 +8,12 @@
         "en": "Imaging-series and behavioral-data files match for all tasks.  i.e. time differences are less than a threshold time."
     },
     "responseOptions": {
-        "choices": [
-            {
-                "name": {
-                    "en": "file not found or not readable"
-                },
-                "value": -1
-            },
-            {
-                "name": {
-                    "en": "no match found"
-                },
-                "value": 0
-            },
-            {
-                "name": {
-                    "en": "match found"
-                },
-                "value": 1
-            }
-        ],
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {
-        "inputType": "select"
+        "inputType": "text"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

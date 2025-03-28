@@ -12,6 +12,8 @@
             "items/iqc_eprime_lost_mid",
             "items/iqc_eprime_lost_nback",
             "items/iqc_eprime_lost_nback_rec",
+            "items/iqc_eprime_found",
+            "items/iqc_eprime_valid",
             "items/iqc_eprime_status",
             "items/iqc_t1_1_suid",
             "items/iqc_t1_1_seuid",
@@ -2090,10 +2092,14 @@
             "items/iqc_series_missing",
             "items/iqc_incomingtopc_event",
             "items/iqc_mid_ep_file_found",
+            "items/iqc_mid_ep_contents_ok",
+            "items/iqc_mid_ep_exper_ok",
             "items/iqc_mid_ep_folder_found",
             "items/iqc_mid_ep_pguid_match",
             "items/iqc_mid_eprime_missing",
             "items/iqc_nback_ep_file_found",
+            "items/iqc_nback_ep_contents_ok",
+            "items/iqc_nback_ep_exper_ok",
             "items/iqc_nback_ep_folder_found",
             "items/iqc_nback_ep_pguid_match",
             "items/iqc_nback_epx_file_found",
@@ -2101,6 +2107,8 @@
             "items/iqc_nback_epx_pguid_match",
             "items/iqc_nback_eprime_missing",
             "items/iqc_sst_ep_file_found",
+            "items/iqc_sst_ep_contents_ok",
+            "items/iqc_sst_ep_exper_ok",
             "items/iqc_sst_ep_folder_found",
             "items/iqc_sst_ep_pguid_match",
             "items/iqc_sst_eprime_missing",
@@ -2167,7 +2175,6 @@
             "items/iqc_study_date",
             "items/iqc_1st_series_time",
             "items/iqc_sst_ep_datetime_found",
-            "items/iqc_sst_ep_file_res",
             "items/iqc_sst_study_date",
             "items/iqc_sst_series_time",
             "items/iqc_sst_ep_date",
@@ -2176,7 +2183,6 @@
             "items/iqc_sst_ep_t_rel_to_series_max",
             "items/iqc_sst_ep_t_series_match",
             "items/iqc_mid_ep_datetime_found",
-            "items/iqc_mid_ep_file_res",
             "items/iqc_mid_study_date",
             "items/iqc_mid_series_time",
             "items/iqc_mid_ep_date",
@@ -2185,7 +2191,6 @@
             "items/iqc_mid_ep_t_rel_to_series_max",
             "items/iqc_mid_ep_t_series_match",
             "items/iqc_nback_ep_datetime_found",
-            "items/iqc_nback_ep_file_res",
             "items/iqc_nback_study_date",
             "items/iqc_nback_series_time",
             "items/iqc_nback_ep_date",
@@ -2239,6 +2244,18 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "iqc_eprime_lost_nback_rec"
+            },
+            {
+                "isAbout": "items/iqc_eprime_found",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "iqc_eprime_found"
+            },
+            {
+                "isAbout": "items/iqc_eprime_valid",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "iqc_eprime_valid"
             },
             {
                 "isAbout": "items/iqc_eprime_status",
@@ -14709,6 +14726,18 @@
                 "variableName": "iqc_mid_ep_file_found"
             },
             {
+                "isAbout": "items/iqc_mid_ep_contents_ok",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "iqc_mid_ep_contents_ok"
+            },
+            {
+                "isAbout": "items/iqc_mid_ep_exper_ok",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "iqc_mid_ep_exper_ok"
+            },
+            {
                 "isAbout": "items/iqc_mid_ep_folder_found",
                 "isVis": true,
                 "valueRequired": false,
@@ -14731,6 +14760,18 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "iqc_nback_ep_file_found"
+            },
+            {
+                "isAbout": "items/iqc_nback_ep_contents_ok",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "iqc_nback_ep_contents_ok"
+            },
+            {
+                "isAbout": "items/iqc_nback_ep_exper_ok",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "iqc_nback_ep_exper_ok"
             },
             {
                 "isAbout": "items/iqc_nback_ep_folder_found",
@@ -14773,6 +14814,18 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "iqc_sst_ep_file_found"
+            },
+            {
+                "isAbout": "items/iqc_sst_ep_contents_ok",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "iqc_sst_ep_contents_ok"
+            },
+            {
+                "isAbout": "items/iqc_sst_ep_exper_ok",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "iqc_sst_ep_exper_ok"
             },
             {
                 "isAbout": "items/iqc_sst_ep_folder_found",
@@ -15171,12 +15224,6 @@
                 "variableName": "iqc_sst_ep_datetime_found"
             },
             {
-                "isAbout": "items/iqc_sst_ep_file_res",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "iqc_sst_ep_file_res"
-            },
-            {
                 "isAbout": "items/iqc_sst_study_date",
                 "isVis": true,
                 "valueRequired": false,
@@ -15225,12 +15272,6 @@
                 "variableName": "iqc_mid_ep_datetime_found"
             },
             {
-                "isAbout": "items/iqc_mid_ep_file_res",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "iqc_mid_ep_file_res"
-            },
-            {
                 "isAbout": "items/iqc_mid_study_date",
                 "isVis": true,
                 "valueRequired": false,
@@ -15277,12 +15318,6 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "iqc_nback_ep_datetime_found"
-            },
-            {
-                "isAbout": "items/iqc_nback_ep_file_res",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "iqc_nback_ep_file_res"
             },
             {
                 "isAbout": "items/iqc_nback_study_date",
@@ -15419,6 +15454,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2286",
+    "version": "revid2287",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -5,29 +5,15 @@
         "en": "iqc_sst_ep_datetime_found"
     },
     "question": {
-        "en": "Eprime SST file found and readable"
+        "en": "Date and time found in file"
     },
     "responseOptions": {
-        "choices": [
-            {
-                "name": {
-                    "en": "Not found"
-                },
-                "value": 0
-            },
-            {
-                "name": {
-                    "en": "Found"
-                },
-                "value": 1
-            }
-        ],
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {
-        "inputType": "select"
+        "inputType": "text"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

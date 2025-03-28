@@ -8,32 +8,12 @@
         "en": "SST imaging-series and behavioral-data files match, i.e. time difference less than a threshold time."
     },
     "responseOptions": {
-        "choices": [
-            {
-                "name": {
-                    "en": "either file not found"
-                },
-                "value": -1
-            },
-            {
-                "name": {
-                    "en": "no match"
-                },
-                "value": 0
-            },
-            {
-                "name": {
-                    "en": "match"
-                },
-                "value": 1
-            }
-        ],
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {
-        "inputType": "select"
+        "inputType": "text"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
