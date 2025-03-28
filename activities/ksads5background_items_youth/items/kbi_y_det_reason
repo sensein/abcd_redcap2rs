@@ -1,0 +1,70 @@
+{
+    "id": "kbi_y_det_reason",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "kbi_y_det_reason"
+    },
+    "question": {
+        "en": "For what? Click all that apply:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Fighting"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Talking Back to a Teacher"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Threatening a Teacher"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Cutting Classes"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Using Drugs at School"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Drinking at School"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Bringing a Weapon to School"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Other (fill in blank)"
+                },
+                "value": 8
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

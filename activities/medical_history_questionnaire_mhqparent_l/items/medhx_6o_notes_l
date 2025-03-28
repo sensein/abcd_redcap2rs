@@ -1,0 +1,43 @@
+{
+    "id": "medhx_6o_notes_l",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Text Validation Min",
+            "source": "redcap",
+            "value": "0"
+        },
+        {
+            "column": "Text Validation Max",
+            "source": "redcap",
+            "value": "100.0"
+        }
+    ],
+    "preamble": {
+        "en": "What about...",
+        "es": "\u00c2\u00bfQu\u00c3\u00a9 tal?..."
+    },
+    "prefLabel": {
+        "en": "medhx_6o_notes_l"
+    },
+    "question": {
+        "en": "Overdose: How many times?",
+        "es": "\u00c2\u00bfCu\u00c3\u00a1ntas veces?"
+    },
+    "responseOptions": {
+        "maxValue": 100,
+        "minValue": 0,
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

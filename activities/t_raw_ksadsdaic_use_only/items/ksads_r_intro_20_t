@@ -1,0 +1,77 @@
+{
+    "id": "ksads_r_intro_20_t",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "ksads_r_intro_20_t"
+    },
+    "question": {
+        "en": "For what? Click all that apply:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Fighting"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Talking back to a teacher"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Threatening a teacher"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Cutting classes"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Using drugs at school"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Drinking at school"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Bringing a weapon to school"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 8
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

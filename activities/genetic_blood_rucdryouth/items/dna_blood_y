@@ -1,0 +1,51 @@
+{
+    "id": "dna_blood_y",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "dna_blood_y"
+    },
+    "question": {
+        "en": "Blood DNA sample collected?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Participant unable to complete"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Participant refused"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Not collected (other)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Not applicable (For sites other than WUSTL, UMN, VCU or CUB)"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

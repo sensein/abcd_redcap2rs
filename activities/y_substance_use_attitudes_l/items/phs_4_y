@@ -1,0 +1,61 @@
+{
+    "id": "phs_4_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "phs_y"
+        }
+    ],
+    "preamble": {
+        "en": "The next questions ask for YOUR opinions on the effects of using certain drugs and other substances. How much do you think people risk harming themselves (physically or in other ways) if they..."
+    },
+    "prefLabel": {
+        "en": "phs_4_y"
+    },
+    "question": {
+        "en": "try one or two cigarettes?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No Risk"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Slight Risk"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Moderate Risk"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Great Risk"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Don't Know"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

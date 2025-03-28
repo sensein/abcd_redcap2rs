@@ -1,0 +1,31 @@
+{
+    "id": "socialdev_cvict_c3_d_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "Enter age, or enter 98=I don't know, or 99=I'd rather not say"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        }
+    ],
+    "prefLabel": {
+        "en": "socialdev_cvict_c3_d_y"
+    },
+    "question": {
+        "en": "How old were you when this last happened?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

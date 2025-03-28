@@ -1,0 +1,30 @@
+{
+    "id": "school_id",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Recruitment Variables"
+    },
+    "prefLabel": {
+        "en": "school_id"
+    },
+    "question": {
+        "en": "school_id = (Text field) (For example: 062025002424)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

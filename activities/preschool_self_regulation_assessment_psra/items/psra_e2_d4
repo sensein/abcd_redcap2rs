@@ -1,0 +1,55 @@
+{
+    "id": "psra_e2_d4",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "LIBRv1.0"
+        }
+    ],
+    "preamble": {
+        "en": "Day 4"
+    },
+    "prefLabel": {
+        "en": "psra_e2_d4"
+    },
+    "question": {
+        "en": "E2. Passively noncompliant"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Child appears not to hear instruction, even when assessor repeats request"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Child ignores examiner but responds to prompt when assessor repeats request/directive"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Child seems slow to comply. Assessor does not restate request, but wonders if child heard"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Child hears requests and responds appropriately"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

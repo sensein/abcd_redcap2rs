@@ -1,0 +1,36 @@
+{
+    "id": "devhx_16_p_dk",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        }
+    ],
+    "prefLabel": {
+        "en": "devhx_16_p_dk"
+    },
+    "question": {
+        "en": "About how manydaysin the first 12 months of life, did he/she have a fever of 104 degrees or greater?",
+        "es": "\u00c2\u00bfAproximadamente cu\u00c3\u00a1ntosd\u00c3\u00adasde los primeros 12 meses de vida tuvo fiebre de 104F (40C) o m\u00c3\u00a1s su ni\u00c3\u00b1o(a)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Don't know",
+                    "es": "No lo s\u00c3\u00a9"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

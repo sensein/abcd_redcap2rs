@@ -1,0 +1,45 @@
+{
+    "id": "example_of_body_map_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "example_of_body_map"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/gender",
+            "items/bodymap_male",
+            "items/bodymap_female",
+            "items/example_of_body_map_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/gender",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "gender"
+            },
+            {
+                "isAbout": "items/bodymap_male",
+                "isVis": "gender == '1'",
+                "valueRequired": false,
+                "variableName": "bodymap_male"
+            },
+            {
+                "isAbout": "items/bodymap_female",
+                "isVis": "gender == '2'",
+                "valueRequired": false,
+                "variableName": "bodymap_female"
+            },
+            {
+                "isAbout": "items/example_of_body_map_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "example_of_body_map_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2206",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

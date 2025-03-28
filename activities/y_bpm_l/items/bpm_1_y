@@ -1,0 +1,61 @@
+{
+    "id": "bpm_1_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "bpm1_y"
+        }
+    ],
+    "preamble": {
+        "en": "Please rate each item that describes younow or within the past 7 days."
+    },
+    "prefLabel": {
+        "en": "bpm_1_y"
+    },
+    "question": {
+        "en": "I act too young for my age."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not True"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Somewhat True"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Very True"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer"
+                },
+                "value": 777
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

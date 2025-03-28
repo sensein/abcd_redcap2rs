@@ -1,0 +1,62 @@
+{
+    "id": "rapi_section2_q13_c9d4d8",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "13"
+        },
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "rapi_section2_ec8a63"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "13"
+        }
+    ],
+    "prefLabel": {
+        "en": "rapi_section2_q13_c9d4d8"
+    },
+    "question": {
+        "en": "Missed a day (or part of a day) of school or work."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1-2"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "3-5"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "5+"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

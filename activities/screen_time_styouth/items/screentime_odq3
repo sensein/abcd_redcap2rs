@@ -1,0 +1,72 @@
+{
+    "id": "screentime_odq3",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "ODQ"
+    },
+    "prefLabel": {
+        "en": "screentime_odq3"
+    },
+    "question": {
+        "en": "How much time per week do you spend on online dating apps?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "None"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "< 30 minutes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "30 minutes"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "1 hour"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "2 hours"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "3 hours"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "4+ hours"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

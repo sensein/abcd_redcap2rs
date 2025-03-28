@@ -1,0 +1,50 @@
+{
+    "id": "prodromal_8_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "8"
+        },
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "prodromal_8"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "8"
+        }
+    ],
+    "prefLabel": {
+        "en": "prodromal_8_y"
+    },
+    "question": {
+        "en": "Did you suddenly feel that you could not trust other people because they seemed to be watching you or talking about you in an unfriendly way?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

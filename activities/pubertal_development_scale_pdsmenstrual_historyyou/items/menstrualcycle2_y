@@ -1,0 +1,43 @@
+{
+    "id": "menstrualcycle2_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "If you refuse to answer, please choose \"refuse to answer\" in what follows below."
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Text Validation Min",
+            "source": "redcap",
+            "value": "17"
+        },
+        {
+            "column": "Text Validation Max",
+            "source": "redcap",
+            "value": "50.0"
+        }
+    ],
+    "prefLabel": {
+        "en": "menstrualcycle2_y"
+    },
+    "question": {
+        "en": "On average, how many days are there between the first day of your period and the first day of your next period? For example, if the first day of bleeding is typically at the beginning of each month, the interval between periods is 30 days."
+    },
+    "responseOptions": {
+        "maxValue": 50,
+        "minValue": 17,
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,44 @@
+{
+    "id": "devhx_18_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "<span lang=\"en\">If he/she was not breast fed, enter \"0\", 1 year = 12 months, 2 years = 24 months, 3 years = 36 months, etc.</span><span lang=\"es\" style=\"color:maroon;\">Si no le/la amamant\u00c3\u00b3, ingrese \"0\"; 1 a\u00c3\u00b1o = 12 meses; 2 a\u00c3\u00b1os = 24 meses; 3 a\u00c3\u00b1os = 36 meses; etc.</span><span lang=\"en\">If you don't know, please choose \"don't know\" in what follows below</span><span lang=\"es\" style=\"color:maroon;\">   Si no sabe, por favor escoja \"no se\" en lo que sigue abajo.</span>"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        },
+        {
+            "column": "Text Validation Min",
+            "source": "redcap",
+            "value": "0"
+        },
+        {
+            "column": "Text Validation Max",
+            "source": "redcap",
+            "value": "84.0"
+        }
+    ],
+    "prefLabel": {
+        "en": "devhx_18_p"
+    },
+    "question": {
+        "en": "For how manymonthswas he/she breast fed?",
+        "es": "\u00c2\u00bfCu\u00c3\u00a1ntosmesesle/la amamant\u00c3\u00b3?"
+    },
+    "responseOptions": {
+        "maxValue": 84,
+        "minValue": 0,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

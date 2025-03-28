@@ -1,0 +1,26 @@
+{
+    "id": "fitf_s5_q4b_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "datetime_mdy"
+        }
+    ],
+    "prefLabel": {
+        "en": "fitf_s5_q4b_p"
+    },
+    "question": {
+        "en": "&nbspWhat time was your child's last food/drink?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:dateTime"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

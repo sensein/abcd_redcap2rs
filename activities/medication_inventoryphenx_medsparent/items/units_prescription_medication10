@@ -1,0 +1,135 @@
+{
+    "id": "units_prescription_medication10",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "autocomplete"
+        }
+    ],
+    "preamble": {
+        "en": "These include PRESCRIBED pills, liquid medications, skin patches, eye drops, creams, salves, inhalers and injections, as well as cold or allergy medications, vitamins, herbal remedies and other supplements. If NOT PRESCRIBED medication, supplement, vitamin etc., please enter under Over the Counter Medications in the next section.If medication name was not listed in the drop-down menu, scroll down to Comments section and enter information there.",
+        "es": "Medicamentos de Receta Medica\n\n\"Puedo verlos?\"\n\nEstos incluyen RECETAS MEDICAS de pastillas, medicaciones liquidas, parches de piel, gotas para los ojos, cremas, pomadas, inhaladores e inyecciones, tanto como medicaciones para resfriados o alergias, remedios a base de hierbas y otros suplementos que fueron recetados por su doctor. Si NO fueron recetados por su doctor, por favor incl\u00c3\u00bayalos bajo la siguiente secci\u00c3\u00b3n de Medicamentos de Venta Libre.Si el nombre del medicamento no est\u00c3\u00a1 en  la lista desplegable, deslice hacia abajo hasta la secci\u00c3\u00b3n de Comentarios e ingrese la informaci\u00c3\u00b3n ah\u00c3\u00ad."
+    },
+    "prefLabel": {
+        "en": "units_prescription_medication10"
+    },
+    "question": {
+        "en": "Strength unit",
+        "es": "Unidad"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "capsule (cap., caps.)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "tablet (tab.)"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "tablespoon (tbsp, T)"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "teaspoon (tsp, t)"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "drop (gtt)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "gram (g)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "milligram (mg)"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "megagram (mgg)"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "kilogram (kg)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "liter (L)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "microgram (mcg)"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "mililiter (mL)"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "ounce (oz)"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "pound (lb)"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "quart (qt)"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "International Units (IU)"
+                },
+                "value": 17
+            },
+            {
+                "name": {
+                    "en": "OTHER"
+                },
+                "value": 14
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

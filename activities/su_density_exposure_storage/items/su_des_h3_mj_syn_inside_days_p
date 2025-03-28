@@ -1,0 +1,39 @@
+{
+    "id": "su_des_h3_mj_syn_inside_days_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Text Validation Min",
+            "source": "redcap",
+            "value": "0"
+        },
+        {
+            "column": "Text Validation Max",
+            "source": "redcap",
+            "value": "7.0"
+        }
+    ],
+    "prefLabel": {
+        "en": "su_des_h3_mj_syn_inside_days_p"
+    },
+    "question": {
+        "en": "In a typical week, how many days did someone smoke \"fake\" marijuana or synthetics inside your home while your child was home or in a vehicle your child was in?",
+        "es": "En una semana t\u00c3\u00adpica, \u00c2\u00bfcu\u00c3\u00a1ntos d\u00c3\u00adas fum\u00c3\u00b3 alguien marihuana \"falsa\" o drogas sint\u00c3\u00a9ticas dentro de su hogar cuando su hijo/a estaba en casa o en un veh\u00c3\u00adculo en el que estaba su hijo/a?"
+    },
+    "responseOptions": {
+        "maxValue": 7,
+        "minValue": 0,
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

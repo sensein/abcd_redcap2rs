@@ -1,0 +1,66 @@
+{
+    "id": "fitpo_sick_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "fitpo_followup_p"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20181006"
+        }
+    ],
+    "preamble": {
+        "en": "Please think back to the 3 weeks your child wore the Fitbit.",
+        "es": "Piense en las 3 semanas que su hijo/a us\u00c3\u00b3 el Fitbit."
+    },
+    "prefLabel": {
+        "en": "fitpo_sick_p"
+    },
+    "question": {
+        "en": "Was your child sick?",
+        "es": "\u00c2\u00bfEstaba su hijo/a enfermo/a?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "First Week",
+                    "es": "Primera semana"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Second Week",
+                    "es": "Segunda semana"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Third Week",
+                    "es": "Tercera semana"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Not applicable"
+                },
+                "value": 0
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

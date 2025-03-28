@@ -1,0 +1,73 @@
+{
+    "id": "mypi_next_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "mypi_next"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/mypi_fav_lst_6mo",
+            "items/mypi_fav_lst_6mo_dk",
+            "items/mypi_futuresnacks",
+            "items/mypi_fav_food",
+            "items/mypi_fav_food_dk",
+            "items/mypi_completion_date",
+            "items/mypi_notes",
+            "items/mypi_next_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/mypi_fav_lst_6mo",
+                "isVis": "(event - name == '6_month_follow_up_arm_1' || event - name == '18_month_follow_up_arm_1')&& mypi_fav_lst_6mo_dk == ''",
+                "valueRequired": true,
+                "variableName": "mypi_fav_lst_6mo"
+            },
+            {
+                "isAbout": "items/mypi_fav_lst_6mo_dk",
+                "isVis": "(event - name == '6_month_follow_up_arm_1' || event - name == '18_month_follow_up_arm_1')&& mypi_fav_lst_6mo == ''",
+                "valueRequired": true,
+                "variableName": "mypi_fav_lst_6mo_dk"
+            },
+            {
+                "isAbout": "items/mypi_futuresnacks",
+                "isVis": "event - name == '30_month_follow_up_arm_1'",
+                "valueRequired": true,
+                "variableName": "mypi_futuresnacks"
+            },
+            {
+                "isAbout": "items/mypi_fav_food",
+                "isVis": "(mypi_fav_lst_6mo_dk == '777' || mypi_fav_lst_6mo_dk == '999')&& mypi_fav_food_dk == ''",
+                "valueRequired": true,
+                "variableName": "mypi_fav_food"
+            },
+            {
+                "isAbout": "items/mypi_fav_food_dk",
+                "isVis": "(mypi_fav_lst_6mo_dk == '777' || mypi_fav_lst_6mo_dk == '999')&& mypi_fav_food == ''",
+                "valueRequired": true,
+                "variableName": "mypi_fav_food_dk"
+            },
+            {
+                "isAbout": "items/mypi_completion_date",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "mypi_completion_date"
+            },
+            {
+                "isAbout": "items/mypi_notes",
+                "isVis": "event - name == '6_month_follow_up_arm_1' || event - name == '18_month_follow_up_arm_1'",
+                "valueRequired": false,
+                "variableName": "mypi_notes"
+            },
+            {
+                "isAbout": "items/mypi_next_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mypi_next_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2206",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

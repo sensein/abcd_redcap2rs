@@ -1,0 +1,68 @@
+{
+    "id": "irma_pssp_5",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "pssp"
+        }
+    ],
+    "preamble": {
+        "en": "Perceived Stress Scale",
+        "es": "Escala de estr\u00c3\u00a9s percibida"
+    },
+    "prefLabel": {
+        "en": "irma_pssp_5"
+    },
+    "question": {
+        "en": "5. In the last month, how often have you felt that things were going your way?",
+        "es": "5. En el \u00c3\u00baltimo mes, \u00c2\u00bfcon qu\u00c3\u00a9 frecuencia ha sentido que las cosas siguen tu camino?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never0",
+                    "es": "Nunca0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Almost Never1",
+                    "es": "Casi nunca1"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Sometimes2",
+                    "es": "A veces2"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Fairly Often3",
+                    "es": "Bastante a menudo3"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Very Often4",
+                    "es": "Muchisimo a menudo4"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

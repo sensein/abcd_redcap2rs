@@ -1,0 +1,40 @@
+{
+    "id": "pds_y_ss_female_category_2",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Pubertal Developmental Scale Y"
+    },
+    "prefLabel": {
+        "en": "pds_y_ss_female_category_2"
+    },
+    "question": {
+        "en": "Pubertal Developmental Scale Youth: Female Category\npds_y_ss_f_cat_sum (sum_y_f) = pds_bdyhair_y +  pds_4_2_y \n1 - prepuberty -      sum_y_f = 2 and pds_f5_y = 12 - early puberty -  sum_y_f  = 3 and pds_5_y = 1\n3 - mid puberty -    sum_y_f  > 3 and pds_f5_y = 1\n4 - late puberty -    sum_y_f = <=7 and pds_f5_y = 4\n5 - post puberty -   sum_y_f = 8 and pds_f5_y = 4\nValidation: All items must be answered"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

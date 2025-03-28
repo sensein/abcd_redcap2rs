@@ -1,0 +1,75 @@
+{
+    "id": "naas_pride_2",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20180116"
+        }
+    ],
+    "preamble": {
+        "en": "The following questions are about you or the child's family.",
+        "es": "Las siguientes preguntas son acerca de usted o de la familia del ni\u00c3\u00b1o / de la ni\u00c3\u00b1a."
+    },
+    "prefLabel": {
+        "en": "naas_pride_2"
+    },
+    "question": {
+        "en": "How much pride does your family have in Native American culture and heritage?",
+        "es": "\u00c2\u00bfCu\u00c3\u00a1nto orgullo tiene su familia en la cultura y el patrimonio Nativo Americano?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Extremely proud",
+                    "es": "Extremadamente orgulloso(a)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Moderately proud",
+                    "es": "Moderadamente orgulloso(a)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A little pride",
+                    "es": "Un poco orgulloso"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "No pride, but do not feel negative toward group",
+                    "es": "Ning\u00c3\u00ban orgullo, pero no siento negatividad hacia el grupo"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "No pride, but do feel negative toward group",
+                    "es": "Ning\u00c3\u00ban orgullo, pero si siento negatividad hacia el grupo"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Don't Know",
+                    "es": "No lo s\u00c3\u00a9"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

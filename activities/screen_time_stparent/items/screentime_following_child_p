@@ -1,0 +1,47 @@
+{
+    "id": "screentime_following_child_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "On a typical WEEKEND DAY (Saturday-Sunday), how much TIME per day does your child spend in TOTAL on a computer, cellphone, tablet, iPod, or other electronic device?",
+        "es": "Favor NO incluya el tiempo que pasa haciendo trabajos relacionados con la escuela, pero s\u00c3\u00ad incluya el tiempo que pasa viendo televisi\u00c3\u00b3n, programas o videos, enviando mensajes de texto o chateando, jugando videojuegos o visitando sitios de redes sociales (Facebook, Twitter, Instagram)."
+    },
+    "prefLabel": {
+        "en": "screentime_following_child_p"
+    },
+    "question": {
+        "en": "Are you following, or friends with, your child on any social media sites (e.g., Facebook, Instagram, Snapchat)?",
+        "es": "\u00c2\u00bfEst\u00c3\u00a1 siguiendo a su hijo/a o es amigo de \u00c3\u00a9l/ella en alguna red social (por ejemplo, Facebook, Instagram, Snapchat)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Refuse to Answer",
+                    "es": "Niego contestar"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

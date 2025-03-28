@@ -1,0 +1,67 @@
+{
+    "id": "gen_child_behav_4",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "4"
+        },
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "general_child_behavior"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "4"
+        }
+    ],
+    "prefLabel": {
+        "en": "gen_child_behav_4"
+    },
+    "question": {
+        "en": "Has your child had periods of extreme happiness and intense energy that last several days or more when he/she also felt more anxious or tense (jittery, nervous, uptight) than usual (other than relates to the menstrual cycle)?",
+        "es": "\u00c2\u00bfHa tenido su ni\u00c3\u00b1o(a)  per\u00c3\u00adodos   (no relacionados con el ciclo menstrual) de varios d\u00c3\u00adas o m\u00c3\u00a1s de felicidad extrema y energ\u00c3\u00ada intensa, en los que tambi\u00c3\u00a9n se sinti\u00c3\u00b3 mucho m\u00c3\u00a1s ansioso(a) o tenso(a) [inquieto(a), nervioso(a)] de lo normal?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never - Hardly ever",
+                    "es": "Nunca o casi nunca"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Sometimes",
+                    "es": "A veces"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Often",
+                    "es": "Con frecuencia"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Very often - almost constantly",
+                    "es": "Con mucha frecuencia - casi constantemente"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

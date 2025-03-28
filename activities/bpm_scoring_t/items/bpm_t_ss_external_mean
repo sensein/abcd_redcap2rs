@@ -1,0 +1,30 @@
+{
+    "id": "bpm_t_ss_external_mean",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "External Mean Score"
+    },
+    "prefLabel": {
+        "en": "bpm_t_ss_external_mean"
+    },
+    "question": {
+        "en": "Mean:\nMean(bpmt_q2 + bpmt_q6 +\nbpmt_q7 + bpmt_q14 +\nbpmt_q15 + bpmt_q16)\nValidation: All items must be answered"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

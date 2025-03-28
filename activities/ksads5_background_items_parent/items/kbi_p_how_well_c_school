@@ -1,0 +1,57 @@
+{
+    "id": "kbi_p_how_well_c_school",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "kbi_p_how_well_c_school"
+    },
+    "question": {
+        "en": "In general, how does your child do in school?",
+        "es": "En general, \u00c2\u00bfc\u00c3\u00b3mo le va a su ni\u00c3\u00b1o(a) en la escuela?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Very well",
+                    "es": "Muy bien"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Average",
+                    "es": "Promedio"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Below Average",
+                    "es": "Por debajo del promedio"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Failing",
+                    "es": "Est\u00c3\u00a1 reprobando o repitiendo un grado"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Not applicable",
+                    "es": "No aplica"
+                },
+                "value": -1
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

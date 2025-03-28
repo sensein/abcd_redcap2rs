@@ -1,0 +1,67 @@
+{
+    "id": "gen_child_behav_6",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "6"
+        },
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "gen_behav"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "6"
+        }
+    ],
+    "prefLabel": {
+        "en": "gen_child_behav_6"
+    },
+    "question": {
+        "en": "Has your child had periods of extreme happiness and intense energy (clearly more than his/her normal self) when, for several days or more, it took him/her over an hour to get to sleep at night?",
+        "es": "\u00c2\u00bfSu ni\u00c3\u00b1o(a) ha tenido per\u00c3\u00adodos de felicidad extrema y energ\u00c3\u00ada intensa (claramente m\u00c3\u00a1s de lo normal para \u00c3\u00a9l/ella) por varios d\u00c3\u00adas o m\u00c3\u00a1s en los que tard\u00c3\u00b3 m\u00c3\u00a1s de una hora en quedarse dormido(a) en la noche?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never - Hardly ever",
+                    "es": "Nunca o casi nunca"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Sometimes",
+                    "es": "A veces"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Often",
+                    "es": "Con frecuencia"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Very often - almost constantly",
+                    "es": "Con mucha frecuencia - casi constantemente"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,44 @@
+{
+    "id": "iqc_event_rsfmri_autoqcd",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        },
+        {
+            "column": "Text Validation Min",
+            "source": "redcap",
+            "value": "0"
+        },
+        {
+            "column": "Text Validation Max",
+            "source": "redcap",
+            "value": "1.0"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "iqc_event_rsfmri_autoqcd"
+    },
+    "question": {
+        "en": "rsfMRI: Decide whether rsfmri series in a given pguidevent pass qc or not.\nvalues: 1 = all rsfmri series pass qc\n            0 = NOT all rsfmri series pass qc"
+    },
+    "responseOptions": {
+        "maxValue": 1,
+        "minValue": 0,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

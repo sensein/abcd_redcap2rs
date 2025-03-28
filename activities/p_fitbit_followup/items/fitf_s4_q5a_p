@@ -1,0 +1,55 @@
+{
+    "id": "fitf_s4_q5a_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Future Use"
+    },
+    "prefLabel": {
+        "en": "fitf_s4_q5a_p"
+    },
+    "question": {
+        "en": "&nbspWho?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Mother"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Father"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Sibling(s)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Grandparent(s)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Friend(s)"
+                },
+                "value": 5
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

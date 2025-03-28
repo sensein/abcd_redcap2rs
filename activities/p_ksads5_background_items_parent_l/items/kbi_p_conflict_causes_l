@@ -1,0 +1,93 @@
+{
+    "id": "kbi_p_conflict_causes_l",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "kbi_p_conflict_causes_l"
+    },
+    "question": {
+        "en": "Click the things that cause conflict between you and your child:",
+        "es": "A continuaci\u00c3\u00b3n, seleccione aquello que causa conflicto entre usted y su ni\u00c3\u00b1o(a):"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Chores",
+                    "es": "Quehaceres"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Messy Room",
+                    "es": "Habitaci\u00c3\u00b3n desordenada"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Breaking Curfew",
+                    "es": "No respetar la hora l\u00c3\u00admite para regresar a casa"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Conflict with Siblings",
+                    "es": "Conflicto con hermanos"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Grades",
+                    "es": "Calificaciones"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Trouble in School",
+                    "es": "Problemas en la escuela"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Trouble with Police",
+                    "es": "Problemas con la polic\u00c3\u00ada"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Moods",
+                    "es": "Estados de \u00c3\u00a1nimo"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Other",
+                    "es": "Otra"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Not applicable",
+                    "es": "No aplica"
+                },
+                "value": 0
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

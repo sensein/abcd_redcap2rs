@@ -1,0 +1,35 @@
+{
+    "id": "fes_p_ss_exp_sum_nt",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Family Environment Scale: Family Expression"
+    },
+    "prefLabel": {
+        "en": "fes_p_ss_exp_sum_nt"
+    },
+    "question": {
+        "en": "Expression subscale from the Family Environment Scale Sum of Parent Report Number Total Questions"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

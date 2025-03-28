@@ -1,0 +1,53 @@
+{
+    "id": "fu_6mo_liq_1",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "5"
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "5"
+        }
+    ],
+    "preamble": {
+        "en": "Now I'm going to ask you some questions about drugs and alcohol that you can answer with \"YES\" or \"NO\", so that no one else knows we're talking about drugs."
+    },
+    "prefLabel": {
+        "en": "fu_6mo_liq_1"
+    },
+    "question": {
+        "en": "Have you you heard of sniffing liquids, sprays, or other products to get high or to feel good?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

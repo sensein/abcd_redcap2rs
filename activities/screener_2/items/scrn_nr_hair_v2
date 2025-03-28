@@ -1,0 +1,34 @@
+{
+    "id": "scrn_nr_hair_v2",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "scrn_nr_hair_v2"
+    },
+    "question": {
+        "en": "Does your child have any new hair extensions or a hair piece?",
+        "es": "\"\u00c2\u00bfSu ni\u00c3\u00b1o(a) tiene extensiones de cabello nuevas o cabello postizo? \""
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

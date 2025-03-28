@@ -1,0 +1,50 @@
+{
+    "id": "prodromal_2_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "2"
+        },
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "prodromal_2a"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "2"
+        }
+    ],
+    "prefLabel": {
+        "en": "prodromal_2_y"
+    },
+    "question": {
+        "en": "Did you hear strange sounds that you never noticed before like banging, clicking, hissing, clapping, or ringing in your ears?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

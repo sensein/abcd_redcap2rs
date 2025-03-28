@@ -1,0 +1,28 @@
+{
+    "id": "substudy_irma",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "substudy_irma"
+    },
+    "question": {
+        "en": "IRMA: The participant was enrolled in the Disaster and Youth, Neural and Affective Maturation in Context (DYNAMIC) Study"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "yes"
+                },
+                "value": 1
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

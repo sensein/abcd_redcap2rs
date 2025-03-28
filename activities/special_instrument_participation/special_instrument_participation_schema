@@ -1,0 +1,266 @@
+{
+    "id": "special_instrument_participation_schema",
+    "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "if(baseline_year_1_arm_1rtg_saliva_yield < 10 || baseline_year_1_arm_1rtg_saliva_yield == '',1,0)",
+            "variableName": "dna_recollect_1yr_fu"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "bio_10perc_draeger_fup"
+        },
+        {
+            "jsExpression": "bal_test2_result_y == '2' || bal2_test2_result_y =='2' || bio_10perc_bal == '1'",
+            "variableName": "bio_10perc_bal_followup"
+        }
+    ],
+    "prefLabel": {
+        "en": "special_instrument_participation"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/bio_10perc_draeger",
+            "items/bio_15perc_draeger",
+            "items/bio_20perc_draeger",
+            "items/bio_10perc_bal",
+            "items/bio_20perc_bal",
+            "items/bio_33perc_bal",
+            "items/bio_10perc_nic",
+            "items/bio_15perc_nic",
+            "items/sip_stroop_rand",
+            "items/fmri_task_order_rand",
+            "items/fmri_trial_order_mid_rand",
+            "items/fmri_trial_order_sst_rand",
+            "items/fmri_trial_order_nbac_rand",
+            "items/age_calc",
+            "items/demo_sex_v2_l",
+            "items/race_ethnicity_p",
+            "items/hr_score",
+            "items/fitc_user_name",
+            "items/fitc_user_access_code",
+            "items/contact_id",
+            "items/school_id",
+            "items/other_school_name",
+            "items/merge_school_id",
+            "items/merge_school_type",
+            "items/contact_method",
+            "items/other_contact_method",
+            "items/referred_by_contact_id",
+            "items/was_referred_by_contact",
+            "items/recruitment_method",
+            "items/other_recruitment_method",
+            "items/special_instrument_participation_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/dna_recollect_1yr_fu",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "dna_recollect_1yr_fu"
+            },
+            {
+                "isAbout": "items/bio_10perc_draeger",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bio_10perc_draeger"
+            },
+            {
+                "isAbout": "items/bio_15perc_draeger",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bio_15perc_draeger"
+            },
+            {
+                "isAbout": "items/bio_20perc_draeger",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bio_20perc_draeger"
+            },
+            {
+                "isAbout": "items/bio_10perc_draeger_fup",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bio_10perc_draeger_fup"
+            },
+            {
+                "isAbout": "items/bio_10perc_bal",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bio_10perc_bal"
+            },
+            {
+                "isAbout": "items/bio_20perc_bal",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bio_20perc_bal"
+            },
+            {
+                "isAbout": "items/bio_33perc_bal",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bio_33perc_bal"
+            },
+            {
+                "isAbout": "items/bio_10perc_bal_followup",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bio_10perc_bal_followup"
+            },
+            {
+                "isAbout": "items/bio_10perc_nic",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bio_10perc_nic"
+            },
+            {
+                "isAbout": "items/bio_15perc_nic",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bio_15perc_nic"
+            },
+            {
+                "isAbout": "items/sip_stroop_rand",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sip_stroop_rand"
+            },
+            {
+                "isAbout": "items/fmri_task_order_rand",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "fmri_task_order_rand"
+            },
+            {
+                "isAbout": "items/fmri_trial_order_mid_rand",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "fmri_trial_order_mid_rand"
+            },
+            {
+                "isAbout": "items/fmri_trial_order_sst_rand",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "fmri_trial_order_sst_rand"
+            },
+            {
+                "isAbout": "items/fmri_trial_order_nbac_rand",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "fmri_trial_order_nbac_rand"
+            },
+            {
+                "isAbout": "items/age_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "age_calc"
+            },
+            {
+                "isAbout": "items/demo_sex_v2_l",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "demo_sex_v2_l"
+            },
+            {
+                "isAbout": "items/race_ethnicity_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "race_ethnicity_p"
+            },
+            {
+                "isAbout": "items/hr_score",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "hr_score"
+            },
+            {
+                "isAbout": "items/fitc_user_name",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "fitc_user_name"
+            },
+            {
+                "isAbout": "items/fitc_user_access_code",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "fitc_user_access_code"
+            },
+            {
+                "isAbout": "items/contact_id",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "contact_id"
+            },
+            {
+                "isAbout": "items/school_id",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "school_id"
+            },
+            {
+                "isAbout": "items/other_school_name",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "other_school_name"
+            },
+            {
+                "isAbout": "items/merge_school_id",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "merge_school_id"
+            },
+            {
+                "isAbout": "items/merge_school_type",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "merge_school_type"
+            },
+            {
+                "isAbout": "items/contact_method",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "contact_method"
+            },
+            {
+                "isAbout": "items/other_contact_method",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "other_contact_method"
+            },
+            {
+                "isAbout": "items/referred_by_contact_id",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "referred_by_contact_id"
+            },
+            {
+                "isAbout": "items/was_referred_by_contact",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "was_referred_by_contact"
+            },
+            {
+                "isAbout": "items/recruitment_method",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "recruitment_method"
+            },
+            {
+                "isAbout": "items/other_recruitment_method",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "other_recruitment_method"
+            },
+            {
+                "isAbout": "items/special_instrument_participation_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "special_instrument_participation_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2206",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

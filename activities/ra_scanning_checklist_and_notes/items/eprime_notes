@@ -1,0 +1,35 @@
+{
+    "id": "eprime_notes",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "This question has been moved to the EPrime instrument."
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Scanning Checklist"
+    },
+    "prefLabel": {
+        "en": "eprime_notes"
+    },
+    "question": {
+        "en": "Were there any problems during Eprime data upload?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

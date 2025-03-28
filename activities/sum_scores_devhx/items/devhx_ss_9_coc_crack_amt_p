@@ -1,0 +1,43 @@
+{
+    "id": "devhx_ss_9_coc_crack_amt_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "In the Developmental History survey, if \"No\" was endorsed for use of a substance, the answer for \"How many times per day?\" was stored as missing. Here we have replaced missing with \"0.\""
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Text Validation Min",
+            "source": "redcap",
+            "value": "0"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "devhx_ss_9_coc_crack_amt_p"
+    },
+    "question": {
+        "en": "Cocaine/Crack?\r\n\r\nHow many times per day?"
+    },
+    "responseOptions": {
+        "minValue": 0,
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

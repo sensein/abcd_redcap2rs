@@ -1,0 +1,59 @@
+{
+    "id": "mypi_alc",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "1"
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "1"
+        }
+    ],
+    "preamble": {
+        "en": "Next are some questions about drugs and alcohol that you can answer with \"YES\" or \"NO.\""
+    },
+    "prefLabel": {
+        "en": "mypi_alc"
+    },
+    "question": {
+        "en": "Have you heard of drinks that contain alcohol, such as beer, wine or liquor, like rum, vodka, gin, whiskey, or tequila?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "no"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "refuse to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

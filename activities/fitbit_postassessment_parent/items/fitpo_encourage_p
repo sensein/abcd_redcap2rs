@@ -1,0 +1,47 @@
+{
+    "id": "fitpo_encourage_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20181006"
+        }
+    ],
+    "preamble": {
+        "en": "Another question for you:",
+        "es": "Otra pregunta para usted:"
+    },
+    "prefLabel": {
+        "en": "fitpo_encourage_p"
+    },
+    "question": {
+        "en": "Did you encourage your child to change his/her activity or sleep based on the information?",
+        "es": "\u00c2\u00bfAnim\u00c3\u00b3 a su hijo/a a cambiar su actividad o sus h\u00c3\u00a1bitos de sue\u00c3\u00b1o bas\u00c3\u00a1ndose en la informaci\u00c3\u00b3n?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

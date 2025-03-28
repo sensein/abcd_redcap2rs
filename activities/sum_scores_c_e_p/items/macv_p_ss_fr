@@ -1,0 +1,35 @@
+{
+    "id": "macv_p_ss_fr",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Mexican American Cultural Values Scale"
+    },
+    "prefLabel": {
+        "en": "macv_p_ss_fr"
+    },
+    "question": {
+        "en": "MACVS Family as Referent Subscale: Mean\n(mex_american4_p + mex_american9_p +  mex_american18_p + mex_american23_p +  mex_american27_p)/5\nValidation: All items must be answered"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

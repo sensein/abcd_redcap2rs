@@ -1,0 +1,26 @@
+{
+    "id": "sit_scr_event",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION"
+        }
+    ],
+    "prefLabel": {
+        "en": "sit_scr_event"
+    },
+    "question": {
+        "en": "Event selected by RA if not 2-year follow-up"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

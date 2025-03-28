@@ -1,0 +1,122 @@
+{
+    "id": "gish2_youth_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "gish2_youth"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/gish2_start_time",
+            "items/gish2_had_bf_gf",
+            "items/gish2_want_bf_gf",
+            "items/gish2_nr_kiss",
+            "items/gish2_nr_hands",
+            "items/gish2_nr_self_hands",
+            "items/gish2_cf_have_bf_gf",
+            "items/gish2_cf_kiss",
+            "items/gish2_cf_hands",
+            "items/gish2_cf_self_hands",
+            "items/gish2_f_had_bf_gf",
+            "items/gish2_f_kiss",
+            "items/gish2_f_hands",
+            "items/gish2_f_self_hands",
+            "items/gish2_youth_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/gish2_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "gish2_start_time"
+            },
+            {
+                "isAbout": "items/gish2_had_bf_gf",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish2_had_bf_gf"
+            },
+            {
+                "isAbout": "items/gish2_want_bf_gf",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish2_want_bf_gf"
+            },
+            {
+                "isAbout": "items/gish2_nr_kiss",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish2_nr_kiss"
+            },
+            {
+                "isAbout": "items/gish2_nr_hands",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish2_nr_hands"
+            },
+            {
+                "isAbout": "items/gish2_nr_self_hands",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish2_nr_self_hands"
+            },
+            {
+                "isAbout": "items/gish2_cf_have_bf_gf",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish2_cf_have_bf_gf"
+            },
+            {
+                "isAbout": "items/gish2_cf_kiss",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish2_cf_kiss"
+            },
+            {
+                "isAbout": "items/gish2_cf_hands",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish2_cf_hands"
+            },
+            {
+                "isAbout": "items/gish2_cf_self_hands",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish2_cf_self_hands"
+            },
+            {
+                "isAbout": "items/gish2_f_had_bf_gf",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish2_f_had_bf_gf"
+            },
+            {
+                "isAbout": "items/gish2_f_kiss",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish2_f_kiss"
+            },
+            {
+                "isAbout": "items/gish2_f_hands",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish2_f_hands"
+            },
+            {
+                "isAbout": "items/gish2_f_self_hands",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gish2_f_self_hands"
+            },
+            {
+                "isAbout": "items/gish2_youth_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "gish2_youth_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2206",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

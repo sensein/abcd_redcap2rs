@@ -1,0 +1,52 @@
+{
+    "id": "introduction_to_neurocognitionyouth_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "introduction_to_neurocognitionyouth"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/neurocog_start_time",
+            "items/neurocog_intro_ipad_y",
+            "items/intro_neurocog_ipad_oth_y",
+            "items/neurocog_intro_y",
+            "items/introduction_to_neurocognitionyouth_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/neurocog_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "neurocog_start_time"
+            },
+            {
+                "isAbout": "items/neurocog_intro_ipad_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "neurocog_intro_ipad_y"
+            },
+            {
+                "isAbout": "items/intro_neurocog_ipad_oth_y",
+                "isVis": "neurocog_intro_ipad_y == '3'",
+                "valueRequired": true,
+                "variableName": "intro_neurocog_ipad_oth_y"
+            },
+            {
+                "isAbout": "items/neurocog_intro_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "neurocog_intro_y"
+            },
+            {
+                "isAbout": "items/introduction_to_neurocognitionyouth_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "introduction_to_neurocognitionyouth_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2206",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

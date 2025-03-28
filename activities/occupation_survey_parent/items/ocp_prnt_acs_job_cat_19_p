@@ -1,0 +1,49 @@
+{
+    "id": "ocp_prnt_acs_job_cat_19_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "\u00e2\u0080\u00a2 If you had no job or business last week, give information for your last job or business.",
+        "es": "\u00e2\u0080\u00a2 Si no tuvo trabajo o negocio la semana pasada, provea informaci\u00c3\u00b3n acerca de su \u00c3\u00baltimo trabajo o negocio."
+    },
+    "prefLabel": {
+        "en": "ocp_prnt_acs_job_cat_19_p"
+    },
+    "question": {
+        "en": "Please specify the Installation, Maintenance, and Repair Occupations Job Title:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Supervisors of Installation, Maintenance, and Repair Workers"
+                },
+                "value": 49100
+            },
+            {
+                "name": {
+                    "en": "Electrical and Electronic Equipment Mechanics, Installers, and Repairers"
+                },
+                "value": 49200
+            },
+            {
+                "name": {
+                    "en": "Vehicle and Mobile Equipment Mechanics, Installers, and Repairers"
+                },
+                "value": 49300
+            },
+            {
+                "name": {
+                    "en": "Other Installation, Maintenance, and Repair Occupations"
+                },
+                "value": 49900
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

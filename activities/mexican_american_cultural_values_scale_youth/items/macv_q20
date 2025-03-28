@@ -1,0 +1,58 @@
+{
+    "id": "macv_q20",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "mex_american_youth_q16_q20"
+        }
+    ],
+    "prefLabel": {
+        "en": "macv_q20"
+    },
+    "question": {
+        "en": "It is important to thank God every day for all one has."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at All"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A Little"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Somewhat"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Very Much"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Completely"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

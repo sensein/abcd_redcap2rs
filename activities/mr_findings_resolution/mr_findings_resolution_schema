@@ -1,0 +1,87 @@
+{
+    "id": "mr_findings_resolution_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "mr_findings_resolution"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/mrif_score_copy",
+            "items/mrif_hydrocephalus_copy",
+            "items/mrif_herniation_copy",
+            "items/mrif_other_notes_copy",
+            "items/mrif_conf_receiv",
+            "items/mrif_resolution_date",
+            "items/mrif_resolve",
+            "items/mrif_resolve_ndnotes",
+            "items/mrif_resolve_ecnotes",
+            "items/mr_findings_resolution_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/mrif_score_copy",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mrif_score_copy"
+            },
+            {
+                "isAbout": "items/mrif_hydrocephalus_copy",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mrif_hydrocephalus_copy"
+            },
+            {
+                "isAbout": "items/mrif_herniation_copy",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mrif_herniation_copy"
+            },
+            {
+                "isAbout": "items/mrif_other_notes_copy",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mrif_other_notes_copy"
+            },
+            {
+                "isAbout": "items/mrif_conf_receiv",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mrif_conf_receiv"
+            },
+            {
+                "isAbout": "items/mrif_resolution_date",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mrif_resolution_date"
+            },
+            {
+                "isAbout": "items/mrif_resolve",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mrif_resolve"
+            },
+            {
+                "isAbout": "items/mrif_resolve_ndnotes",
+                "isVis": "mrif_resolve___5 == 1",
+                "valueRequired": false,
+                "variableName": "mrif_resolve_ndnotes"
+            },
+            {
+                "isAbout": "items/mrif_resolve_ecnotes",
+                "isVis": "mrif_resolve___6 == 1",
+                "valueRequired": false,
+                "variableName": "mrif_resolve_ecnotes"
+            },
+            {
+                "isAbout": "items/mr_findings_resolution_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mr_findings_resolution_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2206",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

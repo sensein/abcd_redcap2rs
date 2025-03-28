@@ -1,0 +1,66 @@
+{
+    "id": "scrn_bly1a1_sched_status",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Baseline ABCD Event"
+    },
+    "prefLabel": {
+        "en": "scrn_bly1a1_sched_status"
+    },
+    "question": {
+        "en": "BASELINE Scheduling Status:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Scheduled"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Unsure of availability- Awaiting call"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Unsure of availability- RA to call"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Delayed for dental- call back date scheduled"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Delayed for age- call back date scheduled"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Could not schedule (excluded)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Declined to enroll (excluded)"
+                },
+                "value": 6
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

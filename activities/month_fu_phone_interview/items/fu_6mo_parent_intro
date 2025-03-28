@@ -1,0 +1,40 @@
+{
+    "id": "fu_6mo_parent_intro",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION"
+        }
+    ],
+    "prefLabel": {
+        "en": "fu_6mo_parent_intro"
+    },
+    "question": {
+        "en": "Display 6-month follow-up Parent intro script (optional)? This is the intro script that is also found within the PII DB."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Singleton Script"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Twin/Sibling Script"
+                },
+                "value": 1
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

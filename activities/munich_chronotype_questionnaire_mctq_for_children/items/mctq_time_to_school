@@ -1,0 +1,54 @@
+{
+    "id": "mctq_time_to_school",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "School Details"
+    },
+    "prefLabel": {
+        "en": "mctq_time_to_school"
+    },
+    "question": {
+        "en": "I leave the house to go to school in the morning at:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Morning (4:00 AM to 11:59 AM)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Afternoon (12:00 PM Noon to 4:59 PM)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Evening (5:00 PM to 8:59 PM)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Nighttime (9:00 PM to 3:59 AM)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "I don't regularly travel to school / I am home schooled"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

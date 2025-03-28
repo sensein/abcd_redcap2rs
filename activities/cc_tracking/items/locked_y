@@ -1,0 +1,45 @@
+{
+    "id": "locked_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "Site must unenroll the original pGUID and then generate a new pGUID before the child is rescreened and the baseline visit is redone."
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        }
+    ],
+    "prefLabel": {
+        "en": "locked_y"
+    },
+    "question": {
+        "en": "Instruments locked:  Site plans to rescreen and redo the baseline visit before the child's 11th birthday."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes ALL"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Screener, Consent, Assent Only"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

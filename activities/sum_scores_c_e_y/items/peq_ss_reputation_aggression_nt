@@ -1,0 +1,30 @@
+{
+    "id": "peq_ss_reputation_aggression_nt",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Peer Experiences"
+    },
+    "prefLabel": {
+        "en": "peq_ss_reputation_aggression_nt"
+    },
+    "question": {
+        "en": "Reputational Aggression Number Total"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

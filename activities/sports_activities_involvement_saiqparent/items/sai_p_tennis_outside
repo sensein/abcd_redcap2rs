@@ -1,0 +1,47 @@
+{
+    "id": "sai_p_tennis_outside",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        }
+    ],
+    "preamble": {
+        "en": "Tennis",
+        "es": "Tenis"
+    },
+    "prefLabel": {
+        "en": "sai_p_tennis_outside"
+    },
+    "question": {
+        "en": "Was any of this activity part of an organized team, group, band, orchestra, chorus, or program outside of school?",
+        "es": "\u00c2\u00bfAlguna de estas actividades form\u00c3\u00b3 parte de alg\u00c3\u00ban equipo, grupo, banda, orquesta, coro, o programa organizado fuera de la escuela?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

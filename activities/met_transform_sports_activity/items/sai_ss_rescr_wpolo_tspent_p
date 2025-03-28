@@ -1,0 +1,88 @@
+{
+    "id": "sai_ss_rescr_wpolo_tspent_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "When swimming/water polo was not endorsed, values for the follow-up questions are missing. Here, missing values for  the  \"... how many...?\" follow-up questions have been replaced with \"0.\""
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "sai_ss_rescr_wpolo_tspent_p"
+    },
+    "question": {
+        "en": "Swimming, Water PoloAbout how many minutes per session?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "30 min"
+                },
+                "value": 30
+            },
+            {
+                "name": {
+                    "en": "45 min"
+                },
+                "value": 45
+            },
+            {
+                "name": {
+                    "en": "60 (1 hr)"
+                },
+                "value": 60
+            },
+            {
+                "name": {
+                    "en": "90 (1.5 hrs)"
+                },
+                "value": 90
+            },
+            {
+                "name": {
+                    "en": "120 (2 hrs)"
+                },
+                "value": 120
+            },
+            {
+                "name": {
+                    "en": "150 (2.5 hrs)"
+                },
+                "value": 150
+            },
+            {
+                "name": {
+                    "en": "180 (3 hrs)"
+                },
+                "value": 180
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "scrn_weight_mri",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "scrn_weight_mri"
+    },
+    "question": {
+        "en": "Is weight within acceptable range for MRI? (under 250 lbs)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "No - GO TO END"
+                },
+                "value": 1
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

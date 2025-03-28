@@ -1,0 +1,40 @@
+{
+    "id": "stq_y_ss_weekday",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Screen Time"
+    },
+    "prefLabel": {
+        "en": "stq_y_ss_weekday"
+    },
+    "question": {
+        "en": "Screen Time Youth: Weekday Sum\nscreen1_wkdy_y + screen2_wkdy_y + screen3_wkdy_y + screen4_wkdy_y + screen5_wkdy_y + screen_wkdy_y\nValidation: No minimum"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

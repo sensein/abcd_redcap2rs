@@ -1,0 +1,27 @@
+{
+    "id": "ddis_scr_val_cons_per_jbcrit2",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "ddis_scr_val_cons_per_jbcrit2"
+    },
+    "question": {
+        "en": "Consistent_per_JBcriterion2: no: if the 5-year delay indifference point (proportion of full delayed amount) is less than 10% smaller than the 6 hour indifference point => rule violation due to illogical or inconsistent responding     yes: otherwise"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

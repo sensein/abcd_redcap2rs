@@ -1,0 +1,170 @@
+{
+    "id": "ocp_prtnr_acs_ocp_code_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "autocomplete"
+        }
+    ],
+    "preamble": {
+        "en": "The following questions are about your partner. Your \"partner\" refers to any significant figure in your life that helps you in raising your child or has helped you for more than 2 years. This person should be involved 40% or more of the daily activities your child does. For example, your partner could be your spouse. However, your partner could also be your boyfriend/girlfriend or relative.",
+        "es": "Las siguientes preguntas son acerca de su pareja.  Su \"pareja\" se refiere a cualquier persona importante en su vida que le ayude a criar a su ni\u00c3\u00b1o(a) o que le haya ayudado durante m\u00c3\u00a1s de 2 a\u00c3\u00b1os. Esta persona debe participar en 40% o m\u00c3\u00a1s de las actividades diarias de su ni\u00c3\u00b1o(a). Por ejemplo, su pareja podr\u00c3\u00ada ser su c\u00c3\u00b3nyuge;  sin embargo, tambi\u00c3\u00a9n podr\u00c3\u00ada ser un(a) novio(a) o un pariente."
+    },
+    "prefLabel": {
+        "en": "ocp_prtnr_acs_ocp_code_p"
+    },
+    "question": {
+        "en": "RA instructions:Based on parent's response above, choose theOccupationfrom Codes for Job Title/Occupation list.Click here to access the current list of Codes for Job Title/Occupation on Confluence."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Management occupations"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Business and Financial Operations Occupations"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Computer and Mathematical Occupations"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Architecture and Engineering Occupations"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Life, Physical, and Social Science Occupations"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Community and Social Service Occupations"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Legal Occupations"
+                },
+                "value": 23
+            },
+            {
+                "name": {
+                    "en": "Education, Training, and Library Occupations"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Arts, Design, Entertainment, Sports, and Media Occupations"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Healthcare Practitioners and Technical Occupations"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Healthcare Support Occupations"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Protective Service Occupations"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Food Preparation and Serving Related Occupations"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Building and Grounds Cleaning and Maintenance"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Personal Care and Service Occupations"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "Sales and Related Occupations"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "Office and Administrative Support Occupations"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "Farming, Fishing, and Forestry Occupations"
+                },
+                "value": 17
+            },
+            {
+                "name": {
+                    "en": "Construction and Extraction Occupations"
+                },
+                "value": 18
+            },
+            {
+                "name": {
+                    "en": "Installation, Maintenance, and Repair Occupations"
+                },
+                "value": 19
+            },
+            {
+                "name": {
+                    "en": "Production Occupations"
+                },
+                "value": 20
+            },
+            {
+                "name": {
+                    "en": "Transportation and Material Moving Occupations"
+                },
+                "value": 21
+            },
+            {
+                "name": {
+                    "en": "Military Specific Occupations"
+                },
+                "value": 22
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

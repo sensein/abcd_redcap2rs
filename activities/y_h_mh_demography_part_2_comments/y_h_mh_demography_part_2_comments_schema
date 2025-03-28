@@ -1,0 +1,80 @@
+{
+    "id": "y_h_mh_demography_part_2_comments_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "y_h_mh_demography_part_2_comments"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/mhh1_issues_2",
+            "items/mhh2_assessments",
+            "items/mhh1_instructions_2",
+            "items/comm_yrb_y",
+            "items/comm_stq_y",
+            "items/comm_upps_y",
+            "items/comm_bis_y",
+            "items/comm_yrs_y",
+            "items/y_h_mh_demography_part_2_comments_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/mhh1_issues_2",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mhh1_issues_2"
+            },
+            {
+                "isAbout": "items/mhh2_assessments",
+                "isVis": "mhh1_issues_2 == '1'",
+                "valueRequired": false,
+                "variableName": "mhh2_assessments"
+            },
+            {
+                "isAbout": "items/mhh1_instructions_2",
+                "isVis": "mhh2_assessments___1 == '1' || mhh2_assessments___2 == '1' || mhh2_assessments___3 == '1' || mhh2_assessments___4 == '1' || mhh2_assessments___5 == '1'",
+                "valueRequired": false,
+                "variableName": "mhh1_instructions_2"
+            },
+            {
+                "isAbout": "items/comm_yrb_y",
+                "isVis": "mhh2_assessments___1 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_yrb_y"
+            },
+            {
+                "isAbout": "items/comm_stq_y",
+                "isVis": "mhh2_assessments___2 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_stq_y"
+            },
+            {
+                "isAbout": "items/comm_upps_y",
+                "isVis": "mhh2_assessments___3 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_upps_y"
+            },
+            {
+                "isAbout": "items/comm_bis_y",
+                "isVis": "mhh2_assessments___4 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_bis_y"
+            },
+            {
+                "isAbout": "items/comm_yrs_y",
+                "isVis": "mhh2_assessments___5 == '1'",
+                "valueRequired": false,
+                "variableName": "comm_yrs_y"
+            },
+            {
+                "isAbout": "items/y_h_mh_demography_part_2_comments_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "y_h_mh_demography_part_2_comments_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2206",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,115 @@
+{
+    "id": "pre_scan_questionnaireyouth_2_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "pre_scan_questionnaireyouth_2"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/pre_scan_need",
+            "items/prescan_2_dt",
+            "items/prescan_relaxed_2",
+            "items/prescan_happy_2",
+            "items/prescan_scared_2",
+            "items/prescan_awake_2",
+            "items/prescan_upset_2",
+            "items/prescan_angry_2",
+            "items/prescan_excited_2",
+            "items/prescan_tired_2",
+            "items/prescan_sleepy_2",
+            "items/prescan_sad_2",
+            "items/prescan2_comment",
+            "items/pre_scan_questionnaireyouth_2_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/pre_scan_need",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pre_scan_need"
+            },
+            {
+                "isAbout": "items/prescan_2_dt",
+                "isVis": "pre_scan_need == '1'",
+                "valueRequired": false,
+                "variableName": "prescan_2_dt"
+            },
+            {
+                "isAbout": "items/prescan_relaxed_2",
+                "isVis": "pre_scan_need == '1'",
+                "valueRequired": true,
+                "variableName": "prescan_relaxed_2"
+            },
+            {
+                "isAbout": "items/prescan_happy_2",
+                "isVis": "pre_scan_need == '1'",
+                "valueRequired": true,
+                "variableName": "prescan_happy_2"
+            },
+            {
+                "isAbout": "items/prescan_scared_2",
+                "isVis": "pre_scan_need == '1'",
+                "valueRequired": true,
+                "variableName": "prescan_scared_2"
+            },
+            {
+                "isAbout": "items/prescan_awake_2",
+                "isVis": "pre_scan_need == '1'",
+                "valueRequired": true,
+                "variableName": "prescan_awake_2"
+            },
+            {
+                "isAbout": "items/prescan_upset_2",
+                "isVis": "pre_scan_need == '1'",
+                "valueRequired": true,
+                "variableName": "prescan_upset_2"
+            },
+            {
+                "isAbout": "items/prescan_angry_2",
+                "isVis": "pre_scan_need == '1'",
+                "valueRequired": true,
+                "variableName": "prescan_angry_2"
+            },
+            {
+                "isAbout": "items/prescan_excited_2",
+                "isVis": "pre_scan_need == '1'",
+                "valueRequired": true,
+                "variableName": "prescan_excited_2"
+            },
+            {
+                "isAbout": "items/prescan_tired_2",
+                "isVis": "pre_scan_need == '1'",
+                "valueRequired": true,
+                "variableName": "prescan_tired_2"
+            },
+            {
+                "isAbout": "items/prescan_sleepy_2",
+                "isVis": "pre_scan_need == '1'",
+                "valueRequired": true,
+                "variableName": "prescan_sleepy_2"
+            },
+            {
+                "isAbout": "items/prescan_sad_2",
+                "isVis": "pre_scan_need == '1'",
+                "valueRequired": true,
+                "variableName": "prescan_sad_2"
+            },
+            {
+                "isAbout": "items/prescan2_comment",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "prescan2_comment"
+            },
+            {
+                "isAbout": "items/pre_scan_questionnaireyouth_2_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pre_scan_questionnaireyouth_2_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2206",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

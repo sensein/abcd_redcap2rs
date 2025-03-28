@@ -1,0 +1,939 @@
+{
+    "id": "sum_scores_mh_y_schema",
+    "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "if(ple_died_fu_y == '1',1,0)+ if(ple_injured_fu_y == '1',1,0)+ if(ple_crime_fu_y== '1',1,0)+ if(ple_friend_fu_y== '1',1,0)+ if(ple_friend_injur_fu_y== '1',1,0)+ if(ple_financial_fu_y== '1',1,0)+ if(ple_sud_fu_y== '1',1,0)+ if(ple_ill_fu_y== '1',1,0)+ if(ple_injur_fu_y== '1',1,0)+ if(ple_argue_fu_y== '1',1,0)+ if(ple_job_fu_y== '1',1,0)+ if(ple_away_fu_y== '1',1,0)+ if(ple_arrest_fu_y== '1',1,0)+ if(ple_friend_died_fu_y== '1',1,0)+ if(ple_mh_fu_y== '1',1,0)+ if(ple_sib_fu_y== '1',1,0)+ if(ple_victim_fu_y== '1',1,0)+ if(ple_separ_fu_y== '1',1,0)+ if(ple_law_fu_y== '1',1,0)+ if(ple_school_fu_y== '1',1,0)+ if(ple_move_fu_y== '1',1,0)+ if(ple_jail_fu_y== '1',1,0)+ if(ple_step_fu_y== '1',1,0)+ if(ple_new_job_fu_y== '1',1,0)+ if(ple_new_sib_fu_y == '1',1,0)",
+            "variableName": "ple_y_ss_total_good"
+        },
+        {
+            "jsExpression": "if(ple_died_fu_y == '2',1,0)+ if(ple_injured_fu_y == '2',1,0)+ if(ple_crime_fu_y== '2',1,0)+ if(ple_friend_fu_y== '2',1,0)+ if(ple_friend_injur_fu_y== '2',1,0)+ if(ple_financial_fu_y== '2',1,0)+ if(ple_sud_fu_y== '2',1,0)+ if(ple_ill_fu_y== '2',1,0)+ if(ple_injur_fu_y== '2',1,0)+ if(ple_argue_fu_y== '2',1,0)+ if(ple_job_fu_y== '2',1,0)+ if(ple_away_fu_y == '2',1,0)+ if(ple_arrest_fu_y== '2',1,0)+ if(ple_friend_died_fu_y== '2',1,0)+ if(ple_mh_fu_y== '2',1,0)+ if(ple_sib_fu_y== '2',1,0)+ if(ple_victim_fu_y== '2',1,0)+ if(ple_separ_fu_y== '2',1,0)+ if(ple_law_fu_y== '2',1,0)+ if(ple_school_fu_y== '2',1,0)+ if(ple_move_fu_y== '2',1,0)+ if(ple_jail_fu_y== '2',1,0)+ if(ple_step_fu_y== '2',1,0)+ if(ple_new_job_fu_y== '2',1,0)+ if(ple_new_sib_fu_y == '2',1,0)",
+            "variableName": "ple_y_ss_total_bad"
+        },
+        {
+            "jsExpression": "sum(ple_died_fu2_y,ple_injured_fu2_y,ple_crime_fu2_y,ple_friend_fu2_y,ple_friend_injur_fu2_y,ple_financial_fu2_y,ple_sud_fu2_y,ple_ill_fu2_y,ple_injur_fu2_y,ple_argue_fu2_y,ple_job_fu2_y,ple_away_fu2_y,ple_arrest_fu2_y,ple_friend_died_fu2_y,ple_mh_fu2_y,ple_sib_fu2_y,ple_victim_fu2_y,ple_separ_fu2_y,ple_law_fu2_y,ple_school_fu2_y,ple_move_fu2_y,ple_jail_fu2_y,ple_step_fu2_y,ple_new_job_fu2_y,ple_new_sib_fu2_y)",
+            "variableName": "ple_y_ss_affect_sum"
+        },
+        {
+            "jsExpression": "mean(ple_died_fu2_y,ple_injured_fu2_y,ple_crime_fu2_y,ple_friend_fu2_y,ple_friend_injur_fu2_y,ple_financial_fu2_y,ple_sud_fu2_y,ple_ill_fu2_y,ple_injur_fu2_y,ple_argue_fu2_y,ple_job_fu2_y,ple_away_fu2_y,ple_arrest_fu2_y,ple_friend_died_fu2_y,ple_mh_fu2_y,ple_sib_fu2_y,ple_victim_fu2_y,ple_separ_fu2_y,ple_law_fu2_y,ple_school_fu2_y,ple_move_fu2_y,ple_jail_fu2_y,ple_step_fu2_y,ple_new_job_fu2_y,ple_new_sib_fu2_y)",
+            "variableName": "ple_y_ss_affected_mean"
+        },
+        {
+            "jsExpression": "if(ple_died_fu_y == '1',ple_died_fu2_y,0)+ if(ple_injured_fu_y == '1',ple_injured_fu2_y,0)+ if(ple_crime_fu_y== '1',ple_crime_fu2_y,0)+ if(ple_friend_fu_y== '1',ple_friend_fu2_y,0)+ if(ple_friend_injur_fu_y == '1',ple_friend_injur_fu2_y,0)+ if(ple_financial_fu_y == '1',ple_financial_fu2_y,0)+ if(ple_sud_fu_y== '1',ple_sud_fu2_y,0)+ if(ple_ill_fu_y== '1',ple_ill_fu2_y,0)+ if(ple_injur_fu_y== '1',ple_injur_fu2_y,0)+ if(ple_argue_fu_y== '1',ple_argue_fu2_y,0)+ if(ple_job_fu_y== '1',ple_job_fu2_y,0)+ if(ple_away_fu_y== '1',ple_away_fu2_y,0)+ if(ple_arrest_fu_y== '1',ple_arrest_fu2_y,0)+ if(ple_friend_died_fu_y== '1',ple_friend_died_fu2_y,0)+ if(ple_mh_fu_y== '1',ple_mh_fu2_y,0)+ if(ple_sib_fu_y== '1',ple_sib_fu2_y,0)+ if(ple_victim_fu_y== '1',ple_victim_fu2_y,0)+ if(ple_separ_fu_y== '1',ple_separ_fu2_y,0)+ if(ple_law_fu_y== '1',ple_law_fu2_y,0)+ if(ple_school_fu_y== '1',ple_school_fu2_y,0)+ if(ple_move_fu_y== '1',ple_move_fu2_y,0)+ if(ple_jail_fu_y== '1',ple_jail_fu2_y,0)+ if(ple_step_fu_y== '1',ple_step_fu2_y,0)+ if(ple_new_job_fu_y== '1',ple_new_job_fu2_y,0)+ if(ple_new_sib_fu_y == '1',ple_new_sib_fu2_y,0)",
+            "variableName": "ple_y_ss_affected_good_sum"
+        },
+        {
+            "jsExpression": "ple_y_ss_affected_good_sum / ple_y_ss_total_good",
+            "variableName": "ple_y_ss_affected_good_mean"
+        },
+        {
+            "jsExpression": "if(ple_died_fu_y == '2',ple_died_fu2_y,0)+ if(ple_injured_fu_y == '2',ple_injured_fu2_y,0)+ if(ple_crime_fu_y== '2',ple_crime_fu2_y,0)+ if(ple_friend_fu_y== '2',ple_friend_fu2_y,0)+ if(ple_friend_injur_fu_y == '2',ple_friend_injur_fu2_y,0)+ if(ple_financial_fu_y== '2',ple_financial_fu2_y,0)+ if(ple_sud_fu_y== '2',ple_sud_fu2_y,0)+ if(ple_ill_fu_y== '2',ple_ill_fu2_y,0)+ if(ple_injur_fu_y== '2',ple_injur_fu2_y,0)+ if(ple_argue_fu_y== '2',ple_argue_fu2_y,0)+ if(ple_job_fu_y== '2',ple_job_fu2_y,0)+ if(ple_away_fu_y== '2',ple_away_fu2_y,0)+ if(ple_arrest_fu_y== '2',ple_arrest_fu2_y,0)+ if(ple_friend_died_fu_y== '2',ple_friend_died_fu2_y,0)+ if(ple_mh_fu_y== '2',ple_mh_fu2_y,0)+ if(ple_sib_fu_y== '2',ple_sib_fu2_y,0)+ if(ple_victim_fu_y== '2',ple_victim_fu2_y,0)+ if(ple_separ_fu_y== '2',ple_separ_fu2_y,0)+ if(ple_law_fu_y== '2',ple_law_fu2_y,0)+ if(ple_school_fu_y== '2',ple_school_fu2_y,0)+ if(ple_move_fu_y== '2',ple_move_fu2_y,0)+ if(ple_jail_fu_y== '2',ple_jail_fu2_y,0)+ if(ple_step_fu_y== '2',ple_step_fu2_y,0)+ if(ple_new_job_fu_y== '2',ple_new_job_fu2_y,0)+ if(ple_new_sib_fu_y == '2',ple_new_sib_fu2_y,0)",
+            "variableName": "ple_y_ss_affected_bad_sum"
+        },
+        {
+            "jsExpression": "ple_y_ss_affected_bad_sum / ple_y_ss_total_bad",
+            "variableName": "ple_y_ss_affected_bad_mean"
+        }
+    ],
+    "prefLabel": {
+        "en": "sum_scores_mh_y"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ple_y_ss_total_number",
+            "items/ple_y_ss_total_number_nm",
+            "items/ple_y_ss_total_number_nt",
+            "items/ple_y_ss_total_good_nm",
+            "items/ple_y_ss_total_good_nt",
+            "items/ple_y_ss_total_bad_nm",
+            "items/ple_y_ss_total_bad_nt",
+            "items/ple_y_ss_affect_sum_nm",
+            "items/ple_y_ss_affect_sum_nt",
+            "items/ple_y_ss_affected_mean_nm",
+            "items/ple_y_ss_affected_mean_nt",
+            "items/ple_y_ss_affected_good_sum_nm",
+            "items/ple_y_ss_affected_good_sum_nt",
+            "items/ple_y_ss_affected_good_mean_nm",
+            "items/ple_y_ss_affected_good_mean_nt",
+            "items/ple_y_ss_affected_bad_sum_nm",
+            "items/ple_y_ss_affected_bad_sum_nt",
+            "items/ple_y_ss_affected_bad_mean_nm",
+            "items/ple_y_ss_affected_bad_mean_nt",
+            "items/pps_y_ss_number",
+            "items/pps_y_ss_number_nm",
+            "items/pps_y_ss_number_nt",
+            "items/pps_y_ss_bother_sum",
+            "items/pps_y_ss_bother_sum_nm",
+            "items/pps_y_ss_bother_sum_nt",
+            "items/pps_y_ss_bother_n_1",
+            "items/pps_y_ss_bother_n_1_nm",
+            "items/pps_y_ss_bother_n_1_nt",
+            "items/pps_y_ss_severity_score",
+            "items/pps_y_ss_severity_score_nm",
+            "items/pps_y_ss_severity_score_nt",
+            "items/pps_ss_mean_severity",
+            "items/pds_y_ss_male_sum",
+            "items/pds_y_ss_male_sum_nm",
+            "items/pds_y_ss_male_sum_nt",
+            "items/pds_y_ss_male_mean",
+            "items/pds_y_ss_male_mean_nm",
+            "items/pds_y_ss_male_mean_nt",
+            "items/pds_y_ss_male_category",
+            "items/pds_y_ss_male_cat_nm",
+            "items/pds_y_ss_male_cat_nt",
+            "items/pds_y_ss_male_category_2",
+            "items/pds_y_ss_male_cat_2_nm",
+            "items/pds_y_ss_male_cat_2_nt",
+            "items/pds_y_ss_female_sum",
+            "items/pds_y_ss_female_sum_nm",
+            "items/pds_y_ss_female_sum_nt",
+            "items/pds_y_ss_female_mean",
+            "items/pds_y_ss_female_mean_nm",
+            "items/pds_y_ss_female_mean_nt",
+            "items/pds_y_ss_female_category",
+            "items/pds_y_ss_female_cat_nm",
+            "items/pds_y_ss_female_cat_nt",
+            "items/pds_y_ss_female_category_2",
+            "items/pds_y_ss_female_cat_2_nm",
+            "items/pds_y_ss_female_cat_2_nt",
+            "items/upps_y_ss_negative_urgency",
+            "items/upps_y_ss_negative_urgency_nm",
+            "items/upps_y_ss_negative_urgency_nt",
+            "items/upps_y_ss_lack_of_planning",
+            "items/upps_y_ss_lack_of_planning_nm",
+            "items/upps_y_ss_lack_of_planning_nt",
+            "items/upps_y_ss_sensation_seeking",
+            "items/upps_y_ss_sensation_seeking_nm",
+            "items/upps_y_ss_sensation_seeking_nt",
+            "items/upps_y_ss_positive_urgency",
+            "items/upps_y_ss_positive_urgency_nm",
+            "items/upps_y_ss_positive_urgency_nt",
+            "items/upps_y_ss_lack_of_perseverance",
+            "items/upps_y_ss_lack_of_perseverance_nm",
+            "items/upps_y_ss_lack_of_perseverance_nt",
+            "items/stq_y_ss_weekday",
+            "items/stq_y_ss_weekday_nm",
+            "items/stq_y_ss_weekday_nt",
+            "items/stq_y_ss_weekend",
+            "items/stq_y_ss_weekend_nm",
+            "items/stq_y_ss_weekend_nt",
+            "items/bis_y_ss_bis_sum",
+            "items/bis_y_ss_bis_sum_nm",
+            "items/bis_y_ss_bis_sum_nt",
+            "items/bis_y_ss_bas_rr",
+            "items/bis_y_ss_bas_rr_nm",
+            "items/bis_y_ss_bas_rr_nt",
+            "items/bis_y_ss_bas_drive",
+            "items/bis_y_ss_bas_drive_nm",
+            "items/bis_y_ss_bas_drive_nt",
+            "items/bis_y_ss_bas_fs",
+            "items/bis_y_ss_bas_fs_nm",
+            "items/bis_y_ss_bas_fs_nt",
+            "items/bis_y_ss_bism_sum",
+            "items/bis_y_ss_bism_sum_nm",
+            "items/bis_y_ss_bism_sum_nt",
+            "items/bis_y_ss_basm_rr",
+            "items/bis_y_ss_basm_rr_nm",
+            "items/bis_y_ss_basm_rr_nt",
+            "items/bis_y_ss_basm_drive",
+            "items/bis_y_ss_basm_drive_nm",
+            "items/bis_y_ss_basm_drive_nt",
+            "items/delq_y_ss_sum",
+            "items/delq_y_ss_sum_nm",
+            "items/delq_y_ss_sum_nt",
+            "items/delq_y_ss_sum_wt",
+            "items/delq_y_ss_sum_wt_nm",
+            "items/delq_y_ss_sum_wt_nt",
+            "items/delq_2yr_ss_sum",
+            "items/delq_ss_yr_2_sum",
+            "items/delq_2yr_ss_sum_nm",
+            "items/delq_ss_yr_2_sum_nm",
+            "items/delq_2yr_ss_sum_nt",
+            "items/delq_ss_yr_2_sum_nt",
+            "items/sup_y_ss_sum",
+            "items/sup_y_ss_sum_nm",
+            "items/sup_y_ss_sum_nt",
+            "items/gish_y_ss_m_sum",
+            "items/gish_y_ss_m_sum_nm",
+            "items/gish_y_ss_m_sum_nt",
+            "items/gish_y_ss_f_sum",
+            "items/gish_y_ss_f_sum_nm",
+            "items/gish_y_ss_f_sum_nt",
+            "items/sum_scores_mh_y_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ple_y_ss_total_number",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_y_ss_total_number"
+            },
+            {
+                "isAbout": "items/ple_y_ss_total_number_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_y_ss_total_number_nm"
+            },
+            {
+                "isAbout": "items/ple_y_ss_total_number_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_y_ss_total_number_nt"
+            },
+            {
+                "isAbout": "items/ple_y_ss_total_good",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_y_ss_total_good"
+            },
+            {
+                "isAbout": "items/ple_y_ss_total_good_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_y_ss_total_good_nm"
+            },
+            {
+                "isAbout": "items/ple_y_ss_total_good_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_y_ss_total_good_nt"
+            },
+            {
+                "isAbout": "items/ple_y_ss_total_bad",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_y_ss_total_bad"
+            },
+            {
+                "isAbout": "items/ple_y_ss_total_bad_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_y_ss_total_bad_nm"
+            },
+            {
+                "isAbout": "items/ple_y_ss_total_bad_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_y_ss_total_bad_nt"
+            },
+            {
+                "isAbout": "items/ple_y_ss_affect_sum",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_y_ss_affect_sum"
+            },
+            {
+                "isAbout": "items/ple_y_ss_affect_sum_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_y_ss_affect_sum_nm"
+            },
+            {
+                "isAbout": "items/ple_y_ss_affect_sum_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_y_ss_affect_sum_nt"
+            },
+            {
+                "isAbout": "items/ple_y_ss_affected_mean",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_y_ss_affected_mean"
+            },
+            {
+                "isAbout": "items/ple_y_ss_affected_mean_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_y_ss_affected_mean_nm"
+            },
+            {
+                "isAbout": "items/ple_y_ss_affected_mean_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_y_ss_affected_mean_nt"
+            },
+            {
+                "isAbout": "items/ple_y_ss_affected_good_sum",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_y_ss_affected_good_sum"
+            },
+            {
+                "isAbout": "items/ple_y_ss_affected_good_sum_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_y_ss_affected_good_sum_nm"
+            },
+            {
+                "isAbout": "items/ple_y_ss_affected_good_sum_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_y_ss_affected_good_sum_nt"
+            },
+            {
+                "isAbout": "items/ple_y_ss_affected_good_mean",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_y_ss_affected_good_mean"
+            },
+            {
+                "isAbout": "items/ple_y_ss_affected_good_mean_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_y_ss_affected_good_mean_nm"
+            },
+            {
+                "isAbout": "items/ple_y_ss_affected_good_mean_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_y_ss_affected_good_mean_nt"
+            },
+            {
+                "isAbout": "items/ple_y_ss_affected_bad_sum",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_y_ss_affected_bad_sum"
+            },
+            {
+                "isAbout": "items/ple_y_ss_affected_bad_sum_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_y_ss_affected_bad_sum_nm"
+            },
+            {
+                "isAbout": "items/ple_y_ss_affected_bad_sum_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_y_ss_affected_bad_sum_nt"
+            },
+            {
+                "isAbout": "items/ple_y_ss_affected_bad_mean",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_y_ss_affected_bad_mean"
+            },
+            {
+                "isAbout": "items/ple_y_ss_affected_bad_mean_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_y_ss_affected_bad_mean_nm"
+            },
+            {
+                "isAbout": "items/ple_y_ss_affected_bad_mean_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_y_ss_affected_bad_mean_nt"
+            },
+            {
+                "isAbout": "items/pps_y_ss_number",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pps_y_ss_number"
+            },
+            {
+                "isAbout": "items/pps_y_ss_number_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pps_y_ss_number_nm"
+            },
+            {
+                "isAbout": "items/pps_y_ss_number_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pps_y_ss_number_nt"
+            },
+            {
+                "isAbout": "items/pps_y_ss_bother_sum",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pps_y_ss_bother_sum"
+            },
+            {
+                "isAbout": "items/pps_y_ss_bother_sum_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pps_y_ss_bother_sum_nm"
+            },
+            {
+                "isAbout": "items/pps_y_ss_bother_sum_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pps_y_ss_bother_sum_nt"
+            },
+            {
+                "isAbout": "items/pps_y_ss_bother_n_1",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pps_y_ss_bother_n_1"
+            },
+            {
+                "isAbout": "items/pps_y_ss_bother_n_1_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pps_y_ss_bother_n_1_nm"
+            },
+            {
+                "isAbout": "items/pps_y_ss_bother_n_1_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pps_y_ss_bother_n_1_nt"
+            },
+            {
+                "isAbout": "items/pps_y_ss_severity_score",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pps_y_ss_severity_score"
+            },
+            {
+                "isAbout": "items/pps_y_ss_severity_score_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pps_y_ss_severity_score_nm"
+            },
+            {
+                "isAbout": "items/pps_y_ss_severity_score_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pps_y_ss_severity_score_nt"
+            },
+            {
+                "isAbout": "items/pps_ss_mean_severity",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pps_ss_mean_severity"
+            },
+            {
+                "isAbout": "items/pds_y_ss_male_sum",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pds_y_ss_male_sum"
+            },
+            {
+                "isAbout": "items/pds_y_ss_male_sum_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pds_y_ss_male_sum_nm"
+            },
+            {
+                "isAbout": "items/pds_y_ss_male_sum_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pds_y_ss_male_sum_nt"
+            },
+            {
+                "isAbout": "items/pds_y_ss_male_mean",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pds_y_ss_male_mean"
+            },
+            {
+                "isAbout": "items/pds_y_ss_male_mean_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pds_y_ss_male_mean_nm"
+            },
+            {
+                "isAbout": "items/pds_y_ss_male_mean_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pds_y_ss_male_mean_nt"
+            },
+            {
+                "isAbout": "items/pds_y_ss_male_category",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pds_y_ss_male_category"
+            },
+            {
+                "isAbout": "items/pds_y_ss_male_cat_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pds_y_ss_male_cat_nm"
+            },
+            {
+                "isAbout": "items/pds_y_ss_male_cat_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pds_y_ss_male_cat_nt"
+            },
+            {
+                "isAbout": "items/pds_y_ss_male_category_2",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pds_y_ss_male_category_2"
+            },
+            {
+                "isAbout": "items/pds_y_ss_male_cat_2_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pds_y_ss_male_cat_2_nm"
+            },
+            {
+                "isAbout": "items/pds_y_ss_male_cat_2_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pds_y_ss_male_cat_2_nt"
+            },
+            {
+                "isAbout": "items/pds_y_ss_female_sum",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pds_y_ss_female_sum"
+            },
+            {
+                "isAbout": "items/pds_y_ss_female_sum_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pds_y_ss_female_sum_nm"
+            },
+            {
+                "isAbout": "items/pds_y_ss_female_sum_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pds_y_ss_female_sum_nt"
+            },
+            {
+                "isAbout": "items/pds_y_ss_female_mean",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pds_y_ss_female_mean"
+            },
+            {
+                "isAbout": "items/pds_y_ss_female_mean_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pds_y_ss_female_mean_nm"
+            },
+            {
+                "isAbout": "items/pds_y_ss_female_mean_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pds_y_ss_female_mean_nt"
+            },
+            {
+                "isAbout": "items/pds_y_ss_female_category",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pds_y_ss_female_category"
+            },
+            {
+                "isAbout": "items/pds_y_ss_female_cat_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pds_y_ss_female_cat_nm"
+            },
+            {
+                "isAbout": "items/pds_y_ss_female_cat_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pds_y_ss_female_cat_nt"
+            },
+            {
+                "isAbout": "items/pds_y_ss_female_category_2",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pds_y_ss_female_category_2"
+            },
+            {
+                "isAbout": "items/pds_y_ss_female_cat_2_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pds_y_ss_female_cat_2_nm"
+            },
+            {
+                "isAbout": "items/pds_y_ss_female_cat_2_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pds_y_ss_female_cat_2_nt"
+            },
+            {
+                "isAbout": "items/upps_y_ss_negative_urgency",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "upps_y_ss_negative_urgency"
+            },
+            {
+                "isAbout": "items/upps_y_ss_negative_urgency_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "upps_y_ss_negative_urgency_nm"
+            },
+            {
+                "isAbout": "items/upps_y_ss_negative_urgency_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "upps_y_ss_negative_urgency_nt"
+            },
+            {
+                "isAbout": "items/upps_y_ss_lack_of_planning",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "upps_y_ss_lack_of_planning"
+            },
+            {
+                "isAbout": "items/upps_y_ss_lack_of_planning_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "upps_y_ss_lack_of_planning_nm"
+            },
+            {
+                "isAbout": "items/upps_y_ss_lack_of_planning_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "upps_y_ss_lack_of_planning_nt"
+            },
+            {
+                "isAbout": "items/upps_y_ss_sensation_seeking",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "upps_y_ss_sensation_seeking"
+            },
+            {
+                "isAbout": "items/upps_y_ss_sensation_seeking_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "upps_y_ss_sensation_seeking_nm"
+            },
+            {
+                "isAbout": "items/upps_y_ss_sensation_seeking_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "upps_y_ss_sensation_seeking_nt"
+            },
+            {
+                "isAbout": "items/upps_y_ss_positive_urgency",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "upps_y_ss_positive_urgency"
+            },
+            {
+                "isAbout": "items/upps_y_ss_positive_urgency_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "upps_y_ss_positive_urgency_nm"
+            },
+            {
+                "isAbout": "items/upps_y_ss_positive_urgency_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "upps_y_ss_positive_urgency_nt"
+            },
+            {
+                "isAbout": "items/upps_y_ss_lack_of_perseverance",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "upps_y_ss_lack_of_perseverance"
+            },
+            {
+                "isAbout": "items/upps_y_ss_lack_of_perseverance_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "upps_y_ss_lack_of_perseverance_nm"
+            },
+            {
+                "isAbout": "items/upps_y_ss_lack_of_perseverance_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "upps_y_ss_lack_of_perseverance_nt"
+            },
+            {
+                "isAbout": "items/stq_y_ss_weekday",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "stq_y_ss_weekday"
+            },
+            {
+                "isAbout": "items/stq_y_ss_weekday_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "stq_y_ss_weekday_nm"
+            },
+            {
+                "isAbout": "items/stq_y_ss_weekday_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "stq_y_ss_weekday_nt"
+            },
+            {
+                "isAbout": "items/stq_y_ss_weekend",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "stq_y_ss_weekend"
+            },
+            {
+                "isAbout": "items/stq_y_ss_weekend_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "stq_y_ss_weekend_nm"
+            },
+            {
+                "isAbout": "items/stq_y_ss_weekend_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "stq_y_ss_weekend_nt"
+            },
+            {
+                "isAbout": "items/bis_y_ss_bis_sum",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bis_y_ss_bis_sum"
+            },
+            {
+                "isAbout": "items/bis_y_ss_bis_sum_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bis_y_ss_bis_sum_nm"
+            },
+            {
+                "isAbout": "items/bis_y_ss_bis_sum_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bis_y_ss_bis_sum_nt"
+            },
+            {
+                "isAbout": "items/bis_y_ss_bas_rr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bis_y_ss_bas_rr"
+            },
+            {
+                "isAbout": "items/bis_y_ss_bas_rr_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bis_y_ss_bas_rr_nm"
+            },
+            {
+                "isAbout": "items/bis_y_ss_bas_rr_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bis_y_ss_bas_rr_nt"
+            },
+            {
+                "isAbout": "items/bis_y_ss_bas_drive",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bis_y_ss_bas_drive"
+            },
+            {
+                "isAbout": "items/bis_y_ss_bas_drive_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bis_y_ss_bas_drive_nm"
+            },
+            {
+                "isAbout": "items/bis_y_ss_bas_drive_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bis_y_ss_bas_drive_nt"
+            },
+            {
+                "isAbout": "items/bis_y_ss_bas_fs",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bis_y_ss_bas_fs"
+            },
+            {
+                "isAbout": "items/bis_y_ss_bas_fs_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bis_y_ss_bas_fs_nm"
+            },
+            {
+                "isAbout": "items/bis_y_ss_bas_fs_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bis_y_ss_bas_fs_nt"
+            },
+            {
+                "isAbout": "items/bis_y_ss_bism_sum",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bis_y_ss_bism_sum"
+            },
+            {
+                "isAbout": "items/bis_y_ss_bism_sum_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bis_y_ss_bism_sum_nm"
+            },
+            {
+                "isAbout": "items/bis_y_ss_bism_sum_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bis_y_ss_bism_sum_nt"
+            },
+            {
+                "isAbout": "items/bis_y_ss_basm_rr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bis_y_ss_basm_rr"
+            },
+            {
+                "isAbout": "items/bis_y_ss_basm_rr_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bis_y_ss_basm_rr_nm"
+            },
+            {
+                "isAbout": "items/bis_y_ss_basm_rr_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bis_y_ss_basm_rr_nt"
+            },
+            {
+                "isAbout": "items/bis_y_ss_basm_drive",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bis_y_ss_basm_drive"
+            },
+            {
+                "isAbout": "items/bis_y_ss_basm_drive_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bis_y_ss_basm_drive_nm"
+            },
+            {
+                "isAbout": "items/bis_y_ss_basm_drive_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bis_y_ss_basm_drive_nt"
+            },
+            {
+                "isAbout": "items/delq_y_ss_sum",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "delq_y_ss_sum"
+            },
+            {
+                "isAbout": "items/delq_y_ss_sum_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "delq_y_ss_sum_nm"
+            },
+            {
+                "isAbout": "items/delq_y_ss_sum_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "delq_y_ss_sum_nt"
+            },
+            {
+                "isAbout": "items/delq_y_ss_sum_wt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "delq_y_ss_sum_wt"
+            },
+            {
+                "isAbout": "items/delq_y_ss_sum_wt_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "delq_y_ss_sum_wt_nm"
+            },
+            {
+                "isAbout": "items/delq_y_ss_sum_wt_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "delq_y_ss_sum_wt_nt"
+            },
+            {
+                "isAbout": "items/delq_2yr_ss_sum",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "delq_2yr_ss_sum"
+            },
+            {
+                "isAbout": "items/delq_ss_yr_2_sum",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "delq_ss_yr_2_sum"
+            },
+            {
+                "isAbout": "items/delq_2yr_ss_sum_nm",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "delq_2yr_ss_sum_nm"
+            },
+            {
+                "isAbout": "items/delq_ss_yr_2_sum_nm",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "delq_ss_yr_2_sum_nm"
+            },
+            {
+                "isAbout": "items/delq_2yr_ss_sum_nt",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "delq_2yr_ss_sum_nt"
+            },
+            {
+                "isAbout": "items/delq_ss_yr_2_sum_nt",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "delq_ss_yr_2_sum_nt"
+            },
+            {
+                "isAbout": "items/sup_y_ss_sum",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sup_y_ss_sum"
+            },
+            {
+                "isAbout": "items/sup_y_ss_sum_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sup_y_ss_sum_nm"
+            },
+            {
+                "isAbout": "items/sup_y_ss_sum_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sup_y_ss_sum_nt"
+            },
+            {
+                "isAbout": "items/gish_y_ss_m_sum",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "gish_y_ss_m_sum"
+            },
+            {
+                "isAbout": "items/gish_y_ss_m_sum_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "gish_y_ss_m_sum_nm"
+            },
+            {
+                "isAbout": "items/gish_y_ss_m_sum_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "gish_y_ss_m_sum_nt"
+            },
+            {
+                "isAbout": "items/gish_y_ss_f_sum",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "gish_y_ss_f_sum"
+            },
+            {
+                "isAbout": "items/gish_y_ss_f_sum_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "gish_y_ss_f_sum_nm"
+            },
+            {
+                "isAbout": "items/gish_y_ss_f_sum_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "gish_y_ss_f_sum_nt"
+            },
+            {
+                "isAbout": "items/sum_scores_mh_y_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sum_scores_mh_y_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2206",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

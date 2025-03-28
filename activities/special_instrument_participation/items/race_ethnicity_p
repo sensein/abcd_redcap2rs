@@ -1,0 +1,62 @@
+{
+    "id": "race_ethnicity_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Demographics Longitudinal Variables"
+    },
+    "prefLabel": {
+        "en": "race_ethnicity_p"
+    },
+    "question": {
+        "en": "Race Ethnicity (Parent)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "White"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Black"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Hispanic"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Asian"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,66 @@
+{
+    "id": "locator_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "locator"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/locator_contact1_id",
+            "items/locator_contact2_id",
+            "items/locator_contact3_id",
+            "items/locator_alt_contact1_id",
+            "items/locator_alt_contact2_id",
+            "items/locator_alt_contact3_id",
+            "items/locator_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/locator_contact1_id",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "locator_contact1_id"
+            },
+            {
+                "isAbout": "items/locator_contact2_id",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "locator_contact2_id"
+            },
+            {
+                "isAbout": "items/locator_contact3_id",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "locator_contact3_id"
+            },
+            {
+                "isAbout": "items/locator_alt_contact1_id",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "locator_alt_contact1_id"
+            },
+            {
+                "isAbout": "items/locator_alt_contact2_id",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "locator_alt_contact2_id"
+            },
+            {
+                "isAbout": "items/locator_alt_contact3_id",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "locator_alt_contact3_id"
+            },
+            {
+                "isAbout": "items/locator_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "locator_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2206",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

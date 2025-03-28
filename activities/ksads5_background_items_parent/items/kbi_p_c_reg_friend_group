@@ -1,0 +1,43 @@
+{
+    "id": "kbi_p_c_reg_friend_group",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "kbi_p_c_reg_friend_group"
+    },
+    "question": {
+        "en": "Does your child have a regular group of kids he or she hangs out with at school or in your neighborhood?",
+        "es": "\u00c2\u00bfSu ni\u00c3\u00b1o(a) tiene un grupo de ni\u00c3\u00b1os con quienes comparte habitualmente en la escuela o en su vecindario?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Not sure",
+                    "es": "No estoy seguro(a)"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

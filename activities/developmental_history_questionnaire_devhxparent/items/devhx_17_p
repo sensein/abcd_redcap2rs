@@ -1,0 +1,38 @@
+{
+    "id": "devhx_17_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "<span lang=\"en\">If none, enter \"0\".</span><span lang=\"es\" style=\"color:maroon;\">Si la respuesta es \"ninguno\", ingrese \"0\".</span><span lang=\"en\">If you don't know, please choose \"don't know\" in what follows below</span><span lang=\"es\" style=\"color:maroon;\">   Si no sabe, por favor escoja \"no se\" en lo que sigue abajo.</span>"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        },
+        {
+            "column": "Text Validation Min",
+            "source": "redcap",
+            "value": "0"
+        }
+    ],
+    "prefLabel": {
+        "en": "devhx_17_p"
+    },
+    "question": {
+        "en": "About how manydaysin the first 12 months of life did he/she have any infections or serious illnesses?",
+        "es": "\u00c2\u00bfAproximadamente cu\u00c3\u00a1ntosd\u00c3\u00adasde los primeros 12 meses de vida tuvo alguna infecci\u00c3\u00b3n o enfermedad seria su ni\u00c3\u00b1o(a)?"
+    },
+    "responseOptions": {
+        "minValue": 0,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

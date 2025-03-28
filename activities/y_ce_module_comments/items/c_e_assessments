@@ -1,0 +1,76 @@
+{
+    "id": "c_e_assessments",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "2"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "2"
+        }
+    ],
+    "prefLabel": {
+        "en": "c_e_assessments"
+    },
+    "question": {
+        "en": "Which assessments?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "PST_Y"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "ACC_Y"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "PMQ_Y"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "CRPB_Y"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "FES_Y"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "NSC_Y"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "SRPF_Y"
+                },
+                "value": 7
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

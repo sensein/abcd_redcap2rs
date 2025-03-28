@@ -1,0 +1,50 @@
+{
+    "id": "prodromal_4_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "4"
+        },
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "prodormal_4"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "4"
+        }
+    ],
+    "prefLabel": {
+        "en": "prodromal_4_y"
+    },
+    "question": {
+        "en": "Did you feel like you had special, unusual powers like you could make things happen by magic, or that you could magically know what was inside another person's mind, or magically know what was going to happen in the future when other people could not?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

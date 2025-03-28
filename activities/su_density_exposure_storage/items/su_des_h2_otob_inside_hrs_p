@@ -1,0 +1,38 @@
+{
+    "id": "su_des_h2_otob_inside_hrs_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Text Validation Min",
+            "source": "redcap",
+            "value": "1"
+        },
+        {
+            "column": "Text Validation Max",
+            "source": "redcap",
+            "value": "24.0"
+        }
+    ],
+    "prefLabel": {
+        "en": "su_des_h2_otob_inside_hrs_p"
+    },
+    "question": {
+        "en": "How many hours in a typical day did someone use other tobacco products inside your home while your child was home or in a vehicle your child was in?"
+    },
+    "responseOptions": {
+        "maxValue": 24,
+        "minValue": 1,
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

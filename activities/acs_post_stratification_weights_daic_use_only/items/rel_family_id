@@ -1,0 +1,32 @@
+{
+    "id": "rel_family_id",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "rel_family_id"
+    },
+    "question": {
+        "en": "Family ID (participants belonging to the same family share a family ID). The family ID is autocalculated and will change after the addition/removal of subjects from the ABCD study. Family IDs will, therefore, differ between Data Releases."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

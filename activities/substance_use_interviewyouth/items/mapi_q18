@@ -1,0 +1,68 @@
+{
+    "id": "mapi_q18",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "18"
+        },
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "mapi_section3_2488b6"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "18"
+        }
+    ],
+    "prefLabel": {
+        "en": "mapi_q18"
+    },
+    "question": {
+        "en": "Were told by a friend or neighbor to stop or cut down smoking."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1-2"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "3-5"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "6-10"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "10+"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

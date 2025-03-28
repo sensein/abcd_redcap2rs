@@ -1,0 +1,94 @@
+{
+    "id": "acculturationmodified_phenx_actparent_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "acculturationmodified_phenx_actparent"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/accult_start_time_p",
+            "items/accult_select_language",
+            "items/accult_p_intro",
+            "items/accult_q1_p",
+            "items/accult_q2_p",
+            "items/accult_q3_dropdwn_p",
+            "items/accult_q3_other_p",
+            "items/accult_q3b_p",
+            "items/accult_q4_p",
+            "items/accult_q5_p",
+            "items/acculturationmodified_phenx_actparent_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/accult_start_time_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "accult_start_time_p"
+            },
+            {
+                "isAbout": "items/accult_select_language",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "accult_select_language"
+            },
+            {
+                "isAbout": "items/accult_p_intro",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "accult_p_intro"
+            },
+            {
+                "isAbout": "items/accult_q1_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "accult_q1_p"
+            },
+            {
+                "isAbout": "items/accult_q2_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "accult_q2_p"
+            },
+            {
+                "isAbout": "items/accult_q3_dropdwn_p",
+                "isVis": "accult_q2_p =='1'",
+                "valueRequired": true,
+                "variableName": "accult_q3_dropdwn_p"
+            },
+            {
+                "isAbout": "items/accult_q3_other_p",
+                "isVis": "accult_q3_dropdwn_p == '57'",
+                "valueRequired": true,
+                "variableName": "accult_q3_other_p"
+            },
+            {
+                "isAbout": "items/accult_q3b_p",
+                "isVis": "accult_q2_p == '1' && event_name_number <> '11'",
+                "valueRequired": true,
+                "variableName": "accult_q3b_p"
+            },
+            {
+                "isAbout": "items/accult_q4_p",
+                "isVis": "accult_q2_p =='1'",
+                "valueRequired": false,
+                "variableName": "accult_q4_p"
+            },
+            {
+                "isAbout": "items/accult_q5_p",
+                "isVis": "accult_q2_p =='1'",
+                "valueRequired": false,
+                "variableName": "accult_q5_p"
+            },
+            {
+                "isAbout": "items/acculturationmodified_phenx_actparent_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "acculturationmodified_phenx_actparent_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2206",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

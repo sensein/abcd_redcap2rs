@@ -1,0 +1,43 @@
+{
+    "id": "fitpo_enjoy",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20181006"
+        }
+    ],
+    "preamble": {
+        "en": "Here are some questions about how wearing a Fitbit was for you."
+    },
+    "prefLabel": {
+        "en": "fitpo_enjoy"
+    },
+    "question": {
+        "en": "Did you enjoy using the Fitbit?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

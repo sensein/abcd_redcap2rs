@@ -1,0 +1,176 @@
+{
+    "id": "baseline_visits_schema",
+    "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "sum(60 * sum(basline_time,baseline_d2_hrs,baseline_d3_hrs,baseline_d4_hrs),sum(baseline_time_min,baseline_d2_min,baseline_d3_min,baseline_d4_min))",
+            "variableName": "base_line_min_total"
+        }
+    ],
+    "prefLabel": {
+        "en": "baseline_visits"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/base_screenout",
+            "items/base_out_reason",
+            "items/base_rescreen",
+            "items/base_other_reason",
+            "items/withdraw_letter_yn",
+            "items/withdraw_consent_yn_bl",
+            "items/withdraw_consent_letter_bl",
+            "items/exclude_withdrawal_dte",
+            "items/basline_time",
+            "items/baseline_time_min",
+            "items/baseline_d2_hrs",
+            "items/baseline_d2_min",
+            "items/baseline_d3_hrs",
+            "items/baseline_d3_min",
+            "items/baseline_d4_hrs",
+            "items/baseline_d4_min",
+            "items/baseline_enddate",
+            "items/base_in_events",
+            "items/active_withdrawn",
+            "items/baseline_complete",
+            "items/baseline_visits_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/base_screenout",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "base_screenout"
+            },
+            {
+                "isAbout": "items/base_out_reason",
+                "isVis": "base_screenout == '1'",
+                "valueRequired": true,
+                "variableName": "base_out_reason"
+            },
+            {
+                "isAbout": "items/base_rescreen",
+                "isVis": "base_out_reason == '3' || base_out_reason == '1' || base_out_reason == '2' || base_out_reason == '5'",
+                "valueRequired": true,
+                "variableName": "base_rescreen"
+            },
+            {
+                "isAbout": "items/base_other_reason",
+                "isVis": "base_out_reason == '3' || base_out_reason == '4' || base_out_reason == '1' || base_out_reason == '2' || base_out_reason == '5' || base_out_reason == '6' || base_out_reason == '7'",
+                "valueRequired": true,
+                "variableName": "base_other_reason"
+            },
+            {
+                "isAbout": "items/withdraw_letter_yn",
+                "isVis": "base_out_reason == '4'",
+                "valueRequired": true,
+                "variableName": "withdraw_letter_yn"
+            },
+            {
+                "isAbout": "items/withdraw_consent_yn_bl",
+                "isVis": "base_screenout == '1'",
+                "valueRequired": true,
+                "variableName": "withdraw_consent_yn_bl"
+            },
+            {
+                "isAbout": "items/withdraw_consent_letter_bl",
+                "isVis": "withdraw_consent_yn_bl == '1'",
+                "valueRequired": true,
+                "variableName": "withdraw_consent_letter_bl"
+            },
+            {
+                "isAbout": "items/exclude_withdrawal_dte",
+                "isVis": "base_out_reason == '3' || base_out_reason == '4' || base_out_reason == '1' || base_out_reason == '2' || base_out_reason == '5' || base_out_reason == '6' || base_out_reason == '7'",
+                "valueRequired": true,
+                "variableName": "exclude_withdrawal_dte"
+            },
+            {
+                "isAbout": "items/basline_time",
+                "isVis": "(base_screenout == '0' || base_out_reason == '4')&& baseline_visits_num >= '1'",
+                "valueRequired": true,
+                "variableName": "basline_time"
+            },
+            {
+                "isAbout": "items/baseline_time_min",
+                "isVis": "(base_screenout == '0' || base_out_reason == '4')&& baseline_visits_num >= '1'",
+                "valueRequired": true,
+                "variableName": "baseline_time_min"
+            },
+            {
+                "isAbout": "items/baseline_d2_hrs",
+                "isVis": "(base_screenout == '0' || base_out_reason == '4')&& baseline_visits_num >= '2'",
+                "valueRequired": true,
+                "variableName": "baseline_d2_hrs"
+            },
+            {
+                "isAbout": "items/baseline_d2_min",
+                "isVis": "(base_screenout == '0' || base_out_reason == '4')&& baseline_visits_num >= '2'",
+                "valueRequired": true,
+                "variableName": "baseline_d2_min"
+            },
+            {
+                "isAbout": "items/baseline_d3_hrs",
+                "isVis": "(base_screenout == '0' || base_out_reason == '4')&& baseline_visits_num >= '3'",
+                "valueRequired": true,
+                "variableName": "baseline_d3_hrs"
+            },
+            {
+                "isAbout": "items/baseline_d3_min",
+                "isVis": "(base_screenout == '0' || base_out_reason == '4')&& baseline_visits_num >= '3'",
+                "valueRequired": true,
+                "variableName": "baseline_d3_min"
+            },
+            {
+                "isAbout": "items/baseline_d4_hrs",
+                "isVis": "(base_screenout == '0' || base_out_reason == '4')&& baseline_visits_num >= '4'",
+                "valueRequired": true,
+                "variableName": "baseline_d4_hrs"
+            },
+            {
+                "isAbout": "items/baseline_d4_min",
+                "isVis": "(base_screenout == '0' || base_out_reason == '4')&& baseline_visits_num >= '4'",
+                "valueRequired": true,
+                "variableName": "baseline_d4_min"
+            },
+            {
+                "isAbout": "items/base_line_min_total",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "base_line_min_total"
+            },
+            {
+                "isAbout": "items/baseline_enddate",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "baseline_enddate"
+            },
+            {
+                "isAbout": "items/base_in_events",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "base_in_events"
+            },
+            {
+                "isAbout": "items/active_withdrawn",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "active_withdrawn"
+            },
+            {
+                "isAbout": "items/baseline_complete",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "baseline_complete"
+            },
+            {
+                "isAbout": "items/baseline_visits_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "baseline_visits_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2206",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,76 @@
+{
+    "id": "screentime_device_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "<span lang=\"en\">(CHECK ALL THAT APPLY)</span><span lang=\"es\" style=\"color:maroon;\">(MARQUE TODAS LAS QUE CORRESPONDAN)</span>"
+        }
+    ],
+    "preamble": {
+        "en": "On a typical WEEKEND DAY (Saturday-Sunday), how much TIME per day does your child spend in TOTAL on a computer, cellphone, tablet, iPod, or other electronic device?",
+        "es": "Favor NO incluya el tiempo que pasa haciendo trabajos relacionados con la escuela, pero s\u00c3\u00ad incluya el tiempo que pasa viendo televisi\u00c3\u00b3n, programas o videos, enviando mensajes de texto o chateando, jugando videojuegos o visitando sitios de redes sociales (Facebook, Twitter, Instagram)."
+    },
+    "prefLabel": {
+        "en": "screentime_device_p"
+    },
+    "question": {
+        "en": "Does your child have their own device?",
+        "es": "\u00c2\u00bfTiene su hijo/a su propio dispositivo?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Cell phone",
+                    "es": "Tel\u00c3\u00a9fono celular"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Tablet",
+                    "es": "Tableta"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Laptop",
+                    "es": "Computadora port\u00c3\u00a1til"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "iPod or similar device",
+                    "es": "iPod o un dispositivo similar"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Smart Watch",
+                    "es": "Reloj inteligente"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "None of the above",
+                    "es": "Ninguno de los anteriores"
+                },
+                "value": 0
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

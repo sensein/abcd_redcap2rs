@@ -1,0 +1,35 @@
+{
+    "id": "bis_y_ss_bism_sum",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "BIS / BAS"
+    },
+    "prefLabel": {
+        "en": "bis_y_ss_bism_sum"
+    },
+    "question": {
+        "en": "BIS/BAS: BIS Sum (modified)\nbisbas2_y + bisbas3_y + bisbas4_y + bisbas6_y\nValidation: All items must be answered"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

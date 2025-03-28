@@ -1,0 +1,68 @@
+{
+    "id": "macv_q26",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "15"
+        },
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "mex_american_youth_q25_q28"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "15"
+        }
+    ],
+    "prefLabel": {
+        "en": "macv_q26"
+    },
+    "question": {
+        "en": "It is important for family members to show their love and affection to one another."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at All"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A Little"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Somewhat"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Very Much"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Completely"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

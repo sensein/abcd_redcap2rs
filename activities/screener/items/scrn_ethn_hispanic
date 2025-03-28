@@ -1,0 +1,46 @@
+{
+    "id": "scrn_ethn_hispanic",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "scrn_ethn_hispanic"
+    },
+    "question": {
+        "en": "\"Do you consider your child to be Spanish/Hispanic/Latino?\"",
+        "es": "\"\u00c2\u00bfConsidera que su ni\u00c3\u00b1o(a) es Espa\u00c3\u00b1ol/Hispano/Latino?\""
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Hispanic/Latino"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Not Hispanic/Latino"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

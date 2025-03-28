@@ -1,0 +1,51 @@
+{
+    "id": "baseline_d4_hrs",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "Enter HOURS here"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        },
+        {
+            "column": "Text Validation Min",
+            "source": "redcap",
+            "value": "1"
+        },
+        {
+            "column": "Text Validation Max",
+            "source": "redcap",
+            "value": "15.0"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20161001"
+        }
+    ],
+    "preamble": {
+        "en": "TOTAL TIME across however many sessions were needed:(Include imaging, breaks, and all other components - \r\ndo not include phone screening and scheduling.)"
+    },
+    "prefLabel": {
+        "en": "baseline_d4_hrs"
+    },
+    "question": {
+        "en": "Visit #4 (HOURS):"
+    },
+    "responseOptions": {
+        "maxValue": 15,
+        "minValue": 1,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

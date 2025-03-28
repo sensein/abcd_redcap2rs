@@ -1,0 +1,73 @@
+{
+    "id": "pds_2_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "3"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "3"
+        }
+    ],
+    "preamble": {
+        "en": "The next questions are about changes that may be happening to your child's body. These changes normally happen to different young people at different ages. Since they may have something to do with your child's brain image results, do your best to answer carefully.",
+        "es": "Las siguientes preguntas son acerca de los cambios que pueden estar ocurriendo en el cuerpo de su ni\u00c3\u00b1o(a). Estos cambios normalmente suelen ocurrirles a personas j\u00c3\u00b3venes a diferentes edades. Debido a que estos cambios podr\u00c3\u00adan tener algo que ver con los resultados del estudio de im\u00c3\u00a1genes del cerebro de su ni\u00c3\u00b1o(a), le pedimos que haga su mejor esfuerzo para responderlas cuidadosamente."
+    },
+    "prefLabel": {
+        "en": "pds_2_p"
+    },
+    "question": {
+        "en": "And how about the growth of your child's body hair (\"body hair\" means hair any place other than their head, such as under their arms)? Would you say that your child's body hair growth:",
+        "es": "\u00c2\u00bfY qu\u00c3\u00a9 dir\u00c3\u00ada del crecimiento del vello corporal de su ni\u00c3\u00b1o(a) (\"vello corporal\" se refiere al vello que crece en cualquier parte del cuerpo que no sea el pelo de la cabeza, como en las axilas)?\u00c2\u00bfDir\u00c3\u00ada usted que el vello corporal de su ni\u00c3\u00b1o(a)...?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "has not yet begun to grow",
+                    "es": "A\u00c3\u00ban no le ha empezado a salir."
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "has barely started to grow",
+                    "es": "Apenas le est\u00c3\u00a1 empezando a salir."
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "is definitely underway",
+                    "es": "Definitivamente ya le est\u00c3\u00a1 saliendo."
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "seems complete",
+                    "es": "Parece haber terminado de salir."
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "I don't know",
+                    "es": "No s\u00c3\u00a9"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,71 @@
+{
+    "id": "fu_6mo_5_17",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "17"
+        },
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "description"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "17"
+        }
+    ],
+    "preamble": {
+        "en": "Next is a list of items that describe kids. Please rate each item that describes younoworwithin the past 7 days. After I read each item, please tell me if this is not true(pause), somewhat true(pause), or very true. \n\nIn the past 7 days...(read the first item).Okay, now tell me if this is not true of you(pause), somewhat true of you(pause), or very true of you.(Read items 2-19. You do not need to provide coding options after each item if the child responds appropriately.)"
+    },
+    "prefLabel": {
+        "en": "fu_6mo_5_17"
+    },
+    "question": {
+        "en": "I threaten to hurt people."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not True"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Somewhat True"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Very True"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer"
+                },
+                "value": 777
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,93 @@
+{
+    "id": "isip_3_l",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "4"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "4"
+        }
+    ],
+    "prefLabel": {
+        "en": "isip_3_l"
+    },
+    "question": {
+        "en": "What type of alcohol was your first sip of an alcoholic beverage?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Beer"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Wine coolers/Beer substitutes (this includes Smirnoff Ice, Bacardi Silver, Hard Cider, Hard Lemonade [Mike's, Doc Otis])"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Shots of hard alcohol or drinking liquor out of a bottle (this includes rum, vodka, gin, tequila, whiskey)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Mixed drinks (for example: liquor mixed with soda or juice)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Malt liquor (this includes Colt 45, St. Ides, Mickey's, Steel Reserve, King Cobra, Olde English 800)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Wine/champagne"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Fortified wine (this includes Mad Dog 20/20, Night Train, Thunderbird, Wild Irish Rose)"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Liqueurs/Cordials (this includes Bailey's, Kahlua, Peachtree, Schnapps, Goldschlager, Godiva)"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "I don't know"
+                },
+                "value": 10
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

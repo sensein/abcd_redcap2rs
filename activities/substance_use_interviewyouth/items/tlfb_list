@@ -1,0 +1,112 @@
+{
+    "id": "tlfb_list",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "8b"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "8b"
+        }
+    ],
+    "prefLabel": {
+        "en": "tlfb_list"
+    },
+    "question": {
+        "en": "What other drugs have you heard of?Interviewer: Donotread this list to the child. Only click the drugs that they mention."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Stimulant drugs such as cocaine, crack cocaine"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Cathinones such as Bath salts, drone, M-cat, MDVP or meph"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Methamphetamine, meth or crystal meth"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Ecstasy, molly or MDMA"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Ketamine or special K"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "The depressant drug GHB, liquid G or Georgia home boy"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Heroin, opium, junk, smack, or dope"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Hallucinogen drugs that cause people to see or experience things that are not real, such as LSD or acid, PCP or angel dust, peyote, mescaline, psilocybin, DMT, AMT, Foxy"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Hallucinogen drug: magic mushrooms or shrooms"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Hallucinogen drug: salvia"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Steroids such as arnolds, pumpers, or roids"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "None"
+                },
+                "value": 18
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

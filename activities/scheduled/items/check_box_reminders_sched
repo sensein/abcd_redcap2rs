@@ -1,0 +1,28 @@
+{
+    "id": "check_box_reminders_sched",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "check_box_reminders_sched"
+    },
+    "question": {
+        "en": "Please check yes if you would like to display reminders for the 2 year follow-up visit"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "yes"
+                },
+                "value": 1
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

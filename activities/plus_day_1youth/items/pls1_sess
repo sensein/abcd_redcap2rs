@@ -1,0 +1,51 @@
+{
+    "id": "pls1_sess",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pls1_sess"
+    },
+    "question": {
+        "en": "PLUS DAY 1: {Administrator: have participant completeright before the finalNP or MRI session} \r\n\r\n\r\n\r\nWhich session was this given at?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "NP Session 1"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "NP Session 2"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "MRI Session 1"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "MRI Session 2"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

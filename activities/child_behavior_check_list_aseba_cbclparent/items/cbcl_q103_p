@@ -1,0 +1,64 @@
+{
+    "id": "cbcl_q103_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "103"
+        },
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "cbcl_section16"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "103"
+        }
+    ],
+    "preamble": {
+        "en": "Below is a list of items that describe children and youths. For each item that describes your child now or within thepast 6 months, please choose whether the item isvery true or often trueof your child,somewhat or sometimes trueof your child, ornot trueof your child. Please answer all items as well as you can, even if some do not seem to apply to your child.",
+        "es": "A continuaci\u00c3\u00b3n hay una lista de frases que describen a los(las) ni\u00c3\u00b1os(as) y j\u00c3\u00b3venes. Para cada frase que describa c\u00c3\u00b3mo es su hijo(a) ahora o durante los\u00c3\u00baltimos seis mesespor favor determine si la frase describe a su hijo(a) muy cierto o cierto con frecuencia, si la frase describe a su hijo(a) en cierta manera/algunas veces, o si la frase no es cierto (que sepa usted). Por favor conteste todas las frases de la mejor manera posible inclusive si algunas de ellas parecen no describir a su hijo(a)."
+    },
+    "prefLabel": {
+        "en": "cbcl_q103_p"
+    },
+    "question": {
+        "en": "Unhappy, sad, or depressed",
+        "es": "Infeliz, triste, o deprimido(a)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not True",
+                    "es": "No es cierto (que sepa usted)"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Somewhat/Sometimes True",
+                    "es": "En cierta manera, algunas veces"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Very True/Often True",
+                    "es": "Muy cierto o cierto con frecuencia"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,48 @@
+{
+    "id": "first_mj_3",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "3"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "3"
+        }
+    ],
+    "preamble": {
+        "en": "You mentioned earlier that you have had a puff of marijuana, weed or pot in the past. I want to ask some more questions about that. Remember your responses are confidential - we will not share your answers with anyone.\n\nWhen answering these questions, include any experiences you have had with marijuana, including smoking joints, blunts, bongs, or eating marijuana food, or smoking concentrates like dabs or hash."
+    },
+    "prefLabel": {
+        "en": "first_mj_3"
+    },
+    "question": {
+        "en": "Did you continue to use marijuana after the first puff or taste?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

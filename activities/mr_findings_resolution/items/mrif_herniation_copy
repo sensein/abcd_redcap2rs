@@ -1,0 +1,30 @@
+{
+    "id": "mrif_herniation_copy",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Interpretation of reported scores:\r\n\r\n0 Image artifacts prevent radiology read\r\n1 No abnormal findings\r\n2 Normal anatomical variant of no clinical significance\r\n3 Consider clinical referral\r\n4 Consider immediate clinical referral"
+    },
+    "prefLabel": {
+        "en": "mrif_herniation_copy"
+    },
+    "question": {
+        "en": "Herniation (copy)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

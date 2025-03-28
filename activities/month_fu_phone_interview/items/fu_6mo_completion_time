@@ -1,0 +1,26 @@
+{
+    "id": "fu_6mo_completion_time",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "datetime_mdy"
+        }
+    ],
+    "prefLabel": {
+        "en": "fu_6mo_completion_time"
+    },
+    "question": {
+        "en": "6-month follow-up completion date and time:"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:dateTime"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

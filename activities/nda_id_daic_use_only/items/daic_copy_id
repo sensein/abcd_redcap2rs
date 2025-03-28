@@ -1,0 +1,39 @@
+{
+    "id": "daic_copy_id",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "abcd_id"
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "abcd_id"
+        }
+    ],
+    "preamble": {
+        "en": "Twins and Non Twin Siblings: Copy values from another participant"
+    },
+    "prefLabel": {
+        "en": "daic_copy_id"
+    },
+    "question": {
+        "en": "Enter twin/sibling participant ID"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

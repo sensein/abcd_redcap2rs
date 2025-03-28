@@ -1,0 +1,55 @@
+{
+    "id": "psra_b6",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "LIBRv1.0"
+        }
+    ],
+    "preamble": {
+        "en": "Day 1"
+    },
+    "prefLabel": {
+        "en": "psra_b6"
+    },
+    "question": {
+        "en": "B6. Remains in seat appropriately during test"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Does not climb, open closets, grab objects (occasional adjustment in body position is appropriate)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Gets out of seat once (including sliding off chair), returns to seat when prompted."
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Needs multiple reminders to return to seat, sit up but listens and responds to prompts"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Out of seat frequently or difficult to manage (e.g. runs around room, climbs on furniture)"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

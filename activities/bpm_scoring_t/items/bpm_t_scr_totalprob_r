@@ -1,0 +1,22 @@
+{
+    "id": "bpm_t_scr_totalprob_r",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "BPM_T Total Scale"
+    },
+    "prefLabel": {
+        "en": "bpm_t_scr_totalprob_r"
+    },
+    "question": {
+        "en": "Raw Score:\r\nbpmt_q1 + bpmt_q2 + bpmt_q3 + bpmt_q4 +\r\nbpmt_q5 + bpmt_q6 + bpmt_q7 + bpmt_q8 +\r\nbpmt_q9 + bpmt_q10 + bpmt_q11 + bpmt_q12 +\r\nbpmt_q13 + bpmt_q14 + bpmt_q15 + bpmt_q16 +\r\nbpmt_q17 + bpmt_q18\r\nValidation: All items must be answered"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

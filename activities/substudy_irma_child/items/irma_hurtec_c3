@@ -1,0 +1,61 @@
+{
+    "id": "irma_hurtec_c3",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "hurtec_c1"
+        }
+    ],
+    "preamble": {
+        "en": "Current Functioning",
+        "es": "Funcionamiento actual"
+    },
+    "prefLabel": {
+        "en": "irma_hurtec_c3"
+    },
+    "question": {
+        "en": "Keep you from enjoying or doing things with yourfamily?",
+        "es": "\u00c2\u00bfEvita que disfrute o haga cosas con tufamilia?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all",
+                    "es": "De ningun modo"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "A little",
+                    "es": "Un poco"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A lot",
+                    "es": "Mucho"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A whole lot",
+                    "es": "Muchisimo"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,80 @@
+{
+    "id": "acs_post_stratification_weights_daic_use_only_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "acs_post_stratification_weights_daic_use_only"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/site_id",
+            "items/race_ethnicity",
+            "items/rel_family_id",
+            "items/rel_group_id",
+            "items/rel_ingroup_order",
+            "items/rel_relationship",
+            "items/rel_same_sex",
+            "items/acs_raked_propensity_score",
+            "items/acs_post_stratification_weights_daic_use_only_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/site_id",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "site_id"
+            },
+            {
+                "isAbout": "items/race_ethnicity",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "race_ethnicity"
+            },
+            {
+                "isAbout": "items/rel_family_id",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rel_family_id"
+            },
+            {
+                "isAbout": "items/rel_group_id",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rel_group_id"
+            },
+            {
+                "isAbout": "items/rel_ingroup_order",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rel_ingroup_order"
+            },
+            {
+                "isAbout": "items/rel_relationship",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rel_relationship"
+            },
+            {
+                "isAbout": "items/rel_same_sex",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rel_same_sex"
+            },
+            {
+                "isAbout": "items/acs_raked_propensity_score",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "acs_raked_propensity_score"
+            },
+            {
+                "isAbout": "items/acs_post_stratification_weights_daic_use_only_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "acs_post_stratification_weights_daic_use_only_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2206",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

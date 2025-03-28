@@ -1,0 +1,74 @@
+{
+    "id": "mex_american16_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "16"
+        },
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "mex_american_q11_q15_d7e13f_6bfc62"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "16"
+        }
+    ],
+    "prefLabel": {
+        "en": "mex_american16_p"
+    },
+    "question": {
+        "en": "It is important to have close relationships with aunts/uncles, grandparents, and cousins.",
+        "es": "Es importante mantener relaciones cercanas con t\u00c3\u00ados, abuelos y primos."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at All",
+                    "es": "Nada"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A Little",
+                    "es": "Poquito"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Somewhat",
+                    "es": "Algo"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Very Much",
+                    "es": "Bastante"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Completely",
+                    "es": "Completamente"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

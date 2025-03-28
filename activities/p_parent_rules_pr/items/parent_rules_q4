@@ -1,0 +1,80 @@
+{
+    "id": "parent_rules_q4",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "2"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "2"
+        }
+    ],
+    "preamble": {
+        "en": "The next questions are about your household rules about alcohol and drugs.",
+        "es": "Las siguientes preguntas son acerca de las reglas de su hogar con respecto al consumo de alcohol y drogas."
+    },
+    "prefLabel": {
+        "en": "parent_rules_q4"
+    },
+    "question": {
+        "en": "What are the family rules about smoking cigarettes for your son/daughter?",
+        "es": "\u00c2\u00bfCu\u00c3\u00a1les son las reglas familiares que debe seguir su ni\u00c3\u00b1o(a) con respecto a fumar cigarrillos?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not allowed to smoke under any circumstances",
+                    "es": "No tiene permitido fumar bajo ninguna circunstancia"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Not allowed to smoke in home - no family rules outside home",
+                    "es": "No tiene permitido fumar en casa; no hay reglas familiares con respecto a fumar fuera de la casa"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Allowed to smoke in designated areas at home",
+                    "es": "Tiene permitido fumar en \u00c3\u00a1reas designadas de la casa"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Allowed to smoke anywhere",
+                    "es": "Tiene permitido fumar donde sea"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "I don't set rules about smoking cigarettes",
+                    "es": "No le pongo reglas con respecto a fumar cigarrillos"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "I haven't made rules yet about my child smoking cigarettes",
+                    "es": "Todav\u00c3\u00ada no le he puesto reglas a mi ni\u00c3\u00b1o(a) con respecto a fumar cigarrillos"
+                },
+                "value": 6
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,42 @@
+{
+    "id": "tlfb_6mo_4_ecig",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "E-Cigarette Follow-up Questions:"
+    },
+    "prefLabel": {
+        "en": "tlfb_6mo_4_ecig"
+    },
+    "question": {
+        "en": "In the past six months, did you typically use a closed (one you throw away) or a re-chargeable (one with a battery) e-cigarette?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Disposable (throw-away)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Re-chargeable"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

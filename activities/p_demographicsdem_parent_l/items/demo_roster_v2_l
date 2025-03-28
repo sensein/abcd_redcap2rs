@@ -1,0 +1,47 @@
+{
+    "id": "demo_roster_v2_l",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "<span lang=\"en\"><b> Number of people</span><span lang=\"es\" style= \"color:maroon\">N\u00c3\u00bamero de personas</span>"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        },
+        {
+            "column": "Text Validation Max",
+            "source": "redcap",
+            "value": "20.0"
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "LV"
+        }
+    ],
+    "preamble": {
+        "en": "How many people are living at your address?",
+        "es": "Cu\u00c3\u00a1ntas personas est\u00c3\u00a1n viviendo o qued\u00c3\u00a1ndose en su domicilio?"
+    },
+    "prefLabel": {
+        "en": "demo_roster_v2_l"
+    },
+    "question": {
+        "en": "INCLUDE everyone who is living or staying at your address for more than 2 months. INCLUDE yourself if you have lived at your address for more than 2 months. INCLUDE anyone else staying at your address who does not have another place to stay, even if they are at your address for 2 months or less. DO NOT INCLUDE anyone who is living somewhere else for more than 2 months, such as a college student living away or someone in the Armed Forces on deployment.",
+        "es": "INCLUYA a todas las personas que lleven viviendo o qued\u00c3\u00a1ndose en su domicilio durante m\u00c3\u00a1s de 2 meses. INCL\u00c3\u009aYASE si ha vivido en su domicilio durante m\u00c3\u00a1s de 2 meses. INCLUYA a cualquier otra persona que se est\u00c3\u00a9 quedando en su domicilio porque no tiene otro lugar d\u00c3\u00b3nde quedarse, incluso si lleva all\u00c3\u00ad 2 meses o menos. NO INCLUYA a ninguna persona que lleve m\u00c3\u00a1s de 2 meses viviendo en otro lugar, como un estudiante universitario que viva lejos de casa o alguien que sea miembro de las fuerzas armadas a quien hayan desplegado a una misi\u00c3\u00b3n."
+    },
+    "responseOptions": {
+        "maxValue": 20,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

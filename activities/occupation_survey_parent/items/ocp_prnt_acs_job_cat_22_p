@@ -1,0 +1,43 @@
+{
+    "id": "ocp_prnt_acs_job_cat_22_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "\u00e2\u0080\u00a2 If you had no job or business last week, give information for your last job or business.",
+        "es": "\u00e2\u0080\u00a2 Si no tuvo trabajo o negocio la semana pasada, provea informaci\u00c3\u00b3n acerca de su \u00c3\u00baltimo trabajo o negocio."
+    },
+    "prefLabel": {
+        "en": "ocp_prnt_acs_job_cat_22_p"
+    },
+    "question": {
+        "en": "Please specify the Military Specific Occupations Job Title:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Military Officer Special and Tactical Operations Leaders"
+                },
+                "value": 55100
+            },
+            {
+                "name": {
+                    "en": "First-Line Enlisted Military Supervisors"
+                },
+                "value": 55200
+            },
+            {
+                "name": {
+                    "en": "Military Enlisted Tactical Operations and Air/Weapons Specialists and Crew Members"
+                },
+                "value": 55300
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

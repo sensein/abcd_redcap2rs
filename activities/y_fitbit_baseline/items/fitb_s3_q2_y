@@ -1,0 +1,36 @@
+{
+    "id": "fitb_s3_q2_y",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Perceptions of Sleep"
+    },
+    "prefLabel": {
+        "en": "fitb_s3_q2_y"
+    },
+    "question": {
+        "en": "In your opinion, do you think the amount of sleep you do is healthy?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

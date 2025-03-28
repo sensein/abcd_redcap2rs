@@ -1,0 +1,71 @@
+{
+    "id": "hangover11_d54fe9",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "11"
+        },
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "hangover"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "11"
+        }
+    ],
+    "preamble": {
+        "en": "In thepast 6 months, what percentage of drinking occasions were followed the next morning by..."
+    },
+    "prefLabel": {
+        "en": "hangover11_d54fe9"
+    },
+    "question": {
+        "en": "Was anxious"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "(0%)Never"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "(25%)Occasionally"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "(50%)About half the time"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "(75%)Most of the time"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "(100%)Every time"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

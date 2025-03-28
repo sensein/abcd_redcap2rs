@@ -1,0 +1,39 @@
+{
+    "id": "abcl_q126_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        },
+        {
+            "column": "Text Validation Min",
+            "source": "redcap",
+            "value": "0"
+        },
+        {
+            "column": "Text Validation Max",
+            "source": "redcap",
+            "value": "182.0"
+        }
+    ],
+    "prefLabel": {
+        "en": "abcl_q126_p"
+    },
+    "question": {
+        "en": "In the past 6 months, on how many days did he/she\ruse drugs for nonmedical purposes (including\rmarijuana, cocaine, and other drugs, except alcohol\rand nicotine)? ________ days.",
+        "es": "En los \u00c3\u00baltimos 6 meses, \u00c2\u00bfcu\u00c3\u00a1ntos d\u00c3\u00adas \u00c3\u00a9l/ella consumi\u00c3\u00b3 drogas sin raz\u00c3\u00b3n m\u00c3\u00a9dica (incluyendo marihuana, coca\u00c3\u00adna, y otras drogas, sin incluir alcohol o tabaco)? _____________d\u00c3\u00adas."
+    },
+    "responseOptions": {
+        "maxValue": 182,
+        "minValue": 0,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

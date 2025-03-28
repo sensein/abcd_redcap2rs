@@ -1,0 +1,54 @@
+{
+    "id": "su_crpf_avail_2",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "These questions ask about the neighborhood and community where you live"
+    },
+    "prefLabel": {
+        "en": "su_crpf_avail_2"
+    },
+    "question": {
+        "en": "If you wanted to get somecigarettes, how easy would it be for you to get some?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Very Hard"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Sort of hard"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Sort of easy"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Very easy"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

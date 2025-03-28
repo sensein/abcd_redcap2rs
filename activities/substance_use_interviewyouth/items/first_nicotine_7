@@ -1,0 +1,54 @@
+{
+    "id": "first_nicotine_7",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "7"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "7"
+        }
+    ],
+    "preamble": {
+        "en": "You mentioned earlier that you have tried a tobacco product in the past. I want to ask some more questions about that. Remember your responses are confidential - we will not share your answers with anyone.\n\nWhen answering these questions, pleasedo notinclude cigarettes or other tobacco products (e.g., hookah, e-cigarettes) you had as part of a religious ceremony.\n\nPleasedoinclude any other experiences you have had with cigarettes or tobacco including puffs or dips you may have had with your parents."
+    },
+    "prefLabel": {
+        "en": "first_nicotine_7"
+    },
+    "question": {
+        "en": "Was your cigarette/e-cigarette product flavored with?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Menthol or mint"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Other flavoring"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "No flavoring"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

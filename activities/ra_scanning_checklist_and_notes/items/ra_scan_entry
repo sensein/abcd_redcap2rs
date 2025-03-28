@@ -1,0 +1,29 @@
+{
+    "id": "ra_scan_entry",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION"
+        }
+    ],
+    "preamble": {
+        "en": "Scanning Checklist"
+    },
+    "prefLabel": {
+        "en": "ra_scan_entry"
+    },
+    "question": {
+        "en": "Enter initials of person who entered data in this checklist."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

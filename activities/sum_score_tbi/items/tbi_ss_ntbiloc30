@@ -1,0 +1,37 @@
+{
+    "id": "tbi_ss_ntbiloc30",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "tbi_ss_ntbiloc30"
+    },
+    "question": {
+        "en": "Number of TBI-LOC >= 30 (numberof TBIs with loss of conscioiusness >= 30 minutes)\r\n=SUM(AND([tbi_1]=1,[tbi_1b]>1),AND([tbi_2]=1,[tbi_2b]>1)AND(tbi_3]=1,[tbi_3b]>1),AND([tbi_4]=1,[tbi_4b]>1),AND([tbi_5]=1,[tbi_5b]>1),[tbi_6r],AND([tbi_7a]=1,[7c1]>1))\r\nValidation: No minimum"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,48 @@
+{
+    "id": "tlfb_6mo_tincture_type_l",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "ANY Type of MJ Follow-up Questions"
+    },
+    "prefLabel": {
+        "en": "tlfb_6mo_tincture_type_l"
+    },
+    "question": {
+        "en": "Was your marijuana tincture made with:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Only THC"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Only cannabidiol (CBD)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Both THC and CBD"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "I don't know"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

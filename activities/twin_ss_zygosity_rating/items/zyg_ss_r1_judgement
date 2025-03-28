@@ -1,0 +1,49 @@
+{
+    "id": "zyg_ss_r1_judgement",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "ZYGOSITY JUDGEMENT:"
+    },
+    "prefLabel": {
+        "en": "zyg_ss_r1_judgement"
+    },
+    "question": {
+        "en": "Rating:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "DZ"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "MZ"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

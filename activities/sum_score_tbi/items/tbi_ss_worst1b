@@ -1,0 +1,37 @@
+{
+    "id": "tbi_ss_worst1b",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "tbi_ss_worst1b"
+    },
+    "question": {
+        "en": "Worst injury1b = improbable TBI complex\r\n (TBI w/o LOC or memory loss)\r\nResponse to at least one question about head injury is \"yes\", but all reponses to LOC and dazed/memory are \"no.\"\r\n=IF(AND(OR([tbi_1]=1,[tbi_2]=1,[tbi_3]=1,[tbi_4]=1,[tbi_5]=1,[tbi_6o]=1,[tbi_7a]=1),AND([tbi_1b]< 1,[tbi_1c]<>1,[tbi_2b]< 1,[tbi_2c]<>1,[tbi_3b]< 1,[tbi_3c]<>1,[tbi_4b]< 1,[tbi_4c]<>1,[tbi_5b]< 1,[tbi_5c]<>1,[tbi_6o]< 1,[tbi_7c1]< 1,[tbi_7c2]<>1,[tbi_7i]<>1,[tbi_8i]<>1)),1,\"\")"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

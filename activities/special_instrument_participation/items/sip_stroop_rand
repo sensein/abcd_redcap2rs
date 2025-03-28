@@ -1,0 +1,44 @@
+{
+    "id": "sip_stroop_rand",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Stroop Randomization"
+    },
+    "prefLabel": {
+        "en": "sip_stroop_rand"
+    },
+    "question": {
+        "en": "Stroop button order randomization"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "left button positive"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "left button negative"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,79 @@
+{
+    "id": "screentime_scrn_media_p",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "screentime_scrn_media_p"
+    },
+    "question": {
+        "en": "What types ofSCREEN MEDIAdoes your child use the most (not including screen media used for school or homework)?",
+        "es": "\u00c2\u00bfQu\u00c3\u00a9 tipos de medios en pantalla usa su ni\u00c3\u00b1o/a m\u00c3\u00a1s (no incluye medios en pantalla utilizados para la escuela o tarea)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Television",
+                    "es": "Televisi\u00c3\u00b3n"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Video games",
+                    "es": "Videojuegos"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Cell phone",
+                    "es": "Tel\u00c3\u00a9fono celular"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Tablet",
+                    "es": "Tableta"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Handheld video game device",
+                    "es": "Dispositivo port\u00c3\u00a1til de videojuegos"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Computer/laptop",
+                    "es": "Computadora de mesa/computadora port\u00c3\u00a1til"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Other",
+                    "es": "Otro"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Refuse to Answer",
+                    "es": "Niego contestar"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

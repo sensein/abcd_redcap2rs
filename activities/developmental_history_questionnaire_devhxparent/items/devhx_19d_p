@@ -1,0 +1,36 @@
+{
+    "id": "devhx_19d_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "<span lang=\"en\">CDC average = 12 months (if count mama/dada)</span><span lang=\"es\" style=\"color:maroon;\">CDC promedio= 12 meses (teniendo en cuenta mama/papa)  </span><span lang=\"en\">If you don't know, please choose \"don't know\" in what follows below</span><span lang=\"es\" style=\"color:maroon;\">   Si no sabe, por favor escoja \"no se\" en lo que sigue abajo.</span>"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        }
+    ],
+    "preamble": {
+        "en": "At approximately what age (number ofmonths) was he/she FIRST able to do each of the following?",
+        "es": "\u00c2\u00bfAproximadamente a qu\u00c3\u00a9 edad (enmeses) pudo realizar por primera vez cada una de las siguientes actividades?"
+    },
+    "prefLabel": {
+        "en": "devhx_19d_p"
+    },
+    "question": {
+        "en": "Say his/her first word?",
+        "es": "\u00c2\u00bfDecir su primera palabra?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

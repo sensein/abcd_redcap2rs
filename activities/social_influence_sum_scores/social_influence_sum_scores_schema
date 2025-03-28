@@ -1,0 +1,199 @@
+{
+    "id": "social_influence_sum_scores_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "social_influence_sum_scores"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sit_scr_script_lastupdate",
+            "items/sit_scr_values_startdate",
+            "items/sit_scr_script_starttime",
+            "items/sit_scr_script_subjectid",
+            "items/sit_scr_script_groupid",
+            "items/sit_scr_event",
+            "items/sit_scr_session",
+            "items/sit_scr_script_elapsedtime",
+            "items/sit_scr_computer_platform",
+            "items/sit_scr_values_completed",
+            "items/sit_scr_expressions_meaninitialrating",
+            "items/sit_scr_expressions_meanrt_initialrating",
+            "items/sit_scr_expressions_meanfinalrating",
+            "items/sit_scr_expressions_meanrt_finalrating",
+            "items/sit_scr_expressions_meanratingdiff1",
+            "items/sit_scr_expressions_meanratingdiff2",
+            "items/sit_scr_expressions_meanratingdiff3",
+            "items/sit_scr_expressions_meanratingdiff4",
+            "items/sit_scr_values_count1",
+            "items/sit_scr_values_count2",
+            "items/sit_scr_values_count3",
+            "items/sit_scr_values_count4",
+            "items/sit_scr_values_countflips",
+            "items/sit_scr_values_countnr_initial",
+            "items/sit_scr_values_countnr_final",
+            "items/social_influence_sum_scores_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sit_scr_script_lastupdate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sit_scr_script_lastupdate"
+            },
+            {
+                "isAbout": "items/sit_scr_values_startdate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sit_scr_values_startdate"
+            },
+            {
+                "isAbout": "items/sit_scr_script_starttime",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sit_scr_script_starttime"
+            },
+            {
+                "isAbout": "items/sit_scr_script_subjectid",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sit_scr_script_subjectid"
+            },
+            {
+                "isAbout": "items/sit_scr_script_groupid",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sit_scr_script_groupid"
+            },
+            {
+                "isAbout": "items/sit_scr_event",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sit_scr_event"
+            },
+            {
+                "isAbout": "items/sit_scr_session",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sit_scr_session"
+            },
+            {
+                "isAbout": "items/sit_scr_script_elapsedtime",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sit_scr_script_elapsedtime"
+            },
+            {
+                "isAbout": "items/sit_scr_computer_platform",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sit_scr_computer_platform"
+            },
+            {
+                "isAbout": "items/sit_scr_values_completed",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sit_scr_values_completed"
+            },
+            {
+                "isAbout": "items/sit_scr_expressions_meaninitialrating",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sit_scr_expressions_meaninitialrating"
+            },
+            {
+                "isAbout": "items/sit_scr_expressions_meanrt_initialrating",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sit_scr_expressions_meanrt_initialrating"
+            },
+            {
+                "isAbout": "items/sit_scr_expressions_meanfinalrating",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sit_scr_expressions_meanfinalrating"
+            },
+            {
+                "isAbout": "items/sit_scr_expressions_meanrt_finalrating",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sit_scr_expressions_meanrt_finalrating"
+            },
+            {
+                "isAbout": "items/sit_scr_expressions_meanratingdiff1",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sit_scr_expressions_meanratingdiff1"
+            },
+            {
+                "isAbout": "items/sit_scr_expressions_meanratingdiff2",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sit_scr_expressions_meanratingdiff2"
+            },
+            {
+                "isAbout": "items/sit_scr_expressions_meanratingdiff3",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sit_scr_expressions_meanratingdiff3"
+            },
+            {
+                "isAbout": "items/sit_scr_expressions_meanratingdiff4",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sit_scr_expressions_meanratingdiff4"
+            },
+            {
+                "isAbout": "items/sit_scr_values_count1",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sit_scr_values_count1"
+            },
+            {
+                "isAbout": "items/sit_scr_values_count2",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sit_scr_values_count2"
+            },
+            {
+                "isAbout": "items/sit_scr_values_count3",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sit_scr_values_count3"
+            },
+            {
+                "isAbout": "items/sit_scr_values_count4",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sit_scr_values_count4"
+            },
+            {
+                "isAbout": "items/sit_scr_values_countflips",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sit_scr_values_countflips"
+            },
+            {
+                "isAbout": "items/sit_scr_values_countnr_initial",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sit_scr_values_countnr_initial"
+            },
+            {
+                "isAbout": "items/sit_scr_values_countnr_final",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sit_scr_values_countnr_final"
+            },
+            {
+                "isAbout": "items/social_influence_sum_scores_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "social_influence_sum_scores_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2206",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

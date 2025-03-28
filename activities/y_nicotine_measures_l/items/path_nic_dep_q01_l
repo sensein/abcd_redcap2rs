@@ -1,0 +1,63 @@
+{
+    "id": "path_nic_dep_q01_l",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "1"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "1"
+        }
+    ],
+    "prefLabel": {
+        "en": "path_nic_dep_q01_l"
+    },
+    "question": {
+        "en": "How soon after you wake up do youwantto use tobacco?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Within 5 minutes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "From 6 to 30 minutes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "From more than 30 minutes to 1 hour"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "After more than 1 hour but less than 24 hours"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "I rarely want to use tobacco"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

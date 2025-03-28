@@ -1,0 +1,62 @@
+{
+    "id": "rapi_section2_q10_916eae",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "10"
+        },
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "rapi_section2_ec8a63"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "10"
+        }
+    ],
+    "prefLabel": {
+        "en": "rapi_section2_q10_916eae"
+    },
+    "question": {
+        "en": "Had withdrawal symptoms. That is, you felt sick because you stopped or cut down on drinking."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1-2"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "3-5"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "5+"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

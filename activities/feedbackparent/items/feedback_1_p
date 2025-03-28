@@ -1,0 +1,74 @@
+{
+    "id": "feedback_1_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "1"
+        },
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "feedback_1"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "1"
+        }
+    ],
+    "prefLabel": {
+        "en": "feedback_1_p"
+    },
+    "question": {
+        "en": "My phone calls were returned in a timely fashion.",
+        "es": "Respondieron mis llamadas a tiempo."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "StronglyAgree",
+                    "es": "Totalmente de acuerdo"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Agree",
+                    "es": "De acuerdo"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Neutral(neither agree nor disagree)",
+                    "es": "Neutral (ni de acuerdo ni en desacuerdo)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Disagree",
+                    "es": "En desacuerdo"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Strongly Disagree",
+                    "es": "Totalmente en desacuerdo"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

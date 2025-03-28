@@ -1,0 +1,89 @@
+{
+    "id": "mypi_futuresnacks",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDECHOICE = '7'"
+        }
+    ],
+    "prefLabel": {
+        "en": "mypi_futuresnacks"
+    },
+    "question": {
+        "en": "And finally, what snacks and drinks would you like to see at your next visit?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Cheez-It"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Chips"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Cookies"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Crackers"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Fresh fruit"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Fruit snacks"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Gatorade"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Granola bar"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Juice"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Popcorn"
+                },
+                "value": 10
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

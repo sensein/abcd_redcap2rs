@@ -1,0 +1,27 @@
+{
+    "id": "pea_ravlt_sd_trial_vi_tc",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY HIDEFROMCOMPLETION"
+        }
+    ],
+    "prefLabel": {
+        "en": "pea_ravlt_sd_trial_vi_tc"
+    },
+    "question": {
+        "en": "RAVLT Short Delay Trial VI Total Correct"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,69 @@
+{
+    "id": "meim_6_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
+    "preamble": {
+        "en": "Indicate how much you agree or disagree with each statement:",
+        "es": "Indique su opini\u00c3\u00b3n sobre cada afirmaci\u00c3\u00b3n."
+    },
+    "prefLabel": {
+        "en": "meim_6_p"
+    },
+    "question": {
+        "en": "I feel a strong attachment towards my own ethnic group.",
+        "es": "Siento una fuerte conexi\u00c3\u00b3n hacia mi propio grupo \u00c3\u00a9tnico."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Strongly Agree",
+                    "es": "Estoy totalmente de acuerdo"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Agree",
+                    "es": "Estoy  de acuerdo"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Neutral",
+                    "es": "Ni uno ni lo otro"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Disagree",
+                    "es": "No estoy de acuerdo"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Strongly Disagree",
+                    "es": "No estoy totalmente de acuerdo"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

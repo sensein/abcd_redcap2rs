@@ -1,0 +1,50 @@
+{
+    "id": "prodromal_20_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "20"
+        },
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "prodromal_20"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "20"
+        }
+    ],
+    "prefLabel": {
+        "en": "prodromal_20_y"
+    },
+    "question": {
+        "en": "Did you suddenly start to be able to see things that other people could not see or they did not seem to see?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

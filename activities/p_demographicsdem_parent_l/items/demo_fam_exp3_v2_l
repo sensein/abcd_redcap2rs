@@ -1,0 +1,61 @@
+{
+    "id": "demo_fam_exp3_v2_l",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDECHOICE='7'"
+        }
+    ],
+    "preamble": {
+        "en": "In the past 12 months, has there been a time when you and your immediate family experienced any of the following:",
+        "es": "En los \u00c3\u00baltimos 12 meses, \u00c2\u00bfha habido alg\u00c3\u00ban momento en el que usted y su familia inmediata hayan vivido alguna de las siguientes situaciones?"
+    },
+    "prefLabel": {
+        "en": "demo_fam_exp3_v2_l"
+    },
+    "question": {
+        "en": "Didn't pay the full amount of the rent or mortgage because you could not afford it?",
+        "es": "\u00c2\u00bfNo pagaron el monto total de la renta o hipoteca porque no les alcanzaba el dinero?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer",
+                    "es": "Niego contestar"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer",
+                    "es": "Niego contestar"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

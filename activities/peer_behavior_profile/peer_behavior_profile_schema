@@ -1,0 +1,73 @@
+{
+    "id": "peer_behavior_profile_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "peer_behavior_profile"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/pbp_start_time",
+            "items/pbp_athletes",
+            "items/pbp_skip_school",
+            "items/pbp_church",
+            "items/pbp_suspended",
+            "items/pbp_good_student",
+            "items/pbp_shoplifted",
+            "items/peer_behavior_profile_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/pbp_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pbp_start_time"
+            },
+            {
+                "isAbout": "items/pbp_athletes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pbp_athletes"
+            },
+            {
+                "isAbout": "items/pbp_skip_school",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pbp_skip_school"
+            },
+            {
+                "isAbout": "items/pbp_church",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pbp_church"
+            },
+            {
+                "isAbout": "items/pbp_suspended",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pbp_suspended"
+            },
+            {
+                "isAbout": "items/pbp_good_student",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pbp_good_student"
+            },
+            {
+                "isAbout": "items/pbp_shoplifted",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pbp_shoplifted"
+            },
+            {
+                "isAbout": "items/peer_behavior_profile_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "peer_behavior_profile_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2206",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

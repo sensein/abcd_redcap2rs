@@ -1,0 +1,75 @@
+{
+    "id": "comc_phenx_budget_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "For each of the following, please tell me if it is very likely, likely, neither likely nor unlikely, unlikely, or very unlikely that people in your neighborhood would act in the following manner.",
+        "es": "En cada uno de los siguientes puntos, d\u00c3\u00adgame si es muy probable, probable, ni probable ni improbable, improbable o muy improbable que la gente de su vecindario act\u00c3\u00bae de la siguiente manera."
+    },
+    "prefLabel": {
+        "en": "comc_phenx_budget_p"
+    },
+    "question": {
+        "en": "Suppose that because of budget cuts the fire station closest to your home was going to be closed down by the city. How likely is it that neighborhood residents would organize to try to do something to keep the fire station open?",
+        "es": "Suponga que, debido a los recortes de presupuesto, la municipalidad fuese a cerrar la estacion de bomberos mas cercana a su casa. \u00c2\u00bfQu\u00c3\u00a9 tan probable es que los residentes de su vecindad se organicen para tratar de hacer algo para mantener la estaci\u00c3\u00b3n de bomberos abierta?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Very Likely",
+                    "es": "Muy probable"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Likely",
+                    "es": "Probable"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Neither Likely Nor Unlikely",
+                    "es": "Ni probable ni improbable"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Unlikely",
+                    "es": "Improbable"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Very Unlikely",
+                    "es": "Muy improbable"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Don't Know",
+                    "es": "No s\u00c3\u00a9"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Refused",
+                    "es": "niego a contestar"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

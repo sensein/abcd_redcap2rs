@@ -1,0 +1,55 @@
+{
+    "id": "psra_a4_d2",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "LIBRv1.0"
+        }
+    ],
+    "preamble": {
+        "en": "Day 2"
+    },
+    "prefLabel": {
+        "en": "psra_a4_d2"
+    },
+    "question": {
+        "en": "A4. Daydreams, has trouble focusing on assessment"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Child appears to \"space out\" during large portions of assessment"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Child occasionally \"spaces out\" and requires prompts from assessor to look, point, focus"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Child shows brief periods of inattention, but returns to task after brief lapse of attention"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Child does not have problems focusing attention on tasks"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

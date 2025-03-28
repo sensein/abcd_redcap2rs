@@ -1,0 +1,26 @@
+{
+    "id": "instruct_redo_tox",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20180804"
+        }
+    ],
+    "prefLabel": {
+        "en": "instruct_redo_tox"
+    },
+    "question": {
+        "en": "Repeat the test right away using new cassette. \r\n\r\nInstruct subject:\"I need to collect another saliva sample, please do the same thing using this new cassette. Carefully put this tube in your mouth and move it from one side of your mouth to the other to get saliva from your entire mouth\".Record the set of results (initial or repeat) most in line with self-report/observation."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,52 @@
+{
+    "id": "school_10_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "school_2_y"
+        }
+    ],
+    "prefLabel": {
+        "en": "school_10_y"
+    },
+    "question": {
+        "en": "There are lots of chances to be part of class discussions or activities."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "NO!"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "no"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "yes"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "YES!"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

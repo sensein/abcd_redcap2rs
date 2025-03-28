@@ -1,0 +1,73 @@
+{
+    "id": "parent_rules_q9",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "3b"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "3b"
+        }
+    ],
+    "preamble": {
+        "en": "The next questions are about your household rules about alcohol and drugs.",
+        "es": "Las siguientes preguntas son acerca de las reglas de su hogar con respecto al consumo de alcohol y drogas."
+    },
+    "prefLabel": {
+        "en": "parent_rules_q9"
+    },
+    "question": {
+        "en": "Do you enforce penalties for violating family rules about using marijuana?",
+        "es": "\u00c2\u00bfAplica sanciones por no respetar las reglas familiares sobre el consumo de marihuana?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never",
+                    "es": "Nunca"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Rarely",
+                    "es": "Rara vez"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Sometimes",
+                    "es": "A veces"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Often",
+                    "es": "Con frecuencia"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "I have not had to enforce these rules",
+                    "es": "No he tenido que hacer cumplir estas reglas"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

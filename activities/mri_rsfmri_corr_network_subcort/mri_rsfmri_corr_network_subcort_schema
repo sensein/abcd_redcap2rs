@@ -1,0 +1,1844 @@
+{
+    "id": "mri_rsfmri_corr_network_subcort_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "mri_rsfmri_corr_network_subcort"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/rsfmri_cor_networkgordon_subcortaseg_visitid",
+            "items/rsfmri_cor_networkgordon_subcortaseg_tr",
+            "items/rsfmri_cor_networkgordon_subcortaseg_numtrs",
+            "items/rsfmri_cor_networkgordon_subcortaseg_nvols",
+            "items/rsfmri_cor_networkgordon_subcortaseg_subthreshnvols",
+            "items/rsfmri_cor_networkgordon_subcortaseg_subthreshcontignvols",
+            "items/rsfmri_cor_networkgordon_subcortaseg_ntpoints",
+            "items/rsfmri_cor_networkgordon_subcortaseg_meanmotion",
+            "items/rsfmri_cor_networkgordon_subcortaseg_maxmotion",
+            "items/rsfmri_cor_networkgordon_subcortaseg_meantrans",
+            "items/rsfmri_cor_networkgordon_subcortaseg_maxtrans",
+            "items/rsfmri_cor_networkgordon_subcortaseg_meanrot",
+            "items/rsfmri_cor_networkgordon_subcortaseg_maxrot",
+            "items/rsfmri_cor_networkgordon_auditory_subcortaseg_cerebellumcortexlh",
+            "items/rsfmri_cor_networkgordon_auditory_subcortaseg_thalamusproperlh",
+            "items/rsfmri_cor_networkgordon_auditory_subcortaseg_caudatelh",
+            "items/rsfmri_cor_networkgordon_auditory_subcortaseg_putamenlh",
+            "items/rsfmri_cor_networkgordon_auditory_subcortaseg_pallidumlh",
+            "items/rsfmri_cor_networkgordon_auditory_subcortaseg_brainstem",
+            "items/rsfmri_cor_networkgordon_auditory_subcortaseg_hippocampuslh",
+            "items/rsfmri_cor_networkgordon_auditory_subcortaseg_amygdalalh",
+            "items/rsfmri_cor_networkgordon_auditory_subcortaseg_accumbensarealh",
+            "items/rsfmri_cor_networkgordon_auditory_subcortaseg_ventraldclh",
+            "items/rsfmri_cor_networkgordon_auditory_subcortaseg_cerebellumcortexrh",
+            "items/rsfmri_cor_networkgordon_auditory_subcortaseg_thalamusproperrh",
+            "items/rsfmri_cor_networkgordon_auditory_subcortaseg_caudaterh",
+            "items/rsfmri_cor_networkgordon_auditory_subcortaseg_putamenrh",
+            "items/rsfmri_cor_networkgordon_auditory_subcortaseg_pallidumrh",
+            "items/rsfmri_cor_networkgordon_auditory_subcortaseg_hippocampusrh",
+            "items/rsfmri_cor_networkgordon_auditory_subcortaseg_amygdalarh",
+            "items/rsfmri_cor_networkgordon_auditory_subcortaseg_accumbensarearh",
+            "items/rsfmri_cor_networkgordon_auditory_subcortaseg_ventraldcrh",
+            "items/rsfmri_cor_networkgordon_cingulooperc_subcortaseg_cerebellumcortexlh",
+            "items/rsfmri_cor_networkgordon_cingulooperc_subcortaseg_thalamusproperlh",
+            "items/rsfmri_cor_networkgordon_cingulooperc_subcortaseg_caudatelh",
+            "items/rsfmri_cor_networkgordon_cingulooperc_subcortaseg_putamenlh",
+            "items/rsfmri_cor_networkgordon_cingulooperc_subcortaseg_pallidumlh",
+            "items/rsfmri_cor_networkgordon_cingulooperc_subcortaseg_brainstem",
+            "items/rsfmri_cor_networkgordon_cingulooperc_subcortaseg_hippocampuslh",
+            "items/rsfmri_cor_networkgordon_cingulooperc_subcortaseg_amygdalalh",
+            "items/rsfmri_cor_networkgordon_cingulooperc_subcortaseg_accumbensarealh",
+            "items/rsfmri_cor_networkgordon_cingulooperc_subcortaseg_ventraldclh",
+            "items/rsfmri_cor_networkgordon_cingulooperc_subcortaseg_cerebellumcortexrh",
+            "items/rsfmri_cor_networkgordon_cingulooperc_subcortaseg_thalamusproperrh",
+            "items/rsfmri_cor_networkgordon_cingulooperc_subcortaseg_caudaterh",
+            "items/rsfmri_cor_networkgordon_cingulooperc_subcortaseg_putamenrh",
+            "items/rsfmri_cor_networkgordon_cingulooperc_subcortaseg_pallidumrh",
+            "items/rsfmri_cor_networkgordon_cingulooperc_subcortaseg_hippocampusrh",
+            "items/rsfmri_cor_networkgordon_cingulooperc_subcortaseg_amygdalarh",
+            "items/rsfmri_cor_networkgordon_cingulooperc_subcortaseg_accumbensarearh",
+            "items/rsfmri_cor_networkgordon_cingulooperc_subcortaseg_ventraldcrh",
+            "items/rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_cerebellumcortexlh",
+            "items/rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_thalamusproperlh",
+            "items/rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_caudatelh",
+            "items/rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_putamenlh",
+            "items/rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_pallidumlh",
+            "items/rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_brainstem",
+            "items/rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_hippocampuslh",
+            "items/rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_amygdalalh",
+            "items/rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_accumbensarealh",
+            "items/rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_ventraldclh",
+            "items/rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_cerebellumcortexrh",
+            "items/rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_thalamusproperrh",
+            "items/rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_caudaterh",
+            "items/rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_putamenrh",
+            "items/rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_pallidumrh",
+            "items/rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_hippocampusrh",
+            "items/rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_amygdalarh",
+            "items/rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_accumbensarearh",
+            "items/rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_ventraldcrh",
+            "items/rsfmri_cor_networkgordon_default_subcortaseg_cerebellumcortexlh",
+            "items/rsfmri_cor_networkgordon_default_subcortaseg_thalamusproperlh",
+            "items/rsfmri_cor_networkgordon_default_subcortaseg_caudatelh",
+            "items/rsfmri_cor_networkgordon_default_subcortaseg_putamenlh",
+            "items/rsfmri_cor_networkgordon_default_subcortaseg_pallidumlh",
+            "items/rsfmri_cor_networkgordon_default_subcortaseg_brainstem",
+            "items/rsfmri_cor_networkgordon_default_subcortaseg_hippocampuslh",
+            "items/rsfmri_cor_networkgordon_default_subcortaseg_amygdalalh",
+            "items/rsfmri_cor_networkgordon_default_subcortaseg_accumbensarealh",
+            "items/rsfmri_cor_networkgordon_default_subcortaseg_ventraldclh",
+            "items/rsfmri_cor_networkgordon_default_subcortaseg_cerebellumcortexrh",
+            "items/rsfmri_cor_networkgordon_default_subcortaseg_thalamusproperrh",
+            "items/rsfmri_cor_networkgordon_default_subcortaseg_caudaterh",
+            "items/rsfmri_cor_networkgordon_default_subcortaseg_putamenrh",
+            "items/rsfmri_cor_networkgordon_default_subcortaseg_pallidumrh",
+            "items/rsfmri_cor_networkgordon_default_subcortaseg_hippocampusrh",
+            "items/rsfmri_cor_networkgordon_default_subcortaseg_amygdalarh",
+            "items/rsfmri_cor_networkgordon_default_subcortaseg_accumbensarearh",
+            "items/rsfmri_cor_networkgordon_default_subcortaseg_ventraldcrh",
+            "items/rsfmri_cor_networkgordon_dorsalattn_subcortaseg_cerebellumcortexlh",
+            "items/rsfmri_cor_networkgordon_dorsalattn_subcortaseg_thalamusproperlh",
+            "items/rsfmri_cor_networkgordon_dorsalattn_subcortaseg_caudatelh",
+            "items/rsfmri_cor_networkgordon_dorsalattn_subcortaseg_putamenlh",
+            "items/rsfmri_cor_networkgordon_dorsalattn_subcortaseg_pallidumlh",
+            "items/rsfmri_cor_networkgordon_dorsalattn_subcortaseg_brainstem",
+            "items/rsfmri_cor_networkgordon_dorsalattn_subcortaseg_hippocampuslh",
+            "items/rsfmri_cor_networkgordon_dorsalattn_subcortaseg_amygdalalh",
+            "items/rsfmri_cor_networkgordon_dorsalattn_subcortaseg_accumbensarealh",
+            "items/rsfmri_cor_networkgordon_dorsalattn_subcortaseg_ventraldclh",
+            "items/rsfmri_cor_networkgordon_dorsalattn_subcortaseg_cerebellumcortexrh",
+            "items/rsfmri_cor_networkgordon_dorsalattn_subcortaseg_thalamusproperrh",
+            "items/rsfmri_cor_networkgordon_dorsalattn_subcortaseg_caudaterh",
+            "items/rsfmri_cor_networkgordon_dorsalattn_subcortaseg_putamenrh",
+            "items/rsfmri_cor_networkgordon_dorsalattn_subcortaseg_pallidumrh",
+            "items/rsfmri_cor_networkgordon_dorsalattn_subcortaseg_hippocampusrh",
+            "items/rsfmri_cor_networkgordon_dorsalattn_subcortaseg_amygdalarh",
+            "items/rsfmri_cor_networkgordon_dorsalattn_subcortaseg_accumbensarearh",
+            "items/rsfmri_cor_networkgordon_dorsalattn_subcortaseg_ventraldcrh",
+            "items/rsfmri_cor_networkgordon_frontoparietal_subcortaseg_cerebellumcortexlh",
+            "items/rsfmri_cor_networkgordon_frontoparietal_subcortaseg_thalamusproperlh",
+            "items/rsfmri_cor_networkgordon_frontoparietal_subcortaseg_caudatelh",
+            "items/rsfmri_cor_networkgordon_frontoparietal_subcortaseg_putamenlh",
+            "items/rsfmri_cor_networkgordon_frontoparietal_subcortaseg_pallidumlh",
+            "items/rsfmri_cor_networkgordon_frontoparietal_subcortaseg_brainstem",
+            "items/rsfmri_cor_networkgordon_frontoparietal_subcortaseg_hippocampuslh",
+            "items/rsfmri_cor_networkgordon_frontoparietal_subcortaseg_amygdalalh",
+            "items/rsfmri_cor_networkgordon_frontoparietal_subcortaseg_accumbensarealh",
+            "items/rsfmri_cor_networkgordon_frontoparietal_subcortaseg_ventraldclh",
+            "items/rsfmri_cor_networkgordon_frontoparietal_subcortaseg_cerebellumcortexrh",
+            "items/rsfmri_cor_networkgordon_frontoparietal_subcortaseg_thalamusproperrh",
+            "items/rsfmri_cor_networkgordon_frontoparietal_subcortaseg_caudaterh",
+            "items/rsfmri_cor_networkgordon_frontoparietal_subcortaseg_putamenrh",
+            "items/rsfmri_cor_networkgordon_frontoparietal_subcortaseg_pallidumrh",
+            "items/rsfmri_cor_networkgordon_frontoparietal_subcortaseg_hippocampusrh",
+            "items/rsfmri_cor_networkgordon_frontoparietal_subcortaseg_amygdalarh",
+            "items/rsfmri_cor_networkgordon_frontoparietal_subcortaseg_accumbensarearh",
+            "items/rsfmri_cor_networkgordon_frontoparietal_subcortaseg_ventraldcrh",
+            "items/rsfmri_cor_networkgordon_none_subcortaseg_cerebellumcortexlh",
+            "items/rsfmri_cor_networkgordon_none_subcortaseg_thalamusproperlh",
+            "items/rsfmri_cor_networkgordon_none_subcortaseg_caudatelh",
+            "items/rsfmri_cor_networkgordon_none_subcortaseg_putamenlh",
+            "items/rsfmri_cor_networkgordon_none_subcortaseg_pallidumlh",
+            "items/rsfmri_cor_networkgordon_none_subcortaseg_brainstem",
+            "items/rsfmri_cor_networkgordon_none_subcortaseg_hippocampuslh",
+            "items/rsfmri_cor_networkgordon_none_subcortaseg_amygdalalh",
+            "items/rsfmri_cor_networkgordon_none_subcortaseg_accumbensarealh",
+            "items/rsfmri_cor_networkgordon_none_subcortaseg_ventraldclh",
+            "items/rsfmri_cor_networkgordon_none_subcortaseg_cerebellumcortexrh",
+            "items/rsfmri_cor_networkgordon_none_subcortaseg_thalamusproperrh",
+            "items/rsfmri_cor_networkgordon_none_subcortaseg_caudaterh",
+            "items/rsfmri_cor_networkgordon_none_subcortaseg_putamenrh",
+            "items/rsfmri_cor_networkgordon_none_subcortaseg_pallidumrh",
+            "items/rsfmri_cor_networkgordon_none_subcortaseg_hippocampusrh",
+            "items/rsfmri_cor_networkgordon_none_subcortaseg_amygdalarh",
+            "items/rsfmri_cor_networkgordon_none_subcortaseg_accumbensarearh",
+            "items/rsfmri_cor_networkgordon_none_subcortaseg_ventraldcrh",
+            "items/rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_cerebellumcortexlh",
+            "items/rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_thalamusproperlh",
+            "items/rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_caudatelh",
+            "items/rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_putamenlh",
+            "items/rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_pallidumlh",
+            "items/rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_brainstem",
+            "items/rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_hippocampuslh",
+            "items/rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_amygdalalh",
+            "items/rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_accumbensarealh",
+            "items/rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_ventraldclh",
+            "items/rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_cerebellumcortexrh",
+            "items/rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_thalamusproperrh",
+            "items/rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_caudaterh",
+            "items/rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_putamenrh",
+            "items/rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_pallidumrh",
+            "items/rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_hippocampusrh",
+            "items/rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_amygdalarh",
+            "items/rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_accumbensarearh",
+            "items/rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_ventraldcrh",
+            "items/rsfmri_cor_networkgordon_smhand_subcortaseg_cerebellumcortexlh",
+            "items/rsfmri_cor_networkgordon_smhand_subcortaseg_thalamusproperlh",
+            "items/rsfmri_cor_networkgordon_smhand_subcortaseg_caudatelh",
+            "items/rsfmri_cor_networkgordon_smhand_subcortaseg_putamenlh",
+            "items/rsfmri_cor_networkgordon_smhand_subcortaseg_pallidumlh",
+            "items/rsfmri_cor_networkgordon_smhand_subcortaseg_brainstem",
+            "items/rsfmri_cor_networkgordon_smhand_subcortaseg_hippocampuslh",
+            "items/rsfmri_cor_networkgordon_smhand_subcortaseg_amygdalalh",
+            "items/rsfmri_cor_networkgordon_smhand_subcortaseg_accumbensarealh",
+            "items/rsfmri_cor_networkgordon_smhand_subcortaseg_ventraldclh",
+            "items/rsfmri_cor_networkgordon_smhand_subcortaseg_cerebellumcortexrh",
+            "items/rsfmri_cor_networkgordon_smhand_subcortaseg_thalamusproperrh",
+            "items/rsfmri_cor_networkgordon_smhand_subcortaseg_caudaterh",
+            "items/rsfmri_cor_networkgordon_smhand_subcortaseg_putamenrh",
+            "items/rsfmri_cor_networkgordon_smhand_subcortaseg_pallidumrh",
+            "items/rsfmri_cor_networkgordon_smhand_subcortaseg_hippocampusrh",
+            "items/rsfmri_cor_networkgordon_smhand_subcortaseg_amygdalarh",
+            "items/rsfmri_cor_networkgordon_smhand_subcortaseg_accumbensarearh",
+            "items/rsfmri_cor_networkgordon_smhand_subcortaseg_ventraldcrh",
+            "items/rsfmri_cor_networkgordon_smmouth_subcortaseg_cerebellumcortexlh",
+            "items/rsfmri_cor_networkgordon_smmouth_subcortaseg_thalamusproperlh",
+            "items/rsfmri_cor_networkgordon_smmouth_subcortaseg_caudatelh",
+            "items/rsfmri_cor_networkgordon_smmouth_subcortaseg_putamenlh",
+            "items/rsfmri_cor_networkgordon_smmouth_subcortaseg_pallidumlh",
+            "items/rsfmri_cor_networkgordon_smmouth_subcortaseg_brainstem",
+            "items/rsfmri_cor_networkgordon_smmouth_subcortaseg_hippocampuslh",
+            "items/rsfmri_cor_networkgordon_smmouth_subcortaseg_amygdalalh",
+            "items/rsfmri_cor_networkgordon_smmouth_subcortaseg_accumbensarealh",
+            "items/rsfmri_cor_networkgordon_smmouth_subcortaseg_ventraldclh",
+            "items/rsfmri_cor_networkgordon_smmouth_subcortaseg_cerebellumcortexrh",
+            "items/rsfmri_cor_networkgordon_smmouth_subcortaseg_thalamusproperrh",
+            "items/rsfmri_cor_networkgordon_smmouth_subcortaseg_caudaterh",
+            "items/rsfmri_cor_networkgordon_smmouth_subcortaseg_putamenrh",
+            "items/rsfmri_cor_networkgordon_smmouth_subcortaseg_pallidumrh",
+            "items/rsfmri_cor_networkgordon_smmouth_subcortaseg_hippocampusrh",
+            "items/rsfmri_cor_networkgordon_smmouth_subcortaseg_amygdalarh",
+            "items/rsfmri_cor_networkgordon_smmouth_subcortaseg_accumbensarearh",
+            "items/rsfmri_cor_networkgordon_smmouth_subcortaseg_ventraldcrh",
+            "items/rsfmri_cor_networkgordon_salience_subcortaseg_cerebellumcortexlh",
+            "items/rsfmri_cor_networkgordon_salience_subcortaseg_thalamusproperlh",
+            "items/rsfmri_cor_networkgordon_salience_subcortaseg_caudatelh",
+            "items/rsfmri_cor_networkgordon_salience_subcortaseg_putamenlh",
+            "items/rsfmri_cor_networkgordon_salience_subcortaseg_pallidumlh",
+            "items/rsfmri_cor_networkgordon_salience_subcortaseg_brainstem",
+            "items/rsfmri_cor_networkgordon_salience_subcortaseg_hippocampuslh",
+            "items/rsfmri_cor_networkgordon_salience_subcortaseg_amygdalalh",
+            "items/rsfmri_cor_networkgordon_salience_subcortaseg_accumbensarealh",
+            "items/rsfmri_cor_networkgordon_salience_subcortaseg_ventraldclh",
+            "items/rsfmri_cor_networkgordon_salience_subcortaseg_cerebellumcortexrh",
+            "items/rsfmri_cor_networkgordon_salience_subcortaseg_thalamusproperrh",
+            "items/rsfmri_cor_networkgordon_salience_subcortaseg_caudaterh",
+            "items/rsfmri_cor_networkgordon_salience_subcortaseg_putamenrh",
+            "items/rsfmri_cor_networkgordon_salience_subcortaseg_pallidumrh",
+            "items/rsfmri_cor_networkgordon_salience_subcortaseg_hippocampusrh",
+            "items/rsfmri_cor_networkgordon_salience_subcortaseg_amygdalarh",
+            "items/rsfmri_cor_networkgordon_salience_subcortaseg_accumbensarearh",
+            "items/rsfmri_cor_networkgordon_salience_subcortaseg_ventraldcrh",
+            "items/rsfmri_cor_networkgordon_ventralattn_subcortaseg_cerebellumcortexlh",
+            "items/rsfmri_cor_networkgordon_ventralattn_subcortaseg_thalamusproperlh",
+            "items/rsfmri_cor_networkgordon_ventralattn_subcortaseg_caudatelh",
+            "items/rsfmri_cor_networkgordon_ventralattn_subcortaseg_putamenlh",
+            "items/rsfmri_cor_networkgordon_ventralattn_subcortaseg_pallidumlh",
+            "items/rsfmri_cor_networkgordon_ventralattn_subcortaseg_brainstem",
+            "items/rsfmri_cor_networkgordon_ventralattn_subcortaseg_hippocampuslh",
+            "items/rsfmri_cor_networkgordon_ventralattn_subcortaseg_amygdalalh",
+            "items/rsfmri_cor_networkgordon_ventralattn_subcortaseg_accumbensarealh",
+            "items/rsfmri_cor_networkgordon_ventralattn_subcortaseg_ventraldclh",
+            "items/rsfmri_cor_networkgordon_ventralattn_subcortaseg_cerebellumcortexrh",
+            "items/rsfmri_cor_networkgordon_ventralattn_subcortaseg_thalamusproperrh",
+            "items/rsfmri_cor_networkgordon_ventralattn_subcortaseg_caudaterh",
+            "items/rsfmri_cor_networkgordon_ventralattn_subcortaseg_putamenrh",
+            "items/rsfmri_cor_networkgordon_ventralattn_subcortaseg_pallidumrh",
+            "items/rsfmri_cor_networkgordon_ventralattn_subcortaseg_hippocampusrh",
+            "items/rsfmri_cor_networkgordon_ventralattn_subcortaseg_amygdalarh",
+            "items/rsfmri_cor_networkgordon_ventralattn_subcortaseg_accumbensarearh",
+            "items/rsfmri_cor_networkgordon_ventralattn_subcortaseg_ventraldcrh",
+            "items/rsfmri_cor_networkgordon_visual_subcortaseg_cerebellumcortexlh",
+            "items/rsfmri_cor_networkgordon_visual_subcortaseg_thalamusproperlh",
+            "items/rsfmri_cor_networkgordon_visual_subcortaseg_caudatelh",
+            "items/rsfmri_cor_networkgordon_visual_subcortaseg_putamenlh",
+            "items/rsfmri_cor_networkgordon_visual_subcortaseg_pallidumlh",
+            "items/rsfmri_cor_networkgordon_visual_subcortaseg_brainstem",
+            "items/rsfmri_cor_networkgordon_visual_subcortaseg_hippocampuslh",
+            "items/rsfmri_cor_networkgordon_visual_subcortaseg_amygdalalh",
+            "items/rsfmri_cor_networkgordon_visual_subcortaseg_accumbensarealh",
+            "items/rsfmri_cor_networkgordon_visual_subcortaseg_ventraldclh",
+            "items/rsfmri_cor_networkgordon_visual_subcortaseg_cerebellumcortexrh",
+            "items/rsfmri_cor_networkgordon_visual_subcortaseg_thalamusproperrh",
+            "items/rsfmri_cor_networkgordon_visual_subcortaseg_caudaterh",
+            "items/rsfmri_cor_networkgordon_visual_subcortaseg_putamenrh",
+            "items/rsfmri_cor_networkgordon_visual_subcortaseg_pallidumrh",
+            "items/rsfmri_cor_networkgordon_visual_subcortaseg_hippocampusrh",
+            "items/rsfmri_cor_networkgordon_visual_subcortaseg_amygdalarh",
+            "items/rsfmri_cor_networkgordon_visual_subcortaseg_accumbensarearh",
+            "items/rsfmri_cor_networkgordon_visual_subcortaseg_ventraldcrh",
+            "items/mri_rsfmri_corr_network_subcort_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_subcortaseg_visitid",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_subcortaseg_visitid"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_subcortaseg_tr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_subcortaseg_tr"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_subcortaseg_numtrs",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_subcortaseg_numtrs"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_subcortaseg_nvols",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_subcortaseg_nvols"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_subcortaseg_subthreshnvols",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_subcortaseg_subthreshnvols"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_subcortaseg_subthreshcontignvols",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_subcortaseg_subthreshcontignvols"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_subcortaseg_ntpoints",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_subcortaseg_ntpoints"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_subcortaseg_meanmotion",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_subcortaseg_meanmotion"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_subcortaseg_maxmotion",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_subcortaseg_maxmotion"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_subcortaseg_meantrans",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_subcortaseg_meantrans"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_subcortaseg_maxtrans",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_subcortaseg_maxtrans"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_subcortaseg_meanrot",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_subcortaseg_meanrot"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_subcortaseg_maxrot",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_subcortaseg_maxrot"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_auditory_subcortaseg_cerebellumcortexlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_auditory_subcortaseg_cerebellumcortexlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_auditory_subcortaseg_thalamusproperlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_auditory_subcortaseg_thalamusproperlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_auditory_subcortaseg_caudatelh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_auditory_subcortaseg_caudatelh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_auditory_subcortaseg_putamenlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_auditory_subcortaseg_putamenlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_auditory_subcortaseg_pallidumlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_auditory_subcortaseg_pallidumlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_auditory_subcortaseg_brainstem",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_auditory_subcortaseg_brainstem"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_auditory_subcortaseg_hippocampuslh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_auditory_subcortaseg_hippocampuslh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_auditory_subcortaseg_amygdalalh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_auditory_subcortaseg_amygdalalh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_auditory_subcortaseg_accumbensarealh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_auditory_subcortaseg_accumbensarealh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_auditory_subcortaseg_ventraldclh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_auditory_subcortaseg_ventraldclh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_auditory_subcortaseg_cerebellumcortexrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_auditory_subcortaseg_cerebellumcortexrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_auditory_subcortaseg_thalamusproperrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_auditory_subcortaseg_thalamusproperrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_auditory_subcortaseg_caudaterh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_auditory_subcortaseg_caudaterh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_auditory_subcortaseg_putamenrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_auditory_subcortaseg_putamenrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_auditory_subcortaseg_pallidumrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_auditory_subcortaseg_pallidumrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_auditory_subcortaseg_hippocampusrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_auditory_subcortaseg_hippocampusrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_auditory_subcortaseg_amygdalarh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_auditory_subcortaseg_amygdalarh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_auditory_subcortaseg_accumbensarearh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_auditory_subcortaseg_accumbensarearh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_auditory_subcortaseg_ventraldcrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_auditory_subcortaseg_ventraldcrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_cingulooperc_subcortaseg_cerebellumcortexlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_cingulooperc_subcortaseg_cerebellumcortexlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_cingulooperc_subcortaseg_thalamusproperlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_cingulooperc_subcortaseg_thalamusproperlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_cingulooperc_subcortaseg_caudatelh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_cingulooperc_subcortaseg_caudatelh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_cingulooperc_subcortaseg_putamenlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_cingulooperc_subcortaseg_putamenlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_cingulooperc_subcortaseg_pallidumlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_cingulooperc_subcortaseg_pallidumlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_cingulooperc_subcortaseg_brainstem",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_cingulooperc_subcortaseg_brainstem"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_cingulooperc_subcortaseg_hippocampuslh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_cingulooperc_subcortaseg_hippocampuslh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_cingulooperc_subcortaseg_amygdalalh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_cingulooperc_subcortaseg_amygdalalh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_cingulooperc_subcortaseg_accumbensarealh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_cingulooperc_subcortaseg_accumbensarealh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_cingulooperc_subcortaseg_ventraldclh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_cingulooperc_subcortaseg_ventraldclh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_cingulooperc_subcortaseg_cerebellumcortexrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_cingulooperc_subcortaseg_cerebellumcortexrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_cingulooperc_subcortaseg_thalamusproperrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_cingulooperc_subcortaseg_thalamusproperrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_cingulooperc_subcortaseg_caudaterh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_cingulooperc_subcortaseg_caudaterh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_cingulooperc_subcortaseg_putamenrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_cingulooperc_subcortaseg_putamenrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_cingulooperc_subcortaseg_pallidumrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_cingulooperc_subcortaseg_pallidumrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_cingulooperc_subcortaseg_hippocampusrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_cingulooperc_subcortaseg_hippocampusrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_cingulooperc_subcortaseg_amygdalarh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_cingulooperc_subcortaseg_amygdalarh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_cingulooperc_subcortaseg_accumbensarearh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_cingulooperc_subcortaseg_accumbensarearh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_cingulooperc_subcortaseg_ventraldcrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_cingulooperc_subcortaseg_ventraldcrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_cerebellumcortexlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_cerebellumcortexlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_thalamusproperlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_thalamusproperlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_caudatelh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_caudatelh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_putamenlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_putamenlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_pallidumlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_pallidumlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_brainstem",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_brainstem"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_hippocampuslh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_hippocampuslh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_amygdalalh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_amygdalalh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_accumbensarealh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_accumbensarealh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_ventraldclh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_ventraldclh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_cerebellumcortexrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_cerebellumcortexrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_thalamusproperrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_thalamusproperrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_caudaterh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_caudaterh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_putamenrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_putamenrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_pallidumrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_pallidumrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_hippocampusrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_hippocampusrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_amygdalarh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_amygdalarh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_accumbensarearh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_accumbensarearh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_ventraldcrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_cinguloparietal_subcortaseg_ventraldcrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_default_subcortaseg_cerebellumcortexlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_default_subcortaseg_cerebellumcortexlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_default_subcortaseg_thalamusproperlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_default_subcortaseg_thalamusproperlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_default_subcortaseg_caudatelh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_default_subcortaseg_caudatelh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_default_subcortaseg_putamenlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_default_subcortaseg_putamenlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_default_subcortaseg_pallidumlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_default_subcortaseg_pallidumlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_default_subcortaseg_brainstem",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_default_subcortaseg_brainstem"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_default_subcortaseg_hippocampuslh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_default_subcortaseg_hippocampuslh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_default_subcortaseg_amygdalalh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_default_subcortaseg_amygdalalh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_default_subcortaseg_accumbensarealh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_default_subcortaseg_accumbensarealh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_default_subcortaseg_ventraldclh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_default_subcortaseg_ventraldclh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_default_subcortaseg_cerebellumcortexrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_default_subcortaseg_cerebellumcortexrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_default_subcortaseg_thalamusproperrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_default_subcortaseg_thalamusproperrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_default_subcortaseg_caudaterh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_default_subcortaseg_caudaterh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_default_subcortaseg_putamenrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_default_subcortaseg_putamenrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_default_subcortaseg_pallidumrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_default_subcortaseg_pallidumrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_default_subcortaseg_hippocampusrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_default_subcortaseg_hippocampusrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_default_subcortaseg_amygdalarh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_default_subcortaseg_amygdalarh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_default_subcortaseg_accumbensarearh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_default_subcortaseg_accumbensarearh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_default_subcortaseg_ventraldcrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_default_subcortaseg_ventraldcrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_dorsalattn_subcortaseg_cerebellumcortexlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_dorsalattn_subcortaseg_cerebellumcortexlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_dorsalattn_subcortaseg_thalamusproperlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_dorsalattn_subcortaseg_thalamusproperlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_dorsalattn_subcortaseg_caudatelh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_dorsalattn_subcortaseg_caudatelh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_dorsalattn_subcortaseg_putamenlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_dorsalattn_subcortaseg_putamenlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_dorsalattn_subcortaseg_pallidumlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_dorsalattn_subcortaseg_pallidumlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_dorsalattn_subcortaseg_brainstem",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_dorsalattn_subcortaseg_brainstem"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_dorsalattn_subcortaseg_hippocampuslh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_dorsalattn_subcortaseg_hippocampuslh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_dorsalattn_subcortaseg_amygdalalh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_dorsalattn_subcortaseg_amygdalalh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_dorsalattn_subcortaseg_accumbensarealh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_dorsalattn_subcortaseg_accumbensarealh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_dorsalattn_subcortaseg_ventraldclh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_dorsalattn_subcortaseg_ventraldclh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_dorsalattn_subcortaseg_cerebellumcortexrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_dorsalattn_subcortaseg_cerebellumcortexrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_dorsalattn_subcortaseg_thalamusproperrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_dorsalattn_subcortaseg_thalamusproperrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_dorsalattn_subcortaseg_caudaterh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_dorsalattn_subcortaseg_caudaterh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_dorsalattn_subcortaseg_putamenrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_dorsalattn_subcortaseg_putamenrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_dorsalattn_subcortaseg_pallidumrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_dorsalattn_subcortaseg_pallidumrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_dorsalattn_subcortaseg_hippocampusrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_dorsalattn_subcortaseg_hippocampusrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_dorsalattn_subcortaseg_amygdalarh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_dorsalattn_subcortaseg_amygdalarh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_dorsalattn_subcortaseg_accumbensarearh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_dorsalattn_subcortaseg_accumbensarearh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_dorsalattn_subcortaseg_ventraldcrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_dorsalattn_subcortaseg_ventraldcrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_frontoparietal_subcortaseg_cerebellumcortexlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_frontoparietal_subcortaseg_cerebellumcortexlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_frontoparietal_subcortaseg_thalamusproperlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_frontoparietal_subcortaseg_thalamusproperlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_frontoparietal_subcortaseg_caudatelh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_frontoparietal_subcortaseg_caudatelh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_frontoparietal_subcortaseg_putamenlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_frontoparietal_subcortaseg_putamenlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_frontoparietal_subcortaseg_pallidumlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_frontoparietal_subcortaseg_pallidumlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_frontoparietal_subcortaseg_brainstem",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_frontoparietal_subcortaseg_brainstem"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_frontoparietal_subcortaseg_hippocampuslh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_frontoparietal_subcortaseg_hippocampuslh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_frontoparietal_subcortaseg_amygdalalh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_frontoparietal_subcortaseg_amygdalalh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_frontoparietal_subcortaseg_accumbensarealh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_frontoparietal_subcortaseg_accumbensarealh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_frontoparietal_subcortaseg_ventraldclh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_frontoparietal_subcortaseg_ventraldclh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_frontoparietal_subcortaseg_cerebellumcortexrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_frontoparietal_subcortaseg_cerebellumcortexrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_frontoparietal_subcortaseg_thalamusproperrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_frontoparietal_subcortaseg_thalamusproperrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_frontoparietal_subcortaseg_caudaterh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_frontoparietal_subcortaseg_caudaterh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_frontoparietal_subcortaseg_putamenrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_frontoparietal_subcortaseg_putamenrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_frontoparietal_subcortaseg_pallidumrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_frontoparietal_subcortaseg_pallidumrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_frontoparietal_subcortaseg_hippocampusrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_frontoparietal_subcortaseg_hippocampusrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_frontoparietal_subcortaseg_amygdalarh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_frontoparietal_subcortaseg_amygdalarh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_frontoparietal_subcortaseg_accumbensarearh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_frontoparietal_subcortaseg_accumbensarearh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_frontoparietal_subcortaseg_ventraldcrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_frontoparietal_subcortaseg_ventraldcrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_none_subcortaseg_cerebellumcortexlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_none_subcortaseg_cerebellumcortexlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_none_subcortaseg_thalamusproperlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_none_subcortaseg_thalamusproperlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_none_subcortaseg_caudatelh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_none_subcortaseg_caudatelh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_none_subcortaseg_putamenlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_none_subcortaseg_putamenlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_none_subcortaseg_pallidumlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_none_subcortaseg_pallidumlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_none_subcortaseg_brainstem",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_none_subcortaseg_brainstem"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_none_subcortaseg_hippocampuslh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_none_subcortaseg_hippocampuslh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_none_subcortaseg_amygdalalh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_none_subcortaseg_amygdalalh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_none_subcortaseg_accumbensarealh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_none_subcortaseg_accumbensarealh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_none_subcortaseg_ventraldclh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_none_subcortaseg_ventraldclh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_none_subcortaseg_cerebellumcortexrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_none_subcortaseg_cerebellumcortexrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_none_subcortaseg_thalamusproperrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_none_subcortaseg_thalamusproperrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_none_subcortaseg_caudaterh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_none_subcortaseg_caudaterh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_none_subcortaseg_putamenrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_none_subcortaseg_putamenrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_none_subcortaseg_pallidumrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_none_subcortaseg_pallidumrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_none_subcortaseg_hippocampusrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_none_subcortaseg_hippocampusrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_none_subcortaseg_amygdalarh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_none_subcortaseg_amygdalarh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_none_subcortaseg_accumbensarearh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_none_subcortaseg_accumbensarearh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_none_subcortaseg_ventraldcrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_none_subcortaseg_ventraldcrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_cerebellumcortexlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_cerebellumcortexlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_thalamusproperlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_thalamusproperlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_caudatelh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_caudatelh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_putamenlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_putamenlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_pallidumlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_pallidumlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_brainstem",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_brainstem"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_hippocampuslh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_hippocampuslh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_amygdalalh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_amygdalalh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_accumbensarealh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_accumbensarealh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_ventraldclh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_ventraldclh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_cerebellumcortexrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_cerebellumcortexrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_thalamusproperrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_thalamusproperrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_caudaterh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_caudaterh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_putamenrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_putamenrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_pallidumrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_pallidumrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_hippocampusrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_hippocampusrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_amygdalarh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_amygdalarh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_accumbensarearh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_accumbensarearh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_ventraldcrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_retrosplenialtemporal_subcortaseg_ventraldcrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_smhand_subcortaseg_cerebellumcortexlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_smhand_subcortaseg_cerebellumcortexlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_smhand_subcortaseg_thalamusproperlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_smhand_subcortaseg_thalamusproperlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_smhand_subcortaseg_caudatelh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_smhand_subcortaseg_caudatelh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_smhand_subcortaseg_putamenlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_smhand_subcortaseg_putamenlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_smhand_subcortaseg_pallidumlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_smhand_subcortaseg_pallidumlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_smhand_subcortaseg_brainstem",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_smhand_subcortaseg_brainstem"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_smhand_subcortaseg_hippocampuslh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_smhand_subcortaseg_hippocampuslh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_smhand_subcortaseg_amygdalalh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_smhand_subcortaseg_amygdalalh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_smhand_subcortaseg_accumbensarealh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_smhand_subcortaseg_accumbensarealh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_smhand_subcortaseg_ventraldclh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_smhand_subcortaseg_ventraldclh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_smhand_subcortaseg_cerebellumcortexrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_smhand_subcortaseg_cerebellumcortexrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_smhand_subcortaseg_thalamusproperrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_smhand_subcortaseg_thalamusproperrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_smhand_subcortaseg_caudaterh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_smhand_subcortaseg_caudaterh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_smhand_subcortaseg_putamenrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_smhand_subcortaseg_putamenrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_smhand_subcortaseg_pallidumrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_smhand_subcortaseg_pallidumrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_smhand_subcortaseg_hippocampusrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_smhand_subcortaseg_hippocampusrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_smhand_subcortaseg_amygdalarh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_smhand_subcortaseg_amygdalarh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_smhand_subcortaseg_accumbensarearh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_smhand_subcortaseg_accumbensarearh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_smhand_subcortaseg_ventraldcrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_smhand_subcortaseg_ventraldcrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_smmouth_subcortaseg_cerebellumcortexlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_smmouth_subcortaseg_cerebellumcortexlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_smmouth_subcortaseg_thalamusproperlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_smmouth_subcortaseg_thalamusproperlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_smmouth_subcortaseg_caudatelh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_smmouth_subcortaseg_caudatelh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_smmouth_subcortaseg_putamenlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_smmouth_subcortaseg_putamenlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_smmouth_subcortaseg_pallidumlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_smmouth_subcortaseg_pallidumlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_smmouth_subcortaseg_brainstem",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_smmouth_subcortaseg_brainstem"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_smmouth_subcortaseg_hippocampuslh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_smmouth_subcortaseg_hippocampuslh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_smmouth_subcortaseg_amygdalalh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_smmouth_subcortaseg_amygdalalh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_smmouth_subcortaseg_accumbensarealh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_smmouth_subcortaseg_accumbensarealh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_smmouth_subcortaseg_ventraldclh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_smmouth_subcortaseg_ventraldclh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_smmouth_subcortaseg_cerebellumcortexrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_smmouth_subcortaseg_cerebellumcortexrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_smmouth_subcortaseg_thalamusproperrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_smmouth_subcortaseg_thalamusproperrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_smmouth_subcortaseg_caudaterh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_smmouth_subcortaseg_caudaterh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_smmouth_subcortaseg_putamenrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_smmouth_subcortaseg_putamenrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_smmouth_subcortaseg_pallidumrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_smmouth_subcortaseg_pallidumrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_smmouth_subcortaseg_hippocampusrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_smmouth_subcortaseg_hippocampusrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_smmouth_subcortaseg_amygdalarh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_smmouth_subcortaseg_amygdalarh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_smmouth_subcortaseg_accumbensarearh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_smmouth_subcortaseg_accumbensarearh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_smmouth_subcortaseg_ventraldcrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_smmouth_subcortaseg_ventraldcrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_salience_subcortaseg_cerebellumcortexlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_salience_subcortaseg_cerebellumcortexlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_salience_subcortaseg_thalamusproperlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_salience_subcortaseg_thalamusproperlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_salience_subcortaseg_caudatelh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_salience_subcortaseg_caudatelh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_salience_subcortaseg_putamenlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_salience_subcortaseg_putamenlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_salience_subcortaseg_pallidumlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_salience_subcortaseg_pallidumlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_salience_subcortaseg_brainstem",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_salience_subcortaseg_brainstem"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_salience_subcortaseg_hippocampuslh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_salience_subcortaseg_hippocampuslh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_salience_subcortaseg_amygdalalh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_salience_subcortaseg_amygdalalh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_salience_subcortaseg_accumbensarealh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_salience_subcortaseg_accumbensarealh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_salience_subcortaseg_ventraldclh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_salience_subcortaseg_ventraldclh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_salience_subcortaseg_cerebellumcortexrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_salience_subcortaseg_cerebellumcortexrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_salience_subcortaseg_thalamusproperrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_salience_subcortaseg_thalamusproperrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_salience_subcortaseg_caudaterh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_salience_subcortaseg_caudaterh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_salience_subcortaseg_putamenrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_salience_subcortaseg_putamenrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_salience_subcortaseg_pallidumrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_salience_subcortaseg_pallidumrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_salience_subcortaseg_hippocampusrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_salience_subcortaseg_hippocampusrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_salience_subcortaseg_amygdalarh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_salience_subcortaseg_amygdalarh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_salience_subcortaseg_accumbensarearh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_salience_subcortaseg_accumbensarearh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_salience_subcortaseg_ventraldcrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_salience_subcortaseg_ventraldcrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_ventralattn_subcortaseg_cerebellumcortexlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_ventralattn_subcortaseg_cerebellumcortexlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_ventralattn_subcortaseg_thalamusproperlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_ventralattn_subcortaseg_thalamusproperlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_ventralattn_subcortaseg_caudatelh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_ventralattn_subcortaseg_caudatelh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_ventralattn_subcortaseg_putamenlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_ventralattn_subcortaseg_putamenlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_ventralattn_subcortaseg_pallidumlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_ventralattn_subcortaseg_pallidumlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_ventralattn_subcortaseg_brainstem",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_ventralattn_subcortaseg_brainstem"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_ventralattn_subcortaseg_hippocampuslh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_ventralattn_subcortaseg_hippocampuslh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_ventralattn_subcortaseg_amygdalalh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_ventralattn_subcortaseg_amygdalalh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_ventralattn_subcortaseg_accumbensarealh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_ventralattn_subcortaseg_accumbensarealh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_ventralattn_subcortaseg_ventraldclh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_ventralattn_subcortaseg_ventraldclh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_ventralattn_subcortaseg_cerebellumcortexrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_ventralattn_subcortaseg_cerebellumcortexrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_ventralattn_subcortaseg_thalamusproperrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_ventralattn_subcortaseg_thalamusproperrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_ventralattn_subcortaseg_caudaterh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_ventralattn_subcortaseg_caudaterh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_ventralattn_subcortaseg_putamenrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_ventralattn_subcortaseg_putamenrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_ventralattn_subcortaseg_pallidumrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_ventralattn_subcortaseg_pallidumrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_ventralattn_subcortaseg_hippocampusrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_ventralattn_subcortaseg_hippocampusrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_ventralattn_subcortaseg_amygdalarh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_ventralattn_subcortaseg_amygdalarh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_ventralattn_subcortaseg_accumbensarearh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_ventralattn_subcortaseg_accumbensarearh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_ventralattn_subcortaseg_ventraldcrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_ventralattn_subcortaseg_ventraldcrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_visual_subcortaseg_cerebellumcortexlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_visual_subcortaseg_cerebellumcortexlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_visual_subcortaseg_thalamusproperlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_visual_subcortaseg_thalamusproperlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_visual_subcortaseg_caudatelh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_visual_subcortaseg_caudatelh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_visual_subcortaseg_putamenlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_visual_subcortaseg_putamenlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_visual_subcortaseg_pallidumlh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_visual_subcortaseg_pallidumlh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_visual_subcortaseg_brainstem",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_visual_subcortaseg_brainstem"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_visual_subcortaseg_hippocampuslh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_visual_subcortaseg_hippocampuslh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_visual_subcortaseg_amygdalalh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_visual_subcortaseg_amygdalalh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_visual_subcortaseg_accumbensarealh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_visual_subcortaseg_accumbensarealh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_visual_subcortaseg_ventraldclh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_visual_subcortaseg_ventraldclh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_visual_subcortaseg_cerebellumcortexrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_visual_subcortaseg_cerebellumcortexrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_visual_subcortaseg_thalamusproperrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_visual_subcortaseg_thalamusproperrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_visual_subcortaseg_caudaterh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_visual_subcortaseg_caudaterh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_visual_subcortaseg_putamenrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_visual_subcortaseg_putamenrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_visual_subcortaseg_pallidumrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_visual_subcortaseg_pallidumrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_visual_subcortaseg_hippocampusrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_visual_subcortaseg_hippocampusrh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_visual_subcortaseg_amygdalarh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_visual_subcortaseg_amygdalarh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_visual_subcortaseg_accumbensarearh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_visual_subcortaseg_accumbensarearh"
+            },
+            {
+                "isAbout": "items/rsfmri_cor_networkgordon_visual_subcortaseg_ventraldcrh",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "rsfmri_cor_networkgordon_visual_subcortaseg_ventraldcrh"
+            },
+            {
+                "isAbout": "items/mri_rsfmri_corr_network_subcort_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_rsfmri_corr_network_subcort_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2206",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,30 @@
+{
+    "id": "merge_school_id",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Recruitment Variables"
+    },
+    "prefLabel": {
+        "en": "merge_school_id"
+    },
+    "question": {
+        "en": "Merge school_id and other_school_name"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

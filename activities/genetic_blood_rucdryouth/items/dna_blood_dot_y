@@ -1,0 +1,26 @@
+{
+    "id": "dna_blood_dot_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "datetime_dmy"
+        }
+    ],
+    "prefLabel": {
+        "en": "dna_blood_dot_y"
+    },
+    "question": {
+        "en": "Blood DNA sample date and time collected:"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:dateTime"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

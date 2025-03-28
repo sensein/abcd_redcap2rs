@@ -1,0 +1,43 @@
+{
+    "id": "scrn_status_2_v2",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "END"
+    },
+    "prefLabel": {
+        "en": "scrn_status_2_v2"
+    },
+    "question": {
+        "en": "Screener Status"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Consult PI or expert on child's condition or situation"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Delay appt for removable contraindication, health issue, or medication"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "PI consulted or health issue/medication will not impact youth's performance"
+                },
+                "value": 2
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

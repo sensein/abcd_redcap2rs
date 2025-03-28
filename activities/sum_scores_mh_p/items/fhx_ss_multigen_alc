@@ -1,0 +1,62 @@
+{
+    "id": "fhx_ss_multigen_alc",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Family History of Problems"
+    },
+    "prefLabel": {
+        "en": "fhx_ss_multigen_alc"
+    },
+    "question": {
+        "en": "Overall multigenerational alcohol problem."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "no parental problem"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "parental problem, no grandparent"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "multigenerational in one line"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "multigenerational in both lines"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Other positive situation, more than 1 parent or grandparent affected"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

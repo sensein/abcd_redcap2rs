@@ -1,0 +1,959 @@
+{
+    "id": "screener_schema",
+    "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "sum(scrn_hr_destroy,scrn_hr_disobey,scrn_hr_liecheat,scrn_hr_steal,scrn_hr_smoke)",
+            "variableName": "scrn_hr_score0"
+        },
+        {
+            "jsExpression": "sum(scrn_hr_fear,scrn_hr_dep,scrn_hr_som)",
+            "variableName": "scrn_hr_score1"
+        },
+        {
+            "jsExpression": "sum(scrn_hr_slowfriend,scrn_hr_stress)",
+            "variableName": "scrn_hr_score2"
+        }
+    ],
+    "prefLabel": {
+        "en": "screener"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/scrn_select_language",
+            "items/scrn_twin_reg",
+            "items/scrn_twin_reg_scrpt",
+            "items/scrn_studydsc",
+            "items/scrn_excl_list",
+            "items/scrn_begin",
+            "items/scrn_braces",
+            "items/scrn_bracesdate",
+            "items/scrn_bracescallback",
+            "items/scrn_met_inj",
+            "items/scrn_met_injdesc",
+            "items/scrn_met_injenter",
+            "items/scrn_met_injremove",
+            "items/scrn_met_injmdnote",
+            "items/scrn_surgery",
+            "items/scrn_surg_expl",
+            "items/scrn_met_obj",
+            "items/scrn_note_excl_met",
+            "items/scrn_met_objdesc",
+            "items/scrn_met_objloc",
+            "items/scrn_met_objyear",
+            "items/scrn_met_excl",
+            "items/scrn_nr_hair",
+            "items/scrn_nr_hair_metal",
+            "items/scrn_nr_hair_date",
+            "items/scrn_nr_hair_callback",
+            "items/scrn_eyeliner",
+            "items/scrn_nr_piercing",
+            "items/scrn_height",
+            "items/scrn_weight",
+            "items/scrn_weight_mri",
+            "items/scrn_claustrophob",
+            "items/scrn_claustrophobexcl",
+            "items/scrn_note_lang",
+            "items/scrn_speakeng",
+            "items/scrn_fluency",
+            "items/scrn_nonenglish",
+            "items/scrn_behav_intro",
+            "items/scrn_note_sensmot",
+            "items/scrn_percept",
+            "items/scrn_perceptyesdsc",
+            "items/scrn_percept_corr",
+            "items/scrn_note_test",
+            "items/scrn_medical",
+            "items/scrn_cpalsy",
+            "items/scrn_tumor",
+            "items/scrn_stroke",
+            "items/scrn_aneurysm",
+            "items/scrn_hemorrhage",
+            "items/scrn_hemotoma",
+            "items/scrn_medcond_other",
+            "items/scrn_other_desc",
+            "items/scrn_epls",
+            "items/scrn_seizure",
+            "items/scrn_con_excl",
+            "items/scrn_note_birthwt",
+            "items/scrn_gestage",
+            "items/scrn_birthwt",
+            "items/scrn_birthcomp",
+            "items/scrn_birthcomp_y",
+            "items/scrn_note_perinstroke",
+            "items/scrn_birthcomp_excl",
+            "items/scrn_note_psychdx",
+            "items/scrn_psychdxyes",
+            "items/scrn_commondx",
+            "items/scrn_schiz",
+            "items/scrn_asd",
+            "items/scrn_asd_regclasses",
+            "items/scrn_sud",
+            "items/scrn_intdisab",
+            "items/scrn_psychdx_other",
+            "items/scrn_other_psych",
+            "items/scrn_psych_excl",
+            "items/scrn_concerns_p",
+            "items/scrn_concernsnotes_p",
+            "items/scrn_concerns_excl",
+            "items/scrn_note_tbi",
+            "items/scrn_tbi_loc",
+            "items/scrn_tbi_mem",
+            "items/scrn_tbi_scan",
+            "items/scrn_tbi_scanreslt",
+            "items/scrn_tbi_scan_excl",
+            "items/scrn_brain_scn",
+            "items/scrn_scan_results",
+            "items/scrn_abn_scan",
+            "items/scrn_high_risk",
+            "items/scrn_hr_intro",
+            "items/scrn_hr_script",
+            "items/scrn_hr_school",
+            "items/scrn_hr_disobey",
+            "items/scrn_hr_sleep",
+            "items/scrn_hr_fear",
+            "items/scrn_hr_liecheat",
+            "items/scrn_hr_music",
+            "items/scrn_hr_dep",
+            "items/scrn_hr_help",
+            "items/scrn_hr_destroy",
+            "items/scrn_hr_steal",
+            "items/scrn_hr_sport",
+            "items/scrn_hr_som",
+            "items/scrn_hr_read",
+            "items/scrn_hr_slowfriend",
+            "items/scrn_hr_stress",
+            "items/scrn_hr_smoke",
+            "items/zygos_quest",
+            "items/twin_zygos",
+            "items/zygos_q1",
+            "items/zygos_q2",
+            "items/zygos_q3",
+            "items/zygos_q4",
+            "items/zygos_q5",
+            "items/zygos_q6",
+            "items/scrn_race_ethn_edu_reason",
+            "items/scrn_ethn_hispanic",
+            "items/scrn_race",
+            "items/scrn_edu",
+            "items/scrn_edu_2",
+            "items/scrn_priority_note",
+            "items/scrn_time",
+            "items/scrn_alt_status",
+            "items/scrn_drnote",
+            "items/scrn_pi_consult",
+            "items/scrn_status_2",
+            "items/scrn_nonpriority",
+            "items/scrn_eligible",
+            "items/scrn_dental_delay",
+            "items/scrn_age_delay",
+            "items/scrn_ineligible",
+            "items/scrn_explain",
+            "items/screener_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/scrn_select_language",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "scrn_select_language"
+            },
+            {
+                "isAbout": "items/scrn_twin_reg",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "scrn_twin_reg"
+            },
+            {
+                "isAbout": "items/scrn_twin_reg_scrpt",
+                "isVis": "scrn_twin_reg___1 == '1'",
+                "valueRequired": false,
+                "variableName": "scrn_twin_reg_scrpt"
+            },
+            {
+                "isAbout": "items/scrn_studydsc",
+                "isVis": "scrn_twin_reg___0 == '1'",
+                "valueRequired": false,
+                "variableName": "scrn_studydsc"
+            },
+            {
+                "isAbout": "items/scrn_excl_list",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "scrn_excl_list"
+            },
+            {
+                "isAbout": "items/scrn_begin",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "scrn_begin"
+            },
+            {
+                "isAbout": "items/scrn_braces",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "scrn_braces"
+            },
+            {
+                "isAbout": "items/scrn_bracesdate",
+                "isVis": "scrn_braces == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_bracesdate"
+            },
+            {
+                "isAbout": "items/scrn_bracescallback",
+                "isVis": "scrn_braces == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_bracescallback"
+            },
+            {
+                "isAbout": "items/scrn_met_inj",
+                "isVis": "scrn_braces == '0' || scrn_bracescallback == '1' || scrn_braces == '2'",
+                "valueRequired": true,
+                "variableName": "scrn_met_inj"
+            },
+            {
+                "isAbout": "items/scrn_met_injdesc",
+                "isVis": "scrn_met_inj == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_met_injdesc"
+            },
+            {
+                "isAbout": "items/scrn_met_injenter",
+                "isVis": "scrn_met_inj == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_met_injenter"
+            },
+            {
+                "isAbout": "items/scrn_met_injremove",
+                "isVis": "scrn_met_injenter == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_met_injremove"
+            },
+            {
+                "isAbout": "items/scrn_met_injmdnote",
+                "isVis": "scrn_met_injremove == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_met_injmdnote"
+            },
+            {
+                "isAbout": "items/scrn_surgery",
+                "isVis": "scrn_met_inj == '0' || scrn_met_injenter == '0' || scrn_met_injmdnote == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_surgery"
+            },
+            {
+                "isAbout": "items/scrn_surg_expl",
+                "isVis": "scrn_surgery == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_surg_expl"
+            },
+            {
+                "isAbout": "items/scrn_met_obj",
+                "isVis": "scrn_surgery == '1' || scrn_surgery == '0'",
+                "valueRequired": true,
+                "variableName": "scrn_met_obj"
+            },
+            {
+                "isAbout": "items/scrn_note_excl_met",
+                "isVis": "scrn_met_obj == '1'",
+                "valueRequired": false,
+                "variableName": "scrn_note_excl_met"
+            },
+            {
+                "isAbout": "items/scrn_met_objdesc",
+                "isVis": "scrn_met_obj == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_met_objdesc"
+            },
+            {
+                "isAbout": "items/scrn_met_objloc",
+                "isVis": "scrn_met_obj == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_met_objloc"
+            },
+            {
+                "isAbout": "items/scrn_met_objyear",
+                "isVis": "scrn_met_obj == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_met_objyear"
+            },
+            {
+                "isAbout": "items/scrn_met_excl",
+                "isVis": "scrn_met_obj == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_met_excl"
+            },
+            {
+                "isAbout": "items/scrn_nr_hair",
+                "isVis": "scrn_met_obj == '0' || scrn_met_excl == '1' || scrn_met_excl == '2'",
+                "valueRequired": true,
+                "variableName": "scrn_nr_hair"
+            },
+            {
+                "isAbout": "items/scrn_nr_hair_metal",
+                "isVis": "scrn_nr_hair == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_nr_hair_metal"
+            },
+            {
+                "isAbout": "items/scrn_nr_hair_date",
+                "isVis": "scrn_nr_hair_metal == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_nr_hair_date"
+            },
+            {
+                "isAbout": "items/scrn_nr_hair_callback",
+                "isVis": "scrn_nr_hair_metal == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_nr_hair_callback"
+            },
+            {
+                "isAbout": "items/scrn_eyeliner",
+                "isVis": "scrn_nr_hair == '0' || scrn_nr_hair_metal == '0' || scrn_nr_hair_callback == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_eyeliner"
+            },
+            {
+                "isAbout": "items/scrn_nr_piercing",
+                "isVis": "scrn_eyeliner == '0'",
+                "valueRequired": true,
+                "variableName": "scrn_nr_piercing"
+            },
+            {
+                "isAbout": "items/scrn_height",
+                "isVis": "scrn_nr_piercing == '0'",
+                "valueRequired": true,
+                "variableName": "scrn_height"
+            },
+            {
+                "isAbout": "items/scrn_weight",
+                "isVis": "scrn_nr_piercing == '0'",
+                "valueRequired": true,
+                "variableName": "scrn_weight"
+            },
+            {
+                "isAbout": "items/scrn_weight_mri",
+                "isVis": "scrn_nr_piercing == '0'",
+                "valueRequired": false,
+                "variableName": "scrn_weight_mri"
+            },
+            {
+                "isAbout": "items/scrn_claustrophob",
+                "isVis": "scrn_weight_mri == '0'",
+                "valueRequired": true,
+                "variableName": "scrn_claustrophob"
+            },
+            {
+                "isAbout": "items/scrn_claustrophobexcl",
+                "isVis": "scrn_claustrophob == '0'",
+                "valueRequired": true,
+                "variableName": "scrn_claustrophobexcl"
+            },
+            {
+                "isAbout": "items/scrn_note_lang",
+                "isVis": "scrn_claustrophob == '1' || scrn_claustrophobexcl == '0'",
+                "valueRequired": false,
+                "variableName": "scrn_note_lang"
+            },
+            {
+                "isAbout": "items/scrn_speakeng",
+                "isVis": "scrn_claustrophob == '1' || scrn_claustrophobexcl == '0'",
+                "valueRequired": true,
+                "variableName": "scrn_speakeng"
+            },
+            {
+                "isAbout": "items/scrn_fluency",
+                "isVis": "scrn_speakeng == '3'",
+                "valueRequired": true,
+                "variableName": "scrn_fluency"
+            },
+            {
+                "isAbout": "items/scrn_nonenglish",
+                "isVis": "scrn_fluency == '0' || scrn_speakeng == '0'",
+                "valueRequired": false,
+                "variableName": "scrn_nonenglish"
+            },
+            {
+                "isAbout": "items/scrn_behav_intro",
+                "isVis": "scrn_speakeng == '1' || scrn_fluency == '1'",
+                "valueRequired": false,
+                "variableName": "scrn_behav_intro"
+            },
+            {
+                "isAbout": "items/scrn_note_sensmot",
+                "isVis": "scrn_speakeng == '1' || scrn_fluency == '1'",
+                "valueRequired": false,
+                "variableName": "scrn_note_sensmot"
+            },
+            {
+                "isAbout": "items/scrn_percept",
+                "isVis": "scrn_speakeng == '1' || scrn_fluency == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_percept"
+            },
+            {
+                "isAbout": "items/scrn_perceptyesdsc",
+                "isVis": "scrn_percept == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_perceptyesdsc"
+            },
+            {
+                "isAbout": "items/scrn_percept_corr",
+                "isVis": "scrn_percept == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_percept_corr"
+            },
+            {
+                "isAbout": "items/scrn_note_test",
+                "isVis": "scrn_percept_corr == '1' || scrn_percept == '0'",
+                "valueRequired": false,
+                "variableName": "scrn_note_test"
+            },
+            {
+                "isAbout": "items/scrn_medical",
+                "isVis": "scrn_percept_corr == '1' || scrn_percept == '0'",
+                "valueRequired": false,
+                "variableName": "scrn_medical"
+            },
+            {
+                "isAbout": "items/scrn_cpalsy",
+                "isVis": "scrn_percept_corr == '1' || scrn_percept == '0'",
+                "valueRequired": true,
+                "variableName": "scrn_cpalsy"
+            },
+            {
+                "isAbout": "items/scrn_tumor",
+                "isVis": "scrn_percept_corr == '1' || scrn_percept == '0'",
+                "valueRequired": true,
+                "variableName": "scrn_tumor"
+            },
+            {
+                "isAbout": "items/scrn_stroke",
+                "isVis": "scrn_percept == '0' || scrn_percept_corr == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_stroke"
+            },
+            {
+                "isAbout": "items/scrn_aneurysm",
+                "isVis": "scrn_percept == '0' || scrn_percept_corr == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_aneurysm"
+            },
+            {
+                "isAbout": "items/scrn_hemorrhage",
+                "isVis": "scrn_percept == '0' || scrn_percept_corr == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_hemorrhage"
+            },
+            {
+                "isAbout": "items/scrn_hemotoma",
+                "isVis": "scrn_percept == '0' || scrn_percept_corr == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_hemotoma"
+            },
+            {
+                "isAbout": "items/scrn_medcond_other",
+                "isVis": "scrn_hemotoma == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_medcond_other"
+            },
+            {
+                "isAbout": "items/scrn_other_desc",
+                "isVis": "scrn_medcond_other == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_other_desc"
+            },
+            {
+                "isAbout": "items/scrn_epls",
+                "isVis": "scrn_medcond_other == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_epls"
+            },
+            {
+                "isAbout": "items/scrn_seizure",
+                "isVis": "scrn_epls == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_seizure"
+            },
+            {
+                "isAbout": "items/scrn_con_excl",
+                "isVis": "scrn_epls == '0' ||(scrn_epls == '1' && scrn_seizure == '0')",
+                "valueRequired": true,
+                "variableName": "scrn_con_excl"
+            },
+            {
+                "isAbout": "items/scrn_note_birthwt",
+                "isVis": "scrn_medcond_other == '0' || scrn_con_excl == '1' || scrn_con_excl == '2'",
+                "valueRequired": false,
+                "variableName": "scrn_note_birthwt"
+            },
+            {
+                "isAbout": "items/scrn_gestage",
+                "isVis": "scrn_medcond_other == '0' || scrn_con_excl == '1' || scrn_con_excl == '2'",
+                "valueRequired": true,
+                "variableName": "scrn_gestage"
+            },
+            {
+                "isAbout": "items/scrn_birthwt",
+                "isVis": "scrn_gestage == '0' || scrn_gestage == '2'",
+                "valueRequired": true,
+                "variableName": "scrn_birthwt"
+            },
+            {
+                "isAbout": "items/scrn_birthcomp",
+                "isVis": "scrn_birthwt == '0' || scrn_birthwt == '2'",
+                "valueRequired": true,
+                "variableName": "scrn_birthcomp"
+            },
+            {
+                "isAbout": "items/scrn_birthcomp_y",
+                "isVis": "scrn_birthcomp == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_birthcomp_y"
+            },
+            {
+                "isAbout": "items/scrn_note_perinstroke",
+                "isVis": "scrn_birthwt == '0' || scrn_birthwt == '2'",
+                "valueRequired": false,
+                "variableName": "scrn_note_perinstroke"
+            },
+            {
+                "isAbout": "items/scrn_birthcomp_excl",
+                "isVis": "scrn_birthcomp == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_birthcomp_excl"
+            },
+            {
+                "isAbout": "items/scrn_note_psychdx",
+                "isVis": "scrn_birthcomp == '0' || scrn_birthcomp_excl == '1' || scrn_birthcomp_excl == '2' || scrn_birthcomp == '2'",
+                "valueRequired": false,
+                "variableName": "scrn_note_psychdx"
+            },
+            {
+                "isAbout": "items/scrn_psychdxyes",
+                "isVis": "scrn_birthcomp_excl == '2' || scrn_birthcomp_excl == '1' || scrn_birthcomp == '0' || scrn_birthcomp == '2'",
+                "valueRequired": false,
+                "variableName": "scrn_psychdxyes"
+            },
+            {
+                "isAbout": "items/scrn_commondx",
+                "isVis": "scrn_birthcomp_excl == '2' || scrn_birthcomp_excl == '1' || scrn_birthcomp == '0' || scrn_birthcomp == '2'",
+                "valueRequired": true,
+                "variableName": "scrn_commondx"
+            },
+            {
+                "isAbout": "items/scrn_schiz",
+                "isVis": "scrn_birthcomp_excl == '2' || scrn_birthcomp_excl == '1' || scrn_birthcomp == '0' || scrn_birthcomp == '2'",
+                "valueRequired": true,
+                "variableName": "scrn_schiz"
+            },
+            {
+                "isAbout": "items/scrn_asd",
+                "isVis": "scrn_birthcomp_excl == '2' || scrn_birthcomp_excl == '1' || scrn_birthcomp == '0' || scrn_birthcomp == '2'",
+                "valueRequired": true,
+                "variableName": "scrn_asd"
+            },
+            {
+                "isAbout": "items/scrn_asd_regclasses",
+                "isVis": "scrn_asd == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_asd_regclasses"
+            },
+            {
+                "isAbout": "items/scrn_sud",
+                "isVis": "scrn_birthcomp_excl == '2' || scrn_birthcomp_excl == '1' || scrn_birthcomp == '0' || scrn_birthcomp == '2'",
+                "valueRequired": true,
+                "variableName": "scrn_sud"
+            },
+            {
+                "isAbout": "items/scrn_intdisab",
+                "isVis": "scrn_birthcomp_excl == '2' || scrn_birthcomp_excl == '1' || scrn_birthcomp == '0' || scrn_birthcomp == '2'",
+                "valueRequired": true,
+                "variableName": "scrn_intdisab"
+            },
+            {
+                "isAbout": "items/scrn_psychdx_other",
+                "isVis": "scrn_birthcomp_excl == '2' || scrn_birthcomp_excl == '1' || scrn_birthcomp == '0' || scrn_birthcomp == '2'",
+                "valueRequired": true,
+                "variableName": "scrn_psychdx_other"
+            },
+            {
+                "isAbout": "items/scrn_other_psych",
+                "isVis": "scrn_psychdx_other == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_other_psych"
+            },
+            {
+                "isAbout": "items/scrn_psych_excl",
+                "isVis": "scrn_psychdx_other == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_psych_excl"
+            },
+            {
+                "isAbout": "items/scrn_concerns_p",
+                "isVis": "scrn_psych_excl == '0' || scrn_psychdx_other == '0' || scrn_psych_excl == '2'",
+                "valueRequired": true,
+                "variableName": "scrn_concerns_p"
+            },
+            {
+                "isAbout": "items/scrn_concernsnotes_p",
+                "isVis": "scrn_concerns_p == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_concernsnotes_p"
+            },
+            {
+                "isAbout": "items/scrn_concerns_excl",
+                "isVis": "scrn_concerns_p == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_concerns_excl"
+            },
+            {
+                "isAbout": "items/scrn_note_tbi",
+                "isVis": "scrn_concerns_excl == '1' || scrn_concerns_p == '0' || scrn_concerns_excl == '2'",
+                "valueRequired": false,
+                "variableName": "scrn_note_tbi"
+            },
+            {
+                "isAbout": "items/scrn_tbi_loc",
+                "isVis": "scrn_concerns_p == '0' || scrn_concerns_excl == '1' || scrn_concerns_excl == '2'",
+                "valueRequired": true,
+                "variableName": "scrn_tbi_loc"
+            },
+            {
+                "isAbout": "items/scrn_tbi_mem",
+                "isVis": "scrn_tbi_loc == '0'",
+                "valueRequired": true,
+                "variableName": "scrn_tbi_mem"
+            },
+            {
+                "isAbout": "items/scrn_tbi_scan",
+                "isVis": "scrn_tbi_mem == '0'",
+                "valueRequired": true,
+                "variableName": "scrn_tbi_scan"
+            },
+            {
+                "isAbout": "items/scrn_tbi_scanreslt",
+                "isVis": "scrn_tbi_scan == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_tbi_scanreslt"
+            },
+            {
+                "isAbout": "items/scrn_tbi_scan_excl",
+                "isVis": "scrn_tbi_scan == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_tbi_scan_excl"
+            },
+            {
+                "isAbout": "items/scrn_brain_scn",
+                "isVis": "scrn_tbi_scan == '0' || scrn_tbi_scan_excl == '1' || scrn_tbi_scan_excl == '2'",
+                "valueRequired": true,
+                "variableName": "scrn_brain_scn"
+            },
+            {
+                "isAbout": "items/scrn_scan_results",
+                "isVis": "scrn_brain_scn == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_scan_results"
+            },
+            {
+                "isAbout": "items/scrn_abn_scan",
+                "isVis": "scrn_brain_scn == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_abn_scan"
+            },
+            {
+                "isAbout": "items/scrn_high_risk",
+                "isVis": "scrn_abn_scan == '1' || scrn_brain_scn == '0' || scrn_abn_scan == '2'",
+                "valueRequired": false,
+                "variableName": "scrn_high_risk"
+            },
+            {
+                "isAbout": "items/scrn_hr_intro",
+                "isVis": "scrn_abn_scan == '1' || scrn_brain_scn == '0' || scrn_abn_scan == '2'",
+                "valueRequired": false,
+                "variableName": "scrn_hr_intro"
+            },
+            {
+                "isAbout": "items/scrn_hr_script",
+                "isVis": "scrn_abn_scan == '1' || scrn_brain_scn == '0' || scrn_abn_scan == '2'",
+                "valueRequired": false,
+                "variableName": "scrn_hr_script"
+            },
+            {
+                "isAbout": "items/scrn_hr_school",
+                "isVis": "scrn_abn_scan == '1' || scrn_brain_scn == '0' || scrn_abn_scan == '2'",
+                "valueRequired": true,
+                "variableName": "scrn_hr_school"
+            },
+            {
+                "isAbout": "items/scrn_hr_disobey",
+                "isVis": "scrn_abn_scan == '1' || scrn_brain_scn == '0' || scrn_abn_scan == '2'",
+                "valueRequired": true,
+                "variableName": "scrn_hr_disobey"
+            },
+            {
+                "isAbout": "items/scrn_hr_sleep",
+                "isVis": "scrn_abn_scan == '1' || scrn_brain_scn == '0' || scrn_abn_scan == '2'",
+                "valueRequired": true,
+                "variableName": "scrn_hr_sleep"
+            },
+            {
+                "isAbout": "items/scrn_hr_fear",
+                "isVis": "scrn_abn_scan == '1' || scrn_brain_scn == '0' || scrn_abn_scan == '2'",
+                "valueRequired": true,
+                "variableName": "scrn_hr_fear"
+            },
+            {
+                "isAbout": "items/scrn_hr_liecheat",
+                "isVis": "scrn_abn_scan == '1' || scrn_brain_scn == '0' || scrn_abn_scan == '2'",
+                "valueRequired": true,
+                "variableName": "scrn_hr_liecheat"
+            },
+            {
+                "isAbout": "items/scrn_hr_music",
+                "isVis": "scrn_brain_scn == '0' || scrn_abn_scan == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_hr_music"
+            },
+            {
+                "isAbout": "items/scrn_hr_dep",
+                "isVis": "scrn_abn_scan == '1' || scrn_brain_scn == '0' || scrn_abn_scan == '2'",
+                "valueRequired": true,
+                "variableName": "scrn_hr_dep"
+            },
+            {
+                "isAbout": "items/scrn_hr_help",
+                "isVis": "scrn_abn_scan == '1' || scrn_brain_scn == '0' || scrn_abn_scan == '2'",
+                "valueRequired": true,
+                "variableName": "scrn_hr_help"
+            },
+            {
+                "isAbout": "items/scrn_hr_destroy",
+                "isVis": "scrn_abn_scan == '1' || scrn_brain_scn == '0' || scrn_abn_scan == '2'",
+                "valueRequired": true,
+                "variableName": "scrn_hr_destroy"
+            },
+            {
+                "isAbout": "items/scrn_hr_steal",
+                "isVis": "scrn_abn_scan == '1' || scrn_brain_scn == '0' || scrn_abn_scan == '2'",
+                "valueRequired": true,
+                "variableName": "scrn_hr_steal"
+            },
+            {
+                "isAbout": "items/scrn_hr_sport",
+                "isVis": "scrn_abn_scan == '1' || scrn_brain_scn == '0' || scrn_abn_scan == '2'",
+                "valueRequired": true,
+                "variableName": "scrn_hr_sport"
+            },
+            {
+                "isAbout": "items/scrn_hr_som",
+                "isVis": "scrn_abn_scan == '1' || scrn_brain_scn == '0' || scrn_abn_scan == '2'",
+                "valueRequired": true,
+                "variableName": "scrn_hr_som"
+            },
+            {
+                "isAbout": "items/scrn_hr_read",
+                "isVis": "scrn_abn_scan == '1' || scrn_brain_scn == '0' || scrn_abn_scan == '2'",
+                "valueRequired": true,
+                "variableName": "scrn_hr_read"
+            },
+            {
+                "isAbout": "items/scrn_hr_slowfriend",
+                "isVis": "scrn_brain_scn == '0' || scrn_abn_scan == '1'",
+                "valueRequired": true,
+                "variableName": "scrn_hr_slowfriend"
+            },
+            {
+                "isAbout": "items/scrn_hr_stress",
+                "isVis": "scrn_abn_scan == '1' || scrn_brain_scn == '0' || scrn_abn_scan == '2'",
+                "valueRequired": true,
+                "variableName": "scrn_hr_stress"
+            },
+            {
+                "isAbout": "items/scrn_hr_smoke",
+                "isVis": "scrn_abn_scan == '1' || scrn_brain_scn == '0' || scrn_abn_scan == '2'",
+                "valueRequired": true,
+                "variableName": "scrn_hr_smoke"
+            },
+            {
+                "isAbout": "items/scrn_hr_score0",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "scrn_hr_score0"
+            },
+            {
+                "isAbout": "items/scrn_hr_score1",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "scrn_hr_score1"
+            },
+            {
+                "isAbout": "items/scrn_hr_score2",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "scrn_hr_score2"
+            },
+            {
+                "isAbout": "items/zygos_quest",
+                "isVis": "scrn_abn_scan == '2' || scrn_abn_scan == '1' || scrn_brain_scn == '0'",
+                "valueRequired": false,
+                "variableName": "zygos_quest"
+            },
+            {
+                "isAbout": "items/twin_zygos",
+                "isVis": "zygos_quest___1 == '1'",
+                "valueRequired": false,
+                "variableName": "twin_zygos"
+            },
+            {
+                "isAbout": "items/zygos_q1",
+                "isVis": "zygos_quest___1 == '1'",
+                "valueRequired": false,
+                "variableName": "zygos_q1"
+            },
+            {
+                "isAbout": "items/zygos_q2",
+                "isVis": "zygos_quest___1 == '1'",
+                "valueRequired": false,
+                "variableName": "zygos_q2"
+            },
+            {
+                "isAbout": "items/zygos_q3",
+                "isVis": "zygos_quest___1 == '1'",
+                "valueRequired": false,
+                "variableName": "zygos_q3"
+            },
+            {
+                "isAbout": "items/zygos_q4",
+                "isVis": "zygos_quest___1 == '1'",
+                "valueRequired": false,
+                "variableName": "zygos_q4"
+            },
+            {
+                "isAbout": "items/zygos_q5",
+                "isVis": "zygos_quest___1 == '1'",
+                "valueRequired": false,
+                "variableName": "zygos_q5"
+            },
+            {
+                "isAbout": "items/zygos_q6",
+                "isVis": "zygos_quest___1 == '1'",
+                "valueRequired": false,
+                "variableName": "zygos_q6"
+            },
+            {
+                "isAbout": "items/scrn_race_ethn_edu_reason",
+                "isVis": "scrn_abn_scan == '1' || scrn_brain_scn == '0' || scrn_abn_scan == '2'",
+                "valueRequired": false,
+                "variableName": "scrn_race_ethn_edu_reason"
+            },
+            {
+                "isAbout": "items/scrn_ethn_hispanic",
+                "isVis": "scrn_abn_scan == '1' || scrn_brain_scn == '0' || scrn_abn_scan == '2'",
+                "valueRequired": false,
+                "variableName": "scrn_ethn_hispanic"
+            },
+            {
+                "isAbout": "items/scrn_race",
+                "isVis": "scrn_abn_scan == '1' || scrn_brain_scn == '0' || scrn_abn_scan == '2'",
+                "valueRequired": false,
+                "variableName": "scrn_race"
+            },
+            {
+                "isAbout": "items/scrn_edu",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "scrn_edu"
+            },
+            {
+                "isAbout": "items/scrn_edu_2",
+                "isVis": "scrn_abn_scan == '1' || scrn_brain_scn == '0' || scrn_abn_scan == '2'",
+                "valueRequired": false,
+                "variableName": "scrn_edu_2"
+            },
+            {
+                "isAbout": "items/scrn_priority_note",
+                "isVis": "scrn_edu_2 == '4' && scrn_race___5 == '1' &&(scrn_race___6 <> '1' && scrn_race___4 <> '1' && scrn_race___3 <> '1' && scrn_race___1 <> '1' && scrn_race___999 <> '1' && scrn_ethn_hispanic == '2')|| scrn_edu_2 == '4' && scrn_race___2 == '1' &&(scrn_race___6 <> '1' && scrn_race___3 <> '1' && scrn_race___4 <> '1' && scrn_race___1 <> '1' && scrn_race___999 <> '1' && scrn_ethn_hispanic == '2')||(scrn_edu == '0' || scrn_edu == '4')&& scrn_race___5 == '1' &&(scrn_race___6 <> '1' && scrn_race___4 <> '1' && scrn_race___3 <> '1' && scrn_race___1 <> '1' && scrn_race___999 <> '1' && scrn_ethn_hispanic == '2')||(scrn_edu == '0' || scrn_edu == '4')&& scrn_race___2 == '1' &&(scrn_race___6 <> '1' && scrn_race___3 <> '1' && scrn_race___4 <> '1' && scrn_race___1 <> '1' && scrn_race___999 <> '1' && scrn_ethn_hispanic == '2')",
+                "valueRequired": false,
+                "variableName": "scrn_priority_note"
+            },
+            {
+                "isAbout": "items/scrn_time",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "scrn_time"
+            },
+            {
+                "isAbout": "items/scrn_alt_status",
+                "isVis": "(scrn_met_injmdnote == '1' && scrn_brain_scn == '0')||(scrn_met_injmdnote == '1' && scrn_abn_scan == '1')||(scrn_met_excl == '2' && scrn_abn_scan == '1')||(scrn_met_excl == '2' && scrn_brain_scn == '0')||(scrn_con_excl == '2' && scrn_brain_scn == '0')||(scrn_con_excl == '2' && scrn_abn_scan == '1')||(scrn_psych_excl == '2' && scrn_abn_scan == '1')||(scrn_psych_excl == '2' && scrn_brain_scn == '0')||(scrn_birthcomp_excl == '2' && scrn_abn_scan == '1')||(scrn_birthcomp_excl == '2' && scrn_brain_scn == '0')||(scrn_concerns_excl == '2' && scrn_abn_scan == '1')||(scrn_concerns_excl == '2' && scrn_brain_scn == '0')||(scrn_braces == '2' && scrn_brain_scn == '0')||(scrn_abn_scan == '1' && scrn_braces == '2')|| scrn_abn_scan == '2' || scrn_tbi_scan_excl == '2'",
+                "valueRequired": false,
+                "variableName": "scrn_alt_status"
+            },
+            {
+                "isAbout": "items/scrn_drnote",
+                "isVis": "scrn_alt_status == '0'",
+                "valueRequired": false,
+                "variableName": "scrn_drnote"
+            },
+            {
+                "isAbout": "items/scrn_pi_consult",
+                "isVis": "scrn_alt_status == '1'",
+                "valueRequired": false,
+                "variableName": "scrn_pi_consult"
+            },
+            {
+                "isAbout": "items/scrn_status_2",
+                "isVis": "scrn_met_injremove == '0' || scrn_met_injmdnote == '0' || scrn_met_excl == '0' || scrn_nr_hair_metal == '1' || scrn_eyeliner == '1' || scrn_nr_piercing == '1' || scrn_claustrophob == '2' || scrn_claustrophobexcl == '1' || scrn_speakeng == '0' || scrn_fluency == '0' || scrn_percept_corr == '0' || scrn_cpalsy == '0' || scrn_tumor == '0' || scrn_stroke == '0' || scrn_aneurysm == '0' || scrn_hemorrhage == '0' || scrn_hemotoma == '0' || scrn_con_excl == '0' || scrn_gestage == '1' || scrn_birthwt == '1' || scrn_birthcomp_excl == '0' || scrn_schiz == '1' || scrn_asd_regclasses == '0' || scrn_sud == '1' || scrn_intdisab == '1' || scrn_psych_excl == '1' || scrn_concerns_excl == '0' || scrn_tbi_loc == '1' || scrn_tbi_mem == '1' || scrn_tbi_scan_excl == '0' || scrn_abn_scan == '0' || scrn_seizure == '1' || scrn_weight_mri == '1' ||(scrn_met_injmdnote <> '1' && scrn_met_excl <> '2' && scrn_con_excl <> '2' && scrn_psych_excl <> '2' && scrn_birthcomp_excl <> '2' && scrn_concerns_excl <> '2' && scrn_abn_scan <> '2' && scrn_braces <> '2' && scrn_tbi_scan_excl <> '2')|| scrn_alt_status == '2' || scrn_alt_status == '3'",
+                "valueRequired": false,
+                "variableName": "scrn_status_2"
+            },
+            {
+                "isAbout": "items/scrn_nonpriority",
+                "isVis": "scrn_status_2 == '0' && scrn_edu == '2' &&(scrn_race___4 <> '1' ||(scrn_race___4 == '1' && scrn_race___6 == '1' || scrn_race___5== '1' || scrn_race___3 == '1' || scrn_race___2 == '1' || scrn_race___1 == '1'))",
+                "valueRequired": false,
+                "variableName": "scrn_nonpriority"
+            },
+            {
+                "isAbout": "items/scrn_eligible",
+                "isVis": "scrn_status_2 == '0'",
+                "valueRequired": false,
+                "variableName": "scrn_eligible"
+            },
+            {
+                "isAbout": "items/scrn_dental_delay",
+                "isVis": "scrn_status_2 == '1'",
+                "valueRequired": false,
+                "variableName": "scrn_dental_delay"
+            },
+            {
+                "isAbout": "items/scrn_age_delay",
+                "isVis": "scrn_status_2 == '3'",
+                "valueRequired": false,
+                "variableName": "scrn_age_delay"
+            },
+            {
+                "isAbout": "items/scrn_ineligible",
+                "isVis": "scrn_status_2 == '2'",
+                "valueRequired": false,
+                "variableName": "scrn_ineligible"
+            },
+            {
+                "isAbout": "items/scrn_explain",
+                "isVis": "scrn_status_2 == '2'",
+                "valueRequired": false,
+                "variableName": "scrn_explain"
+            },
+            {
+                "isAbout": "items/screener_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "screener_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2206",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

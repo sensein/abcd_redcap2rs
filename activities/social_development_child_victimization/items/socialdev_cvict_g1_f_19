@@ -1,0 +1,36 @@
+{
+    "id": "socialdev_cvict_g1_f_19",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "G1 - Gun Victim"
+    },
+    "prefLabel": {
+        "en": "socialdev_cvict_g1_f_19"
+    },
+    "question": {
+        "en": "Any time you SAW a parent physically hurt his/her sibling"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

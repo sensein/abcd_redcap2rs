@@ -1,0 +1,50 @@
+{
+    "id": "medhx_4a_l",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "medhx_4a_l"
+    },
+    "question": {
+        "en": "Has he/she been to an emergency room since we last saw you?",
+        "es": "Desde la \u00c3\u00baltima vez que nos vimos en [asnt_timestamp_c], \u00c2\u00bfsu ni\u00c3\u00b1o(a) ha visitado una sala de emergencias?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't know",
+                    "es": "No S\u00c3\u00a9"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer",
+                    "es": "Niego contestar"
+                },
+                "value": 7
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

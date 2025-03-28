@@ -1,0 +1,61 @@
+{
+    "id": "hormon_sal_notes_y",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "1. Make sure participant hasnot eaten in the past 30 minutes (no food, snacks, beverages, gum, candy). After 20 minutes (10 minutes prior to collection) ask subject to rinse mouth with water to remove any remaining food particles.The sample should be frozen immediately after collection.  Do not collect interview data or other assessments from the participant while they are producing the saliva for this Salimetrics hormone sample.\r\n\r\n2. Instruct Participant:\"Allow saliva to form a pool in your mouth and try not to swallow.\" Tip your head down and gently and carefully push saliva through this large straw so your saliva can collect in the tube below.  Here it is important to drool and not spit so there are not a lot of bubbles or foam.\"NOTE:IFthe participant asks what the sample is for, say:\"This is to look at your hormones (chemicals in your body).\"\r\n\r\n\r\n3. Fill tube up to 1.5ml NOT including bubbles/foam. Participants having difficulty may stop at 1.0ml, but always try for 1.5ml in the tube without bubbles. Remove and discard saliva collection aid in regular trash once completed. Screw pink (female) or blue (male) cap securely on the tube, keep tube upright.\r\n\r\n4.  Affix one of the two barcode labels on the sample tube, place vertically to allow for scanning of the barcode. Scan barcode label into REDCap Hormone Saliva survey. Affix the duplicate label to the Biospecimen Site Form.Click here to access the detailed Pubertal Hormone Saliva SOP on Confluence."
+    },
+    "prefLabel": {
+        "en": "hormon_sal_notes_y"
+    },
+    "question": {
+        "en": "Note any concerns about sample (all that apply)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "None"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Contaminated"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Discoloration"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Excessive bubbles"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Very little saliva provided"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Other, specify"
+                },
+                "value": 6
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,39 @@
+{
+    "id": "scrn_psych_excl",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "scrn_psych_excl"
+    },
+    "question": {
+        "en": "Is a reported \"other\" psychological condition deemed exclusionary?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes - GO TO END"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Unsure - (Consult PI)"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,61 @@
+{
+    "id": "fam_history_7_yes_no",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "LH"
+        }
+    ],
+    "preamble": {
+        "en": "The following are questions about people in your child's family. I only need to know about people who are your child's blood relatives, such as biological mother and father, the child's grandparents, your child's aunts and uncles (siblings of the biological mother/father), and your child's siblings.",
+        "es": "Las siguientes son preguntas sobr\u00c3\u00a9 las personas que integran la familia de su ni\u00c3\u00b1o(a). Solamente necesitamos informaci\u00c3\u00b3n sobre los familiares consangu\u00c3\u00adneos de su ni\u00c3\u00b1o(a),como por  ejemplo  la madre  y el padre biol\u00c3\u00b3gico de su ni\u00c3\u00b1o/a, as\u00c3\u00ad como los abuelos de su ni\u00c3\u00b1o(a), los t\u00c3\u00ados de su ni\u00c3\u00b1o(a) (los hermanos de la madre y el padre biol\u00c3\u00b3gicos) y los hermanos de su ni\u00c3\u00b1o(a)."
+    },
+    "prefLabel": {
+        "en": "fam_history_7_yes_no"
+    },
+    "question": {
+        "en": "7. Has ANY blood relative of your child ever had a period of time when others were concerned  because they suddenly became more active day and night and seemed not to need any sleep and talked much more than usual for them?",
+        "es": "\u00c2\u00bfALG\u00c3\u009aN pariente consangu\u00c3\u00adneo de su ni\u00c3\u00b1o(a) ha pasado alguna vez por un per\u00c3\u00adodo en el que otras personas se preocuparan por \u00c3\u00a9l o ella porque repentinamente se volvi\u00c3\u00b3  m\u00c3\u00a1s activo(a) de d\u00c3\u00ada y de noche, parec\u00c3\u00ada no necesitar dormir y hablaba mucho m\u00c3\u00a1s de lo normal para \u00c3\u00a9l o ella?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't know",
+                    "es": "No lo s\u00c3\u00a9"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer",
+                    "es": "Niego contestar"
+                },
+                "value": 7
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

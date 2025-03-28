@@ -1,0 +1,68 @@
+{
+    "id": "demo_sex_v2_l",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Demographics Longitudinal Variables"
+    },
+    "prefLabel": {
+        "en": "demo_sex_v2_l"
+    },
+    "question": {
+        "en": "Sex Assigned at Birth"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Male"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Female"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Intersex-Male"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Intersex-Female"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer"
+                },
+                "value": 7
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

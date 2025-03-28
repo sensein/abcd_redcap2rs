@@ -1,0 +1,67 @@
+{
+    "id": "gen_child_behav_5",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "5"
+        },
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "general_child_behavior"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "5"
+        }
+    ],
+    "prefLabel": {
+        "en": "gen_child_behav_5"
+    },
+    "question": {
+        "en": "Have there been times of several days or more when, although your child was feeling unusually happy and intensely energetic (clearly more than his/her usual self), he/she also had to struggle very hard to control inner feelings of rage or an urge to smash or destroy things?",
+        "es": "\u00c2\u00bfHan habido per\u00c3\u00adodos de varios d\u00c3\u00adas o m\u00c3\u00a1s en los que, a pesar de sentirse inusualmente feliz y con un nivel intenso de energ\u00c3\u00ada (claramente m\u00c3\u00a1s de lo normal para \u00c3\u00a9l/ella), tambi\u00c3\u00a9n tuvo su ni\u00c3\u00b1o(a) que batallar muy duro para controlar sus sentimientos internos de ira o una necesidad de destrozar o destruir cosas?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never - Hardly ever",
+                    "es": "Nunca o casi nunca"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Sometimes",
+                    "es": "A veces"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Often",
+                    "es": "Con frecuencia"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Very often - almost constantly",
+                    "es": "Con mucha frecuencia - casi constantemente"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

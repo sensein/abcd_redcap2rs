@@ -1,0 +1,66 @@
+{
+    "id": "fitpo_unusual_routine_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "fitpo_followup_p"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20181006"
+        }
+    ],
+    "preamble": {
+        "en": "Please think back to the 3 weeks your child wore the Fitbit.",
+        "es": "Piense en las 3 semanas que su hijo/a us\u00c3\u00b3 el Fitbit."
+    },
+    "prefLabel": {
+        "en": "fitpo_unusual_routine_p"
+    },
+    "question": {
+        "en": "Did anything unusual happen that changed your child's usual routine and changed his/her physical activity and/or sleep (e.g., had visitors staying in your house, got a pet)?",
+        "es": "\u00c2\u00bfSucedi\u00c3\u00b3 algo raro que cambi\u00c3\u00b3 la rutina normal de su hijo/a y cambi\u00c3\u00b3 su actividad f\u00c3\u00adsica y/o sus h\u00c3\u00a1bitos de sue\u00c3\u00b1o (por ejemplo, si hab\u00c3\u00ada visitas en casa o si reci\u00c3\u00a9n lleg\u00c3\u00b3 una mascota)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "First Week",
+                    "es": "Primera semana"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Second Week",
+                    "es": "Segunda semana"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Third Week",
+                    "es": "Tercera semana"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Not applicable"
+                },
+                "value": 0
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

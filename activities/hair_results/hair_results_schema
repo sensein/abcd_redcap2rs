@@ -1,0 +1,213 @@
+{
+    "id": "hair_results_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "hair_results"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/hair_results_lan",
+            "items/hair_results_entityid",
+            "items/hair_results_clientcode",
+            "items/hair_results_section_begin",
+            "items/hair_results_section_end",
+            "items/hair_results_cocaine_scrn",
+            "items/hair_results_opiates_scrn",
+            "items/hair_results_pcp_scrn",
+            "items/hair_results_meth_scrn",
+            "items/hair_results_thc_scrn",
+            "items/hair_results_etg_scrn",
+            "items/hair_results_cotinine_scrn",
+            "items/hair_results_adderal_scrn",
+            "items/hair_results_benzos1_scrn",
+            "items/hair_results_benzos2_scrn",
+            "items/hair_results_sample_weight",
+            "items/hair_results_meth_confirm",
+            "items/hair_results_amp_confirm",
+            "items/hair_results_cthc_confirm",
+            "items/hair_results_etg_confirm",
+            "items/hair_results_cot_confirm",
+            "items/hair_results_norocot_confirm",
+            "items/hair_results_thc_confirm",
+            "items/hair_results_cbn_confirm",
+            "items/hair_results_cbd_confirm",
+            "items/hair_results_thcv_confirm",
+            "items/hair_results_unexpected",
+            "items/hair_results_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/hair_results_lan",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "hair_results_lan"
+            },
+            {
+                "isAbout": "items/hair_results_entityid",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "hair_results_entityid"
+            },
+            {
+                "isAbout": "items/hair_results_clientcode",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "hair_results_clientcode"
+            },
+            {
+                "isAbout": "items/hair_results_section_begin",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "hair_results_section_begin"
+            },
+            {
+                "isAbout": "items/hair_results_section_end",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "hair_results_section_end"
+            },
+            {
+                "isAbout": "items/hair_results_cocaine_scrn",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "hair_results_cocaine_scrn"
+            },
+            {
+                "isAbout": "items/hair_results_opiates_scrn",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "hair_results_opiates_scrn"
+            },
+            {
+                "isAbout": "items/hair_results_pcp_scrn",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "hair_results_pcp_scrn"
+            },
+            {
+                "isAbout": "items/hair_results_meth_scrn",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "hair_results_meth_scrn"
+            },
+            {
+                "isAbout": "items/hair_results_thc_scrn",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "hair_results_thc_scrn"
+            },
+            {
+                "isAbout": "items/hair_results_etg_scrn",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "hair_results_etg_scrn"
+            },
+            {
+                "isAbout": "items/hair_results_cotinine_scrn",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "hair_results_cotinine_scrn"
+            },
+            {
+                "isAbout": "items/hair_results_adderal_scrn",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "hair_results_adderal_scrn"
+            },
+            {
+                "isAbout": "items/hair_results_benzos1_scrn",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "hair_results_benzos1_scrn"
+            },
+            {
+                "isAbout": "items/hair_results_benzos2_scrn",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "hair_results_benzos2_scrn"
+            },
+            {
+                "isAbout": "items/hair_results_sample_weight",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "hair_results_sample_weight"
+            },
+            {
+                "isAbout": "items/hair_results_meth_confirm",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "hair_results_meth_confirm"
+            },
+            {
+                "isAbout": "items/hair_results_amp_confirm",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "hair_results_amp_confirm"
+            },
+            {
+                "isAbout": "items/hair_results_cthc_confirm",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "hair_results_cthc_confirm"
+            },
+            {
+                "isAbout": "items/hair_results_etg_confirm",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "hair_results_etg_confirm"
+            },
+            {
+                "isAbout": "items/hair_results_cot_confirm",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "hair_results_cot_confirm"
+            },
+            {
+                "isAbout": "items/hair_results_norocot_confirm",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "hair_results_norocot_confirm"
+            },
+            {
+                "isAbout": "items/hair_results_thc_confirm",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "hair_results_thc_confirm"
+            },
+            {
+                "isAbout": "items/hair_results_cbn_confirm",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "hair_results_cbn_confirm"
+            },
+            {
+                "isAbout": "items/hair_results_cbd_confirm",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "hair_results_cbd_confirm"
+            },
+            {
+                "isAbout": "items/hair_results_thcv_confirm",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "hair_results_thcv_confirm"
+            },
+            {
+                "isAbout": "items/hair_results_unexpected",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "hair_results_unexpected"
+            },
+            {
+                "isAbout": "items/hair_results_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "hair_results_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2206",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
