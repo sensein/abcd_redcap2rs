@@ -1,0 +1,34 @@
+{
+    "id": "ra_fb_3yr_strp_time",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "time"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDEBUTTON"
+        }
+    ],
+    "preamble": {
+        "en": "Please use this form to document both NeuroCog tasks start and end time AND any feedback regarding the 3-year follow-up YOUTH protocol elements. \n\nInput information on REDCap related issues such as typos, branching logic, redundancy or omissions, etc.; \nconcerns about the wording or meaning of items; pilot's observations; checklists, SOP(s), etc."
+    },
+    "prefLabel": {
+        "en": "ra_fb_3yr_strp_time"
+    },
+    "question": {
+        "en": "Time to Complete Emotional Stroop.\r\nPlease enter in this format -  HH:MM\r\nFor example, 30 min = 00:30."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:time"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
