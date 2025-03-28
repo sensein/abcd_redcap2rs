@@ -1,0 +1,59 @@
+{
+    "id": "ysr_q56c",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "56c"
+        },
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "ysr_q56a_q56d"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "56c"
+        }
+    ],
+    "preamble": {
+        "en": "Physical problems without known medical cause"
+    },
+    "prefLabel": {
+        "en": "ysr_q56c"
+    },
+    "question": {
+        "en": "Nausea, feel sick"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not True"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Somewhat or Sometimes True"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Very True or Often True"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

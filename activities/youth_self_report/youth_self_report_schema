@@ -1,0 +1,976 @@
+{
+    "id": "youth_self_report_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "youth_self_report"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ysr_q1",
+            "items/ysr_q2",
+            "items/ysr_q2_describe",
+            "items/ysr_q3",
+            "items/ysr_q4",
+            "items/ysr_q5",
+            "items/ysr_q6",
+            "items/ysr_q7",
+            "items/ysr_q8",
+            "items/ysr_q9",
+            "items/ysr_q9_describe",
+            "items/ysr_q10",
+            "items/ysr_q11",
+            "items/ysr_q12",
+            "items/ysr_q13",
+            "items/ysr_q14",
+            "items/ysr_q15",
+            "items/ysr_q16",
+            "items/ysr_q17",
+            "items/ysr_q18",
+            "items/ysr_q19",
+            "items/ysr_q20",
+            "items/ysr_q21",
+            "items/ysr_q22",
+            "items/ysr_q23",
+            "items/ysr_q24",
+            "items/ysr_q25",
+            "items/ysr_q26",
+            "items/ysr_q27",
+            "items/ysr_q28",
+            "items/ysr_q29",
+            "items/ysr_q29_describe",
+            "items/ysr_q30",
+            "items/ysr_q31",
+            "items/ysr_q32",
+            "items/ysr_q33",
+            "items/ysr_q34",
+            "items/ysr_q35",
+            "items/ysr_q36",
+            "items/ysr_q37",
+            "items/ysr_q38",
+            "items/ysr_q39",
+            "items/ysr_q40",
+            "items/ysr_q40_describe",
+            "items/ysr_q41",
+            "items/ysr_q42",
+            "items/ysr_q43",
+            "items/ysr_q44",
+            "items/ysr_q45",
+            "items/ysr_q46",
+            "items/ysr_q46_describe",
+            "items/ysr_q47",
+            "items/ysr_q48",
+            "items/ysr_q49",
+            "items/ysr_q50",
+            "items/ysr_q51",
+            "items/ysr_q52",
+            "items/ysr_q53",
+            "items/ysr_q54",
+            "items/ysr_q55",
+            "items/ysr_q56a",
+            "items/ysr_q56b",
+            "items/ysr_q56c",
+            "items/ysr_q56d",
+            "items/ysr_q56d_describe",
+            "items/ysr_q56e",
+            "items/ysr_q56f",
+            "items/ysr_q56g",
+            "items/ysr_q56h",
+            "items/ysr_q56h_describe",
+            "items/ysr_q57",
+            "items/ysr_q58",
+            "items/ysr_q58_describe",
+            "items/ysr_q59",
+            "items/ysr_q60",
+            "items/ysr_q61",
+            "items/ysr_q62",
+            "items/ysr_q63",
+            "items/ysr_q64",
+            "items/ysr_q65",
+            "items/ysr_q66",
+            "items/ysr_q66_describe",
+            "items/ysr_q67",
+            "items/ysr_q68",
+            "items/ysr_q69",
+            "items/ysr_q70",
+            "items/ysr_q70_describe",
+            "items/ysr_q71",
+            "items/ysr_q72",
+            "items/ysr_q73",
+            "items/ysr_q74",
+            "items/ysr_q75",
+            "items/ysr_q76",
+            "items/ysr_q77",
+            "items/ysr_q77_describe",
+            "items/ysr_q78",
+            "items/ysr_q79",
+            "items/ysr_q79_describe",
+            "items/ysr_q80",
+            "items/ysr_q81",
+            "items/ysr_q82",
+            "items/ysr_q83",
+            "items/ysr_q83_describe",
+            "items/ysr_q84",
+            "items/ysr_q84_describe",
+            "items/ysr_q85",
+            "items/ysr_q85_describe",
+            "items/ysr_q86",
+            "items/ysr_q87",
+            "items/ysr_q88",
+            "items/ysr_q89",
+            "items/ysr_q90",
+            "items/ysr_q91",
+            "items/ysr_q92",
+            "items/ysr_q93",
+            "items/ysr_q94",
+            "items/ysr_q95",
+            "items/ysr_q96",
+            "items/ysr_q97",
+            "items/ysr_q98",
+            "items/ysr_q99",
+            "items/ysr_q100",
+            "items/ysr_q100_describe",
+            "items/ysr_q101",
+            "items/ysr_q102",
+            "items/ysr_q103",
+            "items/ysr_q104",
+            "items/ysr_q105",
+            "items/ysr_q105_describe",
+            "items/ysr_q106",
+            "items/ysr_q107",
+            "items/ysr_q108",
+            "items/ysr_q109",
+            "items/ysr_q110",
+            "items/ysr_q111",
+            "items/ysr_q112",
+            "items/youth_self_report_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ysr_q1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q1"
+            },
+            {
+                "isAbout": "items/ysr_q2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q2"
+            },
+            {
+                "isAbout": "items/ysr_q2_describe",
+                "isVis": "ysr_q2 == '1' || ysr_q2 == '2'",
+                "valueRequired": true,
+                "variableName": "ysr_q2_describe"
+            },
+            {
+                "isAbout": "items/ysr_q3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q3"
+            },
+            {
+                "isAbout": "items/ysr_q4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q4"
+            },
+            {
+                "isAbout": "items/ysr_q5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q5"
+            },
+            {
+                "isAbout": "items/ysr_q6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q6"
+            },
+            {
+                "isAbout": "items/ysr_q7",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q7"
+            },
+            {
+                "isAbout": "items/ysr_q8",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q8"
+            },
+            {
+                "isAbout": "items/ysr_q9",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q9"
+            },
+            {
+                "isAbout": "items/ysr_q9_describe",
+                "isVis": "ysr_q9 == '1' || ysr_q9 == '2'",
+                "valueRequired": true,
+                "variableName": "ysr_q9_describe"
+            },
+            {
+                "isAbout": "items/ysr_q10",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q10"
+            },
+            {
+                "isAbout": "items/ysr_q11",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q11"
+            },
+            {
+                "isAbout": "items/ysr_q12",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q12"
+            },
+            {
+                "isAbout": "items/ysr_q13",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q13"
+            },
+            {
+                "isAbout": "items/ysr_q14",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q14"
+            },
+            {
+                "isAbout": "items/ysr_q15",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q15"
+            },
+            {
+                "isAbout": "items/ysr_q16",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q16"
+            },
+            {
+                "isAbout": "items/ysr_q17",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q17"
+            },
+            {
+                "isAbout": "items/ysr_q18",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q18"
+            },
+            {
+                "isAbout": "items/ysr_q19",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q19"
+            },
+            {
+                "isAbout": "items/ysr_q20",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q20"
+            },
+            {
+                "isAbout": "items/ysr_q21",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q21"
+            },
+            {
+                "isAbout": "items/ysr_q22",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q22"
+            },
+            {
+                "isAbout": "items/ysr_q23",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q23"
+            },
+            {
+                "isAbout": "items/ysr_q24",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q24"
+            },
+            {
+                "isAbout": "items/ysr_q25",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q25"
+            },
+            {
+                "isAbout": "items/ysr_q26",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q26"
+            },
+            {
+                "isAbout": "items/ysr_q27",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q27"
+            },
+            {
+                "isAbout": "items/ysr_q28",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q28"
+            },
+            {
+                "isAbout": "items/ysr_q29",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q29"
+            },
+            {
+                "isAbout": "items/ysr_q29_describe",
+                "isVis": "ysr_q29 == '1' || ysr_q29 == '2'",
+                "valueRequired": true,
+                "variableName": "ysr_q29_describe"
+            },
+            {
+                "isAbout": "items/ysr_q30",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q30"
+            },
+            {
+                "isAbout": "items/ysr_q31",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q31"
+            },
+            {
+                "isAbout": "items/ysr_q32",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q32"
+            },
+            {
+                "isAbout": "items/ysr_q33",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q33"
+            },
+            {
+                "isAbout": "items/ysr_q34",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q34"
+            },
+            {
+                "isAbout": "items/ysr_q35",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q35"
+            },
+            {
+                "isAbout": "items/ysr_q36",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q36"
+            },
+            {
+                "isAbout": "items/ysr_q37",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q37"
+            },
+            {
+                "isAbout": "items/ysr_q38",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q38"
+            },
+            {
+                "isAbout": "items/ysr_q39",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q39"
+            },
+            {
+                "isAbout": "items/ysr_q40",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q40"
+            },
+            {
+                "isAbout": "items/ysr_q40_describe",
+                "isVis": "ysr_q40 == '1' || ysr_q40 == '2'",
+                "valueRequired": true,
+                "variableName": "ysr_q40_describe"
+            },
+            {
+                "isAbout": "items/ysr_q41",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q41"
+            },
+            {
+                "isAbout": "items/ysr_q42",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q42"
+            },
+            {
+                "isAbout": "items/ysr_q43",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q43"
+            },
+            {
+                "isAbout": "items/ysr_q44",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q44"
+            },
+            {
+                "isAbout": "items/ysr_q45",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q45"
+            },
+            {
+                "isAbout": "items/ysr_q46",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q46"
+            },
+            {
+                "isAbout": "items/ysr_q46_describe",
+                "isVis": "ysr_q46 == '1' || ysr_q46 == '2'",
+                "valueRequired": true,
+                "variableName": "ysr_q46_describe"
+            },
+            {
+                "isAbout": "items/ysr_q47",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q47"
+            },
+            {
+                "isAbout": "items/ysr_q48",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q48"
+            },
+            {
+                "isAbout": "items/ysr_q49",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q49"
+            },
+            {
+                "isAbout": "items/ysr_q50",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q50"
+            },
+            {
+                "isAbout": "items/ysr_q51",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q51"
+            },
+            {
+                "isAbout": "items/ysr_q52",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q52"
+            },
+            {
+                "isAbout": "items/ysr_q53",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q53"
+            },
+            {
+                "isAbout": "items/ysr_q54",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q54"
+            },
+            {
+                "isAbout": "items/ysr_q55",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q55"
+            },
+            {
+                "isAbout": "items/ysr_q56a",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q56a"
+            },
+            {
+                "isAbout": "items/ysr_q56b",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q56b"
+            },
+            {
+                "isAbout": "items/ysr_q56c",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q56c"
+            },
+            {
+                "isAbout": "items/ysr_q56d",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q56d"
+            },
+            {
+                "isAbout": "items/ysr_q56d_describe",
+                "isVis": "ysr_q56d == '1' || ysr_q56d == '2'",
+                "valueRequired": true,
+                "variableName": "ysr_q56d_describe"
+            },
+            {
+                "isAbout": "items/ysr_q56e",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q56e"
+            },
+            {
+                "isAbout": "items/ysr_q56f",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q56f"
+            },
+            {
+                "isAbout": "items/ysr_q56g",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q56g"
+            },
+            {
+                "isAbout": "items/ysr_q56h",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q56h"
+            },
+            {
+                "isAbout": "items/ysr_q56h_describe",
+                "isVis": "ysr_q56h == '1' || ysr_q56h == '2'",
+                "valueRequired": true,
+                "variableName": "ysr_q56h_describe"
+            },
+            {
+                "isAbout": "items/ysr_q57",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q57"
+            },
+            {
+                "isAbout": "items/ysr_q58",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q58"
+            },
+            {
+                "isAbout": "items/ysr_q58_describe",
+                "isVis": "ysr_q58 == '1' || ysr_q58 == '2'",
+                "valueRequired": true,
+                "variableName": "ysr_q58_describe"
+            },
+            {
+                "isAbout": "items/ysr_q59",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q59"
+            },
+            {
+                "isAbout": "items/ysr_q60",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q60"
+            },
+            {
+                "isAbout": "items/ysr_q61",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q61"
+            },
+            {
+                "isAbout": "items/ysr_q62",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q62"
+            },
+            {
+                "isAbout": "items/ysr_q63",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q63"
+            },
+            {
+                "isAbout": "items/ysr_q64",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q64"
+            },
+            {
+                "isAbout": "items/ysr_q65",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q65"
+            },
+            {
+                "isAbout": "items/ysr_q66",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q66"
+            },
+            {
+                "isAbout": "items/ysr_q66_describe",
+                "isVis": "ysr_q66 == '1' || ysr_q66 == '2'",
+                "valueRequired": true,
+                "variableName": "ysr_q66_describe"
+            },
+            {
+                "isAbout": "items/ysr_q67",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q67"
+            },
+            {
+                "isAbout": "items/ysr_q68",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q68"
+            },
+            {
+                "isAbout": "items/ysr_q69",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q69"
+            },
+            {
+                "isAbout": "items/ysr_q70",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q70"
+            },
+            {
+                "isAbout": "items/ysr_q70_describe",
+                "isVis": "ysr_q70 == '1' || ysr_q70 == '2'",
+                "valueRequired": true,
+                "variableName": "ysr_q70_describe"
+            },
+            {
+                "isAbout": "items/ysr_q71",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q71"
+            },
+            {
+                "isAbout": "items/ysr_q72",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q72"
+            },
+            {
+                "isAbout": "items/ysr_q73",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q73"
+            },
+            {
+                "isAbout": "items/ysr_q74",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q74"
+            },
+            {
+                "isAbout": "items/ysr_q75",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q75"
+            },
+            {
+                "isAbout": "items/ysr_q76",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q76"
+            },
+            {
+                "isAbout": "items/ysr_q77",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q77"
+            },
+            {
+                "isAbout": "items/ysr_q77_describe",
+                "isVis": "ysr_q77 == '1' || ysr_q77 == '2'",
+                "valueRequired": true,
+                "variableName": "ysr_q77_describe"
+            },
+            {
+                "isAbout": "items/ysr_q78",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q78"
+            },
+            {
+                "isAbout": "items/ysr_q79",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q79"
+            },
+            {
+                "isAbout": "items/ysr_q79_describe",
+                "isVis": "ysr_q79 == '1' || ysr_q79 == '2'",
+                "valueRequired": true,
+                "variableName": "ysr_q79_describe"
+            },
+            {
+                "isAbout": "items/ysr_q80",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q80"
+            },
+            {
+                "isAbout": "items/ysr_q81",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q81"
+            },
+            {
+                "isAbout": "items/ysr_q82",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q82"
+            },
+            {
+                "isAbout": "items/ysr_q83",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q83"
+            },
+            {
+                "isAbout": "items/ysr_q83_describe",
+                "isVis": "ysr_q83 == '1' || ysr_q83 == '2'",
+                "valueRequired": true,
+                "variableName": "ysr_q83_describe"
+            },
+            {
+                "isAbout": "items/ysr_q84",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q84"
+            },
+            {
+                "isAbout": "items/ysr_q84_describe",
+                "isVis": "ysr_q84 == '1' || ysr_q84 == '2'",
+                "valueRequired": true,
+                "variableName": "ysr_q84_describe"
+            },
+            {
+                "isAbout": "items/ysr_q85",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q85"
+            },
+            {
+                "isAbout": "items/ysr_q85_describe",
+                "isVis": "ysr_q85 == '1' || ysr_q85 == '2'",
+                "valueRequired": true,
+                "variableName": "ysr_q85_describe"
+            },
+            {
+                "isAbout": "items/ysr_q86",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q86"
+            },
+            {
+                "isAbout": "items/ysr_q87",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q87"
+            },
+            {
+                "isAbout": "items/ysr_q88",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q88"
+            },
+            {
+                "isAbout": "items/ysr_q89",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q89"
+            },
+            {
+                "isAbout": "items/ysr_q90",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q90"
+            },
+            {
+                "isAbout": "items/ysr_q91",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q91"
+            },
+            {
+                "isAbout": "items/ysr_q92",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q92"
+            },
+            {
+                "isAbout": "items/ysr_q93",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q93"
+            },
+            {
+                "isAbout": "items/ysr_q94",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q94"
+            },
+            {
+                "isAbout": "items/ysr_q95",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q95"
+            },
+            {
+                "isAbout": "items/ysr_q96",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q96"
+            },
+            {
+                "isAbout": "items/ysr_q97",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q97"
+            },
+            {
+                "isAbout": "items/ysr_q98",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q98"
+            },
+            {
+                "isAbout": "items/ysr_q99",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q99"
+            },
+            {
+                "isAbout": "items/ysr_q100",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q100"
+            },
+            {
+                "isAbout": "items/ysr_q100_describe",
+                "isVis": "ysr_q100 == '1' || ysr_q100 == '2'",
+                "valueRequired": true,
+                "variableName": "ysr_q100_describe"
+            },
+            {
+                "isAbout": "items/ysr_q101",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q101"
+            },
+            {
+                "isAbout": "items/ysr_q102",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q102"
+            },
+            {
+                "isAbout": "items/ysr_q103",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q103"
+            },
+            {
+                "isAbout": "items/ysr_q104",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q104"
+            },
+            {
+                "isAbout": "items/ysr_q105",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q105"
+            },
+            {
+                "isAbout": "items/ysr_q105_describe",
+                "isVis": "ysr_q105 == '1' || ysr_q105 == '2'",
+                "valueRequired": true,
+                "variableName": "ysr_q105_describe"
+            },
+            {
+                "isAbout": "items/ysr_q106",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q106"
+            },
+            {
+                "isAbout": "items/ysr_q107",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q107"
+            },
+            {
+                "isAbout": "items/ysr_q108",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q108"
+            },
+            {
+                "isAbout": "items/ysr_q109",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q109"
+            },
+            {
+                "isAbout": "items/ysr_q110",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q110"
+            },
+            {
+                "isAbout": "items/ysr_q111",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q111"
+            },
+            {
+                "isAbout": "items/ysr_q112",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ysr_q112"
+            },
+            {
+                "isAbout": "items/youth_self_report_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "youth_self_report_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2230",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
