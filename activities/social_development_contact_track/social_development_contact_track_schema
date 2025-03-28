@@ -10,7 +10,6 @@
             "items/sched_visit_structure_v2",
             "items/socialdev_contact_date_v",
             "items/socialdev_contact_type_v",
-            "items/socialdev_contact_count_v",
             "items/socialdev_contact_note_v",
             "items/socialdev_contact_result_v",
             "items/social_development_contact_track_complete"
@@ -35,12 +34,6 @@
                 "variableName": "socialdev_contact_type_v"
             },
             {
-                "isAbout": "items/socialdev_contact_count_v",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "socialdev_contact_count_v"
-            },
-            {
                 "isAbout": "items/socialdev_contact_note_v",
                 "isVis": true,
                 "valueRequired": false,
@@ -61,6 +54,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2305",
+    "version": "revid2306",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
