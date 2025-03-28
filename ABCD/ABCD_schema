@@ -264,7 +264,11 @@
             "../activities/breast_feeding_questionaire/breast_feeding_questionaire_schema",
             "../activities/ders_parent/ders_parent_schema",
             "../activities/erq_feelings_self/erq_feelings_self_schema",
-            "../activities/international_physical_activity_q/international_physical_activity_q_schema"
+            "../activities/international_physical_activity_q/international_physical_activity_q_schema",
+            "../activities/neglectful_behavior/neglectful_behavior_schema",
+            "../activities/perceived_stress/perceived_stress_schema",
+            "../activities/pet_ownership/pet_ownership_schema",
+            "../activities/p_ra_feedback_3yr_pilot/p_ra_feedback_3yr_pilot_schema"
         ],
         "addProperties": [
             {
@@ -2306,10 +2310,42 @@
                     "en": "International Physical Activity Q"
                 },
                 "variableName": "international_physical_activity_q_schema"
+            },
+            {
+                "isAbout": "../activities/neglectful_behavior/neglectful_behavior_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Neglectful Behavior"
+                },
+                "variableName": "neglectful_behavior_schema"
+            },
+            {
+                "isAbout": "../activities/perceived_stress/perceived_stress_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Perceived Stress"
+                },
+                "variableName": "perceived_stress_schema"
+            },
+            {
+                "isAbout": "../activities/pet_ownership/pet_ownership_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Pet Ownership"
+                },
+                "variableName": "pet_ownership_schema"
+            },
+            {
+                "isAbout": "../activities/p_ra_feedback_3yr_pilot/p_ra_feedback_3yr_pilot_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "P Ra Feedback 3Yr Pilot"
+                },
+                "variableName": "p_ra_feedback_3yr_pilot_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2226",
+    "version": "revid2227",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
