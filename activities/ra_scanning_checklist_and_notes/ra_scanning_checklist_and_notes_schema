@@ -43,24 +43,24 @@
             "items/ra_dti_scan_notes",
             "items/ra_scan_check_list_rsc",
             "items/restscan_notes",
-            "items/ra_scan_cl_mid_scan_lap",
             "items/ra_scan_check_mid_earn",
             "items/ra_scan_cl_mid_scan",
             "items/ra_scan_cl_mid_lap",
             "items/mid_notes",
             "items/ra_scan_cl_nback_scan",
             "items/ra_scan_cl_nback_lap",
-            "items/ra_scan_cl_nbac_scan_lap",
             "items/nback_notes",
             "items/ra_scan_cl_sst_scan",
             "items/ra_scan_cl_sst_lap",
-            "items/ra_scan_cl_sst_scan_lap",
             "items/sst_notes",
             "items/ra_scan_check_list_pnotes",
             "items/eprime_notes",
             "items/ra_scan_check_list_rcom",
+            "items/ra_scan_cl_mid_scan_lap",
             "items/ra_scan_check_list_vemorc",
+            "items/ra_scan_cl_nbac_scan_lap",
             "items/ra_scan_check_list_sstrc",
+            "items/ra_scan_cl_sst_scan_lap",
             "items/scan_op_initials",
             "items/ra_scan_entry",
             "items/ra_scanning_checklist_and_notes_complete"
@@ -283,12 +283,6 @@
                 "variableName": "restscan_notes"
             },
             {
-                "isAbout": "items/ra_scan_cl_mid_scan_lap",
-                "isVis": false,
-                "valueRequired": true,
-                "variableName": "ra_scan_cl_mid_scan_lap"
-            },
-            {
                 "isAbout": "items/ra_scan_check_mid_earn",
                 "isVis": true,
                 "valueRequired": true,
@@ -325,12 +319,6 @@
                 "variableName": "ra_scan_cl_nback_lap"
             },
             {
-                "isAbout": "items/ra_scan_cl_nbac_scan_lap",
-                "isVis": false,
-                "valueRequired": true,
-                "variableName": "ra_scan_cl_nbac_scan_lap"
-            },
-            {
                 "isAbout": "items/nback_notes",
                 "isVis": true,
                 "valueRequired": false,
@@ -347,12 +335,6 @@
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "ra_scan_cl_sst_lap"
-            },
-            {
-                "isAbout": "items/ra_scan_cl_sst_scan_lap",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "ra_scan_cl_sst_scan_lap"
             },
             {
                 "isAbout": "items/sst_notes",
@@ -379,16 +361,34 @@
                 "variableName": "ra_scan_check_list_rcom"
             },
             {
+                "isAbout": "items/ra_scan_cl_mid_scan_lap",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "ra_scan_cl_mid_scan_lap"
+            },
+            {
                 "isAbout": "items/ra_scan_check_list_vemorc",
                 "isVis": false,
                 "valueRequired": true,
                 "variableName": "ra_scan_check_list_vemorc"
             },
             {
+                "isAbout": "items/ra_scan_cl_nbac_scan_lap",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "ra_scan_cl_nbac_scan_lap"
+            },
+            {
                 "isAbout": "items/ra_scan_check_list_sstrc",
                 "isVis": false,
                 "valueRequired": true,
                 "variableName": "ra_scan_check_list_sstrc"
+            },
+            {
+                "isAbout": "items/ra_scan_cl_sst_scan_lap",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ra_scan_cl_sst_scan_lap"
             },
             {
                 "isAbout": "items/scan_op_initials",
@@ -411,6 +411,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2303",
+    "version": "revid2305",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
