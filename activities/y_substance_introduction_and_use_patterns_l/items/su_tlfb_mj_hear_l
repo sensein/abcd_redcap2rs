@@ -1,0 +1,49 @@
+{
+    "id": "su_tlfb_mj_hear_l",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "tlfb_mj_psychotic"
+        }
+    ],
+    "preamble": {
+        "en": "While using marijuana or cannabis, did you ever"
+    },
+    "prefLabel": {
+        "en": "su_tlfb_mj_hear_l"
+    },
+    "question": {
+        "en": "hear, see or smell things that weren't really there?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "no"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

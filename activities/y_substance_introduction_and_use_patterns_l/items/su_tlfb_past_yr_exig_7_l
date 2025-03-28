@@ -1,0 +1,49 @@
+{
+    "id": "su_tlfb_past_yr_exig_7_l",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20190422"
+        }
+    ],
+    "preamble": {
+        "en": "E-Cigarette Follow-up Questions:"
+    },
+    "prefLabel": {
+        "en": "su_tlfb_past_yr_exig_7_l"
+    },
+    "question": {
+        "en": "During the past year, did your e-cigarettes typically contain flavor?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes, menthol or mint"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes, other flavoring"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "No flavoring"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

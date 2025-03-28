@@ -1,0 +1,43 @@
+{
+    "id": "su_tlfb_cbd_use_l",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "tlfb_ever_used_l"
+        }
+    ],
+    "preamble": {
+        "en": "USED SINCE WE LAST SAW YOUI want to start by asking if you have used any of the following drugs since we last saw you on [asnt_timestamp_c]."
+    },
+    "prefLabel": {
+        "en": "su_tlfb_cbd_use_l"
+    },
+    "question": {
+        "en": "CBD-only (or cannabidiol-only) products such as tinctures, oils or edibles that you smoke or eat in a way a doctor or your parent did not direct you to use them?(RA note:  if only use as parent/doctor informs, then only count on PLUS and Mental Health Medication forms)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

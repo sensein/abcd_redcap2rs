@@ -63,6 +63,10 @@
             "variableName": "tlfb_tincture_calc_l"
         },
         {
+            "jsExpression": "round((tlfb_age_calc_inmonths_l -(datediff(su_tlfb_cbd_date1_l,su_today_l,'M','mdy')))/ 12,2)",
+            "variableName": "su_tlfb_cbd_calc_l"
+        },
+        {
             "jsExpression": "round((tlfb_age_calc_inmonths_l -(datediff(tlfb_mj_synth_date1_l,su_today_l,'M','mdy')))/ 12,2)",
             "variableName": "tlfb_mj_synth_calc_l"
         },
@@ -151,6 +155,7 @@
             "items/tlfb_age_l",
             "items/tlfb_age_month_l",
             "items/tlfb_visit_structure",
+            "items/tlfb_intro_yr_3",
             "items/tlfb_alc_l",
             "items/tlfb_tob_l",
             "items/tlfb_mj_l",
@@ -179,6 +184,7 @@
             "items/tlfb_mj_conc_use_l",
             "items/tlfb_mj_drink_use_l",
             "items/tlfb_tincture_use_l",
+            "items/su_tlfb_cbd_use_l",
             "items/tlfb_mj_synth_use_l",
             "items/tlfb_coc_use_l",
             "items/tlfb_bsalts_use_l",
@@ -203,6 +209,9 @@
             "items/tlfb_cough_use_l",
             "items/tlfb_other_use_l",
             "items/tlfb_other_use_specify_l",
+            "items/tlfb_other_use2_l",
+            "items/tlfb_other_use2_list_l",
+            "items/tlfb_other_use2_list_other_l",
             "items/tlfb_alc_sip_txt",
             "items/isip_1_l",
             "items/su_isip_1_calc_l",
@@ -271,6 +280,8 @@
             "items/tlfb_mj_drink_date1_l",
             "items/tlfb_tincture_first_use",
             "items/tlfb_tincture_date1_l",
+            "items/su_tlfb_cbd_first_use",
+            "items/su_tlfb_cbd_date1_l",
             "items/tlfb_mj_synth_first_use",
             "items/tlfb_mj_synth_date1_l",
             "items/tlfb_coc_first_use",
@@ -331,6 +342,7 @@
             "items/http_tlfb_6mo_ecig_image_l",
             "items/su_tlfb_past_yr_ecig_5_l",
             "items/su_tlfb_past_yr_ecig_6_l",
+            "items/su_tlfb_past_yr_exig_7_l",
             "items/su_tlfb_past_yr_prim_3_mj_l",
             "items/tlfb_6mo_4_mj_l",
             "items/tlfb_6mo_4_mj_dk_l",
@@ -349,6 +361,9 @@
             "items/su_tlfb_past_yr_mj_edible_l",
             "items/tlfb_6mo_mj_drink_type_l",
             "items/tlfb_6mo_tincture_type_l",
+            "items/su_tlfb_mj_paranoid_l",
+            "items/su_tlfb_mj_hear_l",
+            "items/su_tlfb_cbd_follow_up_l",
             "items/tlfb_6mo_14_coc_l",
             "items/tlfb_6mo_15_coc_l",
             "items/tlfb_6mo_16_coc_l",
@@ -419,56 +434,62 @@
                 "variableName": "tlfb_visit_structure"
             },
             {
+                "isAbout": "items/tlfb_intro_yr_3",
+                "isVis": "event - name == '3_year_follow_up_y_arm_1'",
+                "valueRequired": false,
+                "variableName": "tlfb_intro_yr_3"
+            },
+            {
                 "isAbout": "items/tlfb_alc_l",
-                "isVis": "tlfb_alc_c_l == '0'",
+                "isVis": "(tlfb_alc_c_l == '0' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_alc_c_l == '0' && event - name == '2_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "tlfb_alc_l"
             },
             {
                 "isAbout": "items/tlfb_tob_l",
-                "isVis": "tlfb_tob_c_l == '0'",
+                "isVis": "(tlfb_tob_c_l == '0' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_tob_c_l == '0' && event - name == '2_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "tlfb_tob_l"
             },
             {
                 "isAbout": "items/tlfb_mj_l",
-                "isVis": "tlfb_mj_c_l == '0'",
+                "isVis": "(tlfb_mj_c_l == '0' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '0' && event - name == '2_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "tlfb_mj_l"
             },
             {
                 "isAbout": "items/tlfb_mj_synth_l",
-                "isVis": "tlfb_mj_synth_c_l == '0'",
+                "isVis": "(tlfb_mj_synth_c_l == '0' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_synth_c_l == '0' && event - name == '2_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "tlfb_mj_synth_l"
             },
             {
                 "isAbout": "items/tlfb_bitta_l",
-                "isVis": "tlfb_bitta_c_l == '0'",
+                "isVis": "(tlfb_bitta_c_l == '0' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_bitta_c_l == '0' && event - name == '2_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "tlfb_bitta_l"
             },
             {
                 "isAbout": "items/tlfb_caff_l",
-                "isVis": "tlfb_caff_c_l == '0'",
+                "isVis": "(tlfb_caff_c_l == '0' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_caff_c_l == '0' && event - name == '2_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "tlfb_caff_l"
             },
             {
                 "isAbout": "items/tlfb_inhalant_l",
-                "isVis": "tlfb_inhalant_c_l == '0'",
+                "isVis": "(tlfb_inhalant_c_l == '0' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_inhalant_c_l == '0' && event - name == '2_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "tlfb_inhalant_l"
             },
             {
                 "isAbout": "items/tlfb_rx_misuse_l",
-                "isVis": "tlfb_rx_misuse_c_l == '0'",
+                "isVis": "(tlfb_rx_misuse_c_l == '0' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_rx_misuse_c_l == '0' && event - name == '2_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "tlfb_rx_misuse_l"
             },
             {
                 "isAbout": "items/tlfb_list_yes_no_l",
-                "isVis": true,
+                "isVis": "(event - name == '1_year_follow_up_y_arm_1')||(event - name == '2_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "tlfb_list_yes_no_l"
             },
@@ -486,7 +507,7 @@
             },
             {
                 "isAbout": "items/tlfb_alc_sip_l",
-                "isVis": "tlfb_alc_l == '1' || tlfb_alc_c_l == '1'",
+                "isVis": "tlfb_alc_l == '1' || tlfb_alc_c_l == '1' || event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "tlfb_alc_sip_l"
             },
@@ -498,7 +519,7 @@
             },
             {
                 "isAbout": "items/tlfb_tob_puff_l",
-                "isVis": "tlfb_tob_l == '1' || tlfb_tob_c_l == '1'",
+                "isVis": "tlfb_tob_l == '1' || tlfb_tob_c_l == '1' ||(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "tlfb_tob_puff_l"
             },
@@ -516,7 +537,7 @@
             },
             {
                 "isAbout": "items/tlfb_chew_use_l",
-                "isVis": "tlfb_tob_l == '1' || tlfb_tob_c_l == '1'",
+                "isVis": "tlfb_tob_l == '1' || tlfb_tob_c_l == '1' ||(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "tlfb_chew_use_l"
             },
@@ -540,13 +561,13 @@
             },
             {
                 "isAbout": "items/tlfb_nicotine_use_l",
-                "isVis": "tlfb_tob_l == '1' || tlfb_tob_c_l == '1'",
+                "isVis": "tlfb_tob_l == '1' || tlfb_tob_c_l == '1' ||(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "tlfb_nicotine_use_l"
             },
             {
                 "isAbout": "items/tlfb_mj_puff_l",
-                "isVis": "tlfb_mj_l == '1' || tlfb_mj_c_l == '1'",
+                "isVis": "tlfb_mj_l == '1' || tlfb_mj_c_l == '1' ||(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "tlfb_mj_puff_l"
             },
@@ -570,73 +591,79 @@
             },
             {
                 "isAbout": "items/tlfb_mj_conc_use_l",
-                "isVis": "tlfb_mj_l == '1' || tlfb_mj_c_l == '1'",
+                "isVis": "tlfb_mj_l == '1' || tlfb_mj_c_l == '1' ||(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "tlfb_mj_conc_use_l"
             },
             {
                 "isAbout": "items/tlfb_mj_drink_use_l",
-                "isVis": "tlfb_mj_l == '1' || tlfb_mj_c_l == '1'",
+                "isVis": "tlfb_mj_l == '1' || tlfb_mj_c_l == '1' ||(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "tlfb_mj_drink_use_l"
             },
             {
                 "isAbout": "items/tlfb_tincture_use_l",
-                "isVis": "tlfb_mj_l == '1' || tlfb_mj_c_l == '1'",
+                "isVis": "tlfb_mj_l == '1' || tlfb_mj_c_l == '1' ||(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "tlfb_tincture_use_l"
             },
             {
+                "isAbout": "items/su_tlfb_cbd_use_l",
+                "isVis": "tlfb_mj_l == '1' || tlfb_mj_c_l == '1' ||(event - name == '3_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "su_tlfb_cbd_use_l"
+            },
+            {
                 "isAbout": "items/tlfb_mj_synth_use_l",
-                "isVis": "tlfb_mj_synth_l =='1' || tlfb_mj_synth_c_l == '1'",
+                "isVis": "tlfb_mj_synth_l == '1' || tlfb_mj_synth_c_l == '1' ||(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "tlfb_mj_synth_use_l"
             },
             {
                 "isAbout": "items/tlfb_coc_use_l",
-                "isVis": "tlfb_list_l___1 == '1'",
+                "isVis": "tlfb_list_l___1 == '1' || event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "tlfb_coc_use_l"
             },
             {
                 "isAbout": "items/tlfb_bsalts_use_l",
-                "isVis": "tlfb_list_l___2 == '1'",
+                "isVis": "tlfb_list_l___2 == '1' || event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "tlfb_bsalts_use_l"
             },
             {
                 "isAbout": "items/tlfb_meth_use_l",
-                "isVis": "tlfb_list_l___3 == '1'",
+                "isVis": "tlfb_list_l___3 == '1' || event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "tlfb_meth_use_l"
             },
             {
                 "isAbout": "items/tlfb_mdma_use_l",
-                "isVis": "tlfb_list_l___4 == '1'",
+                "isVis": "tlfb_list_l___4 == '1' || event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "tlfb_mdma_use_l"
             },
             {
                 "isAbout": "items/tlfb_ket_use_l",
-                "isVis": "tlfb_list_l___5 == '1'",
+                "isVis": "tlfb_list_l___5 == '1' || event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "tlfb_ket_use_l"
             },
             {
                 "isAbout": "items/tlfb_ghb_use_l",
-                "isVis": "tlfb_list_l___6 == '1'",
+                "isVis": "tlfb_list_l___6 == '1' || event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "tlfb_ghb_use_l"
             },
             {
                 "isAbout": "items/tlfb_opi_use_l",
-                "isVis": "tlfb_list_l___7 == '1'",
+                "isVis": "tlfb_list_l___7 == '1' || event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "tlfb_opi_use_l"
             },
             {
                 "isAbout": "items/tlfb_lsd_use_l",
-                "isVis": "tlfb_list_l___8 == '1'",
+                "isVis": "tlfb_list_l___8 == '1' || event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "tlfb_lsd_use_l"
             },
@@ -654,31 +681,31 @@
             },
             {
                 "isAbout": "items/tlfb_shrooms_use_l",
-                "isVis": "tlfb_list_l___9 == '1'",
+                "isVis": "tlfb_list_l___9 == '1' || event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "tlfb_shrooms_use_l"
             },
             {
                 "isAbout": "items/tlfb_salvia_use_l",
-                "isVis": "tlfb_list_l___10 == '1'",
+                "isVis": "tlfb_list_l___10 == '1' || event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "tlfb_salvia_use_l"
             },
             {
                 "isAbout": "items/tlfb_steroids_use_l",
-                "isVis": "tlfb_list_l___11 == '1'",
+                "isVis": "tlfb_list_l___11 == '1' || event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "tlfb_steroids_use_l"
             },
             {
                 "isAbout": "items/tlfb_bitta_use_l",
-                "isVis": "tlfb_bitta_l == '1' || tlfb_bitta_c_l == '1'",
+                "isVis": "tlfb_bitta_l == '1' ||(tlfb_bitta_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_bitta_c_l == '1' && event - name =='2_year_follow_up_y_arm_1')||(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "tlfb_bitta_use_l"
             },
             {
                 "isAbout": "items/tlfb_inhalant_use_l",
-                "isVis": "tlfb_inhalant_l == '1' || tlfb_inhalant_c_l == '1'",
+                "isVis": "tlfb_inhalant_l == '1' || tlfb_inhalant_c_l == '1' ||(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "tlfb_inhalant_use_l"
             },
@@ -696,25 +723,25 @@
             },
             {
                 "isAbout": "items/tlfb_amp_use_l",
-                "isVis": "tlfb_rx_misuse_l == '1' || tlfb_rx_misuse_c_l == '1'",
+                "isVis": "tlfb_rx_misuse_l == '1' || tlfb_rx_misuse_c_l == '1' ||(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "tlfb_amp_use_l"
             },
             {
                 "isAbout": "items/tlfb_tranq_use_l",
-                "isVis": "tlfb_rx_misuse_l == '1' || tlfb_rx_misuse_c_l == '1'",
+                "isVis": "tlfb_rx_misuse_l == '1' || tlfb_rx_misuse_c_l == '1' ||(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "tlfb_tranq_use_l"
             },
             {
                 "isAbout": "items/tlfb_vicodin_use_l",
-                "isVis": "tlfb_rx_misuse_l == '1' || tlfb_rx_misuse_c_l == '1'",
+                "isVis": "tlfb_rx_misuse_l == '1' || tlfb_rx_misuse_c_l == '1' ||(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "tlfb_vicodin_use_l"
             },
             {
                 "isAbout": "items/tlfb_cough_use_l",
-                "isVis": "tlfb_rx_misuse_l == '1' || tlfb_rx_misuse_c_l == '1'",
+                "isVis": "tlfb_rx_misuse_l == '1' || tlfb_rx_misuse_c_l == '1' ||(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "tlfb_cough_use_l"
             },
@@ -729,6 +756,24 @@
                 "isVis": "tlfb_other_use_l== '1'",
                 "valueRequired": true,
                 "variableName": "tlfb_other_use_specify_l"
+            },
+            {
+                "isAbout": "items/tlfb_other_use2_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "tlfb_other_use2_l"
+            },
+            {
+                "isAbout": "items/tlfb_other_use2_list_l",
+                "isVis": "tlfb_other_use2_l == '1' && event_name_number > '20'",
+                "valueRequired": true,
+                "variableName": "tlfb_other_use2_list_l"
+            },
+            {
+                "isAbout": "items/tlfb_other_use2_list_other_l",
+                "isVis": "tlfb_other_use2_list_l___7 == '1'",
+                "valueRequired": true,
+                "variableName": "tlfb_other_use2_list_other_l"
             },
             {
                 "isAbout": "items/tlfb_alc_sip_txt",
@@ -1223,6 +1268,24 @@
                 "variableName": "tlfb_tincture_calc_l"
             },
             {
+                "isAbout": "items/su_tlfb_cbd_first_use",
+                "isVis": "su_tlfb_cbd_use_l =='1' && event_name_number > '11'",
+                "valueRequired": true,
+                "variableName": "su_tlfb_cbd_first_use"
+            },
+            {
+                "isAbout": "items/su_tlfb_cbd_date1_l",
+                "isVis": "su_tlfb_cbd_first_use == '1'",
+                "valueRequired": true,
+                "variableName": "su_tlfb_cbd_date1_l"
+            },
+            {
+                "isAbout": "items/su_tlfb_cbd_calc_l",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_tlfb_cbd_calc_l"
+            },
+            {
                 "isAbout": "items/tlfb_mj_synth_first_use",
                 "isVis": "tlfb_mj_synth_use_l== '1' && event_name_number > '11'",
                 "valueRequired": true,
@@ -1620,7 +1683,7 @@
             },
             {
                 "isAbout": "items/dud_ksads",
-                "isVis": "xskipout_other_l == '1'",
+                "isVis": "xskipout_other_l == '1' || xskipout_mj_l == '1' || xskipout_tob_l == '1'",
                 "valueRequired": false,
                 "variableName": "dud_ksads"
             },
@@ -1695,6 +1758,12 @@
                 "isVis": "tlfb_6mo_skip_l___3 == '1'",
                 "valueRequired": true,
                 "variableName": "su_tlfb_past_yr_ecig_6_l"
+            },
+            {
+                "isAbout": "items/su_tlfb_past_yr_exig_7_l",
+                "isVis": "tlfb_6mo_skip_l___3 == '1'",
+                "valueRequired": false,
+                "variableName": "su_tlfb_past_yr_exig_7_l"
             },
             {
                 "isAbout": "items/su_tlfb_past_yr_prim_3_mj_l",
@@ -1805,6 +1874,24 @@
                 "variableName": "tlfb_6mo_tincture_type_l"
             },
             {
+                "isAbout": "items/su_tlfb_mj_paranoid_l",
+                "isVis": "tlfb_6mo_skip_l___9 == '1' || tlfb_6mo_skip_l___10 == '1' || tlfb_6mo_skip_l___11 == '1' || tlfb_6mo_skip_l___12 == '1' || tlfb_6mo_skip_l___13 == '1' || tlfb_6mo_skip_l___14 == '1'",
+                "valueRequired": true,
+                "variableName": "su_tlfb_mj_paranoid_l"
+            },
+            {
+                "isAbout": "items/su_tlfb_mj_hear_l",
+                "isVis": "tlfb_6mo_skip_l___9 == '1' || tlfb_6mo_skip_l___10 == '1' || tlfb_6mo_skip_l___11 == '1' || tlfb_6mo_skip_l___12 == '1' || tlfb_6mo_skip_l___13 == '1' || tlfb_6mo_skip_l___14 == '1'",
+                "valueRequired": true,
+                "variableName": "su_tlfb_mj_hear_l"
+            },
+            {
+                "isAbout": "items/su_tlfb_cbd_follow_up_l",
+                "isVis": "tlfb_6mo_skip_l___33 == '1'",
+                "valueRequired": true,
+                "variableName": "su_tlfb_cbd_follow_up_l"
+            },
+            {
                 "isAbout": "items/tlfb_6mo_14_coc_l",
                 "isVis": "tlfb_6mo_skip_l___16 == '1'",
                 "valueRequired": true,
@@ -1866,7 +1953,7 @@
             },
             {
                 "isAbout": "items/caff_intake_1_l",
-                "isVis": "tlfb_caff_l=='1' || tlfb_caff_c_l == '1'",
+                "isVis": "tlfb_caff_l == '1' ||(tlfb_caff_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_caff_c_l == '1' && event - name =='2_year_follow_up_y_arm_1')||(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "caff_intake_1_l"
             },
@@ -1878,7 +1965,7 @@
             },
             {
                 "isAbout": "items/caff_intake_3_l",
-                "isVis": "tlfb_caff_l=='1' || tlfb_caff_c_l == '1'",
+                "isVis": "tlfb_caff_l == '1' ||(tlfb_caff_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_caff_c_l == '1' && event - name =='2_year_follow_up_y_arm_1')||(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "caff_intake_3_l"
             },
@@ -1890,7 +1977,7 @@
             },
             {
                 "isAbout": "items/caff_intake_4_l",
-                "isVis": "tlfb_caff_l=='1' || tlfb_caff_c_l == '1'",
+                "isVis": "tlfb_caff_l == '1' ||(tlfb_caff_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_caff_c_l == '1' && event - name =='2_year_follow_up_y_arm_1')||(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "caff_intake_4_l"
             },
@@ -1902,7 +1989,7 @@
             },
             {
                 "isAbout": "items/caff_intake_6_l",
-                "isVis": "tlfb_caff_l=='1' || tlfb_caff_c_l == '1'",
+                "isVis": "tlfb_caff_l == '1' ||(tlfb_caff_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_caff_c_l == '1' && event - name =='2_year_follow_up_y_arm_1')||(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "caff_intake_6_l"
             },
@@ -1914,7 +2001,7 @@
             },
             {
                 "isAbout": "items/caff_intake_9_l",
-                "isVis": "tlfb_caff_l=='1' || tlfb_caff_c_l == '1'",
+                "isVis": "tlfb_caff_l == '1' ||(tlfb_caff_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_caff_c_l == '1' && event - name =='2_year_follow_up_y_arm_1')||(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "caff_intake_9_l"
             },
@@ -1926,7 +2013,7 @@
             },
             {
                 "isAbout": "items/caff_max_yn_l",
-                "isVis": "tlfb_caff_l=='1' || tlfb_caff_c_l == '1'",
+                "isVis": "tlfb_caff_l == '1' ||(tlfb_caff_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_caff_c_l == '1' && event - name =='2_year_follow_up_y_arm_1')||(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "caff_max_yn_l"
             },
@@ -1957,6 +2044,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2289",
+    "version": "revid2290",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

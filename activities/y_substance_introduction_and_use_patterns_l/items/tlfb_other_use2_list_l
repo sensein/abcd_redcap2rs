@@ -1,0 +1,64 @@
+{
+    "id": "tlfb_other_use2_list_l",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "tlfb_other_use2_list_l"
+    },
+    "question": {
+        "en": "What did you use (Please choose all that apply)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Kava"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Kratom"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Krokodil or desomorphine"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Harmala"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Hypocretin or orexin"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Scopalamine"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 7
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

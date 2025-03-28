@@ -1,0 +1,55 @@
+{
+    "id": "su_tlfb_cbd_follow_up_l",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "CBD-Product Follow-up:"
+    },
+    "prefLabel": {
+        "en": "su_tlfb_cbd_follow_up_l"
+    },
+    "question": {
+        "en": "What type of CBD product did you use during the past year? (choose all that apply)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Epidiolex"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Oil or tincture by mouth"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Inhaled or smoked product"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Edible, capsule, or pill"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Topical lotion or transdermal patch"
+                },
+                "value": 5
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
