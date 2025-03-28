@@ -266,6 +266,7 @@
             "../activities/social_development_child_difficulties_in_emotion_regulation/social_development_child_difficulties_in_emotion_regulation_schema",
             "../activities/social_development_child_alabama_parenting_questionnaire/social_development_child_alabama_parenting_questionnaire_schema",
             "../activities/social_development_child_feedback/social_development_child_feedback_schema",
+            "../activities/social_development_contact_track/social_development_contact_track_schema",
             "../activities/genomics_sample/genomics_sample_schema",
             "../activities/fitbit_substudy_raw_daic_use_only/fitbit_substudy_raw_daic_use_only_schema",
             "../activities/met_transform_sports_activity/met_transform_sports_activity_schema",
@@ -274,7 +275,8 @@
             "../activities/p_ra_feedback_3yr_pilot/p_ra_feedback_3yr_pilot_schema",
             "../activities/sports_activities_read_music_parent/sports_activities_read_music_parent_schema",
             "../activities/y_ra_feedback_3_yr_pilot/y_ra_feedback_3_yr_pilot_schema",
-            "../activities/social_development_contact_track/social_development_contact_track_schema"
+            "../activities/vancouver_index_of_acculturation_y/vancouver_index_of_acculturation_y_schema",
+            "../activities/multigroup_ethnic_identity_meim/multigroup_ethnic_identity_meim_schema"
         ],
         "addProperties": [
             {
@@ -2326,6 +2328,14 @@
                 "variableName": "social_development_child_feedback_schema"
             },
             {
+                "isAbout": "../activities/social_development_contact_track/social_development_contact_track_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Social Development Contact Track"
+                },
+                "variableName": "social_development_contact_track_schema"
+            },
+            {
                 "isAbout": "../activities/genomics_sample/genomics_sample_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -2390,16 +2400,24 @@
                 "variableName": "y_ra_feedback_3_yr_pilot_schema"
             },
             {
-                "isAbout": "../activities/social_development_contact_track/social_development_contact_track_schema",
+                "isAbout": "../activities/vancouver_index_of_acculturation_y/vancouver_index_of_acculturation_y_schema",
                 "isVis": true,
                 "prefLabel": {
-                    "en": "Social Development Contact Track"
+                    "en": "Vancouver Index Of Acculturation Y"
                 },
-                "variableName": "social_development_contact_track_schema"
+                "variableName": "vancouver_index_of_acculturation_y_schema"
+            },
+            {
+                "isAbout": "../activities/multigroup_ethnic_identity_meim/multigroup_ethnic_identity_meim_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Multigroup Ethnic Identity Meim"
+                },
+                "variableName": "multigroup_ethnic_identity_meim_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2262",
+    "version": "revid2263",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
