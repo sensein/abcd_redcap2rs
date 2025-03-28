@@ -7,6 +7,7 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/kbi_start_time",
             "items/kbi_sex_assigned_at_birth",
             "items/kbi_gender",
             "items/kbi_y_grade_repeat",
@@ -18,6 +19,7 @@
             "items/kbi_y_det_susp",
             "items/kbi_y_det_reason",
             "items/kbi_y_det_reason_other",
+            "items/ksads_bully_raw_26",
             "items/kbi_y_det_reason_new",
             "items/kbi_y_sex_orient",
             "items/kbi_y_sex_orient_probs",
@@ -26,6 +28,12 @@
             "items/ksads5background_items_youth_complete"
         ],
         "addProperties": [
+            {
+                "isAbout": "items/kbi_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "kbi_start_time"
+            },
             {
                 "isAbout": "items/kbi_sex_assigned_at_birth",
                 "isVis": "event - name == '3_year_follow_up_y_arm_1'",
@@ -93,6 +101,12 @@
                 "variableName": "kbi_y_det_reason_other"
             },
             {
+                "isAbout": "items/ksads_bully_raw_26",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_bully_raw_26"
+            },
+            {
                 "isAbout": "items/kbi_y_det_reason_new",
                 "isVis": "kbi_y_det_susp == '1' && event_name_number > '30'",
                 "valueRequired": true,
@@ -131,6 +145,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2285",
+    "version": "revid2286",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
