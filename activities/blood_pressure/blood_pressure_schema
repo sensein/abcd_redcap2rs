@@ -18,9 +18,8 @@
     "ui": {
         "order": [
             "items/blood_pressure_start_time",
-            "items/spanishtest",
-            "items/test_p_select_language",
-            "items/test1",
+            "items/blood_pressure_collected",
+            "items/blood_pressure_refuse",
             "items/blood_pressure_test_sys_1",
             "items/blood_pressure_test_dia_1",
             "items/blood_pressure_pulse_1",
@@ -40,22 +39,16 @@
                 "variableName": "blood_pressure_start_time"
             },
             {
-                "isAbout": "items/spanishtest",
+                "isAbout": "items/blood_pressure_collected",
                 "isVis": true,
                 "valueRequired": false,
-                "variableName": "spanishtest"
+                "variableName": "blood_pressure_collected"
             },
             {
-                "isAbout": "items/test_p_select_language",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "test_p_select_language"
-            },
-            {
-                "isAbout": "items/test1",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "test1"
+                "isAbout": "items/blood_pressure_refuse",
+                "isVis": "blood_pressure_collected == '3'",
+                "valueRequired": false,
+                "variableName": "blood_pressure_refuse"
             },
             {
                 "isAbout": "items/blood_pressure_test_sys_1",
@@ -132,6 +125,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2217",
+    "version": "revid2218",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
