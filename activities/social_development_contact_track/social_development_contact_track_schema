@@ -1,0 +1,66 @@
+{
+    "id": "social_development_contact_track_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "social_development_contact_track"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sched_visit_structure_v2",
+            "items/socialdev_contact_date_v",
+            "items/socialdev_contact_type_v",
+            "items/socialdev_contact_count_v",
+            "items/socialdev_contact_note_v",
+            "items/socialdev_contact_result_v",
+            "items/social_development_contact_track_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sched_visit_structure_v2",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sched_visit_structure_v2"
+            },
+            {
+                "isAbout": "items/socialdev_contact_date_v",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_contact_date_v"
+            },
+            {
+                "isAbout": "items/socialdev_contact_type_v",
+                "isVis": "baseline_visits_num_v2 == '1' || baseline_visits_num_v2 == '2' || baseline_visits_num_v2 == '3' || baseline_visits_num_v2 == '4'",
+                "valueRequired": true,
+                "variableName": "socialdev_contact_type_v"
+            },
+            {
+                "isAbout": "items/socialdev_contact_count_v",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "socialdev_contact_count_v"
+            },
+            {
+                "isAbout": "items/socialdev_contact_note_v",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "socialdev_contact_note_v"
+            },
+            {
+                "isAbout": "items/socialdev_contact_result_v",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "socialdev_contact_result_v"
+            },
+            {
+                "isAbout": "items/social_development_contact_track_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "social_development_contact_track_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2262",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
