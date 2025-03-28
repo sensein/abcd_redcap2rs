@@ -277,6 +277,7 @@
             "items/yr1fb_emo_cmplnc_notes_y",
             "items/yr1fb_emo_tech_note_y",
             "items/yr1fb_emo_techstaff_y",
+            "items/yr1fb_emo_random_y",
             "items/yr1fb_ddt_y",
             "items/yr1fb_ddt_cmphnsn_notes_y",
             "items/yr1fb_ddt_cmplnc_notes_y",
@@ -2022,6 +2023,12 @@
                 "variableName": "yr1fb_emo_techstaff_y"
             },
             {
+                "isAbout": "items/yr1fb_emo_random_y",
+                "isVis": "yr1fb_emo_y___5 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_emo_random_y"
+            },
+            {
                 "isAbout": "items/yr1fb_ddt_y",
                 "isVis": "yr1fb_cl_y___38 == '1'",
                 "valueRequired": true,
@@ -2756,6 +2763,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2220",
+    "version": "revid2221",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
