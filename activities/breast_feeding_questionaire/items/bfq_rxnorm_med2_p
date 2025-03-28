@@ -1,0 +1,28 @@
+{
+    "id": "bfq_rxnorm_med2_p",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "bfq_rxnorm_med2_p"
+    },
+    "question": {
+        "en": "Medication Name (please choose the formulation that most closely matches the medication; no need to include dosage)",
+        "es": "Nombre del Medicamento (por favor, elija la formulaci\u00c3\u00b3n que m\u00c3\u00a1s se aproxime a la medicaci\u00c3\u00b3n tomada por su ni\u00c3\u00b1o(a); no hay necesidad de incluir la dosis)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "BIOPORTAL:RXNORM"
+                },
+                "value": "BIOPORTAL:RXNORM"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
