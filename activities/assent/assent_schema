@@ -33,7 +33,7 @@
             },
             {
                 "isAbout": "items/blood_assent_l",
-                "isVis": "event_name_number == '21'",
+                "isVis": "event_name_number > '11'",
                 "valueRequired": true,
                 "variableName": "blood_assent_l"
             },
@@ -45,7 +45,7 @@
             },
             {
                 "isAbout": "items/fitbit_assent",
-                "isVis": "event_name_number == '21'",
+                "isVis": "event_name_number > '11'",
                 "valueRequired": true,
                 "variableName": "fitbit_assent"
             },
@@ -124,6 +124,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2300",
+    "version": "revid2301",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

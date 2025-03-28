@@ -7,6 +7,7 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/ra_fb_3yr_pilot_yes",
             "items/ra_fb_3yr_strp_time",
             "items/ra_fb_3yr_dedi_time",
             "items/ra_fb_3yr_math_time",
@@ -83,6 +84,12 @@
             "items/y_ra_feedback_3_yr_pilot_complete"
         ],
         "addProperties": [
+            {
+                "isAbout": "items/ra_fb_3yr_pilot_yes",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ra_fb_3yr_pilot_yes"
+            },
             {
                 "isAbout": "items/ra_fb_3yr_strp_time",
                 "isVis": true,
@@ -530,6 +537,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2300",
+    "version": "revid2301",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
