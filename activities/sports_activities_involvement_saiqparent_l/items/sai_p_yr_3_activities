@@ -1,0 +1,136 @@
+{
+    "id": "sai_p_yr_3_activities",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "LV"
+        }
+    ],
+    "preamble": {
+        "en": "Here are some additional activities we have not previously asked you about. Please indicate whether your child hasEVERparticipated in any of the following sports and activitiescontinuously for 4 months or more(e.g., for a season in sports, or at least four months of lessons, group participation, etc). We will then ask you some follow-up questions aboutEACHof the sports or activities in which your child has participated.",
+        "es": "XXXXXXXXXX. Indique si su ni\u00c3\u00b1o(a) ha participadoALGUNA VEZen cualquiera de los siguientes deportes o actividadescontinuamente por 4 meses o m\u00c3\u00a1s(por ejemplo, por una temporada de deporte, o al menos 4 meses de lecciones, participaci\u00c3\u00b3n grupal, etc.). Luego le haremos algunas preguntas de seguimiento acerca deCADA UNOde los deportes o actividades en los cuales su ni\u00c3\u00b1o(a) ha participado."
+    },
+    "prefLabel": {
+        "en": "sai_p_yr_3_activities"
+    },
+    "question": null,
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Bowling",
+                    "es": "Bolos"
+                },
+                "value": 30
+            },
+            {
+                "name": {
+                    "en": "Boxing",
+                    "es": "Boxeo"
+                },
+                "value": 31
+            },
+            {
+                "name": {
+                    "en": "Cheerleading",
+                    "es": "Animadoras"
+                },
+                "value": 32
+            },
+            {
+                "name": {
+                    "en": "Curling",
+                    "es": "Curling"
+                },
+                "value": 33
+            },
+            {
+                "name": {
+                    "en": "Cycling",
+                    "es": "Ciclismo"
+                },
+                "value": 34
+            },
+            {
+                "name": {
+                    "en": "Field events (e.g. shot, discuss, high jump, javelin etc)",
+                    "es": "Eventos de campo (por ejemplo, tiro, discusi\u00c3\u00b3n, salto de altura, jabalina, etc.)"
+                },
+                "value": 35
+            },
+            {
+                "name": {
+                    "en": "Fishing, Hunting, Archery",
+                    "es": "Pesca, Caza, Tiro Con Arco"
+                },
+                "value": 36
+            },
+            {
+                "name": {
+                    "en": "Golf",
+                    "es": "Golf"
+                },
+                "value": 37
+            },
+            {
+                "name": {
+                    "en": "Orienteering",
+                    "es": "Orientaci\u00c3\u00b3n"
+                },
+                "value": 38
+            },
+            {
+                "name": {
+                    "en": "Paddleboarding, water skiing, wakeboarding",
+                    "es": "Paddleboard, esqu\u00c3\u00ad acu\u00c3\u00a1tico, wakeboard."
+                },
+                "value": 39
+            },
+            {
+                "name": {
+                    "en": "Rowing, canoeing, kayaking",
+                    "es": "Remo, pirag\u00c3\u00bcismo, kayak"
+                },
+                "value": 40
+            },
+            {
+                "name": {
+                    "en": "Sailing, wind-surfing",
+                    "es": "Vela, windsurf"
+                },
+                "value": 41
+            },
+            {
+                "name": {
+                    "en": "Table tennis, Shuffleboard",
+                    "es": "Tenis de mesa, juego de tejo"
+                },
+                "value": 42
+            },
+            {
+                "name": {
+                    "en": "Ultimate frisbee",
+                    "es": "Ultimate frisbee"
+                },
+                "value": 43
+            },
+            {
+                "name": {
+                    "en": "My child has not participated in any of the above activities",
+                    "es": "Mi ni\u00c3\u00b1o(a) no ha participado en ninguna de estas actividades"
+                },
+                "value": 44
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

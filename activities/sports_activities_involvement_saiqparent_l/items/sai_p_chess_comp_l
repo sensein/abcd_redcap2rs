@@ -1,0 +1,47 @@
+{
+    "id": "sai_p_chess_comp_l",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Competitive Games like Chess, Cards, or Darts",
+        "es": "Juegos competitivos, como ajedrez, cartas o dardos"
+    },
+    "prefLabel": {
+        "en": "sai_p_chess_comp_l"
+    },
+    "question": {
+        "en": "Does your child take part in this activity recreationally or competitively?",
+        "es": "\u00c2\u00bfXXXXXXXXXX?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Recreationally",
+                    "es": "Recreativamente"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Competitively",
+                    "es": "Competitivamente"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Don't Know",
+                    "es": "No s\u00c3\u00a9"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

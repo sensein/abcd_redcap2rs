@@ -1,0 +1,118 @@
+{
+    "id": "sai_p_music_instr",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Musical Instrument (Singing, Choir, Guitar, Piano, Drums, Violin, Flute, Band, Rock Band, Orchestra)",
+        "es": "Instrumento musical (canto, coro, guitarra, piano, bater\u00c3\u00ada, viol\u00c3\u00adn, flauta, banda, banda de rock, orquesta)"
+    },
+    "prefLabel": {
+        "en": "sai_p_music_instr"
+    },
+    "question": {
+        "en": "Please indicate below which instrument(s) your child plays.",
+        "es": "XXXXXXXXXX"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Guitar, Bass Guitar, ukelele",
+                    "es": "Guitarra, bajo guitarra, ukelele"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Flute, Piccolo, Recorder",
+                    "es": "Flauta, Piccolo, Grabadora"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Clarinet, Saxophone, Oboe, Bassoon",
+                    "es": "Clarinete, Saxofon, Oboe, Fagot"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Violin, Viola",
+                    "es": "Violin, viola"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Cello, Bass",
+                    "es": "Cello, Bajo"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Piano",
+                    "es": "Piano"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Harp",
+                    "es": "Arpa"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Drums, Percussion",
+                    "es": "Tambores, percusi\u00c3\u00b3n"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Trumpet, Trombone, Horns",
+                    "es": "Trompeta, Tromb\u00c3\u00b3n, Cuernos"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Vocal, Singing",
+                    "es": "Vocal, cantando"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Electric Keyboard or Organ",
+                    "es": "Teclado el\u00c3\u00a9ctrico u \u00c3\u00b3rgano"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "DJ, Electronic Dance Music",
+                    "es": "DJ, Baile Electr\u00c3\u00b3nico"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Other...",
+                    "es": "Otro..."
+                },
+                "value": 12
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
