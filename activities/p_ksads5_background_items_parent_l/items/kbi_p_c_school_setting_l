@@ -1,6 +1,13 @@
 {
     "id": "kbi_p_c_school_setting_l",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@NONEOFTHEABOVE = '777'"
+        }
+    ],
     "prefLabel": {
         "en": "kbi_p_c_school_setting_l"
     },
@@ -72,6 +79,13 @@
                     "es": "Otra"
                 },
                 "value": 8
+            },
+            {
+                "name": {
+                    "en": "Decline to answer",
+                    "es": "Niego contestar"
+                },
+                "value": 777
             }
         ],
         "valueType": [

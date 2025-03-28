@@ -1,6 +1,13 @@
 {
     "id": "kbi_p_c_spec_serv_l",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@NONEOFTHEABOVE = '777'"
+        }
+    ],
     "prefLabel": {
         "en": "kbi_p_c_spec_serv_l"
     },
@@ -79,6 +86,13 @@
                     "es": "Su ni\u00c3\u00b1o(a) no recibe servicios especiales"
                 },
                 "value": 10
+            },
+            {
+                "name": {
+                    "en": "Decline to answer",
+                    "es": "Niego contestar"
+                },
+                "value": 777
             }
         ],
         "multipleChoice": true,

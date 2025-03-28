@@ -1,0 +1,45 @@
+{
+    "id": "kbi_repeat_grade_pst_yr_p_l",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "kbi_repeat_grade_pst_yr_p_l"
+    },
+    "question": {
+        "en": "Has your child repeated a grade in the past year?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

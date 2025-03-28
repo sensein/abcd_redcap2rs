@@ -21,6 +21,12 @@
             "items/kbi_p_c_spec_serv_l",
             "items/kbi_p_c_det_susp_l",
             "items/kbi_p_c_det_reason_l",
+            "items/kbi_p_c_det_reason2_l",
+            "items/kbi_repeat_grade_p_l",
+            "items/kbi_repeat_grade_pst_yr_p_l",
+            "items/kbi_repeat_grade_bef_pst_yr_p_l",
+            "items/kbi_repeat_grade_warning_p",
+            "items/kbi_grades_repeated_p_l",
             "items/kbi_p_c_best_friend_l",
             "items/kbi_p_c_best_friend_len_l",
             "items/kbi_p_c_reg_friend_group_l",
@@ -35,12 +41,13 @@
             "items/kbi_p_c_age_services_l",
             "items/kbi_p_c_age_services_dk",
             "items/kbi_p_c_services_checklist_l",
+            "items/kbi_p_c_services_checklist3_l",
             "items/kbi_p_c_mental_health_l",
-            "items/kbi_ss_c_mental_health_p_l",
             "items/kbi_p_c_mental_health_dk_l",
+            "items/kbi_ss_c_mental_health_p_l",
             "items/kbi_p_c_substance_abuse_l",
-            "items/kbi_ss_c_substance_abuse_p_l",
             "items/kbi_p_c_substance_abuse_dk_l",
+            "items/kbi_ss_c_substance_abuse_p_l",
             "items/p_ksads5_background_items_parent_l_complete"
         ],
         "addProperties": [
@@ -124,9 +131,45 @@
             },
             {
                 "isAbout": "items/kbi_p_c_det_reason_l",
-                "isVis": "kbi_p_c_det_susp_l == '1'",
+                "isVis": "kbi_p_c_det_susp_l == '1' && event_name_number < '31'",
                 "valueRequired": true,
                 "variableName": "kbi_p_c_det_reason_l"
+            },
+            {
+                "isAbout": "items/kbi_p_c_det_reason2_l",
+                "isVis": "kbi_p_c_det_susp_l == '1' && event - name == '3_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_det_reason2_l"
+            },
+            {
+                "isAbout": "items/kbi_repeat_grade_p_l",
+                "isVis": "event - name == '3_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "kbi_repeat_grade_p_l"
+            },
+            {
+                "isAbout": "items/kbi_repeat_grade_pst_yr_p_l",
+                "isVis": "kbi_repeat_grade_p_l == '1'",
+                "valueRequired": true,
+                "variableName": "kbi_repeat_grade_pst_yr_p_l"
+            },
+            {
+                "isAbout": "items/kbi_repeat_grade_bef_pst_yr_p_l",
+                "isVis": "kbi_repeat_grade_p_l == '1'",
+                "valueRequired": true,
+                "variableName": "kbi_repeat_grade_bef_pst_yr_p_l"
+            },
+            {
+                "isAbout": "items/kbi_repeat_grade_warning_p",
+                "isVis": "kbi_repeat_grade_pst_yr_p_l == '0' && kbi_repeat_grade_bef_pst_yr_p_l == '0'",
+                "valueRequired": false,
+                "variableName": "kbi_repeat_grade_warning_p"
+            },
+            {
+                "isAbout": "items/kbi_grades_repeated_p_l",
+                "isVis": "kbi_repeat_grade_p_l == '1'",
+                "valueRequired": true,
+                "variableName": "kbi_grades_repeated_p_l"
             },
             {
                 "isAbout": "items/kbi_p_c_best_friend_l",
@@ -208,15 +251,27 @@
             },
             {
                 "isAbout": "items/kbi_p_c_services_checklist_l",
-                "isVis": true,
+                "isVis": "kbi_p_c_mh_sa_l == '1' && event_name_number > '30' || event_name_number < '30'",
                 "valueRequired": true,
                 "variableName": "kbi_p_c_services_checklist_l"
             },
             {
+                "isAbout": "items/kbi_p_c_services_checklist3_l",
+                "isVis": "kbi_p_c_mh_sa_l == '1' && event_name_number > '30'",
+                "valueRequired": true,
+                "variableName": "kbi_p_c_services_checklist3_l"
+            },
+            {
                 "isAbout": "items/kbi_p_c_mental_health_l",
-                "isVis": "kbi_p_c_services_checklist_l___3 == '1' && kbi_p_c_mental_health_dk_l == ''",
+                "isVis": "(kbi_p_c_services_checklist_l___3 == '1' || kbi_p_c_services_checklist3_l___3 == '1')&& kbi_p_c_mental_health_dk_l == ''",
                 "valueRequired": true,
                 "variableName": "kbi_p_c_mental_health_l"
+            },
+            {
+                "isAbout": "items/kbi_p_c_mental_health_dk_l",
+                "isVis": "(kbi_p_c_services_checklist_l___3 == '1' || kbi_p_c_services_checklist3_l___3 == '1')&& kbi_p_c_mental_health_l == ''",
+                "valueRequired": false,
+                "variableName": "kbi_p_c_mental_health_dk_l"
             },
             {
                 "isAbout": "items/kbi_ss_c_mental_health_p_l",
@@ -225,28 +280,22 @@
                 "variableName": "kbi_ss_c_mental_health_p_l"
             },
             {
-                "isAbout": "items/kbi_p_c_mental_health_dk_l",
-                "isVis": "(kbi_p_c_services_checklist_l___2 == '1' || kbi_p_c_services_checklist_l___3 == '1')&& kbi_p_c_mental_health_l == ''",
-                "valueRequired": false,
-                "variableName": "kbi_p_c_mental_health_dk_l"
-            },
-            {
                 "isAbout": "items/kbi_p_c_substance_abuse_l",
-                "isVis": "kbi_p_c_services_checklist_l___6 == '1' && kbi_p_c_substance_abuse_dk_l == ''",
+                "isVis": "(kbi_p_c_services_checklist_l___6 == '1' || kbi_p_c_services_checklist3_l___6 == '1')&& kbi_p_c_substance_abuse_dk_l == ''",
                 "valueRequired": true,
                 "variableName": "kbi_p_c_substance_abuse_l"
+            },
+            {
+                "isAbout": "items/kbi_p_c_substance_abuse_dk_l",
+                "isVis": "(kbi_p_c_services_checklist_l___6 == '1' || kbi_p_c_services_checklist3_l___6 == '1')&& kbi_p_c_substance_abuse_l == ''",
+                "valueRequired": false,
+                "variableName": "kbi_p_c_substance_abuse_dk_l"
             },
             {
                 "isAbout": "items/kbi_ss_c_substance_abuse_p_l",
                 "isVis": false,
                 "valueRequired": true,
                 "variableName": "kbi_ss_c_substance_abuse_p_l"
-            },
-            {
-                "isAbout": "items/kbi_p_c_substance_abuse_dk_l",
-                "isVis": "(kbi_p_c_services_checklist_l___5 == '1' || kbi_p_c_services_checklist_l___6 == '1')&& kbi_p_c_substance_abuse_l == ''",
-                "valueRequired": false,
-                "variableName": "kbi_p_c_substance_abuse_dk_l"
             },
             {
                 "isAbout": "items/p_ksads5_background_items_parent_l_complete",
@@ -257,6 +306,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2282",
+    "version": "revid2284",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
