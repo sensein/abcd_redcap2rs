@@ -1,0 +1,91 @@
+{
+    "id": "su_ceq_q04",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "su_ceq_1"
+        }
+    ],
+    "preamble": {
+        "en": "The following scale includes statements about outcomes that might happen to you if you used an electronic nicotine or vaping product or e-cigarette. Please rate how LIKELY or UNLIKELY you believe each outcome would be for you if you used e-cigarettes. For example, if you believe that e-cigarette use would definitely make you \"feel good,\" choose 9. If you believe that e-cigarette use would never make you \"feel good,\" choose 0. And if you believe e-cigarette use would only slightly decrease or increase your chance of feeling good, choose 4 or 5.\nWhat is the likelihood that the following outcomes would happen to you if you used e-cigarettes?"
+    },
+    "prefLabel": {
+        "en": "su_ceq_q04"
+    },
+    "question": {
+        "en": "Smell good"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Unlikely0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "5"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "6"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "7"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "8"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Likely9"
+                },
+                "value": 9
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

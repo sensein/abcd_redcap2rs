@@ -43,6 +43,23 @@
             "items/mapi_q16_l",
             "items/mapi_q17_l",
             "items/mapi_q18_l",
+            "items/su_cws_1",
+            "items/su_cws_2",
+            "items/su_cws_3",
+            "items/su_cws_4",
+            "items/su_cws_5",
+            "items/su_cws_6",
+            "items/su_cws_7",
+            "items/su_cws_8",
+            "items/su_cws_9",
+            "items/su_cws_10",
+            "items/su_cws_11",
+            "items/su_cws_12",
+            "items/su_cws_13",
+            "items/su_cws_14",
+            "items/su_cws_15",
+            "items/su_cws_16",
+            "items/su_cws_17",
             "items/dapi_q01_l",
             "items/dapi_q02_l",
             "items/dapi_q03_l",
@@ -73,37 +90,37 @@
             },
             {
                 "isAbout": "items/meeq_section_q01",
-                "isVis": "tlfb_mj_l == '1' || tlfb_mj_c_l == '1' || tlfb_mj_synth_l == '1' || tlfb_mj_synth_c_l == '1'",
+                "isVis": "(tlfb_mj_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_synth_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_synth_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_synth_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_synth_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "meeq_section_q01"
             },
             {
                 "isAbout": "items/meeq_section_q02",
-                "isVis": "tlfb_mj_l == '1' || tlfb_mj_c_l == '1' || tlfb_mj_synth_l == '1' || tlfb_mj_synth_c_l == '1'",
+                "isVis": "(tlfb_mj_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_synth_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_synth_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_synth_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_synth_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "meeq_section_q02"
             },
             {
                 "isAbout": "items/meeq_section_q03",
-                "isVis": "tlfb_mj_l == '1' || tlfb_mj_c_l == '1' || tlfb_mj_synth_l == '1' || tlfb_mj_synth_c_l == '1'",
+                "isVis": "(tlfb_mj_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_synth_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_synth_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_synth_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_synth_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "meeq_section_q03"
             },
             {
                 "isAbout": "items/meeq_section_q04",
-                "isVis": "tlfb_mj_l == '1' || tlfb_mj_c_l == '1' || tlfb_mj_synth_l == '1' || tlfb_mj_synth_c_l == '1'",
+                "isVis": "(tlfb_mj_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_synth_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_synth_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_synth_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_synth_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "meeq_section_q04"
             },
             {
                 "isAbout": "items/meeq_section_q05",
-                "isVis": "tlfb_mj_l == '1' || tlfb_mj_c_l == '1' || tlfb_mj_synth_l == '1' || tlfb_mj_synth_c_l == '1'",
+                "isVis": "(tlfb_mj_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_synth_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_synth_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_synth_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_synth_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "meeq_section_q05"
             },
             {
                 "isAbout": "items/meeq_section_q06",
-                "isVis": "tlfb_mj_l == '1' || tlfb_mj_c_l == '1' || tlfb_mj_synth_l == '1' || tlfb_mj_synth_c_l == '1'",
+                "isVis": "(tlfb_mj_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_synth_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_synth_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_synth_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_synth_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "meeq_section_q06"
             },
@@ -282,6 +299,108 @@
                 "variableName": "mapi_q18_l"
             },
             {
+                "isAbout": "items/su_cws_1",
+                "isVis": "xskipout_mj_l == '1' && event - name == '3_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_cws_1"
+            },
+            {
+                "isAbout": "items/su_cws_2",
+                "isVis": "xskipout_mj_l == '1' && event - name == '3_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_cws_2"
+            },
+            {
+                "isAbout": "items/su_cws_3",
+                "isVis": "xskipout_mj_l == '1' && event - name == '3_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_cws_3"
+            },
+            {
+                "isAbout": "items/su_cws_4",
+                "isVis": "xskipout_mj_l == '1' && event - name == '3_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_cws_4"
+            },
+            {
+                "isAbout": "items/su_cws_5",
+                "isVis": "xskipout_mj_l == '1' && event - name == '3_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_cws_5"
+            },
+            {
+                "isAbout": "items/su_cws_6",
+                "isVis": "xskipout_mj_l == '1' && event - name == '3_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_cws_6"
+            },
+            {
+                "isAbout": "items/su_cws_7",
+                "isVis": "xskipout_mj_l == '1' && event - name == '3_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_cws_7"
+            },
+            {
+                "isAbout": "items/su_cws_8",
+                "isVis": "xskipout_mj_l == '1' && event - name == '3_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_cws_8"
+            },
+            {
+                "isAbout": "items/su_cws_9",
+                "isVis": "xskipout_mj_l == '1' && event - name == '3_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_cws_9"
+            },
+            {
+                "isAbout": "items/su_cws_10",
+                "isVis": "xskipout_mj_l == '1' && event - name == '3_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_cws_10"
+            },
+            {
+                "isAbout": "items/su_cws_11",
+                "isVis": "xskipout_mj_l == '1' && event - name == '3_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_cws_11"
+            },
+            {
+                "isAbout": "items/su_cws_12",
+                "isVis": "xskipout_mj_l == '1' && event - name == '3_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_cws_12"
+            },
+            {
+                "isAbout": "items/su_cws_13",
+                "isVis": "xskipout_mj_l == '1' && event - name == '3_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_cws_13"
+            },
+            {
+                "isAbout": "items/su_cws_14",
+                "isVis": "xskipout_mj_l == '1' && event - name == '3_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_cws_14"
+            },
+            {
+                "isAbout": "items/su_cws_15",
+                "isVis": "xskipout_mj_l == '1' && event - name == '3_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_cws_15"
+            },
+            {
+                "isAbout": "items/su_cws_16",
+                "isVis": "xskipout_mj_l == '1' && event - name == '3_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_cws_16"
+            },
+            {
+                "isAbout": "items/su_cws_17",
+                "isVis": "xskipout_mj_l == '1' && event - name == '3_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_cws_17"
+            },
+            {
                 "isAbout": "items/dapi_q01_l",
                 "isVis": "xskipout_other_l == '1'",
                 "valueRequired": true,
@@ -404,6 +523,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2287",
+    "version": "revid2288",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

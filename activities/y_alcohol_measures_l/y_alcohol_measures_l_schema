@@ -70,43 +70,43 @@
             },
             {
                 "isAbout": "items/aeq_section_q01",
-                "isVis": "tlfb_alc_l == '1' || tlfb_alc_c_l == '1'",
+                "isVis": "tlfb_alc_l == '1' ||(tlfb_alc_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_alc_c_l == '1' && event - name =='2_year_follow_up_y_arm_1')||(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "aeq_section_q01"
             },
             {
                 "isAbout": "items/aeq_section_q02",
-                "isVis": "tlfb_alc_l == '1' || tlfb_alc_c_l == '1'",
+                "isVis": "tlfb_alc_l == '1' ||(tlfb_alc_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_alc_c_l == '1' && event - name =='2_year_follow_up_y_arm_1')||(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "aeq_section_q02"
             },
             {
                 "isAbout": "items/aeq_section_q03",
-                "isVis": "tlfb_alc_l == '1' || tlfb_alc_c_l == '1'",
+                "isVis": "tlfb_alc_l == '1' ||(tlfb_alc_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_alc_c_l == '1' && event - name =='2_year_follow_up_y_arm_1')||(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "aeq_section_q03"
             },
             {
                 "isAbout": "items/aeq_section_q04",
-                "isVis": "tlfb_alc_l == '1' || tlfb_alc_c_l == '1'",
+                "isVis": "tlfb_alc_l == '1' ||(tlfb_alc_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_alc_c_l == '1' && event - name =='2_year_follow_up_y_arm_1')||(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "aeq_section_q04"
             },
             {
                 "isAbout": "items/aeq_section_q05",
-                "isVis": "tlfb_alc_l == '1' || tlfb_alc_c_l == '1'",
+                "isVis": "tlfb_alc_l == '1' ||(tlfb_alc_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_alc_c_l == '1' && event - name =='2_year_follow_up_y_arm_1')||(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "aeq_section_q05"
             },
             {
                 "isAbout": "items/aeq_section_q06",
-                "isVis": "tlfb_alc_l == '1' || tlfb_alc_c_l == '1'",
+                "isVis": "tlfb_alc_l == '1' ||(tlfb_alc_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_alc_c_l == '1' && event - name =='2_year_follow_up_y_arm_1')||(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "aeq_section_q06"
             },
             {
                 "isAbout": "items/aeq_section_q07",
-                "isVis": "tlfb_alc_l == '1' || tlfb_alc_c_l == '1'",
+                "isVis": "tlfb_alc_l == '1' ||(tlfb_alc_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_alc_c_l == '1' && event - name =='2_year_follow_up_y_arm_1')||(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "aeq_section_q07"
             },
@@ -383,6 +383,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2287",
+    "version": "revid2288",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
