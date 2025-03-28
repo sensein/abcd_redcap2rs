@@ -515,7 +515,7 @@
             },
             {
                 "isAbout": "items/pls3_need",
-                "isVis": "baseline_visits_num >= 3",
+                "isVis": "baseline_visits_num > 2",
                 "valueRequired": false,
                 "variableName": "pls3_need"
             },
@@ -852,6 +852,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2308",
+    "version": "revid2309",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
