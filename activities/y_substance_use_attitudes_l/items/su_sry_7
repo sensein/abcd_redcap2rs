@@ -1,0 +1,67 @@
+{
+    "id": "su_sry_7",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "su_sry"
+        }
+    ],
+    "preamble": {
+        "en": "Now I am going to ask you some questions about your siblings' past year substance use. If you have more than one older or close-in-age sibling, answer questions thinking of the heaviest using sibling for each substance. In the past 12 months, has your sibling(s) used..."
+    },
+    "prefLabel": {
+        "en": "su_sry_7"
+    },
+    "question": {
+        "en": "Prescription anxiolytics (such as Xanax and Ativan) that were not prescribed to them by a doctor"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "None"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Less than once a month"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A Few Times a Month"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A Few Times a Week"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Every Day or Nearly Daily"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Don't Know"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

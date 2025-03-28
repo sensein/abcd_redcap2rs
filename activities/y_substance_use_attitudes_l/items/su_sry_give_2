@@ -1,0 +1,55 @@
+{
+    "id": "su_sry_give_2",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "su_sry_givefollowup"
+        }
+    ],
+    "preamble": {
+        "en": "In the past 12 months, have your sibling(s) ever given you..."
+    },
+    "prefLabel": {
+        "en": "su_sry_give_2"
+    },
+    "question": {
+        "en": "Alcohol (beer, wine, or liquor)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Just a few times"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Many times"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Don't Know"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

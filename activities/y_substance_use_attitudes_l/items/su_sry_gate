@@ -1,0 +1,36 @@
+{
+    "id": "su_sry_gate",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Siblings Past Year Substance Use"
+    },
+    "prefLabel": {
+        "en": "su_sry_gate"
+    },
+    "question": {
+        "en": "Do you have any older siblings, or siblings younger by no more than one and a half years? For example, if you are around age 15, they are around age 12 and a half"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

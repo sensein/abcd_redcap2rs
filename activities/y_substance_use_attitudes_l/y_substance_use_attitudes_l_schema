@@ -33,13 +33,47 @@
             "items/peer_deviance_7_l",
             "items/peer_deviance_8_l",
             "items/peer_deviance_9_l",
+            "items/su_sry_gate",
+            "items/su_sry_1",
+            "items/su_sry_2",
+            "items/su_sry_3",
+            "items/su_sry_4",
+            "items/su_sry_5",
+            "items/su_sry_6",
+            "items/su_sry_7",
+            "items/su_sry_8",
+            "items/su_sry_9",
+            "items/su_sry_seen_1",
+            "items/su_sry_seen_2",
+            "items/su_sry_seen_3",
+            "items/su_sry_seen_4",
+            "items/su_sry_seen_5",
+            "items/su_sry_seen_6",
+            "items/su_sry_seen_7",
+            "items/su_sry_seen_8",
+            "items/su_sry_seen_9",
+            "items/su_sry_give_1",
+            "items/su_sry_give_2",
+            "items/su_sry_give_3",
+            "items/su_sry_give_4",
+            "items/su_sry_give_5",
+            "items/su_sry_give_6",
+            "items/su_sry_give_7",
+            "items/su_sry_give_8",
+            "items/su_sry_give_9",
             "items/path_alc_youth1_l",
+            "items/path_alc_youth1a_l",
+            "items/path_alc_youth1b_l",
             "items/path_alc_youth2_l",
             "items/path_alc_youth3_l",
             "items/path_alc_youth4_l",
+            "items/path_alc_youth4a_l",
+            "items/path_alc_youth4b_l",
             "items/path_alc_youth5_l",
             "items/path_alc_youth6_l",
             "items/path_alc_youth7_l",
+            "items/path_alc_youth7a_l",
+            "items/path_alc_youth7b_l",
             "items/path_alc_youth8_l",
             "items/path_alc_youth9_l",
             "items/phs_1_y",
@@ -69,301 +103,505 @@
             },
             {
                 "isAbout": "items/ptu_a_y",
-                "isVis": "tlfb_alc_l=='1' || tlfb_alc_c_l== '1'",
+                "isVis": "(tlfb_alc_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_alc_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_alc_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_alc_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "ptu_a_y"
             },
             {
                 "isAbout": "items/ptu_b_y",
-                "isVis": "tlfb_alc_l=='1' || tlfb_alc_c_l=='1'",
+                "isVis": "(tlfb_alc_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_alc_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_alc_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_alc_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "ptu_b_y"
             },
             {
                 "isAbout": "items/ptu_c_y",
-                "isVis": "tlfb_alc_l=='1' || tlfb_alc_c_l== '1'",
+                "isVis": "(tlfb_alc_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_alc_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_alc_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_alc_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "ptu_c_y"
             },
             {
                 "isAbout": "items/ptu_d_y",
-                "isVis": "tlfb_tob_l == '1' || tlfb_tob_c_l == '1'",
+                "isVis": "(tlfb_tob_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_tob_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_tob_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_tob_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "ptu_d_y"
             },
             {
                 "isAbout": "items/ptu_e_y",
-                "isVis": "tlfb_tob_l == '1' || tlfb_tob_c_l == '1'",
+                "isVis": "(tlfb_tob_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_tob_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_tob_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_tob_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "ptu_e_y"
             },
             {
                 "isAbout": "items/ptu_f_y",
-                "isVis": "tlfb_tob_l == '1' || tlfb_tob_c_l == '1'",
+                "isVis": "(tlfb_tob_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_tob_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_tob_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_tob_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "ptu_f_y"
             },
             {
                 "isAbout": "items/ptu_g_y",
-                "isVis": "tlfb_tob_l == '1' || tlfb_tob_c_l == '1'",
+                "isVis": "(tlfb_tob_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_tob_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_tob_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_tob_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "ptu_g_y"
             },
             {
                 "isAbout": "items/ptu_h_y",
-                "isVis": "tlfb_tob_l == '1' || tlfb_tob_c_l == '1'",
+                "isVis": "(tlfb_tob_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_tob_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_tob_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_tob_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "ptu_h_y"
             },
             {
                 "isAbout": "items/ptu_i_y",
-                "isVis": "tlfb_mj_l== '1' || tlfb_mj_c_l== '1'",
+                "isVis": "(tlfb_mj_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "ptu_i_y"
             },
             {
                 "isAbout": "items/ptu_j_y",
-                "isVis": "tlfb_mj_l== '1' || tlfb_mj_c_l== '1'",
+                "isVis": "(tlfb_mj_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "ptu_j_y"
             },
             {
                 "isAbout": "items/ptu_k_y",
-                "isVis": "tlfb_mj_l== '1' || tlfb_mj_c_l== '1'",
+                "isVis": "(tlfb_mj_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "ptu_k_y"
             },
             {
                 "isAbout": "items/ptu_l_y",
-                "isVis": "tlfb_inhalant_l =='1' || tlfb_inhalant_c_l =='1'",
+                "isVis": "(tlfb_inhalant_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_inhalant_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_inhalant_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_inhalant_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "ptu_l_y"
             },
             {
                 "isAbout": "items/ptu_m_y",
-                "isVis": "tlfb_rx_misuse_l == '1' || tlfb_rx_misuse_c_l == '1'",
+                "isVis": "(tlfb_rx_misuse_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_rx_misuse_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_rx_misuse_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_rx_misuse_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "ptu_m_y"
             },
             {
                 "isAbout": "items/ptu_n_y",
-                "isVis": "tlfb_rx_misuse_l == '1' || tlfb_rx_misuse_c_l == '1'",
+                "isVis": "(tlfb_rx_misuse_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_rx_misuse_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_rx_misuse_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_rx_misuse_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "ptu_n_y"
             },
             {
                 "isAbout": "items/ptu_o_y",
-                "isVis": "tlfb_rx_misuse_l == '1' || tlfb_rx_misuse_c_l == '1'",
+                "isVis": "(tlfb_rx_misuse_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_rx_misuse_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_rx_misuse_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_rx_misuse_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "ptu_o_y"
             },
             {
                 "isAbout": "items/ptu_p_y",
-                "isVis": "tlfb_list_l___1 == '1' || tlfb_list_l___2 == '1' || tlfb_list_l___3 == '1' || tlfb_list_l___4 == '1' || tlfb_list_l___5 == '1' || tlfb_list_l___6 == '1' || tlfb_list_l___7 == '1' || tlfb_list_l___8 == '1' || tlfb_list_l___9 == '1' || tlfb_list_l___10 == '1' || tlfb_list_l___11 == '1' || tlfb_list_l___12 == '1'",
+                "isVis": "(tlfb_list_l___1 == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_list_l___2 == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_list_l___3 == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_list_l___4 == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_list_l___5 == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_list_l___6 == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_list_l___7 == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_list_l___8 == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_list_l___9 == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_list_l___10 == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_list_l___11 == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_list_l___12 == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_list_l___1 == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_list_l___2 == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_list_l___3 == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_list_l___4 == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_list_l___5 == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_list_l___6 == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_list_l___7 == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_list_l___8 == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_list_l___9 == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_list_l___10 == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_list_l___11 == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_list_l___12 == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "ptu_p_y"
             },
             {
                 "isAbout": "items/peer_deviance_1_l",
-                "isVis": "tlfb_tob_l=='1' || tlfb_tob_c_l=='1'",
+                "isVis": "(tlfb_tob_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_tob_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_tob_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_tob_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "peer_deviance_1_l"
             },
             {
                 "isAbout": "items/peer_deviance_2_l",
-                "isVis": "tlfb_alc_l=='1' || tlfb_alc_c_l=='1'",
+                "isVis": "(tlfb_alc_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_alc_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_alc_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_alc_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "peer_deviance_2_l"
             },
             {
                 "isAbout": "items/peer_deviance_3_l",
-                "isVis": "tlfb_alc_l=='1' || tlfb_alc_c_l=='1'",
+                "isVis": "(tlfb_alc_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_alc_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_alc_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_alc_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "peer_deviance_3_l"
             },
             {
                 "isAbout": "items/peer_deviance_4_l",
-                "isVis": "tlfb_alc_l=='1' || tlfb_tob_l=='1' || tlfb_mj_l=='1' || tlfb_mj_synth_l=='1' || tlfb_bitta_l=='1' || tlfb_list_yes_no_l=='1' || tlfb_alc_c_l=='1' || tlfb_tob_c_l=='1' || tlfb_mj_c_l=='1' || tlfb_mj_synth_c_l=='1' || tlfb_bitta_c_l=='1' || tlfb_list_yes_no_c_l=='1'",
+                "isVis": "(tlfb_alc_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_alc_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_alc_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_alc_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "peer_deviance_4_l"
             },
             {
                 "isAbout": "items/peer_deviance_5_l",
-                "isVis": "tlfb_mj_l=='1' || tlfb_mj_c_l=='1'",
+                "isVis": "(tlfb_mj_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "peer_deviance_5_l"
             },
             {
                 "isAbout": "items/peer_deviance_6_l",
-                "isVis": "tlfb_inhalant_l == '1' || tlfb_inhalant_c_l == '1'",
+                "isVis": "(tlfb_inhalant_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_inhalant_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_inhalant_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_inhalant_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "peer_deviance_6_l"
             },
             {
                 "isAbout": "items/peer_deviance_7_l",
-                "isVis": "tlfb_list_l___1 == '1' || tlfb_list_l___1 == '1' || tlfb_list_l___1 == '1' || tlfb_list_l___1 == '1' || tlfb_list_l___1 == '1' || tlfb_list_l___1 == '1' || tlfb_list_l___2 == '1' || tlfb_list_l___3 == '1' || tlfb_list_l___4 == '1' || tlfb_list_l___5 == '1' || tlfb_list_l___6 == '1' || tlfb_list_l___7 == '1' || tlfb_list_l___8 == '1' || tlfb_list_l___9 == '1' || tlfb_list_l___10 == '1' || tlfb_list_l___11 == '1' || tlfb_list_l___12 == '1'",
+                "isVis": "tlfb_list_l___1 == '1' || tlfb_list_l___1 == '1' || tlfb_list_l___1 == '1' || tlfb_list_l___1 == '1' || tlfb_list_l___1 == '1' || tlfb_list_l___1 == '1' || tlfb_list_l___2 == '1' || tlfb_list_l___3 == '1' || tlfb_list_l___4 == '1' || tlfb_list_l___5 == '1' || tlfb_list_l___6 == '1' || tlfb_list_l___7 == '1' || tlfb_list_l___8 == '1' || tlfb_list_l___9 == '1' || tlfb_list_l___10 == '1' || tlfb_list_l___11 == '1' || tlfb_list_l___12 == '1' || event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "peer_deviance_7_l"
             },
             {
                 "isAbout": "items/peer_deviance_8_l",
-                "isVis": "tlfb_alc_l=='1' || tlfb_tob_l=='1' || tlfb_mj_l=='1' || tlfb_mj_synth_l=='1' || tlfb_bitta_l=='1' || tlfb_list_yes_no_l=='1' || tlfb_alc_c_l=='1' || tlfb_tob_c_l=='1' || tlfb_mj_c_l=='1' || tlfb_mj_synth_c_l=='1' || tlfb_bitta_c_l=='1' || tlfb_list_yes_no_c_l=='1'",
+                "isVis": "(tlfb_alc_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_alc_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_alc_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_alc_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_tob_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_tob_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_tob_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_tob_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_synth_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_synth_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_synth_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_synth_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_bitta_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_bitta_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_bitta_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_bitta_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_list_yes_no_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_list_yes_no_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_list_yes_no_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_list_yes_no_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "peer_deviance_8_l"
             },
             {
                 "isAbout": "items/peer_deviance_9_l",
-                "isVis": "tlfb_tob_l=='1' || tlfb_tob_c_l=='1'",
+                "isVis": "(tlfb_tob_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_tob_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_tob_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_tob_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "peer_deviance_9_l"
             },
             {
+                "isAbout": "items/su_sry_gate",
+                "isVis": "event - name == '3_year_follow_up_y_arm_1'",
+                "valueRequired": false,
+                "variableName": "su_sry_gate"
+            },
+            {
+                "isAbout": "items/su_sry_1",
+                "isVis": "su_sry_gate==1",
+                "valueRequired": false,
+                "variableName": "su_sry_1"
+            },
+            {
+                "isAbout": "items/su_sry_2",
+                "isVis": "su_sry_gate==1",
+                "valueRequired": false,
+                "variableName": "su_sry_2"
+            },
+            {
+                "isAbout": "items/su_sry_3",
+                "isVis": "su_sry_gate==1",
+                "valueRequired": false,
+                "variableName": "su_sry_3"
+            },
+            {
+                "isAbout": "items/su_sry_4",
+                "isVis": "su_sry_gate==1",
+                "valueRequired": false,
+                "variableName": "su_sry_4"
+            },
+            {
+                "isAbout": "items/su_sry_5",
+                "isVis": "su_sry_gate==1",
+                "valueRequired": false,
+                "variableName": "su_sry_5"
+            },
+            {
+                "isAbout": "items/su_sry_6",
+                "isVis": "su_sry_gate==1",
+                "valueRequired": false,
+                "variableName": "su_sry_6"
+            },
+            {
+                "isAbout": "items/su_sry_7",
+                "isVis": "su_sry_gate==1",
+                "valueRequired": false,
+                "variableName": "su_sry_7"
+            },
+            {
+                "isAbout": "items/su_sry_8",
+                "isVis": "su_sry_gate==1",
+                "valueRequired": false,
+                "variableName": "su_sry_8"
+            },
+            {
+                "isAbout": "items/su_sry_9",
+                "isVis": "su_sry_gate==1",
+                "valueRequired": false,
+                "variableName": "su_sry_9"
+            },
+            {
+                "isAbout": "items/su_sry_seen_1",
+                "isVis": "su_sry_1==1 || su_sry_1==2 || su_sry_1==3 || su_sry_1==4",
+                "valueRequired": false,
+                "variableName": "su_sry_seen_1"
+            },
+            {
+                "isAbout": "items/su_sry_seen_2",
+                "isVis": "su_sry_2==1 || su_sry_2==2 || su_sry_2==3 || su_sry_2==4",
+                "valueRequired": false,
+                "variableName": "su_sry_seen_2"
+            },
+            {
+                "isAbout": "items/su_sry_seen_3",
+                "isVis": "su_sry_3==1 || su_sry_3==2 || su_sry_3==3 || su_sry_3==4",
+                "valueRequired": false,
+                "variableName": "su_sry_seen_3"
+            },
+            {
+                "isAbout": "items/su_sry_seen_4",
+                "isVis": "su_sry_4==1 || su_sry_4==2 || su_sry_4==3 || su_sry_4==4",
+                "valueRequired": false,
+                "variableName": "su_sry_seen_4"
+            },
+            {
+                "isAbout": "items/su_sry_seen_5",
+                "isVis": "su_sry_5==1 || su_sry_5==2 || su_sry_5==3 || su_sry_5==4",
+                "valueRequired": false,
+                "variableName": "su_sry_seen_5"
+            },
+            {
+                "isAbout": "items/su_sry_seen_6",
+                "isVis": "su_sry_6==1 || su_sry_6==2 || su_sry_6==3 || su_sry_6==4",
+                "valueRequired": false,
+                "variableName": "su_sry_seen_6"
+            },
+            {
+                "isAbout": "items/su_sry_seen_7",
+                "isVis": "su_sry_7==1 || su_sry_7==2 || su_sry_7==3 || su_sry_7==4",
+                "valueRequired": false,
+                "variableName": "su_sry_seen_7"
+            },
+            {
+                "isAbout": "items/su_sry_seen_8",
+                "isVis": "su_sry_8==1 || su_sry_8==2 || su_sry_8==3 || su_sry_8==4",
+                "valueRequired": false,
+                "variableName": "su_sry_seen_8"
+            },
+            {
+                "isAbout": "items/su_sry_seen_9",
+                "isVis": "su_sry_9==1 || su_sry_9==2 || su_sry_9==3 || su_sry_9==4",
+                "valueRequired": false,
+                "variableName": "su_sry_seen_9"
+            },
+            {
+                "isAbout": "items/su_sry_give_1",
+                "isVis": "su_sry_1==1 || su_sry_1==2 || su_sry_1==3 || su_sry_1==4",
+                "valueRequired": false,
+                "variableName": "su_sry_give_1"
+            },
+            {
+                "isAbout": "items/su_sry_give_2",
+                "isVis": "su_sry_2==1 || su_sry_2==2 || su_sry_2==3 || su_sry_2==4",
+                "valueRequired": false,
+                "variableName": "su_sry_give_2"
+            },
+            {
+                "isAbout": "items/su_sry_give_3",
+                "isVis": "su_sry_3==1 || su_sry_3==2 || su_sry_3==3 || su_sry_3==4",
+                "valueRequired": false,
+                "variableName": "su_sry_give_3"
+            },
+            {
+                "isAbout": "items/su_sry_give_4",
+                "isVis": "su_sry_4==1 || su_sry_4==2 || su_sry_4==3 || su_sry_4==4",
+                "valueRequired": false,
+                "variableName": "su_sry_give_4"
+            },
+            {
+                "isAbout": "items/su_sry_give_5",
+                "isVis": "su_sry_5==1 || su_sry_5==2 || su_sry_5==3 || su_sry_5==4",
+                "valueRequired": false,
+                "variableName": "su_sry_give_5"
+            },
+            {
+                "isAbout": "items/su_sry_give_6",
+                "isVis": "su_sry_6==1 || su_sry_6==2 || su_sry_6==3 || su_sry_6==4",
+                "valueRequired": false,
+                "variableName": "su_sry_give_6"
+            },
+            {
+                "isAbout": "items/su_sry_give_7",
+                "isVis": "su_sry_7==1 || su_sry_7==2 || su_sry_7==3 || su_sry_7==4",
+                "valueRequired": false,
+                "variableName": "su_sry_give_7"
+            },
+            {
+                "isAbout": "items/su_sry_give_8",
+                "isVis": "su_sry_8==1 || su_sry_8==2 || su_sry_8==3 || su_sry_8==4",
+                "valueRequired": false,
+                "variableName": "su_sry_give_8"
+            },
+            {
+                "isAbout": "items/su_sry_give_9",
+                "isVis": "su_sry_9==1 || su_sry_9==2 || su_sry_9==3 || su_sry_9==4",
+                "valueRequired": false,
+                "variableName": "su_sry_give_9"
+            },
+            {
                 "isAbout": "items/path_alc_youth1_l",
-                "isVis": "(tlfb_tob_l == '1' || tlfb_tob_c_l == '1')&&(tlfb_tob_puff_l=='0' && tlfb_chew_use_l=='0' && tlfb_tob_puff_c_l=='0' && tlfb_chew_use_c_l=='0')",
+                "isVis": "(tlfb_tob_l == '1' || tlfb_tob_c_l == '1')&&(tlfb_tob_puff_l == '0' && tlfb_tob_puff_c_l=='0')&& event_name_number < '31' || event_name_number > '30'",
                 "valueRequired": true,
                 "variableName": "path_alc_youth1_l"
             },
             {
+                "isAbout": "items/path_alc_youth1a_l",
+                "isVis": "(tlfb_tob_l == '1' || tlfb_tob_c_l == '1')&&(tlfb_tob_puff_l == '0' && tlfb_tob_puff_c_l=='0')&& event_name_number < '31' || event_name_number > '30'",
+                "valueRequired": true,
+                "variableName": "path_alc_youth1a_l"
+            },
+            {
+                "isAbout": "items/path_alc_youth1b_l",
+                "isVis": "(tlfb_tob_l == '1' || tlfb_tob_c_l == '1')&&(tlfb_tob_puff_l == '0' && tlfb_tob_puff_c_l == '0')&& event_name_number < '31' || event_name_number > '30'",
+                "valueRequired": true,
+                "variableName": "path_alc_youth1b_l"
+            },
+            {
                 "isAbout": "items/path_alc_youth2_l",
-                "isVis": "(tlfb_alc_l== '1' || tlfb_alc_c_l == '1')&&(tlfb_alc_sip_l== '0' && tlfb_alc_sip_c_l== '0')",
+                "isVis": "(tlfb_alc_l == '1' || tlfb_alc_c_l == '1')&&(tlfb_alc_sip_l== '0' && tlfb_alc_sip_c_l== '0')|| event_name_number > '30'",
                 "valueRequired": true,
                 "variableName": "path_alc_youth2_l"
             },
             {
                 "isAbout": "items/path_alc_youth3_l",
-                "isVis": "(tlfb_mj_l== '1' || tlfb_mj_c_l == '1')&& tlfb_mj_puff_l=='0' && tlfb_mj_conc_use_l=='0' && tlfb_mj_drink_use_l=='0' && tlfb_tincture_use_l=='0' && tlfb_mj_puff_c_l=='0' && tlfb_mj_conc_use_c_l=='0' && tlfb_mj_drink_use_c_l=='0' && tlfb_tincture_use_c_l=='0'",
+                "isVis": "(tlfb_mj_l == '1' || tlfb_mj_c_l == '1')&&(tlfb_mj_puff_l=='0' && tlfb_mj_conc_use_l=='0' && tlfb_mj_drink_use_l=='0' && tlfb_tincture_use_l=='0' && tlfb_mj_puff_c_l=='0' && tlfb_mj_conc_use_c_l=='0' && tlfb_mj_drink_use_c_l=='0' && tlfb_tincture_use_c_l=='0' && event_name_number < '31')|| event_name_number > '30'",
                 "valueRequired": true,
                 "variableName": "path_alc_youth3_l"
             },
             {
                 "isAbout": "items/path_alc_youth4_l",
-                "isVis": "(tlfb_tob_l == '1' || tlfb_tob_c_l == '1')&&(tlfb_tob_puff_l=='0' && tlfb_chew_use_l=='0' && tlfb_tob_puff_c_l=='0' && tlfb_chew_use_c_l=='0')",
+                "isVis": "(tlfb_tob_l == '1' || tlfb_tob_c_l == '1')&&(tlfb_tob_puff_l == '0' && tlfb_tob_puff_c_l=='0')&& event_name_number < '31' || event_name_number > '30'",
                 "valueRequired": true,
                 "variableName": "path_alc_youth4_l"
             },
             {
+                "isAbout": "items/path_alc_youth4a_l",
+                "isVis": "(tlfb_tob_l == '1' || tlfb_tob_c_l == '1')&&(tlfb_tob_puff_l == '0' && tlfb_tob_puff_c_l=='0')&& event_name_number < '31' || event_name_number > '30'",
+                "valueRequired": true,
+                "variableName": "path_alc_youth4a_l"
+            },
+            {
+                "isAbout": "items/path_alc_youth4b_l",
+                "isVis": "(tlfb_tob_l == '1' || tlfb_tob_c_l == '1')&&(tlfb_tob_puff_l == '0' && tlfb_tob_puff_c_l=='0')&& event_name_number < '31' || event_name_number > '30'",
+                "valueRequired": true,
+                "variableName": "path_alc_youth4b_l"
+            },
+            {
                 "isAbout": "items/path_alc_youth5_l",
-                "isVis": "(tlfb_alc_l== '1' || tlfb_alc_c_l == '1')&&(tlfb_alc_sip_l== '0' && tlfb_alc_sip_c_l== '0')",
+                "isVis": "(tlfb_alc_l == '1' || tlfb_alc_c_l == '1')&&(tlfb_alc_sip_l== '0' && tlfb_alc_sip_c_l== '0')|| event_name_number > '30'",
                 "valueRequired": true,
                 "variableName": "path_alc_youth5_l"
             },
             {
                 "isAbout": "items/path_alc_youth6_l",
-                "isVis": "(tlfb_mj_l== '1' || tlfb_mj_c_l == '1')&& tlfb_mj_puff_l=='0' && tlfb_mj_conc_use_l=='0' && tlfb_mj_drink_use_l=='0' && tlfb_tincture_use_l=='0' && tlfb_mj_puff_c_l=='0' && tlfb_mj_conc_use_c_l=='0' && tlfb_mj_drink_use_c_l=='0' && tlfb_tincture_use_c_l=='0'",
+                "isVis": "(tlfb_mj_l == '1' || tlfb_mj_c_l == '1')&&(tlfb_mj_puff_l=='0' && tlfb_mj_conc_use_l=='0' && tlfb_mj_drink_use_l=='0' && tlfb_tincture_use_l=='0' && tlfb_mj_puff_c_l=='0' && tlfb_mj_conc_use_c_l=='0' && tlfb_mj_drink_use_c_l=='0' && tlfb_tincture_use_c_l=='0' && event_name_number < '31')|| event_name_number > '30'",
                 "valueRequired": true,
                 "variableName": "path_alc_youth6_l"
             },
             {
                 "isAbout": "items/path_alc_youth7_l",
-                "isVis": "(tlfb_tob_l == '1' || tlfb_tob_c_l == '1')&&(tlfb_tob_puff_l=='0' && tlfb_chew_use_l=='0' && tlfb_tob_puff_c_l=='0' && tlfb_chew_use_c_l=='0')",
+                "isVis": "(tlfb_tob_l == '1' || tlfb_tob_c_l == '1')&&(tlfb_tob_puff_l=='0' && tlfb_chew_use_l=='0' && tlfb_tob_puff_c_l=='0' && tlfb_chew_use_c_l=='0')&&(event_name_number < '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "path_alc_youth7_l"
             },
             {
+                "isAbout": "items/path_alc_youth7a_l",
+                "isVis": "(tlfb_tob_l == '1' || tlfb_tob_c_l == '1')&&(tlfb_tob_puff_l == '0' && tlfb_tob_puff_c_l=='0')&& event_name_number < '31' || event_name_number > '30'",
+                "valueRequired": true,
+                "variableName": "path_alc_youth7a_l"
+            },
+            {
+                "isAbout": "items/path_alc_youth7b_l",
+                "isVis": "(tlfb_tob_l == '1' || tlfb_tob_c_l == '1')&&(tlfb_tob_puff_l == '0' && tlfb_tob_puff_c_l=='0')&& event_name_number < '31' || event_name_number > '30'",
+                "valueRequired": true,
+                "variableName": "path_alc_youth7b_l"
+            },
+            {
                 "isAbout": "items/path_alc_youth8_l",
-                "isVis": "(tlfb_alc_l== '1' || tlfb_alc_c_l == '1')&&(tlfb_alc_sip_l== '0' && tlfb_alc_sip_c_l== '0')",
+                "isVis": "(tlfb_alc_l == '1' || tlfb_alc_c_l == '1')&&(tlfb_alc_sip_l== '0' && tlfb_alc_sip_c_l== '0')|| event_name_number > '30'",
                 "valueRequired": true,
                 "variableName": "path_alc_youth8_l"
             },
             {
                 "isAbout": "items/path_alc_youth9_l",
-                "isVis": "(tlfb_mj_l== '1' || tlfb_mj_c_l == '1')&& tlfb_mj_puff_l=='0' && tlfb_mj_conc_use_l=='0' && tlfb_mj_drink_use_l=='0' && tlfb_tincture_use_l=='0' && tlfb_mj_puff_c_l=='0' && tlfb_mj_conc_use_c_l=='0' && tlfb_mj_drink_use_c_l=='0' && tlfb_tincture_use_c_l=='0'",
+                "isVis": "(tlfb_mj_l == '1' || tlfb_mj_c_l == '1')&&(tlfb_mj_puff_l=='0' && tlfb_mj_conc_use_l=='0' && tlfb_mj_drink_use_l=='0' && tlfb_tincture_use_l=='0' && tlfb_mj_puff_c_l=='0' && tlfb_mj_conc_use_c_l=='0' && tlfb_mj_drink_use_c_l=='0' && tlfb_tincture_use_c_l=='0' && event_name_number < '31')|| event_name_number > '30'",
                 "valueRequired": true,
                 "variableName": "path_alc_youth9_l"
             },
             {
                 "isAbout": "items/phs_1_y",
-                "isVis": "tlfb_alc_l=='1' || tlfb_alc_c_l== '1'",
+                "isVis": "(tlfb_alc_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_alc == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_alc_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_alc_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "phs_1_y"
             },
             {
                 "isAbout": "items/phs_2_y",
-                "isVis": "tlfb_alc_l=='1' || tlfb_alc_c_l== '1'",
+                "isVis": "(tlfb_alc_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_alc_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_alc_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_alc_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "phs_2_y"
             },
             {
                 "isAbout": "items/phs_3_y",
-                "isVis": "tlfb_alc_l=='1' || tlfb_alc_c_l== '1'",
+                "isVis": "(tlfb_alc_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_alc_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_alc_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_alc_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "phs_3_y"
             },
             {
                 "isAbout": "items/phs_4_y",
-                "isVis": "tlfb_tob_l == '1' || tlfb_tob_c_l == '1'",
+                "isVis": "(tlfb_tob_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_tob_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_tob_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_tob_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "phs_4_y"
             },
             {
                 "isAbout": "items/phs_5_y",
-                "isVis": "tlfb_tob_l == '1' || tlfb_tob_c_l == '1'",
+                "isVis": "(tlfb_tob_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_tob_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_tob_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_tob_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "phs_5_y"
             },
             {
                 "isAbout": "items/phs_6_y",
-                "isVis": "tlfb_tob_l == '1' || tlfb_tob_c_l == '1'",
+                "isVis": "(tlfb_tob_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_tob_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_tob_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_tob_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "phs_6_y"
             },
             {
                 "isAbout": "items/phs_7_y",
-                "isVis": "tlfb_tob_l == '1' || tlfb_tob_c_l == '1'",
+                "isVis": "(tlfb_tob_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_tob_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_tob_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_tob_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "phs_7_y"
             },
             {
                 "isAbout": "items/phs_8_y",
-                "isVis": "tlfb_tob_l == '1' || tlfb_tob_c_l == '1'",
+                "isVis": "(tlfb_tob_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_tob_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_tob_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_tob_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "phs_8_y"
             },
             {
                 "isAbout": "items/phs_9_y",
-                "isVis": "tlfb_mj_l== '1' || tlfb_mj_c_l== '1'",
+                "isVis": "(tlfb_mj_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "phs_9_y"
             },
             {
                 "isAbout": "items/phs_10_y",
-                "isVis": "tlfb_mj_l== '1' || tlfb_mj_c_l== '1'",
+                "isVis": "(tlfb_mj_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "phs_10_y"
             },
             {
                 "isAbout": "items/phs_11_y",
-                "isVis": "tlfb_mj_l== '1' || tlfb_mj_c_l== '1'",
+                "isVis": "(tlfb_mj_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "phs_11_y"
             },
             {
                 "isAbout": "items/phs_12_y",
-                "isVis": "tlfb_inhalant_l =='1' || tlfb_inhalant_c_l =='1'",
+                "isVis": "(tlfb_inhalant_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_inhalant_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_inhalant_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_inhalant_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "phs_12_y"
             },
             {
                 "isAbout": "items/phs_13_y",
-                "isVis": "tlfb_rx_misuse_l == '1' || tlfb_rx_misuse_c_l == '1'",
+                "isVis": "(tlfb_rx_misuse_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_rx_misuse_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_rx_misuse_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_rx_misuse_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "phs_13_y"
             },
             {
                 "isAbout": "items/phs_14_y",
-                "isVis": "tlfb_rx_misuse_l == '1' || tlfb_rx_misuse_c_l == '1'",
+                "isVis": "(tlfb_rx_misuse_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_rx_misuse_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_rx_misuse_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_rx_misuse_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "phs_14_y"
             },
             {
                 "isAbout": "items/phs_15_y",
-                "isVis": "tlfb_rx_misuse_l == '1' || tlfb_rx_misuse_c_l == '1'",
+                "isVis": "(tlfb_rx_misuse_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_rx_misuse_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_rx_misuse_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_rx_misuse_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "phs_15_y"
             },
             {
                 "isAbout": "items/phs_16_y",
-                "isVis": "tlfb_list_l___1 == '1' || tlfb_list_l___1 == '1' || tlfb_list_l___1 == '1' || tlfb_list_l___1 == '1' || tlfb_list_l___1 == '1' || tlfb_list_l___1 == '1' || tlfb_list_l___2 == '1' || tlfb_list_l___3 == '1' || tlfb_list_l___4 == '1' || tlfb_list_l___5 == '1' || tlfb_list_l___6 == '1' || tlfb_list_l___7 == '1' || tlfb_list_l___8 == '1' || tlfb_list_l___9 == '1' || tlfb_list_l___10 == '1' || tlfb_list_l___11 == '1' || tlfb_list_l___12 == '1'",
+                "isVis": "(tlfb_list_l___1 == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_list_l___2 == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_list_l___3 == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_list_l___4 == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_list_l___5 == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_list_l___6 == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_list_l___7 == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_list_l___8 == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_list_l___9 == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_list_l___10 == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_list_l___11 == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_list_l___12 == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_list_l___1 == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_list_l___2 == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_list_l___3 == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_list_l___4 == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_list_l___5 == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_list_l___6 == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_list_l___7 == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_list_l___8 == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_list_l___9 == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_list_l___10 == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_list_l___11 == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_list_l___12 == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "phs_16_y"
             },
@@ -376,6 +614,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2288",
+    "version": "revid2289",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
