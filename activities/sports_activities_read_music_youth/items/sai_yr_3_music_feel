@@ -1,0 +1,45 @@
+{
+    "id": "sai_yr_3_music_feel",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sai_yr_3_music_feel"
+    },
+    "question": {
+        "en": "Do you listen to music to change the way you feel?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Usually"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Always"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

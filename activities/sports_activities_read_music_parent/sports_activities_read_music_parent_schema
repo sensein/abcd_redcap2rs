@@ -1,0 +1,80 @@
+{
+    "id": "sports_activities_read_music_parent_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "sports_activities_read_music_parent"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sai_yr_3_read_p",
+            "items/sai_yr_3_read_yrs_p",
+            "items/sai_yr_3_read_hrs_wk_p",
+            "items/sai_yr_3_read_past_yr_p",
+            "items/sai_yr_3_music_p",
+            "items/sai_yr_3_music_yrs_p",
+            "items/sai_yr_3_music_hrs_wk_p",
+            "items/sai_yr_3_music_past_week_p",
+            "items/sports_activities_read_music_parent_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sai_yr_3_read_p",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sai_yr_3_read_p"
+            },
+            {
+                "isAbout": "items/sai_yr_3_read_yrs_p",
+                "isVis": "sai_yr_3_read_p == '1'",
+                "valueRequired": false,
+                "variableName": "sai_yr_3_read_yrs_p"
+            },
+            {
+                "isAbout": "items/sai_yr_3_read_hrs_wk_p",
+                "isVis": "sai_yr_3_read_p == '1'",
+                "valueRequired": false,
+                "variableName": "sai_yr_3_read_hrs_wk_p"
+            },
+            {
+                "isAbout": "items/sai_yr_3_read_past_yr_p",
+                "isVis": "sai_yr_3_read_p == '1'",
+                "valueRequired": false,
+                "variableName": "sai_yr_3_read_past_yr_p"
+            },
+            {
+                "isAbout": "items/sai_yr_3_music_p",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sai_yr_3_music_p"
+            },
+            {
+                "isAbout": "items/sai_yr_3_music_yrs_p",
+                "isVis": "sai_yr_3_music_p == '1'",
+                "valueRequired": false,
+                "variableName": "sai_yr_3_music_yrs_p"
+            },
+            {
+                "isAbout": "items/sai_yr_3_music_hrs_wk_p",
+                "isVis": "sai_yr_3_music_p == '1'",
+                "valueRequired": false,
+                "variableName": "sai_yr_3_music_hrs_wk_p"
+            },
+            {
+                "isAbout": "items/sai_yr_3_music_past_week_p",
+                "isVis": "sai_yr_3_music_p == '1'",
+                "valueRequired": false,
+                "variableName": "sai_yr_3_music_past_week_p"
+            },
+            {
+                "isAbout": "items/sports_activities_read_music_parent_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sports_activities_read_music_parent_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2228",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
