@@ -79,25 +79,25 @@
             },
             {
                 "isAbout": "items/blood_permission_l_p",
-                "isVis": "event_name_number == '21'",
+                "isVis": "event_name_number > '11'",
                 "valueRequired": true,
                 "variableName": "blood_permission_l_p"
             },
             {
                 "isAbout": "items/fitbit_y_smartphone",
-                "isVis": "event_name_number == '21'",
+                "isVis": "event_name_number > '11'",
                 "valueRequired": true,
                 "variableName": "fitbit_y_smartphone"
             },
             {
                 "isAbout": "items/fitbit_p_smartphone",
-                "isVis": "event_name_number == '21' && fitbit_y_smartphone == '0'",
+                "isVis": "event_name_number > '11' && fitbit_y_smartphone == '0'",
                 "valueRequired": true,
                 "variableName": "fitbit_p_smartphone"
             },
             {
                 "isAbout": "items/fitbit_permission",
-                "isVis": "event_name_number == '21' || event_name_number == '11'",
+                "isVis": "event_name_number > '11'",
                 "valueRequired": true,
                 "variableName": "fitbit_permission"
             },
@@ -278,6 +278,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2279",
+    "version": "revid2280",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
