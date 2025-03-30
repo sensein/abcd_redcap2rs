@@ -7,7 +7,6 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
-            "items/alc_measure_start_time",
             "items/aeq_section_q01",
             "items/aeq_section_q02",
             "items/aeq_section_q03",
@@ -15,6 +14,7 @@
             "items/aeq_section_q05",
             "items/aeq_section_q06",
             "items/aeq_section_q07",
+            "items/alc_measure_start_time",
             "items/subj_resp_alc_1a_l",
             "items/subj_resp_alc_2a_l",
             "items/subj_resp_alc_3a_l",
@@ -64,12 +64,6 @@
         ],
         "addProperties": [
             {
-                "isAbout": "items/alc_measure_start_time",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "alc_measure_start_time"
-            },
-            {
                 "isAbout": "items/aeq_section_q01",
                 "isVis": "tlfb_alc_l == '1' ||(tlfb_alc_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_alc_c_l == '1' && event - name =='2_year_follow_up_y_arm_1')||(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
@@ -110,6 +104,12 @@
                 "isVis": "tlfb_alc_l == '1' ||(tlfb_alc_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_alc_c_l == '1' && event - name =='2_year_follow_up_y_arm_1')||(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "aeq_section_q07"
+            },
+            {
+                "isAbout": "items/alc_measure_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "alc_measure_start_time"
             },
             {
                 "isAbout": "items/subj_resp_alc_1a_l",
@@ -390,6 +390,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2415",
+    "version": "revid2416",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

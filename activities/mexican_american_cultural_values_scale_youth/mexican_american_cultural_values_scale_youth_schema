@@ -7,8 +7,9 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
-            "items/macv_start_time",
             "items/macv_instructions_read",
+            "items/macv_instructions",
+            "items/macv_start_time",
             "items/macv_q1",
             "items/macv_q2",
             "items/macv_q3",
@@ -44,16 +45,22 @@
         ],
         "addProperties": [
             {
-                "isAbout": "items/macv_start_time",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "macv_start_time"
-            },
-            {
                 "isAbout": "items/macv_instructions_read",
                 "isVis": "event_name_number > '21'",
                 "valueRequired": false,
                 "variableName": "macv_instructions_read"
+            },
+            {
+                "isAbout": "items/macv_instructions",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "macv_instructions"
+            },
+            {
+                "isAbout": "items/macv_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "macv_start_time"
             },
             {
                 "isAbout": "items/macv_q1",
@@ -250,6 +257,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2415",
+    "version": "revid2416",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

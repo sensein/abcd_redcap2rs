@@ -7,13 +7,13 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
-            "items/mj_measures_start_time",
             "items/meeq_section_q01",
             "items/meeq_section_q02",
             "items/meeq_section_q03",
             "items/meeq_section_q04",
             "items/meeq_section_q05",
             "items/meeq_section_q06",
+            "items/mj_measures_start_time",
             "items/sub_res_mj_q01_l",
             "items/sub_res_mj_q02_l",
             "items/sub_res_mj_q03_l",
@@ -83,12 +83,6 @@
         ],
         "addProperties": [
             {
-                "isAbout": "items/mj_measures_start_time",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "mj_measures_start_time"
-            },
-            {
                 "isAbout": "items/meeq_section_q01",
                 "isVis": "(tlfb_mj_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_synth_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_synth_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_synth_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_synth_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
@@ -123,6 +117,12 @@
                 "isVis": "(tlfb_mj_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_synth_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_synth_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_synth_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_synth_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "meeq_section_q06"
+            },
+            {
+                "isAbout": "items/mj_measures_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mj_measures_start_time"
             },
             {
                 "isAbout": "items/sub_res_mj_q01_l",
@@ -523,6 +523,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2415",
+    "version": "revid2416",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
