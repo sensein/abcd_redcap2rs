@@ -38,7 +38,7 @@
             "items/age_calc",
             "items/demo_sex_v2_l",
             "items/race_ethnicity_p",
-            "items/mother_high_ed_v",
+            "items/parent_high_ed_v",
             "items/y_race_v",
             "items/youth_ethnicity_v",
             "items/y_handedness_v",
@@ -180,10 +180,10 @@
                 "variableName": "race_ethnicity_p"
             },
             {
-                "isAbout": "items/mother_high_ed_v",
+                "isAbout": "items/parent_high_ed_v",
                 "isVis": true,
                 "valueRequired": false,
-                "variableName": "mother_high_ed_v"
+                "variableName": "parent_high_ed_v"
             },
             {
                 "isAbout": "items/y_race_v",
@@ -296,6 +296,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2346",
+    "version": "revid2348",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
