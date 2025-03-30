@@ -48,6 +48,7 @@
             "items/delq_10a_y",
             "items/delq_10a_y_dk",
             "items/delq_ss_10a_y",
+            "items/delq_admin",
             "items/y_delinquency_self_report_l_complete"
         ],
         "addProperties": [
@@ -298,6 +299,12 @@
                 "variableName": "delq_ss_10a_y"
             },
             {
+                "isAbout": "items/delq_admin",
+                "isVis": "event_name_number > '21'",
+                "valueRequired": true,
+                "variableName": "delq_admin"
+            },
+            {
                 "isAbout": "items/y_delinquency_self_report_l_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -306,6 +313,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2404",
+    "version": "revid2405",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -290,7 +290,9 @@
             "../activities/math_fluency_task/math_fluency_task_schema",
             "../activities/math_recall_task/math_recall_task_schema",
             "../activities/y_ksads2daic_use_only/y_ksads2daic_use_only_schema",
-            "../activities/p_ksads2daic_use_only/p_ksads2daic_use_only_schema"
+            "../activities/p_ksads2daic_use_only/p_ksads2daic_use_only_schema",
+            "../activities/y_blood_draw_results_daic_only/y_blood_draw_results_daic_only_schema",
+            "../activities/y_blood_draw_findings_resolution/y_blood_draw_findings_resolution_schema"
         ],
         "addProperties": [
             {
@@ -2540,10 +2542,26 @@
                     "en": "P Ksads2Daic Use Only"
                 },
                 "variableName": "p_ksads2daic_use_only_schema"
+            },
+            {
+                "isAbout": "../activities/y_blood_draw_results_daic_only/y_blood_draw_results_daic_only_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Blood Draw Results Daic Only"
+                },
+                "variableName": "y_blood_draw_results_daic_only_schema"
+            },
+            {
+                "isAbout": "../activities/y_blood_draw_findings_resolution/y_blood_draw_findings_resolution_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Blood Draw Findings Resolution"
+                },
+                "variableName": "y_blood_draw_findings_resolution_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2404",
+    "version": "revid2405",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

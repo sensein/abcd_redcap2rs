@@ -15,6 +15,7 @@
             "items/sup_5_y",
             "items/sup_6_y",
             "items/sup_7_y",
+            "items/up_admin",
             "items/y_7_up_l_complete"
         ],
         "addProperties": [
@@ -67,6 +68,12 @@
                 "variableName": "sup_7_y"
             },
             {
+                "isAbout": "items/up_admin",
+                "isVis": "event_name_number > '21'",
+                "valueRequired": true,
+                "variableName": "up_admin"
+            },
+            {
                 "isAbout": "items/y_7_up_l_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -75,6 +82,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2404",
+    "version": "revid2405",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

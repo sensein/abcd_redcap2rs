@@ -16,6 +16,7 @@
             "items/gish_m4_y",
             "items/gish_f3_y",
             "items/gish_f4_y",
+            "items/gish_admin",
             "items/y_gender_identity_complete"
         ],
         "addProperties": [
@@ -74,6 +75,12 @@
                 "variableName": "gish_f4_y"
             },
             {
+                "isAbout": "items/gish_admin",
+                "isVis": "event_name_number > '21'",
+                "valueRequired": true,
+                "variableName": "gish_admin"
+            },
+            {
                 "isAbout": "items/y_gender_identity_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -82,6 +89,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2404",
+    "version": "revid2405",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

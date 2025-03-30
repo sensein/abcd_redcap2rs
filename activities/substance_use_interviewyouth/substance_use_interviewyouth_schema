@@ -973,6 +973,7 @@
             "items/dapi_q16",
             "items/dapi_q17",
             "items/dapi_q18",
+            "items/suip_admin",
             "items/substance_use_interviewyouth_complete"
         ],
         "addProperties": [
@@ -4997,6 +4998,12 @@
                 "variableName": "dapi_q18"
             },
             {
+                "isAbout": "items/suip_admin",
+                "isVis": "event_name_number > '21'",
+                "valueRequired": true,
+                "variableName": "suip_admin"
+            },
+            {
                 "isAbout": "items/substance_use_interviewyouth_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -5005,6 +5012,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2404",
+    "version": "revid2405",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

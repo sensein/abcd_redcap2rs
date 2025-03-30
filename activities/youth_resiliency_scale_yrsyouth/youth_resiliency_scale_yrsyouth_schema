@@ -8,10 +8,15 @@
     "ui": {
         "order": [
             "items/resiliency_start_time",
+            "items/resiliency_directions1",
+            "items/resiliency_directions_2",
             "items/resiliency5a_y",
             "items/resiliency6a_y",
+            "items/resiliency_directions3",
+            "items/resiliency_directions_4",
             "items/resiliency5b_y",
             "items/resiliency6b_y",
+            "items/resiliency_admin",
             "items/youth_resiliency_scale_yrsyouth_complete"
         ],
         "addProperties": [
@@ -20,6 +25,18 @@
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "resiliency_start_time"
+            },
+            {
+                "isAbout": "items/resiliency_directions1",
+                "isVis": "event_name_number < 31",
+                "valueRequired": false,
+                "variableName": "resiliency_directions1"
+            },
+            {
+                "isAbout": "items/resiliency_directions_2",
+                "isVis": "event_name_number > 30",
+                "valueRequired": false,
+                "variableName": "resiliency_directions_2"
             },
             {
                 "isAbout": "items/resiliency5a_y",
@@ -34,6 +51,18 @@
                 "variableName": "resiliency6a_y"
             },
             {
+                "isAbout": "items/resiliency_directions3",
+                "isVis": "event_name_number < 31",
+                "valueRequired": false,
+                "variableName": "resiliency_directions3"
+            },
+            {
+                "isAbout": "items/resiliency_directions_4",
+                "isVis": "event_name_number > 30",
+                "valueRequired": false,
+                "variableName": "resiliency_directions_4"
+            },
+            {
                 "isAbout": "items/resiliency5b_y",
                 "isVis": true,
                 "valueRequired": false,
@@ -46,6 +75,12 @@
                 "variableName": "resiliency6b_y"
             },
             {
+                "isAbout": "items/resiliency_admin",
+                "isVis": "event_name_number > 30",
+                "valueRequired": false,
+                "variableName": "resiliency_admin"
+            },
+            {
                 "isAbout": "items/youth_resiliency_scale_yrsyouth_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -54,6 +89,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2404",
+    "version": "revid2405",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

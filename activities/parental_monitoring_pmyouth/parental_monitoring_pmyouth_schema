@@ -13,6 +13,7 @@
             "items/parent_monitor_q3_y",
             "items/parent_monitor_q4_y",
             "items/parent_monitor_q5_y",
+            "items/parental_monitor_admin",
             "items/parental_monitoring_pmyouth_complete"
         ],
         "addProperties": [
@@ -53,6 +54,12 @@
                 "variableName": "parent_monitor_q5_y"
             },
             {
+                "isAbout": "items/parental_monitor_admin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "parental_monitor_admin"
+            },
+            {
                 "isAbout": "items/parental_monitoring_pmyouth_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -61,6 +68,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2404",
+    "version": "revid2405",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

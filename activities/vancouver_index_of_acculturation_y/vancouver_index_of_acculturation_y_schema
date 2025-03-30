@@ -27,6 +27,7 @@
             "items/vancouver_q15",
             "items/vancouver_q16",
             "items/vancouver_q17",
+            "items/vancouver_admin",
             "items/vancouver_index_of_acculturation_y_complete"
         ],
         "addProperties": [
@@ -151,6 +152,12 @@
                 "variableName": "vancouver_q17"
             },
             {
+                "isAbout": "items/vancouver_admin",
+                "isVis": "event_name_number > '21'",
+                "valueRequired": true,
+                "variableName": "vancouver_admin"
+            },
+            {
                 "isAbout": "items/vancouver_index_of_acculturation_y_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -159,6 +166,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2404",
+    "version": "revid2405",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

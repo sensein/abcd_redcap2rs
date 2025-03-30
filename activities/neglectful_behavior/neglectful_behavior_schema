@@ -16,6 +16,7 @@
             "items/mnbs_homework",
             "items/mnbs_school",
             "items/mnbs_understand",
+            "items/mnbs_admin",
             "items/neglectful_behavior_complete"
         ],
         "addProperties": [
@@ -74,6 +75,12 @@
                 "variableName": "mnbs_understand"
             },
             {
+                "isAbout": "items/mnbs_admin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mnbs_admin"
+            },
+            {
                 "isAbout": "items/neglectful_behavior_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -82,6 +89,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2404",
+    "version": "revid2405",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

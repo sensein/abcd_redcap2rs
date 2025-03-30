@@ -1,0 +1,34 @@
+{
+    "id": "biospec_blood_resolution_date",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "Once entered, do NOT change."
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "datetime_dmy"
+        }
+    ],
+    "preamble": {
+        "en": "Designated Clinician Only:Please fill out the following section"
+    },
+    "prefLabel": {
+        "en": "biospec_blood_resolution_date"
+    },
+    "question": {
+        "en": "I confirm that we have either made contact with the family or decided not to contact the family about this finding."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:dateTime"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

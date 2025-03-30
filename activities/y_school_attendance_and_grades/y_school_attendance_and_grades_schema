@@ -10,6 +10,7 @@
             "items/sag_start_time",
             "items/sag_days_skip_school",
             "items/sag_grades_last_yr",
+            "items/sag_admin",
             "items/y_school_attendance_and_grades_complete"
         ],
         "addProperties": [
@@ -32,6 +33,12 @@
                 "variableName": "sag_grades_last_yr"
             },
             {
+                "isAbout": "items/sag_admin",
+                "isVis": "event_name_number > '21'",
+                "valueRequired": true,
+                "variableName": "sag_admin"
+            },
+            {
                 "isAbout": "items/y_school_attendance_and_grades_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -40,6 +47,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2404",
+    "version": "revid2405",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

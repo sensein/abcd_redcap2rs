@@ -1,0 +1,27 @@
+{
+    "id": "biospec_blood_mch",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@readonly"
+        }
+    ],
+    "prefLabel": {
+        "en": "biospec_blood_mch"
+    },
+    "question": {
+        "en": "MCH"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

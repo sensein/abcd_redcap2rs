@@ -1,0 +1,66 @@
+{
+    "id": "y_blood_draw_findings_resolution_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "y_blood_draw_findings_resolution"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/biospec_blood_hemoglobin_score2",
+            "items/biospec_blood_receiv",
+            "items/biospec_blood_resolution_date",
+            "items/biospec_blood_resolve",
+            "items/biospec_blood_resolve_ndnotes",
+            "items/biospec_blood_resolve_ecnotes",
+            "items/y_blood_draw_findings_resolution_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/biospec_blood_hemoglobin_score2",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "biospec_blood_hemoglobin_score2"
+            },
+            {
+                "isAbout": "items/biospec_blood_receiv",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "biospec_blood_receiv"
+            },
+            {
+                "isAbout": "items/biospec_blood_resolution_date",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "biospec_blood_resolution_date"
+            },
+            {
+                "isAbout": "items/biospec_blood_resolve",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "biospec_blood_resolve"
+            },
+            {
+                "isAbout": "items/biospec_blood_resolve_ndnotes",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "biospec_blood_resolve_ndnotes"
+            },
+            {
+                "isAbout": "items/biospec_blood_resolve_ecnotes",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "biospec_blood_resolve_ecnotes"
+            },
+            {
+                "isAbout": "items/y_blood_draw_findings_resolution_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "y_blood_draw_findings_resolution_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2405",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

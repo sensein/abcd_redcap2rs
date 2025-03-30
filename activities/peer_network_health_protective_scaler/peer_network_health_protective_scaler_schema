@@ -14,6 +14,7 @@
             "items/pnh_encourage",
             "items/pnh_how_much_encourage",
             "items/pnh_art_involve",
+            "items/pnh_admin",
             "items/peer_network_health_protective_scaler_complete"
         ],
         "addProperties": [
@@ -60,6 +61,12 @@
                 "variableName": "pnh_art_involve"
             },
             {
+                "isAbout": "items/pnh_admin",
+                "isVis": "event_name_number > '21'",
+                "valueRequired": true,
+                "variableName": "pnh_admin"
+            },
+            {
                 "isAbout": "items/peer_network_health_protective_scaler_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -68,6 +75,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2404",
+    "version": "revid2405",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -138,6 +138,7 @@
             "items/screentime_sq11",
             "items/screentime_sq12",
             "items/screentime_sq13",
+            "items/screentime_admin",
             "items/screen_time_styouth_complete"
         ],
         "addProperties": [
@@ -928,6 +929,12 @@
                 "variableName": "screentime_sq13"
             },
             {
+                "isAbout": "items/screentime_admin",
+                "isVis": "event_name_number > '21'",
+                "valueRequired": true,
+                "variableName": "screentime_admin"
+            },
+            {
                 "isAbout": "items/screen_time_styouth_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -936,6 +943,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2404",
+    "version": "revid2405",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

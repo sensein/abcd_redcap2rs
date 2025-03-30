@@ -9,6 +9,7 @@
         "order": [
             "items/pet_start_time",
             "items/pet_identify",
+            "items/pet_admin",
             "items/pet_ownership_complete"
         ],
         "addProperties": [
@@ -25,6 +26,12 @@
                 "variableName": "pet_identify"
             },
             {
+                "isAbout": "items/pet_admin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pet_admin"
+            },
+            {
                 "isAbout": "items/pet_ownership_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -33,6 +40,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2404",
+    "version": "revid2405",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

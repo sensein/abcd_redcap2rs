@@ -17,6 +17,7 @@
             "items/poa_nihtb_7_y",
             "items/poa_nihtb_8_y",
             "items/poa_nihtb_9_y",
+            "items/poa_admin",
             "items/y_nih_tb_positive_affect_l_complete"
         ],
         "addProperties": [
@@ -81,6 +82,12 @@
                 "variableName": "poa_nihtb_9_y"
             },
             {
+                "isAbout": "items/poa_admin",
+                "isVis": "event_name_number > '21'",
+                "valueRequired": true,
+                "variableName": "poa_admin"
+            },
+            {
                 "isAbout": "items/y_nih_tb_positive_affect_l_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -89,6 +96,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2404",
+    "version": "revid2405",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

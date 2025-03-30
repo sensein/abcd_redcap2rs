@@ -1,20 +1,15 @@
 {
     "id": "macv_admin",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Custom Alignment",
-            "source": "redcap",
-            "value": "LH"
-        }
-    ],
     "preamble": {
-        "en": "For RA Use Only:\r\nPlease indicate how instrument was administered:"
+        "en": "For RA Use Only:"
     },
     "prefLabel": {
         "en": "macv_admin"
     },
-    "question": null,
+    "question": {
+        "en": "Please indicate how instrument was administered:"
+    },
     "responseOptions": {
         "choices": [
             {

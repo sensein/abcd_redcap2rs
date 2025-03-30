@@ -14,6 +14,7 @@
             "items/erq_feelings_happy",
             "items/erq_feelings_hide",
             "items/erq_feelings_less_bad",
+            "items/erq_admin",
             "items/erq_feelings_self_complete"
         ],
         "addProperties": [
@@ -60,6 +61,12 @@
                 "variableName": "erq_feelings_less_bad"
             },
             {
+                "isAbout": "items/erq_admin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "erq_admin"
+            },
+            {
                 "isAbout": "items/erq_feelings_self_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -68,6 +75,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2404",
+    "version": "revid2405",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

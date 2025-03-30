@@ -78,7 +78,6 @@
             "items/dapi_q16_l",
             "items/dapi_q17_l",
             "items/dapi_q18_l",
-            "items/mypi_how_completed",
             "items/y_marijuana_illicit_drug_measures_l_complete"
         ],
         "addProperties": [
@@ -509,12 +508,6 @@
                 "variableName": "dapi_q18_l"
             },
             {
-                "isAbout": "items/mypi_how_completed",
-                "isVis": "event - name == '30_month_follow_up_arm_1'",
-                "valueRequired": true,
-                "variableName": "mypi_how_completed"
-            },
-            {
                 "isAbout": "items/y_marijuana_illicit_drug_measures_l_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -523,6 +516,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2404",
+    "version": "revid2405",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

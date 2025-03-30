@@ -26,6 +26,7 @@
             "items/kbi_y_trans_id",
             "items/kbi_y_trans_prob",
             "items/kbi_instruct_read",
+            "items/kbi_admin",
             "items/ksads5background_items_youth_complete"
         ],
         "addProperties": [
@@ -144,6 +145,12 @@
                 "variableName": "kbi_instruct_read"
             },
             {
+                "isAbout": "items/kbi_admin",
+                "isVis": "event_name_number > '21'",
+                "valueRequired": true,
+                "variableName": "kbi_admin"
+            },
+            {
                 "isAbout": "items/ksads5background_items_youth_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -152,6 +159,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2404",
+    "version": "revid2405",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -43,7 +43,7 @@
             },
             {
                 "isAbout": "items/hair_color",
-                "isVis": "hair_status_y == '1'",
+                "isVis": "hair_status_y == '2'",
                 "valueRequired": true,
                 "variableName": "hair_color"
             },
@@ -55,13 +55,13 @@
             },
             {
                 "isAbout": "items/hair_length",
-                "isVis": "hair_status_y == '1'",
+                "isVis": "hair_status_y == '2'",
                 "valueRequired": true,
                 "variableName": "hair_length"
             },
             {
                 "isAbout": "items/hair_cosmetic",
-                "isVis": "hair_status_y == '1'",
+                "isVis": "hair_status_y == '2'",
                 "valueRequired": false,
                 "variableName": "hair_cosmetic"
             },
@@ -110,6 +110,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2404",
+    "version": "revid2405",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
