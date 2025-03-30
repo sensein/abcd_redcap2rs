@@ -67,13 +67,13 @@
             },
             {
                 "isAbout": "items/hair_dot_y",
-                "isVis": "hair_status_y == '1' || hair_status_y == '2'",
+                "isVis": "hair_status_y == '2'",
                 "valueRequired": true,
                 "variableName": "hair_dot_y"
             },
             {
                 "isAbout": "items/hair_sample_barcode_label",
-                "isVis": "hair_status_y == '1' || hair_status_y == '2'",
+                "isVis": "hair_status_y == '2'",
                 "valueRequired": true,
                 "variableName": "hair_sample_barcode_label"
             },
@@ -110,6 +110,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2405",
+    "version": "revid2406",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
