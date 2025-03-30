@@ -1,21 +1,23 @@
 {
-    "id": "biospec_blood_tube1_dot",
+    "id": "biospec_blood_today",
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
             "column": "Text Validation Type OR Show Slider Number",
             "source": "redcap",
             "value": "datetime_mdy"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@NOW\r\n@HIDDEN"
         }
     ],
-    "preamble": {
-        "en": "RED TUBE TOP"
-    },
     "prefLabel": {
-        "en": "biospec_blood_tube1_dot"
+        "en": "biospec_blood_today"
     },
     "question": {
-        "en": "Tube 1 (REDTop: SST)  blood sample date and time collected:"
+        "en": "Time Form Opened"
     },
     "responseOptions": {
         "valueType": [
@@ -23,7 +25,8 @@
         ]
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "text",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

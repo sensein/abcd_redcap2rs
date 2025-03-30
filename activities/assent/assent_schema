@@ -57,7 +57,7 @@
             },
             {
                 "isAbout": "items/assent_no_stop",
-                "isVis": "asnt_form == '0'",
+                "isVis": "asnt_form == '0' || asnt_form == ''",
                 "valueRequired": false,
                 "variableName": "assent_no_stop"
             },
@@ -124,6 +124,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2390",
+    "version": "revid2391",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

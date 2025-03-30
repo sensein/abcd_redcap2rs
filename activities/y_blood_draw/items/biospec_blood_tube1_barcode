@@ -1,11 +1,21 @@
 {
     "id": "biospec_blood_tube1_barcode",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "Scanned by RA"
+        }
+    ],
+    "preamble": {
+        "en": "RED TUBE TOP"
+    },
     "prefLabel": {
         "en": "biospec_blood_tube1_barcode"
     },
     "question": {
-        "en": "Tube 1 (Purple Top: EDTA) Inventory Code (RUCDR barcode on tube):"
+        "en": "Tube 1 (REDTop: SST)  Inventory Code (RUCDR barcode on tube):"
     },
     "responseOptions": {
         "valueType": [

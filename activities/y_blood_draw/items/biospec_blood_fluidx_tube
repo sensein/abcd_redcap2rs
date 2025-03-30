@@ -1,25 +1,22 @@
 {
-    "id": "biospec_blood_tube1_dot",
+    "id": "biospec_blood_fluidx_tube",
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Text Validation Type OR Show Slider Number",
+            "column": "Field Note",
             "source": "redcap",
-            "value": "datetime_mdy"
+            "value": "Scanned by RA"
         }
     ],
-    "preamble": {
-        "en": "RED TUBE TOP"
-    },
     "prefLabel": {
-        "en": "biospec_blood_tube1_dot"
+        "en": "biospec_blood_fluidx_tube"
     },
     "question": {
-        "en": "Tube 1 (REDTop: SST)  blood sample date and time collected:"
+        "en": "Transfer Tube (6 ml FluidX tube) Inventory Code (RUCDR barcode on tube):"
     },
     "responseOptions": {
         "valueType": [
-            "xsd:dateTime"
+            "xsd:string"
         ]
     },
     "ui": {
