@@ -1,0 +1,49 @@
+{
+    "id": "medhx_13_l",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "What about...",
+        "es": "\u00c2\u00bfQu\u00c3\u00a9 tal?..."
+    },
+    "prefLabel": {
+        "en": "medhx_13_l"
+    },
+    "question": {
+        "en": "Has your child ever received the HPV (human papillomavirus) vaccine?   (This is a vaccination sometimes given at ages 11-12.)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Not sure"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
