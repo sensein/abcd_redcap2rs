@@ -1,0 +1,45 @@
+{
+    "id": "bal_test_not_random",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "bal_test_not_random"
+    },
+    "question": {
+        "en": "Participant has not been assigned to BAL. Select reason for collection."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Two or more days of substance use endorsement as indicated in substance use interview"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Intoxication Suspected"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Sibling/Twin Randomized"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Site Visit"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

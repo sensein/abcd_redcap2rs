@@ -1,0 +1,45 @@
+{
+    "id": "tox1_not_collect_other_2",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "tox1_not_collect_other_2"
+    },
+    "question": {
+        "en": "Select Reason for Not Collected"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Equipment failure"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Site error (Supplies not available, missed administration)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Parent refused"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

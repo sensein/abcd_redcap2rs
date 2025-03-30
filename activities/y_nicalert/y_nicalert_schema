@@ -11,8 +11,12 @@
             "items/nic_intro_no",
             "items/nic_intro_no_2yr",
             "items/nic_instr",
+            "items/nic_instructions_no_random",
+            "items/nic_instr_not_random",
             "items/nic_test_y",
             "items/nic_not_collected_reason",
+            "items/nic_not_collect_other",
+            "items/nic_not_random",
             "items/nic_dot_y",
             "items/nic_dot1",
             "items/nic_timeread",
@@ -20,6 +24,7 @@
             "items/nic_contrary_results",
             "items/nic_test_y2",
             "items/nic_not_collected_2",
+            "items/nic_not_collect_other_2",
             "items/nic_dot_y2",
             "items/nic_dot2",
             "items/nic_results_",
@@ -29,6 +34,7 @@
             "items/nic2_instr",
             "items/nic2_test",
             "items/nic2_not_collected_reason",
+            "items/nic2_not_collect_other",
             "items/nic2_dot",
             "items/nic2_dot1",
             "items/nic2_timeread",
@@ -36,6 +42,7 @@
             "items/nic2_contrary_results",
             "items/nic2_test2",
             "items/nic2_not_collected",
+            "items/nic2_not_collect_other2",
             "items/nic2_dot2_collected",
             "items/nic2_dot2_test",
             "items/nic2_results2",
@@ -68,6 +75,18 @@
                 "variableName": "nic_instr"
             },
             {
+                "isAbout": "items/nic_instructions_no_random",
+                "isVis": "bio_10perc_nic == '0' || bio_15perc_nic == '0'",
+                "valueRequired": false,
+                "variableName": "nic_instructions_no_random"
+            },
+            {
+                "isAbout": "items/nic_instr_not_random",
+                "isVis": "nic_instructions_no_random___1 == '1'",
+                "valueRequired": false,
+                "variableName": "nic_instr_not_random"
+            },
+            {
                 "isAbout": "items/nic_test_y",
                 "isVis": true,
                 "valueRequired": true,
@@ -75,9 +94,21 @@
             },
             {
                 "isAbout": "items/nic_not_collected_reason",
-                "isVis": "nic_test_y == '2' || nic_test_y == '3' || nic_test_y == '4'",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "nic_not_collected_reason"
+            },
+            {
+                "isAbout": "items/nic_not_collect_other",
+                "isVis": "nic_test_y == '4'",
+                "valueRequired": false,
+                "variableName": "nic_not_collect_other"
+            },
+            {
+                "isAbout": "items/nic_not_random",
+                "isVis": "nic_test_y == '1' || nic_test_y == '2' || nic_test_y == '3' || nic_test_y == '4'",
+                "valueRequired": true,
+                "variableName": "nic_not_random"
             },
             {
                 "isAbout": "items/nic_dot_y",
@@ -117,9 +148,15 @@
             },
             {
                 "isAbout": "items/nic_not_collected_2",
-                "isVis": "nic_test_y2 == '2' || nic_test_y2 == '3' || nic_test_y2 == '4' || nic_test_y2 == '2' || nic_test_y2 == '3' || nic_test_y2 == '4'",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "nic_not_collected_2"
+            },
+            {
+                "isAbout": "items/nic_not_collect_other_2",
+                "isVis": "nic_test_y2 == '4'",
+                "valueRequired": false,
+                "variableName": "nic_not_collect_other_2"
             },
             {
                 "isAbout": "items/nic_dot_y2",
@@ -153,7 +190,7 @@
             },
             {
                 "isAbout": "items/nic2_need",
-                "isVis": "baseline_visits_num == '2' &&(bio_10perc_nic == '1' || bio_15perc_nic == '1')",
+                "isVis": "baseline_visits_num == '2' &&(bio_10perc_nic == '1' || bio_15perc_nic == '1')||(nic_not_random == '1' || nic_not_random == '2' || nic_not_random == '3' || nic_not_random == '4')&& baseline_visits_num == '2' &&(bio_10perc_nic == '0' || bio_15perc_nic == '0')",
                 "valueRequired": false,
                 "variableName": "nic2_need"
             },
@@ -171,9 +208,15 @@
             },
             {
                 "isAbout": "items/nic2_not_collected_reason",
-                "isVis": "nic2_test == '2' || nic2_test == '3' || nic2_test == '4'",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "nic2_not_collected_reason"
+            },
+            {
+                "isAbout": "items/nic2_not_collect_other",
+                "isVis": "nic2_test == '4'",
+                "valueRequired": false,
+                "variableName": "nic2_not_collect_other"
             },
             {
                 "isAbout": "items/nic2_dot",
@@ -213,9 +256,15 @@
             },
             {
                 "isAbout": "items/nic2_not_collected",
-                "isVis": "nic2_test2 == '2' || nic2_test2 == '3' || nic2_test2 == '4' || nic2_test2 == '2' || nic2_test2 == '3' || nic2_test2 == '4'",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "nic2_not_collected"
+            },
+            {
+                "isAbout": "items/nic2_not_collect_other2",
+                "isVis": "nic2_test2 == '4'",
+                "valueRequired": false,
+                "variableName": "nic2_not_collect_other2"
             },
             {
                 "isAbout": "items/nic2_dot2_collected",
@@ -250,6 +299,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2350",
+    "version": "revid2351",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

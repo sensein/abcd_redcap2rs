@@ -1,18 +1,11 @@
 {
     "id": "bal_intro_no",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Choices, Calculations, OR Slider Labels (Descriptive Field)",
-            "source": "redcap",
-            "value": "[{\"name\": {\"en\": \"Not part of 10%\"}, \"value\": 1}]"
-        }
-    ],
     "prefLabel": {
         "en": "bal_intro_no"
     },
     "question": {
-        "en": "Participant hasNOTbeen assigned to BAL.Select \"Not applicable (not part of 10%)\"within next field, change form status to complete, and save."
+        "en": "Participant hasNOTbeen assigned to BAL.Select \"Not applicable (not part of 10%)\"within next field, change form status to complete, and save.\n\nHowever, if collection is needed despite not being assigned, proceed with collection."
     },
     "responseOptions": {
         "valueType": [

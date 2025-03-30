@@ -1,0 +1,28 @@
+{
+    "id": "bal_intro_no_random",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "bal_intro_no_random"
+    },
+    "question": {
+        "en": "Select 'yes' to display RA Script"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "yes"
+                },
+                "value": 1
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

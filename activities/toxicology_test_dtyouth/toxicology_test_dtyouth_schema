@@ -9,10 +9,15 @@
         "order": [
             "items/tox_intro_not",
             "items/tox_intro_not_2yr",
+            "items/tox_intro_not_3yr",
             "items/tox_start_time",
             "items/tox_intro_y",
+            "items/tox_not_random_y",
+            "items/tox_intro_not_random_y",
             "items/tox1_results_y",
             "items/tox1_notcoll_reas",
+            "items/tox1_not_collect_other",
+            "items/tox1_not_random",
             "items/tox1_dot_y",
             "items/tox1_results_yn_y",
             "items/instruct_redo_tox",
@@ -26,6 +31,7 @@
             "items/tox1_notes",
             "items/tox1_results_2_y",
             "items/tox1_notcoll_reas_2",
+            "items/tox1_not_collect_other_2",
             "items/tox1_dot_2_y",
             "items/tox1_coc_2_y",
             "items/tox1_op_2_y",
@@ -40,6 +46,7 @@
             "items/tox_intro_y2",
             "items/tox2_results_y",
             "items/tox2_notcoll_reas",
+            "items/tox2_not_collect_other",
             "items/tox2_dot_y",
             "items/tox2_results_yn_y",
             "items/instruct2_redo_tox",
@@ -53,6 +60,7 @@
             "items/tox2_notes",
             "items/tox2_results_2_y",
             "items/tox2_notcoll_reas_2",
+            "items/tox2_not_collect_other_2",
             "items/tox2_dot_2_y",
             "items/tox2_coc_2_y",
             "items/tox2_op_2_y",
@@ -73,9 +81,15 @@
             },
             {
                 "isAbout": "items/tox_intro_not_2yr",
-                "isVis": "bio_15perc_draeger == '0' && event_name_number <> '11'",
+                "isVis": "bio_15perc_draeger == '0' && event_name_number == '21'",
                 "valueRequired": false,
                 "variableName": "tox_intro_not_2yr"
+            },
+            {
+                "isAbout": "items/tox_intro_not_3yr",
+                "isVis": "bio_20perc_draeger == '0' && event_name_number > '30'",
+                "valueRequired": false,
+                "variableName": "tox_intro_not_3yr"
             },
             {
                 "isAbout": "items/tox_start_time",
@@ -90,6 +104,18 @@
                 "variableName": "tox_intro_y"
             },
             {
+                "isAbout": "items/tox_not_random_y",
+                "isVis": "bio_10perc_draeger == '0' || bio_15perc_draeger == '0'",
+                "valueRequired": false,
+                "variableName": "tox_not_random_y"
+            },
+            {
+                "isAbout": "items/tox_intro_not_random_y",
+                "isVis": "tox_not_random_y___1 == '1'",
+                "valueRequired": false,
+                "variableName": "tox_intro_not_random_y"
+            },
+            {
                 "isAbout": "items/tox1_results_y",
                 "isVis": true,
                 "valueRequired": true,
@@ -97,9 +123,21 @@
             },
             {
                 "isAbout": "items/tox1_notcoll_reas",
-                "isVis": "tox1_results_y == '6' || tox1_results_y == '5'",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "tox1_notcoll_reas"
+            },
+            {
+                "isAbout": "items/tox1_not_collect_other",
+                "isVis": "tox1_results_y == '6'",
+                "valueRequired": true,
+                "variableName": "tox1_not_collect_other"
+            },
+            {
+                "isAbout": "items/tox1_not_random",
+                "isVis": "(tox1_results_y == '1' || tox1_results_y == '2' || tox1_results_y == '4' || tox1_results_y == '5' || tox1_results_y == '6')&&(bio_20perc_draeger == '0' || bio_15perc_draeger == '0' || bio_10perc_draeger == '0')",
+                "valueRequired": true,
+                "variableName": "tox1_not_random"
             },
             {
                 "isAbout": "items/tox1_dot_y",
@@ -178,6 +216,12 @@
                 "isVis": false,
                 "valueRequired": true,
                 "variableName": "tox1_notcoll_reas_2"
+            },
+            {
+                "isAbout": "items/tox1_not_collect_other_2",
+                "isVis": "tox1_results_2_y == '6'",
+                "valueRequired": true,
+                "variableName": "tox1_not_collect_other_2"
             },
             {
                 "isAbout": "items/tox1_dot_2_y",
@@ -259,9 +303,15 @@
             },
             {
                 "isAbout": "items/tox2_notcoll_reas",
-                "isVis": "tox2_results_y == '6' || tox2_results_y == '5'",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "tox2_notcoll_reas"
+            },
+            {
+                "isAbout": "items/tox2_not_collect_other",
+                "isVis": "tox2_results_y == '6'",
+                "valueRequired": true,
+                "variableName": "tox2_not_collect_other"
             },
             {
                 "isAbout": "items/tox2_dot_y",
@@ -342,6 +392,12 @@
                 "variableName": "tox2_notcoll_reas_2"
             },
             {
+                "isAbout": "items/tox2_not_collect_other_2",
+                "isVis": "tox2_results_2_y == '6'",
+                "valueRequired": true,
+                "variableName": "tox2_not_collect_other_2"
+            },
+            {
                 "isAbout": "items/tox2_dot_2_y",
                 "isVis": false,
                 "valueRequired": false,
@@ -404,6 +460,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2350",
+    "version": "revid2351",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

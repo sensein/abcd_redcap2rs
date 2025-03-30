@@ -9,24 +9,32 @@
         "order": [
             "items/bal_intro_no",
             "items/bal_intro_no_2yr",
+            "items/bal_intro_no_3yr",
             "items/bal_intro",
+            "items/bal_intro_no_random",
+            "items/bal_intro_no_random_instruct",
             "items/bal_time_start",
             "items/bal_test1_result_y",
             "items/bal_test1_notcollrea",
+            "items/bal_test1_not_collected_other",
+            "items/bal_test_not_random",
             "items/bal1_dot_y",
             "items/bal_note",
             "items/bal_test2_result_y",
             "items/bal_test2_notcollrea",
+            "items/bal_test2_not_collected_other",
             "items/bal2_dot_y",
             "items/bal_test1_notes",
             "items/bal2_need",
             "items/bal2_intro",
             "items/bal2_test1_result_y",
             "items/bal2_test1_notcollrea",
+            "items/bal2_test1_not_collected_other",
             "items/bal21_dot_y",
             "items/bal2_note",
             "items/bal2_test2_result_y",
             "items/bal2_test2_notcollrea",
+            "items/bal2_test2_not_collected_other",
             "items/bal22_dot_y",
             "items/bal2_notes",
             "items/bal_testyouth_complete"
@@ -40,15 +48,33 @@
             },
             {
                 "isAbout": "items/bal_intro_no_2yr",
-                "isVis": "bio_20perc_bal == '0' && event_name_number <> '11'",
+                "isVis": "bio_20perc_bal == '0' && event_name_number == '21'",
                 "valueRequired": false,
                 "variableName": "bal_intro_no_2yr"
             },
             {
+                "isAbout": "items/bal_intro_no_3yr",
+                "isVis": "bio_33perc_bal == '0' && event_name_number > '30'",
+                "valueRequired": false,
+                "variableName": "bal_intro_no_3yr"
+            },
+            {
                 "isAbout": "items/bal_intro",
-                "isVis": "bio_10perc_bal == '1' || bio_20perc_bal == '1'",
+                "isVis": "bio_10perc_bal == '1' || bio_20perc_bal == '1' || bio_33perc_bal == '1'",
                 "valueRequired": false,
                 "variableName": "bal_intro"
+            },
+            {
+                "isAbout": "items/bal_intro_no_random",
+                "isVis": "bio_10perc_bal== '0' || bio_20perc_bal== '0' || bio_33perc_bal== '0'",
+                "valueRequired": false,
+                "variableName": "bal_intro_no_random"
+            },
+            {
+                "isAbout": "items/bal_intro_no_random_instruct",
+                "isVis": "bal_intro_no_random___1 == '1'",
+                "valueRequired": false,
+                "variableName": "bal_intro_no_random_instruct"
             },
             {
                 "isAbout": "items/bal_time_start",
@@ -64,9 +90,21 @@
             },
             {
                 "isAbout": "items/bal_test1_notcollrea",
-                "isVis": "bal_test1_result_y == '6' || bal_test1_result_y == '5'",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "bal_test1_notcollrea"
+            },
+            {
+                "isAbout": "items/bal_test1_not_collected_other",
+                "isVis": "bal_test1_result_y == '6'",
+                "valueRequired": true,
+                "variableName": "bal_test1_not_collected_other"
+            },
+            {
+                "isAbout": "items/bal_test_not_random",
+                "isVis": "(bal_test1_result_y == '1' || bal_test1_result_y == '2' || bal_test1_result_y == '4' || bal_test1_result_y == '5' || bal_test1_result_y == '6')&&(bio_10perc_bal == '0' || bio_20perc_bal == '0' || bio_33perc_bal == '0')",
+                "valueRequired": true,
+                "variableName": "bal_test_not_random"
             },
             {
                 "isAbout": "items/bal1_dot_y",
@@ -88,9 +126,15 @@
             },
             {
                 "isAbout": "items/bal_test2_notcollrea",
-                "isVis": "bal_test2_result_y == '6' || bal_test2_result_y == '5'",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "bal_test2_notcollrea"
+            },
+            {
+                "isAbout": "items/bal_test2_not_collected_other",
+                "isVis": "bal_test2_result_y == '6'",
+                "valueRequired": true,
+                "variableName": "bal_test2_not_collected_other"
             },
             {
                 "isAbout": "items/bal2_dot_y",
@@ -106,7 +150,7 @@
             },
             {
                 "isAbout": "items/bal2_need",
-                "isVis": "baseline_visits_num == '2' &&(bio_10perc_bal == '1' || bio_20perc_bal == '1')",
+                "isVis": "baseline_visits_num == '2' &&(bio_10perc_bal == '1' || bio_20perc_bal == '1')|| bal_test_not_random == '1' || bal_test_not_random == '2' || bal_test_not_random == '3' || bal_test_not_random == '4'",
                 "valueRequired": false,
                 "variableName": "bal2_need"
             },
@@ -124,9 +168,15 @@
             },
             {
                 "isAbout": "items/bal2_test1_notcollrea",
-                "isVis": "bal2_test1_result_y == '6' || bal2_test1_result_y == '5'",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "bal2_test1_notcollrea"
+            },
+            {
+                "isAbout": "items/bal2_test1_not_collected_other",
+                "isVis": "bal2_test1_result_y == '6'",
+                "valueRequired": true,
+                "variableName": "bal2_test1_not_collected_other"
             },
             {
                 "isAbout": "items/bal21_dot_y",
@@ -148,9 +198,15 @@
             },
             {
                 "isAbout": "items/bal2_test2_notcollrea",
-                "isVis": "bal2_test2_result_y == '6' || bal2_test2_result_y == '5'",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "bal2_test2_notcollrea"
+            },
+            {
+                "isAbout": "items/bal2_test2_not_collected_other",
+                "isVis": "bal2_test2_result_y == '6'",
+                "valueRequired": true,
+                "variableName": "bal2_test2_not_collected_other"
             },
             {
                 "isAbout": "items/bal22_dot_y",
@@ -173,6 +229,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2350",
+    "version": "revid2351",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
