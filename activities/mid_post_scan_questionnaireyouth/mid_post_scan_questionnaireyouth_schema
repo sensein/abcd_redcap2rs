@@ -7,6 +7,7 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/midq_remote_fu",
             "items/mid_intro_y",
             "items/midq_exc_1a_y",
             "items/midq_exc_1b_y",
@@ -29,110 +30,116 @@
         ],
         "addProperties": [
             {
+                "isAbout": "items/midq_remote_fu",
+                "isVis": "sched_delay == '9'",
+                "valueRequired": false,
+                "variableName": "midq_remote_fu"
+            },
+            {
                 "isAbout": "items/mid_intro_y",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": false,
                 "variableName": "mid_intro_y"
             },
             {
                 "isAbout": "items/midq_exc_1a_y",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": false,
                 "variableName": "midq_exc_1a_y"
             },
             {
                 "isAbout": "items/midq_exc_1b_y",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": false,
                 "variableName": "midq_exc_1b_y"
             },
             {
                 "isAbout": "items/midq_exc_1c_y",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": false,
                 "variableName": "midq_exc_1c_y"
             },
             {
                 "isAbout": "items/midq_exc_1d_y",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": false,
                 "variableName": "midq_exc_1d_y"
             },
             {
                 "isAbout": "items/midq_exc_1e_y",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": false,
                 "variableName": "midq_exc_1e_y"
             },
             {
                 "isAbout": "items/midq_nerv_1a_y",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": false,
                 "variableName": "midq_nerv_1a_y"
             },
             {
                 "isAbout": "items/midq_nerv_1b_y",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": false,
                 "variableName": "midq_nerv_1b_y"
             },
             {
                 "isAbout": "items/midq_nerv_1c_y",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": false,
                 "variableName": "midq_nerv_1c_y"
             },
             {
                 "isAbout": "items/midq_nerv_1d_y",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": false,
                 "variableName": "midq_nerv_1d_y"
             },
             {
                 "isAbout": "items/midq_nerv_1e_y",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": false,
                 "variableName": "midq_nerv_1e_y"
             },
             {
                 "isAbout": "items/midq_try_1a_y",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": false,
                 "variableName": "midq_try_1a_y"
             },
             {
                 "isAbout": "items/midq_try_1b_y",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": false,
                 "variableName": "midq_try_1b_y"
             },
             {
                 "isAbout": "items/midq_try_1c_y",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": false,
                 "variableName": "midq_try_1c_y"
             },
             {
                 "isAbout": "items/midq_try_1d_y",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": false,
                 "variableName": "midq_try_1d_y"
             },
             {
                 "isAbout": "items/midq_try_1e_y",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": false,
                 "variableName": "midq_try_1e_y"
             },
             {
                 "isAbout": "items/midq_2",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": false,
                 "variableName": "midq_2"
             },
             {
                 "isAbout": "items/midq_comment",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": false,
                 "variableName": "midq_comment"
             },
@@ -145,6 +152,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2354",
+    "version": "revid2355",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

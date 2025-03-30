@@ -7,12 +7,19 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/eprime_remote_fu",
             "items/eprime_start_time",
             "items/eprime_up",
             "items/eprime_up_notes",
             "items/eprime_data_upload_complete"
         ],
         "addProperties": [
+            {
+                "isAbout": "items/eprime_remote_fu",
+                "isVis": "sched_delay == '9'",
+                "valueRequired": false,
+                "variableName": "eprime_remote_fu"
+            },
             {
                 "isAbout": "items/eprime_start_time",
                 "isVis": false,
@@ -21,13 +28,13 @@
             },
             {
                 "isAbout": "items/eprime_up",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": false,
                 "variableName": "eprime_up"
             },
             {
                 "isAbout": "items/eprime_up_notes",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": false,
                 "variableName": "eprime_up_notes"
             },
@@ -40,6 +47,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2354",
+    "version": "revid2355",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
