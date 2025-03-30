@@ -5,7 +5,7 @@
         "en": "mt_asnt_q1"
     },
     "question": {
-        "en": "Do you have an Android mobile device with OS 7.0, and are you the primary user of this\ndevice [e.g., not regularly shared with a sibling or other family member; primary (>90%)\nof time the user of the device]?"
+        "en": "Do you have an Android mobile device with OS 7.0, and are you the primary user of this\r\ndevice [e.g., not regularly shared with a sibling or other family member; primary (>90%)\r\nof time the user of the device]?"
     },
     "responseOptions": {
         "choices": [
@@ -17,15 +17,33 @@
             },
             {
                 "name": {
-                    "en": "No, I have an iPhone or other device"
+                    "en": "No, I have an iPhone"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "No, I do not have my own mobile device"
+                    "en": "No, I have an Android that is not 7.0"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "No, I have another type of mobile device"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "No, I do not have a mobile device"
                 },
                 "value": 3
+            },
+            {
+                "name": {
+                    "en": "No, I do not have my own mobile device/I share one"
+                },
+                "value": 6
             }
         ],
         "valueType": [

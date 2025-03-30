@@ -791,8 +791,8 @@
             "items/tlfb_6mo_hall_use_type",
             "items/tlfb_6mo_desc",
             "items/tlfb_6mo_1_cig",
-            "items/tlfb_6mo_1_ecig_dk",
             "items/tlfb_6mo_1_ecig",
+            "items/tlfb_6mo_1_ecig_dk",
             "items/su_tlfb_6mo_1_ecig_calc",
             "items/tlfb_6mo_2_ecig",
             "items/tlfb_6mo_2_ecig_dk",
@@ -3906,16 +3906,16 @@
                 "variableName": "tlfb_6mo_1_cig"
             },
             {
-                "isAbout": "items/tlfb_6mo_1_ecig_dk",
-                "isVis": "tlfb_6mo_skip___3 == '1' && tlfb_ecig_last_calc <=180 && tlfb_6mo_1_ecig == ''",
-                "valueRequired": false,
-                "variableName": "tlfb_6mo_1_ecig_dk"
-            },
-            {
                 "isAbout": "items/tlfb_6mo_1_ecig",
                 "isVis": "tlfb_6mo_skip___3 == '1' && tlfb_ecig_last_calc <=180 && tlfb_6mo_1_ecig_dk == ''",
                 "valueRequired": false,
                 "variableName": "tlfb_6mo_1_ecig"
+            },
+            {
+                "isAbout": "items/tlfb_6mo_1_ecig_dk",
+                "isVis": "tlfb_6mo_skip___3 == '1' && tlfb_ecig_last_calc <=180 && tlfb_6mo_1_ecig == ''",
+                "valueRequired": false,
+                "variableName": "tlfb_6mo_1_ecig_dk"
             },
             {
                 "isAbout": "items/su_tlfb_6mo_1_ecig_calc",
@@ -5012,6 +5012,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2417",
+    "version": "revid2418",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
