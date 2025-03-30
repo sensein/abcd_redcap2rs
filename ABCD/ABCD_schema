@@ -182,7 +182,6 @@
             "../activities/mobil_tech_preassessment_y/mobil_tech_preassessment_y_schema",
             "../activities/mobil_tech_postassessment_p/mobil_tech_postassessment_p_schema",
             "../activities/mobil_tech_postassessment_y/mobil_tech_postassessment_y_schema",
-            "../activities/substudies/substudies_schema",
             "../activities/youth_self_report/youth_self_report_schema",
             "../activities/nih_tbx_dimensional_change_card_sortdaic_use_only/nih_tbx_dimensional_change_card_sortdaic_use_only_schema",
             "../activities/nih_tbx_picture_vocabularydaic_use_only/nih_tbx_picture_vocabularydaic_use_only_schema",
@@ -195,6 +194,7 @@
             "../activities/matrix_reasoning_taskyouthdaic_use_only/matrix_reasoning_taskyouthdaic_use_only_schema",
             "../activities/stroop_colorword_taskyouthdaic_use_only/stroop_colorword_taskyouthdaic_use_only_schema",
             "../activities/delay_discounting_titratingchoiceyouthdaic_use_onl/delay_discounting_titratingchoiceyouthdaic_use_onl_schema",
+            "../activities/substudies/substudies_schema",
             "../activities/child_behavior_check_list_scores/child_behavior_check_list_scores_schema",
             "../activities/adult_self_report_scores/adult_self_report_scores_schema",
             "../activities/abcl_scoring/abcl_scoring_schema",
@@ -1672,14 +1672,6 @@
                 "variableName": "mobil_tech_postassessment_y_schema"
             },
             {
-                "isAbout": "../activities/substudies/substudies_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Substudies"
-                },
-                "variableName": "substudies_schema"
-            },
-            {
                 "isAbout": "../activities/youth_self_report/youth_self_report_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -1774,6 +1766,14 @@
                     "en": "Delay Discounting Titratingchoiceyouthdaic Use Onl"
                 },
                 "variableName": "delay_discounting_titratingchoiceyouthdaic_use_onl_schema"
+            },
+            {
+                "isAbout": "../activities/substudies/substudies_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Substudies"
+                },
+                "variableName": "substudies_schema"
             },
             {
                 "isAbout": "../activities/child_behavior_check_list_scores/child_behavior_check_list_scores_schema",
@@ -2562,6 +2562,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2421",
+    "version": "revid2422",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

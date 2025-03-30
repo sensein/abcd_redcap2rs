@@ -124,7 +124,7 @@
             },
             {
                 "isAbout": "items/screentime_device_wifi_p",
-                "isVis": "event_name_number <> '11' && screentime_device_p___1 == '1' || screentime_device_p___2 == '1' || screentime_device_p___3 == '1' || screentime_device_p___4 == '1'",
+                "isVis": "event_name_number <> '11' &&(screentime_device_p___1 == '1' || screentime_device_p___2 == '1' || screentime_device_p___3 == '1' || screentime_device_p___4 == '1')",
                 "valueRequired": true,
                 "variableName": "screentime_device_wifi_p"
             },
@@ -257,6 +257,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2421",
+    "version": "revid2422",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
