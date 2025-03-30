@@ -251,7 +251,7 @@
             },
             {
                 "isAbout": "items/kbi_p_c_services_checklist_l",
-                "isVis": "kbi_p_c_mh_sa_l == '1' && event_name_number > '30' || event_name_number < '30'",
+                "isVis": "(kbi_p_c_mh_sa_l == '1' && event_name_number > '21')|| event_name_number < '31'",
                 "valueRequired": true,
                 "variableName": "kbi_p_c_services_checklist_l"
             },
@@ -306,6 +306,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2324",
+    "version": "revid2325",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
