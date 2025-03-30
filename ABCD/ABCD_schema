@@ -289,8 +289,8 @@
             "../activities/math_enum_task/math_enum_task_schema",
             "../activities/math_fluency_task/math_fluency_task_schema",
             "../activities/math_recall_task/math_recall_task_schema",
-            "../activities/y_ksads2daic_use_only/y_ksads2daic_use_only_schema",
-            "../activities/p_ksads2daic_use_only/p_ksads2daic_use_only_schema"
+            "../activities/p_ksads2daic_use_only/p_ksads2daic_use_only_schema",
+            "../activities/y_ksads2daic_use_only/y_ksads2daic_use_only_schema"
         ],
         "addProperties": [
             {
@@ -2526,24 +2526,24 @@
                 "variableName": "math_recall_task_schema"
             },
             {
-                "isAbout": "../activities/y_ksads2daic_use_only/y_ksads2daic_use_only_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Y Ksads2Daic Use Only"
-                },
-                "variableName": "y_ksads2daic_use_only_schema"
-            },
-            {
                 "isAbout": "../activities/p_ksads2daic_use_only/p_ksads2daic_use_only_schema",
                 "isVis": true,
                 "prefLabel": {
                     "en": "P Ksads2Daic Use Only"
                 },
                 "variableName": "p_ksads2daic_use_only_schema"
+            },
+            {
+                "isAbout": "../activities/y_ksads2daic_use_only/y_ksads2daic_use_only_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Ksads2Daic Use Only"
+                },
+                "variableName": "y_ksads2daic_use_only_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2399",
+    "version": "revid2400",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

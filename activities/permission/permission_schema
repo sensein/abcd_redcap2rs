@@ -32,6 +32,7 @@
             "items/cp_informant_rel_d4",
             "items/cp_participant_name_v2",
             "items/cp_consent_form_v2",
+            "items/cp_consent_no_sign",
             "items/cp_accurate_date_v2",
             "items/cp_consent_sign_v2",
             "items/cp_timestamp_v2",
@@ -198,6 +199,12 @@
                 "variableName": "cp_consent_form_v2"
             },
             {
+                "isAbout": "items/cp_consent_no_sign",
+                "isVis": "cp_consent_form_v2 == '0' || cp_consent_form_v2 == ''",
+                "valueRequired": false,
+                "variableName": "cp_consent_no_sign"
+            },
+            {
                 "isAbout": "items/cp_accurate_date_v2",
                 "isVis": true,
                 "valueRequired": true,
@@ -278,6 +285,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2399",
+    "version": "revid2400",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
