@@ -47,6 +47,10 @@
             "items/cbcl_scr_syn_external_t",
             "items/cbcl_scr_syn_external_m",
             "items/cbcl_scr_syn_external_nm",
+            "items/cbcl_scr_syn_otherprob_r",
+            "items/cbcl_scr_syn_otherprob_t",
+            "items/cbcl_scr_syn_otherprob_m",
+            "items/cbcl_scr_syn_otherprob_nm",
             "items/cbcl_scr_syn_totprob_r",
             "items/cbcl_scr_syn_totprob_t",
             "items/cbcl_scr_syn_totprob_m",
@@ -331,6 +335,30 @@
                 "variableName": "cbcl_scr_syn_external_nm"
             },
             {
+                "isAbout": "items/cbcl_scr_syn_otherprob_r",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "cbcl_scr_syn_otherprob_r"
+            },
+            {
+                "isAbout": "items/cbcl_scr_syn_otherprob_t",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "cbcl_scr_syn_otherprob_t"
+            },
+            {
+                "isAbout": "items/cbcl_scr_syn_otherprob_m",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "cbcl_scr_syn_otherprob_m"
+            },
+            {
+                "isAbout": "items/cbcl_scr_syn_otherprob_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "cbcl_scr_syn_otherprob_nm"
+            },
+            {
                 "isAbout": "items/cbcl_scr_syn_totprob_r",
                 "isVis": false,
                 "valueRequired": false,
@@ -579,6 +607,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2326",
+    "version": "revid2328",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
