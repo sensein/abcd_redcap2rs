@@ -50,7 +50,6 @@
             "items/biospec_blood_red_blood_cell_morph",
             "items/biospec_blood_rbc_count",
             "items/biospec_blood_hematocrit",
-            "items/biospec_blood_mvc",
             "items/y_blood_draw_results_daic_only_complete"
         ],
         "addProperties": [
@@ -313,12 +312,6 @@
                 "variableName": "biospec_blood_hematocrit"
             },
             {
-                "isAbout": "items/biospec_blood_mvc",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "biospec_blood_mvc"
-            },
-            {
                 "isAbout": "items/y_blood_draw_results_daic_only_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -327,6 +320,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2427",
+    "version": "revid2429",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
