@@ -1,0 +1,35 @@
+{
+    "id": "ple_p_ss_total_number2",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Life Events Parent 3 yr"
+    },
+    "prefLabel": {
+        "en": "ple_p_ss_total_number2"
+    },
+    "question": {
+        "en": "Starting at the 3 year followup\nTotal Number of Events\nsum([ple_died_p], [ple_injured_p], [ple_crime_p], [ple_friend_p], [ple_friend_injur_p], [ple_financial_p], [ple_sud_p], [ple_ill_p], [ple_injur_p], [ple_argue_p], [ple_job_p], [ple_away_p], [ple_arrest_p], [ple_friend_died_p], [ple_mh_p], [ple_sib_p], [ple_victim_p], [ple_separ_p], [ple_law_p], [ple_school_p], [ple_move_p], [ple_jail_p], [ple_step_p], [ple_new_job_p], [ple_new_sib_p] , [ple_deported_p], [ple_hospitalized_p], [ple_foster_care_p], [ple_hit_p], [ple_shot_p], [ple_lockdown_p])\nValidation: No Minimum"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

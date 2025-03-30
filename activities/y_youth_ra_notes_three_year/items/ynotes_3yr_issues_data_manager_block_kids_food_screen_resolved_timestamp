@@ -1,0 +1,29 @@
+{
+    "id": "ynotes_3yr_issues_data_manager_block_kids_food_screen_resolved_timestamp",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "datetime_mdy"
+        }
+    ],
+    "preamble": {
+        "en": "Select instrument(s) where there are data manager-related issues?"
+    },
+    "prefLabel": {
+        "en": "ynotes_3yr_issues_data_manager_block_kids_food_screen_resolved_timestamp"
+    },
+    "question": {
+        "en": "Current date/time?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:dateTime"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

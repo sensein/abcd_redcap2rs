@@ -1,0 +1,36 @@
+{
+    "id": "pnotes_3yr_offsite_reason_remote",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "INFORMANT TRACKING"
+    },
+    "prefLabel": {
+        "en": "pnotes_3yr_offsite_reason_remote"
+    },
+    "question": {
+        "en": "Why were forms completed with parent at home?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Family lives  greater than 50 miles from an ABCD research site"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Family refused to come to research site"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

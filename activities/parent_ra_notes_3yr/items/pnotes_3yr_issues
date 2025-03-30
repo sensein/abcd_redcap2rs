@@ -1,0 +1,55 @@
+{
+    "id": "pnotes_3yr_issues",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "ISSUES, PROBLEMS, CONCERNS"
+    },
+    "prefLabel": {
+        "en": "pnotes_3yr_issues"
+    },
+    "question": {
+        "en": "Any issues with parent assessments (i.e. technical problems, instruments that were not administered, concerns etc.)? Check all that apply\n\nREDCap pGUID errors should be entered in the Data Manager Section"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Workgroup"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Site"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Wrong PGUID KSADS"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Wrong Timepoint"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Data Manager"
+                },
+                "value": 5
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

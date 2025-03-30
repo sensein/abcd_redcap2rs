@@ -1,0 +1,30 @@
+{
+    "id": "ple_p_ss_affected_good_sum2",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "description": {
+        "en": "Starting at the 3 year followup\nHow Much Affected Good \nValidation: No Minimum"
+    },
+    "preamble": {
+        "en": "Life Events Parent 3 yr"
+    },
+    "prefLabel": {
+        "en": "ple_p_ss_affected_good_sum2"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

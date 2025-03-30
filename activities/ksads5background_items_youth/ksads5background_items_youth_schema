@@ -25,8 +25,8 @@
             "items/kbi_y_sex_orient_probs",
             "items/kbi_y_trans_id",
             "items/kbi_y_trans_prob",
-            "items/kbi_instruct_read",
             "items/kbi_admin",
+            "items/kbi_instruct_read",
             "items/ksads5background_items_youth_complete"
         ],
         "addProperties": [
@@ -139,16 +139,16 @@
                 "variableName": "kbi_y_trans_prob"
             },
             {
+                "isAbout": "items/kbi_admin",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "kbi_admin"
+            },
+            {
                 "isAbout": "items/kbi_instruct_read",
                 "isVis": "macv_comprehend == '1'",
                 "valueRequired": false,
                 "variableName": "kbi_instruct_read"
-            },
-            {
-                "isAbout": "items/kbi_admin",
-                "isVis": "event_name_number > '21'",
-                "valueRequired": true,
-                "variableName": "kbi_admin"
             },
             {
                 "isAbout": "items/ksads5background_items_youth_complete",
@@ -159,6 +159,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2407",
+    "version": "revid2409",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

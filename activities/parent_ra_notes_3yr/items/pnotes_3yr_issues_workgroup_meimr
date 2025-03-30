@@ -1,0 +1,67 @@
+{
+    "id": "pnotes_3yr_issues_workgroup_meimr",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Workgroup Issues"
+    },
+    "prefLabel": {
+        "en": "pnotes_3yr_issues_workgroup_meimr"
+    },
+    "question": {
+        "en": "What issues did you have with the Multi-Group Ethnic Identity (MEIM-R)  instrument?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Participant Comprehension"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Participant Compliance"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Staff Factor"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Technical Problems"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Not Administered"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Not administered at site"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 7
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,27 @@
+{
+    "id": "ynotes_3yr_start_time",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY @SHARED @HIDDEN"
+        }
+    ],
+    "prefLabel": {
+        "en": "ynotes_3yr_start_time"
+    },
+    "question": {
+        "en": "Time page loads"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

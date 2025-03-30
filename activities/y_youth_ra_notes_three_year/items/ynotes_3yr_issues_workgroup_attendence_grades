@@ -1,0 +1,67 @@
+{
+    "id": "ynotes_3yr_issues_workgroup_attendence_grades",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Workgroup Issues - Please check all relevant instruments"
+    },
+    "prefLabel": {
+        "en": "ynotes_3yr_issues_workgroup_attendence_grades"
+    },
+    "question": {
+        "en": "What issues did you have with the School Attendance and Grades instrument?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Participant Comprehension"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Participant Compliance"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Staff factors"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Technical problem"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Not administered"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Not administered at site"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Other (e.g., behaviorial or physical condition)"
+                },
+                "value": 7
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -20,7 +20,7 @@
         "en": "pps_y_ss_severity_score"
     },
     "question": {
-        "en": "Prodromal Psychosis: Severity Score\r\nsum(prodromal_1b_y, prodromal_2b_y, prodromal_3b_y, prodromal_4b_y, prodromal_5b_y, prodromal_6b_y, prodromal_7b_y, prodromal_8b_y, prodromal_9b_y, prodromal_10b_y, prodromal_11b_y, prodromal_12b_y, prodromal_13b_y, prodromal_14b_y, [prodromal_15b_y, prodromal_16b_y, prodromal_17b_y, prodromal_18b_y, prodromal_19b_y, prodromal_20b_y, prodromal_21b_y) + pps_y_ss_ bother_n_1\r\nif pps_y_ss_number = 0, then pps_y_ss_severity_score = 0\r\nNo minimum number of answers to be valid"
+        "en": "Prodromal Psychosis: Severity Score\nsum(prodromal_1b_y, prodromal_2b_y, prodromal_3b_y, prodromal_4b_y, prodromal_5b_y, prodromal_6b_y, prodromal_7b_y, prodromal_8b_y, prodromal_9b_y, prodromal_10b_y, prodromal_11b_y, prodromal_12b_y, prodromal_13b_y, prodromal_14b_y, [prodromal_15b_y, prodromal_16b_y, prodromal_17b_y, prodromal_18b_y, prodromal_19b_y, prodromal_20b_y, prodromal_21b_y) + pps_y_ss_ bother_n_1\nif pps_y_ss_number = 0, then pps_y_ss_severity_score = 0\nNo minimum number of answers to be valid"
     },
     "responseOptions": {
         "valueType": [

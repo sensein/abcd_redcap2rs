@@ -1,0 +1,31 @@
+{
+    "id": "pnotes_3yr_issues_datamanager_su_resolved",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Select instruments where you have Data Manager Issues:"
+    },
+    "prefLabel": {
+        "en": "pnotes_3yr_issues_datamanager_su_resolved"
+    },
+    "question": {
+        "en": "Resolved?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Resolved"
+                },
+                "value": 1
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

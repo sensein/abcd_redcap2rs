@@ -33,6 +33,38 @@
         {
             "jsExpression": "ple_y_ss_affected_bad_sum / ple_y_ss_total_bad",
             "variableName": "ple_y_ss_affected_bad_mean"
+        },
+        {
+            "jsExpression": "if(ple_died_fu_y == '1',1,0)+ if(ple_injured_fu_y == '1',1,0)+ if(ple_crime_fu_y== '1',1,0)+ if(ple_friend_fu_y== '1',1,0)+ if(ple_friend_injur_fu_y== '1',1,0)+ if(ple_financial_fu_y== '1',1,0)+ if(ple_sud_fu_y== '1',1,0)+ if(ple_ill_fu_y== '1',1,0)+ if(ple_injur_fu_y== '1',1,0)+ if(ple_argue_fu_y== '1',1,0)+ if(ple_job_fu_y== '1',1,0)+ if(ple_away_fu_y== '1',1,0)+ if(ple_arrest_fu_y== '1',1,0)+ if(ple_friend_died_fu_y== '1',1,0)+ if(ple_mh_fu_y== '1',1,0)+ if(ple_sib_fu_y== '1',1,0)+ if(ple_victim_fu_y== '1',1,0)+ if(ple_separ_fu_y== '1',1,0)+ if(ple_law_fu_y== '1',1,0)+ if(ple_school_fu_y== '1',1,0)+ if(ple_move_fu_y== '1',1,0)+ if(ple_jail_fu_y== '1',1,0)+ if(ple_step_fu_y== '1',1,0)+ if(ple_new_job_fu_y== '1',1,0)+ if(ple_new_sib_fu_y == '1',1,0)+ if(ple_deported_fu_y == '1',1,0)+ if(ple_hospitalized_fu_y == '1',1,0)+ if(ple_foster_care_fu_y == '1',1,0)+ if(ple_hit_fu_y == '1',1,0)+ if(ple_shot_fu_y == '1',1,0)+ if(ple_lockdown_fu_y == '1',1,0)",
+            "variableName": "ple_y_ss_total_good2"
+        },
+        {
+            "jsExpression": "if(ple_died_fu_y == '2',1,0)+ if(ple_injured_fu_y == '2',1,0)+ if(ple_crime_fu_y== '2',1,0)+ if(ple_friend_fu_y== '2',1,0)+ if(ple_friend_injur_fu_y== '2',1,0)+ if(ple_financial_fu_y== '2',1,0)+ if(ple_sud_fu_y== '2',1,0)+ if(ple_ill_fu_y== '2',1,0)+ if(ple_injur_fu_y== '2',1,0)+ if(ple_argue_fu_y== '2',1,0)+ if(ple_job_fu_y== '2',1,0)+ if(ple_away_fu_y == '2',1,0)+ if(ple_arrest_fu_y== '2',1,0)+ if(ple_friend_died_fu_y== '2',1,0)+ if(ple_mh_fu_y== '2',1,0)+ if(ple_sib_fu_y== '2',1,0)+ if(ple_victim_fu_y== '2',1,0)+ if(ple_separ_fu_y== '2',1,0)+ if(ple_law_fu_y== '2',1,0)+ if(ple_school_fu_y== '2',1,0)+ if(ple_move_fu_y== '2',1,0)+ if(ple_jail_fu_y== '2',1,0)+ if(ple_step_fu_y== '2',1,0)+ if(ple_new_job_fu_y== '2',1,0)+ if(ple_new_sib_fu_y == '2',1,0)+ if(ple_deported_fu_y == '2',1,0)+ if(ple_hospitalized_fu_y == '2',1,0)+ if(ple_foster_care_fu_y == '2',1,0)+ if(ple_hit_fu_y == '2',1,0)+ if(ple_shot_fu_y == '2',1,0)+ if(ple_lockdown_fu_y == '2',1,0)",
+            "variableName": "ple_y_ss_total_bad2"
+        },
+        {
+            "jsExpression": "sum(ple_died_fu2_y,ple_injured_fu2_y,ple_crime_fu2_y,ple_friend_fu2_y,ple_friend_injur_fu2_y,ple_financial_fu2_y,ple_sud_fu2_y,ple_ill_fu2_y,ple_injur_fu2_y,ple_argue_fu2_y,ple_job_fu2_y,ple_away_fu2_y,ple_arrest_fu2_y,ple_friend_died_fu2_y,ple_mh_fu2_y,ple_sib_fu2_y,ple_victim_fu2_y,ple_separ_fu2_y,ple_law_fu2_y,ple_school_fu2_y,ple_move_fu2_y,ple_jail_fu2_y,ple_step_fu2_y,ple_new_job_fu2_y,ple_new_sib_fu2_y,ple_deported_fu2_y,ple_hospitalized_fu2_y,ple_foster_care_fu2_y,ple_hit_fu2_y,ple_shot_fu2_y,ple_lockdown_fu2_y)",
+            "variableName": "ple_y_ss_affect_sum2"
+        },
+        {
+            "jsExpression": "mean(ple_died_fu2_y,ple_injured_fu2_y,ple_crime_fu2_y,ple_friend_fu2_y,ple_friend_injur_fu2_y,ple_financial_fu2_y,ple_sud_fu2_y,ple_ill_fu2_y,ple_injur_fu2_y,ple_argue_fu2_y,ple_job_fu2_y,ple_away_fu2_y,ple_arrest_fu2_y,ple_friend_died_fu2_y,ple_mh_fu2_y,ple_sib_fu2_y,ple_victim_fu2_y,ple_separ_fu2_y,ple_law_fu2_y,ple_school_fu2_y,ple_move_fu2_y,ple_jail_fu2_y,ple_step_fu2_y,ple_new_job_fu2_y,ple_new_sib_fu2_y,ple_deported_fu2_y,ple_hospitalized_fu2_y,ple_foster_care_fu2_y,ple_hit_fu2_y,ple_shot_fu2_y,ple_lockdown_fu2_y)",
+            "variableName": "ple_y_ss_affected_mean2"
+        },
+        {
+            "jsExpression": "if(ple_died_fu_y == '1',ple_died_fu2_y,0)+ if(ple_injured_fu_y == '1',ple_injured_fu2_y,0)+ if(ple_crime_fu_y== '1',ple_crime_fu2_y,0)+ if(ple_friend_fu_y== '1',ple_friend_fu2_y,0)+ if(ple_friend_injur_fu_y == '1',ple_friend_injur_fu2_y,0)+ if(ple_financial_fu_y == '1',ple_financial_fu2_y,0)+ if(ple_sud_fu_y== '1',ple_sud_fu2_y,0)+ if(ple_ill_fu_y== '1',ple_ill_fu2_y,0)+ if(ple_injur_fu_y== '1',ple_injur_fu2_y,0)+ if(ple_argue_fu_y== '1',ple_argue_fu2_y,0)+ if(ple_job_fu_y== '1',ple_job_fu2_y,0)+ if(ple_away_fu_y== '1',ple_away_fu2_y,0)+ if(ple_arrest_fu_y== '1',ple_arrest_fu2_y,0)+ if(ple_friend_died_fu_y== '1',ple_friend_died_fu2_y,0)+ if(ple_mh_fu_y== '1',ple_mh_fu2_y,0)+ if(ple_sib_fu_y== '1',ple_sib_fu2_y,0)+ if(ple_victim_fu_y== '1',ple_victim_fu2_y,0)+ if(ple_separ_fu_y== '1',ple_separ_fu2_y,0)+ if(ple_law_fu_y== '1',ple_law_fu2_y,0)+ if(ple_school_fu_y== '1',ple_school_fu2_y,0)+ if(ple_move_fu_y== '1',ple_move_fu2_y,0)+ if(ple_jail_fu_y== '1',ple_jail_fu2_y,0)+ if(ple_step_fu_y== '1',ple_step_fu2_y,0)+ if(ple_new_job_fu_y== '1',ple_new_job_fu2_y,0)+ if(ple_new_sib_fu_y == '1',ple_new_sib_fu2_y,0)+ if(ple_deported_fu_y== '1',ple_deported_fu2_y,0)+ if(ple_hospitalized_fu_y== '1',ple_hospitalized_fu2_y,0)+ if(ple_foster_care_fu_y== '1',ple_foster_care_fu2_y,0)+ if(ple_hit_fu_y== '1',ple_hit_fu2_y,0)+ if(ple_shot_fu_y== '1',ple_shot_fu2_y,0)+ if(ple_lockdown_fu_y== '1',ple_lockdown_fu2_y,0)",
+            "variableName": "ple_y_ss_affected_good_sum2"
+        },
+        {
+            "jsExpression": "ple_y_ss_affected_good_sum2 / ple_y_ss_total_good2",
+            "variableName": "ple_y_ss_affected_good_mean2"
+        },
+        {
+            "jsExpression": "if(ple_died_fu_y == '2',ple_died_fu2_y,0)+ if(ple_injured_fu_y == '2',ple_injured_fu2_y,0)+ if(ple_crime_fu_y== '2',ple_crime_fu2_y,0)+ if(ple_friend_fu_y== '2',ple_friend_fu2_y,0)+ if(ple_friend_injur_fu_y == '2',ple_friend_injur_fu2_y,0)+ if(ple_financial_fu_y== '2',ple_financial_fu2_y,0)+ if(ple_sud_fu_y== '2',ple_sud_fu2_y,0)+ if(ple_ill_fu_y== '2',ple_ill_fu2_y,0)+ if(ple_injur_fu_y== '2',ple_injur_fu2_y,0)+ if(ple_argue_fu_y== '2',ple_argue_fu2_y,0)+ if(ple_job_fu_y== '2',ple_job_fu2_y,0)+ if(ple_away_fu_y== '2',ple_away_fu2_y,0)+ if(ple_arrest_fu_y== '2',ple_arrest_fu2_y,0)+ if(ple_friend_died_fu_y== '2',ple_friend_died_fu2_y,0)+ if(ple_mh_fu_y== '2',ple_mh_fu2_y,0)+ if(ple_sib_fu_y== '2',ple_sib_fu2_y,0)+ if(ple_victim_fu_y== '2',ple_victim_fu2_y,0)+ if(ple_separ_fu_y== '2',ple_separ_fu2_y,0)+ if(ple_law_fu_y== '2',ple_law_fu2_y,0)+ if(ple_school_fu_y== '2',ple_school_fu2_y,0)+ if(ple_move_fu_y== '2',ple_move_fu2_y,0)+ if(ple_jail_fu_y== '2',ple_jail_fu2_y,0)+ if(ple_step_fu_y== '2',ple_step_fu2_y,0)+ if(ple_new_job_fu_y== '2',ple_new_job_fu2_y,0)+ if(ple_new_sib_fu_y == '2',ple_new_sib_fu2_y,0)+ if(ple_deported_fu_y== '2',ple_deported_fu2_y,0)+ if(ple_hospitalized_fu_y== '2',ple_hospitalized_fu2_y,0)+ if(ple_foster_care_fu_y== '2',ple_foster_care_fu2_y,0)+ if(ple_hit_fu_y== '2',ple_hit_fu2_y,0)+ if(ple_shot_fu_y== '2',ple_shot_fu2_y,0)+ if(ple_lockdown_fu_y== '2',ple_lockdown_fu2_y,0)",
+            "variableName": "ple_y_ss_affected_bad_sum2"
+        },
+        {
+            "jsExpression": "ple_y_ss_affected_bad_sum2 / ple_y_ss_total_bad2",
+            "variableName": "ple_y_ss_affected_bad_mean2"
         }
     ],
     "prefLabel": {
@@ -145,8 +177,11 @@
             "items/delq_y_ss_sum_wt",
             "items/delq_y_ss_sum_wt_nm",
             "items/delq_y_ss_sum_wt_nt",
+            "items/delq_2yr_ss_sum",
             "items/delq_ss_yr_2_sum",
+            "items/delq_2yr_ss_sum_nm",
             "items/delq_ss_yr_2_sum_nm",
+            "items/delq_2yr_ss_sum_nt",
             "items/delq_ss_yr_2_sum_nt",
             "items/sup_y_ss_sum",
             "items/sup_y_ss_sum_nm",
@@ -157,6 +192,9 @@
             "items/gish_y_ss_f_sum",
             "items/gish_y_ss_f_sum_nm",
             "items/gish_y_ss_f_sum_nt",
+            "items/ple_y_ss_total_number2",
+            "items/ple_y_ss_total_number2_nm",
+            "items/ple_y_ss_total_number2_nt",
             "items/sum_scores_mh_y_complete"
         ],
         "addProperties": [
@@ -833,16 +871,34 @@
                 "variableName": "delq_y_ss_sum_wt_nt"
             },
             {
+                "isAbout": "items/delq_2yr_ss_sum",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "delq_2yr_ss_sum"
+            },
+            {
                 "isAbout": "items/delq_ss_yr_2_sum",
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "delq_ss_yr_2_sum"
             },
             {
+                "isAbout": "items/delq_2yr_ss_sum_nm",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "delq_2yr_ss_sum_nm"
+            },
+            {
                 "isAbout": "items/delq_ss_yr_2_sum_nm",
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "delq_ss_yr_2_sum_nm"
+            },
+            {
+                "isAbout": "items/delq_2yr_ss_sum_nt",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "delq_2yr_ss_sum_nt"
             },
             {
                 "isAbout": "items/delq_ss_yr_2_sum_nt",
@@ -905,6 +961,72 @@
                 "variableName": "gish_y_ss_f_sum_nt"
             },
             {
+                "isAbout": "items/ple_y_ss_total_number2",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_y_ss_total_number2"
+            },
+            {
+                "isAbout": "items/ple_y_ss_total_number2_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_y_ss_total_number2_nm"
+            },
+            {
+                "isAbout": "items/ple_y_ss_total_number2_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_y_ss_total_number2_nt"
+            },
+            {
+                "isAbout": "items/ple_y_ss_total_good2",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_y_ss_total_good2"
+            },
+            {
+                "isAbout": "items/ple_y_ss_total_bad2",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_y_ss_total_bad2"
+            },
+            {
+                "isAbout": "items/ple_y_ss_affect_sum2",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_y_ss_affect_sum2"
+            },
+            {
+                "isAbout": "items/ple_y_ss_affected_mean2",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_y_ss_affected_mean2"
+            },
+            {
+                "isAbout": "items/ple_y_ss_affected_good_sum2",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_y_ss_affected_good_sum2"
+            },
+            {
+                "isAbout": "items/ple_y_ss_affected_good_mean2",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_y_ss_affected_good_mean2"
+            },
+            {
+                "isAbout": "items/ple_y_ss_affected_bad_sum2",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_y_ss_affected_bad_sum2"
+            },
+            {
+                "isAbout": "items/ple_y_ss_affected_bad_mean2",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_y_ss_affected_bad_mean2"
+            },
+            {
                 "isAbout": "items/sum_scores_mh_y_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -913,6 +1035,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2407",
+    "version": "revid2409",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

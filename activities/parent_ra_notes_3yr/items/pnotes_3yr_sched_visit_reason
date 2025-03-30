@@ -1,0 +1,36 @@
+{
+    "id": "pnotes_3yr_sched_visit_reason",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "INFORMANT TRACKING"
+    },
+    "prefLabel": {
+        "en": "pnotes_3yr_sched_visit_reason"
+    },
+    "question": {
+        "en": "in addition to the surveys that are allowed to be completed at home before the visit, why were other assessments completed at home?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Family lives  greater than 50 miles from an ABCD research site"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Family refused to come to research site"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
