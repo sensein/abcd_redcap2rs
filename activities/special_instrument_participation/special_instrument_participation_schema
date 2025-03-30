@@ -35,13 +35,15 @@
             "items/fmri_trial_order_mid_rand",
             "items/fmri_trial_order_sst_rand",
             "items/fmri_trial_order_nbac_rand",
-            "items/age_calc",
+            "items/interview_age_c",
+            "items/demo_sex_v2b_c",
             "items/demo_sex_v2_l",
             "items/race_ethnicity_p",
-            "items/parent_high_ed_v",
-            "items/y_race_v",
-            "items/youth_ethnicity_v",
-            "items/y_handedness_v",
+            "items/demo_race_a_p_c",
+            "items/demo_ethn_v2b_c",
+            "items/handedness_right_c",
+            "items/handedness_left_c",
+            "items/handedness_mixed_c",
             "items/hr_score",
             "items/fitc_user_name",
             "items/fitc_user_access_code",
@@ -162,10 +164,16 @@
                 "variableName": "fmri_trial_order_nbac_rand"
             },
             {
-                "isAbout": "items/age_calc",
-                "isVis": false,
+                "isAbout": "items/interview_age_c",
+                "isVis": true,
                 "valueRequired": false,
-                "variableName": "age_calc"
+                "variableName": "interview_age_c"
+            },
+            {
+                "isAbout": "items/demo_sex_v2b_c",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "demo_sex_v2b_c"
             },
             {
                 "isAbout": "items/demo_sex_v2_l",
@@ -180,28 +188,34 @@
                 "variableName": "race_ethnicity_p"
             },
             {
-                "isAbout": "items/parent_high_ed_v",
-                "isVis": false,
+                "isAbout": "items/demo_race_a_p_c",
+                "isVis": true,
                 "valueRequired": false,
-                "variableName": "parent_high_ed_v"
+                "variableName": "demo_race_a_p_c"
             },
             {
-                "isAbout": "items/y_race_v",
-                "isVis": false,
+                "isAbout": "items/demo_ethn_v2b_c",
+                "isVis": true,
                 "valueRequired": false,
-                "variableName": "y_race_v"
+                "variableName": "demo_ethn_v2b_c"
             },
             {
-                "isAbout": "items/youth_ethnicity_v",
-                "isVis": false,
+                "isAbout": "items/handedness_right_c",
+                "isVis": true,
                 "valueRequired": false,
-                "variableName": "youth_ethnicity_v"
+                "variableName": "handedness_right_c"
             },
             {
-                "isAbout": "items/y_handedness_v",
-                "isVis": false,
+                "isAbout": "items/handedness_left_c",
+                "isVis": true,
                 "valueRequired": false,
-                "variableName": "y_handedness_v"
+                "variableName": "handedness_left_c"
+            },
+            {
+                "isAbout": "items/handedness_mixed_c",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "handedness_mixed_c"
             },
             {
                 "isAbout": "items/hr_score",
@@ -296,6 +310,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2370",
+    "version": "revid2371",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
