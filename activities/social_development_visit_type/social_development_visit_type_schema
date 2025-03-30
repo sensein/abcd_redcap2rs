@@ -9,8 +9,11 @@
         "order": [
             "items/socialdev_visit_01",
             "items/socialdev_visit_date",
-            "items/socialdev_visit_assent",
+            "items/socialdev_visit_02",
+            "items/socialdev_visit_03",
             "items/socialdev_visit_consent",
+            "items/socialdev_visit_assent",
+            "items/socialdev_visit_04",
             "items/social_development_visit_type_complete"
         ],
         "addProperties": [
@@ -27,16 +30,34 @@
                 "variableName": "socialdev_visit_date"
             },
             {
-                "isAbout": "items/socialdev_visit_assent",
+                "isAbout": "items/socialdev_visit_02",
+                "isVis": "socialdev_visit_01 == '2'",
+                "valueRequired": false,
+                "variableName": "socialdev_visit_02"
+            },
+            {
+                "isAbout": "items/socialdev_visit_03",
                 "isVis": true,
                 "valueRequired": false,
-                "variableName": "socialdev_visit_assent"
+                "variableName": "socialdev_visit_03"
             },
             {
                 "isAbout": "items/socialdev_visit_consent",
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "socialdev_visit_consent"
+            },
+            {
+                "isAbout": "items/socialdev_visit_assent",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "socialdev_visit_assent"
+            },
+            {
+                "isAbout": "items/socialdev_visit_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "socialdev_visit_04"
             },
             {
                 "isAbout": "items/social_development_visit_type_complete",
@@ -47,6 +68,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2349",
+    "version": "revid2350",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
