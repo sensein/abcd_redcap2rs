@@ -146,7 +146,7 @@
             },
             {
                 "isAbout": "items/kbi_administered",
-                "isVis": "event_name_number > '21'",
+                "isVis": "event - name == '3_year_follow - up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "kbi_administered"
             },
@@ -159,6 +159,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2402",
+    "version": "revid2403",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
