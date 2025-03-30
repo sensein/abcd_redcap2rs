@@ -7,6 +7,7 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/rec_remote_fu",
             "items/rec_mem",
             "items/vrs_rec_mem",
             "items/rec_mem_comment",
@@ -14,20 +15,26 @@
         ],
         "addProperties": [
             {
+                "isAbout": "items/rec_remote_fu",
+                "isVis": "sched_delay == '9'",
+                "valueRequired": false,
+                "variableName": "rec_remote_fu"
+            },
+            {
                 "isAbout": "items/rec_mem",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": false,
                 "variableName": "rec_mem"
             },
             {
                 "isAbout": "items/vrs_rec_mem",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": false,
                 "variableName": "vrs_rec_mem"
             },
             {
                 "isAbout": "items/rec_mem_comment",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": false,
                 "variableName": "rec_mem_comment"
             },
@@ -40,6 +47,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2355",
+    "version": "revid2356",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
