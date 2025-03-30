@@ -13,8 +13,8 @@
             "items/pbp_church",
             "items/pbp_suspended",
             "items/pbp_good_student",
-            "items/pbp_shoplifted",
-            "items/peer_behavior_profile_complete"
+            "items/peer_behavior_profile_complete",
+            "items/pbp_shoplifted"
         ],
         "addProperties": [
             {
@@ -54,20 +54,20 @@
                 "variableName": "pbp_good_student"
             },
             {
-                "isAbout": "items/pbp_shoplifted",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "pbp_shoplifted"
-            },
-            {
                 "isAbout": "items/peer_behavior_profile_complete",
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "peer_behavior_profile_complete"
+            },
+            {
+                "isAbout": "items/pbp_shoplifted",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pbp_shoplifted"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2394",
+    "version": "revid2395",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
