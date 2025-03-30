@@ -1,0 +1,74 @@
+{
+    "id": "ecb_sample_processed_n",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "4a"
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "4a"
+        }
+    ],
+    "prefLabel": {
+        "en": "ecb_sample_processed_n"
+    },
+    "question": {
+        "en": "Provide Reason:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Sample quantity too small"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Sample quality poor"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Lab error"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Sample missing"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Don't Know"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

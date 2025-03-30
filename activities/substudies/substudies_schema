@@ -10,6 +10,7 @@
             "items/substudy_irma",
             "items/substudy_fitbit",
             "items/substudy_social_dev",
+            "items/substudy_pilot_mt",
             "items/substudies_complete"
         ],
         "addProperties": [
@@ -32,6 +33,12 @@
                 "variableName": "substudy_social_dev"
             },
             {
+                "isAbout": "items/substudy_pilot_mt",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "substudy_pilot_mt"
+            },
+            {
                 "isAbout": "items/substudies_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -40,6 +47,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2391",
+    "version": "revid2392",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

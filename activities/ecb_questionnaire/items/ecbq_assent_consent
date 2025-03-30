@@ -1,0 +1,36 @@
+{
+    "id": "ecbq_assent_consent",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Before we start the blood draw, I have a few questions about when\nthe last time you ate, drank, or did physical activity today and how you are\ncurrently feeling."
+    },
+    "prefLabel": {
+        "en": "ecbq_assent_consent"
+    },
+    "question": {
+        "en": "Child and Parent assented/consented to ABCD eCBq Substudy\n\nYES(RA Note: administer eCBq and draw additional 3ml blood sample)NO(RA Note: do not administer eCBq)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

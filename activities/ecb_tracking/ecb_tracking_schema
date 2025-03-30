@@ -1,0 +1,115 @@
+{
+    "id": "ecb_tracking_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "ecb_tracking"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ecb_site",
+            "items/ecb_barcode",
+            "items/ecb_ship_date",
+            "items/ecb_ship_receive",
+            "items/ecb_sample_processed",
+            "items/ecb_sample_processed_n",
+            "items/ecb_aea",
+            "items/ecb_2ag",
+            "items/ecb_pea",
+            "items/ecb_oea",
+            "items/ecb_2og",
+            "items/ecb_sample_stored_mcw",
+            "items/ecb_sample_stored_uwm",
+            "items/ecb_tracking_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ecb_site",
+                "isVis": "ecbq_assent_consent == '1'",
+                "valueRequired": false,
+                "variableName": "ecb_site"
+            },
+            {
+                "isAbout": "items/ecb_barcode",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ecb_barcode"
+            },
+            {
+                "isAbout": "items/ecb_ship_date",
+                "isVis": "ecbq_assent_consent == '1'",
+                "valueRequired": false,
+                "variableName": "ecb_ship_date"
+            },
+            {
+                "isAbout": "items/ecb_ship_receive",
+                "isVis": "ecbq_assent_consent == '1'",
+                "valueRequired": false,
+                "variableName": "ecb_ship_receive"
+            },
+            {
+                "isAbout": "items/ecb_sample_processed",
+                "isVis": "ecbq_assent_consent == '1'",
+                "valueRequired": false,
+                "variableName": "ecb_sample_processed"
+            },
+            {
+                "isAbout": "items/ecb_sample_processed_n",
+                "isVis": "ecb_sample_processed == '0'",
+                "valueRequired": false,
+                "variableName": "ecb_sample_processed_n"
+            },
+            {
+                "isAbout": "items/ecb_aea",
+                "isVis": "ecbq_assent_consent == '1'",
+                "valueRequired": false,
+                "variableName": "ecb_aea"
+            },
+            {
+                "isAbout": "items/ecb_2ag",
+                "isVis": "ecbq_assent_consent == '1'",
+                "valueRequired": false,
+                "variableName": "ecb_2ag"
+            },
+            {
+                "isAbout": "items/ecb_pea",
+                "isVis": "ecbq_assent_consent == '1'",
+                "valueRequired": false,
+                "variableName": "ecb_pea"
+            },
+            {
+                "isAbout": "items/ecb_oea",
+                "isVis": "ecbq_assent_consent == '1'",
+                "valueRequired": false,
+                "variableName": "ecb_oea"
+            },
+            {
+                "isAbout": "items/ecb_2og",
+                "isVis": "ecbq_assent_consent == '1'",
+                "valueRequired": false,
+                "variableName": "ecb_2og"
+            },
+            {
+                "isAbout": "items/ecb_sample_stored_mcw",
+                "isVis": "ecbq_assent_consent == '1'",
+                "valueRequired": false,
+                "variableName": "ecb_sample_stored_mcw"
+            },
+            {
+                "isAbout": "items/ecb_sample_stored_uwm",
+                "isVis": "ecbq_assent_consent == '1'",
+                "valueRequired": false,
+                "variableName": "ecb_sample_stored_uwm"
+            },
+            {
+                "isAbout": "items/ecb_tracking_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ecb_tracking_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2392",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -48,6 +48,8 @@
             "items/hr_score",
             "items/fitc_user_name",
             "items/fitc_user_access_code",
+            "items/visit_started",
+            "items/visit_ended",
             "items/contact_id",
             "items/school_id",
             "items/other_school_name",
@@ -243,6 +245,18 @@
                 "variableName": "fitc_user_access_code"
             },
             {
+                "isAbout": "items/visit_started",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "visit_started"
+            },
+            {
+                "isAbout": "items/visit_ended",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "visit_ended"
+            },
+            {
                 "isAbout": "items/contact_id",
                 "isVis": false,
                 "valueRequired": false,
@@ -317,6 +331,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2391",
+    "version": "revid2392",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -261,6 +261,8 @@
             "../activities/nihtbx_raw_listsort_daic_use_only/nihtbx_raw_listsort_daic_use_only_schema",
             "../activities/nihtbx_raw_flanker_daic_use_only/nihtbx_raw_flanker_daic_use_only_schema",
             "../activities/nihtbx_raw_cardsort_daic_use_only/nihtbx_raw_cardsort_daic_use_only_schema",
+            "../activities/ecb_questionnaire/ecb_questionnaire_schema",
+            "../activities/ecb_tracking/ecb_tracking_schema",
             "../activities/social_development_visit_type/social_development_visit_type_schema",
             "../activities/social_development_parent_reported_delinquency/social_development_parent_reported_delinquency_schema",
             "../activities/social_development_parent_firearms/social_development_parent_firearms_schema",
@@ -2298,6 +2300,22 @@
                 "variableName": "nihtbx_raw_cardsort_daic_use_only_schema"
             },
             {
+                "isAbout": "../activities/ecb_questionnaire/ecb_questionnaire_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Ecb Questionnaire"
+                },
+                "variableName": "ecb_questionnaire_schema"
+            },
+            {
+                "isAbout": "../activities/ecb_tracking/ecb_tracking_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Ecb Tracking"
+                },
+                "variableName": "ecb_tracking_schema"
+            },
+            {
                 "isAbout": "../activities/social_development_visit_type/social_development_visit_type_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -2508,6 +2526,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2391",
+    "version": "revid2392",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

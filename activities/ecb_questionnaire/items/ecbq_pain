@@ -1,0 +1,97 @@
+{
+    "id": "ecbq_pain",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "ecbq_matrix_1"
+        }
+    ],
+    "preamble": {
+        "en": "Before we start the blood draw, I have a few questions about when\nthe last time you ate, drank, or did physical activity today and how you are\ncurrently feeling."
+    },
+    "prefLabel": {
+        "en": "ecbq_pain"
+    },
+    "question": {
+        "en": "How much pain do you have right now, using a number from 0 to 10, where 0 is no pain or hurt and 10 is the most or worst pain?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "no pain0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "5"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "6"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "7"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "8"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "9"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "worst pain10"
+                },
+                "value": 10
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,81 @@
+{
+    "id": "ecb_site",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "1"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "1"
+        }
+    ],
+    "prefLabel": {
+        "en": "ecb_site"
+    },
+    "question": {
+        "en": "Site collected?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "CHLA"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "FIU"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "MUSC"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "OHSU"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "UCSD"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "UVM"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "UWM"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "WUSTL"
+                },
+                "value": 8
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

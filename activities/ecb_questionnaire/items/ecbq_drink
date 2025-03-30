@@ -1,0 +1,175 @@
+{
+    "id": "ecbq_drink",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "RA: note time, in hours; 30 minutes=0.5; 12 hours max"
+        }
+    ],
+    "preamble": {
+        "en": "Before we start the blood draw, I have a few questions about when\nthe last time you ate, drank, or did physical activity today and how you are\ncurrently feeling."
+    },
+    "prefLabel": {
+        "en": "ecbq_drink"
+    },
+    "question": {
+        "en": "How long ago did you last have a drink besides water, such as juice, milk, or non-diet soda?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0.5"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "1.0"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "1.5"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "2.0"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "2.5"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "3.0"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "3.5"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "4.0"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "4.5"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "5.0"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "5.5"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "6.0"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "6.5"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "7.0"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "7.5"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "8.0"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "8.5"
+                },
+                "value": 17
+            },
+            {
+                "name": {
+                    "en": "9.0"
+                },
+                "value": 18
+            },
+            {
+                "name": {
+                    "en": "9.5"
+                },
+                "value": 19
+            },
+            {
+                "name": {
+                    "en": "10.0"
+                },
+                "value": 20
+            },
+            {
+                "name": {
+                    "en": "10.5"
+                },
+                "value": 21
+            },
+            {
+                "name": {
+                    "en": "11.0"
+                },
+                "value": 22
+            },
+            {
+                "name": {
+                    "en": "11.5"
+                },
+                "value": 23
+            },
+            {
+                "name": {
+                    "en": "12.0"
+                },
+                "value": 24
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

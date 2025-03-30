@@ -1,0 +1,108 @@
+{
+    "id": "ecb_questionnaire_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "ecb_questionnaire"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ecbq_time",
+            "items/ecbq_assent_consent",
+            "items/ecbq_instructions",
+            "items/ecbq_meal",
+            "items/ecbq_drink",
+            "items/ecbq_physical_breathe",
+            "items/ecbq_breathe_time",
+            "items/ecbq_pain",
+            "items/ecbq_stress",
+            "items/ecbq_blood_collect_instruct",
+            "items/ecbq_blood_time_stamp",
+            "items/cbq_temp_store",
+            "items/ecb_questionnaire_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ecbq_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ecbq_time"
+            },
+            {
+                "isAbout": "items/ecbq_assent_consent",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ecbq_assent_consent"
+            },
+            {
+                "isAbout": "items/ecbq_instructions",
+                "isVis": "ecbq_assent_consent == '1'",
+                "valueRequired": false,
+                "variableName": "ecbq_instructions"
+            },
+            {
+                "isAbout": "items/ecbq_meal",
+                "isVis": "ecbq_assent_consent == '1'",
+                "valueRequired": true,
+                "variableName": "ecbq_meal"
+            },
+            {
+                "isAbout": "items/ecbq_drink",
+                "isVis": "ecbq_assent_consent == '1'",
+                "valueRequired": true,
+                "variableName": "ecbq_drink"
+            },
+            {
+                "isAbout": "items/ecbq_physical_breathe",
+                "isVis": "ecbq_assent_consent == '1'",
+                "valueRequired": true,
+                "variableName": "ecbq_physical_breathe"
+            },
+            {
+                "isAbout": "items/ecbq_breathe_time",
+                "isVis": "ecbq_physical_breathe == 1",
+                "valueRequired": true,
+                "variableName": "ecbq_breathe_time"
+            },
+            {
+                "isAbout": "items/ecbq_pain",
+                "isVis": "ecbq_assent_consent == '1'",
+                "valueRequired": true,
+                "variableName": "ecbq_pain"
+            },
+            {
+                "isAbout": "items/ecbq_stress",
+                "isVis": "ecbq_assent_consent == '1'",
+                "valueRequired": true,
+                "variableName": "ecbq_stress"
+            },
+            {
+                "isAbout": "items/ecbq_blood_collect_instruct",
+                "isVis": "ecbq_assent_consent == '1'",
+                "valueRequired": false,
+                "variableName": "ecbq_blood_collect_instruct"
+            },
+            {
+                "isAbout": "items/ecbq_blood_time_stamp",
+                "isVis": "ecbq_assent_consent == '1'",
+                "valueRequired": true,
+                "variableName": "ecbq_blood_time_stamp"
+            },
+            {
+                "isAbout": "items/cbq_temp_store",
+                "isVis": "ecbq_assent_consent == '1'",
+                "valueRequired": true,
+                "variableName": "cbq_temp_store"
+            },
+            {
+                "isAbout": "items/ecb_questionnaire_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ecb_questionnaire_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2392",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

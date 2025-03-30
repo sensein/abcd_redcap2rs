@@ -1,0 +1,40 @@
+{
+    "id": "cbq_temp_store",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        }
+    ],
+    "prefLabel": {
+        "en": "cbq_temp_store"
+    },
+    "question": {
+        "en": "RA: which storage fridge will you use"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "-20C"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "-80C"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

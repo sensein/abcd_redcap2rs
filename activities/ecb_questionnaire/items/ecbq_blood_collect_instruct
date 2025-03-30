@@ -1,0 +1,23 @@
+{
+    "id": "ecbq_blood_collect_instruct",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Blood collection questions (RA check off items once completed)"
+    },
+    "prefLabel": {
+        "en": "ecbq_blood_collect_instruct"
+    },
+    "question": {
+        "en": "Directions for Blood Draw and Serum Storage (See \"ABCD Blood Draw + eCB Substudy SOP\" for details)\na. Follow the Blood Draw SOP directions for standard venipuncture procedure.i. The eCB blood sample is collected second, it utilizes a 3mL Red Cap evacuated tube. \nii. Holding the needle steady, use your other hand to push the 3 mL Red Cap evacuated tube onto the hub. Make sure the needle does not move in the patient's arm.\niii. Fill the tube to its full capacity, remove 3 mL Red Cap tube without moving the needle, and gently invert the tube (do not shake) 8-10 times before lying it on the table.b. Follow Blood Draw SOP directions for serum transfer for BD SST Tube.i. Use a safety mask with eye shield when all transfer steps are performed.\nii. Before starting, ensure that the2 destination 1.8mL tubesare pre-labeled with an identifier that matches its parenteCB tube.iii. Carefully uncap theeCB tube,covering the rubber stopper with paper towels to negate any blood spatter when opening the tube.\niv. Using a disposable pipette, transfer up to 1.8mL of the centrifuged serum sample from theeCB tubeto the destination1.8 ml tubes,taking care to not disturb the gel layer below the serum. If you do disturb the gel, dispose of pipette in biohazard waste and allow gel/serum to settle before taking more serum.\n1.NOTE:The minimum serum required for endocannabinoid testing is 0.5mL. However, it is always good to have the extra serum for further testing. \nv. Once isolated, the1.8ml serum tubesshould be immediately placed in a -80C freezer until shipment. If a -80C freezer it not immediately available, the samples can be placed in a -20C freezer for up to 24 hours."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
