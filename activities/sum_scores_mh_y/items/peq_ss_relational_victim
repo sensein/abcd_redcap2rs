@@ -1,0 +1,30 @@
+{
+    "id": "peq_ss_relational_victim",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Peer Experiences"
+    },
+    "prefLabel": {
+        "en": "peq_ss_relational_victim"
+    },
+    "question": {
+        "en": "Relational Victimization Summary Score\rsum (peq_left_out_vic, peq_invite_vic, peq_exclude_vic)\n\nValidation: All items must be answered"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

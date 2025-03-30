@@ -445,7 +445,7 @@
             },
             {
                 "isAbout": "items/rx_med1_24",
-                "isVis": "med1_2wk_p == '1'",
+                "isVis": "med1_2wk_p == '1' || med1_rxnorm_p <>''",
                 "valueRequired": false,
                 "variableName": "rx_med1_24"
             },
@@ -517,7 +517,7 @@
             },
             {
                 "isAbout": "items/rx_med2_24",
-                "isVis": "med2_2wk_p == '1'",
+                "isVis": "med2_2wk_p == '1' || med2_rxnorm_p <>''",
                 "valueRequired": false,
                 "variableName": "rx_med2_24"
             },
@@ -589,7 +589,7 @@
             },
             {
                 "isAbout": "items/rx_med3_24",
-                "isVis": "med3_2wk_p == '1'",
+                "isVis": "med3_2wk_p == '1' || med3_rxnorm_p <>''",
                 "valueRequired": false,
                 "variableName": "rx_med3_24"
             },
@@ -661,7 +661,7 @@
             },
             {
                 "isAbout": "items/rx_med4_24",
-                "isVis": "med4_2wk_p == '1'",
+                "isVis": "med4_2wk_p == '1' || med4_rxnorm_p <>''",
                 "valueRequired": false,
                 "variableName": "rx_med4_24"
             },
@@ -733,7 +733,7 @@
             },
             {
                 "isAbout": "items/rx_med5_24",
-                "isVis": "med5_2wk_p == '1'",
+                "isVis": "med5_2wk_p == '1' || med5_rxnorm_p <>''",
                 "valueRequired": false,
                 "variableName": "rx_med5_24"
             },
@@ -811,7 +811,7 @@
             },
             {
                 "isAbout": "items/rx_med6_24",
-                "isVis": "med6_2wk_p == '1'",
+                "isVis": "med6_2wk_p == '1' || med6_rxnorm_p <>''",
                 "valueRequired": false,
                 "variableName": "rx_med6_24"
             },
@@ -883,7 +883,7 @@
             },
             {
                 "isAbout": "items/rx_med7_24",
-                "isVis": "med7_2wk_p == '1'",
+                "isVis": "med7_2wk_p == '1' || med7_rxnorm_p <>''",
                 "valueRequired": false,
                 "variableName": "rx_med7_24"
             },
@@ -955,7 +955,7 @@
             },
             {
                 "isAbout": "items/rx_med8_24",
-                "isVis": "med8_2wk_p == '1'",
+                "isVis": "med8_2wk_p == '1' || med8_rxnorm_p <>''",
                 "valueRequired": false,
                 "variableName": "rx_med8_24"
             },
@@ -1027,7 +1027,7 @@
             },
             {
                 "isAbout": "items/rx_med9_24",
-                "isVis": "med9_2wk_p == '1'",
+                "isVis": "med9_2wk_p == '1' || med9_rxnorm_p <>''",
                 "valueRequired": false,
                 "variableName": "rx_med9_24"
             },
@@ -1099,7 +1099,7 @@
             },
             {
                 "isAbout": "items/rx_med10_24",
-                "isVis": "med10_2wk_p == '1'",
+                "isVis": "med10_2wk_p == '1' || med10_rxnorm_p <>''",
                 "valueRequired": false,
                 "variableName": "rx_med10_24"
             },
@@ -1171,7 +1171,7 @@
             },
             {
                 "isAbout": "items/rx_med11_24",
-                "isVis": "med11_2wk_p == '1'",
+                "isVis": "med11_2wk_p == '1' || med11_rxnorm_p <>''",
                 "valueRequired": false,
                 "variableName": "rx_med11_24"
             },
@@ -1243,7 +1243,7 @@
             },
             {
                 "isAbout": "items/rx_med12_24",
-                "isVis": "med12_2wk_p == '1'",
+                "isVis": "med12_2wk_p == '1' || med12_rxnorm_p <>''",
                 "valueRequired": false,
                 "variableName": "rx_med12_24"
             },
@@ -1315,7 +1315,7 @@
             },
             {
                 "isAbout": "items/rx_med13_24",
-                "isVis": "med13_2wk_p == '1'",
+                "isVis": "med13_2wk_p == '1' || med13_rxnorm_p <>''",
                 "valueRequired": false,
                 "variableName": "rx_med13_24"
             },
@@ -1387,7 +1387,7 @@
             },
             {
                 "isAbout": "items/rx_med14_24",
-                "isVis": "med14_2wk_p == '1'",
+                "isVis": "med14_2wk_p == '1' || med14_rxnorm_p <>''",
                 "valueRequired": false,
                 "variableName": "rx_med14_24"
             },
@@ -1459,7 +1459,7 @@
             },
             {
                 "isAbout": "items/rx_med15_24",
-                "isVis": "med15_2wk_p == '1'",
+                "isVis": "med15_2wk_p == '1' || med15_rxnorm_p <>''",
                 "valueRequired": false,
                 "variableName": "rx_med15_24"
             },
@@ -1519,7 +1519,7 @@
             },
             {
                 "isAbout": "items/otc_med1_24",
-                "isVis": "med_otc_1_2wk_p == '1'",
+                "isVis": "med_otc_1_2wk_p == '1' || med_otc_1_rxnorm_p <>''",
                 "valueRequired": false,
                 "variableName": "otc_med1_24"
             },
@@ -1585,7 +1585,7 @@
             },
             {
                 "isAbout": "items/otc_med2_24",
-                "isVis": "med_otc_2_2wk_p == '1'",
+                "isVis": "med_otc_2_2wk_p == '1' || med_otc_2_rxnorm_p <>''",
                 "valueRequired": false,
                 "variableName": "otc_med2_24"
             },
@@ -1651,7 +1651,7 @@
             },
             {
                 "isAbout": "items/otc_med3_24",
-                "isVis": "med_otc_3_2wk_p == '1'",
+                "isVis": "med_otc_3_2wk_p == '1' || med_otc_3_rxnorm_p <>''",
                 "valueRequired": false,
                 "variableName": "otc_med3_24"
             },
@@ -1717,7 +1717,7 @@
             },
             {
                 "isAbout": "items/otc_med4_24",
-                "isVis": "med_otc_4_2wk_p == '1'",
+                "isVis": "med_otc_4_2wk_p == '1' || med_otc_4_rxnorm_p <>''",
                 "valueRequired": false,
                 "variableName": "otc_med4_24"
             },
@@ -1783,7 +1783,7 @@
             },
             {
                 "isAbout": "items/otc_med5_24",
-                "isVis": "med_otc_5_2wk_p == '1'",
+                "isVis": "med_otc_5_2wk_p == '1' || med_otc_5_rxnorm_p <>''",
                 "valueRequired": false,
                 "variableName": "otc_med5_24"
             },
@@ -1849,7 +1849,7 @@
             },
             {
                 "isAbout": "items/otc_med6_24",
-                "isVis": "med_otc_6_2wk_p == '1'",
+                "isVis": "med_otc_6_2wk_p == '1' || med_otc_6_rxnorm_p <>''",
                 "valueRequired": false,
                 "variableName": "otc_med6_24"
             },
@@ -1915,7 +1915,7 @@
             },
             {
                 "isAbout": "items/otc_med7_24",
-                "isVis": "med_otc_7_2wk_p == '1'",
+                "isVis": "med_otc_7_2wk_p == '1' || med_otc_7_rxnorm_p <>''",
                 "valueRequired": false,
                 "variableName": "otc_med7_24"
             },
@@ -1981,7 +1981,7 @@
             },
             {
                 "isAbout": "items/otc_med8_24",
-                "isVis": "med_otc_8_2wk_p == '1'",
+                "isVis": "med_otc_8_2wk_p == '1' || med_otc_8_rxnorm_p <>''",
                 "valueRequired": false,
                 "variableName": "otc_med8_24"
             },
@@ -2047,7 +2047,7 @@
             },
             {
                 "isAbout": "items/otc_med9_24",
-                "isVis": "med_otc_9_2wk_p == '1'",
+                "isVis": "med_otc_9_2wk_p == '1' || med_otc_9_rxnorm_p <>''",
                 "valueRequired": false,
                 "variableName": "otc_med9_24"
             },
@@ -2113,7 +2113,7 @@
             },
             {
                 "isAbout": "items/otc_med10_24",
-                "isVis": "med_otc_10_2wk_p == '1'",
+                "isVis": "med_otc_10_2wk_p == '1' || med_otc_10_rxnorm_p <>''",
                 "valueRequired": false,
                 "variableName": "otc_med10_24"
             },
@@ -2179,7 +2179,7 @@
             },
             {
                 "isAbout": "items/otc_med11_24",
-                "isVis": "med_otc_11_2wk_p == '1'",
+                "isVis": "med_otc_11_2wk_p == '1' || med_otc_11_rxnorm_p <>''",
                 "valueRequired": false,
                 "variableName": "otc_med11_24"
             },
@@ -2245,7 +2245,7 @@
             },
             {
                 "isAbout": "items/otc_med12_24",
-                "isVis": "med_otc_12_2wk_p == '1'",
+                "isVis": "med_otc_12_2wk_p == '1' || med_otc_12_rxnorm_p <>''",
                 "valueRequired": false,
                 "variableName": "otc_med12_24"
             },
@@ -2311,7 +2311,7 @@
             },
             {
                 "isAbout": "items/otc_med13_24",
-                "isVis": "med_otc_13_2wk_p == '1'",
+                "isVis": "med_otc_13_2wk_p == '1' || med_otc_13_rxnorm_p <>''",
                 "valueRequired": false,
                 "variableName": "otc_med13_24"
             },
@@ -2377,7 +2377,7 @@
             },
             {
                 "isAbout": "items/otc_med14_24",
-                "isVis": "med_otc_14_2wk_p == '1'",
+                "isVis": "med_otc_14_2wk_p == '1' || med_otc_14_rxnorm_p <>''",
                 "valueRequired": false,
                 "variableName": "otc_med14_24"
             },
@@ -2449,7 +2449,7 @@
             },
             {
                 "isAbout": "items/otc_med15_ago",
-                "isVis": "otc_med15_24 == '1'",
+                "isVis": "otc_med15_24 == '1' || med_otc_15_rxnorm_p <>''",
                 "valueRequired": false,
                 "variableName": "otc_med15_ago"
             },
@@ -2504,6 +2504,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2422",
+    "version": "revid2423",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
