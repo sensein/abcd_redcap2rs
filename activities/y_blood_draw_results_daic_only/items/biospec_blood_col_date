@@ -6,11 +6,6 @@
             "column": "Text Validation Type OR Show Slider Number",
             "source": "redcap",
             "value": "datetime_mdy"
-        },
-        {
-            "column": "Field Annotation",
-            "source": "redcap",
-            "value": "@HIDDEN"
         }
     ],
     "prefLabel": {
@@ -25,8 +20,7 @@
         ]
     },
     "ui": {
-        "inputType": "text",
-        "readonlyValue": true
+        "inputType": "text"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

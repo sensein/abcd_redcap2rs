@@ -54,12 +54,12 @@
             {
                 "isAbout": "items/biospec_blood_accession_date",
                 "isVis": false,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "biospec_blood_accession_date"
             },
             {
                 "isAbout": "items/biospec_blood_col_date",
-                "isVis": false,
+                "isVis": true,
                 "valueRequired": false,
                 "variableName": "biospec_blood_col_date"
             },
@@ -96,13 +96,13 @@
             {
                 "isAbout": "items/biospec_blood_baso_percent",
                 "isVis": false,
-                "valueRequired": true,
+                "valueRequired": false,
                 "variableName": "biospec_blood_baso_percent"
             },
             {
                 "isAbout": "items/biospec_blood_baso_abs",
                 "isVis": false,
-                "valueRequired": true,
+                "valueRequired": false,
                 "variableName": "biospec_blood_baso_abs"
             },
             {
@@ -306,6 +306,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2425",
+    "version": "revid2426",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

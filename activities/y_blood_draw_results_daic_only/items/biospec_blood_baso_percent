@@ -5,7 +5,17 @@
         {
             "column": "Text Validation Type OR Show Slider Number",
             "source": "redcap",
-            "value": "datetime_mdy"
+            "value": "number"
+        },
+        {
+            "column": "Text Validation Min",
+            "source": "redcap",
+            "value": "0"
+        },
+        {
+            "column": "Text Validation Max",
+            "source": "redcap",
+            "value": "100.0"
         },
         {
             "column": "Field Annotation",
@@ -20,12 +30,14 @@
         "en": "BASO %"
     },
     "responseOptions": {
+        "maxValue": 100,
+        "minValue": 0,
         "valueType": [
-            "xsd:dateTime"
+            "xsd:decimal"
         ]
     },
     "ui": {
-        "inputType": "text",
+        "inputType": "float",
         "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
