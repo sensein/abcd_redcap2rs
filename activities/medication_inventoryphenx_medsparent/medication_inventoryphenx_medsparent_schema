@@ -391,7 +391,7 @@
             },
             {
                 "isAbout": "items/med1_rxnorm_p",
-                "isVis": "brought_medications == '0' && event_name_number < '31'",
+                "isVis": "(brought_medications == '0' && event_name_number < '31')||(brought_medications == '4' && event_name_number < '31')",
                 "valueRequired": false,
                 "variableName": "med1_rxnorm_p"
             },
@@ -1471,7 +1471,7 @@
             },
             {
                 "isAbout": "items/med_otc_1_rxnorm_p",
-                "isVis": "brought_medications == '0' && event_name_number < '31'",
+                "isVis": "(brought_medications == '0' && event_name_number < '31')||(brought_medications == '4' && event_name_number < '31')",
                 "valueRequired": false,
                 "variableName": "med_otc_1_rxnorm_p"
             },
@@ -2473,7 +2473,7 @@
             },
             {
                 "isAbout": "items/cbd_permission",
-                "isVis": "event_name_number > 30",
+                "isVis": "event_name_number > 20",
                 "valueRequired": false,
                 "variableName": "cbd_permission"
             },
@@ -2504,6 +2504,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2319",
+    "version": "revid2320",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -5,7 +5,12 @@
         {
             "column": "Field Note",
             "source": "redcap",
-            "value": "<font color=\"blue\">Mark the form status as 'Unverified' if you are waiting on the parent to provide child's medications.</font>"
+            "value": "<font color=\"blue\">Mark the form status as 'Unverified' if you are waiting on the parent to provide child's medications or additional details and be sure to follow-up within 30 days of assent.</font>"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDECHOICE = '1'"
         }
     ],
     "preamble": {
@@ -16,17 +21,24 @@
         "en": "brought_medications"
     },
     "question": {
-        "en": "Did your child take any medications in the past two weeks and if so did you bring them with you?",
-        "es": "\u00c2\u00bfSu ni\u00c3\u00b1o(a) tom\u00c3\u00b3 alg\u00c3\u00ban medicamento en las \u00c3\u00baltimas dos semanas? Si la respuesta es s\u00c3\u00ad, trajo todos los medicamentos de su ni\u00c3\u00b1o(a) a esta visita?"
+        "en": "Did your child take any medications in the past two weeks?",
+        "es": "\u00c2\u00bfSu ni\u00c3\u00b1o(a) tom\u00c3\u00b3 alg\u00c3\u00ban medicamento en las \u00c3\u00baltimas dos semanas?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Yes, brought medications.",
-                    "es": "S\u00c3\u00ad, trajo los medicamentos."
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
                 },
                 "value": 0
+            },
+            {
+                "name": {
+                    "en": "Took No Medications",
+                    "es": "No us\u00c3\u00b3 ning\u00c3\u00ban medicamento"
+                },
+                "value": 3
             },
             {
                 "name": {
@@ -44,10 +56,10 @@
             },
             {
                 "name": {
-                    "en": "Took No Medications",
-                    "es": "No us\u00c3\u00b3 ning\u00c3\u00ban medicamento"
+                    "en": "Yes, but unable to verify medications with parent within 30 days of assent date",
+                    "es": "XXXXXXX"
                 },
-                "value": 3
+                "value": 4
             }
         ],
         "valueType": [

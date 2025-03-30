@@ -1,15 +1,22 @@
 {
     "id": "cbd_permission",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20190601"
+        }
+    ],
     "preamble": {
-        "en": "CBD"
+        "en": "CBD (Past Year)"
     },
     "prefLabel": {
         "en": "cbd_permission"
     },
     "question": {
-        "en": "Have you used any CBD (or cannabidiol) products with your doctor's or parent's permission, such as Epidiolex or other over the counter CBD product, in the last year?",
-        "es": "XXXXXX"
+        "en": "Has your son/daughter used any CBD (or cannabidiol) products with your or your doctor's permission, such as Epidiolex or other over the counter CBD product, in the past year?",
+        "es": "\u00c2\u00bfSu hija/hijo ha usado alg\u00c3\u00ban producto de CBD (cannabidiol) con su permiso o el permiso de su doctor, tales como Epidiolex u otro producto de venta libre de CBD en el \u00c3\u00baltimo a\u00c3\u00b1o?"
     },
     "responseOptions": {
         "choices": [

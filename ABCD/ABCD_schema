@@ -113,7 +113,6 @@
             "../activities/y_ra_feedback_3_yr_pilot/y_ra_feedback_3_yr_pilot_schema",
             "../activities/y_youth_ra_notes_one_year_followup/y_youth_ra_notes_one_year_followup_schema",
             "../activities/visit_summary/visit_summary_schema",
-            "../activities/medication_inventoryphenx_medsparent/medication_inventoryphenx_medsparent_schema",
             "../activities/family_history_assessment_parent/family_history_assessment_parent_schema",
             "../activities/occupation_survey_parent/occupation_survey_parent_schema",
             "../activities/p_ksads5_background_items_parent_l/p_ksads5_background_items_parent_l_schema",
@@ -152,6 +151,7 @@
             "../activities/p_parent_rules_pr/p_parent_rules_pr_schema",
             "../activities/perceived_stress/perceived_stress_schema",
             "../activities/international_physical_activity_q/international_physical_activity_q_schema",
+            "../activities/medication_inventoryphenx_medsparent/medication_inventoryphenx_medsparent_schema",
             "../activities/su_community_risk_and_protection_parent/su_community_risk_and_protection_parent_schema",
             "../activities/p_school_attendance_and_grades/p_school_attendance_and_grades_schema",
             "../activities/acculturationmodified_phenx_actparent/acculturationmodified_phenx_actparent_schema",
@@ -1104,14 +1104,6 @@
                 "variableName": "visit_summary_schema"
             },
             {
-                "isAbout": "../activities/medication_inventoryphenx_medsparent/medication_inventoryphenx_medsparent_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Medication Inventoryphenx Medsparent"
-                },
-                "variableName": "medication_inventoryphenx_medsparent_schema"
-            },
-            {
                 "isAbout": "../activities/family_history_assessment_parent/family_history_assessment_parent_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -1414,6 +1406,14 @@
                     "en": "International Physical Activity Q"
                 },
                 "variableName": "international_physical_activity_q_schema"
+            },
+            {
+                "isAbout": "../activities/medication_inventoryphenx_medsparent/medication_inventoryphenx_medsparent_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Medication Inventoryphenx Medsparent"
+                },
+                "variableName": "medication_inventoryphenx_medsparent_schema"
             },
             {
                 "isAbout": "../activities/su_community_risk_and_protection_parent/su_community_risk_and_protection_parent_schema",
@@ -2418,6 +2418,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2319",
+    "version": "revid2320",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

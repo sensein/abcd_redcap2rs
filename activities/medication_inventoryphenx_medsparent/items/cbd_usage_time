@@ -1,57 +1,64 @@
 {
     "id": "cbd_usage_time",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20190601"
+        }
+    ],
     "preamble": {
-        "en": "CBD"
+        "en": "CBD (Past Year)"
     },
     "prefLabel": {
         "en": "cbd_usage_time"
     },
     "question": {
-        "en": "During the past year, how often did you use CBD products?",
-        "es": "XXXXXXX"
+        "en": "During the past year, how often did h/she use CBD products?",
+        "es": "En el \u00c3\u00baltimo a\u00c3\u00b1o, \u00c2\u00bfQu\u00c3\u00a9 tan seguido su hija/o uso productos de CBD?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
                     "en": "Every day or nearly daily",
-                    "es": "XXXXXX"
+                    "es": "Todos los d\u00c3\u00adas o casi diariamente"
                 },
                 "value": 1
             },
             {
                 "name": {
                     "en": "A few times a week",
-                    "es": "XXXXXX"
+                    "es": "Unas cuantas veces por semana"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "1-11 times a year",
-                    "es": "XXXXXX"
+                    "en": "3-4 times a month",
+                    "es": "3-4 veces al mes"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "3-4 times a month",
-                    "es": "XXXXXX"
+                    "en": "12-24 times a year",
+                    "es": "12-24 veces al a\u00c3\u00b1o"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "12-24 times a year",
-                    "es": "XXXXXX"
+                    "en": "1-11 times a year",
+                    "es": "1-11 veces al a\u00c3\u00b1o"
                 },
                 "value": 5
             },
             {
                 "name": {
                     "en": "Don't know",
-                    "es": "XXXXXX"
+                    "es": "No se"
                 },
                 "value": 999
             }
