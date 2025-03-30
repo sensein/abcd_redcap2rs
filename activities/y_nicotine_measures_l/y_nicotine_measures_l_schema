@@ -22,7 +22,7 @@
             "items/su_ceq_q06",
             "items/su_ceq_q07",
             "items/su_ceq_q08",
-            "items/nic_measures_start_time",
+            "items/nic_measures_time_start",
             "items/res_tobacco_q01_l",
             "items/res_tobacco_q02_l",
             "items/res_tobacco_q08_l",
@@ -137,10 +137,10 @@
                 "variableName": "su_ceq_q08"
             },
             {
-                "isAbout": "items/nic_measures_start_time",
+                "isAbout": "items/nic_measures_time_start",
                 "isVis": false,
                 "valueRequired": false,
-                "variableName": "nic_measures_start_time"
+                "variableName": "nic_measures_time_start"
             },
             {
                 "isAbout": "items/res_tobacco_q01_l",
@@ -271,6 +271,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2416",
+    "version": "revid2417",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
