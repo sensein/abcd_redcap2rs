@@ -38,6 +38,10 @@
             "items/age_calc",
             "items/demo_sex_v2_l",
             "items/race_ethnicity_p",
+            "items/mother_high_ed_v",
+            "items/y_race_v",
+            "items/youth_ethnicity_v",
+            "items/y_handedness_v",
             "items/hr_score",
             "items/fitc_user_name",
             "items/fitc_user_access_code",
@@ -176,6 +180,30 @@
                 "variableName": "race_ethnicity_p"
             },
             {
+                "isAbout": "items/mother_high_ed_v",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mother_high_ed_v"
+            },
+            {
+                "isAbout": "items/y_race_v",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "y_race_v"
+            },
+            {
+                "isAbout": "items/youth_ethnicity_v",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "youth_ethnicity_v"
+            },
+            {
+                "isAbout": "items/y_handedness_v",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "y_handedness_v"
+            },
+            {
                 "isAbout": "items/hr_score",
                 "isVis": false,
                 "valueRequired": false,
@@ -268,6 +296,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2330",
+    "version": "revid2331",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
