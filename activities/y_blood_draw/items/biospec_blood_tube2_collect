@@ -1,0 +1,45 @@
+{
+    "id": "biospec_blood_tube2_collect",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "biospec_blood_tube2_collect"
+    },
+    "question": {
+        "en": "Tube 2 (Red Top: SST) Blood Sample collected?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Unable to Complete"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Refused"
+                },
+                "value": 777
+            },
+            {
+                "name": {
+                    "en": "Not collected (other)"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

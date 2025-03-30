@@ -45,7 +45,7 @@
             },
             {
                 "isAbout": "items/fitbit_assent",
-                "isVis": "event_name_number > '11'",
+                "isVis": "event_name_number == '21'",
                 "valueRequired": true,
                 "variableName": "fitbit_assent"
             },
@@ -124,6 +124,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2381",
+    "version": "revid2382",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

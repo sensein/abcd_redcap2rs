@@ -1,0 +1,122 @@
+{
+    "id": "y_blood_draw_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "y_blood_draw"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/biospec_blood_collect",
+            "items/biospec_blood_consent",
+            "items/biospec_blood_tube1_collect",
+            "items/biospec_blood_collect_nco",
+            "items/biospec_blood_tube1_dot",
+            "items/biospec_blood_tube1_barcode",
+            "items/biospec_blood_tube2_collect",
+            "items/biospec_blood_tube2_collect_nco",
+            "items/biospec_blood_tube2_dot",
+            "items/biospec_blood_tube2_barcode",
+            "items/biospec_blood_tube2_instruct1",
+            "items/biospec_blood_tube2_instruct2",
+            "items/biospec_blood_tube2_fuge_dot",
+            "items/biospec_blood_ship",
+            "items/y_blood_draw_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/biospec_blood_collect",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "biospec_blood_collect"
+            },
+            {
+                "isAbout": "items/biospec_blood_consent",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "biospec_blood_consent"
+            },
+            {
+                "isAbout": "items/biospec_blood_tube1_collect",
+                "isVis": "biospec_blood_consent == '1'",
+                "valueRequired": false,
+                "variableName": "biospec_blood_tube1_collect"
+            },
+            {
+                "isAbout": "items/biospec_blood_collect_nco",
+                "isVis": "biospec_blood_tube1_collect == '2'",
+                "valueRequired": false,
+                "variableName": "biospec_blood_collect_nco"
+            },
+            {
+                "isAbout": "items/biospec_blood_tube1_dot",
+                "isVis": "biospec_blood_consent == '1'",
+                "valueRequired": false,
+                "variableName": "biospec_blood_tube1_dot"
+            },
+            {
+                "isAbout": "items/biospec_blood_tube1_barcode",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "biospec_blood_tube1_barcode"
+            },
+            {
+                "isAbout": "items/biospec_blood_tube2_collect",
+                "isVis": "biospec_blood_consent == '1'",
+                "valueRequired": false,
+                "variableName": "biospec_blood_tube2_collect"
+            },
+            {
+                "isAbout": "items/biospec_blood_tube2_collect_nco",
+                "isVis": "biospec_blood_tube2_collect == '2'",
+                "valueRequired": false,
+                "variableName": "biospec_blood_tube2_collect_nco"
+            },
+            {
+                "isAbout": "items/biospec_blood_tube2_dot",
+                "isVis": "biospec_blood_consent == '1'",
+                "valueRequired": false,
+                "variableName": "biospec_blood_tube2_dot"
+            },
+            {
+                "isAbout": "items/biospec_blood_tube2_barcode",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "biospec_blood_tube2_barcode"
+            },
+            {
+                "isAbout": "items/biospec_blood_tube2_instruct1",
+                "isVis": "biospec_blood_consent == '1'",
+                "valueRequired": false,
+                "variableName": "biospec_blood_tube2_instruct1"
+            },
+            {
+                "isAbout": "items/biospec_blood_tube2_instruct2",
+                "isVis": "biospec_blood_consent == '1'",
+                "valueRequired": false,
+                "variableName": "biospec_blood_tube2_instruct2"
+            },
+            {
+                "isAbout": "items/biospec_blood_tube2_fuge_dot",
+                "isVis": "biospec_blood_consent == '1'",
+                "valueRequired": false,
+                "variableName": "biospec_blood_tube2_fuge_dot"
+            },
+            {
+                "isAbout": "items/biospec_blood_ship",
+                "isVis": "biospec_blood_consent == '1'",
+                "valueRequired": false,
+                "variableName": "biospec_blood_ship"
+            },
+            {
+                "isAbout": "items/y_blood_draw_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "y_blood_draw_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2382",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

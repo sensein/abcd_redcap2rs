@@ -1,0 +1,26 @@
+{
+    "id": "biospec_blood_tube2_fuge_dot",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "date_mdy"
+        }
+    ],
+    "prefLabel": {
+        "en": "biospec_blood_tube2_fuge_dot"
+    },
+    "question": {
+        "en": "Tube 2 (Red Top: SST) - enter the date and time for the centrifuge:"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "date"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
