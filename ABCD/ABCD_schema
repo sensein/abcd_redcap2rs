@@ -260,7 +260,6 @@
             "../activities/social_development_parent_victimization/social_development_parent_victimization_schema",
             "../activities/social_development_parent_personality_disposition/social_development_parent_personality_disposition_schema",
             "../activities/social_development_parent_difficulties_in_emotion_regulation/social_development_parent_difficulties_in_emotion_regulation_schema",
-            "../activities/social_development_parent_alabama_parenting_questionnaire/social_development_parent_alabama_parenting_questionnaire_schema",
             "../activities/social_development_parent_neighborhood/social_development_parent_neighborhood_schema",
             "../activities/social_development_parent_feedback/social_development_parent_feedback_schema",
             "../activities/social_development_child_reported_delinquency/social_development_child_reported_delinquency_schema",
@@ -269,14 +268,15 @@
             "../activities/social_development_child_personality_disposition/social_development_child_personality_disposition_schema",
             "../activities/social_development_child_peer_behavior/social_development_child_peer_behavior_schema",
             "../activities/social_development_child_difficulties_in_emotion_regulation/social_development_child_difficulties_in_emotion_regulation_schema",
-            "../activities/social_development_child_alabama_parenting_questionnaire/social_development_child_alabama_parenting_questionnaire_schema",
             "../activities/social_development_child_feedback/social_development_child_feedback_schema",
             "../activities/social_development_contact_track/social_development_contact_track_schema",
             "../activities/genomics_sample/genomics_sample_schema",
             "../activities/fitbit_substudy_raw_daic_use_only/fitbit_substudy_raw_daic_use_only_schema",
             "../activities/met_transform_sports_activity/met_transform_sports_activity_schema",
             "../activities/pguid_error_tracking/pguid_error_tracking_schema",
-            "../activities/test_daic_only/test_daic_only_schema"
+            "../activities/test_daic_only/test_daic_only_schema",
+            "../activities/social_development_child_alabama_parenting_questionnaire/social_development_child_alabama_parenting_questionnaire_schema",
+            "../activities/social_development_parent_alabama_parenting_questionnaire/social_development_parent_alabama_parenting_questionnaire_schema"
         ],
         "addProperties": [
             {
@@ -2280,14 +2280,6 @@
                 "variableName": "social_development_parent_difficulties_in_emotion_regulation_schema"
             },
             {
-                "isAbout": "../activities/social_development_parent_alabama_parenting_questionnaire/social_development_parent_alabama_parenting_questionnaire_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Social Development Parent Alabama Parenting Questionnaire"
-                },
-                "variableName": "social_development_parent_alabama_parenting_questionnaire_schema"
-            },
-            {
                 "isAbout": "../activities/social_development_parent_neighborhood/social_development_parent_neighborhood_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -2352,14 +2344,6 @@
                 "variableName": "social_development_child_difficulties_in_emotion_regulation_schema"
             },
             {
-                "isAbout": "../activities/social_development_child_alabama_parenting_questionnaire/social_development_child_alabama_parenting_questionnaire_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Social Development Child Alabama Parenting Questionnaire"
-                },
-                "variableName": "social_development_child_alabama_parenting_questionnaire_schema"
-            },
-            {
                 "isAbout": "../activities/social_development_child_feedback/social_development_child_feedback_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -2414,10 +2398,26 @@
                     "en": "Test Daic Only"
                 },
                 "variableName": "test_daic_only_schema"
+            },
+            {
+                "isAbout": "../activities/social_development_child_alabama_parenting_questionnaire/social_development_child_alabama_parenting_questionnaire_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Social Development Child Alabama Parenting Questionnaire"
+                },
+                "variableName": "social_development_child_alabama_parenting_questionnaire_schema"
+            },
+            {
+                "isAbout": "../activities/social_development_parent_alabama_parenting_questionnaire/social_development_parent_alabama_parenting_questionnaire_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Social Development Parent Alabama Parenting Questionnaire"
+                },
+                "variableName": "social_development_parent_alabama_parenting_questionnaire_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2348",
+    "version": "revid2349",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

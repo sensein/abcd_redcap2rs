@@ -7,6 +7,11 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/socialdev_capq_pcr",
+            "items/socialdev_capq_pcg",
+            "items/socialdev_capq_sc",
+            "items/socialdev_capq_scr",
+            "items/socialdev_capq_scg",
             "items/socialdev_capq_intro",
             "items/socialdev_capq_01",
             "items/socialdev_capq_01a",
@@ -63,6 +68,36 @@
         ],
         "addProperties": [
             {
+                "isAbout": "items/socialdev_capq_pcr",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_pcr"
+            },
+            {
+                "isAbout": "items/socialdev_capq_pcg",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_pcg"
+            },
+            {
+                "isAbout": "items/socialdev_capq_sc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_sc"
+            },
+            {
+                "isAbout": "items/socialdev_capq_scr",
+                "isVis": "socialdev_capq_sc=='1'",
+                "valueRequired": false,
+                "variableName": "socialdev_capq_scr"
+            },
+            {
+                "isAbout": "items/socialdev_capq_scg",
+                "isVis": "socialdev_capq_sc=='1'",
+                "valueRequired": false,
+                "variableName": "socialdev_capq_scg"
+            },
+            {
                 "isAbout": "items/socialdev_capq_intro",
                 "isVis": true,
                 "valueRequired": false,
@@ -71,307 +106,307 @@
             {
                 "isAbout": "items/socialdev_capq_01",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_01"
             },
             {
                 "isAbout": "items/socialdev_capq_01a",
-                "isVis": true,
+                "isVis": "socialdev_capq_sc=='1'",
                 "valueRequired": false,
                 "variableName": "socialdev_capq_01a"
             },
             {
                 "isAbout": "items/socialdev_capq_02",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_02"
             },
             {
                 "isAbout": "items/socialdev_capq_03",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_03"
             },
             {
                 "isAbout": "items/socialdev_capq_04",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_04"
             },
             {
                 "isAbout": "items/socialdev_capq_04a",
-                "isVis": true,
+                "isVis": "socialdev_capq_sc=='1'",
                 "valueRequired": false,
                 "variableName": "socialdev_capq_04a"
             },
             {
                 "isAbout": "items/socialdev_capq_05",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_05"
             },
             {
                 "isAbout": "items/socialdev_capq_06",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_06"
             },
             {
                 "isAbout": "items/socialdev_capq_07",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_07"
             },
             {
                 "isAbout": "items/socialdev_capq_07a",
-                "isVis": true,
+                "isVis": "socialdev_capq_sc=='1'",
                 "valueRequired": false,
                 "variableName": "socialdev_capq_07a"
             },
             {
                 "isAbout": "items/socialdev_capq_08",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_08"
             },
             {
                 "isAbout": "items/socialdev_capq_09",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_09"
             },
             {
                 "isAbout": "items/socialdev_capq_09a",
-                "isVis": true,
+                "isVis": "socialdev_capq_sc=='1'",
                 "valueRequired": false,
                 "variableName": "socialdev_capq_09a"
             },
             {
                 "isAbout": "items/socialdev_capq_10",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_10"
             },
             {
                 "isAbout": "items/socialdev_capq_11",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_11"
             },
             {
                 "isAbout": "items/socialdev_capq_11a",
-                "isVis": true,
+                "isVis": "socialdev_capq_sc=='1'",
                 "valueRequired": false,
                 "variableName": "socialdev_capq_11a"
             },
             {
                 "isAbout": "items/socialdev_capq_12",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_12"
             },
             {
                 "isAbout": "items/socialdev_capq_13",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_13"
             },
             {
                 "isAbout": "items/socialdev_capq_14",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_14"
             },
             {
                 "isAbout": "items/socialdev_capq_14a",
-                "isVis": true,
+                "isVis": "socialdev_capq_sc=='1'",
                 "valueRequired": false,
                 "variableName": "socialdev_capq_14a"
             },
             {
                 "isAbout": "items/socialdev_capq_15",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_15"
             },
             {
                 "isAbout": "items/socialdev_capq_15a",
-                "isVis": true,
+                "isVis": "socialdev_capq_sc=='1'",
                 "valueRequired": false,
                 "variableName": "socialdev_capq_15a"
             },
             {
                 "isAbout": "items/socialdev_capq_16",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_16"
             },
             {
                 "isAbout": "items/socialdev_capq_17",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_17"
             },
             {
                 "isAbout": "items/socialdev_capq_18",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_18"
             },
             {
                 "isAbout": "items/socialdev_capq_19",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_19"
             },
             {
                 "isAbout": "items/socialdev_capq_20",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_20"
             },
             {
                 "isAbout": "items/socialdev_capq_20a",
-                "isVis": true,
+                "isVis": "socialdev_capq_sc=='1'",
                 "valueRequired": false,
                 "variableName": "socialdev_capq_20a"
             },
             {
                 "isAbout": "items/socialdev_capq_21",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_21"
             },
             {
                 "isAbout": "items/socialdev_capq_22",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_22"
             },
             {
                 "isAbout": "items/socialdev_capq_23",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_23"
             },
             {
                 "isAbout": "items/socialdev_capq_24",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_24"
             },
             {
                 "isAbout": "items/socialdev_capq_25",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_25"
             },
             {
                 "isAbout": "items/socialdev_capq_26",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_26"
             },
             {
                 "isAbout": "items/socialdev_capq_26a",
-                "isVis": true,
+                "isVis": "socialdev_capq_sc=='1'",
                 "valueRequired": false,
                 "variableName": "socialdev_capq_26a"
             },
             {
                 "isAbout": "items/socialdev_capq_27",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_27"
             },
             {
                 "isAbout": "items/socialdev_capq_28",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_28"
             },
             {
                 "isAbout": "items/socialdev_capq_29",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_29"
             },
             {
                 "isAbout": "items/socialdev_capq_30",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_30"
             },
             {
                 "isAbout": "items/socialdev_capq_31",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_31"
             },
             {
                 "isAbout": "items/socialdev_capq_32",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_32"
             },
             {
                 "isAbout": "items/socialdev_capq_33",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_33"
             },
             {
                 "isAbout": "items/socialdev_capq_34",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_34"
             },
             {
                 "isAbout": "items/socialdev_capq_35",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_35"
             },
             {
                 "isAbout": "items/socialdev_capq_36",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_36"
             },
             {
                 "isAbout": "items/socialdev_capq_37",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_37"
             },
             {
                 "isAbout": "items/socialdev_capq_38",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_38"
             },
             {
                 "isAbout": "items/socialdev_capq_39",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_39"
             },
             {
                 "isAbout": "items/socialdev_capq_40",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_40"
             },
             {
                 "isAbout": "items/socialdev_capq_41",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_41"
             },
             {
                 "isAbout": "items/socialdev_capq_42",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "socialdev_capq_42"
             },
             {
@@ -383,6 +418,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2348",
+    "version": "revid2349",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

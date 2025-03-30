@@ -1,0 +1,39 @@
+{
+    "id": "socialdev_capq_scg",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "socialdev_capq_scg"
+    },
+    "question": {
+        "en": "Mark which gender this person is."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Female"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Male"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
