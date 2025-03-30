@@ -208,19 +208,19 @@
             },
             {
                 "isAbout": "items/handedness_right_c",
-                "isVis": true,
+                "isVis": "baseline_year_1_arm_1ehi_y_ss_scoreb == '1'",
                 "valueRequired": false,
                 "variableName": "handedness_right_c"
             },
             {
                 "isAbout": "items/handedness_left_c",
-                "isVis": true,
+                "isVis": "baseline_year_1_arm_1ehi_y_ss_scoreb == '2'",
                 "valueRequired": false,
                 "variableName": "handedness_left_c"
             },
             {
                 "isAbout": "items/handedness_mixed_c",
-                "isVis": true,
+                "isVis": "baseline_year_1_arm_1ehi_y_ss_scoreb == '3'",
                 "valueRequired": false,
                 "variableName": "handedness_mixed_c"
             },
@@ -317,6 +317,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2383",
+    "version": "revid2384",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
