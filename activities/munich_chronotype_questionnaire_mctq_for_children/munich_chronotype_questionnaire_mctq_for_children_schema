@@ -7,10 +7,10 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
-            "items/mctq_start_time",
             "items/mctq_go_to_school",
             "items/mctq_days_per_week",
             "items/mctq_notes",
+            "items/mctq_start_time",
             "items/mctq_sd_btime",
             "items/mctq_sd_btime_hrs1",
             "items/mctq_sd_btime_hrs2",
@@ -63,12 +63,6 @@
         ],
         "addProperties": [
             {
-                "isAbout": "items/mctq_start_time",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "mctq_start_time"
-            },
-            {
                 "isAbout": "items/mctq_go_to_school",
                 "isVis": true,
                 "valueRequired": true,
@@ -85,6 +79,12 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "mctq_notes"
+            },
+            {
+                "isAbout": "items/mctq_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mctq_start_time"
             },
             {
                 "isAbout": "items/mctq_sd_btime",
@@ -383,6 +383,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2414",
+    "version": "revid2415",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

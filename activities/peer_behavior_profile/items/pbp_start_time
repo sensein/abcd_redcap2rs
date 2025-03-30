@@ -10,9 +10,12 @@
         {
             "column": "Field Annotation",
             "source": "redcap",
-            "value": "@READONLY @HIDDEN @NOW"
+            "value": "@NOW @HIDDEN @READONLY"
         }
     ],
+    "preamble": {
+        "en": "Form Status"
+    },
     "prefLabel": {
         "en": "pbp_start_time"
     },

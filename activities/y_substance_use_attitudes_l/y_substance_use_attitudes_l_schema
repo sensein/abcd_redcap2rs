@@ -92,6 +92,7 @@
             "items/phs_14_y",
             "items/phs_15_y",
             "items/phs_16_y",
+            "items/sua_admin",
             "items/y_substance_use_attitudes_l_complete"
         ],
         "addProperties": [
@@ -606,6 +607,12 @@
                 "variableName": "phs_16_y"
             },
             {
+                "isAbout": "items/sua_admin",
+                "isVis": "event_name_number > '21'",
+                "valueRequired": true,
+                "variableName": "sua_admin"
+            },
+            {
                 "isAbout": "items/y_substance_use_attitudes_l_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -614,6 +621,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2414",
+    "version": "revid2415",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

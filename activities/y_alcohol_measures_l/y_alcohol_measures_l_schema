@@ -59,6 +59,7 @@
             "items/rapi_section3_q16_l",
             "items/rapi_section3_q17_l",
             "items/rapi_section3_q18_l",
+            "items/su_alc_admin",
             "items/y_alcohol_measures_l_complete"
         ],
         "addProperties": [
@@ -375,6 +376,12 @@
                 "variableName": "rapi_section3_q18_l"
             },
             {
+                "isAbout": "items/su_alc_admin",
+                "isVis": "event_name_number > '21'",
+                "valueRequired": true,
+                "variableName": "su_alc_admin"
+            },
+            {
                 "isAbout": "items/y_alcohol_measures_l_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -383,6 +390,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2414",
+    "version": "revid2415",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -42,6 +42,7 @@
             "items/path_nic_dep_q08_l",
             "items/path_nic_dep_q09_l",
             "items/path_nic_dep_q10_l",
+            "items/su_nic_admin",
             "items/y_nicotine_measures_l_complete"
         ],
         "addProperties": [
@@ -256,6 +257,12 @@
                 "variableName": "path_nic_dep_q10_l"
             },
             {
+                "isAbout": "items/su_nic_admin",
+                "isVis": "event_name_number > '21'",
+                "valueRequired": false,
+                "variableName": "su_nic_admin"
+            },
+            {
                 "isAbout": "items/y_nicotine_measures_l_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -264,6 +271,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2414",
+    "version": "revid2415",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

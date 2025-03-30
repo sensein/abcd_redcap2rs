@@ -7,23 +7,17 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
-            "items/pbp_start_time",
             "items/pbp_athletes",
             "items/pbp_skip_school",
             "items/pbp_church",
             "items/pbp_suspended",
             "items/pbp_good_student",
             "items/peer_behavior_profile_complete",
+            "items/pbp_start_time",
             "items/pbp_admin",
             "items/pbp_shoplifted"
         ],
         "addProperties": [
-            {
-                "isAbout": "items/pbp_start_time",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "pbp_start_time"
-            },
             {
                 "isAbout": "items/pbp_athletes",
                 "isVis": true,
@@ -61,6 +55,12 @@
                 "variableName": "peer_behavior_profile_complete"
             },
             {
+                "isAbout": "items/pbp_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pbp_start_time"
+            },
+            {
                 "isAbout": "items/pbp_admin",
                 "isVis": "event_name_number > '21'",
                 "valueRequired": true,
@@ -75,6 +75,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2414",
+    "version": "revid2415",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

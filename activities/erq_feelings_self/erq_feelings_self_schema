@@ -7,23 +7,17 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
-            "items/erq_start_time",
             "items/erq_feelings_self",
             "items/erq_feelings_think",
             "items/erq_feelings_control",
             "items/erq_feelings_happy",
             "items/erq_feelings_hide",
             "items/erq_feelings_less_bad",
+            "items/erq_start_time",
             "items/erq_admin",
             "items/erq_feelings_self_complete"
         ],
         "addProperties": [
-            {
-                "isAbout": "items/erq_start_time",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "erq_start_time"
-            },
             {
                 "isAbout": "items/erq_feelings_self",
                 "isVis": true,
@@ -61,6 +55,12 @@
                 "variableName": "erq_feelings_less_bad"
             },
             {
+                "isAbout": "items/erq_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "erq_start_time"
+            },
+            {
                 "isAbout": "items/erq_admin",
                 "isVis": true,
                 "valueRequired": true,
@@ -75,6 +75,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2414",
+    "version": "revid2415",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
