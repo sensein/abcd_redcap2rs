@@ -19,6 +19,7 @@
             "items/mrif_read_series_filenames",
             "items/mrif_daic2rad_send",
             "items/mrif_ready_review",
+            "items/mrif_manual_review",
             "items/mrif_scan_read_dte",
             "items/mrif_not_dte",
             "items/mrif_follow_dte",
@@ -121,6 +122,12 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "mrif_ready_review"
+            },
+            {
+                "isAbout": "items/mrif_manual_review",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mrif_manual_review"
             },
             {
                 "isAbout": "items/mrif_scan_read_dte",
@@ -299,6 +306,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2382",
+    "version": "revid2383",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
