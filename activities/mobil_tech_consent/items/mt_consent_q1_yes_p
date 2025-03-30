@@ -1,0 +1,45 @@
+{
+    "id": "mt_consent_q1_yes_p",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "mt_consent_q1_yes_p"
+    },
+    "question": {
+        "en": "Would you be interested in having your child participate in an additional substudy where\nthe amount and type of screentime on his/her device is collected?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No, I am concerned about my privacy"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "No, I am concerned about the amount of time this would take"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "No, other"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

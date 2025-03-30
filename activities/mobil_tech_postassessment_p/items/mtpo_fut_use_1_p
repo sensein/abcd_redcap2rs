@@ -1,0 +1,42 @@
+{
+    "id": "mtpo_fut_use_1_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Future Use"
+    },
+    "prefLabel": {
+        "en": "mtpo_fut_use_1_p"
+    },
+    "question": {
+        "en": "Do you think you will monitor your child's mobile device use in the future?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't Know"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

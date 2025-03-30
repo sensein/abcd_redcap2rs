@@ -1,0 +1,51 @@
+{
+    "id": "mtpr_5",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "mtpr_5"
+    },
+    "question": {
+        "en": "In your opinion, compared to other boys/girls your age, how much do you use your mobile device?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Much less"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A little less"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "About the same"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "A little more"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Much more"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

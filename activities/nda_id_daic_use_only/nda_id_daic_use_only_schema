@@ -23,6 +23,9 @@
             "items/image_data_site_data_lost",
             "items/image_data_dental_flag",
             "items/image_data_missing_files",
+            "items/partial_image_data_missing",
+            "items/eprime_missing_files",
+            "items/eprime_mismatch_not_recoverable",
             "items/eprime_mismatch_ok_mid",
             "items/eprime_mismatch_ok_sst",
             "items/eprime_mismatch_ok_nback",
@@ -130,6 +133,24 @@
                 "variableName": "image_data_missing_files"
             },
             {
+                "isAbout": "items/partial_image_data_missing",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "partial_image_data_missing"
+            },
+            {
+                "isAbout": "items/eprime_missing_files",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eprime_missing_files"
+            },
+            {
+                "isAbout": "items/eprime_mismatch_not_recoverable",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eprime_mismatch_not_recoverable"
+            },
+            {
                 "isAbout": "items/eprime_mismatch_ok_mid",
                 "isVis": true,
                 "valueRequired": false,
@@ -180,6 +201,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2374",
+    "version": "revid2375",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

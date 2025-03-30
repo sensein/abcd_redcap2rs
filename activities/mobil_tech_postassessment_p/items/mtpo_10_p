@@ -1,0 +1,68 @@
+{
+    "id": "mtpo_10_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@NONEOFTHEABOVE = '999'"
+        }
+    ],
+    "preamble": {
+        "en": "Questions about the Study Period"
+    },
+    "prefLabel": {
+        "en": "mtpo_10_p"
+    },
+    "question": {
+        "en": "Who?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Mother"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Father"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Grandparent(s)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Sibling(s)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Friend(s)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Don't Know"
+                },
+                "value": 999
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

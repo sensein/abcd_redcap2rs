@@ -1,0 +1,213 @@
+{
+    "id": "mobil_tech_preassessment_y_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "mobil_tech_preassessment_y"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/mtpr_start_time",
+            "items/mtpr_1_wkdy",
+            "items/mtpr_1_wkdy_hrs",
+            "items/mtpr_1_wkdy_mins",
+            "items/mtpr_2_wknd",
+            "items/mtpr_2_wknd_hrs",
+            "items/mtpr_2_wknd_mins",
+            "items/mtpr_3_total_wkdy",
+            "items/mtpr_3_total_wkdy_hrs",
+            "items/mtpr_3_total_wkdy_mins",
+            "items/mtpr_4_wknd",
+            "items/mtpr_4_wknd_hrs",
+            "items/mtpr_4_wknd_mins",
+            "items/mtpr_5",
+            "items/mtpr_6",
+            "items/mtpr_pr_1",
+            "items/mtpr_pr_2",
+            "items/mtpr_pr_3",
+            "items/mtpr_pr_4",
+            "items/mtpr_pr_5",
+            "items/mtpr_hx_1",
+            "items/mtpr_hx_2",
+            "items/mtpr_hx_3",
+            "items/mtpr_hx_4",
+            "items/mtpr_ind_1",
+            "items/mtpr_ind_2",
+            "items/mtpr_ind_3",
+            "items/mobil_tech_preassessment_y_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/mtpr_start_time",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "mtpr_start_time"
+            },
+            {
+                "isAbout": "items/mtpr_1_wkdy",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mtpr_1_wkdy"
+            },
+            {
+                "isAbout": "items/mtpr_1_wkdy_hrs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_1_wkdy_hrs"
+            },
+            {
+                "isAbout": "items/mtpr_1_wkdy_mins",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_1_wkdy_mins"
+            },
+            {
+                "isAbout": "items/mtpr_2_wknd",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mtpr_2_wknd"
+            },
+            {
+                "isAbout": "items/mtpr_2_wknd_hrs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_2_wknd_hrs"
+            },
+            {
+                "isAbout": "items/mtpr_2_wknd_mins",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_2_wknd_mins"
+            },
+            {
+                "isAbout": "items/mtpr_3_total_wkdy",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mtpr_3_total_wkdy"
+            },
+            {
+                "isAbout": "items/mtpr_3_total_wkdy_hrs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_3_total_wkdy_hrs"
+            },
+            {
+                "isAbout": "items/mtpr_3_total_wkdy_mins",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_3_total_wkdy_mins"
+            },
+            {
+                "isAbout": "items/mtpr_4_wknd",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mtpr_4_wknd"
+            },
+            {
+                "isAbout": "items/mtpr_4_wknd_hrs",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_4_wknd_hrs"
+            },
+            {
+                "isAbout": "items/mtpr_4_wknd_mins",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_4_wknd_mins"
+            },
+            {
+                "isAbout": "items/mtpr_5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_5"
+            },
+            {
+                "isAbout": "items/mtpr_6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_6"
+            },
+            {
+                "isAbout": "items/mtpr_pr_1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_pr_1"
+            },
+            {
+                "isAbout": "items/mtpr_pr_2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_pr_2"
+            },
+            {
+                "isAbout": "items/mtpr_pr_3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_pr_3"
+            },
+            {
+                "isAbout": "items/mtpr_pr_4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_pr_4"
+            },
+            {
+                "isAbout": "items/mtpr_pr_5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_pr_5"
+            },
+            {
+                "isAbout": "items/mtpr_hx_1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_hx_1"
+            },
+            {
+                "isAbout": "items/mtpr_hx_2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_hx_2"
+            },
+            {
+                "isAbout": "items/mtpr_hx_3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_hx_3"
+            },
+            {
+                "isAbout": "items/mtpr_hx_4",
+                "isVis": "mtpr_hx_3=='1'",
+                "valueRequired": true,
+                "variableName": "mtpr_hx_4"
+            },
+            {
+                "isAbout": "items/mtpr_ind_1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_ind_1"
+            },
+            {
+                "isAbout": "items/mtpr_ind_2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_ind_2"
+            },
+            {
+                "isAbout": "items/mtpr_ind_3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mtpr_ind_3"
+            },
+            {
+                "isAbout": "items/mobil_tech_preassessment_y_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mobil_tech_preassessment_y_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2375",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,73 @@
+{
+    "id": "mobil_tech_assent_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "mobil_tech_assent"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/mt_asnt_q1",
+            "items/mt_asnt_q1_yes",
+            "items/mt_asnt_q1_yn_other",
+            "items/mt_asnt_sign",
+            "items/mt_asnt_timestamp",
+            "items/mt_setup",
+            "items/mt_asnt_uuid",
+            "items/mobil_tech_assent_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/mt_asnt_q1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mt_asnt_q1"
+            },
+            {
+                "isAbout": "items/mt_asnt_q1_yes",
+                "isVis": "mt_asnt_q1 == '1'",
+                "valueRequired": false,
+                "variableName": "mt_asnt_q1_yes"
+            },
+            {
+                "isAbout": "items/mt_asnt_q1_yn_other",
+                "isVis": "mt_asnt_q1 == '1' && mt_asnt_q1_yes == '4'",
+                "valueRequired": false,
+                "variableName": "mt_asnt_q1_yn_other"
+            },
+            {
+                "isAbout": "items/mt_asnt_sign",
+                "isVis": "mt_asnt_q1_yes == '1'",
+                "valueRequired": false,
+                "variableName": "mt_asnt_sign"
+            },
+            {
+                "isAbout": "items/mt_asnt_timestamp",
+                "isVis": "mt_asnt_q1_yes == '1'",
+                "valueRequired": false,
+                "variableName": "mt_asnt_timestamp"
+            },
+            {
+                "isAbout": "items/mt_setup",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mt_setup"
+            },
+            {
+                "isAbout": "items/mt_asnt_uuid",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mt_asnt_uuid"
+            },
+            {
+                "isAbout": "items/mobil_tech_assent_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mobil_tech_assent_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2375",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

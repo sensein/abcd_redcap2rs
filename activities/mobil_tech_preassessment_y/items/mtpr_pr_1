@@ -1,0 +1,43 @@
+{
+    "id": "mtpr_pr_1",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "mtpr_fr"
+        }
+    ],
+    "preamble": {
+        "en": "Family Rules for Screen Use"
+    },
+    "prefLabel": {
+        "en": "mtpr_pr_1"
+    },
+    "question": {
+        "en": "Do your parents limit the amount of time you can use screens?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

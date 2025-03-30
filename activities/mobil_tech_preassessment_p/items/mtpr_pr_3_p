@@ -1,0 +1,54 @@
+{
+    "id": "mtpr_pr_3_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Parent Rules of Screen Use"
+    },
+    "prefLabel": {
+        "en": "mtpr_pr_3_p"
+    },
+    "question": {
+        "en": "Do you enforce penalties for violating family rules about screens?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Rarely"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Often"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "I have not had to enforce these rules"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

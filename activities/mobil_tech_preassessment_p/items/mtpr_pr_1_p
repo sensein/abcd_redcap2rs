@@ -1,0 +1,48 @@
+{
+    "id": "mtpr_pr_1_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Parent Rules of Screen Use"
+    },
+    "prefLabel": {
+        "en": "mtpr_pr_1_p"
+    },
+    "question": {
+        "en": "What are the family rules about screen time for your son/daughter?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "He/she has set hours and times they can use screens"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "He/she has limits on weekdays/school days, but can use whenever he/she wants on weekends"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Allowed to use in home whenever he/she wants' I don't set rules about screen use"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "I haven't made rules yet about screen use"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

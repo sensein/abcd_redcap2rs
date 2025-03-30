@@ -1,0 +1,48 @@
+{
+    "id": "mtpo_study_6_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Questions about the Study Period"
+    },
+    "prefLabel": {
+        "en": "mtpo_study_6_p"
+    },
+    "question": {
+        "en": "Did they use their device more or less when they were not in school?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "More"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Less"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "No Change"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't Know"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

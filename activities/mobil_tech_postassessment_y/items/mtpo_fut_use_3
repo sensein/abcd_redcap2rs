@@ -1,0 +1,42 @@
+{
+    "id": "mtpo_fut_use_3",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Future Use"
+    },
+    "prefLabel": {
+        "en": "mtpo_fut_use_3"
+    },
+    "question": {
+        "en": "Since you started using these applications, have any of your family or friends used a mobile device activity tracker?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't Know"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

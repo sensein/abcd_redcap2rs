@@ -1,0 +1,59 @@
+{
+    "id": "mobil_tech_consent_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "mobil_tech_consent"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/mt_consent_q1_p",
+            "items/mt_consent_q1_yes_p",
+            "items/mt_q1_consent_other_p",
+            "items/mt_consent_sign",
+            "items/mt_consent_timestamp",
+            "items/mobil_tech_consent_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/mt_consent_q1_p",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mt_consent_q1_p"
+            },
+            {
+                "isAbout": "items/mt_consent_q1_yes_p",
+                "isVis": "mt_consent_q1_p == '1'",
+                "valueRequired": false,
+                "variableName": "mt_consent_q1_yes_p"
+            },
+            {
+                "isAbout": "items/mt_q1_consent_other_p",
+                "isVis": "mt_consent_q1_p == '1' && mt_consent_q1_yes_p == ''",
+                "valueRequired": false,
+                "variableName": "mt_q1_consent_other_p"
+            },
+            {
+                "isAbout": "items/mt_consent_sign",
+                "isVis": "mt_consent_q1_yes_p == '1'",
+                "valueRequired": false,
+                "variableName": "mt_consent_sign"
+            },
+            {
+                "isAbout": "items/mt_consent_timestamp",
+                "isVis": "mt_consent_q1_yes_p == '1'",
+                "valueRequired": false,
+                "variableName": "mt_consent_timestamp"
+            },
+            {
+                "isAbout": "items/mobil_tech_consent_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mobil_tech_consent_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2375",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

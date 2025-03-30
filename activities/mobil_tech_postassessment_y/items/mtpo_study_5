@@ -1,0 +1,42 @@
+{
+    "id": "mtpo_study_5",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Questions about the Study Period"
+    },
+    "prefLabel": {
+        "en": "mtpo_study_5"
+    },
+    "question": {
+        "en": "How much did you change how you used your mobile device while having the applications on your device?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "A lot"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "A little"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Not at all"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

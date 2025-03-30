@@ -1,0 +1,36 @@
+{
+    "id": "mtpo_pr_12_yes_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Parent Rules of Screen Use"
+    },
+    "prefLabel": {
+        "en": "mtpo_pr_12_yes_p"
+    },
+    "question": {
+        "en": "Have you increased or decreased the amount of time allowed?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Increased"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Decreased"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,42 @@
+{
+    "id": "mtpr_pr_2_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Parent Rules of Screen Use"
+    },
+    "prefLabel": {
+        "en": "mtpr_pr_2_p"
+    },
+    "question": {
+        "en": "Are these the same rules for all family members?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No, applies only to children, not teens or adults"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No, applies only to children and teens, not adults"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Yes, applies to everyone"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

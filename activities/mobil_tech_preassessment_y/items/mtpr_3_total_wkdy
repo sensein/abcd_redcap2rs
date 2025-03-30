@@ -1,0 +1,23 @@
+{
+    "id": "mtpr_3_total_wkdy",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "For all questions, \"mobile device\" refers to the device that will be used in this study (for example, an Android phone or tablet)."
+    },
+    "prefLabel": {
+        "en": "mtpr_3_total_wkdy"
+    },
+    "question": {
+        "en": "How much of ___ (total time estimate for weekday) do you spend on your mobile device specifically?\n\nFor example, if on a typical weekday, total screen time equals 2 hours/day and you spend thirty minutes of that time on your mobile device, you would enter \"0\" for hours and \"30\" for minutes."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

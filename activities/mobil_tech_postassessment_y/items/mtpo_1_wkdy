@@ -1,0 +1,32 @@
+{
+    "id": "mtpo_1_wkdy",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "1"
+        },
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": "1"
+        }
+    ],
+    "prefLabel": {
+        "en": "mtpo_1_wkdy"
+    },
+    "question": {
+        "en": "On a typical WEEKDAY (Monday- Friday), how much TIME per day do you spend in TOTAL on a computer, cell phone, tablet, iPod, or other electronic device? \n\nPlease do NOT include time spent on school related work, but do include watching TV, shows or videos, texting or chatting, playing games, or visiting social networking sites (Facebook, Twitter, Instagram).\n\nFor example, if on a typical weekday, total screen time equals 2 hours/day, you would enter \"2\" for hours and \"0\" for minutes."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

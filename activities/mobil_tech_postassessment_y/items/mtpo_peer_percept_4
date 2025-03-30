@@ -1,0 +1,54 @@
+{
+    "id": "mtpo_peer_percept_4",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Peer Perceptions"
+    },
+    "prefLabel": {
+        "en": "mtpo_peer_percept_4"
+    },
+    "question": {
+        "en": "How good or bad were their comments about the applications?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Negative"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Not negative or positive"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Positive"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Don't Know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Refuse to Answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,42 @@
+{
+    "id": "mtpr_hx_6_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "History of Screen Time Monitoring"
+    },
+    "prefLabel": {
+        "en": "mtpr_hx_6_p"
+    },
+    "question": {
+        "en": "To the best of your knowledge, has your child attempted to get around this monitoring or limitations implemented by the app?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't Know"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,67 @@
+{
+    "id": "mtpr_hx_5_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "History of Screen Time Monitoring"
+    },
+    "prefLabel": {
+        "en": "mtpr_hx_5_p"
+    },
+    "question": {
+        "en": "Select which types of apps are restricted:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Gaming"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Social Media"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Texting/Communication"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Youtube"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "TV Streaming"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

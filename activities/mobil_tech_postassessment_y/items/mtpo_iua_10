@@ -1,0 +1,42 @@
+{
+    "id": "mtpo_iua_10",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "You had two monitoring applications on your phone, EARS and Digital Footprint. We want to know about your experience with each application."
+    },
+    "prefLabel": {
+        "en": "mtpo_iua_10"
+    },
+    "question": {
+        "en": "If I had to choose, I would rather have had only [EARS, Digital Footprint, or No Preference] on my phone."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "EARS"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Digital Footprint"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "No Preference"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

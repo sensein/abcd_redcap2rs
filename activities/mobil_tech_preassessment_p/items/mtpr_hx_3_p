@@ -1,0 +1,42 @@
+{
+    "id": "mtpr_hx_3_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "History of Screen Time Monitoring"
+    },
+    "prefLabel": {
+        "en": "mtpr_hx_3_p"
+    },
+    "question": {
+        "en": "Does it limit the amount of time they can spend on the device?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't Know"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

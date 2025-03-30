@@ -1,0 +1,60 @@
+{
+    "id": "mtpo_fut_use_4",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Future Use"
+    },
+    "prefLabel": {
+        "en": "mtpo_fut_use_4"
+    },
+    "question": {
+        "en": "Who?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Mother"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Father"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Grandparent(s)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Sibling(s)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Friend(s)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Don't Know"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

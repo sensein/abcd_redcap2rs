@@ -1,0 +1,39 @@
+{
+    "id": "mt_asnt_q1",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "mt_asnt_q1"
+    },
+    "question": {
+        "en": "Do you have an Android mobile device with OS 7.0, and are you the primary user of this\ndevice [e.g., not regularly shared with a sibling or other family member; primary (>90%)\nof time the user of the device]?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No, I have an iPhone or other device"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "No, I do not have my own mobile device"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

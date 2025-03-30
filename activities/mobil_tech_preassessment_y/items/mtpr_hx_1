@@ -1,0 +1,66 @@
+{
+    "id": "mtpr_hx_1",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "History of Screen Time Monitoring"
+    },
+    "prefLabel": {
+        "en": "mtpr_hx_1"
+    },
+    "question": {
+        "en": "How often do your parents look at your mobile device? Daily; a couple times a week; 3-4 times a week; weekly; less than weekly; never"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "never"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "less than weekly"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "weekly"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "a couple times a week"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "3-4 times a week"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "daily"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Don't Know"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

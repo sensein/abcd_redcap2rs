@@ -1,0 +1,54 @@
+{
+    "id": "mtpo_peer_percept_2",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Peer Perceptions"
+    },
+    "prefLabel": {
+        "en": "mtpo_peer_percept_2"
+    },
+    "question": {
+        "en": "How comfortable were you discussing the applications in front of your friends?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not comfortable"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Kind of comfortable"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Very comfortable"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Don't Know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Refuse to Answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

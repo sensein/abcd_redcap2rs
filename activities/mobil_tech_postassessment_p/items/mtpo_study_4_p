@@ -1,0 +1,54 @@
+{
+    "id": "mtpo_study_4_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Questions about the Study Period"
+    },
+    "prefLabel": {
+        "en": "mtpo_study_4_p"
+    },
+    "question": {
+        "en": "Why were they not in school?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Holiday"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Vacation"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Illness"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Summer Break"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Don't Know"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
