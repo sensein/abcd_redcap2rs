@@ -213,7 +213,7 @@
             },
             {
                 "isAbout": "items/medhx_2_notes2_l",
-                "isVis": "medhx_2r_l == '1'",
+                "isVis": true,
                 "valueRequired": true,
                 "variableName": "medhx_2_notes2_l"
             },
@@ -225,7 +225,7 @@
             },
             {
                 "isAbout": "items/medhx_2_notes_l",
-                "isVis": "medhx_2s_l == '1'",
+                "isVis": "medhx_2_notes2_l == '1'",
                 "valueRequired": false,
                 "variableName": "medhx_2_notes_l"
             },
@@ -544,6 +544,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2338",
+    "version": "revid2339",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

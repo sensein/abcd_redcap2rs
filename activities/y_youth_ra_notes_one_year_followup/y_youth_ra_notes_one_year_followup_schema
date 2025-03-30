@@ -8,6 +8,8 @@
     "ui": {
         "order": [
             "items/yr1fb_start_time",
+            "items/ysr_18_alert",
+            "items/ysr_91_alert",
             "items/yr1fb_gender_y",
             "items/yr1fb_where_completed_y",
             "items/ynotes_sched_visit_reason",
@@ -407,6 +409,18 @@
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "yr1fb_start_time"
+            },
+            {
+                "isAbout": "items/ysr_18_alert",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ysr_18_alert"
+            },
+            {
+                "isAbout": "items/ysr_91_alert",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ysr_91_alert"
             },
             {
                 "isAbout": "items/yr1fb_gender_y",
@@ -2763,6 +2777,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2338",
+    "version": "revid2339",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
