@@ -26,7 +26,6 @@
             "items/kbi_y_trans_id",
             "items/kbi_y_trans_prob",
             "items/kbi_instruct_read",
-            "items/kbi_administered",
             "items/ksads5background_items_youth_complete"
         ],
         "addProperties": [
@@ -145,12 +144,6 @@
                 "variableName": "kbi_instruct_read"
             },
             {
-                "isAbout": "items/kbi_administered",
-                "isVis": "event - name == '3_year_follow - up_y_arm_1'",
-                "valueRequired": true,
-                "variableName": "kbi_administered"
-            },
-            {
                 "isAbout": "items/ksads5background_items_youth_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -159,6 +152,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2403",
+    "version": "revid2404",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
