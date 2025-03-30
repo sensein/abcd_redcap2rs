@@ -471,10 +471,10 @@
             "items/pnotes_3yr_issues_datamanager_plus_resolved",
             "items/pnotes_3yr_issues_datamanager_plus_timestamp",
             "items/pnotes_3yr_issues_datamanager_plus_initials",
-            "items/pnotes_3yr_issues_dm_other_i",
             "items/pnotes_3yr_issues_dm_other",
             "items/pnotes_3yr_issues_dm_other_resolved",
             "items/pnotes_3yr_issues_dm_other_tstamp",
+            "items/pnotes_3yr_issues_dm_other_i",
             "items/parent_ra_notes_3yr_complete"
         ],
         "addProperties": [
@@ -3263,12 +3263,6 @@
                 "variableName": "pnotes_3yr_issues_datamanager_plus_initials"
             },
             {
-                "isAbout": "items/pnotes_3yr_issues_dm_other_i",
-                "isVis": "pnotes_3yr_issues_dm_other_resolved___1=='1'",
-                "valueRequired": false,
-                "variableName": "pnotes_3yr_issues_dm_other_i"
-            },
-            {
                 "isAbout": "items/pnotes_3yr_issues_dm_other",
                 "isVis": "pnotes_3yr_issues_datamanager___34=='1'",
                 "valueRequired": false,
@@ -3287,6 +3281,12 @@
                 "variableName": "pnotes_3yr_issues_dm_other_tstamp"
             },
             {
+                "isAbout": "items/pnotes_3yr_issues_dm_other_i",
+                "isVis": "pnotes_3yr_issues_dm_other_resolved___1=='1'",
+                "valueRequired": false,
+                "variableName": "pnotes_3yr_issues_dm_other_i"
+            },
+            {
                 "isAbout": "items/parent_ra_notes_3yr_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -3295,6 +3295,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2420",
+    "version": "revid2421",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
