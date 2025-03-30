@@ -113,6 +113,7 @@
             "../activities/y_ra_feedback_3_yr_pilot/y_ra_feedback_3_yr_pilot_schema",
             "../activities/y_youth_ra_notes_one_year_followup/y_youth_ra_notes_one_year_followup_schema",
             "../activities/visit_summary/visit_summary_schema",
+            "../activities/medication_inventoryphenx_medsparent/medication_inventoryphenx_medsparent_schema",
             "../activities/family_history_assessment_parent/family_history_assessment_parent_schema",
             "../activities/occupation_survey_parent/occupation_survey_parent_schema",
             "../activities/p_ksads5_background_items_parent_l/p_ksads5_background_items_parent_l_schema",
@@ -124,7 +125,6 @@
             "../activities/medical_history_questionnaire_mhqparent_l/medical_history_questionnaire_mhqparent_l_schema",
             "../activities/breast_feeding_questionaire/breast_feeding_questionaire_schema",
             "../activities/tbi_screenmodified_ohio_state_screen_tbiparent/tbi_screenmodified_ohio_state_screen_tbiparent_schema",
-            "../activities/medication_inventoryphenx_medsparent/medication_inventoryphenx_medsparent_schema",
             "../activities/p_tbi_screenmodified_ohio_state_screen_tbiparent_l/p_tbi_screenmodified_ohio_state_screen_tbiparent_l_schema",
             "../activities/general_behavior_inventory_gbiparent/general_behavior_inventory_gbiparent_schema",
             "../activities/p_short_social_responsiveness_scale_l/p_short_social_responsiveness_scale_l_schema",
@@ -1104,6 +1104,14 @@
                 "variableName": "visit_summary_schema"
             },
             {
+                "isAbout": "../activities/medication_inventoryphenx_medsparent/medication_inventoryphenx_medsparent_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Medication Inventoryphenx Medsparent"
+                },
+                "variableName": "medication_inventoryphenx_medsparent_schema"
+            },
+            {
                 "isAbout": "../activities/family_history_assessment_parent/family_history_assessment_parent_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -1190,14 +1198,6 @@
                     "en": "Tbi Screenmodified Ohio State Screen Tbiparent"
                 },
                 "variableName": "tbi_screenmodified_ohio_state_screen_tbiparent_schema"
-            },
-            {
-                "isAbout": "../activities/medication_inventoryphenx_medsparent/medication_inventoryphenx_medsparent_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Medication Inventoryphenx Medsparent"
-                },
-                "variableName": "medication_inventoryphenx_medsparent_schema"
             },
             {
                 "isAbout": "../activities/p_tbi_screenmodified_ohio_state_screen_tbiparent_l/p_tbi_screenmodified_ohio_state_screen_tbiparent_l_schema",
@@ -2418,6 +2418,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2321",
+    "version": "revid2322",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
