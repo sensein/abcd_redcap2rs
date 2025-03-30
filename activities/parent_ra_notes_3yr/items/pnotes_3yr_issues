@@ -8,7 +8,7 @@
         "en": "pnotes_3yr_issues"
     },
     "question": {
-        "en": "Any issues with parent assessments (i.e. technical problems, instruments that were not administered, concerns etc.)? Check all that apply\n\nREDCap pGUID errors should be entered in the Data Manager Section"
+        "en": "Any issues with parent assessments (i.e. technical problems, instruments that were not administered, concerns etc.)? Check all that apply\r\n\r\nREDCap pGUID errors should be entered in the Data Manager Section"
     },
     "responseOptions": {
         "choices": [
@@ -41,6 +41,12 @@
                     "en": "Data Manager"
                 },
                 "value": 5
+            },
+            {
+                "name": {
+                    "en": "No Notes or Issues to Document"
+                },
+                "value": 6
             }
         ],
         "multipleChoice": true,
