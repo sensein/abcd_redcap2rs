@@ -254,6 +254,8 @@
             "../activities/nihtbx_raw_listsort_daic_use_only/nihtbx_raw_listsort_daic_use_only_schema",
             "../activities/nihtbx_raw_flanker_daic_use_only/nihtbx_raw_flanker_daic_use_only_schema",
             "../activities/nihtbx_raw_cardsort_daic_use_only/nihtbx_raw_cardsort_daic_use_only_schema",
+            "../activities/social_development_visit_type/social_development_visit_type_schema",
+            "../activities/social_development_parent_reported_delinquency/social_development_parent_reported_delinquency_schema",
             "../activities/social_development_parent_firearms/social_development_parent_firearms_schema",
             "../activities/social_development_parent_victimization/social_development_parent_victimization_schema",
             "../activities/social_development_parent_personality_disposition/social_development_parent_personality_disposition_schema",
@@ -274,9 +276,7 @@
             "../activities/fitbit_substudy_raw_daic_use_only/fitbit_substudy_raw_daic_use_only_schema",
             "../activities/met_transform_sports_activity/met_transform_sports_activity_schema",
             "../activities/pguid_error_tracking/pguid_error_tracking_schema",
-            "../activities/test_daic_only/test_daic_only_schema",
-            "../activities/social_development_parent_reported_delinquency/social_development_parent_reported_delinquency_schema",
-            "../activities/social_development_visit_type/social_development_visit_type_schema"
+            "../activities/test_daic_only/test_daic_only_schema"
         ],
         "addProperties": [
             {
@@ -2232,6 +2232,22 @@
                 "variableName": "nihtbx_raw_cardsort_daic_use_only_schema"
             },
             {
+                "isAbout": "../activities/social_development_visit_type/social_development_visit_type_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Social Development Visit Type"
+                },
+                "variableName": "social_development_visit_type_schema"
+            },
+            {
+                "isAbout": "../activities/social_development_parent_reported_delinquency/social_development_parent_reported_delinquency_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Social Development Parent Reported Delinquency"
+                },
+                "variableName": "social_development_parent_reported_delinquency_schema"
+            },
+            {
                 "isAbout": "../activities/social_development_parent_firearms/social_development_parent_firearms_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -2398,26 +2414,10 @@
                     "en": "Test Daic Only"
                 },
                 "variableName": "test_daic_only_schema"
-            },
-            {
-                "isAbout": "../activities/social_development_parent_reported_delinquency/social_development_parent_reported_delinquency_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Social Development Parent Reported Delinquency"
-                },
-                "variableName": "social_development_parent_reported_delinquency_schema"
-            },
-            {
-                "isAbout": "../activities/social_development_visit_type/social_development_visit_type_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Social Development Visit Type"
-                },
-                "variableName": "social_development_visit_type_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2339",
+    "version": "revid2340",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
