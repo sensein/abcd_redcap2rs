@@ -58,6 +58,9 @@
             "items/bfq_oxycont_p",
             "items/bfq_oxycont_amt_p",
             "items/bfq_oxycont_amt_p_dk",
+            "items/bfq_caff_p",
+            "items/bfq_caff_amt_p",
+            "items/bfq_caff_amt_p_dk",
             "items/bfq_other_drugs_p",
             "items/bfq_other1_name_2_p",
             "items/bfq_other1_name_oth_p",
@@ -404,6 +407,24 @@
                 "variableName": "bfq_oxycont_amt_p_dk"
             },
             {
+                "isAbout": "items/bfq_caff_p",
+                "isVis": "bfq_breastfeed_time_p<>''",
+                "valueRequired": true,
+                "variableName": "bfq_caff_p"
+            },
+            {
+                "isAbout": "items/bfq_caff_amt_p",
+                "isVis": "bfq_caff_p =='1' && bfq_caff_amt_p_dk == ''",
+                "valueRequired": true,
+                "variableName": "bfq_caff_amt_p"
+            },
+            {
+                "isAbout": "items/bfq_caff_amt_p_dk",
+                "isVis": "bfq_caff_p =='1' && bfq_caff_amt_p == ''",
+                "valueRequired": false,
+                "variableName": "bfq_caff_amt_p_dk"
+            },
+            {
                 "isAbout": "items/bfq_other_drugs_p",
                 "isVis": "bfq_breastfeed_time_p<>''",
                 "valueRequired": true,
@@ -628,6 +649,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2364",
+    "version": "revid2365",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

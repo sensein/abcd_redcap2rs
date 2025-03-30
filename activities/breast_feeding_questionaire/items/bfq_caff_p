@@ -1,37 +1,42 @@
 {
-    "id": "nic_not_random",
+    "id": "bfq_caff_p",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        }
+    ],
     "prefLabel": {
-        "en": "nic_not_random"
+        "en": "bfq_caff_p"
     },
     "question": {
-        "en": "Participant has not been assigned to Nicalert. Select reason for collection."
+        "en": "Caffeine?",
+        "es": "\u00c2\u00bfXXXXXXXX?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Two or more days of substance use endorsement as indicated in substance use interview"
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Intoxication suspected"
+                    "en": "No",
+                    "es": "No"
                 },
-                "value": 2
+                "value": 0
             },
             {
                 "name": {
-                    "en": "Sibling/Twin Randomized"
+                    "en": "Don't know",
+                    "es": "No lo s\u00c3\u00a9"
                 },
-                "value": 3
-            },
-            {
-                "name": {
-                    "en": "Site Visit"
-                },
-                "value": 4
+                "value": 999
             }
         ],
         "valueType": [
