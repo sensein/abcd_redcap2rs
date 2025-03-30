@@ -5,7 +5,7 @@
         {
             "column": "Field Annotation",
             "source": "redcap",
-            "value": "HIDEFROMCOMPLETION"
+            "value": "HIDEFROMCOMPLETION\r\n@READONLY"
         }
     ],
     "prefLabel": {
@@ -20,7 +20,8 @@
         ]
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "text",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
