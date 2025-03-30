@@ -21,6 +21,9 @@
             "../activities/nda_id_daic_use_only/nda_id_daic_use_only_schema",
             "../activities/permission/permission_schema",
             "../activities/assent/assent_schema",
+            "../activities/bal_testyouth/bal_testyouth_schema",
+            "../activities/toxicology_test_dtyouth/toxicology_test_dtyouth_schema",
+            "../activities/y_nicalert/y_nicalert_schema",
             "../activities/anthropometrics_modified_phenx_antyouth/anthropometrics_modified_phenx_antyouth_schema",
             "../activities/edinburgh_handedness_inventory_short_form/edinburgh_handedness_inventory_short_form_schema",
             "../activities/snellen_vision_screener_visyouth/snellen_vision_screener_visyouth_schema",
@@ -273,10 +276,7 @@
             "../activities/fitbit_substudy_raw_daic_use_only/fitbit_substudy_raw_daic_use_only_schema",
             "../activities/met_transform_sports_activity/met_transform_sports_activity_schema",
             "../activities/pguid_error_tracking/pguid_error_tracking_schema",
-            "../activities/test_daic_only/test_daic_only_schema",
-            "../activities/bal_testyouth/bal_testyouth_schema",
-            "../activities/toxicology_test_dtyouth/toxicology_test_dtyouth_schema",
-            "../activities/y_nicalert/y_nicalert_schema"
+            "../activities/test_daic_only/test_daic_only_schema"
         ],
         "addProperties": [
             {
@@ -366,6 +366,30 @@
                     "en": "Assent"
                 },
                 "variableName": "assent_schema"
+            },
+            {
+                "isAbout": "../activities/bal_testyouth/bal_testyouth_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Bal Testyouth"
+                },
+                "variableName": "bal_testyouth_schema"
+            },
+            {
+                "isAbout": "../activities/toxicology_test_dtyouth/toxicology_test_dtyouth_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Toxicology Test Dtyouth"
+                },
+                "variableName": "toxicology_test_dtyouth_schema"
+            },
+            {
+                "isAbout": "../activities/y_nicalert/y_nicalert_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Nicalert"
+                },
+                "variableName": "y_nicalert_schema"
             },
             {
                 "isAbout": "../activities/anthropometrics_modified_phenx_antyouth/anthropometrics_modified_phenx_antyouth_schema",
@@ -2390,34 +2414,10 @@
                     "en": "Test Daic Only"
                 },
                 "variableName": "test_daic_only_schema"
-            },
-            {
-                "isAbout": "../activities/bal_testyouth/bal_testyouth_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Bal Testyouth"
-                },
-                "variableName": "bal_testyouth_schema"
-            },
-            {
-                "isAbout": "../activities/toxicology_test_dtyouth/toxicology_test_dtyouth_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Toxicology Test Dtyouth"
-                },
-                "variableName": "toxicology_test_dtyouth_schema"
-            },
-            {
-                "isAbout": "../activities/y_nicalert/y_nicalert_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Y Nicalert"
-                },
-                "variableName": "y_nicalert_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2351",
+    "version": "revid2352",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
