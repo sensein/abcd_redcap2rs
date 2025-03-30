@@ -1,0 +1,157 @@
+{
+    "id": "math_fluency_task_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "math_fluency_task"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/math_fluency_script_lastupdate",
+            "items/math_fluency_version",
+            "items/math_fluency_startdate",
+            "items/math_fluency_starttime",
+            "items/math_fluency_subjectid",
+            "items/math_fluency_event",
+            "items/math_fluency_session",
+            "items/math_fluency_groupid",
+            "items/math_fluency_elapsedtime",
+            "items/math_fluency_computer_platform",
+            "items/math_fluency_values_completed",
+            "items/math_fluency_practice_block_count",
+            "items/math_fluency_quit",
+            "items/math_fluency_test_duration",
+            "items/math_fluency_counttrials",
+            "items/math_fluency_numcorr",
+            "items/math_fluency_propcorr",
+            "items/math_fluency_meancorrrt",
+            "items/math_fluency_meanrt",
+            "items/math_fluency_task_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/math_fluency_script_lastupdate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "math_fluency_script_lastupdate"
+            },
+            {
+                "isAbout": "items/math_fluency_version",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "math_fluency_version"
+            },
+            {
+                "isAbout": "items/math_fluency_startdate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "math_fluency_startdate"
+            },
+            {
+                "isAbout": "items/math_fluency_starttime",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "math_fluency_starttime"
+            },
+            {
+                "isAbout": "items/math_fluency_subjectid",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "math_fluency_subjectid"
+            },
+            {
+                "isAbout": "items/math_fluency_event",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "math_fluency_event"
+            },
+            {
+                "isAbout": "items/math_fluency_session",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "math_fluency_session"
+            },
+            {
+                "isAbout": "items/math_fluency_groupid",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "math_fluency_groupid"
+            },
+            {
+                "isAbout": "items/math_fluency_elapsedtime",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "math_fluency_elapsedtime"
+            },
+            {
+                "isAbout": "items/math_fluency_computer_platform",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "math_fluency_computer_platform"
+            },
+            {
+                "isAbout": "items/math_fluency_values_completed",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "math_fluency_values_completed"
+            },
+            {
+                "isAbout": "items/math_fluency_practice_block_count",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "math_fluency_practice_block_count"
+            },
+            {
+                "isAbout": "items/math_fluency_quit",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "math_fluency_quit"
+            },
+            {
+                "isAbout": "items/math_fluency_test_duration",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "math_fluency_test_duration"
+            },
+            {
+                "isAbout": "items/math_fluency_counttrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "math_fluency_counttrials"
+            },
+            {
+                "isAbout": "items/math_fluency_numcorr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "math_fluency_numcorr"
+            },
+            {
+                "isAbout": "items/math_fluency_propcorr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "math_fluency_propcorr"
+            },
+            {
+                "isAbout": "items/math_fluency_meancorrrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "math_fluency_meancorrrt"
+            },
+            {
+                "isAbout": "items/math_fluency_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "math_fluency_meanrt"
+            },
+            {
+                "isAbout": "items/math_fluency_task_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "math_fluency_task_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2357",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

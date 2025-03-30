@@ -276,7 +276,10 @@
             "../activities/fitbit_substudy_raw_daic_use_only/fitbit_substudy_raw_daic_use_only_schema",
             "../activities/met_transform_sports_activity/met_transform_sports_activity_schema",
             "../activities/pguid_error_tracking/pguid_error_tracking_schema",
-            "../activities/test_daic_only/test_daic_only_schema"
+            "../activities/test_daic_only/test_daic_only_schema",
+            "../activities/math_enum_task/math_enum_task_schema",
+            "../activities/math_fluency_task/math_fluency_task_schema",
+            "../activities/math_recall_task/math_recall_task_schema"
         ],
         "addProperties": [
             {
@@ -2414,10 +2417,34 @@
                     "en": "Test Daic Only"
                 },
                 "variableName": "test_daic_only_schema"
+            },
+            {
+                "isAbout": "../activities/math_enum_task/math_enum_task_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Math Enum Task"
+                },
+                "variableName": "math_enum_task_schema"
+            },
+            {
+                "isAbout": "../activities/math_fluency_task/math_fluency_task_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Math Fluency Task"
+                },
+                "variableName": "math_fluency_task_schema"
+            },
+            {
+                "isAbout": "../activities/math_recall_task/math_recall_task_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Math Recall Task"
+                },
+                "variableName": "math_recall_task_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2356",
+    "version": "revid2357",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
