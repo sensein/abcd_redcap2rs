@@ -23,8 +23,6 @@
             "items/tbi_ss_worst4",
             "items/tbi_ss_worst5",
             "items/tbi_ss_worst_overall",
-            "items/testusername",
-            "items/testdate",
             "items/sum_score_tbi_complete"
         ],
         "addProperties": [
@@ -125,18 +123,6 @@
                 "variableName": "tbi_ss_worst_overall"
             },
             {
-                "isAbout": "items/testusername",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "testusername"
-            },
-            {
-                "isAbout": "items/testdate",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "testdate"
-            },
-            {
                 "isAbout": "items/sum_score_tbi_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -145,6 +131,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2401",
+    "version": "revid2402",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

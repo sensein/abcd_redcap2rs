@@ -8,8 +8,6 @@
     "ui": {
         "order": [
             "items/kbi_start_time",
-            "items/kbi_sex_assigned_at_birth",
-            "items/kbi_gender",
             "items/kbi_y_grade_repeat",
             "items/kbi_repeat_grade_pst_yr",
             "items/kbi_repeat_grade_before_pst_yr",
@@ -21,10 +19,14 @@
             "items/kbi_y_det_reason_other",
             "items/ksads_bully_raw_26",
             "items/kbi_y_det_reason_new",
+            "items/kbi_sex_assigned_at_birth",
+            "items/kbi_gender",
             "items/kbi_y_sex_orient",
             "items/kbi_y_sex_orient_probs",
             "items/kbi_y_trans_id",
             "items/kbi_y_trans_prob",
+            "items/kbi_instruct_read",
+            "items/kbi_administered",
             "items/ksads5background_items_youth_complete"
         ],
         "addProperties": [
@@ -33,18 +35,6 @@
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "kbi_start_time"
-            },
-            {
-                "isAbout": "items/kbi_sex_assigned_at_birth",
-                "isVis": "event - name == '3_year_follow_up_y_arm_1'",
-                "valueRequired": true,
-                "variableName": "kbi_sex_assigned_at_birth"
-            },
-            {
-                "isAbout": "items/kbi_gender",
-                "isVis": "event - name == '3_year_follow_up_y_arm_1'",
-                "valueRequired": true,
-                "variableName": "kbi_gender"
             },
             {
                 "isAbout": "items/kbi_y_grade_repeat",
@@ -113,6 +103,18 @@
                 "variableName": "kbi_y_det_reason_new"
             },
             {
+                "isAbout": "items/kbi_sex_assigned_at_birth",
+                "isVis": "event_name_number > '21'",
+                "valueRequired": true,
+                "variableName": "kbi_sex_assigned_at_birth"
+            },
+            {
+                "isAbout": "items/kbi_gender",
+                "isVis": "event_name_number > '21'",
+                "valueRequired": true,
+                "variableName": "kbi_gender"
+            },
+            {
                 "isAbout": "items/kbi_y_sex_orient",
                 "isVis": true,
                 "valueRequired": true,
@@ -137,6 +139,18 @@
                 "variableName": "kbi_y_trans_prob"
             },
             {
+                "isAbout": "items/kbi_instruct_read",
+                "isVis": "macv_comprehend == '1'",
+                "valueRequired": false,
+                "variableName": "kbi_instruct_read"
+            },
+            {
+                "isAbout": "items/kbi_administered",
+                "isVis": "event_name_number > '21'",
+                "valueRequired": true,
+                "variableName": "kbi_administered"
+            },
+            {
                 "isAbout": "items/ksads5background_items_youth_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -145,6 +159,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2401",
+    "version": "revid2402",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

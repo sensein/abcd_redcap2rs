@@ -1,0 +1,51 @@
+{
+    "id": "hair_cosmetic",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "hair_cosmetic"
+    },
+    "question": {
+        "en": "Any obvious cosmetic treatment to the hair collected?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "None"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes, colored"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes, highlights"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Yes, perm or permanently straightened"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Yes, Other"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

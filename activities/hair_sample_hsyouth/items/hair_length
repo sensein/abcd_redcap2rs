@@ -1,0 +1,39 @@
+{
+    "id": "hair_length",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "hair_length"
+    },
+    "question": {
+        "en": "Length:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Short"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Shoulder Length"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Long"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

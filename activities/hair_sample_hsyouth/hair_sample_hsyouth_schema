@@ -10,6 +10,10 @@
             "items/hair_start_time",
             "items/hair_intro_y",
             "items/hair_status_y",
+            "items/hair_color",
+            "items/hair_color_other",
+            "items/hair_length",
+            "items/hair_cosmetic",
             "items/hair_dot_y",
             "items/hair_sample_barcode_label",
             "items/hair_not_collect_reason",
@@ -36,6 +40,30 @@
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "hair_status_y"
+            },
+            {
+                "isAbout": "items/hair_color",
+                "isVis": "hair_status_y == '1'",
+                "valueRequired": true,
+                "variableName": "hair_color"
+            },
+            {
+                "isAbout": "items/hair_color_other",
+                "isVis": "hair_color == '6'",
+                "valueRequired": true,
+                "variableName": "hair_color_other"
+            },
+            {
+                "isAbout": "items/hair_length",
+                "isVis": "hair_status_y == '1'",
+                "valueRequired": true,
+                "variableName": "hair_length"
+            },
+            {
+                "isAbout": "items/hair_cosmetic",
+                "isVis": "hair_status_y == '1'",
+                "valueRequired": false,
+                "variableName": "hair_cosmetic"
             },
             {
                 "isAbout": "items/hair_dot_y",
@@ -82,6 +110,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2401",
+    "version": "revid2402",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

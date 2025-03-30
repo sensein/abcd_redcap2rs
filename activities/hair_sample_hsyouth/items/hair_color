@@ -1,0 +1,64 @@
+{
+    "id": "hair_color",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "hair_color"
+    },
+    "question": {
+        "en": "Natural color of hair (can select multiple, in case hard to determine):"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Brown"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Black"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Blonde"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Red"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "White/Gray"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Other: fill in the blank"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Unable to determine"
+                },
+                "value": 7
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

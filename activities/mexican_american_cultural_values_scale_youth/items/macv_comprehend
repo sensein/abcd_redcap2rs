@@ -1,0 +1,36 @@
+{
+    "id": "macv_comprehend",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Reading"
+    },
+    "prefLabel": {
+        "en": "macv_comprehend"
+    },
+    "question": {
+        "en": "Did youth meet comprehension criteria?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

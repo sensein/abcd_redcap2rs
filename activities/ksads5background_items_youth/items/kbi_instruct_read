@@ -1,0 +1,23 @@
+{
+    "id": "kbi_instruct_read",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "KSADS Instructions"
+    },
+    "prefLabel": {
+        "en": "kbi_instruct_read"
+    },
+    "question": {
+        "en": "These next few questions are about different thoughts and experiences different people sometimes have. Please pay close attention to the time frame for each question. For example, one question may ask if you have felt a certain way in the last TWO weeks, while the next question will ask if you have felt this way  any other time before that. \r\n\r\nThere is a back button to go back and change your last answer, but you won't be able to go back more than one question. Answer the questions as best you can. However, if you would like help reading or are not sure you understand the questions, just let me know and I can help."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
