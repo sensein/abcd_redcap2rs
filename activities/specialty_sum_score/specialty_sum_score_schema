@@ -1,0 +1,45 @@
+{
+    "id": "specialty_sum_score_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "specialty_sum_score"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/latent_factor_ss_general_ses",
+            "items/latent_factor_ss_social",
+            "items/latent_factor_ss_perinatal",
+            "items/specialty_sum_score_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/latent_factor_ss_general_ses",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "latent_factor_ss_general_ses"
+            },
+            {
+                "isAbout": "items/latent_factor_ss_social",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "latent_factor_ss_social"
+            },
+            {
+                "isAbout": "items/latent_factor_ss_perinatal",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "latent_factor_ss_perinatal"
+            },
+            {
+                "isAbout": "items/specialty_sum_score_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "specialty_sum_score_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2486",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -3,38 +3,6 @@
     "category": "reproschema:Activity",
     "compute": [
         {
-            "jsExpression": "if(ple_died_fu_p == '1',1,0)+ if(ple_injured_fu_p == '1',1,0)+ if(ple_crime_fu_p== '1',1,0)+ if(ple_friend_fu_p== '1',1,0)+ if(ple_friend_injur_fu_p== '1',1,0)+ if(ple_financial_fu_p== '1',1,0)+ if(ple_sud_fu_p== '1',1,0)+ if(ple_ill_fu_p== '1',1,0)+ if(ple_injur_fu_p== '1',1,0)+ if(ple_argue_fu_p== '1',1,0)+ if(ple_job_fu_p== '1',1,0)+ if(ple_away_fu_p== '1',1,0)+ if(ple_arrest_fu_p== '1',1,0)+ if(ple_friend_died_fu_p== '1',1,0)+ if(ple_mh_fu_p== '1',1,0)+ if(ple_sib_fu_p== '1',1,0)+ if(ple_victim_fu_p== '1',1,0)+ if(ple_separ_fu_p== '1',1,0)+ if(ple_law_fu_p== '1',1,0)+ if(ple_school_fu_p== '1',1,0)+ if(ple_move_fu_p== '1',1,0)+ if(ple_jail_fu_p== '1',1,0)+ if(ple_step_fu_p== '1',1,0)+ if(ple_new_job_fu_p== '1',1,0)+ if(ple_new_sib_fu_p == '1',1,0)",
-            "variableName": "ple_p_ss_total_good"
-        },
-        {
-            "jsExpression": "if(ple_died_fu_p == '2',1,0)+ if(ple_injured_fu_p == '2',1,0)+ if(ple_crime_fu_p== '2',1,0)+ if(ple_friend_fu_p== '2',1,0)+ if(ple_friend_injur_fu_p== '2',1,0)+ if(ple_financial_fu_p== '2',1,0)+ if(ple_sud_fu_p== '2',1,0)+ if(ple_ill_fu_p== '2',1,0)+ if(ple_injur_fu_p== '2',1,0)+ if(ple_argue_fu_p== '2',1,0)+ if(ple_job_fu_p== '2',1,0)+ if(ple_away_fu_p== '2',1,0)+ if(ple_arrest_fu_p== '2',1,0)+ if(ple_friend_died_fu_p== '2',1,0)+ if(ple_mh_fu_p== '2',1,0)+ if(ple_sib_fu_p== '2',1,0)+ if(ple_victim_fu_p== '2',1,0)+ if(ple_separ_fu_p== '2',1,0)+ if(ple_law_fu_p== '2',1,0)+ if(ple_school_fu_p== '2',1,0)+ if(ple_move_fu_p== '2',1,0)+ if(ple_jail_fu_p== '2',1,0)+ if(ple_step_fu_p== '2',1,0)+ if(ple_new_job_fu_p== '2',1,0)+ if(ple_new_sib_fu_p == '2',1,0)",
-            "variableName": "ple_p_ss_total_bad"
-        },
-        {
-            "jsExpression": "if(ple_died_fu_p == '1',ple_died_fu2_p,0)+ if(ple_injured_fu_p == '1',ple_injured_fu2_p,0)+ if(ple_crime_fu_p== '1',ple_crime_fu2_p,0)+ if(ple_friend_fu_p== '1',ple_friend_fu2_p,0)+ if(ple_friend_injur_fu_p == '1',ple_friend_injur_fu2_p,0)+ if(ple_financial_fu_p == '1',ple_financial_fu2_p,0)+ if(ple_sud_fu_p== '1',ple_sud_fu2_p,0)+ if(ple_ill_fu_p== '1',ple_ill_fu2_p,0)+ if(ple_injur_fu_p== '1',ple_injur_fu2_p,0)+ if(ple_argue_fu_p== '1',ple_argue_fu2_p,0)+ if(ple_job_fu_p== '1',ple_job_fu2_p,0)+ if(ple_away_fu_p== '1',ple_away_fu2_p,0)+ if(ple_arrest_fu_p== '1',ple_arrest_fu2_p,0)+ if(ple_friend_died_fu_p== '1',ple_friend_died_fu2_p,0)+ if(ple_mh_fu_p== '1',ple_mh_fu2_p,0)+ if(ple_sib_fu_p== '1',ple_sib_fu2_p,0)+ if(ple_victim_fu_p== '1',ple_victim_fu2_p,0)+ if(ple_separ_fu_p== '1',ple_separ_fu2_p,0)+ if(ple_law_fu_p== '1',ple_law_fu2_p,0)+ if(ple_school_fu_p== '1',ple_school_fu2_p,0)+ if(ple_move_fu_p== '1',ple_move_fu2_p,0)+ if(ple_jail_fu_p== '1',ple_jail_fu2_p,0)+ if(ple_step_fu_p== '1',ple_step_fu2_p,0)+ if(ple_new_job_fu_p== '1',ple_new_job_fu2_p,0)+ if(ple_new_sib_fu_p == '1',ple_new_sib_fu2_p,0)",
-            "variableName": "ple_p_ss_affected_good_sum"
-        },
-        {
-            "jsExpression": "ple_p_ss_affected_good_sum / ple_p_ss_total_good",
-            "variableName": "ple_p_ss_affected_good_mean"
-        },
-        {
-            "jsExpression": "if(ple_died_fu_p == '2',ple_died_fu2_p,0)+ if(ple_injured_fu_p == '2',ple_injured_fu2_p,0)+ if(ple_crime_fu_p== '2',ple_crime_fu2_p,0)+ if(ple_friend_fu_p== '2',ple_friend_fu2_p,0)+ if(ple_friend_injur_fu_p == '2',ple_friend_injur_fu2_p,0)+ if(ple_financial_fu_p== '2',ple_financial_fu2_p,0)+ if(ple_sud_fu_p== '2',ple_sud_fu2_p,0)+ if(ple_ill_fu_p== '2',ple_ill_fu2_p,0)+ if(ple_injur_fu_p== '2',ple_injur_fu2_p,0)+ if(ple_argue_fu_p== '2',ple_argue_fu2_p,0)+ if(ple_job_fu_p== '2',ple_job_fu2_p,0)+ if(ple_away_fu_p== '2',ple_away_fu2_p,0)+ if(ple_arrest_fu_p== '2',ple_arrest_fu2_p,0)+ if(ple_friend_died_fu_p== '2',ple_friend_died_fu2_p,0)+ if(ple_mh_fu_p== '2',ple_mh_fu2_p,0)+ if(ple_sib_fu_p== '2',ple_sib_fu2_p,0)+ if(ple_victim_fu_p== '2',ple_victim_fu2_p,0)+ if(ple_separ_fu_p== '2',ple_separ_fu2_p,0)+ if(ple_law_fu_p== '2',ple_law_fu2_p,0)+ if(ple_school_fu_p== '2',ple_school_fu2_p,0)+ if(ple_move_fu_p== '2',ple_move_fu2_p,0)+ if(ple_jail_fu_p== '2',ple_jail_fu2_p,0)+ if(ple_step_fu_p== '2',ple_step_fu2_p,0)+ if(ple_new_job_fu_p== '2',ple_new_job_fu2_p,0)+ if(ple_new_sib_fu_p == '2',ple_new_sib_fu2_p,0)",
-            "variableName": "ple_p_ss_affected_bad_sum"
-        },
-        {
-            "jsExpression": "ple_p_ss_affected_bad_sum / ple_p_ss_total_bad",
-            "variableName": "ple_p_ss_affected_bad_mean"
-        },
-        {
-            "jsExpression": "mean(ple_died_fu2_p,ple_injured_fu2_p,ple_crime_fu2_p,ple_friend_fu2_p,ple_friend_injur_fu2_p,ple_financial_fu2_p,ple_sud_fu2_p,ple_ill_fu2_p,ple_injur_fu2_p,ple_argue_fu2_p,ple_job_fu2_p,ple_away_fu2_p,ple_arrest_fu2_p,ple_friend_died_fu2_p,ple_mh_fu2_p,ple_sib_fu2_p,ple_victim_fu2_p,ple_separ_fu2_p,ple_law_fu2_p,ple_school_fu2_p,ple_move_fu2_p,ple_jail_fu2_p,ple_step_fu2_p,ple_new_job_fu2_p,ple_new_sib_fu2_p)",
-            "variableName": "ple_p_ss_affected_mean"
-        },
-        {
-            "jsExpression": "sum(ple_died_fu2_p,ple_injured_fu2_p,ple_crime_fu2_p,ple_friend_fu2_p,ple_friend_injur_fu2_p,ple_financial_fu2_p,ple_sud_fu2_p,ple_ill_fu2_p,ple_injur_fu2_p,ple_argue_fu2_p,ple_job_fu2_p,ple_away_fu2_p,ple_arrest_fu2_p,ple_friend_died_fu2_p,ple_mh_fu2_p,ple_sib_fu2_p,ple_victim_fu2_p,ple_separ_fu2_p,ple_law_fu2_p,ple_school_fu2_p,ple_move_fu2_p,ple_jail_fu2_p,ple_step_fu2_p,ple_new_job_fu2_p,ple_new_sib_fu2_p)",
-            "variableName": "ple_p_ss_affect_sum"
-        },
-        {
             "jsExpression": "if(ple_died_fu_p == '1',1,0)+ if(ple_injured_fu_p == '1',1,0)+ if(ple_crime_fu_p== '1',1,0)+ if(ple_friend_fu_p== '1',1,0)+ if(ple_friend_injur_fu_p== '1',1,0)+ if(ple_financial_fu_p== '1',1,0)+ if(ple_sud_fu_p== '1',1,0)+ if(ple_ill_fu_p== '1',1,0)+ if(ple_injur_fu_p== '1',1,0)+ if(ple_argue_fu_p== '1',1,0)+ if(ple_job_fu_p== '1',1,0)+ if(ple_away_fu_p== '1',1,0)+ if(ple_arrest_fu_p== '1',1,0)+ if(ple_friend_died_fu_p== '1',1,0)+ if(ple_mh_fu_p== '1',1,0)+ if(ple_sib_fu_p== '1',1,0)+ if(ple_victim_fu_p== '1',1,0)+ if(ple_separ_fu_p== '1',1,0)+ if(ple_law_fu_p== '1',1,0)+ if(ple_school_fu_p== '1',1,0)+ if(ple_move_fu_p== '1',1,0)+ if(ple_jail_fu_p== '1',1,0)+ if(ple_step_fu_p== '1',1,0)+ if(ple_new_job_fu_p== '1',1,0)+ if(ple_new_sib_fu_p == '1',1,0)+ if(ple_deported_fu_p == '1',1,0)+ if(ple_hospitalized_fu_p == '1',1,0)+ if(ple_foster_care_fu_p == '1',1,0)+ if(ple_hit_fu_p == '1',1,0)+ if(ple_shot_fu_p == '1',1,0)+ if(ple_lockdown_fu_p == '1',1,0)",
             "variableName": "ple_p_ss_total_good2"
         },
@@ -65,6 +33,38 @@
         {
             "jsExpression": "mean(ple_died_fu2_p,ple_injured_fu2_p,ple_crime_fu2_p,ple_friend_fu2_p,ple_friend_injur_fu2_p,ple_financial_fu2_p,ple_sud_fu2_p,ple_ill_fu2_p,ple_injur_fu2_p,ple_argue_fu2_p,ple_job_fu2_p,ple_away_fu2_p,ple_arrest_fu2_p,ple_friend_died_fu2_p,ple_mh_fu2_p,ple_sib_fu2_p,ple_victim_fu2_p,ple_separ_fu2_p,ple_law_fu2_p,ple_school_fu2_p,ple_move_fu2_p,ple_jail_fu2_p,ple_step_fu2_p,ple_new_job_fu2_p,ple_new_sib_fu2_p,ple_deported_fu2_p,ple_hospitalized_fu2_p,ple_foster_care_fu2_p,ple_hit_fu2_p,ple_shot_fu2_p,ple_lockdown_fu2_p)",
             "variableName": "ple_p_ss_affected_mean2"
+        },
+        {
+            "jsExpression": "if(ple_died_fu_p == '1',1,0)+ if(ple_injured_fu_p == '1',1,0)+ if(ple_crime_fu_p== '1',1,0)+ if(ple_friend_fu_p== '1',1,0)+ if(ple_friend_injur_fu_p== '1',1,0)+ if(ple_financial_fu_p== '1',1,0)+ if(ple_sud_fu_p== '1',1,0)+ if(ple_ill_fu_p== '1',1,0)+ if(ple_injur_fu_p== '1',1,0)+ if(ple_argue_fu_p== '1',1,0)+ if(ple_job_fu_p== '1',1,0)+ if(ple_away_fu_p== '1',1,0)+ if(ple_arrest_fu_p== '1',1,0)+ if(ple_friend_died_fu_p== '1',1,0)+ if(ple_mh_fu_p== '1',1,0)+ if(ple_sib_fu_p== '1',1,0)+ if(ple_victim_fu_p== '1',1,0)+ if(ple_separ_fu_p== '1',1,0)+ if(ple_law_fu_p== '1',1,0)+ if(ple_school_fu_p== '1',1,0)+ if(ple_move_fu_p== '1',1,0)+ if(ple_jail_fu_p== '1',1,0)+ if(ple_step_fu_p== '1',1,0)+ if(ple_new_job_fu_p== '1',1,0)+ if(ple_new_sib_fu_p == '1',1,0)",
+            "variableName": "ple_p_ss_total_good"
+        },
+        {
+            "jsExpression": "if(ple_died_fu_p == '2',1,0)+ if(ple_injured_fu_p == '2',1,0)+ if(ple_crime_fu_p== '2',1,0)+ if(ple_friend_fu_p== '2',1,0)+ if(ple_friend_injur_fu_p== '2',1,0)+ if(ple_financial_fu_p== '2',1,0)+ if(ple_sud_fu_p== '2',1,0)+ if(ple_ill_fu_p== '2',1,0)+ if(ple_injur_fu_p== '2',1,0)+ if(ple_argue_fu_p== '2',1,0)+ if(ple_job_fu_p== '2',1,0)+ if(ple_away_fu_p== '2',1,0)+ if(ple_arrest_fu_p== '2',1,0)+ if(ple_friend_died_fu_p== '2',1,0)+ if(ple_mh_fu_p== '2',1,0)+ if(ple_sib_fu_p== '2',1,0)+ if(ple_victim_fu_p== '2',1,0)+ if(ple_separ_fu_p== '2',1,0)+ if(ple_law_fu_p== '2',1,0)+ if(ple_school_fu_p== '2',1,0)+ if(ple_move_fu_p== '2',1,0)+ if(ple_jail_fu_p== '2',1,0)+ if(ple_step_fu_p== '2',1,0)+ if(ple_new_job_fu_p== '2',1,0)+ if(ple_new_sib_fu_p == '2',1,0)",
+            "variableName": "ple_p_ss_total_bad"
+        },
+        {
+            "jsExpression": "if(ple_died_fu_p == '1',ple_died_fu2_p,0)+ if(ple_injured_fu_p == '1',ple_injured_fu2_p,0)+ if(ple_crime_fu_p== '1',ple_crime_fu2_p,0)+ if(ple_friend_fu_p== '1',ple_friend_fu2_p,0)+ if(ple_friend_injur_fu_p == '1',ple_friend_injur_fu2_p,0)+ if(ple_financial_fu_p == '1',ple_financial_fu2_p,0)+ if(ple_sud_fu_p== '1',ple_sud_fu2_p,0)+ if(ple_ill_fu_p== '1',ple_ill_fu2_p,0)+ if(ple_injur_fu_p== '1',ple_injur_fu2_p,0)+ if(ple_argue_fu_p== '1',ple_argue_fu2_p,0)+ if(ple_job_fu_p== '1',ple_job_fu2_p,0)+ if(ple_away_fu_p== '1',ple_away_fu2_p,0)+ if(ple_arrest_fu_p== '1',ple_arrest_fu2_p,0)+ if(ple_friend_died_fu_p== '1',ple_friend_died_fu2_p,0)+ if(ple_mh_fu_p== '1',ple_mh_fu2_p,0)+ if(ple_sib_fu_p== '1',ple_sib_fu2_p,0)+ if(ple_victim_fu_p== '1',ple_victim_fu2_p,0)+ if(ple_separ_fu_p== '1',ple_separ_fu2_p,0)+ if(ple_law_fu_p== '1',ple_law_fu2_p,0)+ if(ple_school_fu_p== '1',ple_school_fu2_p,0)+ if(ple_move_fu_p== '1',ple_move_fu2_p,0)+ if(ple_jail_fu_p== '1',ple_jail_fu2_p,0)+ if(ple_step_fu_p== '1',ple_step_fu2_p,0)+ if(ple_new_job_fu_p== '1',ple_new_job_fu2_p,0)+ if(ple_new_sib_fu_p == '1',ple_new_sib_fu2_p,0)",
+            "variableName": "ple_p_ss_affected_good_sum"
+        },
+        {
+            "jsExpression": "ple_p_ss_affected_good_sum / ple_p_ss_total_good",
+            "variableName": "ple_p_ss_affected_good_mean"
+        },
+        {
+            "jsExpression": "if(ple_died_fu_p == '2',ple_died_fu2_p,0)+ if(ple_injured_fu_p == '2',ple_injured_fu2_p,0)+ if(ple_crime_fu_p== '2',ple_crime_fu2_p,0)+ if(ple_friend_fu_p== '2',ple_friend_fu2_p,0)+ if(ple_friend_injur_fu_p == '2',ple_friend_injur_fu2_p,0)+ if(ple_financial_fu_p== '2',ple_financial_fu2_p,0)+ if(ple_sud_fu_p== '2',ple_sud_fu2_p,0)+ if(ple_ill_fu_p== '2',ple_ill_fu2_p,0)+ if(ple_injur_fu_p== '2',ple_injur_fu2_p,0)+ if(ple_argue_fu_p== '2',ple_argue_fu2_p,0)+ if(ple_job_fu_p== '2',ple_job_fu2_p,0)+ if(ple_away_fu_p== '2',ple_away_fu2_p,0)+ if(ple_arrest_fu_p== '2',ple_arrest_fu2_p,0)+ if(ple_friend_died_fu_p== '2',ple_friend_died_fu2_p,0)+ if(ple_mh_fu_p== '2',ple_mh_fu2_p,0)+ if(ple_sib_fu_p== '2',ple_sib_fu2_p,0)+ if(ple_victim_fu_p== '2',ple_victim_fu2_p,0)+ if(ple_separ_fu_p== '2',ple_separ_fu2_p,0)+ if(ple_law_fu_p== '2',ple_law_fu2_p,0)+ if(ple_school_fu_p== '2',ple_school_fu2_p,0)+ if(ple_move_fu_p== '2',ple_move_fu2_p,0)+ if(ple_jail_fu_p== '2',ple_jail_fu2_p,0)+ if(ple_step_fu_p== '2',ple_step_fu2_p,0)+ if(ple_new_job_fu_p== '2',ple_new_job_fu2_p,0)+ if(ple_new_sib_fu_p == '2',ple_new_sib_fu2_p,0)",
+            "variableName": "ple_p_ss_affected_bad_sum"
+        },
+        {
+            "jsExpression": "ple_p_ss_affected_bad_sum / ple_p_ss_total_bad",
+            "variableName": "ple_p_ss_affected_bad_mean"
+        },
+        {
+            "jsExpression": "mean(ple_died_fu2_p,ple_injured_fu2_p,ple_crime_fu2_p,ple_friend_fu2_p,ple_friend_injur_fu2_p,ple_financial_fu2_p,ple_sud_fu2_p,ple_ill_fu2_p,ple_injur_fu2_p,ple_argue_fu2_p,ple_job_fu2_p,ple_away_fu2_p,ple_arrest_fu2_p,ple_friend_died_fu2_p,ple_mh_fu2_p,ple_sib_fu2_p,ple_victim_fu2_p,ple_separ_fu2_p,ple_law_fu2_p,ple_school_fu2_p,ple_move_fu2_p,ple_jail_fu2_p,ple_step_fu2_p,ple_new_job_fu2_p,ple_new_sib_fu2_p)",
+            "variableName": "ple_p_ss_affected_mean"
+        },
+        {
+            "jsExpression": "sum(ple_died_fu2_p,ple_injured_fu2_p,ple_crime_fu2_p,ple_friend_fu2_p,ple_friend_injur_fu2_p,ple_financial_fu2_p,ple_sud_fu2_p,ple_ill_fu2_p,ple_injur_fu2_p,ple_argue_fu2_p,ple_job_fu2_p,ple_away_fu2_p,ple_arrest_fu2_p,ple_friend_died_fu2_p,ple_mh_fu2_p,ple_sib_fu2_p,ple_victim_fu2_p,ple_separ_fu2_p,ple_law_fu2_p,ple_school_fu2_p,ple_move_fu2_p,ple_jail_fu2_p,ple_step_fu2_p,ple_new_job_fu2_p,ple_new_sib_fu2_p)",
+            "variableName": "ple_p_ss_affect_sum"
         }
     ],
     "prefLabel": {
@@ -73,6 +73,45 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/eatq_p_ss_fear",
+            "items/eatq_p_ss_fear_nm",
+            "items/eatq_p_ss_fear_nt",
+            "items/eatq_p_ss_fear_r",
+            "items/eatq_p_ss_fear_r_nm",
+            "items/eatq_p_ss_fear_r_nt",
+            "items/eatq_p_ss_frustration",
+            "items/eatq_p_ss_frustration_nm",
+            "items/eatq_p_ss_frustration_nt",
+            "items/eatq_p_ss_inhibitory",
+            "items/eatq_p_ss_inhibitory_nm",
+            "items/eatq_p_ss_inhibitory_nt",
+            "items/eatq_p_ss_shyness",
+            "items/eatq_p_ss_shyness_nm",
+            "items/eatq_p_ss_shyness_nt",
+            "items/eatq_p_ss_shyness_r",
+            "items/eatq_p_ss_shyness_r_nm",
+            "items/eatq_p_ss_shyness_r_nt",
+            "items/eatq_p_ss_surgency",
+            "items/eatq_p_ss_surgency_nm",
+            "items/eatq_p_ss_surgency_nt",
+            "items/eatq_p_ss_effort_cont_sup_scale",
+            "items/eatq_p_ss_effort_cont_sup_scale_nm",
+            "items/eatq_p_ss_effort_cont_sup_scale_nt",
+            "items/eatq_p_ss_surgency_sup_scale",
+            "items/eatq_p_ss_surgency_sup_scale_nm",
+            "items/eatq_p_ss_surgency_sup_scale_nt",
+            "items/eatq_p_ss_neg_affect_sup_scale",
+            "items/eatq_p_ss_neg_affect_sup_scale_nm",
+            "items/eatq_p_ss_neg_affect_sup_scale_nt",
+            "items/ders_ss_impulse_test",
+            "items/ders_ss_goals_p",
+            "items/ders_ss_identification_p",
+            "items/ders_ss_impulse_strategies_p",
+            "items/ders_ss_nonacceptance_p",
+            "items/ple_p_ss_total_number2",
+            "items/ple_p_ss_total_number2_nm",
+            "items/ple_p_ss_total_number2_nt",
+            "items/sum_scores_mh_p_complete",
             "items/pgbi_p_ss_score",
             "items/pgbi_p_ss_score_nm",
             "items/pgbi_p_ss_score_nt",
@@ -124,22 +163,6 @@
             "items/ple_p_ss_total_number",
             "items/ple_p_ss_total_number_nm",
             "items/ple_p_ss_total_number_nt",
-            "items/ple_p_ss_total_good_nm",
-            "items/ple_p_ss_total_good_nt",
-            "items/ple_p_ss_total_bad_nm",
-            "items/ple_p_ss_total_bad_nt",
-            "items/ple_p_ss_affected_good_sum_nm",
-            "items/ple_p_ss_affected_good_sum_nt",
-            "items/ple_p_ss_affected_good_mean_nm",
-            "items/ple_p_ss_affected_good_mean_nt",
-            "items/ple_p_ss_affected_bad_sum_nm",
-            "items/ple_p_ss_affected_bad_sum_nt",
-            "items/ple_p_ss_affected_bad_mean_nm",
-            "items/ple_p_ss_affected_bad_mean_nt",
-            "items/ple_p_ss_affected_mean_nm",
-            "items/ple_p_ss_affected_mean_nt",
-            "items/ple_p_ss_affect_sum_nm",
-            "items/ple_p_ss_affect_sum_nt",
             "items/ssrs_p_ss_sum",
             "items/ssrs_p_ss_sum_nm",
             "items/ssrs_ss_sum_nt",
@@ -172,48 +195,291 @@
             "items/eatq_p_ss_attention_nt",
             "items/eatq_p_ss_depressive_mood",
             "items/eatq_p_ss_depressive_mood_nm",
-            "items/eatq_p_ss_depressive_mood_nt",
-            "items/eatq_p_ss_fear",
-            "items/eatq_p_ss_fear_nm",
-            "items/eatq_p_ss_fear_nt",
-            "items/eatq_p_ss_fear_r",
-            "items/eatq_p_ss_fear_r_nm",
-            "items/eatq_p_ss_fear_r_nt",
-            "items/eatq_p_ss_frustration",
-            "items/eatq_p_ss_frustration_nm",
-            "items/eatq_p_ss_frustration_nt",
-            "items/eatq_p_ss_inhibitory",
-            "items/eatq_p_ss_inhibitory_nm",
-            "items/eatq_p_ss_inhibitory_nt",
-            "items/eatq_p_ss_shyness",
-            "items/eatq_p_ss_shyness_nm",
-            "items/eatq_p_ss_shyness_nt",
-            "items/eatq_p_ss_shyness_r",
-            "items/eatq_p_ss_shyness_r_nm",
-            "items/eatq_p_ss_shyness_r_nt",
-            "items/eatq_p_ss_surgency",
-            "items/eatq_p_ss_surgency_nm",
-            "items/eatq_p_ss_surgency_nt",
-            "items/eatq_p_ss_effort_cont_sup_scale",
-            "items/eatq_p_ss_effort_cont_sup_scale_nm",
-            "items/eatq_p_ss_effort_cont_sup_scale_nt",
-            "items/eatq_p_ss_surgency_sup_scale",
-            "items/eatq_p_ss_surgency_sup_scale_nm",
-            "items/eatq_p_ss_surgency_sup_scale_nt",
-            "items/eatq_p_ss_neg_affect_sup_scale",
-            "items/eatq_p_ss_neg_affect_sup_scale_nm",
-            "items/eatq_p_ss_neg_affect_sup_scale_nt",
-            "items/ders_ss_impulse_test",
-            "items/ders_ss_goals_p",
-            "items/ders_ss_identification_p",
-            "items/ders_ss_impulse_strategies_p",
-            "items/ders_ss_nonacceptance_p",
-            "items/ple_p_ss_total_number2",
-            "items/ple_p_ss_total_number2_nm",
-            "items/ple_p_ss_total_number2_nt",
-            "items/sum_scores_mh_p_complete"
+            "items/eatq_p_ss_depressive_mood_nt"
         ],
         "addProperties": [
+            {
+                "isAbout": "items/eatq_p_ss_fear",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "eatq_p_ss_fear"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_fear_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "eatq_p_ss_fear_nm"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_fear_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "eatq_p_ss_fear_nt"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_fear_r",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "eatq_p_ss_fear_r"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_fear_r_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "eatq_p_ss_fear_r_nm"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_fear_r_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "eatq_p_ss_fear_r_nt"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_frustration",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "eatq_p_ss_frustration"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_frustration_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "eatq_p_ss_frustration_nm"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_frustration_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "eatq_p_ss_frustration_nt"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_inhibitory",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "eatq_p_ss_inhibitory"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_inhibitory_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "eatq_p_ss_inhibitory_nm"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_inhibitory_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "eatq_p_ss_inhibitory_nt"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_shyness",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "eatq_p_ss_shyness"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_shyness_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "eatq_p_ss_shyness_nm"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_shyness_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "eatq_p_ss_shyness_nt"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_shyness_r",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "eatq_p_ss_shyness_r"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_shyness_r_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "eatq_p_ss_shyness_r_nm"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_shyness_r_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "eatq_p_ss_shyness_r_nt"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_surgency",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "eatq_p_ss_surgency"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_surgency_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "eatq_p_ss_surgency_nm"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_surgency_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "eatq_p_ss_surgency_nt"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_effort_cont_sup_scale",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "eatq_p_ss_effort_cont_sup_scale"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_effort_cont_sup_scale_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "eatq_p_ss_effort_cont_sup_scale_nm"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_effort_cont_sup_scale_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "eatq_p_ss_effort_cont_sup_scale_nt"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_surgency_sup_scale",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "eatq_p_ss_surgency_sup_scale"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_surgency_sup_scale_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "eatq_p_ss_surgency_sup_scale_nm"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_surgency_sup_scale_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "eatq_p_ss_surgency_sup_scale_nt"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_neg_affect_sup_scale",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "eatq_p_ss_neg_affect_sup_scale"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_neg_affect_sup_scale_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "eatq_p_ss_neg_affect_sup_scale_nm"
+            },
+            {
+                "isAbout": "items/eatq_p_ss_neg_affect_sup_scale_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "eatq_p_ss_neg_affect_sup_scale_nt"
+            },
+            {
+                "isAbout": "items/ders_ss_impulse_test",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ders_ss_impulse_test"
+            },
+            {
+                "isAbout": "items/ders_ss_goals_p",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ders_ss_goals_p"
+            },
+            {
+                "isAbout": "items/ders_ss_identification_p",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ders_ss_identification_p"
+            },
+            {
+                "isAbout": "items/ders_ss_impulse_strategies_p",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ders_ss_impulse_strategies_p"
+            },
+            {
+                "isAbout": "items/ders_ss_nonacceptance_p",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ders_ss_nonacceptance_p"
+            },
+            {
+                "isAbout": "items/ple_p_ss_total_number2",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_p_ss_total_number2"
+            },
+            {
+                "isAbout": "items/ple_p_ss_total_number2_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_p_ss_total_number2_nm"
+            },
+            {
+                "isAbout": "items/ple_p_ss_total_number2_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_p_ss_total_number2_nt"
+            },
+            {
+                "isAbout": "items/ple_p_ss_total_good2",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_p_ss_total_good2"
+            },
+            {
+                "isAbout": "items/ple_p_ss_total_bad2",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_p_ss_total_bad2"
+            },
+            {
+                "isAbout": "items/ple_p_ss_affected_good_sum2",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_p_ss_affected_good_sum2"
+            },
+            {
+                "isAbout": "items/ple_p_ss_affected_good_mean2",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_p_ss_affected_good_mean2"
+            },
+            {
+                "isAbout": "items/ple_p_ss_affected_bad_sum2",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_p_ss_affected_bad_sum2"
+            },
+            {
+                "isAbout": "items/ple_p_ss_affected_bad_mean2",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_p_ss_affected_bad_mean2"
+            },
+            {
+                "isAbout": "items/ple_p_ss_affect_sum2",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_p_ss_affect_sum2"
+            },
+            {
+                "isAbout": "items/ple_p_ss_affected_mean2",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ple_p_ss_affected_mean2"
+            },
+            {
+                "isAbout": "items/sum_scores_mh_p_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sum_scores_mh_p_complete"
+            },
             {
                 "isAbout": "items/pgbi_p_ss_score",
                 "isVis": false,
@@ -527,34 +793,10 @@
                 "variableName": "ple_p_ss_total_good"
             },
             {
-                "isAbout": "items/ple_p_ss_total_good_nm",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "ple_p_ss_total_good_nm"
-            },
-            {
-                "isAbout": "items/ple_p_ss_total_good_nt",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "ple_p_ss_total_good_nt"
-            },
-            {
                 "isAbout": "items/ple_p_ss_total_bad",
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "ple_p_ss_total_bad"
-            },
-            {
-                "isAbout": "items/ple_p_ss_total_bad_nm",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "ple_p_ss_total_bad_nm"
-            },
-            {
-                "isAbout": "items/ple_p_ss_total_bad_nt",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "ple_p_ss_total_bad_nt"
             },
             {
                 "isAbout": "items/ple_p_ss_affected_good_sum",
@@ -563,34 +805,10 @@
                 "variableName": "ple_p_ss_affected_good_sum"
             },
             {
-                "isAbout": "items/ple_p_ss_affected_good_sum_nm",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "ple_p_ss_affected_good_sum_nm"
-            },
-            {
-                "isAbout": "items/ple_p_ss_affected_good_sum_nt",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "ple_p_ss_affected_good_sum_nt"
-            },
-            {
                 "isAbout": "items/ple_p_ss_affected_good_mean",
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "ple_p_ss_affected_good_mean"
-            },
-            {
-                "isAbout": "items/ple_p_ss_affected_good_mean_nm",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "ple_p_ss_affected_good_mean_nm"
-            },
-            {
-                "isAbout": "items/ple_p_ss_affected_good_mean_nt",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "ple_p_ss_affected_good_mean_nt"
             },
             {
                 "isAbout": "items/ple_p_ss_affected_bad_sum",
@@ -599,34 +817,10 @@
                 "variableName": "ple_p_ss_affected_bad_sum"
             },
             {
-                "isAbout": "items/ple_p_ss_affected_bad_sum_nm",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "ple_p_ss_affected_bad_sum_nm"
-            },
-            {
-                "isAbout": "items/ple_p_ss_affected_bad_sum_nt",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "ple_p_ss_affected_bad_sum_nt"
-            },
-            {
                 "isAbout": "items/ple_p_ss_affected_bad_mean",
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "ple_p_ss_affected_bad_mean"
-            },
-            {
-                "isAbout": "items/ple_p_ss_affected_bad_mean_nm",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "ple_p_ss_affected_bad_mean_nm"
-            },
-            {
-                "isAbout": "items/ple_p_ss_affected_bad_mean_nt",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "ple_p_ss_affected_bad_mean_nt"
             },
             {
                 "isAbout": "items/ple_p_ss_affected_mean",
@@ -635,34 +829,10 @@
                 "variableName": "ple_p_ss_affected_mean"
             },
             {
-                "isAbout": "items/ple_p_ss_affected_mean_nm",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "ple_p_ss_affected_mean_nm"
-            },
-            {
-                "isAbout": "items/ple_p_ss_affected_mean_nt",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "ple_p_ss_affected_mean_nt"
-            },
-            {
                 "isAbout": "items/ple_p_ss_affect_sum",
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "ple_p_ss_affect_sum"
-            },
-            {
-                "isAbout": "items/ple_p_ss_affect_sum_nm",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "ple_p_ss_affect_sum_nm"
-            },
-            {
-                "isAbout": "items/ple_p_ss_affect_sum_nt",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "ple_p_ss_affect_sum_nt"
             },
             {
                 "isAbout": "items/ssrs_p_ss_sum",
@@ -861,292 +1031,10 @@
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "eatq_p_ss_depressive_mood_nt"
-            },
-            {
-                "isAbout": "items/eatq_p_ss_fear",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "eatq_p_ss_fear"
-            },
-            {
-                "isAbout": "items/eatq_p_ss_fear_nm",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "eatq_p_ss_fear_nm"
-            },
-            {
-                "isAbout": "items/eatq_p_ss_fear_nt",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "eatq_p_ss_fear_nt"
-            },
-            {
-                "isAbout": "items/eatq_p_ss_fear_r",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "eatq_p_ss_fear_r"
-            },
-            {
-                "isAbout": "items/eatq_p_ss_fear_r_nm",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "eatq_p_ss_fear_r_nm"
-            },
-            {
-                "isAbout": "items/eatq_p_ss_fear_r_nt",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "eatq_p_ss_fear_r_nt"
-            },
-            {
-                "isAbout": "items/eatq_p_ss_frustration",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "eatq_p_ss_frustration"
-            },
-            {
-                "isAbout": "items/eatq_p_ss_frustration_nm",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "eatq_p_ss_frustration_nm"
-            },
-            {
-                "isAbout": "items/eatq_p_ss_frustration_nt",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "eatq_p_ss_frustration_nt"
-            },
-            {
-                "isAbout": "items/eatq_p_ss_inhibitory",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "eatq_p_ss_inhibitory"
-            },
-            {
-                "isAbout": "items/eatq_p_ss_inhibitory_nm",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "eatq_p_ss_inhibitory_nm"
-            },
-            {
-                "isAbout": "items/eatq_p_ss_inhibitory_nt",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "eatq_p_ss_inhibitory_nt"
-            },
-            {
-                "isAbout": "items/eatq_p_ss_shyness",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "eatq_p_ss_shyness"
-            },
-            {
-                "isAbout": "items/eatq_p_ss_shyness_nm",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "eatq_p_ss_shyness_nm"
-            },
-            {
-                "isAbout": "items/eatq_p_ss_shyness_nt",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "eatq_p_ss_shyness_nt"
-            },
-            {
-                "isAbout": "items/eatq_p_ss_shyness_r",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "eatq_p_ss_shyness_r"
-            },
-            {
-                "isAbout": "items/eatq_p_ss_shyness_r_nm",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "eatq_p_ss_shyness_r_nm"
-            },
-            {
-                "isAbout": "items/eatq_p_ss_shyness_r_nt",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "eatq_p_ss_shyness_r_nt"
-            },
-            {
-                "isAbout": "items/eatq_p_ss_surgency",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "eatq_p_ss_surgency"
-            },
-            {
-                "isAbout": "items/eatq_p_ss_surgency_nm",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "eatq_p_ss_surgency_nm"
-            },
-            {
-                "isAbout": "items/eatq_p_ss_surgency_nt",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "eatq_p_ss_surgency_nt"
-            },
-            {
-                "isAbout": "items/eatq_p_ss_effort_cont_sup_scale",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "eatq_p_ss_effort_cont_sup_scale"
-            },
-            {
-                "isAbout": "items/eatq_p_ss_effort_cont_sup_scale_nm",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "eatq_p_ss_effort_cont_sup_scale_nm"
-            },
-            {
-                "isAbout": "items/eatq_p_ss_effort_cont_sup_scale_nt",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "eatq_p_ss_effort_cont_sup_scale_nt"
-            },
-            {
-                "isAbout": "items/eatq_p_ss_surgency_sup_scale",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "eatq_p_ss_surgency_sup_scale"
-            },
-            {
-                "isAbout": "items/eatq_p_ss_surgency_sup_scale_nm",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "eatq_p_ss_surgency_sup_scale_nm"
-            },
-            {
-                "isAbout": "items/eatq_p_ss_surgency_sup_scale_nt",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "eatq_p_ss_surgency_sup_scale_nt"
-            },
-            {
-                "isAbout": "items/eatq_p_ss_neg_affect_sup_scale",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "eatq_p_ss_neg_affect_sup_scale"
-            },
-            {
-                "isAbout": "items/eatq_p_ss_neg_affect_sup_scale_nm",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "eatq_p_ss_neg_affect_sup_scale_nm"
-            },
-            {
-                "isAbout": "items/eatq_p_ss_neg_affect_sup_scale_nt",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "eatq_p_ss_neg_affect_sup_scale_nt"
-            },
-            {
-                "isAbout": "items/ders_ss_impulse_test",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "ders_ss_impulse_test"
-            },
-            {
-                "isAbout": "items/ders_ss_goals_p",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "ders_ss_goals_p"
-            },
-            {
-                "isAbout": "items/ders_ss_identification_p",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "ders_ss_identification_p"
-            },
-            {
-                "isAbout": "items/ders_ss_impulse_strategies_p",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "ders_ss_impulse_strategies_p"
-            },
-            {
-                "isAbout": "items/ders_ss_nonacceptance_p",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "ders_ss_nonacceptance_p"
-            },
-            {
-                "isAbout": "items/ple_p_ss_total_number2",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "ple_p_ss_total_number2"
-            },
-            {
-                "isAbout": "items/ple_p_ss_total_number2_nm",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "ple_p_ss_total_number2_nm"
-            },
-            {
-                "isAbout": "items/ple_p_ss_total_number2_nt",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "ple_p_ss_total_number2_nt"
-            },
-            {
-                "isAbout": "items/ple_p_ss_total_good2",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "ple_p_ss_total_good2"
-            },
-            {
-                "isAbout": "items/ple_p_ss_total_bad2",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "ple_p_ss_total_bad2"
-            },
-            {
-                "isAbout": "items/ple_p_ss_affected_good_sum2",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "ple_p_ss_affected_good_sum2"
-            },
-            {
-                "isAbout": "items/ple_p_ss_affected_good_mean2",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "ple_p_ss_affected_good_mean2"
-            },
-            {
-                "isAbout": "items/ple_p_ss_affected_bad_sum2",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "ple_p_ss_affected_bad_sum2"
-            },
-            {
-                "isAbout": "items/ple_p_ss_affected_bad_mean2",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "ple_p_ss_affected_bad_mean2"
-            },
-            {
-                "isAbout": "items/ple_p_ss_affect_sum2",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "ple_p_ss_affect_sum2"
-            },
-            {
-                "isAbout": "items/ple_p_ss_affected_mean2",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "ple_p_ss_affected_mean2"
-            },
-            {
-                "isAbout": "items/sum_scores_mh_p_complete",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "sum_scores_mh_p_complete"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2485",
+    "version": "revid2486",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -215,7 +215,6 @@
             "../activities/nihtbx_demo/nihtbx_demo_schema",
             "../activities/brief_problem_monitorteacher_formbpmt_for_ages_618/brief_problem_monitorteacher_formbpmt_for_ages_618_schema",
             "../activities/tlfb_calendar_scores_daic_use_only/tlfb_calendar_scores_daic_use_only_schema",
-            "../activities/autopopulated_from_baseline_suheard_of/autopopulated_from_baseline_suheard_of_schema",
             "../activities/sum_scores_mh_p/sum_scores_mh_p_schema",
             "../activities/sum_scores_mh_y/sum_scores_mh_y_schema",
             "../activities/sum_score_tbi/sum_score_tbi_schema",
@@ -239,6 +238,7 @@
             "../activities/residential_history_derived_scores_daic_use_only/residential_history_derived_scores_daic_use_only_schema",
             "../activities/acs_post_stratification_weights_daic_use_only/acs_post_stratification_weights_daic_use_only_schema",
             "../activities/release_tracking_daic_use_only/release_tracking_daic_use_only_schema",
+            "../activities/autopopulated_from_baseline_suheard_of/autopopulated_from_baseline_suheard_of_schema",
             "../activities/cc_tracking/cc_tracking_schema",
             "../activities/pii_db_sched/pii_db_sched_schema",
             "../activities/scheduling_status_daic_use_only/scheduling_status_daic_use_only_schema",
@@ -310,7 +310,8 @@
             "../activities/social_development_follow_up_child_feedback/social_development_follow_up_child_feedback_schema",
             "../activities/smarte_sum_scores/smarte_sum_scores_schema",
             "../activities/p_block_kids_food_screen_sum_score/p_block_kids_food_screen_sum_score_schema",
-            "../activities/munich_chronotype_questionnaire_mctq_for_children_90e79e/munich_chronotype_questionnaire_mctq_for_children_90e79e_schema"
+            "../activities/munich_chronotype_questionnaire_mctq_for_children_90e79e/munich_chronotype_questionnaire_mctq_for_children_90e79e_schema",
+            "../activities/specialty_sum_score/specialty_sum_score_schema"
         ],
         "addProperties": [
             {
@@ -1954,14 +1955,6 @@
                 "variableName": "tlfb_calendar_scores_daic_use_only_schema"
             },
             {
-                "isAbout": "../activities/autopopulated_from_baseline_suheard_of/autopopulated_from_baseline_suheard_of_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Autopopulated From Baseline Suheard Of"
-                },
-                "variableName": "autopopulated_from_baseline_suheard_of_schema"
-            },
-            {
                 "isAbout": "../activities/sum_scores_mh_p/sum_scores_mh_p_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -2144,6 +2137,14 @@
                     "en": "Release Tracking Daic Use Only"
                 },
                 "variableName": "release_tracking_daic_use_only_schema"
+            },
+            {
+                "isAbout": "../activities/autopopulated_from_baseline_suheard_of/autopopulated_from_baseline_suheard_of_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Autopopulated From Baseline Suheard Of"
+                },
+                "variableName": "autopopulated_from_baseline_suheard_of_schema"
             },
             {
                 "isAbout": "../activities/cc_tracking/cc_tracking_schema",
@@ -2720,10 +2721,18 @@
                     "en": "Munich Chronotype Questionnaire Mctq For Children 90E79E"
                 },
                 "variableName": "munich_chronotype_questionnaire_mctq_for_children_90e79e_schema"
+            },
+            {
+                "isAbout": "../activities/specialty_sum_score/specialty_sum_score_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Specialty Sum Score"
+                },
+                "variableName": "specialty_sum_score_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2485",
+    "version": "revid2486",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
