@@ -13,6 +13,7 @@
             "items/biospec_blood_ruid_2",
             "items/biospec_blood_purple_tube_barcode",
             "items/biospec_blood_fluid_tube_barcode",
+            "items/biospec_blood_rucdr_comment",
             "items/biospec_blood_hemoglobin_a1",
             "items/biospec_blood_baso_percent",
             "items/biospec_blood_baso_abs",
@@ -88,6 +89,12 @@
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "biospec_blood_fluid_tube_barcode"
+            },
+            {
+                "isAbout": "items/biospec_blood_rucdr_comment",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "biospec_blood_rucdr_comment"
             },
             {
                 "isAbout": "items/biospec_blood_hemoglobin_a1",
@@ -320,6 +327,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2436",
+    "version": "revid2437",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
