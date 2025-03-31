@@ -27,6 +27,20 @@
             "items/su_caff_ss_sum_l_nm",
             "items/su_caff_ss_sum_l_nt",
             "items/su_caff_ss_sum_calc_l",
+            "items/sub_res_mj_total",
+            "items/sub_res_mj_total_i",
+            "items/res_tobacco_total_cig",
+            "items/res_tobacco_total_ecig",
+            "items/res_tobacco_total_chew",
+            "items/res_tobacco_total_cig_i",
+            "items/res_tobacco_total_ecig_i",
+            "items/res_tobacco_total_chew_i",
+            "items/subj_resp_alc_total_first",
+            "items/subj_resp_alc_total_6mo",
+            "items/subj_resp_alc_total_heavy",
+            "items/subj_resp_alc_total_first_i",
+            "items/subj_resp_alc_total_6mo_i",
+            "items/subj_resp_alc_total_heavy_i",
             "items/sum_scores_su_complete"
         ],
         "addProperties": [
@@ -151,6 +165,90 @@
                 "variableName": "su_caff_ss_sum_calc_l"
             },
             {
+                "isAbout": "items/sub_res_mj_total",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sub_res_mj_total"
+            },
+            {
+                "isAbout": "items/sub_res_mj_total_i",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sub_res_mj_total_i"
+            },
+            {
+                "isAbout": "items/res_tobacco_total_cig",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "res_tobacco_total_cig"
+            },
+            {
+                "isAbout": "items/res_tobacco_total_ecig",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "res_tobacco_total_ecig"
+            },
+            {
+                "isAbout": "items/res_tobacco_total_chew",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "res_tobacco_total_chew"
+            },
+            {
+                "isAbout": "items/res_tobacco_total_cig_i",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "res_tobacco_total_cig_i"
+            },
+            {
+                "isAbout": "items/res_tobacco_total_ecig_i",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "res_tobacco_total_ecig_i"
+            },
+            {
+                "isAbout": "items/res_tobacco_total_chew_i",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "res_tobacco_total_chew_i"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_total_first",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "subj_resp_alc_total_first"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_total_6mo",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "subj_resp_alc_total_6mo"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_total_heavy",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "subj_resp_alc_total_heavy"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_total_first_i",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "subj_resp_alc_total_first_i"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_total_6mo_i",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "subj_resp_alc_total_6mo_i"
+            },
+            {
+                "isAbout": "items/subj_resp_alc_total_heavy_i",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "subj_resp_alc_total_heavy_i"
+            },
+            {
                 "isAbout": "items/sum_scores_su_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -159,6 +257,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2501",
+    "version": "revid2502",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
