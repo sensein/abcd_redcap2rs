@@ -19,6 +19,7 @@
             "items/mypi_alc_sip_pst_mo",
             "items/mypi_alc_drink_lst_wk",
             "items/mypi_alc_sip_lst_wk",
+            "items/mypi_define_vape",
             "items/mypi_tob",
             "items/mypi_tob_used",
             "items/mypi_tob_ceremony",
@@ -40,6 +41,8 @@
             "items/mypi_chew_pst_used",
             "items/mypi_chew_pst_6mo",
             "items/mypi_chew_pst_first",
+            "items/mypi_flavoring",
+            "items/mypi_flavoring_first",
             "items/mypi_chew_pst_mo",
             "items/mypi_chew_lst_wk",
             "items/mypi_mj",
@@ -47,6 +50,8 @@
             "items/mypi_mj_30",
             "items/mypi_mj_used",
             "items/mypi_mj_first",
+            "items/mypi_mj_vape",
+            "items/mypi_mj_vape_first",
             "items/mypi_mj_pst_6mo",
             "items/mypi_mj_pst_mo",
             "items/mypi_mj_lst_wk",
@@ -55,6 +60,8 @@
             "items/mypi_mj_edible_pst_6mo",
             "items/mypi_mj_edible_pst_mo",
             "items/mypi_mj_edible_lst_wk",
+            "items/mypi_mj_oils_vaped",
+            "items/mypi_mj_oils_vaped_first",
             "items/mypi_mj_oils",
             "items/mypi_mj_oils_first",
             "items/mypi_mj_oils_pst_6mo",
@@ -94,10 +101,26 @@
             "items/mypi_pr_lst_wk",
             "items/mypi_coke_used",
             "items/mypi_coke_first",
+            "items/mypi_cathinones_used",
+            "items/mypi_cathinones_first",
             "items/mypi_meth_used",
             "items/mypi_meth_first",
+            "items/mypi_ecstasy_used",
+            "items/mypi_ecstasy_first",
+            "items/mypi_ketamine_used",
+            "items/mypi_ketamine_first",
+            "items/mypi_ghb_used",
+            "items/mypi_ghb_first",
             "items/mypi_heroin_used",
             "items/mypi_heroin_first",
+            "items/mypi_hallucinogen_used",
+            "items/mypi_hallucinogen_first",
+            "items/mypi_mushroom_used",
+            "items/mypi_mushroom_first",
+            "items/mypi_salvia_used",
+            "items/mypi_salvia_first",
+            "items/mypi_steroids_used",
+            "items/mypi_steroids_first",
             "items/mypi_cold_used",
             "items/mypi_cold_first",
             "items/mypi_cold_pst_6mo",
@@ -121,19 +144,19 @@
             },
             {
                 "isAbout": "items/mypi_alc_full_drink",
-                "isVis": "mypi_alc == '1' &&(event - name == '18_month_follow_up_arm_1' || event - name == '6_month_follow_up_arm_1')|| event - name == '30_month_follow_up_arm_1'",
+                "isVis": "mypi_alc == '1' &&(event - name == '18_month_follow_up_arm_1' || event - name == '6_month_follow_up_arm_1')|| event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1'",
                 "valueRequired": true,
                 "variableName": "mypi_alc_full_drink"
             },
             {
                 "isAbout": "items/mypi_alc_sip",
-                "isVis": "mypi_alc_full_drink == '0'",
+                "isVis": "mypi_alc_full_drink == '0' || event - name == '42_month_follow_up_arm_1'",
                 "valueRequired": true,
                 "variableName": "mypi_alc_sip"
             },
             {
                 "isAbout": "items/mypi_alc_first",
-                "isVis": "(mypi_alc_sip == '1' || mypi_alc_full_drink == '1')&& event - name == '30_month_follow_up_arm_1'",
+                "isVis": "(mypi_alc_sip == '1' || mypi_alc_full_drink == '1')&&(event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1')",
                 "valueRequired": true,
                 "variableName": "mypi_alc_first"
             },
@@ -186,6 +209,12 @@
                 "variableName": "mypi_alc_sip_lst_wk"
             },
             {
+                "isAbout": "items/mypi_define_vape",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mypi_define_vape"
+            },
+            {
                 "isAbout": "items/mypi_tob",
                 "isVis": "event - name == '6_month_follow_up_arm_1' || event - name == '18_month_follow_up_arm_1'",
                 "valueRequired": true,
@@ -223,43 +252,43 @@
             },
             {
                 "isAbout": "items/mypi_ecig",
-                "isVis": "mypi_tob_used == '0' || event - name == '30_month_follow_up_arm_1'",
+                "isVis": "(mypi_tob_used == '0' || event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1')",
                 "valueRequired": true,
                 "variableName": "mypi_ecig"
             },
             {
                 "isAbout": "items/mypi_full_cig",
-                "isVis": "mypi_ecig == '1' && event - name == '30_month_follow_up_arm_1'",
+                "isVis": "mypi_ecig == '1' &&(event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1')",
                 "valueRequired": true,
                 "variableName": "mypi_full_cig"
             },
             {
                 "isAbout": "items/mypi_tob_first",
-                "isVis": "event - name == '30_month_follow_up_arm_1' && mypi_full_cig == '1'",
+                "isVis": "mypi_full_cig == '1' &&(event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1')",
                 "valueRequired": true,
                 "variableName": "mypi_tob_first"
             },
             {
                 "isAbout": "items/mypi_tobo_used",
-                "isVis": "(event - name == '30_month_follow_up_arm_1' && mypi_ecig == '1')",
+                "isVis": "mypi_ecig == '1' &&(event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1')",
                 "valueRequired": true,
                 "variableName": "mypi_tobo_used"
             },
             {
                 "isAbout": "items/mypi_tobo_first",
-                "isVis": "event - name == '30_month_follow_up_arm_1' && mypi_tobo_used == '1'",
+                "isVis": "mypi_tobo_used == '1' &&(event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1')",
                 "valueRequired": true,
                 "variableName": "mypi_tobo_first"
             },
             {
                 "isAbout": "items/mypi_cigar_used",
-                "isVis": "(event - name == '30_month_follow_up_arm_1' && mypi_ecig == '1')",
+                "isVis": "mypi_ecig == '1' &&(event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1')",
                 "valueRequired": true,
                 "variableName": "mypi_cigar_used"
             },
             {
                 "isAbout": "items/mypi_cigar_first",
-                "isVis": "event - name == '30_month_follow_up_arm_1' && mypi_cigar_used == '1'",
+                "isVis": "mypi_cigar_used == '1' &&(event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1')",
                 "valueRequired": true,
                 "variableName": "mypi_cigar_first"
             },
@@ -295,7 +324,7 @@
             },
             {
                 "isAbout": "items/mypi_chew_pst_used",
-                "isVis": "(mypi_chew == '1' &&(event - name == '18_month_follow_up_arm_1' || event - name == '6_month_follow_up_arm_1'))|| event - name == '30_month_follow_up_arm_1'",
+                "isVis": "(mypi_chew == '1' &&(event - name == '18_month_follow_up_arm_1' || event - name == '6_month_follow_up_arm_1'))|| event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1'",
                 "valueRequired": true,
                 "variableName": "mypi_chew_pst_used"
             },
@@ -307,9 +336,21 @@
             },
             {
                 "isAbout": "items/mypi_chew_pst_first",
-                "isVis": "mypi_chew_pst_used == '1' && event - name == '30_month_follow_up_arm_1'",
+                "isVis": "mypi_chew_pst_used == '1' &&(event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1')",
                 "valueRequired": true,
                 "variableName": "mypi_chew_pst_first"
+            },
+            {
+                "isAbout": "items/mypi_flavoring",
+                "isVis": "event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1'",
+                "valueRequired": true,
+                "variableName": "mypi_flavoring"
+            },
+            {
+                "isAbout": "items/mypi_flavoring_first",
+                "isVis": "mypi_flavoring == '1' &&(event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1')",
+                "valueRequired": true,
+                "variableName": "mypi_flavoring_first"
             },
             {
                 "isAbout": "items/mypi_chew_pst_mo",
@@ -331,27 +372,39 @@
             },
             {
                 "isAbout": "items/mypi_mj_cbd_instruct",
-                "isVis": "event - name == '30_month_follow_up_arm_1'",
+                "isVis": "event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1'",
                 "valueRequired": false,
                 "variableName": "mypi_mj_cbd_instruct"
             },
             {
                 "isAbout": "items/mypi_mj_30",
-                "isVis": "event - name == '30_month_follow_up_arm_1'",
+                "isVis": "event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1'",
                 "valueRequired": true,
                 "variableName": "mypi_mj_30"
             },
             {
                 "isAbout": "items/mypi_mj_used",
-                "isVis": "mypi_mj == '1' &&(event - name == '18_month_follow_up_arm_1' || event - name == '6_month_follow_up_arm_1')|| mypi_mj_30 == '1'",
+                "isVis": "mypi_mj == '1' &&(event - name == '18_month_follow_up_arm_1' || event - name == '6_month_follow_up_arm_1')||(mypi_mj_30 == '1' &&(event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1'))",
                 "valueRequired": true,
                 "variableName": "mypi_mj_used"
             },
             {
                 "isAbout": "items/mypi_mj_first",
-                "isVis": "event - name == '30_month_follow_up_arm_1' && mypi_mj_used == '1'",
+                "isVis": "mypi_mj_used == '1' &&(event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1')",
                 "valueRequired": true,
                 "variableName": "mypi_mj_first"
+            },
+            {
+                "isAbout": "items/mypi_mj_vape",
+                "isVis": "mypi_mj_30 == '1' &&(event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1')",
+                "valueRequired": true,
+                "variableName": "mypi_mj_vape"
+            },
+            {
+                "isAbout": "items/mypi_mj_vape_first",
+                "isVis": "mypi_mj_vape == '1' &&(event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1')",
+                "valueRequired": true,
+                "variableName": "mypi_mj_vape_first"
             },
             {
                 "isAbout": "items/mypi_mj_pst_6mo",
@@ -379,7 +432,7 @@
             },
             {
                 "isAbout": "items/mypi_mj_edible_first",
-                "isVis": "mypi_mj_edible == '1' &&(event - name == '30_month_follow_up_arm_1')",
+                "isVis": "mypi_mj_edible == '1' &&(event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1')",
                 "valueRequired": true,
                 "variableName": "mypi_mj_edible_first"
             },
@@ -402,6 +455,18 @@
                 "variableName": "mypi_mj_edible_lst_wk"
             },
             {
+                "isAbout": "items/mypi_mj_oils_vaped",
+                "isVis": "mypi_mj == '1' &&(event - name == '18_month_follow_up_arm_1' || event - name == '6_month_follow_up_arm_1')|| mypi_mj_30 == '1'",
+                "valueRequired": true,
+                "variableName": "mypi_mj_oils_vaped"
+            },
+            {
+                "isAbout": "items/mypi_mj_oils_vaped_first",
+                "isVis": "mypi_mj_oils_vaped == '1' &&(event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1')",
+                "valueRequired": true,
+                "variableName": "mypi_mj_oils_vaped_first"
+            },
+            {
                 "isAbout": "items/mypi_mj_oils",
                 "isVis": "mypi_mj == '1' &&(event - name == '18_month_follow_up_arm_1' || event - name == '6_month_follow_up_arm_1')|| mypi_mj_30 == '1'",
                 "valueRequired": true,
@@ -409,7 +474,7 @@
             },
             {
                 "isAbout": "items/mypi_mj_oils_first",
-                "isVis": "mypi_mj_oils == '1' &&(event - name == '30_month_follow_up_arm_1')",
+                "isVis": "mypi_mj_oils == '1' &&(event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1')",
                 "valueRequired": true,
                 "variableName": "mypi_mj_oils_first"
             },
@@ -433,13 +498,13 @@
             },
             {
                 "isAbout": "items/mypi_mj_tinc_used",
-                "isVis": "mypi_mj == '1' &&(event - name == '18_month_follow_up_arm_1' || event - name == '6_month_follow_up_arm_1')|| mypi_mj_30 == '1'",
+                "isVis": "mypi_mj == '1' &&(event - name == '18_month_follow_up_arm_1' || event - name == '6_month_follow_up_arm_1')||(mypi_mj_30 == '1' &&(event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1'))",
                 "valueRequired": true,
                 "variableName": "mypi_mj_tinc_used"
             },
             {
                 "isAbout": "items/mypi_mj_tinc_first",
-                "isVis": "mypi_mj_tinc_used == '1' && event - name == '30_month_follow_up_arm_1'",
+                "isVis": "mypi_mj_tinc_used == '1' &&(event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1')",
                 "valueRequired": true,
                 "variableName": "mypi_mj_tinc_first"
             },
@@ -469,7 +534,7 @@
             },
             {
                 "isAbout": "items/mypi_mj_synth_first",
-                "isVis": "mypi_mj_synth_used == '1' &&(event - name == '30_month_follow_up_arm_1')",
+                "isVis": "mypi_mj_synth_used == '1' &&(event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1')",
                 "valueRequired": true,
                 "variableName": "mypi_mj_synth_first"
             },
@@ -499,13 +564,13 @@
             },
             {
                 "isAbout": "items/mypi_sniff_used",
-                "isVis": "mypi_sniff == '1' &&(event - name == '18_month_follow_up_arm_1' || event - name == '6_month_follow_up_arm_1')|| event - name == '30_month_follow_up_arm_1'",
+                "isVis": "(mypi_sniff == '1' && event - name == '18_month_follow_up_arm_1' || event - name == '6_month_follow_up_arm_1')|| event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1'",
                 "valueRequired": true,
                 "variableName": "mypi_sniff_used"
             },
             {
                 "isAbout": "items/mypi_sniff_first",
-                "isVis": "mypi_sniff_used == '1' &&(event - name == '30_month_follow_up_arm_1')",
+                "isVis": "mypi_sniff_used == '1' &&(event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1')",
                 "valueRequired": true,
                 "variableName": "mypi_sniff_first"
             },
@@ -535,13 +600,13 @@
             },
             {
                 "isAbout": "items/mypi_pills_used",
-                "isVis": "mypi_pills == '1' &&(event - name == '18_month_follow_up_arm_1' || event - name == '6_month_follow_up_arm_1')|| event - name == '30_month_follow_up_arm_1'",
+                "isVis": "mypi_pills == '1' &&(event - name == '18_month_follow_up_arm_1' || event - name == '6_month_follow_up_arm_1')||(event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1')",
                 "valueRequired": true,
                 "variableName": "mypi_pills_used"
             },
             {
                 "isAbout": "items/mypi_pills_first",
-                "isVis": "mypi_pills_used == '1' &&(event - name == '30_month_follow_up_arm_1')",
+                "isVis": "mypi_pills_used == '1' &&(event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1')",
                 "valueRequired": true,
                 "variableName": "mypi_pills_first"
             },
@@ -565,13 +630,13 @@
             },
             {
                 "isAbout": "items/mypi_pills_dep_used",
-                "isVis": "mypi_pills == '1' &&(event - name == '18_month_follow_up_arm_1' || event - name == '6_month_follow_up_arm_1')|| event - name == '30_month_follow_up_arm_1'",
+                "isVis": "mypi_pills == '1' &&(event - name == '18_month_follow_up_arm_1' || event - name == '6_month_follow_up_arm_1')||(event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1')",
                 "valueRequired": true,
                 "variableName": "mypi_pills_dep_used"
             },
             {
                 "isAbout": "items/mypi_pills_dep_first",
-                "isVis": "mypi_pills_dep_used == '1' &&(event - name == '30_month_follow_up_arm_1')",
+                "isVis": "mypi_pills_dep_used == '1' &&(event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1')",
                 "valueRequired": true,
                 "variableName": "mypi_pills_dep_first"
             },
@@ -595,13 +660,13 @@
             },
             {
                 "isAbout": "items/mypi_pr_used",
-                "isVis": "mypi_pills == '1' &&(event - name == '18_month_follow_up_arm_1' || event - name == '6_month_follow_up_arm_1')|| event - name == '30_month_follow_up_arm_1'",
+                "isVis": "mypi_pills == '1' &&(event - name == '18_month_follow_up_arm_1' || event - name == '6_month_follow_up_arm_1' || event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1')",
                 "valueRequired": true,
                 "variableName": "mypi_pr_used"
             },
             {
                 "isAbout": "items/mypi_pr_first",
-                "isVis": "mypi_pr_used=='1' &&(event - name == '30_month_follow_up_arm_1')",
+                "isVis": "mypi_pr_used=='1' &&(event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1')",
                 "valueRequired": true,
                 "variableName": "mypi_pr_first"
             },
@@ -625,49 +690,145 @@
             },
             {
                 "isAbout": "items/mypi_coke_used",
-                "isVis": "(event - name == '30_month_follow_up_arm_1')",
+                "isVis": "event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1'",
                 "valueRequired": true,
                 "variableName": "mypi_coke_used"
             },
             {
                 "isAbout": "items/mypi_coke_first",
-                "isVis": "(mypi_coke_used == '1' && event - name == '30_month_follow_up_arm_1')",
+                "isVis": "mypi_coke_used == '1' &&(event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1')",
                 "valueRequired": true,
                 "variableName": "mypi_coke_first"
             },
             {
+                "isAbout": "items/mypi_cathinones_used",
+                "isVis": "event - name == '42_month_follow_up_arm_1'",
+                "valueRequired": true,
+                "variableName": "mypi_cathinones_used"
+            },
+            {
+                "isAbout": "items/mypi_cathinones_first",
+                "isVis": "mypi_cathinones_used == '1' && event - name == '42_month_follow_up_arm_1'",
+                "valueRequired": true,
+                "variableName": "mypi_cathinones_first"
+            },
+            {
                 "isAbout": "items/mypi_meth_used",
-                "isVis": "(event - name == '30_month_follow_up_arm_1')",
+                "isVis": "event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1'",
                 "valueRequired": true,
                 "variableName": "mypi_meth_used"
             },
             {
                 "isAbout": "items/mypi_meth_first",
-                "isVis": "(event - name == '30_month_follow_up_arm_1')&& mypi_meth_used == '1'",
+                "isVis": "mypi_meth_used == '1' &&(event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1')",
                 "valueRequired": true,
                 "variableName": "mypi_meth_first"
             },
             {
+                "isAbout": "items/mypi_ecstasy_used",
+                "isVis": "event - name == '42_month_follow_up_arm_1'",
+                "valueRequired": true,
+                "variableName": "mypi_ecstasy_used"
+            },
+            {
+                "isAbout": "items/mypi_ecstasy_first",
+                "isVis": "mypi_ecstasy_used == '1' && event - name == '42_month_follow_up_arm_1'",
+                "valueRequired": true,
+                "variableName": "mypi_ecstasy_first"
+            },
+            {
+                "isAbout": "items/mypi_ketamine_used",
+                "isVis": "event - name == '42_month_follow_up_arm_1'",
+                "valueRequired": true,
+                "variableName": "mypi_ketamine_used"
+            },
+            {
+                "isAbout": "items/mypi_ketamine_first",
+                "isVis": "mypi_ketamine_used == '1' && event - name == '42_month_follow_up_arm_1'",
+                "valueRequired": true,
+                "variableName": "mypi_ketamine_first"
+            },
+            {
+                "isAbout": "items/mypi_ghb_used",
+                "isVis": "event - name == '42_month_follow_up_arm_1'",
+                "valueRequired": true,
+                "variableName": "mypi_ghb_used"
+            },
+            {
+                "isAbout": "items/mypi_ghb_first",
+                "isVis": "mypi_ghb_used == '1' && event - name == '42_month_follow_up_arm_1'",
+                "valueRequired": true,
+                "variableName": "mypi_ghb_first"
+            },
+            {
                 "isAbout": "items/mypi_heroin_used",
-                "isVis": "(event - name == '30_month_follow_up_arm_1')",
+                "isVis": "event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1'",
                 "valueRequired": true,
                 "variableName": "mypi_heroin_used"
             },
             {
                 "isAbout": "items/mypi_heroin_first",
-                "isVis": "(event - name == '30_month_follow_up_arm_1')&& mypi_heroin_used == '1'",
+                "isVis": "mypi_heroin_used == '1' &&(event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1')",
                 "valueRequired": true,
                 "variableName": "mypi_heroin_first"
             },
             {
+                "isAbout": "items/mypi_hallucinogen_used",
+                "isVis": "event - name == '42_month_follow_up_arm_1'",
+                "valueRequired": true,
+                "variableName": "mypi_hallucinogen_used"
+            },
+            {
+                "isAbout": "items/mypi_hallucinogen_first",
+                "isVis": "mypi_hallucinogen_used == '1' && event - name == '42_month_follow_up_arm_1'",
+                "valueRequired": true,
+                "variableName": "mypi_hallucinogen_first"
+            },
+            {
+                "isAbout": "items/mypi_mushroom_used",
+                "isVis": "event - name == '42_month_follow_up_arm_1'",
+                "valueRequired": true,
+                "variableName": "mypi_mushroom_used"
+            },
+            {
+                "isAbout": "items/mypi_mushroom_first",
+                "isVis": "mypi_mushroom_used == '1' && event - name == '42_month_follow_up_arm_1'",
+                "valueRequired": true,
+                "variableName": "mypi_mushroom_first"
+            },
+            {
+                "isAbout": "items/mypi_salvia_used",
+                "isVis": "event - name == '42_month_follow_up_arm_1'",
+                "valueRequired": true,
+                "variableName": "mypi_salvia_used"
+            },
+            {
+                "isAbout": "items/mypi_salvia_first",
+                "isVis": "mypi_salvia_used == '1' && event - name == '42_month_follow_up_arm_1'",
+                "valueRequired": true,
+                "variableName": "mypi_salvia_first"
+            },
+            {
+                "isAbout": "items/mypi_steroids_used",
+                "isVis": "event - name == '42_month_follow_up_arm_1'",
+                "valueRequired": true,
+                "variableName": "mypi_steroids_used"
+            },
+            {
+                "isAbout": "items/mypi_steroids_first",
+                "isVis": "mypi_steroids_used == '1' && event - name == '42_month_follow_up_arm_1'",
+                "valueRequired": true,
+                "variableName": "mypi_steroids_first"
+            },
+            {
                 "isAbout": "items/mypi_cold_used",
-                "isVis": "mypi_pills == '1' &&(event - name == '18_month_follow_up_arm_1' || event - name == '6_month_follow_up_arm_1')|| event - name == '30_month_follow_up_arm_1'",
+                "isVis": "mypi_pills == '1' &&(event - name == '18_month_follow_up_arm_1' || event - name == '6_month_follow_up_arm_1')||(event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1')",
                 "valueRequired": true,
                 "variableName": "mypi_cold_used"
             },
             {
                 "isAbout": "items/mypi_cold_first",
-                "isVis": "(event - name == '30_month_follow_up_arm_1')&& mypi_cold_used == '1'",
+                "isVis": "mypi_cold_used == '1' &&(event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1')",
                 "valueRequired": true,
                 "variableName": "mypi_cold_first"
             },
@@ -691,13 +852,13 @@
             },
             {
                 "isAbout": "items/mypi_bypho_used",
-                "isVis": "mypi_pills == '1' &&(event - name == '18_month_follow_up_arm_1' || event - name == '6_month_follow_up_arm_1')|| event - name == '30_month_follow_up_arm_1'",
+                "isVis": "mypi_pills == '1' &&(event - name == '18_month_follow_up_arm_1' || event - name == '6_month_follow_up_arm_1')||(event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1')",
                 "valueRequired": true,
                 "variableName": "mypi_bypho_used"
             },
             {
                 "isAbout": "items/mypi_bypho_first",
-                "isVis": "(event - name == '30_month_follow_up_arm_1')&& mypi_bypho_used == '1'",
+                "isVis": "mypi_bypho_used == '1' &&(event - name == '30_month_follow_up_arm_1' || event - name == '42_month_follow_up_arm_1')",
                 "valueRequired": true,
                 "variableName": "mypi_bypho_first"
             },
@@ -740,6 +901,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2483",
+    "version": "revid2484",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

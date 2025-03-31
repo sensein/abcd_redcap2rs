@@ -1,0 +1,39 @@
+{
+    "id": "mypi_form_completed",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "mypi_form_completed"
+    },
+    "question": {
+        "en": "I completed this form:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "On a mobile phone"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "On a tablet"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "On a computer or laptop"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

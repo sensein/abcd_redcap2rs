@@ -13,6 +13,7 @@
             "items/mypi_fav_food",
             "items/mypi_fav_food_dk",
             "items/mypi_completion_date",
+            "items/mypi_form_completed",
             "items/mypi_notes",
             "items/mypi_next_complete"
         ],
@@ -54,6 +55,12 @@
                 "variableName": "mypi_completion_date"
             },
             {
+                "isAbout": "items/mypi_form_completed",
+                "isVis": "mypi_30_how_completed == '2' && event - name == '42_month_follow_up_arm_1'",
+                "valueRequired": true,
+                "variableName": "mypi_form_completed"
+            },
+            {
                 "isAbout": "items/mypi_notes",
                 "isVis": "event - name == '6_month_follow_up_arm_1' || event - name == '18_month_follow_up_arm_1'",
                 "valueRequired": false,
@@ -68,6 +75,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2483",
+    "version": "revid2484",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -10,6 +10,7 @@
             "items/biospec_blood_today",
             "items/biospec_blood_collect",
             "items/biospec_blood_consent",
+            "items/biospec_reminder",
             "items/biospec_blood_tube1_collect",
             "items/biospec_blood_tube1_ncollect",
             "items/biospec_blood_tube1_dot",
@@ -44,6 +45,12 @@
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "biospec_blood_consent"
+            },
+            {
+                "isAbout": "items/biospec_reminder",
+                "isVis": "biospec_blood_consent == '0' && dna_recollect_1yr_fu == '1' ||(biospec_blood_tube1_collect == '0' || biospec_blood_tube1_collect == '777' || biospec_blood_tube1_collect == '2' || biospec_blood_tube2_collect == '777' || biospec_blood_tube2_collect == '0' || biospec_blood_tube2_collect == '2')",
+                "valueRequired": false,
+                "variableName": "biospec_reminder"
             },
             {
                 "isAbout": "items/biospec_blood_tube1_collect",
@@ -138,6 +145,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2483",
+    "version": "revid2484",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

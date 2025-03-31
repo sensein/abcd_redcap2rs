@@ -5,7 +5,7 @@
         {
             "column": "Field Note",
             "source": "redcap",
-            "value": "Change response ONLY if and when requested by RUCDR."
+            "value": "Mark 'No' if no other recollect is currently being requested from RUCDR."
         },
         {
             "column": "Custom Alignment",
@@ -15,7 +15,7 @@
         {
             "column": "Field Annotation",
             "source": "redcap",
-            "value": "HIDEFROMCOMPLETION\r\n@DEFAULT = '0'"
+            "value": "HIDEFROMCOMPLETION"
         }
     ],
     "preamble": {
@@ -25,7 +25,7 @@
         "en": "dna_sal_recollect_2"
     },
     "question": {
-        "en": "Sample recollect request from RUCDR?"
+        "en": "Sample recollect request from RUCDR #2?"
     },
     "responseOptions": {
         "choices": [

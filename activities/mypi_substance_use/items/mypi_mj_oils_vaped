@@ -1,0 +1,54 @@
+{
+    "id": "mypi_mj_oils_vaped",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200220"
+        }
+    ],
+    "preamble": {
+        "en": "Next are some questions about drugs and alcohol that you can answer with \"YES\" or \"NO.\""
+    },
+    "prefLabel": {
+        "en": "mypi_mj_oils_vaped"
+    },
+    "question": {
+        "en": "Have you vaped marijuana oils or concentrates, such as THC, hash or BHO oil, in a vape pen or vaporizer at any time in the past 6 months?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "no"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "refuse to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
