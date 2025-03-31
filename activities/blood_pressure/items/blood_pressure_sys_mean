@@ -1,8 +1,15 @@
 {
     "id": "blood_pressure_sys_mean",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20190813"
+        }
+    ],
     "description": {
-        "en": "Mean\nSystolic"
+        "en": "Mean\r\nSystolic"
     },
     "preamble": {
         "en": "Reading #3"
@@ -16,8 +23,7 @@
         ]
     },
     "ui": {
-        "inputType": "number",
-        "readonlyValue": true
+        "inputType": "number"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
