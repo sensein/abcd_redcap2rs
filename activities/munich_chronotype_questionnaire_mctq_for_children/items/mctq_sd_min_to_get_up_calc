@@ -1,0 +1,30 @@
+{
+    "id": "mctq_sd_min_to_get_up_calc",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN-SURVEY @READONLY"
+        }
+    ],
+    "description": {
+        "en": "Sleep inertia, workday"
+    },
+    "preamble": {
+        "en": "Note that some people stay awake for some time when in bed!"
+    },
+    "prefLabel": {
+        "en": "mctq_sd_min_to_get_up_calc"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

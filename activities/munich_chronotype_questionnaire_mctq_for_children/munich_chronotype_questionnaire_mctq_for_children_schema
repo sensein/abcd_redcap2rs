@@ -27,6 +27,10 @@
             "variableName": "mctq_sd_wake_up_time_calc"
         },
         {
+            "jsExpression": "if(mctq_sd_min_to_get_up< 11,mctq_sd_min_to_get_up,if(mctq_sd_min_to_get_up < 15,15 + 5 *(mctq_sd_min_to_get_up - 11),if(mctq_sd_min_to_get_up < 18,40 + 10 *(mctq_sd_min_to_get_up - 15),if(mctq_sd_min_to_get_up < 22,75 + 15 *(mctq_sd_min_to_get_up - 18),180 + 60 *(mctq_sd_min_to_get_up - 22)))))",
+            "variableName": "mctq_sd_min_to_get_up_calc"
+        },
+        {
             "jsExpression": "5 *(mctq_fd_btime_min - 1)+ if(mctq_fd_btime_hrs1 > 0,60 *(3 + mctq_fd_btime_hrs1),if(mctq_fd_btime_hrs2 < 8,60 *(16 + mctq_fd_btime_hrs2),60 *(mctq_fd_btime_hrs2 - 8)))",
             "variableName": "mctq_fd_btime_calc"
         },
@@ -269,6 +273,12 @@
                 "variableName": "mctq_sd_min_to_get_up"
             },
             {
+                "isAbout": "items/mctq_sd_min_to_get_up_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mctq_sd_min_to_get_up_calc"
+            },
+            {
                 "isAbout": "items/mctq_sd_alarm_clock",
                 "isVis": true,
                 "valueRequired": true,
@@ -505,6 +515,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2479",
+    "version": "revid2480",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
