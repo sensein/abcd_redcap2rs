@@ -5,7 +5,7 @@
         {
             "column": "Field Note",
             "source": "redcap",
-            "value": "Minutes"
+            "value": "<span lang=\"en\">Minutes</span><span lang=\"es\" style= \"color:maroon\">Minutos</span>"
         },
         {
             "column": "Custom Alignment",
@@ -14,7 +14,8 @@
         }
     ],
     "preamble": {
-        "en": "On a typical WEEKEND, how much TIME per day do you:\n\nPlease do NOT include time spent on  work or school, but do include watching TV, shows or videos, texting or chatting, playing games, or visiting social networking sites (Facebook, Twitter, Instagram)."
+        "en": "Please do NOT include time spent on  work or school, but do include watching TV, shows or videos, texting or chatting, playing games, or visiting social networking sites (Facebook, Twitter, Instagram).",
+        "es": "Favor NO incluya el tiempo que pasa haciendo trabajos relacionados con la escuela, pero s\u00c3\u00ad incluya el tiempo que pasa viendo televisi\u00c3\u00b3n, programas o videos, enviando mensajes de texto o chateando, jugando videojuegos o visitando sitios de redes sociales (Facebook, Twitter, Instagram)."
     },
     "prefLabel": {
         "en": "stp_1_wkend_min_p"
@@ -24,25 +25,29 @@
         "choices": [
             {
                 "name": {
-                    "en": "0"
+                    "en": "0",
+                    "es": "0"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "15"
+                    "en": "15",
+                    "es": "15"
                 },
                 "value": 15
             },
             {
                 "name": {
-                    "en": "30"
+                    "en": "30",
+                    "es": "30"
                 },
                 "value": 30
             },
             {
                 "name": {
-                    "en": "45"
+                    "en": "45",
+                    "es": "45"
                 },
                 "value": 45
             }

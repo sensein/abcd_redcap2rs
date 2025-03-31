@@ -8,6 +8,7 @@
     "ui": {
         "order": [
             "items/stp_start_time",
+            "items/stp_p_select_language",
             "items/stp_1_wkdy_hr_p",
             "items/stp_1_wkdy_min_p",
             "items/stp_2_wkdy_hr_p",
@@ -62,6 +63,12 @@
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "stp_start_time"
+            },
+            {
+                "isAbout": "items/stp_p_select_language",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "stp_p_select_language"
             },
             {
                 "isAbout": "items/stp_1_wkdy_hr_p",
@@ -348,6 +355,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2457",
+    "version": "revid2458",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
