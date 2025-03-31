@@ -2,37 +2,43 @@
     "id": "diag_confidence_cv",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Please answer the questions below about your child:"
+        "en": "Please answer the questions below about your child:",
+        "es": "Por favor responda las siguientes preguntas sobre su hijo(a):"
     },
     "prefLabel": {
         "en": "diag_confidence_cv"
     },
     "question": {
-        "en": "How confident are you in this coronavirus diagnosis?"
+        "en": "How confident are you in this coronavirus diagnosis?",
+        "es": "\u00c2\u00bfQu\u00c3\u00a9 tan seguro est\u00c3\u00a1 con este diagn\u00c3\u00b3stico de coronavirus?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Certain"
+                    "en": "Certain",
+                    "es": "Seguro(a)"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Fairly certain"
+                    "en": "Fairly certain",
+                    "es": "Bastante seguro(a)"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Not sure"
+                    "en": "Not sure",
+                    "es": "No estoy seguro(a)"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "I don't think my child had coronavirus"
+                    "en": "I don't think my child had coronavirus",
+                    "es": "No creo que mi hijo(a) tenga coronavirus"
                 },
                 "value": 4
             }

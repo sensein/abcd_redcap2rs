@@ -5,7 +5,7 @@
         {
             "column": "Field Note",
             "source": "redcap",
-            "value": "Hours"
+            "value": "<span lang='en'>Hours</span><span lang=\"es\" style=\"color:maroon;\">Horas</span>"
         },
         {
             "column": "Custom Alignment",
@@ -14,19 +14,21 @@
         }
     ],
     "preamble": {
-        "en": "News"
+        "en": "News",
+        "es": "Noticias"
     },
     "prefLabel": {
         "en": "child_news_time_cv"
     },
     "question": {
-        "en": "Over the past week about how much time per day do you think your child has been getting news from television news sources about the coronavirus and its impact? (hours)"
+        "en": "Over the past week about how much time per day do you think your child has been getting news from television news sources about the coronavirus and its impact? (hours)",
+        "es": "En la \u00c3\u00baltima semana aproximadamente \u00c2\u00bfcuanto tiempo al d\u00c3\u00ada cree usted que su hijo/a ha recibido noticias de fuentes de producci\u00c3\u00b3n televisiva sobre el coronavirus y su impacto? (horas)"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Less than 1"
+                    "en": "##en##Less than 1##/en####es##Menos de 1##/es##"
                 },
                 "value": 0
             },
@@ -170,7 +172,7 @@
             },
             {
                 "name": {
-                    "en": "None"
+                    "en": "##en##None##/en####es##Ninguno##/es##"
                 },
                 "value": 24
             }

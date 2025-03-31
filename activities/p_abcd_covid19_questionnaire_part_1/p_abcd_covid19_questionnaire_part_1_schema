@@ -15,6 +15,8 @@
             "items/fam_size_cv",
             "items/fam_expose_cv",
             "items/fam_self_quarantine_cv",
+            "items/fam_actions_cv",
+            "items/p_cope_cv",
             "items/fam_wage_loss_cv",
             "items/fam_exp1_cv",
             "items/fam_exp2_cv",
@@ -23,7 +25,6 @@
             "items/fam_exp5_cv",
             "items/fam_exp6_cv",
             "items/fam_exp7_v2_cv",
-            "items/fam_actions_cv",
             "items/fam_exp_racism_cv",
             "items/increased_conflict_cv",
             "items/worry_about_cv",
@@ -31,7 +32,6 @@
             "items/think_will_hospitalized_cv",
             "items/think_will_get_cv",
             "items/think_someone_close_get_cv",
-            "items/su_instruc_cv",
             "items/su_p_cig_use_cv",
             "items/su_p_cig_loc_cv",
             "items/su_p_vape_use_cv",
@@ -55,7 +55,6 @@
             "items/fam_discord_cv",
             "items/ext_fam_diag_cv",
             "items/ext_fam_severity_cv",
-            "items/p_cope_cv",
             "items/p_abcd_covid19_questionnaire_part_1_complete"
         ],
         "addProperties": [
@@ -108,6 +107,18 @@
                 "variableName": "fam_self_quarantine_cv"
             },
             {
+                "isAbout": "items/fam_actions_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fam_actions_cv"
+            },
+            {
+                "isAbout": "items/p_cope_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "p_cope_cv"
+            },
+            {
                 "isAbout": "items/fam_wage_loss_cv",
                 "isVis": true,
                 "valueRequired": true,
@@ -156,12 +167,6 @@
                 "variableName": "fam_exp7_v2_cv"
             },
             {
-                "isAbout": "items/fam_actions_cv",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "fam_actions_cv"
-            },
-            {
                 "isAbout": "items/fam_exp_racism_cv",
                 "isVis": "event - name == 'covid19_cv1_arm_3' || event - name == 'covid19_cv3_arm_3'",
                 "valueRequired": true,
@@ -202,12 +207,6 @@
                 "isVis": "event - name == 'covid19_cv1_arm_3' || event - name == 'covid19_cv3_arm_3'",
                 "valueRequired": true,
                 "variableName": "think_someone_close_get_cv"
-            },
-            {
-                "isAbout": "items/su_instruc_cv",
-                "isVis": "event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3'",
-                "valueRequired": false,
-                "variableName": "su_instruc_cv"
             },
             {
                 "isAbout": "items/su_p_cig_use_cv",
@@ -348,12 +347,6 @@
                 "variableName": "ext_fam_severity_cv"
             },
             {
-                "isAbout": "items/p_cope_cv",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "p_cope_cv"
-            },
-            {
                 "isAbout": "items/p_abcd_covid19_questionnaire_part_1_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -362,6 +355,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2515",
+    "version": "revid2516",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,0 +1,68 @@
+{
+    "id": "prepared_child_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "feel_group_cv"
+        }
+    ],
+    "preamble": {
+        "en": "Please indicate how much you agree or disagree with these statements:",
+        "es": "Indique cu\u00c3\u00a1nto est\u00c3\u00a1 de acuerdo o en desacuerdo con estas declaraciones:"
+    },
+    "prefLabel": {
+        "en": "prepared_child_cv"
+    },
+    "question": {
+        "en": "I have prepared my child for our lives to change significantly",
+        "es": "He preparado a mi hijo/a para que nuestras vidas cambien considerablemente"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Strongly Disagree",
+                    "es": "Muy en Desacuerdo"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Disagree",
+                    "es": "Desacuerdo"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Neither Disagree or Agree",
+                    "es": "Ni en desacuerdo ni de acuerdo"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Agree",
+                    "es": "Acuerdo"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Strongly Agree",
+                    "es": "Muy de acuerdo"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

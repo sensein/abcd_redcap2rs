@@ -87,6 +87,7 @@
             "items/child_fear_cv",
             "items/child_enjoy_cv",
             "items/talk_wash_cv",
+            "items/talk_social_distance_cv",
             "items/talk_cancel_cv",
             "items/talk_isolate_cv",
             "items/talk_symptoms_cv",
@@ -94,11 +95,13 @@
             "items/talk_race_cv",
             "items/talk_conserve_cv",
             "items/assure_child_cv",
+            "items/prepared_child_cv",
             "items/child_sched_cv",
             "items/child_worry_cv",
             "items/p_feeling_cv",
             "items/p_safety_cv",
             "items/avoid_discussing_cv",
+            "items/encouraged_cv",
             "items/avoid_talking_about_cv",
             "items/child_frustrated_cv",
             "items/child_breaking_rules_cv",
@@ -176,7 +179,7 @@
             },
             {
                 "isAbout": "items/went_to_school_cv",
-                "isVis": "school_close_cv == '1'",
+                "isVis": "school_close_cv == '1' || school_close_cv == '999' || school_close_cv == '3'",
                 "valueRequired": true,
                 "variableName": "went_to_school_cv"
             },
@@ -200,7 +203,7 @@
             },
             {
                 "isAbout": "items/school_reopen_date_dk_cv",
-                "isVis": "school_close_cv == '2' || school_close_cv == '3'",
+                "isVis": "school_close_cv == '2'",
                 "valueRequired": true,
                 "variableName": "school_reopen_date_dk_cv"
             },
@@ -314,13 +317,13 @@
             },
             {
                 "isAbout": "items/child_phys_activity_time_cv",
-                "isVis": "child_phys_activity_days_cv > '0'",
+                "isVis": "child_phys_activity_days_cv <> '8'",
                 "valueRequired": true,
                 "variableName": "child_phys_activity_time_cv"
             },
             {
                 "isAbout": "items/child_phys_activity_min_cv",
-                "isVis": "child_phys_activity_days_cv > '0'",
+                "isVis": "child_phys_activity_days_cv <> '8'",
                 "valueRequired": true,
                 "variableName": "child_phys_activity_min_cv"
             },
@@ -344,31 +347,31 @@
             },
             {
                 "isAbout": "items/child_reluc_cv",
-                "isVis": true,
+                "isVis": "event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3'",
                 "valueRequired": true,
                 "variableName": "child_reluc_cv"
             },
             {
                 "isAbout": "items/child_sleep_difficult_cv",
-                "isVis": true,
+                "isVis": "event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3'",
                 "valueRequired": true,
                 "variableName": "child_sleep_difficult_cv"
             },
             {
                 "isAbout": "items/child_sleep_anxiety_cv",
-                "isVis": true,
+                "isVis": "event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3'",
                 "valueRequired": true,
                 "variableName": "child_sleep_anxiety_cv"
             },
             {
                 "isAbout": "items/child_wake_up",
-                "isVis": true,
+                "isVis": "event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3'",
                 "valueRequired": true,
                 "variableName": "child_wake_up"
             },
             {
                 "isAbout": "items/child_sleep_again",
-                "isVis": true,
+                "isVis": "event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3'",
                 "valueRequired": true,
                 "variableName": "child_sleep_again"
             },
@@ -446,7 +449,7 @@
             },
             {
                 "isAbout": "items/child_news_source_cv",
-                "isVis": "child_news_time_cv <> ''",
+                "isVis": "child_news_time_cv <> '24'",
                 "valueRequired": true,
                 "variableName": "child_news_source_cv"
             },
@@ -458,43 +461,43 @@
             },
             {
                 "isAbout": "items/child_asthma_symptoms_cv",
-                "isVis": "child_diag_asthma_cv == '1'",
+                "isVis": "child_diag_asthma_cv == '2'",
                 "valueRequired": true,
                 "variableName": "child_asthma_symptoms_cv"
             },
             {
                 "isAbout": "items/child_asthma_medi_cv",
-                "isVis": "child_diag_asthma_cv == '1'",
+                "isVis": "child_diag_asthma_cv == '2'",
                 "valueRequired": true,
                 "variableName": "child_asthma_medi_cv"
             },
             {
                 "isAbout": "items/asthma_medi_corti_cv",
-                "isVis": true,
+                "isVis": "child_asthma_medi_cv == '2'",
                 "valueRequired": true,
                 "variableName": "asthma_medi_corti_cv"
             },
             {
                 "isAbout": "items/asthma_medi_inhaler_cv",
-                "isVis": true,
+                "isVis": "child_asthma_medi_cv == '2'",
                 "valueRequired": true,
                 "variableName": "asthma_medi_inhaler_cv"
             },
             {
                 "isAbout": "items/asthma_medi_steriods_cv",
-                "isVis": true,
+                "isVis": "child_asthma_medi_cv == '2'",
                 "valueRequired": true,
                 "variableName": "asthma_medi_steriods_cv"
             },
             {
                 "isAbout": "items/asthma_medi_injection_cv",
-                "isVis": true,
+                "isVis": "child_asthma_medi_cv == '2'",
                 "valueRequired": true,
                 "variableName": "asthma_medi_injection_cv"
             },
             {
                 "isAbout": "items/asthma_medi_zpak_cv",
-                "isVis": true,
+                "isVis": "child_asthma_medi_cv == '2'",
                 "valueRequired": true,
                 "variableName": "asthma_medi_zpak_cv"
             },
@@ -595,6 +598,12 @@
                 "variableName": "talk_wash_cv"
             },
             {
+                "isAbout": "items/talk_social_distance_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "talk_social_distance_cv"
+            },
+            {
                 "isAbout": "items/talk_cancel_cv",
                 "isVis": true,
                 "valueRequired": true,
@@ -632,31 +641,37 @@
             },
             {
                 "isAbout": "items/assure_child_cv",
-                "isVis": true,
+                "isVis": "event - name == 'covid19_cv1_arm_3' || event - name == 'covid19_cv3_arm_3'",
                 "valueRequired": true,
                 "variableName": "assure_child_cv"
             },
             {
+                "isAbout": "items/prepared_child_cv",
+                "isVis": "event - name == 'covid19_cv1_arm_3' || event - name == 'covid19_cv3_arm_3'",
+                "valueRequired": true,
+                "variableName": "prepared_child_cv"
+            },
+            {
                 "isAbout": "items/child_sched_cv",
-                "isVis": true,
+                "isVis": "event - name == 'covid19_cv1_arm_3' || event - name == 'covid19_cv3_arm_3'",
                 "valueRequired": true,
                 "variableName": "child_sched_cv"
             },
             {
                 "isAbout": "items/child_worry_cv",
-                "isVis": true,
+                "isVis": "event - name == 'covid19_cv1_arm_3' || event - name == 'covid19_cv3_arm_3'",
                 "valueRequired": true,
                 "variableName": "child_worry_cv"
             },
             {
                 "isAbout": "items/p_feeling_cv",
-                "isVis": true,
+                "isVis": "event - name == 'covid19_cv1_arm_3' || event - name == 'covid19_cv3_arm_3'",
                 "valueRequired": true,
                 "variableName": "p_feeling_cv"
             },
             {
                 "isAbout": "items/p_safety_cv",
-                "isVis": true,
+                "isVis": "event - name == 'covid19_cv1_arm_3' || event - name == 'covid19_cv3_arm_3'",
                 "valueRequired": true,
                 "variableName": "p_safety_cv"
             },
@@ -665,6 +680,12 @@
                 "isVis": "event - name == 'covid19_cv1_arm_3' || event - name == 'covid19_cv3_arm_3'",
                 "valueRequired": true,
                 "variableName": "avoid_discussing_cv"
+            },
+            {
+                "isAbout": "items/encouraged_cv",
+                "isVis": "event - name == 'covid19_cv1_arm_3' || event - name == 'covid19_cv3_arm_3'",
+                "valueRequired": true,
+                "variableName": "encouraged_cv"
             },
             {
                 "isAbout": "items/avoid_talking_about_cv",
@@ -728,13 +749,13 @@
             },
             {
                 "isAbout": "items/bio_mom_hos_cv",
-                "isVis": "fam_covid_yn_cv == '2' &&(event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3')",
+                "isVis": "fam_member_relation_p_cv___1 =='1' &&(event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3')",
                 "valueRequired": true,
                 "variableName": "bio_mom_hos_cv"
             },
             {
                 "isAbout": "items/bio_dad_hos_cv",
-                "isVis": "fam_covid_yn_cv == '1' &&(event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3')",
+                "isVis": "fam_member_relation_p_cv___2 == '1' &&(event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3')",
                 "valueRequired": true,
                 "variableName": "bio_dad_hos_cv"
             },
@@ -747,6 +768,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2515",
+    "version": "revid2516",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,0 +1,64 @@
+{
+    "id": "encouraged_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "talk_cv"
+        }
+    ],
+    "prefLabel": {
+        "en": "encouraged_cv"
+    },
+    "question": {
+        "en": "I have encouraged my child not to focus on coronavirus or its impacts on people and the world",
+        "es": "He animado a mi hijo/a que no se enfoque en el coronavirus o en el impacto que tiene en la gente y el mundo"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Strongly Disagree",
+                    "es": "Muy en Desacuerdo"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Disagree",
+                    "es": "Desacuerdo"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Neither Disagree or Agree",
+                    "es": "Ni en desacuerdo ni de acuerdo"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Agree",
+                    "es": "Acuerdo"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Strongly Agree",
+                    "es": "Muy de acuerdo"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

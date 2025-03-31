@@ -1,6 +1,10 @@
 {
     "id": "fam_supp_acc_cv",
     "category": "reproschema:Item",
+    "preamble": {
+        "en": "Below is a list of items that describe people. For each item, select the response that describes YOU over thepast\u00e2\u0080\u00a8 month.Please answer all items as well as you can, even if some do not seem to apply to you.",
+        "es": "A continuaci\u00c3\u00b3n hay una lista de elementos que describen a las personas. Para cada elemento, seleccione la respuesta que lo describe a USTED en elmes pasado. Responda todos los elementos lo mejor que pueda, incluso si algunos no parecen aplicar a usted."
+    },
     "prefLabel": {
         "en": "fam_supp_acc_cv"
     },
@@ -12,29 +16,29 @@
         "choices": [
             {
                 "name": {
-                    "en": "No change.",
+                    "en": "No change",
                     "es": "Ning\u00c3\u00ban cambio"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "Mild. Continued visits with social distancing and/or regular phone calls and/or televideo or social media contacts.",
-                    "es": "Leve. Visitas continuas con distanciamiento social y/o llamadas regulares y/o contactos de televideo o redes sociales"
+                    "en": "Mild: Continued visits with social distancing and/or regular phone calls and/or televideo or social media contacts",
+                    "es": "Leve: Visitas continuas con distanciamiento social y/o llamadas regulares y/o contactos de televideo o redes sociales"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Moderate. Loss of in person and remote contact with a few people, but not all supports.",
-                    "es": "Moderado. P\u00c3\u00a9rdida de contacto en persona y lejano con algunas personas, pero no todos los apoyos."
+                    "en": "Moderate: Loss of in person and remote contact with a few people, but not all supports",
+                    "es": "Moderado: P\u00c3\u00a9rdida de contacto en persona y lejano con algunas personas, pero no todos los apoyos"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Severe. Loss of in person and remote contact with all supports",
-                    "es": "Severo. P\u00c3\u00a9rdida de contacto en persona y lejano con todos los apoyos."
+                    "en": "Severe: Loss of in person and remote contact with all supports",
+                    "es": "Severo: P\u00c3\u00a9rdida de contacto en persona y lejano con todos los apoyos"
                 },
                 "value": 3
             }

@@ -5,17 +5,19 @@
         {
             "column": "Field Note",
             "source": "redcap",
-            "value": "Hours"
+            "value": "<span lang='en'>Hours</span><span lang=\"es\" style=\"color:maroon;\">Horas</span>"
         }
     ],
     "preamble": {
-        "en": "Youth's RoutineDuring thepast week:"
+        "en": "Youth's RoutineDuring thepast week:",
+        "es": "Rutina de su hijo/a\n\nEn laultima semana:"
     },
     "prefLabel": {
         "en": "child_phys_activity_time_cv"
     },
     "question": {
-        "en": "How much time did your child usually spend doing moderate or vigorous physical activities on one of those days? (Hours/minutes)"
+        "en": "How much time did your child usually spend doing moderate or vigorous physical activities on one of those days? (Hours/minutes)",
+        "es": "\u00c2\u00bfCu\u00c3\u00a1nto tiempo paso su hijo/a usualmente haciendo actividad f\u00c3\u00adsica moderada o vigorosa en uno de esos d\u00c3\u00adas? (Horas/minutos)"
     },
     "responseOptions": {
         "choices": [
@@ -165,15 +167,15 @@
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "##en##Don't know##/en####es##No se##/es##"
                 },
-                "value": 24
+                "value": 999
             },
             {
                 "name": {
-                    "en": "Refused to answer"
+                    "en": "777, ##en##Refused to answer##/en####es##Niego contestar##/es##"
                 },
-                "value": 25
+                "value": 777
             }
         ],
         "valueType": [

@@ -1,6 +1,10 @@
 {
     "id": "ext_fam_severity_cv",
     "category": "reproschema:Item",
+    "preamble": {
+        "en": "Below is a list of items that describe people. For each item, select the response that describes YOU over thepast\u00e2\u0080\u00a8 month.Please answer all items as well as you can, even if some do not seem to apply to you.",
+        "es": "A continuaci\u00c3\u00b3n hay una lista de elementos que describen a las personas. Para cada elemento, seleccione la respuesta que lo describe a USTED en elmes pasado. Responda todos los elementos lo mejor que pueda, incluso si algunos no parecen aplicar a usted."
+    },
     "prefLabel": {
         "en": "ext_fam_severity_cv"
     },
@@ -12,28 +16,28 @@
         "choices": [
             {
                 "name": {
-                    "en": "Mild. Symptoms effectively managed at home.",
-                    "es": "Leve. Los s\u00c3\u00adntomas manejados efectivamente en el hogar"
+                    "en": "Mild: Symptoms effectively managed at home.",
+                    "es": "Leve: Los s\u00c3\u00adntomas manejados efectivamente en el hogar"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Moderate. Symptoms severe and required brief hospitalization",
-                    "es": "Moderado. S\u00c3\u00adntomas severos y requiri\u00c3\u00b3 hospitalizaci\u00c3\u00b3n breve"
+                    "en": "Moderate: Symptoms severe and required brief hospitalization",
+                    "es": "Moderado: S\u00c3\u00adntomas severos y requiri\u00c3\u00b3 hospitalizaci\u00c3\u00b3n breve"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Severe. Symptoms severe and required ventilation. Immediate family member died from coronavirus.",
-                    "es": "Grave. S\u00c3\u00adntomas severos y requiriendo ventilaci\u00c3\u00b3n."
+                    "en": "Severe: Symptoms severe and required ventilation",
+                    "es": "Grave: S\u00c3\u00adntomas severos y requiriendo ventilaci\u00c3\u00b3n"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Extended family member and/or close friend died of coronavirus.",
+                    "en": "Extended family member and/or close friend died of coronavirus",
                     "es": "Un miembro de la familia extendida y/o un amigo cercano murieron de coronavirus"
                 },
                 "value": 4

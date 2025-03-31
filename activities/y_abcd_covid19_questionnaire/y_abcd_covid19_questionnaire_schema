@@ -1,12 +1,6 @@
 {
     "id": "y_abcd_covid19_questionnaire_schema",
     "category": "reproschema:Activity",
-    "compute": [
-        {
-            "jsExpression": "(sum(60 * online_arts_cv,online_arts_min_cv)+ sum(60 * online_science_cv,online_science_min_cv)+ sum(60 * online_other_cv,online_other_min_cv))/ 60",
-            "variableName": "online_act_total_cv"
-        }
-    ],
     "prefLabel": {
         "en": "y_abcd_covid19_questionnaire"
     },
@@ -18,11 +12,8 @@
             "items/school_cv",
             "items/online_activities_cv",
             "items/online_arts_cv",
-            "items/online_arts_min_cv",
             "items/online_science_cv",
-            "items/online_science_min_cv",
             "items/online_other_cv",
-            "items/online_other_min_cv",
             "items/school_like_activities_cv",
             "items/parent_involved_school_cv",
             "items/assist_sched_cv",
@@ -33,17 +24,13 @@
             "items/missing_school_cv",
             "items/enjoyed_school_wk_y_cv",
             "items/mctq_fd_btime_cv",
-            "items/mctq_fd_btime_min_cv",
             "items/mctq_fd_time_asleep_cv",
-            "items/mctq_fd_time_asleep_min_cv",
             "items/mctq_fd_min_to_sleep_cv",
             "items/mctq_fd_num_wake_up_cv",
             "items/mctq_fd_awakening_min_cv",
             "items/mctq_fd_wake_up_time_cv",
-            "items/mctq_fd_wake_up_time2_cv",
             "items/mctq_fd_min_to_get_up_cv",
             "items/mctq_schedule_time_cv",
-            "items/mctq_schedule_min_cv",
             "items/routine_cv",
             "items/bedtime_routine_cv",
             "items/fam_act_cv",
@@ -147,27 +134,16 @@
             "items/news_update_cv",
             "items/social_media_platform_cv",
             "items/screentime_7_wknd_hr_cv",
-            "items/screentime_7_wknd_min_cv",
             "items/screentime_9_wknd_hr_cv",
-            "items/screentime_9_wknd_min_cv",
             "items/screentime_10_wknd_hr_cv",
-            "items/screentime_10_wknd_min_cv",
             "items/screentime_11_wknd_hr_cv",
-            "items/screentime_11_wknd_min_cv",
             "items/screentime_12_wknd_hr_cv",
-            "items/screentime_12_wknd_min_cv",
             "items/screentime_14_wknd_hr_cv",
-            "items/screentime_14_wknd_min_cv",
             "items/screentime_15_wknd_hr_cv",
-            "items/screentime_15_wknd_min_cv",
             "items/screentime_wknd_typical_hr_cv",
-            "items/screentime_wknd_typical_min_cv",
             "items/screentime_wknd_hr_cv",
-            "items/screentime_wknd_min_cv",
             "items/screentime_cv",
-            "items/screentime_min_cv",
             "items/screentime_music_cv",
-            "items/screentime_music_min_cv",
             "items/walk_10_min_per_day_cv",
             "items/walking_hour_per_day_cv",
             "items/walking_min_per_day_cv",
@@ -211,40 +187,16 @@
                 "variableName": "online_arts_cv"
             },
             {
-                "isAbout": "items/online_arts_min_cv",
-                "isVis": "school_cv == '1' || school_cv == '3'",
-                "valueRequired": true,
-                "variableName": "online_arts_min_cv"
-            },
-            {
                 "isAbout": "items/online_science_cv",
                 "isVis": "school_cv == '1' || school_cv == '3'",
                 "valueRequired": true,
                 "variableName": "online_science_cv"
             },
             {
-                "isAbout": "items/online_science_min_cv",
-                "isVis": "school_cv == '1' || school_cv == '3'",
-                "valueRequired": true,
-                "variableName": "online_science_min_cv"
-            },
-            {
                 "isAbout": "items/online_other_cv",
                 "isVis": "school_cv == '1' || school_cv == '3'",
                 "valueRequired": true,
                 "variableName": "online_other_cv"
-            },
-            {
-                "isAbout": "items/online_other_min_cv",
-                "isVis": "school_cv == '1' || school_cv == '3'",
-                "valueRequired": true,
-                "variableName": "online_other_min_cv"
-            },
-            {
-                "isAbout": "items/online_act_total_cv",
-                "isVis": false,
-                "valueRequired": true,
-                "variableName": "online_act_total_cv"
             },
             {
                 "isAbout": "items/school_like_activities_cv",
@@ -307,22 +259,10 @@
                 "variableName": "mctq_fd_btime_cv"
             },
             {
-                "isAbout": "items/mctq_fd_btime_min_cv",
-                "isVis": false,
-                "valueRequired": true,
-                "variableName": "mctq_fd_btime_min_cv"
-            },
-            {
                 "isAbout": "items/mctq_fd_time_asleep_cv",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "mctq_fd_time_asleep_cv"
-            },
-            {
-                "isAbout": "items/mctq_fd_time_asleep_min_cv",
-                "isVis": false,
-                "valueRequired": true,
-                "variableName": "mctq_fd_time_asleep_min_cv"
             },
             {
                 "isAbout": "items/mctq_fd_min_to_sleep_cv",
@@ -349,12 +289,6 @@
                 "variableName": "mctq_fd_wake_up_time_cv"
             },
             {
-                "isAbout": "items/mctq_fd_wake_up_time2_cv",
-                "isVis": false,
-                "valueRequired": true,
-                "variableName": "mctq_fd_wake_up_time2_cv"
-            },
-            {
                 "isAbout": "items/mctq_fd_min_to_get_up_cv",
                 "isVis": true,
                 "valueRequired": true,
@@ -365,12 +299,6 @@
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "mctq_schedule_time_cv"
-            },
-            {
-                "isAbout": "items/mctq_schedule_min_cv",
-                "isVis": false,
-                "valueRequired": true,
-                "variableName": "mctq_schedule_min_cv"
             },
             {
                 "isAbout": "items/routine_cv",
@@ -991,22 +919,10 @@
                 "variableName": "screentime_7_wknd_hr_cv"
             },
             {
-                "isAbout": "items/screentime_7_wknd_min_cv",
-                "isVis": false,
-                "valueRequired": true,
-                "variableName": "screentime_7_wknd_min_cv"
-            },
-            {
                 "isAbout": "items/screentime_9_wknd_hr_cv",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "screentime_9_wknd_hr_cv"
-            },
-            {
-                "isAbout": "items/screentime_9_wknd_min_cv",
-                "isVis": false,
-                "valueRequired": true,
-                "variableName": "screentime_9_wknd_min_cv"
             },
             {
                 "isAbout": "items/screentime_10_wknd_hr_cv",
@@ -1015,22 +931,10 @@
                 "variableName": "screentime_10_wknd_hr_cv"
             },
             {
-                "isAbout": "items/screentime_10_wknd_min_cv",
-                "isVis": false,
-                "valueRequired": true,
-                "variableName": "screentime_10_wknd_min_cv"
-            },
-            {
                 "isAbout": "items/screentime_11_wknd_hr_cv",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "screentime_11_wknd_hr_cv"
-            },
-            {
-                "isAbout": "items/screentime_11_wknd_min_cv",
-                "isVis": false,
-                "valueRequired": true,
-                "variableName": "screentime_11_wknd_min_cv"
             },
             {
                 "isAbout": "items/screentime_12_wknd_hr_cv",
@@ -1039,22 +943,10 @@
                 "variableName": "screentime_12_wknd_hr_cv"
             },
             {
-                "isAbout": "items/screentime_12_wknd_min_cv",
-                "isVis": false,
-                "valueRequired": true,
-                "variableName": "screentime_12_wknd_min_cv"
-            },
-            {
                 "isAbout": "items/screentime_14_wknd_hr_cv",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "screentime_14_wknd_hr_cv"
-            },
-            {
-                "isAbout": "items/screentime_14_wknd_min_cv",
-                "isVis": false,
-                "valueRequired": true,
-                "variableName": "screentime_14_wknd_min_cv"
             },
             {
                 "isAbout": "items/screentime_15_wknd_hr_cv",
@@ -1063,22 +955,10 @@
                 "variableName": "screentime_15_wknd_hr_cv"
             },
             {
-                "isAbout": "items/screentime_15_wknd_min_cv",
-                "isVis": false,
-                "valueRequired": true,
-                "variableName": "screentime_15_wknd_min_cv"
-            },
-            {
                 "isAbout": "items/screentime_wknd_typical_hr_cv",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "screentime_wknd_typical_hr_cv"
-            },
-            {
-                "isAbout": "items/screentime_wknd_typical_min_cv",
-                "isVis": false,
-                "valueRequired": true,
-                "variableName": "screentime_wknd_typical_min_cv"
             },
             {
                 "isAbout": "items/screentime_wknd_hr_cv",
@@ -1087,34 +967,16 @@
                 "variableName": "screentime_wknd_hr_cv"
             },
             {
-                "isAbout": "items/screentime_wknd_min_cv",
-                "isVis": false,
-                "valueRequired": true,
-                "variableName": "screentime_wknd_min_cv"
-            },
-            {
                 "isAbout": "items/screentime_cv",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "screentime_cv"
             },
             {
-                "isAbout": "items/screentime_min_cv",
-                "isVis": false,
-                "valueRequired": true,
-                "variableName": "screentime_min_cv"
-            },
-            {
                 "isAbout": "items/screentime_music_cv",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "screentime_music_cv"
-            },
-            {
-                "isAbout": "items/screentime_music_min_cv",
-                "isVis": false,
-                "valueRequired": true,
-                "variableName": "screentime_music_min_cv"
             },
             {
                 "isAbout": "items/walk_10_min_per_day_cv",
@@ -1179,6 +1041,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2515",
+    "version": "revid2516",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

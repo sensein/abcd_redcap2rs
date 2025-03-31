@@ -5,11 +5,12 @@
         {
             "column": "Field Note",
             "source": "redcap",
-            "value": "Minutes"
+            "value": "<span lang='en'>Minutes</span><span lang=\"es\" style=\"color:maroon;\">Minutos</span>"
         }
     ],
     "preamble": {
-        "en": "Youth's RoutineDuring thepast week:"
+        "en": "Youth's RoutineDuring thepast week:",
+        "es": "Rutina de su hijo/a\n\nEn laultima semana:"
     },
     "prefLabel": {
         "en": "child_phys_activity_min_cv"
@@ -55,15 +56,15 @@
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "##en##Don't know##/en####es##No se##/es##"
                 },
-                "value": 6
+                "value": 999
             },
             {
                 "name": {
-                    "en": "Refused to answer"
+                    "en": "777, ##en##Refused to answer##/en####es##Niego contestar##/es##"
                 },
-                "value": 7
+                "value": 777
             }
         ],
         "valueType": [

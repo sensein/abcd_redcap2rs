@@ -1,11 +1,16 @@
 {
     "id": "su_p_alc_drinks_used_cv",
     "category": "reproschema:Item",
+    "preamble": {
+        "en": "Below is a list of items that describe people. For each item, select the response that describes YOU over thepast\u00e2\u0080\u00a8 month.Please answer all items as well as you can, even if some do not seem to apply to you.",
+        "es": "A continuaci\u00c3\u00b3n hay una lista de elementos que describen a las personas. Para cada elemento, seleccione la respuesta que lo describe a USTED en elmes pasado. Responda todos los elementos lo mejor que pueda, incluso si algunos no parecen aplicar a usted."
+    },
     "prefLabel": {
         "en": "su_p_alc_drinks_used_cv"
     },
     "question": {
-        "en": "How many alcoholic drinks did you have on a typical day when you drank alcohol?"
+        "en": "How many alcoholic drinks did you have on a typical day when you drank alcohol?",
+        "es": "\u00c2\u00bfCu\u00c3\u00a1ntas bebidas alcoh\u00c3\u00b3licas tom\u00c3\u00b3 en un d\u00c3\u00ada t\u00c3\u00adpico cuando bebi\u00c3\u00b3 alcohol?"
     },
     "responseOptions": {
         "choices": [
@@ -161,8 +166,7 @@
             },
             {
                 "name": {
-                    "en": "More than 24",
-                    "es": "M\u00c3\u00a1s de 24"
+                    "en": "##en##More than 24##/en####es##Ma\u00cc\u0081s de 24##/es##"
                 },
                 "value": 25
             }

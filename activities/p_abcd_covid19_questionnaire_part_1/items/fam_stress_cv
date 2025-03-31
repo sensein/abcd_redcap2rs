@@ -1,6 +1,10 @@
 {
     "id": "fam_stress_cv",
     "category": "reproschema:Item",
+    "preamble": {
+        "en": "Below is a list of items that describe people. For each item, select the response that describes YOU over thepast\u00e2\u0080\u00a8 month.Please answer all items as well as you can, even if some do not seem to apply to you.",
+        "es": "A continuaci\u00c3\u00b3n hay una lista de elementos que describen a las personas. Para cada elemento, seleccione la respuesta que lo describe a USTED en elmes pasado. Responda todos los elementos lo mejor que pueda, incluso si algunos no parecen aplicar a usted."
+    },
     "prefLabel": {
         "en": "fam_stress_cv"
     },
@@ -12,29 +16,29 @@
         "choices": [
             {
                 "name": {
-                    "en": "None.",
+                    "en": "None",
                     "es": "Ning\u00c3\u00ban/Ninguno"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "Mild. Occasional worries and/or minor stress-related symptoms (e.g., feel a little anxious, sad, and/or angry; mild/rare trouble sleeping).",
-                    "es": "Leve. Preocupaciones ocasionales y/o s\u00c3\u00adntomas menores relacionados con el estr\u00c3\u00a9s (por ejemplo, sentir un poco de ansiedad, tristeza y/o enojo, problemas leves/raros para dormir)"
+                    "en": "Mild: Occasional worries and/or minor stress-related symptoms (e.g., feel a little anxious, sad, and/or angry; mild/rare trouble sleeping)",
+                    "es": "Leve: Preocupaciones ocasionales y/o s\u00c3\u00adntomas menores relacionados con el estr\u00c3\u00a9s (por ejemplo, sentir un poco de ansiedad, tristeza y/o enojo, problemas leves/raros para dormir)"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Moderate. Frequent worries and/or moderate stress-related symptoms (e.g., feel moderately anxious, sad, and/or angry; moderate/occasional trouble sleeping).",
-                    "es": "Moderado. Preocupaciones frecuentes y/o s\u00c3\u00adntomas moderados relacionados con el estr\u00c3\u00a9s (por ejemplo, sentir ansiedad moderada, tristeza y/o enojo; problemas moderada/ocasional para dormir)"
+                    "en": "Moderate: Frequent worries and/or moderate stress-related symptoms (e.g., feel moderately anxious, sad, and/or angry; moderate/occasional trouble sleeping)",
+                    "es": "Moderado: Preocupaciones frecuentes y/o s\u00c3\u00adntomas moderados relacionados con el estr\u00c3\u00a9s (por ejemplo, sentir ansiedad moderada, tristeza y/o enojo; problemas moderada/ocasional para dormir)"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Severe. Persistent worries and/or severe stress-related symptoms (e.g., feel extremely anxious, sad, and/or angry; severe/frequent trouble sleeping).",
-                    "es": "Severo. Preocupaciones persistentes y/o s\u00c3\u00adntomas graves relacionados con el estr\u00c3\u00a9s (por ejemplo \u00e2\u0080\u00a8sentir ansiedad extrema, tristeza y/o enojo; problemas severas/frecuentes para dormir)"
+                    "en": "Severe: Persistent worries and/or severe stress-related symptoms (e.g., feel extremely anxious, sad, and/or angry; severe/frequent trouble sleeping)",
+                    "es": "Severo: Preocupaciones persistentes y/o s\u00c3\u00adntomas graves relacionados con el estr\u00c3\u00a9s (por ejemplo \u00e2\u0080\u00a8sentir ansiedad extrema, tristeza y/o enojo; problemas severas/frecuentes para dormir)"
                 },
                 "value": 3
             }
