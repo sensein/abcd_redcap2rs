@@ -1,0 +1,169 @@
+{
+    "id": "y_covid19_questionnaire_1_schema",
+    "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "sum(60 * online_arts_cv,online_arts_min_cv)+ sum(60 * online_science_cv,online_science_min_cv)+ sum(60 * online_other_cv,online_other_min_cv)",
+            "variableName": "online_act_total_cv"
+        }
+    ],
+    "prefLabel": {
+        "en": "y_covid19_questionnaire_1"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/pets_cv",
+            "items/pet_identify_cv",
+            "items/school_cv",
+            "items/online_activities_cv",
+            "items/online_arts_cv",
+            "items/online_arts_min_cv",
+            "items/online_science_cv",
+            "items/online_science_min_cv",
+            "items/online_other_cv",
+            "items/online_other_min_cv",
+            "items/school_like_activities_cv",
+            "items/parent_involved_school_cv",
+            "items/assist_sched_cv",
+            "items/check_hw_cv",
+            "items/teach_concept_cv",
+            "items/create_asgn_act_cv",
+            "items/school_work_cv",
+            "items/missing_school_cv",
+            "items/enjoyed_school_wk_y_cv",
+            "items/y_covid19_questionnaire_1_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/pets_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pets_cv"
+            },
+            {
+                "isAbout": "items/pet_identify_cv",
+                "isVis": "pets_cv == '1'",
+                "valueRequired": true,
+                "variableName": "pet_identify_cv"
+            },
+            {
+                "isAbout": "items/school_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "school_cv"
+            },
+            {
+                "isAbout": "items/online_activities_cv",
+                "isVis": "school_cv == '1' || school_cv == '3'",
+                "valueRequired": false,
+                "variableName": "online_activities_cv"
+            },
+            {
+                "isAbout": "items/online_arts_cv",
+                "isVis": "school_cv == '1' || school_cv == '3'",
+                "valueRequired": true,
+                "variableName": "online_arts_cv"
+            },
+            {
+                "isAbout": "items/online_arts_min_cv",
+                "isVis": "school_cv == '1' || school_cv == '3'",
+                "valueRequired": true,
+                "variableName": "online_arts_min_cv"
+            },
+            {
+                "isAbout": "items/online_science_cv",
+                "isVis": "school_cv == '1' || school_cv == '3'",
+                "valueRequired": true,
+                "variableName": "online_science_cv"
+            },
+            {
+                "isAbout": "items/online_science_min_cv",
+                "isVis": "school_cv == '1' || school_cv == '3'",
+                "valueRequired": true,
+                "variableName": "online_science_min_cv"
+            },
+            {
+                "isAbout": "items/online_other_cv",
+                "isVis": "school_cv == '1' || school_cv == '3'",
+                "valueRequired": true,
+                "variableName": "online_other_cv"
+            },
+            {
+                "isAbout": "items/online_other_min_cv",
+                "isVis": "school_cv == '1' || school_cv == '3'",
+                "valueRequired": true,
+                "variableName": "online_other_min_cv"
+            },
+            {
+                "isAbout": "items/online_act_total_cv",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "online_act_total_cv"
+            },
+            {
+                "isAbout": "items/school_like_activities_cv",
+                "isVis": "school_cv == '1' || school_cv == '3'",
+                "valueRequired": true,
+                "variableName": "school_like_activities_cv"
+            },
+            {
+                "isAbout": "items/parent_involved_school_cv",
+                "isVis": "school_cv == '1' || school_cv == '3'",
+                "valueRequired": true,
+                "variableName": "parent_involved_school_cv"
+            },
+            {
+                "isAbout": "items/assist_sched_cv",
+                "isVis": "parent_involved_school_cv > '0'",
+                "valueRequired": true,
+                "variableName": "assist_sched_cv"
+            },
+            {
+                "isAbout": "items/check_hw_cv",
+                "isVis": "parent_involved_school_cv > '0'",
+                "valueRequired": true,
+                "variableName": "check_hw_cv"
+            },
+            {
+                "isAbout": "items/teach_concept_cv",
+                "isVis": "parent_involved_school_cv > '0'",
+                "valueRequired": true,
+                "variableName": "teach_concept_cv"
+            },
+            {
+                "isAbout": "items/create_asgn_act_cv",
+                "isVis": "parent_involved_school_cv > '0'",
+                "valueRequired": true,
+                "variableName": "create_asgn_act_cv"
+            },
+            {
+                "isAbout": "items/school_work_cv",
+                "isVis": "school_cv == '1' || school_cv == '3'",
+                "valueRequired": true,
+                "variableName": "school_work_cv"
+            },
+            {
+                "isAbout": "items/missing_school_cv",
+                "isVis": "school_cv == '1' || school_cv == '3'",
+                "valueRequired": true,
+                "variableName": "missing_school_cv"
+            },
+            {
+                "isAbout": "items/enjoyed_school_wk_y_cv",
+                "isVis": "school_cv == '1' || school_cv == '3'",
+                "valueRequired": true,
+                "variableName": "enjoyed_school_wk_y_cv"
+            },
+            {
+                "isAbout": "items/y_covid19_questionnaire_1_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "y_covid19_questionnaire_1_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2510",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

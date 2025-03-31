@@ -1,0 +1,54 @@
+{
+    "id": "questionnaire_privacy_cv",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Please think about the activities you do at home or school, as part of your chores, to get from place to place, and in your spare time for fun, exercise or sport. Think about walking and all the moderate and vigorous activities that you did in thelast week.  Moderateorvigorousphysical activities refer to activities that take moderate to hard physical effort and make you breathe harder than normal.  Thinkonlyabout those physical activities that you did for at least 10 minutes at a time."
+    },
+    "prefLabel": {
+        "en": "questionnaire_privacy_cv"
+    },
+    "question": {
+        "en": "How much privacy did you have while you were completing this questionnaire today?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Completely private; no one in my house saw my answers"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A parent or family member could see a few of my answers"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A parent or family member could see several of my answers"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "A parent or family member could see most of my answers"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "A parent or other family member could see all of my answers"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

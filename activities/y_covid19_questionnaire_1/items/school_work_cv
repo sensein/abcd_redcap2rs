@@ -1,0 +1,61 @@
+{
+    "id": "school_work_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "cv_l"
+        }
+    ],
+    "preamble": {
+        "en": "In thepastweek"
+    },
+    "prefLabel": {
+        "en": "school_work_cv"
+    },
+    "question": {
+        "en": "Did you find that your school work was:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Very easy"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A little easy"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Medium"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "A little hard"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Very hard"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -313,6 +313,7 @@
             "../activities/munich_chronotype_questionnaire_mctq_for_children_90e79e/munich_chronotype_questionnaire_mctq_for_children_90e79e_schema",
             "../activities/specialty_sum_score/specialty_sum_score_schema",
             "../activities/y_post_fitbit_covid19_questionnaire/y_post_fitbit_covid19_questionnaire_schema",
+            "../activities/y_covid19_questionnaire_1/y_covid19_questionnaire_1_schema",
             "../activities/y_abcd_covid19_questionnaire/y_abcd_covid19_questionnaire_schema",
             "../activities/p_abcd_covid19_questionnaire/p_abcd_covid19_questionnaire_schema",
             "../activities/covid19_tracking/covid19_tracking_schema"
@@ -2743,6 +2744,14 @@
                 "variableName": "y_post_fitbit_covid19_questionnaire_schema"
             },
             {
+                "isAbout": "../activities/y_covid19_questionnaire_1/y_covid19_questionnaire_1_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Covid19 Questionnaire 1"
+                },
+                "variableName": "y_covid19_questionnaire_1_schema"
+            },
+            {
                 "isAbout": "../activities/y_abcd_covid19_questionnaire/y_abcd_covid19_questionnaire_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -2769,6 +2778,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2509",
+    "version": "revid2510",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
