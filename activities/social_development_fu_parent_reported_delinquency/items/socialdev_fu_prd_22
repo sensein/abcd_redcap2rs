@@ -1,0 +1,51 @@
+{
+    "id": "socialdev_fu_prd_22",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "socialdev_fu_prd_22"
+    },
+    "question": {
+        "en": "Has your child gone joyriding?  Like taken a motor vehicle, such as a car or motorcycle, for a ride or drive without the owner's permission?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Once or twice"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "More often"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "I don't know"
+                },
+                "value": 98
+            },
+            {
+                "name": {
+                    "en": "I'd rather not say"
+                },
+                "value": 99
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

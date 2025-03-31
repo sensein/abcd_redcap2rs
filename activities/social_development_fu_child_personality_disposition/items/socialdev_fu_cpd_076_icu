@@ -1,0 +1,45 @@
+{
+    "id": "socialdev_fu_cpd_076_icu",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "socialdev_fu_cpd_076_icu"
+    },
+    "question": {
+        "en": "I do not care about doing things well."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all true"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Somewhat true"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Very true"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Definitely true"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

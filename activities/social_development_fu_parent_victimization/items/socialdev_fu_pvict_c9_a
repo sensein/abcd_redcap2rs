@@ -1,0 +1,43 @@
+{
+    "id": "socialdev_fu_pvict_c9_a",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "(number of times, 98 I don't know, 99 I'd rather not say)"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        },
+        {
+            "column": "Text Validation Min",
+            "source": "redcap",
+            "value": "1"
+        },
+        {
+            "column": "Text Validation Max",
+            "source": "redcap",
+            "value": "99.0"
+        }
+    ],
+    "prefLabel": {
+        "en": "socialdev_fu_pvict_c9_a"
+    },
+    "question": {
+        "en": "How many times did this happen to your child since your last SD visit?"
+    },
+    "responseOptions": {
+        "maxValue": 99,
+        "minValue": 1,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

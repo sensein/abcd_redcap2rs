@@ -1,0 +1,45 @@
+{
+    "id": "socialdev_fu_cpd_016_ypi",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "socialdev_fu_cpd_016_ypi"
+    },
+    "question": {
+        "en": "I have often been late to work or classes in school."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Does not apply at all"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Does not apply well"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Applies fairly well"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Applies very well"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

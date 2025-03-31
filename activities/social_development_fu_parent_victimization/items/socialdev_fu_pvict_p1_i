@@ -1,0 +1,51 @@
+{
+    "id": "socialdev_fu_pvict_p1_i",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "socialdev_fu_pvict_p1_i"
+    },
+    "question": {
+        "en": "Were these kids boys, girls, or both?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Boys"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Girls"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Both"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "I don't know"
+                },
+                "value": 98
+            },
+            {
+                "name": {
+                    "en": "I'd rather not say"
+                },
+                "value": 99
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

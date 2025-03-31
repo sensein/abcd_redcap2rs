@@ -1,0 +1,51 @@
+{
+    "id": "socialdev_fu_pneigh_10",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "socialdev_fu_pneigh_10"
+    },
+    "question": {
+        "en": "People in this neighborhood can be trusted."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Strongly disagree"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Disagree"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Neutral"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Agree"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Strongly agree"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

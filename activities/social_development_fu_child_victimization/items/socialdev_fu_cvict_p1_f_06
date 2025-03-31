@@ -1,0 +1,33 @@
+{
+    "id": "socialdev_fu_cvict_p1_f_06",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "socialdev_fu_cvict_p1_f_06"
+    },
+    "question": {
+        "en": "Any time someone started to attack you, but it didn't actually happen"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

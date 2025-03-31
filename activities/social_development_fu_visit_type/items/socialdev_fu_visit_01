@@ -1,0 +1,33 @@
+{
+    "id": "socialdev_fu_visit_01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "socialdev_fu_visit_01"
+    },
+    "question": {
+        "en": "Is this visit being completed on the same day as the ABCD visit, or on a separate day?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Same day"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Separate day"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

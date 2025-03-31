@@ -1,0 +1,51 @@
+{
+    "id": "socialdev_fu_cvict_p6",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "socialdev_fu_cvict_p6"
+    },
+    "question": {
+        "en": "Since your last SD visit, did a boyfriend or girlfriend or anyone you went on a date with slap or hit you?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "I don't know"
+                },
+                "value": 98
+            },
+            {
+                "name": {
+                    "en": "I'd rather not say"
+                },
+                "value": 99
+            },
+            {
+                "name": {
+                    "en": "I have never dated (not applicable)"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

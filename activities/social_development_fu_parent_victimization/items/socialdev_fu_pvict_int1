@@ -1,0 +1,45 @@
+{
+    "id": "socialdev_fu_pvict_int1",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "socialdev_fu_pvict_int1"
+    },
+    "question": {
+        "en": "Since your last SD visit has anyone used theInternetto bother or harass your child or to spread mean words or pictures about your child?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "I don't know"
+                },
+                "value": 98
+            },
+            {
+                "name": {
+                    "en": "I'd rather not say"
+                },
+                "value": 99
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
