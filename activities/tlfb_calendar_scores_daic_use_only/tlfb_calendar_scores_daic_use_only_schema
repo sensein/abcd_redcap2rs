@@ -252,6 +252,13 @@
             "items/tlfb_cal_scr_co_toal_to",
             "items/tlfb_cal_scr_co_toal_al",
             "items/tlfb_cal_scr_co_toal_num",
+            "items/tlfb_cal_scr_cbd_avg",
+            "items/tlfb_cal_scr_cbd_ud",
+            "items/tlfb_cal_scr_cbd_td",
+            "items/tlfb_cal_scr_cbd_max",
+            "items/tlfb_cal_scr_cbd_wu",
+            "items/tlfb_cal_scr_cbd_wt",
+            "items/tlfb_cal_scr_cbd_lud",
             "items/tlfb_calendar_scores_daic_use_only_complete"
         ],
         "addProperties": [
@@ -1726,6 +1733,48 @@
                 "variableName": "tlfb_cal_scr_co_toal_num"
             },
             {
+                "isAbout": "items/tlfb_cal_scr_cbd_avg",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "tlfb_cal_scr_cbd_avg"
+            },
+            {
+                "isAbout": "items/tlfb_cal_scr_cbd_ud",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "tlfb_cal_scr_cbd_ud"
+            },
+            {
+                "isAbout": "items/tlfb_cal_scr_cbd_td",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "tlfb_cal_scr_cbd_td"
+            },
+            {
+                "isAbout": "items/tlfb_cal_scr_cbd_max",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "tlfb_cal_scr_cbd_max"
+            },
+            {
+                "isAbout": "items/tlfb_cal_scr_cbd_wu",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "tlfb_cal_scr_cbd_wu"
+            },
+            {
+                "isAbout": "items/tlfb_cal_scr_cbd_wt",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "tlfb_cal_scr_cbd_wt"
+            },
+            {
+                "isAbout": "items/tlfb_cal_scr_cbd_lud",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "tlfb_cal_scr_cbd_lud"
+            },
+            {
                 "isAbout": "items/tlfb_calendar_scores_daic_use_only_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -1734,6 +1783,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2470",
+    "version": "revid2473",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

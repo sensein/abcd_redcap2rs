@@ -308,7 +308,8 @@
             "../activities/social_development_follow_up_child_difficulties_in/social_development_follow_up_child_difficulties_in_schema",
             "../activities/social_development_follow_up_child_alabama_parenti/social_development_follow_up_child_alabama_parenti_schema",
             "../activities/social_development_follow_up_child_feedback/social_development_follow_up_child_feedback_schema",
-            "../activities/smarte_sum_scores/smarte_sum_scores_schema"
+            "../activities/smarte_sum_scores/smarte_sum_scores_schema",
+            "../activities/p_block_kids_food_screen_sum_score/p_block_kids_food_screen_sum_score_schema"
         ],
         "addProperties": [
             {
@@ -2702,10 +2703,18 @@
                     "en": "Smarte Sum Scores"
                 },
                 "variableName": "smarte_sum_scores_schema"
+            },
+            {
+                "isAbout": "../activities/p_block_kids_food_screen_sum_score/p_block_kids_food_screen_sum_score_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "P Block Kids Food Screen Sum Score"
+                },
+                "variableName": "p_block_kids_food_screen_sum_score_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2470",
+    "version": "revid2473",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

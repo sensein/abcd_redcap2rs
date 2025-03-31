@@ -1,0 +1,1480 @@
+{
+    "id": "p_block_kids_food_screen_sum_score_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "p_block_kids_food_screen_sum_score"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/bkfs_respondentid",
+            "items/bkfs_sex",
+            "items/bkfs_age",
+            "items/bkfs_coldcerealfreq",
+            "items/bkfs_coldcerealquan",
+            "items/bkfs_cookcerfreq",
+            "items/bkfs_cookcerquan",
+            "items/bkfs_eggfreq",
+            "items/bkfs_eggquan",
+            "items/bkfs_granbarfreq",
+            "items/bkfs_granbarquan",
+            "items/bkfs_milkfreq",
+            "items/bkfs_milkquan",
+            "items/bkfs_fruitjcfreq",
+            "items/bkfs_fruitjcquan",
+            "items/bkfs_sodafreq",
+            "items/bkfs_sodaquan",
+            "items/bkfs_applefreq",
+            "items/bkfs_applequan",
+            "items/bkfs_applscfreq",
+            "items/bkfs_applscquan",
+            "items/bkfs_othfrutfreq",
+            "items/bkfs_othfrutquan",
+            "items/bkfs_frenchfreq",
+            "items/bkfs_frenchquan",
+            "items/bkfs_othpotfreq",
+            "items/bkfs_othpotquan",
+            "items/bkfs_ketchupfreq",
+            "items/bkfs_ketchupquan",
+            "items/bkfs_lettucefreq",
+            "items/bkfs_lettucequan",
+            "items/bkfs_tomatofreq",
+            "items/bkfs_tomatoquan",
+            "items/bkfs_grnbeanfreq",
+            "items/bkfs_grnbeanquan",
+            "items/bkfs_othvegfreq",
+            "items/bkfs_othvegquan",
+            "items/bkfs_vegsoupfreq",
+            "items/bkfs_vegsoupquan",
+            "items/bkfs_pintofreq",
+            "items/bkfs_pintoquan",
+            "items/bkfs_refriedfreq",
+            "items/bkfs_refriedquan",
+            "items/bkfs_hambgrfreq",
+            "items/bkfs_hambgrquan",
+            "items/bkfs_hotdogfreq",
+            "items/bkfs_hotdogquan",
+            "items/bkfs_lunchmtfreq",
+            "items/bkfs_lunchmtquan",
+            "items/bkfs_pizzafreq",
+            "items/bkfs_pizzaquan",
+            "items/bkfs_spagfreq",
+            "items/bkfs_spagquan",
+            "items/bkfs_macfreq",
+            "items/bkfs_macquan",
+            "items/bkfs_chickfreq",
+            "items/bkfs_chickquan",
+            "items/bkfs_fishfreq",
+            "items/bkfs_fishquan",
+            "items/bkfs_burritofreq",
+            "items/bkfs_burritoquan",
+            "items/bkfs_rstbffreq",
+            "items/bkfs_rstbfquan",
+            "items/bkfs_othmeatfreq",
+            "items/bkfs_othmeatquan",
+            "items/bkfs_porkfreq",
+            "items/bkfs_porkquan",
+            "items/bkfs_popcornfreq",
+            "items/bkfs_popcornquan",
+            "items/bkfs_snkchpfreq",
+            "items/bkfs_snkchpquan",
+            "items/bkfs_icecrmfreq",
+            "items/bkfs_icecrmquan",
+            "items/bkfs_candyfreq",
+            "items/bkfs_candyquan",
+            "items/bkfs_cookiefreq",
+            "items/bkfs_cookiequan",
+            "items/bkfs_cheesefreq",
+            "items/bkfs_cheesequan",
+            "items/bkfs_wheatbrdfreq",
+            "items/bkfs_wheatbrdquan",
+            "items/bkfs_coldcerealtype",
+            "items/bkfs_milktype",
+            "items/bkfs_fruit_ce",
+            "items/bkfs_vegnopot_ce",
+            "items/bkfs_potato_ce",
+            "items/bkfs_whlgrain_oze",
+            "items/bkfs_satfat_g",
+            "items/bkfs_meatpoulfish_oze",
+            "items/bkfs_dairy_ce",
+            "items/bkfs_legumes_ce",
+            "items/bkfs_sugaradded_tsp",
+            "items/bkfs_gi",
+            "items/bkfs_gl",
+            "items/bkfs_dt_kcal",
+            "items/bkfs_dt_prot",
+            "items/bkfs_dt_tfat",
+            "items/bkfs_dt_carb",
+            "items/bkfs_dt_fibe",
+            "items/bkfs_dt_sug_t",
+            "items/bkfs_group_sugarybevg_total_kcal",
+            "items/bkfs_group_sugarybevg_total_frequency",
+            "items/bkfs_group_solid_total_grams",
+            "items/bkfs_foodsperday",
+            "items/bkfs_group_solid_count",
+            "items/bkfs_group_solid_total_frequency",
+            "items/bkfs_drximfat",
+            "items/bkfs_drxipfat",
+            "items/bkfs_drxichol",
+            "items/bkfs_drxiatoc",
+            "items/bkfs_drxiret",
+            "items/bkfs_drxivara",
+            "items/bkfs_drxiacar",
+            "items/bkfs_drxibcar",
+            "items/bkfs_drxicryp",
+            "items/bkfs_drxilyco",
+            "items/bkfs_drxilz",
+            "items/bkfs_drxivb1",
+            "items/bkfs_drxivb2",
+            "items/bkfs_drxiniac",
+            "items/bkfs_drxivb6",
+            "items/bkfs_drxifola",
+            "items/bkfs_drxifa",
+            "items/bkfs_drxiff",
+            "items/bkfs_drxifdfe",
+            "items/bkfs_drxivb12",
+            "items/bkfs_drxivc",
+            "items/bkfs_drxivk",
+            "items/bkfs_drxicalc",
+            "items/bkfs_drxiphos",
+            "items/bkfs_drximagn",
+            "items/bkfs_drxiiron",
+            "items/bkfs_drxizinc",
+            "items/bkfs_drxicopp",
+            "items/bkfs_drdisodi",
+            "items/bkfs_drxipota",
+            "items/bkfs_drxisele",
+            "items/bkfs_drxicaff",
+            "items/bkfs_drxitheo",
+            "items/bkfs_drxialco",
+            "items/bkfs_drximois",
+            "items/bkfs_drxis040",
+            "items/bkfs_drxis060",
+            "items/bkfs_drxis080",
+            "items/bkfs_drxis100",
+            "items/bkfs_drxis120",
+            "items/bkfs_drxis140",
+            "items/bkfs_drxis160",
+            "items/bkfs_drxis180",
+            "items/bkfs_drxim161",
+            "items/bkfs_drxim181",
+            "items/bkfs_drxim201",
+            "items/bkfs_drxim221",
+            "items/bkfs_drxip182",
+            "items/bkfs_drxip183",
+            "items/bkfs_drxip184",
+            "items/bkfs_drxip204",
+            "items/bkfs_drxip205",
+            "items/bkfs_drxip225",
+            "items/bkfs_drxip226",
+            "items/bkfs_group_fd_cerealnotwgsweet_total_grams",
+            "items/bkfs_group_fd_cookedcereal_total_grams",
+            "items/bkfs_group_fd_eggsandwich_total_grams",
+            "items/bkfs_group_fd_breakfastproteinbars_total_grams",
+            "items/bkfs_group_fd_milk2pct_total_grams",
+            "items/bkfs_group_fd_fruitjuice_total_grams",
+            "items/bkfs_group_fd_softdrinks_total_grams",
+            "items/bkfs_group_fd_applebananaorange_total_grams",
+            "items/bkfs_group_fd_applesaucecannedfruit_total_grams",
+            "items/bkfs_group_fd_anyotherfruit_total_grams",
+            "items/bkfs_group_fd_friedpotatoes_total_grams",
+            "items/bkfs_group_fd_otherpotatoes_total_grams",
+            "items/bkfs_group_fd_ketchupsalsa_total_grams",
+            "items/bkfs_group_fd_lettucesalad_total_grams",
+            "items/bkfs_group_fd_tomatoes_total_grams",
+            "items/bkfs_group_fd_greenbeanspeas_total_grams",
+            "items/bkfs_group_fd_othervegetables_total_grams",
+            "items/bkfs_group_fd_vegetablesoupstew_total_grams",
+            "items/bkfs_group_fd_chilibeans_total_grams",
+            "items/bkfs_group_fd_refriedbeans_total_grams",
+            "items/bkfs_group_fd_hamburgercheeseburger_total_grams",
+            "items/bkfs_group_fd_hotdogssausage_total_grams",
+            "items/bkfs_group_fd_lunchmeat_total_grams",
+            "items/bkfs_group_fd_pizza_total_grams",
+            "items/bkfs_group_fd_spaghettitomatosauce_total_grams",
+            "items/bkfs_group_fd_macncheese_total_grams",
+            "items/bkfs_group_fd_chickenndishes_total_grams",
+            "items/bkfs_group_fd_fishndishes_total_grams",
+            "items/bkfs_group_fd_burritostacos_total_grams",
+            "items/bkfs_group_fd_beefroaststeak_total_grams",
+            "items/bkfs_group_fd_meatballsbeefdishes_total_grams",
+            "items/bkfs_group_fd_pork_total_grams",
+            "items/bkfs_group_fd_popcorn_total_grams",
+            "items/bkfs_group_fd_chipscornpotato_total_grams",
+            "items/bkfs_group_fd_icecream_total_grams",
+            "items/bkfs_group_fd_candynbars_total_grams",
+            "items/bkfs_group_fd_cookiedonutcake_total_grams",
+            "items/bkfs_group_fd_cheesendishes_total_grams",
+            "items/bkfs_group_fd_wholewheatbread_total_grams",
+            "items/bkfs_group_fd_cerealwgnotsweet_total_grams",
+            "items/bkfs_group_fd_cerealwgsweet_total_grams",
+            "items/bkfs_group_fd_cerealnotwgnotsweet_total_grams",
+            "items/bkfs_group_fd_milk4pct_total_grams",
+            "items/bkfs_group_fd_milk1pct_total_grams",
+            "items/bkfs_group_fd_milkchocolate_total_grams",
+            "items/bkfs_group_fd_milklactosereduced_total_grams",
+            "items/bkfs_group_fd_milknonfat_total_grams",
+            "items/bkfs_group_fd_milksoy_total_grams",
+            "items/p_block_kids_food_screen_sum_score_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/bkfs_respondentid",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_respondentid"
+            },
+            {
+                "isAbout": "items/bkfs_sex",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_sex"
+            },
+            {
+                "isAbout": "items/bkfs_age",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_age"
+            },
+            {
+                "isAbout": "items/bkfs_coldcerealfreq",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_coldcerealfreq"
+            },
+            {
+                "isAbout": "items/bkfs_coldcerealquan",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_coldcerealquan"
+            },
+            {
+                "isAbout": "items/bkfs_cookcerfreq",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_cookcerfreq"
+            },
+            {
+                "isAbout": "items/bkfs_cookcerquan",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_cookcerquan"
+            },
+            {
+                "isAbout": "items/bkfs_eggfreq",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_eggfreq"
+            },
+            {
+                "isAbout": "items/bkfs_eggquan",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_eggquan"
+            },
+            {
+                "isAbout": "items/bkfs_granbarfreq",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_granbarfreq"
+            },
+            {
+                "isAbout": "items/bkfs_granbarquan",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_granbarquan"
+            },
+            {
+                "isAbout": "items/bkfs_milkfreq",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_milkfreq"
+            },
+            {
+                "isAbout": "items/bkfs_milkquan",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_milkquan"
+            },
+            {
+                "isAbout": "items/bkfs_fruitjcfreq",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_fruitjcfreq"
+            },
+            {
+                "isAbout": "items/bkfs_fruitjcquan",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_fruitjcquan"
+            },
+            {
+                "isAbout": "items/bkfs_sodafreq",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_sodafreq"
+            },
+            {
+                "isAbout": "items/bkfs_sodaquan",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_sodaquan"
+            },
+            {
+                "isAbout": "items/bkfs_applefreq",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_applefreq"
+            },
+            {
+                "isAbout": "items/bkfs_applequan",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_applequan"
+            },
+            {
+                "isAbout": "items/bkfs_applscfreq",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_applscfreq"
+            },
+            {
+                "isAbout": "items/bkfs_applscquan",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_applscquan"
+            },
+            {
+                "isAbout": "items/bkfs_othfrutfreq",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_othfrutfreq"
+            },
+            {
+                "isAbout": "items/bkfs_othfrutquan",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_othfrutquan"
+            },
+            {
+                "isAbout": "items/bkfs_frenchfreq",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_frenchfreq"
+            },
+            {
+                "isAbout": "items/bkfs_frenchquan",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_frenchquan"
+            },
+            {
+                "isAbout": "items/bkfs_othpotfreq",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_othpotfreq"
+            },
+            {
+                "isAbout": "items/bkfs_othpotquan",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_othpotquan"
+            },
+            {
+                "isAbout": "items/bkfs_ketchupfreq",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_ketchupfreq"
+            },
+            {
+                "isAbout": "items/bkfs_ketchupquan",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_ketchupquan"
+            },
+            {
+                "isAbout": "items/bkfs_lettucefreq",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_lettucefreq"
+            },
+            {
+                "isAbout": "items/bkfs_lettucequan",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_lettucequan"
+            },
+            {
+                "isAbout": "items/bkfs_tomatofreq",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_tomatofreq"
+            },
+            {
+                "isAbout": "items/bkfs_tomatoquan",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_tomatoquan"
+            },
+            {
+                "isAbout": "items/bkfs_grnbeanfreq",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_grnbeanfreq"
+            },
+            {
+                "isAbout": "items/bkfs_grnbeanquan",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_grnbeanquan"
+            },
+            {
+                "isAbout": "items/bkfs_othvegfreq",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_othvegfreq"
+            },
+            {
+                "isAbout": "items/bkfs_othvegquan",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_othvegquan"
+            },
+            {
+                "isAbout": "items/bkfs_vegsoupfreq",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_vegsoupfreq"
+            },
+            {
+                "isAbout": "items/bkfs_vegsoupquan",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_vegsoupquan"
+            },
+            {
+                "isAbout": "items/bkfs_pintofreq",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_pintofreq"
+            },
+            {
+                "isAbout": "items/bkfs_pintoquan",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_pintoquan"
+            },
+            {
+                "isAbout": "items/bkfs_refriedfreq",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_refriedfreq"
+            },
+            {
+                "isAbout": "items/bkfs_refriedquan",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_refriedquan"
+            },
+            {
+                "isAbout": "items/bkfs_hambgrfreq",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_hambgrfreq"
+            },
+            {
+                "isAbout": "items/bkfs_hambgrquan",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_hambgrquan"
+            },
+            {
+                "isAbout": "items/bkfs_hotdogfreq",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_hotdogfreq"
+            },
+            {
+                "isAbout": "items/bkfs_hotdogquan",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_hotdogquan"
+            },
+            {
+                "isAbout": "items/bkfs_lunchmtfreq",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_lunchmtfreq"
+            },
+            {
+                "isAbout": "items/bkfs_lunchmtquan",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_lunchmtquan"
+            },
+            {
+                "isAbout": "items/bkfs_pizzafreq",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_pizzafreq"
+            },
+            {
+                "isAbout": "items/bkfs_pizzaquan",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_pizzaquan"
+            },
+            {
+                "isAbout": "items/bkfs_spagfreq",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_spagfreq"
+            },
+            {
+                "isAbout": "items/bkfs_spagquan",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_spagquan"
+            },
+            {
+                "isAbout": "items/bkfs_macfreq",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_macfreq"
+            },
+            {
+                "isAbout": "items/bkfs_macquan",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_macquan"
+            },
+            {
+                "isAbout": "items/bkfs_chickfreq",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_chickfreq"
+            },
+            {
+                "isAbout": "items/bkfs_chickquan",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_chickquan"
+            },
+            {
+                "isAbout": "items/bkfs_fishfreq",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_fishfreq"
+            },
+            {
+                "isAbout": "items/bkfs_fishquan",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_fishquan"
+            },
+            {
+                "isAbout": "items/bkfs_burritofreq",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_burritofreq"
+            },
+            {
+                "isAbout": "items/bkfs_burritoquan",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_burritoquan"
+            },
+            {
+                "isAbout": "items/bkfs_rstbffreq",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_rstbffreq"
+            },
+            {
+                "isAbout": "items/bkfs_rstbfquan",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_rstbfquan"
+            },
+            {
+                "isAbout": "items/bkfs_othmeatfreq",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_othmeatfreq"
+            },
+            {
+                "isAbout": "items/bkfs_othmeatquan",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_othmeatquan"
+            },
+            {
+                "isAbout": "items/bkfs_porkfreq",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_porkfreq"
+            },
+            {
+                "isAbout": "items/bkfs_porkquan",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_porkquan"
+            },
+            {
+                "isAbout": "items/bkfs_popcornfreq",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_popcornfreq"
+            },
+            {
+                "isAbout": "items/bkfs_popcornquan",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_popcornquan"
+            },
+            {
+                "isAbout": "items/bkfs_snkchpfreq",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_snkchpfreq"
+            },
+            {
+                "isAbout": "items/bkfs_snkchpquan",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_snkchpquan"
+            },
+            {
+                "isAbout": "items/bkfs_icecrmfreq",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_icecrmfreq"
+            },
+            {
+                "isAbout": "items/bkfs_icecrmquan",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_icecrmquan"
+            },
+            {
+                "isAbout": "items/bkfs_candyfreq",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_candyfreq"
+            },
+            {
+                "isAbout": "items/bkfs_candyquan",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_candyquan"
+            },
+            {
+                "isAbout": "items/bkfs_cookiefreq",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_cookiefreq"
+            },
+            {
+                "isAbout": "items/bkfs_cookiequan",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_cookiequan"
+            },
+            {
+                "isAbout": "items/bkfs_cheesefreq",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_cheesefreq"
+            },
+            {
+                "isAbout": "items/bkfs_cheesequan",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_cheesequan"
+            },
+            {
+                "isAbout": "items/bkfs_wheatbrdfreq",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_wheatbrdfreq"
+            },
+            {
+                "isAbout": "items/bkfs_wheatbrdquan",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_wheatbrdquan"
+            },
+            {
+                "isAbout": "items/bkfs_coldcerealtype",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_coldcerealtype"
+            },
+            {
+                "isAbout": "items/bkfs_milktype",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_milktype"
+            },
+            {
+                "isAbout": "items/bkfs_fruit_ce",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_fruit_ce"
+            },
+            {
+                "isAbout": "items/bkfs_vegnopot_ce",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_vegnopot_ce"
+            },
+            {
+                "isAbout": "items/bkfs_potato_ce",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_potato_ce"
+            },
+            {
+                "isAbout": "items/bkfs_whlgrain_oze",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_whlgrain_oze"
+            },
+            {
+                "isAbout": "items/bkfs_satfat_g",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_satfat_g"
+            },
+            {
+                "isAbout": "items/bkfs_meatpoulfish_oze",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_meatpoulfish_oze"
+            },
+            {
+                "isAbout": "items/bkfs_dairy_ce",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_dairy_ce"
+            },
+            {
+                "isAbout": "items/bkfs_legumes_ce",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_legumes_ce"
+            },
+            {
+                "isAbout": "items/bkfs_sugaradded_tsp",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_sugaradded_tsp"
+            },
+            {
+                "isAbout": "items/bkfs_gi",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_gi"
+            },
+            {
+                "isAbout": "items/bkfs_gl",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_gl"
+            },
+            {
+                "isAbout": "items/bkfs_dt_kcal",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_dt_kcal"
+            },
+            {
+                "isAbout": "items/bkfs_dt_prot",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_dt_prot"
+            },
+            {
+                "isAbout": "items/bkfs_dt_tfat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_dt_tfat"
+            },
+            {
+                "isAbout": "items/bkfs_dt_carb",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_dt_carb"
+            },
+            {
+                "isAbout": "items/bkfs_dt_fibe",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_dt_fibe"
+            },
+            {
+                "isAbout": "items/bkfs_dt_sug_t",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_dt_sug_t"
+            },
+            {
+                "isAbout": "items/bkfs_group_sugarybevg_total_kcal",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_sugarybevg_total_kcal"
+            },
+            {
+                "isAbout": "items/bkfs_group_sugarybevg_total_frequency",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_sugarybevg_total_frequency"
+            },
+            {
+                "isAbout": "items/bkfs_group_solid_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_solid_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_foodsperday",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_foodsperday"
+            },
+            {
+                "isAbout": "items/bkfs_group_solid_count",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_solid_count"
+            },
+            {
+                "isAbout": "items/bkfs_group_solid_total_frequency",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_solid_total_frequency"
+            },
+            {
+                "isAbout": "items/bkfs_drximfat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drximfat"
+            },
+            {
+                "isAbout": "items/bkfs_drxipfat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxipfat"
+            },
+            {
+                "isAbout": "items/bkfs_drxichol",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxichol"
+            },
+            {
+                "isAbout": "items/bkfs_drxiatoc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxiatoc"
+            },
+            {
+                "isAbout": "items/bkfs_drxiret",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxiret"
+            },
+            {
+                "isAbout": "items/bkfs_drxivara",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxivara"
+            },
+            {
+                "isAbout": "items/bkfs_drxiacar",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxiacar"
+            },
+            {
+                "isAbout": "items/bkfs_drxibcar",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxibcar"
+            },
+            {
+                "isAbout": "items/bkfs_drxicryp",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxicryp"
+            },
+            {
+                "isAbout": "items/bkfs_drxilyco",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxilyco"
+            },
+            {
+                "isAbout": "items/bkfs_drxilz",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxilz"
+            },
+            {
+                "isAbout": "items/bkfs_drxivb1",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxivb1"
+            },
+            {
+                "isAbout": "items/bkfs_drxivb2",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxivb2"
+            },
+            {
+                "isAbout": "items/bkfs_drxiniac",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxiniac"
+            },
+            {
+                "isAbout": "items/bkfs_drxivb6",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxivb6"
+            },
+            {
+                "isAbout": "items/bkfs_drxifola",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxifola"
+            },
+            {
+                "isAbout": "items/bkfs_drxifa",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxifa"
+            },
+            {
+                "isAbout": "items/bkfs_drxiff",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxiff"
+            },
+            {
+                "isAbout": "items/bkfs_drxifdfe",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxifdfe"
+            },
+            {
+                "isAbout": "items/bkfs_drxivb12",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxivb12"
+            },
+            {
+                "isAbout": "items/bkfs_drxivc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxivc"
+            },
+            {
+                "isAbout": "items/bkfs_drxivk",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxivk"
+            },
+            {
+                "isAbout": "items/bkfs_drxicalc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxicalc"
+            },
+            {
+                "isAbout": "items/bkfs_drxiphos",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxiphos"
+            },
+            {
+                "isAbout": "items/bkfs_drximagn",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drximagn"
+            },
+            {
+                "isAbout": "items/bkfs_drxiiron",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxiiron"
+            },
+            {
+                "isAbout": "items/bkfs_drxizinc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxizinc"
+            },
+            {
+                "isAbout": "items/bkfs_drxicopp",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxicopp"
+            },
+            {
+                "isAbout": "items/bkfs_drdisodi",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drdisodi"
+            },
+            {
+                "isAbout": "items/bkfs_drxipota",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxipota"
+            },
+            {
+                "isAbout": "items/bkfs_drxisele",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxisele"
+            },
+            {
+                "isAbout": "items/bkfs_drxicaff",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxicaff"
+            },
+            {
+                "isAbout": "items/bkfs_drxitheo",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxitheo"
+            },
+            {
+                "isAbout": "items/bkfs_drxialco",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxialco"
+            },
+            {
+                "isAbout": "items/bkfs_drximois",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drximois"
+            },
+            {
+                "isAbout": "items/bkfs_drxis040",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxis040"
+            },
+            {
+                "isAbout": "items/bkfs_drxis060",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxis060"
+            },
+            {
+                "isAbout": "items/bkfs_drxis080",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxis080"
+            },
+            {
+                "isAbout": "items/bkfs_drxis100",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxis100"
+            },
+            {
+                "isAbout": "items/bkfs_drxis120",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxis120"
+            },
+            {
+                "isAbout": "items/bkfs_drxis140",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxis140"
+            },
+            {
+                "isAbout": "items/bkfs_drxis160",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxis160"
+            },
+            {
+                "isAbout": "items/bkfs_drxis180",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxis180"
+            },
+            {
+                "isAbout": "items/bkfs_drxim161",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxim161"
+            },
+            {
+                "isAbout": "items/bkfs_drxim181",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxim181"
+            },
+            {
+                "isAbout": "items/bkfs_drxim201",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxim201"
+            },
+            {
+                "isAbout": "items/bkfs_drxim221",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxim221"
+            },
+            {
+                "isAbout": "items/bkfs_drxip182",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxip182"
+            },
+            {
+                "isAbout": "items/bkfs_drxip183",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxip183"
+            },
+            {
+                "isAbout": "items/bkfs_drxip184",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxip184"
+            },
+            {
+                "isAbout": "items/bkfs_drxip204",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxip204"
+            },
+            {
+                "isAbout": "items/bkfs_drxip205",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxip205"
+            },
+            {
+                "isAbout": "items/bkfs_drxip225",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxip225"
+            },
+            {
+                "isAbout": "items/bkfs_drxip226",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxip226"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_cerealnotwgsweet_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_cerealnotwgsweet_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_cookedcereal_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_cookedcereal_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_eggsandwich_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_eggsandwich_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_breakfastproteinbars_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_breakfastproteinbars_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_milk2pct_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_milk2pct_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_fruitjuice_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_fruitjuice_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_softdrinks_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_softdrinks_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_applebananaorange_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_applebananaorange_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_applesaucecannedfruit_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_applesaucecannedfruit_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_anyotherfruit_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_anyotherfruit_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_friedpotatoes_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_friedpotatoes_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_otherpotatoes_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_otherpotatoes_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_ketchupsalsa_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_ketchupsalsa_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_lettucesalad_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_lettucesalad_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_tomatoes_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_tomatoes_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_greenbeanspeas_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_greenbeanspeas_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_othervegetables_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_othervegetables_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_vegetablesoupstew_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_vegetablesoupstew_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_chilibeans_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_chilibeans_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_refriedbeans_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_refriedbeans_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_hamburgercheeseburger_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_hamburgercheeseburger_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_hotdogssausage_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_hotdogssausage_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_lunchmeat_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_lunchmeat_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_pizza_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_pizza_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_spaghettitomatosauce_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_spaghettitomatosauce_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_macncheese_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_macncheese_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_chickenndishes_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_chickenndishes_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_fishndishes_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_fishndishes_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_burritostacos_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_burritostacos_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_beefroaststeak_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_beefroaststeak_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_meatballsbeefdishes_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_meatballsbeefdishes_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_pork_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_pork_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_popcorn_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_popcorn_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_chipscornpotato_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_chipscornpotato_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_icecream_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_icecream_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_candynbars_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_candynbars_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_cookiedonutcake_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_cookiedonutcake_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_cheesendishes_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_cheesendishes_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_wholewheatbread_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_wholewheatbread_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_cerealwgnotsweet_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_cerealwgnotsweet_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_cerealwgsweet_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_cerealwgsweet_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_cerealnotwgnotsweet_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_cerealnotwgnotsweet_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_milk4pct_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_milk4pct_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_milk1pct_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_milk1pct_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_milkchocolate_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_milkchocolate_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_milklactosereduced_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_milklactosereduced_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_milknonfat_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_milknonfat_total_grams"
+            },
+            {
+                "isAbout": "items/bkfs_group_fd_milksoy_total_grams",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_group_fd_milksoy_total_grams"
+            },
+            {
+                "isAbout": "items/p_block_kids_food_screen_sum_score_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "p_block_kids_food_screen_sum_score_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2473",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
