@@ -11,6 +11,7 @@
             "items/p_select_language",
             "items/permission_research_site",
             "items/permission_remote_visit",
+            "items/parent_child_asnt",
             "items/blood_permission_p",
             "items/blood_permission_l_p",
             "items/fitbit_y_smartphone",
@@ -35,6 +36,7 @@
             "items/cp_consent_no_sign",
             "items/cp_accurate_date_v2",
             "items/cp_consent_sign_v2",
+            "items/parent_asnt",
             "items/cp_timestamp_v2",
             "items/permission_school_records",
             "items/permission_teacher_contact",
@@ -73,6 +75,12 @@
                 "variableName": "permission_remote_visit"
             },
             {
+                "isAbout": "items/parent_child_asnt",
+                "isVis": "sched_delay == '9'",
+                "valueRequired": true,
+                "variableName": "parent_child_asnt"
+            },
+            {
                 "isAbout": "items/blood_permission_p",
                 "isVis": "event_name_number == '11'",
                 "valueRequired": true,
@@ -104,31 +112,31 @@
             },
             {
                 "isAbout": "items/cp_child_name",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": true,
                 "variableName": "cp_child_name"
             },
             {
                 "isAbout": "items/cp_parent_name",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": true,
                 "variableName": "cp_parent_name"
             },
             {
                 "isAbout": "items/cp_parent_sign",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": true,
                 "variableName": "cp_parent_sign"
             },
             {
                 "isAbout": "items/cp_person_sign",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": true,
                 "variableName": "cp_person_sign"
             },
             {
                 "isAbout": "items/cp_accurate_date2",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": true,
                 "variableName": "cp_accurate_date2"
             },
@@ -188,33 +196,39 @@
             },
             {
                 "isAbout": "items/cp_participant_name_v2",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": true,
                 "variableName": "cp_participant_name_v2"
             },
             {
                 "isAbout": "items/cp_consent_form_v2",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": true,
                 "variableName": "cp_consent_form_v2"
             },
             {
                 "isAbout": "items/cp_consent_no_sign",
-                "isVis": "cp_consent_form_v2 == '0' || cp_consent_form_v2 == ''",
+                "isVis": "(cp_consent_form_v2 == '0' || cp_consent_form_v2 == '')&&(sched_delay == '7')&&(sched_delay == '9' && parent_child_asnt == '0')",
                 "valueRequired": false,
                 "variableName": "cp_consent_no_sign"
             },
             {
                 "isAbout": "items/cp_accurate_date_v2",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": true,
                 "variableName": "cp_accurate_date_v2"
             },
             {
                 "isAbout": "items/cp_consent_sign_v2",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": true,
                 "variableName": "cp_consent_sign_v2"
+            },
+            {
+                "isAbout": "items/parent_asnt",
+                "isVis": "sched_delay == '9'",
+                "valueRequired": true,
+                "variableName": "parent_asnt"
             },
             {
                 "isAbout": "items/cp_timestamp_v2",
@@ -285,6 +299,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2491",
+    "version": "revid2492",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,0 +1,49 @@
+{
+    "id": "parent_remote_method",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200318"
+        }
+    ],
+    "preamble": {
+        "en": "INFORMANT TRACKING"
+    },
+    "prefLabel": {
+        "en": "parent_remote_method"
+    },
+    "question": {
+        "en": "Remote method of administration [Check all that apply]:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Audio (i.e. phone call)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Video/Webcam"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Screen Sharing"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

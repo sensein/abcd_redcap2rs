@@ -11,6 +11,8 @@
             "items/ynotes_3yr_gender_y",
             "items/ynotes_3yr_where_completed_y",
             "items/ynotes_3yr_sched_visit_reason",
+            "items/remote_method",
+            "items/remote_privacy",
             "items/ynotes_completed",
             "items/ynotes_3yr_remote_macv",
             "items/ynotes_3yr_remote_pt",
@@ -633,6 +635,18 @@
                 "isVis": "ynotes_3yr_where_completed_y =='2' || ynotes_3yr_where_completed_y =='3'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_sched_visit_reason"
+            },
+            {
+                "isAbout": "items/remote_method",
+                "isVis": "ynotes_3yr_where_completed_y =='2' || ynotes_3yr_where_completed_y =='3'",
+                "valueRequired": true,
+                "variableName": "remote_method"
+            },
+            {
+                "isAbout": "items/remote_privacy",
+                "isVis": "sched_delay == 9",
+                "valueRequired": true,
+                "variableName": "remote_privacy"
             },
             {
                 "isAbout": "items/ynotes_completed",
@@ -4219,6 +4233,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2491",
+    "version": "revid2492",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
