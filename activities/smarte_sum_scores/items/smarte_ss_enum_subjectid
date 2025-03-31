@@ -1,0 +1,30 @@
+{
+    "id": "smarte_ss_enum_subjectid",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "ENUM"
+    },
+    "prefLabel": {
+        "en": "smarte_ss_enum_subjectid"
+    },
+    "question": {
+        "en": "script.subjectid"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

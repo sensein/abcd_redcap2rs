@@ -1,0 +1,745 @@
+{
+    "id": "smarte_sum_scores_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "smarte_sum_scores"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/smarte_ss_enum_script_lastupdate",
+            "items/smarte_ss_enum_version",
+            "items/smarte_ss_enum_startdate",
+            "items/smarte_ss_enum_starttime",
+            "items/smarte_ss_enum_subjectid",
+            "items/smarte_ss_enum_event",
+            "items/smarte_ss_enum_session",
+            "items/smarte_ss_enum_groupid",
+            "items/smarte_ss_enum_elapsedtime",
+            "items/smarte_ss_enum_computer_platform",
+            "items/smarte_ss_enum_values_completed",
+            "items/smarte_ss_enum_practice_block_count",
+            "items/smarte_ss_enum_quit",
+            "items/smarte_ss_enum_test_duration",
+            "items/smarte_ss_enum_counttrials",
+            "items/smarte_ss_enum_numcorr",
+            "items/smarte_ss_enum_propcorr",
+            "items/smarte_ss_enum_meancorrrt",
+            "items/smarte_ss_enum_meanrt",
+            "items/smarte_ss_fluency_script_lastupdate",
+            "items/smarte_ss_fluency_version",
+            "items/smarte_ss_fluency_startdate",
+            "items/smarte_ss_fluency_starttime",
+            "items/smarte_ss_fluency_subjectid",
+            "items/smarte_ss_fluency_event",
+            "items/smarte_ss_fluency_session",
+            "items/smarte_ss_fluency_groupid",
+            "items/smarte_ss_fluency_elapsedtime",
+            "items/smarte_ss_fluency_computer_platform",
+            "items/smarte_ss_fluency_values_completed",
+            "items/smarte_ss_fluency_practice_block_count",
+            "items/smarte_ss_fluency_quit",
+            "items/smarte_ss_fluency_test_duration",
+            "items/smarte_ss_fluency_counttrials",
+            "items/smarte_ss_fluency_numcorr",
+            "items/smarte_ss_fluency_propcorr",
+            "items/smarte_ss_fluency_meancorrrt",
+            "items/smarte_ss_fluency_meanrt",
+            "items/smarte_ss_recall_script_lastupdate",
+            "items/smarte_ss_recall_version",
+            "items/smarte_ss_recall_startdate",
+            "items/smarte_ss_recall_starttime",
+            "items/smarte_ss_recall_subjectid",
+            "items/smarte_ss_recall_event",
+            "items/smarte_ss_recall_session",
+            "items/smarte_ss_recall_groupid",
+            "items/smarte_ss_recall_elapsedtime",
+            "items/smarte_ss_recall_computer_platform",
+            "items/smarte_ss_recall_values_completed",
+            "items/smarte_ss_recall_practice_block_count",
+            "items/smarte_ss_recall_quit",
+            "items/smarte_ss_recall_test_duration",
+            "items/smarte_ss_recall_counttrials",
+            "items/smarte_ss_recall_numcorr",
+            "items/smarte_ss_recall_propcorr",
+            "items/smarte_ss_recall_meancorrrt",
+            "items/smarte_ss_recall_meanrt",
+            "items/smarte_ss_all_total_corr",
+            "items/smarte_ss_dot_total_corr",
+            "items/smarte_ss_sdf_total_corr",
+            "items/smarte_ss_mdf_total_corr",
+            "items/smarte_ss_dot_1to4subit_nt",
+            "items/smarte_ss_dot_1to4subit_corr",
+            "items/smarte_ss_dot_1to4subit_to",
+            "items/smarte_ss_dot_1to4subit_err",
+            "items/smarte_ss_dot_1to4subit_acc",
+            "items/smarte_ss_dot_1to4subit_rt",
+            "items/smarte_ss_dot_6to9group_nt",
+            "items/smarte_ss_dot_6to9group_corr",
+            "items/smarte_ss_dot_6to9group_to",
+            "items/smarte_ss_dot_6to9group_err",
+            "items/smarte_ss_dot_6to9group_acc",
+            "items/smarte_ss_dot_6to9group_rt",
+            "items/smarte_ss_dot_6to9nogroup_nt",
+            "items/smarte_ss_dot_6to9nogroup_corr",
+            "items/smarte_ss_dot_6to9nogroup_to",
+            "items/smarte_ss_dot_6to9nogroup_err",
+            "items/smarte_ss_dot_6to9nogroup_acc",
+            "items/smarte_ss_dot_6to9nogroup_rt",
+            "items/smarte_ss_sdf_rule_nt",
+            "items/smarte_ss_sdf_rule_corr",
+            "items/smarte_ss_sdf_rule_to",
+            "items/smarte_ss_sdf_rule_err",
+            "items/smarte_ss_sdf_rule_acc",
+            "items/smarte_ss_sdf_rule_rt",
+            "items/smarte_ss_sdf_norule_nt",
+            "items/smarte_ss_sdf_norule_corr",
+            "items/smarte_ss_sdf_norule_to",
+            "items/smarte_ss_sdf_norule_err",
+            "items/smarte_ss_sdf_norule_acc",
+            "items/smarte_ss_sdf_norule_rt",
+            "items/smarte_ss_mdf_noregroup_nt",
+            "items/smarte_ss_mdf_noregroup_corr",
+            "items/smarte_ss_mdf_noregroup_to",
+            "items/smarte_ss_mdf_noregroup_err",
+            "items/smarte_ss_mdf_noregroup_acc",
+            "items/smarte_ss_mdf_noregroup_rt",
+            "items/smarte_ss_mdf_regroup_nt",
+            "items/smarte_ss_mdf_regroup_corr",
+            "items/smarte_ss_mdf_regroup_to",
+            "items/smarte_ss_mdf_regroup_err",
+            "items/smarte_ss_mdf_regroup_acc",
+            "items/smarte_ss_mdf_regroup_rt",
+            "items/smarte_sum_scores_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/smarte_ss_enum_script_lastupdate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_enum_script_lastupdate"
+            },
+            {
+                "isAbout": "items/smarte_ss_enum_version",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_enum_version"
+            },
+            {
+                "isAbout": "items/smarte_ss_enum_startdate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_enum_startdate"
+            },
+            {
+                "isAbout": "items/smarte_ss_enum_starttime",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_enum_starttime"
+            },
+            {
+                "isAbout": "items/smarte_ss_enum_subjectid",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_enum_subjectid"
+            },
+            {
+                "isAbout": "items/smarte_ss_enum_event",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_enum_event"
+            },
+            {
+                "isAbout": "items/smarte_ss_enum_session",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_enum_session"
+            },
+            {
+                "isAbout": "items/smarte_ss_enum_groupid",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_enum_groupid"
+            },
+            {
+                "isAbout": "items/smarte_ss_enum_elapsedtime",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_enum_elapsedtime"
+            },
+            {
+                "isAbout": "items/smarte_ss_enum_computer_platform",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_enum_computer_platform"
+            },
+            {
+                "isAbout": "items/smarte_ss_enum_values_completed",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_enum_values_completed"
+            },
+            {
+                "isAbout": "items/smarte_ss_enum_practice_block_count",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_enum_practice_block_count"
+            },
+            {
+                "isAbout": "items/smarte_ss_enum_quit",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_enum_quit"
+            },
+            {
+                "isAbout": "items/smarte_ss_enum_test_duration",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_enum_test_duration"
+            },
+            {
+                "isAbout": "items/smarte_ss_enum_counttrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_enum_counttrials"
+            },
+            {
+                "isAbout": "items/smarte_ss_enum_numcorr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_enum_numcorr"
+            },
+            {
+                "isAbout": "items/smarte_ss_enum_propcorr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_enum_propcorr"
+            },
+            {
+                "isAbout": "items/smarte_ss_enum_meancorrrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_enum_meancorrrt"
+            },
+            {
+                "isAbout": "items/smarte_ss_enum_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_enum_meanrt"
+            },
+            {
+                "isAbout": "items/smarte_ss_fluency_script_lastupdate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_fluency_script_lastupdate"
+            },
+            {
+                "isAbout": "items/smarte_ss_fluency_version",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_fluency_version"
+            },
+            {
+                "isAbout": "items/smarte_ss_fluency_startdate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_fluency_startdate"
+            },
+            {
+                "isAbout": "items/smarte_ss_fluency_starttime",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_fluency_starttime"
+            },
+            {
+                "isAbout": "items/smarte_ss_fluency_subjectid",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_fluency_subjectid"
+            },
+            {
+                "isAbout": "items/smarte_ss_fluency_event",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_fluency_event"
+            },
+            {
+                "isAbout": "items/smarte_ss_fluency_session",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_fluency_session"
+            },
+            {
+                "isAbout": "items/smarte_ss_fluency_groupid",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_fluency_groupid"
+            },
+            {
+                "isAbout": "items/smarte_ss_fluency_elapsedtime",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_fluency_elapsedtime"
+            },
+            {
+                "isAbout": "items/smarte_ss_fluency_computer_platform",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_fluency_computer_platform"
+            },
+            {
+                "isAbout": "items/smarte_ss_fluency_values_completed",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_fluency_values_completed"
+            },
+            {
+                "isAbout": "items/smarte_ss_fluency_practice_block_count",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_fluency_practice_block_count"
+            },
+            {
+                "isAbout": "items/smarte_ss_fluency_quit",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_fluency_quit"
+            },
+            {
+                "isAbout": "items/smarte_ss_fluency_test_duration",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_fluency_test_duration"
+            },
+            {
+                "isAbout": "items/smarte_ss_fluency_counttrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_fluency_counttrials"
+            },
+            {
+                "isAbout": "items/smarte_ss_fluency_numcorr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_fluency_numcorr"
+            },
+            {
+                "isAbout": "items/smarte_ss_fluency_propcorr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_fluency_propcorr"
+            },
+            {
+                "isAbout": "items/smarte_ss_fluency_meancorrrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_fluency_meancorrrt"
+            },
+            {
+                "isAbout": "items/smarte_ss_fluency_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_fluency_meanrt"
+            },
+            {
+                "isAbout": "items/smarte_ss_recall_script_lastupdate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_recall_script_lastupdate"
+            },
+            {
+                "isAbout": "items/smarte_ss_recall_version",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_recall_version"
+            },
+            {
+                "isAbout": "items/smarte_ss_recall_startdate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_recall_startdate"
+            },
+            {
+                "isAbout": "items/smarte_ss_recall_starttime",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_recall_starttime"
+            },
+            {
+                "isAbout": "items/smarte_ss_recall_subjectid",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_recall_subjectid"
+            },
+            {
+                "isAbout": "items/smarte_ss_recall_event",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_recall_event"
+            },
+            {
+                "isAbout": "items/smarte_ss_recall_session",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_recall_session"
+            },
+            {
+                "isAbout": "items/smarte_ss_recall_groupid",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_recall_groupid"
+            },
+            {
+                "isAbout": "items/smarte_ss_recall_elapsedtime",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_recall_elapsedtime"
+            },
+            {
+                "isAbout": "items/smarte_ss_recall_computer_platform",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_recall_computer_platform"
+            },
+            {
+                "isAbout": "items/smarte_ss_recall_values_completed",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_recall_values_completed"
+            },
+            {
+                "isAbout": "items/smarte_ss_recall_practice_block_count",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_recall_practice_block_count"
+            },
+            {
+                "isAbout": "items/smarte_ss_recall_quit",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_recall_quit"
+            },
+            {
+                "isAbout": "items/smarte_ss_recall_test_duration",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_recall_test_duration"
+            },
+            {
+                "isAbout": "items/smarte_ss_recall_counttrials",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_recall_counttrials"
+            },
+            {
+                "isAbout": "items/smarte_ss_recall_numcorr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_recall_numcorr"
+            },
+            {
+                "isAbout": "items/smarte_ss_recall_propcorr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_recall_propcorr"
+            },
+            {
+                "isAbout": "items/smarte_ss_recall_meancorrrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_recall_meancorrrt"
+            },
+            {
+                "isAbout": "items/smarte_ss_recall_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_recall_meanrt"
+            },
+            {
+                "isAbout": "items/smarte_ss_all_total_corr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_all_total_corr"
+            },
+            {
+                "isAbout": "items/smarte_ss_dot_total_corr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_dot_total_corr"
+            },
+            {
+                "isAbout": "items/smarte_ss_sdf_total_corr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_sdf_total_corr"
+            },
+            {
+                "isAbout": "items/smarte_ss_mdf_total_corr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_mdf_total_corr"
+            },
+            {
+                "isAbout": "items/smarte_ss_dot_1to4subit_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_dot_1to4subit_nt"
+            },
+            {
+                "isAbout": "items/smarte_ss_dot_1to4subit_corr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_dot_1to4subit_corr"
+            },
+            {
+                "isAbout": "items/smarte_ss_dot_1to4subit_to",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_dot_1to4subit_to"
+            },
+            {
+                "isAbout": "items/smarte_ss_dot_1to4subit_err",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_dot_1to4subit_err"
+            },
+            {
+                "isAbout": "items/smarte_ss_dot_1to4subit_acc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_dot_1to4subit_acc"
+            },
+            {
+                "isAbout": "items/smarte_ss_dot_1to4subit_rt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_dot_1to4subit_rt"
+            },
+            {
+                "isAbout": "items/smarte_ss_dot_6to9group_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_dot_6to9group_nt"
+            },
+            {
+                "isAbout": "items/smarte_ss_dot_6to9group_corr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_dot_6to9group_corr"
+            },
+            {
+                "isAbout": "items/smarte_ss_dot_6to9group_to",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_dot_6to9group_to"
+            },
+            {
+                "isAbout": "items/smarte_ss_dot_6to9group_err",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_dot_6to9group_err"
+            },
+            {
+                "isAbout": "items/smarte_ss_dot_6to9group_acc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_dot_6to9group_acc"
+            },
+            {
+                "isAbout": "items/smarte_ss_dot_6to9group_rt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_dot_6to9group_rt"
+            },
+            {
+                "isAbout": "items/smarte_ss_dot_6to9nogroup_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_dot_6to9nogroup_nt"
+            },
+            {
+                "isAbout": "items/smarte_ss_dot_6to9nogroup_corr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_dot_6to9nogroup_corr"
+            },
+            {
+                "isAbout": "items/smarte_ss_dot_6to9nogroup_to",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_dot_6to9nogroup_to"
+            },
+            {
+                "isAbout": "items/smarte_ss_dot_6to9nogroup_err",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_dot_6to9nogroup_err"
+            },
+            {
+                "isAbout": "items/smarte_ss_dot_6to9nogroup_acc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_dot_6to9nogroup_acc"
+            },
+            {
+                "isAbout": "items/smarte_ss_dot_6to9nogroup_rt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_dot_6to9nogroup_rt"
+            },
+            {
+                "isAbout": "items/smarte_ss_sdf_rule_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_sdf_rule_nt"
+            },
+            {
+                "isAbout": "items/smarte_ss_sdf_rule_corr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_sdf_rule_corr"
+            },
+            {
+                "isAbout": "items/smarte_ss_sdf_rule_to",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_sdf_rule_to"
+            },
+            {
+                "isAbout": "items/smarte_ss_sdf_rule_err",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_sdf_rule_err"
+            },
+            {
+                "isAbout": "items/smarte_ss_sdf_rule_acc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_sdf_rule_acc"
+            },
+            {
+                "isAbout": "items/smarte_ss_sdf_rule_rt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_sdf_rule_rt"
+            },
+            {
+                "isAbout": "items/smarte_ss_sdf_norule_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_sdf_norule_nt"
+            },
+            {
+                "isAbout": "items/smarte_ss_sdf_norule_corr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_sdf_norule_corr"
+            },
+            {
+                "isAbout": "items/smarte_ss_sdf_norule_to",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_sdf_norule_to"
+            },
+            {
+                "isAbout": "items/smarte_ss_sdf_norule_err",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_sdf_norule_err"
+            },
+            {
+                "isAbout": "items/smarte_ss_sdf_norule_acc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_sdf_norule_acc"
+            },
+            {
+                "isAbout": "items/smarte_ss_sdf_norule_rt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_sdf_norule_rt"
+            },
+            {
+                "isAbout": "items/smarte_ss_mdf_noregroup_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_mdf_noregroup_nt"
+            },
+            {
+                "isAbout": "items/smarte_ss_mdf_noregroup_corr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_mdf_noregroup_corr"
+            },
+            {
+                "isAbout": "items/smarte_ss_mdf_noregroup_to",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_mdf_noregroup_to"
+            },
+            {
+                "isAbout": "items/smarte_ss_mdf_noregroup_err",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_mdf_noregroup_err"
+            },
+            {
+                "isAbout": "items/smarte_ss_mdf_noregroup_acc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_mdf_noregroup_acc"
+            },
+            {
+                "isAbout": "items/smarte_ss_mdf_noregroup_rt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_mdf_noregroup_rt"
+            },
+            {
+                "isAbout": "items/smarte_ss_mdf_regroup_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_mdf_regroup_nt"
+            },
+            {
+                "isAbout": "items/smarte_ss_mdf_regroup_corr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_mdf_regroup_corr"
+            },
+            {
+                "isAbout": "items/smarte_ss_mdf_regroup_to",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_mdf_regroup_to"
+            },
+            {
+                "isAbout": "items/smarte_ss_mdf_regroup_err",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_mdf_regroup_err"
+            },
+            {
+                "isAbout": "items/smarte_ss_mdf_regroup_acc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_mdf_regroup_acc"
+            },
+            {
+                "isAbout": "items/smarte_ss_mdf_regroup_rt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_mdf_regroup_rt"
+            },
+            {
+                "isAbout": "items/smarte_sum_scores_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "smarte_sum_scores_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2465",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
