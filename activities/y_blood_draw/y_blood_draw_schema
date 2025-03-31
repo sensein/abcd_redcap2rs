@@ -65,7 +65,7 @@
             },
             {
                 "isAbout": "items/biospec_blood_tube1_barcode",
-                "isVis": "biospec_blood_tube1_collect == '1'",
+                "isVis": true,
                 "valueRequired": true,
                 "variableName": "biospec_blood_tube1_barcode"
             },
@@ -89,7 +89,7 @@
             },
             {
                 "isAbout": "items/biospec_blood_tube2_barcode",
-                "isVis": "biospec_blood_tube2_collect == '1'",
+                "isVis": true,
                 "valueRequired": true,
                 "variableName": "biospec_blood_tube2_barcode"
             },
@@ -113,7 +113,7 @@
             },
             {
                 "isAbout": "items/biospec_blood_fluidx_tube",
-                "isVis": "biospec_blood_tube1_collect == '1'",
+                "isVis": true,
                 "valueRequired": true,
                 "variableName": "biospec_blood_fluidx_tube"
             },
@@ -138,6 +138,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2476",
+    "version": "revid2477",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
