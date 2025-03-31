@@ -1,0 +1,45 @@
+{
+    "id": "neurocog_sum_score_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "neurocog_sum_score"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/neurocog_ss_general_ability",
+            "items/neurocog_ss_executive_function",
+            "items/neurocog_ss_learning_memory",
+            "items/neurocog_sum_score_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/neurocog_ss_general_ability",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "neurocog_ss_general_ability"
+            },
+            {
+                "isAbout": "items/neurocog_ss_executive_function",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "neurocog_ss_executive_function"
+            },
+            {
+                "isAbout": "items/neurocog_ss_learning_memory",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "neurocog_ss_learning_memory"
+            },
+            {
+                "isAbout": "items/neurocog_sum_score_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "neurocog_sum_score_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2454",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
