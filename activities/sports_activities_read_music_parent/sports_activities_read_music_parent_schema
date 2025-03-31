@@ -8,6 +8,7 @@
     "ui": {
         "order": [
             "items/sai_yr_3_start_time_p",
+            "items/sai_yr_3_p_select_language",
             "items/sai_yr_3_read_p",
             "items/sai_yr_3_read_yrs_p",
             "items/sai_yr_3_read_hrs_wk_p",
@@ -24,6 +25,12 @@
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "sai_yr_3_start_time_p"
+            },
+            {
+                "isAbout": "items/sai_yr_3_p_select_language",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sai_yr_3_p_select_language"
             },
             {
                 "isAbout": "items/sai_yr_3_read_p",
@@ -82,6 +89,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2454",
+    "version": "revid2455",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

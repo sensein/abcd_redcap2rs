@@ -8,6 +8,7 @@
     "ui": {
         "order": [
             "items/bdefs_start_time",
+            "items/bdefs_p_select_language",
             "items/bdefs_procastination_p",
             "items/bdefs_sense_time_p",
             "items/bdefs_waste_time_p",
@@ -36,6 +37,12 @@
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "bdefs_start_time"
+            },
+            {
+                "isAbout": "items/bdefs_p_select_language",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "bdefs_p_select_language"
             },
             {
                 "isAbout": "items/bdefs_procastination_p",
@@ -166,6 +173,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2454",
+    "version": "revid2455",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

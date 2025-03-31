@@ -5,25 +5,28 @@
         "en": "sai_yr_3_music_p"
     },
     "question": {
-        "en": "Does your child listen to music on their own in their free time?"
+        "en": "Does your child listen to music on their own in their free time?",
+        "es": "\u00c2\u00bfSu hijo(a) escucha m\u00c3\u00basica por su cuenta en su tiempo libre?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Yes"
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "No"
+                    "en": "No",
+                    "es": "No"
                 },
                 "value": 0
             }
         ],
         "valueType": [
-            "xsd:boolean"
+            "xsd:integer"
         ]
     },
     "ui": {
