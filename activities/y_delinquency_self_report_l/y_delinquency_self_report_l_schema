@@ -35,7 +35,6 @@
             "items/delq_7_y",
             "items/delq_7a_y",
             "items/delq_7a_y_dk",
-            "items/delq_7_ksads_cd",
             "items/delq_ss_7a_y",
             "items/delq_8_y",
             "items/delq_8a_y",
@@ -205,7 +204,7 @@
             },
             {
                 "isAbout": "items/delq_7_y",
-                "isVis": "event_name_number <> '21'",
+                "isVis": true,
                 "valueRequired": true,
                 "variableName": "delq_7_y"
             },
@@ -220,12 +219,6 @@
                 "isVis": "delq_7_y == '1' && delq_7a_y == ''",
                 "valueRequired": true,
                 "variableName": "delq_7a_y_dk"
-            },
-            {
-                "isAbout": "items/delq_7_ksads_cd",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "delq_7_ksads_cd"
             },
             {
                 "isAbout": "items/delq_ss_7a_y",
@@ -320,6 +313,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2482",
+    "version": "revid2483",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
