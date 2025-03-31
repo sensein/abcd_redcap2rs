@@ -23,26 +23,12 @@
         "en": "Saliva DNA Inventory Code #2 (RUCDR barcode on tube) scanned (and home collection kit sent):"
     },
     "responseOptions": {
-        "choices": [
-            {
-                "name": {
-                    "en": "Yes"
-                },
-                "value": 1
-            },
-            {
-                "name": {
-                    "en": "No"
-                },
-                "value": 0
-            }
-        ],
         "valueType": [
-            "xsd:boolean"
+            "xsd:string"
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "text"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

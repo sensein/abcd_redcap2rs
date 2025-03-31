@@ -15,7 +15,7 @@
         {
             "column": "Field Annotation",
             "source": "redcap",
-            "value": "@DEFAULT = '0'  HIDEFROMCOMPLETION\r\n@HIDDEN"
+            "value": "@DEFAULT = '0'  HIDEFROMCOMPLETION"
         }
     ],
     "preamble": {
@@ -47,8 +47,7 @@
         ]
     },
     "ui": {
-        "inputType": "radio",
-        "readonlyValue": true
+        "inputType": "radio"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

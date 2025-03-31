@@ -74,7 +74,7 @@
             },
             {
                 "isAbout": "items/dna_sal_recollect",
-                "isVis": false,
+                "isVis": true,
                 "valueRequired": false,
                 "variableName": "dna_sal_recollect"
             },
@@ -92,14 +92,14 @@
             },
             {
                 "isAbout": "items/dna_sal_recollect_2",
-                "isVis": true,
+                "isVis": "dna_sal_recollect == '1'",
                 "valueRequired": false,
                 "variableName": "dna_sal_recollect_2"
             },
             {
                 "isAbout": "items/dna_saliva_inventory_homekit_2",
                 "isVis": "dna_sal_recollect_2 == '1'",
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "dna_saliva_inventory_homekit_2"
             },
             {
@@ -110,7 +110,7 @@
             },
             {
                 "isAbout": "items/dna_sal_recollect_3",
-                "isVis": true,
+                "isVis": "dna_sal_recollect_2 == '1'",
                 "valueRequired": false,
                 "variableName": "dna_sal_recollect_3"
             },
@@ -128,7 +128,7 @@
             },
             {
                 "isAbout": "items/dna_sal_recollect_4",
-                "isVis": true,
+                "isVis": "dna_sal_recollect_3 == '1'",
                 "valueRequired": false,
                 "variableName": "dna_sal_recollect_4"
             },
@@ -159,6 +159,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2484",
+    "version": "revid2485",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
