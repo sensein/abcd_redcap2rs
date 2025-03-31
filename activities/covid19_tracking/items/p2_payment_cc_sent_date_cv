@@ -1,0 +1,26 @@
+{
+    "id": "p2_payment_cc_sent_date_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "date_mdy"
+        }
+    ],
+    "prefLabel": {
+        "en": "p2_payment_cc_sent_date_cv"
+    },
+    "question": {
+        "en": "Date CC sent payment for the parent survey part 2"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "date"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

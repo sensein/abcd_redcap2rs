@@ -1,0 +1,33 @@
+{
+    "id": "p2_test_complete_cv",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "p2_test_complete_cv"
+    },
+    "question": {
+        "en": "Test variable for parent survey part 1 complete"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Incomplete"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Complete"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

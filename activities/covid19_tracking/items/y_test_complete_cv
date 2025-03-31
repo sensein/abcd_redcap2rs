@@ -1,0 +1,33 @@
+{
+    "id": "y_test_complete_cv",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "y_test_complete_cv"
+    },
+    "question": {
+        "en": "Test variable for youth survey complete"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Incomplete"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Complete"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

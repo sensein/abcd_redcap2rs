@@ -1,0 +1,45 @@
+{
+    "id": "y_payment_status_cv",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "y_payment_status_cv"
+    },
+    "question": {
+        "en": "Payment status for youth survey"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Error"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Requested by DAIRC"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Sent by CC"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Received by parent"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
