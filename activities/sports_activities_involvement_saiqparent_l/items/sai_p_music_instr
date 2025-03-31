@@ -5,7 +5,7 @@
         {
             "column": "Field Annotation",
             "source": "redcap",
-            "value": "@HIDEFROMCOMPLETION20190516"
+            "value": "@HIDECHOICE='801' @HIDEFROMCOMPLETION20190516"
         }
     ],
     "preamble": {
@@ -111,6 +111,12 @@
                     "es": "Otro..."
                 },
                 "value": 12
+            },
+            {
+                "name": {
+                    "en": "Not Applied"
+                },
+                "value": 801
             }
         ],
         "multipleChoice": true,
