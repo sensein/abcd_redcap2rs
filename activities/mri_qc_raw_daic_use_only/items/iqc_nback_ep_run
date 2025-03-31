@@ -1,0 +1,26 @@
+{
+    "id": "iqc_nback_ep_run",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200115"
+        }
+    ],
+    "prefLabel": {
+        "en": "iqc_nback_ep_run"
+    },
+    "question": {
+        "en": "Run, inside the E-Prime nBack file that best matches the corresponding image series"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

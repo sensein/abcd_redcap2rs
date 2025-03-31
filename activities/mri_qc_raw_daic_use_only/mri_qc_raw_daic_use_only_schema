@@ -2097,6 +2097,8 @@
             "items/iqc_mid_ep_folder_found",
             "items/iqc_mid_ep_pguid_match",
             "items/iqc_mid_eprime_missing",
+            "items/iqc_mid_ep_run",
+            "items/iqc_mid_ep_behav_readable",
             "items/iqc_nback_ep_file_found",
             "items/iqc_nback_ep_contents_ok",
             "items/iqc_nback_ep_exper_ok",
@@ -2106,12 +2108,16 @@
             "items/iqc_nback_epx_folder_found",
             "items/iqc_nback_epx_pguid_match",
             "items/iqc_nback_eprime_missing",
+            "items/iqc_nback_ep_run",
+            "items/iqc_nback_ep_behav_readable",
             "items/iqc_sst_ep_file_found",
             "items/iqc_sst_ep_contents_ok",
             "items/iqc_sst_ep_exper_ok",
             "items/iqc_sst_ep_folder_found",
             "items/iqc_sst_ep_pguid_match",
             "items/iqc_sst_eprime_missing",
+            "items/iqc_sst_ep_run",
+            "items/iqc_sst_ep_behav_readable",
             "items/iqc_eprime_missing",
             "items/iqc_nback_epx_missing",
             "items/iqc_ra_series_missing_memo",
@@ -14756,6 +14762,18 @@
                 "variableName": "iqc_mid_eprime_missing"
             },
             {
+                "isAbout": "items/iqc_mid_ep_run",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "iqc_mid_ep_run"
+            },
+            {
+                "isAbout": "items/iqc_mid_ep_behav_readable",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "iqc_mid_ep_behav_readable"
+            },
+            {
                 "isAbout": "items/iqc_nback_ep_file_found",
                 "isVis": true,
                 "valueRequired": false,
@@ -14810,6 +14828,18 @@
                 "variableName": "iqc_nback_eprime_missing"
             },
             {
+                "isAbout": "items/iqc_nback_ep_run",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "iqc_nback_ep_run"
+            },
+            {
+                "isAbout": "items/iqc_nback_ep_behav_readable",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "iqc_nback_ep_behav_readable"
+            },
+            {
                 "isAbout": "items/iqc_sst_ep_file_found",
                 "isVis": true,
                 "valueRequired": false,
@@ -14844,6 +14874,18 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "iqc_sst_eprime_missing"
+            },
+            {
+                "isAbout": "items/iqc_sst_ep_run",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "iqc_sst_ep_run"
+            },
+            {
+                "isAbout": "items/iqc_sst_ep_behav_readable",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "iqc_sst_ep_behav_readable"
             },
             {
                 "isAbout": "items/iqc_eprime_missing",
@@ -15454,6 +15496,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2474",
+    "version": "revid2475",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
