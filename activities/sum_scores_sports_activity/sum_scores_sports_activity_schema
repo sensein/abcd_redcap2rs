@@ -129,6 +129,8 @@
             "items/sai_ss_read_years_p",
             "items/sai_ss_read_hours_p",
             "items/sai_ss_met_tot_yr_p",
+            "items/sports_activity_ss_lmusic_p",
+            "items/sports_activity_ss_read_p",
             "items/sum_scores_sports_activity_complete"
         ],
         "addProperties": [
@@ -865,6 +867,18 @@
                 "variableName": "sai_ss_met_tot_yr_p"
             },
             {
+                "isAbout": "items/sports_activity_ss_lmusic_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sports_activity_ss_lmusic_p"
+            },
+            {
+                "isAbout": "items/sports_activity_ss_read_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sports_activity_ss_read_p"
+            },
+            {
                 "isAbout": "items/sum_scores_sports_activity_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -873,6 +887,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2458",
+    "version": "revid2459",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

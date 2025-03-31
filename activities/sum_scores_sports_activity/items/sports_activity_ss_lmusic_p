@@ -1,0 +1,35 @@
+{
+    "id": "sports_activity_ss_lmusic_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "1, Less than 1 hour 2, 1 hour or more, but less than 2 hours 3, 2 hours or more, but less than 3 hours 4, 3 hours or more, but less than 4 hours 5, 4 hours or more, but less than 5 hours 6, 5 hours or more, but less than 6 hours 7, 6 hours or more, but less than 8 hours 8, 8 hours or more, but less than 12 hours 9, 12 hours or more, but less than 18 hours 10,18 hours or more, but less than 24 hours 11, 24 hours or more, but less than 36 hours 12, 36 hours or more, but less than 72 hours 13, More than 72 hours 999, Don't know"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Total Energy Expenditure Per Year"
+    },
+    "prefLabel": {
+        "en": "sports_activity_ss_lmusic_p"
+    },
+    "question": {
+        "en": "MusicAbout how many hours per week does your child spend listening to music for pleasure by bin number?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
