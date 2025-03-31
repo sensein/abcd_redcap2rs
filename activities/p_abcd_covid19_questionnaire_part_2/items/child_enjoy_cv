@@ -1,0 +1,55 @@
+{
+    "id": "child_enjoy_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "child_fear_group_cv"
+        }
+    ],
+    "preamble": {
+        "en": "Please indicate how true the statements are for your child in thelast week:"
+    },
+    "prefLabel": {
+        "en": "child_enjoy_cv"
+    },
+    "question": {
+        "en": "Being afraid of an illness or virus has gotten in the way of my child enjoying their life (e.g. caused fights in the house, kept them from connecting with others, made them feel isolated or hopeless about the future, etc.)."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not true for my child at all"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Somewhat true"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Mostly true"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Definitely true"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

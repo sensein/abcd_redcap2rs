@@ -1,0 +1,64 @@
+{
+    "id": "p_enjoy_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "p_enjoy_group_cv"
+        }
+    ],
+    "prefLabel": {
+        "en": "p_enjoy_cv"
+    },
+    "question": {
+        "en": "Are you able to enjoy things?",
+        "es": "\u00c2\u00bfPuedes disfrutar de las cosas?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never",
+                    "es": "Nunca"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Rarely",
+                    "es": "Raramente o Casi nunca"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Occasionally",
+                    "es": "ocasionalmente o de vez en cuando"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Often",
+                    "es": "usualmente"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Most of the time",
+                    "es": "casi siempre o la mayor parte del tiempo"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

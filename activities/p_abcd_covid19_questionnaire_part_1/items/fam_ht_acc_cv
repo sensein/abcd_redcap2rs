@@ -1,0 +1,50 @@
+{
+    "id": "fam_ht_acc_cv",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "fam_ht_acc_cv"
+    },
+    "question": {
+        "en": "Mental health treatment access:",
+        "es": "Acceso a los tratamientos de salud mental"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No change",
+                    "es": "Ning\u00c3\u00ban cambio"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Mild. Appointments moved to telehealth",
+                    "es": "Leve. Citas cambiadas a telesalud"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Moderate. Delays or cancellations in appointments and/or delays in getting prescriptions; changes have minimal impact on health",
+                    "es": "Moderado. Retrasos o cancelaciones de citas y/o retrasos en obtener recetas m\u00c3\u00a9dicas; Cambios con m\u00c3\u00adnimo impacto en la salud."
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Severe. Unable to access needed care resulting in severe risk and/or significant impact.",
+                    "es": "Severo. Sin acceso a la atenci\u00c3\u00b3n m\u00c3\u00a9dica necesaria resultando en riesgo severo y/o impacto de cantidad importante"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

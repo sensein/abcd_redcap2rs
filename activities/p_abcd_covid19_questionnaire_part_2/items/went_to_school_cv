@@ -1,0 +1,47 @@
+{
+    "id": "went_to_school_cv",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Youth's School",
+        "es": "La escuela de su hijo/a"
+    },
+    "prefLabel": {
+        "en": "went_to_school_cv"
+    },
+    "question": {
+        "en": "Has your child participated in school thepast week?",
+        "es": "\u00c2\u00bfSu hijo/a participo en la escuela la ultima semana?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Don't know",
+                    "es": "No se"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

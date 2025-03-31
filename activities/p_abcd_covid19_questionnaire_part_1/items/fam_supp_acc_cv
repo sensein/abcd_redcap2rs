@@ -1,0 +1,50 @@
+{
+    "id": "fam_supp_acc_cv",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "fam_supp_acc_cv"
+    },
+    "question": {
+        "en": "Access to family and close non-family social contacts (such as friends, neighbors, members of a social or religious group you belong to)",
+        "es": "Acceso a familiares y contactos sociales cercanos (por ejemplo, amigos, vecinos, miembros de un grupo social o religioso al que perteneces)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No change.",
+                    "es": "Ning\u00c3\u00ban cambio"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Mild. Continued visits with social distancing and/or regular phone calls and/or televideo or social media contacts.",
+                    "es": "Leve. Visitas continuas con distanciamiento social y/o llamadas regulares y/o contactos de televideo o redes sociales"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Moderate. Loss of in person and remote contact with a few people, but not all supports.",
+                    "es": "Moderado. P\u00c3\u00a9rdida de contacto en persona y lejano con algunas personas, pero no todos los apoyos."
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Severe. Loss of in person and remote contact with all supports",
+                    "es": "Severo. P\u00c3\u00a9rdida de contacto en persona y lejano con todos los apoyos."
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

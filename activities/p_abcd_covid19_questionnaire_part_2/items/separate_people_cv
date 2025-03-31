@@ -1,0 +1,75 @@
+{
+    "id": "separate_people_cv",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "FamilyHere are some questions about your child, you, and your family, in thepast week:",
+        "es": "Familia\nAqu\u00c3\u00ad hay algunas preguntas sobre su hijo/a, usted y su familia, en la semana pasada:"
+    },
+    "prefLabel": {
+        "en": "separate_people_cv"
+    },
+    "question": {
+        "en": "Check all that apply:",
+        "es": "Marque todas las opciones que correspondan:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Parent/guardian"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Grandparent(s)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Sibling/half-sibling/step-sibling(s)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Other relative(s)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Friend(s)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Teacher(s)"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Coach(es)"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Other adult"
+                },
+                "value": 8
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

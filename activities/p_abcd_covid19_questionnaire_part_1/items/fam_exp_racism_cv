@@ -1,0 +1,68 @@
+{
+    "id": "fam_exp_racism_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "feel_cv"
+        }
+    ],
+    "preamble": {
+        "en": "Please indicate how much you talked about the following with your child IN THE LAST WEEK.",
+        "es": "Indique cu\u00c3\u00a1nto habl\u00c3\u00b3 sobre lo siguiente con su hijo EN LA \u00c3\u009aLTIMA SEMANA."
+    },
+    "prefLabel": {
+        "en": "fam_exp_racism_cv"
+    },
+    "question": {
+        "en": "I am worried that our family will experience racism or discrimination in relation to coronavirus",
+        "es": "Me preocupa que nuestra familia experimente racismo o discriminaci\u00c3\u00b3n en relaci\u00c3\u00b3n con el coronavirus"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Strongly Disagree",
+                    "es": "Muy en Desacuerdo"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Disagree",
+                    "es": "Desacuerdo"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Neither Disagree or Agree",
+                    "es": "Ni en desacuerdo ni de acuerdo"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Agree",
+                    "es": "Acuerdo"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Strongly Agree",
+                    "es": "Muy de acuerdo"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

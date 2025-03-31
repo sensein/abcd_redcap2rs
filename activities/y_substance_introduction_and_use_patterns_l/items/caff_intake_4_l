@@ -23,6 +23,11 @@
             "value": "0"
         },
         {
+            "column": "Text Validation Max",
+            "source": "redcap",
+            "value": "50.0"
+        },
+        {
             "column": "Question Number (surveys only)",
             "source": "redcap",
             "value": "3"
@@ -38,6 +43,7 @@
         "en": "Tea with caffeine (Green Tea, Black Tea, Sweet Tea, Earl Grey)"
     },
     "responseOptions": {
+        "maxValue": 50,
         "minValue": 0,
         "valueType": [
             "xsd:decimal"

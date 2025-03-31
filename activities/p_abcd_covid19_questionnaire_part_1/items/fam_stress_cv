@@ -1,0 +1,50 @@
+{
+    "id": "fam_stress_cv",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "fam_stress_cv"
+    },
+    "question": {
+        "en": "Experience of stress related to coronavirus pandemic",
+        "es": "Experiencia de estr\u00c3\u00a9s relacionada a la pandemia del coronavirus"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "None.",
+                    "es": "Ning\u00c3\u00ban/Ninguno"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Mild. Occasional worries and/or minor stress-related symptoms (e.g., feel a little anxious, sad, and/or angry; mild/rare trouble sleeping).",
+                    "es": "Leve. Preocupaciones ocasionales y/o s\u00c3\u00adntomas menores relacionados con el estr\u00c3\u00a9s (por ejemplo, sentir un poco de ansiedad, tristeza y/o enojo, problemas leves/raros para dormir)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Moderate. Frequent worries and/or moderate stress-related symptoms (e.g., feel moderately anxious, sad, and/or angry; moderate/occasional trouble sleeping).",
+                    "es": "Moderado. Preocupaciones frecuentes y/o s\u00c3\u00adntomas moderados relacionados con el estr\u00c3\u00a9s (por ejemplo, sentir ansiedad moderada, tristeza y/o enojo; problemas moderada/ocasional para dormir)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Severe. Persistent worries and/or severe stress-related symptoms (e.g., feel extremely anxious, sad, and/or angry; severe/frequent trouble sleeping).",
+                    "es": "Severo. Preocupaciones persistentes y/o s\u00c3\u00adntomas graves relacionados con el estr\u00c3\u00a9s (por ejemplo \u00e2\u0080\u00a8sentir ansiedad extrema, tristeza y/o enojo; problemas severas/frecuentes para dormir)"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

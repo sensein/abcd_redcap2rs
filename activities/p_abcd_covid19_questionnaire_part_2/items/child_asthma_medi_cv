@@ -1,0 +1,52 @@
+{
+    "id": "child_asthma_medi_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        }
+    ],
+    "preamble": {
+        "en": "Youth Physical HealthThese questions are about your child's health. For these questions, healthcare provider means a doctor, nurse practitioner, physician assistant or anyone you go to for medical care."
+    },
+    "prefLabel": {
+        "en": "child_asthma_medi_cv"
+    },
+    "question": {
+        "en": "Since March, has your child's asthma medications changed or has she/he stopped taking some asthma medications?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "I don't know",
+                    "es": "No lo s\u00c3\u00a9"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

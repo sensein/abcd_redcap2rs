@@ -1,0 +1,43 @@
+{
+    "id": "fam_wage_loss_cv",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "fam_wage_loss_cv"
+    },
+    "question": {
+        "en": "Since January 2020, has anyone in your household lost wages, sales, or work due to the impact of coronavirus on employment, business, or the economy?",
+        "es": "Desde enero de 2020, \u00c2\u00bfalguien en su hogar ha perdido salarios, ventas o trabajo debido al impacto del coronavirus en el empleo, las empresas o la econom\u00c3\u00ada?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer",
+                    "es": "Niego contestar"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

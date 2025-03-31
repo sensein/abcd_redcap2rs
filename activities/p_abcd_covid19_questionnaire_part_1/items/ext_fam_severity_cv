@@ -1,0 +1,50 @@
+{
+    "id": "ext_fam_severity_cv",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ext_fam_severity_cv"
+    },
+    "question": {
+        "en": "Rate the symptoms of the person who was most sick:",
+        "es": "Por favor eval\u00c3\u00bae los s\u00c3\u00adntomas de la persona que estaba m\u00c3\u00a1s enferma"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Mild. Symptoms effectively managed at home.",
+                    "es": "Leve. Los s\u00c3\u00adntomas manejados efectivamente en el hogar"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Moderate. Symptoms severe and required brief hospitalization",
+                    "es": "Moderado. S\u00c3\u00adntomas severos y requiri\u00c3\u00b3 hospitalizaci\u00c3\u00b3n breve"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Severe. Symptoms severe and required ventilation. Immediate family member died from coronavirus.",
+                    "es": "Grave. S\u00c3\u00adntomas severos y requiriendo ventilaci\u00c3\u00b3n."
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Extended family member and/or close friend died of coronavirus.",
+                    "es": "Un miembro de la familia extendida y/o un amigo cercano murieron de coronavirus"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

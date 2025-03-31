@@ -1,0 +1,114 @@
+{
+    "id": "fam_actions_cv",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "fam_actions_cv"
+    },
+    "question": {
+        "en": "In thepast week,our family has (check all that apply; byyourchoice rather than because it's closed):",
+        "es": "La semana pasada, nuestra familia ha (marque todo lo que corresponda; por su elecci\u00c3\u00b3n en lugar de porque est\u00c3\u00a1 cerrado):"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Engaged in \"social distancing\"",
+                    "es": "Participado en \"distanciamiento social\""
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Avoided gatherings of 250 people or more",
+                    "es": "Evitado reuniones de 250 personas o m\u00c3\u00a1s"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Avoided gatherings of 10 people or more",
+                    "es": "Evitado reuniones de 10 personas o m\u00c3\u00a1s"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Avoided visiting family and friends outside our own immediate family",
+                    "es": "Evitado visitar a familiares y amigos fuera de nuestra propia familia inmediata"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Avoided having people in our home, except for \u00e2\u0080\u00a8 immediate family",
+                    "es": "Evitado tener personas en nuestra casa, excepto familia inmediata"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Avoided restaurant dining",
+                    "es": "Evitado comer en restaurantes"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Avoided restaurant take-out/delivery",
+                    "es": "Evitado comer comida para llevar de restaurantes"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Avoided grocery store or pharmacies",
+                    "es": "Evitado tiendas de comestibles o farmacias"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Avoided stores (not including grocery stores or\u00e2\u0080\u00a8  pharmacies)",
+                    "es": "Evitado tiendas (sin incluir tiendas de comestibles o farmacias)"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Avoided routine doctor visits",
+                    "es": "Evitado visitas de rutina al m\u00c3\u00a9dico"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Avoided places like gyms, malls, movie theatres,\u00e2\u0080\u00a8  etc.",
+                    "es": "Evitado lugares como gimnasios, centros comerciales, cines, etc."
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Avoided taking public transportation",
+                    "es": "Evitado usar el transporte p\u00c3\u00bablico"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Avoided parks or playgrounds",
+                    "es": "Evitado parques o parques infantiles"
+                },
+                "value": 13
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

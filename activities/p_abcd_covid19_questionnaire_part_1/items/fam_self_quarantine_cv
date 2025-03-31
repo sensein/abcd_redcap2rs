@@ -1,0 +1,43 @@
+{
+    "id": "fam_self_quarantine_cv",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "fam_self_quarantine_cv"
+    },
+    "question": {
+        "en": "Did this person need to self-quarantine in a separate\nsection of the household?",
+        "es": "\u00c2\u00bfNecesitaba esta persona ponerse en auto-cuarentena en una secci\u00c3\u00b3n separada del hogar?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer",
+                    "es": "Niego contestar"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

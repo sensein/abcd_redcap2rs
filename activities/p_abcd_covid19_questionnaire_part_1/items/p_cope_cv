@@ -1,0 +1,79 @@
+{
+    "id": "p_cope_cv",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "p_cope_cv"
+    },
+    "question": {
+        "en": "And finally, in the past week, to cope, have you done any of the following? (check all that apply)",
+        "es": "Y finalmente, en la \u00c3\u00baltima semana, para aguantar/hacer frente*, \u00c2\u00bfhas hecho algo de lo siguiente? (marque todo lo que corresponda)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Took breaks from watching, reading, or listening to news stories, including social media.",
+                    "es": "Tom\u00c3\u00b3 descansos de mirar, leer o escuchar noticias, incluidas las redes sociales."
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Participated in a neighborhood social distance activity (such as decorated windows or driveway, singing from balcony or porch)",
+                    "es": "Particip\u00c3\u00b3 en una actividad social a distancia del vecindario (por ejemplo, decorar ventanas, cantar desde el balc\u00c3\u00b3n o porche)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Took care of your body, such as taking deep breaths, stretching, or meditating.",
+                    "es": "Cuid\u00c3\u00b3 su cuerpo, como respirar profundamente, estirarse o meditar"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Exercised (such as walking, running, or an online exercise class)",
+                    "es": "Hizo ejercicio (como caminar, correr, o participar en una clase de ejercicio en l\u00c3\u00adnea)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Spent more time on hobbies, or started a new one",
+                    "es": "Pas\u00c3\u00b3 m\u00c3\u00a1s tiempo en pasatiempos o comenz\u00c3\u00b3 uno nuevo"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Engaged in healthy behaviors, like trying to eat healthy, getting plenty of sleep.",
+                    "es": "Particip\u00c3\u00b3 en comportamientos saludables, como tratar de comer sano, dormir lo suficiente"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Made time to relax",
+                    "es": "Hizo tiempo para relajarse"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Connected with others online or by phone",
+                    "es": "Hizo contacto con otros en l\u00c3\u00adnea o por tel\u00c3\u00a9fono"
+                },
+                "value": 8
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

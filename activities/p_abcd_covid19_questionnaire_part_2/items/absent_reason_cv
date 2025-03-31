@@ -1,0 +1,55 @@
+{
+    "id": "absent_reason_cv",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Youth's School",
+        "es": "La escuela de su hijo/a"
+    },
+    "prefLabel": {
+        "en": "absent_reason_cv"
+    },
+    "question": {
+        "en": "Please check all reasons your child did not do schoolthis week:",
+        "es": "Por favor indique las razones por las cuales su hijo/a no asisti\u00c3\u00b3 a la escuela esta semana:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "My child was too sick to go to school",
+                    "es": "Mi hijo/a estaba demasiado enfermo/a para ir a escuela esta semana"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "I do not feel safe sending him/her to school right now because of coronavirus",
+                    "es": "No me siento seguro/a mandando mi hijo/a a la escuela en este momento por el coronavirus"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "My child is too worried to go to school because of coronavirus",
+                    "es": "Mi hijo/a esta demasiado preocupado/a para ir a la escuela por el coronavirus"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Other",
+                    "es": "Otro"
+                },
+                "value": 4
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

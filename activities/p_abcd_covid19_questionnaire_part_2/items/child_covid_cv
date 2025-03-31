@@ -1,0 +1,45 @@
+{
+    "id": "child_covid_cv",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Please answer the questions below about your child:"
+    },
+    "prefLabel": {
+        "en": "child_covid_cv"
+    },
+    "question": {
+        "en": "Has a healthcare provider ever told you that your child has or might have COVID-19 (coronavirus)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer",
+                    "es": "Niego contestar"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

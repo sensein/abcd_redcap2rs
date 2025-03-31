@@ -1,0 +1,50 @@
+{
+    "id": "fam_discord_cv",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "fam_discord_cv"
+    },
+    "question": {
+        "en": "Stress and discord in the family:",
+        "es": "Estr\u00c3\u00a9s y conflicto en la familia"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "None. Family members are showing no or very little signs of irritation or being short-tempered with one another",
+                    "es": "\u00e2\u0080\u00a8Ninguna. Los miembros de la familia no muestran o tienen pocos signos de irritaci\u00c3\u00b3n o mal genio con unos a los otros."
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Mild. Family members occasionally irritable or short-tempered with one another, may occasionally shout at one another",
+                    "es": "Leve. Los miembros de la familia est\u00c3\u00a1n ocasionalmente irritables o de mal genio unos con otros, ocasionalmente pueden gritarse el uno al otro."
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Moderate. Family members frequently irritable and short-tempered with one another; and/or children in the home are throwing things, knocking over furniture, or showing signs of moderate stress",
+                    "es": "Moderado. Los miembros de la familia est\u00c3\u00a1n frecuentemente irritables y de mal genio unos con unos a los otros; y/o los ni\u00c3\u00b1os en el hogar tirando cosas, volteando muebles, o muestran signos de estr\u00c3\u00a9s moderado"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Severe. Family members are constantly irritable and short-tempered with one another, shouting frequently; children and adults in the home throwing things at one another, and/or knocking over furniture, or showing signs of severe stress",
+                    "es": "Severo. Los miembros de la familia est\u00c3\u00a1n constantemente irritables y de mal genio, gritando con frecuencia; ni\u00c3\u00b1os y adultos en el hogar tirando cosas unos a los otros y/o volteando muebles o muestran signos de estr\u00c3\u00a9s severo"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,47 @@
+{
+    "id": "custody_cv",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "FamilyHere are some questions about your child, you, and your family, in thepast week:",
+        "es": "Familia\nAqu\u00c3\u00ad hay algunas preguntas sobre su hijo/a, usted y su familia, en la semana pasada:"
+    },
+    "prefLabel": {
+        "en": "custody_cv"
+    },
+    "question": {
+        "en": "Has your custody situation changed since the coronavirus/COVID-19 crisis?",
+        "es": "\u00c2\u00bfHa cambiado su situaci\u00c3\u00b3n de custodia desde la crisis del coronavirus/COVID-19?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer",
+                    "es": "Niego contestar"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

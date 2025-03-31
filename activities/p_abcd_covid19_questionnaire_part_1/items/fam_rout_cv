@@ -1,0 +1,50 @@
+{
+    "id": "fam_rout_cv",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "fam_rout_cv"
+    },
+    "question": {
+        "en": "Routines",
+        "es": "Rutinas:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No change",
+                    "es": "Ning\u00c3\u00ban cambio"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Mild. Change in only one area (e.g. work, education, social life, hobbies, religious activities)",
+                    "es": "Leve. Cambios en solo un \u00c3\u00a1rea (por ejemplo, trabajo, \u00e2\u0080\u00a8educaci\u00c3\u00b3n, vida social, pasatiempos, actividades religiosas)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Moderate. Change in two areas (e.g. work, education, social life, hobbies, religious activities).",
+                    "es": "Moderado. Cambios en dos \u00c3\u00a1reas (por ejemplo, trabajo, \u00e2\u0080\u00a8educaci\u00c3\u00b3n, vida social, pasatiempos, actividades religiosas)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Severe. Change in three or more areas (e.g. work, education, social life, hobbies, religious activities).",
+                    "es": "Severo: Cambios en tres o m\u00c3\u00a1s \u00c3\u00a1reas (por ejemplo, trabajo, \u00e2\u0080\u00a8educaci\u00c3\u00b3n, vida social, pasatiempos, actividades religiosas)"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

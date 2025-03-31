@@ -1,0 +1,50 @@
+{
+    "id": "household_ability_cv",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Youth's School",
+        "es": "La escuela de su hijo/a"
+    },
+    "prefLabel": {
+        "en": "household_ability_cv"
+    },
+    "question": {
+        "en": "Is your role caring for your child conflicting with your household responsibilities?",
+        "es": "\u00c2\u00bfSu rol de cuidar a su hijo est\u00c3\u00a1 en conflicto con las responsabilidades de su hogar?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "None"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Some"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A great deal"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

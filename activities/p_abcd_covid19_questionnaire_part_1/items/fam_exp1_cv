@@ -1,0 +1,54 @@
+{
+    "id": "fam_exp1_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "fam_exp_group_cv"
+        }
+    ],
+    "preamble": {
+        "en": "In thepast month,have you and your household experienced any of the following:",
+        "es": "En el \u00c3\u00baltimo mes, \u00c2\u00bfUsted y su familia ha experimentado alguna de las siguientes situaciones:"
+    },
+    "prefLabel": {
+        "en": "fam_exp1_cv"
+    },
+    "question": {
+        "en": "Were you ever worried about whether your food would run out before you could get more?",
+        "es": "\u00c2\u00bfAlguna vez le preocupaba si su comida se acabar\u00c3\u00ada  antes de que pudiera obtener m\u00c3\u00a1s?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer",
+                    "es": "Niego contestar"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

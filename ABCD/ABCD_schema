@@ -315,8 +315,9 @@
             "../activities/y_post_fitbit_covid19_questionnaire/y_post_fitbit_covid19_questionnaire_schema",
             "../activities/covid19_screener/covid19_screener_schema",
             "../activities/covid19_tracking/covid19_tracking_schema",
-            "../activities/p_abcd_covid19_questionnaire/p_abcd_covid19_questionnaire_schema",
-            "../activities/y_abcd_covid19_questionnaire/y_abcd_covid19_questionnaire_schema"
+            "../activities/y_abcd_covid19_questionnaire/y_abcd_covid19_questionnaire_schema",
+            "../activities/p_abcd_covid19_questionnaire_part_1/p_abcd_covid19_questionnaire_part_1_schema",
+            "../activities/p_abcd_covid19_questionnaire_part_2/p_abcd_covid19_questionnaire_part_2_schema"
         ],
         "addProperties": [
             {
@@ -2760,24 +2761,32 @@
                 "variableName": "covid19_tracking_schema"
             },
             {
-                "isAbout": "../activities/p_abcd_covid19_questionnaire/p_abcd_covid19_questionnaire_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "P Abcd Covid19 Questionnaire"
-                },
-                "variableName": "p_abcd_covid19_questionnaire_schema"
-            },
-            {
                 "isAbout": "../activities/y_abcd_covid19_questionnaire/y_abcd_covid19_questionnaire_schema",
                 "isVis": true,
                 "prefLabel": {
                     "en": "Y Abcd Covid19 Questionnaire"
                 },
                 "variableName": "y_abcd_covid19_questionnaire_schema"
+            },
+            {
+                "isAbout": "../activities/p_abcd_covid19_questionnaire_part_1/p_abcd_covid19_questionnaire_part_1_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "P Abcd Covid19 Questionnaire Part 1"
+                },
+                "variableName": "p_abcd_covid19_questionnaire_part_1_schema"
+            },
+            {
+                "isAbout": "../activities/p_abcd_covid19_questionnaire_part_2/p_abcd_covid19_questionnaire_part_2_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "P Abcd Covid19 Questionnaire Part 2"
+                },
+                "variableName": "p_abcd_covid19_questionnaire_part_2_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2513",
+    "version": "revid2514",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
