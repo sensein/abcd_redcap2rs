@@ -5,7 +5,7 @@
         {
             "column": "Text Validation Type OR Show Slider Number",
             "source": "redcap",
-            "value": "date_mdy"
+            "value": "datetime_mdy"
         },
         {
             "column": "Field Annotation",
@@ -24,11 +24,11 @@
     },
     "responseOptions": {
         "valueType": [
-            "xsd:date"
+            "xsd:dateTime"
         ]
     },
     "ui": {
-        "inputType": "date"
+        "inputType": "text"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
