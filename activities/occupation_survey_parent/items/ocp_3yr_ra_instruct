@@ -1,0 +1,23 @@
+{
+    "id": "ocp_3yr_ra_instruct",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Parent's Occupation"
+    },
+    "prefLabel": {
+        "en": "ocp_3yr_ra_instruct"
+    },
+    "question": {
+        "en": "RA Instructions:Please verify that the parent's and their partner's occupation is still the same. Go through each field and verify the information is up to date. If something has changed, update the responses, otherwise leave as is and indicate you have verified the information by checking the button at the end of the form.\"Now, we will update the job information you described for us last time we saw you. Do you still work as ____________\"RA Instructions:If parent hadn't previously entered occupation or occupation has changed, read full instructions again and enter correct information."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -9,6 +9,7 @@
         "order": [
             "items/ocp_start_time_p",
             "items/ocp_p_select_language",
+            "items/ocp_3yr_ra_instruct",
             "items/ocp_prnt_work_na_p",
             "items/ocp_prnt_acs_buisness_txt_p",
             "items/ocp_prnt_acs_indust_code_p",
@@ -39,6 +40,7 @@
             "items/ocp_prnt_acs_job_cat_21_p",
             "items/ocp_prnt_acs_job_cat_22_p",
             "items/ocp_prnt_acs_job_cat_23_p",
+            "items/ocp_3yr_partner_instruct",
             "items/ocp_prtnr_p",
             "items/ocp_prtnr_work_na_p",
             "items/ocp_prtnr_acs_business_txt_p",
@@ -68,6 +70,7 @@
             "items/ocp_prtnr_acs_job_cat_21_p",
             "items/ocp_prtnr_acs_job_cat_22_p",
             "items/ocp_prtnr_acs_job_cat_23_p",
+            "items/ocp_verified_past_occup",
             "items/occupation_survey_parent_complete"
         ],
         "addProperties": [
@@ -82,6 +85,12 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "ocp_p_select_language"
+            },
+            {
+                "isAbout": "items/ocp_3yr_ra_instruct",
+                "isVis": "event_name_number > '30'",
+                "valueRequired": false,
+                "variableName": "ocp_3yr_ra_instruct"
             },
             {
                 "isAbout": "items/ocp_prnt_work_na_p",
@@ -264,6 +273,12 @@
                 "variableName": "ocp_prnt_acs_job_cat_23_p"
             },
             {
+                "isAbout": "items/ocp_3yr_partner_instruct",
+                "isVis": "event_name_number > '30'",
+                "valueRequired": false,
+                "variableName": "ocp_3yr_partner_instruct"
+            },
+            {
                 "isAbout": "items/ocp_prtnr_p",
                 "isVis": true,
                 "valueRequired": true,
@@ -438,6 +453,12 @@
                 "variableName": "ocp_prtnr_acs_job_cat_23_p"
             },
             {
+                "isAbout": "items/ocp_verified_past_occup",
+                "isVis": "event_name_number > '30'",
+                "valueRequired": false,
+                "variableName": "ocp_verified_past_occup"
+            },
+            {
                 "isAbout": "items/occupation_survey_parent_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -446,6 +467,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2498",
+    "version": "revid2499",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
