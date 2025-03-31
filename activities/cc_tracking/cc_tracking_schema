@@ -13,14 +13,17 @@
             "items/from_site",
             "items/transfer_site_dte",
             "items/transfer_last_visit",
+            "items/transfer_fitbit1",
             "items/transfer_site_yn_2",
             "items/from_site_2",
             "items/transfer_last_visit_2",
             "items/transfer_site_dte_2",
+            "items/transfer_fitbit2",
             "items/transfer_site_yn_3",
             "items/from_site_3",
             "items/transfer_last_visit_3",
             "items/transfer_site_dte_3",
+            "items/transfer_fitbit3",
             "items/bl_compl_ext_request",
             "items/cc_notes",
             "items/cc_tracking_complete"
@@ -63,6 +66,12 @@
                 "variableName": "transfer_last_visit"
             },
             {
+                "isAbout": "items/transfer_fitbit1",
+                "isVis": "transfer_site_yn == '1'",
+                "valueRequired": false,
+                "variableName": "transfer_fitbit1"
+            },
+            {
                 "isAbout": "items/transfer_site_yn_2",
                 "isVis": "transfer_site_yn == '1'",
                 "valueRequired": false,
@@ -87,28 +96,40 @@
                 "variableName": "transfer_site_dte_2"
             },
             {
+                "isAbout": "items/transfer_fitbit2",
+                "isVis": "transfer_site_yn_2 == '1'",
+                "valueRequired": false,
+                "variableName": "transfer_fitbit2"
+            },
+            {
                 "isAbout": "items/transfer_site_yn_3",
-                "isVis": "transfer_site_yn == '1'",
+                "isVis": "transfer_site_yn_2 == '1'",
                 "valueRequired": false,
                 "variableName": "transfer_site_yn_3"
             },
             {
                 "isAbout": "items/from_site_3",
-                "isVis": "transfer_site_yn_2 == '1'",
+                "isVis": "transfer_site_yn_3 == '1'",
                 "valueRequired": false,
                 "variableName": "from_site_3"
             },
             {
                 "isAbout": "items/transfer_last_visit_3",
-                "isVis": "transfer_site_yn_2 == '1'",
+                "isVis": "transfer_site_yn_3 == '1'",
                 "valueRequired": false,
                 "variableName": "transfer_last_visit_3"
             },
             {
                 "isAbout": "items/transfer_site_dte_3",
-                "isVis": "transfer_site_yn_2 == '1'",
+                "isVis": "transfer_site_yn_3 == '1'",
                 "valueRequired": false,
                 "variableName": "transfer_site_dte_3"
+            },
+            {
+                "isAbout": "items/transfer_fitbit3",
+                "isVis": "transfer_site_yn_3 == '1'",
+                "valueRequired": false,
+                "variableName": "transfer_fitbit3"
             },
             {
                 "isAbout": "items/bl_compl_ext_request",
@@ -131,6 +152,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2489",
+    "version": "revid2490",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
