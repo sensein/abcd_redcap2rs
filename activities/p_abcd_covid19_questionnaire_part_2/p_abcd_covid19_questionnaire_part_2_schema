@@ -100,14 +100,13 @@
             "items/child_worry_cv",
             "items/p_feeling_cv",
             "items/p_safety_cv",
-            "items/avoid_discussing_cv",
             "items/encouraged_cv",
+            "items/avoid_discussing_cv",
             "items/avoid_talking_about_cv",
             "items/child_frustrated_cv",
             "items/child_breaking_rules_cv",
             "items/child_serious_cv",
             "items/child_worried_about_cv",
-            "items/summary_2_p_cv",
             "items/fam_diag_cv",
             "items/fam_sick_severity_cv",
             "items/fam_covid_yn_cv",
@@ -676,16 +675,16 @@
                 "variableName": "p_safety_cv"
             },
             {
-                "isAbout": "items/avoid_discussing_cv",
-                "isVis": "event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv3_arm_2'",
-                "valueRequired": true,
-                "variableName": "avoid_discussing_cv"
-            },
-            {
                 "isAbout": "items/encouraged_cv",
                 "isVis": "event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv3_arm_2'",
                 "valueRequired": true,
                 "variableName": "encouraged_cv"
+            },
+            {
+                "isAbout": "items/avoid_discussing_cv",
+                "isVis": "event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv3_arm_2'",
+                "valueRequired": true,
+                "variableName": "avoid_discussing_cv"
             },
             {
                 "isAbout": "items/avoid_talking_about_cv",
@@ -716,12 +715,6 @@
                 "isVis": "event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv3_arm_2'",
                 "valueRequired": true,
                 "variableName": "child_worried_about_cv"
-            },
-            {
-                "isAbout": "items/summary_2_p_cv",
-                "isVis": "(event - name == 'covid19_cv2_arm_2' || event - name == 'covid19_cv4_arm_2')",
-                "valueRequired": false,
-                "variableName": "summary_2_p_cv"
             },
             {
                 "isAbout": "items/fam_diag_cv",
@@ -768,6 +761,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2518",
+    "version": "revid2519",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
