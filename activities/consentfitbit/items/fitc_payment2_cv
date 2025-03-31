@@ -1,0 +1,29 @@
+{
+    "id": "fitc_payment2_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200422"
+        }
+    ],
+    "preamble": {
+        "en": "COVID-19 Special Circumstances"
+    },
+    "prefLabel": {
+        "en": "fitc_payment2_cv"
+    },
+    "question": {
+        "en": "Fitbit Payment Date(second additional 3-weeks)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

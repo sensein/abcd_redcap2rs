@@ -10,7 +10,7 @@
         {
             "column": "Field Annotation",
             "source": "redcap",
-            "value": "@READOONLY"
+            "value": "@READONLY"
         }
     ],
     "prefLabel": {
@@ -25,7 +25,8 @@
         ]
     },
     "ui": {
-        "inputType": "float"
+        "inputType": "float",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

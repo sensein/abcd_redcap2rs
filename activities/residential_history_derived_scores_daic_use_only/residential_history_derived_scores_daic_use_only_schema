@@ -274,6 +274,15 @@
             "items/reshist_state_immigrant_factor",
             "items/reshist_state",
             "items/reshist_state_mj_laws",
+            "items/reshist_addr1_o3_2016_annavg",
+            "items/reshist_addr2_o3_2016_annavg",
+            "items/reshist_addr3_o3_2016_annavg",
+            "items/reshist_addr1_urban_area",
+            "items/reshist_addr2_urban_area",
+            "items/reshist_addr3_urban_area",
+            "items/reshist_addr1_traffic_count",
+            "items/reshist_addr2_traffic_count",
+            "items/reshist_addr3_traffic_count",
             "items/residential_history_derived_scores_daic_use_only_complete"
         ],
         "addProperties": [
@@ -1863,7 +1872,7 @@
             },
             {
                 "isAbout": "items/reshist_state_immigrant_factor",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "reshist_state_immigrant_factor"
             },
@@ -1880,6 +1889,60 @@
                 "variableName": "reshist_state_mj_laws"
             },
             {
+                "isAbout": "items/reshist_addr1_o3_2016_annavg",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_o3_2016_annavg"
+            },
+            {
+                "isAbout": "items/reshist_addr2_o3_2016_annavg",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_o3_2016_annavg"
+            },
+            {
+                "isAbout": "items/reshist_addr3_o3_2016_annavg",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_o3_2016_annavg"
+            },
+            {
+                "isAbout": "items/reshist_addr1_urban_area",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_urban_area"
+            },
+            {
+                "isAbout": "items/reshist_addr2_urban_area",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_urban_area"
+            },
+            {
+                "isAbout": "items/reshist_addr3_urban_area",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_urban_area"
+            },
+            {
+                "isAbout": "items/reshist_addr1_traffic_count",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_traffic_count"
+            },
+            {
+                "isAbout": "items/reshist_addr2_traffic_count",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_traffic_count"
+            },
+            {
+                "isAbout": "items/reshist_addr3_traffic_count",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_traffic_count"
+            },
+            {
                 "isAbout": "items/residential_history_derived_scores_daic_use_only_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -1888,6 +1951,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2504",
+    "version": "revid2505",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
