@@ -1,0 +1,39 @@
+{
+    "id": "socialdev_crd_22e_l",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "socialdev_crd_22e_l"
+    },
+    "question": {
+        "en": "When you stole a motor vehicle or went joyriding, did this occur from home?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "I'd rather not say"
+                },
+                "value": 99
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

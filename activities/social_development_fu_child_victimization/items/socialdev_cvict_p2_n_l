@@ -1,0 +1,45 @@
+{
+    "id": "socialdev_cvict_p2_n_l",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "socialdev_cvict_p2_n_l"
+    },
+    "question": {
+        "en": "Did the person who did this have an advantage over you because he/she was stronger, more popular, or had a lot of influence over other kids?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "I don't know"
+                },
+                "value": 98
+            },
+            {
+                "name": {
+                    "en": "I'd rather not say"
+                },
+                "value": 99
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

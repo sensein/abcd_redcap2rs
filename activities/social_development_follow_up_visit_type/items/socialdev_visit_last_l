@@ -1,0 +1,26 @@
+{
+    "id": "socialdev_visit_last_l",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "datetime_ymd"
+        }
+    ],
+    "prefLabel": {
+        "en": "socialdev_visit_last_l"
+    },
+    "question": {
+        "en": "Date of LAST SD substudy visit"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:dateTime"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

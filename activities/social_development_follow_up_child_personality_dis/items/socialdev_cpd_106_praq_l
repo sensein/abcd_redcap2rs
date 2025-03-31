@@ -1,0 +1,39 @@
+{
+    "id": "socialdev_cpd_106_praq_l",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "socialdev_cpd_106_praq_l"
+    },
+    "question": {
+        "en": "Threatened and bullied someone."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Often"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

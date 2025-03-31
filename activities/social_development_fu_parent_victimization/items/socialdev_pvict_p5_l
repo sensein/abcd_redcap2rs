@@ -1,0 +1,45 @@
+{
+    "id": "socialdev_pvict_p5_l",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "socialdev_pvict_p5_l"
+    },
+    "question": {
+        "en": "Since your last SD visit, did your child get really scared or feel really bad because kids were calling him/her names, saying mean things to him/her, or saying they didn't want your child around?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "I don't know"
+                },
+                "value": 98
+            },
+            {
+                "name": {
+                    "en": "I'd rather not say"
+                },
+                "value": 99
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

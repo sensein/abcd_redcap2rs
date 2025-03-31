@@ -1,0 +1,51 @@
+{
+    "id": "socialdev_pfbi_05_l",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "socialdev_pfbi_05_l"
+    },
+    "question": {
+        "en": "The staff responded in a clear manner to my questions."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Strongly agree"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Agree"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Neither agree nor disagree (neutral)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Disagree"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Strongly disagree"
+                },
+                "value": 1
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

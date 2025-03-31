@@ -1,0 +1,423 @@
+{
+    "id": "social_development_follow_up_child_alabama_parenti_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "social_development_follow_up_child_alabama_parenti"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/socialdev_capq_pcr_l",
+            "items/socialdev_capq_pcg_l",
+            "items/socialdev_capq_sc_l",
+            "items/socialdev_capq_scr_l",
+            "items/socialdev_capq_scg_l",
+            "items/socialdev_capq_intro_l",
+            "items/socialdev_capq_01_l",
+            "items/socialdev_capq_01a_l",
+            "items/socialdev_capq_02_l",
+            "items/socialdev_capq_03_l",
+            "items/socialdev_capq_04_l",
+            "items/socialdev_capq_04a_l",
+            "items/socialdev_capq_05_l",
+            "items/socialdev_capq_06_l",
+            "items/socialdev_capq_07_l",
+            "items/socialdev_capq_07a_l",
+            "items/socialdev_capq_08_l",
+            "items/socialdev_capq_09_l",
+            "items/socialdev_capq_09a_l",
+            "items/socialdev_capq_10_l",
+            "items/socialdev_capq_11_l",
+            "items/socialdev_capq_11a_l",
+            "items/socialdev_capq_12_l",
+            "items/socialdev_capq_13_l",
+            "items/socialdev_capq_14_l",
+            "items/socialdev_capq_14a_l",
+            "items/socialdev_capq_15_l",
+            "items/socialdev_capq_15a_l",
+            "items/socialdev_capq_16_l",
+            "items/socialdev_capq_17_l",
+            "items/socialdev_capq_18_l",
+            "items/socialdev_capq_19_l",
+            "items/socialdev_capq_20_l",
+            "items/socialdev_capq_20a_l",
+            "items/socialdev_capq_21_l",
+            "items/socialdev_capq_22_l",
+            "items/socialdev_capq_23_l",
+            "items/socialdev_capq_24_l",
+            "items/socialdev_capq_25_l",
+            "items/socialdev_capq_26_l",
+            "items/socialdev_capq_26a_l",
+            "items/socialdev_capq_27_l",
+            "items/socialdev_capq_28_l",
+            "items/socialdev_capq_29_l",
+            "items/socialdev_capq_30_l",
+            "items/socialdev_capq_31_l",
+            "items/socialdev_capq_32_l",
+            "items/socialdev_capq_33_l",
+            "items/socialdev_capq_34_l",
+            "items/socialdev_capq_35_l",
+            "items/socialdev_capq_36_l",
+            "items/socialdev_capq_37_l",
+            "items/socialdev_capq_38_l",
+            "items/socialdev_capq_39_l",
+            "items/socialdev_capq_40_l",
+            "items/socialdev_capq_41_l",
+            "items/socialdev_capq_42_l",
+            "items/social_development_follow_up_child_alabama_parenti_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/socialdev_capq_pcr_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_pcr_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_pcg_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_pcg_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_sc_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_sc_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_scr_l",
+                "isVis": "socialdev_capq_sc_l=='1'",
+                "valueRequired": false,
+                "variableName": "socialdev_capq_scr_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_scg_l",
+                "isVis": "socialdev_capq_sc_l=='1'",
+                "valueRequired": false,
+                "variableName": "socialdev_capq_scg_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_intro_l",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "socialdev_capq_intro_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_01_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_01_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_01a_l",
+                "isVis": "socialdev_capq_sc_l=='1'",
+                "valueRequired": false,
+                "variableName": "socialdev_capq_01a_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_02_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_02_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_03_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_03_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_04_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_04_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_04a_l",
+                "isVis": "socialdev_capq_sc_l=='1'",
+                "valueRequired": false,
+                "variableName": "socialdev_capq_04a_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_05_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_05_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_06_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_06_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_07_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_07_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_07a_l",
+                "isVis": "socialdev_capq_sc_l=='1'",
+                "valueRequired": false,
+                "variableName": "socialdev_capq_07a_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_08_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_08_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_09_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_09_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_09a_l",
+                "isVis": "socialdev_capq_sc_l=='1'",
+                "valueRequired": false,
+                "variableName": "socialdev_capq_09a_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_10_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_10_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_11_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_11_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_11a_l",
+                "isVis": "socialdev_capq_sc_l=='1'",
+                "valueRequired": false,
+                "variableName": "socialdev_capq_11a_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_12_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_12_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_13_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_13_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_14_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_14_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_14a_l",
+                "isVis": "socialdev_capq_sc_l=='1'",
+                "valueRequired": false,
+                "variableName": "socialdev_capq_14a_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_15_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_15_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_15a_l",
+                "isVis": "socialdev_capq_sc_l=='1'",
+                "valueRequired": false,
+                "variableName": "socialdev_capq_15a_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_16_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_16_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_17_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_17_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_18_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_18_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_19_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_19_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_20_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_20_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_20a_l",
+                "isVis": "socialdev_capq_sc_l=='1'",
+                "valueRequired": false,
+                "variableName": "socialdev_capq_20a_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_21_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_21_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_22_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_22_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_23_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_23_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_24_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_24_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_25_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_25_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_26_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_26_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_26a_l",
+                "isVis": "socialdev_capq_sc_l=='1'",
+                "valueRequired": false,
+                "variableName": "socialdev_capq_26a_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_27_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_27_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_28_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_28_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_29_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_29_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_30_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_30_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_31_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_31_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_32_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_32_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_33_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_33_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_34_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_34_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_35_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_35_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_36_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_36_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_37_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_37_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_38_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_38_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_39_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_39_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_40_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_40_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_41_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_41_l"
+            },
+            {
+                "isAbout": "items/socialdev_capq_42_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_capq_42_l"
+            },
+            {
+                "isAbout": "items/social_development_follow_up_child_alabama_parenti_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "social_development_follow_up_child_alabama_parenti_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2446",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

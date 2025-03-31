@@ -1,0 +1,28 @@
+{
+    "id": "socialdev_visit_assent_l",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "socialdev_visit_assent_l"
+    },
+    "question": {
+        "en": "Did the participant assent to participation into the Social Development substudy?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

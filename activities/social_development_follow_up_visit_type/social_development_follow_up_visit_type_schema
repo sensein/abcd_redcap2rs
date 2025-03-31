@@ -1,0 +1,80 @@
+{
+    "id": "social_development_follow_up_visit_type_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "social_development_follow_up_visit_type"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/socialdev_visit_last_l",
+            "items/socialdev_visit_01_l",
+            "items/socialdev_visit_date_l",
+            "items/socialdev_visit_02_l",
+            "items/socialdev_visit_03_l",
+            "items/socialdev_visit_consent_l",
+            "items/socialdev_visit_assent_l",
+            "items/socialdev_visit_04_l",
+            "items/social_development_follow_up_visit_type_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/socialdev_visit_last_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_visit_last_l"
+            },
+            {
+                "isAbout": "items/socialdev_visit_01_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_visit_01_l"
+            },
+            {
+                "isAbout": "items/socialdev_visit_date_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_visit_date_l"
+            },
+            {
+                "isAbout": "items/socialdev_visit_02_l",
+                "isVis": "socialdev_visit_01_l == '2'",
+                "valueRequired": false,
+                "variableName": "socialdev_visit_02_l"
+            },
+            {
+                "isAbout": "items/socialdev_visit_03_l",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "socialdev_visit_03_l"
+            },
+            {
+                "isAbout": "items/socialdev_visit_consent_l",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "socialdev_visit_consent_l"
+            },
+            {
+                "isAbout": "items/socialdev_visit_assent_l",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "socialdev_visit_assent_l"
+            },
+            {
+                "isAbout": "items/socialdev_visit_04_l",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "socialdev_visit_04_l"
+            },
+            {
+                "isAbout": "items/social_development_follow_up_visit_type_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "social_development_follow_up_visit_type_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2446",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

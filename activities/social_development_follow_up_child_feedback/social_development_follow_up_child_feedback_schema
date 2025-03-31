@@ -1,0 +1,269 @@
+{
+    "id": "social_development_follow_up_child_feedback_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "social_development_follow_up_child_feedback"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/socialdev_cfbc_title_l",
+            "items/socialdev_cfbc_instruct_l",
+            "items/socialdev_cfbc_01_l",
+            "items/socialdev_cfbc_02_l",
+            "items/socialdev_cfbc_03_l",
+            "items/socialdev_cfbc_04_l",
+            "items/socialdev_cfbc_05_l",
+            "items/socialdev_cfbc_06_l",
+            "items/socialdev_cfbc_07_l",
+            "items/socialdev_cfbc_08_l",
+            "items/socialdev_cfbc_09_l",
+            "items/socialdev_cfbc_10_l",
+            "items/socialdev_cfbc_11_l",
+            "items/socialdev_cfbc_12_l",
+            "items/socialdev_cfbc_13_l",
+            "items/socialdev_cfbc_14_l",
+            "items/socialdev_cfbc_15_l",
+            "items/socialdev_cfbc_epilogue_l",
+            "items/socialdev_cfbi_title_l",
+            "items/socialdev_cfbi_instruct_l",
+            "items/socialdev_cfbi_01_l",
+            "items/socialdev_cfbi_02_l",
+            "items/socialdev_cfbi_03_l",
+            "items/socialdev_cfbi_04_l",
+            "items/socialdev_cfbi_05_l",
+            "items/socialdev_cfbi_06_l",
+            "items/socialdev_cfbi_07_l",
+            "items/socialdev_cfbi_08_l",
+            "items/socialdev_cfbi_09_l",
+            "items/socialdev_cfbi_10_l",
+            "items/socialdev_cfbi_11_l",
+            "items/socialdev_cfbi_12_l",
+            "items/socialdev_cfbi_13_l",
+            "items/socialdev_cfbi_14_l",
+            "items/socialdev_cfbi_epilogue_l",
+            "items/social_development_follow_up_child_feedback_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/socialdev_cfbc_title_l",
+                "isVis": "socialdev_visit_01_l == '1'",
+                "valueRequired": false,
+                "variableName": "socialdev_cfbc_title_l"
+            },
+            {
+                "isAbout": "items/socialdev_cfbc_instruct_l",
+                "isVis": "socialdev_visit_01_l == '1'",
+                "valueRequired": false,
+                "variableName": "socialdev_cfbc_instruct_l"
+            },
+            {
+                "isAbout": "items/socialdev_cfbc_01_l",
+                "isVis": "socialdev_visit_01_l == '1'",
+                "valueRequired": false,
+                "variableName": "socialdev_cfbc_01_l"
+            },
+            {
+                "isAbout": "items/socialdev_cfbc_02_l",
+                "isVis": "socialdev_visit_01_l == '1'",
+                "valueRequired": false,
+                "variableName": "socialdev_cfbc_02_l"
+            },
+            {
+                "isAbout": "items/socialdev_cfbc_03_l",
+                "isVis": "socialdev_visit_01_l == '1'",
+                "valueRequired": false,
+                "variableName": "socialdev_cfbc_03_l"
+            },
+            {
+                "isAbout": "items/socialdev_cfbc_04_l",
+                "isVis": "socialdev_visit_01_l == '1'",
+                "valueRequired": false,
+                "variableName": "socialdev_cfbc_04_l"
+            },
+            {
+                "isAbout": "items/socialdev_cfbc_05_l",
+                "isVis": "socialdev_visit_01_l == '1'",
+                "valueRequired": false,
+                "variableName": "socialdev_cfbc_05_l"
+            },
+            {
+                "isAbout": "items/socialdev_cfbc_06_l",
+                "isVis": "socialdev_visit_01_l == '1'",
+                "valueRequired": false,
+                "variableName": "socialdev_cfbc_06_l"
+            },
+            {
+                "isAbout": "items/socialdev_cfbc_07_l",
+                "isVis": "socialdev_visit_01_l == '1'",
+                "valueRequired": false,
+                "variableName": "socialdev_cfbc_07_l"
+            },
+            {
+                "isAbout": "items/socialdev_cfbc_08_l",
+                "isVis": "socialdev_visit_01_l == '1'",
+                "valueRequired": false,
+                "variableName": "socialdev_cfbc_08_l"
+            },
+            {
+                "isAbout": "items/socialdev_cfbc_09_l",
+                "isVis": "socialdev_visit_01_l == '1'",
+                "valueRequired": false,
+                "variableName": "socialdev_cfbc_09_l"
+            },
+            {
+                "isAbout": "items/socialdev_cfbc_10_l",
+                "isVis": "socialdev_visit_01_l == '1'",
+                "valueRequired": false,
+                "variableName": "socialdev_cfbc_10_l"
+            },
+            {
+                "isAbout": "items/socialdev_cfbc_11_l",
+                "isVis": "socialdev_visit_01_l == '1'",
+                "valueRequired": false,
+                "variableName": "socialdev_cfbc_11_l"
+            },
+            {
+                "isAbout": "items/socialdev_cfbc_12_l",
+                "isVis": "socialdev_visit_01_l == '1'",
+                "valueRequired": false,
+                "variableName": "socialdev_cfbc_12_l"
+            },
+            {
+                "isAbout": "items/socialdev_cfbc_13_l",
+                "isVis": "socialdev_visit_01_l == '1'",
+                "valueRequired": false,
+                "variableName": "socialdev_cfbc_13_l"
+            },
+            {
+                "isAbout": "items/socialdev_cfbc_14_l",
+                "isVis": "socialdev_visit_01_l == '1'",
+                "valueRequired": false,
+                "variableName": "socialdev_cfbc_14_l"
+            },
+            {
+                "isAbout": "items/socialdev_cfbc_15_l",
+                "isVis": "socialdev_visit_01_l == '1'",
+                "valueRequired": false,
+                "variableName": "socialdev_cfbc_15_l"
+            },
+            {
+                "isAbout": "items/socialdev_cfbc_epilogue_l",
+                "isVis": "socialdev_visit_01_l == '1'",
+                "valueRequired": false,
+                "variableName": "socialdev_cfbc_epilogue_l"
+            },
+            {
+                "isAbout": "items/socialdev_cfbi_title_l",
+                "isVis": "socialdev_visit_01_l == '2'",
+                "valueRequired": false,
+                "variableName": "socialdev_cfbi_title_l"
+            },
+            {
+                "isAbout": "items/socialdev_cfbi_instruct_l",
+                "isVis": "socialdev_visit_01_l == '2'",
+                "valueRequired": false,
+                "variableName": "socialdev_cfbi_instruct_l"
+            },
+            {
+                "isAbout": "items/socialdev_cfbi_01_l",
+                "isVis": "socialdev_visit_01_l == '2'",
+                "valueRequired": false,
+                "variableName": "socialdev_cfbi_01_l"
+            },
+            {
+                "isAbout": "items/socialdev_cfbi_02_l",
+                "isVis": "socialdev_visit_01_l == '2'",
+                "valueRequired": false,
+                "variableName": "socialdev_cfbi_02_l"
+            },
+            {
+                "isAbout": "items/socialdev_cfbi_03_l",
+                "isVis": "socialdev_visit_01_l == '2'",
+                "valueRequired": false,
+                "variableName": "socialdev_cfbi_03_l"
+            },
+            {
+                "isAbout": "items/socialdev_cfbi_04_l",
+                "isVis": "socialdev_visit_01_l == '2'",
+                "valueRequired": false,
+                "variableName": "socialdev_cfbi_04_l"
+            },
+            {
+                "isAbout": "items/socialdev_cfbi_05_l",
+                "isVis": "socialdev_visit_01_l == '2'",
+                "valueRequired": false,
+                "variableName": "socialdev_cfbi_05_l"
+            },
+            {
+                "isAbout": "items/socialdev_cfbi_06_l",
+                "isVis": "socialdev_visit_01_l == '2'",
+                "valueRequired": false,
+                "variableName": "socialdev_cfbi_06_l"
+            },
+            {
+                "isAbout": "items/socialdev_cfbi_07_l",
+                "isVis": "socialdev_visit_01_l == '2'",
+                "valueRequired": false,
+                "variableName": "socialdev_cfbi_07_l"
+            },
+            {
+                "isAbout": "items/socialdev_cfbi_08_l",
+                "isVis": "socialdev_visit_01_l == '2'",
+                "valueRequired": false,
+                "variableName": "socialdev_cfbi_08_l"
+            },
+            {
+                "isAbout": "items/socialdev_cfbi_09_l",
+                "isVis": "socialdev_visit_01_l == '2'",
+                "valueRequired": false,
+                "variableName": "socialdev_cfbi_09_l"
+            },
+            {
+                "isAbout": "items/socialdev_cfbi_10_l",
+                "isVis": "socialdev_visit_01_l == '2'",
+                "valueRequired": false,
+                "variableName": "socialdev_cfbi_10_l"
+            },
+            {
+                "isAbout": "items/socialdev_cfbi_11_l",
+                "isVis": "socialdev_visit_01_l == '2'",
+                "valueRequired": false,
+                "variableName": "socialdev_cfbi_11_l"
+            },
+            {
+                "isAbout": "items/socialdev_cfbi_12_l",
+                "isVis": "socialdev_visit_01_l == '2'",
+                "valueRequired": false,
+                "variableName": "socialdev_cfbi_12_l"
+            },
+            {
+                "isAbout": "items/socialdev_cfbi_13_l",
+                "isVis": "socialdev_visit_01_l == '2'",
+                "valueRequired": false,
+                "variableName": "socialdev_cfbi_13_l"
+            },
+            {
+                "isAbout": "items/socialdev_cfbi_14_l",
+                "isVis": "socialdev_visit_01_l == '2'",
+                "valueRequired": false,
+                "variableName": "socialdev_cfbi_14_l"
+            },
+            {
+                "isAbout": "items/socialdev_cfbi_epilogue_l",
+                "isVis": "socialdev_visit_01_l == '2'",
+                "valueRequired": false,
+                "variableName": "socialdev_cfbi_epilogue_l"
+            },
+            {
+                "isAbout": "items/social_development_follow_up_child_feedback_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "social_development_follow_up_child_feedback_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2446",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,45 @@
+{
+    "id": "socialdev_cpd_092_tfq_l",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "socialdev_cpd_092_tfq_l"
+    },
+    "question": {
+        "en": "I would really enjoy cliff-diving."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "False"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Somewhat false"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Somewhat true"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "True"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

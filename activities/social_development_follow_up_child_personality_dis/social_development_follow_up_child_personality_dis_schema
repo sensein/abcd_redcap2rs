@@ -1,0 +1,885 @@
+{
+    "id": "social_development_follow_up_child_personality_dis_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "social_development_follow_up_child_personality_dis"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/socialdev_cpd_intro1_l",
+            "items/socialdev_cpd_intro2_l",
+            "items/socialdev_cpd_001_ypi_l",
+            "items/socialdev_cpd_002_ypi_l",
+            "items/socialdev_cpd_003_ypi_l",
+            "items/socialdev_cpd_004_ypi_l",
+            "items/socialdev_cpd_005_ypi_l",
+            "items/socialdev_cpd_006_ypi_l",
+            "items/socialdev_cpd_007_ypi_l",
+            "items/socialdev_cpd_008_ypi_l",
+            "items/socialdev_cpd_009_ypi_l",
+            "items/socialdev_cpd_010_ypi_l",
+            "items/socialdev_cpd_011_ypi_l",
+            "items/socialdev_cpd_012_ypi_l",
+            "items/socialdev_cpd_013_ypi_l",
+            "items/socialdev_cpd_014_ypi_l",
+            "items/socialdev_cpd_015_ypi_l",
+            "items/socialdev_cpd_016_ypi_l",
+            "items/socialdev_cpd_017_ypi_l",
+            "items/socialdev_cpd_018_ypi_l",
+            "items/socialdev_cpd_019_ypi_l",
+            "items/socialdev_cpd_020_ypi_l",
+            "items/socialdev_cpd_021_ypi_l",
+            "items/socialdev_cpd_022_ypi_l",
+            "items/socialdev_cpd_023_ypi_l",
+            "items/socialdev_cpd_024_ypi_l",
+            "items/socialdev_cpd_025_ypi_l",
+            "items/socialdev_cpd_026_ypi_l",
+            "items/socialdev_cpd_027_ypi_l",
+            "items/socialdev_cpd_028_ypi_l",
+            "items/socialdev_cpd_029_ypi_l",
+            "items/socialdev_cpd_030_ypi_l",
+            "items/socialdev_cpd_031_ypi_l",
+            "items/socialdev_cpd_032_ypi_l",
+            "items/socialdev_cpd_033_ypi_l",
+            "items/socialdev_cpd_034_ypi_l",
+            "items/socialdev_cpd_035_ypi_l",
+            "items/socialdev_cpd_036_ypi_l",
+            "items/socialdev_cpd_037_ypi_l",
+            "items/socialdev_cpd_038_ypi_l",
+            "items/socialdev_cpd_039_ypi_l",
+            "items/socialdev_cpd_040_ypi_l",
+            "items/socialdev_cpd_041_ypi_l",
+            "items/socialdev_cpd_042_ypi_l",
+            "items/socialdev_cpd_043_ypi_l",
+            "items/socialdev_cpd_044_ypi_l",
+            "items/socialdev_cpd_045_ypi_l",
+            "items/socialdev_cpd_046_ypi_l",
+            "items/socialdev_cpd_047_ypi_l",
+            "items/socialdev_cpd_048_ypi_l",
+            "items/socialdev_cpd_049_ypi_l",
+            "items/socialdev_cpd_050_ypi_l",
+            "items/socialdev_cpd_051_cads_l",
+            "items/socialdev_cpd_052_cads_l",
+            "items/socialdev_cpd_053_cads_l",
+            "items/socialdev_cpd_054_cads_l",
+            "items/socialdev_cpd_055_icu_l",
+            "items/socialdev_cpd_056_icu_l",
+            "items/socialdev_cpd_057_icu_l",
+            "items/socialdev_cpd_058_icu_l",
+            "items/socialdev_cpd_059_cads_l",
+            "items/socialdev_cpd_060_cads_l",
+            "items/socialdev_cpd_061_cads_l",
+            "items/socialdev_cpd_062_icu_l",
+            "items/socialdev_cpd_063_cads_l",
+            "items/socialdev_cpd_064_icu_l",
+            "items/socialdev_cpd_065_icu_l",
+            "items/socialdev_cpd_066_icu_l",
+            "items/socialdev_cpd_067_icu_l",
+            "items/socialdev_cpd_068_cads_l",
+            "items/socialdev_cpd_069_cads_l",
+            "items/socialdev_cpd_070_icu_l",
+            "items/socialdev_cpd_071_cads_l",
+            "items/socialdev_cpd_072_cads_l",
+            "items/socialdev_cpd_073_icu_l",
+            "items/socialdev_cpd_074_icu_l",
+            "items/socialdev_cpd_075_icu_l",
+            "items/socialdev_cpd_076_icu_l",
+            "items/socialdev_cpd_077_icu_l",
+            "items/socialdev_cpd_078_tfq_l",
+            "items/socialdev_cpd_079_tfq_l",
+            "items/socialdev_cpd_080_tfq_l",
+            "items/socialdev_cpd_081_tfq_l",
+            "items/socialdev_cpd_082_tfq_l",
+            "items/socialdev_cpd_083_tfq_l",
+            "items/socialdev_cpd_084_tfq_l",
+            "items/socialdev_cpd_085_tfq_l",
+            "items/socialdev_cpd_086_tfq_l",
+            "items/socialdev_cpd_087_tfq_l",
+            "items/socialdev_cpd_088_tfq_l",
+            "items/socialdev_cpd_089_tfq_l",
+            "items/socialdev_cpd_090_tfq_l",
+            "items/socialdev_cpd_091_tfq_l",
+            "items/socialdev_cpd_092_tfq_l",
+            "items/socialdev_cpd_093_tfq_l",
+            "items/socialdev_cpd_094_tfq_l",
+            "items/socialdev_cpd_095_tfq_l",
+            "items/socialdev_cpd_096_tfq_l",
+            "items/socialdev_cpd_097_tfq_l",
+            "items/socialdev_cpd_098_praq_l",
+            "items/socialdev_cpd_099_praq_l",
+            "items/socialdev_cpd_100_praq_l",
+            "items/socialdev_cpd_101_praq_l",
+            "items/socialdev_cpd_102_praq_l",
+            "items/socialdev_cpd_103_praq_l",
+            "items/socialdev_cpd_104_praq_l",
+            "items/socialdev_cpd_105_praq_l",
+            "items/socialdev_cpd_106_praq_l",
+            "items/socialdev_cpd_107_praq_l",
+            "items/socialdev_cpd_108_praq_l",
+            "items/socialdev_cpd_109_praq_l",
+            "items/socialdev_cpd_110_praq_l",
+            "items/socialdev_cpd_111_praq_l",
+            "items/socialdev_cpd_112_praq_l",
+            "items/socialdev_cpd_113_praq_l",
+            "items/socialdev_cpd_114_praq_l",
+            "items/socialdev_cpd_115_praq_l",
+            "items/socialdev_cpd_116_praq_l",
+            "items/socialdev_cpd_117_praq_l",
+            "items/socialdev_cpd_118_praq_l",
+            "items/socialdev_cpd_119_praq_l",
+            "items/socialdev_cpd_120_praq_l",
+            "items/socialdev_cpd_121_praq_l",
+            "items/social_development_follow_up_child_personality_dis_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/socialdev_cpd_intro1_l",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "socialdev_cpd_intro1_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_intro2_l",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "socialdev_cpd_intro2_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_001_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_001_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_002_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_002_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_003_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_003_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_004_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_004_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_005_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_005_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_006_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_006_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_007_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_007_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_008_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_008_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_009_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_009_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_010_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_010_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_011_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_011_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_012_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_012_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_013_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_013_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_014_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_014_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_015_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_015_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_016_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_016_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_017_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_017_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_018_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_018_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_019_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_019_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_020_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_020_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_021_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_021_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_022_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_022_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_023_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_023_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_024_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_024_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_025_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_025_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_026_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_026_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_027_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_027_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_028_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_028_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_029_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_029_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_030_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_030_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_031_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_031_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_032_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_032_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_033_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_033_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_034_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_034_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_035_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_035_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_036_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_036_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_037_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_037_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_038_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_038_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_039_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_039_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_040_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_040_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_041_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_041_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_042_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_042_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_043_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_043_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_044_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_044_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_045_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_045_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_046_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_046_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_047_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_047_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_048_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_048_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_049_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_049_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_050_ypi_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_050_ypi_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_051_cads_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_051_cads_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_052_cads_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_052_cads_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_053_cads_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_053_cads_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_054_cads_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_054_cads_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_055_icu_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_055_icu_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_056_icu_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_056_icu_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_057_icu_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_057_icu_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_058_icu_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_058_icu_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_059_cads_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_059_cads_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_060_cads_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_060_cads_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_061_cads_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_061_cads_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_062_icu_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_062_icu_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_063_cads_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_063_cads_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_064_icu_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_064_icu_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_065_icu_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_065_icu_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_066_icu_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_066_icu_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_067_icu_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_067_icu_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_068_cads_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_068_cads_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_069_cads_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_069_cads_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_070_icu_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_070_icu_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_071_cads_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_071_cads_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_072_cads_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_072_cads_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_073_icu_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_073_icu_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_074_icu_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_074_icu_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_075_icu_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_075_icu_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_076_icu_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_076_icu_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_077_icu_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_077_icu_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_078_tfq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_078_tfq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_079_tfq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_079_tfq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_080_tfq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_080_tfq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_081_tfq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_081_tfq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_082_tfq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_082_tfq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_083_tfq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_083_tfq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_084_tfq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_084_tfq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_085_tfq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_085_tfq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_086_tfq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_086_tfq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_087_tfq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_087_tfq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_088_tfq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_088_tfq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_089_tfq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_089_tfq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_090_tfq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_090_tfq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_091_tfq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_091_tfq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_092_tfq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_092_tfq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_093_tfq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_093_tfq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_094_tfq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_094_tfq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_095_tfq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_095_tfq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_096_tfq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_096_tfq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_097_tfq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_097_tfq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_098_praq_l",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "socialdev_cpd_098_praq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_099_praq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_099_praq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_100_praq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_100_praq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_101_praq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_101_praq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_102_praq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_102_praq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_103_praq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_103_praq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_104_praq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_104_praq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_105_praq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_105_praq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_106_praq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_106_praq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_107_praq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_107_praq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_108_praq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_108_praq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_109_praq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_109_praq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_110_praq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_110_praq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_111_praq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_111_praq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_112_praq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_112_praq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_113_praq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_113_praq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_114_praq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_114_praq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_115_praq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_115_praq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_116_praq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_116_praq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_117_praq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_117_praq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_118_praq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_118_praq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_119_praq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_119_praq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_120_praq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_120_praq_l"
+            },
+            {
+                "isAbout": "items/socialdev_cpd_121_praq_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "socialdev_cpd_121_praq_l"
+            },
+            {
+                "isAbout": "items/social_development_follow_up_child_personality_dis_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "social_development_follow_up_child_personality_dis_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2446",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
