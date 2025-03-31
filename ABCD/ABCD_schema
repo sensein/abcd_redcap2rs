@@ -313,10 +313,10 @@
             "../activities/munich_chronotype_questionnaire_mctq_for_children_90e79e/munich_chronotype_questionnaire_mctq_for_children_90e79e_schema",
             "../activities/specialty_sum_score/specialty_sum_score_schema",
             "../activities/y_post_fitbit_covid19_questionnaire/y_post_fitbit_covid19_questionnaire_schema",
-            "../activities/y_covid19_questionnaire_1/y_covid19_questionnaire_1_schema",
-            "../activities/y_abcd_covid19_questionnaire/y_abcd_covid19_questionnaire_schema",
+            "../activities/covid19_screener/covid19_screener_schema",
+            "../activities/covid19_tracking/covid19_tracking_schema",
             "../activities/p_abcd_covid19_questionnaire/p_abcd_covid19_questionnaire_schema",
-            "../activities/covid19_tracking/covid19_tracking_schema"
+            "../activities/y_abcd_covid19_questionnaire/y_abcd_covid19_questionnaire_schema"
         ],
         "addProperties": [
             {
@@ -2744,20 +2744,20 @@
                 "variableName": "y_post_fitbit_covid19_questionnaire_schema"
             },
             {
-                "isAbout": "../activities/y_covid19_questionnaire_1/y_covid19_questionnaire_1_schema",
+                "isAbout": "../activities/covid19_screener/covid19_screener_schema",
                 "isVis": true,
                 "prefLabel": {
-                    "en": "Y Covid19 Questionnaire 1"
+                    "en": "Covid19 Screener"
                 },
-                "variableName": "y_covid19_questionnaire_1_schema"
+                "variableName": "covid19_screener_schema"
             },
             {
-                "isAbout": "../activities/y_abcd_covid19_questionnaire/y_abcd_covid19_questionnaire_schema",
+                "isAbout": "../activities/covid19_tracking/covid19_tracking_schema",
                 "isVis": true,
                 "prefLabel": {
-                    "en": "Y Abcd Covid19 Questionnaire"
+                    "en": "Covid19 Tracking"
                 },
-                "variableName": "y_abcd_covid19_questionnaire_schema"
+                "variableName": "covid19_tracking_schema"
             },
             {
                 "isAbout": "../activities/p_abcd_covid19_questionnaire/p_abcd_covid19_questionnaire_schema",
@@ -2768,16 +2768,16 @@
                 "variableName": "p_abcd_covid19_questionnaire_schema"
             },
             {
-                "isAbout": "../activities/covid19_tracking/covid19_tracking_schema",
+                "isAbout": "../activities/y_abcd_covid19_questionnaire/y_abcd_covid19_questionnaire_schema",
                 "isVis": true,
                 "prefLabel": {
-                    "en": "Covid19 Tracking"
+                    "en": "Y Abcd Covid19 Questionnaire"
                 },
-                "variableName": "covid19_tracking_schema"
+                "variableName": "y_abcd_covid19_questionnaire_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2511",
+    "version": "revid2513",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

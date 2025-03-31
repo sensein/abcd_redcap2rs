@@ -1,0 +1,33 @@
+{
+    "id": "is_main_pguid_cv",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "is_main_pguid_cv"
+    },
+    "question": {
+        "en": "Is this the main pGUID for this family?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

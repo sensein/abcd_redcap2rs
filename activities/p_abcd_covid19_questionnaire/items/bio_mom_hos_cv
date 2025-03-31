@@ -1,0 +1,39 @@
+{
+    "id": "bio_mom_hos_cv",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "bio_mom_hos_cv"
+    },
+    "question": {
+        "en": "Did the biological mother require hospitalization?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

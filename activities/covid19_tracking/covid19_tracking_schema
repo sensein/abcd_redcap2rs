@@ -7,9 +7,17 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/is_main_pguid_cv",
+            "items/pguid1_cv",
+            "items/num_sibs_cv",
+            "items/list_sibs_cv",
             "items/contact1_id_cv",
-            "items/contact2_id_cv",
             "items/contact1_relationship_cv",
+            "items/contact1_email_index_cv",
+            "items/contact1_email_cv",
+            "items/contact1_phone_index_cv_2",
+            "items/contact1_phone_cv",
+            "items/contact2_id_cv",
             "items/contact2_relationship_cv",
             "items/contact_id_sent_cv",
             "items/survey_sent_date_cv",
@@ -17,15 +25,16 @@
             "items/reminder2_date_cv",
             "items/reminder3_date_cv",
             "items/last_sent_date_cv",
-            "items/p_survey_completed_date_cv",
-            "items/y_survey_completed_date_cv",
             "items/p_survey_link_cv",
             "items/p_access_code_cv",
+            "items/p_survey_completed_date_cv",
             "items/y_survey_link_cv",
             "items/y_access_code_cv",
-            "items/payment1_link_cv",
+            "items/y_survey_completed_date_cv",
+            "items/num_surveys_completed_cv",
             "items/payment1_sent_date_cv",
             "items/payment1_amount_cv",
+            "items/payment1_link_cv",
             "items/payment1_contactid_cv",
             "items/current_status_cv",
             "items/status_mesg_cv",
@@ -37,22 +46,70 @@
         ],
         "addProperties": [
             {
+                "isAbout": "items/is_main_pguid_cv",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "is_main_pguid_cv"
+            },
+            {
+                "isAbout": "items/pguid1_cv",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pguid1_cv"
+            },
+            {
+                "isAbout": "items/num_sibs_cv",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "num_sibs_cv"
+            },
+            {
+                "isAbout": "items/list_sibs_cv",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "list_sibs_cv"
+            },
+            {
                 "isAbout": "items/contact1_id_cv",
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "contact1_id_cv"
             },
             {
-                "isAbout": "items/contact2_id_cv",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "contact2_id_cv"
-            },
-            {
                 "isAbout": "items/contact1_relationship_cv",
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "contact1_relationship_cv"
+            },
+            {
+                "isAbout": "items/contact1_email_index_cv",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "contact1_email_index_cv"
+            },
+            {
+                "isAbout": "items/contact1_email_cv",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "contact1_email_cv"
+            },
+            {
+                "isAbout": "items/contact1_phone_index_cv_2",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "contact1_phone_index_cv_2"
+            },
+            {
+                "isAbout": "items/contact1_phone_cv",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "contact1_phone_cv"
+            },
+            {
+                "isAbout": "items/contact2_id_cv",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "contact2_id_cv"
             },
             {
                 "isAbout": "items/contact2_relationship_cv",
@@ -97,18 +154,6 @@
                 "variableName": "last_sent_date_cv"
             },
             {
-                "isAbout": "items/p_survey_completed_date_cv",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "p_survey_completed_date_cv"
-            },
-            {
-                "isAbout": "items/y_survey_completed_date_cv",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "y_survey_completed_date_cv"
-            },
-            {
                 "isAbout": "items/p_survey_link_cv",
                 "isVis": false,
                 "valueRequired": false,
@@ -119,6 +164,12 @@
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "p_access_code_cv"
+            },
+            {
+                "isAbout": "items/p_survey_completed_date_cv",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "p_survey_completed_date_cv"
             },
             {
                 "isAbout": "items/y_survey_link_cv",
@@ -133,10 +184,16 @@
                 "variableName": "y_access_code_cv"
             },
             {
-                "isAbout": "items/payment1_link_cv",
+                "isAbout": "items/y_survey_completed_date_cv",
                 "isVis": true,
                 "valueRequired": false,
-                "variableName": "payment1_link_cv"
+                "variableName": "y_survey_completed_date_cv"
+            },
+            {
+                "isAbout": "items/num_surveys_completed_cv",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "num_surveys_completed_cv"
             },
             {
                 "isAbout": "items/payment1_sent_date_cv",
@@ -149,6 +206,12 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "payment1_amount_cv"
+            },
+            {
+                "isAbout": "items/payment1_link_cv",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "payment1_link_cv"
             },
             {
                 "isAbout": "items/payment1_contactid_cv",
@@ -201,6 +264,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2511",
+    "version": "revid2513",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

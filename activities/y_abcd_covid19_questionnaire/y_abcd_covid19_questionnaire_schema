@@ -1,12 +1,37 @@
 {
     "id": "y_abcd_covid19_questionnaire_schema",
     "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "(sum(60 * online_arts_cv,online_arts_min_cv)+ sum(60 * online_science_cv,online_science_min_cv)+ sum(60 * online_other_cv,online_other_min_cv))/ 60",
+            "variableName": "online_act_total_cv"
+        }
+    ],
     "prefLabel": {
         "en": "y_abcd_covid19_questionnaire"
     },
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/pets_cv",
+            "items/pet_identify_cv",
+            "items/school_cv",
+            "items/online_activities_cv",
+            "items/online_arts_cv",
+            "items/online_arts_min_cv",
+            "items/online_science_cv",
+            "items/online_science_min_cv",
+            "items/online_other_cv",
+            "items/online_other_min_cv",
+            "items/school_like_activities_cv",
+            "items/parent_involved_school_cv",
+            "items/assist_sched_cv",
+            "items/check_hw_cv",
+            "items/teach_concept_cv",
+            "items/create_asgn_act_cv",
+            "items/school_work_cv",
+            "items/missing_school_cv",
+            "items/enjoyed_school_wk_y_cv",
             "items/mctq_fd_btime_cv",
             "items/mctq_fd_btime_min_cv",
             "items/mctq_fd_time_asleep_cv",
@@ -85,10 +110,10 @@
             "items/demo_online_cv",
             "items/demo_friends_cv",
             "items/demo_parents_cv",
-            "items/siblings_cv",
+            "items/demo_siblings_cv",
             "items/demo_tone_friends_cv",
             "items/demo_tone_parents_cv",
-            "items/tone_siblings_cv",
+            "items/demo_tone_siblings_cv",
             "items/demo_stayed_away_cv",
             "items/demo_avoid_news",
             "items/demo_wash_hands_cv",
@@ -156,6 +181,126 @@
         ],
         "addProperties": [
             {
+                "isAbout": "items/pets_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pets_cv"
+            },
+            {
+                "isAbout": "items/pet_identify_cv",
+                "isVis": "pets_cv == '1'",
+                "valueRequired": true,
+                "variableName": "pet_identify_cv"
+            },
+            {
+                "isAbout": "items/school_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "school_cv"
+            },
+            {
+                "isAbout": "items/online_activities_cv",
+                "isVis": "school_cv == '1' || school_cv == '3'",
+                "valueRequired": false,
+                "variableName": "online_activities_cv"
+            },
+            {
+                "isAbout": "items/online_arts_cv",
+                "isVis": "school_cv == '1' || school_cv == '3'",
+                "valueRequired": true,
+                "variableName": "online_arts_cv"
+            },
+            {
+                "isAbout": "items/online_arts_min_cv",
+                "isVis": "school_cv == '1' || school_cv == '3'",
+                "valueRequired": true,
+                "variableName": "online_arts_min_cv"
+            },
+            {
+                "isAbout": "items/online_science_cv",
+                "isVis": "school_cv == '1' || school_cv == '3'",
+                "valueRequired": true,
+                "variableName": "online_science_cv"
+            },
+            {
+                "isAbout": "items/online_science_min_cv",
+                "isVis": "school_cv == '1' || school_cv == '3'",
+                "valueRequired": true,
+                "variableName": "online_science_min_cv"
+            },
+            {
+                "isAbout": "items/online_other_cv",
+                "isVis": "school_cv == '1' || school_cv == '3'",
+                "valueRequired": true,
+                "variableName": "online_other_cv"
+            },
+            {
+                "isAbout": "items/online_other_min_cv",
+                "isVis": "school_cv == '1' || school_cv == '3'",
+                "valueRequired": true,
+                "variableName": "online_other_min_cv"
+            },
+            {
+                "isAbout": "items/online_act_total_cv",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "online_act_total_cv"
+            },
+            {
+                "isAbout": "items/school_like_activities_cv",
+                "isVis": "school_cv == '1' || school_cv == '3'",
+                "valueRequired": true,
+                "variableName": "school_like_activities_cv"
+            },
+            {
+                "isAbout": "items/parent_involved_school_cv",
+                "isVis": "school_cv == '1' || school_cv == '3'",
+                "valueRequired": true,
+                "variableName": "parent_involved_school_cv"
+            },
+            {
+                "isAbout": "items/assist_sched_cv",
+                "isVis": "parent_involved_school_cv > '0'",
+                "valueRequired": true,
+                "variableName": "assist_sched_cv"
+            },
+            {
+                "isAbout": "items/check_hw_cv",
+                "isVis": "parent_involved_school_cv > '0'",
+                "valueRequired": true,
+                "variableName": "check_hw_cv"
+            },
+            {
+                "isAbout": "items/teach_concept_cv",
+                "isVis": "parent_involved_school_cv > '0'",
+                "valueRequired": true,
+                "variableName": "teach_concept_cv"
+            },
+            {
+                "isAbout": "items/create_asgn_act_cv",
+                "isVis": "parent_involved_school_cv > '0'",
+                "valueRequired": true,
+                "variableName": "create_asgn_act_cv"
+            },
+            {
+                "isAbout": "items/school_work_cv",
+                "isVis": "school_cv == '1' || school_cv == '3'",
+                "valueRequired": true,
+                "variableName": "school_work_cv"
+            },
+            {
+                "isAbout": "items/missing_school_cv",
+                "isVis": "school_cv == '1' || school_cv == '3'",
+                "valueRequired": true,
+                "variableName": "missing_school_cv"
+            },
+            {
+                "isAbout": "items/enjoyed_school_wk_y_cv",
+                "isVis": "school_cv == '1' || school_cv == '3'",
+                "valueRequired": true,
+                "variableName": "enjoyed_school_wk_y_cv"
+            },
+            {
                 "isAbout": "items/mctq_fd_btime_cv",
                 "isVis": true,
                 "valueRequired": true,
@@ -163,7 +308,7 @@
             },
             {
                 "isAbout": "items/mctq_fd_btime_min_cv",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "mctq_fd_btime_min_cv"
             },
@@ -175,7 +320,7 @@
             },
             {
                 "isAbout": "items/mctq_fd_time_asleep_min_cv",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "mctq_fd_time_asleep_min_cv"
             },
@@ -205,7 +350,7 @@
             },
             {
                 "isAbout": "items/mctq_fd_wake_up_time2_cv",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "mctq_fd_wake_up_time2_cv"
             },
@@ -223,7 +368,7 @@
             },
             {
                 "isAbout": "items/mctq_schedule_min_cv",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "mctq_schedule_min_cv"
             },
@@ -624,10 +769,10 @@
                 "variableName": "demo_parents_cv"
             },
             {
-                "isAbout": "items/siblings_cv",
+                "isAbout": "items/demo_siblings_cv",
                 "isVis": "event - name == 'covid19_cv2_arm_3'",
                 "valueRequired": true,
-                "variableName": "siblings_cv"
+                "variableName": "demo_siblings_cv"
             },
             {
                 "isAbout": "items/demo_tone_friends_cv",
@@ -642,10 +787,10 @@
                 "variableName": "demo_tone_parents_cv"
             },
             {
-                "isAbout": "items/tone_siblings_cv",
+                "isAbout": "items/demo_tone_siblings_cv",
                 "isVis": "event - name == 'covid19_cv2_arm_3'",
                 "valueRequired": true,
-                "variableName": "tone_siblings_cv"
+                "variableName": "demo_tone_siblings_cv"
             },
             {
                 "isAbout": "items/demo_stayed_away_cv",
@@ -847,7 +992,7 @@
             },
             {
                 "isAbout": "items/screentime_7_wknd_min_cv",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "screentime_7_wknd_min_cv"
             },
@@ -859,7 +1004,7 @@
             },
             {
                 "isAbout": "items/screentime_9_wknd_min_cv",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "screentime_9_wknd_min_cv"
             },
@@ -871,7 +1016,7 @@
             },
             {
                 "isAbout": "items/screentime_10_wknd_min_cv",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "screentime_10_wknd_min_cv"
             },
@@ -883,7 +1028,7 @@
             },
             {
                 "isAbout": "items/screentime_11_wknd_min_cv",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "screentime_11_wknd_min_cv"
             },
@@ -895,7 +1040,7 @@
             },
             {
                 "isAbout": "items/screentime_12_wknd_min_cv",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "screentime_12_wknd_min_cv"
             },
@@ -907,7 +1052,7 @@
             },
             {
                 "isAbout": "items/screentime_14_wknd_min_cv",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "screentime_14_wknd_min_cv"
             },
@@ -919,7 +1064,7 @@
             },
             {
                 "isAbout": "items/screentime_15_wknd_min_cv",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "screentime_15_wknd_min_cv"
             },
@@ -931,7 +1076,7 @@
             },
             {
                 "isAbout": "items/screentime_wknd_typical_min_cv",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "screentime_wknd_typical_min_cv"
             },
@@ -943,7 +1088,7 @@
             },
             {
                 "isAbout": "items/screentime_wknd_min_cv",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "screentime_wknd_min_cv"
             },
@@ -955,7 +1100,7 @@
             },
             {
                 "isAbout": "items/screentime_min_cv",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "screentime_min_cv"
             },
@@ -967,7 +1112,7 @@
             },
             {
                 "isAbout": "items/screentime_music_min_cv",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "screentime_music_min_cv"
             },
@@ -1034,6 +1179,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2511",
+    "version": "revid2513",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

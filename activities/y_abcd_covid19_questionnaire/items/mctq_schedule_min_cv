@@ -6,6 +6,11 @@
             "column": "Field Note",
             "source": "redcap",
             "value": "Minutes"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
         }
     ],
     "preamble": {
@@ -55,7 +60,8 @@
         ]
     },
     "ui": {
-        "inputType": "select"
+        "inputType": "select",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

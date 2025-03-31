@@ -1,0 +1,66 @@
+{
+    "id": "school_difficulty",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "For these next questions about your child's school-at-home, please think about thepast week:"
+    },
+    "prefLabel": {
+        "en": "school_difficulty"
+    },
+    "question": {
+        "en": "How easy or difficult was it for your child to complete school work remotely?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No problem"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Just some minor problems"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Each day was different"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Hard"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Very Hard"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Not applicable"
+                },
+                "value": 7
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

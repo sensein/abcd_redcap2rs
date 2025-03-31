@@ -1,0 +1,38 @@
+{
+    "id": "contact1_phone_index_cv_2",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Text Validation Min",
+            "source": "redcap",
+            "value": "1"
+        },
+        {
+            "column": "Text Validation Max",
+            "source": "redcap",
+            "value": "10.0"
+        }
+    ],
+    "prefLabel": {
+        "en": "contact1_phone_index_cv_2"
+    },
+    "question": {
+        "en": "Contact 1 phone number index"
+    },
+    "responseOptions": {
+        "maxValue": 10,
+        "minValue": 1,
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

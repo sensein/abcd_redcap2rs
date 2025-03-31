@@ -1,0 +1,45 @@
+{
+    "id": "fam_discord_cv",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "fam_discord_cv"
+    },
+    "question": {
+        "en": "Stress and discord in the family:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "None. Family members are showing no or very little signs of irritation or being short-tempered with one another"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Mild.  Family members occasionally irritable or short-tempered with one another, may occasionally shout at one another"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Moderate.  Family members frequently irritable and short-tempered with one another; and/or children in the home are throwing things, knocking over furniture, or showing signs of moderate stress"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Severe.  Family members are constantly irritable and short-tempered with one another, shouting frequently; children and adults in the home throwing things at one another, and/or knocking over furniture, or showing signs of severe stress"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

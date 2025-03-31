@@ -1,0 +1,31 @@
+{
+    "id": "covid19_screener_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "covid19_screener"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/study_asnt_cv",
+            "items/covid19_screener_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/study_asnt_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "study_asnt_cv"
+            },
+            {
+                "isAbout": "items/covid19_screener_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "covid19_screener_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2513",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
