@@ -1,0 +1,47 @@
+{
+    "id": "pnotes_yr1_issues_site",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "ISSUES, PROBLEMS, CONCERNS"
+    },
+    "prefLabel": {
+        "en": "pnotes_yr1_issues_site"
+    },
+    "question": null,
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Suicide endorsed"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Homicide endorsed"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Abuse or Neglect (e.g. CPS report)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Other (e.g., elder abuse)"
+                },
+                "value": 5
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

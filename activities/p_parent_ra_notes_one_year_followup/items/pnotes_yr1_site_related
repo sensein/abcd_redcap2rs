@@ -1,0 +1,36 @@
+{
+    "id": "pnotes_yr1_site_related",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "ISSUES, PROBLEMS, CONCERNS"
+    },
+    "prefLabel": {
+        "en": "pnotes_yr1_site_related"
+    },
+    "question": {
+        "en": "Site-related issues?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

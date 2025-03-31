@@ -70,7 +70,15 @@
             "items/pnotes_fitpr_p",
             "items/pnotes_fitpo_p",
             "items/pnotes_bkfs_p",
+            "items/pnotes_yr1_site_related",
+            "items/pnotes_yr1_issues_site",
+            "items/pnotes_yr1_site_action",
+            "items/pnotes_yr1_site_resolve",
+            "items/pnotes_yr1_resolution",
+            "items/pnotes_yr1_plan",
+            "items/pnotes_yr1_plan_date",
             "items/parent_notes_yn",
+            "items/pnotes_issues_site_notes",
             "items/yr1fb_cl_p",
             "items/yr1fb_cl_l_p",
             "items/yr1fb_plus_p",
@@ -89,6 +97,9 @@
             "items/yr1fb_kbi_tech_note_p",
             "items/yr1fb_kbi_tech_staff_p",
             "items/yr1fb_ksad_p",
+            "items/yr1fb_ksad_pguid_p",
+            "items/yr1fb_ksad_pguid_resolved_p",
+            "items/yr1fb_ksad_pguid_dte_p",
             "items/yr1fb_ksad_cmphnsn_notes_p",
             "items/yr1fb_ksad_cmplnc_note_p",
             "items/yr1fb_ksad_tech_note_p",
@@ -641,10 +652,58 @@
                 "variableName": "pnotes_bkfs_p"
             },
             {
+                "isAbout": "items/pnotes_yr1_site_related",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pnotes_yr1_site_related"
+            },
+            {
+                "isAbout": "items/pnotes_yr1_issues_site",
+                "isVis": "pnotes_yr1_site_related == '1'",
+                "valueRequired": true,
+                "variableName": "pnotes_yr1_issues_site"
+            },
+            {
+                "isAbout": "items/pnotes_yr1_site_action",
+                "isVis": "pnotes_yr1_issues_site___2 == '1' || pnotes_yr1_issues_site___3 == '1' || pnotes_yr1_issues_site___4 == '1' || pnotes_yr1_issues_site___5 == '1'",
+                "valueRequired": true,
+                "variableName": "pnotes_yr1_site_action"
+            },
+            {
+                "isAbout": "items/pnotes_yr1_site_resolve",
+                "isVis": "pnotes_yr1_issues_site___2 == '1' || pnotes_yr1_issues_site___3 == '1' || pnotes_yr1_issues_site___4 == '1' || pnotes_yr1_issues_site___5 == '1'",
+                "valueRequired": true,
+                "variableName": "pnotes_yr1_site_resolve"
+            },
+            {
+                "isAbout": "items/pnotes_yr1_resolution",
+                "isVis": "pnotes_yr1_site_related == '1'",
+                "valueRequired": true,
+                "variableName": "pnotes_yr1_resolution"
+            },
+            {
+                "isAbout": "items/pnotes_yr1_plan",
+                "isVis": "pnotes_yr1_resolution___2 == '1'",
+                "valueRequired": true,
+                "variableName": "pnotes_yr1_plan"
+            },
+            {
+                "isAbout": "items/pnotes_yr1_plan_date",
+                "isVis": "pnotes_yr1_plan___1 == '1'",
+                "valueRequired": true,
+                "variableName": "pnotes_yr1_plan_date"
+            },
+            {
                 "isAbout": "items/parent_notes_yn",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "parent_notes_yn"
+            },
+            {
+                "isAbout": "items/pnotes_issues_site_notes",
+                "isVis": "pnotes_yr1_site_related == '1'",
+                "valueRequired": true,
+                "variableName": "pnotes_issues_site_notes"
             },
             {
                 "isAbout": "items/yr1fb_cl_p",
@@ -753,6 +812,24 @@
                 "isVis": "yr1fb_cl_l_p___26 == '1' || yr1fb_cl_p___26 == '1'",
                 "valueRequired": true,
                 "variableName": "yr1fb_ksad_p"
+            },
+            {
+                "isAbout": "items/yr1fb_ksad_pguid_p",
+                "isVis": "yr1fb_ksad_p___5 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_ksad_pguid_p"
+            },
+            {
+                "isAbout": "items/yr1fb_ksad_pguid_resolved_p",
+                "isVis": "yr1fb_ksad_p___5 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_ksad_pguid_resolved_p"
+            },
+            {
+                "isAbout": "items/yr1fb_ksad_pguid_dte_p",
+                "isVis": "yr1fb_ksad_pguid_resolved_p___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_ksad_pguid_dte_p"
             },
             {
                 "isAbout": "items/yr1fb_ksad_cmphnsn_notes_p",
@@ -1783,6 +1860,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2437",
+    "version": "revid2438",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

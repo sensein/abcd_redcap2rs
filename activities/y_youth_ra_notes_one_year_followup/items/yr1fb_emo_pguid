@@ -1,0 +1,31 @@
+{
+    "id": "yr1fb_emo_pguid",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "abcd_id"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "abcd_id"
+        }
+    ],
+    "prefLabel": {
+        "en": "yr1fb_emo_pguid"
+    },
+    "question": {
+        "en": "Please enter incorrect pGUID used and send a ticket explaining the problem to ABCD issues\r\nabcd-issues@ucsd.edu"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
