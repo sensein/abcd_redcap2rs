@@ -6,6 +6,11 @@
             "column": "Text Validation Type OR Show Slider Number",
             "source": "redcap",
             "value": "number"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
         }
     ],
     "preamble": {
@@ -15,7 +20,7 @@
         "en": "eatq_p_ss_surgency"
     },
     "question": {
-        "en": "PhenX Early Adolescent Temperament Q - Parent surgency \nsum(eatq_phenx_africa_p, eatq_phenx_ski_slope_p, eatq_phenx_city_move_p, eatq_phenx_sea_dive_p, eatq_phenx_travel_p, eatq_phenx_race_car_p, eatq_phenx_school_excite_p, eatq_phenx_energized_p, eatq_phenx_rides_scared_p)\n\nValidation: Maximum of 1 item missing"
+        "en": "PhenX Early Adolescent Temperament Q - Parent surgency \r\nsum(eatq_phenx_africa_p, eatq_phenx_ski_slope_p, eatq_phenx_city_move_p, eatq_phenx_sea_dive_p, eatq_phenx_travel_p, eatq_phenx_race_car_p, eatq_phenx_school_excite_p, eatq_phenx_energized_p, eatq_phenx_rides_scared_p)\r\n\r\nValidation: Maximum of 1 item missing"
     },
     "responseOptions": {
         "valueType": [
@@ -23,7 +28,8 @@
         ]
     },
     "ui": {
-        "inputType": "float"
+        "inputType": "float",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

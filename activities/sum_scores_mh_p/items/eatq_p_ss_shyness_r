@@ -1,0 +1,35 @@
+{
+    "id": "eatq_p_ss_shyness_r",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY @HIDDEN"
+        }
+    ],
+    "preamble": {
+        "en": "PhenX Early Adolescent Temperament Q - Parent"
+    },
+    "prefLabel": {
+        "en": "eatq_p_ss_shyness_r"
+    },
+    "question": {
+        "en": "PhenX Early Adolescent Temperament Q - Parent shyness - Reverse Scored _ intermediate score for\r\nSurgency Superscale\r\nsum(eatq_phenx_social_p, eatq_phenx_is_shy_p, eatq_phenx_not_shy_p, eatq_phenx_meet_p, eatq_phenx_shy_meet_p)\r\n\r\nValidation: Maximum of 1 item missing"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

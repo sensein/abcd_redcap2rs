@@ -1,0 +1,35 @@
+{
+    "id": "eatq_p_ss_fear_r",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY @HIDDEN"
+        }
+    ],
+    "preamble": {
+        "en": "PhenX Early Adolescent Temperament Q - Parent"
+    },
+    "prefLabel": {
+        "en": "eatq_p_ss_fear_r"
+    },
+    "question": {
+        "en": "PhenX Early Adolescent Temperament Q - Parent fear  Reverse Scored for Surgency Super Scale\r\nsum(eatq_phenx_trouble_p, eatq_phenx_attachment_p, eatq_phenx_ball_scared_p, eatq_phenx_dark_scared_p, eatq_phenx_alone_p, eatq_phenx_worry_p)\r\n\r\nValidation: Maximum of 1 item missing"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

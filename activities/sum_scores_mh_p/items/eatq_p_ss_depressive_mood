@@ -6,6 +6,11 @@
             "column": "Text Validation Type OR Show Slider Number",
             "source": "redcap",
             "value": "number"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
         }
     ],
     "preamble": {
@@ -15,7 +20,7 @@
         "en": "eatq_p_ss_depressive_mood"
     },
     "question": {
-        "en": "PhenX Early Adolescent Temperament Q - Parent depressive_mood \nsum(eatq_phenx_enjoy_p, eatq_phenx_cry_p, eatq_phenx_sad_p, eatq_phenx_hardly_sad_p, eatq_phenx_seems_sad_p)\n\nValidation: Maximum of 1 item missing"
+        "en": "PhenX Early Adolescent Temperament Q - Parent depressive_mood \r\nsum(eatq_phenx_enjoy_p, eatq_phenx_cry_p, eatq_phenx_sad_p, eatq_phenx_hardly_sad_p, eatq_phenx_seems_sad_p)\r\n\r\nValidation: Maximum of 1 item missing"
     },
     "responseOptions": {
         "valueType": [
@@ -23,7 +28,8 @@
         ]
     },
     "ui": {
-        "inputType": "float"
+        "inputType": "float",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
