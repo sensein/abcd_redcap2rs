@@ -111,7 +111,6 @@
             "items/ple_p_ss_total_number2",
             "items/ple_p_ss_total_number2_nm",
             "items/ple_p_ss_total_number2_nt",
-            "items/sum_scores_mh_p_complete",
             "items/pgbi_p_ss_score",
             "items/pgbi_p_ss_score_nm",
             "items/pgbi_p_ss_score_nt",
@@ -195,7 +194,8 @@
             "items/eatq_p_ss_attention_nt",
             "items/eatq_p_ss_depressive_mood",
             "items/eatq_p_ss_depressive_mood_nm",
-            "items/eatq_p_ss_depressive_mood_nt"
+            "items/eatq_p_ss_depressive_mood_nt",
+            "items/sum_scores_mh_p_complete"
         ],
         "addProperties": [
             {
@@ -473,12 +473,6 @@
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "ple_p_ss_affected_mean2"
-            },
-            {
-                "isAbout": "items/sum_scores_mh_p_complete",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "sum_scores_mh_p_complete"
             },
             {
                 "isAbout": "items/pgbi_p_ss_score",
@@ -1031,10 +1025,16 @@
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "eatq_p_ss_depressive_mood_nt"
+            },
+            {
+                "isAbout": "items/sum_scores_mh_p_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sum_scores_mh_p_complete"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2497",
+    "version": "revid2498",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

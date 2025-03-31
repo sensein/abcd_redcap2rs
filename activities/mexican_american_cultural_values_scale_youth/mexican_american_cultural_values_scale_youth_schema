@@ -46,7 +46,7 @@
         "addProperties": [
             {
                 "isAbout": "items/macv_instructions_read",
-                "isVis": "event_name_number > '21'",
+                "isVis": "event_name_number > '21' && sched_delay == '7'",
                 "valueRequired": false,
                 "variableName": "macv_instructions_read"
             },
@@ -232,13 +232,13 @@
             },
             {
                 "isAbout": "items/macv_comprehend",
-                "isVis": "event_name_number > '21'",
+                "isVis": "event_name_number > '21' && sched_delay == '7'",
                 "valueRequired": true,
                 "variableName": "macv_comprehend"
             },
             {
                 "isAbout": "items/macv_continue_read",
-                "isVis": "macv_comprehend == '1'",
+                "isVis": "macv_comprehend == '1' && sched_delay == '7'",
                 "valueRequired": false,
                 "variableName": "macv_continue_read"
             },
@@ -257,6 +257,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2497",
+    "version": "revid2498",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
