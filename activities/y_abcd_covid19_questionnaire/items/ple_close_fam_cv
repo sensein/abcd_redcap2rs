@@ -1,0 +1,36 @@
+{
+    "id": "ple_close_fam_cv",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Relationships"
+    },
+    "prefLabel": {
+        "en": "ple_close_fam_cv"
+    },
+    "question": {
+        "en": "Are you separated from a close family member (like can't be together with a parent, or can't visit a close family member)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

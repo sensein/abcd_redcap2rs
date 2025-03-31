@@ -1,0 +1,78 @@
+{
+    "id": "physical_activities_hr_cv",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Please think about the activities you do at home or school, as part of your chores, to get from place to place, and in your spare time for fun, exercise or sport. Think about walking and all the moderate and vigorous activities that you did in thelast week.  Moderateorvigorousphysical activities refer to activities that take moderate to hard physical effort and make you breathe harder than normal.  Thinkonlyabout those physical activities that you did for at least 10 minutes at a time."
+    },
+    "prefLabel": {
+        "en": "physical_activities_hr_cv"
+    },
+    "question": {
+        "en": "During thepast week, on how many days did you domoderate or vigorousphysical activities like heavy lifting, running, aerobics, or bicycling?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No vigorous physical activities"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1 Days"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2 Days"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3 Days"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4 Days"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "5 Days"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "6 Days"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "7 Days"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 8
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

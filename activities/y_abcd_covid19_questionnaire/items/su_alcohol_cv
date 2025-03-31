@@ -1,0 +1,73 @@
+{
+    "id": "su_alcohol_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "su_drugs_and_al_cv"
+        }
+    ],
+    "preamble": {
+        "en": "Now I'm going to ask you some questions about recent drug and alcohol use. Please fill out the number of days you used each substance within the last 30 days. For some of these questions, we use the term \"vape\". To \"vape\" is to use a device such as a JUUL, vape-pen, or e-cigarette to inhale a vapor into the lungs. \n\nOn how manyDAYS (if any)during theLAST 30 DAYShave you..."
+    },
+    "prefLabel": {
+        "en": "su_alcohol_cv"
+    },
+    "question": {
+        "en": "Had a drink containing alcohol?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0 Days"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "1-2 Days"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3-5 Days"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "6-9 Days"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "10-19 Days"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "20-29 Days"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "30 Days"
+                },
+                "value": 7
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

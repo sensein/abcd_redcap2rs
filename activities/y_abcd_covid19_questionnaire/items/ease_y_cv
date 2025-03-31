@@ -1,0 +1,55 @@
+{
+    "id": "ease_y_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "nih_pos_y_cv"
+        }
+    ],
+    "preamble": {
+        "en": "Next are items that describe how kids feel. Please rate how each item describes you now or within thepast week.  Please answer with one of the following options: Not True, Somewhat True, or Very True."
+    },
+    "prefLabel": {
+        "en": "ease_y_cv"
+    },
+    "question": {
+        "en": "I felt at ease (Definition: relaxed, comfortable)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not true"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Somewhat true"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Very true"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

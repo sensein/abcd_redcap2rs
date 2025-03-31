@@ -1,0 +1,48 @@
+{
+    "id": "demo_school_reopen_date_dk_cv",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Youth's School"
+    },
+    "prefLabel": {
+        "en": "demo_school_reopen_date_dk_cv"
+    },
+    "question": {
+        "en": "Has your child's school re-opened?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes, has re-opened"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No, hasn't re-opened yet"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,45 @@
+{
+    "id": "demo_fam_supp_acc_cv",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "demo_fam_supp_acc_cv"
+    },
+    "question": {
+        "en": "Access to family and close non-family social contacts (such as friends, neighbors, members of a social or religious group you belong to):"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No change."
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Mild.  Continued visits with social distancing and/or regular phone calls and/or televideo or social media contacts."
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Moderate.  Loss of in person and remote contact with a few people, but not all supports."
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Severe.  Loss of in person and remote contact with all supports."
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

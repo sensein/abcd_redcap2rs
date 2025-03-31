@@ -1,0 +1,55 @@
+{
+    "id": "strle_try_not_to_think_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "strle_cv"
+        }
+    ],
+    "preamble": {
+        "en": "Below is a list of comments made by people after a stressful life event. Thinking about thecoronavirus situation, please check each item showing how often these comments were true for you in thepast week. If they did not occur this week, check \"not at all\"."
+    },
+    "prefLabel": {
+        "en": "strle_try_not_to_think_cv"
+    },
+    "question": {
+        "en": "Do you try not to think about it?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Rarely"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Often"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

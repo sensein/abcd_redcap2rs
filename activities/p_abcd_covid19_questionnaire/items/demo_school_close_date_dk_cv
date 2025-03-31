@@ -1,0 +1,42 @@
+{
+    "id": "demo_school_close_date_dk_cv",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Youth's School"
+    },
+    "prefLabel": {
+        "en": "demo_school_close_date_dk_cv"
+    },
+    "question": {
+        "en": "Last date of in-person class"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Not applicable"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

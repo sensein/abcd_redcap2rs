@@ -1,0 +1,78 @@
+{
+    "id": "social_media_platform_cv",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "MediaThe following questions ask about your use of different forms of media (television, social media, and other internet sources) to check for news related to the coronavirus pandemic in thepast week."
+    },
+    "prefLabel": {
+        "en": "social_media_platform_cv"
+    },
+    "question": {
+        "en": "Which platform did you use the most when checking fornews related to coronavirus?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Twitter"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Instagram"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "TikTok"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Snapchat"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "YouTube"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Reddit"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Facebook"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "None"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,61 @@
+{
+    "id": "demo_p_safety_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "demo_feel_m_cv"
+        }
+    ],
+    "preamble": {
+        "en": "Please indicate how much you agree or disagree with these statements:"
+    },
+    "prefLabel": {
+        "en": "demo_p_safety_cv"
+    },
+    "question": {
+        "en": "I have expressed concern to my child that they might not be fully safe from coronavirus"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Strongly Disagree"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Disagree"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Neither Disagree or Agree"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Agree"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Strongly Agree"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

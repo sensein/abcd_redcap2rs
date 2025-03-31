@@ -1,0 +1,61 @@
+{
+    "id": "exp_rac_disc_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "past_week_cv"
+        }
+    ],
+    "preamble": {
+        "en": "Please answer the following questions about the way things were over thepast week."
+    },
+    "prefLabel": {
+        "en": "exp_rac_disc_cv"
+    },
+    "question": {
+        "en": "I experienced racism or discrimination in relation to coronavirus..."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Rarely"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Occasionally"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Frequently"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Very frequently"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

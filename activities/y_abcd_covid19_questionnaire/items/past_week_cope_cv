@@ -1,0 +1,73 @@
+{
+    "id": "past_week_cope_cv",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Please think about the activities you do at home or school, as part of your chores, to get from place to place, and in your spare time for fun, exercise or sport. Think about walking and all the moderate and vigorous activities that you did in thelast week.  Moderateorvigorousphysical activities refer to activities that take moderate to hard physical effort and make you breathe harder than normal.  Thinkonlyabout those physical activities that you did for at least 10 minutes at a time."
+    },
+    "prefLabel": {
+        "en": "past_week_cope_cv"
+    },
+    "question": {
+        "en": "And finally, in thepast week, to cope, have you done any of the following? (check all that apply)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Took breaks from watching, reading, or listening to news stories, including social media"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Participated in a neighborhood social distance activity (such decorated windows or driveway, singing from balcony or porch)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Took care of your body, such as taking deep breaths, stretching, or meditating"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Exercised (such as walking, running, or an online exercise class)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Spent more time on hobbies, or started a new one"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Engaged in healthy behaviors, like trying to eat healthy, getting plenty of sleep"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Made time to relax"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Connected with others online or by phone"
+                },
+                "value": 8
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

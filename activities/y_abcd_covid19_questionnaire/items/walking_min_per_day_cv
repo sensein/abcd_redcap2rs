@@ -1,0 +1,70 @@
+{
+    "id": "walking_min_per_day_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "Minutes"
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        }
+    ],
+    "preamble": {
+        "en": "Please think about the activities you do at home or school, as part of your chores, to get from place to place, and in your spare time for fun, exercise or sport. Think about walking and all the moderate and vigorous activities that you did in thelast week.  Moderateorvigorousphysical activities refer to activities that take moderate to hard physical effort and make you breathe harder than normal.  Thinkonlyabout those physical activities that you did for at least 10 minutes at a time."
+    },
+    "prefLabel": {
+        "en": "walking_min_per_day_cv"
+    },
+    "question": null,
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "10"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "20"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "30"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "40"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 6
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

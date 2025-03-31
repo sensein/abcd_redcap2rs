@@ -1,0 +1,42 @@
+{
+    "id": "demo_child_diagnosis_cv",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Please answer the questions below about your child:"
+    },
+    "prefLabel": {
+        "en": "demo_child_diagnosis_cv"
+    },
+    "question": {
+        "en": "How was s/he diagnosed?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "by a healthcare worker in person"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "by a healthcare worker via tele-medicine"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "by a healthcare worker via telephone or email"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

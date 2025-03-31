@@ -1,0 +1,49 @@
+{
+    "id": "demo_absent_reason_cv",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Youth's School"
+    },
+    "prefLabel": {
+        "en": "demo_absent_reason_cv"
+    },
+    "question": {
+        "en": "Please check all reasons your child did not do schoolthis week:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "My child was too sick to go to school"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "I do not feel safe sending him/her to school right now because of coronavirus"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "My child is too worried to go to school because of coronavirus"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 4
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

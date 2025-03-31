@@ -1,0 +1,61 @@
+{
+    "id": "parent_monitor_q4_y_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "parent_monitoring_youth_cv"
+        }
+    ],
+    "preamble": {
+        "en": "The next set of questions are about your life over thepast week. For questions about your parents/guardians, answer for the parent who best knows where you are."
+    },
+    "prefLabel": {
+        "en": "parent_monitor_q4_y_cv"
+    },
+    "question": {
+        "en": "How often do you talk to your mom/dad or guardian about your plans for the coming day, such as your plans about what will happen at school or what you are going to do with friends?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Almost Never"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Often"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Always or Almost Always"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

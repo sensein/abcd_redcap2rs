@@ -1,0 +1,45 @@
+{
+    "id": "demo_fam_stress_cv",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "demo_fam_stress_cv"
+    },
+    "question": {
+        "en": "Experience of stress related to coronavirus pandemic:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "None."
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Mild.  Occasional worries and/or minor stress-related symptoms (e.g., feel a little anxious, sad, and/or angry; mild/rare trouble sleeping)."
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Moderate.  Frequent worries and/or moderate stress-related symptoms (e.g., feel moderately anxious, sad, and/or angry; moderate/occasional trouble sleeping)."
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Severe.  Persistent worries and/or severe stress-related symptoms (e.g., feel extremely anxious, sad, and/or angry; severe/frequent trouble sleeping)."
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

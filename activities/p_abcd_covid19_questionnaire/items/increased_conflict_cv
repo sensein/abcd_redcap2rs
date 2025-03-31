@@ -1,0 +1,58 @@
+{
+    "id": "increased_conflict_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "talk2_cv"
+        }
+    ],
+    "prefLabel": {
+        "en": "increased_conflict_cv"
+    },
+    "question": {
+        "en": "I have noticed increased conflict in our family since our area started worrying about coronavirus"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Strongly Disagree"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Disagree"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Neither Disagree or Agree"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Agree"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Strongly Agree"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

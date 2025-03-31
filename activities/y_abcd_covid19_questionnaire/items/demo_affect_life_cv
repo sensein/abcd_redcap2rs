@@ -1,0 +1,55 @@
+{
+    "id": "demo_affect_life_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "demo_emotions_cv"
+        }
+    ],
+    "preamble": {
+        "en": "Please indicate how true the statement is for you in thepast week:"
+    },
+    "prefLabel": {
+        "en": "demo_affect_life_cv"
+    },
+    "question": {
+        "en": "Being afraid of an illness or virus has gotten in the way of enjoying my life (e.g. caused fights in my house, kept me from connecting with others, made me feel isolated or hopeless about the future, etc.)."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not true for me at all"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Somewhat true"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Mostly true"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Definitely true"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

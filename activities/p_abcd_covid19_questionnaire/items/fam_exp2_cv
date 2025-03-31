@@ -1,0 +1,49 @@
+{
+    "id": "fam_exp2_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "fam_exp_cv"
+        }
+    ],
+    "preamble": {
+        "en": "In thepast month, have you and your household experienced any of the following:"
+    },
+    "prefLabel": {
+        "en": "fam_exp2_cv"
+    },
+    "question": {
+        "en": "Needed food but couldn't afford to buy it or couldn't afford to get out to get it?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

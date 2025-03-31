@@ -1,0 +1,85 @@
+{
+    "id": "assist_sched_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "school_help_cv"
+        }
+    ],
+    "preamble": {
+        "en": "How many days (0-7) did your parent (or other adult taking care of you):"
+    },
+    "prefLabel": {
+        "en": "assist_sched_cv"
+    },
+    "question": {
+        "en": "Assist you with managing school schedule"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0 Days"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1 Days"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2 Days"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3 Days"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4 Days"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "5 Days"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "6 Days"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "7 Days"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

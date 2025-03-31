@@ -1,0 +1,23 @@
+{
+    "id": "demo_test_instruc_cv",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Please answer the questions below about your child:"
+    },
+    "prefLabel": {
+        "en": "demo_test_instruc_cv"
+    },
+    "question": {
+        "en": "When was your child tested? If they were tested multiple times, please provide the dates for up to three tests."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

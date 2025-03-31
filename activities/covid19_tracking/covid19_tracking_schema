@@ -1,0 +1,206 @@
+{
+    "id": "covid19_tracking_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "covid19_tracking"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/contact1_id_cv",
+            "items/contact2_id_cv",
+            "items/contact1_relationship_cv",
+            "items/contact2_relationship_cv",
+            "items/contact_id_sent_cv",
+            "items/survey_sent_date_cv",
+            "items/reminder1_date_cv",
+            "items/reminder2_date_cv",
+            "items/reminder3_date_cv",
+            "items/last_sent_date_cv",
+            "items/p_survey_completed_date_cv",
+            "items/y_survey_completed_date_cv",
+            "items/p_survey_link_cv",
+            "items/p_access_code_cv",
+            "items/y_survey_link_cv",
+            "items/y_access_code_cv",
+            "items/payment1_link_cv",
+            "items/payment1_sent_date_cv",
+            "items/payment1_amount_cv",
+            "items/payment1_contactid_cv",
+            "items/current_status_cv",
+            "items/status_mesg_cv",
+            "items/contact1_status_cv",
+            "items/contact1_status_mesg_cv",
+            "items/contact2_status_cv",
+            "items/contact2_status_mesg_cv",
+            "items/covid19_tracking_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/contact1_id_cv",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "contact1_id_cv"
+            },
+            {
+                "isAbout": "items/contact2_id_cv",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "contact2_id_cv"
+            },
+            {
+                "isAbout": "items/contact1_relationship_cv",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "contact1_relationship_cv"
+            },
+            {
+                "isAbout": "items/contact2_relationship_cv",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "contact2_relationship_cv"
+            },
+            {
+                "isAbout": "items/contact_id_sent_cv",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "contact_id_sent_cv"
+            },
+            {
+                "isAbout": "items/survey_sent_date_cv",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "survey_sent_date_cv"
+            },
+            {
+                "isAbout": "items/reminder1_date_cv",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reminder1_date_cv"
+            },
+            {
+                "isAbout": "items/reminder2_date_cv",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reminder2_date_cv"
+            },
+            {
+                "isAbout": "items/reminder3_date_cv",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reminder3_date_cv"
+            },
+            {
+                "isAbout": "items/last_sent_date_cv",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "last_sent_date_cv"
+            },
+            {
+                "isAbout": "items/p_survey_completed_date_cv",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "p_survey_completed_date_cv"
+            },
+            {
+                "isAbout": "items/y_survey_completed_date_cv",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "y_survey_completed_date_cv"
+            },
+            {
+                "isAbout": "items/p_survey_link_cv",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "p_survey_link_cv"
+            },
+            {
+                "isAbout": "items/p_access_code_cv",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "p_access_code_cv"
+            },
+            {
+                "isAbout": "items/y_survey_link_cv",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "y_survey_link_cv"
+            },
+            {
+                "isAbout": "items/y_access_code_cv",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "y_access_code_cv"
+            },
+            {
+                "isAbout": "items/payment1_link_cv",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "payment1_link_cv"
+            },
+            {
+                "isAbout": "items/payment1_sent_date_cv",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "payment1_sent_date_cv"
+            },
+            {
+                "isAbout": "items/payment1_amount_cv",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "payment1_amount_cv"
+            },
+            {
+                "isAbout": "items/payment1_contactid_cv",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "payment1_contactid_cv"
+            },
+            {
+                "isAbout": "items/current_status_cv",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "current_status_cv"
+            },
+            {
+                "isAbout": "items/status_mesg_cv",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "status_mesg_cv"
+            },
+            {
+                "isAbout": "items/contact1_status_cv",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "contact1_status_cv"
+            },
+            {
+                "isAbout": "items/contact1_status_mesg_cv",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "contact1_status_mesg_cv"
+            },
+            {
+                "isAbout": "items/contact2_status_cv",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "contact2_status_cv"
+            },
+            {
+                "isAbout": "items/contact2_status_mesg_cv",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "contact2_status_mesg_cv"
+            },
+            {
+                "isAbout": "items/covid19_tracking_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "covid19_tracking_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2509",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

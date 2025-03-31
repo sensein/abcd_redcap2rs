@@ -1,0 +1,62 @@
+{
+    "id": "demo_symptom_actions_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@NONEOFTHEABOVE = \"5\""
+        }
+    ],
+    "preamble": {
+        "en": "Please answer the questions below about your child:"
+    },
+    "prefLabel": {
+        "en": "demo_symptom_actions_cv"
+    },
+    "question": {
+        "en": "Which of the following ever occurred as a result of your child's symptoms? (check all that apply)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "My child was kept overnight in a hospital because a healthcare provider thought the child had COVID-19."
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "My child saw a healthcare provider in person, such as in a clinic, doctor's office, urgent care, or ER."
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "My child or I spoke to a healthcare provider over the phone, email, or online."
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "My child or I self-isolated or quarantined at home."
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "None of the above"
+                },
+                "value": 5
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

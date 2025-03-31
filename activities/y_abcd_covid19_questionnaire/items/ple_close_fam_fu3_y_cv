@@ -1,0 +1,42 @@
+{
+    "id": "ple_close_fam_fu3_y_cv",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Relationships"
+    },
+    "prefLabel": {
+        "en": "ple_close_fam_fu3_y_cv"
+    },
+    "question": {
+        "en": "Is this due to the coronavirus situation?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

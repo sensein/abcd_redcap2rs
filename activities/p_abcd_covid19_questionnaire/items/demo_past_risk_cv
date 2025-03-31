@@ -1,0 +1,56 @@
+{
+    "id": "demo_past_risk_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@NONEOFTHEABOVE = \"4\""
+        }
+    ],
+    "preamble": {
+        "en": "Please answer the questions below about your child:"
+    },
+    "prefLabel": {
+        "en": "demo_past_risk_cv"
+    },
+    "question": {
+        "en": "In the two weeks before your child had symptoms, did he/she: (check all that apply)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Have contact with someone who tested positive for COVID-19"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Have contact with someone who likely had COVID-19 (that is, they were not tested but had symptoms or was told by a healthcare provider they likely had it)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Travel to a different state or country"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "None of the above"
+                },
+                "value": 4
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

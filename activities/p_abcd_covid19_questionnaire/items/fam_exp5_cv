@@ -1,0 +1,49 @@
+{
+    "id": "fam_exp5_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "fam_exp_cv"
+        }
+    ],
+    "preamble": {
+        "en": "In thepast month, have you and your household experienced any of the following:"
+    },
+    "prefLabel": {
+        "en": "fam_exp5_cv"
+    },
+    "question": {
+        "en": "Were evicted from your home for not paying the rent or mortgage?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

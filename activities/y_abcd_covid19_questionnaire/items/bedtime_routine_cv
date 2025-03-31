@@ -1,0 +1,61 @@
+{
+    "id": "bedtime_routine_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "past_week_cv"
+        }
+    ],
+    "preamble": {
+        "en": "Please answer the following questions about the way things were over thepast week."
+    },
+    "prefLabel": {
+        "en": "bedtime_routine_cv"
+    },
+    "question": {
+        "en": "I kept a bedtime routine (that is, I usually did the same thing each night before bed)..."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Rarely"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Occasionally"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Frequently"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Very frequently"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

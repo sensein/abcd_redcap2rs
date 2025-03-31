@@ -1,0 +1,61 @@
+{
+    "id": "demo_tone_parents_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "demo_tone_change_cv"
+        }
+    ],
+    "preamble": {
+        "en": "Compared before you had to stay at home due to the coronavirus:"
+    },
+    "prefLabel": {
+        "en": "demo_tone_parents_cv"
+    },
+    "question": {
+        "en": "How has thetoneof your communication changed during this time with parents"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Noticeably more negative"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Somewhat more negative"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Has not changed"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Somewhat more positive"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Noticeably more positive"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

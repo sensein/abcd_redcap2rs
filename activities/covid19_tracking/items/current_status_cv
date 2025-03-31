@@ -1,0 +1,105 @@
+{
+    "id": "current_status_cv",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "current_status_cv"
+    },
+    "question": {
+        "en": "Current status:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Ready to receive"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Sent initial message"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Sent reminder 1"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Sent reminder 2"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Sent reminder 3"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Youth survey completed"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Parent survey completed"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Both surveys completed"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Send failure"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Resolved"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "No email or phone selected in PII"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Opt out"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Stop contacting"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Payment sent"
+                },
+                "value": 14
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

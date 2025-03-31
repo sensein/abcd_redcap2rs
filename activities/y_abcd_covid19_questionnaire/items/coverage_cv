@@ -1,0 +1,54 @@
+{
+    "id": "coverage_cv",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "MediaThe following questions ask about your use of different forms of media (television, social media, and other internet sources) to check for news related to the coronavirus pandemic in thepast week."
+    },
+    "prefLabel": {
+        "en": "coverage_cv"
+    },
+    "question": {
+        "en": "How often did you view television media coverage (e.g., news stations) of coronavirus"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all (did not view news related to coronavirus)"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "A little (less than 1 hour per day)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Somewhat (about an hour per day)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A lot (1 to 2 hours per day)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "A whole lot (more than 2 hours per day)"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

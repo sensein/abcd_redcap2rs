@@ -1,0 +1,61 @@
+{
+    "id": "demo_p_feeling_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "demo_feel_m_cv"
+        }
+    ],
+    "preamble": {
+        "en": "Please indicate how much you agree or disagree with these statements:"
+    },
+    "prefLabel": {
+        "en": "demo_p_feeling_cv"
+    },
+    "question": {
+        "en": "I discussed with my child my own feelings about coronavirus and its impact on people and the world"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Strongly Disagree"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Disagree"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Neither Disagree or Agree"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Agree"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Strongly Agree"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

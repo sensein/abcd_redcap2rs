@@ -1,0 +1,61 @@
+{
+    "id": "pstr_confidence_p_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "pstr_cv"
+        }
+    ],
+    "preamble": {
+        "en": "These questions ask about your feelings and thoughts in thelast month. Please indicate how often you felt or thought a certain way."
+    },
+    "prefLabel": {
+        "en": "pstr_confidence_p_cv"
+    },
+    "question": {
+        "en": "In the last month, how often have you felt confident about your ability to handle your personal problems?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Almost Never"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Fairly often"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Very Often"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

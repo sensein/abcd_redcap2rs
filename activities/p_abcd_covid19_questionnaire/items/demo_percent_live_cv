@@ -1,0 +1,48 @@
+{
+    "id": "demo_percent_live_cv",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "FamilyHere are some questions about your child, you, and your family, in thepast week:"
+    },
+    "prefLabel": {
+        "en": "demo_percent_live_cv"
+    },
+    "question": {
+        "en": "What % of the time did your child live with you?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0-25%"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "25-50%"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "50-75%"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "75-100%"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

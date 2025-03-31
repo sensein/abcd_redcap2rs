@@ -1,0 +1,48 @@
+{
+    "id": "ple_close_fam_fu2_cv",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Relationships"
+    },
+    "prefLabel": {
+        "en": "ple_close_fam_fu2_cv"
+    },
+    "question": {
+        "en": "How much has this affected you?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at All"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "A Little"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Some"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A lot"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,108 @@
+{
+    "id": "tv_view_cv",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "MediaThe following questions ask about your use of different forms of media (television, social media, and other internet sources) to check for news related to the coronavirus pandemic in thepast week."
+    },
+    "prefLabel": {
+        "en": "tv_view_cv"
+    },
+    "question": {
+        "en": "Which television channel did you watchmostwhen viewingnews related to coronavirus?(include both watching on a TV and streaming online)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "CNN"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Fox News"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "MSNBC"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "ABC"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "NBC"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "CBS"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Univision"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Telemundo"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "PBS / public television"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Local news station"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Comedy news"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Foreign news station (e.g., BBC)"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "None"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

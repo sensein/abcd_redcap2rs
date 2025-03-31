@@ -1,0 +1,54 @@
+{
+    "id": "social_media_cv",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "MediaThe following questions ask about your use of different forms of media (television, social media, and other internet sources) to check for news related to the coronavirus pandemic in thepast week."
+    },
+    "prefLabel": {
+        "en": "social_media_cv"
+    },
+    "question": {
+        "en": "How often did you look at coronavirus-related social media activity (e.g. Facebook, Twitter, Instagram, TikTok, SnapChat?)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Once per day or less"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Several times per day"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Almost every hour"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Several times per hour"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Almost continuously"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

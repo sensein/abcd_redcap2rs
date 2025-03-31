@@ -1,0 +1,1067 @@
+{
+    "id": "p_abcd_covid19_questionnaire_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "p_abcd_covid19_questionnaire"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/demo_cov_intro",
+            "items/demo_prim_cv",
+            "items/demo_percent_live_cv",
+            "items/demo_custody_cv",
+            "items/demo_caregiver_cv",
+            "items/demo_caregiver_help_cv",
+            "items/demo_child_separate_cv",
+            "items/demo_separate_people_cv",
+            "items/demo_worry_cv",
+            "items/demo_life_changed_cv",
+            "items/demo_enjoy_cv",
+            "items/demo_fam_size_cv",
+            "items/demo_fam_expose_cv",
+            "items/fam_self_quarantine_cv",
+            "items/demo_fam_wage_loss_cv",
+            "items/fam_exp1_cv",
+            "items/fam_exp2_cv",
+            "items/fam_exp3_cv",
+            "items/fam_exp4_cv",
+            "items/fam_exp5_cv",
+            "items/fam_exp6_cv",
+            "items/demo_fam_exp7_v2_cv",
+            "items/demo_school_close_cv",
+            "items/demo_went_to_school_cv",
+            "items/demo_absent_reason_cv",
+            "items/demo_school_close_date_cv",
+            "items/demo_school_close_date_dk_cv",
+            "items/demo_school_reopen_date_dk_cv",
+            "items/demo_school_reopen_date_cv",
+            "items/demo_child_care_cv",
+            "items/demo_work_ability_cv",
+            "items/demo_household_ability_cv",
+            "items/demo_homework_time_cv",
+            "items/demo_school_engage_cv",
+            "items/demo_homework_help_time_cv",
+            "items/demo_material_access_cv",
+            "items/demo_internet_access_cv",
+            "items/demo_tool_access_cv",
+            "items/demo_school_difficulty",
+            "items/demo_graded_cv",
+            "items/demo_extra_material_cv",
+            "items/demo_school_nutrition_cv",
+            "items/demo_iep_cv",
+            "items/demo_iep_provide_cv",
+            "items/demo_school_prep_cv",
+            "items/demo_phys_activity_days_cv",
+            "items/demo_phys_activity_time_cv",
+            "items/demo_phys_activity_min_cv",
+            "items/demo_y_instruction",
+            "items/demo_child_sleep_amount_cv",
+            "items/demo_child_fall_asleep_time_cv",
+            "items/demo_child_reluc_cv",
+            "items/demo_child_sleep_difficult_cv",
+            "items/demo_child_sleep_anxiety_cv",
+            "items/demo_child_wake_up",
+            "items/demo_child_sleep_again",
+            "items/demo_avg_elec_time_cv",
+            "items/demo_avg_elec_min_cv",
+            "items/demo_y_screen_instruc_cv",
+            "items/demo_texting_time_cv",
+            "items/demo_texting_min_cv",
+            "items/demo_video_chat_time_cv",
+            "items/demo_video_chat_min_cv",
+            "items/demo_social_media_time_cv",
+            "items/demo_social_media_min_cv",
+            "items/demo_gaming_time_cv",
+            "items/demo_gaming_min_cv",
+            "items/demo_news_time_cv",
+            "items/demo_news_source_cv",
+            "items/demo_diag_asthma_cv",
+            "items/demo_asthma_symptoms_cv",
+            "items/demo_asthma_medi_cv",
+            "items/demo_ashema_medi_corti_cv",
+            "items/demo_ashma_p_cv",
+            "items/demo_ashema_medi_steriods_cv",
+            "items/demo_ashema_medi_injection_cv",
+            "items/demo_ashema_medi_zpak_cv",
+            "items/demo_child_covid_cv",
+            "items/demo_child_diagnosis_cv",
+            "items/demo_diag_confidence_cv",
+            "items/demo_child_symptoms_cv",
+            "items/demo_child_cosymptoms_cv",
+            "items/demo_symptom_actions_cv",
+            "items/demo_past_risk_cv",
+            "items/demo_child_tested_cv",
+            "items/demo_test_instruc_cv",
+            "items/demo_test_1_cv",
+            "items/demo_test_2_cv",
+            "items/demo_test_3_cv",
+            "items/demo_child_care_impact_cv",
+            "items/demo_child_fear_cv",
+            "items/demo_child_enjoy_cv",
+            "items/demo_fam_actions_cv",
+            "items/demo_talk_wash_cv",
+            "items/demo_talk_cancel_cv",
+            "items/demo_talk_isolate_cv",
+            "items/demo_talk_symptoms_cv",
+            "items/demo_talk_vuln_cv",
+            "items/demo_talk_race_cv",
+            "items/demo_talk_conserve_cv",
+            "items/demo_assure_child_cv",
+            "items/demo_child_sched_cv",
+            "items/demo_child_worry_cv",
+            "items/demo_p_feeling_cv",
+            "items/demo_p_safety_cv",
+            "items/avoid_discussing_cv",
+            "items/avoid_talking_about_cv",
+            "items/fam_exp_racism_cv",
+            "items/child_frustrated_cv",
+            "items/child_breaking_rules_cv",
+            "items/child_serious_cv",
+            "items/increased_conflict_cv",
+            "items/child_worried_about_cv",
+            "items/worry_about_cv",
+            "items/get_coronavirus_cv",
+            "items/think_will_hospitalized_cv",
+            "items/think_will_get_cv",
+            "items/think_someone_close_get_cv",
+            "items/demo_substance_instruc_cv",
+            "items/demo_p_cig_use_cv",
+            "items/demo_p_cig_loc_cv",
+            "items/demo_p_vape_use_cv",
+            "items/demo_p_vape_loc_cv",
+            "items/demo_p_alc_use_cv",
+            "items/p_alc_drinks_used_cv",
+            "items/demo_p_days_drunk_cv",
+            "items/demo_p_mj_use_cv",
+            "items/demo_p_mj_vape_use_cv",
+            "items/demo_p_mj_vape_loc_cv",
+            "items/demo_p_mj_smoke_cv",
+            "items/demo_p_mj_smoke_loc_cv",
+            "items/demo_p_rx_od_cv",
+            "items/demo_p_other_drugs_cv",
+            "items/summary_p_cv",
+            "items/demo_fam_rout_cv",
+            "items/demo_fam_hc_acc_cv",
+            "items/demo_fam_ht_acc_cv",
+            "items/demo_fam_supp_acc_cv",
+            "items/demo_fam_stress_cv",
+            "items/demo_fam_disfunc_cv",
+            "items/demo_fam_diag_cv",
+            "items/demo_fam_severity_cv",
+            "items/demo_fam_pos_yn_cv",
+            "items/fam_member_relation_p_cv",
+            "items/demo_bio_mom_hos_cv",
+            "items/demo_bio_dad_hos_cv",
+            "items/demo_ext_fam_diag_cv",
+            "items/demo_ext_fam_severity_cv",
+            "items/demo_p_cope_cv",
+            "items/p_abcd_covid19_questionnaire_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/demo_cov_intro",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "demo_cov_intro"
+            },
+            {
+                "isAbout": "items/demo_prim_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_prim_cv"
+            },
+            {
+                "isAbout": "items/demo_percent_live_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_percent_live_cv"
+            },
+            {
+                "isAbout": "items/demo_custody_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_custody_cv"
+            },
+            {
+                "isAbout": "items/demo_caregiver_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_caregiver_cv"
+            },
+            {
+                "isAbout": "items/demo_caregiver_help_cv",
+                "isVis": "demo_caregiver_cv == '2'",
+                "valueRequired": true,
+                "variableName": "demo_caregiver_help_cv"
+            },
+            {
+                "isAbout": "items/demo_child_separate_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_child_separate_cv"
+            },
+            {
+                "isAbout": "items/demo_separate_people_cv",
+                "isVis": "demo_child_separate_cv == '2'",
+                "valueRequired": true,
+                "variableName": "demo_separate_people_cv"
+            },
+            {
+                "isAbout": "items/demo_worry_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_worry_cv"
+            },
+            {
+                "isAbout": "items/demo_life_changed_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_life_changed_cv"
+            },
+            {
+                "isAbout": "items/demo_enjoy_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_enjoy_cv"
+            },
+            {
+                "isAbout": "items/demo_fam_size_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_fam_size_cv"
+            },
+            {
+                "isAbout": "items/demo_fam_expose_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_fam_expose_cv"
+            },
+            {
+                "isAbout": "items/fam_self_quarantine_cv",
+                "isVis": "demo_fam_expose_cv == '2'",
+                "valueRequired": true,
+                "variableName": "fam_self_quarantine_cv"
+            },
+            {
+                "isAbout": "items/demo_fam_wage_loss_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_fam_wage_loss_cv"
+            },
+            {
+                "isAbout": "items/fam_exp1_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fam_exp1_cv"
+            },
+            {
+                "isAbout": "items/fam_exp2_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fam_exp2_cv"
+            },
+            {
+                "isAbout": "items/fam_exp3_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fam_exp3_cv"
+            },
+            {
+                "isAbout": "items/fam_exp4_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fam_exp4_cv"
+            },
+            {
+                "isAbout": "items/fam_exp5_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fam_exp5_cv"
+            },
+            {
+                "isAbout": "items/fam_exp6_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fam_exp6_cv"
+            },
+            {
+                "isAbout": "items/demo_fam_exp7_v2_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_fam_exp7_v2_cv"
+            },
+            {
+                "isAbout": "items/demo_school_close_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_school_close_cv"
+            },
+            {
+                "isAbout": "items/demo_went_to_school_cv",
+                "isVis": "demo_school_close_cv == '1'",
+                "valueRequired": true,
+                "variableName": "demo_went_to_school_cv"
+            },
+            {
+                "isAbout": "items/demo_absent_reason_cv",
+                "isVis": "demo_went_to_school_cv == '1'",
+                "valueRequired": true,
+                "variableName": "demo_absent_reason_cv"
+            },
+            {
+                "isAbout": "items/demo_school_close_date_cv",
+                "isVis": "demo_school_close_cv == '2'",
+                "valueRequired": true,
+                "variableName": "demo_school_close_date_cv"
+            },
+            {
+                "isAbout": "items/demo_school_close_date_dk_cv",
+                "isVis": "demo_school_close_date_cv == ''",
+                "valueRequired": true,
+                "variableName": "demo_school_close_date_dk_cv"
+            },
+            {
+                "isAbout": "items/demo_school_reopen_date_dk_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_school_reopen_date_dk_cv"
+            },
+            {
+                "isAbout": "items/demo_school_reopen_date_cv",
+                "isVis": "demo_school_reopen_date_dk_cv == '1'",
+                "valueRequired": true,
+                "variableName": "demo_school_reopen_date_cv"
+            },
+            {
+                "isAbout": "items/demo_child_care_cv",
+                "isVis": "demo_school_close_cv == '2'",
+                "valueRequired": true,
+                "variableName": "demo_child_care_cv"
+            },
+            {
+                "isAbout": "items/demo_work_ability_cv",
+                "isVis": "demo_child_care_cv=='2'",
+                "valueRequired": true,
+                "variableName": "demo_work_ability_cv"
+            },
+            {
+                "isAbout": "items/demo_household_ability_cv",
+                "isVis": "demo_child_care_cv=='2'",
+                "valueRequired": true,
+                "variableName": "demo_household_ability_cv"
+            },
+            {
+                "isAbout": "items/demo_homework_time_cv",
+                "isVis": "demo_school_close_cv == '2'",
+                "valueRequired": true,
+                "variableName": "demo_homework_time_cv"
+            },
+            {
+                "isAbout": "items/demo_school_engage_cv",
+                "isVis": "demo_homework_time_cv > 0",
+                "valueRequired": true,
+                "variableName": "demo_school_engage_cv"
+            },
+            {
+                "isAbout": "items/demo_homework_help_time_cv",
+                "isVis": "demo_school_close_cv == '2'",
+                "valueRequired": true,
+                "variableName": "demo_homework_help_time_cv"
+            },
+            {
+                "isAbout": "items/demo_material_access_cv",
+                "isVis": "demo_school_close_cv == '2'",
+                "valueRequired": true,
+                "variableName": "demo_material_access_cv"
+            },
+            {
+                "isAbout": "items/demo_internet_access_cv",
+                "isVis": "demo_school_close_cv == '2'",
+                "valueRequired": true,
+                "variableName": "demo_internet_access_cv"
+            },
+            {
+                "isAbout": "items/demo_tool_access_cv",
+                "isVis": "demo_school_close_cv == '2'",
+                "valueRequired": true,
+                "variableName": "demo_tool_access_cv"
+            },
+            {
+                "isAbout": "items/demo_school_difficulty",
+                "isVis": "demo_school_close_cv == '2'",
+                "valueRequired": true,
+                "variableName": "demo_school_difficulty"
+            },
+            {
+                "isAbout": "items/demo_graded_cv",
+                "isVis": "demo_school_close_cv == '2'",
+                "valueRequired": true,
+                "variableName": "demo_graded_cv"
+            },
+            {
+                "isAbout": "items/demo_extra_material_cv",
+                "isVis": "demo_school_close_cv == '2'",
+                "valueRequired": true,
+                "variableName": "demo_extra_material_cv"
+            },
+            {
+                "isAbout": "items/demo_school_nutrition_cv",
+                "isVis": "demo_school_close_cv == '2'",
+                "valueRequired": true,
+                "variableName": "demo_school_nutrition_cv"
+            },
+            {
+                "isAbout": "items/demo_iep_cv",
+                "isVis": "demo_school_close_cv == '2'",
+                "valueRequired": true,
+                "variableName": "demo_iep_cv"
+            },
+            {
+                "isAbout": "items/demo_iep_provide_cv",
+                "isVis": "demo_iep_cv=='2'",
+                "valueRequired": true,
+                "variableName": "demo_iep_provide_cv"
+            },
+            {
+                "isAbout": "items/demo_school_prep_cv",
+                "isVis": "demo_school_close_cv == '2'",
+                "valueRequired": true,
+                "variableName": "demo_school_prep_cv"
+            },
+            {
+                "isAbout": "items/demo_phys_activity_days_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_phys_activity_days_cv"
+            },
+            {
+                "isAbout": "items/demo_phys_activity_time_cv",
+                "isVis": "demo_phys_activity_days_cv > '0'",
+                "valueRequired": true,
+                "variableName": "demo_phys_activity_time_cv"
+            },
+            {
+                "isAbout": "items/demo_phys_activity_min_cv",
+                "isVis": "demo_phys_activity_days_cv > '0'",
+                "valueRequired": true,
+                "variableName": "demo_phys_activity_min_cv"
+            },
+            {
+                "isAbout": "items/demo_y_instruction",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "demo_y_instruction"
+            },
+            {
+                "isAbout": "items/demo_child_sleep_amount_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_child_sleep_amount_cv"
+            },
+            {
+                "isAbout": "items/demo_child_fall_asleep_time_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_child_fall_asleep_time_cv"
+            },
+            {
+                "isAbout": "items/demo_child_reluc_cv",
+                "isVis": "event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3'",
+                "valueRequired": true,
+                "variableName": "demo_child_reluc_cv"
+            },
+            {
+                "isAbout": "items/demo_child_sleep_difficult_cv",
+                "isVis": "event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3'",
+                "valueRequired": true,
+                "variableName": "demo_child_sleep_difficult_cv"
+            },
+            {
+                "isAbout": "items/demo_child_sleep_anxiety_cv",
+                "isVis": "event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3'",
+                "valueRequired": true,
+                "variableName": "demo_child_sleep_anxiety_cv"
+            },
+            {
+                "isAbout": "items/demo_child_wake_up",
+                "isVis": "event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3'",
+                "valueRequired": true,
+                "variableName": "demo_child_wake_up"
+            },
+            {
+                "isAbout": "items/demo_child_sleep_again",
+                "isVis": "event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3'",
+                "valueRequired": true,
+                "variableName": "demo_child_sleep_again"
+            },
+            {
+                "isAbout": "items/demo_avg_elec_time_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_avg_elec_time_cv"
+            },
+            {
+                "isAbout": "items/demo_avg_elec_min_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_avg_elec_min_cv"
+            },
+            {
+                "isAbout": "items/demo_y_screen_instruc_cv",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "demo_y_screen_instruc_cv"
+            },
+            {
+                "isAbout": "items/demo_texting_time_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_texting_time_cv"
+            },
+            {
+                "isAbout": "items/demo_texting_min_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_texting_min_cv"
+            },
+            {
+                "isAbout": "items/demo_video_chat_time_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_video_chat_time_cv"
+            },
+            {
+                "isAbout": "items/demo_video_chat_min_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_video_chat_min_cv"
+            },
+            {
+                "isAbout": "items/demo_social_media_time_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_social_media_time_cv"
+            },
+            {
+                "isAbout": "items/demo_social_media_min_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_social_media_min_cv"
+            },
+            {
+                "isAbout": "items/demo_gaming_time_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_gaming_time_cv"
+            },
+            {
+                "isAbout": "items/demo_gaming_min_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_gaming_min_cv"
+            },
+            {
+                "isAbout": "items/demo_news_time_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_news_time_cv"
+            },
+            {
+                "isAbout": "items/demo_news_source_cv",
+                "isVis": "demo_news_time_cv <> ''",
+                "valueRequired": true,
+                "variableName": "demo_news_source_cv"
+            },
+            {
+                "isAbout": "items/demo_diag_asthma_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_diag_asthma_cv"
+            },
+            {
+                "isAbout": "items/demo_asthma_symptoms_cv",
+                "isVis": "demo_diag_asthma_cv == '1'",
+                "valueRequired": true,
+                "variableName": "demo_asthma_symptoms_cv"
+            },
+            {
+                "isAbout": "items/demo_asthma_medi_cv",
+                "isVis": "demo_diag_asthma_cv == '1'",
+                "valueRequired": true,
+                "variableName": "demo_asthma_medi_cv"
+            },
+            {
+                "isAbout": "items/demo_ashema_medi_corti_cv",
+                "isVis": "demo_asthma_medi_cv == '1'",
+                "valueRequired": true,
+                "variableName": "demo_ashema_medi_corti_cv"
+            },
+            {
+                "isAbout": "items/demo_ashma_p_cv",
+                "isVis": "demo_asthma_medi_cv == '1'",
+                "valueRequired": true,
+                "variableName": "demo_ashma_p_cv"
+            },
+            {
+                "isAbout": "items/demo_ashema_medi_steriods_cv",
+                "isVis": "demo_asthma_medi_cv == '1'",
+                "valueRequired": true,
+                "variableName": "demo_ashema_medi_steriods_cv"
+            },
+            {
+                "isAbout": "items/demo_ashema_medi_injection_cv",
+                "isVis": "demo_asthma_medi_cv == '1'",
+                "valueRequired": true,
+                "variableName": "demo_ashema_medi_injection_cv"
+            },
+            {
+                "isAbout": "items/demo_ashema_medi_zpak_cv",
+                "isVis": "demo_asthma_medi_cv == '1'",
+                "valueRequired": true,
+                "variableName": "demo_ashema_medi_zpak_cv"
+            },
+            {
+                "isAbout": "items/demo_child_covid_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_child_covid_cv"
+            },
+            {
+                "isAbout": "items/demo_child_diagnosis_cv",
+                "isVis": "demo_child_covid_cv=='2'",
+                "valueRequired": true,
+                "variableName": "demo_child_diagnosis_cv"
+            },
+            {
+                "isAbout": "items/demo_diag_confidence_cv",
+                "isVis": "demo_child_covid_cv=='2'",
+                "valueRequired": true,
+                "variableName": "demo_diag_confidence_cv"
+            },
+            {
+                "isAbout": "items/demo_child_symptoms_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_child_symptoms_cv"
+            },
+            {
+                "isAbout": "items/demo_child_cosymptoms_cv",
+                "isVis": "demo_child_symptoms_cv___1 == '1' || demo_child_symptoms_cv___2 == '1' || demo_child_symptoms_cv___3 == '1'",
+                "valueRequired": true,
+                "variableName": "demo_child_cosymptoms_cv"
+            },
+            {
+                "isAbout": "items/demo_symptom_actions_cv",
+                "isVis": "demo_child_symptoms_cv___1 == '1' || demo_child_symptoms_cv___2 == '1' || demo_child_symptoms_cv___3 == '1'",
+                "valueRequired": true,
+                "variableName": "demo_symptom_actions_cv"
+            },
+            {
+                "isAbout": "items/demo_past_risk_cv",
+                "isVis": "demo_child_symptoms_cv___1 == '1' || demo_child_symptoms_cv___2 == '1' || demo_child_symptoms_cv___3 == '1'",
+                "valueRequired": true,
+                "variableName": "demo_past_risk_cv"
+            },
+            {
+                "isAbout": "items/demo_child_tested_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_child_tested_cv"
+            },
+            {
+                "isAbout": "items/demo_test_instruc_cv",
+                "isVis": "demo_child_tested_cv == '3' || demo_child_tested_cv == '4' || demo_child_tested_cv == '5'",
+                "valueRequired": false,
+                "variableName": "demo_test_instruc_cv"
+            },
+            {
+                "isAbout": "items/demo_test_1_cv",
+                "isVis": "demo_child_tested_cv == '3' || demo_child_tested_cv == '4' || demo_child_tested_cv == '5'",
+                "valueRequired": true,
+                "variableName": "demo_test_1_cv"
+            },
+            {
+                "isAbout": "items/demo_test_2_cv",
+                "isVis": "demo_child_tested_cv == '3' || demo_child_tested_cv == '4' || demo_child_tested_cv == '5'",
+                "valueRequired": true,
+                "variableName": "demo_test_2_cv"
+            },
+            {
+                "isAbout": "items/demo_test_3_cv",
+                "isVis": "demo_child_tested_cv == '3' || demo_child_tested_cv == '4' || demo_child_tested_cv == '5'",
+                "valueRequired": true,
+                "variableName": "demo_test_3_cv"
+            },
+            {
+                "isAbout": "items/demo_child_care_impact_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_child_care_impact_cv"
+            },
+            {
+                "isAbout": "items/demo_child_fear_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_child_fear_cv"
+            },
+            {
+                "isAbout": "items/demo_child_enjoy_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_child_enjoy_cv"
+            },
+            {
+                "isAbout": "items/demo_fam_actions_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_fam_actions_cv"
+            },
+            {
+                "isAbout": "items/demo_talk_wash_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_talk_wash_cv"
+            },
+            {
+                "isAbout": "items/demo_talk_cancel_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_talk_cancel_cv"
+            },
+            {
+                "isAbout": "items/demo_talk_isolate_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_talk_isolate_cv"
+            },
+            {
+                "isAbout": "items/demo_talk_symptoms_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_talk_symptoms_cv"
+            },
+            {
+                "isAbout": "items/demo_talk_vuln_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_talk_vuln_cv"
+            },
+            {
+                "isAbout": "items/demo_talk_race_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_talk_race_cv"
+            },
+            {
+                "isAbout": "items/demo_talk_conserve_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_talk_conserve_cv"
+            },
+            {
+                "isAbout": "items/demo_assure_child_cv",
+                "isVis": "event - name == 'covid19_cv1_arm_3' || event - name == 'covid19_cv3_arm_3'",
+                "valueRequired": true,
+                "variableName": "demo_assure_child_cv"
+            },
+            {
+                "isAbout": "items/demo_child_sched_cv",
+                "isVis": "event - name == 'covid19_cv1_arm_3' || event - name == 'covid19_cv3_arm_3'",
+                "valueRequired": true,
+                "variableName": "demo_child_sched_cv"
+            },
+            {
+                "isAbout": "items/demo_child_worry_cv",
+                "isVis": "event - name == 'covid19_cv1_arm_3' || event - name == 'covid19_cv3_arm_3'",
+                "valueRequired": true,
+                "variableName": "demo_child_worry_cv"
+            },
+            {
+                "isAbout": "items/demo_p_feeling_cv",
+                "isVis": "event - name == 'covid19_cv1_arm_3' || event - name == 'covid19_cv3_arm_3'",
+                "valueRequired": true,
+                "variableName": "demo_p_feeling_cv"
+            },
+            {
+                "isAbout": "items/demo_p_safety_cv",
+                "isVis": "event - name == 'covid19_cv1_arm_3' || event - name == 'covid19_cv3_arm_3'",
+                "valueRequired": true,
+                "variableName": "demo_p_safety_cv"
+            },
+            {
+                "isAbout": "items/avoid_discussing_cv",
+                "isVis": "event - name == 'covid19_cv1_arm_3' || event - name == 'covid19_cv3_arm_3'",
+                "valueRequired": true,
+                "variableName": "avoid_discussing_cv"
+            },
+            {
+                "isAbout": "items/avoid_talking_about_cv",
+                "isVis": "event - name == 'covid19_cv1_arm_3' || event - name == 'covid19_cv3_arm_3'",
+                "valueRequired": true,
+                "variableName": "avoid_talking_about_cv"
+            },
+            {
+                "isAbout": "items/fam_exp_racism_cv",
+                "isVis": "event - name == 'covid19_cv1_arm_3' || event - name == 'covid19_cv3_arm_3'",
+                "valueRequired": true,
+                "variableName": "fam_exp_racism_cv"
+            },
+            {
+                "isAbout": "items/child_frustrated_cv",
+                "isVis": "event - name == 'covid19_cv1_arm_3' || event - name == 'covid19_cv3_arm_3'",
+                "valueRequired": true,
+                "variableName": "child_frustrated_cv"
+            },
+            {
+                "isAbout": "items/child_breaking_rules_cv",
+                "isVis": "event - name == 'covid19_cv1_arm_3' || event - name == 'covid19_cv3_arm_3'",
+                "valueRequired": true,
+                "variableName": "child_breaking_rules_cv"
+            },
+            {
+                "isAbout": "items/child_serious_cv",
+                "isVis": "event - name == 'covid19_cv1_arm_3' || event - name == 'covid19_cv3_arm_3'",
+                "valueRequired": true,
+                "variableName": "child_serious_cv"
+            },
+            {
+                "isAbout": "items/increased_conflict_cv",
+                "isVis": "event - name == 'covid19_cv1_arm_3' || event - name == 'covid19_cv3_arm_3'",
+                "valueRequired": true,
+                "variableName": "increased_conflict_cv"
+            },
+            {
+                "isAbout": "items/child_worried_about_cv",
+                "isVis": "event - name == 'covid19_cv1_arm_3' || event - name == 'covid19_cv3_arm_3'",
+                "valueRequired": true,
+                "variableName": "child_worried_about_cv"
+            },
+            {
+                "isAbout": "items/worry_about_cv",
+                "isVis": "event - name == 'covid19_cv1_arm_3' || event - name == 'covid19_cv3_arm_3'",
+                "valueRequired": true,
+                "variableName": "worry_about_cv"
+            },
+            {
+                "isAbout": "items/get_coronavirus_cv",
+                "isVis": "event - name == 'covid19_cv1_arm_3' || event - name == 'covid19_cv3_arm_3'",
+                "valueRequired": true,
+                "variableName": "get_coronavirus_cv"
+            },
+            {
+                "isAbout": "items/think_will_hospitalized_cv",
+                "isVis": "event - name == 'covid19_cv1_arm_3' || event - name == 'covid19_cv3_arm_3'",
+                "valueRequired": true,
+                "variableName": "think_will_hospitalized_cv"
+            },
+            {
+                "isAbout": "items/think_will_get_cv",
+                "isVis": "event - name == 'covid19_cv1_arm_3' || event - name == 'covid19_cv3_arm_3'",
+                "valueRequired": true,
+                "variableName": "think_will_get_cv"
+            },
+            {
+                "isAbout": "items/think_someone_close_get_cv",
+                "isVis": "event - name == 'covid19_cv1_arm_3' || event - name == 'covid19_cv3_arm_3'",
+                "valueRequired": true,
+                "variableName": "think_someone_close_get_cv"
+            },
+            {
+                "isAbout": "items/demo_substance_instruc_cv",
+                "isVis": "event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3'",
+                "valueRequired": false,
+                "variableName": "demo_substance_instruc_cv"
+            },
+            {
+                "isAbout": "items/demo_p_cig_use_cv",
+                "isVis": "event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3'",
+                "valueRequired": true,
+                "variableName": "demo_p_cig_use_cv"
+            },
+            {
+                "isAbout": "items/demo_p_cig_loc_cv",
+                "isVis": "demo_p_cig_use_cv > 0 &&(event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3')",
+                "valueRequired": true,
+                "variableName": "demo_p_cig_loc_cv"
+            },
+            {
+                "isAbout": "items/demo_p_vape_use_cv",
+                "isVis": "(event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3')",
+                "valueRequired": true,
+                "variableName": "demo_p_vape_use_cv"
+            },
+            {
+                "isAbout": "items/demo_p_vape_loc_cv",
+                "isVis": "demo_p_vape_use_cv > 0 &&(event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3')",
+                "valueRequired": true,
+                "variableName": "demo_p_vape_loc_cv"
+            },
+            {
+                "isAbout": "items/demo_p_alc_use_cv",
+                "isVis": "(event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3')",
+                "valueRequired": true,
+                "variableName": "demo_p_alc_use_cv"
+            },
+            {
+                "isAbout": "items/p_alc_drinks_used_cv",
+                "isVis": "demo_p_alc_use_cv > 0 &&(event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3')",
+                "valueRequired": true,
+                "variableName": "p_alc_drinks_used_cv"
+            },
+            {
+                "isAbout": "items/demo_p_days_drunk_cv",
+                "isVis": "demo_p_alc_use_cv > 0 &&(event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3')",
+                "valueRequired": true,
+                "variableName": "demo_p_days_drunk_cv"
+            },
+            {
+                "isAbout": "items/demo_p_mj_use_cv",
+                "isVis": "(event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3')",
+                "valueRequired": true,
+                "variableName": "demo_p_mj_use_cv"
+            },
+            {
+                "isAbout": "items/demo_p_mj_vape_use_cv",
+                "isVis": "demo_p_mj_use_cv > 0 &&(event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3')",
+                "valueRequired": true,
+                "variableName": "demo_p_mj_vape_use_cv"
+            },
+            {
+                "isAbout": "items/demo_p_mj_vape_loc_cv",
+                "isVis": "demo_p_mj_vape_use_cv > 0 &&(event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3')",
+                "valueRequired": true,
+                "variableName": "demo_p_mj_vape_loc_cv"
+            },
+            {
+                "isAbout": "items/demo_p_mj_smoke_cv",
+                "isVis": "demo_p_mj_use_cv>0 &&(event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3')",
+                "valueRequired": true,
+                "variableName": "demo_p_mj_smoke_cv"
+            },
+            {
+                "isAbout": "items/demo_p_mj_smoke_loc_cv",
+                "isVis": "demo_p_mj_smoke_cv > 0",
+                "valueRequired": true,
+                "variableName": "demo_p_mj_smoke_loc_cv"
+            },
+            {
+                "isAbout": "items/demo_p_rx_od_cv",
+                "isVis": "(event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3')",
+                "valueRequired": true,
+                "variableName": "demo_p_rx_od_cv"
+            },
+            {
+                "isAbout": "items/demo_p_other_drugs_cv",
+                "isVis": "(event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3')",
+                "valueRequired": true,
+                "variableName": "demo_p_other_drugs_cv"
+            },
+            {
+                "isAbout": "items/summary_p_cv",
+                "isVis": "(event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3')",
+                "valueRequired": false,
+                "variableName": "summary_p_cv"
+            },
+            {
+                "isAbout": "items/demo_fam_rout_cv",
+                "isVis": "(event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3')",
+                "valueRequired": true,
+                "variableName": "demo_fam_rout_cv"
+            },
+            {
+                "isAbout": "items/demo_fam_hc_acc_cv",
+                "isVis": "(event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3')",
+                "valueRequired": true,
+                "variableName": "demo_fam_hc_acc_cv"
+            },
+            {
+                "isAbout": "items/demo_fam_ht_acc_cv",
+                "isVis": "(event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3')",
+                "valueRequired": true,
+                "variableName": "demo_fam_ht_acc_cv"
+            },
+            {
+                "isAbout": "items/demo_fam_supp_acc_cv",
+                "isVis": "(event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3')",
+                "valueRequired": true,
+                "variableName": "demo_fam_supp_acc_cv"
+            },
+            {
+                "isAbout": "items/demo_fam_stress_cv",
+                "isVis": "(event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3')",
+                "valueRequired": true,
+                "variableName": "demo_fam_stress_cv"
+            },
+            {
+                "isAbout": "items/demo_fam_disfunc_cv",
+                "isVis": "(event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3')",
+                "valueRequired": true,
+                "variableName": "demo_fam_disfunc_cv"
+            },
+            {
+                "isAbout": "items/demo_fam_diag_cv",
+                "isVis": "(event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3')",
+                "valueRequired": true,
+                "variableName": "demo_fam_diag_cv"
+            },
+            {
+                "isAbout": "items/demo_fam_severity_cv",
+                "isVis": "demo_fam_diag_cv>0 &&(event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3')",
+                "valueRequired": true,
+                "variableName": "demo_fam_severity_cv"
+            },
+            {
+                "isAbout": "items/demo_fam_pos_yn_cv",
+                "isVis": "demo_fam_diag_cv > '0' &&(event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3')",
+                "valueRequired": true,
+                "variableName": "demo_fam_pos_yn_cv"
+            },
+            {
+                "isAbout": "items/fam_member_relation_p_cv",
+                "isVis": "demo_fam_pos_yn_cv == '2' &&(event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3')",
+                "valueRequired": true,
+                "variableName": "fam_member_relation_p_cv"
+            },
+            {
+                "isAbout": "items/demo_bio_mom_hos_cv",
+                "isVis": "demo_fam_pos_yn_cv == '2' &&(event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3')",
+                "valueRequired": true,
+                "variableName": "demo_bio_mom_hos_cv"
+            },
+            {
+                "isAbout": "items/demo_bio_dad_hos_cv",
+                "isVis": "demo_fam_pos_yn_cv == '1' &&(event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3')",
+                "valueRequired": true,
+                "variableName": "demo_bio_dad_hos_cv"
+            },
+            {
+                "isAbout": "items/demo_ext_fam_diag_cv",
+                "isVis": "(event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3')",
+                "valueRequired": true,
+                "variableName": "demo_ext_fam_diag_cv"
+            },
+            {
+                "isAbout": "items/demo_ext_fam_severity_cv",
+                "isVis": "demo_ext_fam_diag_cv>0 &&(event - name == 'covid19_cv2_arm_3' || event - name == 'covid19_cv4_arm_3')",
+                "valueRequired": true,
+                "variableName": "demo_ext_fam_severity_cv"
+            },
+            {
+                "isAbout": "items/demo_p_cope_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "demo_p_cope_cv"
+            },
+            {
+                "isAbout": "items/p_abcd_covid19_questionnaire_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "p_abcd_covid19_questionnaire_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2509",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

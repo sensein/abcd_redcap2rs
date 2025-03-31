@@ -1,0 +1,42 @@
+{
+    "id": "ple_close_fam_fu_y_cv",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Relationships"
+    },
+    "prefLabel": {
+        "en": "ple_close_fam_fu_y_cv"
+    },
+    "question": {
+        "en": "Was this a mostly good or bad experience?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Mostly good"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Mostly bad"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,61 @@
+{
+    "id": "demo_school_prep_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "demo_p_cv"
+        }
+    ],
+    "preamble": {
+        "en": "For these next questions about your child's school-at-home, please think about thepast week:"
+    },
+    "prefLabel": {
+        "en": "demo_school_prep_cv"
+    },
+    "question": {
+        "en": "How prepared do you think your child will be for next school year?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Somewhat"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Moderately"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Very"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Extremely"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
