@@ -26,6 +26,7 @@
             "items/feedback_15_y",
             "items/feedback_16_y",
             "items/feedback_17_y",
+            "items/feedback_scan_header",
             "items/feedback_18_y",
             "items/feedback_19_y",
             "items/feedback_20_y",
@@ -103,7 +104,7 @@
             },
             {
                 "isAbout": "items/feedback_9_y",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": false,
                 "variableName": "feedback_9_y"
             },
@@ -156,50 +157,56 @@
                 "variableName": "feedback_17_y"
             },
             {
+                "isAbout": "items/feedback_scan_header",
+                "isVis": "sched_delay == '7'",
+                "valueRequired": false,
+                "variableName": "feedback_scan_header"
+            },
+            {
                 "isAbout": "items/feedback_18_y",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": false,
                 "variableName": "feedback_18_y"
             },
             {
                 "isAbout": "items/feedback_19_y",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": false,
                 "variableName": "feedback_19_y"
             },
             {
                 "isAbout": "items/feedback_20_y",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": false,
                 "variableName": "feedback_20_y"
             },
             {
                 "isAbout": "items/feedback_21_y",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": false,
                 "variableName": "feedback_21_y"
             },
             {
                 "isAbout": "items/feedback_22_y",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": false,
                 "variableName": "feedback_22_y"
             },
             {
                 "isAbout": "items/feedback_23_y",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": false,
                 "variableName": "feedback_23_y"
             },
             {
                 "isAbout": "items/feedback_24_y",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": false,
                 "variableName": "feedback_24_y"
             },
             {
                 "isAbout": "items/feedback_25_y",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": false,
                 "variableName": "feedback_25_y"
             },
@@ -236,6 +243,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2514",
+    "version": "revid2515",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
