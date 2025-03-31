@@ -1,0 +1,30 @@
+{
+    "id": "mctq_sof_calc",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "description": {
+        "en": "Sleep onset, freeday"
+    },
+    "preamble": {
+        "en": "These are the derived variables for DEAP from Munich Chronotype Questionnaire Mctq for Children"
+    },
+    "prefLabel": {
+        "en": "mctq_sof_calc"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

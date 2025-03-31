@@ -1,0 +1,189 @@
+{
+    "id": "munich_chronotype_questionnaire_mctq_for_children_90e79e_schema",
+    "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "mctq_sd_fall_asleep_calc + mctq_sd_min_to_sleep_calc",
+            "variableName": "mctq_sow_calc"
+        },
+        {
+            "jsExpression": "mctq_fd_time_aget_up_calc + mctq_fd_min_to_sleep_calc",
+            "variableName": "mctq_sof_calc"
+        },
+        {
+            "jsExpression": "mctq_sd_wake_up_time_calc + mctq_sd_min_to_get_up_calc",
+            "variableName": "mctq_guw_calc"
+        },
+        {
+            "jsExpression": "mctq_fd_wake_up_time_calc + mctq_fd_min_to_get_up_calc",
+            "variableName": "mctq_guf_calc"
+        },
+        {
+            "jsExpression": "(mctq_sd_wake_up_time_calc - mctq_sow_calc)+(if(mctq_sow_calc >= mctq_sd_wake_up_time_calc,1440,0))",
+            "variableName": "mctq_sdw_calc"
+        },
+        {
+            "jsExpression": "(mctq_fd_wake_up_time_calc - mctq_sof_calc)+(if(mctq_sof_calc >= mctq_fd_wake_up_time_calc,1440,0))",
+            "variableName": "mctq_sdf_calc"
+        },
+        {
+            "jsExpression": "(mctq_guw_calc - mctq_sd_btime_calc)+(if(mctq_sd_btime_calc >= mctq_guw_calc,1440,0))",
+            "variableName": "mctq_tbtw_calc"
+        },
+        {
+            "jsExpression": "(mctq_guf_calc - mctq_fd_btime_calc)+(if(mctq_fd_btime_calc >= mctq_guf_calc,1440,0))",
+            "variableName": "mctq_tbtf_calc"
+        },
+        {
+            "jsExpression": "round(mctq_sow_calc +(mctq_sdw_calc)/ 2 + if((mctq_sow_calc +(mctq_sdw_calc)/ 2)>= 1440,- 1440,0))",
+            "variableName": "mctq_msw_calc"
+        },
+        {
+            "jsExpression": "round(mctq_sof_calc +(mctq_sdf_calc)/ 2 + if((mctq_sof_calc +(mctq_sdf_calc)/ 2)>= 1440,- 1440,0))",
+            "variableName": "mctq_msf_calc"
+        },
+        {
+            "jsExpression": "7 - mctq_days_per_week_calc",
+            "variableName": "mctq_fd_calc"
+        },
+        {
+            "jsExpression": "round(mctq_days_per_week_calc * mctq_sdw_calc + mctq_fd_calc * mctq_sdf_calc / 7)",
+            "variableName": "mctq_sdweek_calc"
+        },
+        {
+            "jsExpression": "if((mctq_fd_alarm_parent == 0 AND mctq_sdf_calc <= mctq_sdw_calc),mctq_msf_calc,if((mctq_fd_alarm_parent == 0 AND mctq_sdf_calc > mctq_sdw_calc),round(mctq_sof_calc +(mctq_sdweek_calc)/ 2),''))",
+            "variableName": "mctq_msfsc_calc"
+        },
+        {
+            "jsExpression": "round(abs(mctq_sdf_calc - mctq_sdw_calc)* mctq_fd_calc *(mctq_days_per_week_calc / 7))",
+            "variableName": "mctq_slossweek_calc"
+        },
+        {
+            "jsExpression": "if((mctq_msf_calc - mctq_msw_calc)>720,(mctq_msf_calc - mctq_msw_calc)- 1440,if((mctq_msf_calc - mctq_msw_calc)< - 720,(mctq_msf_calc - mctq_msw_calc)+ 1440,(mctq_msf_calc - mctq_msw_calc)))",
+            "variableName": "mctq_sjlrel_calc"
+        },
+        {
+            "jsExpression": "if(abs(mctq_msf_calc - mctq_msw_calc)>720,(1440 - abs(mctq_msf_calc - mctq_msw_calc)),abs(mctq_msf_calc - mctq_msw_calc))",
+            "variableName": "mctq_sjl_calc"
+        }
+    ],
+    "preamble": {
+        "en": "Form Status"
+    },
+    "prefLabel": {
+        "en": "munich_chronotype_questionnaire_mctq_for_children_90e79e"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/munich_chronotype_questionnaire_mctq_for_children_90e79e_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/mctq_sow_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mctq_sow_calc"
+            },
+            {
+                "isAbout": "items/mctq_sof_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mctq_sof_calc"
+            },
+            {
+                "isAbout": "items/mctq_guw_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mctq_guw_calc"
+            },
+            {
+                "isAbout": "items/mctq_guf_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mctq_guf_calc"
+            },
+            {
+                "isAbout": "items/mctq_sdw_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mctq_sdw_calc"
+            },
+            {
+                "isAbout": "items/mctq_sdf_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mctq_sdf_calc"
+            },
+            {
+                "isAbout": "items/mctq_tbtw_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mctq_tbtw_calc"
+            },
+            {
+                "isAbout": "items/mctq_tbtf_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mctq_tbtf_calc"
+            },
+            {
+                "isAbout": "items/mctq_msw_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mctq_msw_calc"
+            },
+            {
+                "isAbout": "items/mctq_msf_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mctq_msf_calc"
+            },
+            {
+                "isAbout": "items/mctq_fd_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mctq_fd_calc"
+            },
+            {
+                "isAbout": "items/mctq_sdweek_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mctq_sdweek_calc"
+            },
+            {
+                "isAbout": "items/mctq_msfsc_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mctq_msfsc_calc"
+            },
+            {
+                "isAbout": "items/mctq_slossweek_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mctq_slossweek_calc"
+            },
+            {
+                "isAbout": "items/mctq_sjlrel_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mctq_sjlrel_calc"
+            },
+            {
+                "isAbout": "items/mctq_sjl_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mctq_sjl_calc"
+            },
+            {
+                "isAbout": "items/munich_chronotype_questionnaire_mctq_for_children_90e79e_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "munich_chronotype_questionnaire_mctq_for_children_90e79e_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2479",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

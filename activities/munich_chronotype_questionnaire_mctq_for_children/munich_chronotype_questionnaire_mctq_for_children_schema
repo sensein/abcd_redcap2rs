@@ -1,6 +1,56 @@
 {
     "id": "munich_chronotype_questionnaire_mctq_for_children_schema",
     "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "if(mctq_go_to_school == 0 && mctq_days_per_week =='',0,mctq_days_per_week)",
+            "variableName": "mctq_days_per_week_calc"
+        },
+        {
+            "jsExpression": "5 *(mctq_sd_btime_min - 1)+ if(mctq_sd_btime_hrs1 > 0,60 *(3 + mctq_sd_btime_hrs1),if(mctq_sd_btime_hrs2 < 8,60 *(16 + mctq_sd_btime_hrs2),60 *(mctq_sd_btime_hrs2 - 8)))",
+            "variableName": "mctq_sd_btime_calc"
+        },
+        {
+            "jsExpression": "5 *(mctq_fd_asleep_min - 1)+ if(mctq_fd_asleep_hrs1 > 0,60 *(3 + mctq_fd_asleep_hrs1),if(mctq_fd_asleep_hrs2 < 8,60 *(16 + mctq_fd_asleep_hrs2),60 *(mctq_fd_asleep_hrs2 - 8)))",
+            "variableName": "mctq_fd_time_aget_up_calc"
+        },
+        {
+            "jsExpression": "5 *(mctq_sd_asleep_min - 1)+ if(mctq_sd_asleep_hrs1 > 0,60 *(3 + mctq_sd_asleep_hrs1),if(mctq_sd_asleep_hrs2 < 8,60 *(16 + mctq_sd_asleep_hrs2),60 *(mctq_sd_asleep_hrs2 - 8)))",
+            "variableName": "mctq_sd_fall_asleep_calc"
+        },
+        {
+            "jsExpression": "if(mctq_sd_min_to_sleep < 11,mctq_sd_min_to_sleep,if(mctq_sd_min_to_sleep < 15,15 + 5 *(mctq_sd_min_to_sleep - 11),if(mctq_sd_min_to_sleep < 18,40 + 10 *(mctq_sd_min_to_sleep - 15),if(mctq_sd_min_to_sleep < 22,75 + 15 *(mctq_sd_min_to_sleep - 18),180 + 60 *(mctq_sd_min_to_sleep - 22)))))",
+            "variableName": "mctq_sd_min_to_sleep_calc"
+        },
+        {
+            "jsExpression": "5 *(mctq_sd_wake_up_miin - 1)+ if(mctq_sd_wake_up_time_hrs1 > 0,60 *(3 + mctq_sd_wake_up_time_hrs1),if(mctq_sd_wake_up_time_hrs2 < 8,60 *(16 + mctq_sd_wake_up_time_hrs2),60 *(mctq_sd_wake_up_time_hrs2 - 8)))",
+            "variableName": "mctq_sd_wake_up_time_calc"
+        },
+        {
+            "jsExpression": "5 *(mctq_fd_btime_min - 1)+ if(mctq_fd_btime_hrs1 > 0,60 *(3 + mctq_fd_btime_hrs1),if(mctq_fd_btime_hrs2 < 8,60 *(16 + mctq_fd_btime_hrs2),60 *(mctq_fd_btime_hrs2 - 8)))",
+            "variableName": "mctq_fd_btime_calc"
+        },
+        {
+            "jsExpression": "if(mctq_fd_min_to_sleep< 11,mctq_fd_min_to_sleep,if(mctq_fd_min_to_sleep < 15,15 + 5 *(mctq_fd_min_to_sleep - 11),if(mctq_fd_min_to_sleep < 18,40 + 10 *(mctq_fd_min_to_sleep - 15),if(mctq_fd_min_to_sleep < 22,75 + 15 *(mctq_fd_min_to_sleep - 18),180 + 60 *(mctq_fd_min_to_sleep - 22)))))",
+            "variableName": "mctq_fd_min_to_sleep_calc"
+        },
+        {
+            "jsExpression": "5 *(mctq_fd_wake_up_min - 1)+ if(mctq_fd_wake_up_hrs1 > 0,60 *(3 + mctq_fd_wake_up_hrs1),if(mctq_fd_wake_up_hrs2< 8,60 *(16 + mctq_fd_wake_up_hrs2),60 *(mctq_fd_wake_up_hrs2 - 8)))",
+            "variableName": "mctq_fd_wake_up_time_calc"
+        },
+        {
+            "jsExpression": "if(mctq_fd_min_to_get_up < 11,mctq_fd_min_to_get_up,if(mctq_fd_min_to_get_up < 15,15 + 5 *(mctq_fd_min_to_get_up - 11),if(mctq_fd_min_to_get_up < 18,40 + 10 *(mctq_fd_min_to_get_up - 15),if(mctq_fd_min_to_get_up < 22,75 + 15 *(mctq_fd_min_to_get_up - 18),180 + 60 *(mctq_fd_min_to_get_up - 22)))))",
+            "variableName": "mctq_fd_min_to_get_up_calc"
+        },
+        {
+            "jsExpression": "5 *(mctq_schedule_time_min - 1)+ if(mctq_schedule_time_hrs1 > 0,60 *(3 + mctq_schedule_time_hrs1),if(mctq_schedule_time_hrs2 < 8,60 *(16 + mctq_schedule_time_hrs2),60 *(mctq_schedule_time_hrs2 - 8)))",
+            "variableName": "mctq_schedule_time_calc"
+        },
+        {
+            "jsExpression": "5 *(mctq_time_to_school_min - 1)+ if(mctq_time_to_school_hrs1 > 0,60 *(3 + mctq_time_to_school_hrs1),if(mctq_time_to_school_hrs2 < 8,60 *(16 + mctq_time_to_school_hrs2),60 *(mctq_time_to_school_hrs2 - 8)))",
+            "variableName": "mctq_time_to_school_calc"
+        }
+    ],
     "prefLabel": {
         "en": "munich_chronotype_questionnaire_mctq_for_children"
     },
@@ -75,6 +125,12 @@
                 "variableName": "mctq_days_per_week"
             },
             {
+                "isAbout": "items/mctq_days_per_week_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mctq_days_per_week_calc"
+            },
+            {
                 "isAbout": "items/mctq_notes",
                 "isVis": true,
                 "valueRequired": false,
@@ -111,6 +167,12 @@
                 "variableName": "mctq_sd_btime_min"
             },
             {
+                "isAbout": "items/mctq_sd_btime_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mctq_sd_btime_calc"
+            },
+            {
                 "isAbout": "items/mctq_sd_fall_asleep",
                 "isVis": true,
                 "valueRequired": true,
@@ -135,10 +197,28 @@
                 "variableName": "mctq_sd_asleep_min"
             },
             {
+                "isAbout": "items/mctq_fd_time_aget_up_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mctq_fd_time_aget_up_calc"
+            },
+            {
                 "isAbout": "items/mctq_sd_min_to_sleep",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "mctq_sd_min_to_sleep"
+            },
+            {
+                "isAbout": "items/mctq_sd_fall_asleep_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mctq_sd_fall_asleep_calc"
+            },
+            {
+                "isAbout": "items/mctq_sd_min_to_sleep_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mctq_sd_min_to_sleep_calc"
             },
             {
                 "isAbout": "items/mctq_sd_num_wake_up",
@@ -175,6 +255,12 @@
                 "isVis": "mctq_sd_wake_up_time == '1' || mctq_sd_wake_up_time == '2' || mctq_sd_wake_up_time == '3' || mctq_sd_wake_up_time == '4'",
                 "valueRequired": true,
                 "variableName": "mctq_sd_wake_up_miin"
+            },
+            {
+                "isAbout": "items/mctq_sd_wake_up_time_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mctq_sd_wake_up_time_calc"
             },
             {
                 "isAbout": "items/mctq_sd_min_to_get_up",
@@ -219,6 +305,12 @@
                 "variableName": "mctq_fd_btime_min"
             },
             {
+                "isAbout": "items/mctq_fd_btime_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mctq_fd_btime_calc"
+            },
+            {
                 "isAbout": "items/mctq_fd_time_asleep",
                 "isVis": true,
                 "valueRequired": true,
@@ -247,6 +339,12 @@
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "mctq_fd_min_to_sleep"
+            },
+            {
+                "isAbout": "items/mctq_fd_min_to_sleep_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mctq_fd_min_to_sleep_calc"
             },
             {
                 "isAbout": "items/mctq_fd_num_wake_up",
@@ -285,10 +383,22 @@
                 "variableName": "mctq_fd_wake_up_min"
             },
             {
+                "isAbout": "items/mctq_fd_wake_up_time_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mctq_fd_wake_up_time_calc"
+            },
+            {
                 "isAbout": "items/mctq_fd_min_to_get_up",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "mctq_fd_min_to_get_up"
+            },
+            {
+                "isAbout": "items/mctq_fd_min_to_get_up_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mctq_fd_min_to_get_up_calc"
             },
             {
                 "isAbout": "items/mctq_fd_alarm_parent",
@@ -345,6 +455,12 @@
                 "variableName": "mctq_schedule_time_min"
             },
             {
+                "isAbout": "items/mctq_schedule_time_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mctq_schedule_time_calc"
+            },
+            {
                 "isAbout": "items/mctq_time_to_school",
                 "isVis": true,
                 "valueRequired": true,
@@ -369,6 +485,12 @@
                 "variableName": "mctq_time_to_school_min"
             },
             {
+                "isAbout": "items/mctq_time_to_school_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mctq_time_to_school_calc"
+            },
+            {
                 "isAbout": "items/mctq_admin",
                 "isVis": "event_name_number > '21'",
                 "valueRequired": true,
@@ -383,6 +505,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2478",
+    "version": "revid2479",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

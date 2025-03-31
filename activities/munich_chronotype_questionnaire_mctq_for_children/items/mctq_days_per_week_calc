@@ -1,0 +1,30 @@
+{
+    "id": "mctq_days_per_week_calc",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY @HIDDEN-SURVEY"
+        }
+    ],
+    "description": {
+        "en": "Number of work days per week"
+    },
+    "preamble": {
+        "en": "Instructions: In this questionnaire, you report on your typical sleep behavior over the past 4 weeks. We ask about school days and school-free days separately. Please respond to the questions according to your perception of a normal week that includes your usual school days and school-free days."
+    },
+    "prefLabel": {
+        "en": "mctq_days_per_week_calc"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,30 @@
+{
+    "id": "mctq_fd_wake_up_time_calc",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN-SURVEY @READONLY"
+        }
+    ],
+    "description": {
+        "en": "Sleep end, freeday"
+    },
+    "preamble": {
+        "en": "Note that some people stay awake for some time when in bed!"
+    },
+    "prefLabel": {
+        "en": "mctq_fd_wake_up_time_calc"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

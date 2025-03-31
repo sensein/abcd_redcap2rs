@@ -1,0 +1,30 @@
+{
+    "id": "mctq_schedule_time_calc",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN-SURVEY @READONLY"
+        }
+    ],
+    "description": {
+        "en": "My usual school schedule starts at"
+    },
+    "preamble": {
+        "en": "School Details"
+    },
+    "prefLabel": {
+        "en": "mctq_schedule_time_calc"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,30 @@
+{
+    "id": "mctq_fd_calc",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "description": {
+        "en": "Number of work-free days per week"
+    },
+    "preamble": {
+        "en": "These are the derived variables for DEAP from Munich Chronotype Questionnaire Mctq for Children"
+    },
+    "prefLabel": {
+        "en": "mctq_fd_calc"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

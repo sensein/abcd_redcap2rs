@@ -1,0 +1,30 @@
+{
+    "id": "mctq_time_to_school_calc",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY@HIDDEN-SURVEY"
+        }
+    ],
+    "description": {
+        "en": "I leave the house to go to school in the morning at"
+    },
+    "preamble": {
+        "en": "School Details"
+    },
+    "prefLabel": {
+        "en": "mctq_time_to_school_calc"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

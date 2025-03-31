@@ -1,0 +1,30 @@
+{
+    "id": "mctq_sd_btime_calc",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY @HIDDEN-SURVEY"
+        }
+    ],
+    "description": {
+        "en": "Local time of going to bed, workday"
+    },
+    "preamble": {
+        "en": "School Days"
+    },
+    "prefLabel": {
+        "en": "mctq_sd_btime_calc"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

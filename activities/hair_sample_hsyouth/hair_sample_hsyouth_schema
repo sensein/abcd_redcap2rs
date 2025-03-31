@@ -73,7 +73,7 @@
             },
             {
                 "isAbout": "items/hair_sample_barcode_label",
-                "isVis": true,
+                "isVis": "hair_status_y == '2'",
                 "valueRequired": true,
                 "variableName": "hair_sample_barcode_label"
             },
@@ -110,6 +110,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2478",
+    "version": "revid2479",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
