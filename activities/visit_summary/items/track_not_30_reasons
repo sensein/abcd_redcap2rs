@@ -1,0 +1,98 @@
+{
+    "id": "track_not_30_reasons",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200430"
+        }
+    ],
+    "preamble": {
+        "en": "RA Internal Use Only (Do Not Ask)"
+    },
+    "prefLabel": {
+        "en": "track_not_30_reasons"
+    },
+    "question": {
+        "en": "Visit was not completed within the required 30 days.\r\n\r\nPlease choose all answer reasons that apply"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Out of Area - Parent (i.e., Remote Follow-Up)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Out of Area - Youth (i.e., Remote Follow-Up)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Schedule complications - Parent"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Schedule complications - Youth"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Scanner down or unavailable"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Site errors - equipment failure (non scanner), missed administration, etc."
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Unanticipated Crisis - earthquake, virus, hurricane, flood"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Physical/Psychological contraindication/prohibition - Parent (broken arm, etc.)"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Physical/Psychological contraindication /prohibition - Youth  (broken arm, etc.)"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "No response to multiple contacts / unable to reach in a timely manner"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 11
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

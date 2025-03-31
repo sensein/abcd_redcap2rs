@@ -1,0 +1,29 @@
+{
+    "id": "ncog_device",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200428"
+        }
+    ],
+    "preamble": {
+        "en": "For RA Use Only:"
+    },
+    "prefLabel": {
+        "en": "ncog_device"
+    },
+    "question": {
+        "en": "What was the make and model of the phone with technical issues? (e.g. iPhone 8, iPhone XR, Samsung Galaxy S10e, Pixel 3 XL, OnePlus 7T Pro, LG G8 ThinkQ, etc)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

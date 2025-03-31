@@ -11,6 +11,10 @@
             "items/intro_neurocog_ipad",
             "items/intro_neurocog_ipad_other",
             "items/intro_neurocog_1_yr",
+            "items/intro_neurocog_remote",
+            "items/ncog_remote_method",
+            "items/ncog_session",
+            "items/ncog_device",
             "items/y_intro_to_neurocog_1_yr_followup_complete"
         ],
         "addProperties": [
@@ -22,7 +26,7 @@
             },
             {
                 "isAbout": "items/intro_neurocog_ipad",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": false,
                 "variableName": "intro_neurocog_ipad"
             },
@@ -34,9 +38,33 @@
             },
             {
                 "isAbout": "items/intro_neurocog_1_yr",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": false,
                 "variableName": "intro_neurocog_1_yr"
+            },
+            {
+                "isAbout": "items/intro_neurocog_remote",
+                "isVis": "sched_delay == '9'",
+                "valueRequired": false,
+                "variableName": "intro_neurocog_remote"
+            },
+            {
+                "isAbout": "items/ncog_remote_method",
+                "isVis": "sched_delay == '9' && event - name == '3_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "ncog_remote_method"
+            },
+            {
+                "isAbout": "items/ncog_session",
+                "isVis": "sched_delay == '9' && event - name == '3_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "ncog_session"
+            },
+            {
+                "isAbout": "items/ncog_device",
+                "isVis": "ncog_session == '2' || ncog_session == '3' || ncog_session == '5'",
+                "valueRequired": true,
+                "variableName": "ncog_device"
             },
             {
                 "isAbout": "items/y_intro_to_neurocog_1_yr_followup_complete",
@@ -47,6 +75,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2506",
+    "version": "revid2507",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

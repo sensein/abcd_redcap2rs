@@ -46,6 +46,8 @@
             "items/withdraw_date",
             "items/dte_today_l",
             "items/current_date_1_year_fu",
+            "items/track_not_30_reasons",
+            "items/track_exception_reasons",
             "items/visit_summary_complete"
         ],
         "addProperties": [
@@ -254,6 +256,18 @@
                 "variableName": "current_date_1_year_fu"
             },
             {
+                "isAbout": "items/track_not_30_reasons",
+                "isVis": "datediff(asnt_timestamp,current_date_1_year_fu,'d','mdy',true)> 30",
+                "valueRequired": true,
+                "variableName": "track_not_30_reasons"
+            },
+            {
+                "isAbout": "items/track_exception_reasons",
+                "isVis": "(datediff(baseline_year_1_arm_1asnt_timestamp,asnt_timestamp,'d','mdy',true)> 820 && event - name == '2_year_follow_up_y_arm_1')||(datediff(baseline_year_1_arm_1asnt_timestamp,asnt_timestamp,'d','mdy',true)> 1185 && event - name == '3_year_follow_up_y_arm_1')||(datediff(baseline_year_1_arm_1asnt_timestamp,mypi_completion_date,'d','mdy',true)> 590 && event - name == '18_month_follow_up_arm_1')||(datediff(baseline_year_1_arm_1asnt_timestamp,mypi_completion_date,'d','mdy',true)> 955 && event - name == '30_month_follow_up_arm_1')||(datediff(baseline_year_1_arm_1asnt_timestamp,mypi_completion_date,'d','mdy',true)> 1320 && event - name == '42_month_follow_up_arm_1')",
+                "valueRequired": true,
+                "variableName": "track_exception_reasons"
+            },
+            {
                 "isAbout": "items/visit_summary_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -262,6 +276,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2506",
+    "version": "revid2507",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
