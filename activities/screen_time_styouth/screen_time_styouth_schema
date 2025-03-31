@@ -918,13 +918,13 @@
             },
             {
                 "isAbout": "items/screentime_sq12",
-                "isVis": "event_name_number <> '11'",
+                "isVis": "event_name_number <> '11' && screentime_sq1=='1'",
                 "valueRequired": true,
                 "variableName": "screentime_sq12"
             },
             {
                 "isAbout": "items/screentime_sq13",
-                "isVis": "event_name_number <> '11'",
+                "isVis": "event_name_number <> '11' && screentime_sq1=='1'",
                 "valueRequired": true,
                 "variableName": "screentime_sq13"
             },
@@ -943,6 +943,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2505",
+    "version": "revid2506",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -28,6 +28,7 @@
             "items/fitpo_sleeping",
             "items/fitpo_physical_activity",
             "items/fitpo_how_phys_act",
+            "items/fitpo_other_describe",
             "items/y_post_fitbit_covid19_questionnaire_complete"
         ],
         "addProperties": [
@@ -158,6 +159,12 @@
                 "variableName": "fitpo_how_phys_act"
             },
             {
+                "isAbout": "items/fitpo_other_describe",
+                "isVis": "fitpo_how_phys_act == '999'",
+                "valueRequired": true,
+                "variableName": "fitpo_other_describe"
+            },
+            {
                 "isAbout": "items/y_post_fitbit_covid19_questionnaire_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -166,6 +173,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2505",
+    "version": "revid2506",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

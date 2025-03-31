@@ -1,0 +1,29 @@
+{
+    "id": "fitpo_other_describe",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200423"
+        }
+    ],
+    "preamble": {
+        "en": "Thinking about your routineover the past 3 weeks,please select the most appropriate option to each of the following questions."
+    },
+    "prefLabel": {
+        "en": "fitpo_other_describe"
+    },
+    "question": {
+        "en": "If \"Other\", please describe:"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
