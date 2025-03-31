@@ -34,6 +34,8 @@
             "items/menstrualcycle10_y",
             "items/menstrualcycle11_y",
             "items/pdsms_notes",
+            "items/pds_remote",
+            "items/pds_device",
             "items/pubertal_development_scale_pdsmenstrual_historyyou_complete"
         ],
         "addProperties": [
@@ -200,6 +202,18 @@
                 "variableName": "pdsms_notes"
             },
             {
+                "isAbout": "items/pds_remote",
+                "isVis": "sched_delay == '9'",
+                "valueRequired": true,
+                "variableName": "pds_remote"
+            },
+            {
+                "isAbout": "items/pds_device",
+                "isVis": "pds_remote___2 == '1' || pds_remote___3 == '1'",
+                "valueRequired": true,
+                "variableName": "pds_device"
+            },
+            {
                 "isAbout": "items/pubertal_development_scale_pdsmenstrual_historyyou_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -208,6 +222,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2495",
+    "version": "revid2496",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

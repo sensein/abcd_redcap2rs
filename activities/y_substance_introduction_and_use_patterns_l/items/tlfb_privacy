@@ -1,0 +1,41 @@
+{
+    "id": "tlfb_privacy",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200325"
+        }
+    ],
+    "prefLabel": {
+        "en": "tlfb_privacy"
+    },
+    "question": {
+        "en": "Privacy:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Confirmed for phone/audio"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Confirmed for screen sharing"
+                },
+                "value": 2
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

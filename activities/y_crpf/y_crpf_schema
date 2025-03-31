@@ -23,6 +23,8 @@
             "items/su_crpf_avail_13",
             "items/testdatestamp",
             "items/crpf_admin",
+            "items/crpf_remote",
+            "items/crpf_device",
             "items/y_crpf_complete"
         ],
         "addProperties": [
@@ -123,6 +125,18 @@
                 "variableName": "crpf_admin"
             },
             {
+                "isAbout": "items/crpf_remote",
+                "isVis": "sched_delay == '9'",
+                "valueRequired": true,
+                "variableName": "crpf_remote"
+            },
+            {
+                "isAbout": "items/crpf_device",
+                "isVis": "crpf_remote___2 == '1' || crpf_remote___3 == '1'",
+                "valueRequired": true,
+                "variableName": "crpf_device"
+            },
+            {
                 "isAbout": "items/y_crpf_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -131,6 +145,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2495",
+    "version": "revid2496",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

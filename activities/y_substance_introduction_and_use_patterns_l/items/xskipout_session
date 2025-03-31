@@ -1,0 +1,73 @@
+{
+    "id": "xskipout_session",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200325"
+        }
+    ],
+    "preamble": {
+        "en": "For RA Use Only:"
+    },
+    "prefLabel": {
+        "en": "xskipout_session"
+    },
+    "question": {
+        "en": "TLFB Session:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Completed in full without disruption"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Completed in full with temporary technical disruption"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Completed in full with temporary privacy disruption"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Completed partially due to technical disruption"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Completed partially due to privacy disruption"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Did not complete due to technical concerns"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Did not complete due to privacy concerns"
+                },
+                "value": 7
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

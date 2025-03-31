@@ -15,7 +15,7 @@
         {
             "column": "Field Annotation",
             "source": "redcap",
-            "value": "@READONLY"
+            "value": "@READONLY @HIDDEN"
         }
     ],
     "preamble": {
@@ -25,7 +25,7 @@
         "en": "pds_y_ss_male_category"
     },
     "question": {
-        "en": "Pubertal Developmental Scale Youth: Male Category \r  pds_y_ss_m_cat_sum (sum_y_m) = pds_bdyhair_y + pds_m4_y + pds_m5_y\n\n 1 - prepuberty -     sum_y_m = 3\r 2 - early puberty - sum_y_m >= 4 and <= 5 \r 3 - mid puberty -   sum_y_m >= 6 and <=8\r 4 - late puberty -   sum_y_m >= 9 and <=11\r 5 - post puberty -  sum_y_m = 12\rValidation: All items must be answered"
+        "en": "Pubertal Developmental Scale Youth: Male Category   pds_y_ss_m_cat_sum (sum_y_m) = pds_bdyhair_y + pds_m4_y + pds_m5_y\r\n\r\n 1 - prepuberty -     sum_y_m = 3 2 - early puberty - sum_y_m >= 4 and <= 5  3 - mid puberty -   sum_y_m >= 6 and <=8 4 - late puberty -   sum_y_m >= 9 and <=11 5 - post puberty -  sum_y_m = 12Validation: All items must be answered"
     },
     "responseOptions": {
         "valueType": [

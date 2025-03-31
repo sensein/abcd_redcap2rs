@@ -26,6 +26,8 @@
             "items/kbi_y_trans_id",
             "items/kbi_y_trans_prob",
             "items/kbi_admin",
+            "items/kbi_remote",
+            "items/kbi_device",
             "items/kbi_instruct_read",
             "items/ksads5background_items_youth_complete"
         ],
@@ -145,6 +147,18 @@
                 "variableName": "kbi_admin"
             },
             {
+                "isAbout": "items/kbi_remote",
+                "isVis": "sched_delay == '9'",
+                "valueRequired": true,
+                "variableName": "kbi_remote"
+            },
+            {
+                "isAbout": "items/kbi_device",
+                "isVis": "kbi_remote___2 == '1' || kbi_remote___3 == '1'",
+                "valueRequired": true,
+                "variableName": "kbi_device"
+            },
+            {
                 "isAbout": "items/kbi_instruct_read",
                 "isVis": "macv_comprehend == '1'",
                 "valueRequired": false,
@@ -159,6 +173,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2495",
+    "version": "revid2496",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -17,6 +17,8 @@
             "items/cybb_phenx_harm2_often",
             "items/cybb_phenx_power2",
             "items/cybb_admin",
+            "items/cybb_remote",
+            "items/cybb_device",
             "items/cyberbully_complete"
         ],
         "addProperties": [
@@ -81,6 +83,18 @@
                 "variableName": "cybb_admin"
             },
             {
+                "isAbout": "items/cybb_remote",
+                "isVis": "sched_delay == '9'",
+                "valueRequired": true,
+                "variableName": "cybb_remote"
+            },
+            {
+                "isAbout": "items/cybb_device",
+                "isVis": "cybb_remote___2 == '1' || cybb_remote___3 == '1'",
+                "valueRequired": true,
+                "variableName": "cybb_device"
+            },
+            {
                 "isAbout": "items/cyberbully_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -89,6 +103,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2495",
+    "version": "revid2496",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,0 +1,49 @@
+{
+    "id": "cybb_device",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200325"
+        }
+    ],
+    "preamble": {
+        "en": "For RA Use Only:"
+    },
+    "prefLabel": {
+        "en": "cybb_device"
+    },
+    "question": {
+        "en": "Youth's Device:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Phone Screen"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Tablet/iPad Screen"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Computer Screen"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -7,34 +7,22 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
-            "items/peer_behavior_profile_complete",
             "items/pbp_start_time",
-            "items/pbp_admin",
             "items/pbp_athletes",
             "items/pbp_skip_school",
             "items/pbp_church",
             "items/pbp_suspended",
             "items/pbp_good_student",
-            "items/pbp_shoplifted"
+            "items/pbp_shoplifted",
+            "items/pbp_admin",
+            "items/peer_behavior_profile_complete"
         ],
         "addProperties": [
-            {
-                "isAbout": "items/peer_behavior_profile_complete",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "peer_behavior_profile_complete"
-            },
             {
                 "isAbout": "items/pbp_start_time",
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "pbp_start_time"
-            },
-            {
-                "isAbout": "items/pbp_admin",
-                "isVis": "event_name_number > '21'",
-                "valueRequired": true,
-                "variableName": "pbp_admin"
             },
             {
                 "isAbout": "items/pbp_athletes",
@@ -71,10 +59,22 @@
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "pbp_shoplifted"
+            },
+            {
+                "isAbout": "items/pbp_admin",
+                "isVis": "event_name_number > '21'",
+                "valueRequired": true,
+                "variableName": "pbp_admin"
+            },
+            {
+                "isAbout": "items/peer_behavior_profile_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "peer_behavior_profile_complete"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2495",
+    "version": "revid2496",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

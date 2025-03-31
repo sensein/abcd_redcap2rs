@@ -21,6 +21,8 @@
             "items/school_15_y",
             "items/school_17_y",
             "items/school_admin",
+            "items/school_remote",
+            "items/school_device",
             "items/school_risk_protective_factorsmodified_phenx_srpfy_complete"
         ],
         "addProperties": [
@@ -109,6 +111,18 @@
                 "variableName": "school_admin"
             },
             {
+                "isAbout": "items/school_remote",
+                "isVis": "sched_delay == '9'",
+                "valueRequired": true,
+                "variableName": "school_remote"
+            },
+            {
+                "isAbout": "items/school_device",
+                "isVis": "school_remote___2 == '1' || school_remote___3 == '1'",
+                "valueRequired": true,
+                "variableName": "school_device"
+            },
+            {
                 "isAbout": "items/school_risk_protective_factorsmodified_phenx_srpfy_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -117,6 +131,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2495",
+    "version": "revid2496",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

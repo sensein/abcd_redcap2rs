@@ -32,6 +32,8 @@
             "items/gish2_use_tob",
             "items/gish2_use_mj",
             "items/gish2_use_other",
+            "items/gish2_remote",
+            "items/gish2_device",
             "items/gish2_youth_complete"
         ],
         "addProperties": [
@@ -186,6 +188,18 @@
                 "variableName": "gish2_use_other"
             },
             {
+                "isAbout": "items/gish2_remote",
+                "isVis": "sched_delay == '9'",
+                "valueRequired": true,
+                "variableName": "gish2_remote"
+            },
+            {
+                "isAbout": "items/gish2_device",
+                "isVis": "gish2_remote___2 == '1' || gish2_remote___3 == '1'",
+                "valueRequired": true,
+                "variableName": "gish2_device"
+            },
+            {
                 "isAbout": "items/gish2_youth_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -194,6 +208,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2495",
+    "version": "revid2496",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

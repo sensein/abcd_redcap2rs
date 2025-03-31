@@ -1,0 +1,50 @@
+{
+    "id": "cybb_remote",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200325"
+        }
+    ],
+    "preamble": {
+        "en": "For RA Use Only:"
+    },
+    "prefLabel": {
+        "en": "cybb_remote"
+    },
+    "question": {
+        "en": "Remote method ofREDCap Module: Health Part 1administration [Check all that apply]:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Audio (i.e. phone call)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Video/Webcam"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Screen Sharing"
+                },
+                "value": 3
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
