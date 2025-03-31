@@ -1,0 +1,51 @@
+{
+    "id": "scan_check_list_mrs_2d_poc",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "scan_check_list_mrs_2d_poc"
+    },
+    "question": {
+        "en": "Number of POC Multi-metabolite (2D J-resolved) MRS Metabolite acquisition scans child completed"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

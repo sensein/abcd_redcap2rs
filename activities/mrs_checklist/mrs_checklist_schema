@@ -1,0 +1,213 @@
+{
+    "id": "mrs_checklist_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "mrs_checklist"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/mrs_scan_timestamp",
+            "items/mrs_not_scanned",
+            "items/mrs_no_scan_reason",
+            "items/mrs_scan_check_list_t1",
+            "items/mrs_t1_scan_notes",
+            "items/mrs_scan_check_list_t2",
+            "items/mrs_t2_scan_notes",
+            "items/scan_check_list_metabolite_acc",
+            "items/metabolite_acc_scan_notes",
+            "items/scan_check_list_water_acc",
+            "items/water_acc_scan_notes",
+            "items/scan_check_list_mrs_2d_acc",
+            "items/metabolite_2d_acc_scan_notes",
+            "items/scan_check_list_2d_water_acc",
+            "items/water_2d_acc_scan_notes",
+            "items/scan_check_list_metabolite_poc",
+            "items/metabolite_poc_scan_notes",
+            "items/scan_check_list_water_poc",
+            "items/water_poc_scan_notes",
+            "items/scan_check_list_mrs_2d_poc",
+            "items/metabolite_2d_poc_scan_notes",
+            "items/scan_check_list_2d_water_poc_2",
+            "items/water_2d_poc_scan_notes_2",
+            "items/scan_check_list_epsi",
+            "items/epsi_scan_notes",
+            "items/scan_check_list_qsm",
+            "items/qsm_scan_notes",
+            "items/mrs_checklist_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/mrs_scan_timestamp",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mrs_scan_timestamp"
+            },
+            {
+                "isAbout": "items/mrs_not_scanned",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mrs_not_scanned"
+            },
+            {
+                "isAbout": "items/mrs_no_scan_reason",
+                "isVis": "mrs_not_scanned___1 == '1'",
+                "valueRequired": true,
+                "variableName": "mrs_no_scan_reason"
+            },
+            {
+                "isAbout": "items/mrs_scan_check_list_t1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mrs_scan_check_list_t1"
+            },
+            {
+                "isAbout": "items/mrs_t1_scan_notes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mrs_t1_scan_notes"
+            },
+            {
+                "isAbout": "items/mrs_scan_check_list_t2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mrs_scan_check_list_t2"
+            },
+            {
+                "isAbout": "items/mrs_t2_scan_notes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mrs_t2_scan_notes"
+            },
+            {
+                "isAbout": "items/scan_check_list_metabolite_acc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "scan_check_list_metabolite_acc"
+            },
+            {
+                "isAbout": "items/metabolite_acc_scan_notes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "metabolite_acc_scan_notes"
+            },
+            {
+                "isAbout": "items/scan_check_list_water_acc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "scan_check_list_water_acc"
+            },
+            {
+                "isAbout": "items/water_acc_scan_notes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "water_acc_scan_notes"
+            },
+            {
+                "isAbout": "items/scan_check_list_mrs_2d_acc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "scan_check_list_mrs_2d_acc"
+            },
+            {
+                "isAbout": "items/metabolite_2d_acc_scan_notes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "metabolite_2d_acc_scan_notes"
+            },
+            {
+                "isAbout": "items/scan_check_list_2d_water_acc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "scan_check_list_2d_water_acc"
+            },
+            {
+                "isAbout": "items/water_2d_acc_scan_notes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "water_2d_acc_scan_notes"
+            },
+            {
+                "isAbout": "items/scan_check_list_metabolite_poc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "scan_check_list_metabolite_poc"
+            },
+            {
+                "isAbout": "items/metabolite_poc_scan_notes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "metabolite_poc_scan_notes"
+            },
+            {
+                "isAbout": "items/scan_check_list_water_poc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "scan_check_list_water_poc"
+            },
+            {
+                "isAbout": "items/water_poc_scan_notes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "water_poc_scan_notes"
+            },
+            {
+                "isAbout": "items/scan_check_list_mrs_2d_poc",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "scan_check_list_mrs_2d_poc"
+            },
+            {
+                "isAbout": "items/metabolite_2d_poc_scan_notes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "metabolite_2d_poc_scan_notes"
+            },
+            {
+                "isAbout": "items/scan_check_list_2d_water_poc_2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "scan_check_list_2d_water_poc_2"
+            },
+            {
+                "isAbout": "items/water_2d_poc_scan_notes_2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "water_2d_poc_scan_notes_2"
+            },
+            {
+                "isAbout": "items/scan_check_list_epsi",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "scan_check_list_epsi"
+            },
+            {
+                "isAbout": "items/epsi_scan_notes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "epsi_scan_notes"
+            },
+            {
+                "isAbout": "items/scan_check_list_qsm",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "scan_check_list_qsm"
+            },
+            {
+                "isAbout": "items/qsm_scan_notes",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "qsm_scan_notes"
+            },
+            {
+                "isAbout": "items/mrs_checklist_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mrs_checklist_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2444",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

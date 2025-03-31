@@ -1,0 +1,28 @@
+{
+    "id": "mrs_not_scanned",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "mrs_not_scanned"
+    },
+    "question": {
+        "en": "Child was not scanned"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "yes"
+                },
+                "value": 1
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
