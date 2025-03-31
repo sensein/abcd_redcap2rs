@@ -1,0 +1,40 @@
+{
+    "id": "fitpo_cv_situation",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200414"
+        }
+    ],
+    "prefLabel": {
+        "en": "fitpo_cv_situation"
+    },
+    "question": {
+        "en": "Has your daily routine (I.e. things you typically do every day, at about the same time each day) changed due to the coronavirus situation?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

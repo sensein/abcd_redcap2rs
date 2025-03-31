@@ -1,0 +1,80 @@
+{
+    "id": "fitpo_how_phys_act",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200414"
+        }
+    ],
+    "preamble": {
+        "en": "Thinking about your routineover the past 3 weeks,please select the most appropriate option to each of the following questions."
+    },
+    "prefLabel": {
+        "en": "fitpo_how_phys_act"
+    },
+    "question": {
+        "en": "How are you getting physical activity? (select all that are applicable)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Walking"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Bike ride"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Work-out/aerobics"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Yoga"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Running"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Basketball"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Scooter/skate-boarding"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Other (describe _____)"
+                },
+                "value": 999
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

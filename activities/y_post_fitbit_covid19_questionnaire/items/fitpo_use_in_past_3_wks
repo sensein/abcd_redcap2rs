@@ -1,0 +1,46 @@
+{
+    "id": "fitpo_use_in_past_3_wks",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200414"
+        }
+    ],
+    "prefLabel": {
+        "en": "fitpo_use_in_past_3_wks"
+    },
+    "question": {
+        "en": "Which option below best describes your use of the Fitbit in the past 3 weeks?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "I wore the Fitbit more during the past 3 weeks compared to my first use"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "I wore the Fitbit the same during the past 3 weeks compared to my first use"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "I wore the Fitbit less during the past 3 weeks compared to my first use"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

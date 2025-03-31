@@ -1,0 +1,73 @@
+{
+    "id": "fitpo_woken_up",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200414"
+        }
+    ],
+    "preamble": {
+        "en": "Thinking about your routineover the past 3 weeks,please select the most appropriate option to each of the following questions."
+    },
+    "prefLabel": {
+        "en": "fitpo_woken_up"
+    },
+    "question": {
+        "en": "I have woken up:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "more than 2 hours later than usual"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "1-2 hours later than usual"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "less than 1 hour later than usual"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "no change in bedtime"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "less than 1 hour earlier than usual"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "1-2 hours earlier than usual"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "more than 2 hours earlier than usual"
+                },
+                "value": 7
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

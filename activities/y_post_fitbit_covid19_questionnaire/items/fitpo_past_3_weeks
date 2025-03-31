@@ -1,0 +1,65 @@
+{
+    "id": "fitpo_past_3_weeks",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200414"
+        }
+    ],
+    "prefLabel": {
+        "en": "fitpo_past_3_weeks"
+    },
+    "question": {
+        "en": "Please check the box for any of the following items that applied over the past 3 weeks [Check boxes are provided for first, second, and third week; multiple options are possible]:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "in school"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "at home during the day?"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "at camp (dat or overnight camp)?"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "away on vacation?"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "sick?"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "in a different place from where you usually are?"
+                },
+                "value": 6
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

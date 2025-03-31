@@ -7,7 +7,6 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
-            "items/site_id",
             "items/race_ethnicity",
             "items/rel_family_id",
             "items/rel_group_id",
@@ -33,12 +32,6 @@
             "items/acs_post_stratification_weights_daic_use_only_complete"
         ],
         "addProperties": [
-            {
-                "isAbout": "items/site_id",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "site_id"
-            },
             {
                 "isAbout": "items/race_ethnicity",
                 "isVis": false,
@@ -180,6 +173,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2503",
+    "version": "revid2504",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
