@@ -1,0 +1,20 @@
+{
+    "id": "socialdev_visit_instruct_l",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "socialdev_visit_instruct_l"
+    },
+    "question": {
+        "en": "RA instructions: If there is no visit, try to find out WHY and record the reason in Comment.  \"Can't schedule\" includes scheduled but no-showed until out of assessment window; \"Declined\" means they said they can't come or won't come but aren't committed to quitting, maybe next year, maybe they moved to an ABCD location that isn't an SD site but might move back or visit sometime; \"Opted out\" means they're still in ABCD but formally quit the SD sub-study; \"Ineligible\" means they are no longer ABCD participants and cannot be SD subjects even if they want."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
