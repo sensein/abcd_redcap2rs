@@ -1,0 +1,49 @@
+{
+    "id": "ynotes_3yr_resolution",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Site-Related Issues"
+    },
+    "prefLabel": {
+        "en": "ynotes_3yr_resolution"
+    },
+    "question": {
+        "en": "Please select the step(s) that were taken:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Clinician assessed, no action needed"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Referral made (if selected, plan needs to be initiated within 2 weeks)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Report files (i.e., CPS Report)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 4
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

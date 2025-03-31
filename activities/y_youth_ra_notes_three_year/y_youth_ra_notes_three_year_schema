@@ -380,6 +380,9 @@
             "items/ynotes_3yr_issues_site",
             "items/ynotes_3yr_issues_site_action",
             "items/ynotes_3yr_issues_site_resolve",
+            "items/ynotes_3yr_resolution",
+            "items/ynotes_3yr_plan",
+            "items/ynotes_3yr_plan_date",
             "items/ynotes_3yr_issues_site_notes",
             "items/ynotes_3yr_issues_wpguid",
             "items/ynotes_3yr_issues_wpguid_ksads_wrong",
@@ -2838,15 +2841,33 @@
             },
             {
                 "isAbout": "items/ynotes_3yr_issues_site_action",
-                "isVis": "ynotes_3yr_issues_site___2=='1' || ynotes_3yr_issues_site___1=='1'",
+                "isVis": "ynotes_3yr_issues_site___2=='1' || ynotes_3yr_issues_site___3=='1' || ynotes_3yr_issues_site___4=='1' || ynotes_3yr_issues_site___5=='1'",
                 "valueRequired": true,
                 "variableName": "ynotes_3yr_issues_site_action"
             },
             {
                 "isAbout": "items/ynotes_3yr_issues_site_resolve",
-                "isVis": "ynotes_3yr_issues_site___2=='1' || ynotes_3yr_issues_site___1=='1'",
+                "isVis": "ynotes_3yr_issues_site___2=='1' || ynotes_3yr_issues_site___3=='1' || ynotes_3yr_issues_site___4=='1' || ynotes_3yr_issues_site___5=='1'",
                 "valueRequired": true,
                 "variableName": "ynotes_3yr_issues_site_resolve"
+            },
+            {
+                "isAbout": "items/ynotes_3yr_resolution",
+                "isVis": "ynotes_3yr_issues_site___2=='1' || ynotes_3yr_issues_site___3=='1' || ynotes_3yr_issues_site___4=='1' || ynotes_3yr_issues_site___5=='1'",
+                "valueRequired": true,
+                "variableName": "ynotes_3yr_resolution"
+            },
+            {
+                "isAbout": "items/ynotes_3yr_plan",
+                "isVis": "ynotes_3yr_resolution___2 == '1'",
+                "valueRequired": true,
+                "variableName": "ynotes_3yr_plan"
+            },
+            {
+                "isAbout": "items/ynotes_3yr_plan_date",
+                "isVis": "ynotes_3yr_plan___1 == '1'",
+                "valueRequired": true,
+                "variableName": "ynotes_3yr_plan_date"
             },
             {
                 "isAbout": "items/ynotes_3yr_issues_site_notes",
@@ -4219,6 +4240,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2431",
+    "version": "revid2432",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

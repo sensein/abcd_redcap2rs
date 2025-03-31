@@ -1,6 +1,13 @@
 {
     "id": "ynotes_3yr_issues_site",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDECHOICE = '1'"
+        }
+    ],
     "preamble": {
         "en": "Site-Related Issues"
     },
@@ -18,9 +25,27 @@
             },
             {
                 "name": {
-                    "en": "Actionable item (e.g. CPS report)"
+                    "en": "Suicide endorsed"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Homicide endorsed"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Abuse or Neglect (e.g. CPS report)"
                 },
                 "value": 2
+            },
+            {
+                "name": {
+                    "en": "Other (e.g., elder abuse)"
+                },
+                "value": 5
             }
         ],
         "multipleChoice": true,

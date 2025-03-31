@@ -261,6 +261,9 @@
             "items/pnotes_3yr_issues_site",
             "items/pnotes_3yr_issues_site_suicide_initials",
             "items/pnotes_3yr_issues_site_suicide_desc",
+            "items/pnotes_3yr_resolution",
+            "items/pnotes_3yr_referral",
+            "items/pnotes_3yr_resolution_date",
             "items/pnotes_3yr_issues_site_actionableitem_initials",
             "items/pnotes_3yr_issues_site_actionableitem_desc",
             "items/pnotes_3yr_issues_site_relatednotes",
@@ -1987,20 +1990,38 @@
             {
                 "isAbout": "items/pnotes_3yr_issues_site",
                 "isVis": "pnotes_3yr_issues___2=='1'",
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "pnotes_3yr_issues_site"
             },
             {
                 "isAbout": "items/pnotes_3yr_issues_site_suicide_initials",
-                "isVis": "pnotes_3yr_issues_site___1=='1' || pnotes_3yr_issues_site___2=='1'",
+                "isVis": "pnotes_3yr_issues_site___3=='1' || pnotes_3yr_issues_site___2=='1' || pnotes_3yr_issues_site___4=='1' || pnotes_3yr_issues_site___5=='1'",
                 "valueRequired": true,
                 "variableName": "pnotes_3yr_issues_site_suicide_initials"
             },
             {
                 "isAbout": "items/pnotes_3yr_issues_site_suicide_desc",
-                "isVis": "pnotes_3yr_issues_site___1=='1' || pnotes_3yr_issues_site___2=='1'",
+                "isVis": "pnotes_3yr_issues_site___3=='1' || pnotes_3yr_issues_site___2=='1' || pnotes_3yr_issues_site___4=='1' || pnotes_3yr_issues_site___5=='1'",
                 "valueRequired": false,
                 "variableName": "pnotes_3yr_issues_site_suicide_desc"
+            },
+            {
+                "isAbout": "items/pnotes_3yr_resolution",
+                "isVis": "pnotes_3yr_issues_site___3=='1' || pnotes_3yr_issues_site___2=='1' || pnotes_3yr_issues_site___4=='1' || pnotes_3yr_issues_site___5=='1'",
+                "valueRequired": true,
+                "variableName": "pnotes_3yr_resolution"
+            },
+            {
+                "isAbout": "items/pnotes_3yr_referral",
+                "isVis": "pnotes_3yr_resolution___2 == '1'",
+                "valueRequired": true,
+                "variableName": "pnotes_3yr_referral"
+            },
+            {
+                "isAbout": "items/pnotes_3yr_resolution_date",
+                "isVis": "pnotes_3yr_referral___1 == '1'",
+                "valueRequired": true,
+                "variableName": "pnotes_3yr_resolution_date"
             },
             {
                 "isAbout": "items/pnotes_3yr_issues_site_actionableitem_initials",
@@ -3295,6 +3316,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2431",
+    "version": "revid2432",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
