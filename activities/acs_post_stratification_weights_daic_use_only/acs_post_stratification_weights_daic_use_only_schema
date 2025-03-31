@@ -15,6 +15,21 @@
             "items/rel_relationship",
             "items/rel_same_sex",
             "items/acs_raked_propensity_score",
+            "items/genetic_ancestry_factor_african",
+            "items/genetic_ancestry_factor_european",
+            "items/genetic_ancestry_factor_american",
+            "items/genetic_paired_subjectid_1",
+            "items/genetic_paired_subjectid_2genetic_paired_subjectid_2",
+            "items/genetic_paired_subjectid_3",
+            "items/genetic_paired_subjectid_4",
+            "items/genetic_pi_hat_1",
+            "items/genetic_pi_hat_2",
+            "items/genetic_pi_hat_3",
+            "items/genetic_pi_hat_4",
+            "items/genetic_zygosity_status_1",
+            "items/genetic_zygosity_status_2",
+            "items/genetic_zygosity_status_3",
+            "items/genetic_zygosity_status_4",
             "items/acs_post_stratification_weights_daic_use_only_complete"
         ],
         "addProperties": [
@@ -67,6 +82,96 @@
                 "variableName": "acs_raked_propensity_score"
             },
             {
+                "isAbout": "items/genetic_ancestry_factor_african",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "genetic_ancestry_factor_african"
+            },
+            {
+                "isAbout": "items/genetic_ancestry_factor_european",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "genetic_ancestry_factor_european"
+            },
+            {
+                "isAbout": "items/genetic_ancestry_factor_american",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "genetic_ancestry_factor_american"
+            },
+            {
+                "isAbout": "items/genetic_paired_subjectid_1",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "genetic_paired_subjectid_1"
+            },
+            {
+                "isAbout": "items/genetic_paired_subjectid_2genetic_paired_subjectid_2",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "genetic_paired_subjectid_2genetic_paired_subjectid_2"
+            },
+            {
+                "isAbout": "items/genetic_paired_subjectid_3",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "genetic_paired_subjectid_3"
+            },
+            {
+                "isAbout": "items/genetic_paired_subjectid_4",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "genetic_paired_subjectid_4"
+            },
+            {
+                "isAbout": "items/genetic_pi_hat_1",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "genetic_pi_hat_1"
+            },
+            {
+                "isAbout": "items/genetic_pi_hat_2",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "genetic_pi_hat_2"
+            },
+            {
+                "isAbout": "items/genetic_pi_hat_3",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "genetic_pi_hat_3"
+            },
+            {
+                "isAbout": "items/genetic_pi_hat_4",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "genetic_pi_hat_4"
+            },
+            {
+                "isAbout": "items/genetic_zygosity_status_1",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "genetic_zygosity_status_1"
+            },
+            {
+                "isAbout": "items/genetic_zygosity_status_2",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "genetic_zygosity_status_2"
+            },
+            {
+                "isAbout": "items/genetic_zygosity_status_3",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "genetic_zygosity_status_3"
+            },
+            {
+                "isAbout": "items/genetic_zygosity_status_4",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "genetic_zygosity_status_4"
+            },
+            {
                 "isAbout": "items/acs_post_stratification_weights_daic_use_only_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -75,6 +180,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2500",
+    "version": "revid2501",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
