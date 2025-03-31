@@ -1,26 +1,26 @@
 {
-    "id": "ra_scan_start_time",
+    "id": "ra_scan_upt_date_and_time",
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
             "column": "Text Validation Type OR Show Slider Number",
             "source": "redcap",
-            "value": "datetime_mdy"
+            "value": "datetime_dmy"
         },
         {
-            "column": "Field Annotation",
+            "column": "Custom Alignment",
             "source": "redcap",
-            "value": "@HIDDEN @READONLY @NOW"
+            "value": "RH"
         }
     ],
     "preamble": {
         "en": "UPT Collection (if required by IRB/facility)"
     },
     "prefLabel": {
-        "en": "ra_scan_start_time"
+        "en": "ra_scan_upt_date_and_time"
     },
     "question": {
-        "en": "Time page loaded"
+        "en": "UPT Collection Date and Time"
     },
     "responseOptions": {
         "valueType": [
@@ -28,8 +28,7 @@
         ]
     },
     "ui": {
-        "inputType": "text",
-        "readonlyValue": true
+        "inputType": "text"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

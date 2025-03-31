@@ -11,6 +11,9 @@
             "items/ra_scan_not_scanned",
             "items/ra_scan_no_scan_reason",
             "items/ra_scan_no_scan_reason_other",
+            "items/ra_scan_upt_needed",
+            "items/ra_scan_upt_date_and_time",
+            "items/ra_scan_upt_results",
             "items/ra_scan_start_time",
             "items/ra_scan_check_list_tog",
             "items/ra_scan_cl_prescr_order",
@@ -89,6 +92,24 @@
                 "isVis": "ra_scan_no_scan_reason == '5'",
                 "valueRequired": true,
                 "variableName": "ra_scan_no_scan_reason_other"
+            },
+            {
+                "isAbout": "items/ra_scan_upt_needed",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ra_scan_upt_needed"
+            },
+            {
+                "isAbout": "items/ra_scan_upt_date_and_time",
+                "isVis": "ra_scan_upt_needed == 1",
+                "valueRequired": false,
+                "variableName": "ra_scan_upt_date_and_time"
+            },
+            {
+                "isAbout": "items/ra_scan_upt_results",
+                "isVis": "ra_scan_upt_needed == 1",
+                "valueRequired": false,
+                "variableName": "ra_scan_upt_results"
             },
             {
                 "isAbout": "items/ra_scan_start_time",
@@ -411,6 +432,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2468",
+    "version": "revid2469",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
