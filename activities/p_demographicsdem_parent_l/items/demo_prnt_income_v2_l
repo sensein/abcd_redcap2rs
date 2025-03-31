@@ -1,13 +1,6 @@
 {
     "id": "demo_prnt_income_v2_l",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Field Annotation",
-            "source": "redcap",
-            "value": "@HIDECHOICE='11,12'"
-        }
-    ],
     "preamble": {
         "en": "With regard toyourcurrent or most recent job activity:",
         "es": "Con respecto a su actividad laboral actual o m\u00c3\u00a1s reciente:"
@@ -80,18 +73,6 @@
                     "en": "##en##$200,000 and greater##/en####es##$200,000 o m\u00c3\u00a1s##/es##"
                 },
                 "value": 10
-            },
-            {
-                "name": {
-                    "en": "##en##Refuse to answer##/en####es##No deseo responder##/es##"
-                },
-                "value": 11
-            },
-            {
-                "name": {
-                    "en": "##en##Don't know##/en####es##No lo s\u00c3\u00a9##/es##"
-                },
-                "value": 12
             },
             {
                 "name": {

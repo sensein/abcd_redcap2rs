@@ -19,17 +19,11 @@
             "items/biospec_blood_baso_abs",
             "items/biospec_blood_eos_percent",
             "items/biospec_blood_eos_abs",
-            "items/biospec_blood_baso_abs_score",
             "items/biospec_blood_hemoglobin",
-            "items/biospec_blood_hemoglobin_score",
             "items/biospec_blood_mcv",
-            "items/biospec_blood_mcv_score",
             "items/biospec_blood_plt_count",
-            "items/biospec_blood_plt_count_score",
             "items/biospec_blood_wbc_count",
-            "items/biospec_blood_wbc_count_score",
             "items/biospec_blood_ferritin",
-            "items/biospec_blood_ferritin_score",
             "items/biospec_blood_immature_gran_percent",
             "items/biospec_blood_immature_gran_abs",
             "items/biospec_blood_lymph_percent",
@@ -64,7 +58,7 @@
             },
             {
                 "isAbout": "items/biospec_blood_col_date",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "biospec_blood_col_date"
             },
@@ -129,22 +123,10 @@
                 "variableName": "biospec_blood_eos_abs"
             },
             {
-                "isAbout": "items/biospec_blood_baso_abs_score",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "biospec_blood_baso_abs_score"
-            },
-            {
                 "isAbout": "items/biospec_blood_hemoglobin",
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "biospec_blood_hemoglobin"
-            },
-            {
-                "isAbout": "items/biospec_blood_hemoglobin_score",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "biospec_blood_hemoglobin_score"
             },
             {
                 "isAbout": "items/biospec_blood_mcv",
@@ -153,22 +135,10 @@
                 "variableName": "biospec_blood_mcv"
             },
             {
-                "isAbout": "items/biospec_blood_mcv_score",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "biospec_blood_mcv_score"
-            },
-            {
                 "isAbout": "items/biospec_blood_plt_count",
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "biospec_blood_plt_count"
-            },
-            {
-                "isAbout": "items/biospec_blood_plt_count_score",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "biospec_blood_plt_count_score"
             },
             {
                 "isAbout": "items/biospec_blood_wbc_count",
@@ -177,22 +147,10 @@
                 "variableName": "biospec_blood_wbc_count"
             },
             {
-                "isAbout": "items/biospec_blood_wbc_count_score",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "biospec_blood_wbc_count_score"
-            },
-            {
                 "isAbout": "items/biospec_blood_ferritin",
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "biospec_blood_ferritin"
-            },
-            {
-                "isAbout": "items/biospec_blood_ferritin_score",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "biospec_blood_ferritin_score"
             },
             {
                 "isAbout": "items/biospec_blood_immature_gran_percent",
@@ -322,7 +280,7 @@
             },
             {
                 "isAbout": "items/biospec_blood_report_status",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "biospec_blood_report_status"
             },
@@ -341,6 +299,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2442",
+    "version": "revid2443",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

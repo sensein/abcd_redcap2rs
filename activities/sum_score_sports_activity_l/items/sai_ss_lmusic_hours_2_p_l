@@ -1,0 +1,121 @@
+{
+    "id": "sai_ss_lmusic_hours_2_p_l",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "When listening to music for pleasure was not endorsed, values for the follow-up questions are missing. Here, missing values for  the  \"... how many...?\" follow-up questions have been replaced with \"0.\""
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Music"
+    },
+    "prefLabel": {
+        "en": "sai_ss_lmusic_hours_2_p_l"
+    },
+    "question": {
+        "en": "MusicAbout how many hours per week does your child spend listening to music for pleasure?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Less than 1 hour"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "1 hour or more, but less than 2 hours"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "2 hours or more, but less than 3 hours"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "3 hours or more, but less than 4 hours"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "4 hours or more, but less than 5 hours##/en####es##4 horas o m\u00c3\u00a1s, pero menus de 5 horas"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "5 hours or more, but less than 6 hours##/en####es##5 horas o m\u00c3\u00a1s, pero menos de 6 horas"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "6 hours or more, but less than 8 hours##/en####es##6 horas o m\u00c3\u00a1s, pero menos de 8 horas"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "8 hours or more, but less than 12 hours##/en####es##8 horas o m\u00c3\u00a1s, pero menos de 12 horas"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "12 hours or more, but less than 18 hours##/en####es##12 horas o m\u00c3\u00a1s, pero menos de 18 horas"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "18 hours or more, but less than 24 hours##/en####es##18 horas o m\u00c3\u00a1s, pero menus de 24 horas"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "24 hours or more, but less than 36 hours##/en####es##24 horas o m\u00c3\u00a1s, pero menos de 36 horas"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "36 hours or more, but less than 72 hours##/en####es##36 horas o m\u00c3\u00a1s, pero menos de 72 horas"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "More than 72 hours"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

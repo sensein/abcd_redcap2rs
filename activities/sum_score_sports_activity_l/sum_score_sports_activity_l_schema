@@ -96,8 +96,9 @@
             "items/sai_ss_collect_perwk_p_l",
             "items/sai_ss_collect_tspent_p_l",
             "items/sai_ss_lmusic_hours_p_l",
+            "items/sai_ss_lmusic_hours_2_p_l",
             "items/sai_ss_read_hours_p_l",
-            "items/sai_ss_met_tot_yr_p_l",
+            "items/sai_ss_read_hours_2_p_l",
             "items/sum_score_sports_activity_l_complete"
         ],
         "addProperties": [
@@ -636,16 +637,22 @@
                 "variableName": "sai_ss_lmusic_hours_p_l"
             },
             {
+                "isAbout": "items/sai_ss_lmusic_hours_2_p_l",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sai_ss_lmusic_hours_2_p_l"
+            },
+            {
                 "isAbout": "items/sai_ss_read_hours_p_l",
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "sai_ss_read_hours_p_l"
             },
             {
-                "isAbout": "items/sai_ss_met_tot_yr_p_l",
-                "isVis": true,
+                "isAbout": "items/sai_ss_read_hours_2_p_l",
+                "isVis": false,
                 "valueRequired": false,
-                "variableName": "sai_ss_met_tot_yr_p_l"
+                "variableName": "sai_ss_read_hours_2_p_l"
             },
             {
                 "isAbout": "items/sum_score_sports_activity_l_complete",
@@ -656,6 +663,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2442",
+    "version": "revid2443",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
