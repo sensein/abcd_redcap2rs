@@ -33,6 +33,7 @@
             "items/pls2_cbd_p",
             "items/pls2_cbd_ago_p",
             "items/pls2_cbd_product_p",
+            "items/pl2_cbd_warning_p",
             "items/pls2_p_notes",
             "items/pls2_p_date_year",
             "items/pls3_need_p",
@@ -58,6 +59,7 @@
             "items/pls3_cbd_p",
             "items/pls3_cbd_ago_p",
             "items/pls3_cbd_product_p",
+            "items/pls3_cbd_warning_p",
             "items/pls3_notes_p",
             "items/pls3_date_year_p",
             "items/pls4_need_p",
@@ -83,6 +85,7 @@
             "items/pls4_cbd_p",
             "items/pls4_cbd_ago_p",
             "items/pls4_cbd_product_p",
+            "items/pls4_cbd_warning_p",
             "items/pls4_notes_p",
             "items/pls4_date_year_p",
             "items/plus_day_2parent_complete"
@@ -245,6 +248,12 @@
                 "variableName": "pls2_cbd_product_p"
             },
             {
+                "isAbout": "items/pl2_cbd_warning_p",
+                "isVis": "pls2_cbd_p =='1'",
+                "valueRequired": false,
+                "variableName": "pl2_cbd_warning_p"
+            },
+            {
                 "isAbout": "items/pls2_p_notes",
                 "isVis": "pls2_need_p == '1'",
                 "valueRequired": false,
@@ -393,6 +402,12 @@
                 "isVis": "pls3_cbd_p == '1'",
                 "valueRequired": true,
                 "variableName": "pls3_cbd_product_p"
+            },
+            {
+                "isAbout": "items/pls3_cbd_warning_p",
+                "isVis": "pls3_cbd_p == '1'",
+                "valueRequired": false,
+                "variableName": "pls3_cbd_warning_p"
             },
             {
                 "isAbout": "items/pls3_notes_p",
@@ -545,6 +560,12 @@
                 "variableName": "pls4_cbd_product_p"
             },
             {
+                "isAbout": "items/pls4_cbd_warning_p",
+                "isVis": "pls4_cbd_p == '1'",
+                "valueRequired": false,
+                "variableName": "pls4_cbd_warning_p"
+            },
+            {
                 "isAbout": "items/pls4_notes_p",
                 "isVis": "pls4_need_p == '1'",
                 "valueRequired": false,
@@ -565,6 +586,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2446",
+    "version": "revid2447",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

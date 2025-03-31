@@ -290,27 +290,25 @@
             "../activities/p_ksads2daic_use_only/p_ksads2daic_use_only_schema",
             "../activities/y_blood_draw_results_daic_only/y_blood_draw_results_daic_only_schema",
             "../activities/y_blood_draw_findings_resolution/y_blood_draw_findings_resolution_schema",
-            "../activities/met_transform_sports_activity/met_transform_sports_activity_schema",
             "../activities/test_daic_only/test_daic_only_schema",
-            "../activities/pguid_error_tracking/pguid_error_tracking_schema",
             "../activities/mrs_checklist/mrs_checklist_schema",
-            "../activities/social_development_follow_up_parent_reported_delin/social_development_follow_up_parent_reported_delin_schema",
             "../activities/social_development_follow_up_visit_type/social_development_follow_up_visit_type_schema",
+            "../activities/social_development_follow_up_parent_reported_delin/social_development_follow_up_parent_reported_delin_schema",
             "../activities/social_development_follow_up_parent_firearms/social_development_follow_up_parent_firearms_schema",
+            "../activities/social_development_fu_parent_victimization/social_development_fu_parent_victimization_schema",
             "../activities/social_development_follow_up_parent_personality_di/social_development_follow_up_parent_personality_di_schema",
             "../activities/social_development_follow_up_parent_difficulties_i/social_development_follow_up_parent_difficulties_i_schema",
             "../activities/social_development_follow_up_parent_alabama_parent/social_development_follow_up_parent_alabama_parent_schema",
             "../activities/social_development_follow_up_parent_neighborhood/social_development_follow_up_parent_neighborhood_schema",
             "../activities/social_development_follow_up_parent_feedback/social_development_follow_up_parent_feedback_schema",
             "../activities/social_development_follow_up_child_reported_delinq/social_development_follow_up_child_reported_delinq_schema",
-            "../activities/social_development_fu_parent_victimization/social_development_fu_parent_victimization_schema",
             "../activities/social_development_follow_up_child_firearms/social_development_follow_up_child_firearms_schema",
+            "../activities/social_development_fu_child_victimization/social_development_fu_child_victimization_schema",
             "../activities/social_development_follow_up_child_personality_dis/social_development_follow_up_child_personality_dis_schema",
+            "../activities/social_development_follow_up_child_peer_behavior/social_development_follow_up_child_peer_behavior_schema",
             "../activities/social_development_follow_up_child_difficulties_in/social_development_follow_up_child_difficulties_in_schema",
             "../activities/social_development_follow_up_child_alabama_parenti/social_development_follow_up_child_alabama_parenti_schema",
-            "../activities/social_development_follow_up_child_feedback/social_development_follow_up_child_feedback_schema",
-            "../activities/social_development_fu_child_victimization/social_development_fu_child_victimization_schema",
-            "../activities/social_development_follow_up_child_peer_behavior/social_development_follow_up_child_peer_behavior_schema"
+            "../activities/social_development_follow_up_child_feedback/social_development_follow_up_child_feedback_schema"
         ],
         "addProperties": [
             {
@@ -2554,28 +2552,12 @@
                 "variableName": "y_blood_draw_findings_resolution_schema"
             },
             {
-                "isAbout": "../activities/met_transform_sports_activity/met_transform_sports_activity_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Met Transform Sports Activity"
-                },
-                "variableName": "met_transform_sports_activity_schema"
-            },
-            {
                 "isAbout": "../activities/test_daic_only/test_daic_only_schema",
                 "isVis": true,
                 "prefLabel": {
                     "en": "Test Daic Only"
                 },
                 "variableName": "test_daic_only_schema"
-            },
-            {
-                "isAbout": "../activities/pguid_error_tracking/pguid_error_tracking_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Pguid Error Tracking"
-                },
-                "variableName": "pguid_error_tracking_schema"
             },
             {
                 "isAbout": "../activities/mrs_checklist/mrs_checklist_schema",
@@ -2586,14 +2568,6 @@
                 "variableName": "mrs_checklist_schema"
             },
             {
-                "isAbout": "../activities/social_development_follow_up_parent_reported_delin/social_development_follow_up_parent_reported_delin_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Social Development Follow Up Parent Reported Delin"
-                },
-                "variableName": "social_development_follow_up_parent_reported_delin_schema"
-            },
-            {
                 "isAbout": "../activities/social_development_follow_up_visit_type/social_development_follow_up_visit_type_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -2602,12 +2576,28 @@
                 "variableName": "social_development_follow_up_visit_type_schema"
             },
             {
+                "isAbout": "../activities/social_development_follow_up_parent_reported_delin/social_development_follow_up_parent_reported_delin_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Social Development Follow Up Parent Reported Delin"
+                },
+                "variableName": "social_development_follow_up_parent_reported_delin_schema"
+            },
+            {
                 "isAbout": "../activities/social_development_follow_up_parent_firearms/social_development_follow_up_parent_firearms_schema",
                 "isVis": true,
                 "prefLabel": {
                     "en": "Social Development Follow Up Parent Firearms"
                 },
                 "variableName": "social_development_follow_up_parent_firearms_schema"
+            },
+            {
+                "isAbout": "../activities/social_development_fu_parent_victimization/social_development_fu_parent_victimization_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Social Development Fu Parent Victimization"
+                },
+                "variableName": "social_development_fu_parent_victimization_schema"
             },
             {
                 "isAbout": "../activities/social_development_follow_up_parent_personality_di/social_development_follow_up_parent_personality_di_schema",
@@ -2658,14 +2648,6 @@
                 "variableName": "social_development_follow_up_child_reported_delinq_schema"
             },
             {
-                "isAbout": "../activities/social_development_fu_parent_victimization/social_development_fu_parent_victimization_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Social Development Fu Parent Victimization"
-                },
-                "variableName": "social_development_fu_parent_victimization_schema"
-            },
-            {
                 "isAbout": "../activities/social_development_follow_up_child_firearms/social_development_follow_up_child_firearms_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -2674,12 +2656,28 @@
                 "variableName": "social_development_follow_up_child_firearms_schema"
             },
             {
+                "isAbout": "../activities/social_development_fu_child_victimization/social_development_fu_child_victimization_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Social Development Fu Child Victimization"
+                },
+                "variableName": "social_development_fu_child_victimization_schema"
+            },
+            {
                 "isAbout": "../activities/social_development_follow_up_child_personality_dis/social_development_follow_up_child_personality_dis_schema",
                 "isVis": true,
                 "prefLabel": {
                     "en": "Social Development Follow Up Child Personality Dis"
                 },
                 "variableName": "social_development_follow_up_child_personality_dis_schema"
+            },
+            {
+                "isAbout": "../activities/social_development_follow_up_child_peer_behavior/social_development_follow_up_child_peer_behavior_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Social Development Follow Up Child Peer Behavior"
+                },
+                "variableName": "social_development_follow_up_child_peer_behavior_schema"
             },
             {
                 "isAbout": "../activities/social_development_follow_up_child_difficulties_in/social_development_follow_up_child_difficulties_in_schema",
@@ -2704,26 +2702,10 @@
                     "en": "Social Development Follow Up Child Feedback"
                 },
                 "variableName": "social_development_follow_up_child_feedback_schema"
-            },
-            {
-                "isAbout": "../activities/social_development_fu_child_victimization/social_development_fu_child_victimization_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Social Development Fu Child Victimization"
-                },
-                "variableName": "social_development_fu_child_victimization_schema"
-            },
-            {
-                "isAbout": "../activities/social_development_follow_up_child_peer_behavior/social_development_follow_up_child_peer_behavior_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Social Development Follow Up Child Peer Behavior"
-                },
-                "variableName": "social_development_follow_up_child_peer_behavior_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2446",
+    "version": "revid2447",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

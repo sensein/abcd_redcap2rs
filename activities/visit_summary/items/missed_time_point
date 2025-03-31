@@ -5,14 +5,14 @@
         {
             "column": "Field Annotation",
             "source": "redcap",
-            "value": "HIDEFROMCOMPLETION20180301\r\n@HIDECHOICE = '4,6,7,9'"
+            "value": "HIDEFROMCOMPLETION20180301\r\n@HIDECHOICE = '4,6,7,9,11'"
         }
     ],
     "prefLabel": {
         "en": "missed_time_point"
     },
     "question": {
-        "en": "Reason for Missed Visit"
+        "en": "Reason for Missed Visit (Please choose all that apply)"
     },
     "responseOptions": {
         "choices": [
@@ -39,6 +39,18 @@
                     "en": "Refused"
                 },
                 "value": 4
+            },
+            {
+                "name": {
+                    "en": "Parent Refused to Participate"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Child Refused to Participate"
+                },
+                "value": 14
             },
             {
                 "name": {
@@ -89,12 +101,13 @@
                 "value": 9
             }
         ],
+        "multipleChoice": true,
         "valueType": [
             "xsd:integer"
         ]
     },
     "ui": {
-        "inputType": "select"
+        "inputType": "radio"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

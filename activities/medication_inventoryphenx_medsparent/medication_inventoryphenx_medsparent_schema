@@ -361,6 +361,7 @@
             "items/cbd_permission",
             "items/cbd_usage_time",
             "items/cbd_usage_type",
+            "items/cbd_use_warning",
             "items/comments",
             "items/medication_inventoryphenx_medsparent_complete"
         ],
@@ -2490,6 +2491,12 @@
                 "variableName": "cbd_usage_type"
             },
             {
+                "isAbout": "items/cbd_use_warning",
+                "isVis": "cbd_permission == '1'",
+                "valueRequired": false,
+                "variableName": "cbd_use_warning"
+            },
+            {
                 "isAbout": "items/comments",
                 "isVis": true,
                 "valueRequired": false,
@@ -2504,6 +2511,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2446",
+    "version": "revid2447",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

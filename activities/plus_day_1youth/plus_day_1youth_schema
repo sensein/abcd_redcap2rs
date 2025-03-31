@@ -35,6 +35,7 @@
             "items/pls1_cbd",
             "items/pls1_cbd_ago",
             "items/pls1_cbd_product",
+            "items/pls1_cbd_warning",
             "items/pls1_notes",
             "items/pls2_need",
             "items/pls2_sess",
@@ -70,6 +71,7 @@
             "items/pls2_cbd",
             "items/pls2_cbd_ago",
             "items/pls2_cbd_product",
+            "items/pls2_cbd_warning",
             "items/pls2_notes",
             "items/pls3_need",
             "items/pls3_sess",
@@ -99,6 +101,7 @@
             "items/pls3_cbd",
             "items/pls3_cbd_ago",
             "items/pls3_cbd_product",
+            "items/pls3_cbd_warning",
             "items/pls3_notes",
             "items/pls4_need",
             "items/pls4_sess",
@@ -296,6 +299,12 @@
                 "isVis": "pls1_cbd == '1'",
                 "valueRequired": true,
                 "variableName": "pls1_cbd_product"
+            },
+            {
+                "isAbout": "items/pls1_cbd_warning",
+                "isVis": "pls1_cbd == '1'",
+                "valueRequired": false,
+                "variableName": "pls1_cbd_warning"
             },
             {
                 "isAbout": "items/pls1_notes",
@@ -508,6 +517,12 @@
                 "variableName": "pls2_cbd_product"
             },
             {
+                "isAbout": "items/pls2_cbd_warning",
+                "isVis": "pls2_cbd == '1'",
+                "valueRequired": false,
+                "variableName": "pls2_cbd_warning"
+            },
+            {
                 "isAbout": "items/pls2_notes",
                 "isVis": "baseline_visits_num >= 2",
                 "valueRequired": false,
@@ -682,6 +697,12 @@
                 "variableName": "pls3_cbd_product"
             },
             {
+                "isAbout": "items/pls3_cbd_warning",
+                "isVis": "pls3_cbd == '1'",
+                "valueRequired": false,
+                "variableName": "pls3_cbd_warning"
+            },
+            {
                 "isAbout": "items/pls3_notes",
                 "isVis": "baseline_visits_num >= 3",
                 "valueRequired": false,
@@ -852,6 +873,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2446",
+    "version": "revid2447",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
