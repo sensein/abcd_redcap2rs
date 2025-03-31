@@ -15,6 +15,7 @@
             "items/biospec_blood_eos_abs_pipe",
             "items/biospec_blood_ferritin_pipe",
             "items/biospec_blood_plt_count_pipe_2",
+            "items/biospec_blood_alert_date",
             "items/biospec_blood_receiv",
             "items/biospec_blood_resolution_date",
             "items/biospec_blood_resolve",
@@ -72,6 +73,12 @@
                 "variableName": "biospec_blood_plt_count_pipe_2"
             },
             {
+                "isAbout": "items/biospec_blood_alert_date",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "biospec_blood_alert_date"
+            },
+            {
                 "isAbout": "items/biospec_blood_receiv",
                 "isVis": true,
                 "valueRequired": false,
@@ -110,6 +117,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2452",
+    "version": "revid2453",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
