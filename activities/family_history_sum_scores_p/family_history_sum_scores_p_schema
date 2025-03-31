@@ -1,0 +1,3384 @@
+{
+    "id": "family_history_sum_scores_p_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "family_history_sum_scores_p"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/famhx_ss_fath_prob_alc_p",
+            "items/famhx_ss_patgf_prob_alc_p",
+            "items/famhx_ss_patgm_prob_alc_p",
+            "items/famhx_ss_moth_prob_alc_p",
+            "items/famhx_ss_matgf_prob_alc_p",
+            "items/famhx_ss_matgm_prob_alc_p",
+            "items/famhx_ss_patunc1_prob_alc_p",
+            "items/famhx_ss_patunc2_prob_alc_p",
+            "items/famhx_ss_patunc3_prob_alc_p",
+            "items/famhx_ss_patunc4_prob_alc_p",
+            "items/famhx_ss_patunc5_prob_alc_p",
+            "items/famhx_ss_patant1_prob_alc_p",
+            "items/famhx_ss_patant2_prob_alc_p",
+            "items/famhx_ss_patant3_prob_alc_p",
+            "items/famhx_ss_patant4_prob_alc_p",
+            "items/famhx_ss_patant5_prob_alc_p",
+            "items/famhx_ss_matunc1_prob_alc_p",
+            "items/famhx_ss_matunc2_prob_alc_p",
+            "items/famhx_ss_matunc3_prob_alc_p",
+            "items/famhx_ss_matunc4_prob_alc_p",
+            "items/famhx_ss_matunc5_prob_alc_p",
+            "items/famhx_ss_matant1_prob_alc_p",
+            "items/famhx_ss_matant2_prob_alc_p",
+            "items/famhx_ss_matant3_prob_alc_p",
+            "items/famhx_ss_matant4_prob_alc_p",
+            "items/famhx_ss_matant5_prob_alc_p",
+            "items/famhx_ss_fulsiby1_prob_alc_p",
+            "items/famhx_ss_fulsiby2_prob_alc_p",
+            "items/famhx_ss_fulsiby3_prob_alc_p",
+            "items/famhx_ss_fulsiby4_prob_alc_p",
+            "items/famhx_ss_fulsiby5_prob_alc_p",
+            "items/famhx_ss_fulsibo1_prob_alc_p",
+            "items/famhx_ss_fulsibo2_prob_alc_p",
+            "items/famhx_ss_fulsibo3_prob_alc_p",
+            "items/famhx_ss_fulsibo4_prob_alc_p",
+            "items/famhx_ss_fulsibo5_prob_alc_p",
+            "items/famhx_ss_hlfsiby1_prob_alc_p",
+            "items/famhx_ss_hlfsiby2_prob_alc_p",
+            "items/famhx_ss_hlfsiby3_prob_alc_p",
+            "items/famhx_ss_hlfsiby4_prob_alc_p",
+            "items/famhx_ss_hlfsiby5_prob_alc_p",
+            "items/famhx_ss_hlfsibo1_prob_alc_p",
+            "items/famhx_ss_hlfsibo2_prob_alc_p",
+            "items/famhx_ss_hlfsibo3_prob_alc_p",
+            "items/famhx_ss_hlfsibo4_prob_alc_p",
+            "items/famhx_ss_hlfsibo5_prob_alc_p",
+            "items/famhx_ss_momdad_alc_p",
+            "items/famhx_ss_parent_alc_p",
+            "items/famhx_ss_fath_prob_drugs_p",
+            "items/famhx_ss_patgf_prob_drugs_p",
+            "items/famhx_ss_patgm_prob_drugs_p",
+            "items/famhx_ss_moth_prob_drugs_p",
+            "items/famhx_ss_matgf_prob_drugs_p",
+            "items/famhx_ss_matgm_prob_drugs_p",
+            "items/famhx_ss_patunc1_prob_drugs_p",
+            "items/famhx_ss_patunc2_prob_drugs_p",
+            "items/famhx_ss_patunc3_prob_drugs_p",
+            "items/famhx_ss_patunc4_prob_drugs_p",
+            "items/famhx_ss_patunc5_prob_drugs_p",
+            "items/famhx_ss_patant1_prob_drugs_p",
+            "items/famhx_ss_patant2_prob_drugs_p",
+            "items/famhx_ss_patant3_prob_drugs_p",
+            "items/famhx_ss_patant4_prob_drugs_p",
+            "items/famhx_ss_patant5_prob_drugs_p",
+            "items/famhx_ss_matunc1_prob_drugs_p",
+            "items/famhx_ss_matunc2_prob_drugs_p",
+            "items/famhx_ss_matunc3_prob_drugs_p",
+            "items/famhx_ss_matunc4_prob_drugs_p",
+            "items/famhx_ss_matunc5_prob_drugs_p",
+            "items/famhx_ss_matant1_prob_drugs_p",
+            "items/famhx_ss_matant2_prob_drugs_p",
+            "items/famhx_ss_matant3_prob_drugs_p",
+            "items/famhx_ss_matant4_prob_drugs_p",
+            "items/famhx_ss_matant5_prob_drugs_p",
+            "items/famhx_ss_fulsiby1_prob_drugs_p",
+            "items/famhx_ss_fulsiby2_prob_drugs_p",
+            "items/famhx_ss_fulsiby3_prob_drugs_p",
+            "items/famhx_ss_fulsiby4_prob_drugs_p",
+            "items/famhx_ss_fulsiby5_prob_drugs_p",
+            "items/famhx_ss_fulsibo1_prob_drugs_p",
+            "items/famhx_ss_fulsibo2_prob_drugs_p",
+            "items/famhx_ss_fulsibo3_prob_drugs_p",
+            "items/famhx_ss_fulsibo4_prob_drugs_p",
+            "items/famhx_ss_fulsibo5_prob_drugs_p",
+            "items/famhx_ss_hlfsiby1_prob_drugs_p",
+            "items/famhx_ss_hlfsiby2_prob_drugs_p",
+            "items/famhx_ss_hlfsiby3_prob_drugs_p",
+            "items/famhx_ss_hlfsiby4_prob_drugs_p",
+            "items/famhx_ss_hlfsiby5_prob_drugs_p",
+            "items/famhx_ss_hlfsibo1_prob_drugs_p",
+            "items/famhx_ss_hlfsibo2_prob_drugs_p",
+            "items/famhx_ss_hlfsibo3_prob_drugs_p",
+            "items/famhx_ss_hlfsibo4_prob_drugs_p",
+            "items/famhx_ss_hlfsibo5_prob_drugs_p",
+            "items/famhx_ss_momdad_drugs_p",
+            "items/famhx_ss_parent_drugs_p",
+            "items/famhx_ss_fath_prob_depression_p",
+            "items/famhx_ss_patgf_prob_depression_p",
+            "items/famhx_ss_patgm_prob_depression_p",
+            "items/famhx_ss_moth_prob_depression_p",
+            "items/famhx_ss_matgf_prob_depression_p",
+            "items/famhx_ss_matgm_prob_depression_p",
+            "items/famhx_ss_patunc1_prob_depression_p",
+            "items/famhx_ss_patunc2_prob_depression_p",
+            "items/famhx_ss_patunc3_prob_depression_p",
+            "items/famhx_ss_patunc4_prob_depression_p",
+            "items/famhx_ss_patunc5_prob_depression_p",
+            "items/famhx_ss_patant1_prob_depression_p",
+            "items/famhx_ss_patant2_prob_depression_p",
+            "items/famhx_ss_patant3_prob_depression_p",
+            "items/famhx_ss_patant4_prob_depression_p",
+            "items/famhx_ss_patant5_prob_depression_p",
+            "items/famhx_ss_matunc1_prob_depression_p",
+            "items/famhx_ss_matunc2_prob_depression_p",
+            "items/famhx_ss_matunc3_prob_depression_p",
+            "items/famhx_ss_matunc4_prob_depression_p",
+            "items/famhx_ss_matunc5_prob_depression_p",
+            "items/famhx_ss_matant1_prob_depression_p",
+            "items/famhx_ss_matant2_prob_depression_p",
+            "items/famhx_ss_matant3_prob_depression_p",
+            "items/famhx_ss_matant4_prob_depression_p",
+            "items/famhx_ss_matant5_prob_depression_p",
+            "items/famhx_ss_fulsiby1_prob_depression_p",
+            "items/famhx_ss_fulsiby2_prob_depression_p",
+            "items/famhx_ss_fulsiby3_prob_depression_p",
+            "items/famhx_ss_fulsiby4_prob_depression_p",
+            "items/famhx_ss_fulsiby5_prob_depression_p",
+            "items/famhx_ss_fulsibo1_prob_depression_p",
+            "items/famhx_ss_fulsibo2_prob_depression_p",
+            "items/famhx_ss_fulsibo3_prob_depression_p",
+            "items/famhx_ss_fulsibo4_prob_depression_p",
+            "items/famhx_ss_fulsibo5_prob_depression_p",
+            "items/famhx_ss_hlfsiby1_prob_depression_p",
+            "items/famhx_ss_hlfsiby2_prob_depression_p",
+            "items/famhx_ss_hlfsiby3_prob_depression_p",
+            "items/famhx_ss_hlfsiby4_prob_depression_p",
+            "items/famhx_ss_hlfsiby5_prob_depression_p",
+            "items/famhx_ss_hlfsibo1_prob_depression_p",
+            "items/famhx_ss_hlfsibo2_prob_depression_p",
+            "items/famhx_ss_hlfsibo3_prob_depression_p",
+            "items/famhx_ss_hlfsibo4_prob_depression_p",
+            "items/famhx_ss_hlfsibo5_prob_depression_p",
+            "items/famhx_ss_momdad_depression_p",
+            "items/famhx_ss_parent_depression_p",
+            "items/famhx_ss_fath_prob_mania_p",
+            "items/famhx_ss_patgf_prob_mania_p",
+            "items/famhx_ss_patgm_prob_mania_p",
+            "items/famhx_ss_moth_prob_mania_p",
+            "items/famhx_ss_matgf_prob_mania_p",
+            "items/famhx_ss_matgm_prob_mania_p",
+            "items/famhx_ss_patunc1_prob_mania_p",
+            "items/famhx_ss_patunc2_prob_mania_p",
+            "items/famhx_ss_patunc3_prob_mania_p",
+            "items/famhx_ss_patunc4_prob_mania_p",
+            "items/famhx_ss_patunc5_prob_mania_p",
+            "items/famhx_ss_patant1_prob_mania_p",
+            "items/famhx_ss_patant2_prob_mania_p",
+            "items/famhx_ss_patant3_prob_mania_p",
+            "items/famhx_ss_patant4_prob_mania_p",
+            "items/famhx_ss_patant5_prob_mania_p",
+            "items/famhx_ss_matunc1_prob_mania_p",
+            "items/famhx_ss_matunc2_prob_mania_p",
+            "items/famhx_ss_matunc3_prob_mania_p",
+            "items/famhx_ss_matunc4_prob_mania_p",
+            "items/famhx_ss_matunc5_prob_mania_p",
+            "items/famhx_ss_matant1_prob_mania_p",
+            "items/famhx_ss_matant2_prob_mania_p",
+            "items/famhx_ss_matant3_prob_mania_p",
+            "items/famhx_ss_matant4_prob_mania_p",
+            "items/famhx_ss_matant5_prob_mania_p",
+            "items/famhx_ss_fulsiby1_prob_mania_p",
+            "items/famhx_ss_fulsiby2_prob_mania_p",
+            "items/famhx_ss_fulsiby3_prob_mania_p",
+            "items/famhx_ss_fulsiby4_prob_mania_p",
+            "items/famhx_ss_fulsiby5_prob_mania_p",
+            "items/famhx_ss_fulsibo1_prob_mania_p",
+            "items/famhx_ss_fulsibo2_prob_mania_p",
+            "items/famhx_ss_fulsibo3_prob_mania_p",
+            "items/famhx_ss_fulsibo4_prob_mania_p",
+            "items/famhx_ss_fulsibo5_prob_mania_p",
+            "items/famhx_ss_hlfsiby1_prob_mania_p",
+            "items/famhx_ss_hlfsiby2_prob_mania_p",
+            "items/famhx_ss_hlfsiby3_prob_mania_p",
+            "items/famhx_ss_hlfsiby4_prob_mania_p",
+            "items/famhx_ss_hlfsiby5_prob_mania_p",
+            "items/famhx_ss_hlfsibo1_prob_mania_p",
+            "items/famhx_ss_hlfsibo2_prob_mania_p",
+            "items/famhx_ss_hlfsibo3_prob_mania_p",
+            "items/famhx_ss_hlfsibo4_prob_mania_p",
+            "items/famhx_ss_hlfsibo5_prob_mania_p",
+            "items/famhx_ss_momdad_mania_p",
+            "items/famhx_ss_parent_mania_p",
+            "items/famhx_ss_fath_prob_visions_p",
+            "items/famhx_ss_patgf_prob_visions_p",
+            "items/famhx_ss_patgm_prob_visions_p",
+            "items/famhx_ss_moth_prob_visions_p",
+            "items/famhx_ss_matgf_prob_visions_p",
+            "items/famhx_ss_matgm_prob_visions_p",
+            "items/famhx_ss_patunc1_prob_visions_p",
+            "items/famhx_ss_patunc2_prob_visions_p",
+            "items/famhx_ss_patunc3_prob_visions_p",
+            "items/famhx_ss_patunc4_prob_visions_p",
+            "items/famhx_ss_patunc5_prob_visions_p",
+            "items/famhx_ss_patant1_prob_visions_p",
+            "items/famhx_ss_patant2_prob_visions_p",
+            "items/famhx_ss_patant3_prob_visions_p",
+            "items/famhx_ss_patant4_prob_visions_p",
+            "items/famhx_ss_patant5_prob_visions_p",
+            "items/famhx_ss_matunc1_prob_visions_p",
+            "items/famhx_ss_matunc2_prob_visions_p",
+            "items/famhx_ss_matunc3_prob_visions_p",
+            "items/famhx_ss_matunc4_prob_visions_p",
+            "items/famhx_ss_matunc5_prob_visions_p",
+            "items/famhx_ss_matant1_prob_visions_p",
+            "items/famhx_ss_matant2_prob_visions_p",
+            "items/famhx_ss_matant3_prob_visions_p",
+            "items/famhx_ss_matant4_prob_visions_p",
+            "items/famhx_ss_matant5_prob_visions_p",
+            "items/famhx_ss_fulsiby1_prob_visions_p",
+            "items/famhx_ss_fulsiby2_prob_visions_p",
+            "items/famhx_ss_fulsiby3_prob_visions_p",
+            "items/famhx_ss_fulsiby4_prob_visions_p",
+            "items/famhx_ss_fulsiby5_prob_visions_p",
+            "items/famhx_ss_fulsibo1_prob_visions_p",
+            "items/famhx_ss_fulsibo2_prob_visions_p",
+            "items/famhx_ss_fulsibo3_prob_visions_p",
+            "items/famhx_ss_fulsibo4_prob_visions_p",
+            "items/famhx_ss_fulsibo5_prob_visions_p",
+            "items/famhx_ss_hlfsiby1_prob_visions_p",
+            "items/famhx_ss_hlfsiby2_prob_visions_p",
+            "items/famhx_ss_hlfsiby3_prob_visions_p",
+            "items/famhx_ss_hlfsiby4_prob_visions_p",
+            "items/famhx_ss_hlfsiby5_prob_visions_p",
+            "items/famhx_ss_hlfsibo1_prob_visions_p",
+            "items/famhx_ss_hlfsibo2_prob_visions_p",
+            "items/famhx_ss_hlfsibo3_prob_visions_p",
+            "items/famhx_ss_hlfsibo4_prob_visions_p",
+            "items/famhx_ss_hlfsibo5_prob_visions_p",
+            "items/famhx_ss_momdad_visions_p",
+            "items/famhx_ss_parent_visions_p",
+            "items/famhx_ss_fath_prob_trouble_p",
+            "items/famhx_ss_patgf_prob_trouble_p",
+            "items/famhx_ss_patgm_prob_trouble_p",
+            "items/famhx_ss_moth_prob_trouble_p",
+            "items/famhx_ss_matgf_prob_trouble_p",
+            "items/famhx_ss_matgm_prob_trouble_p",
+            "items/famhx_ss_patunc1_prob_trouble_p",
+            "items/famhx_ss_patunc2_prob_trouble_p",
+            "items/famhx_ss_patunc3_prob_trouble_p",
+            "items/famhx_ss_patunc4_prob_trouble_p",
+            "items/famhx_ss_patunc5_prob_trouble_p",
+            "items/famhx_ss_patant1_prob_trouble_p",
+            "items/famhx_ss_patant2_prob_trouble_p",
+            "items/famhx_ss_patant3_prob_trouble_p",
+            "items/famhx_ss_patant4_prob_trouble_p",
+            "items/famhx_ss_patant5_prob_trouble_p",
+            "items/famhx_ss_matunc1_prob_trouble_p",
+            "items/famhx_ss_matunc2_prob_trouble_p",
+            "items/famhx_ss_matunc3_prob_trouble_p",
+            "items/famhx_ss_matunc4_prob_trouble_p",
+            "items/famhx_ss_matunc5_prob_trouble_p",
+            "items/famhx_ss_matant1_prob_trouble_p",
+            "items/famhx_ss_matant2_prob_trouble_p",
+            "items/famhx_ss_matant3_prob_trouble_p",
+            "items/famhx_ss_matant4_prob_trouble_p",
+            "items/famhx_ss_matant5_prob_trouble_p",
+            "items/famhx_ss_fulsiby1_prob_trouble_p",
+            "items/famhx_ss_fulsiby2_prob_trouble_p",
+            "items/famhx_ss_fulsiby3_prob_trouble_p",
+            "items/famhx_ss_fulsiby4_prob_trouble_p",
+            "items/famhx_ss_fulsiby5_prob_trouble_p",
+            "items/famhx_ss_fulsibo1_prob_trouble_p",
+            "items/famhx_ss_fulsibo2_prob_trouble_p",
+            "items/famhx_ss_fulsibo3_prob_trouble_p",
+            "items/famhx_ss_fulsibo4_prob_trouble_p",
+            "items/famhx_ss_fulsibo5_prob_trouble_p",
+            "items/famhx_ss_hlfsiby1_prob_trouble_p",
+            "items/famhx_ss_hlfsiby2_prob_trouble_p",
+            "items/famhx_ss_hlfsiby3_prob_trouble_p",
+            "items/famhx_ss_hlfsiby4_prob_trouble_p",
+            "items/famhx_ss_hlfsiby5_prob_trouble_p",
+            "items/famhx_ss_hlfsibo1_prob_trouble_p",
+            "items/famhx_ss_hlfsibo2_prob_trouble_p",
+            "items/famhx_ss_hlfsibo3_prob_trouble_p",
+            "items/famhx_ss_hlfsibo4_prob_trouble_p",
+            "items/famhx_ss_hlfsibo5_prob_trouble_p",
+            "items/famhx_ss_momdad_trouble_p",
+            "items/famhx_ss_parent_trouble_p",
+            "items/famhx_ss_fath_prob_nerves_p",
+            "items/famhx_ss_patgf_prob_nerves_p",
+            "items/famhx_ss_patgm_prob_nerves_p",
+            "items/famhx_ss_moth_prob_nerves_p",
+            "items/famhx_ss_matgf_prob_nerves_p",
+            "items/famhx_ss_matgm_prob_nerves_p",
+            "items/famhx_ss_patunc1_prob_nerves_p",
+            "items/famhx_ss_patunc2_prob_nerves_p",
+            "items/famhx_ss_patunc3_prob_nerves_p",
+            "items/famhx_ss_patunc4_prob_nerves_p",
+            "items/famhx_ss_patunc5_prob_nerves_p",
+            "items/famhx_ss_patant1_prob_nerves_p",
+            "items/famhx_ss_patant2_prob_nerves_p",
+            "items/famhx_ss_patant3_prob_nerves_p",
+            "items/famhx_ss_patant4_prob_nerves_p",
+            "items/famhx_ss_patant5_prob_nerves_p",
+            "items/famhx_ss_matunc1_prob_nerves_p",
+            "items/famhx_ss_matunc2_prob_nerves_p",
+            "items/famhx_ss_matunc3_prob_nerves_p",
+            "items/famhx_ss_matunc4_prob_nerves_p",
+            "items/famhx_ss_matunc5_prob_nerves_p",
+            "items/famhx_ss_matant1_prob_nerves_p",
+            "items/famhx_ss_matant2_prob_nerves_p",
+            "items/famhx_ss_matant3_prob_nerves_p",
+            "items/famhx_ss_matant4_prob_nerves_p",
+            "items/famhx_ss_matant5_prob_nerves_p",
+            "items/famhx_ss_fulsiby1_prob_nerves_p",
+            "items/famhx_ss_fulsiby2_prob_nerves_p",
+            "items/famhx_ss_fulsiby3_prob_nerves_p",
+            "items/famhx_ss_fulsiby4_prob_nerves_p",
+            "items/famhx_ss_fulsiby5_prob_nerves_p",
+            "items/famhx_ss_fulsibo1_prob_nerves_p",
+            "items/famhx_ss_fulsibo2_prob_nerves_p",
+            "items/famhx_ss_fulsibo3_prob_nerves_p",
+            "items/famhx_ss_fulsibo4_prob_nerves_p",
+            "items/famhx_ss_fulsibo5_prob_nerves_p",
+            "items/famhx_ss_hlfsiby1_prob_nerves_p",
+            "items/famhx_ss_hlfsiby2_prob_nerves_p",
+            "items/famhx_ss_hlfsiby3_prob_nerves_p",
+            "items/famhx_ss_hlfsiby4_prob_nerves_p",
+            "items/famhx_ss_hlfsiby5_prob_nerves_p",
+            "items/famhx_ss_hlfsibo1_prob_nerves_p",
+            "items/famhx_ss_hlfsibo2_prob_nerves_p",
+            "items/famhx_ss_hlfsibo3_prob_nerves_p",
+            "items/famhx_ss_hlfsibo4_prob_nerves_p",
+            "items/famhx_ss_hlfsibo5_prob_nerves_p",
+            "items/famhx_ss_momdad_nerves_p",
+            "items/famhx_ss_parent_nerves_p",
+            "items/famhx_ss_fath_prob_professional_p",
+            "items/famhx_ss_patgf_prob_professional_p",
+            "items/famhx_ss_patgm_prob_professional_p",
+            "items/famhx_ss_moth_prob_professional_p",
+            "items/famhx_ss_matgf_prob_professional_p",
+            "items/famhx_ss_matgm_prob_professional_p",
+            "items/famhx_ss_patunc1_prob_professional_p",
+            "items/famhx_ss_patunc2_prob_professional_p",
+            "items/famhx_ss_patunc3_prob_professional_p",
+            "items/famhx_ss_patunc4_prob_professional_p",
+            "items/famhx_ss_patunc5_prob_professional_p",
+            "items/famhx_ss_patant1_prob_professional_p",
+            "items/famhx_ss_patant2_prob_professional_p",
+            "items/famhx_ss_patant3_prob_professional_p",
+            "items/famhx_ss_patant4_prob_professional_p",
+            "items/famhx_ss_patant5_prob_professional_p",
+            "items/famhx_ss_matunc1_prob_professional_p",
+            "items/famhx_ss_matunc2_prob_professional_p",
+            "items/famhx_ss_matunc3_prob_professional_p",
+            "items/famhx_ss_matunc4_prob_professional_p",
+            "items/famhx_ss_matunc5_prob_professional_p",
+            "items/famhx_ss_matant1_prob_professional_p",
+            "items/famhx_ss_matant2_prob_professional_p",
+            "items/famhx_ss_matant3_prob_professional_p",
+            "items/famhx_ss_matant4_prob_professional_p",
+            "items/famhx_ss_matant5_prob_professional_p",
+            "items/famhx_ss_fulsiby1_prob_professional_p",
+            "items/famhx_ss_fulsiby2_prob_professional_p",
+            "items/famhx_ss_fulsiby3_prob_professional_p",
+            "items/famhx_ss_fulsiby4_prob_professional_p",
+            "items/famhx_ss_fulsiby5_prob_professional_p",
+            "items/famhx_ss_fulsibo1_prob_professional_p",
+            "items/famhx_ss_fulsibo2_prob_professional_p",
+            "items/famhx_ss_fulsibo3_prob_professional_p",
+            "items/famhx_ss_fulsibo4_prob_professional_p",
+            "items/famhx_ss_fulsibo5_prob_professional_p",
+            "items/famhx_ss_hlfsiby1_prob_professional_p",
+            "items/famhx_ss_hlfsiby2_prob_professional_p",
+            "items/famhx_ss_hlfsiby3_prob_professional_p",
+            "items/famhx_ss_hlfsiby4_prob_professional_p",
+            "items/famhx_ss_hlfsiby5_prob_professional_p",
+            "items/famhx_ss_hlfsibo1_prob_professional_p",
+            "items/famhx_ss_hlfsibo2_prob_professional_p",
+            "items/famhx_ss_hlfsibo3_prob_professional_p",
+            "items/famhx_ss_hlfsibo4_prob_professional_p",
+            "items/famhx_ss_hlfsibo5_prob_professional_p",
+            "items/famhx_ss_momdad_professional_p",
+            "items/famhx_ss_parent_professional_p",
+            "items/famhx_ss_fath_prob_hospitalized_p",
+            "items/famhx_ss_patgf_prob_hospitalized_p",
+            "items/famhx_ss_patgm_prob_hospitalized_p",
+            "items/famhx_ss_moth_prob_hospitalized_p",
+            "items/famhx_ss_matgf_prob_hospitalized_p",
+            "items/famhx_ss_matgm_prob_hospitalized_p",
+            "items/famhx_ss_patunc1_prob_hospitalized_p",
+            "items/famhx_ss_patunc2_prob_hospitalized_p",
+            "items/famhx_ss_patunc3_prob_hospitalized_p",
+            "items/famhx_ss_patunc4_prob_hospitalized_p",
+            "items/famhx_ss_patunc5_prob_hospitalized_p",
+            "items/famhx_ss_patant1_prob_hospitalized_p",
+            "items/famhx_ss_patant2_prob_hospitalized_p",
+            "items/famhx_ss_patant3_prob_hospitalized_p",
+            "items/famhx_ss_patant4_prob_hospitalized_p",
+            "items/famhx_ss_patant5_prob_hospitalized_p",
+            "items/famhx_ss_matunc1_prob_hospitalized_p",
+            "items/famhx_ss_matunc2_prob_hospitalized_p",
+            "items/famhx_ss_matunc3_prob_hospitalized_p",
+            "items/famhx_ss_matunc4_prob_hospitalized_p",
+            "items/famhx_ss_matunc5_prob_hospitalized_p",
+            "items/famhx_ss_matant1_prob_hospitalized_p",
+            "items/famhx_ss_matant2_prob_hospitalized_p",
+            "items/famhx_ss_matant3_prob_hospitalized_p",
+            "items/famhx_ss_matant4_prob_hospitalized_p",
+            "items/famhx_ss_matant5_prob_hospitalized_p",
+            "items/famhx_ss_fulsiby1_prob_hospitalized_p",
+            "items/famhx_ss_fulsiby2_prob_hospitalized_p",
+            "items/famhx_ss_fulsiby3_prob_hospitalized_p",
+            "items/famhx_ss_fulsiby4_prob_hospitalized_p",
+            "items/famhx_ss_fulsiby5_prob_hospitalized_p",
+            "items/famhx_ss_fulsibo1_prob_hospitalized_p",
+            "items/famhx_ss_fulsibo2_prob_hospitalized_p",
+            "items/famhx_ss_fulsibo3_prob_hospitalized_p",
+            "items/famhx_ss_fulsibo4_prob_hospitalized_p",
+            "items/famhx_ss_fulsibo5_prob_hospitalized_p",
+            "items/famhx_ss_hlfsiby1_prob_hospitalized_p",
+            "items/famhx_ss_hlfsiby2_prob_hospitalized_p",
+            "items/famhx_ss_hlfsiby3_prob_hospitalized_p",
+            "items/famhx_ss_hlfsiby4_prob_hospitalized_p",
+            "items/famhx_ss_hlfsiby5_prob_hospitalized_p",
+            "items/famhx_ss_hlfsibo1_prob_hospitalized_p",
+            "items/famhx_ss_hlfsibo2_prob_hospitalized_p",
+            "items/famhx_ss_hlfsibo3_prob_hospitalized_p",
+            "items/famhx_ss_hlfsibo4_prob_hospitalized_p",
+            "items/famhx_ss_hlfsibo5_prob_hospitalized_p",
+            "items/famhx_ss_momdad_hospitalized_p",
+            "items/famhx_ss_parent_hospitalized_p",
+            "items/famhx_ss_fath_prob_suicide_p",
+            "items/famhx_ss_patgf_prob_suicide_p",
+            "items/famhx_ss_patgm_prob_suicide_p",
+            "items/famhx_ss_moth_prob_suicide_p",
+            "items/famhx_ss_matgf_prob_suicide_p",
+            "items/famhx_ss_matgm_prob_suicide_p",
+            "items/famhx_ss_patunc1_prob_suicide_p",
+            "items/famhx_ss_patunc2_prob_suicide_p",
+            "items/famhx_ss_patunc3_prob_suicide_p",
+            "items/famhx_ss_patunc4_prob_suicide_p",
+            "items/famhx_ss_patunc5_prob_suicide_p",
+            "items/famhx_ss_patant1_prob_suicide_p",
+            "items/famhx_ss_patant2_prob_suicide_p",
+            "items/famhx_ss_patant3_prob_suicide_p",
+            "items/famhx_ss_patant4_prob_suicide_p",
+            "items/famhx_ss_patant5_prob_suicide_p",
+            "items/famhx_ss_matunc1_prob_suicide_p",
+            "items/famhx_ss_matunc2_prob_suicide_p",
+            "items/famhx_ss_matunc3_prob_suicide_p",
+            "items/famhx_ss_matunc4_prob_suicide_p",
+            "items/famhx_ss_matunc5_prob_suicide_p",
+            "items/famhx_ss_matant1_prob_suicide_p",
+            "items/famhx_ss_matant2_prob_suicide_p",
+            "items/famhx_ss_matant3_prob_suicide_p",
+            "items/famhx_ss_matant4_prob_suicide_p",
+            "items/famhx_ss_matant5_prob_suicide_p",
+            "items/famhx_ss_fulsiby1_prob_suicide_p",
+            "items/famhx_ss_fulsiby2_prob_suicide_p",
+            "items/famhx_ss_fulsiby3_prob_suicide_p",
+            "items/famhx_ss_fulsiby4_prob_suicide_p",
+            "items/famhx_ss_fulsiby5_prob_suicide_p",
+            "items/famhx_ss_fulsibo1_prob_suicide_p",
+            "items/famhx_ss_fulsibo2_prob_suicide_p",
+            "items/famhx_ss_fulsibo3_prob_suicide_p",
+            "items/famhx_ss_fulsibo4_prob_suicide_p",
+            "items/famhx_ss_fulsibo5_prob_suicide_p",
+            "items/famhx_ss_hlfsiby1_prob_suicide_p",
+            "items/famhx_ss_hlfsiby2_prob_suicide_p",
+            "items/famhx_ss_hlfsiby3_prob_suicide_p",
+            "items/famhx_ss_hlfsiby4_prob_suicide_p",
+            "items/famhx_ss_hlfsiby5_prob_suicide_p",
+            "items/famhx_ss_hlfsibo1_prob_suicide_p",
+            "items/famhx_ss_hlfsibo2_prob_suicide_p",
+            "items/famhx_ss_hlfsibo3_prob_suicide_p",
+            "items/famhx_ss_hlfsibo4_prob_suicide_p",
+            "items/famhx_ss_hlfsibo5_prob_suicide_p",
+            "items/famhx_ss_momdad_suicide_p",
+            "items/famhx_ss_parent_suicide_p",
+            "items/family_history_sum_scores_p_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/famhx_ss_fath_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fath_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patgf_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patgf_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patgm_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patgm_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_moth_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_moth_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matgf_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matgf_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matgm_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matgm_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc1_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc1_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc2_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc2_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc3_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc3_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc4_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc4_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc5_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc5_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant1_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant1_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant2_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant2_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant3_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant3_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant4_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant4_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant5_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant5_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc1_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc1_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc2_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc2_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc3_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc3_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc4_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc4_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc5_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc5_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant1_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant1_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant2_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant2_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant3_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant3_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant4_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant4_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant5_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant5_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby1_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby1_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby2_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby2_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby3_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby3_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby4_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby4_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby5_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby5_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo1_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo1_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo2_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo2_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo3_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo3_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo4_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo4_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo5_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo5_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby1_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby1_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby2_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby2_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby3_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby3_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby4_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby4_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby5_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby5_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo1_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo1_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo2_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo2_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo3_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo3_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo4_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo4_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo5_prob_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo5_prob_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_momdad_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_momdad_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_parent_alc_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_parent_alc_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fath_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fath_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patgf_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patgf_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patgm_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patgm_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_moth_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_moth_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matgf_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matgf_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matgm_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matgm_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc1_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc1_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc2_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc2_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc3_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc3_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc4_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc4_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc5_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc5_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant1_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant1_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant2_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant2_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant3_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant3_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant4_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant4_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant5_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant5_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc1_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc1_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc2_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc2_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc3_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc3_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc4_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc4_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc5_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc5_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant1_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant1_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant2_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant2_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant3_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant3_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant4_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant4_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant5_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant5_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby1_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby1_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby2_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby2_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby3_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby3_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby4_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby4_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby5_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby5_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo1_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo1_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo2_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo2_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo3_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo3_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo4_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo4_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo5_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo5_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby1_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby1_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby2_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby2_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby3_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby3_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby4_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby4_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby5_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby5_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo1_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo1_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo2_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo2_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo3_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo3_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo4_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo4_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo5_prob_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo5_prob_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_momdad_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_momdad_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_parent_drugs_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_parent_drugs_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fath_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fath_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patgf_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patgf_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patgm_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patgm_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_moth_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_moth_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matgf_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matgf_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matgm_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matgm_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc1_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc1_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc2_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc2_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc3_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc3_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc4_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc4_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc5_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc5_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant1_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant1_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant2_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant2_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant3_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant3_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant4_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant4_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant5_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant5_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc1_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc1_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc2_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc2_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc3_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc3_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc4_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc4_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc5_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc5_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant1_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant1_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant2_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant2_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant3_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant3_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant4_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant4_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant5_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant5_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby1_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby1_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby2_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby2_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby3_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby3_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby4_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby4_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby5_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby5_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo1_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo1_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo2_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo2_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo3_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo3_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo4_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo4_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo5_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo5_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby1_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby1_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby2_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby2_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby3_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby3_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby4_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby4_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby5_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby5_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo1_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo1_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo2_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo2_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo3_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo3_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo4_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo4_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo5_prob_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo5_prob_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_momdad_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_momdad_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_parent_depression_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_parent_depression_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fath_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fath_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patgf_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patgf_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patgm_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patgm_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_moth_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_moth_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matgf_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matgf_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matgm_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matgm_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc1_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc1_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc2_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc2_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc3_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc3_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc4_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc4_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc5_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc5_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant1_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant1_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant2_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant2_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant3_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant3_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant4_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant4_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant5_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant5_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc1_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc1_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc2_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc2_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc3_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc3_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc4_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc4_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc5_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc5_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant1_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant1_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant2_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant2_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant3_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant3_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant4_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant4_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant5_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant5_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby1_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby1_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby2_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby2_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby3_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby3_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby4_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby4_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby5_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby5_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo1_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo1_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo2_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo2_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo3_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo3_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo4_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo4_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo5_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo5_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby1_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby1_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby2_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby2_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby3_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby3_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby4_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby4_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby5_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby5_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo1_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo1_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo2_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo2_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo3_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo3_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo4_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo4_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo5_prob_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo5_prob_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_momdad_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_momdad_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_parent_mania_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_parent_mania_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fath_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fath_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patgf_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patgf_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patgm_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patgm_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_moth_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_moth_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matgf_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matgf_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matgm_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matgm_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc1_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc1_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc2_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc2_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc3_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc3_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc4_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc4_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc5_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc5_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant1_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant1_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant2_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant2_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant3_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant3_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant4_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant4_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant5_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant5_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc1_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc1_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc2_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc2_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc3_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc3_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc4_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc4_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc5_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc5_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant1_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant1_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant2_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant2_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant3_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant3_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant4_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant4_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant5_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant5_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby1_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby1_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby2_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby2_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby3_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby3_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby4_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby4_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby5_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby5_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo1_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo1_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo2_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo2_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo3_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo3_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo4_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo4_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo5_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo5_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby1_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby1_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby2_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby2_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby3_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby3_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby4_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby4_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby5_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby5_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo1_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo1_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo2_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo2_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo3_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo3_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo4_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo4_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo5_prob_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo5_prob_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_momdad_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_momdad_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_parent_visions_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_parent_visions_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fath_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fath_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patgf_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patgf_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patgm_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patgm_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_moth_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_moth_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matgf_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matgf_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matgm_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matgm_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc1_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc1_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc2_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc2_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc3_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc3_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc4_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc4_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc5_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc5_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant1_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant1_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant2_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant2_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant3_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant3_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant4_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant4_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant5_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant5_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc1_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc1_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc2_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc2_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc3_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc3_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc4_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc4_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc5_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc5_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant1_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant1_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant2_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant2_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant3_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant3_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant4_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant4_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant5_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant5_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby1_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby1_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby2_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby2_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby3_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby3_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby4_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby4_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby5_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby5_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo1_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo1_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo2_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo2_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo3_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo3_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo4_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo4_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo5_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo5_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby1_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby1_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby2_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby2_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby3_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby3_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby4_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby4_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby5_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby5_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo1_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo1_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo2_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo2_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo3_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo3_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo4_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo4_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo5_prob_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo5_prob_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_momdad_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_momdad_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_parent_trouble_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_parent_trouble_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fath_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fath_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patgf_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patgf_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patgm_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patgm_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_moth_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_moth_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matgf_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matgf_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matgm_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matgm_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc1_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc1_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc2_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc2_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc3_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc3_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc4_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc4_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc5_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc5_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant1_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant1_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant2_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant2_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant3_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant3_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant4_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant4_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant5_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant5_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc1_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc1_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc2_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc2_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc3_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc3_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc4_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc4_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc5_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc5_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant1_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant1_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant2_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant2_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant3_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant3_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant4_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant4_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant5_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant5_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby1_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby1_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby2_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby2_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby3_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby3_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby4_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby4_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby5_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby5_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo1_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo1_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo2_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo2_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo3_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo3_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo4_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo4_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo5_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo5_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby1_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby1_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby2_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby2_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby3_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby3_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby4_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby4_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby5_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby5_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo1_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo1_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo2_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo2_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo3_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo3_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo4_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo4_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo5_prob_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo5_prob_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_momdad_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_momdad_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_parent_nerves_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_parent_nerves_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fath_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fath_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patgf_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patgf_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patgm_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patgm_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_moth_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_moth_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matgf_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matgf_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matgm_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matgm_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc1_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc1_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc2_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc2_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc3_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc3_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc4_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc4_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc5_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc5_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant1_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant1_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant2_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant2_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant3_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant3_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant4_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant4_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant5_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant5_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc1_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc1_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc2_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc2_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc3_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc3_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc4_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc4_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc5_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc5_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant1_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant1_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant2_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant2_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant3_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant3_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant4_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant4_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant5_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant5_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby1_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby1_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby2_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby2_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby3_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby3_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby4_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby4_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby5_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby5_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo1_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo1_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo2_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo2_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo3_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo3_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo4_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo4_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo5_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo5_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby1_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby1_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby2_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby2_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby3_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby3_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby4_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby4_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby5_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby5_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo1_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo1_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo2_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo2_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo3_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo3_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo4_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo4_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo5_prob_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo5_prob_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_momdad_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_momdad_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_parent_professional_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_parent_professional_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fath_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fath_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patgf_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patgf_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patgm_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patgm_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_moth_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_moth_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matgf_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matgf_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matgm_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matgm_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc1_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc1_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc2_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc2_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc3_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc3_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc4_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc4_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc5_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc5_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant1_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant1_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant2_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant2_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant3_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant3_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant4_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant4_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant5_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant5_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc1_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc1_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc2_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc2_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc3_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc3_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc4_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc4_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc5_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc5_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant1_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant1_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant2_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant2_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant3_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant3_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant4_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant4_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant5_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant5_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby1_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby1_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby2_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby2_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby3_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby3_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby4_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby4_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby5_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby5_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo1_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo1_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo2_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo2_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo3_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo3_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo4_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo4_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo5_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo5_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby1_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby1_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby2_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby2_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby3_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby3_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby4_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby4_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby5_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby5_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo1_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo1_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo2_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo2_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo3_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo3_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo4_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo4_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo5_prob_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo5_prob_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_momdad_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_momdad_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_parent_hospitalized_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_parent_hospitalized_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fath_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fath_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patgf_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patgf_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patgm_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patgm_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_moth_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_moth_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matgf_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matgf_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matgm_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matgm_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc1_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc1_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc2_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc2_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc3_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc3_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc4_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc4_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patunc5_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patunc5_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant1_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant1_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant2_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant2_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant3_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant3_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant4_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant4_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_patant5_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_patant5_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc1_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc1_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc2_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc2_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc3_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc3_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc4_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc4_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matunc5_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matunc5_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant1_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant1_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant2_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant2_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant3_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant3_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant4_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant4_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_matant5_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_matant5_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby1_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby1_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby2_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby2_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby3_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby3_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby4_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby4_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsiby5_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsiby5_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo1_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo1_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo2_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo2_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo3_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo3_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo4_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo4_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_fulsibo5_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_fulsibo5_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby1_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby1_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby2_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby2_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby3_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby3_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby4_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby4_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsiby5_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsiby5_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo1_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo1_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo2_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo2_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo3_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo3_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo4_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo4_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_hlfsibo5_prob_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_hlfsibo5_prob_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_momdad_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_momdad_suicide_p"
+            },
+            {
+                "isAbout": "items/famhx_ss_parent_suicide_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "famhx_ss_parent_suicide_p"
+            },
+            {
+                "isAbout": "items/family_history_sum_scores_p_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "family_history_sum_scores_p_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2452",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

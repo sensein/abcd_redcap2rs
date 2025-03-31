@@ -1,0 +1,44 @@
+{
+    "id": "famhx_ss_fulsibo2_prob_suicide_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Family History of Problems Summary Score"
+    },
+    "prefLabel": {
+        "en": "famhx_ss_fulsibo2_prob_suicide_p"
+    },
+    "question": {
+        "en": "full sibling older 2 suicide problem"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "no problem endorsed"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "problem endorsed"
+                },
+                "value": 1
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

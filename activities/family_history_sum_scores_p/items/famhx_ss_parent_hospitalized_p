@@ -1,0 +1,68 @@
+{
+    "id": "famhx_ss_parent_hospitalized_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Family History of Problems Summary Score"
+    },
+    "prefLabel": {
+        "en": "famhx_ss_parent_hospitalized_p"
+    },
+    "question": {
+        "en": "Overall parents hospitalized due to emotional/mental problem"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "none"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "father only"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "mother only"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "both"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "father missing (mother positive)"
+                },
+                "value": -1
+            },
+            {
+                "name": {
+                    "en": "mother missing (father positive)"
+                },
+                "value": -2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

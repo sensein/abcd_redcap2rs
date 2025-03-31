@@ -1,0 +1,44 @@
+{
+    "id": "famhx_ss_matunc3_prob_hospitalized_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Family History of Problems Summary Score"
+    },
+    "prefLabel": {
+        "en": "famhx_ss_matunc3_prob_hospitalized_p"
+    },
+    "question": {
+        "en": "maternal uncle 3 hospitalized due to emotional/mental problem"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "no problem endorsed"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "problem endorsed"
+                },
+                "value": 1
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

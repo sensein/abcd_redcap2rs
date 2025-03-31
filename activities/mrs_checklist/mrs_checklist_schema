@@ -65,13 +65,13 @@
             },
             {
                 "isAbout": "items/mrs_no_scan_reason",
-                "isVis": "mrs_not_scanned___1 == '1'",
+                "isVis": "mrs_not_scanned___1 == 'yes'",
                 "valueRequired": true,
                 "variableName": "mrs_no_scan_reason"
             },
             {
                 "isAbout": "items/mrs_scan_check_list_t1",
-                "isVis": true,
+                "isVis": "mrs_consent == 'yes' AND mrs_assent == 'yes'",
                 "valueRequired": true,
                 "variableName": "mrs_scan_check_list_t1"
             },
@@ -83,7 +83,7 @@
             },
             {
                 "isAbout": "items/mrs_scan_check_list_t2",
-                "isVis": true,
+                "isVis": "mrs_consent == 'yes' AND mrs_assent == 'yes'",
                 "valueRequired": true,
                 "variableName": "mrs_scan_check_list_t2"
             },
@@ -95,7 +95,7 @@
             },
             {
                 "isAbout": "items/scan_check_list_metabolite_acc",
-                "isVis": true,
+                "isVis": "mrs_consent == 'yes' AND mrs_assent == 'yes'",
                 "valueRequired": true,
                 "variableName": "scan_check_list_metabolite_acc"
             },
@@ -107,7 +107,7 @@
             },
             {
                 "isAbout": "items/scan_check_list_water_acc",
-                "isVis": true,
+                "isVis": "mrs_consent == 'yes' AND mrs_assent == 'yes'",
                 "valueRequired": true,
                 "variableName": "scan_check_list_water_acc"
             },
@@ -119,7 +119,7 @@
             },
             {
                 "isAbout": "items/scan_check_list_mrs_2d_acc",
-                "isVis": true,
+                "isVis": "mrs_consent == 'yes' AND mrs_assent == 'yes'",
                 "valueRequired": true,
                 "variableName": "scan_check_list_mrs_2d_acc"
             },
@@ -131,7 +131,7 @@
             },
             {
                 "isAbout": "items/scan_check_list_2d_water_acc",
-                "isVis": true,
+                "isVis": "mrs_consent == 'yes' AND mrs_assent == 'yes'",
                 "valueRequired": true,
                 "variableName": "scan_check_list_2d_water_acc"
             },
@@ -143,7 +143,7 @@
             },
             {
                 "isAbout": "items/scan_check_list_metabolite_poc",
-                "isVis": true,
+                "isVis": "mrs_consent == 'yes' AND mrs_assent == 'yes'",
                 "valueRequired": true,
                 "variableName": "scan_check_list_metabolite_poc"
             },
@@ -155,7 +155,7 @@
             },
             {
                 "isAbout": "items/scan_check_list_water_poc",
-                "isVis": true,
+                "isVis": "mrs_consent == 'yes' AND mrs_assent == 'yes'",
                 "valueRequired": true,
                 "variableName": "scan_check_list_water_poc"
             },
@@ -167,7 +167,7 @@
             },
             {
                 "isAbout": "items/scan_check_list_mrs_2d_poc",
-                "isVis": true,
+                "isVis": "mrs_consent == 'yes' AND mrs_assent == 'yes'",
                 "valueRequired": true,
                 "variableName": "scan_check_list_mrs_2d_poc"
             },
@@ -179,7 +179,7 @@
             },
             {
                 "isAbout": "items/scan_check_list_2d_water_poc_2",
-                "isVis": true,
+                "isVis": "mrs_consent == 'yes' AND mrs_assent == 'yes'",
                 "valueRequired": true,
                 "variableName": "scan_check_list_2d_water_poc_2"
             },
@@ -191,7 +191,7 @@
             },
             {
                 "isAbout": "items/scan_check_list_epsi",
-                "isVis": true,
+                "isVis": "mrs_consent == 'yes' AND mrs_assent == 'yes'",
                 "valueRequired": true,
                 "variableName": "scan_check_list_epsi"
             },
@@ -203,7 +203,7 @@
             },
             {
                 "isAbout": "items/scan_check_list_qsm",
-                "isVis": true,
+                "isVis": "mrs_consent == 'yes' AND mrs_assent == 'yes'",
                 "valueRequired": true,
                 "variableName": "scan_check_list_qsm"
             },
@@ -222,6 +222,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2451",
+    "version": "revid2452",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

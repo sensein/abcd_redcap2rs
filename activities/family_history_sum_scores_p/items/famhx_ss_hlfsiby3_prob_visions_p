@@ -1,0 +1,44 @@
+{
+    "id": "famhx_ss_hlfsiby3_prob_visions_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Family History of Problems Summary Score"
+    },
+    "prefLabel": {
+        "en": "famhx_ss_hlfsiby3_prob_visions_p"
+    },
+    "question": {
+        "en": "half sibling younger 3 visions of others spying/plotting problem"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "no problem endorsed"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "problem endorsed"
+                },
+                "value": 1
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

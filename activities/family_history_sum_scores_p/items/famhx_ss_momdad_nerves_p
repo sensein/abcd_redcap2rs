@@ -1,0 +1,44 @@
+{
+    "id": "famhx_ss_momdad_nerves_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Family History of Problems Summary Score"
+    },
+    "prefLabel": {
+        "en": "famhx_ss_momdad_nerves_p"
+    },
+    "question": {
+        "en": "Either parents with nerves/nervous breakdown problem"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
