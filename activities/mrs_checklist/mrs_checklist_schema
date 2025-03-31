@@ -8,6 +8,8 @@
     "ui": {
         "order": [
             "items/mrs_scan_timestamp",
+            "items/mrs_consent",
+            "items/mrs_assent",
             "items/mrs_not_scanned",
             "items/mrs_no_scan_reason",
             "items/mrs_scan_check_list_t1",
@@ -42,6 +44,18 @@
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "mrs_scan_timestamp"
+            },
+            {
+                "isAbout": "items/mrs_consent",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mrs_consent"
+            },
+            {
+                "isAbout": "items/mrs_assent",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mrs_assent"
             },
             {
                 "isAbout": "items/mrs_not_scanned",
@@ -208,6 +222,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2450",
+    "version": "revid2451",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

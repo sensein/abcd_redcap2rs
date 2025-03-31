@@ -1,24 +1,29 @@
 {
-    "id": "bfq_p_select_language",
+    "id": "mrs_assent",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "bfq_p_select_language"
+        "en": "mrs_assent"
     },
     "question": {
-        "en": "\u00c2\u00bfEspa\u00c3\u00b1ol?"
+        "en": "Did the participant assent to participation into the ABCD MRS Substudy?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "S\u00c3\u00ad"
+                    "en": "Yes"
                 },
                 "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
             }
         ],
-        "multipleChoice": true,
         "valueType": [
-            "xsd:integer"
+            "xsd:boolean"
         ]
     },
     "ui": {
