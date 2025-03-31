@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
-            "items/biospec_blood_hemoglobin_score_pipe",
+            "items/biospec_blood_hemoglobin_pipe",
             "items/biospec_blood_wbc_count_pipe",
             "items/biospec_blood_hematocrit_pipe_2",
             "items/biospec_blood_mcv_pipe",
@@ -24,10 +24,10 @@
         ],
         "addProperties": [
             {
-                "isAbout": "items/biospec_blood_hemoglobin_score_pipe",
+                "isAbout": "items/biospec_blood_hemoglobin_pipe",
                 "isVis": false,
                 "valueRequired": false,
-                "variableName": "biospec_blood_hemoglobin_score_pipe"
+                "variableName": "biospec_blood_hemoglobin_pipe"
             },
             {
                 "isAbout": "items/biospec_blood_wbc_count_pipe",
@@ -110,6 +110,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2438",
+    "version": "revid2439",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
