@@ -8,6 +8,7 @@
     "ui": {
         "order": [
             "items/pstr_start_time",
+            "items/pstr_p_select_language",
             "items/pstr_unexpect_upset_p",
             "items/pstr_unable_control_p",
             "items/pstr_feel_stress_p",
@@ -26,6 +27,12 @@
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "pstr_start_time"
+            },
+            {
+                "isAbout": "items/pstr_p_select_language",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pstr_p_select_language"
             },
             {
                 "isAbout": "items/pstr_unexpect_upset_p",
@@ -96,6 +103,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2455",
+    "version": "revid2456",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

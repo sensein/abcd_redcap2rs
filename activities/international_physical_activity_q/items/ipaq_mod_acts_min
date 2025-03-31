@@ -5,7 +5,7 @@
         {
             "column": "Field Note",
             "source": "redcap",
-            "value": "minutes"
+            "value": "<span lang=\"en\">minutes</span><span lang=\"es\" style= \"color:maroon\">minutos</span>"
         },
         {
             "column": "Custom Alignment",
@@ -14,43 +14,50 @@
         }
     ],
     "preamble": {
-        "en": "Think about all the moderate activities that you did in thelast 7 days.Moderateactivities refer to activities that take moderate physical effort and make you breathe somewhat harder than normal.  Think only about those physical activities that you did for at least 10 minutes at a time."
+        "en": "Think about all themoderateactivities that you did in thelast\u00c2\u00a07\u00c2\u00a0days.Moderateactivitiesrefer to activities that take moderate physical effort and make you breathe somewhat harder than normal. Think only about those physical activities that you did for at least 10 minutes at a time.",
+        "es": "Piense acerca de todas aquellas actividadesmoderadas\u00c2\u00a0que usted realizo en los\u00c3\u00baltimos\u00c2\u00a07\u00c2\u00a0d\u00c3\u00adas.  Actividadesmoderadas\u00c2\u00a0son aquellas que requieren un esfuerzo f\u00c3\u00adsico moderado y le hace respirar algo m\u00c3\u00a1s fuerte que lo normal. Piense solamente en esas actividades que usted hizo por lo menos 10 minutos continuos."
     },
     "prefLabel": {
         "en": "ipaq_mod_acts_min"
     },
     "question": {
-        "en": "Minutes"
+        "en": "Minutes",
+        "es": "Minutos"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "0"
+                    "en": "0",
+                    "es": "0"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "15"
+                    "en": "15",
+                    "es": "15"
                 },
                 "value": 15
             },
             {
                 "name": {
-                    "en": "30"
+                    "en": "30",
+                    "es": "30"
                 },
                 "value": 30
             },
             {
                 "name": {
-                    "en": "45"
+                    "en": "45",
+                    "es": "45"
                 },
                 "value": 45
             },
             {
                 "name": {
-                    "en": "Don't Know/Not Sure"
+                    "en": "Don't know",
+                    "es": "No lo se"
                 },
                 "value": 999
             }

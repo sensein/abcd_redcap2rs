@@ -1,0 +1,31 @@
+{
+    "id": "reshist_state_immigrant_factor",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READOONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "reshist_state_immigrant_factor"
+    },
+    "question": {
+        "en": "State level indicators of immigrant bias from survey and implicit bias measures and state level structural variables"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

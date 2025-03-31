@@ -1,0 +1,53 @@
+{
+    "id": "reshist_state_mj_laws",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "reshist_state_mj_laws"
+    },
+    "question": {
+        "en": "Marijuana state law during the same year as the assessment"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "recreational"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "medical"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "low THC/CBD"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "no recreational/medical"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

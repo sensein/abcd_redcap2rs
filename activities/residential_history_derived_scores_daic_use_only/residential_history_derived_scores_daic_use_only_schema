@@ -268,6 +268,12 @@
             "items/reshist_addr1_duration",
             "items/reshist_addr2_duration",
             "items/reshist_addr3_duration",
+            "items/reshist_state_sexism_factor",
+            "items/reshist_state_racism_factor",
+            "items/reshist_state_sexual_orientation_factor",
+            "items/reshist_state_immigrant_factor",
+            "items/reshist_state",
+            "items/reshist_state_mj_laws",
             "items/residential_history_derived_scores_daic_use_only_complete"
         ],
         "addProperties": [
@@ -1838,6 +1844,42 @@
                 "variableName": "reshist_addr3_duration"
             },
             {
+                "isAbout": "items/reshist_state_sexism_factor",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_state_sexism_factor"
+            },
+            {
+                "isAbout": "items/reshist_state_racism_factor",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_state_racism_factor"
+            },
+            {
+                "isAbout": "items/reshist_state_sexual_orientation_factor",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_state_sexual_orientation_factor"
+            },
+            {
+                "isAbout": "items/reshist_state_immigrant_factor",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "reshist_state_immigrant_factor"
+            },
+            {
+                "isAbout": "items/reshist_state",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_state"
+            },
+            {
+                "isAbout": "items/reshist_state_mj_laws",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_state_mj_laws"
+            },
+            {
                 "isAbout": "items/residential_history_derived_scores_daic_use_only_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -1846,6 +1888,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2455",
+    "version": "revid2456",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
