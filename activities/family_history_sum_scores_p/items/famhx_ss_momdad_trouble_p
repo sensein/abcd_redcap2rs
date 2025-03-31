@@ -15,29 +15,29 @@
         "en": "famhx_ss_momdad_trouble_p"
     },
     "question": {
-        "en": "Either parents with trouble holds job/fights/police problem"
+        "en": "Either parent with trouble holds job/fights/police problem"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Yes"
+                    "en": "no"
                 },
-                "value": 1
+                "value": 0
             },
             {
                 "name": {
-                    "en": "No"
+                    "en": "yes"
                 },
-                "value": 0
+                "value": 1
             }
         ],
         "valueType": [
-            "xsd:boolean"
+            "xsd:integer"
         ]
     },
     "ui": {
-        "inputType": "radio",
+        "inputType": "select",
         "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"

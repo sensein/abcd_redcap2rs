@@ -15,29 +15,29 @@
         "en": "famhx_ss_momdad_drugs_p"
     },
     "question": {
-        "en": "Either parents with drug use problem"
+        "en": "Either parent with drug use problem"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Yes"
+                    "en": "no"
                 },
-                "value": 1
+                "value": 0
             },
             {
                 "name": {
-                    "en": "No"
+                    "en": "yes"
                 },
-                "value": 0
+                "value": 1
             }
         ],
         "valueType": [
-            "xsd:boolean"
+            "xsd:integer"
         ]
     },
     "ui": {
-        "inputType": "radio",
+        "inputType": "select",
         "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
