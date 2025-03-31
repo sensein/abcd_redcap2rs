@@ -7,6 +7,7 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/fitpo_submit",
             "items/fitpo_physical",
             "items/fitpo_physical_healthy",
             "items/fitpo_sedentary",
@@ -23,74 +24,80 @@
         ],
         "addProperties": [
             {
+                "isAbout": "items/fitpo_submit",
+                "isVis": "fitbit_permission == '0' || fitbit_permission == ' - 1' || fitbit_assent == '0' || fitbit_assent == ' - 1'",
+                "valueRequired": false,
+                "variableName": "fitpo_submit"
+            },
+            {
                 "isAbout": "items/fitpo_physical",
-                "isVis": true,
+                "isVis": "fitbit_assent == '1' && fitbit_permission == '1'",
                 "valueRequired": true,
                 "variableName": "fitpo_physical"
             },
             {
                 "isAbout": "items/fitpo_physical_healthy",
-                "isVis": true,
+                "isVis": "fitbit_assent == '1' && fitbit_permission == '1'",
                 "valueRequired": true,
                 "variableName": "fitpo_physical_healthy"
             },
             {
                 "isAbout": "items/fitpo_sedentary",
-                "isVis": true,
+                "isVis": "fitbit_assent == '1' && fitbit_permission == '1'",
                 "valueRequired": true,
                 "variableName": "fitpo_sedentary"
             },
             {
                 "isAbout": "items/fitpo_sendentary_healthy",
-                "isVis": true,
+                "isVis": "fitbit_assent == '1' && fitbit_permission == '1'",
                 "valueRequired": true,
                 "variableName": "fitpo_sendentary_healthy"
             },
             {
                 "isAbout": "items/fitpo_sleep",
-                "isVis": true,
+                "isVis": "fitbit_assent == '1' && fitbit_permission == '1'",
                 "valueRequired": true,
                 "variableName": "fitpo_sleep"
             },
             {
                 "isAbout": "items/fitpo_sleep_health",
-                "isVis": true,
+                "isVis": "fitbit_assent == '1' && fitbit_permission == '1'",
                 "valueRequired": true,
                 "variableName": "fitpo_sleep_health"
             },
             {
                 "isAbout": "items/fitpo_enjoy",
-                "isVis": true,
+                "isVis": "fitbit_assent == '1' && fitbit_permission == '1'",
                 "valueRequired": true,
                 "variableName": "fitpo_enjoy"
             },
             {
                 "isAbout": "items/fitpo_use_app",
-                "isVis": true,
+                "isVis": "fitbit_assent == '1' && fitbit_permission == '1'",
                 "valueRequired": true,
                 "variableName": "fitpo_use_app"
             },
             {
                 "isAbout": "items/fitpo_potential_app",
-                "isVis": "fitpo_use_app == '0'",
+                "isVis": "fitpo_use_app == '0' && fitbit_assent == '1' && fitbit_permission == '1'",
                 "valueRequired": true,
                 "variableName": "fitpo_potential_app"
             },
             {
                 "isAbout": "items/fitpo_see_activity",
-                "isVis": "fitpo_use_app == '1'",
+                "isVis": "fitpo_use_app == '1' && fitbit_assent == '1' && fitbit_permission == '1'",
                 "valueRequired": true,
                 "variableName": "fitpo_see_activity"
             },
             {
                 "isAbout": "items/fitpo_change",
-                "isVis": "fitpo_use_app == '1'",
+                "isVis": "fitpo_use_app == '1' && fitbit_assent == '1' && fitbit_permission == '1'",
                 "valueRequired": true,
                 "variableName": "fitpo_change"
             },
             {
                 "isAbout": "items/fitpo_wear_longer",
-                "isVis": true,
+                "isVis": "fitbit_assent == '1' && fitbit_permission == '1'",
                 "valueRequired": true,
                 "variableName": "fitpo_wear_longer"
             },
@@ -103,6 +110,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2467",
+    "version": "revid2468",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
