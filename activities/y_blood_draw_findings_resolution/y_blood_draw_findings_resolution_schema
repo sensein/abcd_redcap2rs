@@ -11,7 +11,7 @@
             "items/biospec_blood_wbc_count_pipe",
             "items/biospec_blood_hematocrit_pipe_2",
             "items/biospec_blood_mcv_pipe",
-            "items/biospec_blood_nrbc_abs_pipe",
+            "items/biospec_blood_neut_abs_pipe",
             "items/biospec_blood_eos_abs_pipe",
             "items/biospec_blood_ferritin_pipe",
             "items/biospec_blood_plt_count_pipe_2",
@@ -48,10 +48,10 @@
                 "variableName": "biospec_blood_mcv_pipe"
             },
             {
-                "isAbout": "items/biospec_blood_nrbc_abs_pipe",
+                "isAbout": "items/biospec_blood_neut_abs_pipe",
                 "isVis": false,
                 "valueRequired": false,
-                "variableName": "biospec_blood_nrbc_abs_pipe"
+                "variableName": "biospec_blood_neut_abs_pipe"
             },
             {
                 "isAbout": "items/biospec_blood_eos_abs_pipe",
@@ -110,6 +110,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2439",
+    "version": "revid2440",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
