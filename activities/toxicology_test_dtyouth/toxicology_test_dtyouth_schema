@@ -105,7 +105,7 @@
             },
             {
                 "isAbout": "items/tox_not_random_y",
-                "isVis": "bio_10perc_draeger == '0' || bio_15perc_draeger == '0'",
+                "isVis": "bio_10perc_draeger == '0' || bio_15perc_draeger == '0' || bio_20perc_draeger == '0'",
                 "valueRequired": false,
                 "variableName": "tox_not_random_y"
             },
@@ -460,6 +460,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2435",
+    "version": "revid2436",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
