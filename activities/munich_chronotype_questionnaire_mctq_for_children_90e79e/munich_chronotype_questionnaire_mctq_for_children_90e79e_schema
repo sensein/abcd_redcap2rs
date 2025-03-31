@@ -11,7 +11,7 @@
             "variableName": "mctq_sof_calc"
         },
         {
-            "jsExpression": "",
+            "jsExpression": "mctq_sd_wake_up_time_calc + mctq_sd_min_to_get_up_calc",
             "variableName": "mctq_guw_calc"
         },
         {
@@ -184,6 +184,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2480",
+    "version": "revid2481",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
