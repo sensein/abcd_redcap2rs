@@ -46,6 +46,11 @@
             "../activities/nih_tbx_summary_scores_daic_use_only/nih_tbx_summary_scores_daic_use_only_schema",
             "../activities/y_neurocog_part_1_comments/y_neurocog_part_1_comments_schema",
             "../activities/substance_use_interviewyouth/substance_use_interviewyouth_schema",
+            "../activities/y_substance_introduction_and_use_patterns_l/y_substance_introduction_and_use_patterns_l_schema",
+            "../activities/y_substance_use_attitudes_l/y_substance_use_attitudes_l_schema",
+            "../activities/y_alcohol_measures_l/y_alcohol_measures_l_schema",
+            "../activities/y_nicotine_measures_l/y_nicotine_measures_l_schema",
+            "../activities/y_marijuana_illicit_drug_measures_l/y_marijuana_illicit_drug_measures_l_schema",
             "../activities/y_crpf/y_crpf_schema",
             "../activities/substance_use_module_comments/substance_use_module_comments_schema",
             "../activities/prodromal_psychosis_scale_pps_youth/prodromal_psychosis_scale_pps_youth_schema",
@@ -222,6 +227,7 @@
             "../activities/sum_scores_medhx/sum_scores_medhx_schema",
             "../activities/sum_scores_medhx_l/sum_scores_medhx_l_schema",
             "../activities/sum_scores_sports_activity/sum_scores_sports_activity_schema",
+            "../activities/autopopulated_from_baseline_suheard_of/autopopulated_from_baseline_suheard_of_schema",
             "../activities/sum_score_sports_activity_l/sum_score_sports_activity_l_schema",
             "../activities/bpm_scoring_t/bpm_scoring_t_schema",
             "../activities/bpm_scoring_y/bpm_scoring_y_schema",
@@ -231,7 +237,6 @@
             "../activities/mri_qc_scores_daic_use_only/mri_qc_scores_daic_use_only_schema",
             "../activities/mri_qc_raw_daic_use_only/mri_qc_raw_daic_use_only_schema",
             "../activities/release_tracking_daic_use_only/release_tracking_daic_use_only_schema",
-            "../activities/autopopulated_from_baseline_suheard_of/autopopulated_from_baseline_suheard_of_schema",
             "../activities/cc_tracking/cc_tracking_schema",
             "../activities/pii_db_sched/pii_db_sched_schema",
             "../activities/scheduling_status_daic_use_only/scheduling_status_daic_use_only_schema",
@@ -309,15 +314,10 @@
             "../activities/covid19_screener/covid19_screener_schema",
             "../activities/covid19_tracking/covid19_tracking_schema",
             "../activities/y_abcd_covid19_questionnaire/y_abcd_covid19_questionnaire_schema",
+            "../activities/residential_history_derived_scores_daic_use_only/residential_history_derived_scores_daic_use_only_schema",
             "../activities/p_abcd_covid19_questionnaire_part_1/p_abcd_covid19_questionnaire_part_1_schema",
             "../activities/p_abcd_covid19_questionnaire_part_2/p_abcd_covid19_questionnaire_part_2_schema",
-            "../activities/residential_history_derived_scores_daic_use_only/residential_history_derived_scores_daic_use_only_schema",
-            "../activities/acs_post_stratification_weights_daic_use_only/acs_post_stratification_weights_daic_use_only_schema",
-            "../activities/y_substance_introduction_and_use_patterns_l/y_substance_introduction_and_use_patterns_l_schema",
-            "../activities/y_marijuana_illicit_drug_measures_l/y_marijuana_illicit_drug_measures_l_schema",
-            "../activities/y_substance_use_attitudes_l/y_substance_use_attitudes_l_schema",
-            "../activities/y_nicotine_measures_l/y_nicotine_measures_l_schema",
-            "../activities/y_alcohol_measures_l/y_alcohol_measures_l_schema"
+            "../activities/acs_post_stratification_weights_daic_use_only/acs_post_stratification_weights_daic_use_only_schema"
         ],
         "addProperties": [
             {
@@ -607,6 +607,46 @@
                     "en": "Substance Use Interviewyouth"
                 },
                 "variableName": "substance_use_interviewyouth_schema"
+            },
+            {
+                "isAbout": "../activities/y_substance_introduction_and_use_patterns_l/y_substance_introduction_and_use_patterns_l_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Substance Introduction And Use Patterns L"
+                },
+                "variableName": "y_substance_introduction_and_use_patterns_l_schema"
+            },
+            {
+                "isAbout": "../activities/y_substance_use_attitudes_l/y_substance_use_attitudes_l_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Substance Use Attitudes L"
+                },
+                "variableName": "y_substance_use_attitudes_l_schema"
+            },
+            {
+                "isAbout": "../activities/y_alcohol_measures_l/y_alcohol_measures_l_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Alcohol Measures L"
+                },
+                "variableName": "y_alcohol_measures_l_schema"
+            },
+            {
+                "isAbout": "../activities/y_nicotine_measures_l/y_nicotine_measures_l_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Nicotine Measures L"
+                },
+                "variableName": "y_nicotine_measures_l_schema"
+            },
+            {
+                "isAbout": "../activities/y_marijuana_illicit_drug_measures_l/y_marijuana_illicit_drug_measures_l_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Marijuana Illicit Drug Measures L"
+                },
+                "variableName": "y_marijuana_illicit_drug_measures_l_schema"
             },
             {
                 "isAbout": "../activities/y_crpf/y_crpf_schema",
@@ -2017,6 +2057,14 @@
                 "variableName": "sum_scores_sports_activity_schema"
             },
             {
+                "isAbout": "../activities/autopopulated_from_baseline_suheard_of/autopopulated_from_baseline_suheard_of_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Autopopulated From Baseline Suheard Of"
+                },
+                "variableName": "autopopulated_from_baseline_suheard_of_schema"
+            },
+            {
                 "isAbout": "../activities/sum_score_sports_activity_l/sum_score_sports_activity_l_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -2087,14 +2135,6 @@
                     "en": "Release Tracking Daic Use Only"
                 },
                 "variableName": "release_tracking_daic_use_only_schema"
-            },
-            {
-                "isAbout": "../activities/autopopulated_from_baseline_suheard_of/autopopulated_from_baseline_suheard_of_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Autopopulated From Baseline Suheard Of"
-                },
-                "variableName": "autopopulated_from_baseline_suheard_of_schema"
             },
             {
                 "isAbout": "../activities/cc_tracking/cc_tracking_schema",
@@ -2713,6 +2753,14 @@
                 "variableName": "y_abcd_covid19_questionnaire_schema"
             },
             {
+                "isAbout": "../activities/residential_history_derived_scores_daic_use_only/residential_history_derived_scores_daic_use_only_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Residential History Derived Scores Daic Use Only"
+                },
+                "variableName": "residential_history_derived_scores_daic_use_only_schema"
+            },
+            {
                 "isAbout": "../activities/p_abcd_covid19_questionnaire_part_1/p_abcd_covid19_questionnaire_part_1_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -2729,64 +2777,16 @@
                 "variableName": "p_abcd_covid19_questionnaire_part_2_schema"
             },
             {
-                "isAbout": "../activities/residential_history_derived_scores_daic_use_only/residential_history_derived_scores_daic_use_only_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Residential History Derived Scores Daic Use Only"
-                },
-                "variableName": "residential_history_derived_scores_daic_use_only_schema"
-            },
-            {
                 "isAbout": "../activities/acs_post_stratification_weights_daic_use_only/acs_post_stratification_weights_daic_use_only_schema",
                 "isVis": true,
                 "prefLabel": {
                     "en": "Acs Post Stratification Weights Daic Use Only"
                 },
                 "variableName": "acs_post_stratification_weights_daic_use_only_schema"
-            },
-            {
-                "isAbout": "../activities/y_substance_introduction_and_use_patterns_l/y_substance_introduction_and_use_patterns_l_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Y Substance Introduction And Use Patterns L"
-                },
-                "variableName": "y_substance_introduction_and_use_patterns_l_schema"
-            },
-            {
-                "isAbout": "../activities/y_marijuana_illicit_drug_measures_l/y_marijuana_illicit_drug_measures_l_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Y Marijuana Illicit Drug Measures L"
-                },
-                "variableName": "y_marijuana_illicit_drug_measures_l_schema"
-            },
-            {
-                "isAbout": "../activities/y_substance_use_attitudes_l/y_substance_use_attitudes_l_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Y Substance Use Attitudes L"
-                },
-                "variableName": "y_substance_use_attitudes_l_schema"
-            },
-            {
-                "isAbout": "../activities/y_nicotine_measures_l/y_nicotine_measures_l_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Y Nicotine Measures L"
-                },
-                "variableName": "y_nicotine_measures_l_schema"
-            },
-            {
-                "isAbout": "../activities/y_alcohol_measures_l/y_alcohol_measures_l_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Y Alcohol Measures L"
-                },
-                "variableName": "y_alcohol_measures_l_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2539",
+    "version": "revid2540",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
