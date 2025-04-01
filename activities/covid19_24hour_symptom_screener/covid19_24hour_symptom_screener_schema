@@ -8,6 +8,7 @@
     "ui": {
         "order": [
             "items/screener_2_p_select_language",
+            "items/screened_2_cv",
             "items/screener_day_of_cv",
             "items/any_symptoms_2_cv",
             "items/fever_2_cv",
@@ -35,104 +36,110 @@
                 "variableName": "screener_2_p_select_language"
             },
             {
-                "isAbout": "items/screener_day_of_cv",
+                "isAbout": "items/screened_2_cv",
                 "isVis": true,
+                "valueRequired": true,
+                "variableName": "screened_2_cv"
+            },
+            {
+                "isAbout": "items/screener_day_of_cv",
+                "isVis": "screened_2_cv___1 == ''",
                 "valueRequired": true,
                 "variableName": "screener_day_of_cv"
             },
             {
                 "isAbout": "items/any_symptoms_2_cv",
-                "isVis": true,
+                "isVis": "screened_2_cv___1 == ''",
                 "valueRequired": false,
                 "variableName": "any_symptoms_2_cv"
             },
             {
                 "isAbout": "items/fever_2_cv",
-                "isVis": true,
+                "isVis": "screened_2_cv___1 == ''",
                 "valueRequired": true,
                 "variableName": "fever_2_cv"
             },
             {
                 "isAbout": "items/cough_2_cv",
-                "isVis": true,
+                "isVis": "screened_2_cv___1 == ''",
                 "valueRequired": true,
                 "variableName": "cough_2_cv"
             },
             {
                 "isAbout": "items/short_breath_2_cv",
-                "isVis": true,
+                "isVis": "screened_2_cv___1 == ''",
                 "valueRequired": true,
                 "variableName": "short_breath_2_cv"
             },
             {
                 "isAbout": "items/fatigue_2_cv",
-                "isVis": true,
+                "isVis": "screened_2_cv___1 == ''",
                 "valueRequired": true,
                 "variableName": "fatigue_2_cv"
             },
             {
                 "isAbout": "items/aches_2_cv",
-                "isVis": true,
+                "isVis": "screened_2_cv___1 == ''",
                 "valueRequired": true,
                 "variableName": "aches_2_cv"
             },
             {
                 "isAbout": "items/headache_2_cv",
-                "isVis": true,
+                "isVis": "screened_2_cv___1 == ''",
                 "valueRequired": true,
                 "variableName": "headache_2_cv"
             },
             {
                 "isAbout": "items/taste_smell_loss_2_cv",
-                "isVis": true,
+                "isVis": "screened_2_cv___1 == ''",
                 "valueRequired": true,
                 "variableName": "taste_smell_loss_2_cv"
             },
             {
                 "isAbout": "items/sore_throat_2_cv",
-                "isVis": true,
+                "isVis": "screened_2_cv___1 == ''",
                 "valueRequired": true,
                 "variableName": "sore_throat_2_cv"
             },
             {
                 "isAbout": "items/congestion_2_cv",
-                "isVis": true,
+                "isVis": "screened_2_cv___1 == ''",
                 "valueRequired": true,
                 "variableName": "congestion_2_cv"
             },
             {
                 "isAbout": "items/nausea_2_cv",
-                "isVis": true,
+                "isVis": "screened_2_cv___1 == ''",
                 "valueRequired": true,
                 "variableName": "nausea_2_cv"
             },
             {
                 "isAbout": "items/diarrhea_2_cv",
-                "isVis": true,
+                "isVis": "screened_2_cv___1 == ''",
                 "valueRequired": true,
                 "variableName": "diarrhea_2_cv"
             },
             {
                 "isAbout": "items/diagnosed_2_cv",
-                "isVis": true,
+                "isVis": "screened_2_cv___1 == ''",
                 "valueRequired": true,
                 "variableName": "diagnosed_2_cv"
             },
             {
                 "isAbout": "items/close_contact_2_cv",
-                "isVis": true,
+                "isVis": "screened_2_cv___1 == ''",
                 "valueRequired": true,
                 "variableName": "close_contact_2_cv"
             },
             {
                 "isAbout": "items/sched_visit_2_cv",
-                "isVis": "fever_2_cv == '0' AND cough_2_cv == '0' AND short_breath_2_cv == '0' AND fatigue_2_cv == '0' AND aches_2_cv == '0' AND headache_2_cv == '0' AND taste_smell_loss_2_cv == '0' AND sore_throat_2_cv == '0' AND congestion_2_cv == '0' AND nausea_2_cv == '0' AND diarrhea_2_cv == '0' AND diagnosed_2_cv == '0' AND close_contact_2_cv == '0'",
+                "isVis": "(fever_2_cv == '0' AND cough_2_cv == '0' AND short_breath_2_cv == '0' AND fatigue_2_cv == '0' AND aches_2_cv == '0' AND headache_2_cv == '0' AND taste_smell_loss_2_cv == '0' AND sore_throat_2_cv == '0' AND congestion_2_cv == '0' AND nausea_2_cv == '0' AND diarrhea_2_cv == '0' AND diagnosed_2_cv == '0' AND close_contact_2_cv == '0')AND screened_2_cv___1 == ''",
                 "valueRequired": false,
                 "variableName": "sched_visit_2_cv"
             },
             {
                 "isAbout": "items/dont_sched_visit_2_cv",
-                "isVis": "(fever_2_cv == '1' OR cough_2_cv == '1' OR short_breath_2_cv == '1' OR fatigue_2_cv == '1' OR aches_2_cv == '1' OR headache_2_cv == '1' OR taste_smell_loss_2_cv == '1' OR sore_throat_2_cv == '1' OR congestion_2_cv == '1' OR nausea_2_cv == '1' OR diarrhea_2_cv == '1' OR diagnosed_2_cv == '1' OR close_contact_2_cv == '1')",
+                "isVis": "(fever_2_cv == '1' OR cough_2_cv == '1' OR short_breath_2_cv == '1' OR fatigue_2_cv == '1' OR aches_2_cv == '1' OR headache_2_cv == '1' OR taste_smell_loss_2_cv == '1' OR sore_throat_2_cv == '1' OR congestion_2_cv == '1' OR nausea_2_cv == '1' OR diarrhea_2_cv == '1' OR diagnosed_2_cv == '1' OR close_contact_2_cv == '1')AND screened_2_cv___1 == ''",
                 "valueRequired": false,
                 "variableName": "dont_sched_visit_2_cv"
             },
@@ -145,6 +152,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2644",
+    "version": "revid2645",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

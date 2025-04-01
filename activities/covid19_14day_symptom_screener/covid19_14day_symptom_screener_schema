@@ -8,6 +8,7 @@
     "ui": {
         "order": [
             "items/screener_p_select_language",
+            "items/screened_cv",
             "items/screener_phone_cv",
             "items/any_symptoms_cv",
             "items/fever_cv",
@@ -35,104 +36,110 @@
                 "variableName": "screener_p_select_language"
             },
             {
-                "isAbout": "items/screener_phone_cv",
+                "isAbout": "items/screened_cv",
                 "isVis": true,
+                "valueRequired": true,
+                "variableName": "screened_cv"
+            },
+            {
+                "isAbout": "items/screener_phone_cv",
+                "isVis": "screened_cv___1 == ''",
                 "valueRequired": true,
                 "variableName": "screener_phone_cv"
             },
             {
                 "isAbout": "items/any_symptoms_cv",
-                "isVis": true,
+                "isVis": "screened_cv___1 == ''",
                 "valueRequired": false,
                 "variableName": "any_symptoms_cv"
             },
             {
                 "isAbout": "items/fever_cv",
-                "isVis": true,
+                "isVis": "screened_cv___1 == ''",
                 "valueRequired": true,
                 "variableName": "fever_cv"
             },
             {
                 "isAbout": "items/cough_cv",
-                "isVis": true,
+                "isVis": "screened_cv___1 == ''",
                 "valueRequired": true,
                 "variableName": "cough_cv"
             },
             {
                 "isAbout": "items/short_breath_cv",
-                "isVis": true,
+                "isVis": "screened_cv___1 == ''",
                 "valueRequired": true,
                 "variableName": "short_breath_cv"
             },
             {
                 "isAbout": "items/fatigue_cv",
-                "isVis": true,
+                "isVis": "screened_cv___1 == ''",
                 "valueRequired": true,
                 "variableName": "fatigue_cv"
             },
             {
                 "isAbout": "items/aches_cv",
-                "isVis": true,
+                "isVis": "screened_cv___1 == ''",
                 "valueRequired": true,
                 "variableName": "aches_cv"
             },
             {
                 "isAbout": "items/headache_cv",
-                "isVis": true,
+                "isVis": "screened_cv___1 == ''",
                 "valueRequired": true,
                 "variableName": "headache_cv"
             },
             {
                 "isAbout": "items/taste_smell_loss_cv",
-                "isVis": true,
+                "isVis": "screened_cv___1 == ''",
                 "valueRequired": true,
                 "variableName": "taste_smell_loss_cv"
             },
             {
                 "isAbout": "items/sore_throat_cv",
-                "isVis": true,
+                "isVis": "screened_cv___1 == ''",
                 "valueRequired": true,
                 "variableName": "sore_throat_cv"
             },
             {
                 "isAbout": "items/congestion_cv",
-                "isVis": true,
+                "isVis": "screened_cv___1 == ''",
                 "valueRequired": true,
                 "variableName": "congestion_cv"
             },
             {
                 "isAbout": "items/nausea_cv",
-                "isVis": true,
+                "isVis": "screened_cv___1 == ''",
                 "valueRequired": true,
                 "variableName": "nausea_cv"
             },
             {
                 "isAbout": "items/diarrhea_cv",
-                "isVis": true,
+                "isVis": "screened_cv___1 == ''",
                 "valueRequired": true,
                 "variableName": "diarrhea_cv"
             },
             {
                 "isAbout": "items/diagnosed_cv",
-                "isVis": true,
+                "isVis": "screened_cv___1 == ''",
                 "valueRequired": true,
                 "variableName": "diagnosed_cv"
             },
             {
                 "isAbout": "items/close_contact_cv",
-                "isVis": true,
+                "isVis": "screened_cv___1 == ''",
                 "valueRequired": true,
                 "variableName": "close_contact_cv"
             },
             {
                 "isAbout": "items/sched_visit_cv",
-                "isVis": "(fever_cv == '0' AND cough_cv == '0' AND short_breath_cv == '0' AND fatigue_cv == '0' AND aches_cv == '0' AND headache_cv == '0' AND taste_smell_loss_cv == '0' AND sore_throat_cv == '0' AND congestion_cv == '0' AND nausea_cv == '0' AND diarrhea_cv == '0' AND diagnosed_cv == '0' AND close_contact_cv == '0')",
+                "isVis": "(fever_cv == '0' AND cough_cv == '0' AND short_breath_cv == '0' AND fatigue_cv == '0' AND aches_cv == '0' AND headache_cv == '0' AND taste_smell_loss_cv == '0' AND sore_throat_cv == '0' AND congestion_cv == '0' AND nausea_cv == '0' AND diarrhea_cv == '0' AND diagnosed_cv == '0' AND close_contact_cv == '0')AND screened_cv___1 == ''",
                 "valueRequired": false,
                 "variableName": "sched_visit_cv"
             },
             {
                 "isAbout": "items/dont_sched_visit_cv",
-                "isVis": "(fever_cv == '1' OR cough_cv == '1' OR short_breath_cv == '1' OR fatigue_cv == '1' OR aches_cv == '1' OR headache_cv == '1' OR taste_smell_loss_cv == '1' OR sore_throat_cv == '1' OR congestion_cv == '1' OR nausea_cv == '1' OR diarrhea_cv == '1' OR diagnosed_cv == '1' OR close_contact_cv == '1')",
+                "isVis": "(fever_cv == '1' OR cough_cv == '1' OR short_breath_cv == '1' OR fatigue_cv == '1' OR aches_cv == '1' OR headache_cv == '1' OR taste_smell_loss_cv == '1' OR sore_throat_cv == '1' OR congestion_cv == '1' OR nausea_cv == '1' OR diarrhea_cv == '1' OR diagnosed_cv == '1' OR close_contact_cv == '1')AND(screened_cv___1 == '')",
                 "valueRequired": false,
                 "variableName": "dont_sched_visit_cv"
             },
@@ -145,6 +152,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2644",
+    "version": "revid2645",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

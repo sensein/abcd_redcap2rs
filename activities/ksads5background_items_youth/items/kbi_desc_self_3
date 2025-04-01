@@ -1,0 +1,64 @@
+{
+    "id": "kbi_desc_self_3",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200923"
+        }
+    ],
+    "prefLabel": {
+        "en": "kbi_desc_self_3"
+    },
+    "question": {
+        "en": "Would you describe yourself as:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Gay or lesbian"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Bisexual"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Heterosexual (straight)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Unsure"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

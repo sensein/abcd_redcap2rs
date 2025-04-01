@@ -22,10 +22,12 @@
             "items/kbi_sex_assigned_at_birth",
             "items/kbi_gender",
             "items/kbi_y_sex_orient",
+            "items/kbi_desc_self",
+            "items/kbi_desc_self_2",
+            "items/kbi_desc_self_3",
             "items/kbi_y_sex_orient_probs",
             "items/kbi_y_trans_id",
             "items/kbi_y_trans_prob",
-            "items/kbi_gender_identity",
             "items/kbi_admin",
             "items/kbi_remote",
             "items/kbi_device",
@@ -124,6 +126,24 @@
                 "variableName": "kbi_y_sex_orient"
             },
             {
+                "isAbout": "items/kbi_desc_self",
+                "isVis": "(kbi_y_sex_orient == '3' AND event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "kbi_desc_self"
+            },
+            {
+                "isAbout": "items/kbi_desc_self_2",
+                "isVis": "(kbi_y_sex_orient == '1' AND event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "kbi_desc_self_2"
+            },
+            {
+                "isAbout": "items/kbi_desc_self_3",
+                "isVis": "(kbi_y_sex_orient == '2' AND event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "kbi_desc_self_3"
+            },
+            {
                 "isAbout": "items/kbi_y_sex_orient_probs",
                 "isVis": "kbi_y_sex_orient == '1' || kbi_y_sex_orient == '2'",
                 "valueRequired": true,
@@ -140,12 +160,6 @@
                 "isVis": "kbi_y_trans_id == '2' || kbi_y_trans_id == '1'",
                 "valueRequired": false,
                 "variableName": "kbi_y_trans_prob"
-            },
-            {
-                "isAbout": "items/kbi_gender_identity",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
-                "valueRequired": true,
-                "variableName": "kbi_gender_identity"
             },
             {
                 "isAbout": "items/kbi_admin",
@@ -180,6 +194,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2644",
+    "version": "revid2645",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

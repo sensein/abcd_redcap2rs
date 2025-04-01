@@ -45,6 +45,9 @@
             "items/tbl_7c2_l",
             "items/tbi_7e_l",
             "items/tbi_7f_l",
+            "items/tbi_8",
+            "items/tbi_8a",
+            "items/tbi_8b",
             "items/p_tbi_screenmodified_ohio_state_screen_tbiparent_l_complete"
         ],
         "addProperties": [
@@ -182,7 +185,7 @@
             },
             {
                 "isAbout": "items/tbi_5_l",
-                "isVis": true,
+                "isVis": "event - name == '1_year_follow_up_y_arm_1' OR event - name == '2_year_follow_up_y_arm_1' OR event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "tbi_5_l"
             },
@@ -277,6 +280,24 @@
                 "variableName": "tbi_7f_l"
             },
             {
+                "isAbout": "items/tbi_8",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "tbi_8"
+            },
+            {
+                "isAbout": "items/tbi_8a",
+                "isVis": "tbi_8 == '1'",
+                "valueRequired": true,
+                "variableName": "tbi_8a"
+            },
+            {
+                "isAbout": "items/tbi_8b",
+                "isVis": "tbi_8 == '2' OR tbi_8 == '3' OR tbi_8 == '4'",
+                "valueRequired": true,
+                "variableName": "tbi_8b"
+            },
+            {
                 "isAbout": "items/p_tbi_screenmodified_ohio_state_screen_tbiparent_l_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -285,6 +306,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2644",
+    "version": "revid2645",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

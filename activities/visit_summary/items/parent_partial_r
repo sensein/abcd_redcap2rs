@@ -5,7 +5,7 @@
         {
             "column": "Field Annotation",
             "source": "redcap",
-            "value": "HIDEFROMCOMPLETION20180301"
+            "value": "HIDEFROMCOMPLETION20180301 @HIDECHOICE = '1'"
         }
     ],
     "preamble": {
@@ -54,6 +54,12 @@
                     "en": "Time constraints"
                 },
                 "value": 5
+            },
+            {
+                "name": {
+                    "en": "Connectivity issues, limited cell phone data"
+                },
+                "value": 8
             },
             {
                 "name": {
