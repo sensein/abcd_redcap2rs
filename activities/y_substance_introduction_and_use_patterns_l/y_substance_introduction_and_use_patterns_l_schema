@@ -175,13 +175,18 @@
             "items/tlfb_mj_synth_l",
             "items/tlfb_bitta_l",
             "items/tlfb_caff_l",
+            "items/su_tlfb_vaped_something",
+            "items/tlfb_coc_use_l",
             "items/tlfb_inhalant_l",
             "items/tlfb_rx_misuse_l",
+            "items/tlfb_bsalts_use_l",
             "items/tlfb_list_yes_no_l",
             "items/tlfb_list_l",
+            "items/tlfb_meth_use_l",
             "items/tlfb_other_txt_l",
             "items/tlfb_alc_sip_l",
             "items/tlfb_alc_use_l",
+            "items/tlfb_mdma_use_l",
             "items/tlfb_tob_puff_l",
             "items/tlfb_cig_use_l",
             "items/tlfb_ecig_use_l",
@@ -202,11 +207,6 @@
             "items/tlfb_tincture_use_l",
             "items/su_tlfb_cbd_use_l",
             "items/tlfb_mj_synth_use_l",
-            "items/su_tlfb_vaped_something",
-            "items/tlfb_coc_use_l",
-            "items/tlfb_bsalts_use_l",
-            "items/tlfb_meth_use_l",
-            "items/tlfb_mdma_use_l",
             "items/tlfb_ket_use_l",
             "items/tlfb_ghb_use_l",
             "items/tlfb_opi_use_l",
@@ -521,6 +521,18 @@
                 "variableName": "tlfb_caff_l"
             },
             {
+                "isAbout": "items/su_tlfb_vaped_something",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_tlfb_vaped_something"
+            },
+            {
+                "isAbout": "items/tlfb_coc_use_l",
+                "isVis": "tlfb_list_l___1 == '1' || event - name == '3_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "tlfb_coc_use_l"
+            },
+            {
                 "isAbout": "items/tlfb_inhalant_l",
                 "isVis": "(tlfb_inhalant_c_l == '0' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_inhalant_c_l == '0' && event - name == '2_year_follow_up_y_arm_1')",
                 "valueRequired": true,
@@ -533,6 +545,12 @@
                 "variableName": "tlfb_rx_misuse_l"
             },
             {
+                "isAbout": "items/tlfb_bsalts_use_l",
+                "isVis": "tlfb_list_l___2 == '1' || event - name == '3_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "tlfb_bsalts_use_l"
+            },
+            {
                 "isAbout": "items/tlfb_list_yes_no_l",
                 "isVis": "(event - name == '1_year_follow_up_y_arm_1')||(event - name == '2_year_follow_up_y_arm_1')",
                 "valueRequired": true,
@@ -543,6 +561,12 @@
                 "isVis": "tlfb_list_yes_no_l == '1'",
                 "valueRequired": true,
                 "variableName": "tlfb_list_l"
+            },
+            {
+                "isAbout": "items/tlfb_meth_use_l",
+                "isVis": "tlfb_list_l___3 == '1' || event - name == '3_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "tlfb_meth_use_l"
             },
             {
                 "isAbout": "items/tlfb_other_txt_l",
@@ -561,6 +585,12 @@
                 "isVis": "tlfb_alc_sip_l == '1' || tlfb_alc_sip_c_l == '1'",
                 "valueRequired": true,
                 "variableName": "tlfb_alc_use_l"
+            },
+            {
+                "isAbout": "items/tlfb_mdma_use_l",
+                "isVis": "tlfb_list_l___4 == '1' || event - name == '3_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "tlfb_mdma_use_l"
             },
             {
                 "isAbout": "items/tlfb_tob_puff_l",
@@ -681,36 +711,6 @@
                 "isVis": "tlfb_mj_synth_l == '1' || tlfb_mj_synth_c_l == '1' ||(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "tlfb_mj_synth_use_l"
-            },
-            {
-                "isAbout": "items/su_tlfb_vaped_something",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "su_tlfb_vaped_something"
-            },
-            {
-                "isAbout": "items/tlfb_coc_use_l",
-                "isVis": "tlfb_list_l___1 == '1' || event - name == '3_year_follow_up_y_arm_1'",
-                "valueRequired": true,
-                "variableName": "tlfb_coc_use_l"
-            },
-            {
-                "isAbout": "items/tlfb_bsalts_use_l",
-                "isVis": "tlfb_list_l___2 == '1' || event - name == '3_year_follow_up_y_arm_1'",
-                "valueRequired": true,
-                "variableName": "tlfb_bsalts_use_l"
-            },
-            {
-                "isAbout": "items/tlfb_meth_use_l",
-                "isVis": "tlfb_list_l___3 == '1' || event - name == '3_year_follow_up_y_arm_1'",
-                "valueRequired": true,
-                "variableName": "tlfb_meth_use_l"
-            },
-            {
-                "isAbout": "items/tlfb_mdma_use_l",
-                "isVis": "tlfb_list_l___4 == '1' || event - name == '3_year_follow_up_y_arm_1'",
-                "valueRequired": true,
-                "variableName": "tlfb_mdma_use_l"
             },
             {
                 "isAbout": "items/tlfb_ket_use_l",
@@ -2263,6 +2263,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2540",
+    "version": "revid2541",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

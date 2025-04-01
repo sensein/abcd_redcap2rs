@@ -279,24 +279,24 @@
             "items/pnotes_3yr_issues_wtimept_medicalhistory_resolved",
             "items/pnotes_3yr_issues_wtimept_medicalhistory_resolved_timestamp",
             "items/pnotes_3yr_issues_wtimept_occupationsurvey_resolved",
+            "items/pnotes_3yr_issues_wtimept_bfq_resolved",
             "items/pnotes_3yr_issues_wtimept_occupationsurvey_resolved_timestamp",
             "items/pnotes_3yr_issues_wtimept_blockkids_resolved",
-            "items/pnotes_3yr_issues_wtimept_blockkids_resolved_timestamp",
-            "items/pnotes_3yr_issues_wtimept_kbi_resolved",
-            "items/pnotes_3yr_issues_wtimept_kbi_resolved_timestamp",
-            "items/pnotes_3yr_issues_wtimept_ksads_resolved",
-            "items/pnotes_3yr_issues_wtimept_ksads_resolved_tstamp",
-            "items/pnotes_3yr_issues_wtimept_demo_resolved",
-            "items/pnotes_3yr_issues_wtimept_demo_resolved_timestamp",
-            "items/pnotes_3yr_issues_wtimept_bfq_resolved",
             "items/pnotes_3yr_issues_wtimept_bfq_resolved_timestamp",
             "items/pnotes_3yr_start_time_p",
+            "items/pnotes_3yr_issues_wtimept_blockkids_resolved_timestamp",
+            "items/pnotes_3yr_issues_wtimept_kbi_resolved",
             "items/pnotes_3yr_issues_wtimept_tbi_resolved",
+            "items/pnotes_3yr_issues_wtimept_kbi_resolved_timestamp",
             "items/pnotes_3yr_issues_wtimept_tbi_resolved_timestamp",
+            "items/pnotes_3yr_issues_wtimept_ksads_resolved",
             "items/pnotes_3yr_issues_wtimept_phenx_resolved",
+            "items/pnotes_3yr_issues_wtimept_ksads_resolved_tstamp",
             "items/pnotes_3yr_issues_wtimept_phenx_resolved_timestamp",
             "items/pnotes_3yr_issues_wtimept_cbc_resolved",
+            "items/pnotes_3yr_issues_wtimept_demo_resolved",
             "items/pnotes_3yr_issues_wtimept_cbc_resolved_timestamp",
+            "items/pnotes_3yr_issues_wtimept_demo_resolved_timestamp",
             "items/pnotes_3yr_issues_wtimept_sportsreadmusic_resolved",
             "items/pnotes_3yr_issues_wtimept_sportsreadmusic_resolved_timestamp",
             "items/pnotes_3yr_issues_wtimept_sportsactivitiesinvolvement_resolved",
@@ -2116,6 +2116,12 @@
                 "variableName": "pnotes_3yr_issues_wtimept_occupationsurvey_resolved"
             },
             {
+                "isAbout": "items/pnotes_3yr_issues_wtimept_bfq_resolved",
+                "isVis": "pnotes_3yr_issues_wtimept_instruments___7=='1'",
+                "valueRequired": false,
+                "variableName": "pnotes_3yr_issues_wtimept_bfq_resolved"
+            },
+            {
                 "isAbout": "items/pnotes_3yr_issues_wtimept_occupationsurvey_resolved_timestamp",
                 "isVis": "pnotes_3yr_issues_wtimept_occupationsurvey_resolved___1=='1'",
                 "valueRequired": false,
@@ -2126,54 +2132,6 @@
                 "isVis": "pnotes_3yr_issues_wtimept_instruments___4=='1'",
                 "valueRequired": false,
                 "variableName": "pnotes_3yr_issues_wtimept_blockkids_resolved"
-            },
-            {
-                "isAbout": "items/pnotes_3yr_issues_wtimept_blockkids_resolved_timestamp",
-                "isVis": "pnotes_3yr_issues_wtimept_blockkids_resolved___1=='1'",
-                "valueRequired": false,
-                "variableName": "pnotes_3yr_issues_wtimept_blockkids_resolved_timestamp"
-            },
-            {
-                "isAbout": "items/pnotes_3yr_issues_wtimept_kbi_resolved",
-                "isVis": "pnotes_3yr_issues_wtimept_instruments___5=='1'",
-                "valueRequired": false,
-                "variableName": "pnotes_3yr_issues_wtimept_kbi_resolved"
-            },
-            {
-                "isAbout": "items/pnotes_3yr_issues_wtimept_kbi_resolved_timestamp",
-                "isVis": "pnotes_3yr_issues_wtimept_kbi_resolved___1=='1'",
-                "valueRequired": false,
-                "variableName": "pnotes_3yr_issues_wtimept_kbi_resolved_timestamp"
-            },
-            {
-                "isAbout": "items/pnotes_3yr_issues_wtimept_ksads_resolved",
-                "isVis": "pnotes_3yr_issues_wtimept_instruments___37=='1'",
-                "valueRequired": false,
-                "variableName": "pnotes_3yr_issues_wtimept_ksads_resolved"
-            },
-            {
-                "isAbout": "items/pnotes_3yr_issues_wtimept_ksads_resolved_tstamp",
-                "isVis": "pnotes_3yr_issues_wtimept_ksads_resolved___1=='1'",
-                "valueRequired": false,
-                "variableName": "pnotes_3yr_issues_wtimept_ksads_resolved_tstamp"
-            },
-            {
-                "isAbout": "items/pnotes_3yr_issues_wtimept_demo_resolved",
-                "isVis": "pnotes_3yr_issues_wtimept_instruments___6=='1'",
-                "valueRequired": false,
-                "variableName": "pnotes_3yr_issues_wtimept_demo_resolved"
-            },
-            {
-                "isAbout": "items/pnotes_3yr_issues_wtimept_demo_resolved_timestamp",
-                "isVis": "pnotes_3yr_issues_wtimept_demo_resolved___1=='1'",
-                "valueRequired": false,
-                "variableName": "pnotes_3yr_issues_wtimept_demo_resolved_timestamp"
-            },
-            {
-                "isAbout": "items/pnotes_3yr_issues_wtimept_bfq_resolved",
-                "isVis": "pnotes_3yr_issues_wtimept_instruments___7=='1'",
-                "valueRequired": false,
-                "variableName": "pnotes_3yr_issues_wtimept_bfq_resolved"
             },
             {
                 "isAbout": "items/pnotes_3yr_issues_wtimept_bfq_resolved_timestamp",
@@ -2188,10 +2146,28 @@
                 "variableName": "pnotes_3yr_start_time_p"
             },
             {
+                "isAbout": "items/pnotes_3yr_issues_wtimept_blockkids_resolved_timestamp",
+                "isVis": "pnotes_3yr_issues_wtimept_blockkids_resolved___1=='1'",
+                "valueRequired": false,
+                "variableName": "pnotes_3yr_issues_wtimept_blockkids_resolved_timestamp"
+            },
+            {
+                "isAbout": "items/pnotes_3yr_issues_wtimept_kbi_resolved",
+                "isVis": "pnotes_3yr_issues_wtimept_instruments___5=='1'",
+                "valueRequired": false,
+                "variableName": "pnotes_3yr_issues_wtimept_kbi_resolved"
+            },
+            {
                 "isAbout": "items/pnotes_3yr_issues_wtimept_tbi_resolved",
                 "isVis": "pnotes_3yr_issues_wtimept_instruments___8=='1'",
                 "valueRequired": false,
                 "variableName": "pnotes_3yr_issues_wtimept_tbi_resolved"
+            },
+            {
+                "isAbout": "items/pnotes_3yr_issues_wtimept_kbi_resolved_timestamp",
+                "isVis": "pnotes_3yr_issues_wtimept_kbi_resolved___1=='1'",
+                "valueRequired": false,
+                "variableName": "pnotes_3yr_issues_wtimept_kbi_resolved_timestamp"
             },
             {
                 "isAbout": "items/pnotes_3yr_issues_wtimept_tbi_resolved_timestamp",
@@ -2200,10 +2176,22 @@
                 "variableName": "pnotes_3yr_issues_wtimept_tbi_resolved_timestamp"
             },
             {
+                "isAbout": "items/pnotes_3yr_issues_wtimept_ksads_resolved",
+                "isVis": "pnotes_3yr_issues_wtimept_instruments___37=='1'",
+                "valueRequired": false,
+                "variableName": "pnotes_3yr_issues_wtimept_ksads_resolved"
+            },
+            {
                 "isAbout": "items/pnotes_3yr_issues_wtimept_phenx_resolved",
                 "isVis": "pnotes_3yr_issues_wtimept_instruments___9=='1'",
                 "valueRequired": false,
                 "variableName": "pnotes_3yr_issues_wtimept_phenx_resolved"
+            },
+            {
+                "isAbout": "items/pnotes_3yr_issues_wtimept_ksads_resolved_tstamp",
+                "isVis": "pnotes_3yr_issues_wtimept_ksads_resolved___1=='1'",
+                "valueRequired": false,
+                "variableName": "pnotes_3yr_issues_wtimept_ksads_resolved_tstamp"
             },
             {
                 "isAbout": "items/pnotes_3yr_issues_wtimept_phenx_resolved_timestamp",
@@ -2218,10 +2206,22 @@
                 "variableName": "pnotes_3yr_issues_wtimept_cbc_resolved"
             },
             {
+                "isAbout": "items/pnotes_3yr_issues_wtimept_demo_resolved",
+                "isVis": "pnotes_3yr_issues_wtimept_instruments___6=='1'",
+                "valueRequired": false,
+                "variableName": "pnotes_3yr_issues_wtimept_demo_resolved"
+            },
+            {
                 "isAbout": "items/pnotes_3yr_issues_wtimept_cbc_resolved_timestamp",
                 "isVis": "pnotes_3yr_issues_wtimept_cbc_resolved___1=='1'",
                 "valueRequired": false,
                 "variableName": "pnotes_3yr_issues_wtimept_cbc_resolved_timestamp"
+            },
+            {
+                "isAbout": "items/pnotes_3yr_issues_wtimept_demo_resolved_timestamp",
+                "isVis": "pnotes_3yr_issues_wtimept_demo_resolved___1=='1'",
+                "valueRequired": false,
+                "variableName": "pnotes_3yr_issues_wtimept_demo_resolved_timestamp"
             },
             {
                 "isAbout": "items/pnotes_3yr_issues_wtimept_sportsreadmusic_resolved",
@@ -3330,6 +3330,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2540",
+    "version": "revid2541",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
