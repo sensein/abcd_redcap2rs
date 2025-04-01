@@ -7,6 +7,7 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/pbar1_cv",
             "items/pets_cv",
             "items/pet_identify_cv",
             "items/school_cv",
@@ -156,6 +157,12 @@
             "items/y_abcd_covid19_questionnaire_complete"
         ],
         "addProperties": [
+            {
+                "isAbout": "items/pbar1_cv",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pbar1_cv"
+            },
             {
                 "isAbout": "items/pets_cv",
                 "isVis": true,
@@ -1041,6 +1048,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2536",
+    "version": "revid2537",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

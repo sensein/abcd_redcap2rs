@@ -2120,6 +2120,7 @@
             "items/iqc_sst_ep_behav_readable",
             "items/iqc_eprime_missing",
             "items/iqc_nback_epx_missing",
+            "items/iqc_nback_ep_extra_behav_readable",
             "items/iqc_ra_series_missing_memo",
             "items/iqc_sst_ep_pguid_mis",
             "items/iqc_mid_ep_pguid_mis",
@@ -14903,6 +14904,12 @@
                 "variableName": "iqc_nback_epx_missing"
             },
             {
+                "isAbout": "items/iqc_nback_ep_extra_behav_readable",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "iqc_nback_ep_extra_behav_readable"
+            },
+            {
                 "isAbout": "items/iqc_ra_series_missing_memo",
                 "isVis": true,
                 "valueRequired": false,
@@ -15517,6 +15524,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2536",
+    "version": "revid2537",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

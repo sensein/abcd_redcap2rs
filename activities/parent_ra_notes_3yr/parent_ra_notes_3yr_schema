@@ -7,7 +7,6 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
-            "items/pnotes_3yr_start_time_p",
             "items/pnotes_3yr_select_language",
             "items/pnotes_3yr_teeth_num_total",
             "items/pnotes_3yr_more_teeth",
@@ -291,6 +290,7 @@
             "items/pnotes_3yr_issues_wtimept_demo_resolved_timestamp",
             "items/pnotes_3yr_issues_wtimept_bfq_resolved",
             "items/pnotes_3yr_issues_wtimept_bfq_resolved_timestamp",
+            "items/pnotes_3yr_start_time_p",
             "items/pnotes_3yr_issues_wtimept_tbi_resolved",
             "items/pnotes_3yr_issues_wtimept_tbi_resolved_timestamp",
             "items/pnotes_3yr_issues_wtimept_phenx_resolved",
@@ -483,12 +483,6 @@
             "items/parent_ra_notes_3yr_complete"
         ],
         "addProperties": [
-            {
-                "isAbout": "items/pnotes_3yr_start_time_p",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "pnotes_3yr_start_time_p"
-            },
             {
                 "isAbout": "items/pnotes_3yr_select_language",
                 "isVis": true,
@@ -2188,6 +2182,12 @@
                 "variableName": "pnotes_3yr_issues_wtimept_bfq_resolved_timestamp"
             },
             {
+                "isAbout": "items/pnotes_3yr_start_time_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pnotes_3yr_start_time_p"
+            },
+            {
                 "isAbout": "items/pnotes_3yr_issues_wtimept_tbi_resolved",
                 "isVis": "pnotes_3yr_issues_wtimept_instruments___8=='1'",
                 "valueRequired": false,
@@ -3330,6 +3330,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2536",
+    "version": "revid2537",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
