@@ -98,6 +98,11 @@
             "items/tfmri_sst_run2_beh_ssdstop_rate",
             "items/tfmri_sst_all_beh_total_meanssd",
             "items/tfmri_sst_all_beh_total_meanrt",
+            "items/tfmri_sst_all_beh_total_mssrt",
+            "items/tfmri_sst_all_beh_total_issrt",
+            "items/tfmri_sst_beh_violatorflag",
+            "items/tfmri_sst_beh_glitchflag",
+            "items/tfmri_sst_beh_0ssdcount",
             "items/mri_beh_sst_daic_use_only_complete"
         ],
         "addProperties": [
@@ -648,6 +653,36 @@
                 "variableName": "tfmri_sst_all_beh_total_meanrt"
             },
             {
+                "isAbout": "items/tfmri_sst_all_beh_total_mssrt",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_all_beh_total_mssrt"
+            },
+            {
+                "isAbout": "items/tfmri_sst_all_beh_total_issrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_all_beh_total_issrt"
+            },
+            {
+                "isAbout": "items/tfmri_sst_beh_violatorflag",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_beh_violatorflag"
+            },
+            {
+                "isAbout": "items/tfmri_sst_beh_glitchflag",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_beh_glitchflag"
+            },
+            {
+                "isAbout": "items/tfmri_sst_beh_0ssdcount",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "tfmri_sst_beh_0ssdcount"
+            },
+            {
                 "isAbout": "items/mri_beh_sst_daic_use_only_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -656,6 +691,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2537",
+    "version": "revid2538",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
