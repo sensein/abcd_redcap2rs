@@ -1,0 +1,39 @@
+{
+    "id": "hair_codeine_confirm",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "hair_codeine_confirm"
+    },
+    "question": {
+        "en": "codeine confirmation MS analysis"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Pos"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Neg"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "QNS"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
