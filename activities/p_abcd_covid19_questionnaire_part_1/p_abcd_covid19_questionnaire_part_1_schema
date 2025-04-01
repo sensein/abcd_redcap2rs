@@ -43,8 +43,10 @@
             "items/su_p_mj_vape_use_cv",
             "items/su_p_mj_vape_loc_cv",
             "items/su_p_mj_smoke_cv",
+            "items/future_scan_1_cv",
             "items/su_p_mj_smoke_loc_cv",
             "items/su_p_rx_od_cv",
+            "items/p_abcd_covid19_questionnaire_part_1_complete",
             "items/su_p_other_drugs_cv",
             "items/fam_rout_cv",
             "items/fam_hc_acc_cv",
@@ -54,9 +56,7 @@
             "items/fam_discord_cv",
             "items/ext_fam_diag_cv",
             "items/ext_fam_severity_cv",
-            "items/future_scan_cv",
-            "items/future_scan_1_cv",
-            "items/p_abcd_covid19_questionnaire_part_1_complete"
+            "items/future_scan_cv"
         ],
         "addProperties": [
             {
@@ -276,6 +276,12 @@
                 "variableName": "su_p_mj_smoke_cv"
             },
             {
+                "isAbout": "items/future_scan_1_cv",
+                "isVis": "event - name == 'covid19_cv2_arm_2'",
+                "valueRequired": true,
+                "variableName": "future_scan_1_cv"
+            },
+            {
                 "isAbout": "items/su_p_mj_smoke_loc_cv",
                 "isVis": "su_p_mj_smoke_cv > 0",
                 "valueRequired": true,
@@ -286,6 +292,12 @@
                 "isVis": "(event - name == 'covid19_cv2_arm_2' || event - name == 'covid19_cv4_arm_2')",
                 "valueRequired": true,
                 "variableName": "su_p_rx_od_cv"
+            },
+            {
+                "isAbout": "items/p_abcd_covid19_questionnaire_part_1_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "p_abcd_covid19_questionnaire_part_1_complete"
             },
             {
                 "isAbout": "items/su_p_other_drugs_cv",
@@ -346,22 +358,10 @@
                 "isVis": "event - name == 'covid19_cv2_arm_2'",
                 "valueRequired": true,
                 "variableName": "future_scan_cv"
-            },
-            {
-                "isAbout": "items/future_scan_1_cv",
-                "isVis": "event - name == 'covid19_cv2_arm_2'",
-                "valueRequired": true,
-                "variableName": "future_scan_1_cv"
-            },
-            {
-                "isAbout": "items/p_abcd_covid19_questionnaire_part_1_complete",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "p_abcd_covid19_questionnaire_part_1_complete"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2595",
+    "version": "revid2596",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

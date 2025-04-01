@@ -6,6 +6,11 @@
             "column": "Matrix Group Name",
             "source": "redcap",
             "value": "home_completion"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
         }
     ],
     "preamble": {
@@ -36,6 +41,12 @@
                     "en": "Off-site, In-person"
                 },
                 "value": 4
+            },
+            {
+                "name": {
+                    "en": "At Research Site"
+                },
+                "value": 5
             }
         ],
         "valueType": [
@@ -43,7 +54,8 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "radio",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

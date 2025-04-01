@@ -1,11 +1,21 @@
 {
     "id": "pnotes_where_complete",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDECHOICE = '2, 3'"
+        }
+    ],
+    "preamble": {
+        "en": "COMPLETION METHODTake Home Surveys / Remote Completion"
+    },
     "prefLabel": {
         "en": "pnotes_where_complete"
     },
     "question": {
-        "en": "Where did the Parent complete the rest of the followup visit?"
+        "en": "Where did the Parent complete therest of the parent protocol?"
     },
     "responseOptions": {
         "choices": [
@@ -26,6 +36,18 @@
                     "en": "Some but Not All Completed at Home"
                 },
                 "value": 3
+            },
+            {
+                "name": {
+                    "en": "Remote"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Combination"
+                },
+                "value": 5
             }
         ],
         "valueType": [

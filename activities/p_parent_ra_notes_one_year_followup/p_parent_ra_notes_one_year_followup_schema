@@ -32,6 +32,9 @@
             "items/pnotes_self_method_remote",
             "items/pnotes_method_remote",
             "items/home_completion_desc",
+            "items/pnotes_where_home_complete",
+            "items/pnotes_where_complete",
+            "items/pnotes_sched_visit_reason",
             "items/pnotes_home_pds",
             "items/pnotes_home_sds",
             "items/pnotes_home_eatq",
@@ -45,14 +48,12 @@
             "items/pnotes_home_macv",
             "items/pnotes_home_nsc",
             "items/pnotes_home_bkfs",
-            "items/pnotes_where_complete",
-            "items/pnotes_sched_visit_reason",
             "items/pnotes_pmp_p",
+            "items/pnotes_mhx_p",
             "items/pnotes_occ_p",
             "items/pnotes_ksadsnet_p",
             "items/pnotes_kbi_p",
             "items/pnotes_pdem_p",
-            "items/pnotes_mhx_p",
             "items/pnotes_otbi_p",
             "items/pnotes_pgbi_p",
             "items/pnotes_ssrs_p",
@@ -427,82 +428,10 @@
                 "variableName": "home_completion_desc"
             },
             {
-                "isAbout": "items/pnotes_home_pds",
-                "isVis": "home_9___1 == '1' || home_13___1 == '1' || sched_delay == '9' && pnotes_method_remote == '2'",
-                "valueRequired": false,
-                "variableName": "pnotes_home_pds"
-            },
-            {
-                "isAbout": "items/pnotes_home_sds",
-                "isVis": "home_9___2 == '1' || home_13___2 == '1' || sched_delay == '9' && pnotes_method_remote == '2'",
-                "valueRequired": false,
-                "variableName": "pnotes_home_sds"
-            },
-            {
-                "isAbout": "items/pnotes_home_eatq",
-                "isVis": "home_13___10 == '1' ||(sched_delay == '9' && event_name_number == '21' && pnotes_method_remote == '2')",
-                "valueRequired": false,
-                "variableName": "pnotes_home_eatq"
-            },
-            {
-                "isAbout": "items/pnotes_home_stq",
-                "isVis": "home_9___3 == '1' || home_13___3 == '1' || sched_delay == '9' && pnotes_method_remote == '2'",
-                "valueRequired": false,
-                "variableName": "pnotes_home_stq"
-            },
-            {
-                "isAbout": "items/pnotes_home_pst",
-                "isVis": "home_9___4 == '1' || home_13___4 == '1' || sched_delay == '9' && pnotes_method_remote == '2'",
-                "valueRequired": false,
-                "variableName": "pnotes_home_pst"
-            },
-            {
-                "isAbout": "items/pnotes_home_prq",
-                "isVis": "home_9___5 == '1' || home_13___5 == '1' || sched_delay == '9' && pnotes_method_remote == '2'",
-                "valueRequired": false,
-                "variableName": "pnotes_home_prq"
-            },
-            {
-                "isAbout": "items/pnotes_home_crpf",
-                "isVis": "home_9___6 == '1' || home_13___6 == '1' || sched_delay == '9' && pnotes_method_remote == '2'",
-                "valueRequired": false,
-                "variableName": "pnotes_home_crpf"
-            },
-            {
-                "isAbout": "items/pnotes_home_sag",
-                "isVis": "home_13___11 == '1' ||(sched_delay == '9' && event_name_number == '21' && pnotes_method_remote == '2')",
-                "valueRequired": false,
-                "variableName": "pnotes_home_sag"
-            },
-            {
-                "isAbout": "items/pnotes_home_acc",
-                "isVis": "home_9___7 == '1' || home_13___7 == '1' || sched_delay == '9' && pnotes_method_remote == '2'",
-                "valueRequired": false,
-                "variableName": "pnotes_home_acc"
-            },
-            {
-                "isAbout": "items/pnotes_home_comc",
-                "isVis": "home_13___12 == '1' ||(sched_delay == '9' && event_name_number == '21' && pnotes_method_remote == '2')",
-                "valueRequired": false,
-                "variableName": "pnotes_home_comc"
-            },
-            {
-                "isAbout": "items/pnotes_home_macv",
-                "isVis": "home_9___8 == '1' || home_13___8 == '1' || sched_delay == '9' && pnotes_method_remote == '2'",
-                "valueRequired": false,
-                "variableName": "pnotes_home_macv"
-            },
-            {
-                "isAbout": "items/pnotes_home_nsc",
-                "isVis": "home_9___9 == '1' || home_13___9 == '1' ||(sched_delay == '9' && pnotes_method_remote == '2')",
-                "valueRequired": false,
-                "variableName": "pnotes_home_nsc"
-            },
-            {
-                "isAbout": "items/pnotes_home_bkfs",
-                "isVis": "(sched_delay == '9' && event_name_number == '21' && pnotes_method_remote == '2')",
-                "valueRequired": false,
-                "variableName": "pnotes_home_bkfs"
+                "isAbout": "items/pnotes_where_home_complete",
+                "isVis": "pnotes_method_remote == '2'",
+                "valueRequired": true,
+                "variableName": "pnotes_where_home_complete"
             },
             {
                 "isAbout": "items/pnotes_where_complete",
@@ -517,158 +446,236 @@
                 "variableName": "pnotes_sched_visit_reason"
             },
             {
+                "isAbout": "items/pnotes_home_pds",
+                "isVis": "home_9___1 == '1' ||(sched_delay == '9' && pnotes_where_home_complete == '3')",
+                "valueRequired": false,
+                "variableName": "pnotes_home_pds"
+            },
+            {
+                "isAbout": "items/pnotes_home_sds",
+                "isVis": "home_9___2 == '1' ||(sched_delay == '9' && pnotes_where_home_complete == '3')",
+                "valueRequired": false,
+                "variableName": "pnotes_home_sds"
+            },
+            {
+                "isAbout": "items/pnotes_home_eatq",
+                "isVis": "(sched_delay == '9' && pnotes_where_home_complete == '3')",
+                "valueRequired": false,
+                "variableName": "pnotes_home_eatq"
+            },
+            {
+                "isAbout": "items/pnotes_home_stq",
+                "isVis": "home_9___3 == '1' ||(sched_delay == '9' && pnotes_where_home_complete == '3')",
+                "valueRequired": false,
+                "variableName": "pnotes_home_stq"
+            },
+            {
+                "isAbout": "items/pnotes_home_pst",
+                "isVis": "home_9___4 == '1' ||(sched_delay == '9' && pnotes_where_home_complete == '3')",
+                "valueRequired": false,
+                "variableName": "pnotes_home_pst"
+            },
+            {
+                "isAbout": "items/pnotes_home_prq",
+                "isVis": "home_9___5 == '1' ||(sched_delay == '9' && pnotes_where_home_complete == '3')",
+                "valueRequired": false,
+                "variableName": "pnotes_home_prq"
+            },
+            {
+                "isAbout": "items/pnotes_home_crpf",
+                "isVis": "home_9___6 == '1' ||(sched_delay == '9' && pnotes_where_home_complete == '3')",
+                "valueRequired": false,
+                "variableName": "pnotes_home_crpf"
+            },
+            {
+                "isAbout": "items/pnotes_home_sag",
+                "isVis": "(sched_delay == '9' && pnotes_where_home_complete == '3')",
+                "valueRequired": false,
+                "variableName": "pnotes_home_sag"
+            },
+            {
+                "isAbout": "items/pnotes_home_acc",
+                "isVis": "home_9___7 == '1' ||(sched_delay == '9' && pnotes_where_home_complete == '3')",
+                "valueRequired": false,
+                "variableName": "pnotes_home_acc"
+            },
+            {
+                "isAbout": "items/pnotes_home_comc",
+                "isVis": "(sched_delay == '9' && pnotes_where_home_complete == '3')",
+                "valueRequired": false,
+                "variableName": "pnotes_home_comc"
+            },
+            {
+                "isAbout": "items/pnotes_home_macv",
+                "isVis": "home_9___8 == '1' ||(sched_delay == '9' && pnotes_where_home_complete == '3')",
+                "valueRequired": false,
+                "variableName": "pnotes_home_macv"
+            },
+            {
+                "isAbout": "items/pnotes_home_nsc",
+                "isVis": "home_9___9 == '1' ||(sched_delay == '9' && pnotes_where_home_complete == '3')",
+                "valueRequired": false,
+                "variableName": "pnotes_home_nsc"
+            },
+            {
+                "isAbout": "items/pnotes_home_bkfs",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pnotes_home_bkfs"
+            },
+            {
                 "isAbout": "items/pnotes_pmp_p",
-                "isVis": "pnotes_method_remote == '2'",
+                "isVis": "pnotes_where_complete == '3'",
                 "valueRequired": true,
                 "variableName": "pnotes_pmp_p"
             },
             {
+                "isAbout": "items/pnotes_mhx_p",
+                "isVis": "pnotes_where_complete == '3'",
+                "valueRequired": true,
+                "variableName": "pnotes_mhx_p"
+            },
+            {
                 "isAbout": "items/pnotes_occ_p",
-                "isVis": "pnotes_method_remote == '2'",
+                "isVis": "pnotes_where_complete == '3'",
                 "valueRequired": true,
                 "variableName": "pnotes_occ_p"
             },
             {
                 "isAbout": "items/pnotes_ksadsnet_p",
-                "isVis": "pnotes_method_remote == '2'",
+                "isVis": "pnotes_where_complete == '3'",
                 "valueRequired": true,
                 "variableName": "pnotes_ksadsnet_p"
             },
             {
                 "isAbout": "items/pnotes_kbi_p",
-                "isVis": "pnotes_method_remote == '2'",
+                "isVis": "pnotes_where_complete == '3'",
                 "valueRequired": true,
                 "variableName": "pnotes_kbi_p"
             },
             {
                 "isAbout": "items/pnotes_pdem_p",
-                "isVis": "pnotes_method_remote == '2'",
+                "isVis": "pnotes_where_complete == '3'",
                 "valueRequired": true,
                 "variableName": "pnotes_pdem_p"
             },
             {
-                "isAbout": "items/pnotes_mhx_p",
-                "isVis": "pnotes_method_remote == '2'",
-                "valueRequired": true,
-                "variableName": "pnotes_mhx_p"
-            },
-            {
                 "isAbout": "items/pnotes_otbi_p",
-                "isVis": "pnotes_method_remote == '2'",
+                "isVis": "pnotes_where_complete == '3'",
                 "valueRequired": true,
                 "variableName": "pnotes_otbi_p"
             },
             {
                 "isAbout": "items/pnotes_pgbi_p",
-                "isVis": "pnotes_method_remote == '2'",
+                "isVis": "pnotes_where_complete == '3'",
                 "valueRequired": true,
                 "variableName": "pnotes_pgbi_p"
             },
             {
                 "isAbout": "items/pnotes_ssrs_p",
-                "isVis": "pnotes_method_remote == '2'",
+                "isVis": "pnotes_where_complete == '3'",
                 "valueRequired": true,
                 "variableName": "pnotes_ssrs_p"
             },
             {
                 "isAbout": "items/pnotes_ple_p",
-                "isVis": "pnotes_method_remote == '2'",
+                "isVis": "pnotes_where_complete == '3'",
                 "valueRequired": true,
                 "variableName": "pnotes_ple_p"
             },
             {
                 "isAbout": "items/pnotes_cbcl_p",
-                "isVis": "pnotes_method_remote == '2'",
+                "isVis": "pnotes_where_complete == '3'",
                 "valueRequired": true,
                 "variableName": "pnotes_cbcl_p"
             },
             {
                 "isAbout": "items/pnotes_cna_p",
-                "isVis": "pnotes_method_remote == '2'",
+                "isVis": "(event - name == 'baseline_year_1_arm_1')||(event - name == '1_year_follow_up_y_arm_1')||(event - name == '3_year_follow_up_y_arm_1')||(pnotes_where_complete == '3')",
                 "valueRequired": true,
                 "variableName": "pnotes_cna_p"
             },
             {
                 "isAbout": "items/pnotes_sai_p",
-                "isVis": "pnotes_method_remote == '2'",
+                "isVis": "pnotes_where_complete == '3'",
                 "valueRequired": true,
                 "variableName": "pnotes_sai_p"
             },
             {
                 "isAbout": "items/pnotes_gish_p",
-                "isVis": "pnotes_method_remote == '2'",
+                "isVis": "pnotes_where_complete == '3'",
                 "valueRequired": true,
                 "variableName": "pnotes_gish_p"
             },
             {
                 "isAbout": "items/pnotes_asr_p",
-                "isVis": "pnotes_method_remote == '2'",
+                "isVis": "pnotes_where_complete == '3'",
                 "valueRequired": true,
                 "variableName": "pnotes_asr_p"
             },
             {
                 "isAbout": "items/pnotes_abcl_p",
-                "isVis": "pnotes_method_remote == '2'",
+                "isVis": "pnotes_where_complete == '3'",
                 "valueRequired": true,
                 "variableName": "pnotes_abcl_p"
             },
             {
                 "isAbout": "items/pnotes_meim_p",
-                "isVis": "pnotes_method_remote == '2'",
+                "isVis": "pnotes_where_complete == '3'",
                 "valueRequired": true,
                 "variableName": "pnotes_meim_p"
             },
             {
                 "isAbout": "items/pnotes_via_p",
-                "isVis": "pnotes_method_remote == '2'",
+                "isVis": "pnotes_where_complete == '3'",
                 "valueRequired": true,
                 "variableName": "pnotes_via_p"
             },
             {
                 "isAbout": "items/pnotes_fes_p",
-                "isVis": "pnotes_method_remote == '2'",
+                "isVis": "pnotes_where_complete == '3'",
                 "valueRequired": true,
                 "variableName": "pnotes_fes_p"
             },
             {
                 "isAbout": "items/pnotes_sudes_p",
-                "isVis": "pnotes_method_remote == '2'",
+                "isVis": "pnotes_where_complete == '3'",
                 "valueRequired": true,
                 "variableName": "pnotes_sudes_p"
             },
             {
                 "isAbout": "items/pnotes_srpf_p",
-                "isVis": "pnotes_method_remote == '2'",
+                "isVis": "(event - name == 'baseline_year_1_arm_1')||(event - name == '1_year_follow_up_y_arm_1')||(event - name == '3_year_follow_up_y_arm_1')||(pnotes_where_complete == '3')",
                 "valueRequired": true,
                 "variableName": "pnotes_srpf_p"
             },
             {
                 "isAbout": "items/pnotes_plus_p",
-                "isVis": "pnotes_method_remote == '2'",
+                "isVis": "pnotes_where_complete == '3'",
                 "valueRequired": true,
                 "variableName": "pnotes_plus_p"
             },
             {
                 "isAbout": "items/pnotes_blf_p",
-                "isVis": "pnotes_method_remote == '2'",
+                "isVis": "pnotes_where_complete == '3'",
                 "valueRequired": true,
                 "variableName": "pnotes_blf_p"
             },
             {
                 "isAbout": "items/pnotes_fitpr_p",
-                "isVis": "pnotes_method_remote == '2'",
+                "isVis": "pnotes_where_complete == '3'",
                 "valueRequired": true,
                 "variableName": "pnotes_fitpr_p"
             },
             {
                 "isAbout": "items/pnotes_fitpo_p",
-                "isVis": "pnotes_method_remote == '2'",
+                "isVis": "pnotes_where_complete == '3'",
                 "valueRequired": true,
                 "variableName": "pnotes_fitpo_p"
             },
             {
                 "isAbout": "items/pnotes_bkfs_p",
-                "isVis": "pnotes_method_remote == '2'",
+                "isVis": "pnotes_where_complete == '3'",
                 "valueRequired": true,
                 "variableName": "pnotes_bkfs_p"
             },
@@ -1881,6 +1888,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2595",
+    "version": "revid2596",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
