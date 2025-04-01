@@ -196,13 +196,13 @@
             },
             {
                 "isAbout": "items/ears_withdrawal",
-                "isVis": "ears_app_installation___1 == '0'",
+                "isVis": "ears_app_installation___1 == '0' &&(event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": false,
                 "variableName": "ears_withdrawal"
             },
             {
                 "isAbout": "items/device_return_issues_2",
-                "isVis": "ears_app_installation___1 == '0'",
+                "isVis": "ears_app_installation___1 == '0' &&(event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": false,
                 "variableName": "device_return_issues_2"
             },
@@ -383,6 +383,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2659",
+    "version": "revid2660",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
