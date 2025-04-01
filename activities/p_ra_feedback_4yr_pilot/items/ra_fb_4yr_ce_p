@@ -1,0 +1,104 @@
+{
+    "id": "ra_fb_4yr_ce_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDECHOICE = '9, 10'"
+        }
+    ],
+    "preamble": {
+        "en": "Please use this form to document any feedback regarding the 4-year follow-up PARENT protocol elements.\n\nInput information on REDCap related issues such as: typos, branching logic, redundancy or omissions, concerns about the wording or meaning of items, pilot's observations, checklists, SOP(s), etc."
+    },
+    "prefLabel": {
+        "en": "ra_fb_4yr_ce_p"
+    },
+    "question": {
+        "en": "Please check any instrument where you have issues to report in the Culture and Environment Module"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "P_Prosocial Tendencies"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "P_Acculturation"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "P_Mexican American Cultural Values Scale"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "P_Family Environment Scale"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "P_Neighborhood Safety & Crime"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "P_Multi-Group Ethnic Identity"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "P_Vancouver Index of Acculturation"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "P_School Attendance of Youth"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "P_Community Cohesion"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "P_Pet Ownership"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "P_Home Short Form"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "P_Parental Monitoring"
+                },
+                "value": 15
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

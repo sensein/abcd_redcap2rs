@@ -1,0 +1,35 @@
+{
+    "id": "ra_fb_4yr_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200909"
+        }
+    ],
+    "prefLabel": {
+        "en": "ra_fb_4yr_y"
+    },
+    "question": {
+        "en": "Select if this is anofficial4-YearYOUTHABCD Pilot"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

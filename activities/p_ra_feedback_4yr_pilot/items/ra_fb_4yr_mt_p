@@ -1,0 +1,56 @@
+{
+    "id": "ra_fb_4yr_mt_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDECHOICE = '2, 3'"
+        }
+    ],
+    "preamble": {
+        "en": "Please use this form to document any feedback regarding the 4-year follow-up PARENT protocol elements.\n\nInput information on REDCap related issues such as: typos, branching logic, redundancy or omissions, concerns about the wording or meaning of items, pilot's observations, checklists, SOP(s), etc."
+    },
+    "prefLabel": {
+        "en": "ra_fb_4yr_mt_p"
+    },
+    "question": {
+        "en": "Please check any instrument where you have issues to report in the Mobile Tech Module"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "P_Screen Time"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "P_Fitbit pre"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "P_Fitbit post"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "P_Screen Time parent"
+                },
+                "value": 4
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

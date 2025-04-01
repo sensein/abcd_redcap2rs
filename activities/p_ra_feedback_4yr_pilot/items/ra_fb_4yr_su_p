@@ -1,0 +1,49 @@
+{
+    "id": "ra_fb_4yr_su_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Please use this form to document any feedback regarding the 4-year follow-up PARENT protocol elements.\n\nInput information on REDCap related issues such as: typos, branching logic, redundancy or omissions, concerns about the wording or meaning of items, pilot's observations, checklists, SOP(s), etc."
+    },
+    "prefLabel": {
+        "en": "ra_fb_4yr_su_p"
+    },
+    "question": {
+        "en": "Please check any instrument where you have issues to report in the Substance Use Module"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "P_SU Density, Storage and Exposure"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "P_Plus Form 2"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "P_Parent Rules"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "P_Su Community Risk and Protection"
+                },
+                "value": 4
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

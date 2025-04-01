@@ -1,0 +1,109 @@
+{
+    "id": "ra_fb_4yr_ncg_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "LV"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDECHOICE = '1, 2, 3'"
+        }
+    ],
+    "preamble": {
+        "en": "Please use this form to document any feedback regarding the 4-year follow-up YOUTH protocol elements. \n\nInput information on REDCap related issues such as: typos, branching logic, redundancy or omissions, concerns about the wording or meaning of items, pilot's observations, checklists, SOP(s), etc."
+    },
+    "prefLabel": {
+        "en": "ra_fb_4yr_ncg_y"
+    },
+    "question": {
+        "en": "NeuroCognition Module"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Emotion Stroop"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Delay Discounting"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Math Task"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Handedness"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Snellen Vision Screener"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "NIH Toolbox"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "RAVLT Short/Long Delay"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Little Man Task"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Millisecond Flanker"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Game of Dice"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Social Influence Task"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "BIRD Task"
+                },
+                "value": 4
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

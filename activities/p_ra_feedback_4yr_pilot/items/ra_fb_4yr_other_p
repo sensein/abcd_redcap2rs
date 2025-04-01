@@ -1,0 +1,74 @@
+{
+    "id": "ra_fb_4yr_other_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200805"
+        }
+    ],
+    "preamble": {
+        "en": "Please use this form to document any feedback regarding the 4-year follow-up PARENT protocol elements.\n\nInput information on REDCap related issues such as: typos, branching logic, redundancy or omissions, concerns about the wording or meaning of items, pilot's observations, checklists, SOP(s), etc."
+    },
+    "prefLabel": {
+        "en": "ra_fb_4yr_other_p"
+    },
+    "question": {
+        "en": "Other:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Parent Permission"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "PII Locator Form"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "PII Residential HX Form"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "COVID-19 Measure"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "COVID-19 Symptom Screeners"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Feedback"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Parent RA Notes"
+                },
+                "value": 7
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

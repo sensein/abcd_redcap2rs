@@ -1,0 +1,29 @@
+{
+    "id": "ra_fb_4yr_nih_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200803"
+        }
+    ],
+    "preamble": {
+        "en": "Please enter the time it took to complete each of the following instruments (in minutes). If you didnotadminister a component (e.g. youth refused, not allowed to do biospecimen collection),please leave that item blank."
+    },
+    "prefLabel": {
+        "en": "ra_fb_4yr_nih_y"
+    },
+    "question": {
+        "en": "NIH TB (Minutes):"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

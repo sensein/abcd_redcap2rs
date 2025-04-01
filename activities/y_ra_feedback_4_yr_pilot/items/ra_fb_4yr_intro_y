@@ -1,0 +1,74 @@
+{
+    "id": "ra_fb_4yr_intro_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "LV"
+        }
+    ],
+    "preamble": {
+        "en": "Please use this form to document any feedback regarding the 4-year follow-up YOUTH protocol elements. \n\nInput information on REDCap related issues such as: typos, branching logic, redundancy or omissions, concerns about the wording or meaning of items, pilot's observations, checklists, SOP(s), etc."
+    },
+    "prefLabel": {
+        "en": "ra_fb_4yr_intro_y"
+    },
+    "question": {
+        "en": "Miscellaneous"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Assent form"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Youth Feedback"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Follow-up Visit Summary"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Youth RA Notes"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "COVID-19 Screener"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "COVID-19 Measure"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 4
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

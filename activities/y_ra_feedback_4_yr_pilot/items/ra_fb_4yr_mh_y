@@ -1,0 +1,139 @@
+{
+    "id": "ra_fb_4yr_mh_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "LV"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDECHOICE = '9, 10, 11, 12, 13'"
+        }
+    ],
+    "preamble": {
+        "en": "Please use this form to document any feedback regarding the 4-year follow-up YOUTH protocol elements. \n\nInput information on REDCap related issues such as: typos, branching logic, redundancy or omissions, concerns about the wording or meaning of items, pilot's observations, checklists, SOP(s), etc."
+    },
+    "prefLabel": {
+        "en": "ra_fb_4yr_mh_y"
+    },
+    "question": {
+        "en": "Mental Health Module"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Prodromal Psychosis Scale"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Youth Self Report"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "Brief Delinquency Measure"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "PhenX Life Events"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Peer Experience Questionnaire"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Cyber Bullying"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "KSADS Background Items"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "KSADS-5 Module"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "UPPS-Short"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "BIS/BAS"
+                },
+                "value": 17
+            },
+            {
+                "name": {
+                    "en": "Emotion Regulation Questionnaire"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "Youth Resilience"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "GISH_1"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "GISH_2"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "GISH_3"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Mania 7up"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "NIH Toolbox Positive Affect"
+                },
+                "value": 13
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

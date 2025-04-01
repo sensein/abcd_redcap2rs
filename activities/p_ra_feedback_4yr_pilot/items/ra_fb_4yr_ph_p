@@ -1,0 +1,104 @@
+{
+    "id": "ra_fb_4yr_ph_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDECHOICE = '9, 10, 11'"
+        }
+    ],
+    "preamble": {
+        "en": "Please use this form to document any feedback regarding the 4-year follow-up PARENT protocol elements.\n\nInput information on REDCap related issues such as: typos, branching logic, redundancy or omissions, concerns about the wording or meaning of items, pilot's observations, checklists, SOP(s), etc."
+    },
+    "prefLabel": {
+        "en": "ra_fb_4yr_ph_p"
+    },
+    "question": {
+        "en": "Please check any instrument where you have issues to report in the Physical Health Module"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "P_Baby Teeth"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "P_Medical History"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "P_Medication Inventory Plus"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "P_Developmental History"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "P_Kids Block Food Screen"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "P_Modified Ohio State TBI Screen"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "P_Pubertal Development Scape/Menstrual History"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "P_Sleep Disturbance Scale for Children"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "P_Sports Activities Involvement Saiqparent L (long)"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "P_International Physical Activity Q"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "P_Breast Feeding Questionaire"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "P_Sports Activities Involvement Saiqparent (brief)"
+                },
+                "value": 11
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

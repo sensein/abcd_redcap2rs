@@ -1,0 +1,128 @@
+{
+    "id": "ra_fb_4yr_mh_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDECHOICE = '9, 12, 13, 21'"
+        }
+    ],
+    "preamble": {
+        "en": "Please use this form to document any feedback regarding the 4-year follow-up PARENT protocol elements.\n\nInput information on REDCap related issues such as: typos, branching logic, redundancy or omissions, concerns about the wording or meaning of items, pilot's observations, checklists, SOP(s), etc."
+    },
+    "prefLabel": {
+        "en": "ra_fb_4yr_mh_p"
+    },
+    "question": {
+        "en": "Please check any instrument where you have issues to report in the Mental Health Module"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "P_KSADS-5 Background Items"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "P_Occupation Survey"
+                },
+                "value": 17
+            },
+            {
+                "name": {
+                    "en": "P_Demographics"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "P_General Behavior Inventory"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "P_Short Social Responsiveness Scale"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "P_Life Events"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "P_Child Behavior Checklist"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "P_Youth Resilience"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "P_PhenX Early Adolescent Temperament Q"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "P_Adult Self Report"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "P_Adult Behavior Checklist"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "P_Gender Identity"
+                },
+                "value": 18
+            },
+            {
+                "name": {
+                    "en": "P_KSADS"
+                },
+                "value": 19
+            },
+            {
+                "name": {
+                    "en": "P_Difficulty in Emotion Regulation"
+                },
+                "value": 20
+            },
+            {
+                "name": {
+                    "en": "P_Perceived Stress"
+                },
+                "value": 21
+            },
+            {
+                "name": {
+                    "en": "P_Block Kids Food Screen"
+                },
+                "value": 12
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
