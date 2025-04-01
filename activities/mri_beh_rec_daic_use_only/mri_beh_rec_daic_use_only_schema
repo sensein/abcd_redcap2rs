@@ -47,13 +47,13 @@
             "items/tfmri_rec_all_beh_neutface_pr",
             "items/tfmri_rec_all_beh_neutface_br",
             "items/tfmri_rec_all_beh_neutface_dprime",
+            "items/mri_beh_rec_daic_use_only_complete",
             "items/tfmri_rec_all_beh_negface_pr",
             "items/tfmri_rec_all_beh_negface_br",
             "items/tfmri_rec_all_beh_negface_dprime",
             "items/tfmri_rec_all_beh_place_pr",
             "items/tfmri_rec_all_beh_place_br",
-            "items/tfmri_rec_all_beh_place_dprime",
-            "items/mri_beh_rec_daic_use_only_complete"
+            "items/tfmri_rec_all_beh_place_dprime"
         ],
         "addProperties": [
             {
@@ -297,6 +297,12 @@
                 "variableName": "tfmri_rec_all_beh_neutface_dprime"
             },
             {
+                "isAbout": "items/mri_beh_rec_daic_use_only_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_beh_rec_daic_use_only_complete"
+            },
+            {
                 "isAbout": "items/tfmri_rec_all_beh_negface_pr",
                 "isVis": false,
                 "valueRequired": false,
@@ -331,16 +337,10 @@
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "tfmri_rec_all_beh_place_dprime"
-            },
-            {
-                "isAbout": "items/mri_beh_rec_daic_use_only_complete",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mri_beh_rec_daic_use_only_complete"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2603",
+    "version": "revid2604",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
