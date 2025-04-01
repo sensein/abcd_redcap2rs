@@ -1,13 +1,6 @@
 {
     "id": "hair_ccf_id",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Text Validation Type OR Show Slider Number",
-            "source": "redcap",
-            "value": "integer"
-        }
-    ],
     "prefLabel": {
         "en": "hair_ccf_id"
     },
@@ -16,11 +9,11 @@
     },
     "responseOptions": {
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {
-        "inputType": "number"
+        "inputType": "text"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
