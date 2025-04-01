@@ -1,11 +1,11 @@
 {
-    "id": "iep_provide_cv_p",
+    "id": "school_at_home_cv_p",
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
             "column": "Field Annotation",
             "source": "redcap",
-            "value": "@HIDDEN"
+            "value": "HIDEFROMCOMPLETION20201109"
         }
     ],
     "preamble": {
@@ -13,32 +13,28 @@
         "es": "Para las siguientes preguntas sobre estudios escolares en casa de su hijo/a, piense en lasemana pasada:"
     },
     "prefLabel": {
-        "en": "iep_provide_cv_p"
+        "en": "school_at_home_cv_p"
     },
     "question": {
-        "en": "Did the school continue to provide services?",
-        "es": "\u00c2\u00bfLa escuela contin\u00c3\u00bao proporcionando servicios?"
+        "en": "Has your child had school-at-home?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "No",
-                    "es": "No"
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Yes",
-                    "es": "S\u00c3\u00ad"
-                },
-                "value": 2
-            },
-            {
-                "name": {
-                    "en": "Don't know",
-                    "es": "No se"
+                    "en": "Don't know"
                 },
                 "value": 999
             }
@@ -48,8 +44,7 @@
         ]
     },
     "ui": {
-        "inputType": "radio",
-        "readonlyValue": true
+        "inputType": "radio"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

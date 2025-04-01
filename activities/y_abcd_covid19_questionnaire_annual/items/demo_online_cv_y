@@ -6,10 +6,15 @@
             "column": "Matrix Group Name",
             "source": "redcap",
             "value": "demo_home_due_to_cv_y"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
         }
     ],
     "preamble": {
-        "en": "Comparedbeforeyou had to stay at home due to the coronavirus:"
+        "en": "Compared to before coronavirus became publicly known in February 2020:"
     },
     "prefLabel": {
         "en": "demo_online_cv_y"
@@ -61,7 +66,8 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "radio",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

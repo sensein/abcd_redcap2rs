@@ -21,8 +21,9 @@
             "items/school_cv_p",
             "items/school_close_date_cv_p",
             "items/school_close_date_2_cv_p",
-            "items/child_care_cv_p",
+            "items/school_at_home_cv_p",
             "items/work_ability_cv_p",
+            "items/child_care_cv_p",
             "items/homework_time_cv_p",
             "items/school_engage_cv_p",
             "items/homework_help_time_cv_p",
@@ -95,7 +96,7 @@
             },
             {
                 "isAbout": "items/increased_conflict_p",
-                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "increased_conflict_p"
             },
@@ -131,13 +132,13 @@
             },
             {
                 "isAbout": "items/school_cv_p",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "school_cv_p"
             },
             {
                 "isAbout": "items/school_close_date_cv_p",
-                "isVis": "(school_cv_p == '1' || school_cv_p == '2' || school_cv_p == '3' || school_cv_p == '4')AND school_close_date_2_cv_p == ''",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "school_close_date_cv_p"
             },
@@ -148,16 +149,22 @@
                 "variableName": "school_close_date_2_cv_p"
             },
             {
-                "isAbout": "items/child_care_cv_p",
-                "isVis": "school_cv_p == '1' || school_cv_p == '2' || school_cv_p == '3' || school_cv_p == '4'",
+                "isAbout": "items/school_at_home_cv_p",
+                "isVis": true,
                 "valueRequired": true,
-                "variableName": "child_care_cv_p"
+                "variableName": "school_at_home_cv_p"
             },
             {
                 "isAbout": "items/work_ability_cv_p",
-                "isVis": "school_cv_p == '1' || school_cv_p == '2' || school_cv_p == '3' || school_cv_p == '4'",
+                "isVis": "school_at_home_cv_p == '1'",
                 "valueRequired": true,
                 "variableName": "work_ability_cv_p"
+            },
+            {
+                "isAbout": "items/child_care_cv_p",
+                "isVis": "school_at_home_cv_p == '1'",
+                "valueRequired": true,
+                "variableName": "child_care_cv_p"
             },
             {
                 "isAbout": "items/homework_time_cv_p",
@@ -197,13 +204,13 @@
             },
             {
                 "isAbout": "items/school_difficulty_p",
-                "isVis": "school_cv_p == '1' || school_cv_p == '2' || school_cv_p == '3' || school_cv_p == '4'",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "school_difficulty_p"
             },
             {
                 "isAbout": "items/graded_cv_p",
-                "isVis": "school_cv_p == '1' || school_cv_p == '2' || school_cv_p == '3' || school_cv_p == '4'",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "graded_cv_p"
             },
@@ -221,13 +228,13 @@
             },
             {
                 "isAbout": "items/iep_cv_p",
-                "isVis": "school_cv_p == '1' || school_cv_p == '2' || school_cv_p == '3' || school_cv_p == '4'",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "iep_cv_p"
             },
             {
                 "isAbout": "items/iep_provide_cv_p",
-                "isVis": "iep_cv_p=='2'",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "iep_provide_cv_p"
             },
@@ -257,49 +264,49 @@
             },
             {
                 "isAbout": "items/child_tested_cv_p",
-                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "child_tested_cv_p"
             },
             {
                 "isAbout": "items/child_test_instruc_cv_p",
-                "isVis": "child_tested_cv_p == '3' || child_tested_cv_p == '4' || child_tested_cv_p == '5'",
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "child_test_instruc_cv_p"
             },
             {
                 "isAbout": "items/child_test_1_cv_p",
-                "isVis": "child_tested_cv_p == '3' || child_tested_cv_p == '4' || child_tested_cv_p == '5'",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "child_test_1_cv_p"
             },
             {
                 "isAbout": "items/test_1_results_cv_p",
-                "isVis": "child_tested_cv_p == '3' OR child_tested_cv_p == '4'",
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "test_1_results_cv_p"
             },
             {
                 "isAbout": "items/child_test_2_cv_p",
-                "isVis": "child_tested_cv_p == '3' || child_tested_cv_p == '4' || child_tested_cv_p == '5'",
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "child_test_2_cv_p"
             },
             {
                 "isAbout": "items/test_2_results_cv_p",
-                "isVis": "child_tested_cv_p == '3' OR child_tested_cv_p == '4'",
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "test_2_results_cv_p"
             },
             {
                 "isAbout": "items/child_test_3_cv_p",
-                "isVis": "child_tested_cv_p == '3' || child_tested_cv_p == '4' || child_tested_cv_p == '5'",
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "child_test_3_cv_p"
             },
             {
                 "isAbout": "items/test_3_results_cv_p",
-                "isVis": "child_tested_cv_p == '3' OR child_tested_cv_p == '4'",
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "test_3_results_cv_p"
             },
@@ -390,6 +397,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2657",
+    "version": "revid2658",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -13,13 +13,12 @@
             "items/online_science_cv_y",
             "items/online_other_cv_y",
             "items/school_like_activities_cv_y",
+            "items/school_work_cv_y",
+            "items/missing_school_cv_y",
             "items/assist_sched_cv_y",
             "items/check_hw_cv_y",
             "items/teach_concept_cv_y",
             "items/create_asgn_act_cv_y",
-            "items/school_work_cv_y",
-            "items/missing_school_cv_y",
-            "items/enjoyed_school_wk_y_cv_y",
             "items/demo_online_cv_y",
             "items/demo_friends_cv_y",
             "items/demo_parents_cv_y",
@@ -28,6 +27,7 @@
             "items/demo_avoid_news_y",
             "items/demo_wash_hands_cv_y",
             "items/demo_mask_coverage_cv_y",
+            "items/enjoyed_school_wk_y_cv_y",
             "items/y_abcd_covid19_questionnaire_annual_complete"
         ],
         "addProperties": [
@@ -68,6 +68,18 @@
                 "variableName": "school_like_activities_cv_y"
             },
             {
+                "isAbout": "items/school_work_cv_y",
+                "isVis": "school_cv_y == '1' || school_cv_y == '3'",
+                "valueRequired": true,
+                "variableName": "school_work_cv_y"
+            },
+            {
+                "isAbout": "items/missing_school_cv_y",
+                "isVis": "school_cv_y == '1' || school_cv_y == '3'",
+                "valueRequired": true,
+                "variableName": "missing_school_cv_y"
+            },
+            {
                 "isAbout": "items/assist_sched_cv_y",
                 "isVis": true,
                 "valueRequired": true,
@@ -92,26 +104,8 @@
                 "variableName": "create_asgn_act_cv_y"
             },
             {
-                "isAbout": "items/school_work_cv_y",
-                "isVis": "school_cv_y == '1' || school_cv_y == '3'",
-                "valueRequired": true,
-                "variableName": "school_work_cv_y"
-            },
-            {
-                "isAbout": "items/missing_school_cv_y",
-                "isVis": "school_cv_y == '1' || school_cv_y == '3'",
-                "valueRequired": true,
-                "variableName": "missing_school_cv_y"
-            },
-            {
-                "isAbout": "items/enjoyed_school_wk_y_cv_y",
-                "isVis": "school_cv_y == '1' || school_cv_y == '3'",
-                "valueRequired": true,
-                "variableName": "enjoyed_school_wk_y_cv_y"
-            },
-            {
                 "isAbout": "items/demo_online_cv_y",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "demo_online_cv_y"
             },
@@ -129,7 +123,7 @@
             },
             {
                 "isAbout": "items/demo_siblings_cv_y",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "demo_siblings_cv_y"
             },
@@ -158,6 +152,12 @@
                 "variableName": "demo_mask_coverage_cv_y"
             },
             {
+                "isAbout": "items/enjoyed_school_wk_y_cv_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "enjoyed_school_wk_y_cv_y"
+            },
+            {
                 "isAbout": "items/y_abcd_covid19_questionnaire_annual_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -166,6 +166,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2657",
+    "version": "revid2658",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
