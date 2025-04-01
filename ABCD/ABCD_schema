@@ -61,6 +61,7 @@
             "../activities/y_7_up_l/y_7_up_l_schema",
             "../activities/y_delinquency_self_report_l/y_delinquency_self_report_l_schema",
             "../activities/y_nih_tb_positive_affect_l/y_nih_tb_positive_affect_l_schema",
+            "../activities/covid19_24hour_symptom_screener/covid19_24hour_symptom_screener_schema",
             "../activities/mypi_next/mypi_next_schema",
             "../activities/y_phenx_life_events_l/y_phenx_life_events_l_schema",
             "../activities/peer_experiences_questionnaire/peer_experiences_questionnaire_schema",
@@ -165,7 +166,6 @@
             "../activities/plus_day_2parent/plus_day_2parent_schema",
             "../activities/baby_teeth_parent/baby_teeth_parent_schema",
             "../activities/feedbackparent/feedbackparent_schema",
-            "../activities/covid19_24hour_symptom_screener/covid19_24hour_symptom_screener_schema",
             "../activities/consentfitbit/consentfitbit_schema",
             "../activities/fitbit_preassessment_parent/fitbit_preassessment_parent_schema",
             "../activities/p_parent_ra_notes_2/p_parent_ra_notes_2_schema",
@@ -729,6 +729,14 @@
                     "en": "Y Nih Tb Positive Affect L"
                 },
                 "variableName": "y_nih_tb_positive_affect_l_schema"
+            },
+            {
+                "isAbout": "../activities/covid19_24hour_symptom_screener/covid19_24hour_symptom_screener_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Covid19 24Hour Symptom Screener"
+                },
+                "variableName": "covid19_24hour_symptom_screener_schema"
             },
             {
                 "isAbout": "../activities/mypi_next/mypi_next_schema",
@@ -1561,14 +1569,6 @@
                     "en": "Feedbackparent"
                 },
                 "variableName": "feedbackparent_schema"
-            },
-            {
-                "isAbout": "../activities/covid19_24hour_symptom_screener/covid19_24hour_symptom_screener_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Covid19 24Hour Symptom Screener"
-                },
-                "variableName": "covid19_24hour_symptom_screener_schema"
             },
             {
                 "isAbout": "../activities/consentfitbit/consentfitbit_schema",
@@ -2805,6 +2805,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2566",
+    "version": "revid2567",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
