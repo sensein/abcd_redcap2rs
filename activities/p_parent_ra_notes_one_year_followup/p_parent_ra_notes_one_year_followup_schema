@@ -27,13 +27,13 @@
             "items/home_research_site_13",
             "items/home_9",
             "items/home_13",
+            "items/pnotes_where_complete",
             "items/pnotes_offsite_reason_remote",
             "items/pnotes_ra_method_remote",
             "items/pnotes_self_method_remote",
             "items/pnotes_method_remote",
             "items/home_completion_desc",
             "items/pnotes_where_home_complete",
-            "items/pnotes_where_complete",
             "items/pnotes_sched_visit_reason",
             "items/pnotes_home_pds",
             "items/pnotes_home_sds",
@@ -381,7 +381,7 @@
             },
             {
                 "isAbout": "items/home_research_site_13",
-                "isVis": "sched_delay == '7' && event_name_number == '21'",
+                "isVis": "event_name_number == '21'",
                 "valueRequired": true,
                 "variableName": "home_research_site_13"
             },
@@ -398,26 +398,32 @@
                 "variableName": "home_13"
             },
             {
+                "isAbout": "items/pnotes_where_complete",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pnotes_where_complete"
+            },
+            {
                 "isAbout": "items/pnotes_offsite_reason_remote",
-                "isVis": "sched_delay == '9'",
+                "isVis": "pnotes_where_complete == '4' OR pnotes_where_complete == '5'",
                 "valueRequired": true,
                 "variableName": "pnotes_offsite_reason_remote"
             },
             {
                 "isAbout": "items/pnotes_ra_method_remote",
-                "isVis": "sched_delay == '9'",
+                "isVis": "pnotes_where_complete == '4' OR pnotes_where_complete == '5'",
                 "valueRequired": true,
                 "variableName": "pnotes_ra_method_remote"
             },
             {
                 "isAbout": "items/pnotes_self_method_remote",
-                "isVis": "sched_delay == '9'",
+                "isVis": "pnotes_where_complete == '4' OR pnotes_where_complete == '5'",
                 "valueRequired": true,
                 "variableName": "pnotes_self_method_remote"
             },
             {
                 "isAbout": "items/pnotes_method_remote",
-                "isVis": "sched_delay == '9'",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "pnotes_method_remote"
             },
@@ -432,12 +438,6 @@
                 "isVis": "pnotes_method_remote == '2'",
                 "valueRequired": true,
                 "variableName": "pnotes_where_home_complete"
-            },
-            {
-                "isAbout": "items/pnotes_where_complete",
-                "isVis": "sched_delay == '7' || pnotes_method_remote == '2'",
-                "valueRequired": true,
-                "variableName": "pnotes_where_complete"
             },
             {
                 "isAbout": "items/pnotes_sched_visit_reason",
@@ -1888,6 +1888,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2645",
+    "version": "revid2646",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

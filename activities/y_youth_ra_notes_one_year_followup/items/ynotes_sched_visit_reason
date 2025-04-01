@@ -5,14 +5,14 @@
         {
             "column": "Field Annotation",
             "source": "redcap",
-            "value": "HIDEFROMCOMPLETION20181003"
+            "value": "HIDEFROMCOMPLETION20181003 @HIDECHOICE = '3'"
         }
     ],
     "prefLabel": {
         "en": "ynotes_sched_visit_reason"
     },
     "question": {
-        "en": "Why were assessments completed remotely?"
+        "en": "Why did this person complete a fully virtual assessment (with no in-person component)?"
     },
     "responseOptions": {
         "choices": [
@@ -24,7 +24,7 @@
             },
             {
                 "name": {
-                    "en": "Family refused to come to research site"
+                    "en": "Family refused to come to research site for reasonsother thanCOVID"
                 },
                 "value": 2
             },
@@ -33,6 +33,24 @@
                     "en": "COVID-19 restrictions"
                 },
                 "value": 3
+            },
+            {
+                "name": {
+                    "en": "Family refused/unwilling to come to research site due to COVID"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Research facility is not open due to COVID"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Participant has MRI contraindications and not a priority for in-person component"
+                },
+                "value": 6
             }
         ],
         "valueType": [

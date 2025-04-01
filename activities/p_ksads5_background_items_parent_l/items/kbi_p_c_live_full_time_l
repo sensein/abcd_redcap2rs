@@ -19,22 +19,19 @@
         "choices": [
             {
                 "name": {
-                    "en": "Yes",
-                    "es": "S\u00c3\u00ad"
+                    "en": "##en##Yes##/en####es##S\u00c3\u00ad##/es##>"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "No",
-                    "es": "No"
+                    "en": "##en##No##/en####es##No##/es##>"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "Not applicable",
-                    "es": "No aplica"
+                    "en": "##en##Not applicable##/en####es##No aplica##/es##>"
                 },
                 "value": -1
             }
@@ -44,7 +41,7 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "select"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
