@@ -8,6 +8,7 @@
     "ui": {
         "order": [
             "items/ra_fb_4yr_y",
+            "items/ra_fb_4yr_yt_y",
             "items/ra_fb_4yr_us_y",
             "items/ra_fb_4yr_hs_y",
             "items/ra_fb_4yr_bp_y",
@@ -124,6 +125,12 @@
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "ra_fb_4yr_y"
+            },
+            {
+                "isAbout": "items/ra_fb_4yr_yt_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ra_fb_4yr_yt_y"
             },
             {
                 "isAbout": "items/ra_fb_4yr_us_y",
@@ -782,6 +789,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2642",
+    "version": "revid2643",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
