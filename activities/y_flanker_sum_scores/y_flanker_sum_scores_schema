@@ -1,0 +1,199 @@
+{
+    "id": "y_flanker_sum_scores_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "y_flanker_sum_scores"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/flkr_scr_scriptlastupdate",
+            "items/flkr_scr_comp_platform",
+            "items/flkr_scr_script_startdate",
+            "items/flkr_scr_script_starttime",
+            "items/flkr_scr_script_subjectid",
+            "items/flkr_scr_script_groupid",
+            "items/flkr_scr_script_session",
+            "items/flkr_scr_elapsedtime",
+            "items/flkr_scr_completed",
+            "items/flkr_scr_blockcount",
+            "items/flkr_scr_countpracticeblocks",
+            "items/flkr_scr_acc_practice_mean",
+            "items/flkr_scr_practicepass",
+            "items/flkr_scr_trialcount",
+            "items/flkr_scr_propcorrect",
+            "items/flkr_scr_meanrt",
+            "items/flkr_scr_medrt",
+            "items/flkr_scr_trialcount_congruent",
+            "items/flkr_scr_propcorrect_congruent",
+            "items/flkr_scr_meanrt_congruent",
+            "items/flkr_scr_medrt_congruent",
+            "items/flkr_scr_trialcount_incongruent",
+            "items/flkr_scr_propcorrect_incongruent",
+            "items/flkr_scr_meanrt_incongruent",
+            "items/flkr_scr_medrt_incongruent",
+            "items/y_flanker_sum_scores_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/flkr_scr_scriptlastupdate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "flkr_scr_scriptlastupdate"
+            },
+            {
+                "isAbout": "items/flkr_scr_comp_platform",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "flkr_scr_comp_platform"
+            },
+            {
+                "isAbout": "items/flkr_scr_script_startdate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "flkr_scr_script_startdate"
+            },
+            {
+                "isAbout": "items/flkr_scr_script_starttime",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "flkr_scr_script_starttime"
+            },
+            {
+                "isAbout": "items/flkr_scr_script_subjectid",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "flkr_scr_script_subjectid"
+            },
+            {
+                "isAbout": "items/flkr_scr_script_groupid",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "flkr_scr_script_groupid"
+            },
+            {
+                "isAbout": "items/flkr_scr_script_session",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "flkr_scr_script_session"
+            },
+            {
+                "isAbout": "items/flkr_scr_elapsedtime",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "flkr_scr_elapsedtime"
+            },
+            {
+                "isAbout": "items/flkr_scr_completed",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "flkr_scr_completed"
+            },
+            {
+                "isAbout": "items/flkr_scr_blockcount",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "flkr_scr_blockcount"
+            },
+            {
+                "isAbout": "items/flkr_scr_countpracticeblocks",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "flkr_scr_countpracticeblocks"
+            },
+            {
+                "isAbout": "items/flkr_scr_acc_practice_mean",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "flkr_scr_acc_practice_mean"
+            },
+            {
+                "isAbout": "items/flkr_scr_practicepass",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "flkr_scr_practicepass"
+            },
+            {
+                "isAbout": "items/flkr_scr_trialcount",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "flkr_scr_trialcount"
+            },
+            {
+                "isAbout": "items/flkr_scr_propcorrect",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "flkr_scr_propcorrect"
+            },
+            {
+                "isAbout": "items/flkr_scr_meanrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "flkr_scr_meanrt"
+            },
+            {
+                "isAbout": "items/flkr_scr_medrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "flkr_scr_medrt"
+            },
+            {
+                "isAbout": "items/flkr_scr_trialcount_congruent",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "flkr_scr_trialcount_congruent"
+            },
+            {
+                "isAbout": "items/flkr_scr_propcorrect_congruent",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "flkr_scr_propcorrect_congruent"
+            },
+            {
+                "isAbout": "items/flkr_scr_meanrt_congruent",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "flkr_scr_meanrt_congruent"
+            },
+            {
+                "isAbout": "items/flkr_scr_medrt_congruent",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "flkr_scr_medrt_congruent"
+            },
+            {
+                "isAbout": "items/flkr_scr_trialcount_incongruent",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "flkr_scr_trialcount_incongruent"
+            },
+            {
+                "isAbout": "items/flkr_scr_propcorrect_incongruent",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "flkr_scr_propcorrect_incongruent"
+            },
+            {
+                "isAbout": "items/flkr_scr_meanrt_incongruent",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "flkr_scr_meanrt_incongruent"
+            },
+            {
+                "isAbout": "items/flkr_scr_medrt_incongruent",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "flkr_scr_medrt_incongruent"
+            },
+            {
+                "isAbout": "items/y_flanker_sum_scores_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "y_flanker_sum_scores_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2605",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,6 +1,12 @@
 {
     "id": "assent_schema",
     "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "user - name",
+            "variableName": "assnt_form_user"
+        }
+    ],
     "prefLabel": {
         "en": "assent"
     },
@@ -158,6 +164,12 @@
                 "variableName": "asnt_remote_visit"
             },
             {
+                "isAbout": "items/assnt_form_user",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "assnt_form_user"
+            },
+            {
                 "isAbout": "items/assent_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -166,6 +178,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2604",
+    "version": "revid2605",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

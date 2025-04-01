@@ -1,6 +1,13 @@
 {
     "id": "lmt_scr_computer_osminorversion",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY\r\nHIDEFROMCOMPLETION20200807"
+        }
+    ],
     "prefLabel": {
         "en": "lmt_scr_computer_osminorversion"
     },
@@ -13,7 +20,8 @@
         ]
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "text",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
