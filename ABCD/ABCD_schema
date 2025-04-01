@@ -14,6 +14,7 @@
             "../activities/screener/screener_schema",
             "../activities/screener_2/screener_2_schema",
             "../activities/covid19_14day_symptom_screener/covid19_14day_symptom_screener_schema",
+            "../activities/covid19_24hour_symptom_screener/covid19_24hour_symptom_screener_schema",
             "../activities/scheduled/scheduled_schema",
             "../activities/longitudinal_tracking_daic_only/longitudinal_tracking_daic_only_schema",
             "../activities/special_instrument_participation/special_instrument_participation_schema",
@@ -90,7 +91,6 @@
             "../activities/youth_resiliency_scale_yrsyouth/youth_resiliency_scale_yrsyouth_schema",
             "../activities/y_h_mh_demography_part_2_comments/y_h_mh_demography_part_2_comments_schema",
             "../activities/mexican_american_cultural_values_scale_youth/mexican_american_cultural_values_scale_youth_schema",
-            "../activities/covid19_24hour_symptom_screener/covid19_24hour_symptom_screener_schema",
             "../activities/prosocial_tendencies_pstyouth/prosocial_tendencies_pstyouth_schema",
             "../activities/acculturationmodified_phenx_actyouth/acculturationmodified_phenx_actyouth_schema",
             "../activities/multigroup_ethnic_identity_meim/multigroup_ethnic_identity_meim_schema",
@@ -353,6 +353,14 @@
                     "en": "Covid19 14Day Symptom Screener"
                 },
                 "variableName": "covid19_14day_symptom_screener_schema"
+            },
+            {
+                "isAbout": "../activities/covid19_24hour_symptom_screener/covid19_24hour_symptom_screener_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Covid19 24Hour Symptom Screener"
+                },
+                "variableName": "covid19_24hour_symptom_screener_schema"
             },
             {
                 "isAbout": "../activities/scheduled/scheduled_schema",
@@ -961,14 +969,6 @@
                     "en": "Mexican American Cultural Values Scale Youth"
                 },
                 "variableName": "mexican_american_cultural_values_scale_youth_schema"
-            },
-            {
-                "isAbout": "../activities/covid19_24hour_symptom_screener/covid19_24hour_symptom_screener_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Covid19 24Hour Symptom Screener"
-                },
-                "variableName": "covid19_24hour_symptom_screener_schema"
             },
             {
                 "isAbout": "../activities/prosocial_tendencies_pstyouth/prosocial_tendencies_pstyouth_schema",
@@ -2805,6 +2805,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2557",
+    "version": "revid2559",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
