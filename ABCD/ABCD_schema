@@ -137,7 +137,6 @@
             "../activities/p_tbi_screenmodified_ohio_state_screen_tbiparent_l/p_tbi_screenmodified_ohio_state_screen_tbiparent_l_schema",
             "../activities/general_behavior_inventory_gbiparent/general_behavior_inventory_gbiparent_schema",
             "../activities/p_short_social_responsiveness_scale_l/p_short_social_responsiveness_scale_l_schema",
-            "../activities/p_parental_monitoring_scales/p_parental_monitoring_scales_schema",
             "../activities/p_phenx_life_events_l/p_phenx_life_events_l_schema",
             "../activities/child_behavior_check_list_aseba_cbclparent/child_behavior_check_list_aseba_cbclparent_schema",
             "../activities/p_youth_diet_form_l/p_youth_diet_form_l_schema",
@@ -158,6 +157,7 @@
             "../activities/screentime_parent_psq/screentime_parent_psq_schema",
             "../activities/prosocial_tendencies_prostparent/prosocial_tendencies_prostparent_schema",
             "../activities/ders_parent/ders_parent_schema",
+            "../activities/p_parental_monitoring_scales/p_parental_monitoring_scales_schema",
             "../activities/barkley/barkley_schema",
             "../activities/p_parent_rules_pr/p_parent_rules_pr_schema",
             "../activities/perceived_stress/perceived_stress_schema",
@@ -167,6 +167,9 @@
             "../activities/acculturationmodified_phenx_actparent/acculturationmodified_phenx_actparent_schema",
             "../activities/phenx_community_cohesion_p/phenx_community_cohesion_p_schema",
             "../activities/mexican_american_cultural_values_scalemodifie_974c/mexican_american_cultural_values_scalemodifie_974c_schema",
+            "../activities/p_neighborhood_safety_crime/p_neighborhood_safety_crime_schema",
+            "../activities/p_home_short_form/p_home_short_form_schema",
+            "../activities/p_abcd_covid19_questionnaire_annual/p_abcd_covid19_questionnaire_annual_schema",
             "../activities/ending_9_take_home_surveys/ending_9_take_home_surveys_schema",
             "../activities/p_block_kids_food_screen/p_block_kids_food_screen_schema",
             "../activities/plus_day_2parent/plus_day_2parent_schema",
@@ -328,10 +331,7 @@
             "../activities/p_ears_post_questionnaire/p_ears_post_questionnaire_schema",
             "../activities/y_ears_post_questionnaire/y_ears_post_questionnaire_schema",
             "../activities/uds_collection_and_results_form/uds_collection_and_results_form_schema",
-            "../activities/p_home_short_form/p_home_short_form_schema",
-            "../activities/p_neighborhood_safety_crime/p_neighborhood_safety_crime_schema",
-            "../activities/ears_intro_setup/ears_intro_setup_schema",
-            "../activities/p_abcd_covid19_questionnaire_annual/p_abcd_covid19_questionnaire_annual_schema"
+            "../activities/ears_intro_setup/ears_intro_setup_schema"
         ],
         "addProperties": [
             {
@@ -1351,14 +1351,6 @@
                 "variableName": "p_short_social_responsiveness_scale_l_schema"
             },
             {
-                "isAbout": "../activities/p_parental_monitoring_scales/p_parental_monitoring_scales_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "P Parental Monitoring Scales"
-                },
-                "variableName": "p_parental_monitoring_scales_schema"
-            },
-            {
                 "isAbout": "../activities/p_phenx_life_events_l/p_phenx_life_events_l_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -1519,6 +1511,14 @@
                 "variableName": "ders_parent_schema"
             },
             {
+                "isAbout": "../activities/p_parental_monitoring_scales/p_parental_monitoring_scales_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "P Parental Monitoring Scales"
+                },
+                "variableName": "p_parental_monitoring_scales_schema"
+            },
+            {
                 "isAbout": "../activities/barkley/barkley_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -1589,6 +1589,30 @@
                     "en": "Mexican American Cultural Values Scalemodifie 974C"
                 },
                 "variableName": "mexican_american_cultural_values_scalemodifie_974c_schema"
+            },
+            {
+                "isAbout": "../activities/p_neighborhood_safety_crime/p_neighborhood_safety_crime_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "P Neighborhood Safety Crime"
+                },
+                "variableName": "p_neighborhood_safety_crime_schema"
+            },
+            {
+                "isAbout": "../activities/p_home_short_form/p_home_short_form_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "P Home Short Form"
+                },
+                "variableName": "p_home_short_form_schema"
+            },
+            {
+                "isAbout": "../activities/p_abcd_covid19_questionnaire_annual/p_abcd_covid19_questionnaire_annual_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "P Abcd Covid19 Questionnaire Annual"
+                },
+                "variableName": "p_abcd_covid19_questionnaire_annual_schema"
             },
             {
                 "isAbout": "../activities/ending_9_take_home_surveys/ending_9_take_home_surveys_schema",
@@ -2879,40 +2903,16 @@
                 "variableName": "uds_collection_and_results_form_schema"
             },
             {
-                "isAbout": "../activities/p_home_short_form/p_home_short_form_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "P Home Short Form"
-                },
-                "variableName": "p_home_short_form_schema"
-            },
-            {
-                "isAbout": "../activities/p_neighborhood_safety_crime/p_neighborhood_safety_crime_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "P Neighborhood Safety Crime"
-                },
-                "variableName": "p_neighborhood_safety_crime_schema"
-            },
-            {
                 "isAbout": "../activities/ears_intro_setup/ears_intro_setup_schema",
                 "isVis": true,
                 "prefLabel": {
                     "en": "Ears Intro Setup"
                 },
                 "variableName": "ears_intro_setup_schema"
-            },
-            {
-                "isAbout": "../activities/p_abcd_covid19_questionnaire_annual/p_abcd_covid19_questionnaire_annual_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "P Abcd Covid19 Questionnaire Annual"
-                },
-                "variableName": "p_abcd_covid19_questionnaire_annual_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2614",
+    "version": "revid2615",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
