@@ -14,6 +14,7 @@
             "items/contact1_id_cv",
             "items/contact1_relationship_cv",
             "items/contact1_spanish_cv",
+            "items/cid1_is_informant_tp_cv",
             "items/contact1_email_index_cv",
             "items/contact1_email_cv",
             "items/contact1_phone_index_cv",
@@ -23,9 +24,16 @@
             "items/reminder1_date_cv",
             "items/reminder2_date_cv",
             "items/reminder3_date_cv",
+            "items/reminder4_date_cv",
+            "items/reminder5_date_cv",
+            "items/text_reminder1_date_cv",
+            "items/text_reminder2_date_cv",
+            "items/text_reminder3_date_cv",
             "items/last_sent_date_cv",
             "items/current_status_cv",
             "items/status_mesg_cv",
+            "items/contact1_status_cv",
+            "items/contact1_status_mesg_cv",
             "items/num_surveys_completed_cv",
             "items/p2_payment_status_cv",
             "items/p2_payment_request_date_cv",
@@ -33,8 +41,9 @@
             "items/y_payment_status_cv",
             "items/y_payment_request_date_cv",
             "items/y_payment_cc_sent_date_cv",
-            "items/contact1_status_cv",
-            "items/contact1_status_mesg_cv",
+            "items/problem_tp_cv",
+            "items/problem_notes_tp_cv",
+            "items/stop_script_tp_cv",
             "items/p2_test_complete_cv",
             "items/y_test_complete_cv",
             "items/covid19_tracking_complete"
@@ -42,13 +51,13 @@
         "addProperties": [
             {
                 "isAbout": "items/is_main_pguid_cv",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "is_main_pguid_cv"
             },
             {
                 "isAbout": "items/pguid1_cv",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "pguid1_cv"
             },
@@ -60,7 +69,7 @@
             },
             {
                 "isAbout": "items/list_sibs_cv",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "list_sibs_cv"
             },
@@ -81,6 +90,12 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "contact1_spanish_cv"
+            },
+            {
+                "isAbout": "items/cid1_is_informant_tp_cv",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "cid1_is_informant_tp_cv"
             },
             {
                 "isAbout": "items/contact1_email_index_cv",
@@ -137,6 +152,36 @@
                 "variableName": "reminder3_date_cv"
             },
             {
+                "isAbout": "items/reminder4_date_cv",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reminder4_date_cv"
+            },
+            {
+                "isAbout": "items/reminder5_date_cv",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reminder5_date_cv"
+            },
+            {
+                "isAbout": "items/text_reminder1_date_cv",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "text_reminder1_date_cv"
+            },
+            {
+                "isAbout": "items/text_reminder2_date_cv",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "text_reminder2_date_cv"
+            },
+            {
+                "isAbout": "items/text_reminder3_date_cv",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "text_reminder3_date_cv"
+            },
+            {
                 "isAbout": "items/last_sent_date_cv",
                 "isVis": false,
                 "valueRequired": false,
@@ -150,9 +195,21 @@
             },
             {
                 "isAbout": "items/status_mesg_cv",
-                "isVis": false,
+                "isVis": true,
                 "valueRequired": false,
                 "variableName": "status_mesg_cv"
+            },
+            {
+                "isAbout": "items/contact1_status_cv",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "contact1_status_cv"
+            },
+            {
+                "isAbout": "items/contact1_status_mesg_cv",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "contact1_status_mesg_cv"
             },
             {
                 "isAbout": "items/num_surveys_completed_cv",
@@ -197,16 +254,22 @@
                 "variableName": "y_payment_cc_sent_date_cv"
             },
             {
-                "isAbout": "items/contact1_status_cv",
+                "isAbout": "items/problem_tp_cv",
                 "isVis": true,
                 "valueRequired": false,
-                "variableName": "contact1_status_cv"
+                "variableName": "problem_tp_cv"
             },
             {
-                "isAbout": "items/contact1_status_mesg_cv",
-                "isVis": false,
+                "isAbout": "items/problem_notes_tp_cv",
+                "isVis": true,
                 "valueRequired": false,
-                "variableName": "contact1_status_mesg_cv"
+                "variableName": "problem_notes_tp_cv"
+            },
+            {
+                "isAbout": "items/stop_script_tp_cv",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "stop_script_tp_cv"
             },
             {
                 "isAbout": "items/p2_test_complete_cv",
@@ -229,6 +292,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2529",
+    "version": "revid2530",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

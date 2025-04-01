@@ -5,10 +5,16 @@
         "en": "current_status_cv"
     },
     "question": {
-        "en": "Current status:"
+        "en": "Participant status"
     },
     "responseOptions": {
         "choices": [
+            {
+                "name": {
+                    "en": "Other. See status message."
+                },
+                "value": 0
+            },
             {
                 "name": {
                     "en": "Ready to receive"
@@ -41,43 +47,37 @@
             },
             {
                 "name": {
-                    "en": "Youth survey completed"
+                    "en": "Sent reminder 4"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Parent survey completed"
+                    "en": "Sent reminder 5"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "Both surveys completed"
+                    "en": "Sent text reminder"
                 },
                 "value": 8
             },
             {
                 "name": {
-                    "en": "Send failure"
+                    "en": "Undeliverable email"
                 },
                 "value": 9
             },
             {
                 "name": {
-                    "en": "Resolved"
-                },
-                "value": 10
-            },
-            {
-                "name": {
-                    "en": "No email or phone selected in PII"
+                    "en": "PII database issue"
                 },
                 "value": 11
             },
             {
                 "name": {
-                    "en": "Opt out"
+                    "en": "Participant Opt Out"
                 },
                 "value": 12
             },
@@ -86,12 +86,6 @@
                     "en": "Stop contacting"
                 },
                 "value": 13
-            },
-            {
-                "name": {
-                    "en": "Payment sent"
-                },
-                "value": 14
             }
         ],
         "valueType": [

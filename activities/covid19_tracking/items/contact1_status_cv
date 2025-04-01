@@ -5,19 +5,25 @@
         "en": "contact1_status_cv"
     },
     "question": {
-        "en": "Contact 1 status"
+        "en": "Primary contact status"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Valid email"
+                    "en": "Other. See status message."
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "OK"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Invalid email"
+                    "en": "Undeliverable email"
                 },
                 "value": 2
             },
@@ -29,13 +35,13 @@
             },
             {
                 "name": {
-                    "en": "Opt out"
+                    "en": "Contact Opt Out"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Other reason"
+                    "en": "PII database issue"
                 },
                 "value": 5
             }

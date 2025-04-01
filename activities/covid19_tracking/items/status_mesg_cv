@@ -1,18 +1,11 @@
 {
     "id": "status_mesg_cv",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Field Annotation",
-            "source": "redcap",
-            "value": "@READONLY"
-        }
-    ],
     "prefLabel": {
         "en": "status_mesg_cv"
     },
     "question": {
-        "en": "Status message"
+        "en": "Participant status message"
     },
     "responseOptions": {
         "valueType": [
@@ -20,8 +13,7 @@
         ]
     },
     "ui": {
-        "inputType": "text",
-        "readonlyValue": true
+        "inputType": "text"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

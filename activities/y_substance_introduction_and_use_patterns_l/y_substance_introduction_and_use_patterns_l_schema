@@ -103,7 +103,7 @@
             "variableName": "tlfb_hall_calc_l"
         },
         {
-            "jsExpression": "round((tlfb_age_calc_inmonths -(datediff(tlfb_shrooms_date1_l,su_today,'M','mdy')))/ 12,2)",
+            "jsExpression": "round((tlfb_age_calc_inmonths_l -(datediff(tlfb_shrooms_date1_l,su_today,'M','mdy')))/ 12,2)",
             "variableName": "tlfb_shrooms_calc_l"
         },
         {
@@ -2100,6 +2100,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2529",
+    "version": "revid2530",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

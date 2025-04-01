@@ -1,0 +1,44 @@
+{
+    "id": "neurocog_remote",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200603"
+        }
+    ],
+    "preamble": {
+        "en": "For RA Use Only:"
+    },
+    "prefLabel": {
+        "en": "neurocog_remote"
+    },
+    "question": {
+        "en": "Additional methods ofneurocognitive tasks pt 1administration:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Audio"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Video/Webcam"
+                },
+                "value": 2
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

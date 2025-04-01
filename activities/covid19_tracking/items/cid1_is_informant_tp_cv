@@ -1,0 +1,33 @@
+{
+    "id": "cid1_is_informant_tp_cv",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "cid1_is_informant_tp_cv"
+    },
+    "question": {
+        "en": "Primary contact is an informant"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

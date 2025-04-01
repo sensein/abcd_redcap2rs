@@ -1,11 +1,18 @@
 {
     "id": "pguid1_cv",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
     "prefLabel": {
         "en": "pguid1_cv"
     },
     "question": {
-        "en": "Child 1 pGUID"
+        "en": "pGUID for main child"
     },
     "responseOptions": {
         "valueType": [
@@ -13,7 +20,8 @@
         ]
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "text",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
