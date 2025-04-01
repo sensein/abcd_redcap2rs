@@ -1098,13 +1098,13 @@
             },
             {
                 "isAbout": "items/screentime_smq_followers_dk",
-                "isVis": "screentime_usesoc == '1' && screentime_smq_followers == ''",
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "screentime_smq_followers_dk"
             },
             {
                 "isAbout": "items/screentime_smq_following",
-                "isVis": "screentime_usesoc == '1' && screentime_smq_following_dk == ''",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "screentime_smq_following"
             },
@@ -1321,6 +1321,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2632",
+    "version": "revid2633",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
