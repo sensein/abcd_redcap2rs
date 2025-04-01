@@ -178,7 +178,7 @@
             },
             {
                 "isAbout": "items/went_to_school_cv",
-                "isVis": "school_close_cv == '1' || school_close_cv == '999' || school_close_cv == '3'",
+                "isVis": "school_close_cv == '1' || school_close_cv == '999' ||(school_close_cv == '3' && event - name == 'covid19_cv1_arm_2')",
                 "valueRequired": true,
                 "variableName": "went_to_school_cv"
             },
@@ -761,6 +761,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2535",
+    "version": "revid2536",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
