@@ -1,0 +1,67 @@
+{
+    "id": "parental_monitor_q10_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200812"
+        }
+    ],
+    "preamble": {
+        "en": "Knowledge (parent reports)"
+    },
+    "prefLabel": {
+        "en": "parental_monitor_q10_p"
+    },
+    "question": {
+        "en": "Do you usually know where your child is, and what he/she is doing in the afternoon right after school?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes, completely"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes, quite well"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Yes, partly"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "No, very little"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "No, nothing"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,67 @@
+{
+    "id": "parental_monitor_q3_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200812"
+        }
+    ],
+    "preamble": {
+        "en": "Knowledge (parent reports)"
+    },
+    "prefLabel": {
+        "en": "parental_monitor_q3_p"
+    },
+    "question": {
+        "en": "Do you usually know what homework your child has?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Almost always"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Most of the time"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "It varies"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Seldom"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

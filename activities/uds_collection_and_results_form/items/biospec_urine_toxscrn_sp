@@ -1,0 +1,46 @@
+{
+    "id": "biospec_urine_toxscrn_sp",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        }
+    ],
+    "prefLabel": {
+        "en": "biospec_urine_toxscrn_sp"
+    },
+    "question": {
+        "en": "Was the sample provided under observed conditions? (that is, a same-sex staff person was present in the rest room to ensure no tampering of the sample occurred)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Unknown"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

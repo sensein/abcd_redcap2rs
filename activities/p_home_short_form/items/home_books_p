@@ -1,0 +1,73 @@
+{
+    "id": "home_books_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200812"
+        }
+    ],
+    "preamble": {
+        "en": "Please answer the following questions about your child and your family when your child was between 3 and 5 years old"
+    },
+    "prefLabel": {
+        "en": "home_books_p"
+    },
+    "question": {
+        "en": "About how many children's books did your child have when they were between 3 and 5 years old?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "None"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1-2"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "3-9"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "10-19"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "20 or more"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer"
+                },
+                "value": 777
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,40 @@
+{
+    "id": "resp_wheeze_speech_yn_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200826"
+        }
+    ],
+    "prefLabel": {
+        "en": "resp_wheeze_speech_yn_y"
+    },
+    "question": {
+        "en": "In  the past 12 months, has wheezing ever been severe enough to limit your speech to only one or two words at a time between breaths?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

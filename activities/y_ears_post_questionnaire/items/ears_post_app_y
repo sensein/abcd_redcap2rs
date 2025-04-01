@@ -1,0 +1,61 @@
+{
+    "id": "ears_post_app_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200807"
+        }
+    ],
+    "preamble": {
+        "en": "Questions about the Study Period"
+    },
+    "prefLabel": {
+        "en": "ears_post_app_y"
+    },
+    "question": {
+        "en": "Did you change how much you used your smartphone after the EARS app was installed?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Used it a lot more"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Used it a little more"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Not at all"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Used it a little less"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Used it a lot more"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

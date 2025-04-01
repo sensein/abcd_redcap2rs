@@ -1,0 +1,61 @@
+{
+    "id": "parent_monitor_q19_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200812"
+        }
+    ],
+    "preamble": {
+        "en": "Solicitation (parent reports)"
+    },
+    "prefLabel": {
+        "en": "parent_monitor_q19_p"
+    },
+    "question": {
+        "en": "How often do you ask your child to sit down and tell you what has happened on an ordinary school day?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Very often"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Quite often"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Now and then"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Seldom"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Almost never"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,51 @@
+{
+    "id": "medhx_2t_l",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "med_dx_cd8169"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200828"
+        }
+    ],
+    "preamble": {
+        "en": "Now I'd like to ask you about your child's use of health services since we last saw you on [asnt_timestamp_c].",
+        "es": "Ahora nos gustar\u00c3\u00ada hacerle algunas preguntas sobre el uso que su ni\u00c3\u00b1o(a) ha hecho de los servicios m\u00c3\u00a9dicos  desde la \u00c3\u00baltima vez que nos vimos en [asnt_timestamp_c]."
+    },
+    "prefLabel": {
+        "en": "medhx_2t_l"
+    },
+    "question": {
+        "en": "Rare Medical Condition not on this list"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u008d"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

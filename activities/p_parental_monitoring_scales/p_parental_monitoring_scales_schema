@@ -1,0 +1,199 @@
+{
+    "id": "p_parental_monitoring_scales_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "p_parental_monitoring_scales"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/parental_monitor_q1_p",
+            "items/parental_monitor_q2_p",
+            "items/parental_monitor_q3_p",
+            "items/parental_monitor_q4_p",
+            "items/parental_monitor_q5_p",
+            "items/parental_monitor_q6_p",
+            "items/parental_monitor_q7_p",
+            "items/parental_monitor_q8_p",
+            "items/parental_monitor_q9_p",
+            "items/parental_monitor_q10_p",
+            "items/parental_monitor_q11_p",
+            "items/parental_monitor_q12_p",
+            "items/parental_monitor_q13_p",
+            "items/parental_monitor_q14_p",
+            "items/parental_monitor_q15_p",
+            "items/parent_monitor_q16_p",
+            "items/parent_monitor_q17_p",
+            "items/parent_monitor_q18_p",
+            "items/parent_monitor_q19_p",
+            "items/parent_monitor_q20_p",
+            "items/parent_monitor_q21_p",
+            "items/parent_monitor_q22_p",
+            "items/parent_monitor_q23_p",
+            "items/parent_monitor_q24_p",
+            "items/parent_monitor_q25_p",
+            "items/p_parental_monitoring_scales_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/parental_monitor_q1_p",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "parental_monitor_q1_p"
+            },
+            {
+                "isAbout": "items/parental_monitor_q2_p",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "parental_monitor_q2_p"
+            },
+            {
+                "isAbout": "items/parental_monitor_q3_p",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "parental_monitor_q3_p"
+            },
+            {
+                "isAbout": "items/parental_monitor_q4_p",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "parental_monitor_q4_p"
+            },
+            {
+                "isAbout": "items/parental_monitor_q5_p",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "parental_monitor_q5_p"
+            },
+            {
+                "isAbout": "items/parental_monitor_q6_p",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "parental_monitor_q6_p"
+            },
+            {
+                "isAbout": "items/parental_monitor_q7_p",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "parental_monitor_q7_p"
+            },
+            {
+                "isAbout": "items/parental_monitor_q8_p",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "parental_monitor_q8_p"
+            },
+            {
+                "isAbout": "items/parental_monitor_q9_p",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "parental_monitor_q9_p"
+            },
+            {
+                "isAbout": "items/parental_monitor_q10_p",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "parental_monitor_q10_p"
+            },
+            {
+                "isAbout": "items/parental_monitor_q11_p",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "parental_monitor_q11_p"
+            },
+            {
+                "isAbout": "items/parental_monitor_q12_p",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "parental_monitor_q12_p"
+            },
+            {
+                "isAbout": "items/parental_monitor_q13_p",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "parental_monitor_q13_p"
+            },
+            {
+                "isAbout": "items/parental_monitor_q14_p",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "parental_monitor_q14_p"
+            },
+            {
+                "isAbout": "items/parental_monitor_q15_p",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "parental_monitor_q15_p"
+            },
+            {
+                "isAbout": "items/parent_monitor_q16_p",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": false,
+                "variableName": "parent_monitor_q16_p"
+            },
+            {
+                "isAbout": "items/parent_monitor_q17_p",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": false,
+                "variableName": "parent_monitor_q17_p"
+            },
+            {
+                "isAbout": "items/parent_monitor_q18_p",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": false,
+                "variableName": "parent_monitor_q18_p"
+            },
+            {
+                "isAbout": "items/parent_monitor_q19_p",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": false,
+                "variableName": "parent_monitor_q19_p"
+            },
+            {
+                "isAbout": "items/parent_monitor_q20_p",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": false,
+                "variableName": "parent_monitor_q20_p"
+            },
+            {
+                "isAbout": "items/parent_monitor_q21_p",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": false,
+                "variableName": "parent_monitor_q21_p"
+            },
+            {
+                "isAbout": "items/parent_monitor_q22_p",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": false,
+                "variableName": "parent_monitor_q22_p"
+            },
+            {
+                "isAbout": "items/parent_monitor_q23_p",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": false,
+                "variableName": "parent_monitor_q23_p"
+            },
+            {
+                "isAbout": "items/parent_monitor_q24_p",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": false,
+                "variableName": "parent_monitor_q24_p"
+            },
+            {
+                "isAbout": "items/parent_monitor_q25_p",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": false,
+                "variableName": "parent_monitor_q25_p"
+            },
+            {
+                "isAbout": "items/p_parental_monitoring_scales_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "p_parental_monitoring_scales_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2611",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

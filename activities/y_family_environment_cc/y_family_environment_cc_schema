@@ -1,0 +1,164 @@
+{
+    "id": "y_family_environment_cc_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "y_family_environment_cc"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/fes_start_time",
+            "items/fes_youth_q10",
+            "items/fes_youth_q1",
+            "items/fes_youth_q11",
+            "items/fes_youth_q2",
+            "items/fes_youth_q12",
+            "items/fes_youth_q3",
+            "items/fes_youth_q13",
+            "items/fes_youth_q4",
+            "items/fes_youth_q14",
+            "items/fes_youth_q5",
+            "items/fes_youth_q15",
+            "items/fes_youth_q6",
+            "items/fes_youth_q16",
+            "items/fes_youth_q7",
+            "items/fes_youth_q17",
+            "items/fes_youth_q8",
+            "items/fes_youth_q18",
+            "items/fes_youth_q9",
+            "items/fes_admin",
+            "items/y_family_environment_cc_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/fes_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "fes_start_time"
+            },
+            {
+                "isAbout": "items/fes_youth_q10",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "fes_youth_q10"
+            },
+            {
+                "isAbout": "items/fes_youth_q1",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fes_youth_q1"
+            },
+            {
+                "isAbout": "items/fes_youth_q11",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "fes_youth_q11"
+            },
+            {
+                "isAbout": "items/fes_youth_q2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fes_youth_q2"
+            },
+            {
+                "isAbout": "items/fes_youth_q12",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "fes_youth_q12"
+            },
+            {
+                "isAbout": "items/fes_youth_q3",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fes_youth_q3"
+            },
+            {
+                "isAbout": "items/fes_youth_q13",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "fes_youth_q13"
+            },
+            {
+                "isAbout": "items/fes_youth_q4",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fes_youth_q4"
+            },
+            {
+                "isAbout": "items/fes_youth_q14",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "fes_youth_q14"
+            },
+            {
+                "isAbout": "items/fes_youth_q5",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fes_youth_q5"
+            },
+            {
+                "isAbout": "items/fes_youth_q15",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "fes_youth_q15"
+            },
+            {
+                "isAbout": "items/fes_youth_q6",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fes_youth_q6"
+            },
+            {
+                "isAbout": "items/fes_youth_q16",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "fes_youth_q16"
+            },
+            {
+                "isAbout": "items/fes_youth_q7",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fes_youth_q7"
+            },
+            {
+                "isAbout": "items/fes_youth_q17",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "fes_youth_q17"
+            },
+            {
+                "isAbout": "items/fes_youth_q8",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fes_youth_q8"
+            },
+            {
+                "isAbout": "items/fes_youth_q18",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "fes_youth_q18"
+            },
+            {
+                "isAbout": "items/fes_youth_q9",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fes_youth_q9"
+            },
+            {
+                "isAbout": "items/fes_admin",
+                "isVis": "event_name_number > '21'",
+                "valueRequired": true,
+                "variableName": "fes_admin"
+            },
+            {
+                "isAbout": "items/y_family_environment_cc_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "y_family_environment_cc_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2611",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,58 @@
+{
+    "id": "resp_wheeze_active_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200826"
+        }
+    ],
+    "prefLabel": {
+        "en": "resp_wheeze_active_y"
+    },
+    "question": {
+        "en": "During the past 12 months, how much did you limit your usual activities due to wheezing or whistling? Would you say..."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "A little"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A fair amount"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A moderate amount"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "A lot"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

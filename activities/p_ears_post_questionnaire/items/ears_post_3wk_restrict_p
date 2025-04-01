@@ -1,0 +1,68 @@
+{
+    "id": "ears_post_3wk_restrict_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200807"
+        }
+    ],
+    "preamble": {
+        "en": "Parent Rules of Screen Use\"Many parents implement rules for their children with regard to screen time. Please answer for rules in your family.\""
+    },
+    "prefLabel": {
+        "en": "ears_post_3wk_restrict_p"
+    },
+    "question": {
+        "en": "Select which types of apps are restricted: [Check boxes, can check as many as needed]"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Gaming"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Social Media"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Texting/Communication"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "YouTube"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "TV Streaming"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 6
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

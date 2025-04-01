@@ -1,0 +1,54 @@
+{
+    "id": "resp_wheeze_trig12_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "resp_triggers_6ded34_y"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200826"
+        }
+    ],
+    "preamble": {
+        "en": "In the following list, what sets off or triggers any of your wheezing or whistling symptoms"
+    },
+    "prefLabel": {
+        "en": "resp_wheeze_trig12_y"
+    },
+    "question": {
+        "en": "Outdoor wood smoke (BBQs, campfires, etc...)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,45 @@
+{
+    "id": "fes_youth_q11",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200804"
+        }
+    ],
+    "prefLabel": {
+        "en": "fes_youth_q11"
+    },
+    "question": {
+        "en": "We often seem to be killing time at home."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "True"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "False"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

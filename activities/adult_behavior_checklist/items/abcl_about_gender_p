@@ -1,6 +1,13 @@
 {
     "id": "abcl_about_gender_p",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
     "prefLabel": {
         "en": "abcl_about_gender_p"
     },
@@ -30,7 +37,8 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "radio",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

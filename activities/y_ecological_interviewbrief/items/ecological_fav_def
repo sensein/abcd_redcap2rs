@@ -1,0 +1,29 @@
+{
+    "id": "ecological_fav_def",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200813"
+        }
+    ],
+    "preamble": {
+        "en": "This portion of the survey will ask you questions about the places you typically go to in your daily life that are NOT YOUR HOME OR SCHOOL.Think of your typical week and the places you most often go."
+    },
+    "prefLabel": {
+        "en": "ecological_fav_def"
+    },
+    "question": {
+        "en": "You have selected other. What is this other place you go to on a regular week?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

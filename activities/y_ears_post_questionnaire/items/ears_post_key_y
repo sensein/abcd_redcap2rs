@@ -1,0 +1,61 @@
+{
+    "id": "ears_post_key_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200807"
+        }
+    ],
+    "preamble": {
+        "en": "Questions about the Study Period"
+    },
+    "prefLabel": {
+        "en": "ears_post_key_y"
+    },
+    "question": {
+        "en": "Were there any times when you turned off the special keyboard?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No, it was on the whole time"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes, I turned it off briefly"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Yes, I turned it off a quarter of the time"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Yes, I turned it off half the time"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Yes, I turned it off for more than half of the 3 weeks"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

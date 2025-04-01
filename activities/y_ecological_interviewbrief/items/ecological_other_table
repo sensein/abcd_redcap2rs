@@ -1,0 +1,115 @@
+{
+    "id": "ecological_other_table",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200813"
+        }
+    ],
+    "preamble": {
+        "en": "This portion of the survey will ask you questions about the places you typically go to in your daily life that are NOT YOUR HOME OR SCHOOL.Think of your typical week and the places you most often go."
+    },
+    "prefLabel": {
+        "en": "ecological_other_table"
+    },
+    "question": {
+        "en": "From the list pick another place that you most often go on a regular week:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Friend's house"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Mall"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Park"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Nature"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Restaurant/Coffee shop"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Mall/Stores"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Gym/Sports Field (not on school campus)"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "YMCA"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "City-places, public street corners, bus/subway stops"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Relative's home"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Library"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Church/Temple/Mosque"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,49 @@
+{
+    "id": "ears_post_fam_rules_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200807"
+        }
+    ],
+    "preamble": {
+        "en": "Parent Rules of Screen Use\"Many parents implement rules for their children with regard to screen time. Please answer for rules in your family.\""
+    },
+    "prefLabel": {
+        "en": "ears_post_fam_rules_p"
+    },
+    "question": {
+        "en": "What were the family rules about smartphone use for your child over the past 3 weeks?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "My child has set hours and times they can use their phone"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "My child has limits on weekdays/school days, but can use their phone whenever they wants on weekends"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Allowed to use whenever my child wants, I don't set rules about phone use"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

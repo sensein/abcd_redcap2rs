@@ -1,0 +1,87 @@
+{
+    "id": "y_ecological_interviewbrief_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "y_ecological_interviewbrief"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ecological_fav_table",
+            "items/ecological_fav_def",
+            "items/ecological_fav_safety",
+            "items/ecological_other_table",
+            "items/ecological_other_def",
+            "items/ecological_other_safety",
+            "items/ecological_other2_table",
+            "items/ecological_other2_def",
+            "items/ecological_other2_safety",
+            "items/y_ecological_interviewbrief_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ecological_fav_table",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "ecological_fav_table"
+            },
+            {
+                "isAbout": "items/ecological_fav_def",
+                "isVis": "ecological_fav_table == 13",
+                "valueRequired": true,
+                "variableName": "ecological_fav_def"
+            },
+            {
+                "isAbout": "items/ecological_fav_safety",
+                "isVis": "(ecological_fav_table <> '777' AND event - name == '4_year_follow_up_y_arm_1')AND ecological_fav_table <> ''",
+                "valueRequired": true,
+                "variableName": "ecological_fav_safety"
+            },
+            {
+                "isAbout": "items/ecological_other_table",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "ecological_other_table"
+            },
+            {
+                "isAbout": "items/ecological_other_def",
+                "isVis": "ecological_other_table == 13",
+                "valueRequired": true,
+                "variableName": "ecological_other_def"
+            },
+            {
+                "isAbout": "items/ecological_other_safety",
+                "isVis": "(ecological_other_table <> '777' AND event - name == '4_year_follow_up_y_arm_1')AND ecological_other_table <> ''",
+                "valueRequired": true,
+                "variableName": "ecological_other_safety"
+            },
+            {
+                "isAbout": "items/ecological_other2_table",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "ecological_other2_table"
+            },
+            {
+                "isAbout": "items/ecological_other2_def",
+                "isVis": "ecological_other2_table == 13",
+                "valueRequired": true,
+                "variableName": "ecological_other2_def"
+            },
+            {
+                "isAbout": "items/ecological_other2_safety",
+                "isVis": "(ecological_other2_table <> '777' AND event - name == '4_year_follow_up_y_arm_1')AND ecological_other2_table <> ''",
+                "valueRequired": true,
+                "variableName": "ecological_other2_safety"
+            },
+            {
+                "isAbout": "items/y_ecological_interviewbrief_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "y_ecological_interviewbrief_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2611",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

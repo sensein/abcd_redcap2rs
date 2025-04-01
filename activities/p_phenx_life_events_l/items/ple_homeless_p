@@ -1,0 +1,49 @@
+{
+    "id": "ple_homeless_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200731"
+        }
+    ],
+    "preamble": {
+        "en": "Next I am going to ask you about events that may have happened during your child's lifetime.",
+        "es": "A continuaci\u00c3\u00b3n, le voy a preguntar sobre eventos que pueden haber ocurrido durante la vida de su hijo(a)."
+    },
+    "prefLabel": {
+        "en": "ple_homeless_p"
+    },
+    "question": {
+        "en": "Your family was homeless?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

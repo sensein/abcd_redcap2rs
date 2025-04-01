@@ -1,0 +1,26 @@
+{
+    "id": "biospec_urine_result_2_date",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "datetime_dmy"
+        }
+    ],
+    "prefLabel": {
+        "en": "biospec_urine_result_2_date"
+    },
+    "question": {
+        "en": "Date/time that urine sample was read for Reditest Smoke Cassette:"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:dateTime"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

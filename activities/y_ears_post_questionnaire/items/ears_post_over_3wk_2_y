@@ -1,0 +1,60 @@
+{
+    "id": "ears_post_over_3wk_2_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200807"
+        }
+    ],
+    "preamble": {
+        "en": "Questions about the Study Period"
+    },
+    "prefLabel": {
+        "en": "ears_post_over_3wk_2_y"
+    },
+    "question": {
+        "en": "What percent of time did someone else use it?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Rarely (just briefly)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Some (about a quarter of the time"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "About half the time"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "More than half the time"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

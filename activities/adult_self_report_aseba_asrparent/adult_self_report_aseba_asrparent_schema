@@ -142,6 +142,8 @@
             "items/asr_q123_p",
             "items/asr_q124_p",
             "items/asr_q124_p_dk",
+            "items/asr_q127_p",
+            "items/asr_q127_p_dk",
             "items/asr_q125_p",
             "items/asr_q125_p_dk",
             "items/asr_q126_p",
@@ -960,6 +962,18 @@
                 "variableName": "asr_q124_p_dk"
             },
             {
+                "isAbout": "items/asr_q127_p",
+                "isVis": "asr_q127_p_dk == '' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": false,
+                "variableName": "asr_q127_p"
+            },
+            {
+                "isAbout": "items/asr_q127_p_dk",
+                "isVis": "asr_q124_p == '' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": false,
+                "variableName": "asr_q127_p_dk"
+            },
+            {
                 "isAbout": "items/asr_q125_p",
                 "isVis": "asr_q125_p_dk == ''",
                 "valueRequired": true,
@@ -992,6 +1006,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2610",
+    "version": "revid2611",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

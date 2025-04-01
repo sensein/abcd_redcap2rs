@@ -1,0 +1,67 @@
+{
+    "id": "mobile_tech_reason",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200824"
+        }
+    ],
+    "preamble": {
+        "en": "CHILD ASSENTThank you for talking to me today. We will be doing things today as part of the ABCD Study which is trying to learn more about kids and how they think. First, I'll talk to you about all that will happen during your visit with us. I'll give you the chance to ask questions and then I'll ask you if you want to be in this study.(RA should thoroughly review the assent document in detail. It is okay to paraphrase. Ensure that Assent document is fully completed and that they know they can change their mind about participating).Do you have any questions?RA: If appointment a remote visit due toCOVID-19, obtainverbalassent from youth"
+    },
+    "prefLabel": {
+        "en": "mobile_tech_reason"
+    },
+    "question": {
+        "en": "What is the primary reason for not participating?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "I have an iPhone7 or an older phone"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "I do not have a mobile device"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "I do not have my own mobile device/I share one"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "I am concerned about my privacy"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "I am concerned about the amount of time this would take"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "No, I am concerned about how it would affect how my phone works"
+                },
+                "value": 6
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

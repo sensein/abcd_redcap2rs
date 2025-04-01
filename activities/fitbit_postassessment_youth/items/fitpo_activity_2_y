@@ -1,0 +1,66 @@
+{
+    "id": "fitpo_activity_2_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "fitpo_extent_y"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200729"
+        }
+    ],
+    "preamble": {
+        "en": "To what extent do you agree with the following statements:"
+    },
+    "prefLabel": {
+        "en": "fitpo_activity_2_y"
+    },
+    "question": {
+        "en": "I decreased my level of activity based on the information from the tracker"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Strongly agree"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Agree"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Neither agree nor disagree"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Disagree"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Strongly disagree"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

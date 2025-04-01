@@ -1,0 +1,46 @@
+{
+    "id": "resp_wheeze_sleep_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200826"
+        }
+    ],
+    "prefLabel": {
+        "en": "resp_wheeze_sleep_y"
+    },
+    "question": {
+        "en": "In the past 12 months, how often, on average, has your sleep been disturbed due to wheezing?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never woken with wheezing"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Less than one time per week"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "One or more times per week"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

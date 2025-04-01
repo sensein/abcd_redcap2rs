@@ -1,0 +1,52 @@
+{
+    "id": "ple_homeless_fu_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200731"
+        }
+    ],
+    "prefLabel": {
+        "en": "ple_homeless_fu_y"
+    },
+    "question": {
+        "en": "&nbspWas this a good or bad experience?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Mostly good"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Mostly bad"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Not applicable"
+                },
+                "value": 889
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

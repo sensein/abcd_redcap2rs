@@ -9,6 +9,27 @@
         "order": [
             "items/neighb_start_time",
             "items/neighborhood_crime_y",
+            "items/neighborhood_po_y",
+            "items/neighborhood_po_times_y",
+            "items/neighborhood_po_exp_y",
+            "items/neighborhood_po_phy_y",
+            "items/neighb_po_phy_times_y",
+            "items/neighb_po_used_slur_y",
+            "items/neighb_po_slur_times_y",
+            "items/neighb_po_stopped_y",
+            "items/neighb_po_stopped_times_y",
+            "items/neighb_po_service_y",
+            "items/neighb_po_service_times_y",
+            "items/neighb_po_fam_friend_exp_y",
+            "items/neighb_po_fam_friend_phy_y",
+            "items/neighb_po_fam_friend_times_y",
+            "items/neighb_po_exp_slur_y",
+            "items/neighb_po_exp_slur_times_y",
+            "items/neighb_po_stopped_2_y",
+            "items/neighb_po_stopped_times_2_y",
+            "items/neighb_po_community_y",
+            "items/neighb_po_fair_y",
+            "items/neighb_po_respect_y",
             "items/neighborhood_safety_crimemodified_phenx_nscyouth_complete"
         ],
         "addProperties": [
@@ -25,6 +46,132 @@
                 "variableName": "neighborhood_crime_y"
             },
             {
+                "isAbout": "items/neighborhood_po_y",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "neighborhood_po_y"
+            },
+            {
+                "isAbout": "items/neighborhood_po_times_y",
+                "isVis": "neighborhood_po_y == '1'",
+                "valueRequired": true,
+                "variableName": "neighborhood_po_times_y"
+            },
+            {
+                "isAbout": "items/neighborhood_po_exp_y",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": false,
+                "variableName": "neighborhood_po_exp_y"
+            },
+            {
+                "isAbout": "items/neighborhood_po_phy_y",
+                "isVis": "neighborhood_po_exp_y == '1'",
+                "valueRequired": true,
+                "variableName": "neighborhood_po_phy_y"
+            },
+            {
+                "isAbout": "items/neighb_po_phy_times_y",
+                "isVis": "neighborhood_po_phy_y == '1'",
+                "valueRequired": true,
+                "variableName": "neighb_po_phy_times_y"
+            },
+            {
+                "isAbout": "items/neighb_po_used_slur_y",
+                "isVis": "neighborhood_po_exp_y == '1'",
+                "valueRequired": true,
+                "variableName": "neighb_po_used_slur_y"
+            },
+            {
+                "isAbout": "items/neighb_po_slur_times_y",
+                "isVis": "neighb_po_used_slur_y == '1'",
+                "valueRequired": true,
+                "variableName": "neighb_po_slur_times_y"
+            },
+            {
+                "isAbout": "items/neighb_po_stopped_y",
+                "isVis": "neighborhood_po_exp_y == '1'",
+                "valueRequired": true,
+                "variableName": "neighb_po_stopped_y"
+            },
+            {
+                "isAbout": "items/neighb_po_stopped_times_y",
+                "isVis": "neighb_po_stopped_y == '1'",
+                "valueRequired": true,
+                "variableName": "neighb_po_stopped_times_y"
+            },
+            {
+                "isAbout": "items/neighb_po_service_y",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "neighb_po_service_y"
+            },
+            {
+                "isAbout": "items/neighb_po_service_times_y",
+                "isVis": "neighb_po_service_y == '1'",
+                "valueRequired": true,
+                "variableName": "neighb_po_service_times_y"
+            },
+            {
+                "isAbout": "items/neighb_po_fam_friend_exp_y",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "neighb_po_fam_friend_exp_y"
+            },
+            {
+                "isAbout": "items/neighb_po_fam_friend_phy_y",
+                "isVis": "neighb_po_fam_friend_exp_y == '1'",
+                "valueRequired": true,
+                "variableName": "neighb_po_fam_friend_phy_y"
+            },
+            {
+                "isAbout": "items/neighb_po_fam_friend_times_y",
+                "isVis": "neighb_po_fam_friend_phy_y == '1'",
+                "valueRequired": true,
+                "variableName": "neighb_po_fam_friend_times_y"
+            },
+            {
+                "isAbout": "items/neighb_po_exp_slur_y",
+                "isVis": "neighb_po_fam_friend_exp_y == '1'",
+                "valueRequired": true,
+                "variableName": "neighb_po_exp_slur_y"
+            },
+            {
+                "isAbout": "items/neighb_po_exp_slur_times_y",
+                "isVis": "neighb_po_exp_slur_y == '1'",
+                "valueRequired": true,
+                "variableName": "neighb_po_exp_slur_times_y"
+            },
+            {
+                "isAbout": "items/neighb_po_stopped_2_y",
+                "isVis": "neighb_po_fam_friend_exp_y == '1'",
+                "valueRequired": true,
+                "variableName": "neighb_po_stopped_2_y"
+            },
+            {
+                "isAbout": "items/neighb_po_stopped_times_2_y",
+                "isVis": "neighb_po_stopped_2_y == '1'",
+                "valueRequired": true,
+                "variableName": "neighb_po_stopped_times_2_y"
+            },
+            {
+                "isAbout": "items/neighb_po_community_y",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "neighb_po_community_y"
+            },
+            {
+                "isAbout": "items/neighb_po_fair_y",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "neighb_po_fair_y"
+            },
+            {
+                "isAbout": "items/neighb_po_respect_y",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "neighb_po_respect_y"
+            },
+            {
                 "isAbout": "items/neighborhood_safety_crimemodified_phenx_nscyouth_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -33,6 +180,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2610",
+    "version": "revid2611",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

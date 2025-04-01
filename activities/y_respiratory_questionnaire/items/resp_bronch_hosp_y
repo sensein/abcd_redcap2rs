@@ -1,0 +1,46 @@
+{
+    "id": "resp_bronch_hosp_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200826"
+        }
+    ],
+    "prefLabel": {
+        "en": "resp_bronch_hosp_y"
+    },
+    "question": {
+        "en": "How many times have you been hospitalized for pneumonia or bronchitis?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "1 time"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2-4 times"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "5 or more times"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

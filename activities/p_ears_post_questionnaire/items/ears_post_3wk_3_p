@@ -1,0 +1,48 @@
+{
+    "id": "ears_post_3wk_3_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200807"
+        }
+    ],
+    "preamble": {
+        "en": "Parent Rules of Screen Use\"Many parents implement rules for their children with regard to screen time. Please answer for rules in your family.\""
+    },
+    "prefLabel": {
+        "en": "ears_post_3wk_3_p"
+    },
+    "question": {
+        "en": "To the best of your knowledge, has your child attempted to get around this monitoring or limitation?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

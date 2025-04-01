@@ -1,0 +1,61 @@
+{
+    "id": "parent_monitor_q21_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200812"
+        }
+    ],
+    "preamble": {
+        "en": "Disclosure of daily activities (parent reports)"
+    },
+    "prefLabel": {
+        "en": "parent_monitor_q21_p"
+    },
+    "question": {
+        "en": "Does your child keep secrets about what happens during their free time?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Very much"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Quite a bit"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Some"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Just a little"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Not at all"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

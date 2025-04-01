@@ -13,6 +13,7 @@
             "items/abcl_about_p",
             "items/abcl_about_other_p",
             "items/abcl_about_rel_p",
+            "items/abcl_lived_with_p",
             "items/abcl_about_age_p",
             "items/abcl_about_gender_p",
             "items/abcl_num_friends_p",
@@ -206,6 +207,12 @@
                 "variableName": "abcl_about_rel_p"
             },
             {
+                "isAbout": "items/abcl_lived_with_p",
+                "isVis": "(abcl_about_p !== '0' && abcl_about_p !== '')&&(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "abcl_lived_with_p"
+            },
+            {
                 "isAbout": "items/abcl_about_age_p",
                 "isVis": "abcl_about_p !== '0' && abcl_about_p !== ''",
                 "valueRequired": true,
@@ -213,7 +220,7 @@
             },
             {
                 "isAbout": "items/abcl_about_gender_p",
-                "isVis": "abcl_about_p !== '0' && abcl_about_p !== ''",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "abcl_about_gender_p"
             },
@@ -1132,6 +1139,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2610",
+    "version": "revid2611",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

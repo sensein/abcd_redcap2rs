@@ -1,0 +1,61 @@
+{
+    "id": "fitpo_at_home_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "fitpo_past_3_weeks_y"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200730 @NONEOFTHEABOVE = '4'"
+        }
+    ],
+    "preamble": {
+        "en": "Please check the box for any of the following items that applied over the past 3 weeks (select all that apply):"
+    },
+    "prefLabel": {
+        "en": "fitpo_at_home_y"
+    },
+    "question": {
+        "en": "Were you at home during the day?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "First week"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Second week"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Third week"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Not applicable"
+                },
+                "value": 4
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

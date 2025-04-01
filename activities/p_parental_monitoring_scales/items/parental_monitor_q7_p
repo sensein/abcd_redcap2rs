@@ -1,0 +1,67 @@
+{
+    "id": "parental_monitor_q7_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200812"
+        }
+    ],
+    "preamble": {
+        "en": "Knowledge (parent reports)"
+    },
+    "prefLabel": {
+        "en": "parental_monitor_q7_p"
+    },
+    "question": {
+        "en": "Do you know how well your child achieves in different subjects in school?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes, completely"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes, quite well"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Yes, partly"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "No, very little"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "No, nothing"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

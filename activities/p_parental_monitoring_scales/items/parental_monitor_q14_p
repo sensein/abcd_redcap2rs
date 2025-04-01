@@ -1,0 +1,72 @@
+{
+    "id": "parental_monitor_q14_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "control_parent_reports"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200812"
+        }
+    ],
+    "preamble": {
+        "en": "Control (parent reports)"
+    },
+    "prefLabel": {
+        "en": "parental_monitor_q14_p"
+    },
+    "question": {
+        "en": "Do you demand to know all the time where your child is at night, who he/she meets and what your child is doing?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes, always"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes, most of the time"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Yes, sometimes"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "No, seldom"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "No, never"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

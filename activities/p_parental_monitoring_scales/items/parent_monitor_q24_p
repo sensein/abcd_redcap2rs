@@ -1,0 +1,61 @@
+{
+    "id": "parent_monitor_q24_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200812"
+        }
+    ],
+    "preamble": {
+        "en": "Disclosure of daily activities (parent reports)"
+    },
+    "prefLabel": {
+        "en": "parent_monitor_q24_p"
+    },
+    "question": {
+        "en": "When your child has been out one night, does he/she want to tell you what he/she has experienced?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes, always"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes, most of the time"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Yes, sometimes"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "No, seldom"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "No, never"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -19,6 +19,9 @@
             "items/asnt_start_time",
             "items/fitbit_assent",
             "items/asnt_form",
+            "items/mobile_tech_y",
+            "items/mobile_tech_asnt",
+            "items/mobile_tech_reason",
             "items/assent_no_stop",
             "items/asnt_sign",
             "items/asnt_date",
@@ -72,6 +75,24 @@
                 "isVis": "sched_delay == 7",
                 "valueRequired": true,
                 "variableName": "asnt_form"
+            },
+            {
+                "isAbout": "items/mobile_tech_y",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "mobile_tech_y"
+            },
+            {
+                "isAbout": "items/mobile_tech_asnt",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "mobile_tech_asnt"
+            },
+            {
+                "isAbout": "items/mobile_tech_reason",
+                "isVis": "mobile_tech_asnt == '0'",
+                "valueRequired": true,
+                "variableName": "mobile_tech_reason"
             },
             {
                 "isAbout": "items/assent_no_stop",
@@ -178,6 +199,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2610",
+    "version": "revid2611",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

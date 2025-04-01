@@ -1,0 +1,43 @@
+{
+    "id": "ears_post_time_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200807"
+        }
+    ],
+    "preamble": {
+        "en": "Parent Rules of Screen Use\"Many parents implement rules for their children with regard to screen time. Please answer for rules in your family.\""
+    },
+    "prefLabel": {
+        "en": "ears_post_time_p"
+    },
+    "question": {
+        "en": "Have you increased or decreased the amount of time allowed?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Increased"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Decreased"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

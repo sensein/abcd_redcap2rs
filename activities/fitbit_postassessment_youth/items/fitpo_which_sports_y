@@ -1,0 +1,124 @@
+{
+    "id": "fitpo_which_sports_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200729"
+        }
+    ],
+    "prefLabel": {
+        "en": "fitpo_which_sports_y"
+    },
+    "question": {
+        "en": "Please select which sports you had to take the Fitbit off (multiple options possible):"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Track and field/cross country"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Football"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Soccer"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Basketball"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Gymnastics"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Dancing"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Swimming/Diving"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Volleyball"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Field or ice hockey"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Waterpolo"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Baseball/Softball"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Tennis/Badminton"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Wrestling"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Weightlifting"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "Aerobics"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 16
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

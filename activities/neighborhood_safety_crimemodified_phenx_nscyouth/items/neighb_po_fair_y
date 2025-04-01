@@ -1,0 +1,55 @@
+{
+    "id": "neighb_po_fair_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200729"
+        }
+    ],
+    "preamble": {
+        "en": "The last questions ask about your general impressions of the police inyourcommunity"
+    },
+    "prefLabel": {
+        "en": "neighb_po_fair_y"
+    },
+    "question": {
+        "en": "The police treat individuals fairly in my community:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Almost never"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Often"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Almost always"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

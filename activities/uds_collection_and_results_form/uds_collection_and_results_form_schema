@@ -1,0 +1,185 @@
+{
+    "id": "uds_collection_and_results_form_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "uds_collection_and_results_form"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/biospec_urine_collect",
+            "items/biospec_urine_toxscrn_date",
+            "items/biospec_urine_toxscrn_sp",
+            "items/icup_amphetamine",
+            "items/icup_barbiturate",
+            "items/icup_benzodiazepine",
+            "items/icup_cocaine",
+            "items/icup_methamphetamine",
+            "items/icup_methadone",
+            "items/icup_opiate",
+            "items/icup_oxycodone",
+            "items/icup_pcp",
+            "items/icup_propoxyohene",
+            "items/icup_tricyclics",
+            "items/icup_thc",
+            "items/icup_adulterated",
+            "items/icup_creatinine",
+            "items/icup_ph",
+            "items/icup_oxidants",
+            "items/biospec_urine_result_date",
+            "items/icup_nicotine",
+            "items/biospec_urine_result_2_date",
+            "items/biospec_urine_toxscrn_reason",
+            "items/uds_collection_and_results_form_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/biospec_urine_collect",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "biospec_urine_collect"
+            },
+            {
+                "isAbout": "items/biospec_urine_toxscrn_date",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND biospec_urine_collect == '1')",
+                "valueRequired": true,
+                "variableName": "biospec_urine_toxscrn_date"
+            },
+            {
+                "isAbout": "items/biospec_urine_toxscrn_sp",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND biospec_urine_collect == '1')",
+                "valueRequired": true,
+                "variableName": "biospec_urine_toxscrn_sp"
+            },
+            {
+                "isAbout": "items/icup_amphetamine",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND biospec_urine_collect == '1')",
+                "valueRequired": true,
+                "variableName": "icup_amphetamine"
+            },
+            {
+                "isAbout": "items/icup_barbiturate",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND biospec_urine_collect == '1')",
+                "valueRequired": true,
+                "variableName": "icup_barbiturate"
+            },
+            {
+                "isAbout": "items/icup_benzodiazepine",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND biospec_urine_collect == '1')",
+                "valueRequired": true,
+                "variableName": "icup_benzodiazepine"
+            },
+            {
+                "isAbout": "items/icup_cocaine",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND biospec_urine_collect == '1')",
+                "valueRequired": true,
+                "variableName": "icup_cocaine"
+            },
+            {
+                "isAbout": "items/icup_methamphetamine",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND biospec_urine_collect == '1')",
+                "valueRequired": true,
+                "variableName": "icup_methamphetamine"
+            },
+            {
+                "isAbout": "items/icup_methadone",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND biospec_urine_collect == '1')",
+                "valueRequired": true,
+                "variableName": "icup_methadone"
+            },
+            {
+                "isAbout": "items/icup_opiate",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND biospec_urine_collect == '1')",
+                "valueRequired": true,
+                "variableName": "icup_opiate"
+            },
+            {
+                "isAbout": "items/icup_oxycodone",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND biospec_urine_collect == '1')",
+                "valueRequired": true,
+                "variableName": "icup_oxycodone"
+            },
+            {
+                "isAbout": "items/icup_pcp",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND biospec_urine_collect == '1')",
+                "valueRequired": true,
+                "variableName": "icup_pcp"
+            },
+            {
+                "isAbout": "items/icup_propoxyohene",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND biospec_urine_collect == '1')",
+                "valueRequired": true,
+                "variableName": "icup_propoxyohene"
+            },
+            {
+                "isAbout": "items/icup_tricyclics",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND biospec_urine_collect == '1')",
+                "valueRequired": true,
+                "variableName": "icup_tricyclics"
+            },
+            {
+                "isAbout": "items/icup_thc",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND biospec_urine_collect == '1')",
+                "valueRequired": true,
+                "variableName": "icup_thc"
+            },
+            {
+                "isAbout": "items/icup_adulterated",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND biospec_urine_collect == '1')",
+                "valueRequired": true,
+                "variableName": "icup_adulterated"
+            },
+            {
+                "isAbout": "items/icup_creatinine",
+                "isVis": "(icup_adulterated == '1' AND event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "icup_creatinine"
+            },
+            {
+                "isAbout": "items/icup_ph",
+                "isVis": "(icup_adulterated == '1' AND event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "icup_ph"
+            },
+            {
+                "isAbout": "items/icup_oxidants",
+                "isVis": "(icup_adulterated == '1' AND event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "icup_oxidants"
+            },
+            {
+                "isAbout": "items/biospec_urine_result_date",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND biospec_urine_collect == '1')",
+                "valueRequired": true,
+                "variableName": "biospec_urine_result_date"
+            },
+            {
+                "isAbout": "items/icup_nicotine",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND biospec_urine_collect == '1')",
+                "valueRequired": true,
+                "variableName": "icup_nicotine"
+            },
+            {
+                "isAbout": "items/biospec_urine_result_2_date",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND biospec_urine_collect == '1')",
+                "valueRequired": true,
+                "variableName": "biospec_urine_result_2_date"
+            },
+            {
+                "isAbout": "items/biospec_urine_toxscrn_reason",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND biospec_urine_collect)== '0'",
+                "valueRequired": true,
+                "variableName": "biospec_urine_toxscrn_reason"
+            },
+            {
+                "isAbout": "items/uds_collection_and_results_form_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "uds_collection_and_results_form_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2611",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

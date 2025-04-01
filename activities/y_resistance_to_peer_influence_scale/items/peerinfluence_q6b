@@ -1,0 +1,43 @@
+{
+    "id": "peerinfluence_q6b",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200825"
+        }
+    ],
+    "preamble": {
+        "en": "For each quality question, decide which sort of person you are most like. Then decide if that is \"sort of true\" or \"really true\" for you, and select that choice. For each line mark only ONE choice."
+    },
+    "prefLabel": {
+        "en": "peerinfluence_q6b"
+    },
+    "question": {
+        "en": "Other people would break the law if their friends said that they would break it."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Really true for me"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Sort of true for me"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

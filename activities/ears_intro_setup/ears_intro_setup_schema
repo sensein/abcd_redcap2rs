@@ -1,0 +1,66 @@
+{
+    "id": "ears_intro_setup_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "ears_intro_setup"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ears_app",
+            "items/ears_app_start",
+            "items/ears_app_end",
+            "items/ears_payment",
+            "items/ears_issues",
+            "items/ears_withdrawn",
+            "items/ears_intro_setup_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ears_app",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ears_app"
+            },
+            {
+                "isAbout": "items/ears_app_start",
+                "isVis": "ears_app___1 == '0'",
+                "valueRequired": false,
+                "variableName": "ears_app_start"
+            },
+            {
+                "isAbout": "items/ears_app_end",
+                "isVis": "ears_app___1 == '0'",
+                "valueRequired": false,
+                "variableName": "ears_app_end"
+            },
+            {
+                "isAbout": "items/ears_payment",
+                "isVis": "ears_app___1 == '0'",
+                "valueRequired": false,
+                "variableName": "ears_payment"
+            },
+            {
+                "isAbout": "items/ears_issues",
+                "isVis": "ears_app___1 == '0'",
+                "valueRequired": false,
+                "variableName": "ears_issues"
+            },
+            {
+                "isAbout": "items/ears_withdrawn",
+                "isVis": "ears_app___1 == '0'",
+                "valueRequired": false,
+                "variableName": "ears_withdrawn"
+            },
+            {
+                "isAbout": "items/ears_intro_setup_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ears_intro_setup_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2611",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

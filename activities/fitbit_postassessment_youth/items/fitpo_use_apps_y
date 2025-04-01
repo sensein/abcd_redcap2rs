@@ -1,0 +1,60 @@
+{
+    "id": "fitpo_use_apps_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "fitpo_how_often_y"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200729"
+        }
+    ],
+    "preamble": {
+        "en": "Please answer the following statements:"
+    },
+    "prefLabel": {
+        "en": "fitpo_use_apps_y"
+    },
+    "question": {
+        "en": "How often did you use the app and/or website to see your Fitbit activity?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Rarely"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Often"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

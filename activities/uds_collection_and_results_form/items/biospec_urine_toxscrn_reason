@@ -1,0 +1,57 @@
+{
+    "id": "biospec_urine_toxscrn_reason",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "biospec_urine_toxscrn_reason"
+    },
+    "question": {
+        "en": "Reason if NOT collected:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Youth refused"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Parent refused youth to do this"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Youth was willing but could not provide a sample"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Supplies not available"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Screen did not work"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Unknown"
+                },
+                "value": 6
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

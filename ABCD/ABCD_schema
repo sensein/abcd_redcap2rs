@@ -96,10 +96,10 @@
             "../activities/acculturationmodified_phenx_actyouth/acculturationmodified_phenx_actyouth_schema",
             "../activities/multigroup_ethnic_identity_meim/multigroup_ethnic_identity_meim_schema",
             "../activities/vancouver_index_of_acculturation_y/vancouver_index_of_acculturation_y_schema",
+            "../activities/y_family_environment_cc/y_family_environment_cc_schema",
             "../activities/neglectful_behavior/neglectful_behavior_schema",
             "../activities/parental_monitoring_pmyouth/parental_monitoring_pmyouth_schema",
             "../activities/crpbi_acceptance_subscaleyouth/crpbi_acceptance_subscaleyouth_schema",
-            "../activities/family_environment_conflict_scale_modified_phenx_f/family_environment_conflict_scale_modified_phenx_f_schema",
             "../activities/neighborhood_safety_crimemodified_phenx_nscyouth/neighborhood_safety_crimemodified_phenx_nscyouth_schema",
             "../activities/peer_behavior_profile/peer_behavior_profile_schema",
             "../activities/peer_network_health_protective_scaler/peer_network_health_protective_scaler_schema",
@@ -161,7 +161,6 @@
             "../activities/acculturationmodified_phenx_actparent/acculturationmodified_phenx_actparent_schema",
             "../activities/phenx_community_cohesion_p/phenx_community_cohesion_p_schema",
             "../activities/mexican_american_cultural_values_scalemodifie_974c/mexican_american_cultural_values_scalemodifie_974c_schema",
-            "../activities/neighborhood_safetycrimephenx_nscparent/neighborhood_safetycrimephenx_nscparent_schema",
             "../activities/ending_9_take_home_surveys/ending_9_take_home_surveys_schema",
             "../activities/p_block_kids_food_screen/p_block_kids_food_screen_schema",
             "../activities/plus_day_2parent/plus_day_2parent_schema",
@@ -320,7 +319,17 @@
             "../activities/p_abcd_covid19_questionnaire_part_1/p_abcd_covid19_questionnaire_part_1_schema",
             "../activities/p_abcd_covid19_questionnaire_part_2/p_abcd_covid19_questionnaire_part_2_schema",
             "../activities/acs_post_stratification_weights_daic_use_only/acs_post_stratification_weights_daic_use_only_schema",
-            "../activities/y_flanker_sum_scores/y_flanker_sum_scores_schema"
+            "../activities/y_flanker_sum_scores/y_flanker_sum_scores_schema",
+            "../activities/p_ears_post_questionnaire/p_ears_post_questionnaire_schema",
+            "../activities/y_ears_post_questionnaire/y_ears_post_questionnaire_schema",
+            "../activities/y_ecological_interviewbrief/y_ecological_interviewbrief_schema",
+            "../activities/uds_collection_and_results_form/uds_collection_and_results_form_schema",
+            "../activities/y_respiratory_questionnaire/y_respiratory_questionnaire_schema",
+            "../activities/y_resistance_to_peer_influence_scale/y_resistance_to_peer_influence_scale_schema",
+            "../activities/p_home_short_form/p_home_short_form_schema",
+            "../activities/p_parental_monitoring_scales/p_parental_monitoring_scales_schema",
+            "../activities/p_neighborhood_safety_crime/p_neighborhood_safety_crime_schema",
+            "../activities/ears_intro_setup/ears_intro_setup_schema"
         ],
         "addProperties": [
             {
@@ -1012,6 +1021,14 @@
                 "variableName": "vancouver_index_of_acculturation_y_schema"
             },
             {
+                "isAbout": "../activities/y_family_environment_cc/y_family_environment_cc_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Family Environment Cc"
+                },
+                "variableName": "y_family_environment_cc_schema"
+            },
+            {
                 "isAbout": "../activities/neglectful_behavior/neglectful_behavior_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -1034,14 +1051,6 @@
                     "en": "Crpbi Acceptance Subscaleyouth"
                 },
                 "variableName": "crpbi_acceptance_subscaleyouth_schema"
-            },
-            {
-                "isAbout": "../activities/family_environment_conflict_scale_modified_phenx_f/family_environment_conflict_scale_modified_phenx_f_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Family Environment Conflict Scale Modified Phenx F"
-                },
-                "variableName": "family_environment_conflict_scale_modified_phenx_f_schema"
             },
             {
                 "isAbout": "../activities/neighborhood_safety_crimemodified_phenx_nscyouth/neighborhood_safety_crimemodified_phenx_nscyouth_schema",
@@ -1530,14 +1539,6 @@
                     "en": "Mexican American Cultural Values Scalemodifie 974C"
                 },
                 "variableName": "mexican_american_cultural_values_scalemodifie_974c_schema"
-            },
-            {
-                "isAbout": "../activities/neighborhood_safetycrimephenx_nscparent/neighborhood_safetycrimephenx_nscparent_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Neighborhood Safetycrimephenx Nscparent"
-                },
-                "variableName": "neighborhood_safetycrimephenx_nscparent_schema"
             },
             {
                 "isAbout": "../activities/ending_9_take_home_surveys/ending_9_take_home_surveys_schema",
@@ -2810,10 +2811,90 @@
                     "en": "Y Flanker Sum Scores"
                 },
                 "variableName": "y_flanker_sum_scores_schema"
+            },
+            {
+                "isAbout": "../activities/p_ears_post_questionnaire/p_ears_post_questionnaire_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "P Ears Post Questionnaire"
+                },
+                "variableName": "p_ears_post_questionnaire_schema"
+            },
+            {
+                "isAbout": "../activities/y_ears_post_questionnaire/y_ears_post_questionnaire_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Ears Post Questionnaire"
+                },
+                "variableName": "y_ears_post_questionnaire_schema"
+            },
+            {
+                "isAbout": "../activities/y_ecological_interviewbrief/y_ecological_interviewbrief_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Ecological Interviewbrief"
+                },
+                "variableName": "y_ecological_interviewbrief_schema"
+            },
+            {
+                "isAbout": "../activities/uds_collection_and_results_form/uds_collection_and_results_form_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Uds Collection And Results Form"
+                },
+                "variableName": "uds_collection_and_results_form_schema"
+            },
+            {
+                "isAbout": "../activities/y_respiratory_questionnaire/y_respiratory_questionnaire_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Respiratory Questionnaire"
+                },
+                "variableName": "y_respiratory_questionnaire_schema"
+            },
+            {
+                "isAbout": "../activities/y_resistance_to_peer_influence_scale/y_resistance_to_peer_influence_scale_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Resistance To Peer Influence Scale"
+                },
+                "variableName": "y_resistance_to_peer_influence_scale_schema"
+            },
+            {
+                "isAbout": "../activities/p_home_short_form/p_home_short_form_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "P Home Short Form"
+                },
+                "variableName": "p_home_short_form_schema"
+            },
+            {
+                "isAbout": "../activities/p_parental_monitoring_scales/p_parental_monitoring_scales_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "P Parental Monitoring Scales"
+                },
+                "variableName": "p_parental_monitoring_scales_schema"
+            },
+            {
+                "isAbout": "../activities/p_neighborhood_safety_crime/p_neighborhood_safety_crime_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "P Neighborhood Safety Crime"
+                },
+                "variableName": "p_neighborhood_safety_crime_schema"
+            },
+            {
+                "isAbout": "../activities/ears_intro_setup/ears_intro_setup_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Ears Intro Setup"
+                },
+                "variableName": "ears_intro_setup_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2610",
+    "version": "revid2611",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,0 +1,61 @@
+{
+    "id": "parent_monitor_q18_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200812"
+        }
+    ],
+    "preamble": {
+        "en": "Solicitation (parent reports)"
+    },
+    "prefLabel": {
+        "en": "parent_monitor_q18_p"
+    },
+    "question": {
+        "en": "During the last month, how often have you had a conversation with your child about what he/she is doing in his/her spare time?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Several times a week"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "At least once a week"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A few times a month"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "On some occasions"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Not this month"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

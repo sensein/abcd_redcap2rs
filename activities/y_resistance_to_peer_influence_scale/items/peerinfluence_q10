@@ -1,0 +1,43 @@
+{
+    "id": "peerinfluence_q10",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200825"
+        }
+    ],
+    "preamble": {
+        "en": "For each quality question, decide which sort of person you are most like. Then decide if that is \"sort of true\" or \"really true\" for you, and select that choice. For each line mark only ONE choice."
+    },
+    "prefLabel": {
+        "en": "peerinfluence_q10"
+    },
+    "question": {
+        "en": "Which sort of person you are most like?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Some people think it's better to be an individual even if people will be angry at you for going against the crowd"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Other people think it's better to go along with the crowd than to make people angry at"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

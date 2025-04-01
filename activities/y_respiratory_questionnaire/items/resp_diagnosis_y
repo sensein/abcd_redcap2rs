@@ -1,0 +1,52 @@
+{
+    "id": "resp_diagnosis_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200826"
+        }
+    ],
+    "prefLabel": {
+        "en": "resp_diagnosis_y"
+    },
+    "question": {
+        "en": "If you aren't sure of the age can you recall if it was..."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Before 5 years old (before elementary school)"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Between 5-12 years old (in elementary or middle school)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Between 13-18 years old (in middle or highschool)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "After 18 years old (after high school)"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

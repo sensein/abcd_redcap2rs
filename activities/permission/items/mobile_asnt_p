@@ -1,0 +1,52 @@
+{
+    "id": "mobile_asnt_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200824"
+        }
+    ],
+    "prefLabel": {
+        "en": "mobile_asnt_p"
+    },
+    "question": {
+        "en": "Mobile Tech Consent:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No, I am concerned about my privacy"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "No, I am concerned about the amount of time this would take"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "No, other"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

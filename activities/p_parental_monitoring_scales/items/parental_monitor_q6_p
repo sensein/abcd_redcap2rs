@@ -1,0 +1,61 @@
+{
+    "id": "parental_monitor_q6_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200819"
+        }
+    ],
+    "preamble": {
+        "en": "Knowledge (parent reports)"
+    },
+    "prefLabel": {
+        "en": "parental_monitor_q6_p"
+    },
+    "question": {
+        "en": "Do you avoid taking up certain issues with your child due to bad experiences, e.g. how the child reacted earlier?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "On some occasions"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Quite often"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,43 @@
+{
+    "id": "fitpo_wear_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200729"
+        }
+    ],
+    "preamble": {
+        "en": "Thinking about the past 3 weeks you wore the Fitbit:"
+    },
+    "prefLabel": {
+        "en": "fitpo_wear_y"
+    },
+    "question": {
+        "en": "Did you wear the Fitbit always or almost alway?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

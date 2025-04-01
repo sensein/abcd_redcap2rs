@@ -1,0 +1,49 @@
+{
+    "id": "cp_lexisnexis",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200826"
+        }
+    ],
+    "preamble": {
+        "en": "RELEASE OF INFORMATION: LexisNexisWe have previously asked about the places your child has lived or currently lives. We do so because we are interested in how neighborhoods influence children's overall health. We keep this information private. Given that it can be very difficult for some individuals to remember exact street addresses of previous places they have lived, we are now providing the option of helping gather those addresses from a public record database, known as LexisNexis, to assist with recalling those details. \r\n\r\nIf you agree, we will use LexisNexis to generate a list of ONLY addresses that will be kept completely confidential and we will review together during a future interview to help us create a more complete residential history record for your child. Would that be ok with you?"
+    },
+    "prefLabel": {
+        "en": "cp_lexisnexis"
+    },
+    "question": {
+        "en": "Parent/Legal Guardian gave permission to Lexisnexis?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "NA (child's only lived at one address since birth or parent is able to remember all addresses)"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

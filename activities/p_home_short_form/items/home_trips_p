@@ -1,0 +1,67 @@
+{
+    "id": "home_trips_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200812"
+        }
+    ],
+    "preamble": {
+        "en": "Thinking about an average year when they were between 3 and 5 years old, about how often did you or someone else in the family take the child to do the following activities:"
+    },
+    "prefLabel": {
+        "en": "home_trips_p"
+    },
+    "question": {
+        "en": "Take a trip more than 50 miles from home?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Once"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2-3 times"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "More than 3 times"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer"
+                },
+                "value": 777
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

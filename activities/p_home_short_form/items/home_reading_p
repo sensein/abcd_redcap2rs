@@ -1,0 +1,79 @@
+{
+    "id": "home_reading_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200812"
+        }
+    ],
+    "preamble": {
+        "en": "Please answer the following questions about your child and your family when your child was between 3 and 5 years old"
+    },
+    "prefLabel": {
+        "en": "home_reading_p"
+    },
+    "question": {
+        "en": "About how often did you or another caregiver read stories to your child when they were between 3 and 5 years old?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Several times a year"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Several times a month"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Once a week"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "At least 3 times a week"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Everyday"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer"
+                },
+                "value": 777
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

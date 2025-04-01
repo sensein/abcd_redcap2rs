@@ -1,0 +1,66 @@
+{
+    "id": "p_home_short_form_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "p_home_short_form"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/home_puzzles_p",
+            "items/home_books_p",
+            "items/home_games_p",
+            "items/home_reading_p",
+            "items/home_trips_p",
+            "items/home_museum_p",
+            "items/p_home_short_form_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/home_puzzles_p",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "home_puzzles_p"
+            },
+            {
+                "isAbout": "items/home_books_p",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "home_books_p"
+            },
+            {
+                "isAbout": "items/home_games_p",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "home_games_p"
+            },
+            {
+                "isAbout": "items/home_reading_p",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "home_reading_p"
+            },
+            {
+                "isAbout": "items/home_trips_p",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "home_trips_p"
+            },
+            {
+                "isAbout": "items/home_museum_p",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "home_museum_p"
+            },
+            {
+                "isAbout": "items/p_home_short_form_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "p_home_short_form_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2611",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

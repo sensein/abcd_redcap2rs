@@ -1,0 +1,52 @@
+{
+    "id": "mobile_permission_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200824"
+        }
+    ],
+    "prefLabel": {
+        "en": "mobile_permission_p"
+    },
+    "question": {
+        "en": "Does your child have an Android or iPhone mobile device and are they the primary\u00e2\u0080\u00a8 user of this device [e.g., not regularly shared with a sibling or other family member;\u00e2\u0080\u00a8 primary (>90%) of time the user of the device]?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No, my child has another type of mobile device"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "No, my child does not have a mobile device"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "No, my child does not have their own mobile device/they share one"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

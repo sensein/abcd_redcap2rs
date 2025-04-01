@@ -1,0 +1,61 @@
+{
+    "id": "parent_monitor_q16_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200819"
+        }
+    ],
+    "preamble": {
+        "en": "Solicitation (parent reports)"
+    },
+    "prefLabel": {
+        "en": "parent_monitor_q16_p"
+    },
+    "question": {
+        "en": "Has it happened this month that you have been in contact with and talked to the parents of your child's friends?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Several times a week"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "At least once a week"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A few times this month"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "On some occasions this month"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

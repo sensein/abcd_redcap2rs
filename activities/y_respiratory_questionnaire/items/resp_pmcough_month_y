@@ -1,0 +1,101 @@
+{
+    "id": "resp_pmcough_month_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200826"
+        }
+    ],
+    "prefLabel": {
+        "en": "resp_pmcough_month_y"
+    },
+    "question": {
+        "en": "In which of these past month(s) did this cough occur? [check all that apply]"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "January"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "February"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "March"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "April"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "May"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "June"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "July"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "August"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "September"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "October"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "November"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "December"
+                },
+                "value": 12
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

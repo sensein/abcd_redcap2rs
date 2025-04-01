@@ -1,0 +1,61 @@
+{
+    "id": "parental_monitor_q8_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200819"
+        }
+    ],
+    "preamble": {
+        "en": "Knowledge (parent reports)"
+    },
+    "prefLabel": {
+        "en": "parental_monitor_q8_p"
+    },
+    "question": {
+        "en": "Do you know which places your child visits  when he/she is out with friends at night?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "We know all of them"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "We know most of them"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "We know some of them"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "We know none of them"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

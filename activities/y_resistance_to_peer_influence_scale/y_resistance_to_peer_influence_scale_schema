@@ -1,0 +1,234 @@
+{
+    "id": "y_resistance_to_peer_influence_scale_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "y_resistance_to_peer_influence_scale"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/peerinfluence_q1",
+            "items/peerinfluence_q1a",
+            "items/peerinfluence_q1b",
+            "items/peerinfluence_q2",
+            "items/peerinfluence_q2a",
+            "items/peerinfluence_q2b",
+            "items/peerinfluence_q3",
+            "items/peerinfluence_q3a",
+            "items/peerinfluence_q3b",
+            "items/peerinfluence_q4",
+            "items/peerinfluence_q4a",
+            "items/peerinfluence_q4b",
+            "items/peerinfluence_q5",
+            "items/peerinfluence_q5a",
+            "items/peerinfluence_q5b",
+            "items/peerinfluence_q6",
+            "items/peerinfluence_q6a",
+            "items/peerinfluence_q6b",
+            "items/peerinfluence_q7",
+            "items/peerinfluence_q7a",
+            "items/peerinfluence_q7b",
+            "items/peerinfluence_q8",
+            "items/peerinfluence_q8a",
+            "items/peerinfluence_q8b",
+            "items/peerinfluence_q9",
+            "items/peerinfluence_q9a",
+            "items/peerinfluence_q9b",
+            "items/peerinfluence_q10",
+            "items/peerinfluence_q10a",
+            "items/peerinfluence_q10b",
+            "items/y_resistance_to_peer_influence_scale_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/peerinfluence_q1",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": false,
+                "variableName": "peerinfluence_q1"
+            },
+            {
+                "isAbout": "items/peerinfluence_q1a",
+                "isVis": "peerinfluence_q1 == '1'",
+                "valueRequired": false,
+                "variableName": "peerinfluence_q1a"
+            },
+            {
+                "isAbout": "items/peerinfluence_q1b",
+                "isVis": "peerinfluence_q1 == '2'",
+                "valueRequired": false,
+                "variableName": "peerinfluence_q1b"
+            },
+            {
+                "isAbout": "items/peerinfluence_q2",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": false,
+                "variableName": "peerinfluence_q2"
+            },
+            {
+                "isAbout": "items/peerinfluence_q2a",
+                "isVis": "peerinfluence_q2 == '1'",
+                "valueRequired": false,
+                "variableName": "peerinfluence_q2a"
+            },
+            {
+                "isAbout": "items/peerinfluence_q2b",
+                "isVis": "peerinfluence_q2 == '2'",
+                "valueRequired": false,
+                "variableName": "peerinfluence_q2b"
+            },
+            {
+                "isAbout": "items/peerinfluence_q3",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": false,
+                "variableName": "peerinfluence_q3"
+            },
+            {
+                "isAbout": "items/peerinfluence_q3a",
+                "isVis": "peerinfluence_q3 == '1'",
+                "valueRequired": false,
+                "variableName": "peerinfluence_q3a"
+            },
+            {
+                "isAbout": "items/peerinfluence_q3b",
+                "isVis": "peerinfluence_q3 == '2'",
+                "valueRequired": false,
+                "variableName": "peerinfluence_q3b"
+            },
+            {
+                "isAbout": "items/peerinfluence_q4",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": false,
+                "variableName": "peerinfluence_q4"
+            },
+            {
+                "isAbout": "items/peerinfluence_q4a",
+                "isVis": "peerinfluence_q4 == '1'",
+                "valueRequired": false,
+                "variableName": "peerinfluence_q4a"
+            },
+            {
+                "isAbout": "items/peerinfluence_q4b",
+                "isVis": "peerinfluence_q4 == '2'",
+                "valueRequired": false,
+                "variableName": "peerinfluence_q4b"
+            },
+            {
+                "isAbout": "items/peerinfluence_q5",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": false,
+                "variableName": "peerinfluence_q5"
+            },
+            {
+                "isAbout": "items/peerinfluence_q5a",
+                "isVis": "peerinfluence_q5 == '1'",
+                "valueRequired": false,
+                "variableName": "peerinfluence_q5a"
+            },
+            {
+                "isAbout": "items/peerinfluence_q5b",
+                "isVis": "peerinfluence_q5 == '2'",
+                "valueRequired": false,
+                "variableName": "peerinfluence_q5b"
+            },
+            {
+                "isAbout": "items/peerinfluence_q6",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": false,
+                "variableName": "peerinfluence_q6"
+            },
+            {
+                "isAbout": "items/peerinfluence_q6a",
+                "isVis": "peerinfluence_q6 == '1'",
+                "valueRequired": false,
+                "variableName": "peerinfluence_q6a"
+            },
+            {
+                "isAbout": "items/peerinfluence_q6b",
+                "isVis": "peerinfluence_q6 == '2'",
+                "valueRequired": false,
+                "variableName": "peerinfluence_q6b"
+            },
+            {
+                "isAbout": "items/peerinfluence_q7",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": false,
+                "variableName": "peerinfluence_q7"
+            },
+            {
+                "isAbout": "items/peerinfluence_q7a",
+                "isVis": "peerinfluence_q7 == '1'",
+                "valueRequired": false,
+                "variableName": "peerinfluence_q7a"
+            },
+            {
+                "isAbout": "items/peerinfluence_q7b",
+                "isVis": "peerinfluence_q7 == '2'",
+                "valueRequired": false,
+                "variableName": "peerinfluence_q7b"
+            },
+            {
+                "isAbout": "items/peerinfluence_q8",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": false,
+                "variableName": "peerinfluence_q8"
+            },
+            {
+                "isAbout": "items/peerinfluence_q8a",
+                "isVis": "peerinfluence_q8 == '1'",
+                "valueRequired": false,
+                "variableName": "peerinfluence_q8a"
+            },
+            {
+                "isAbout": "items/peerinfluence_q8b",
+                "isVis": "peerinfluence_q8 == '2'",
+                "valueRequired": false,
+                "variableName": "peerinfluence_q8b"
+            },
+            {
+                "isAbout": "items/peerinfluence_q9",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": false,
+                "variableName": "peerinfluence_q9"
+            },
+            {
+                "isAbout": "items/peerinfluence_q9a",
+                "isVis": "peerinfluence_q9 == '1'",
+                "valueRequired": false,
+                "variableName": "peerinfluence_q9a"
+            },
+            {
+                "isAbout": "items/peerinfluence_q9b",
+                "isVis": "peerinfluence_q9 == '2'",
+                "valueRequired": false,
+                "variableName": "peerinfluence_q9b"
+            },
+            {
+                "isAbout": "items/peerinfluence_q10",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": false,
+                "variableName": "peerinfluence_q10"
+            },
+            {
+                "isAbout": "items/peerinfluence_q10a",
+                "isVis": "peerinfluence_q10 == '1'",
+                "valueRequired": false,
+                "variableName": "peerinfluence_q10a"
+            },
+            {
+                "isAbout": "items/peerinfluence_q10b",
+                "isVis": "peerinfluence_q10 == '2'",
+                "valueRequired": false,
+                "variableName": "peerinfluence_q10b"
+            },
+            {
+                "isAbout": "items/y_resistance_to_peer_influence_scale_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "y_resistance_to_peer_influence_scale_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2611",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

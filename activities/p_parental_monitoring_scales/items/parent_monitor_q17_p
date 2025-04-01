@@ -1,0 +1,61 @@
+{
+    "id": "parent_monitor_q17_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200812"
+        }
+    ],
+    "preamble": {
+        "en": "Solicitation (parent reports)"
+    },
+    "prefLabel": {
+        "en": "parent_monitor_q17_p"
+    },
+    "question": {
+        "en": "How often do you talk to your child's friends when they come home to you? (ask what they do or how they think and feel about different things)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Almost always"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Most of the time"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "It varies"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Seldom"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

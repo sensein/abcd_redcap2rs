@@ -23,6 +23,8 @@
             "items/fitbit_y_smartphone",
             "items/fitbit_p_smartphone",
             "items/fitbit_permission",
+            "items/mobile_permission_p",
+            "items/mobile_asnt_p",
             "items/cp_child_name",
             "items/cp_parent_name",
             "items/cp_parent_sign",
@@ -44,6 +46,7 @@
             "items/cp_consent_sign_v2",
             "items/parent_asnt",
             "items/cp_timestamp_v2",
+            "items/cp_lexisnexis",
             "items/permission_school_records",
             "items/permission_teacher_contact",
             "items/zygosity_permission",
@@ -117,6 +120,18 @@
                 "isVis": "event_name_number == '21'",
                 "valueRequired": true,
                 "variableName": "fitbit_permission"
+            },
+            {
+                "isAbout": "items/mobile_permission_p",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "mobile_permission_p"
+            },
+            {
+                "isAbout": "items/mobile_asnt_p",
+                "isVis": "mobile_permission_p == '1'",
+                "valueRequired": true,
+                "variableName": "mobile_asnt_p"
             },
             {
                 "isAbout": "items/cp_child_name",
@@ -245,6 +260,12 @@
                 "variableName": "cp_timestamp_v2"
             },
             {
+                "isAbout": "items/cp_lexisnexis",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": false,
+                "variableName": "cp_lexisnexis"
+            },
+            {
                 "isAbout": "items/permission_school_records",
                 "isVis": true,
                 "valueRequired": true,
@@ -325,6 +346,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2610",
+    "version": "revid2611",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
