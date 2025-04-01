@@ -1,56 +1,47 @@
 {
-    "id": "ynotes_3yr_issues",
+    "id": "pnotes_3yr_remote_self_method",
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
             "column": "Field Annotation",
             "source": "redcap",
-            "value": "@NONEOFTHEABOVE = '0'"
+            "value": "HIDEFROMCOMPLETION20200611"
         }
     ],
+    "preamble": {
+        "en": "COMPLETION METHODTake Home Surveys / Remote Completion"
+    },
     "prefLabel": {
-        "en": "ynotes_3yr_issues"
+        "en": "pnotes_3yr_remote_self_method"
     },
     "question": {
-        "en": "Any notes or issues with the youth assessment that you want to document? Check all that apply\r\n\r\nAll REDCap data errors should be documented under \"Data Manager\" and emailed to your data manager to be corrected immediately (e.g. incorrect pGUID)."
+        "en": "Remote method ofself-administered forms(Check all that apply)"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Workgroup"
+                    "en": "Audio (i.e. phone call)"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Site"
+                    "en": "Video/Webcam"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Wrong PGUID (NOT REDCAP)/Please also email ABCD issues"
+                    "en": "Screen Sharing"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Wrong time point/Please also email ABCD issues"
+                    "en": "Link"
                 },
                 "value": 4
-            },
-            {
-                "name": {
-                    "en": "Data Manager"
-                },
-                "value": 5
-            },
-            {
-                "name": {
-                    "en": "No notes or Issues to document"
-                },
-                "value": 0
             }
         ],
         "multipleChoice": true,

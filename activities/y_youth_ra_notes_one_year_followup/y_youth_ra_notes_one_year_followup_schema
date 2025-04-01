@@ -531,7 +531,7 @@
             },
             {
                 "isAbout": "items/ynotes_sched_visit_reason",
-                "isVis": "yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3' || sched_delay == '9'",
+                "isVis": "yr1fb_where_completed_y =='2' || yr1fb_where_completed_y =='3'",
                 "valueRequired": true,
                 "variableName": "ynotes_sched_visit_reason"
             },
@@ -3442,6 +3442,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2532",
+    "version": "revid2533",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
