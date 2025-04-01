@@ -7,11 +7,18 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/ddis_scr_computer_os",
+            "items/ddis_scr_computer_osmajorversion",
+            "items/ddis_scr_computer_osminorversion",
+            "items/ddis_scr_screenwidth_inmm",
+            "items/ddis_scr_screenheight_inmm",
+            "items/ddis_scr_test_setting",
             "items/ddis_scr_script_startdte",
             "items/ddis_scr_script_starttme",
             "items/ddis_scr_subjectid",
             "items/ddis_scr_session",
             "items/ddis_scr_event",
+            "items/ddis_scr_groupid",
             "items/ddis_scr_script_elaptme",
             "items/ddis_scr_computer_platform",
             "items/ddis_scr_values_completed",
@@ -37,6 +44,42 @@
             "items/delay_discounting_sum_scores_complete"
         ],
         "addProperties": [
+            {
+                "isAbout": "items/ddis_scr_computer_os",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ddis_scr_computer_os"
+            },
+            {
+                "isAbout": "items/ddis_scr_computer_osmajorversion",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ddis_scr_computer_osmajorversion"
+            },
+            {
+                "isAbout": "items/ddis_scr_computer_osminorversion",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ddis_scr_computer_osminorversion"
+            },
+            {
+                "isAbout": "items/ddis_scr_screenwidth_inmm",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ddis_scr_screenwidth_inmm"
+            },
+            {
+                "isAbout": "items/ddis_scr_screenheight_inmm",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ddis_scr_screenheight_inmm"
+            },
+            {
+                "isAbout": "items/ddis_scr_test_setting",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ddis_scr_test_setting"
+            },
             {
                 "isAbout": "items/ddis_scr_script_startdte",
                 "isVis": false,
@@ -66,6 +109,12 @@
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "ddis_scr_event"
+            },
+            {
+                "isAbout": "items/ddis_scr_groupid",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ddis_scr_groupid"
             },
             {
                 "isAbout": "items/ddis_scr_script_elaptme",
@@ -208,6 +257,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2600",
+    "version": "revid2601",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
