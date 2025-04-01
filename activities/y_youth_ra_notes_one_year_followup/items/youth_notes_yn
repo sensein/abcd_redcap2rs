@@ -1,11 +1,21 @@
 {
     "id": "youth_notes_yn",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        }
+    ],
+    "preamble": {
+        "en": "ISSUES, PROBLEMS, CONCERNS"
+    },
     "prefLabel": {
         "en": "youth_notes_yn"
     },
     "question": {
-        "en": "Any issues with the youth assessments (i.e. technical problems, instruments that were not administered, concerns etc.)"
+        "en": "Any notes or issues with the youth assessment (i.e. technical problems, instruments that were not administered, concerns etc.)?\u00e2\u0080\u00a8\u00e2\u0080\u00a8\r\n\r\nAll REDCap data errors should be emailed to your data manager to be corrected immediately (e.g. incorrect pGUID)"
     },
     "responseOptions": {
         "choices": [

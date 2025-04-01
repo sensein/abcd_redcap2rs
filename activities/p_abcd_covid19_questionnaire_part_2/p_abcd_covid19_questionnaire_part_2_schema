@@ -448,7 +448,7 @@
             },
             {
                 "isAbout": "items/child_news_source_cv",
-                "isVis": "child_news_time_cv > '23'",
+                "isVis": "child_news_time_cv <> '24' && child_news_time_cv <> ''",
                 "valueRequired": true,
                 "variableName": "child_news_source_cv"
             },
@@ -761,6 +761,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2522",
+    "version": "revid2523",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

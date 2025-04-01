@@ -3,11 +3,19 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
             "column": "Field Annotation",
             "source": "redcap",
             "value": "HIDEFROMCOMPLETION20191007"
         }
     ],
+    "preamble": {
+        "en": "ISSUES, PROBLEMS, CONCERNS"
+    },
     "prefLabel": {
         "en": "yr1_site_related_issues"
     },

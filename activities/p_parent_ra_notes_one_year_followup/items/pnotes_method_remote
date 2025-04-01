@@ -1,0 +1,43 @@
+{
+    "id": "pnotes_method_remote",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200528"
+        }
+    ],
+    "preamble": {
+        "en": "COMPLETION METHODTake Home Surveys / Remote Completion"
+    },
+    "prefLabel": {
+        "en": "pnotes_method_remote"
+    },
+    "question": {
+        "en": "How were the forms completed?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "All forms are completed remotely"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Some but not all completed remotely"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
