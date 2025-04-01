@@ -1,0 +1,102 @@
+{
+    "id": "sitting_weekday_hour_2_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200726"
+        }
+    ],
+    "preamble": {
+        "en": "Your progress:100%.Please think about your activities in thepast week."
+    },
+    "prefLabel": {
+        "en": "sitting_weekday_hour_2_cv"
+    },
+    "question": {
+        "en": "During the\u00c2past week,\u00c2\u00a0how much time did you usually spendsittingon a\u00c2\u00a0day? (This may include time spent sitting at a desk, reading, or sitting or lying down to watch television or play video-games)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "30 minutes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "1 hour"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "1 hour, 30 minutes"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "2 hours"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "2 hours, 30 minutes"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "3 hours"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "4 hours"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "5 hours"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "6 hours"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "7 or more hours"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

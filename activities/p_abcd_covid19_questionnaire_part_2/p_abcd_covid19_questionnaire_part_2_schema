@@ -42,6 +42,7 @@
             "items/child_phys_activity_days_cv",
             "items/child_phys_activity_time_cv",
             "items/child_phys_activity_min_cv",
+            "items/child_phys_activity_time_2_cv",
             "items/sleep_instruction_cv",
             "items/child_sleep_amount_cv",
             "items/child_fall_asleep_time_cv",
@@ -52,15 +53,20 @@
             "items/child_sleep_again",
             "items/child_avg_elec_time_cv",
             "items/child_avg_elec_min_cv",
+            "items/child_avg_elec_time_2_cv",
             "items/child_screen_instruc_cv",
             "items/child_texting_time_cv",
             "items/child_texting_min_cv",
+            "items/child_texting_time_2_cv",
             "items/child_video_chat_time_cv",
             "items/child_video_chat_min_cv",
+            "items/child_video_chat_time_2_cv",
             "items/child_social_media_time_cv",
             "items/child_social_media_min_cv",
+            "items/child_social_media_time_2_cv",
             "items/child_gaming_time_cv",
             "items/child_gaming_min_cv",
+            "items/child_gaming_time_2_cv",
             "items/child_news_time_cv",
             "items/child_news_source_cv",
             "items/child_diag_asthma_cv",
@@ -94,6 +100,7 @@
             "items/talk_vuln_cv",
             "items/talk_race_cv",
             "items/talk_conserve_cv",
+            "items/talk_mask_cv",
             "items/assure_child_cv",
             "items/prepared_child_cv",
             "items/child_sched_cv",
@@ -322,9 +329,15 @@
             },
             {
                 "isAbout": "items/child_phys_activity_min_cv",
-                "isVis": "child_phys_activity_days_cv <> '8'",
+                "isVis": "child_phys_activity_days_cv <> '8' AND(event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv2_arm_2')",
                 "valueRequired": true,
                 "variableName": "child_phys_activity_min_cv"
+            },
+            {
+                "isAbout": "items/child_phys_activity_time_2_cv",
+                "isVis": "child_phys_activity_days_cv <> '8' AND child_phys_activity_days_cv <> '' AND(event - name == 'covid19_cv3_arm_2' OR event - name == 'covid19_cv4_arm_2')",
+                "valueRequired": true,
+                "variableName": "child_phys_activity_time_2_cv"
             },
             {
                 "isAbout": "items/sleep_instruction_cv",
@@ -376,15 +389,21 @@
             },
             {
                 "isAbout": "items/child_avg_elec_time_cv",
-                "isVis": true,
+                "isVis": "(event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv2_arm_2')",
                 "valueRequired": true,
                 "variableName": "child_avg_elec_time_cv"
             },
             {
                 "isAbout": "items/child_avg_elec_min_cv",
-                "isVis": true,
+                "isVis": "(event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv2_arm_2')",
                 "valueRequired": true,
                 "variableName": "child_avg_elec_min_cv"
+            },
+            {
+                "isAbout": "items/child_avg_elec_time_2_cv",
+                "isVis": "(event - name == 'covid19_cv3_arm_2' || event - name == 'covid19_cv4_arm_2')",
+                "valueRequired": true,
+                "variableName": "child_avg_elec_time_2_cv"
             },
             {
                 "isAbout": "items/child_screen_instruc_cv",
@@ -394,51 +413,75 @@
             },
             {
                 "isAbout": "items/child_texting_time_cv",
-                "isVis": true,
+                "isVis": "(event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv2_arm_2')",
                 "valueRequired": true,
                 "variableName": "child_texting_time_cv"
             },
             {
                 "isAbout": "items/child_texting_min_cv",
-                "isVis": true,
+                "isVis": "(event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv2_arm_2')",
                 "valueRequired": true,
                 "variableName": "child_texting_min_cv"
             },
             {
+                "isAbout": "items/child_texting_time_2_cv",
+                "isVis": "(event - name == 'covid19_cv3_arm_2' || event - name == 'covid19_cv4_arm_2')",
+                "valueRequired": true,
+                "variableName": "child_texting_time_2_cv"
+            },
+            {
                 "isAbout": "items/child_video_chat_time_cv",
-                "isVis": true,
+                "isVis": "(event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv2_arm_2')",
                 "valueRequired": true,
                 "variableName": "child_video_chat_time_cv"
             },
             {
                 "isAbout": "items/child_video_chat_min_cv",
-                "isVis": true,
+                "isVis": "(event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv2_arm_2')",
                 "valueRequired": true,
                 "variableName": "child_video_chat_min_cv"
             },
             {
+                "isAbout": "items/child_video_chat_time_2_cv",
+                "isVis": "(event - name == 'covid19_cv3_arm_2' || event - name == 'covid19_cv4_arm_2')",
+                "valueRequired": true,
+                "variableName": "child_video_chat_time_2_cv"
+            },
+            {
                 "isAbout": "items/child_social_media_time_cv",
-                "isVis": true,
+                "isVis": "(event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv2_arm_2')",
                 "valueRequired": true,
                 "variableName": "child_social_media_time_cv"
             },
             {
                 "isAbout": "items/child_social_media_min_cv",
-                "isVis": true,
+                "isVis": "(event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv2_arm_2')",
                 "valueRequired": true,
                 "variableName": "child_social_media_min_cv"
             },
             {
+                "isAbout": "items/child_social_media_time_2_cv",
+                "isVis": "(event - name == 'covid19_cv3_arm_2' || event - name == 'covid19_cv4_arm_2')",
+                "valueRequired": true,
+                "variableName": "child_social_media_time_2_cv"
+            },
+            {
                 "isAbout": "items/child_gaming_time_cv",
-                "isVis": true,
+                "isVis": "(event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv2_arm_2')",
                 "valueRequired": true,
                 "variableName": "child_gaming_time_cv"
             },
             {
                 "isAbout": "items/child_gaming_min_cv",
-                "isVis": true,
+                "isVis": "(event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv2_arm_2')",
                 "valueRequired": true,
                 "variableName": "child_gaming_min_cv"
+            },
+            {
+                "isAbout": "items/child_gaming_time_2_cv",
+                "isVis": "(event - name == 'covid19_cv3_arm_2' || event - name == 'covid19_cv4_arm_2')",
+                "valueRequired": true,
+                "variableName": "child_gaming_time_2_cv"
             },
             {
                 "isAbout": "items/child_news_time_cv",
@@ -639,6 +682,12 @@
                 "variableName": "talk_conserve_cv"
             },
             {
+                "isAbout": "items/talk_mask_cv",
+                "isVis": "(event - name == 'covid19_cv3_arm_2' || event - name == 'covid19_cv4_arm_2')",
+                "valueRequired": true,
+                "variableName": "talk_mask_cv"
+            },
+            {
                 "isAbout": "items/assure_child_cv",
                 "isVis": "event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv3_arm_2'",
                 "valueRequired": true,
@@ -761,6 +810,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2598",
+    "version": "revid2599",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

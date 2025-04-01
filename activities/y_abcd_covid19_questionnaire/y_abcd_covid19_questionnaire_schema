@@ -148,10 +148,13 @@
             "items/walk_10_min_per_day_cv",
             "items/walking_hour_per_day_cv",
             "items/walking_min_per_day_cv",
+            "items/walking_hour_per_day_2_cv",
             "items/physical_activities_hr_cv",
             "items/mod_phys_act_hour_cv",
             "items/mod_phys_act_min_cv",
+            "items/mod_phys_act_hour_2_cv",
             "items/sitting_weekday_hour_cv",
+            "items/sitting_weekday_hour_2_cv",
             "items/questionnaire_privacy_cv",
             "items/past_week_cope_cv",
             "items/y_abcd_covid19_questionnaire_complete"
@@ -993,15 +996,21 @@
             },
             {
                 "isAbout": "items/walking_hour_per_day_cv",
-                "isVis": "walk_10_min_per_day_cv == '1' || walk_10_min_per_day_cv == '2' || walk_10_min_per_day_cv == '3' || walk_10_min_per_day_cv == '4' || walk_10_min_per_day_cv == '5' || walk_10_min_per_day_cv == '6' || walk_10_min_per_day_cv == '7'",
+                "isVis": "(walk_10_min_per_day_cv == '1' || walk_10_min_per_day_cv == '2' || walk_10_min_per_day_cv == '3' || walk_10_min_per_day_cv == '4' || walk_10_min_per_day_cv == '5' || walk_10_min_per_day_cv == '6' || walk_10_min_per_day_cv == '7')AND(event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv2_arm_2')",
                 "valueRequired": true,
                 "variableName": "walking_hour_per_day_cv"
             },
             {
                 "isAbout": "items/walking_min_per_day_cv",
-                "isVis": "walk_10_min_per_day_cv == '1' || walk_10_min_per_day_cv == '2' || walk_10_min_per_day_cv == '3' || walk_10_min_per_day_cv == '4' || walk_10_min_per_day_cv == '5' || walk_10_min_per_day_cv == '6' || walk_10_min_per_day_cv == '7'",
+                "isVis": "(walk_10_min_per_day_cv == '1' || walk_10_min_per_day_cv == '2' || walk_10_min_per_day_cv == '3' || walk_10_min_per_day_cv == '4' || walk_10_min_per_day_cv == '5' || walk_10_min_per_day_cv == '6' || walk_10_min_per_day_cv == '7')AND(event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv2_arm_2')",
                 "valueRequired": true,
                 "variableName": "walking_min_per_day_cv"
+            },
+            {
+                "isAbout": "items/walking_hour_per_day_2_cv",
+                "isVis": "(walk_10_min_per_day_cv == '1' || walk_10_min_per_day_cv == '2' || walk_10_min_per_day_cv == '3' || walk_10_min_per_day_cv == '4' || walk_10_min_per_day_cv == '5' || walk_10_min_per_day_cv == '6' || walk_10_min_per_day_cv == '7')AND(event - name == 'covid19_cv3_arm_2' || event - name == 'covid19_cv4_arm_2')",
+                "valueRequired": true,
+                "variableName": "walking_hour_per_day_2_cv"
             },
             {
                 "isAbout": "items/physical_activities_hr_cv",
@@ -1011,21 +1020,33 @@
             },
             {
                 "isAbout": "items/mod_phys_act_hour_cv",
-                "isVis": "physical_activities_hr_cv == '1' || physical_activities_hr_cv == '2' || physical_activities_hr_cv == '3' || physical_activities_hr_cv == '4' || physical_activities_hr_cv == '5' || physical_activities_hr_cv == '6' || physical_activities_hr_cv == '7'",
+                "isVis": "(physical_activities_hr_cv == '1' || physical_activities_hr_cv == '2' || physical_activities_hr_cv == '3' || physical_activities_hr_cv == '4' || physical_activities_hr_cv == '5' || physical_activities_hr_cv == '6' || physical_activities_hr_cv == '7')AND(event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv2_arm_2')",
                 "valueRequired": true,
                 "variableName": "mod_phys_act_hour_cv"
             },
             {
                 "isAbout": "items/mod_phys_act_min_cv",
-                "isVis": "physical_activities_hr_cv == '1' || physical_activities_hr_cv == '2' || physical_activities_hr_cv == '3' || physical_activities_hr_cv == '4' || physical_activities_hr_cv == '5' || physical_activities_hr_cv == '6' || physical_activities_hr_cv == '7'",
+                "isVis": "(physical_activities_hr_cv == '1' || physical_activities_hr_cv == '2' || physical_activities_hr_cv == '3' || physical_activities_hr_cv == '4' || physical_activities_hr_cv == '5' || physical_activities_hr_cv == '6' || physical_activities_hr_cv == '7')AND(event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv2_arm_2')",
                 "valueRequired": true,
                 "variableName": "mod_phys_act_min_cv"
             },
             {
+                "isAbout": "items/mod_phys_act_hour_2_cv",
+                "isVis": "(physical_activities_hr_cv == '1' || physical_activities_hr_cv == '2' || physical_activities_hr_cv == '3' || physical_activities_hr_cv == '4' || physical_activities_hr_cv == '5' || physical_activities_hr_cv == '6' || physical_activities_hr_cv == '7')AND(event - name == 'covid19_cv3_arm_2' || event - name == 'covid19_cv4_arm_2')",
+                "valueRequired": true,
+                "variableName": "mod_phys_act_hour_2_cv"
+            },
+            {
                 "isAbout": "items/sitting_weekday_hour_cv",
-                "isVis": true,
+                "isVis": "(event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv2_arm_2')",
                 "valueRequired": true,
                 "variableName": "sitting_weekday_hour_cv"
+            },
+            {
+                "isAbout": "items/sitting_weekday_hour_2_cv",
+                "isVis": "(event - name == 'covid19_cv3_arm_2' || event - name == 'covid19_cv4_arm_2')",
+                "valueRequired": true,
+                "variableName": "sitting_weekday_hour_2_cv"
             },
             {
                 "isAbout": "items/questionnaire_privacy_cv",
@@ -1048,6 +1069,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2598",
+    "version": "revid2599",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
