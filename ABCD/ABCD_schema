@@ -90,6 +90,7 @@
             "../activities/youth_risk_behavior_physical_activity_payouth/youth_risk_behavior_physical_activity_payouth_schema",
             "../activities/screen_time_styouth/screen_time_styouth_schema",
             "../activities/sports_activities_read_music_youth/sports_activities_read_music_youth_schema",
+            "../activities/y_block_kids_food_screen/y_block_kids_food_screen_schema",
             "../activities/uppsshortphenxyouth/uppsshortphenxyouth_schema",
             "../activities/bisbasphenxyouth/bisbasphenxyouth_schema",
             "../activities/erq_feelings_self/erq_feelings_self_schema",
@@ -107,7 +108,6 @@
             "../activities/neighborhood_safety_crimemodified_phenx_nscyouth/neighborhood_safety_crimemodified_phenx_nscyouth_schema",
             "../activities/y_ecological_interviewbrief/y_ecological_interviewbrief_schema",
             "../activities/peer_behavior_profile/peer_behavior_profile_schema",
-            "../activities/y_block_kids_food_screen/y_block_kids_food_screen_schema",
             "../activities/peer_network_health_protective_scaler/peer_network_health_protective_scaler_schema",
             "../activities/y_resistance_to_peer_influence_scale/y_resistance_to_peer_influence_scale_schema",
             "../activities/pet_ownership/pet_ownership_schema",
@@ -982,6 +982,14 @@
                 "variableName": "sports_activities_read_music_youth_schema"
             },
             {
+                "isAbout": "../activities/y_block_kids_food_screen/y_block_kids_food_screen_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Block Kids Food Screen"
+                },
+                "variableName": "y_block_kids_food_screen_schema"
+            },
+            {
                 "isAbout": "../activities/uppsshortphenxyouth/uppsshortphenxyouth_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -1116,14 +1124,6 @@
                     "en": "Peer Behavior Profile"
                 },
                 "variableName": "peer_behavior_profile_schema"
-            },
-            {
-                "isAbout": "../activities/y_block_kids_food_screen/y_block_kids_food_screen_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Y Block Kids Food Screen"
-                },
-                "variableName": "y_block_kids_food_screen_schema"
             },
             {
                 "isAbout": "../activities/peer_network_health_protective_scaler/peer_network_health_protective_scaler_schema",
@@ -2976,6 +2976,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2664",
+    "version": "revid2666",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
