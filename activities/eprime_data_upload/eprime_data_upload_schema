@@ -28,13 +28,13 @@
             },
             {
                 "isAbout": "items/eprime_up",
-                "isVis": "sched_delay == '7'",
+                "isVis": "sched_delay == '7' OR sched_delay == '9'",
                 "valueRequired": false,
                 "variableName": "eprime_up"
             },
             {
                 "isAbout": "items/eprime_up_notes",
-                "isVis": "sched_delay == '7'",
+                "isVis": "sched_delay == '7' OR sched_delay == '9'",
                 "valueRequired": false,
                 "variableName": "eprime_up_notes"
             },
@@ -47,6 +47,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2559",
+    "version": "revid2560",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

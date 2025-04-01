@@ -13,32 +13,32 @@
             "value": "HIDEFROMCOMPLETION20200708"
         }
     ],
-    "preamble": {
-        "en": "For health safety reasons, and to help prevent the spread of the COVID-19, we are asking a few questions regarding how you, your child, and anyone coming to the appointment, are feeling and any cold or flu-like symptoms you may have."
-    },
     "prefLabel": {
         "en": "close_contact_cv"
     },
     "question": {
-        "en": "In thelast 14 days, has this person been caring for, taken care by, or been in close contact with someone diagnosed with COVID-19 or who is suspected to have COVID-19?"
+        "en": "In thelast 14 days, has this person been caring for, taken care by, or been in close contact with someone diagnosed with COVID-19 or who is suspected to have COVID-19?",
+        "es": "En los\u00c3\u00baltimos 14 d\u00c3\u00adas\u00c2\u00bfEsta persona cuid\u00c3\u00b3 o estuvo en contacto cercano con alguien a quien se le diagnostic\u00c3\u00b3 COVID-19?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Yes"
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "No"
+                    "en": "No",
+                    "es": "No"
                 },
                 "value": 0
             }
         ],
         "valueType": [
-            "xsd:boolean"
+            "xsd:integer"
         ]
     },
     "ui": {
