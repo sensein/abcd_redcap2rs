@@ -1,0 +1,58 @@
+{
+    "id": "enjoy_school_y_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20201006"
+        }
+    ],
+    "prefLabel": {
+        "en": "enjoy_school_y_cv"
+    },
+    "question": {
+        "en": "How much did you enjoy school/school-at-home in the past week:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Very enjoyable"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Quite enjoyable"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Neutral"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Quite unpleasant"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Very unpleasant"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

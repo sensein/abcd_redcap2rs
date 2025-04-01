@@ -7,6 +7,7 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/ears_app_start_time",
             "items/ears_app",
             "items/ears_app_start",
             "items/ears_app_end",
@@ -16,6 +17,12 @@
             "items/ears_intro_setup_complete"
         ],
         "addProperties": [
+            {
+                "isAbout": "items/ears_app_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ears_app_start_time"
+            },
             {
                 "isAbout": "items/ears_app",
                 "isVis": true,
@@ -61,6 +68,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2646",
+    "version": "revid2647",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -7,6 +7,7 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/peerinfluence_start_time",
             "items/peerinfluence_q1",
             "items/peerinfluence_q1a",
             "items/peerinfluence_q1b",
@@ -40,6 +41,12 @@
             "items/y_resistance_to_peer_influence_scale_complete"
         ],
         "addProperties": [
+            {
+                "isAbout": "items/peerinfluence_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "peerinfluence_start_time"
+            },
             {
                 "isAbout": "items/peerinfluence_q1",
                 "isVis": "event - name == '4_year_follow_up_y_arm_1'",
@@ -229,6 +236,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2646",
+    "version": "revid2647",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

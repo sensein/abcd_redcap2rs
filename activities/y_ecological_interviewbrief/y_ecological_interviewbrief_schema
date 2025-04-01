@@ -7,6 +7,7 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/ecological_start_time",
             "items/ecological_fav_table",
             "items/ecological_fav_def",
             "items/ecological_fav_safety",
@@ -19,6 +20,12 @@
             "items/y_ecological_interviewbrief_complete"
         ],
         "addProperties": [
+            {
+                "isAbout": "items/ecological_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ecological_start_time"
+            },
             {
                 "isAbout": "items/ecological_fav_table",
                 "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
@@ -82,6 +89,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2646",
+    "version": "revid2647",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

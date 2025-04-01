@@ -1,15 +1,8 @@
 {
     "id": "create_asgn_act_cv",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Matrix Group Name",
-            "source": "redcap",
-            "value": "school_help_cv"
-        }
-    ],
     "preamble": {
-        "en": "Your progress:6%.How manydays(0-7) did your parent (or other adult taking care of you):"
+        "en": "How many days (0 to 7) did your parents:"
     },
     "prefLabel": {
         "en": "create_asgn_act_cv"
@@ -21,49 +14,49 @@
         "choices": [
             {
                 "name": {
-                    "en": "0"
+                    "en": "0 days"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "1"
+                    "en": "1 day"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "2"
+                    "en": "2 days"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "3"
+                    "en": "3 days"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "4"
+                    "en": "4 days"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "5"
+                    "en": "5 days"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "6"
+                    "en": "6 days"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "7"
+                    "en": "7 days"
                 },
                 "value": 7
             },
@@ -71,7 +64,7 @@
                 "name": {
                     "en": "Don't know"
                 },
-                "value": 8
+                "value": 999
             }
         ],
         "valueType": [
@@ -79,7 +72,7 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "select"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

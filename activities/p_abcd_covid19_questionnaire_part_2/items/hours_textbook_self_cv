@@ -1,0 +1,99 @@
+{
+    "id": "hours_textbook_self_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20201006"
+        }
+    ],
+    "preamble": {
+        "en": "How many hours per day did your child engage in their school's curriculum?",
+        "es": "\u00c2\u00bfCuantas horas al d\u00c3\u00ada participo su hijo/a en el plan de estudios de su escuela?"
+    },
+    "prefLabel": {
+        "en": "hours_textbook_self_cv"
+    },
+    "question": {
+        "en": "Self-study with paper school packet and textbooks",
+        "es": "Autoaprendizaje con paquetes escolares y libros"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "##en##15 minutes##/en####es##15 minutos##/es##>"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "##en##30 minutes##/en####es##30 minutos##/es##>"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "##en##45 minutes##/en####es##45 minutos##/es##>"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "##en##1 hour##/en####es##1 hora##/es##>"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "##en##1.5 hours##/en####es##1.5 hora y media##/es##>"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "##en##2 hours##/en####es##2 horas##/es##>"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "##en##3 hours##/en####es##3 horas##/es##>"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "##en##4 hours##/en####es##4 horas##/es##>"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "##en##>4 hours##/en####es##M\u00c3\u00a1s de 4 horas##/es##>"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "##en##Don't know##/en####es##No se##/es##>"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

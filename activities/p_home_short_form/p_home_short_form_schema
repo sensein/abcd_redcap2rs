@@ -7,6 +7,7 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/home_start_time_p",
             "items/home_puzzles_p",
             "items/home_books_p",
             "items/home_games_p",
@@ -16,6 +17,12 @@
             "items/p_home_short_form_complete"
         ],
         "addProperties": [
+            {
+                "isAbout": "items/home_start_time_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "home_start_time_p"
+            },
             {
                 "isAbout": "items/home_puzzles_p",
                 "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
@@ -61,6 +68,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2646",
+    "version": "revid2647",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

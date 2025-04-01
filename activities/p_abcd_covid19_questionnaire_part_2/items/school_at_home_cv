@@ -1,0 +1,61 @@
+{
+    "id": "school_at_home_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20201006"
+        }
+    ],
+    "preamble": {
+        "en": "Youth's School",
+        "es": "La escuela de su hijo/a"
+    },
+    "prefLabel": {
+        "en": "school_at_home_cv"
+    },
+    "question": {
+        "en": "Is your child currently doing some or all of their school-at-home?",
+        "es": "\u00c2\u00bfSu hijo/a esta actualmente haciendo parte o toda la escuela en casa?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Don't know",
+                    "es": "No se"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Not Applicable (Already homeschooled / Out for summer)",
+                    "es": "No aplica (previamente educado en hogar / Vacaciones de verano)"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

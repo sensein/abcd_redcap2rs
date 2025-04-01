@@ -1,0 +1,55 @@
+{
+    "id": "schooling_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20201006"
+        }
+    ],
+    "preamble": {
+        "en": "Your progress:4%.School Schedule"
+    },
+    "prefLabel": {
+        "en": "schooling_cv"
+    },
+    "question": {
+        "en": "In thepast week, was your schooling taking place:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Online/school-at-home"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "In person"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "In personsomedays and online some other days"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

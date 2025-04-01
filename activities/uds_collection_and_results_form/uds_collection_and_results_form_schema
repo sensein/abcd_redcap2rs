@@ -7,6 +7,7 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/biospec_urine_start_time",
             "items/biospec_urine_collect",
             "items/biospec_urine_toxscrn_reason",
             "items/biospec_urine_toxscrn_date",
@@ -35,6 +36,12 @@
             "items/uds_collection_and_results_form_complete"
         ],
         "addProperties": [
+            {
+                "isAbout": "items/biospec_urine_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "biospec_urine_start_time"
+            },
             {
                 "isAbout": "items/biospec_urine_collect",
                 "isVis": true,
@@ -194,6 +201,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2646",
+    "version": "revid2647",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

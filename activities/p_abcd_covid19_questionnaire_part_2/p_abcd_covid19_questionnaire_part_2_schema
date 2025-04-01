@@ -16,6 +16,7 @@
             "items/caregiver_help_cv",
             "items/child_separate_cv",
             "items/separate_people_cv",
+            "items/school_at_home_cv",
             "items/school_close_cv",
             "items/went_to_school_cv",
             "items/absent_reason_cv",
@@ -26,6 +27,11 @@
             "items/child_care_cv",
             "items/work_ability_cv",
             "items/household_ability_cv",
+            "items/hours_homework_time_cv",
+            "items/hours_online_self_cv",
+            "items/hours_textbook_self_cv",
+            "items/hours_teaching_cv",
+            "items/hours_video_cv",
             "items/homework_time_cv",
             "items/school_engage_cv",
             "items/homework_help_time_cv",
@@ -39,6 +45,7 @@
             "items/iep_cv",
             "items/iep_provide_cv",
             "items/school_prep_cv",
+            "items/school_prep_new_cv",
             "items/child_phys_activity_days_cv",
             "items/child_phys_activity_time_cv",
             "items/child_phys_activity_min_cv",
@@ -178,8 +185,14 @@
                 "variableName": "separate_people_cv"
             },
             {
+                "isAbout": "items/school_at_home_cv",
+                "isVis": "event - name == 'covid19_cv4_arm_2'",
+                "valueRequired": true,
+                "variableName": "school_at_home_cv"
+            },
+            {
                 "isAbout": "items/school_close_cv",
-                "isVis": true,
+                "isVis": "event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv2_arm_2' || event - name == 'covid19_cv3_arm_2'",
                 "valueRequired": true,
                 "variableName": "school_close_cv"
             },
@@ -221,7 +234,7 @@
             },
             {
                 "isAbout": "items/child_care_cv",
-                "isVis": "school_close_cv == '2'",
+                "isVis": "school_close_cv == '2' OR school_at_home_cv == '1'",
                 "valueRequired": true,
                 "variableName": "child_care_cv"
             },
@@ -238,8 +251,38 @@
                 "variableName": "household_ability_cv"
             },
             {
+                "isAbout": "items/hours_homework_time_cv",
+                "isVis": "school_at_home_cv == '1' AND(event - name == 'covid19_cv1_arm_2' OR event - name == 'covid19_cv2_arm_2' OR event - name == 'covid19_cv3_arm_2' OR event - name == 'covid19_cv4_arm_2')",
+                "valueRequired": true,
+                "variableName": "hours_homework_time_cv"
+            },
+            {
+                "isAbout": "items/hours_online_self_cv",
+                "isVis": "hours_homework_time_cv > '0'",
+                "valueRequired": true,
+                "variableName": "hours_online_self_cv"
+            },
+            {
+                "isAbout": "items/hours_textbook_self_cv",
+                "isVis": "hours_homework_time_cv > '0'",
+                "valueRequired": true,
+                "variableName": "hours_textbook_self_cv"
+            },
+            {
+                "isAbout": "items/hours_teaching_cv",
+                "isVis": "hours_homework_time_cv > '0'",
+                "valueRequired": true,
+                "variableName": "hours_teaching_cv"
+            },
+            {
+                "isAbout": "items/hours_video_cv",
+                "isVis": "hours_homework_time_cv > '0'",
+                "valueRequired": true,
+                "variableName": "hours_video_cv"
+            },
+            {
                 "isAbout": "items/homework_time_cv",
-                "isVis": "school_close_cv == '2'",
+                "isVis": "(school_close_cv == '2' OR school_at_home_cv == '1')AND(event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv2_arm_2' || event - name == 'covid19_cv3_arm_2')",
                 "valueRequired": true,
                 "variableName": "homework_time_cv"
             },
@@ -251,13 +294,13 @@
             },
             {
                 "isAbout": "items/homework_help_time_cv",
-                "isVis": "school_close_cv == '2'",
+                "isVis": "school_close_cv == '2' || school_at_home_cv == '1'",
                 "valueRequired": true,
                 "variableName": "homework_help_time_cv"
             },
             {
                 "isAbout": "items/material_access_cv",
-                "isVis": "school_close_cv == '2'",
+                "isVis": "school_close_cv == '2' || school_at_home_cv == '1'",
                 "valueRequired": true,
                 "variableName": "material_access_cv"
             },
@@ -275,19 +318,19 @@
             },
             {
                 "isAbout": "items/school_difficulty",
-                "isVis": "school_close_cv == '2'",
+                "isVis": "school_close_cv == '2' || school_at_home_cv == '1'",
                 "valueRequired": true,
                 "variableName": "school_difficulty"
             },
             {
                 "isAbout": "items/graded_cv",
-                "isVis": "school_close_cv == '2'",
+                "isVis": "school_close_cv == '2' || school_at_home_cv == '1'",
                 "valueRequired": true,
                 "variableName": "graded_cv"
             },
             {
                 "isAbout": "items/extra_material_cv",
-                "isVis": "school_close_cv == '2'",
+                "isVis": "school_close_cv == '2' || school_at_home_cv == '1'",
                 "valueRequired": true,
                 "variableName": "extra_material_cv"
             },
@@ -299,7 +342,7 @@
             },
             {
                 "isAbout": "items/iep_cv",
-                "isVis": "school_close_cv == '2'",
+                "isVis": "school_close_cv == '2' || school_at_home_cv == '1'",
                 "valueRequired": true,
                 "variableName": "iep_cv"
             },
@@ -311,9 +354,15 @@
             },
             {
                 "isAbout": "items/school_prep_cv",
-                "isVis": true,
+                "isVis": "event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv2_arm_2' || event - name == 'covid19_cv3_arm_2'",
                 "valueRequired": true,
                 "variableName": "school_prep_cv"
+            },
+            {
+                "isAbout": "items/school_prep_new_cv",
+                "isVis": "event - name == 'covid19_cv4_arm_2'",
+                "valueRequired": true,
+                "variableName": "school_prep_new_cv"
             },
             {
                 "isAbout": "items/child_phys_activity_days_cv",
@@ -810,6 +859,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2646",
+    "version": "revid2647",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
