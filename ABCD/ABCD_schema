@@ -336,7 +336,9 @@
             "../activities/p_abcd_covid19_questionnaire_part_1/p_abcd_covid19_questionnaire_part_1_schema",
             "../activities/p_abcd_covid19_questionnaire_part_2/p_abcd_covid19_questionnaire_part_2_schema",
             "../activities/acs_post_stratification_weights_daic_use_only/acs_post_stratification_weights_daic_use_only_schema",
-            "../activities/little_man_task_daic_use_only/little_man_task_daic_use_only_schema"
+            "../activities/little_man_task_daic_use_only/little_man_task_daic_use_only_schema",
+            "../activities/y_millisecond_bird_sum_scores/y_millisecond_bird_sum_scores_schema",
+            "../activities/y_block_kids_food_screen/y_block_kids_food_screen_schema"
         ],
         "addProperties": [
             {
@@ -2954,10 +2956,26 @@
                     "en": "Little Man Task Daic Use Only"
                 },
                 "variableName": "little_man_task_daic_use_only_schema"
+            },
+            {
+                "isAbout": "../activities/y_millisecond_bird_sum_scores/y_millisecond_bird_sum_scores_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Millisecond Bird Sum Scores"
+                },
+                "variableName": "y_millisecond_bird_sum_scores_schema"
+            },
+            {
+                "isAbout": "../activities/y_block_kids_food_screen/y_block_kids_food_screen_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Block Kids Food Screen"
+                },
+                "variableName": "y_block_kids_food_screen_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2662",
+    "version": "revid2663",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

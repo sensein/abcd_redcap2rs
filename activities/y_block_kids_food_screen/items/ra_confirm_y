@@ -1,0 +1,49 @@
+{
+    "id": "ra_confirm_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN-SURVEY HIDEFROMCOMPLETION20201115"
+        }
+    ],
+    "preamble": {
+        "en": "HOW MANY DAYS LAST WEEK DID YOU EAT OR DRINK IT?"
+    },
+    "prefLabel": {
+        "en": "ra_confirm_y"
+    },
+    "question": {
+        "en": "RA: Has child's input been incorporated?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

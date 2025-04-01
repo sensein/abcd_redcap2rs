@@ -1,0 +1,49 @@
+{
+    "id": "bkfs_pork_1_day_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20201115"
+        }
+    ],
+    "preamble": {
+        "en": "HOW MANY DAYS LAST WEEK DID YOU EAT OR DRINK IT?"
+    },
+    "prefLabel": {
+        "en": "bkfs_pork_1_day_y"
+    },
+    "question": {
+        "en": "HOW MUCH IN ONE DAY?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "A little"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Some"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A lot"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

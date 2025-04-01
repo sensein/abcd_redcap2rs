@@ -1,0 +1,79 @@
+{
+    "id": "bkfs_milk_kind_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20201115"
+        }
+    ],
+    "preamble": {
+        "en": "HOW MANY DAYS LAST WEEK DID YOU EAT OR DRINK IT?"
+    },
+    "prefLabel": {
+        "en": "bkfs_milk_kind_y"
+    },
+    "question": {
+        "en": "What kind of milk did you drink?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Whole Milk"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Reduced fat 2% milk"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Low fat 1% milk"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Nonfat milk"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Chocolate milk"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Soy milk"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Lactaid milk"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

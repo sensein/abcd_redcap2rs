@@ -1,0 +1,73 @@
+{
+    "id": "bkfs_burgers_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20201115"
+        }
+    ],
+    "preamble": {
+        "en": "HOW MANY DAYS LAST WEEK DID YOU EAT OR DRINK IT?"
+    },
+    "prefLabel": {
+        "en": "bkfs_burgers_y"
+    },
+    "question": {
+        "en": "Hamburgers, cheeseburgers"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "None last week"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1 day last week"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2 days last week"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3-4 days last week"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "5-6 days last week"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Every day last week"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

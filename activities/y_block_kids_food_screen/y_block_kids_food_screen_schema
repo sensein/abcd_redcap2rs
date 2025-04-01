@@ -1,0 +1,605 @@
+{
+    "id": "y_block_kids_food_screen_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "y_block_kids_food_screen"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/bkfs_start_time_y",
+            "items/bkfs_nutrition_intro_y",
+            "items/bkfs_cereal_y",
+            "items/bkfs_cereal_1_day_y",
+            "items/bkfs_cereal_kind_y",
+            "items/bkfs_cooked_cereal_y",
+            "items/bkfs_cooked_cereal_1_day_y",
+            "items/bkfs_eggs_y",
+            "items/bkfs_eggs_1_day_y",
+            "items/bkfs_bars_y",
+            "items/bkfs_bars_1_day_y",
+            "items/bkfs_milk_y",
+            "items/bkfs_milk_1_day_y",
+            "items/bkfs_milk_kind_y",
+            "items/bkfs_juice_y",
+            "items/bkfs_juice_1_day_y",
+            "items/bkfs_soda_y",
+            "items/bkfs_soda_1_day_y",
+            "items/bkfs_apples_y",
+            "items/bkfs_apples_1_day_y",
+            "items/bkfs_applesauce_y",
+            "items/bkfs_applesauce_1_day_y",
+            "items/bkfs_other_fruit_y",
+            "items/bkfs_other_fruit_1_day_y",
+            "items/bkfs_fries_y",
+            "items/bkfs_fries_1_day_y",
+            "items/bkfs_potatoes_y",
+            "items/bkfs_potatoes_1_day_y",
+            "items/bkfs_ketchup_y",
+            "items/bkfs_ketchup_1_day_y",
+            "items/bkfs_salad_y",
+            "items/bkfs_salad_1_day_y",
+            "items/bkfs_tomatoes_y",
+            "items/bkfs_tomatoes_1_day_y",
+            "items/bkfs_green_beans_y",
+            "items/bkfs_green_beans_1_day_y",
+            "items/bkfs_vegetables_y",
+            "items/bkfs_vegetables_1_day_y",
+            "items/bkfs_soup_y",
+            "items/bkfs_soup_1_day_y",
+            "items/bkfs_beans_y",
+            "items/bkfs_beans_1_day_y",
+            "items/bkfs_refried_beans_y",
+            "items/bkfs_refried_beans_1_day_y",
+            "items/bkfs_burgers_y",
+            "items/bkfs_burgers_1_day_y",
+            "items/bkfs_hotdogs_y",
+            "items/bkfs_hotdogs_1_day_y",
+            "items/bkfs_lunch_meat_y",
+            "items/bkfs_lunch_meat_1_day_y",
+            "items/bkfs_pizza_y",
+            "items/bkfs_pizza_1_day_y",
+            "items/bkfs_spaghetti_y",
+            "items/bkfs_spaghetti_1_day_y",
+            "items/bkfs_mac_and_cheese_y",
+            "items/bkfs_mac_and_cheese_1_day_y",
+            "items/bkfs_chicken_y",
+            "items/bkfs_chicken_1_day_y",
+            "items/bkfs_fish_y",
+            "items/bkfs_fish_1_day_y",
+            "items/bkfs_burritos_y",
+            "items/bkfs_burritos_1_day_y",
+            "items/bkfs_beef_y",
+            "items/bkfs_beef_1_day_y",
+            "items/bkfs_meat_y",
+            "items/bkfs_meat_1_day_y",
+            "items/bkfs_pork_y",
+            "items/bkfs_pork_1_day_y",
+            "items/bkfs_popcorn_y",
+            "items/bkfs_popcorn_1_day_y",
+            "items/bkfs_chips_y",
+            "items/bkfs_chips_1_day_y",
+            "items/bkfs_icecream_y",
+            "items/bkfs_icecream_1_day_y",
+            "items/bkfs_candy_y",
+            "items/bkfs_candy_1_day_y",
+            "items/bkfs_cookies_y",
+            "items/bkfs_cookies_1_day_y",
+            "items/bkfs_cheese_y",
+            "items/bkfs_cheese_1_day_y",
+            "items/bkfs_bread_y",
+            "items/bkfs_bread_1_day_y",
+            "items/ra_confirm_y",
+            "items/y_block_kids_food_screen_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/bkfs_start_time_y",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_start_time_y"
+            },
+            {
+                "isAbout": "items/bkfs_nutrition_intro_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "bkfs_nutrition_intro_y"
+            },
+            {
+                "isAbout": "items/bkfs_cereal_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bkfs_cereal_y"
+            },
+            {
+                "isAbout": "items/bkfs_cereal_1_day_y",
+                "isVis": "bkfs_cereal_y == '1' || bkfs_cereal_y == '2' || bkfs_cereal_y == '3' || bkfs_cereal_y == '4' || bkfs_cereal_y == '5'",
+                "valueRequired": false,
+                "variableName": "bkfs_cereal_1_day_y"
+            },
+            {
+                "isAbout": "items/bkfs_cereal_kind_y",
+                "isVis": "bkfs_cereal_y == '1' || bkfs_cereal_y == '2' || bkfs_cereal_y == '3' || bkfs_cereal_y == '4' || bkfs_cereal_y == '5'",
+                "valueRequired": true,
+                "variableName": "bkfs_cereal_kind_y"
+            },
+            {
+                "isAbout": "items/bkfs_cooked_cereal_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bkfs_cooked_cereal_y"
+            },
+            {
+                "isAbout": "items/bkfs_cooked_cereal_1_day_y",
+                "isVis": "bkfs_cooked_cereal_y == '1' || bkfs_cooked_cereal_y == '2' || bkfs_cooked_cereal_y == '3' || bkfs_cooked_cereal_y == '4' || bkfs_cooked_cereal_y == '5'",
+                "valueRequired": false,
+                "variableName": "bkfs_cooked_cereal_1_day_y"
+            },
+            {
+                "isAbout": "items/bkfs_eggs_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bkfs_eggs_y"
+            },
+            {
+                "isAbout": "items/bkfs_eggs_1_day_y",
+                "isVis": "bkfs_eggs_y == '1' || bkfs_eggs_y == '2' || bkfs_eggs_y == '3' || bkfs_eggs_y == '4' || bkfs_eggs_y == '5'",
+                "valueRequired": false,
+                "variableName": "bkfs_eggs_1_day_y"
+            },
+            {
+                "isAbout": "items/bkfs_bars_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bkfs_bars_y"
+            },
+            {
+                "isAbout": "items/bkfs_bars_1_day_y",
+                "isVis": "bkfs_bars_y == '1' || bkfs_bars_y == '2' || bkfs_bars_y == '3' || bkfs_bars_y == '4' || bkfs_bars_y == '5'",
+                "valueRequired": false,
+                "variableName": "bkfs_bars_1_day_y"
+            },
+            {
+                "isAbout": "items/bkfs_milk_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bkfs_milk_y"
+            },
+            {
+                "isAbout": "items/bkfs_milk_1_day_y",
+                "isVis": "bkfs_milk_y == '1' || bkfs_milk_y == '2' || bkfs_milk_y == '3' || bkfs_milk_y == '4' || bkfs_milk_y == '5'",
+                "valueRequired": false,
+                "variableName": "bkfs_milk_1_day_y"
+            },
+            {
+                "isAbout": "items/bkfs_milk_kind_y",
+                "isVis": "bkfs_milk_y == '1' || bkfs_milk_y == '2' || bkfs_milk_y == '3' || bkfs_milk_y == '4' || bkfs_milk_y == '5'",
+                "valueRequired": true,
+                "variableName": "bkfs_milk_kind_y"
+            },
+            {
+                "isAbout": "items/bkfs_juice_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bkfs_juice_y"
+            },
+            {
+                "isAbout": "items/bkfs_juice_1_day_y",
+                "isVis": "bkfs_juice_y == '1' || bkfs_juice_y == '2' || bkfs_juice_y == '3' || bkfs_juice_y == '4' || bkfs_juice_y == '5'",
+                "valueRequired": false,
+                "variableName": "bkfs_juice_1_day_y"
+            },
+            {
+                "isAbout": "items/bkfs_soda_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bkfs_soda_y"
+            },
+            {
+                "isAbout": "items/bkfs_soda_1_day_y",
+                "isVis": "bkfs_soda_y == '1' || bkfs_soda_y == '2' || bkfs_soda_y == '3' || bkfs_soda_y == '4' || bkfs_soda_y == '5'",
+                "valueRequired": false,
+                "variableName": "bkfs_soda_1_day_y"
+            },
+            {
+                "isAbout": "items/bkfs_apples_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bkfs_apples_y"
+            },
+            {
+                "isAbout": "items/bkfs_apples_1_day_y",
+                "isVis": "bkfs_apples_y == '1' || bkfs_apples_y == '2' || bkfs_apples_y == '3' || bkfs_apples_y == '4' || bkfs_apples_y == '5'",
+                "valueRequired": false,
+                "variableName": "bkfs_apples_1_day_y"
+            },
+            {
+                "isAbout": "items/bkfs_applesauce_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bkfs_applesauce_y"
+            },
+            {
+                "isAbout": "items/bkfs_applesauce_1_day_y",
+                "isVis": "bkfs_applesauce_y == '1' || bkfs_applesauce_y == '2' || bkfs_applesauce_y == '3' || bkfs_applesauce_y == '4' || bkfs_applesauce_y == '5'",
+                "valueRequired": false,
+                "variableName": "bkfs_applesauce_1_day_y"
+            },
+            {
+                "isAbout": "items/bkfs_other_fruit_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bkfs_other_fruit_y"
+            },
+            {
+                "isAbout": "items/bkfs_other_fruit_1_day_y",
+                "isVis": "bkfs_other_fruit_y == '1' || bkfs_other_fruit_y == '2' || bkfs_other_fruit_y == '3' || bkfs_other_fruit_y == '4' || bkfs_other_fruit_y == '5'",
+                "valueRequired": false,
+                "variableName": "bkfs_other_fruit_1_day_y"
+            },
+            {
+                "isAbout": "items/bkfs_fries_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bkfs_fries_y"
+            },
+            {
+                "isAbout": "items/bkfs_fries_1_day_y",
+                "isVis": "bkfs_fries_y == '1' || bkfs_fries_y == '2' || bkfs_fries_y == '3' || bkfs_fries_y == '4' || bkfs_fries_y == '5'",
+                "valueRequired": false,
+                "variableName": "bkfs_fries_1_day_y"
+            },
+            {
+                "isAbout": "items/bkfs_potatoes_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bkfs_potatoes_y"
+            },
+            {
+                "isAbout": "items/bkfs_potatoes_1_day_y",
+                "isVis": "bkfs_potatoes_y == '1' || bkfs_potatoes_y == '2' || bkfs_potatoes_y == '3' || bkfs_potatoes_y == '4' || bkfs_potatoes_y == '5'",
+                "valueRequired": false,
+                "variableName": "bkfs_potatoes_1_day_y"
+            },
+            {
+                "isAbout": "items/bkfs_ketchup_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bkfs_ketchup_y"
+            },
+            {
+                "isAbout": "items/bkfs_ketchup_1_day_y",
+                "isVis": "bkfs_ketchup_y == '1' || bkfs_ketchup_y == '2' || bkfs_ketchup_y == '3' || bkfs_ketchup_y == '4' || bkfs_ketchup_y == '5'",
+                "valueRequired": false,
+                "variableName": "bkfs_ketchup_1_day_y"
+            },
+            {
+                "isAbout": "items/bkfs_salad_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bkfs_salad_y"
+            },
+            {
+                "isAbout": "items/bkfs_salad_1_day_y",
+                "isVis": "bkfs_salad_y == '1' || bkfs_salad_y == '2' || bkfs_salad_y == '3' || bkfs_salad_y == '4' || bkfs_salad_y == '5'",
+                "valueRequired": false,
+                "variableName": "bkfs_salad_1_day_y"
+            },
+            {
+                "isAbout": "items/bkfs_tomatoes_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bkfs_tomatoes_y"
+            },
+            {
+                "isAbout": "items/bkfs_tomatoes_1_day_y",
+                "isVis": "bkfs_tomatoes_y == '1' || bkfs_tomatoes_y == '2' || bkfs_tomatoes_y == '3' || bkfs_tomatoes_y == '4' || bkfs_tomatoes_y == '5'",
+                "valueRequired": false,
+                "variableName": "bkfs_tomatoes_1_day_y"
+            },
+            {
+                "isAbout": "items/bkfs_green_beans_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bkfs_green_beans_y"
+            },
+            {
+                "isAbout": "items/bkfs_green_beans_1_day_y",
+                "isVis": "bkfs_green_beans_y == '1' || bkfs_green_beans_y == '2' || bkfs_green_beans_y == '3' || bkfs_green_beans_y == '4' || bkfs_green_beans_y == '5'",
+                "valueRequired": false,
+                "variableName": "bkfs_green_beans_1_day_y"
+            },
+            {
+                "isAbout": "items/bkfs_vegetables_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bkfs_vegetables_y"
+            },
+            {
+                "isAbout": "items/bkfs_vegetables_1_day_y",
+                "isVis": "bkfs_vegetables_y == '1' || bkfs_vegetables_y == '2' || bkfs_vegetables_y == '3' || bkfs_vegetables_y == '4' || bkfs_vegetables_y == '5'",
+                "valueRequired": false,
+                "variableName": "bkfs_vegetables_1_day_y"
+            },
+            {
+                "isAbout": "items/bkfs_soup_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bkfs_soup_y"
+            },
+            {
+                "isAbout": "items/bkfs_soup_1_day_y",
+                "isVis": "bkfs_soup_y == '1' || bkfs_soup_y == '2' || bkfs_soup_y == '3' || bkfs_soup_y == '4' || bkfs_soup_y == '5'",
+                "valueRequired": false,
+                "variableName": "bkfs_soup_1_day_y"
+            },
+            {
+                "isAbout": "items/bkfs_beans_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bkfs_beans_y"
+            },
+            {
+                "isAbout": "items/bkfs_beans_1_day_y",
+                "isVis": "bkfs_beans_y == '1' || bkfs_beans_y == '2' || bkfs_beans_y == '3' || bkfs_beans_y == '4' || bkfs_beans_y == '5'",
+                "valueRequired": false,
+                "variableName": "bkfs_beans_1_day_y"
+            },
+            {
+                "isAbout": "items/bkfs_refried_beans_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bkfs_refried_beans_y"
+            },
+            {
+                "isAbout": "items/bkfs_refried_beans_1_day_y",
+                "isVis": "bkfs_refried_beans_y == '1' || bkfs_refried_beans_y == '2' || bkfs_refried_beans_y == '3' || bkfs_refried_beans_y == '4' || bkfs_refried_beans_y == '5'",
+                "valueRequired": false,
+                "variableName": "bkfs_refried_beans_1_day_y"
+            },
+            {
+                "isAbout": "items/bkfs_burgers_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bkfs_burgers_y"
+            },
+            {
+                "isAbout": "items/bkfs_burgers_1_day_y",
+                "isVis": "bkfs_burgers_y == '1' || bkfs_burgers_y == '2' || bkfs_burgers_y == '3' || bkfs_burgers_y == '4' || bkfs_burgers_y == '5'",
+                "valueRequired": false,
+                "variableName": "bkfs_burgers_1_day_y"
+            },
+            {
+                "isAbout": "items/bkfs_hotdogs_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bkfs_hotdogs_y"
+            },
+            {
+                "isAbout": "items/bkfs_hotdogs_1_day_y",
+                "isVis": "bkfs_hotdogs_y == '1' || bkfs_hotdogs_y == '2' || bkfs_hotdogs_y == '3' || bkfs_hotdogs_y == '4' || bkfs_hotdogs_y == '5'",
+                "valueRequired": false,
+                "variableName": "bkfs_hotdogs_1_day_y"
+            },
+            {
+                "isAbout": "items/bkfs_lunch_meat_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bkfs_lunch_meat_y"
+            },
+            {
+                "isAbout": "items/bkfs_lunch_meat_1_day_y",
+                "isVis": "bkfs_lunch_meat_y == '1' || bkfs_lunch_meat_y == '2' || bkfs_lunch_meat_y == '3' || bkfs_lunch_meat_y == '4' || bkfs_lunch_meat_y == '5'",
+                "valueRequired": false,
+                "variableName": "bkfs_lunch_meat_1_day_y"
+            },
+            {
+                "isAbout": "items/bkfs_pizza_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bkfs_pizza_y"
+            },
+            {
+                "isAbout": "items/bkfs_pizza_1_day_y",
+                "isVis": "bkfs_pizza_y == '1' || bkfs_pizza_y == '2' || bkfs_pizza_y == '3' || bkfs_pizza_y == '4' || bkfs_pizza_y == '5'",
+                "valueRequired": false,
+                "variableName": "bkfs_pizza_1_day_y"
+            },
+            {
+                "isAbout": "items/bkfs_spaghetti_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bkfs_spaghetti_y"
+            },
+            {
+                "isAbout": "items/bkfs_spaghetti_1_day_y",
+                "isVis": "bkfs_spaghetti_y == '1' || bkfs_spaghetti_y == '2' || bkfs_spaghetti_y == '3' || bkfs_spaghetti_y == '4' || bkfs_spaghetti_y == '5'",
+                "valueRequired": false,
+                "variableName": "bkfs_spaghetti_1_day_y"
+            },
+            {
+                "isAbout": "items/bkfs_mac_and_cheese_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bkfs_mac_and_cheese_y"
+            },
+            {
+                "isAbout": "items/bkfs_mac_and_cheese_1_day_y",
+                "isVis": "bkfs_mac_and_cheese_y == '1' || bkfs_mac_and_cheese_y == '2' || bkfs_mac_and_cheese_y == '3' || bkfs_mac_and_cheese_y == '4' || bkfs_mac_and_cheese_y == '5'",
+                "valueRequired": false,
+                "variableName": "bkfs_mac_and_cheese_1_day_y"
+            },
+            {
+                "isAbout": "items/bkfs_chicken_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bkfs_chicken_y"
+            },
+            {
+                "isAbout": "items/bkfs_chicken_1_day_y",
+                "isVis": "bkfs_chicken_y == '1' || bkfs_chicken_y == '2' || bkfs_chicken_y == '3' || bkfs_chicken_y == '4' || bkfs_chicken_y == '5'",
+                "valueRequired": false,
+                "variableName": "bkfs_chicken_1_day_y"
+            },
+            {
+                "isAbout": "items/bkfs_fish_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bkfs_fish_y"
+            },
+            {
+                "isAbout": "items/bkfs_fish_1_day_y",
+                "isVis": "bkfs_fish_y == '1' || bkfs_fish_y == '2' || bkfs_fish_y == '3' || bkfs_fish_y == '4' || bkfs_fish_y == '5'",
+                "valueRequired": false,
+                "variableName": "bkfs_fish_1_day_y"
+            },
+            {
+                "isAbout": "items/bkfs_burritos_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bkfs_burritos_y"
+            },
+            {
+                "isAbout": "items/bkfs_burritos_1_day_y",
+                "isVis": "bkfs_burritos_y == '1' || bkfs_burritos_y == '2' || bkfs_burritos_y == '3' || bkfs_burritos_y == '4' || bkfs_burritos_y == '5'",
+                "valueRequired": false,
+                "variableName": "bkfs_burritos_1_day_y"
+            },
+            {
+                "isAbout": "items/bkfs_beef_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bkfs_beef_y"
+            },
+            {
+                "isAbout": "items/bkfs_beef_1_day_y",
+                "isVis": "bkfs_beef_y == '1' || bkfs_beef_y == '2' || bkfs_beef_y == '3' || bkfs_beef_y == '4' || bkfs_beef_y == '5'",
+                "valueRequired": false,
+                "variableName": "bkfs_beef_1_day_y"
+            },
+            {
+                "isAbout": "items/bkfs_meat_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bkfs_meat_y"
+            },
+            {
+                "isAbout": "items/bkfs_meat_1_day_y",
+                "isVis": "bkfs_meat_y == '1' || bkfs_meat_y == '2' || bkfs_meat_y == '3' || bkfs_meat_y == '4' || bkfs_meat_y == '5'",
+                "valueRequired": false,
+                "variableName": "bkfs_meat_1_day_y"
+            },
+            {
+                "isAbout": "items/bkfs_pork_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bkfs_pork_y"
+            },
+            {
+                "isAbout": "items/bkfs_pork_1_day_y",
+                "isVis": "bkfs_pork_y == '1' || bkfs_pork_y == '2' || bkfs_pork_y == '3' || bkfs_pork_y == '4' || bkfs_pork_y == '5'",
+                "valueRequired": false,
+                "variableName": "bkfs_pork_1_day_y"
+            },
+            {
+                "isAbout": "items/bkfs_popcorn_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bkfs_popcorn_y"
+            },
+            {
+                "isAbout": "items/bkfs_popcorn_1_day_y",
+                "isVis": "bkfs_popcorn_y == '1' || bkfs_popcorn_y == '2' || bkfs_popcorn_y == '3' || bkfs_popcorn_y == '4' || bkfs_popcorn_y == '5'",
+                "valueRequired": false,
+                "variableName": "bkfs_popcorn_1_day_y"
+            },
+            {
+                "isAbout": "items/bkfs_chips_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bkfs_chips_y"
+            },
+            {
+                "isAbout": "items/bkfs_chips_1_day_y",
+                "isVis": "bkfs_chips_y == '1' || bkfs_chips_y == '2' || bkfs_chips_y == '3' || bkfs_chips_y == '4' || bkfs_chips_y == '5'",
+                "valueRequired": false,
+                "variableName": "bkfs_chips_1_day_y"
+            },
+            {
+                "isAbout": "items/bkfs_icecream_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bkfs_icecream_y"
+            },
+            {
+                "isAbout": "items/bkfs_icecream_1_day_y",
+                "isVis": "bkfs_icecream_y == '1' || bkfs_icecream_y == '2' || bkfs_icecream_y == '3' || bkfs_icecream_y == '4' || bkfs_icecream_y == '5'",
+                "valueRequired": false,
+                "variableName": "bkfs_icecream_1_day_y"
+            },
+            {
+                "isAbout": "items/bkfs_candy_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bkfs_candy_y"
+            },
+            {
+                "isAbout": "items/bkfs_candy_1_day_y",
+                "isVis": "bkfs_candy_y == '1' || bkfs_candy_y == '2' || bkfs_candy_y == '3' || bkfs_candy_y == '4' || bkfs_candy_y == '5'",
+                "valueRequired": false,
+                "variableName": "bkfs_candy_1_day_y"
+            },
+            {
+                "isAbout": "items/bkfs_cookies_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bkfs_cookies_y"
+            },
+            {
+                "isAbout": "items/bkfs_cookies_1_day_y",
+                "isVis": "bkfs_cookies_y == '1' || bkfs_cookies_y == '2' || bkfs_cookies_y == '3' || bkfs_cookies_y == '4' || bkfs_cookies_y == '5'",
+                "valueRequired": false,
+                "variableName": "bkfs_cookies_1_day_y"
+            },
+            {
+                "isAbout": "items/bkfs_cheese_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bkfs_cheese_y"
+            },
+            {
+                "isAbout": "items/bkfs_cheese_1_day_y",
+                "isVis": "bkfs_cheese_y == '1' || bkfs_cheese_y == '2' || bkfs_cheese_y == '3' || bkfs_cheese_y == '4' || bkfs_cheese_y == '5'",
+                "valueRequired": false,
+                "variableName": "bkfs_cheese_1_day_y"
+            },
+            {
+                "isAbout": "items/bkfs_bread_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "bkfs_bread_y"
+            },
+            {
+                "isAbout": "items/bkfs_bread_1_day_y",
+                "isVis": "bkfs_bread_y == '1' || bkfs_bread_y == '2' || bkfs_bread_y == '3' || bkfs_bread_y == '4' || bkfs_bread_y == '5'",
+                "valueRequired": false,
+                "variableName": "bkfs_bread_1_day_y"
+            },
+            {
+                "isAbout": "items/ra_confirm_y",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "ra_confirm_y"
+            },
+            {
+                "isAbout": "items/y_block_kids_food_screen_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "y_block_kids_food_screen_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2663",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

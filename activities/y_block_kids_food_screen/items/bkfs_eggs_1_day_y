@@ -1,0 +1,49 @@
+{
+    "id": "bkfs_eggs_1_day_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20201115"
+        }
+    ],
+    "preamble": {
+        "en": "HOW MANY DAYS LAST WEEK DID YOU EAT OR DRINK IT?"
+    },
+    "prefLabel": {
+        "en": "bkfs_eggs_1_day_y"
+    },
+    "question": {
+        "en": "HOW MUCH IN ONE DAY?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "1 Egg"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2 Eggs"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3 Eggs"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

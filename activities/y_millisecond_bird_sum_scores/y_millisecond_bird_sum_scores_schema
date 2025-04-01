@@ -1,0 +1,262 @@
+{
+    "id": "y_millisecond_bird_sum_scores_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "y_millisecond_bird_sum_scores"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/bird_script_lastupdate",
+            "items/bird_scr_inquisit_build",
+            "items/bird_scr_computer_platform",
+            "items/bird_scr_computer_os",
+            "items/bird_scr_computer_osmajorversion",
+            "items/bird_scr_computer_osminorversion",
+            "items/bird_scr_screenwidth_inmm",
+            "items/bird_scr_screenheight_inmm",
+            "items/bird_scr_test_setting",
+            "items/bird_scr_script_startdate",
+            "items/bird_scr_script_starttime",
+            "items/bird_scr_subjectid",
+            "items/bird_scr_groupid",
+            "items/bird_scr_sessionid",
+            "items/bird_scr_script_elaptime",
+            "items/bird_scr_values_completed",
+            "items/bird_scr_score",
+            "items/bird_scr_meandotlatency",
+            "items/bird_scr_challenge_latency",
+            "items/bird_scr_quit",
+            "items/bird_scr_lvl3_duration",
+            "items/bird_scr_lvl1_correct",
+            "items/bird_scr_lvl2_a_correct",
+            "items/bird_scr_lvl2_b_correct",
+            "items/bird_scr_lvl2_correct",
+            "items/birc_src_lvl3_correct",
+            "items/bird_scr_pre_anxiety",
+            "items/bird_scr_pre_frustration",
+            "items/bird_scr_pre_irritability",
+            "items/bird_scr_pre_happiness",
+            "items/bird_scr_post_anxiety",
+            "items/bird_scr_post_frustration",
+            "items/bird_scr_post_irritability",
+            "items/bird_scr_post_happiness",
+            "items/y_millisecond_bird_sum_scores_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/bird_script_lastupdate",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "bird_script_lastupdate"
+            },
+            {
+                "isAbout": "items/bird_scr_inquisit_build",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "bird_scr_inquisit_build"
+            },
+            {
+                "isAbout": "items/bird_scr_computer_platform",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "bird_scr_computer_platform"
+            },
+            {
+                "isAbout": "items/bird_scr_computer_os",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "bird_scr_computer_os"
+            },
+            {
+                "isAbout": "items/bird_scr_computer_osmajorversion",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "bird_scr_computer_osmajorversion"
+            },
+            {
+                "isAbout": "items/bird_scr_computer_osminorversion",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "bird_scr_computer_osminorversion"
+            },
+            {
+                "isAbout": "items/bird_scr_screenwidth_inmm",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "bird_scr_screenwidth_inmm"
+            },
+            {
+                "isAbout": "items/bird_scr_screenheight_inmm",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "bird_scr_screenheight_inmm"
+            },
+            {
+                "isAbout": "items/bird_scr_test_setting",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "bird_scr_test_setting"
+            },
+            {
+                "isAbout": "items/bird_scr_script_startdate",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "bird_scr_script_startdate"
+            },
+            {
+                "isAbout": "items/bird_scr_script_starttime",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "bird_scr_script_starttime"
+            },
+            {
+                "isAbout": "items/bird_scr_subjectid",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "bird_scr_subjectid"
+            },
+            {
+                "isAbout": "items/bird_scr_groupid",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "bird_scr_groupid"
+            },
+            {
+                "isAbout": "items/bird_scr_sessionid",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "bird_scr_sessionid"
+            },
+            {
+                "isAbout": "items/bird_scr_script_elaptime",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "bird_scr_script_elaptime"
+            },
+            {
+                "isAbout": "items/bird_scr_values_completed",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "bird_scr_values_completed"
+            },
+            {
+                "isAbout": "items/bird_scr_score",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "bird_scr_score"
+            },
+            {
+                "isAbout": "items/bird_scr_meandotlatency",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "bird_scr_meandotlatency"
+            },
+            {
+                "isAbout": "items/bird_scr_challenge_latency",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "bird_scr_challenge_latency"
+            },
+            {
+                "isAbout": "items/bird_scr_quit",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "bird_scr_quit"
+            },
+            {
+                "isAbout": "items/bird_scr_lvl3_duration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "bird_scr_lvl3_duration"
+            },
+            {
+                "isAbout": "items/bird_scr_lvl1_correct",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "bird_scr_lvl1_correct"
+            },
+            {
+                "isAbout": "items/bird_scr_lvl2_a_correct",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "bird_scr_lvl2_a_correct"
+            },
+            {
+                "isAbout": "items/bird_scr_lvl2_b_correct",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "bird_scr_lvl2_b_correct"
+            },
+            {
+                "isAbout": "items/bird_scr_lvl2_correct",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "bird_scr_lvl2_correct"
+            },
+            {
+                "isAbout": "items/birc_src_lvl3_correct",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "birc_src_lvl3_correct"
+            },
+            {
+                "isAbout": "items/bird_scr_pre_anxiety",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "bird_scr_pre_anxiety"
+            },
+            {
+                "isAbout": "items/bird_scr_pre_frustration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "bird_scr_pre_frustration"
+            },
+            {
+                "isAbout": "items/bird_scr_pre_irritability",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "bird_scr_pre_irritability"
+            },
+            {
+                "isAbout": "items/bird_scr_pre_happiness",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "bird_scr_pre_happiness"
+            },
+            {
+                "isAbout": "items/bird_scr_post_anxiety",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "bird_scr_post_anxiety"
+            },
+            {
+                "isAbout": "items/bird_scr_post_frustration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "bird_scr_post_frustration"
+            },
+            {
+                "isAbout": "items/bird_scr_post_irritability",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "bird_scr_post_irritability"
+            },
+            {
+                "isAbout": "items/bird_scr_post_happiness",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "bird_scr_post_happiness"
+            },
+            {
+                "isAbout": "items/y_millisecond_bird_sum_scores_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "y_millisecond_bird_sum_scores_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2663",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

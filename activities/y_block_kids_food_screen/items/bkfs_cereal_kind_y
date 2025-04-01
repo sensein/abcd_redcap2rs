@@ -1,0 +1,60 @@
+{
+    "id": "bkfs_cereal_kind_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "LV"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20201113"
+        }
+    ],
+    "preamble": {
+        "en": "HOW MANY DAYS LAST WEEK DID YOU EAT OR DRINK IT?"
+    },
+    "prefLabel": {
+        "en": "bkfs_cereal_kind_y"
+    },
+    "question": {
+        "en": "What kind of cereal did you eat? (Select one)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Plain Cheerios, Grape Nuts, Shredded Wheat, Wheaties, Wheat Chex, Kix"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Honey Nut Cheerios, Cap'n Crunch, Lucky Charms, Life, Golden Grahams, Frosted Mini Wheats, Raisin Bran"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Other sweet cereals, like Frosted Flakes, Froot Loops"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Any other cereal, like Corn Flakes, Rice Krispies"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
