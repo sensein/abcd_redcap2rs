@@ -369,8 +369,8 @@
             "items/lmt_button_pressed_29",
             "items/lmt_trial_type_29",
             "items/lmt_trial_index_29",
-            "items/lmt_time_elapsed_29",
             "items/lmt_internal_node_id_29",
+            "items/lmt_time_elapsed_29",
             "items/lmt_is_data_element_29",
             "items/lmt_stimulus_type_29",
             "items/lmt_correct_29",
@@ -912,8 +912,8 @@
             "items/lmt_time_elapsed_74",
             "items/lmt_internal_node_id_74",
             "items/lmt_is_data_element_74",
-            "items/lmt_stimulus_type_74",
             "items/lmt_correct_74",
+            "items/lmt_stimulus_type_74",
             "items/lmt_skipped_74",
             "items/lmt_key_press_74",
             "items/lmt_rt_75",
@@ -3212,16 +3212,16 @@
                 "variableName": "lmt_trial_index_29"
             },
             {
-                "isAbout": "items/lmt_time_elapsed_29",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "lmt_time_elapsed_29"
-            },
-            {
                 "isAbout": "items/lmt_internal_node_id_29",
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "lmt_internal_node_id_29"
+            },
+            {
+                "isAbout": "items/lmt_time_elapsed_29",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "lmt_time_elapsed_29"
             },
             {
                 "isAbout": "items/lmt_is_data_element_29",
@@ -6470,16 +6470,16 @@
                 "variableName": "lmt_is_data_element_74"
             },
             {
-                "isAbout": "items/lmt_stimulus_type_74",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "lmt_stimulus_type_74"
-            },
-            {
                 "isAbout": "items/lmt_correct_74",
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "lmt_correct_74"
+            },
+            {
+                "isAbout": "items/lmt_stimulus_type_74",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "lmt_stimulus_type_74"
             },
             {
                 "isAbout": "items/lmt_skipped_74",
@@ -7222,6 +7222,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2618",
+    "version": "revid2619",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

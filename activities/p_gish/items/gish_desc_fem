@@ -1,64 +1,70 @@
 {
-    "id": "gish2_sexual_attract",
+    "id": "gish_desc_fem",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "gish_fem_grp1"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200726"
+        }
+    ],
     "preamble": {
-        "en": "The next questions are about your attractions to and relationships with boys and girls"
+        "en": "A person's appearance (style, dress, the way they walk or talk) may affect how people describe them."
     },
     "prefLabel": {
-        "en": "gish2_sexual_attract"
+        "en": "gish_desc_fem"
     },
     "question": {
-        "en": "People differ in their sexual attraction to other people. Which best describes your feelings? I am..."
+        "en": "How do you think others would describe your child?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "1, Attracted only to girls"
-                },
-                "value": 0
-            },
-            {
-                "name": {
-                    "en": "2, Attracted mostly to girls and a little to boys"
+                    "en": "Very feminine"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "3, Attracted equally to girls and boys"
+                    "en": "Mostly feminine"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "4, Attracted mostly to boys and a little to girls"
+                    "en": "Somewhat feminine"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "5, Attracted only to boys"
+                    "en": "Equally feminine and masculine"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "6, Not attracted to either boys or girls"
+                    "en": "Somewhat masculine"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "7, I don't know"
+                    "en": "Mostly masculine"
                 },
-                "value": 999
+                "value": 6
             },
             {
                 "name": {
-                    "en": "8, Decline to answer"
+                    "en": "Very masculine"
                 },
-                "value": 777
+                "value": 7
             }
         ],
         "valueType": [

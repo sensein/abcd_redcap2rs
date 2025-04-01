@@ -1,32 +1,34 @@
 {
-    "id": "fes_youth_q1",
+    "id": "p_gish_complete",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Custom Alignment",
-            "source": "redcap",
-            "value": "RH"
-        }
-    ],
+    "preamble": {
+        "en": "Form Status"
+    },
     "prefLabel": {
-        "en": "fes_youth_q1"
+        "en": "p_gish_complete"
     },
     "question": {
-        "en": "We fight a lot in our family."
+        "en": "Complete?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "True"
+                    "en": "Incomplete"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Unverified"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "False"
+                    "en": "Complete"
                 },
-                "value": 0
+                "value": 2
             }
         ],
         "valueType": [
@@ -34,7 +36,7 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "select"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

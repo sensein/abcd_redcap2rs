@@ -35,9 +35,9 @@
             "items/ple_financial_fu2_p",
             "items/ple_sud_p",
             "items/ple_sud_past_yr_p",
+            "items/ple_ill_p",
             "items/ple_sud_fu_p",
             "items/ple_sud_fu2_p",
-            "items/ple_ill_p",
             "items/ple_ill_past_yr_p",
             "items/ple_ill_fu_p",
             "items/ple_ill_fu2_p",
@@ -310,6 +310,12 @@
                 "variableName": "ple_sud_past_yr_p"
             },
             {
+                "isAbout": "items/ple_ill_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ple_ill_p"
+            },
+            {
                 "isAbout": "items/ple_sud_fu_p",
                 "isVis": "ple_sud_p == '1'",
                 "valueRequired": true,
@@ -320,12 +326,6 @@
                 "isVis": "ple_sud_p == '1'",
                 "valueRequired": true,
                 "variableName": "ple_sud_fu2_p"
-            },
-            {
-                "isAbout": "items/ple_ill_p",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "ple_ill_p"
             },
             {
                 "isAbout": "items/ple_ill_past_yr_p",
@@ -936,6 +936,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2618",
+    "version": "revid2619",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

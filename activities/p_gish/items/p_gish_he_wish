@@ -1,57 +1,51 @@
 {
-    "id": "gish2_f_self_hands",
+    "id": "p_gish_he_wish",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Matrix Group Name",
-            "source": "redcap",
-            "value": "gish2_friends_y"
-        }
-    ],
     "preamble": {
-        "en": "How many of your friends have ever:"
+        "en": "Please indicate how much the statement characterizes your child's behavior:"
     },
     "prefLabel": {
-        "en": "gish2_f_self_hands"
+        "en": "p_gish_he_wish"
     },
     "question": {
-        "en": "Put their hands under a boy's or girl's clothes"
+        "en": "He states the wish to be a girl or woman",
+        "es": "Habla de su deseo de ser una ni\u00c3\u00b1a o una mujer"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "None"
+                    "en": "##en##Every day##/en####es##Todos los d\u00c3\u00adas##/es##"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "A Few"
+                    "en": "##en##Frequently##/en####es##Frecuentemente##/es##"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Most"
+                    "en": "##en##Once in a while##/en####es##De vez en cuando##/es##"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "All"
+                    "en": "##en##Rarely##/en####es##Casi nunca##/es##"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Don't Know"
+                    "en": "##en##Never##/en####es##Nunca##/es##"
                 },
-                "value": 999
+                "value": 5
             },
             {
                 "name": {
-                    "en": "Refuse to Answer"
+                    "en": "##en##Decline to answer##/en####es##Prefiero no responder##/es##"
                 },
                 "value": 777
             }
@@ -61,7 +55,7 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "select"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

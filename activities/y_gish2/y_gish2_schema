@@ -31,17 +31,17 @@
             "items/gish2_cf_kiss",
             "items/gish2_cf_hands",
             "items/gish2_cf_self_hands",
-            "items/gish2_f_had_bf_gf",
-            "items/gish2_f_kiss",
-            "items/gish2_f_hands",
-            "items/gish2_f_self_hands",
             "items/gish2_desc_fem",
             "items/gish2_desc_fem_self",
-            "items/gish2_desc_male",
-            "items/gish2_desc_male_self",
+            "items/gish2_f_had_bf_gf",
+            "items/gish2_f_kiss",
+            "items/gish2_f_self_hands",
+            "items/gish2_f_hands",
             "items/gish2_abstinences",
             "items/gish2_safe_practices",
             "items/gish2_convo",
+            "items/gish2_desc_male",
+            "items/gish2_desc_male_self",
             "items/gish2_remote",
             "items/gish2_device",
             "items/y_gish2_complete"
@@ -192,6 +192,18 @@
                 "variableName": "gish2_cf_self_hands"
             },
             {
+                "isAbout": "items/gish2_desc_fem",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "gish2_desc_fem"
+            },
+            {
+                "isAbout": "items/gish2_desc_fem_self",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "gish2_desc_fem_self"
+            },
+            {
                 "isAbout": "items/gish2_f_had_bf_gf",
                 "isVis": true,
                 "valueRequired": true,
@@ -204,40 +216,16 @@
                 "variableName": "gish2_f_kiss"
             },
             {
-                "isAbout": "items/gish2_f_hands",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "gish2_f_hands"
-            },
-            {
                 "isAbout": "items/gish2_f_self_hands",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "gish2_f_self_hands"
             },
             {
-                "isAbout": "items/gish2_desc_fem",
-                "isVis": "baseline_year_1_arm_1demo_sex_v2b == '2' || baseline_year_1_arm_1demo_sex_v2b == '4'",
+                "isAbout": "items/gish2_f_hands",
+                "isVis": true,
                 "valueRequired": true,
-                "variableName": "gish2_desc_fem"
-            },
-            {
-                "isAbout": "items/gish2_desc_fem_self",
-                "isVis": "baseline_year_1_arm_1demo_sex_v2b == '2' || baseline_year_1_arm_1demo_sex_v2b == '4'",
-                "valueRequired": true,
-                "variableName": "gish2_desc_fem_self"
-            },
-            {
-                "isAbout": "items/gish2_desc_male",
-                "isVis": "baseline_year_1_arm_1demo_sex_v2b == '1' || baseline_year_1_arm_1demo_sex_v2b == '3'",
-                "valueRequired": true,
-                "variableName": "gish2_desc_male"
-            },
-            {
-                "isAbout": "items/gish2_desc_male_self",
-                "isVis": "baseline_year_1_arm_1demo_sex_v2b == '1' || baseline_year_1_arm_1demo_sex_v2b == '3'",
-                "valueRequired": true,
-                "variableName": "gish2_desc_male_self"
+                "variableName": "gish2_f_hands"
             },
             {
                 "isAbout": "items/gish2_abstinences",
@@ -256,6 +244,18 @@
                 "isVis": "event - name == '4_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "gish2_convo"
+            },
+            {
+                "isAbout": "items/gish2_desc_male",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "gish2_desc_male"
+            },
+            {
+                "isAbout": "items/gish2_desc_male_self",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "gish2_desc_male_self"
             },
             {
                 "isAbout": "items/gish2_remote",
@@ -278,6 +278,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2618",
+    "version": "revid2619",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

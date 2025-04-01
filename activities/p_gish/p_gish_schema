@@ -1,0 +1,73 @@
+{
+    "id": "p_gish_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "p_gish"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/pgish_p_select_language",
+            "items/gish_desc_male",
+            "items/gish_desc_male_self",
+            "items/p_gish_he_wish",
+            "items/gish_desc_fem",
+            "items/gish_desc_fem_self",
+            "items/p_gish_she_wish",
+            "items/p_gish_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/pgish_p_select_language",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pgish_p_select_language"
+            },
+            {
+                "isAbout": "items/gish_desc_male",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "gish_desc_male"
+            },
+            {
+                "isAbout": "items/gish_desc_male_self",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "gish_desc_male_self"
+            },
+            {
+                "isAbout": "items/p_gish_he_wish",
+                "isVis": "baseline_year_1_arm_1demo_sex_v2b == '1' || baseline_year_1_arm_1demo_sex_v2b == '3'",
+                "valueRequired": true,
+                "variableName": "p_gish_he_wish"
+            },
+            {
+                "isAbout": "items/gish_desc_fem",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "gish_desc_fem"
+            },
+            {
+                "isAbout": "items/gish_desc_fem_self",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "gish_desc_fem_self"
+            },
+            {
+                "isAbout": "items/p_gish_she_wish",
+                "isVis": "baseline_year_1_arm_1demo_sex_v2b == '2' || baseline_year_1_arm_1demo_sex_v2b == '4'",
+                "valueRequired": true,
+                "variableName": "p_gish_she_wish"
+            },
+            {
+                "isAbout": "items/p_gish_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "p_gish_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2619",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

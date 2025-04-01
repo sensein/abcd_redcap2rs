@@ -131,11 +131,11 @@
             "items/bkfs_drxifola",
             "items/bkfs_drxifa",
             "items/bkfs_drxiff",
+            "items/bkfs_drxivk",
             "items/bkfs_drxifdfe",
+            "items/bkfs_drxicalc",
             "items/bkfs_drxivb12",
             "items/bkfs_drxivc",
-            "items/bkfs_drxivk",
-            "items/bkfs_drxicalc",
             "items/bkfs_drxiphos",
             "items/bkfs_drximagn",
             "items/bkfs_drxiiron",
@@ -963,10 +963,22 @@
                 "variableName": "bkfs_drxiff"
             },
             {
+                "isAbout": "items/bkfs_drxivk",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxivk"
+            },
+            {
                 "isAbout": "items/bkfs_drxifdfe",
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "bkfs_drxifdfe"
+            },
+            {
+                "isAbout": "items/bkfs_drxicalc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_drxicalc"
             },
             {
                 "isAbout": "items/bkfs_drxivb12",
@@ -979,18 +991,6 @@
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "bkfs_drxivc"
-            },
-            {
-                "isAbout": "items/bkfs_drxivk",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "bkfs_drxivk"
-            },
-            {
-                "isAbout": "items/bkfs_drxicalc",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "bkfs_drxicalc"
             },
             {
                 "isAbout": "items/bkfs_drxiphos",
@@ -1475,6 +1475,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2618",
+    "version": "revid2619",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

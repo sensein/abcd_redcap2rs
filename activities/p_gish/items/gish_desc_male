@@ -1,59 +1,70 @@
 {
-    "id": "gish2_f_kiss",
+    "id": "gish_desc_male",
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
             "column": "Matrix Group Name",
             "source": "redcap",
-            "value": "gish2_friends_y"
+            "value": "gish_male_grp1"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200828"
         }
     ],
     "preamble": {
-        "en": "How many of your friends have ever:"
+        "en": "A person's appearance (style, dress, the way they walk or talk) may affect how people describe them."
     },
     "prefLabel": {
-        "en": "gish2_f_kiss"
+        "en": "gish_desc_male"
     },
     "question": {
-        "en": "Kissed a boy or a girl on the mouth"
+        "en": "How do you think others would describe your child?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "None"
+                    "en": "Very masculine"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "A Few"
+                    "en": "Mostly masculine"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Most"
+                    "en": "Somewhat masculine"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "All"
+                    "en": "Equally feminine and masculine"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Don't Know"
+                    "en": "Somewhat feminine"
                 },
-                "value": 999
+                "value": 5
             },
             {
                 "name": {
-                    "en": "Refuse to Answer"
+                    "en": "Mostly feminine"
                 },
-                "value": 777
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Very feminine"
+                },
+                "value": 7
             }
         ],
         "valueType": [

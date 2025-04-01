@@ -7,20 +7,14 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
-            "items/physical_activity_start_time",
             "items/physical_activity1_y",
             "items/physical_activity2_y",
+            "items/physical_activity_start_time",
             "items/physical_activity5_y",
             "items/physical_activity_admin",
             "items/youth_risk_behavior_physical_activity_payouth_complete"
         ],
         "addProperties": [
-            {
-                "isAbout": "items/physical_activity_start_time",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "physical_activity_start_time"
-            },
             {
                 "isAbout": "items/physical_activity1_y",
                 "isVis": true,
@@ -32,6 +26,12 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "physical_activity2_y"
+            },
+            {
+                "isAbout": "items/physical_activity_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "physical_activity_start_time"
             },
             {
                 "isAbout": "items/physical_activity5_y",
@@ -54,6 +54,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2618",
+    "version": "revid2619",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

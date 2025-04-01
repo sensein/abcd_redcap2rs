@@ -212,8 +212,8 @@
             "items/q7h_pat_aunt4_mania",
             "items/q7h_pat_aunt5_mania",
             "items/q7i_mat_uncle1_mania",
-            "items/q7i_mat_uncle2_mania",
             "items/q7i_mat_uncle3_mania",
+            "items/q7i_mat_uncle2_mania",
             "items/q7i_mat_uncle4_mania",
             "items/q7i_mat_uncle5_mania",
             "items/q7j_mat_aunt1_mania",
@@ -1784,16 +1784,16 @@
                 "variableName": "q7i_mat_uncle1_mania"
             },
             {
-                "isAbout": "items/q7i_mat_uncle2_mania",
-                "isVis": "famhx_1 == '1' && fam_history_7_yes_no == '1' && famhx_1a_p > 1 && famhx_1a_p <> 999",
-                "valueRequired": true,
-                "variableName": "q7i_mat_uncle2_mania"
-            },
-            {
                 "isAbout": "items/q7i_mat_uncle3_mania",
                 "isVis": "famhx_1 == '1' && fam_history_7_yes_no == '1' && famhx_1a_p > 2 && famhx_1a_p <> 999",
                 "valueRequired": true,
                 "variableName": "q7i_mat_uncle3_mania"
+            },
+            {
+                "isAbout": "items/q7i_mat_uncle2_mania",
+                "isVis": "famhx_1 == '1' && fam_history_7_yes_no == '1' && famhx_1a_p > 1 && famhx_1a_p <> 999",
+                "valueRequired": true,
+                "variableName": "q7i_mat_uncle2_mania"
             },
             {
                 "isAbout": "items/q7i_mat_uncle4_mania",
@@ -3820,6 +3820,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2618",
+    "version": "revid2619",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

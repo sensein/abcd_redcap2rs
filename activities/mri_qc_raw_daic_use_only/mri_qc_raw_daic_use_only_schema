@@ -1441,10 +1441,10 @@
             "items/iqc_sst_3_fm_invalid",
             "items/iqc_sst_3_fm_qc_score",
             "items/iqc_sst_3_fm_qc_notes",
-            "items/iqc_sst_3_fm_pc_score",
-            "items/iqc_sst_3_fm_pc_notes",
             "items/iqc_sst_3_fm_complete",
+            "items/iqc_sst_3_fm_pc_score",
             "items/iqc_sst_3_qc_score",
+            "items/iqc_sst_3_fm_pc_notes",
             "items/iqc_sst_3_qc_notes",
             "items/iqc_sst_3_pc_score",
             "items/iqc_sst_3_pc_notes",
@@ -1778,9 +1778,9 @@
             "items/iqc_nback_3_fwhm_x",
             "items/iqc_nback_3_fwhm_y",
             "items/iqc_nback_3_fwhm_z",
-            "items/iqc_nback_3_brain_tsnr_mean",
             "items/iqc_nback_3_brain_tsnr_median",
             "items/iqc_nback_3_brain_tsnr_std",
+            "items/iqc_nback_3_brain_tsnr_mean",
             "items/iqc_nback_3_sub_02_nody",
             "items/iqc_nback_3_sub_02_filt_nody",
             "items/iqc_nback_3_sub_02_filt",
@@ -10830,28 +10830,28 @@
                 "variableName": "iqc_sst_3_fm_qc_notes"
             },
             {
-                "isAbout": "items/iqc_sst_3_fm_pc_score",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "iqc_sst_3_fm_pc_score"
-            },
-            {
-                "isAbout": "items/iqc_sst_3_fm_pc_notes",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "iqc_sst_3_fm_pc_notes"
-            },
-            {
                 "isAbout": "items/iqc_sst_3_fm_complete",
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "iqc_sst_3_fm_complete"
             },
             {
+                "isAbout": "items/iqc_sst_3_fm_pc_score",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "iqc_sst_3_fm_pc_score"
+            },
+            {
                 "isAbout": "items/iqc_sst_3_qc_score",
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "iqc_sst_3_qc_score"
+            },
+            {
+                "isAbout": "items/iqc_sst_3_fm_pc_notes",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "iqc_sst_3_fm_pc_notes"
             },
             {
                 "isAbout": "items/iqc_sst_3_qc_notes",
@@ -12852,12 +12852,6 @@
                 "variableName": "iqc_nback_3_fwhm_z"
             },
             {
-                "isAbout": "items/iqc_nback_3_brain_tsnr_mean",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "iqc_nback_3_brain_tsnr_mean"
-            },
-            {
                 "isAbout": "items/iqc_nback_3_brain_tsnr_median",
                 "isVis": false,
                 "valueRequired": false,
@@ -12868,6 +12862,12 @@
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "iqc_nback_3_brain_tsnr_std"
+            },
+            {
+                "isAbout": "items/iqc_nback_3_brain_tsnr_mean",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "iqc_nback_3_brain_tsnr_mean"
             },
             {
                 "isAbout": "items/iqc_nback_3_sub_02_nody",
@@ -15524,6 +15524,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2618",
+    "version": "revid2619",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
