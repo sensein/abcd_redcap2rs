@@ -1,0 +1,65 @@
+{
+    "id": "screen_wkdy_typical_min_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "Minutes"
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200810"
+        }
+    ],
+    "preamble": {
+        "en": "Total Time WEEKDAY"
+    },
+    "prefLabel": {
+        "en": "screen_wkdy_typical_min_y"
+    },
+    "question": {
+        "en": "How much of this time is on your smartphone?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "15"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "30"
+                },
+                "value": 30
+            },
+            {
+                "name": {
+                    "en": "45"
+                },
+                "value": 45
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

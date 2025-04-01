@@ -7,6 +7,7 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/screentime_phone_yn",
             "items/screentime_start_time",
             "items/screen1_wkdy_y",
             "items/screen2_wkdy_y",
@@ -18,22 +19,43 @@
             "items/screentime_1_wkdy_min",
             "items/screentime_1_wkdy2_hr",
             "items/screentime_1_wkdy2_min",
+            "items/screen_1_wkdy2_hr_y",
+            "items/screen_1_wkdy2_min_y",
+            "items/screen_1_wkdy2_error_y",
             "items/screentime_2_wkdy_hr",
             "items/screentime_2_wkdy_min",
             "items/screentime_3_wkdy_hr",
             "items/screentime_3_wkdy_min",
+            "items/screen_3_wkdy_hr_y",
+            "items/screen_3_wkdy_min_y",
+            "items/screen_3_wkdy_error_y",
             "items/screentime_4_wkdy_hr",
             "items/screentime_4_wkdy_min",
+            "items/screen_4_wkdy_hr_y",
+            "items/screen_4_wkdy_min_y",
+            "items/screen_4_wkdy_error_y",
             "items/screentime_5_wkdy_hr",
             "items/screentime_5_wkdy_min",
+            "items/screen_5_wkdy_hr_y",
+            "items/screen_5_wkdy_min_y",
+            "items/screen_5_wkdy_error_y",
             "items/screentime_6_wkdy_hr",
             "items/screentime_6_wkdy_min",
+            "items/screen_6_wkdy_hr_y",
+            "items/screen_6_wkdy_min_y",
+            "items/screen_6_wkdy_error_y",
             "items/screentime_7_wkdy_hr",
             "items/screentime_7_wkdy_min",
             "items/screentime_8_wkdy_hr",
             "items/screentime_8_wkdy_min",
+            "items/screen_8_wkdy_hr_y",
+            "items/screen_8_wkdy_min_y",
+            "items/screen_8_wkdy_error_y",
             "items/screentime_9_wkdy_hr",
             "items/screentime_9_wkdy_min",
+            "items/screen_9_wkdy_hr_y",
+            "items/screen_9_wkdy_min_y",
+            "items/screen_9_wkdy_error_y",
             "items/screen7_wknd_y",
             "items/screen8_wknd_y",
             "items/screen9_wknd_y",
@@ -42,35 +64,67 @@
             "items/screen12_wknd_y",
             "items/screentime_wkdy_typical_hr",
             "items/screentime_wkdy_typical_min",
+            "items/screen_wkdy_typical_hr_y",
+            "items/screen_wkdy_typical_min_y",
+            "items/screen_wkdy_typical_error_y",
             "items/screentime_wkdy_school_hr",
             "items/screentime_wkdy_school_min",
+            "items/screen_wkdy_school_hr_y",
+            "items/screen_wkdy_school_min_y",
+            "items/screen_wkdy_school_error_y",
             "items/screentime_7_wknd_hr",
             "items/screentime_7_wknd_min",
             "items/screentime_7_8_wknd_hr",
             "items/screentime_7_8_wknd_min",
+            "items/screen_7_8_wknd_hr_y",
+            "items/screen_7_8_wknd_min_y",
+            "items/screen_7_8_wknd_error_y",
             "items/screentime_8_wknd_hr",
             "items/screentime_8_wknd_min",
             "items/screentime_9_wknd_hr",
             "items/screentime_9_wknd_min",
+            "items/screen_9_wknd_hr_y",
+            "items/screen_9_wknd_min_y",
+            "items/screen_9_wknd_error_y",
             "items/screentime_10_wknd_hr",
             "items/screentime_10_wknd_min",
+            "items/screen_10_wknd_hr_y",
+            "items/screen_10_wknd_min_y",
+            "items/screen_10_wknd_error_y",
             "items/screentime_11_wknd_hr",
             "items/screentime_11_wknd_min",
+            "items/screen_11_wknd_hr_y",
+            "items/screen_11_wknd_min_y",
+            "items/screen_11_wknd_error_y",
             "items/screentime_12_wknd_hr",
             "items/screentime_12_wknd_min",
+            "items/screen_12_wknd_hr_y",
+            "items/screen_12_wknd_min_y",
+            "items/screen_12_wknd_error_y",
             "items/screentime_13_wknd_hr",
             "items/screentime_13_wknd_min",
             "items/screentime_14_wknd_hr",
             "items/screentime_14_wknd_min",
+            "items/screen_14_wknd_hr_y",
+            "items/screen_14_wknd_min_y",
+            "items/screen_14_wknd_error_y",
             "items/screentime_15_wknd_hr",
             "items/screentime_15_wknd_min",
+            "items/screen_15_wknd_hr_y",
+            "items/screen_15_wknd_min_y",
+            "items/screen_15_wknd_error_y",
             "items/screentime_wknd_typical_hr",
             "items/screentime_wknd_typical_min",
+            "items/screen_wknd_typical_hr_y",
+            "items/screen_wknd_typical_min_y",
+            "items/screen_wknd_typical_error_y",
             "items/screentime_wknd_school_hr",
             "items/screentime_wknd_school_min",
+            "items/screen_wknd_school_hr_y",
+            "items/screen_wknd_school_min_y",
+            "items/screen_wknd_school_error_y",
             "items/screen13_y",
             "items/screen14_y",
-            "items/screentime_phone_yn",
             "items/screentime_phone_descript",
             "items/screentime_phone1",
             "items/screentime_phone2",
@@ -143,6 +197,12 @@
         ],
         "addProperties": [
             {
+                "isAbout": "items/screentime_phone_yn",
+                "isVis": "(event_name_number <> '11' OR event - name == '4_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "screentime_phone_yn"
+            },
+            {
                 "isAbout": "items/screentime_start_time",
                 "isVis": false,
                 "valueRequired": false,
@@ -198,15 +258,33 @@
             },
             {
                 "isAbout": "items/screentime_1_wkdy2_hr",
-                "isVis": "event_name_number == '31'",
+                "isVis": "(event_name_number == '31' OR event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "screentime_1_wkdy2_hr"
             },
             {
                 "isAbout": "items/screentime_1_wkdy2_min",
-                "isVis": "event_name_number == '31'",
+                "isVis": "(event_name_number == '31' OR event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "screentime_1_wkdy2_min"
+            },
+            {
+                "isAbout": "items/screen_1_wkdy2_hr_y",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND screentime_phone_yn == '1')AND(screentime_1_wkdy2_hr > '0' OR screentime_1_wkdy2_min > '0')",
+                "valueRequired": true,
+                "variableName": "screen_1_wkdy2_hr_y"
+            },
+            {
+                "isAbout": "items/screen_1_wkdy2_min_y",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND screentime_phone_yn == '1')AND(screentime_1_wkdy2_hr > '0' OR screentime_1_wkdy2_min > '0')",
+                "valueRequired": true,
+                "variableName": "screen_1_wkdy2_min_y"
+            },
+            {
+                "isAbout": "items/screen_1_wkdy2_error_y",
+                "isVis": "(((screen_1_wkdy2_hr_y + screen_1_wkdy2_min_y)>(screentime_1_wkdy2_hr + screentime_1_wkdy2_min))&&(screentime_phone_yn == '1'))",
+                "valueRequired": false,
+                "variableName": "screen_1_wkdy2_error_y"
             },
             {
                 "isAbout": "items/screentime_2_wkdy_hr",
@@ -222,51 +300,123 @@
             },
             {
                 "isAbout": "items/screentime_3_wkdy_hr",
-                "isVis": "event_name_number <> '11'",
+                "isVis": "(event_name_number <> '11' OR screentime_phone_yn == '1')",
                 "valueRequired": true,
                 "variableName": "screentime_3_wkdy_hr"
             },
             {
                 "isAbout": "items/screentime_3_wkdy_min",
-                "isVis": "event_name_number <> '11'",
+                "isVis": "(event_name_number <> '11' OR screentime_phone_yn == '1')",
                 "valueRequired": true,
                 "variableName": "screentime_3_wkdy_min"
             },
             {
+                "isAbout": "items/screen_3_wkdy_hr_y",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND screentime_phone_yn == '1' AND(screentime_3_wkdy_hr > '0' OR screentime_3_wkdy_min > '0')",
+                "valueRequired": true,
+                "variableName": "screen_3_wkdy_hr_y"
+            },
+            {
+                "isAbout": "items/screen_3_wkdy_min_y",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND screentime_phone_yn == '1' AND(screentime_3_wkdy_hr > '0' OR screentime_3_wkdy_min > '0')",
+                "valueRequired": true,
+                "variableName": "screen_3_wkdy_min_y"
+            },
+            {
+                "isAbout": "items/screen_3_wkdy_error_y",
+                "isVis": "((screen_3_wkdy_hr_y + screen_3_wkdy_min_y)>(screentime_3_wkdy_hr + screentime_3_wkdy_min))&&(screentime_phone_yn == '1')",
+                "valueRequired": false,
+                "variableName": "screen_3_wkdy_error_y"
+            },
+            {
                 "isAbout": "items/screentime_4_wkdy_hr",
-                "isVis": "event_name_number <> '11'",
+                "isVis": "(event_name_number <> '11' OR screentime_phone_yn == '1')",
                 "valueRequired": true,
                 "variableName": "screentime_4_wkdy_hr"
             },
             {
                 "isAbout": "items/screentime_4_wkdy_min",
-                "isVis": "event_name_number <> '11'",
+                "isVis": "(event_name_number <> '11' OR screentime_phone_yn == '1')",
                 "valueRequired": true,
                 "variableName": "screentime_4_wkdy_min"
             },
             {
+                "isAbout": "items/screen_4_wkdy_hr_y",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND screentime_phone_yn == '1' AND(screentime_4_wkdy_hr > '0' OR screentime_4_wkdy_min > '0')",
+                "valueRequired": true,
+                "variableName": "screen_4_wkdy_hr_y"
+            },
+            {
+                "isAbout": "items/screen_4_wkdy_min_y",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND screentime_phone_yn == '1' AND(screentime_4_wkdy_hr > '0' OR screentime_4_wkdy_min > '0')",
+                "valueRequired": true,
+                "variableName": "screen_4_wkdy_min_y"
+            },
+            {
+                "isAbout": "items/screen_4_wkdy_error_y",
+                "isVis": "((screen_4_wkdy_hr_y + screen_4_wkdy_min_y)>(screentime_4_wkdy_hr + screentime_4_wkdy_min))&&(screentime_phone_yn == '1')",
+                "valueRequired": false,
+                "variableName": "screen_4_wkdy_error_y"
+            },
+            {
                 "isAbout": "items/screentime_5_wkdy_hr",
-                "isVis": "event_name_number <> '11'",
+                "isVis": "(event_name_number <> '11')OR(screentime_phone_yn == '1')",
                 "valueRequired": true,
                 "variableName": "screentime_5_wkdy_hr"
             },
             {
                 "isAbout": "items/screentime_5_wkdy_min",
-                "isVis": "event_name_number <> '11'",
+                "isVis": "(event_name_number <> '11')OR(screentime_phone_yn == '1')",
                 "valueRequired": true,
                 "variableName": "screentime_5_wkdy_min"
             },
             {
+                "isAbout": "items/screen_5_wkdy_hr_y",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND screentime_phone_yn == '1')AND(screentime_5_wkdy_hr > '0' OR screentime_5_wkdy_min > '0')",
+                "valueRequired": true,
+                "variableName": "screen_5_wkdy_hr_y"
+            },
+            {
+                "isAbout": "items/screen_5_wkdy_min_y",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND screentime_phone_yn == '1')AND(screentime_5_wkdy_hr > '0' OR screentime_5_wkdy_min > '0')",
+                "valueRequired": true,
+                "variableName": "screen_5_wkdy_min_y"
+            },
+            {
+                "isAbout": "items/screen_5_wkdy_error_y",
+                "isVis": "((screen_5_wkdy_hr_y + screen_5_wkdy_min_y)>(screentime_5_wkdy_hr + screentime_5_wkdy_min))&&(screentime_phone_yn == '1')",
+                "valueRequired": false,
+                "variableName": "screen_5_wkdy_error_y"
+            },
+            {
                 "isAbout": "items/screentime_6_wkdy_hr",
-                "isVis": "event_name_number <> '11'",
+                "isVis": "(event_name_number <> '11')OR(screentime_phone_yn == '1')",
                 "valueRequired": true,
                 "variableName": "screentime_6_wkdy_hr"
             },
             {
                 "isAbout": "items/screentime_6_wkdy_min",
-                "isVis": "event_name_number <> '11'",
+                "isVis": "(event_name_number <> '11')OR(screentime_phone_yn == '1')",
                 "valueRequired": true,
                 "variableName": "screentime_6_wkdy_min"
+            },
+            {
+                "isAbout": "items/screen_6_wkdy_hr_y",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND screentime_phone_yn == '1')AND(screentime_6_wkdy_hr > '0' OR screentime_6_wkdy_min > '0')",
+                "valueRequired": true,
+                "variableName": "screen_6_wkdy_hr_y"
+            },
+            {
+                "isAbout": "items/screen_6_wkdy_min_y",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND screentime_phone_yn == '1')AND(screentime_6_wkdy_hr > '0' OR screentime_6_wkdy_min > '0')",
+                "valueRequired": true,
+                "variableName": "screen_6_wkdy_min_y"
+            },
+            {
+                "isAbout": "items/screen_6_wkdy_error_y",
+                "isVis": "((screen_6_wkdy_hr_y + screen_6_wkdy_min_y)>(screentime_6_wkdy_hr + screentime_6_wkdy_min))&&(screentime_phone_yn == '1')",
+                "valueRequired": false,
+                "variableName": "screen_6_wkdy_error_y"
             },
             {
                 "isAbout": "items/screentime_7_wkdy_hr",
@@ -282,27 +432,63 @@
             },
             {
                 "isAbout": "items/screentime_8_wkdy_hr",
-                "isVis": "event_name_number <> '11'",
+                "isVis": "(event_name_number <> '11')OR(screentime_phone_yn == '1')",
                 "valueRequired": true,
                 "variableName": "screentime_8_wkdy_hr"
             },
             {
                 "isAbout": "items/screentime_8_wkdy_min",
-                "isVis": "event_name_number <> '11'",
+                "isVis": "(event_name_number <> '11')OR(screentime_phone_yn == '1')",
                 "valueRequired": true,
                 "variableName": "screentime_8_wkdy_min"
             },
             {
+                "isAbout": "items/screen_8_wkdy_hr_y",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND screentime_phone_yn == '1')AND(screentime_8_wkdy_hr > '0' OR screentime_8_wkdy_min > '0')",
+                "valueRequired": true,
+                "variableName": "screen_8_wkdy_hr_y"
+            },
+            {
+                "isAbout": "items/screen_8_wkdy_min_y",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND screentime_phone_yn == '1')AND(screentime_8_wkdy_hr > '0' OR screentime_8_wkdy_min > '0')",
+                "valueRequired": true,
+                "variableName": "screen_8_wkdy_min_y"
+            },
+            {
+                "isAbout": "items/screen_8_wkdy_error_y",
+                "isVis": "((screen_8_wkdy_hr_y + screen_8_wkdy_min_y)>(screentime_8_wkdy_hr + screentime_8_wkdy_min))&&(screentime_phone_yn == '1')",
+                "valueRequired": false,
+                "variableName": "screen_8_wkdy_error_y"
+            },
+            {
                 "isAbout": "items/screentime_9_wkdy_hr",
-                "isVis": "event_name_number <> '11'",
+                "isVis": "(event_name_number <> '11')OR(screentime_phone_yn == '1')",
                 "valueRequired": true,
                 "variableName": "screentime_9_wkdy_hr"
             },
             {
                 "isAbout": "items/screentime_9_wkdy_min",
-                "isVis": "event_name_number <> '11'",
+                "isVis": "(event_name_number <> '11')OR(screentime_phone_yn == '1')",
                 "valueRequired": true,
                 "variableName": "screentime_9_wkdy_min"
+            },
+            {
+                "isAbout": "items/screen_9_wkdy_hr_y",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND screentime_phone_yn == '1')AND(screentime_9_wkdy_hr > '0' OR screentime_9_wkdy_min > '0')",
+                "valueRequired": true,
+                "variableName": "screen_9_wkdy_hr_y"
+            },
+            {
+                "isAbout": "items/screen_9_wkdy_min_y",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND screentime_phone_yn == '1')AND(screentime_9_wkdy_hr > '0' OR screentime_9_wkdy_min > '0')",
+                "valueRequired": true,
+                "variableName": "screen_9_wkdy_min_y"
+            },
+            {
+                "isAbout": "items/screen_9_wkdy_error_y",
+                "isVis": "((screen_9_wkdy_hr_y + screen_9_wkdy_min_y)>(screentime_9_wkdy_hr + screentime_9_wkdy_min))&&(screentime_phone_yn == '1')",
+                "valueRequired": false,
+                "variableName": "screen_9_wkdy_error_y"
             },
             {
                 "isAbout": "items/screen7_wknd_y",
@@ -342,27 +528,63 @@
             },
             {
                 "isAbout": "items/screentime_wkdy_typical_hr",
-                "isVis": "event_name_number <> '11'",
+                "isVis": "(event_name_number <> '11' OR screentime_phone_yn == '1')",
                 "valueRequired": true,
                 "variableName": "screentime_wkdy_typical_hr"
             },
             {
                 "isAbout": "items/screentime_wkdy_typical_min",
-                "isVis": "event_name_number <> '11'",
+                "isVis": "(event_name_number <> '11' OR screentime_phone_yn == '1')",
                 "valueRequired": true,
                 "variableName": "screentime_wkdy_typical_min"
             },
             {
+                "isAbout": "items/screen_wkdy_typical_hr_y",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND screentime_phone_yn == '1')AND(screentime_wkdy_typical_hr > '0' OR screentime_wkdy_typical_min > '0')",
+                "valueRequired": true,
+                "variableName": "screen_wkdy_typical_hr_y"
+            },
+            {
+                "isAbout": "items/screen_wkdy_typical_min_y",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND screentime_phone_yn == '1')AND(screentime_wkdy_typical_hr > '0' OR screentime_wkdy_typical_min > '0')",
+                "valueRequired": true,
+                "variableName": "screen_wkdy_typical_min_y"
+            },
+            {
+                "isAbout": "items/screen_wkdy_typical_error_y",
+                "isVis": "((screen_wkdy_typical_hr_y + screen_wkdy_typical_min_y)>(screentime_wkdy_typical_hr + screentime_wkdy_typical_min))&&(screentime_phone_yn == '1')",
+                "valueRequired": false,
+                "variableName": "screen_wkdy_typical_error_y"
+            },
+            {
                 "isAbout": "items/screentime_wkdy_school_hr",
-                "isVis": "event_name_number == '31'",
+                "isVis": "(event_name_number == '31' OR screentime_phone_yn == '1')OR(event - name == '4_year_follow_up_y_arm_1' AND screentime_phone_yn == '1')",
                 "valueRequired": true,
                 "variableName": "screentime_wkdy_school_hr"
             },
             {
                 "isAbout": "items/screentime_wkdy_school_min",
-                "isVis": "event_name_number == '31'",
+                "isVis": "(event_name_number == '31' OR screentime_phone_yn == '1')OR(event - name == '4_year_follow_up_y_arm_1' AND screentime_phone_yn == '1')",
                 "valueRequired": true,
                 "variableName": "screentime_wkdy_school_min"
+            },
+            {
+                "isAbout": "items/screen_wkdy_school_hr_y",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND screentime_wkdy_school_hr)<> '' &&(screentime_wkdy_school_hr > '0' OR screentime_wkdy_school_min > '0')",
+                "valueRequired": true,
+                "variableName": "screen_wkdy_school_hr_y"
+            },
+            {
+                "isAbout": "items/screen_wkdy_school_min_y",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND screentime_wkdy_school_hr)<> '' &&(screentime_wkdy_school_hr > '0' OR screentime_wkdy_school_min > '0')",
+                "valueRequired": true,
+                "variableName": "screen_wkdy_school_min_y"
+            },
+            {
+                "isAbout": "items/screen_wkdy_school_error_y",
+                "isVis": "((screen_wkdy_school_hr_y + screen_wkdy_school_min_y)>(screentime_wkdy_school_hr + screentime_wkdy_school_min))&&(screentime_phone_yn == '1')",
+                "valueRequired": false,
+                "variableName": "screen_wkdy_school_error_y"
             },
             {
                 "isAbout": "items/screentime_7_wknd_hr",
@@ -378,15 +600,33 @@
             },
             {
                 "isAbout": "items/screentime_7_8_wknd_hr",
-                "isVis": "event_name_number == '31'",
+                "isVis": "(event_name_number == '31' OR event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "screentime_7_8_wknd_hr"
             },
             {
                 "isAbout": "items/screentime_7_8_wknd_min",
-                "isVis": "event_name_number == '31'",
+                "isVis": "(event_name_number == '31' OR event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "screentime_7_8_wknd_min"
+            },
+            {
+                "isAbout": "items/screen_7_8_wknd_hr_y",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND screentime_phone_yn == '1')AND(screentime_7_8_wknd_hr > '0' OR screentime_7_8_wknd_min > '0')",
+                "valueRequired": true,
+                "variableName": "screen_7_8_wknd_hr_y"
+            },
+            {
+                "isAbout": "items/screen_7_8_wknd_min_y",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND screentime_phone_yn == '1')AND(screentime_7_8_wknd_hr > '0' OR screentime_7_8_wknd_min > '0')",
+                "valueRequired": true,
+                "variableName": "screen_7_8_wknd_min_y"
+            },
+            {
+                "isAbout": "items/screen_7_8_wknd_error_y",
+                "isVis": "((screen_7_8_wknd_hr_y + screen_7_8_wknd_min_y)>(screentime_7_8_wknd_hr + screentime_7_8_wknd_min))&&(screentime_phone_yn == '1')",
+                "valueRequired": false,
+                "variableName": "screen_7_8_wknd_error_y"
             },
             {
                 "isAbout": "items/screentime_8_wknd_hr",
@@ -402,51 +642,123 @@
             },
             {
                 "isAbout": "items/screentime_9_wknd_hr",
-                "isVis": "event_name_number <> '11'",
+                "isVis": "(event_name_number <> '11' OR event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "screentime_9_wknd_hr"
             },
             {
                 "isAbout": "items/screentime_9_wknd_min",
-                "isVis": "event_name_number <> '11'",
+                "isVis": "(event_name_number <> '11' OR event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "screentime_9_wknd_min"
             },
             {
+                "isAbout": "items/screen_9_wknd_hr_y",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND screentime_phone_yn == '1')AND(screentime_9_wknd_hr > '0' OR screentime_9_wknd_min > '0')",
+                "valueRequired": true,
+                "variableName": "screen_9_wknd_hr_y"
+            },
+            {
+                "isAbout": "items/screen_9_wknd_min_y",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND screentime_phone_yn == '1')AND(screentime_9_wknd_hr > '0' OR screentime_9_wknd_min > '0')",
+                "valueRequired": true,
+                "variableName": "screen_9_wknd_min_y"
+            },
+            {
+                "isAbout": "items/screen_9_wknd_error_y",
+                "isVis": "((screen_9_wknd_hr_y + screen_9_wknd_min_y)>(screentime_9_wknd_hr + screentime_9_wknd_min))&&(screentime_phone_yn == '1')",
+                "valueRequired": false,
+                "variableName": "screen_9_wknd_error_y"
+            },
+            {
                 "isAbout": "items/screentime_10_wknd_hr",
-                "isVis": "event_name_number <> '11'",
+                "isVis": "(event_name_number <> '11' OR event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "screentime_10_wknd_hr"
             },
             {
                 "isAbout": "items/screentime_10_wknd_min",
-                "isVis": "event_name_number <> '11'",
+                "isVis": "event_name_number <> '11' OR event - name == '4_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "screentime_10_wknd_min"
             },
             {
+                "isAbout": "items/screen_10_wknd_hr_y",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND screentime_phone_yn == '1')AND(screentime_10_wknd_hr > '0' OR screentime_10_wknd_min > '0')",
+                "valueRequired": true,
+                "variableName": "screen_10_wknd_hr_y"
+            },
+            {
+                "isAbout": "items/screen_10_wknd_min_y",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND screentime_phone_yn == '1')AND(screentime_10_wknd_hr > '0' OR screentime_10_wknd_min > '0')",
+                "valueRequired": true,
+                "variableName": "screen_10_wknd_min_y"
+            },
+            {
+                "isAbout": "items/screen_10_wknd_error_y",
+                "isVis": "((screen_10_wknd_hr_y + screen_10_wknd_min_y)>(screentime_10_wknd_hr + screentime_10_wknd_min))&&(screentime_phone_yn == '1')",
+                "valueRequired": false,
+                "variableName": "screen_10_wknd_error_y"
+            },
+            {
                 "isAbout": "items/screentime_11_wknd_hr",
-                "isVis": "event_name_number <> '11'",
+                "isVis": "(event_name_number <> '11' OR event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "screentime_11_wknd_hr"
             },
             {
                 "isAbout": "items/screentime_11_wknd_min",
-                "isVis": "event_name_number <> '11'",
+                "isVis": "(event_name_number <> '11' OR event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "screentime_11_wknd_min"
             },
             {
+                "isAbout": "items/screen_11_wknd_hr_y",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND screentime_phone_yn == '1')AND(screentime_11_wknd_hr > '0' OR screentime_11_wknd_min > '0')",
+                "valueRequired": true,
+                "variableName": "screen_11_wknd_hr_y"
+            },
+            {
+                "isAbout": "items/screen_11_wknd_min_y",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND screentime_phone_yn == '1')AND(screentime_11_wknd_hr > '0' OR screentime_11_wknd_min > '0')",
+                "valueRequired": true,
+                "variableName": "screen_11_wknd_min_y"
+            },
+            {
+                "isAbout": "items/screen_11_wknd_error_y",
+                "isVis": "((screen_11_wknd_hr_y + screen_11_wknd_min_y)>(screentime_11_wknd_hr + screentime_11_wknd_min))&&(screentime_phone_yn == '1')",
+                "valueRequired": false,
+                "variableName": "screen_11_wknd_error_y"
+            },
+            {
                 "isAbout": "items/screentime_12_wknd_hr",
-                "isVis": "event_name_number <> '11'",
+                "isVis": "(event_name_number <> '11' OR event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "screentime_12_wknd_hr"
             },
             {
                 "isAbout": "items/screentime_12_wknd_min",
-                "isVis": "event_name_number <> '11'",
+                "isVis": "(event_name_number <> '11' OR event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "screentime_12_wknd_min"
+            },
+            {
+                "isAbout": "items/screen_12_wknd_hr_y",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND screentime_phone_yn == '1')AND(screentime_12_wknd_hr > '0' OR screentime_12_wknd_min > '0')",
+                "valueRequired": true,
+                "variableName": "screen_12_wknd_hr_y"
+            },
+            {
+                "isAbout": "items/screen_12_wknd_min_y",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND screentime_phone_yn == '1')AND(screentime_12_wknd_hr > '0' OR screentime_12_wknd_min > '0')",
+                "valueRequired": true,
+                "variableName": "screen_12_wknd_min_y"
+            },
+            {
+                "isAbout": "items/screen_12_wknd_error_y",
+                "isVis": "((screen_12_wknd_hr_y + screen_12_wknd_min_y)>(screentime_12_wknd_hr + screentime_12_wknd_min))&&(screentime_phone_yn == '1')",
+                "valueRequired": false,
+                "variableName": "screen_12_wknd_error_y"
             },
             {
                 "isAbout": "items/screentime_13_wknd_hr",
@@ -462,51 +774,123 @@
             },
             {
                 "isAbout": "items/screentime_14_wknd_hr",
-                "isVis": "event_name_number <> '11'",
+                "isVis": "(event_name_number <> '11' OR event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "screentime_14_wknd_hr"
             },
             {
                 "isAbout": "items/screentime_14_wknd_min",
-                "isVis": "event_name_number <> '11'",
+                "isVis": "(event_name_number <> '11' OR event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "screentime_14_wknd_min"
             },
             {
+                "isAbout": "items/screen_14_wknd_hr_y",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND screentime_phone_yn == '1')AND(screentime_14_wknd_hr > '0' OR screentime_14_wknd_min > '0')",
+                "valueRequired": true,
+                "variableName": "screen_14_wknd_hr_y"
+            },
+            {
+                "isAbout": "items/screen_14_wknd_min_y",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND screentime_phone_yn == '1')AND(screentime_14_wknd_hr > '0' OR screentime_14_wknd_min > '0')",
+                "valueRequired": true,
+                "variableName": "screen_14_wknd_min_y"
+            },
+            {
+                "isAbout": "items/screen_14_wknd_error_y",
+                "isVis": "((screen_14_wknd_hr_y + screen_14_wknd_min_y)>(screentime_14_wknd_hr + screentime_14_wknd_min))&&(screentime_phone_yn == '1')",
+                "valueRequired": false,
+                "variableName": "screen_14_wknd_error_y"
+            },
+            {
                 "isAbout": "items/screentime_15_wknd_hr",
-                "isVis": "event_name_number <> '11'",
+                "isVis": "(event_name_number <> '11' OR event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "screentime_15_wknd_hr"
             },
             {
                 "isAbout": "items/screentime_15_wknd_min",
-                "isVis": "event_name_number <> '11'",
+                "isVis": "(event_name_number <> '11' OR event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "screentime_15_wknd_min"
             },
             {
+                "isAbout": "items/screen_15_wknd_hr_y",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND screentime_phone_yn == '1')AND(screentime_15_wknd_hr > '0' OR screentime_15_wknd_min > '0')",
+                "valueRequired": true,
+                "variableName": "screen_15_wknd_hr_y"
+            },
+            {
+                "isAbout": "items/screen_15_wknd_min_y",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND screentime_phone_yn == '1')AND(screentime_15_wknd_hr > '0' OR screentime_15_wknd_min > '0')",
+                "valueRequired": true,
+                "variableName": "screen_15_wknd_min_y"
+            },
+            {
+                "isAbout": "items/screen_15_wknd_error_y",
+                "isVis": "((screen_15_wknd_hr_y + screen_15_wknd_min_y)>(screentime_15_wknd_hr + screentime_15_wknd_min))&&(screentime_phone_yn == '1')",
+                "valueRequired": false,
+                "variableName": "screen_15_wknd_error_y"
+            },
+            {
                 "isAbout": "items/screentime_wknd_typical_hr",
-                "isVis": "event_name_number <> '11'",
+                "isVis": "(event_name_number <> '11' OR event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "screentime_wknd_typical_hr"
             },
             {
                 "isAbout": "items/screentime_wknd_typical_min",
-                "isVis": "event_name_number <> '11'",
+                "isVis": "(event_name_number <> '11' OR event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "screentime_wknd_typical_min"
             },
             {
+                "isAbout": "items/screen_wknd_typical_hr_y",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND screentime_phone_yn == '1')AND(screentime_wknd_typical_hr > '0' OR screentime_wknd_typical_min > '0')",
+                "valueRequired": true,
+                "variableName": "screen_wknd_typical_hr_y"
+            },
+            {
+                "isAbout": "items/screen_wknd_typical_min_y",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND screentime_phone_yn == '1')AND(screentime_wknd_typical_hr > '0' OR screentime_wknd_typical_min > '0')",
+                "valueRequired": true,
+                "variableName": "screen_wknd_typical_min_y"
+            },
+            {
+                "isAbout": "items/screen_wknd_typical_error_y",
+                "isVis": "((screen_wknd_typical_hr_y + screen_wknd_typical_min_y)>(screentime_wknd_typical_hr + screentime_wknd_typical_min))&&(screentime_phone_yn == '1')",
+                "valueRequired": false,
+                "variableName": "screen_wknd_typical_error_y"
+            },
+            {
                 "isAbout": "items/screentime_wknd_school_hr",
-                "isVis": "event_name_number == '31'",
+                "isVis": "(event_name_number == '31' OR event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "screentime_wknd_school_hr"
             },
             {
                 "isAbout": "items/screentime_wknd_school_min",
-                "isVis": "event_name_number == '31'",
+                "isVis": "(event_name_number == '31' OR event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "screentime_wknd_school_min"
+            },
+            {
+                "isAbout": "items/screen_wknd_school_hr_y",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND screentime_phone_yn == '1')AND(screentime_wknd_school_hr > '0' OR screentime_wknd_school_min > '0')",
+                "valueRequired": true,
+                "variableName": "screen_wknd_school_hr_y"
+            },
+            {
+                "isAbout": "items/screen_wknd_school_min_y",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND screentime_phone_yn == '1')AND(screentime_wknd_school_hr > '0' OR screentime_wknd_school_min > '0')",
+                "valueRequired": true,
+                "variableName": "screen_wknd_school_min_y"
+            },
+            {
+                "isAbout": "items/screen_wknd_school_error_y",
+                "isVis": "((screen_wknd_school_hr_y + screen_wknd_school_min_y)>(screentime_wknd_school_hr + screentime_wknd_school_min))&&(screentime_phone_yn == '1')",
+                "valueRequired": false,
+                "variableName": "screen_wknd_school_error_y"
             },
             {
                 "isAbout": "items/screen13_y",
@@ -519,12 +903,6 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "screen14_y"
-            },
-            {
-                "isAbout": "items/screentime_phone_yn",
-                "isVis": "event_name_number <> '11'",
-                "valueRequired": true,
-                "variableName": "screentime_phone_yn"
             },
             {
                 "isAbout": "items/screentime_phone_descript",
@@ -696,13 +1074,13 @@
             },
             {
                 "isAbout": "items/screentime_smq_account",
-                "isVis": "screentime_usesoc == '1'",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "screentime_smq_account"
             },
             {
                 "isAbout": "items/screentime_smq_followers",
-                "isVis": "screentime_usesoc == '1' && screentime_smq_followers_dk == ''",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "screentime_smq_followers"
             },
@@ -732,7 +1110,7 @@
             },
             {
                 "isAbout": "items/screentime_smq_following_dk",
-                "isVis": "screentime_usesoc == '1' && screentime_smq_following == ''",
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "screentime_smq_following_dk"
             },
@@ -943,6 +1321,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2628",
+    "version": "revid2629",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
