@@ -317,7 +317,9 @@
             "../activities/residential_history_derived_scores_daic_use_only/residential_history_derived_scores_daic_use_only_schema",
             "../activities/p_abcd_covid19_questionnaire_part_1/p_abcd_covid19_questionnaire_part_1_schema",
             "../activities/p_abcd_covid19_questionnaire_part_2/p_abcd_covid19_questionnaire_part_2_schema",
-            "../activities/acs_post_stratification_weights_daic_use_only/acs_post_stratification_weights_daic_use_only_schema"
+            "../activities/acs_post_stratification_weights_daic_use_only/acs_post_stratification_weights_daic_use_only_schema",
+            "../activities/covid19_14day_symptom_screener/covid19_14day_symptom_screener_schema",
+            "../activities/covid19_24hour_symptom_screener/covid19_24hour_symptom_screener_schema"
         ],
         "addProperties": [
             {
@@ -2783,10 +2785,26 @@
                     "en": "Acs Post Stratification Weights Daic Use Only"
                 },
                 "variableName": "acs_post_stratification_weights_daic_use_only_schema"
+            },
+            {
+                "isAbout": "../activities/covid19_14day_symptom_screener/covid19_14day_symptom_screener_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Covid19 14Day Symptom Screener"
+                },
+                "variableName": "covid19_14day_symptom_screener_schema"
+            },
+            {
+                "isAbout": "../activities/covid19_24hour_symptom_screener/covid19_24hour_symptom_screener_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Covid19 24Hour Symptom Screener"
+                },
+                "variableName": "covid19_24hour_symptom_screener_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2554",
+    "version": "revid2555",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

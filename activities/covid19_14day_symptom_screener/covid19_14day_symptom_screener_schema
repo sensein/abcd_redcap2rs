@@ -1,0 +1,73 @@
+{
+    "id": "covid19_14day_symptom_screener_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "covid19_14day_symptom_screener"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/screener_phone_cv",
+            "items/any_symptoms_cv",
+            "items/symptoms_cv",
+            "items/diagnosed_cv",
+            "items/close_contact_cv",
+            "items/sched_visit_cv",
+            "items/dont_sched_visit_cv",
+            "items/covid19_14day_symptom_screener_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/screener_phone_cv",
+                "isVis": "event - name =='2_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "screener_phone_cv"
+            },
+            {
+                "isAbout": "items/any_symptoms_cv",
+                "isVis": "event - name =='2_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "any_symptoms_cv"
+            },
+            {
+                "isAbout": "items/symptoms_cv",
+                "isVis": "event - name =='2_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "symptoms_cv"
+            },
+            {
+                "isAbout": "items/diagnosed_cv",
+                "isVis": "event - name =='2_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "diagnosed_cv"
+            },
+            {
+                "isAbout": "items/close_contact_cv",
+                "isVis": "event - name =='2_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "close_contact_cv"
+            },
+            {
+                "isAbout": "items/sched_visit_cv",
+                "isVis": "(event - name =='2_year_follow_up_y_arm_1' AND any_symptoms_cv == '0' AND symptoms_cv___12 == '1' AND diagnosed_cv == '0' AND close_contact_cv == '0')",
+                "valueRequired": false,
+                "variableName": "sched_visit_cv"
+            },
+            {
+                "isAbout": "items/dont_sched_visit_cv",
+                "isVis": "event - name =='2_year_follow_up_y_arm_1' AND(any_symptoms_cv == '1' OR diagnosed_cv == '1' OR close_contact_cv == '1')",
+                "valueRequired": false,
+                "variableName": "dont_sched_visit_cv"
+            },
+            {
+                "isAbout": "items/covid19_14day_symptom_screener_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "covid19_14day_symptom_screener_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2555",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

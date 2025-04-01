@@ -1,0 +1,48 @@
+{
+    "id": "diagnosed_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200708"
+        }
+    ],
+    "preamble": {
+        "en": "For health safety reasons, and to help prevent the spread of the COVID-19, we are asking a few questions regarding how you, your child, and anyone coming to the appointment, are feeling and any cold or flu-like symptoms you may have."
+    },
+    "prefLabel": {
+        "en": "diagnosed_cv"
+    },
+    "question": {
+        "en": "In thelast 14 days, has this person currently been diagnosed with COVID-19?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

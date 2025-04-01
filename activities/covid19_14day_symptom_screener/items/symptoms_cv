@@ -1,0 +1,104 @@
+{
+    "id": "symptoms_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200708"
+        }
+    ],
+    "preamble": {
+        "en": "For health safety reasons, and to help prevent the spread of the COVID-19, we are asking a few questions regarding how you, your child, and anyone coming to the appointment, are feeling and any cold or flu-like symptoms you may have."
+    },
+    "prefLabel": {
+        "en": "symptoms_cv"
+    },
+    "question": {
+        "en": "Symptom:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Fever or chills"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Cough"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Shortness of breath or difficult breathing"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Fatigue"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Muscle or body aches"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Headache"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Loss of taste or smell"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Sore throat"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Congestion or runny nose"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Nausea or vomitting"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Diarrhea"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "None"
+                },
+                "value": 12
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
