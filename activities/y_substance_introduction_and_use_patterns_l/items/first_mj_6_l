@@ -1,18 +1,9 @@
 {
     "id": "first_mj_6_l",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": "6"
-        },
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": "6"
-        }
-    ],
+    "preamble": {
+        "en": "We would like to find out more about your very first experiences with marijuana.  For this next set of questions, please answer for the FIRST time you ever used marijuana."
+    },
     "prefLabel": {
         "en": "first_mj_6_l"
     },
@@ -92,6 +83,42 @@
                     "en": "12, I don't know who the marijuana belonged to"
                 },
                 "value": 12
+            },
+            {
+                "name": {
+                    "en": "13, From a doctor (prescription MJ in your name)"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "14, Family member or friend with prescription medical marijuana"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "15, Stranger with prescription medical marijuana"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "16, Used someone else's medical marijuana card/prescription"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "17, Legal recreational marijuana store or dispensary"
+                },
+                "value": 17
+            },
+            {
+                "name": {
+                    "en": "18, Ordered on the internet"
+                },
+                "value": 18
             }
         ],
         "valueType": [

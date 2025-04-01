@@ -1,0 +1,55 @@
+{
+    "id": "su_vape_mj_con_oils",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200423"
+        }
+    ],
+    "preamble": {
+        "en": "Vaped MJ Concentrates:"
+    },
+    "prefLabel": {
+        "en": "su_vape_mj_con_oils"
+    },
+    "question": {
+        "en": "During the past year, what was the typical way you vaped marijuana concentrates or oils?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "1, Portable vaporizer or vape pen for oil"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2, Portable vaporizer or vape pen for dab or wax"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3, Tabletop vaporizer"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4, Don't know"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

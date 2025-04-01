@@ -1,0 +1,61 @@
+{
+    "id": "su_vape_motiv_07",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "su_vape_motiv"
+        }
+    ],
+    "preamble": {
+        "en": "Before I ask more questions, I wanted to first define vaping. To \"vape\" is to use a device such as a JUUL, vape-pen, e-vaporizer, or vaporizer to inhale a vapor of flavor or a drug into the lungs.Here are some things that people have said about vaping, including vaping flavor or drugs such as nicotine or cannabis. Read each one and circle a number (from 1 to 5) to show what you think. There are no right or wrong answers to these questions."
+    },
+    "prefLabel": {
+        "en": "su_vape_motiv_07"
+    },
+    "question": {
+        "en": "It looks cool"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all true"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A little true"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Somewhat true"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Pretty true"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Very true"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

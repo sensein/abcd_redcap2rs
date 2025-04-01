@@ -1,6 +1,13 @@
 {
     "id": "tlfb_6mo_13_mj_l",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDECHOICE = '16'"
+        }
+    ],
     "preamble": {
         "en": "ANY Type of MJ Follow-up Questions"
     },
@@ -110,7 +117,13 @@
             },
             {
                 "name": {
-                    "en": "17, Other"
+                    "en": "17 On the internet"
+                },
+                "value": 18
+            },
+            {
+                "name": {
+                    "en": "18 Other"
                 },
                 "value": 16
             }

@@ -1,0 +1,34 @@
+{
+    "id": "su_tlfb_thc_mj_edible",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "[leave blank if don't know]"
+        },
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        }
+    ],
+    "preamble": {
+        "en": "Marijuana Edibles Follow-Up Questions"
+    },
+    "prefLabel": {
+        "en": "su_tlfb_thc_mj_edible"
+    },
+    "question": {
+        "en": "How much THC was typically in your marijuana edible? Answer in THC milligrams (mg)[measure in mg; 1 gram of ground MJ with 10% THC=100mg; typical serving size is 10mg]"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

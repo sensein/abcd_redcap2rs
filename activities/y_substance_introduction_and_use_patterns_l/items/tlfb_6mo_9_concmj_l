@@ -1,20 +1,27 @@
 {
     "id": "tlfb_6mo_9_concmj_l",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDECHOICE = '6'"
+        }
+    ],
     "preamble": {
-        "en": "Marijuana Concentrates Follow-Up Questions:"
+        "en": "Marijuana Concentrates Follow-Up Questions (Vaped or Smoked):"
     },
     "prefLabel": {
         "en": "tlfb_6mo_9_concmj_l"
     },
     "question": {
-        "en": "What was the typical type of MJ concentrate that you used during the past year?"
+        "en": "What was the typical type of MJ concentrate or oil that you used during the past year?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "1, Hash"
+                    "en": "1, Hash oil"
                 },
                 "value": 1
             },
@@ -32,19 +39,25 @@
             },
             {
                 "name": {
-                    "en": "4, Co2 oil"
+                    "en": "4, Co2 oil extracted oil or wax"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "5, BHO"
+                    "en": "5, BHO solvent extracted oil or wax"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "6, Other"
+                    "en": "6, Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "7, Other"
                 },
                 "value": 6
             }

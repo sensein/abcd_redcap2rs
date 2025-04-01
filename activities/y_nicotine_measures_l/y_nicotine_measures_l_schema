@@ -7,6 +7,25 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/su_cig_motiv_01",
+            "items/su_cig_motiv_02",
+            "items/su_cig_motiv_03",
+            "items/su_cig_motiv_04",
+            "items/su_cig_motiv_05",
+            "items/su_cig_motiv_06",
+            "items/su_cig_motiv_07",
+            "items/su_cig_motiv_08",
+            "items/su_cig_motiv_09",
+            "items/su_cig_motiv_10",
+            "items/su_cig_motiv_11",
+            "items/su_cig_motiv_12",
+            "items/su_cig_motiv_13",
+            "items/su_cig_motiv_14",
+            "items/su_cig_motiv_15",
+            "items/su_cig_motiv_16",
+            "items/su_cig_motiv_17",
+            "items/su_cig_motiv_18",
+            "items/su_cig_motiv_19",
             "items/ascq_section_q01",
             "items/ascq_section_q02",
             "items/ascq_section_q03",
@@ -14,6 +33,26 @@
             "items/ascq_section_q05",
             "items/ascq_section_q06",
             "items/ascq_section_q07",
+            "items/su_ends_motiv_01",
+            "items/su_ends_motiv_02",
+            "items/su_ends_motiv_03",
+            "items/su_ends_motiv_04",
+            "items/su_ends_motiv_05",
+            "items/su_ends_motiv_06",
+            "items/su_ends_motiv_07",
+            "items/su_ends_motiv_08",
+            "items/su_ends_motiv_09",
+            "items/su_ends_motiv_10",
+            "items/su_ends_motiv_11",
+            "items/su_ends_motiv_12",
+            "items/su_ends_motiv_13",
+            "items/su_ends_motiv_14",
+            "items/su_ends_motiv_15",
+            "items/su_ends_motives_16",
+            "items/su_ends_motives_17",
+            "items/su_ends_motives_18",
+            "items/su_ends_motives_19",
+            "items/su_ends_reasons",
             "items/su_ceq_q01",
             "items/su_ceq_q02",
             "items/su_ceq_q03",
@@ -46,6 +85,120 @@
             "items/y_nicotine_measures_l_complete"
         ],
         "addProperties": [
+            {
+                "isAbout": "items/su_cig_motiv_01",
+                "isVis": "xskipout_nic == '1' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_cig_motiv_01"
+            },
+            {
+                "isAbout": "items/su_cig_motiv_02",
+                "isVis": "xskipout_nic == '1' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_cig_motiv_02"
+            },
+            {
+                "isAbout": "items/su_cig_motiv_03",
+                "isVis": "xskipout_nic == '1' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_cig_motiv_03"
+            },
+            {
+                "isAbout": "items/su_cig_motiv_04",
+                "isVis": "xskipout_nic == '1' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_cig_motiv_04"
+            },
+            {
+                "isAbout": "items/su_cig_motiv_05",
+                "isVis": "xskipout_nic == '1' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_cig_motiv_05"
+            },
+            {
+                "isAbout": "items/su_cig_motiv_06",
+                "isVis": "xskipout_nic == '1' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_cig_motiv_06"
+            },
+            {
+                "isAbout": "items/su_cig_motiv_07",
+                "isVis": "xskipout_nic == '1' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_cig_motiv_07"
+            },
+            {
+                "isAbout": "items/su_cig_motiv_08",
+                "isVis": "xskipout_nic == '1' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_cig_motiv_08"
+            },
+            {
+                "isAbout": "items/su_cig_motiv_09",
+                "isVis": "xskipout_nic == '1' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_cig_motiv_09"
+            },
+            {
+                "isAbout": "items/su_cig_motiv_10",
+                "isVis": "xskipout_nic == '1' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_cig_motiv_10"
+            },
+            {
+                "isAbout": "items/su_cig_motiv_11",
+                "isVis": "xskipout_nic == '1' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_cig_motiv_11"
+            },
+            {
+                "isAbout": "items/su_cig_motiv_12",
+                "isVis": "xskipout_nic == '1' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_cig_motiv_12"
+            },
+            {
+                "isAbout": "items/su_cig_motiv_13",
+                "isVis": "xskipout_nic == '1' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_cig_motiv_13"
+            },
+            {
+                "isAbout": "items/su_cig_motiv_14",
+                "isVis": "xskipout_nic == '1' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_cig_motiv_14"
+            },
+            {
+                "isAbout": "items/su_cig_motiv_15",
+                "isVis": "xskipout_nic == '1' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_cig_motiv_15"
+            },
+            {
+                "isAbout": "items/su_cig_motiv_16",
+                "isVis": "xskipout_nic == '1' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_cig_motiv_16"
+            },
+            {
+                "isAbout": "items/su_cig_motiv_17",
+                "isVis": "xskipout_nic == '1' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_cig_motiv_17"
+            },
+            {
+                "isAbout": "items/su_cig_motiv_18",
+                "isVis": "xskipout_nic == '1' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_cig_motiv_18"
+            },
+            {
+                "isAbout": "items/su_cig_motiv_19",
+                "isVis": "xskipout_nic == '1' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_cig_motiv_19"
+            },
             {
                 "isAbout": "items/ascq_section_q01",
                 "isVis": "(tlfb_tob_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_tob_l == '1' && event - name == '2_year_follow_up_y_arm_1')== '1' ||(tlfb_tob_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_tob_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
@@ -87,6 +240,126 @@
                 "isVis": "(tlfb_tob_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_tob_l == '1' && event - name == '2_year_follow_up_y_arm_1')== '1' ||(tlfb_tob_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_tob_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "ascq_section_q07"
+            },
+            {
+                "isAbout": "items/su_ends_motiv_01",
+                "isVis": "xskipout_end == '1' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_ends_motiv_01"
+            },
+            {
+                "isAbout": "items/su_ends_motiv_02",
+                "isVis": "xskipout_end == '1' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_ends_motiv_02"
+            },
+            {
+                "isAbout": "items/su_ends_motiv_03",
+                "isVis": "xskipout_end == '1' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_ends_motiv_03"
+            },
+            {
+                "isAbout": "items/su_ends_motiv_04",
+                "isVis": "xskipout_end == '1' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_ends_motiv_04"
+            },
+            {
+                "isAbout": "items/su_ends_motiv_05",
+                "isVis": "xskipout_end == '1' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_ends_motiv_05"
+            },
+            {
+                "isAbout": "items/su_ends_motiv_06",
+                "isVis": "xskipout_end == '1' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_ends_motiv_06"
+            },
+            {
+                "isAbout": "items/su_ends_motiv_07",
+                "isVis": "xskipout_end == '1' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_ends_motiv_07"
+            },
+            {
+                "isAbout": "items/su_ends_motiv_08",
+                "isVis": "xskipout_end == '1' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_ends_motiv_08"
+            },
+            {
+                "isAbout": "items/su_ends_motiv_09",
+                "isVis": "xskipout_end == '1' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_ends_motiv_09"
+            },
+            {
+                "isAbout": "items/su_ends_motiv_10",
+                "isVis": "xskipout_end == '1' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_ends_motiv_10"
+            },
+            {
+                "isAbout": "items/su_ends_motiv_11",
+                "isVis": "xskipout_end == '1' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_ends_motiv_11"
+            },
+            {
+                "isAbout": "items/su_ends_motiv_12",
+                "isVis": "xskipout_end == '1' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_ends_motiv_12"
+            },
+            {
+                "isAbout": "items/su_ends_motiv_13",
+                "isVis": "xskipout_end == '1' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_ends_motiv_13"
+            },
+            {
+                "isAbout": "items/su_ends_motiv_14",
+                "isVis": "xskipout_end == '1' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_ends_motiv_14"
+            },
+            {
+                "isAbout": "items/su_ends_motiv_15",
+                "isVis": "xskipout_end == '1' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_ends_motiv_15"
+            },
+            {
+                "isAbout": "items/su_ends_motives_16",
+                "isVis": "xskipout_end == '1' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_ends_motives_16"
+            },
+            {
+                "isAbout": "items/su_ends_motives_17",
+                "isVis": "xskipout_end == '1' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_ends_motives_17"
+            },
+            {
+                "isAbout": "items/su_ends_motives_18",
+                "isVis": "xskipout_end == '1' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_ends_motives_18"
+            },
+            {
+                "isAbout": "items/su_ends_motives_19",
+                "isVis": "xskipout_end == '1' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_ends_motives_19"
+            },
+            {
+                "isAbout": "items/su_ends_reasons",
+                "isVis": "xskipout_end == '1' && event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_ends_reasons"
             },
             {
                 "isAbout": "items/su_ceq_q01",
@@ -144,55 +417,55 @@
             },
             {
                 "isAbout": "items/res_tobacco_q01_l",
-                "isVis": "tlfb_cig_use_l== '1' && tlfb_cig_use_c_l == 0",
+                "isVis": "(tlfb_cig_use_l == '1' && tlfb_cig_use_c_l == '0' && event_name_number == '11')||(tlfb_cig_use_l == '1' && 1_year_follow_up_y_arm_1tlfb_cig_use_c_l == '0' && tlfb_cig_use_c_l == '0' && event_name_number == '21')||(tlfb_cig_use_l == '1' && 1_year_follow_up_y_arm_1tlfb_cig_use_c_l == '0' && 2_year_follow_up_y_arm_1tlfb_cig_use_c_l == '0' && tlfb_cig_use_c_l == '0' && event_name_number == '31')",
                 "valueRequired": true,
                 "variableName": "res_tobacco_q01_l"
             },
             {
                 "isAbout": "items/res_tobacco_q02_l",
-                "isVis": "tlfb_cig_use_l== '1' && tlfb_cig_use_c_l == 0",
+                "isVis": "(tlfb_cig_use_l == '1' && tlfb_cig_use_c_l == '0' && event_name_number == '11')||(tlfb_cig_use_l == '1' && 1_year_follow_up_y_arm_1tlfb_cig_use_c_l == '0' && tlfb_cig_use_c_l == '0' && event_name_number == '21')||(tlfb_cig_use_l == '1' && 1_year_follow_up_y_arm_1tlfb_cig_use_c_l == '0' && 2_year_follow_up_y_arm_1tlfb_cig_use_c_l == '0' && tlfb_cig_use_c_l == '0' && event_name_number == '31')",
                 "valueRequired": true,
                 "variableName": "res_tobacco_q02_l"
             },
             {
                 "isAbout": "items/res_tobacco_q08_l",
-                "isVis": "tlfb_cig_use_l== '1' && tlfb_cig_use_c_l == 0",
+                "isVis": "(tlfb_cig_use_l == '1' && tlfb_cig_use_c_l == '0' && event_name_number == '11')||(tlfb_cig_use_l == '1' && 1_year_follow_up_y_arm_1tlfb_cig_use_c_l == '0' && tlfb_cig_use_c_l == '0' && event_name_number == '21')||(tlfb_cig_use_l == '1' && 1_year_follow_up_y_arm_1tlfb_cig_use_c_l == '0' && 2_year_follow_up_y_arm_1tlfb_cig_use_c_l == '0' && tlfb_cig_use_c_l == '0' && event_name_number == '31')",
                 "valueRequired": true,
                 "variableName": "res_tobacco_q08_l"
             },
             {
                 "isAbout": "items/res_tobacco_q09_l",
-                "isVis": "tlfb_ecig_use_l== '1' && tlfb_ecig_use_c_l == '0'",
+                "isVis": "(tlfb_ecig_use_l == '1' && tlfb_ecig_use_c_l == '0' && event_name_number == '11')||(tlfb_ecig_use_l == '1' && 1_year_follow_up_y_arm_1tlfb_ecig_use_c_l == '0' && tlfb_ecig_use_c_l == '0' && event_name_number == '21')||(tlfb_ecig_use_l == '1' && 1_year_follow_up_y_arm_1tlfb_ecig_use_c_l == '0' && 2_year_follow_up_y_arm_1tlfb_ecig_use_c_l == '0' && tlfb_ecig_use_c_l == '0' && event_name_number == '31')",
                 "valueRequired": true,
                 "variableName": "res_tobacco_q09_l"
             },
             {
                 "isAbout": "items/res_tobacco_q10_l",
-                "isVis": "tlfb_ecig_use_l== '1' && tlfb_ecig_use_c_l== '0'",
+                "isVis": "(tlfb_ecig_use_l == '1' && tlfb_ecig_use_c_l == '0' && event_name_number == '11')||(tlfb_ecig_use_l == '1' && 1_year_follow_up_y_arm_1tlfb_ecig_use_c_l == '0' && tlfb_ecig_use_c_l == '0' && event_name_number == '21')||(tlfb_ecig_use_l == '1' && 1_year_follow_up_y_arm_1tlfb_ecig_use_c_l == '0' && 2_year_follow_up_y_arm_1tlfb_ecig_use_c_l == '0' && tlfb_ecig_use_c_l == '0' && event_name_number == '31')",
                 "valueRequired": true,
                 "variableName": "res_tobacco_q10_l"
             },
             {
                 "isAbout": "items/res_tobacco_q16_l",
-                "isVis": "tlfb_ecig_use_l== '1' && tlfb_ecig_use_c_l== '0'",
+                "isVis": "(tlfb_ecig_use_l == '1' && tlfb_ecig_use_c_l == '0' && event_name_number == '11')||(tlfb_ecig_use_l == '1' && 1_year_follow_up_y_arm_1tlfb_ecig_use_c_l == '0' && tlfb_ecig_use_c_l == '0' && event_name_number == '21')||(tlfb_ecig_use_l == '1' && 1_year_follow_up_y_arm_1tlfb_ecig_use_c_l == '0' && 2_year_follow_up_y_arm_1tlfb_ecig_use_c_l == '0' && tlfb_ecig_use_c_l == '0' && event_name_number == '31')",
                 "valueRequired": true,
                 "variableName": "res_tobacco_q16_l"
             },
             {
                 "isAbout": "items/res_tobacco_q17_l",
-                "isVis": "tlfb_chew_use_l== '1' && tlfb_chew_use_c_l== '0'",
+                "isVis": "(tlfb_chew_use_l == '1' && tlfb_chew_use_c_l == '0' && event_name_number == '11')||(tlfb_chew_use_l == '1' && 1_year_follow_up_y_arm_1tlfb_chew_use_c_l == '0' && tlfb_chew_use_c_l == '0' && event_name_number == '21')||(tlfb_chew_use_l == '1' && 1_year_follow_up_y_arm_1tlfb_chew_use_c_l == '0' && 2_year_follow_up_y_arm_1tlfb_chew_use_c_l == '0' && tlfb_chew_use_c_l == '0' && event_name_number == '31')",
                 "valueRequired": true,
                 "variableName": "res_tobacco_q17_l"
             },
             {
                 "isAbout": "items/res_tobacco_q18_l",
-                "isVis": "tlfb_chew_use_l== '1' && tlfb_chew_use_c_l== '0'",
+                "isVis": "(tlfb_chew_use_l == '1' && tlfb_chew_use_c_l == '0' && event_name_number == '11')||(tlfb_chew_use_l == '1' && 1_year_follow_up_y_arm_1tlfb_chew_use_c_l == '0' && tlfb_chew_use_c_l == '0' && event_name_number == '21')||(tlfb_chew_use_l == '1' && 1_year_follow_up_y_arm_1tlfb_chew_use_c_l == '0' && 2_year_follow_up_y_arm_1tlfb_chew_use_c_l == '0' && tlfb_chew_use_c_l == '0' && event_name_number == '31')",
                 "valueRequired": true,
                 "variableName": "res_tobacco_q18_l"
             },
             {
                 "isAbout": "items/res_tobacco_q24_l",
-                "isVis": "tlfb_chew_use_l== '1' && tlfb_chew_use_c_l== '0'",
+                "isVis": "(tlfb_chew_use_l == '1' && tlfb_chew_use_c_l == '0' && event_name_number == '11')||(tlfb_chew_use_l == '1' && 1_year_follow_up_y_arm_1tlfb_chew_use_c_l == '0' && tlfb_chew_use_c_l == '0' && event_name_number == '21')||(tlfb_chew_use_l == '1' && 1_year_follow_up_y_arm_1tlfb_chew_use_c_l == '0' && 2_year_follow_up_y_arm_1tlfb_chew_use_c_l == '0' && tlfb_chew_use_c_l == '0' && event_name_number == '31')",
                 "valueRequired": true,
                 "variableName": "res_tobacco_q24_l"
             },
@@ -271,6 +544,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2538",
+    "version": "revid2539",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

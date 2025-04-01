@@ -39,6 +39,10 @@
             "variableName": "tlfb_nicotine_calc_l"
         },
         {
+            "jsExpression": "round((tlfb_age_calc_inmonths_l -(datediff(su_tlfb_vaped_date,su_today_l,'M','mdy')))/ 12,2)",
+            "variableName": "su_tlfb_vaped_calc"
+        },
+        {
             "jsExpression": "round((tlfb_age_calc_inmonths_l -(datediff(tlfb_mj_date1_l,su_today_l,'M','mdy')))/ 12,2)",
             "variableName": "tlfb_mj_calc_l"
         },
@@ -47,8 +51,16 @@
             "variableName": "tlfb_blunt_calc_l"
         },
         {
+            "jsExpression": "round((tlfb_age_calc_inmonths_l -(datediff(su_tlfb_mj_fl_date,su_today_l,'M','mdy')))/ 12,2)",
+            "variableName": "su_tlfb_mj_fl_calc"
+        },
+        {
             "jsExpression": "round((tlfb_age_calc_inmonths_l -(datediff(tlfb_edible_date1_l,su_today_l,'M','mdy')))/ 12,2)",
             "variableName": "tlfb_edible_calc_l"
+        },
+        {
+            "jsExpression": "round((tlfb_age_calc_inmonths_l -(datediff(su_tlfb_mj_oils_date,su_today_l,'M','mdy')))/ 12,2)",
+            "variableName": "su_tlfb_mj_oils_calc"
         },
         {
             "jsExpression": "round((tlfb_age_calc_inmonths_l -(datediff(tlfb_mj_conc_date1_l,su_today_l,'M','mdy')))/ 12,2)",
@@ -103,7 +115,7 @@
             "variableName": "tlfb_hall_calc_l"
         },
         {
-            "jsExpression": "round((tlfb_age_calc_inmonths_l -(datediff(tlfb_shrooms_date1_l,su_today,'M','mdy')))/ 12,2)",
+            "jsExpression": "round((tlfb_age_calc_inmonths_l -(datediff(tlfb_shrooms_date1_l,su_today_l,'M','mdy')))/ 12,2)",
             "variableName": "tlfb_shrooms_calc_l"
         },
         {
@@ -173,6 +185,7 @@
             "items/tlfb_tob_puff_l",
             "items/tlfb_cig_use_l",
             "items/tlfb_ecig_use_l",
+            "items/su_tlfb_vape_flavoring",
             "items/tlfb_chew_use_l",
             "items/tlfb_cigar_use_l",
             "items/tlfb_hookah_use_l",
@@ -181,13 +194,15 @@
             "items/tlfb_mj_puff_l",
             "items/tlfb_mj_use_l",
             "items/tlfb_blunt_use_l",
+            "items/su_tlfb_vape_mj_fl_use",
             "items/tlfb_edible_use_l",
+            "items/su_tlfb_vape_mj_oils_use",
             "items/tlfb_mj_conc_use_l",
             "items/tlfb_mj_drink_use_l",
             "items/tlfb_tincture_use_l",
             "items/su_tlfb_cbd_use_l",
             "items/tlfb_mj_synth_use_l",
-            "items/su_tlfb_cbd_warning",
+            "items/su_tlfb_vaped_something",
             "items/tlfb_coc_use_l",
             "items/tlfb_bsalts_use_l",
             "items/tlfb_meth_use_l",
@@ -214,7 +229,6 @@
             "items/tlfb_other_use2_l",
             "items/tlfb_other_use2_list_l",
             "items/tlfb_other_use2_list_other_l",
-            "items/tlfb_alc_sip_txt",
             "items/isip_1_l",
             "items/su_isip_1_calc_l",
             "items/isip_1b_yn_l",
@@ -228,7 +242,6 @@
             "items/isip_4_l",
             "items/isip_5_l",
             "items/isip_6_l",
-            "items/low_nicotine_intro",
             "items/first_nicotine_1_l",
             "items/first_nicotine_1b",
             "items/su_first_nicotine_1b_calc",
@@ -243,9 +256,11 @@
             "items/first_nicotine_11_l",
             "items/first_nicotine_12_l",
             "items/first_nicotine_13_l",
-            "items/first_mj_describe_l",
+            "items/su_tlfb_vape_nic",
+            "items/su_tlfb_vape_header",
+            "items/su_tlfb_vape_flavor_days",
+            "items/su_tlfb_vape_just_flavoring",
             "items/first_mj_1b_l",
-            "items/first_mj_intro_l",
             "items/first_mj_1a_l",
             "items/first_mj_3_l",
             "items/first_mj_4_l",
@@ -270,12 +285,18 @@
             "items/tlfb_pipes_date1_l",
             "items/tlfb_nicotine_first_use",
             "items/tlfb_nicotine_date1_l",
+            "items/su_tlfb_vaped_first_use",
+            "items/su_tlfb_vaped_date",
             "items/tlfb_mj_first_use",
             "items/tlfb_mj_date1_l",
             "items/tlfb_blunt_first_use",
             "items/tlfb_blunt_date1_l",
+            "items/su_tlfb_mj_fl_first_use",
+            "items/su_tlfb_mj_fl_date",
             "items/tlfb_edible_first_use",
             "items/tlfb_edible_date1_l",
+            "items/su_tlfb_mj_oils_first_use",
+            "items/su_tlfb_mj_oils_date",
             "items/tlfb_mj_con_first_use",
             "items/tlfb_mj_conc_date1_l",
             "items/tlfb_mj_drink_first_use",
@@ -332,9 +353,13 @@
             "items/xskipout_tob_l",
             "items/xskipout_mj_l",
             "items/xskipout_other_l",
+            "items/xskipout_nic",
+            "items/xskipout_end",
+            "items/xskipout_vape",
             "items/xskipout_remote",
             "items/xskipout_device",
             "items/xskipout_session",
+            "items/su_tlfb_cbd_warning",
             "items/su_alc_tox_nic_warn",
             "items/aud_ksads",
             "items/dud_ksads",
@@ -352,6 +377,7 @@
             "items/su_tlfb_past_yr_ecig_6_l",
             "items/su_tlfb_past_yr_exig_7_l",
             "items/su_tlfb_past_yr_prim_3_mj_l",
+            "items/su_tlfb_vape_mj_fu",
             "items/tlfb_6mo_4_mj_l",
             "items/tlfb_6mo_4_mj_dk_l",
             "items/tlfb_6mo_5_mj_l",
@@ -359,18 +385,23 @@
             "items/mj_pic_l",
             "items/tlfb_6mo_7_mj_l",
             "items/tlfb_6mo_8_mj_l",
+            "items/su_vape_mj_con_oils",
             "items/tlfb_6mo_9_concmj_l",
             "items/tlfb_6mo_9b_concmj_l",
             "items/tlfb_6mo_10_concmj_l",
             "items/tlfb_6mo_10b_concmj_l",
             "items/tlfb_6mo_11_concmj_l",
             "items/tlfb_6mo_12_concmj_l",
-            "items/tlfb_6mo_13_mj_l",
+            "items/su_mj_pic",
+            "items/su_tlfb_6mo_mj",
+            "items/su_tlfb_past_year_mj",
             "items/su_tlfb_past_yr_mj_edible_l",
-            "items/tlfb_6mo_mj_drink_type_l",
-            "items/tlfb_6mo_tincture_type_l",
+            "items/su_tlfb_thc_mj_edible",
+            "items/tlfb_6mo_13_mj_l",
             "items/su_tlfb_mj_paranoid_l",
             "items/su_tlfb_mj_hear_l",
+            "items/tlfb_6mo_mj_drink_type_l",
+            "items/tlfb_6mo_tincture_type_l",
             "items/su_tlfb_cbd_follow_up_l",
             "items/tlfb_6mo_14_coc_l",
             "items/tlfb_6mo_15_coc_l",
@@ -550,6 +581,12 @@
                 "variableName": "tlfb_ecig_use_l"
             },
             {
+                "isAbout": "items/su_tlfb_vape_flavoring",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_tlfb_vape_flavoring"
+            },
+            {
                 "isAbout": "items/tlfb_chew_use_l",
                 "isVis": "tlfb_tob_l == '1' || tlfb_tob_c_l == '1' ||(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
@@ -598,32 +635,44 @@
                 "variableName": "tlfb_blunt_use_l"
             },
             {
+                "isAbout": "items/su_tlfb_vape_mj_fl_use",
+                "isVis": "tlfb_mj_puff_l == '1'",
+                "valueRequired": true,
+                "variableName": "su_tlfb_vape_mj_fl_use"
+            },
+            {
                 "isAbout": "items/tlfb_edible_use_l",
                 "isVis": "tlfb_mj_puff_l == '1'",
                 "valueRequired": true,
                 "variableName": "tlfb_edible_use_l"
             },
             {
+                "isAbout": "items/su_tlfb_vape_mj_oils_use",
+                "isVis": "tlfb_mj_puff_l == '1'",
+                "valueRequired": true,
+                "variableName": "su_tlfb_vape_mj_oils_use"
+            },
+            {
                 "isAbout": "items/tlfb_mj_conc_use_l",
-                "isVis": "tlfb_mj_l == '1' || tlfb_mj_c_l == '1' ||(event - name == '3_year_follow_up_y_arm_1')",
+                "isVis": "tlfb_mj_puff_l == '1'",
                 "valueRequired": true,
                 "variableName": "tlfb_mj_conc_use_l"
             },
             {
                 "isAbout": "items/tlfb_mj_drink_use_l",
-                "isVis": "tlfb_mj_l == '1' || tlfb_mj_c_l == '1' ||(event - name == '3_year_follow_up_y_arm_1')",
+                "isVis": "tlfb_mj_puff_l == '1'",
                 "valueRequired": true,
                 "variableName": "tlfb_mj_drink_use_l"
             },
             {
                 "isAbout": "items/tlfb_tincture_use_l",
-                "isVis": "tlfb_mj_l == '1' || tlfb_mj_c_l == '1' ||(event - name == '3_year_follow_up_y_arm_1')",
+                "isVis": "tlfb_mj_puff_l == '1'",
                 "valueRequired": true,
                 "variableName": "tlfb_tincture_use_l"
             },
             {
                 "isAbout": "items/su_tlfb_cbd_use_l",
-                "isVis": "(tlfb_mj_l == '1' || tlfb_mj_c_l == '1')&&(event_name_number == '21')||(event_name_number >'30')",
+                "isVis": "(tlfb_mj_l == '1' || tlfb_mj_c_l == '1')&&(event_name_number == '21')||(event_name_number > '30')",
                 "valueRequired": true,
                 "variableName": "su_tlfb_cbd_use_l"
             },
@@ -634,10 +683,10 @@
                 "variableName": "tlfb_mj_synth_use_l"
             },
             {
-                "isAbout": "items/su_tlfb_cbd_warning",
-                "isVis": "su_tlfb_cbd_use_l =='1'",
-                "valueRequired": false,
-                "variableName": "su_tlfb_cbd_warning"
+                "isAbout": "items/su_tlfb_vaped_something",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_tlfb_vaped_something"
             },
             {
                 "isAbout": "items/tlfb_coc_use_l",
@@ -796,12 +845,6 @@
                 "variableName": "tlfb_other_use2_list_other_l"
             },
             {
-                "isAbout": "items/tlfb_alc_sip_txt",
-                "isVis": "tlfb_alc_sip_l == '1'",
-                "valueRequired": false,
-                "variableName": "tlfb_alc_sip_txt"
-            },
-            {
                 "isAbout": "items/isip_1_l",
                 "isVis": "tlfb_alc_sip_l > 0",
                 "valueRequired": true,
@@ -878,12 +921,6 @@
                 "isVis": "(isip_1b_yn_l == '1' &&(isip_1d_c_l == '0' || isip_3_c_l == '0' || isip_4_c_l == '0' || isip_5_c_l == '0' || isip_6_c_l == '0')&& event_name_number == '11')||(isip_1b_c_l == '1' &&(isip_1d_c_l == '0' || isip_3_c_l == '0' || isip_4_c_l == '0' || isip_5_c_l == '0' || isip_6_c_l == '0')&& event_name_number == '11')||((isip_1b_yn_l == '1' && isip_1d_c_l == '0')&& event_name_number > '11')",
                 "valueRequired": true,
                 "variableName": "isip_6_l"
-            },
-            {
-                "isAbout": "items/low_nicotine_intro",
-                "isVis": "tlfb_tob_puff_l == '1' && tlfb_tob_puff_c_l == '0'",
-                "valueRequired": false,
-                "variableName": "low_nicotine_intro"
             },
             {
                 "isAbout": "items/first_nicotine_1_l",
@@ -970,22 +1007,34 @@
                 "variableName": "first_nicotine_13_l"
             },
             {
-                "isAbout": "items/first_mj_describe_l",
-                "isVis": "tlfb_mj_puff_l=='1'",
+                "isAbout": "items/su_tlfb_vape_nic",
+                "isVis": "(tlfb_ecig_use_l == '1' || su_tlfb_vape_flavoring == '1')",
+                "valueRequired": true,
+                "variableName": "su_tlfb_vape_nic"
+            },
+            {
+                "isAbout": "items/su_tlfb_vape_header",
+                "isVis": "su_tlfb_vape_flavoring == '1'",
                 "valueRequired": false,
-                "variableName": "first_mj_describe_l"
+                "variableName": "su_tlfb_vape_header"
+            },
+            {
+                "isAbout": "items/su_tlfb_vape_flavor_days",
+                "isVis": "su_tlfb_vape_flavoring == '1'",
+                "valueRequired": true,
+                "variableName": "su_tlfb_vape_flavor_days"
+            },
+            {
+                "isAbout": "items/su_tlfb_vape_just_flavoring",
+                "isVis": "su_tlfb_vape_flavor_days > '1'",
+                "valueRequired": true,
+                "variableName": "su_tlfb_vape_just_flavoring"
             },
             {
                 "isAbout": "items/first_mj_1b_l",
                 "isVis": "tlfb_mj_puff_l=='1'",
                 "valueRequired": true,
                 "variableName": "first_mj_1b_l"
-            },
-            {
-                "isAbout": "items/first_mj_intro_l",
-                "isVis": "tlfb_mj_puff_l=='1' && tlfb_mj_puff_c_l=='0'",
-                "valueRequired": false,
-                "variableName": "first_mj_intro_l"
             },
             {
                 "isAbout": "items/first_mj_1a_l",
@@ -1180,6 +1229,24 @@
                 "variableName": "tlfb_nicotine_calc_l"
             },
             {
+                "isAbout": "items/su_tlfb_vaped_first_use",
+                "isVis": "su_tlfb_vape_flavoring == '1' && event_name_number > '11'",
+                "valueRequired": true,
+                "variableName": "su_tlfb_vaped_first_use"
+            },
+            {
+                "isAbout": "items/su_tlfb_vaped_date",
+                "isVis": "su_tlfb_vaped_first_use == '1'",
+                "valueRequired": true,
+                "variableName": "su_tlfb_vaped_date"
+            },
+            {
+                "isAbout": "items/su_tlfb_vaped_calc",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_tlfb_vaped_calc"
+            },
+            {
                 "isAbout": "items/tlfb_mj_first_use",
                 "isVis": "tlfb_mj_use_l== '1' && event_name_number > '11'",
                 "valueRequired": true,
@@ -1216,6 +1283,24 @@
                 "variableName": "tlfb_blunt_calc_l"
             },
             {
+                "isAbout": "items/su_tlfb_mj_fl_first_use",
+                "isVis": "su_tlfb_vape_mj_fl_use == '1' && event_name_number > '11'",
+                "valueRequired": true,
+                "variableName": "su_tlfb_mj_fl_first_use"
+            },
+            {
+                "isAbout": "items/su_tlfb_mj_fl_date",
+                "isVis": "su_tlfb_mj_fl_first_use == '1'",
+                "valueRequired": true,
+                "variableName": "su_tlfb_mj_fl_date"
+            },
+            {
+                "isAbout": "items/su_tlfb_mj_fl_calc",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_tlfb_mj_fl_calc"
+            },
+            {
                 "isAbout": "items/tlfb_edible_first_use",
                 "isVis": "tlfb_edible_use_l== '1' && event_name_number > '11'",
                 "valueRequired": true,
@@ -1232,6 +1317,24 @@
                 "isVis": false,
                 "valueRequired": true,
                 "variableName": "tlfb_edible_calc_l"
+            },
+            {
+                "isAbout": "items/su_tlfb_mj_oils_first_use",
+                "isVis": "su_tlfb_vape_mj_oils_use == '1' && event_name_number > '11'",
+                "valueRequired": true,
+                "variableName": "su_tlfb_mj_oils_first_use"
+            },
+            {
+                "isAbout": "items/su_tlfb_mj_oils_date",
+                "isVis": "su_tlfb_mj_oils_first_use == '1'",
+                "valueRequired": true,
+                "variableName": "su_tlfb_mj_oils_date"
+            },
+            {
+                "isAbout": "items/su_tlfb_mj_oils_calc",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_tlfb_mj_oils_calc"
             },
             {
                 "isAbout": "items/tlfb_mj_con_first_use",
@@ -1649,7 +1752,7 @@
             },
             {
                 "isAbout": "items/tlfb_6mo_skip_l",
-                "isVis": "tlfb_alc_use_l == '1' || tlfb_cig_use_l == '1' || tlfb_ecig_use_l == '1' || tlfb_chew_use_l == '1' || tlfb_cigar_use_l == '1' || tlfb_hookah_use_l == '1' || tlfb_pipes_use_l == '1' || tlfb_nicotine_use_l == '1' || tlfb_mj_use_l == '1' || tlfb_blunt_use_l == '1' || tlfb_edible_use_l == '1' || tlfb_mj_conc_use_l == '1' || tlfb_mj_drink_use_l == '1' || tlfb_tincture_use_l == '1' || tlfb_mj_synth_use_l == '1' || tlfb_coc_use_l == '1' || tlfb_bsalts_use_l == '1' || tlfb_meth_use_l == '1' || tlfb_mdma_use_l == '1' || tlfb_ket_use_l == '1' || tlfb_ghb_use_l == '1' || tlfb_opi_use_l == '1' || tlfb_lsd_use_l == '1' || tlfb_shrooms_use_l == '1' || tlfb_salvia_use_l == '1' || tlfb_steroids_use_l == '1' || tlfb_inhalant_use_l == '1' || tlfb_amp_use_l == '1' || tlfb_tranq_use_l == '1' || tlfb_vicodin_use_l == '1' || tlfb_cough_use_l == '1' || su_tlfb_cbd_use_l == '1'",
+                "isVis": "tlfb_alc_use_l == '1' || tlfb_cig_use_l == '1' || tlfb_ecig_use_l == '1' || tlfb_chew_use_l == '1' || tlfb_cigar_use_l == '1' || tlfb_hookah_use_l == '1' || tlfb_pipes_use_l == '1' || tlfb_nicotine_use_l == '1' || tlfb_mj_use_l == '1' || tlfb_blunt_use_l == '1' || tlfb_edible_use_l == '1' || tlfb_mj_conc_use_l == '1' || tlfb_mj_drink_use_l == '1' || tlfb_tincture_use_l == '1' || tlfb_mj_synth_use_l == '1' || tlfb_coc_use_l == '1' || tlfb_bsalts_use_l == '1' || tlfb_meth_use_l == '1' || tlfb_mdma_use_l == '1' || tlfb_ket_use_l == '1' || tlfb_ghb_use_l == '1' || tlfb_opi_use_l == '1' || tlfb_lsd_use_l == '1' || tlfb_shrooms_use_l == '1' || tlfb_salvia_use_l == '1' || tlfb_steroids_use_l == '1' || tlfb_inhalant_use_l == '1' || tlfb_amp_use_l == '1' || tlfb_tranq_use_l == '1' || tlfb_vicodin_use_l == '1' || tlfb_cough_use_l == '1' || su_tlfb_cbd_use_l == '1' || su_tlfb_vape_mj_fl_use == '1' || su_tlfb_vape_mj_oils_use == '1'",
                 "valueRequired": true,
                 "variableName": "tlfb_6mo_skip_l"
             },
@@ -1667,19 +1770,19 @@
             },
             {
                 "isAbout": "items/tlfb_privacy",
-                "isVis": "(tlfb_alc_use_l == '1' || tlfb_cig_use_l == '1' || tlfb_ecig_use_l == '1' || tlfb_chew_use_l == '1' || tlfb_cigar_use_l == '1' || tlfb_hookah_use_l == '1' || tlfb_pipes_use_l == '1' || tlfb_nicotine_use_l == '1' || tlfb_mj_use_l == '1' || tlfb_blunt_use_l == '1' || tlfb_edible_use_l == '1' || tlfb_mj_conc_use_l == '1' || tlfb_mj_drink_use_l == '1' || tlfb_tincture_use_l == '1' || tlfb_mj_synth_use_l == '1' || tlfb_coc_use_l == '1' || tlfb_bsalts_use_l == '1' || tlfb_meth_use_l == '1' || tlfb_mdma_use_l == '1' || tlfb_ket_use_l == '1' || tlfb_ghb_use_l == '1' || tlfb_opi_use_l == '1' || tlfb_lsd_use_l == '1' || tlfb_shrooms_use_l == '1' || tlfb_salvia_use_l == '1' || tlfb_steroids_use_l == '1' || tlfb_inhalant_use_l == '1' || tlfb_amp_use_l == '1' || tlfb_tranq_use_l == '1' || tlfb_vicodin_use_l == '1' || tlfb_cough_use_l == '1' || su_tlfb_cbd_use_l == '1')&& sched_delay == '9'",
+                "isVis": "(tlfb_alc_use_l == '1' || tlfb_cig_use_l == '1' || tlfb_ecig_use_l == '1' || tlfb_chew_use_l == '1' || tlfb_cigar_use_l == '1' || tlfb_hookah_use_l == '1' || tlfb_pipes_use_l == '1' || tlfb_nicotine_use_l == '1' || tlfb_mj_use_l == '1' || tlfb_blunt_use_l == '1' || tlfb_edible_use_l == '1' || tlfb_mj_conc_use_l == '1' || tlfb_mj_drink_use_l == '1' || tlfb_tincture_use_l == '1' || tlfb_mj_synth_use_l == '1' || tlfb_coc_use_l == '1' || tlfb_bsalts_use_l == '1' || tlfb_meth_use_l == '1' || tlfb_mdma_use_l == '1' || tlfb_ket_use_l == '1' || tlfb_ghb_use_l == '1' || tlfb_opi_use_l == '1' || tlfb_lsd_use_l == '1' || tlfb_shrooms_use_l == '1' || tlfb_salvia_use_l == '1' || tlfb_steroids_use_l == '1' || tlfb_inhalant_use_l == '1' || tlfb_amp_use_l == '1' || tlfb_tranq_use_l == '1' || tlfb_vicodin_use_l == '1' || tlfb_cough_use_l == '1' || su_tlfb_cbd_use_l == '1' || su_tlfb_vape_mj_fl_use == '1' || su_tlfb_vape_mj_oils_use == '1')&&(sched_delay == '9' && event - name == '2_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "tlfb_privacy"
             },
             {
                 "isAbout": "items/tlfb_desc_w_audio",
-                "isVis": "((tlfb_alc_use_l == '1' || tlfb_cig_use_l == '1' || tlfb_ecig_use_l == '1' || tlfb_chew_use_l == '1' || tlfb_cigar_use_l == '1' || tlfb_hookah_use_l == '1' || tlfb_pipes_use_l == '1' || tlfb_nicotine_use_l == '1' || tlfb_mj_use_l == '1' || tlfb_blunt_use_l == '1' || tlfb_edible_use_l == '1' || tlfb_mj_conc_use_l == '1' || tlfb_mj_drink_use_l == '1' || tlfb_tincture_use_l == '1' || tlfb_mj_synth_use_l == '1' || tlfb_coc_use_l == '1' || tlfb_bsalts_use_l == '1' || tlfb_meth_use_l == '1' || tlfb_mdma_use_l == '1' || tlfb_ket_use_l == '1' || tlfb_ghb_use_l == '1' || tlfb_opi_use_l == '1' || tlfb_lsd_use_l == '1' || tlfb_shrooms_use_l == '1' || tlfb_salvia_use_l == '1' || tlfb_steroids_use_l == '1' || tlfb_inhalant_use_l == '1' || tlfb_amp_use_l == '1' || tlfb_tranq_use_l == '1' || tlfb_vicodin_use_l == '1' || tlfb_cough_use_l == '1' || su_tlfb_cbd_use_l == '1')&& tlfb_privacy___1 == '1' && tlfb_privacy___2 == '0')",
+                "isVis": "((tlfb_alc_use_l == '1' || tlfb_cig_use_l == '1' || tlfb_ecig_use_l == '1' || tlfb_chew_use_l == '1' || tlfb_cigar_use_l == '1' || tlfb_hookah_use_l == '1' || tlfb_pipes_use_l == '1' || tlfb_nicotine_use_l == '1' || tlfb_mj_use_l == '1' || tlfb_blunt_use_l == '1' || tlfb_edible_use_l == '1' || tlfb_mj_conc_use_l == '1' || tlfb_mj_drink_use_l == '1' || tlfb_tincture_use_l == '1' || tlfb_mj_synth_use_l == '1' || tlfb_coc_use_l == '1' || tlfb_bsalts_use_l == '1' || tlfb_meth_use_l == '1' || tlfb_mdma_use_l == '1' || tlfb_ket_use_l == '1' || tlfb_ghb_use_l == '1' || tlfb_opi_use_l == '1' || tlfb_lsd_use_l == '1' || tlfb_shrooms_use_l == '1' || tlfb_salvia_use_l == '1' || tlfb_steroids_use_l == '1' || tlfb_inhalant_use_l == '1' || tlfb_amp_use_l == '1' || tlfb_tranq_use_l == '1' || tlfb_vicodin_use_l == '1' || tlfb_cough_use_l == '1' || su_tlfb_cbd_use_l == '1' || su_tlfb_vape_mj_fl_use == '1' || su_tlfb_vape_mj_oils_use == '1')&& tlfb_privacy___1 == '1' && tlfb_privacy___2 == '0')",
                 "valueRequired": false,
                 "variableName": "tlfb_desc_w_audio"
             },
             {
                 "isAbout": "items/tlfb_desc_w_screenshare",
-                "isVis": "((tlfb_alc_use_l == '1' || tlfb_cig_use_l == '1' || tlfb_ecig_use_l == '1' || tlfb_chew_use_l == '1' || tlfb_cigar_use_l == '1' || tlfb_hookah_use_l == '1' || tlfb_pipes_use_l == '1' || tlfb_nicotine_use_l == '1' || tlfb_mj_use_l == '1' || tlfb_blunt_use_l == '1' || tlfb_edible_use_l == '1' || tlfb_mj_conc_use_l == '1' || tlfb_mj_drink_use_l == '1' || tlfb_tincture_use_l == '1' || tlfb_mj_synth_use_l == '1' || tlfb_coc_use_l == '1' || tlfb_bsalts_use_l == '1' || tlfb_meth_use_l == '1' || tlfb_mdma_use_l == '1' || tlfb_ket_use_l == '1' || tlfb_ghb_use_l == '1' || tlfb_opi_use_l == '1' || tlfb_lsd_use_l == '1' || tlfb_shrooms_use_l == '1' || tlfb_salvia_use_l == '1' || tlfb_steroids_use_l == '1' || tlfb_inhalant_use_l == '1' || tlfb_amp_use_l == '1' || tlfb_tranq_use_l == '1' || tlfb_vicodin_use_l == '1' || tlfb_cough_use_l == '1' || su_tlfb_cbd_use_l == '1')&& tlfb_privacy___2 == '1' || tlfb_privacy___1 == '1' && tlfb_privacy___2 == '1')",
+                "isVis": "((tlfb_alc_use_l == '1' || tlfb_cig_use_l == '1' || tlfb_ecig_use_l == '1' || tlfb_chew_use_l == '1' || tlfb_cigar_use_l == '1' || tlfb_hookah_use_l == '1' || tlfb_pipes_use_l == '1' || tlfb_nicotine_use_l == '1' || tlfb_mj_use_l == '1' || tlfb_blunt_use_l == '1' || tlfb_edible_use_l == '1' || tlfb_mj_conc_use_l == '1' || tlfb_mj_drink_use_l == '1' || tlfb_tincture_use_l == '1' || tlfb_mj_synth_use_l == '1' || tlfb_coc_use_l == '1' || tlfb_bsalts_use_l == '1' || tlfb_meth_use_l == '1' || tlfb_mdma_use_l == '1' || tlfb_ket_use_l == '1' || tlfb_ghb_use_l == '1' || tlfb_opi_use_l == '1' || tlfb_lsd_use_l == '1' || tlfb_shrooms_use_l == '1' || tlfb_salvia_use_l == '1' || tlfb_steroids_use_l == '1' || tlfb_inhalant_use_l == '1' || tlfb_amp_use_l == '1' || tlfb_tranq_use_l == '1' || tlfb_vicodin_use_l == '1' || tlfb_cough_use_l == '1' || su_tlfb_cbd_use_l == '1' || su_tlfb_vape_mj_fl_use == '1' || su_tlfb_vape_mj_oils_use == '1')&& tlfb_privacy___2 == '1' || tlfb_privacy___1 == '1' && tlfb_privacy___2 == '1')",
                 "valueRequired": false,
                 "variableName": "tlfb_desc_w_screenshare"
             },
@@ -1697,7 +1800,7 @@
             },
             {
                 "isAbout": "items/xskipout_mj_l",
-                "isVis": "tlfb_mj_use_l== '1' || tlfb_blunt_use_l== '1' || tlfb_edible_use_l== '1' || tlfb_mj_conc_use_l== '1' || tlfb_tincture_use_l == '1' || tlfb_mj_drink_use_l == '1'",
+                "isVis": "tlfb_mj_use_l== '1' || tlfb_blunt_use_l== '1' || tlfb_edible_use_l== '1' || tlfb_mj_conc_use_l== '1' || tlfb_tincture_use_l == '1' || tlfb_mj_drink_use_l == '1' || su_tlfb_vape_mj_fl_use == '1' || su_tlfb_vape_mj_oils_use == '1'",
                 "valueRequired": true,
                 "variableName": "xskipout_mj_l"
             },
@@ -1708,8 +1811,26 @@
                 "variableName": "xskipout_other_l"
             },
             {
+                "isAbout": "items/xskipout_nic",
+                "isVis": "tlfb_cig_use_l == '1'",
+                "valueRequired": true,
+                "variableName": "xskipout_nic"
+            },
+            {
+                "isAbout": "items/xskipout_end",
+                "isVis": "tlfb_ecig_use_l == '1' || su_tlfb_vape_flavoring == '1'",
+                "valueRequired": true,
+                "variableName": "xskipout_end"
+            },
+            {
+                "isAbout": "items/xskipout_vape",
+                "isVis": "tlfb_ecig_use_l == '1' || su_tlfb_vape_flavoring == '1' || su_tlfb_vape_mj_fl_use == '1' || su_tlfb_vape_mj_oils_use == '1' || su_tlfb_vaped_something___1 == '1' || su_tlfb_vaped_something___2 == '1' || su_tlfb_vaped_something___3 == '1' || su_tlfb_vaped_something___4 == '1' || su_tlfb_vaped_something___5 == '1' || su_tlfb_vaped_something___6 == '1' || su_tlfb_vaped_something___7 > '0' || su_tlfb_vaped_something___8 == '1' || su_tlfb_vaped_something___9 == '1' || su_tlfb_vaped_something___10 == '1'",
+                "valueRequired": true,
+                "variableName": "xskipout_vape"
+            },
+            {
                 "isAbout": "items/xskipout_remote",
-                "isVis": "(tlfb_alc_use_l == '1' || tlfb_cig_use_l == '1' || tlfb_ecig_use_l == '1' || tlfb_chew_use_l == '1' || tlfb_cigar_use_l == '1' || tlfb_hookah_use_l == '1' || tlfb_pipes_use_l == '1' || tlfb_nicotine_use_l == '1' || tlfb_mj_use_l == '1' || tlfb_blunt_use_l == '1' || tlfb_edible_use_l == '1' || tlfb_mj_conc_use_l == '1' || tlfb_mj_drink_use_l == '1' || tlfb_tincture_use_l == '1' || tlfb_mj_synth_use_l == '1' || tlfb_coc_use_l == '1' || tlfb_bsalts_use_l == '1' || tlfb_meth_use_l == '1' || tlfb_mdma_use_l == '1' || tlfb_ket_use_l == '1' || tlfb_ghb_use_l == '1' || tlfb_opi_use_l == '1' || tlfb_lsd_use_l == '1' || tlfb_shrooms_use_l == '1' || tlfb_salvia_use_l == '1' || tlfb_steroids_use_l == '1' || tlfb_inhalant_use_l == '1' || tlfb_amp_use_l == '1' || tlfb_tranq_use_l == '1' || tlfb_vicodin_use_l == '1' || tlfb_cough_use_l == '1' || su_tlfb_cbd_use_l == '1')&& sched_delay == '9'",
+                "isVis": "(tlfb_alc_use_l == '1' || tlfb_cig_use_l == '1' || tlfb_ecig_use_l == '1' || tlfb_chew_use_l == '1' || tlfb_cigar_use_l == '1' || tlfb_hookah_use_l == '1' || tlfb_pipes_use_l == '1' || tlfb_nicotine_use_l == '1' || tlfb_mj_use_l == '1' || tlfb_blunt_use_l == '1' || tlfb_edible_use_l == '1' || tlfb_mj_conc_use_l == '1' || tlfb_mj_drink_use_l == '1' || tlfb_tincture_use_l == '1' || tlfb_mj_synth_use_l == '1' || tlfb_coc_use_l == '1' || tlfb_bsalts_use_l == '1' || tlfb_meth_use_l == '1' || tlfb_mdma_use_l == '1' || tlfb_ket_use_l == '1' || tlfb_ghb_use_l == '1' || tlfb_opi_use_l == '1' || tlfb_lsd_use_l == '1' || tlfb_shrooms_use_l == '1' || tlfb_salvia_use_l == '1' || tlfb_steroids_use_l == '1' || tlfb_inhalant_use_l == '1' || tlfb_amp_use_l == '1' || tlfb_tranq_use_l == '1' || tlfb_vicodin_use_l == '1' || tlfb_cough_use_l == '1' || su_tlfb_cbd_use_l == '1' || su_tlfb_vape_mj_fl_use == '1' || su_tlfb_vape_mj_oils_use == '1')&&(sched_delay == '9' && event - name == '2_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "xskipout_remote"
             },
@@ -1721,9 +1842,15 @@
             },
             {
                 "isAbout": "items/xskipout_session",
-                "isVis": "(tlfb_alc_use_l == '1' || tlfb_cig_use_l == '1' || tlfb_ecig_use_l == '1' || tlfb_chew_use_l == '1' || tlfb_cigar_use_l == '1' || tlfb_hookah_use_l == '1' || tlfb_pipes_use_l == '1' || tlfb_nicotine_use_l == '1' || tlfb_mj_use_l == '1' || tlfb_blunt_use_l == '1' || tlfb_edible_use_l == '1' || tlfb_mj_conc_use_l == '1' || tlfb_mj_drink_use_l == '1' || tlfb_tincture_use_l == '1' || tlfb_mj_synth_use_l == '1' || tlfb_coc_use_l == '1' || tlfb_bsalts_use_l == '1' || tlfb_meth_use_l == '1' || tlfb_mdma_use_l == '1' || tlfb_ket_use_l == '1' || tlfb_ghb_use_l == '1' || tlfb_opi_use_l == '1' || tlfb_lsd_use_l == '1' || tlfb_shrooms_use_l == '1' || tlfb_salvia_use_l == '1' || tlfb_steroids_use_l == '1' || tlfb_inhalant_use_l == '1' || tlfb_amp_use_l == '1' || tlfb_tranq_use_l == '1' || tlfb_vicodin_use_l == '1' || tlfb_cough_use_l == '1' || su_tlfb_cbd_use_l == '1')&& sched_delay == '9'",
+                "isVis": "(tlfb_alc_use_l == '1' || tlfb_cig_use_l == '1' || tlfb_ecig_use_l == '1' || tlfb_chew_use_l == '1' || tlfb_cigar_use_l == '1' || tlfb_hookah_use_l == '1' || tlfb_pipes_use_l == '1' || tlfb_nicotine_use_l == '1' || tlfb_mj_use_l == '1' || tlfb_blunt_use_l == '1' || tlfb_edible_use_l == '1' || tlfb_mj_conc_use_l == '1' || tlfb_mj_drink_use_l == '1' || tlfb_tincture_use_l == '1' || tlfb_mj_synth_use_l == '1' || tlfb_coc_use_l == '1' || tlfb_bsalts_use_l == '1' || tlfb_meth_use_l == '1' || tlfb_mdma_use_l == '1' || tlfb_ket_use_l == '1' || tlfb_ghb_use_l == '1' || tlfb_opi_use_l == '1' || tlfb_lsd_use_l == '1' || tlfb_shrooms_use_l == '1' || tlfb_salvia_use_l == '1' || tlfb_steroids_use_l == '1' || tlfb_inhalant_use_l == '1' || tlfb_amp_use_l == '1' || tlfb_tranq_use_l == '1' || tlfb_vicodin_use_l == '1' || tlfb_cough_use_l == '1' || su_tlfb_cbd_use_l == '1' || su_tlfb_vape_mj_fl_use == '1' || su_tlfb_vape_mj_oils_use == '1')&& sched_delay == '9'",
                 "valueRequired": true,
                 "variableName": "xskipout_session"
+            },
+            {
+                "isAbout": "items/su_tlfb_cbd_warning",
+                "isVis": "su_tlfb_cbd_use_l =='1'",
+                "valueRequired": false,
+                "variableName": "su_tlfb_cbd_warning"
             },
             {
                 "isAbout": "items/su_alc_tox_nic_warn",
@@ -1817,61 +1944,73 @@
             },
             {
                 "isAbout": "items/su_tlfb_past_yr_exig_7_l",
-                "isVis": "tlfb_6mo_skip_l___3 == '1'",
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "su_tlfb_past_yr_exig_7_l"
             },
             {
                 "isAbout": "items/su_tlfb_past_yr_prim_3_mj_l",
-                "isVis": "tlfb_6mo_skip_l___9 == '1'",
+                "isVis": "tlfb_6mo_skip_l___9 == '1' || tlfb_6mo_skip_l___10 == '1'",
                 "valueRequired": true,
                 "variableName": "su_tlfb_past_yr_prim_3_mj_l"
             },
             {
+                "isAbout": "items/su_tlfb_vape_mj_fu",
+                "isVis": "tlfb_6mo_skip_l___34 == '1'",
+                "valueRequired": true,
+                "variableName": "su_tlfb_vape_mj_fu"
+            },
+            {
                 "isAbout": "items/tlfb_6mo_4_mj_l",
-                "isVis": "tlfb_6mo_skip_l___9 == '1' && tlfb_6mo_4_mj_dk_l == ''",
+                "isVis": "tlfb_6mo_skip_l___9 == '1' && tlfb_6mo_4_mj_dk_l == '' || tlfb_6mo_skip_l___34 == '1' || tlfb_6mo_skip_l___10 == '1'",
                 "valueRequired": true,
                 "variableName": "tlfb_6mo_4_mj_l"
             },
             {
                 "isAbout": "items/tlfb_6mo_4_mj_dk_l",
-                "isVis": "tlfb_6mo_skip_l___9 == '1' && tlfb_6mo_4_mj_l == ''",
+                "isVis": "(tlfb_6mo_skip_l___9 == '1' || tlfb_6mo_skip_l___34 == '1')&& tlfb_6mo_4_mj_l == ''",
                 "valueRequired": true,
                 "variableName": "tlfb_6mo_4_mj_dk_l"
             },
             {
                 "isAbout": "items/tlfb_6mo_5_mj_l",
-                "isVis": "tlfb_6mo_skip_l___9 == '1'",
+                "isVis": "tlfb_6mo_skip_l___9 == '1' || tlfb_6mo_skip_l___34 == '1' || tlfb_6mo_skip_l___10 == '1'",
                 "valueRequired": true,
                 "variableName": "tlfb_6mo_5_mj_l"
             },
             {
                 "isAbout": "items/tlfb_6mo_6_mj_l",
-                "isVis": "tlfb_6mo_skip_l___9 == '1'",
+                "isVis": "tlfb_6mo_skip_l___9 == '1' || tlfb_6mo_skip_l___34 == '1' || tlfb_6mo_skip_l___10 == '1'",
                 "valueRequired": true,
                 "variableName": "tlfb_6mo_6_mj_l"
             },
             {
                 "isAbout": "items/mj_pic_l",
-                "isVis": "tlfb_6mo_skip_l___9 == '1'",
+                "isVis": "tlfb_6mo_skip_l___9 == '1' || tlfb_6mo_skip_l___10 == '1' || tlfb_6mo_skip_l___34 == '1'",
                 "valueRequired": false,
                 "variableName": "mj_pic_l"
             },
             {
                 "isAbout": "items/tlfb_6mo_7_mj_l",
-                "isVis": "tlfb_6mo_skip_l___9 == '1'",
+                "isVis": "tlfb_6mo_skip_l___9 == '1' || tlfb_6mo_skip_l___10 == '1' || tlfb_6mo_skip_l___34 == '1'",
                 "valueRequired": true,
                 "variableName": "tlfb_6mo_7_mj_l"
             },
             {
                 "isAbout": "items/tlfb_6mo_8_mj_l",
-                "isVis": "tlfb_6mo_skip_l___9 == '1'",
+                "isVis": "tlfb_6mo_skip_l___9 == '1' || tlfb_6mo_skip_l___10 == '1' || tlfb_6mo_skip_l___34 == '1' || tlfb_6mo_skip_l___35 == '1'",
                 "valueRequired": true,
                 "variableName": "tlfb_6mo_8_mj_l"
             },
             {
+                "isAbout": "items/su_vape_mj_con_oils",
+                "isVis": "tlfb_6mo_skip_l___35 == '1'",
+                "valueRequired": true,
+                "variableName": "su_vape_mj_con_oils"
+            },
+            {
                 "isAbout": "items/tlfb_6mo_9_concmj_l",
-                "isVis": "tlfb_6mo_skip_l___12 == '1'",
+                "isVis": "tlfb_6mo_skip_l___12 == '1' || tlfb_6mo_skip_l___35 == '1'",
                 "valueRequired": true,
                 "variableName": "tlfb_6mo_9_concmj_l"
             },
@@ -1895,27 +2034,63 @@
             },
             {
                 "isAbout": "items/tlfb_6mo_11_concmj_l",
-                "isVis": "tlfb_6mo_skip_l___12 == '1'",
+                "isVis": "tlfb_6mo_skip_l___12 == '1' || tlfb_6mo_skip_l___35 == '1'",
                 "valueRequired": true,
                 "variableName": "tlfb_6mo_11_concmj_l"
             },
             {
                 "isAbout": "items/tlfb_6mo_12_concmj_l",
-                "isVis": "tlfb_6mo_skip_l___12 == '1'",
+                "isVis": "tlfb_6mo_skip_l___12 == '1' || tlfb_6mo_skip_l___35 == '1'",
                 "valueRequired": true,
                 "variableName": "tlfb_6mo_12_concmj_l"
             },
             {
-                "isAbout": "items/tlfb_6mo_13_mj_l",
-                "isVis": "tlfb_6mo_skip_l___9 == '1' || tlfb_6mo_skip_l___10 == '1' || tlfb_6mo_skip_l___11 == '1' || tlfb_6mo_skip_l___12 == '1' || tlfb_6mo_skip_l___13 == '1'",
+                "isAbout": "items/su_mj_pic",
+                "isVis": "tlfb_6mo_skip_l___12 == '1' || tlfb_6mo_skip_l___35 == '1'",
+                "valueRequired": false,
+                "variableName": "su_mj_pic"
+            },
+            {
+                "isAbout": "items/su_tlfb_6mo_mj",
+                "isVis": "tlfb_6mo_skip_l___12 == '1' || tlfb_6mo_skip_l___35 == '1'",
                 "valueRequired": true,
-                "variableName": "tlfb_6mo_13_mj_l"
+                "variableName": "su_tlfb_6mo_mj"
+            },
+            {
+                "isAbout": "items/su_tlfb_past_year_mj",
+                "isVis": "tlfb_6mo_skip_l___12 == '1' || tlfb_6mo_skip_l___35 == '1'",
+                "valueRequired": true,
+                "variableName": "su_tlfb_past_year_mj"
             },
             {
                 "isAbout": "items/su_tlfb_past_yr_mj_edible_l",
                 "isVis": "tlfb_6mo_skip_l___11 == '1'",
                 "valueRequired": true,
                 "variableName": "su_tlfb_past_yr_mj_edible_l"
+            },
+            {
+                "isAbout": "items/su_tlfb_thc_mj_edible",
+                "isVis": "su_tlfb_past_yr_mj_edible_l == '1' || su_tlfb_past_yr_mj_edible_l == '3'",
+                "valueRequired": true,
+                "variableName": "su_tlfb_thc_mj_edible"
+            },
+            {
+                "isAbout": "items/tlfb_6mo_13_mj_l",
+                "isVis": "tlfb_6mo_skip_l___9 == '1' || tlfb_6mo_skip_l___10 == '1' || tlfb_6mo_skip_l___11 == '1' || tlfb_6mo_skip_l___12 == '1' || tlfb_6mo_skip_l___13 == '1' || tlfb_6mo_skip_l___34 == '1' || tlfb_6mo_skip_l___35 == '1'",
+                "valueRequired": true,
+                "variableName": "tlfb_6mo_13_mj_l"
+            },
+            {
+                "isAbout": "items/su_tlfb_mj_paranoid_l",
+                "isVis": "tlfb_6mo_skip_l___9 == '1' || tlfb_6mo_skip_l___10 == '1' || tlfb_6mo_skip_l___11 == '1' || tlfb_6mo_skip_l___12 == '1' || tlfb_6mo_skip_l___13 == '1' || tlfb_6mo_skip_l___14 == '1' || tlfb_6mo_skip_l___34 == '1' || tlfb_6mo_skip_l___35 == '1'",
+                "valueRequired": true,
+                "variableName": "su_tlfb_mj_paranoid_l"
+            },
+            {
+                "isAbout": "items/su_tlfb_mj_hear_l",
+                "isVis": "tlfb_6mo_skip_l___9 == '1' || tlfb_6mo_skip_l___10 == '1' || tlfb_6mo_skip_l___11 == '1' || tlfb_6mo_skip_l___12 == '1' || tlfb_6mo_skip_l___13 == '1' || tlfb_6mo_skip_l___14 == '1' || tlfb_6mo_skip_l___34 == '1' || tlfb_6mo_skip_l___35 == '1'",
+                "valueRequired": true,
+                "variableName": "su_tlfb_mj_hear_l"
             },
             {
                 "isAbout": "items/tlfb_6mo_mj_drink_type_l",
@@ -1928,18 +2103,6 @@
                 "isVis": "tlfb_6mo_skip_l___14 == '1'",
                 "valueRequired": true,
                 "variableName": "tlfb_6mo_tincture_type_l"
-            },
-            {
-                "isAbout": "items/su_tlfb_mj_paranoid_l",
-                "isVis": "tlfb_6mo_skip_l___9 == '1' || tlfb_6mo_skip_l___10 == '1' || tlfb_6mo_skip_l___11 == '1' || tlfb_6mo_skip_l___12 == '1' || tlfb_6mo_skip_l___13 == '1' || tlfb_6mo_skip_l___14 == '1'",
-                "valueRequired": true,
-                "variableName": "su_tlfb_mj_paranoid_l"
-            },
-            {
-                "isAbout": "items/su_tlfb_mj_hear_l",
-                "isVis": "tlfb_6mo_skip_l___9 == '1' || tlfb_6mo_skip_l___10 == '1' || tlfb_6mo_skip_l___11 == '1' || tlfb_6mo_skip_l___12 == '1' || tlfb_6mo_skip_l___13 == '1' || tlfb_6mo_skip_l___14 == '1'",
-                "valueRequired": true,
-                "variableName": "su_tlfb_mj_hear_l"
             },
             {
                 "isAbout": "items/su_tlfb_cbd_follow_up_l",
@@ -2100,6 +2263,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2538",
+    "version": "revid2539",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -5,17 +5,17 @@
         {
             "column": "Field Annotation",
             "source": "redcap",
-            "value": "HIDEFROMCOMPLETION20180614"
+            "value": "HIDEFROMCOMPLETION20180614 @HIDECHOICE = \"1\""
         }
     ],
     "preamble": {
-        "en": "Smoked MJ Follow-up Questions:"
+        "en": "Smoked MJ Flower Follow-up Questions:"
     },
     "prefLabel": {
         "en": "su_tlfb_past_yr_prim_3_mj_l"
     },
     "question": {
-        "en": "In the past year, what was the primary way you inhaled or smoked marijuana?"
+        "en": "In the past year, what was the primary way you smoked marijuana flower or bud?"
     },
     "responseOptions": {
         "choices": [
@@ -27,27 +27,33 @@
             },
             {
                 "name": {
-                    "en": "2, bong, pipe, bowl, homemade device"
+                    "en": "1, Bong, pipe, bowl, homemade device"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "3, hookah (with tobacco added)"
+                    "en": "2, hookah (with tobacco added)"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "4, blunt with tobacco paper"
+                    "en": "3, Blunt with tobacco paper"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "5, rolled joint or spliff"
+                    "en": "4, Rolled joint"
                 },
                 "value": 5
+            },
+            {
+                "name": {
+                    "en": "5, Don't know"
+                },
+                "value": 999
             }
         ],
         "valueType": [

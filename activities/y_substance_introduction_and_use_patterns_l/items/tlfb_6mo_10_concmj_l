@@ -1,20 +1,27 @@
 {
     "id": "tlfb_6mo_10_concmj_l",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDECHOICE = \"2\""
+        }
+    ],
     "preamble": {
-        "en": "Marijuana Concentrates Follow-Up Questions:"
+        "en": "Marijuana Concentrates Follow-Up Questions (Vaped or Smoked):"
     },
     "prefLabel": {
         "en": "tlfb_6mo_10_concmj_l"
     },
     "question": {
-        "en": "During the past year, what was the typical route of administration you used for your concentrates (pipe, vaporizer, dab/butane)?"
+        "en": "During the past year, what was the way you smoked marijuana concentrates or oils?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "1, Pipe"
+                    "en": "1, Pipe or bong"
                 },
                 "value": 1
             },
@@ -26,15 +33,27 @@
             },
             {
                 "name": {
-                    "en": "3, Dab/Butane"
+                    "en": "2, Dab rig"
                 },
                 "value": 3
+            },
+            {
+                "name": {
+                    "en": "3, Joint or rolled paper"
+                },
+                "value": 5
             },
             {
                 "name": {
                     "en": "4, Other"
                 },
                 "value": 4
+            },
+            {
+                "name": {
+                    "en": "5, Don't know"
+                },
+                "value": 999
             }
         ],
         "valueType": [

@@ -8,11 +8,6 @@
             "value": "(quantity)"
         },
         {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": "1"
-        },
-        {
             "column": "Text Validation Type OR Show Slider Number",
             "source": "redcap",
             "value": "integer"
@@ -28,16 +23,14 @@
             "value": "776.0"
         },
         {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": "1"
-        },
-        {
             "column": "Field Annotation",
             "source": "redcap",
             "value": "@HIDDEN @READONLY @SHARED"
         }
     ],
+    "preamble": {
+        "en": "You mentioned earlier that you have had a sip of alcohol in the past. I want to ask some more questions about that. Remember your responses are confidential - we will not share your answers with anyone."
+    },
     "prefLabel": {
         "en": "su_isip_1_calc_l"
     },

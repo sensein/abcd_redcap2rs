@@ -1,0 +1,61 @@
+{
+    "id": "su_vape_expect_09",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "su_vape_expect"
+        }
+    ],
+    "preamble": {
+        "en": "The following questions contain statements about vaping. Answer each statement according to your own personal thoughts, feelings, and beliefs about vaping. We're interested in what you think about vaping flavor or drugs such as nicotine or cannabis, not what others might think. Whether or not you've had actual vaping experience, you should answer in terms of how you think vaping affects the typical or average user."
+    },
+    "prefLabel": {
+        "en": "su_vape_expect_09"
+    },
+    "question": {
+        "en": "Vaping causes a stronger buzz or high"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Disagree strongly"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Disagree somewhat"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Uncertain"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Agree somewhat"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Agree strongly"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

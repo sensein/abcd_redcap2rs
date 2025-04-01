@@ -1,0 +1,29 @@
+{
+    "id": "su_tlfb_vape_header",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200423"
+        }
+    ],
+    "preamble": {
+        "en": "You mentioned earlier that you have tried a tobacco or electronic nicotine product in the past. I want to ask some more questions about that. Remember your responses are confidential - we will not share your answers with anyone.\n\nWhen answering these questions, pleasedo notinclude cigarettes or other tobacco products (e.g., hookah, e-cigarettes) you had as part of a religious ceremony.\n\nPleasedoinclude any other experiences you have had with cigarettes or tobacco including puffs or dips you may have had with your parents."
+    },
+    "prefLabel": {
+        "en": "su_tlfb_vape_header"
+    },
+    "question": {
+        "en": "You mentioned earlier that you had vaped just flavoring in the past year. I want to ask a few more questions about that."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

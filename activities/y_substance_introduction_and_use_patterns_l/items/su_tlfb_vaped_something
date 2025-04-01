@@ -1,0 +1,131 @@
+{
+    "id": "su_tlfb_vaped_something",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROM COMPLETION 20200423"
+        }
+    ],
+    "prefLabel": {
+        "en": "su_tlfb_vaped_something"
+    },
+    "question": {
+        "en": "Have you vaped something other than nicotine, marijuana, or just flavoring?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "1, No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "2, Cocaine"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "3, Cathinones/bath salts"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "4, Methamphetamine"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "5, Ecstasy/MDMA"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "6, Ketamine"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "7, GHB"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "8, Heroin"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "9, Hallucinogens (not psilocybin or salvia)"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "10, Psilocybin/magic mushrooms"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "11, Salvia"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "12, Steroids"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "13, Inhalants"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "14, Prescription stimulants"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "15, Prescription sedatives"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "16, Prescription pain relievers"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "17, OTC cough medicine"
+                },
+                "value": 16
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

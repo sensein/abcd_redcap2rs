@@ -1,0 +1,61 @@
+{
+    "id": "su_alc_motiv_16",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "su_alc_motiv"
+        }
+    ],
+    "preamble": {
+        "en": "Here is a list of reasons people give for drinking alcohol. Thinking of all the times you drink, how often would you say that you drink for each of the following reasons? There are no right or wrong answers to these questions"
+    },
+    "prefLabel": {
+        "en": "su_alc_motiv_16"
+    },
+    "question": {
+        "en": "To celebrate a special occasion with friends"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "almost never/never"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "some of the time"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "half of the time"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "most of the time"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "almost always/always"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

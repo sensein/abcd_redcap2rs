@@ -1,0 +1,61 @@
+{
+    "id": "su_ends_motives_17",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "su_ends_motive"
+        }
+    ],
+    "preamble": {
+        "en": "Here are some things that people have said about vaping, including vaping flavor or drugs such as nicotine or cannabis. Read each one and select the answer to show what you think. There are no right or wrong answers to these questions."
+    },
+    "prefLabel": {
+        "en": "su_ends_motives_17"
+    },
+    "question": {
+        "en": "I vape to fit in with a group I like"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all true"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A little true"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Somewhat true"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Pretty true"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Very true"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

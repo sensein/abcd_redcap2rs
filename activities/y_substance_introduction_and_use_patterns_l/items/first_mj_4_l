@@ -1,18 +1,9 @@
 {
     "id": "first_mj_4_l",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": "4"
-        },
-        {
-            "column": "Question Number (surveys only)",
-            "source": "redcap",
-            "value": "4"
-        }
-    ],
+    "preamble": {
+        "en": "We would like to find out more about your very first experiences with marijuana.  For this next set of questions, please answer for the FIRST time you ever used marijuana."
+    },
     "prefLabel": {
         "en": "first_mj_4_l"
     },
@@ -23,7 +14,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "1, Regular smoked marijuana (smoked pot, grass, weed, ganja)"
+                    "en": "1, Regular smoked marijuana flower or bud (smoked pot, grass, weed, ganja)"
                 },
                 "value": 1
             },
@@ -35,31 +26,43 @@
             },
             {
                 "name": {
-                    "en": "3, Marijuana that you eat (pot cookies, gummy bears, brownies, etc)"
+                    "en": "3, Vaped marijuana flower or bud"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "4, Marijuana that you eat (pot cookies, gummy bears, brownies, etc)"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "4, Fake marijuana or synthetics such as K2 and spice (fake weed, herbal incense)"
+                    "en": "5, Fake marijuana or synthetics such as K2 and spice (fake weed, herbal incense)"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "5, Marijuana oils or concentrates ((\"710\"; hash oil; BHO/butane hash oil/dabs/ shatter/budder/honey oil; Co2 oil/vaporizer pen; Rick Simpson Oil/RSO/phoenix tears)"
+                    "en": "6, Vaped marijuana concentrate or oil (THC, hash, C02 or BHO oil)"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "7, Smoked marijuana oils or concentrates (THC, hash, C02 or BHO oil, kief, dabs or wax)"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "6, Marijuana infused alcohol drinks"
+                    "en": "8, Marijuana infused alcohol drinks"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "7, Concentrated marijuana tinctures"
+                    "en": "9, Marijuana or THC tinctures that you take orally"
                 },
                 "value": 7
             }

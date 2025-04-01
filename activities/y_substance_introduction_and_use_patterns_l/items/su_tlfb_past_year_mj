@@ -1,0 +1,73 @@
+{
+    "id": "su_tlfb_past_year_mj",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200424"
+        }
+    ],
+    "preamble": {
+        "en": "Marijuana Concentrates Follow-Up Questions (Vaped or Smoked):"
+    },
+    "prefLabel": {
+        "en": "su_tlfb_past_year_mj"
+    },
+    "question": {
+        "en": "During the past year, how often did you feel very high or greater when you smoked or vaped marijuana concentrate or oil?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Almost never"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Most of the time"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Almost always"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Always"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

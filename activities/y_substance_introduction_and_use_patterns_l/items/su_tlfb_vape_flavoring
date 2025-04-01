@@ -1,0 +1,43 @@
+{
+    "id": "su_tlfb_vape_flavoring",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "tlfb_ever_used_l"
+        }
+    ],
+    "preamble": {
+        "en": "Before I ask more questions, I wanted to first define vaping. To \"vape\" is to use a device such as a JUUL, vape-pen, e-cigarette, or e-vaporizer to inhale a vapor into the lungs. For some of the following questions, I will ask about vaping different drugs or flavors. Since we last saw you, have you had..."
+    },
+    "prefLabel": {
+        "en": "su_tlfb_vape_flavoring"
+    },
+    "question": {
+        "en": "Have you vaped just flavoring?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

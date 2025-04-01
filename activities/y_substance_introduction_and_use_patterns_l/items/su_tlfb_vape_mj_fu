@@ -1,0 +1,49 @@
+{
+    "id": "su_tlfb_vape_mj_fu",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200423"
+        }
+    ],
+    "preamble": {
+        "en": "Vaped MJ Flower Follow-Up:"
+    },
+    "prefLabel": {
+        "en": "su_tlfb_vape_mj_fu"
+    },
+    "question": {
+        "en": "During the past year, what was the typical way you vaped MJ flower or bud?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "1, Portable vaporizer such as a vape pen"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2, Tabletop vaporizer"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3, Don't know"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
