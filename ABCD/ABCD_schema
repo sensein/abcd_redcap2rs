@@ -24,6 +24,7 @@
             "../activities/assent/assent_schema",
             "../activities/bal_testyouth/bal_testyouth_schema",
             "../activities/toxicology_test_dtyouth/toxicology_test_dtyouth_schema",
+            "../activities/covid19_24hour_symptom_screener/covid19_24hour_symptom_screener_schema",
             "../activities/y_nicalert/y_nicalert_schema",
             "../activities/y_blood_draw/y_blood_draw_schema",
             "../activities/anthropometrics_modified_phenx_antyouth/anthropometrics_modified_phenx_antyouth_schema",
@@ -61,7 +62,6 @@
             "../activities/y_7_up_l/y_7_up_l_schema",
             "../activities/y_delinquency_self_report_l/y_delinquency_self_report_l_schema",
             "../activities/y_nih_tb_positive_affect_l/y_nih_tb_positive_affect_l_schema",
-            "../activities/covid19_24hour_symptom_screener/covid19_24hour_symptom_screener_schema",
             "../activities/mypi_next/mypi_next_schema",
             "../activities/y_phenx_life_events_l/y_phenx_life_events_l_schema",
             "../activities/peer_experiences_questionnaire/peer_experiences_questionnaire_schema",
@@ -435,6 +435,14 @@
                 "variableName": "toxicology_test_dtyouth_schema"
             },
             {
+                "isAbout": "../activities/covid19_24hour_symptom_screener/covid19_24hour_symptom_screener_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Covid19 24Hour Symptom Screener"
+                },
+                "variableName": "covid19_24hour_symptom_screener_schema"
+            },
+            {
                 "isAbout": "../activities/y_nicalert/y_nicalert_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -729,14 +737,6 @@
                     "en": "Y Nih Tb Positive Affect L"
                 },
                 "variableName": "y_nih_tb_positive_affect_l_schema"
-            },
-            {
-                "isAbout": "../activities/covid19_24hour_symptom_screener/covid19_24hour_symptom_screener_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Covid19 24Hour Symptom Screener"
-                },
-                "variableName": "covid19_24hour_symptom_screener_schema"
             },
             {
                 "isAbout": "../activities/mypi_next/mypi_next_schema",
@@ -2805,6 +2805,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2567",
+    "version": "revid2569",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
