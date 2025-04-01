@@ -32,7 +32,7 @@
             "../activities/edinburgh_handedness_inventory_short_form/edinburgh_handedness_inventory_short_form_schema",
             "../activities/snellen_vision_screener_visyouth/snellen_vision_screener_visyouth_schema",
             "../activities/pubertal_development_scale_pdsmenstrual_historyyou/pubertal_development_scale_pdsmenstrual_historyyou_schema",
-            "../activities/gish2_youth/gish2_youth_schema",
+            "../activities/y_gish2/y_gish2_schema",
             "../activities/pubertal_hormone_saliva_psyouth/pubertal_hormone_saliva_psyouth_schema",
             "../activities/ra_scanning_checklist_and_notes/ra_scanning_checklist_and_notes_schema",
             "../activities/pre_scan_questionnaireyouth_1/pre_scan_questionnaireyouth_1_schema",
@@ -509,12 +509,12 @@
                 "variableName": "pubertal_development_scale_pdsmenstrual_historyyou_schema"
             },
             {
-                "isAbout": "../activities/gish2_youth/gish2_youth_schema",
+                "isAbout": "../activities/y_gish2/y_gish2_schema",
                 "isVis": true,
                 "prefLabel": {
-                    "en": "Gish2 Youth"
+                    "en": "Y Gish2"
                 },
-                "variableName": "gish2_youth_schema"
+                "variableName": "y_gish2_schema"
             },
             {
                 "isAbout": "../activities/pubertal_hormone_saliva_psyouth/pubertal_hormone_saliva_psyouth_schema",
@@ -2895,6 +2895,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2611",
+    "version": "revid2612",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

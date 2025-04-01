@@ -1,0 +1,74 @@
+{
+    "id": "gish2_nr_kiss_type",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDECHOICE = '0, 1, 2' @NONEOFTHEABOVE = '777'"
+        }
+    ],
+    "preamble": {
+        "en": "The next questions are only about\u00c2\u00a0people\u00c2\u00a0who are not related to you, but are not just about\u00c2\u00a0people you have been in romantic relationships with."
+    },
+    "prefLabel": {
+        "en": "gish2_nr_kiss_type"
+    },
+    "question": {
+        "en": "I have kissed (checkallthat apply):"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "1, Only boyfriends"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "2, Only girlfriends"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "3, Both boyfriends and girlfriends"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "1, Boys"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "2, Girls"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "3, People who are another gender (e.g. nonbinary)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "4, Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

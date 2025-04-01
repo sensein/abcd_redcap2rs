@@ -1,0 +1,49 @@
+{
+    "id": "gish2_nr_kiss",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        }
+    ],
+    "preamble": {
+        "en": "The next questions are only about\u00c2\u00a0people\u00c2\u00a0who are not related to you, but are not just about\u00c2\u00a0people you have been in romantic relationships with."
+    },
+    "prefLabel": {
+        "en": "gish2_nr_kiss"
+    },
+    "question": {
+        "en": "Have you ever kissed anyone on the mouth?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

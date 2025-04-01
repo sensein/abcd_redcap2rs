@@ -1,0 +1,80 @@
+{
+    "id": "gish2_sexual_attract",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
+        }
+    ],
+    "preamble": {
+        "en": "The next questions are about who you are attracted to and who you have relationships with."
+    },
+    "prefLabel": {
+        "en": "gish2_sexual_attract"
+    },
+    "question": {
+        "en": "People differ in their sexual attraction to other people. Which best describes your feelings? I am..."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "1, I am attracted only to girls"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "2, I am attracted mostly to girls and a little to boys"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "3, I am attracted equally to girls and boys"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "4, I am attracted mostly to boys and a little to girls"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "5, I am attracted only to boys"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "6, I am not attracted to either boys or girls"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "7, I don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "8, Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

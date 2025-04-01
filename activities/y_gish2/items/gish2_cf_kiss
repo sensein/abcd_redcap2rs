@@ -1,0 +1,61 @@
+{
+    "id": "gish2_cf_kiss",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "gish2_close_friends_feelings_y"
+        }
+    ],
+    "preamble": {
+        "en": "Friends are people who you see regularly and spend time with in school and outside of school. \n\nHow do you think your CLOSE FRIENDS feel (or would feel) about YOU doing each of the following things?"
+    },
+    "prefLabel": {
+        "en": "gish2_cf_kiss"
+    },
+    "question": {
+        "en": "Kissing someone on the mouth"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Approve"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Neither Approve / Disapprove"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Disapprove"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Don't Know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
