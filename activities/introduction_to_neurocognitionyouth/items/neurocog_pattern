@@ -1,21 +1,21 @@
 {
-    "id": "neurocog_remote",
+    "id": "neurocog_pattern",
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
             "column": "Field Annotation",
             "source": "redcap",
-            "value": "HIDEFROMCOMPLETION20200603"
+            "value": "HIDEFROMCOMPLETION20200708"
         }
     ],
     "preamble": {
         "en": "For RA Use Only:"
     },
     "prefLabel": {
-        "en": "neurocog_remote"
+        "en": "neurocog_pattern"
     },
     "question": {
-        "en": "Additional methods ofneurocognitive tasks pt 1administration:"
+        "en": "Method ofPattern Comparison Processing Speedadministration [Check all that apply]:"
     },
     "responseOptions": {
         "choices": [
@@ -30,6 +30,12 @@
                     "en": "Video/Webcam"
                 },
                 "value": 2
+            },
+            {
+                "name": {
+                    "en": "In person (ONLY if issues arise and hybrid)"
+                },
+                "value": 3
             }
         ],
         "multipleChoice": true,
