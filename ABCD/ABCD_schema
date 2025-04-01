@@ -13,6 +13,7 @@
             "../activities/instructions_do_never_delete_move_or_use/instructions_do_never_delete_move_or_use_schema",
             "../activities/screener/screener_schema",
             "../activities/screener_2/screener_2_schema",
+            "../activities/covid19_14day_symptom_screener/covid19_14day_symptom_screener_schema",
             "../activities/scheduled/scheduled_schema",
             "../activities/longitudinal_tracking_daic_only/longitudinal_tracking_daic_only_schema",
             "../activities/special_instrument_participation/special_instrument_participation_schema",
@@ -243,6 +244,7 @@
             "../activities/contact_events/contact_events_schema",
             "../activities/example_of_body_map/example_of_body_map_schema",
             "../activities/informant/informant_schema",
+            "../activities/covid19_24hour_symptom_screener/covid19_24hour_symptom_screener_schema",
             "../activities/locator/locator_schema",
             "../activities/testeventname_daiconly/testeventname_daiconly_schema",
             "../activities/fitbit_scores/fitbit_scores_schema",
@@ -317,9 +319,7 @@
             "../activities/residential_history_derived_scores_daic_use_only/residential_history_derived_scores_daic_use_only_schema",
             "../activities/p_abcd_covid19_questionnaire_part_1/p_abcd_covid19_questionnaire_part_1_schema",
             "../activities/p_abcd_covid19_questionnaire_part_2/p_abcd_covid19_questionnaire_part_2_schema",
-            "../activities/acs_post_stratification_weights_daic_use_only/acs_post_stratification_weights_daic_use_only_schema",
-            "../activities/covid19_14day_symptom_screener/covid19_14day_symptom_screener_schema",
-            "../activities/covid19_24hour_symptom_screener/covid19_24hour_symptom_screener_schema"
+            "../activities/acs_post_stratification_weights_daic_use_only/acs_post_stratification_weights_daic_use_only_schema"
         ],
         "addProperties": [
             {
@@ -345,6 +345,14 @@
                     "en": "Screener 2"
                 },
                 "variableName": "screener_2_schema"
+            },
+            {
+                "isAbout": "../activities/covid19_14day_symptom_screener/covid19_14day_symptom_screener_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Covid19 14Day Symptom Screener"
+                },
+                "variableName": "covid19_14day_symptom_screener_schema"
             },
             {
                 "isAbout": "../activities/scheduled/scheduled_schema",
@@ -2187,6 +2195,14 @@
                 "variableName": "informant_schema"
             },
             {
+                "isAbout": "../activities/covid19_24hour_symptom_screener/covid19_24hour_symptom_screener_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Covid19 24Hour Symptom Screener"
+                },
+                "variableName": "covid19_24hour_symptom_screener_schema"
+            },
+            {
                 "isAbout": "../activities/locator/locator_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -2785,26 +2801,10 @@
                     "en": "Acs Post Stratification Weights Daic Use Only"
                 },
                 "variableName": "acs_post_stratification_weights_daic_use_only_schema"
-            },
-            {
-                "isAbout": "../activities/covid19_14day_symptom_screener/covid19_14day_symptom_screener_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Covid19 14Day Symptom Screener"
-                },
-                "variableName": "covid19_14day_symptom_screener_schema"
-            },
-            {
-                "isAbout": "../activities/covid19_24hour_symptom_screener/covid19_24hour_symptom_screener_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Covid19 24Hour Symptom Screener"
-                },
-                "variableName": "covid19_24hour_symptom_screener_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2555",
+    "version": "revid2556",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
