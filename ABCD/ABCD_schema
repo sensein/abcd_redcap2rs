@@ -18,11 +18,11 @@
             "../activities/scheduled/scheduled_schema",
             "../activities/longitudinal_tracking_daic_only/longitudinal_tracking_daic_only_schema",
             "../activities/special_instrument_participation/special_instrument_participation_schema",
+            "../activities/autopopulated_from_baseline_suheard_of/autopopulated_from_baseline_suheard_of_schema",
             "../activities/mr_incidence_findings/mr_incidence_findings_schema",
             "../activities/mr_findings_resolution/mr_findings_resolution_schema",
             "../activities/nda_id_daic_use_only/nda_id_daic_use_only_schema",
             "../activities/permission/permission_schema",
-            "../activities/autopopulated_from_baseline_suheard_of/autopopulated_from_baseline_suheard_of_schema",
             "../activities/assent/assent_schema",
             "../activities/bal_testyouth/bal_testyouth_schema",
             "../activities/toxicology_test_dtyouth/toxicology_test_dtyouth_schema",
@@ -387,6 +387,14 @@
                 "variableName": "special_instrument_participation_schema"
             },
             {
+                "isAbout": "../activities/autopopulated_from_baseline_suheard_of/autopopulated_from_baseline_suheard_of_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Autopopulated From Baseline Suheard Of"
+                },
+                "variableName": "autopopulated_from_baseline_suheard_of_schema"
+            },
+            {
                 "isAbout": "../activities/mr_incidence_findings/mr_incidence_findings_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -417,14 +425,6 @@
                     "en": "Permission"
                 },
                 "variableName": "permission_schema"
-            },
-            {
-                "isAbout": "../activities/autopopulated_from_baseline_suheard_of/autopopulated_from_baseline_suheard_of_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Autopopulated From Baseline Suheard Of"
-                },
-                "variableName": "autopopulated_from_baseline_suheard_of_schema"
             },
             {
                 "isAbout": "../activities/assent/assent_schema",
@@ -2805,6 +2805,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2589",
+    "version": "revid2593",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

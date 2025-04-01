@@ -56,9 +56,9 @@
             "items/prodromal_12_y",
             "items/prodromal_12_notes_y",
             "items/pps_12_bother_yn",
+            "items/prodromal_12b_y",
             "items/prodromal_image12_y",
             "items/prodromal_13_y",
-            "items/prodromal_12b_y",
             "items/pps_13_bother_yn",
             "items/prodromal_image13_y",
             "items/prodromal_13b_y",
@@ -393,6 +393,12 @@
                 "variableName": "pps_12_bother_yn"
             },
             {
+                "isAbout": "items/prodromal_12b_y",
+                "isVis": "pps_12_bother_yn == '1'",
+                "valueRequired": true,
+                "variableName": "prodromal_12b_y"
+            },
+            {
                 "isAbout": "items/prodromal_image12_y",
                 "isVis": "pps_12_bother_yn == '1'",
                 "valueRequired": false,
@@ -403,12 +409,6 @@
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "prodromal_13_y"
-            },
-            {
-                "isAbout": "items/prodromal_12b_y",
-                "isVis": "pps_12_bother_yn == '1'",
-                "valueRequired": true,
-                "variableName": "prodromal_12b_y"
             },
             {
                 "isAbout": "items/pps_13_bother_yn",
@@ -635,6 +635,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2589",
+    "version": "revid2593",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
