@@ -233,6 +233,7 @@
             "items/su_isip_1_calc_l",
             "items/isip_1b_yn_l",
             "items/isip_1b_l",
+            "items/su_isip_error",
             "items/su_isip_1b_calc_l",
             "items/isip_shootoff_l",
             "items/isip_bl_bran_log_broken",
@@ -867,6 +868,12 @@
                 "isVis": "isip_1b_yn_l == '1'",
                 "valueRequired": true,
                 "variableName": "isip_1b_l"
+            },
+            {
+                "isAbout": "items/su_isip_error",
+                "isVis": "(isip_1_l < isip_1b_l)",
+                "valueRequired": false,
+                "variableName": "su_isip_error"
             },
             {
                 "isAbout": "items/su_isip_1b_calc_l",
@@ -2263,6 +2270,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2648",
+    "version": "revid2650",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
