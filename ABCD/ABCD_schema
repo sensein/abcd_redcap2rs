@@ -119,11 +119,12 @@
             "../activities/y_ce_module_comments/y_ce_module_comments_schema",
             "../activities/fitbit_preassessment_youth/fitbit_preassessment_youth_schema",
             "../activities/feedbackyouth/feedbackyouth_schema",
-            "../activities/y_ra_feedback_4_yr_pilot/y_ra_feedback_4_yr_pilot_schema",
+            "../activities/y_pilot_feedback/y_pilot_feedback_schema",
             "../activities/y_feedback_odd_l/y_feedback_odd_l_schema",
             "../activities/baseline_visits/baseline_visits_schema",
             "../activities/y_youth_ra_notes_one_year_followup/y_youth_ra_notes_one_year_followup_schema",
             "../activities/y_youth_ra_notes_three_year/y_youth_ra_notes_three_year_schema",
+            "../activities/y_ra_feedback_4_yr_pilot/y_ra_feedback_4_yr_pilot_schema",
             "../activities/visit_summary/visit_summary_schema",
             "../activities/medication_inventoryphenx_medsparent/medication_inventoryphenx_medsparent_schema",
             "../activities/medical_history_questionnaire_mhqparent_l/medical_history_questionnaire_mhqparent_l_schema",
@@ -179,6 +180,7 @@
             "../activities/plus_day_2parent/plus_day_2parent_schema",
             "../activities/baby_teeth_parent/baby_teeth_parent_schema",
             "../activities/feedbackparent/feedbackparent_schema",
+            "../activities/p_pilot_feedback/p_pilot_feedback_schema",
             "../activities/p_ra_feedback_4yr_pilot/p_ra_feedback_4yr_pilot_schema",
             "../activities/consentfitbit/consentfitbit_schema",
             "../activities/ears_intro_setup/ears_intro_setup_schema",
@@ -334,9 +336,7 @@
             "../activities/p_abcd_covid19_questionnaire_part_1/p_abcd_covid19_questionnaire_part_1_schema",
             "../activities/p_abcd_covid19_questionnaire_part_2/p_abcd_covid19_questionnaire_part_2_schema",
             "../activities/acs_post_stratification_weights_daic_use_only/acs_post_stratification_weights_daic_use_only_schema",
-            "../activities/little_man_task_daic_use_only/little_man_task_daic_use_only_schema",
-            "../activities/p_pilot_feedback/p_pilot_feedback_schema",
-            "../activities/y_pilot_feedback/y_pilot_feedback_schema"
+            "../activities/little_man_task_daic_use_only/little_man_task_daic_use_only_schema"
         ],
         "addProperties": [
             {
@@ -1212,12 +1212,12 @@
                 "variableName": "feedbackyouth_schema"
             },
             {
-                "isAbout": "../activities/y_ra_feedback_4_yr_pilot/y_ra_feedback_4_yr_pilot_schema",
+                "isAbout": "../activities/y_pilot_feedback/y_pilot_feedback_schema",
                 "isVis": true,
                 "prefLabel": {
-                    "en": "Y Ra Feedback 4 Yr Pilot"
+                    "en": "Y Pilot Feedback"
                 },
-                "variableName": "y_ra_feedback_4_yr_pilot_schema"
+                "variableName": "y_pilot_feedback_schema"
             },
             {
                 "isAbout": "../activities/y_feedback_odd_l/y_feedback_odd_l_schema",
@@ -1250,6 +1250,14 @@
                     "en": "Y Youth Ra Notes Three Year"
                 },
                 "variableName": "y_youth_ra_notes_three_year_schema"
+            },
+            {
+                "isAbout": "../activities/y_ra_feedback_4_yr_pilot/y_ra_feedback_4_yr_pilot_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Ra Feedback 4 Yr Pilot"
+                },
+                "variableName": "y_ra_feedback_4_yr_pilot_schema"
             },
             {
                 "isAbout": "../activities/visit_summary/visit_summary_schema",
@@ -1690,6 +1698,14 @@
                     "en": "Feedbackparent"
                 },
                 "variableName": "feedbackparent_schema"
+            },
+            {
+                "isAbout": "../activities/p_pilot_feedback/p_pilot_feedback_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "P Pilot Feedback"
+                },
+                "variableName": "p_pilot_feedback_schema"
             },
             {
                 "isAbout": "../activities/p_ra_feedback_4yr_pilot/p_ra_feedback_4yr_pilot_schema",
@@ -2938,26 +2954,10 @@
                     "en": "Little Man Task Daic Use Only"
                 },
                 "variableName": "little_man_task_daic_use_only_schema"
-            },
-            {
-                "isAbout": "../activities/p_pilot_feedback/p_pilot_feedback_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "P Pilot Feedback"
-                },
-                "variableName": "p_pilot_feedback_schema"
-            },
-            {
-                "isAbout": "../activities/y_pilot_feedback/y_pilot_feedback_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Y Pilot Feedback"
-                },
-                "variableName": "y_pilot_feedback_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2638",
+    "version": "revid2639",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
