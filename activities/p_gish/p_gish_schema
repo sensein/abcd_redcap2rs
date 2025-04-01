@@ -25,13 +25,13 @@
             },
             {
                 "isAbout": "items/gish_desc_male",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "isVis": "(baseline_year_1_arm_1demo_sex_v2b == '1' || baseline_year_1_arm_1demo_sex_v2b == '3')&&(event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "gish_desc_male"
             },
             {
                 "isAbout": "items/gish_desc_male_self",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "isVis": "(baseline_year_1_arm_1demo_sex_v2b == '1' || baseline_year_1_arm_1demo_sex_v2b == '3')&&(event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "gish_desc_male_self"
             },
@@ -43,13 +43,13 @@
             },
             {
                 "isAbout": "items/gish_desc_fem",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' && baseline_year_1_arm_1demo_sex_v2b == '2' || baseline_year_1_arm_1demo_sex_v2b == '4')",
                 "valueRequired": true,
                 "variableName": "gish_desc_fem"
             },
             {
                 "isAbout": "items/gish_desc_fem_self",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' && baseline_year_1_arm_1demo_sex_v2b == '2' || baseline_year_1_arm_1demo_sex_v2b == '4')",
                 "valueRequired": true,
                 "variableName": "gish_desc_fem_self"
             },
@@ -68,6 +68,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2626",
+    "version": "revid2627",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

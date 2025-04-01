@@ -22,7 +22,7 @@
         "en": "tbi_ss_worst1b_l"
     },
     "question": {
-        "en": "Worst injury1b = improbable TBI complex\n (TBI w/o LOC or memory loss)"
+        "en": "Worst injury1b = improbable TBI complex\r\n (TBI w/o LOC or memory loss)\r\nREDCAP:tbi_ss_worst1b (TBI w/o LOC or memory loss) - \"Improbable TBI\"\r\n=IF(AND(OR([tbi_1_l]=1,[tbi_2_l]=1,[tbi_3_l]=1,[tbi_4_l]=1,[tbi_5_l]=1,[tbi_6o_l]=1,[tbi_7a_l]=1),AND([tbi_1b_l]<1,[tbi_1c_l]<>1,[tbi_2b_l]<1,[tbi_2c_l]<>1,[tbi_3b_l]<1,[tbi_3c_l]<>1,[tbi_4b_l]<1,[tbi_4c_l]<>1,[tbi_5b_l]<1,[tbi_5c_l]<>1,[tbi_6o_l]<1,[tbi_7c1_l]<1,[tbi_7c2_l]<>1,)),1,\"\")"
     },
     "responseOptions": {
         "valueType": [

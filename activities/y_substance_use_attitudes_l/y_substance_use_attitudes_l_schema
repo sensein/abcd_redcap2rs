@@ -608,7 +608,7 @@
             },
             {
                 "isAbout": "items/sua_admin",
-                "isVis": "event_name_number > '21'",
+                "isVis": "sched_delay == '7'",
                 "valueRequired": true,
                 "variableName": "sua_admin"
             },
@@ -621,6 +621,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2626",
+    "version": "revid2627",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

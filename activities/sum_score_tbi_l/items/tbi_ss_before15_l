@@ -17,7 +17,7 @@
         "en": "tbi_ss_before15_l"
     },
     "question": {
-        "en": "TBI-LOC before age 15"
+        "en": "TBI-LOC before age 15\r\n=IF([tbi_ss_agefirst_l]<15,1,IF([tbi_ss_agefirst_l]\u00e2\u0089\u00a515,0,\"\"))"
     },
     "responseOptions": {
         "valueType": [

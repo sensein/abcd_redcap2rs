@@ -22,7 +22,7 @@
         "en": "tbi_ss_ntbiloc_l"
     },
     "question": {
-        "en": "Number of TBI-LOC"
+        "en": "Number of TBI-LOC\r\n=SUM(AND([tbi_1_l)]=1,[tbi_1b_l]>0),AND([tbi_2_l]=1,[tbi_2b_l]>0,AND([tbi_3_l]=1,[tbi_3b_l]>0),AND([tbi_4_l]=1,[tbi_4b_l]>0),AND([tbi_5_l]=1,[tbi_5b_l]>0),[tbi_6p_l],AND([tbi_7a_l]=1,[tbi_7c1_l]>0))"
     },
     "responseOptions": {
         "valueType": [

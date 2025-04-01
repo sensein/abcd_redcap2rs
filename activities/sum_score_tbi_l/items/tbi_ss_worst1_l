@@ -22,7 +22,7 @@
         "en": "tbi_ss_worst1_l"
     },
     "question": {
-        "en": "Worst injury1 = improbable TBI\n(No TBI)"
+        "en": "Worst injury1 = improbable TBI\r\n(No TBI)\r\n=IF(AND([tbi_1_l]=0,[tbi_2_l]=0,[tbi_3_l]=0,[tbi_4_l]=0,[tbi_5_l]=0,[tbi_6o_l]=0,[tbi_7a_l]=0),1,\"\")"
     },
     "responseOptions": {
         "valueType": [

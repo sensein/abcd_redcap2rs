@@ -32,11 +32,11 @@
             "items/y_date_verbal_consent_cv",
             "items/video_use_assent",
             "items/video_details_assent",
+            "items/intro_to_bl_c",
+            "items/asnt_remote_visit",
             "items/asnt_remote_comfort",
             "items/asnt_remote_quiet_place",
             "items/asnt_remote_question",
-            "items/intro_to_bl_c",
-            "items/asnt_remote_visit",
             "items/assent_complete"
         ],
         "addProperties": [
@@ -54,7 +54,7 @@
             },
             {
                 "isAbout": "items/blood_assent_l",
-                "isVis": "event_name_number > '11'",
+                "isVis": "(sched_delay == '7')OR(sched_delay == '9' AND sched_hybrid == '1')",
                 "valueRequired": true,
                 "variableName": "blood_assent_l"
             },
@@ -66,7 +66,7 @@
             },
             {
                 "isAbout": "items/fitbit_assent",
-                "isVis": "event_name_number == '21'",
+                "isVis": "(event - name == '2_year_follow_up_y_arm_1' OR event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "fitbit_assent"
             },
@@ -155,6 +155,18 @@
                 "variableName": "video_details_assent"
             },
             {
+                "isAbout": "items/intro_to_bl_c",
+                "isVis": "asnt_form == '1' && sched_delay == '7'",
+                "valueRequired": true,
+                "variableName": "intro_to_bl_c"
+            },
+            {
+                "isAbout": "items/asnt_remote_visit",
+                "isVis": "sched_delay == '9'",
+                "valueRequired": false,
+                "variableName": "asnt_remote_visit"
+            },
+            {
                 "isAbout": "items/asnt_remote_comfort",
                 "isVis": "sched_delay == '9'",
                 "valueRequired": true,
@@ -173,18 +185,6 @@
                 "variableName": "asnt_remote_question"
             },
             {
-                "isAbout": "items/intro_to_bl_c",
-                "isVis": "asnt_form == '1' && sched_delay == '7'",
-                "valueRequired": true,
-                "variableName": "intro_to_bl_c"
-            },
-            {
-                "isAbout": "items/asnt_remote_visit",
-                "isVis": "sched_delay == '9'",
-                "valueRequired": false,
-                "variableName": "asnt_remote_visit"
-            },
-            {
                 "isAbout": "items/assnt_form_user",
                 "isVis": false,
                 "valueRequired": false,
@@ -199,6 +199,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2626",
+    "version": "revid2627",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

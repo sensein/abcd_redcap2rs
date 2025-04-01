@@ -17,7 +17,7 @@
         "en": "tbi_ss_worst_overall_l"
     },
     "question": {
-        "en": "Worst Injury Overall\r\nWorst TBI -  \r\n1, Improbable  TBI (no TBI or TBI w/o LOC or memory loss)\r\n2, Possible mild TBI (TBI w/o LOC but memory loss)\r\n3, Mild TBI (TBI w/LOC \u00e2\u0089\u00a4 30 min)\r\n4, Moderate TBI (TBI w/LOC  30 min - 24 hrs)\r\n5, Severe TBI (TBI w/ LOC \u00e2\u0089\u00a5 24 hrs)"
+        "en": "Worst Injury Overall\r\nWorst TBI -  \r\n=IF(OR([tbi_ss_worst1_l]=1,tbi_ss_worst1b_l]=1),\"1 - Improbable TBI\",IF(tbi_ss_worst2_l]=2,\"2 - Possible Mild TBI (No LOC)\",IF(tbi_ss_worst3_l]=3,\"3 - Mild TBI (with LOC)\",IF(tbi_ss_worst4_l]=4,\"4 - Moderate TBI\",IF(tbi_ss_worst5_l]=5,\"5 - Severe TBI\",\"\")))))\r\n\r\n1, Improbable  TBI (no TBI or TBI w/o LOC or memory loss)\r\n2, Possible mild TBI (TBI w/o LOC but memory loss)\r\n3, Mild TBI (TBI w/LOC \u00e2\u0089\u00a4 30 min)\r\n4, Moderate TBI (TBI w/LOC  30 min - 24 hrs)\r\n5, Severe TBI (TBI w/ LOC \u00e2\u0089\u00a5 24 hrs)"
     },
     "responseOptions": {
         "choices": [
