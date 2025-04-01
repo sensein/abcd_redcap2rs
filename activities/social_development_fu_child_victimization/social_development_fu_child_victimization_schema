@@ -60,8 +60,8 @@
             "items/socialdev_cvict_c2_f_01_l",
             "items/socialdev_cvict_c2_g_l",
             "items/socialdev_cvict_c2_h_l",
-            "items/socialdev_cvict_c2_h_other_l",
             "items/socialdev_cvict_c2_i_l",
+            "items/socialdev_cvict_c2_h_other_l",
             "items/socialdev_cvict_c2_j_l",
             "items/socialdev_cvict_c2_j4_l",
             "items/socialdev_cvict_c2_n_l",
@@ -1107,16 +1107,16 @@
                 "variableName": "socialdev_cvict_c2_h_l"
             },
             {
-                "isAbout": "items/socialdev_cvict_c2_h_other_l",
-                "isVis": "socialdev_cvict_c2_l== '1' AND socialdev_cvict_c2_h_l== '14'",
-                "valueRequired": false,
-                "variableName": "socialdev_cvict_c2_h_other_l"
-            },
-            {
                 "isAbout": "items/socialdev_cvict_c2_i_l",
                 "isVis": "socialdev_cvict_c2_l== '1'",
                 "valueRequired": false,
                 "variableName": "socialdev_cvict_c2_i_l"
+            },
+            {
+                "isAbout": "items/socialdev_cvict_c2_h_other_l",
+                "isVis": "socialdev_cvict_c2_l== '1' AND socialdev_cvict_c2_h_l== '14'",
+                "valueRequired": false,
+                "variableName": "socialdev_cvict_c2_h_other_l"
             },
             {
                 "isAbout": "items/socialdev_cvict_c2_j_l",
@@ -5465,6 +5465,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2652",
+    "version": "revid2653",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

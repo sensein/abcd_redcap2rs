@@ -137,8 +137,8 @@
             "items/tfmri_nback_run2_beh_correct2backneutface_numtrials",
             "items/tfmri_nback_run2_beh_correct2backneutface_rate",
             "items/tfmri_nback_run2_beh_correct2backneutface_meanrt",
-            "items/tfmri_nback_run2_beh_correct2backneutface_stdrt",
             "items/tfmri_nback_all_beh_2backneutfacetarget_numtrials",
+            "items/tfmri_nback_run2_beh_correct2backneutface_stdrt",
             "items/tfmri_nback_all_beh_correct2backneutfacetarget_numtrials",
             "items/tfmri_nback_all_beh_correct2backneutfacetarget_rate",
             "items/tfmri_nback_all_beh_correct2backneutfacetarget_meanrt",
@@ -1372,16 +1372,16 @@
                 "variableName": "tfmri_nback_run2_beh_correct2backneutface_meanrt"
             },
             {
-                "isAbout": "items/tfmri_nback_run2_beh_correct2backneutface_stdrt",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "tfmri_nback_run2_beh_correct2backneutface_stdrt"
-            },
-            {
                 "isAbout": "items/tfmri_nback_all_beh_2backneutfacetarget_numtrials",
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "tfmri_nback_all_beh_2backneutfacetarget_numtrials"
+            },
+            {
+                "isAbout": "items/tfmri_nback_run2_beh_correct2backneutface_stdrt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "tfmri_nback_run2_beh_correct2backneutface_stdrt"
             },
             {
                 "isAbout": "items/tfmri_nback_all_beh_correct2backneutfacetarget_numtrials",
@@ -4086,6 +4086,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2652",
+    "version": "revid2653",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

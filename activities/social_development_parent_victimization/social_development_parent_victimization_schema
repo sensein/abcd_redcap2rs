@@ -383,8 +383,8 @@
             "items/socialdev_pvict_p8_b_y",
             "items/socialdev_pvict_p8_last_text",
             "items/socialdev_pvict_p8_c",
-            "items/socialdev_pvict_p8_d_y",
             "items/socialdev_pvict_p8_e",
+            "items/socialdev_pvict_p8_d_y",
             "items/socialdev_pvict_p8_f",
             "items/socialdev_pvict_p8_f_01",
             "items/socialdev_pvict_p8_f_02",
@@ -521,8 +521,8 @@
             "items/socialdev_pvict_w5_b_y",
             "items/socialdev_pvict_w5_last_text",
             "items/socialdev_pvict_w5_c",
-            "items/socialdev_pvict_w5_d_y",
             "items/socialdev_pvict_w5_e",
+            "items/socialdev_pvict_w5_d_y",
             "items/socialdev_pvict_w5_f",
             "items/socialdev_pvict_w5_f_01",
             "items/socialdev_pvict_w5_f_02",
@@ -3134,16 +3134,16 @@
                 "variableName": "socialdev_pvict_p8_c"
             },
             {
-                "isAbout": "items/socialdev_pvict_p8_d_y",
-                "isVis": "socialdev_pvict_p8== '1'",
-                "valueRequired": false,
-                "variableName": "socialdev_pvict_p8_d_y"
-            },
-            {
                 "isAbout": "items/socialdev_pvict_p8_e",
                 "isVis": "socialdev_pvict_p8== '1' AND(socialdev_pvict_c1== '1' OR socialdev_pvict_c2== '1' OR socialdev_pvict_c3== '1' OR socialdev_pvict_c4== '1' OR socialdev_pvict_c5== '1' OR socialdev_pvict_c6== '1' OR socialdev_pvict_c7== '1' OR socialdev_pvict_c8== '1' OR socialdev_pvict_c9== '1' OR socialdev_pvict_p1== '1' OR socialdev_pvict_p2== '1' OR socialdev_pvict_p3== '1' OR socialdev_pvict_p4== '1' OR socialdev_pvict_p5== '1' OR socialdev_pvict_p6== '1' OR socialdev_pvict_p7== '1')",
                 "valueRequired": false,
                 "variableName": "socialdev_pvict_p8_e"
+            },
+            {
+                "isAbout": "items/socialdev_pvict_p8_d_y",
+                "isVis": "socialdev_pvict_p8== '1'",
+                "valueRequired": false,
+                "variableName": "socialdev_pvict_p8_d_y"
             },
             {
                 "isAbout": "items/socialdev_pvict_p8_f",
@@ -3962,16 +3962,16 @@
                 "variableName": "socialdev_pvict_w5_c"
             },
             {
-                "isAbout": "items/socialdev_pvict_w5_d_y",
-                "isVis": "socialdev_pvict_w5== '1'",
-                "valueRequired": false,
-                "variableName": "socialdev_pvict_w5_d_y"
-            },
-            {
                 "isAbout": "items/socialdev_pvict_w5_e",
                 "isVis": "socialdev_pvict_w5== '1' AND(socialdev_pvict_c1== '1' OR socialdev_pvict_c2== '1' OR socialdev_pvict_c3== '1' OR socialdev_pvict_c4== '1' OR socialdev_pvict_c5== '1' OR socialdev_pvict_c6== '1' OR socialdev_pvict_c7== '1' OR socialdev_pvict_c8== '1' OR socialdev_pvict_c9== '1' OR socialdev_pvict_p1== '1' OR socialdev_pvict_p2== '1' OR socialdev_pvict_p3== '1' OR socialdev_pvict_p4== '1' OR socialdev_pvict_p5== '1' OR socialdev_pvict_p6== '1' OR socialdev_pvict_p7== '1' OR socialdev_pvict_p8== '1' OR socialdev_pvict_w1== '1' OR socialdev_pvict_w2== '1' OR socialdev_pvict_w3== '1' OR socialdev_pvict_w4== '1')",
                 "valueRequired": false,
                 "variableName": "socialdev_pvict_w5_e"
+            },
+            {
+                "isAbout": "items/socialdev_pvict_w5_d_y",
+                "isVis": "socialdev_pvict_w5== '1'",
+                "valueRequired": false,
+                "variableName": "socialdev_pvict_w5_d_y"
             },
             {
                 "isAbout": "items/socialdev_pvict_w5_f",
@@ -6088,6 +6088,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2652",
+    "version": "revid2653",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

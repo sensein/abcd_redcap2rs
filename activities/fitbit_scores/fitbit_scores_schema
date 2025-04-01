@@ -475,8 +475,8 @@
             "items/fits_ss_intensity_vigorousavg_week2",
             "items/fits_ss_intensity_vigorousavg_week3",
             "items/fits_ss_intensity_vigorousavg_weekend",
-            "items/fits_ss_intensity_vigorousavg_workday",
             "items/fits_ss_sleep_lightavg_week1",
+            "items/fits_ss_intensity_vigorousavg_workday",
             "items/fits_ss_sleep_lightavg_week2",
             "items/fits_ss_sleep_lightavg_week3",
             "items/fits_ss_sleep_lightavg_weekend",
@@ -3382,16 +3382,16 @@
                 "variableName": "fits_ss_intensity_vigorousavg_weekend"
             },
             {
-                "isAbout": "items/fits_ss_intensity_vigorousavg_workday",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "fits_ss_intensity_vigorousavg_workday"
-            },
-            {
                 "isAbout": "items/fits_ss_sleep_lightavg_week1",
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "fits_ss_sleep_lightavg_week1"
+            },
+            {
+                "isAbout": "items/fits_ss_intensity_vigorousavg_workday",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "fits_ss_intensity_vigorousavg_workday"
             },
             {
                 "isAbout": "items/fits_ss_sleep_lightavg_week2",
@@ -3960,6 +3960,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2652",
+    "version": "revid2653",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
