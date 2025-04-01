@@ -7,6 +7,12 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/smarte_ss_enum_computer_os",
+            "items/smarte_ss_enum_computer_osmajorversion",
+            "items/smarte_ss_enum_computer_osminorversion",
+            "items/smarte_ss_enum_screenwidth_inmm",
+            "items/smarte_ss_enum_screenheight_inmm",
+            "items/smarte_ss_enum_test_setting",
             "items/smarte_ss_enum_script_lastupdate",
             "items/smarte_ss_enum_version",
             "items/smarte_ss_enum_startdate",
@@ -26,6 +32,13 @@
             "items/smarte_ss_enum_propcorr",
             "items/smarte_ss_enum_meancorrrt",
             "items/smarte_ss_enum_meanrt",
+            "items/smarte_ss_fluency_computer_os",
+            "items/smarte_ss_completed_enumeration",
+            "items/smarte_ss_fluency_computer_osmajorversion",
+            "items/smarte_ss_fluency_computer_osminorversion",
+            "items/smarte_ss_fluency_screenwidth_inmm",
+            "items/smarte_ss_fluency_screenheight_inmm",
+            "items/smarte_ss_fluency_test_setting",
             "items/smarte_ss_fluency_script_lastupdate",
             "items/smarte_ss_fluency_version",
             "items/smarte_ss_fluency_startdate",
@@ -45,7 +58,14 @@
             "items/smarte_ss_fluency_propcorr",
             "items/smarte_ss_fluency_meancorrrt",
             "items/smarte_ss_fluency_meanrt",
+            "items/smarte_ss_completed_fluency",
+            "items/smarte_ss_recall_computer_os",
+            "items/smarte_ss_recall_screenwidth_inmm",
+            "items/smarte_ss_recall_screenheight_inmm",
+            "items/smarte_ss_recall_test_setting",
             "items/smarte_ss_recall_script_lastupdate",
+            "items/smarte_ss_recall_computer_osminorversion",
+            "items/smarte_ss_recall_computer_osmajorversion",
             "items/smarte_ss_recall_version",
             "items/smarte_ss_recall_startdate",
             "items/smarte_ss_recall_starttime",
@@ -64,6 +84,7 @@
             "items/smarte_ss_recall_propcorr",
             "items/smarte_ss_recall_meancorrrt",
             "items/smarte_ss_recall_meanrt",
+            "items/smarte_ss_completed_recall",
             "items/smarte_ss_all_total_corr",
             "items/smarte_ss_dot_total_corr",
             "items/smarte_ss_sdf_total_corr",
@@ -110,9 +131,51 @@
             "items/smarte_ss_mdf_regroup_err",
             "items/smarte_ss_mdf_regroup_acc",
             "items/smarte_ss_mdf_regroup_rt",
+            "items/smarte_ss_mdf_challenge_nt",
+            "items/smarte_ss_mdf_challenge_corr",
+            "items/smarte_ss_mdf_challenge_to",
+            "items/smarte_ss_mdf_challenge_err",
+            "items/smarte_ss_mdf_challenge_acc",
+            "items/smarte_ss_mdf_challenge_rt",
             "items/smarte_sum_scores_complete"
         ],
         "addProperties": [
+            {
+                "isAbout": "items/smarte_ss_enum_computer_os",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_enum_computer_os"
+            },
+            {
+                "isAbout": "items/smarte_ss_enum_computer_osmajorversion",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_enum_computer_osmajorversion"
+            },
+            {
+                "isAbout": "items/smarte_ss_enum_computer_osminorversion",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_enum_computer_osminorversion"
+            },
+            {
+                "isAbout": "items/smarte_ss_enum_screenwidth_inmm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_enum_screenwidth_inmm"
+            },
+            {
+                "isAbout": "items/smarte_ss_enum_screenheight_inmm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_enum_screenheight_inmm"
+            },
+            {
+                "isAbout": "items/smarte_ss_enum_test_setting",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_enum_test_setting"
+            },
             {
                 "isAbout": "items/smarte_ss_enum_script_lastupdate",
                 "isVis": false,
@@ -226,6 +289,48 @@
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "smarte_ss_enum_meanrt"
+            },
+            {
+                "isAbout": "items/smarte_ss_fluency_computer_os",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_fluency_computer_os"
+            },
+            {
+                "isAbout": "items/smarte_ss_completed_enumeration",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_completed_enumeration"
+            },
+            {
+                "isAbout": "items/smarte_ss_fluency_computer_osmajorversion",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_fluency_computer_osmajorversion"
+            },
+            {
+                "isAbout": "items/smarte_ss_fluency_computer_osminorversion",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_fluency_computer_osminorversion"
+            },
+            {
+                "isAbout": "items/smarte_ss_fluency_screenwidth_inmm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_fluency_screenwidth_inmm"
+            },
+            {
+                "isAbout": "items/smarte_ss_fluency_screenheight_inmm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_fluency_screenheight_inmm"
+            },
+            {
+                "isAbout": "items/smarte_ss_fluency_test_setting",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_fluency_test_setting"
             },
             {
                 "isAbout": "items/smarte_ss_fluency_script_lastupdate",
@@ -342,10 +447,52 @@
                 "variableName": "smarte_ss_fluency_meanrt"
             },
             {
+                "isAbout": "items/smarte_ss_completed_fluency",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_completed_fluency"
+            },
+            {
+                "isAbout": "items/smarte_ss_recall_computer_os",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_recall_computer_os"
+            },
+            {
+                "isAbout": "items/smarte_ss_recall_screenwidth_inmm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_recall_screenwidth_inmm"
+            },
+            {
+                "isAbout": "items/smarte_ss_recall_screenheight_inmm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_recall_screenheight_inmm"
+            },
+            {
+                "isAbout": "items/smarte_ss_recall_test_setting",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_recall_test_setting"
+            },
+            {
                 "isAbout": "items/smarte_ss_recall_script_lastupdate",
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "smarte_ss_recall_script_lastupdate"
+            },
+            {
+                "isAbout": "items/smarte_ss_recall_computer_osminorversion",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_recall_computer_osminorversion"
+            },
+            {
+                "isAbout": "items/smarte_ss_recall_computer_osmajorversion",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_recall_computer_osmajorversion"
             },
             {
                 "isAbout": "items/smarte_ss_recall_version",
@@ -454,6 +601,12 @@
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "smarte_ss_recall_meanrt"
+            },
+            {
+                "isAbout": "items/smarte_ss_completed_recall",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_completed_recall"
             },
             {
                 "isAbout": "items/smarte_ss_all_total_corr",
@@ -732,6 +885,42 @@
                 "variableName": "smarte_ss_mdf_regroup_rt"
             },
             {
+                "isAbout": "items/smarte_ss_mdf_challenge_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_mdf_challenge_nt"
+            },
+            {
+                "isAbout": "items/smarte_ss_mdf_challenge_corr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_mdf_challenge_corr"
+            },
+            {
+                "isAbout": "items/smarte_ss_mdf_challenge_to",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_mdf_challenge_to"
+            },
+            {
+                "isAbout": "items/smarte_ss_mdf_challenge_err",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_mdf_challenge_err"
+            },
+            {
+                "isAbout": "items/smarte_ss_mdf_challenge_acc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_mdf_challenge_acc"
+            },
+            {
+                "isAbout": "items/smarte_ss_mdf_challenge_rt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "smarte_ss_mdf_challenge_rt"
+            },
+            {
                 "isAbout": "items/smarte_sum_scores_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -740,6 +929,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2602",
+    "version": "revid2603",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

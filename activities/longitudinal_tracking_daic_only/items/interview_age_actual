@@ -1,0 +1,32 @@
+{
+    "id": "interview_age_actual",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "integer"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN @READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "interview_age_actual"
+    },
+    "question": {
+        "en": "Actual Age in month of the participant at the beginning of the visit, for internal use purpose."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

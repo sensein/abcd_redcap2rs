@@ -7,9 +7,16 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/strp_scr_computer_os",
+            "items/strp_scr_computer_osmajorversion",
+            "items/strp_scr_computer_osminorversion",
+            "items/strp_scr_screenwidth_inmm",
+            "items/strp_scr_screenheight_inmm",
+            "items/strp_scr_test_setting",
             "items/strp_scr_script_startdate",
             "items/strp_scr_script_starttime",
             "items/strp_scr_script_subjectid",
+            "items/strp_scr_script_event",
             "items/strp_scr_script_wrong_event",
             "items/strp_scr_script_session",
             "items/strp_scr_script_groupid",
@@ -59,6 +66,42 @@
         ],
         "addProperties": [
             {
+                "isAbout": "items/strp_scr_computer_os",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "strp_scr_computer_os"
+            },
+            {
+                "isAbout": "items/strp_scr_computer_osmajorversion",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "strp_scr_computer_osmajorversion"
+            },
+            {
+                "isAbout": "items/strp_scr_computer_osminorversion",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "strp_scr_computer_osminorversion"
+            },
+            {
+                "isAbout": "items/strp_scr_screenwidth_inmm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "strp_scr_screenwidth_inmm"
+            },
+            {
+                "isAbout": "items/strp_scr_screenheight_inmm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "strp_scr_screenheight_inmm"
+            },
+            {
+                "isAbout": "items/strp_scr_test_setting",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "strp_scr_test_setting"
+            },
+            {
                 "isAbout": "items/strp_scr_script_startdate",
                 "isVis": false,
                 "valueRequired": false,
@@ -75,6 +118,12 @@
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "strp_scr_script_subjectid"
+            },
+            {
+                "isAbout": "items/strp_scr_script_event",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "strp_scr_script_event"
             },
             {
                 "isAbout": "items/strp_scr_script_wrong_event",
@@ -355,6 +404,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2602",
+    "version": "revid2603",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
