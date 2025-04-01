@@ -35,11 +35,11 @@
             "variableName": "mctq_tbtf_calc"
         },
         {
-            "jsExpression": "mctq_sow_calc +(mctq_sdw_calc)/ 2 + if((mctq_sow_calc +(mctq_sdw_calc)/ 2)>= 24,- 24,0)",
+            "jsExpression": "round(mctq_sow_calc +(mctq_sdw_calc)/ 2 + if((mctq_sow_calc +(mctq_sdw_calc)/ 2)>= 24,- 24,0),4)",
             "variableName": "mctq_msw_calc"
         },
         {
-            "jsExpression": "mctq_sof_calc +(mctq_sdf_calc)/ 2 + if((mctq_sof_calc +(mctq_sdf_calc)/ 2)>= 24,- 24,0)",
+            "jsExpression": "round(mctq_sof_calc +(mctq_sdf_calc)/ 2 + if((mctq_sof_calc +(mctq_sdf_calc)/ 2)>= 24,- 24,0),4)",
             "variableName": "mctq_msf_calc"
         },
         {
@@ -47,23 +47,23 @@
             "variableName": "mctq_fd_calc"
         },
         {
-            "jsExpression": "round((mctq_days_per_week_calc * mctq_sdw_calc + mctq_fd_calc * mctq_sdf_calc)/ 7)",
+            "jsExpression": "round((mctq_days_per_week_calc * mctq_sdw_calc + mctq_fd_calc * mctq_sdf_calc)/ 7,4)",
             "variableName": "mctq_sdweek_calc"
         },
         {
-            "jsExpression": "if(mctq_fd_alarm_parent == 0,if(mctq_sdf_calc <= mctq_sdw_calc,mctq_msf_calc,mctq_sof_calc + mctq_sdweek_calc / 2 + if(mctq_sof_calc + mctq_sdweek_calc / 2 >= 40,- 24,0)),'')",
+            "jsExpression": "round(if(mctq_fd_alarm_parent == 0,if(mctq_sdf_calc <= mctq_sdw_calc,mctq_msf_calc,mctq_sof_calc + mctq_sdweek_calc / 2 + if(mctq_sof_calc + mctq_sdweek_calc / 2 >= 40,- 24,0)),''),4)",
             "variableName": "mctq_msfsc_calc"
         },
         {
-            "jsExpression": "round(abs(mctq_sdf_calc - mctq_sdw_calc)* mctq_fd_calc *(mctq_days_per_week_calc / 7))",
+            "jsExpression": "round(abs(mctq_sdf_calc - mctq_sdw_calc)* mctq_fd_calc *(mctq_days_per_week_calc / 7),4)",
             "variableName": "mctq_slossweek_calc"
         },
         {
-            "jsExpression": "if((mctq_msf_calc - mctq_msw_calc)>12,(mctq_msf_calc - mctq_msw_calc)- 24,if((mctq_msf_calc - mctq_msw_calc)< - 12,(mctq_msf_calc - mctq_msw_calc)+ 24,(mctq_msf_calc - mctq_msw_calc)))",
+            "jsExpression": "round(if((mctq_msf_calc - mctq_msw_calc)>12,(mctq_msf_calc - mctq_msw_calc)- 24,if((mctq_msf_calc - mctq_msw_calc)< - 12,(mctq_msf_calc - mctq_msw_calc)+ 24,(mctq_msf_calc - mctq_msw_calc))),4)",
             "variableName": "mctq_sjlrel_calc"
         },
         {
-            "jsExpression": "if(abs(mctq_msf_calc - mctq_msw_calc)>12,(24 - abs(mctq_msf_calc - mctq_msw_calc)),abs(mctq_msf_calc - mctq_msw_calc))",
+            "jsExpression": "round(if(abs(mctq_msf_calc - mctq_msw_calc)>12,(24 - abs(mctq_msf_calc - mctq_msw_calc)),abs(mctq_msf_calc - mctq_msw_calc)),4)",
             "variableName": "mctq_sjl_calc"
         }
     ],
@@ -184,6 +184,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2524",
+    "version": "revid2525",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -2218,6 +2218,9 @@
             "items/iqc_sst_rename_err",
             "items/iqc_nback_rename_err",
             "items/iqc_rename_err",
+            "items/iqc_mid_ep_file_res",
+            "items/iqc_nback_ep_file_res",
+            "items/iqc_sst_ep_file_res",
             "items/mri_qc_raw_daic_use_only_complete"
         ],
         "addProperties": [
@@ -15488,6 +15491,24 @@
                 "variableName": "iqc_rename_err"
             },
             {
+                "isAbout": "items/iqc_mid_ep_file_res",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "iqc_mid_ep_file_res"
+            },
+            {
+                "isAbout": "items/iqc_nback_ep_file_res",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "iqc_nback_ep_file_res"
+            },
+            {
+                "isAbout": "items/iqc_sst_ep_file_res",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "iqc_sst_ep_file_res"
+            },
+            {
                 "isAbout": "items/mri_qc_raw_daic_use_only_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -15496,6 +15517,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2524",
+    "version": "revid2525",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

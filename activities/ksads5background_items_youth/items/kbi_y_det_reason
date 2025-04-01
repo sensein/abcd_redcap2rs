@@ -5,7 +5,7 @@
         {
             "column": "Field Annotation",
             "source": "redcap",
-            "value": "@NONEOFTHEABOVE = '777'"
+            "value": "@HIDECHOICE='888' @NONEOFTHEABOVE = '777'"
         }
     ],
     "prefLabel": {
@@ -69,6 +69,12 @@
                     "en": "9, Refuse to answer"
                 },
                 "value": 777
+            },
+            {
+                "name": {
+                    "en": "Not Asked"
+                },
+                "value": 888
             }
         ],
         "multipleChoice": true,

@@ -6,6 +6,11 @@
             "column": "Matrix Group Name",
             "source": "redcap",
             "value": "fam_history_drugs"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDECHOICE='888'"
         }
     ],
     "preamble": {
@@ -83,6 +88,12 @@
                     "es": "No s\u00c3\u00a9"
                 },
                 "value": 999
+            },
+            {
+                "name": {
+                    "en": "Not Asked"
+                },
+                "value": 888
             }
         ],
         "multipleChoice": true,

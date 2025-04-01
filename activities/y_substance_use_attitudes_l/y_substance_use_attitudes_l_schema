@@ -512,7 +512,7 @@
             },
             {
                 "isAbout": "items/phs_1_y",
-                "isVis": "(tlfb_alc_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_alc == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_alc_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_alc_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
+                "isVis": "(tlfb_alc_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_alc_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_alc_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_alc_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "phs_1_y"
             },
@@ -621,6 +621,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2524",
+    "version": "revid2525",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
