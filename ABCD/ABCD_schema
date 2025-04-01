@@ -39,6 +39,7 @@
             "../activities/mid_post_scan_questionnaireyouth/mid_post_scan_questionnaireyouth_schema",
             "../activities/rec_memory_for_emo_nback/rec_memory_for_emo_nback_schema",
             "../activities/eprime_data_upload/eprime_data_upload_schema",
+            "../activities/y_substance_introduction_and_use_patterns_l/y_substance_introduction_and_use_patterns_l_schema",
             "../activities/genetic_blood_rucdryouth/genetic_blood_rucdryouth_schema",
             "../activities/hair_sample_hsyouth/hair_sample_hsyouth_schema",
             "../activities/introduction_to_neurocognitionyouth/introduction_to_neurocognitionyouth_schema",
@@ -316,8 +317,7 @@
             "../activities/residential_history_derived_scores_daic_use_only/residential_history_derived_scores_daic_use_only_schema",
             "../activities/p_abcd_covid19_questionnaire_part_1/p_abcd_covid19_questionnaire_part_1_schema",
             "../activities/p_abcd_covid19_questionnaire_part_2/p_abcd_covid19_questionnaire_part_2_schema",
-            "../activities/acs_post_stratification_weights_daic_use_only/acs_post_stratification_weights_daic_use_only_schema",
-            "../activities/y_substance_introduction_and_use_patterns_l/y_substance_introduction_and_use_patterns_l_schema"
+            "../activities/acs_post_stratification_weights_daic_use_only/acs_post_stratification_weights_daic_use_only_schema"
         ],
         "addProperties": [
             {
@@ -551,6 +551,14 @@
                     "en": "Eprime Data Upload"
                 },
                 "variableName": "eprime_data_upload_schema"
+            },
+            {
+                "isAbout": "../activities/y_substance_introduction_and_use_patterns_l/y_substance_introduction_and_use_patterns_l_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Substance Introduction And Use Patterns L"
+                },
+                "variableName": "y_substance_introduction_and_use_patterns_l_schema"
             },
             {
                 "isAbout": "../activities/genetic_blood_rucdryouth/genetic_blood_rucdryouth_schema",
@@ -2775,18 +2783,10 @@
                     "en": "Acs Post Stratification Weights Daic Use Only"
                 },
                 "variableName": "acs_post_stratification_weights_daic_use_only_schema"
-            },
-            {
-                "isAbout": "../activities/y_substance_introduction_and_use_patterns_l/y_substance_introduction_and_use_patterns_l_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Y Substance Introduction And Use Patterns L"
-                },
-                "variableName": "y_substance_introduction_and_use_patterns_l_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2542",
+    "version": "revid2544",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
