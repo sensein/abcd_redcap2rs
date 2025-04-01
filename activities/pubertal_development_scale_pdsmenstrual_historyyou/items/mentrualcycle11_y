@@ -1,0 +1,70 @@
+{
+    "id": "mentrualcycle11_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200917"
+        }
+    ],
+    "prefLabel": {
+        "en": "mentrualcycle11_y"
+    },
+    "question": {
+        "en": "What form of birth control do you use?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Birth control pill (e.g. Yasmin, Yaz)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Birth control patch"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Birth control shot (e.g. depo-provera shot)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Birth control implant (e.g. Nexplanon)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Hormonal IUD (e.g. Mirena)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
