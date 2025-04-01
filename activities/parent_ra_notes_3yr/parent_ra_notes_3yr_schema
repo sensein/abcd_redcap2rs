@@ -47,6 +47,7 @@
             "items/pnotes_3yr_home_end",
             "items/pnotes_3yr_where_complete",
             "items/pnotes_3yr_sched_visit_reason",
+            "items/pnotes_4yr_pilot",
             "items/pnotes_3yr_issues",
             "items/pnotes_3yr_issues_workgroup",
             "items/pnotes_3yr_issues_workgroup_medication",
@@ -491,25 +492,25 @@
             },
             {
                 "isAbout": "items/pnotes_3yr_teeth_num_total",
-                "isVis": true,
+                "isVis": "event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "pnotes_3yr_teeth_num_total"
             },
             {
                 "isAbout": "items/pnotes_3yr_more_teeth",
-                "isVis": true,
+                "isVis": "event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "pnotes_3yr_more_teeth"
             },
             {
                 "isAbout": "items/pnotes_3yr_teeth_script",
-                "isVis": true,
+                "isVis": "event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "pnotes_3yr_teeth_script"
             },
             {
                 "isAbout": "items/pnotes_3yr_teeth_txt",
-                "isVis": "pnotes_3yr_teeth_script___1 == '1'",
+                "isVis": "pnotes_3yr_teeth_script___1 == '1' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "pnotes_3yr_teeth_txt"
             },
@@ -611,103 +612,103 @@
             },
             {
                 "isAbout": "items/pnotes_3yr_home_completion_desc",
-                "isVis": "pnotes_3yr_offsite_how == '2'",
+                "isVis": "pnotes_3yr_offsite_how == '2' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "pnotes_3yr_home_completion_desc"
             },
             {
                 "isAbout": "items/pnotes_3yr_home_su",
-                "isVis": "pnotes_3yr_offsite_how == '2'",
+                "isVis": "pnotes_3yr_offsite_how == '2' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "pnotes_3yr_home_su"
             },
             {
                 "isAbout": "items/pnotes_3yr_home_pds",
-                "isVis": "pnotes_3yr_offsite_how == '2'",
+                "isVis": "pnotes_3yr_offsite_how == '2' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "pnotes_3yr_home_pds"
             },
             {
                 "isAbout": "items/pnotes_3yr_home_sleep",
-                "isVis": "pnotes_3yr_offsite_how == '2'",
+                "isVis": "pnotes_3yr_offsite_how == '2' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "pnotes_3yr_home_sleep"
             },
             {
                 "isAbout": "items/pnotes_3yr_home_scrn_y",
-                "isVis": "pnotes_3yr_offsite_how == '2'",
+                "isVis": "pnotes_3yr_offsite_how == '2' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "pnotes_3yr_home_scrn_y"
             },
             {
                 "isAbout": "items/pnotes_3yr_home_scrn_p",
-                "isVis": "pnotes_3yr_offsite_how == '2'",
+                "isVis": "pnotes_3yr_offsite_how == '2' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "pnotes_3yr_home_scrn_p"
             },
             {
                 "isAbout": "items/pnotes_3yr_home_prosoc",
-                "isVis": "pnotes_3yr_offsite_how == '2'",
+                "isVis": "pnotes_3yr_offsite_how == '2' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "pnotes_3yr_home_prosoc"
             },
             {
                 "isAbout": "items/pnotes_3yr_home_ders",
-                "isVis": "pnotes_3yr_offsite_how == '2'",
+                "isVis": "pnotes_3yr_offsite_how == '2' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "pnotes_3yr_home_ders"
             },
             {
                 "isAbout": "items/pnotes_3yr_home_barkley",
-                "isVis": "pnotes_3yr_offsite_how == '2'",
+                "isVis": "pnotes_3yr_offsite_how == '2' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "pnotes_3yr_home_barkley"
             },
             {
                 "isAbout": "items/pnotes_3yr_home_rules_p",
-                "isVis": "pnotes_3yr_offsite_how == '2'",
+                "isVis": "pnotes_3yr_offsite_how == '2' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "pnotes_3yr_home_rules_p"
             },
             {
                 "isAbout": "items/pnotes_3yr_home_pss",
-                "isVis": "pnotes_3yr_offsite_how == '2'",
+                "isVis": "pnotes_3yr_offsite_how == '2' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "pnotes_3yr_home_pss"
             },
             {
                 "isAbout": "items/pnotes_3yr_home_ipaq",
-                "isVis": "pnotes_3yr_offsite_how == '2'",
+                "isVis": "pnotes_3yr_offsite_how == '2' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "pnotes_3yr_home_ipaq"
             },
             {
                 "isAbout": "items/pnotes_3yr_home_risk",
-                "isVis": "pnotes_3yr_offsite_how == '2'",
+                "isVis": "pnotes_3yr_offsite_how == '2' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "pnotes_3yr_home_risk"
             },
             {
                 "isAbout": "items/pnotes_3yr_home_school",
-                "isVis": "pnotes_3yr_offsite_how == '2'",
+                "isVis": "pnotes_3yr_offsite_how == '2' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "pnotes_3yr_home_school"
             },
             {
                 "isAbout": "items/pnotes_3yr_home_accult",
-                "isVis": "pnotes_3yr_offsite_how == '2'",
+                "isVis": "pnotes_3yr_offsite_how == '2' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "pnotes_3yr_home_accult"
             },
             {
                 "isAbout": "items/pnotes_3yr_home_mex",
-                "isVis": "pnotes_3yr_offsite_how == '2'",
+                "isVis": "pnotes_3yr_offsite_how == '2' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "pnotes_3yr_home_mex"
             },
             {
                 "isAbout": "items/pnotes_3yr_home_end",
-                "isVis": "pnotes_3yr_offsite_how == '2'",
+                "isVis": "pnotes_3yr_offsite_how == '2' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "pnotes_3yr_home_end"
             },
@@ -724,6 +725,12 @@
                 "variableName": "pnotes_3yr_sched_visit_reason"
             },
             {
+                "isAbout": "items/pnotes_4yr_pilot",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": false,
+                "variableName": "pnotes_4yr_pilot"
+            },
+            {
                 "isAbout": "items/pnotes_3yr_issues",
                 "isVis": true,
                 "valueRequired": true,
@@ -731,7 +738,7 @@
             },
             {
                 "isAbout": "items/pnotes_3yr_issues_workgroup",
-                "isVis": "pnotes_3yr_issues___1=='1'",
+                "isVis": "pnotes_3yr_issues___1=='1' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "pnotes_3yr_issues_workgroup"
             },
@@ -2051,7 +2058,7 @@
             },
             {
                 "isAbout": "items/pnotes_3yr_issues_wrongpguid",
-                "isVis": "pnotes_3yr_issues___3=='1'",
+                "isVis": "pnotes_3yr_issues___3=='1' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "pnotes_3yr_issues_wrongpguid"
             },
@@ -2075,13 +2082,13 @@
             },
             {
                 "isAbout": "items/pnotes_3yr_issues_wtimept_incorrect",
-                "isVis": "pnotes_3yr_issues___4 == '1'",
+                "isVis": "pnotes_3yr_issues___4 == '1' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "pnotes_3yr_issues_wtimept_incorrect"
             },
             {
                 "isAbout": "items/pnotes_3yr_issues_wtimept_instruments",
-                "isVis": "pnotes_3yr_issues___4 == '1'",
+                "isVis": "pnotes_3yr_issues___4 == '1' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "pnotes_3yr_issues_wtimept_instruments"
             },
@@ -2537,7 +2544,7 @@
             },
             {
                 "isAbout": "items/pnotes_3yr_dm_pguid",
-                "isVis": "pnotes_3yr_issues___5=='1'",
+                "isVis": "pnotes_3yr_issues___5=='1' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "pnotes_3yr_dm_pguid"
             },
@@ -2549,7 +2556,7 @@
             },
             {
                 "isAbout": "items/pnotes_3yr_issues_datamanager",
-                "isVis": "pnotes_3yr_issues___5=='1'",
+                "isVis": "pnotes_3yr_issues___5=='1' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "pnotes_3yr_issues_datamanager"
             },
@@ -3330,6 +3337,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2633",
+    "version": "revid2634",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

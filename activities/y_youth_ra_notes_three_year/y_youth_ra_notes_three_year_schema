@@ -9,9 +9,12 @@
         "order": [
             "items/ynotes_3yr_start_time",
             "items/ynotes_3yr_gender_y",
+            "items/ysr_q18_alert",
+            "items/ysr_q91_alert",
             "items/ynotes_3yr_where_completed_y",
             "items/ynotes_3yr_sched_visit_reason",
             "items/remote_method",
+            "items/pnotes_feedback_y",
             "items/remote_privacy",
             "items/ynotes_completed",
             "items/ynotes_3yr_remote_macv",
@@ -625,6 +628,18 @@
                 "variableName": "ynotes_3yr_gender_y"
             },
             {
+                "isAbout": "items/ysr_q18_alert",
+                "isVis": "ysr_q18 == '1' || ysr_q18 == '2'",
+                "valueRequired": false,
+                "variableName": "ysr_q18_alert"
+            },
+            {
+                "isAbout": "items/ysr_q91_alert",
+                "isVis": "ysr_q91 == '1' || ysr_q91 == '2'",
+                "valueRequired": false,
+                "variableName": "ysr_q91_alert"
+            },
+            {
                 "isAbout": "items/ynotes_3yr_where_completed_y",
                 "isVis": true,
                 "valueRequired": true,
@@ -643,6 +658,12 @@
                 "variableName": "remote_method"
             },
             {
+                "isAbout": "items/pnotes_feedback_y",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": false,
+                "variableName": "pnotes_feedback_y"
+            },
+            {
                 "isAbout": "items/remote_privacy",
                 "isVis": "sched_delay == 9",
                 "valueRequired": true,
@@ -650,325 +671,325 @@
             },
             {
                 "isAbout": "items/ynotes_completed",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_completed"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_macv",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_macv"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_pt",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_pt"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_accult",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_accult"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_meimr",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_meimr"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_via",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_via"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_nbs",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_nbs"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_pmq",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_pmq"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_crpbi",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_crpbi"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_fecs",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_fecs"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_pbpi",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_pbpi"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_pnhps",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_pnhps"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_pet",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_pet"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_gender",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_gender"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_wps",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_wps"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_grades",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_grades"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_risk_prot",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_risk_prot"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_bld_press",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_bld_press"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_blood_collect",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_blood_collect"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_pub_saliva",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_pub_saliva"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_hair",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_hair"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_pds_ms",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_pds_ms"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_gish2",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_gish2"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_tlfb",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_tlfb"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_suia",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_suia"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_alc",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_alc"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_nic",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_nic"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_mj",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_mj"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_crpf",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_crpf"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_pps",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_pps"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_bpm",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_bpm"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_7up",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_7up"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_delq",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_delq"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_tb",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_tb"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_phenx",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_phenx"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_peer",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_peer"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_cyber",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_cyber"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_ksads",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_ksads"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_ksads5",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_ksads5"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_plus",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_plus"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_intro_neuro",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_intro_neuro"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_strp",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_strp"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_dedis",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_dedis"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_math",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_math"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_pain",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_pain"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_mctq",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_mctq"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_yrs",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_yrs"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_stq",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_stq"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_sai",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_sai"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_erq",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_erq"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_res",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_res"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_bkfs",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_bkfs"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_feedback",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_feedback"
             },
             {
                 "isAbout": "items/ynotes_3yr_remote_remote_other",
-                "isVis": "ynotes_3yr_where_completed_y =='3'",
+                "isVis": "ynotes_3yr_where_completed_y =='3' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_remote_remote_other"
             },
@@ -980,7 +1001,7 @@
             },
             {
                 "isAbout": "items/ynotes_3yr_issues_workgroup",
-                "isVis": "ynotes_3yr_issues___1=='1'",
+                "isVis": "ynotes_3yr_issues___1=='1' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_issues_workgroup"
             },
@@ -2972,25 +2993,25 @@
             },
             {
                 "isAbout": "items/ynotes_3yr_issues_wtimept_incorrect",
-                "isVis": "ynotes_3yr_issues___4 == '1'",
+                "isVis": "ynotes_3yr_issues___4 == '1' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_issues_wtimept_incorrect"
             },
             {
                 "isAbout": "items/ynotes_3yr_issues_wtimept_correct",
-                "isVis": "ynotes_3yr_issues___4 == '1'",
+                "isVis": "ynotes_3yr_issues___4 == '1' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_issues_wtimept_correct"
             },
             {
                 "isAbout": "items/ynotes_3yr_issues_wtimept_instruments",
-                "isVis": "ynotes_3yr_issues___4 == '1'",
+                "isVis": "ynotes_3yr_issues___4 == '1' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_issues_wtimept_instruments"
             },
             {
                 "isAbout": "items/ynotes_3yr_issues_dm_pguid",
-                "isVis": "ynotes_3yr_issues___5=='1'",
+                "isVis": "ynotes_3yr_issues___5=='1' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_issues_dm_pguid"
             },
@@ -3002,7 +3023,7 @@
             },
             {
                 "isAbout": "items/ynotes_3yr_issues_data_manager",
-                "isVis": "ynotes_3yr_issues___5=='1'",
+                "isVis": "ynotes_3yr_issues___5=='1' AND event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "ynotes_3yr_issues_data_manager"
             },
@@ -4233,6 +4254,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2633",
+    "version": "revid2634",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
