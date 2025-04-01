@@ -1,55 +1,44 @@
 {
-    "id": "neurocog_device",
+    "id": "neurocog_2_sit",
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
             "column": "Field Annotation",
             "source": "redcap",
-            "value": "HIDEFROMCOMPLETION20200603"
+            "value": "HIDEFROMCOMPLETION20200724"
         }
     ],
     "preamble": {
         "en": "For RA Use Only:"
     },
     "prefLabel": {
-        "en": "neurocog_device"
+        "en": "neurocog_2_sit"
     },
     "question": {
-        "en": "NCog Session:"
+        "en": "Method ofSITadministration [Check all that apply]:"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Completed in full without disruption"
+                    "en": "Audio"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Completed in full with temporary technical disruption"
+                    "en": "Video/Webcam"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Completed partially due to technical disruption"
+                    "en": "In person (ONLY if issues arise and hybrid)"
                 },
                 "value": 3
-            },
-            {
-                "name": {
-                    "en": "Did not complete due to not being able to share screen"
-                },
-                "value": 4
-            },
-            {
-                "name": {
-                    "en": "Did not complete due to technical issues"
-                },
-                "value": 5
             }
         ],
+        "multipleChoice": true,
         "valueType": [
             "xsd:integer"
         ]

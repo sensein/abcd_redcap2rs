@@ -17,6 +17,7 @@
             "items/neurocog_2_lmt",
             "items/neurocog_2_god",
             "items/neurocog_2_flanker",
+            "items/neurocog_2_sit",
             "items/neurocog_2_device",
             "items/introduction_to_neurocognitionyouth2_complete"
         ],
@@ -82,6 +83,12 @@
                 "variableName": "neurocog_2_flanker"
             },
             {
+                "isAbout": "items/neurocog_2_sit",
+                "isVis": "sched_hybrid == '1'",
+                "valueRequired": true,
+                "variableName": "neurocog_2_sit"
+            },
+            {
                 "isAbout": "items/neurocog_2_device",
                 "isVis": "sched_delay == '9'",
                 "valueRequired": true,
@@ -96,6 +103,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2597",
+    "version": "revid2598",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
