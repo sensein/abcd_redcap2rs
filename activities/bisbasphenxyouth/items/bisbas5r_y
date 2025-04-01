@@ -3,6 +3,11 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "bis_m1"
+        },
+        {
             "column": "Field Annotation",
             "source": "redcap",
             "value": "HIDEFROMCOMPLETION20181221"
@@ -20,25 +25,25 @@
                 "name": {
                     "en": "Not true"
                 },
-                "value": 3
+                "value": 0
             },
             {
                 "name": {
                     "en": "Somewhat true"
                 },
-                "value": 2
+                "value": 1
             },
             {
                 "name": {
                     "en": "True"
                 },
-                "value": 1
+                "value": 2
             },
             {
                 "name": {
                     "en": "Very true"
                 },
-                "value": 0
+                "value": 3
             }
         ],
         "valueType": [

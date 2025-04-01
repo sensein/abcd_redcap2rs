@@ -323,7 +323,7 @@
             },
             {
                 "isAbout": "items/child_phys_activity_time_cv",
-                "isVis": "child_phys_activity_days_cv <> '8'",
+                "isVis": "child_phys_activity_days_cv <> '8' AND(event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv2_arm_2')",
                 "valueRequired": true,
                 "variableName": "child_phys_activity_time_cv"
             },
@@ -810,6 +810,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2631",
+    "version": "revid2632",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
