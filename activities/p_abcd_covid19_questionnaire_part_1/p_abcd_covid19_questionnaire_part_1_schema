@@ -46,7 +46,6 @@
             "items/su_p_mj_smoke_loc_cv",
             "items/su_p_rx_od_cv",
             "items/su_p_other_drugs_cv",
-            "items/summary_1_p_cv",
             "items/fam_rout_cv",
             "items/fam_hc_acc_cv",
             "items/fam_ht_acc_cv",
@@ -55,6 +54,8 @@
             "items/fam_discord_cv",
             "items/ext_fam_diag_cv",
             "items/ext_fam_severity_cv",
+            "items/future_scan_cv",
+            "items/future_scan_1_cv",
             "items/p_abcd_covid19_questionnaire_part_1_complete"
         ],
         "addProperties": [
@@ -293,12 +294,6 @@
                 "variableName": "su_p_other_drugs_cv"
             },
             {
-                "isAbout": "items/summary_1_p_cv",
-                "isVis": "(event - name == 'covid19_cv2_arm_2' || event - name == 'covid19_cv4_arm_2')",
-                "valueRequired": false,
-                "variableName": "summary_1_p_cv"
-            },
-            {
                 "isAbout": "items/fam_rout_cv",
                 "isVis": "(event - name == 'covid19_cv2_arm_2' || event - name == 'covid19_cv4_arm_2')",
                 "valueRequired": true,
@@ -347,6 +342,18 @@
                 "variableName": "ext_fam_severity_cv"
             },
             {
+                "isAbout": "items/future_scan_cv",
+                "isVis": "event - name == 'covid19_cv2_arm_2'",
+                "valueRequired": true,
+                "variableName": "future_scan_cv"
+            },
+            {
+                "isAbout": "items/future_scan_1_cv",
+                "isVis": "event - name == 'covid19_cv2_arm_2'",
+                "valueRequired": true,
+                "variableName": "future_scan_1_cv"
+            },
+            {
                 "isAbout": "items/p_abcd_covid19_questionnaire_part_1_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -355,6 +362,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2534",
+    "version": "revid2535",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,0 +1,82 @@
+{
+    "id": "future_scan_1_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200616"
+        }
+    ],
+    "preamble": {
+        "en": "Future ABCD Appointments",
+        "es": "Pr\u00c3\u00b3ximas citas de ABCD"
+    },
+    "prefLabel": {
+        "en": "future_scan_1_cv"
+    },
+    "question": {
+        "en": "Once local restrictions are lifted, how likely are you to return to your ABCD on-site location with your child(ren) for collection of height and weight measurement, blood pressure, and biosamples like saliva and blood, given that the necessary precautions outlined by the CDC are in place (personal protective equipment; social distancing guidelines)?",
+        "es": "Una vez que se levanten las restricciones locales, \u00c2\u00bfQu\u00c3\u00a9 probabilidad existe de que regrese a su ubicaci\u00c3\u00b3n de ABCD con su hijo/a para recopilar mediciones de estatura y peso, presi\u00c3\u00b3n arterial, muestras biol\u00c3\u00b3gicas como saliva y sangre, dado que las precauciones recomendadas por el CDC se han adoptado (el equipo de protecci\u00c3\u00b3n personal, pautas de distanciamiento social)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Definitely",
+                    "es": "Definitivamente"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Very Likely",
+                    "es": "Muy probable"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Somewhat Likely",
+                    "es": "Algo probable"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Somewhat Unlikely",
+                    "es": "Algo improbable"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Very Unlikely",
+                    "es": "Muy improbable"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Definitely will not",
+                    "es": "Definitvamento no"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Don't know",
+                    "es": "No se"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
