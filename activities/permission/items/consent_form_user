@@ -1,0 +1,27 @@
+{
+    "id": "consent_form_user",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN HIDEFROMCOMPLETION20200817"
+        }
+    ],
+    "description": {
+        "en": "consent form user login name"
+    },
+    "prefLabel": {
+        "en": "consent_form_user"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

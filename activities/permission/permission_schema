@@ -1,6 +1,12 @@
 {
     "id": "permission_schema",
     "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "user - name",
+            "variableName": "consent_form_user"
+        }
+    ],
     "prefLabel": {
         "en": "permission"
     },
@@ -305,6 +311,12 @@
                 "variableName": "video_details_adult"
             },
             {
+                "isAbout": "items/consent_form_user",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "consent_form_user"
+            },
+            {
                 "isAbout": "items/permission_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -313,6 +325,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2605",
+    "version": "revid2606",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
