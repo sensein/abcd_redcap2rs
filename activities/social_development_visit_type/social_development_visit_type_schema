@@ -12,7 +12,9 @@
             "items/socialdev_visit_02",
             "items/socialdev_visit_03",
             "items/socialdev_visit_consent",
+            "items/socialdev_visit_preport",
             "items/socialdev_visit_assent",
+            "items/socialdev_visit_creport",
             "items/socialdev_visit_04",
             "items/social_development_visit_type_complete"
         ],
@@ -48,10 +50,22 @@
                 "variableName": "socialdev_visit_consent"
             },
             {
+                "isAbout": "items/socialdev_visit_preport",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "socialdev_visit_preport"
+            },
+            {
                 "isAbout": "items/socialdev_visit_assent",
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "socialdev_visit_assent"
+            },
+            {
+                "isAbout": "items/socialdev_visit_creport",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "socialdev_visit_creport"
             },
             {
                 "isAbout": "items/socialdev_visit_04",
@@ -68,6 +82,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2607",
+    "version": "revid2608",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,0 +1,28 @@
+{
+    "id": "socialdev_visit_preport",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "socialdev_visit_preport"
+    },
+    "question": {
+        "en": "Did the guardian consent to allow reporting of sensitive information under the conditions listed on the consent form?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
