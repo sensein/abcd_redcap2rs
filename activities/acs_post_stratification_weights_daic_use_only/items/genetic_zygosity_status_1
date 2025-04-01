@@ -3,11 +3,6 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Text Validation Type OR Show Slider Number",
-            "source": "redcap",
-            "value": "number"
-        },
-        {
             "column": "Field Annotation",
             "source": "redcap",
             "value": "@READONLY"
@@ -20,12 +15,38 @@
         "en": "Genetically inferred zygosity status between participant and genetic_paired_subjectid_1"
     },
     "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "monozygotic"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "dizygotic"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "siblings"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "not available (twins/sibs, genetic_pi_hat not calculated)"
+                },
+                "value": -1
+            }
+        ],
         "valueType": [
-            "xsd:decimal"
+            "xsd:integer"
         ]
     },
     "ui": {
-        "inputType": "float",
+        "inputType": "select",
         "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"

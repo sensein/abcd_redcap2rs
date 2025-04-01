@@ -16,9 +16,10 @@
             "items/acs_raked_propensity_score",
             "items/genetic_ancestry_factor_african",
             "items/genetic_ancestry_factor_european",
+            "items/genetic_ancestry_factor_east_asian",
             "items/genetic_ancestry_factor_american",
             "items/genetic_paired_subjectid_1",
-            "items/genetic_paired_subjectid_2genetic_paired_subjectid_2",
+            "items/genetic_paired_subjectid_2",
             "items/genetic_paired_subjectid_3",
             "items/genetic_paired_subjectid_4",
             "items/genetic_pi_hat_1",
@@ -87,6 +88,12 @@
                 "variableName": "genetic_ancestry_factor_european"
             },
             {
+                "isAbout": "items/genetic_ancestry_factor_east_asian",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "genetic_ancestry_factor_east_asian"
+            },
+            {
                 "isAbout": "items/genetic_ancestry_factor_american",
                 "isVis": false,
                 "valueRequired": false,
@@ -99,10 +106,10 @@
                 "variableName": "genetic_paired_subjectid_1"
             },
             {
-                "isAbout": "items/genetic_paired_subjectid_2genetic_paired_subjectid_2",
+                "isAbout": "items/genetic_paired_subjectid_2",
                 "isVis": false,
                 "valueRequired": false,
-                "variableName": "genetic_paired_subjectid_2genetic_paired_subjectid_2"
+                "variableName": "genetic_paired_subjectid_2"
             },
             {
                 "isAbout": "items/genetic_paired_subjectid_3",
@@ -173,6 +180,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2527",
+    "version": "revid2528",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
