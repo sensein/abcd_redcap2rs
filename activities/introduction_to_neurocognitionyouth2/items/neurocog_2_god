@@ -1,0 +1,50 @@
+{
+    "id": "neurocog_2_god",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200708"
+        }
+    ],
+    "preamble": {
+        "en": "For RA Use Only:"
+    },
+    "prefLabel": {
+        "en": "neurocog_2_god"
+    },
+    "question": {
+        "en": "Method ofGoDadministration [Check all that apply]:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Audio"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Video/Webcam"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "In person (ONLY if issues arise and hybrid)"
+                },
+                "value": 3
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

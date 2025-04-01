@@ -1,0 +1,39 @@
+{
+    "id": "anthro_waist_hybrid_cm",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "<font color=\"blue\">Measured circumference (in inches):</font>"
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "LH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200708"
+        }
+    ],
+    "preamble": {
+        "en": "Abdominal (Waist) Circumference"
+    },
+    "prefLabel": {
+        "en": "anthro_waist_hybrid_cm"
+    },
+    "question": {
+        "en": "(If necessary),Please adjust or unfold your pants to remove any additional thickness or bunching.1.Now I'd like you to take your thumb and find the pointy bone on the front of your left side body where a belt might go. Once you find it, trace that bone all the way up to its highest point.(Demonstrate the desired position of the arms. RA can do this to their own body as they're talking, so the participant has more guidance.)\u00e2\u0080\u00a82.Once you find the top part of the bone, keep your left fingers there while, with your right hand, you place the tape measure across your stomach then wrap it around yourself so it's in line with those points.\u00c2\u00a0 \u00e2\u0080\u00a83.Ok, I am going to make sure it is in the right location and write down the number.(Take the measurement to the nearest 0.1 inch.)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

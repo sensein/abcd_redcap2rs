@@ -13,6 +13,9 @@
             "items/neurocog_intro_y",
             "items/neurocog_intro_remote_y",
             "items/neurocog_remote",
+            "items/neurocog_pic_vocab",
+            "items/neurocog_reading",
+            "items/neurocog_flanker",
             "items/neurocog_device",
             "items/introduction_to_neurocognitionyouth_complete"
         ],
@@ -37,7 +40,7 @@
             },
             {
                 "isAbout": "items/neurocog_intro_y",
-                "isVis": "sched_delay == '7'",
+                "isVis": "sched_delay == '7' || sched_hybrid == '1'",
                 "valueRequired": false,
                 "variableName": "neurocog_intro_y"
             },
@@ -49,9 +52,27 @@
             },
             {
                 "isAbout": "items/neurocog_remote",
-                "isVis": "sched_delay == '9'",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "neurocog_remote"
+            },
+            {
+                "isAbout": "items/neurocog_pic_vocab",
+                "isVis": "sched_hybrid == '1'",
+                "valueRequired": true,
+                "variableName": "neurocog_pic_vocab"
+            },
+            {
+                "isAbout": "items/neurocog_reading",
+                "isVis": "sched_hybrid == '1'",
+                "valueRequired": true,
+                "variableName": "neurocog_reading"
+            },
+            {
+                "isAbout": "items/neurocog_flanker",
+                "isVis": "sched_hybrid == '1'",
+                "valueRequired": true,
+                "variableName": "neurocog_flanker"
             },
             {
                 "isAbout": "items/neurocog_device",
@@ -68,6 +89,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2551",
+    "version": "revid2553",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

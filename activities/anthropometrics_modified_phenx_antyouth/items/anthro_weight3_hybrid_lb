@@ -1,0 +1,39 @@
+{
+    "id": "anthro_weight3_hybrid_lb",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "<font color=\"blue\"> WEIGHT #3 (imeasured to the nearest 0.1 pounds"
+        },
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "LH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200708"
+        }
+    ],
+    "preamble": {
+        "en": "Weight Measurement"
+    },
+    "prefLabel": {
+        "en": "anthro_weight3_hybrid_lb"
+    },
+    "question": {
+        "en": "If measurements differ by > 0.1 pounds, the program will prompt you to take a third measurement.4.Ok, you can relax and step away from the scale.5.Please step back on the scale again for another measurement and remember to stand completely still in the center of the scale with your feet close together, and your head looking straight ahead. You are going to keep one hand at your side and with your other hand you are going to move the blocks. Stay as still as possible while you measure your weight.\r\n\r\nPlease move the big bottom block first to 50 then move the upper smaller block at the top until you are able to balance the arrow on the right.(Ask youth to adjust the blocks as necessary. OBTAIN & RECORD WEIGHT #3 (in lbs)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

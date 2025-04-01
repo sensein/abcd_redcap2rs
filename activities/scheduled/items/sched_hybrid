@@ -1,0 +1,33 @@
+{
+    "id": "sched_hybrid",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sched_hybrid"
+    },
+    "question": {
+        "en": "Is the participant scheduled to complete part of the visit in person?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -84,7 +84,7 @@
             },
             {
                 "isAbout": "items/cybb_remote",
-                "isVis": "sched_delay == '9'",
+                "isVis": "sched_delay == '9' || sched_hybrid == '1'",
                 "valueRequired": true,
                 "variableName": "cybb_remote"
             },
@@ -103,6 +103,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2551",
+    "version": "revid2553",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
