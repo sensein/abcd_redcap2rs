@@ -1,0 +1,48 @@
+{
+    "id": "anti_mask_sib_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "anti_mask_public_demo_cv"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200806"
+        }
+    ],
+    "preamble": {
+        "en": "Your progress:75%.Who attended a public demonstration without youagainst wearing masks?"
+    },
+    "prefLabel": {
+        "en": "anti_mask_sib_cv"
+    },
+    "question": {
+        "en": "Siblings:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

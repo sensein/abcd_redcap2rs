@@ -1,0 +1,48 @@
+{
+    "id": "blm_demo_help_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "saw_blm_cv"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200806"
+        }
+    ],
+    "preamble": {
+        "en": "Your progress:92%.When you attended the in-person demonstrations forBlack Lives Matter, did you see..."
+    },
+    "prefLabel": {
+        "en": "blm_demo_help_cv"
+    },
+    "question": {
+        "en": "Demonstrator helping or protecting a demonstrator"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

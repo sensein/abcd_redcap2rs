@@ -1,0 +1,43 @@
+{
+    "id": "pro_po_violence_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "saw_pro_po_cv"
+        }
+    ],
+    "preamble": {
+        "en": "Your progress:94%.When you attended the in-person demonstrations forpro-police, did you see..."
+    },
+    "prefLabel": {
+        "en": "pro_po_violence_cv"
+    },
+    "question": {
+        "en": "Violence by demonstrators (throwing rocks, bottles at police, destroying property)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

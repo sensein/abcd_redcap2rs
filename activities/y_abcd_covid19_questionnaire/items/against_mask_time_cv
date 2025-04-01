@@ -1,0 +1,58 @@
+{
+    "id": "against_mask_time_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200806"
+        }
+    ],
+    "prefLabel": {
+        "en": "against_mask_time_cv"
+    },
+    "question": {
+        "en": "Since April 2020, how much time did you spend, on average, watching TV stories, looking on the internet, or listening to news on the radio about demonstrationsagainst wearing masks?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "None"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "< 30 minutes per day"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "30 minutes-1hour per day"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "1-5 hours per day"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": ">5 hours per day"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,48 @@
+{
+    "id": "reopen_bus_3_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "media_grp_3_cv"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200806"
+        }
+    ],
+    "preamble": {
+        "en": "Your progress:63%.Since April 2020, do you know people who attended a public demonstration (public marches, rallies) without you for:"
+    },
+    "prefLabel": {
+        "en": "reopen_bus_3_cv"
+    },
+    "question": {
+        "en": "Reopening businesses"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

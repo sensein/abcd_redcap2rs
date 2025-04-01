@@ -1,0 +1,60 @@
+{
+    "id": "inspired_pro_po_2_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "pro_police_2_grp"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200806"
+        }
+    ],
+    "preamble": {
+        "en": "Your progress:57%.How did you feel when you scrolled, wrote, or posted to social media (e.g., Facebook, Instagram, Twitter, Snapchat, TikTok) about the demonstrations forpro-police?"
+    },
+    "prefLabel": {
+        "en": "inspired_pro_po_2_cv"
+    },
+    "question": {
+        "en": "Inspired:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A little"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Somewhat"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Very much"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -145,6 +145,126 @@
             "items/screentime_wknd_hr_cv",
             "items/screentime_cv",
             "items/screentime_music_cv",
+            "items/blm_cv",
+            "items/pro_po_cv",
+            "items/anti_mask_cv",
+            "items/reopen_bus_cv",
+            "items/blm_time_cv",
+            "items/pro_po_time_cv",
+            "items/against_mask_time_cv",
+            "items/reopen_bus_time_cv",
+            "items/angry_blm_cv",
+            "items/afraid_blm_cv",
+            "items/inspired_blm_cv",
+            "items/hopeful_blm_cv",
+            "items/angry_pro_po_cv",
+            "items/afraid_pro_po_cv",
+            "items/inspired_pro_po_cv",
+            "items/hopeful_pro_po_cv",
+            "items/angry_anti_mask_cv",
+            "items/afraid_anti_mask",
+            "items/inspired_anti_mask",
+            "items/hopeful_anti_mask",
+            "items/angry_reopen_bus_cv",
+            "items/afraid_reopen_bus_cv",
+            "items/inspired_reopen_bus_cv",
+            "items/hopeful_reopen_bus_cv",
+            "items/blm_2_cv",
+            "items/pro_po_2_cv",
+            "items/anti_mask_2_cv",
+            "items/reopen_bus_2_cv",
+            "items/blm_social_media_cv",
+            "items/pro_po_social_media_cv",
+            "items/against_mask_social_media_cv",
+            "items/reopen_bus_social_media_cv",
+            "items/angry_blm_2_cv",
+            "items/afraid_blm_2_cv",
+            "items/inspired_blm_2_cv",
+            "items/hopeful_blm_2_cv",
+            "items/angry_pro_po_2_cv",
+            "items/afraid_pro_po_2_cv",
+            "items/inspired_pro_po_2_cv",
+            "items/hopeful_pro_po_2_cv",
+            "items/angry_against_mask_2_cv",
+            "items/afraid_against_mask_2_cv",
+            "items/inspired_against_mask_2_cv",
+            "items/hopeful_against_mask_2_cv",
+            "items/angry_reopen_bus_2_cv",
+            "items/afraid_reopen_bus_2_cv",
+            "items/inspired_reopen_bus_2_cv",
+            "items/hopeful_reopen_bus_2_cv",
+            "items/blm_3_cv",
+            "items/pro_po_3_cv",
+            "items/anti_mask_3_cv",
+            "items/reopen_bus_3_cv",
+            "items/blm_parents_cv",
+            "items/blm_sib_cv",
+            "items/blm_friends_cv",
+            "items/blm_neigh_cv",
+            "items/feel_afraid_blm_cv",
+            "items/feel_proud_blm_cv",
+            "items/feel_afraid_blm_2_cv",
+            "items/feel_proud_blm_2_cv",
+            "items/pro_po_parents_cv",
+            "items/pro_po_sib_cv",
+            "items/pro_po_friends_cv",
+            "items/pro_po_neigh_cv",
+            "items/feel_afraid_po_cv",
+            "items/feel_proud_po_cv",
+            "items/feel_afraid_po_2_cv",
+            "items/feel_proud_po_2_cv",
+            "items/anti_mask_parents_cv",
+            "items/anti_mask_sib_cv",
+            "items/anti_mask_friends_cv",
+            "items/anti_mask_neigh_cv",
+            "items/feel_afraid_anti_mask_cv",
+            "items/feel_proud_anti_mask_cv",
+            "items/feel_afraid_anti_mask_2_cv",
+            "items/feel_proud_anti_mask_2_cv",
+            "items/reopen_bus_parents_cv",
+            "items/reopen_bus_sib_cv",
+            "items/reopen_bus_friends_cv",
+            "items/reopen_bus_neigh_cv",
+            "items/feel_afraid_reopen_bus_cv",
+            "items/feel_proud_reopen_bus_cv",
+            "items/feel_afraid_reopen_bus_2_cv",
+            "items/feel_proud_reopen_bus_2_cv",
+            "items/blm_4_cv",
+            "items/pro_po_4_cv",
+            "items/anti_mask_4_cv",
+            "items/reopen_bus_4_cv",
+            "items/angry_blm_4_cv",
+            "items/afraid_blm_4_cv",
+            "items/inspired_blm_4_cv",
+            "items/hopeful_blm_4_cv",
+            "items/angry_pro_po_4_cv",
+            "items/afraid_pro_po_4_cv",
+            "items/inspired_pro_po_4_cv",
+            "items/hopeful_pro_po_4_cv",
+            "items/angry_anti_mask_4_cv",
+            "items/afraid_anti_mask_4_cv",
+            "items/inspired_anti_mask_4_cv",
+            "items/hopeful_anti_mask_4_cv",
+            "items/angry_reopen_bus_4_cv",
+            "items/afraid_reopen_bus_4_cv",
+            "items/inspired_reopen_bus_4_cv",
+            "items/hopeful_reopen_bus_4_cv",
+            "items/blm_po_help_cv",
+            "items/blm_demo_help_cv",
+            "items/blm_po_force_cv",
+            "items/blm_violence_cv",
+            "items/pro_po_help_cv",
+            "items/pro_po_demo_help_cv",
+            "items/pro_po_force_cv",
+            "items/pro_po_violence_cv",
+            "items/anti_mask_po_help_cv",
+            "items/anti_mask_demo_help_cv",
+            "items/anti_mask_po_force_cv",
+            "items/anti_mask_violence_cv",
+            "items/reopen_bus_po_help_cv",
+            "items/reopen_bus_demo_help_cv",
+            "items/reopen_bus_po_force_cv",
+            "items/reopen_bus_violence_cv",
             "items/walk_10_min_per_day_cv",
             "items/walking_hour_per_day_cv",
             "items/walking_min_per_day_cv",
@@ -989,6 +1109,726 @@
                 "variableName": "screentime_music_cv"
             },
             {
+                "isAbout": "items/blm_cv",
+                "isVis": "event - name == 'covid19_cv4_arm_2'",
+                "valueRequired": true,
+                "variableName": "blm_cv"
+            },
+            {
+                "isAbout": "items/pro_po_cv",
+                "isVis": "event - name == 'covid19_cv4_arm_2'",
+                "valueRequired": true,
+                "variableName": "pro_po_cv"
+            },
+            {
+                "isAbout": "items/anti_mask_cv",
+                "isVis": "event - name == 'covid19_cv4_arm_2'",
+                "valueRequired": true,
+                "variableName": "anti_mask_cv"
+            },
+            {
+                "isAbout": "items/reopen_bus_cv",
+                "isVis": "event - name == 'covid19_cv4_arm_2'",
+                "valueRequired": true,
+                "variableName": "reopen_bus_cv"
+            },
+            {
+                "isAbout": "items/blm_time_cv",
+                "isVis": "blm_cv == '1'",
+                "valueRequired": true,
+                "variableName": "blm_time_cv"
+            },
+            {
+                "isAbout": "items/pro_po_time_cv",
+                "isVis": "pro_po_cv == '1'",
+                "valueRequired": true,
+                "variableName": "pro_po_time_cv"
+            },
+            {
+                "isAbout": "items/against_mask_time_cv",
+                "isVis": "anti_mask_cv == '1'",
+                "valueRequired": true,
+                "variableName": "against_mask_time_cv"
+            },
+            {
+                "isAbout": "items/reopen_bus_time_cv",
+                "isVis": "reopen_bus_cv == '1'",
+                "valueRequired": true,
+                "variableName": "reopen_bus_time_cv"
+            },
+            {
+                "isAbout": "items/angry_blm_cv",
+                "isVis": "blm_cv == '1'",
+                "valueRequired": true,
+                "variableName": "angry_blm_cv"
+            },
+            {
+                "isAbout": "items/afraid_blm_cv",
+                "isVis": "blm_cv == '1'",
+                "valueRequired": true,
+                "variableName": "afraid_blm_cv"
+            },
+            {
+                "isAbout": "items/inspired_blm_cv",
+                "isVis": "blm_cv == '1'",
+                "valueRequired": true,
+                "variableName": "inspired_blm_cv"
+            },
+            {
+                "isAbout": "items/hopeful_blm_cv",
+                "isVis": "blm_cv == '1'",
+                "valueRequired": true,
+                "variableName": "hopeful_blm_cv"
+            },
+            {
+                "isAbout": "items/angry_pro_po_cv",
+                "isVis": "pro_po_cv == '1'",
+                "valueRequired": true,
+                "variableName": "angry_pro_po_cv"
+            },
+            {
+                "isAbout": "items/afraid_pro_po_cv",
+                "isVis": "pro_po_cv == '1'",
+                "valueRequired": true,
+                "variableName": "afraid_pro_po_cv"
+            },
+            {
+                "isAbout": "items/inspired_pro_po_cv",
+                "isVis": "pro_po_cv == '1'",
+                "valueRequired": true,
+                "variableName": "inspired_pro_po_cv"
+            },
+            {
+                "isAbout": "items/hopeful_pro_po_cv",
+                "isVis": "pro_po_cv == '1'",
+                "valueRequired": true,
+                "variableName": "hopeful_pro_po_cv"
+            },
+            {
+                "isAbout": "items/angry_anti_mask_cv",
+                "isVis": "anti_mask_cv == '1'",
+                "valueRequired": true,
+                "variableName": "angry_anti_mask_cv"
+            },
+            {
+                "isAbout": "items/afraid_anti_mask",
+                "isVis": "anti_mask_cv == '1'",
+                "valueRequired": true,
+                "variableName": "afraid_anti_mask"
+            },
+            {
+                "isAbout": "items/inspired_anti_mask",
+                "isVis": "anti_mask_cv == '1'",
+                "valueRequired": true,
+                "variableName": "inspired_anti_mask"
+            },
+            {
+                "isAbout": "items/hopeful_anti_mask",
+                "isVis": "anti_mask_cv == '1'",
+                "valueRequired": true,
+                "variableName": "hopeful_anti_mask"
+            },
+            {
+                "isAbout": "items/angry_reopen_bus_cv",
+                "isVis": "reopen_bus_cv == '1'",
+                "valueRequired": true,
+                "variableName": "angry_reopen_bus_cv"
+            },
+            {
+                "isAbout": "items/afraid_reopen_bus_cv",
+                "isVis": "reopen_bus_cv == '1'",
+                "valueRequired": true,
+                "variableName": "afraid_reopen_bus_cv"
+            },
+            {
+                "isAbout": "items/inspired_reopen_bus_cv",
+                "isVis": "reopen_bus_cv == '1'",
+                "valueRequired": true,
+                "variableName": "inspired_reopen_bus_cv"
+            },
+            {
+                "isAbout": "items/hopeful_reopen_bus_cv",
+                "isVis": "reopen_bus_cv == '1'",
+                "valueRequired": true,
+                "variableName": "hopeful_reopen_bus_cv"
+            },
+            {
+                "isAbout": "items/blm_2_cv",
+                "isVis": "event - name == 'covid19_cv4_arm_2'",
+                "valueRequired": true,
+                "variableName": "blm_2_cv"
+            },
+            {
+                "isAbout": "items/pro_po_2_cv",
+                "isVis": "event - name == 'covid19_cv4_arm_2'",
+                "valueRequired": true,
+                "variableName": "pro_po_2_cv"
+            },
+            {
+                "isAbout": "items/anti_mask_2_cv",
+                "isVis": "event - name == 'covid19_cv4_arm_2'",
+                "valueRequired": true,
+                "variableName": "anti_mask_2_cv"
+            },
+            {
+                "isAbout": "items/reopen_bus_2_cv",
+                "isVis": "event - name == 'covid19_cv4_arm_2'",
+                "valueRequired": true,
+                "variableName": "reopen_bus_2_cv"
+            },
+            {
+                "isAbout": "items/blm_social_media_cv",
+                "isVis": "blm_2_cv == '1'",
+                "valueRequired": true,
+                "variableName": "blm_social_media_cv"
+            },
+            {
+                "isAbout": "items/pro_po_social_media_cv",
+                "isVis": "pro_po_2_cv == '1'",
+                "valueRequired": true,
+                "variableName": "pro_po_social_media_cv"
+            },
+            {
+                "isAbout": "items/against_mask_social_media_cv",
+                "isVis": "anti_mask_2_cv == '1'",
+                "valueRequired": true,
+                "variableName": "against_mask_social_media_cv"
+            },
+            {
+                "isAbout": "items/reopen_bus_social_media_cv",
+                "isVis": "reopen_bus_2_cv == '1'",
+                "valueRequired": true,
+                "variableName": "reopen_bus_social_media_cv"
+            },
+            {
+                "isAbout": "items/angry_blm_2_cv",
+                "isVis": "blm_2_cv == '1'",
+                "valueRequired": true,
+                "variableName": "angry_blm_2_cv"
+            },
+            {
+                "isAbout": "items/afraid_blm_2_cv",
+                "isVis": "blm_2_cv == '1'",
+                "valueRequired": true,
+                "variableName": "afraid_blm_2_cv"
+            },
+            {
+                "isAbout": "items/inspired_blm_2_cv",
+                "isVis": "blm_2_cv == '1'",
+                "valueRequired": true,
+                "variableName": "inspired_blm_2_cv"
+            },
+            {
+                "isAbout": "items/hopeful_blm_2_cv",
+                "isVis": "blm_2_cv == '1'",
+                "valueRequired": true,
+                "variableName": "hopeful_blm_2_cv"
+            },
+            {
+                "isAbout": "items/angry_pro_po_2_cv",
+                "isVis": "pro_po_2_cv == '1'",
+                "valueRequired": true,
+                "variableName": "angry_pro_po_2_cv"
+            },
+            {
+                "isAbout": "items/afraid_pro_po_2_cv",
+                "isVis": "pro_po_2_cv == '1'",
+                "valueRequired": true,
+                "variableName": "afraid_pro_po_2_cv"
+            },
+            {
+                "isAbout": "items/inspired_pro_po_2_cv",
+                "isVis": "pro_po_2_cv == '1'",
+                "valueRequired": true,
+                "variableName": "inspired_pro_po_2_cv"
+            },
+            {
+                "isAbout": "items/hopeful_pro_po_2_cv",
+                "isVis": "pro_po_2_cv == '1'",
+                "valueRequired": true,
+                "variableName": "hopeful_pro_po_2_cv"
+            },
+            {
+                "isAbout": "items/angry_against_mask_2_cv",
+                "isVis": "anti_mask_2_cv == '1'",
+                "valueRequired": true,
+                "variableName": "angry_against_mask_2_cv"
+            },
+            {
+                "isAbout": "items/afraid_against_mask_2_cv",
+                "isVis": "anti_mask_2_cv == '1'",
+                "valueRequired": true,
+                "variableName": "afraid_against_mask_2_cv"
+            },
+            {
+                "isAbout": "items/inspired_against_mask_2_cv",
+                "isVis": "anti_mask_2_cv == '1'",
+                "valueRequired": true,
+                "variableName": "inspired_against_mask_2_cv"
+            },
+            {
+                "isAbout": "items/hopeful_against_mask_2_cv",
+                "isVis": "anti_mask_2_cv == '1'",
+                "valueRequired": true,
+                "variableName": "hopeful_against_mask_2_cv"
+            },
+            {
+                "isAbout": "items/angry_reopen_bus_2_cv",
+                "isVis": "reopen_bus_2_cv == '1'",
+                "valueRequired": true,
+                "variableName": "angry_reopen_bus_2_cv"
+            },
+            {
+                "isAbout": "items/afraid_reopen_bus_2_cv",
+                "isVis": "reopen_bus_2_cv == '1'",
+                "valueRequired": true,
+                "variableName": "afraid_reopen_bus_2_cv"
+            },
+            {
+                "isAbout": "items/inspired_reopen_bus_2_cv",
+                "isVis": "reopen_bus_2_cv == '1'",
+                "valueRequired": true,
+                "variableName": "inspired_reopen_bus_2_cv"
+            },
+            {
+                "isAbout": "items/hopeful_reopen_bus_2_cv",
+                "isVis": "reopen_bus_2_cv == '1'",
+                "valueRequired": true,
+                "variableName": "hopeful_reopen_bus_2_cv"
+            },
+            {
+                "isAbout": "items/blm_3_cv",
+                "isVis": "event - name == 'covid19_cv4_arm_2'",
+                "valueRequired": true,
+                "variableName": "blm_3_cv"
+            },
+            {
+                "isAbout": "items/pro_po_3_cv",
+                "isVis": "event - name == 'covid19_cv4_arm_2'",
+                "valueRequired": true,
+                "variableName": "pro_po_3_cv"
+            },
+            {
+                "isAbout": "items/anti_mask_3_cv",
+                "isVis": "event - name == 'covid19_cv4_arm_2'",
+                "valueRequired": true,
+                "variableName": "anti_mask_3_cv"
+            },
+            {
+                "isAbout": "items/reopen_bus_3_cv",
+                "isVis": "event - name == 'covid19_cv4_arm_2'",
+                "valueRequired": true,
+                "variableName": "reopen_bus_3_cv"
+            },
+            {
+                "isAbout": "items/blm_parents_cv",
+                "isVis": "blm_3_cv == '1'",
+                "valueRequired": true,
+                "variableName": "blm_parents_cv"
+            },
+            {
+                "isAbout": "items/blm_sib_cv",
+                "isVis": "blm_3_cv == '1'",
+                "valueRequired": true,
+                "variableName": "blm_sib_cv"
+            },
+            {
+                "isAbout": "items/blm_friends_cv",
+                "isVis": "blm_3_cv == '1'",
+                "valueRequired": true,
+                "variableName": "blm_friends_cv"
+            },
+            {
+                "isAbout": "items/blm_neigh_cv",
+                "isVis": "blm_3_cv == '1'",
+                "valueRequired": true,
+                "variableName": "blm_neigh_cv"
+            },
+            {
+                "isAbout": "items/feel_afraid_blm_cv",
+                "isVis": "blm_parents_cv == '1'",
+                "valueRequired": true,
+                "variableName": "feel_afraid_blm_cv"
+            },
+            {
+                "isAbout": "items/feel_proud_blm_cv",
+                "isVis": "blm_parents_cv == '1'",
+                "valueRequired": true,
+                "variableName": "feel_proud_blm_cv"
+            },
+            {
+                "isAbout": "items/feel_afraid_blm_2_cv",
+                "isVis": "blm_sib_cv == '1'",
+                "valueRequired": true,
+                "variableName": "feel_afraid_blm_2_cv"
+            },
+            {
+                "isAbout": "items/feel_proud_blm_2_cv",
+                "isVis": "blm_sib_cv == '1'",
+                "valueRequired": true,
+                "variableName": "feel_proud_blm_2_cv"
+            },
+            {
+                "isAbout": "items/pro_po_parents_cv",
+                "isVis": "pro_po_3_cv == '1'",
+                "valueRequired": true,
+                "variableName": "pro_po_parents_cv"
+            },
+            {
+                "isAbout": "items/pro_po_sib_cv",
+                "isVis": "pro_po_3_cv == '1'",
+                "valueRequired": true,
+                "variableName": "pro_po_sib_cv"
+            },
+            {
+                "isAbout": "items/pro_po_friends_cv",
+                "isVis": "pro_po_3_cv == '1'",
+                "valueRequired": true,
+                "variableName": "pro_po_friends_cv"
+            },
+            {
+                "isAbout": "items/pro_po_neigh_cv",
+                "isVis": "pro_po_3_cv == '1'",
+                "valueRequired": true,
+                "variableName": "pro_po_neigh_cv"
+            },
+            {
+                "isAbout": "items/feel_afraid_po_cv",
+                "isVis": "pro_po_parents_cv == '1'",
+                "valueRequired": true,
+                "variableName": "feel_afraid_po_cv"
+            },
+            {
+                "isAbout": "items/feel_proud_po_cv",
+                "isVis": "pro_po_parents_cv == '1'",
+                "valueRequired": true,
+                "variableName": "feel_proud_po_cv"
+            },
+            {
+                "isAbout": "items/feel_afraid_po_2_cv",
+                "isVis": "pro_po_sib_cv == '1'",
+                "valueRequired": true,
+                "variableName": "feel_afraid_po_2_cv"
+            },
+            {
+                "isAbout": "items/feel_proud_po_2_cv",
+                "isVis": "pro_po_sib_cv == '1'",
+                "valueRequired": true,
+                "variableName": "feel_proud_po_2_cv"
+            },
+            {
+                "isAbout": "items/anti_mask_parents_cv",
+                "isVis": "anti_mask_3_cv == '1'",
+                "valueRequired": true,
+                "variableName": "anti_mask_parents_cv"
+            },
+            {
+                "isAbout": "items/anti_mask_sib_cv",
+                "isVis": "anti_mask_3_cv == '1'",
+                "valueRequired": true,
+                "variableName": "anti_mask_sib_cv"
+            },
+            {
+                "isAbout": "items/anti_mask_friends_cv",
+                "isVis": "anti_mask_3_cv == '1'",
+                "valueRequired": true,
+                "variableName": "anti_mask_friends_cv"
+            },
+            {
+                "isAbout": "items/anti_mask_neigh_cv",
+                "isVis": "anti_mask_3_cv == '1'",
+                "valueRequired": true,
+                "variableName": "anti_mask_neigh_cv"
+            },
+            {
+                "isAbout": "items/feel_afraid_anti_mask_cv",
+                "isVis": "anti_mask_parents_cv == '1'",
+                "valueRequired": true,
+                "variableName": "feel_afraid_anti_mask_cv"
+            },
+            {
+                "isAbout": "items/feel_proud_anti_mask_cv",
+                "isVis": "anti_mask_parents_cv == '1'",
+                "valueRequired": true,
+                "variableName": "feel_proud_anti_mask_cv"
+            },
+            {
+                "isAbout": "items/feel_afraid_anti_mask_2_cv",
+                "isVis": "anti_mask_sib_cv == '1'",
+                "valueRequired": true,
+                "variableName": "feel_afraid_anti_mask_2_cv"
+            },
+            {
+                "isAbout": "items/feel_proud_anti_mask_2_cv",
+                "isVis": "anti_mask_sib_cv == '1'",
+                "valueRequired": true,
+                "variableName": "feel_proud_anti_mask_2_cv"
+            },
+            {
+                "isAbout": "items/reopen_bus_parents_cv",
+                "isVis": "reopen_bus_3_cv == '1'",
+                "valueRequired": true,
+                "variableName": "reopen_bus_parents_cv"
+            },
+            {
+                "isAbout": "items/reopen_bus_sib_cv",
+                "isVis": "reopen_bus_3_cv == '1'",
+                "valueRequired": true,
+                "variableName": "reopen_bus_sib_cv"
+            },
+            {
+                "isAbout": "items/reopen_bus_friends_cv",
+                "isVis": "reopen_bus_3_cv == '1'",
+                "valueRequired": true,
+                "variableName": "reopen_bus_friends_cv"
+            },
+            {
+                "isAbout": "items/reopen_bus_neigh_cv",
+                "isVis": "reopen_bus_3_cv == '1'",
+                "valueRequired": true,
+                "variableName": "reopen_bus_neigh_cv"
+            },
+            {
+                "isAbout": "items/feel_afraid_reopen_bus_cv",
+                "isVis": "reopen_bus_parents_cv == '1'",
+                "valueRequired": true,
+                "variableName": "feel_afraid_reopen_bus_cv"
+            },
+            {
+                "isAbout": "items/feel_proud_reopen_bus_cv",
+                "isVis": "reopen_bus_parents_cv == '1'",
+                "valueRequired": true,
+                "variableName": "feel_proud_reopen_bus_cv"
+            },
+            {
+                "isAbout": "items/feel_afraid_reopen_bus_2_cv",
+                "isVis": "reopen_bus_sib_cv == '1'",
+                "valueRequired": true,
+                "variableName": "feel_afraid_reopen_bus_2_cv"
+            },
+            {
+                "isAbout": "items/feel_proud_reopen_bus_2_cv",
+                "isVis": "reopen_bus_sib_cv == '1'",
+                "valueRequired": true,
+                "variableName": "feel_proud_reopen_bus_2_cv"
+            },
+            {
+                "isAbout": "items/blm_4_cv",
+                "isVis": "event - name == 'covid19_cv4_arm_2'",
+                "valueRequired": true,
+                "variableName": "blm_4_cv"
+            },
+            {
+                "isAbout": "items/pro_po_4_cv",
+                "isVis": "event - name == 'covid19_cv4_arm_2'",
+                "valueRequired": true,
+                "variableName": "pro_po_4_cv"
+            },
+            {
+                "isAbout": "items/anti_mask_4_cv",
+                "isVis": "event - name == 'covid19_cv4_arm_2'",
+                "valueRequired": true,
+                "variableName": "anti_mask_4_cv"
+            },
+            {
+                "isAbout": "items/reopen_bus_4_cv",
+                "isVis": "event - name == 'covid19_cv4_arm_2'",
+                "valueRequired": true,
+                "variableName": "reopen_bus_4_cv"
+            },
+            {
+                "isAbout": "items/angry_blm_4_cv",
+                "isVis": "blm_4_cv == '1' OR blm_4_cv == '2' OR blm_4_cv == '3'",
+                "valueRequired": true,
+                "variableName": "angry_blm_4_cv"
+            },
+            {
+                "isAbout": "items/afraid_blm_4_cv",
+                "isVis": "blm_4_cv == '1' OR blm_4_cv == '2' OR blm_4_cv == '3'",
+                "valueRequired": true,
+                "variableName": "afraid_blm_4_cv"
+            },
+            {
+                "isAbout": "items/inspired_blm_4_cv",
+                "isVis": "blm_4_cv == '1' OR blm_4_cv == '2' OR blm_4_cv == '3'",
+                "valueRequired": true,
+                "variableName": "inspired_blm_4_cv"
+            },
+            {
+                "isAbout": "items/hopeful_blm_4_cv",
+                "isVis": "blm_4_cv == '1' OR blm_4_cv == '2' OR blm_4_cv == '3'",
+                "valueRequired": true,
+                "variableName": "hopeful_blm_4_cv"
+            },
+            {
+                "isAbout": "items/angry_pro_po_4_cv",
+                "isVis": "pro_po_4_cv == '1' OR pro_po_4_cv == '2' OR pro_po_4_cv == '3'",
+                "valueRequired": true,
+                "variableName": "angry_pro_po_4_cv"
+            },
+            {
+                "isAbout": "items/afraid_pro_po_4_cv",
+                "isVis": "pro_po_4_cv == '1' OR pro_po_4_cv == '2' OR pro_po_4_cv == '3'",
+                "valueRequired": true,
+                "variableName": "afraid_pro_po_4_cv"
+            },
+            {
+                "isAbout": "items/inspired_pro_po_4_cv",
+                "isVis": "pro_po_4_cv == '1' OR pro_po_4_cv == '2' OR pro_po_4_cv == '3'",
+                "valueRequired": true,
+                "variableName": "inspired_pro_po_4_cv"
+            },
+            {
+                "isAbout": "items/hopeful_pro_po_4_cv",
+                "isVis": "pro_po_4_cv == '1' OR pro_po_4_cv == '2' OR pro_po_4_cv == '3'",
+                "valueRequired": true,
+                "variableName": "hopeful_pro_po_4_cv"
+            },
+            {
+                "isAbout": "items/angry_anti_mask_4_cv",
+                "isVis": "anti_mask_4_cv == '1' OR anti_mask_4_cv == '2' OR anti_mask_4_cv == '3'",
+                "valueRequired": true,
+                "variableName": "angry_anti_mask_4_cv"
+            },
+            {
+                "isAbout": "items/afraid_anti_mask_4_cv",
+                "isVis": "anti_mask_4_cv == '1' OR anti_mask_4_cv == '2' OR anti_mask_4_cv == '3'",
+                "valueRequired": true,
+                "variableName": "afraid_anti_mask_4_cv"
+            },
+            {
+                "isAbout": "items/inspired_anti_mask_4_cv",
+                "isVis": "anti_mask_4_cv == '1' OR anti_mask_4_cv == '2' OR anti_mask_4_cv == '3'",
+                "valueRequired": true,
+                "variableName": "inspired_anti_mask_4_cv"
+            },
+            {
+                "isAbout": "items/hopeful_anti_mask_4_cv",
+                "isVis": "anti_mask_4_cv == '1' OR anti_mask_4_cv == '2' OR anti_mask_4_cv == '3'",
+                "valueRequired": true,
+                "variableName": "hopeful_anti_mask_4_cv"
+            },
+            {
+                "isAbout": "items/angry_reopen_bus_4_cv",
+                "isVis": "reopen_bus_4_cv == '1' OR reopen_bus_4_cv == '2' OR reopen_bus_4_cv == '3'",
+                "valueRequired": true,
+                "variableName": "angry_reopen_bus_4_cv"
+            },
+            {
+                "isAbout": "items/afraid_reopen_bus_4_cv",
+                "isVis": "reopen_bus_4_cv == '1' OR reopen_bus_4_cv == '2' OR reopen_bus_4_cv == '3'",
+                "valueRequired": true,
+                "variableName": "afraid_reopen_bus_4_cv"
+            },
+            {
+                "isAbout": "items/inspired_reopen_bus_4_cv",
+                "isVis": "reopen_bus_4_cv == '1' OR reopen_bus_4_cv == '2' OR reopen_bus_4_cv == '3'",
+                "valueRequired": true,
+                "variableName": "inspired_reopen_bus_4_cv"
+            },
+            {
+                "isAbout": "items/hopeful_reopen_bus_4_cv",
+                "isVis": "reopen_bus_4_cv == '1' OR reopen_bus_4_cv == '2' OR reopen_bus_4_cv == '3'",
+                "valueRequired": true,
+                "variableName": "hopeful_reopen_bus_4_cv"
+            },
+            {
+                "isAbout": "items/blm_po_help_cv",
+                "isVis": "blm_4_cv == '1' OR blm_4_cv == '2' OR blm_4_cv == '3'",
+                "valueRequired": true,
+                "variableName": "blm_po_help_cv"
+            },
+            {
+                "isAbout": "items/blm_demo_help_cv",
+                "isVis": "blm_4_cv == '1' OR blm_4_cv == '2' OR blm_4_cv == '3'",
+                "valueRequired": true,
+                "variableName": "blm_demo_help_cv"
+            },
+            {
+                "isAbout": "items/blm_po_force_cv",
+                "isVis": "blm_4_cv == '1' OR blm_4_cv == '2' OR blm_4_cv == '3'",
+                "valueRequired": true,
+                "variableName": "blm_po_force_cv"
+            },
+            {
+                "isAbout": "items/blm_violence_cv",
+                "isVis": "blm_4_cv == '1' OR blm_4_cv == '2' OR blm_4_cv == '3'",
+                "valueRequired": true,
+                "variableName": "blm_violence_cv"
+            },
+            {
+                "isAbout": "items/pro_po_help_cv",
+                "isVis": "pro_po_4_cv == '1' OR pro_po_4_cv == '2' OR pro_po_4_cv == '3'",
+                "valueRequired": true,
+                "variableName": "pro_po_help_cv"
+            },
+            {
+                "isAbout": "items/pro_po_demo_help_cv",
+                "isVis": "pro_po_4_cv == '1' OR pro_po_4_cv == '2' OR pro_po_4_cv == '3'",
+                "valueRequired": true,
+                "variableName": "pro_po_demo_help_cv"
+            },
+            {
+                "isAbout": "items/pro_po_force_cv",
+                "isVis": "pro_po_4_cv == '1' OR pro_po_4_cv == '2' OR pro_po_4_cv == '3'",
+                "valueRequired": true,
+                "variableName": "pro_po_force_cv"
+            },
+            {
+                "isAbout": "items/pro_po_violence_cv",
+                "isVis": "pro_po_4_cv == '1' OR pro_po_4_cv == '2' OR pro_po_4_cv == '3'",
+                "valueRequired": true,
+                "variableName": "pro_po_violence_cv"
+            },
+            {
+                "isAbout": "items/anti_mask_po_help_cv",
+                "isVis": "anti_mask_4_cv == '1' OR anti_mask_4_cv == '2' OR anti_mask_4_cv == '3'",
+                "valueRequired": true,
+                "variableName": "anti_mask_po_help_cv"
+            },
+            {
+                "isAbout": "items/anti_mask_demo_help_cv",
+                "isVis": "anti_mask_4_cv == '1' OR anti_mask_4_cv == '2' OR anti_mask_4_cv == '3'",
+                "valueRequired": true,
+                "variableName": "anti_mask_demo_help_cv"
+            },
+            {
+                "isAbout": "items/anti_mask_po_force_cv",
+                "isVis": "anti_mask_4_cv == '1' OR anti_mask_4_cv == '2' OR anti_mask_4_cv == '3'",
+                "valueRequired": true,
+                "variableName": "anti_mask_po_force_cv"
+            },
+            {
+                "isAbout": "items/anti_mask_violence_cv",
+                "isVis": "anti_mask_4_cv == '1' OR anti_mask_4_cv == '2' OR anti_mask_4_cv == '3'",
+                "valueRequired": true,
+                "variableName": "anti_mask_violence_cv"
+            },
+            {
+                "isAbout": "items/reopen_bus_po_help_cv",
+                "isVis": "reopen_bus_4_cv == '1' OR reopen_bus_4_cv == '2' OR reopen_bus_4_cv == '3'",
+                "valueRequired": true,
+                "variableName": "reopen_bus_po_help_cv"
+            },
+            {
+                "isAbout": "items/reopen_bus_demo_help_cv",
+                "isVis": "reopen_bus_4_cv == '1' OR reopen_bus_4_cv == '2' OR reopen_bus_4_cv == '3'",
+                "valueRequired": true,
+                "variableName": "reopen_bus_demo_help_cv"
+            },
+            {
+                "isAbout": "items/reopen_bus_po_force_cv",
+                "isVis": "reopen_bus_4_cv == '1' OR reopen_bus_4_cv == '2' OR reopen_bus_4_cv == '3'",
+                "valueRequired": true,
+                "variableName": "reopen_bus_po_force_cv"
+            },
+            {
+                "isAbout": "items/reopen_bus_violence_cv",
+                "isVis": "reopen_bus_4_cv == '1' OR reopen_bus_4_cv == '2' OR reopen_bus_4_cv == '3'",
+                "valueRequired": true,
+                "variableName": "reopen_bus_violence_cv"
+            },
+            {
                 "isAbout": "items/walk_10_min_per_day_cv",
                 "isVis": true,
                 "valueRequired": true,
@@ -996,19 +1836,19 @@
             },
             {
                 "isAbout": "items/walking_hour_per_day_cv",
-                "isVis": "(walk_10_min_per_day_cv == '1' || walk_10_min_per_day_cv == '2' || walk_10_min_per_day_cv == '3' || walk_10_min_per_day_cv == '4' || walk_10_min_per_day_cv == '5' || walk_10_min_per_day_cv == '6' || walk_10_min_per_day_cv == '7')AND(event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv2_arm_2')",
+                "isVis": "(walk_10_min_per_day_cv == '1' || walk_10_min_per_day_cv == '2' || walk_10_min_per_day_cv == '3' || walk_10_min_per_day_cv == '4' || walk_10_min_per_day_cv == '5' || walk_10_min_per_day_cv == '6' || walk_10_min_per_day_cv == '7')AND(event - name == 'covid19_cv1_arm_3' || event - name == 'covid19_cv2_arm_3')",
                 "valueRequired": true,
                 "variableName": "walking_hour_per_day_cv"
             },
             {
                 "isAbout": "items/walking_min_per_day_cv",
-                "isVis": "(walk_10_min_per_day_cv == '1' || walk_10_min_per_day_cv == '2' || walk_10_min_per_day_cv == '3' || walk_10_min_per_day_cv == '4' || walk_10_min_per_day_cv == '5' || walk_10_min_per_day_cv == '6' || walk_10_min_per_day_cv == '7')AND(event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv2_arm_2')",
+                "isVis": "(walk_10_min_per_day_cv == '1' || walk_10_min_per_day_cv == '2' || walk_10_min_per_day_cv == '3' || walk_10_min_per_day_cv == '4' || walk_10_min_per_day_cv == '5' || walk_10_min_per_day_cv == '6' || walk_10_min_per_day_cv == '7')AND(event - name == 'covid19_cv1_arm_3' || event - name == 'covid19_cv2_arm_3')",
                 "valueRequired": true,
                 "variableName": "walking_min_per_day_cv"
             },
             {
                 "isAbout": "items/walking_hour_per_day_2_cv",
-                "isVis": "(walk_10_min_per_day_cv == '1' || walk_10_min_per_day_cv == '2' || walk_10_min_per_day_cv == '3' || walk_10_min_per_day_cv == '4' || walk_10_min_per_day_cv == '5' || walk_10_min_per_day_cv == '6' || walk_10_min_per_day_cv == '7')AND(event - name == 'covid19_cv3_arm_2' || event - name == 'covid19_cv4_arm_2')",
+                "isVis": "(walk_10_min_per_day_cv == '1' || walk_10_min_per_day_cv == '2' || walk_10_min_per_day_cv == '3' || walk_10_min_per_day_cv == '4' || walk_10_min_per_day_cv == '5' || walk_10_min_per_day_cv == '6' || walk_10_min_per_day_cv == '7')AND(event - name == 'covid19_cv3_arm_3' || event - name == 'covid19_cv4_arm_3')",
                 "valueRequired": true,
                 "variableName": "walking_hour_per_day_2_cv"
             },
@@ -1020,19 +1860,19 @@
             },
             {
                 "isAbout": "items/mod_phys_act_hour_cv",
-                "isVis": "(physical_activities_hr_cv == '1' || physical_activities_hr_cv == '2' || physical_activities_hr_cv == '3' || physical_activities_hr_cv == '4' || physical_activities_hr_cv == '5' || physical_activities_hr_cv == '6' || physical_activities_hr_cv == '7')AND(event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv2_arm_2')",
+                "isVis": "(physical_activities_hr_cv == '1' || physical_activities_hr_cv == '2' || physical_activities_hr_cv == '3' || physical_activities_hr_cv == '4' || physical_activities_hr_cv == '5' || physical_activities_hr_cv == '6' || physical_activities_hr_cv == '7')AND(event - name == 'covid19_cv1_arm_3' || event - name == 'covid19_cv2_arm_3')",
                 "valueRequired": true,
                 "variableName": "mod_phys_act_hour_cv"
             },
             {
                 "isAbout": "items/mod_phys_act_min_cv",
-                "isVis": "(physical_activities_hr_cv == '1' || physical_activities_hr_cv == '2' || physical_activities_hr_cv == '3' || physical_activities_hr_cv == '4' || physical_activities_hr_cv == '5' || physical_activities_hr_cv == '6' || physical_activities_hr_cv == '7')AND(event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv2_arm_2')",
+                "isVis": "(physical_activities_hr_cv == '1' || physical_activities_hr_cv == '2' || physical_activities_hr_cv == '3' || physical_activities_hr_cv == '4' || physical_activities_hr_cv == '5' || physical_activities_hr_cv == '6' || physical_activities_hr_cv == '7')AND(event - name == 'covid19_cv1_arm_3' || event - name == 'covid19_cv2_arm_3')",
                 "valueRequired": true,
                 "variableName": "mod_phys_act_min_cv"
             },
             {
                 "isAbout": "items/mod_phys_act_hour_2_cv",
-                "isVis": "(physical_activities_hr_cv == '1' || physical_activities_hr_cv == '2' || physical_activities_hr_cv == '3' || physical_activities_hr_cv == '4' || physical_activities_hr_cv == '5' || physical_activities_hr_cv == '6' || physical_activities_hr_cv == '7')AND(event - name == 'covid19_cv3_arm_2' || event - name == 'covid19_cv4_arm_2')",
+                "isVis": "(physical_activities_hr_cv == '1' || physical_activities_hr_cv == '2' || physical_activities_hr_cv == '3' || physical_activities_hr_cv == '4' || physical_activities_hr_cv == '5' || physical_activities_hr_cv == '6' || physical_activities_hr_cv == '7')AND(event - name == 'covid19_cv3_arm_3' || event - name == 'covid19_cv4_arm_3')",
                 "valueRequired": true,
                 "variableName": "mod_phys_act_hour_2_cv"
             },
@@ -1069,6 +1909,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2606",
+    "version": "revid2607",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

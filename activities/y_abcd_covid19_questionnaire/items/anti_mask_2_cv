@@ -1,0 +1,48 @@
+{
+    "id": "anti_mask_2_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "media_grp_2_cv"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200806"
+        }
+    ],
+    "preamble": {
+        "en": "Your progress:53%.Since April 2020, did you scroll, write, or post to social media (e.g., Facebook, Instagram, Twitter, Snapchat, TikTok) about the demonstrations (public marches, rallies) for:"
+    },
+    "prefLabel": {
+        "en": "anti_mask_2_cv"
+    },
+    "question": {
+        "en": "Against wearing masks"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

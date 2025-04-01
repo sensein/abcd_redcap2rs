@@ -1,0 +1,48 @@
+{
+    "id": "anti_mask_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "media_grp_cv"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200806"
+        }
+    ],
+    "preamble": {
+        "en": "Your progress:43%.We're reaching out to all youth in ABCD to learn more about the effects of current events (e.g., public marches, rallies, demonstrations) during the coronavirus pandemic on children and their families. We would like to ask you some questions about your experience. This will take about 10 minutes.\n\nSince April 2020, did you watch TV stories, look on the internet, or listen to news on the radio about public demonstrations (public marches, rallies) on:"
+    },
+    "prefLabel": {
+        "en": "anti_mask_cv"
+    },
+    "question": {
+        "en": "Against wearing masks"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
