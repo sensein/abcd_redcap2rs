@@ -9,8 +9,8 @@
         "order": [
             "items/accult_start_time",
             "items/accult_q1_y",
-            "items/accult_q3_dropdwn_y",
             "items/accult_q2_y",
+            "items/accult_q3_dropdwn_y",
             "items/accult_q3_other_y",
             "items/accult_q3b",
             "items/accult_q4_y",
@@ -32,16 +32,16 @@
                 "variableName": "accult_q1_y"
             },
             {
-                "isAbout": "items/accult_q3_dropdwn_y",
-                "isVis": "accult_q2_y == '1'",
-                "valueRequired": true,
-                "variableName": "accult_q3_dropdwn_y"
-            },
-            {
                 "isAbout": "items/accult_q2_y",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "accult_q2_y"
+            },
+            {
+                "isAbout": "items/accult_q3_dropdwn_y",
+                "isVis": "accult_q2_y == '1'",
+                "valueRequired": true,
+                "variableName": "accult_q3_dropdwn_y"
             },
             {
                 "isAbout": "items/accult_q3_other_y",
@@ -82,6 +82,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2653",
+    "version": "revid2654",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

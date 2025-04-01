@@ -174,7 +174,7 @@
             },
             {
                 "isAbout": "items/fitpo_when_sport",
-                "isVis": true,
+                "isVis": "fitpo_sports_y == '2' || fitpo_sports_y == '3' || fitpo_sports_y == '4'",
                 "valueRequired": true,
                 "variableName": "fitpo_when_sport"
             },
@@ -271,6 +271,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2653",
+    "version": "revid2654",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
