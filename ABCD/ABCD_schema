@@ -13,6 +13,7 @@
             "../activities/instructions_do_never_delete_move_or_use/instructions_do_never_delete_move_or_use_schema",
             "../activities/screener/screener_schema",
             "../activities/screener_2/screener_2_schema",
+            "../activities/covid19_14day_symptom_screener/covid19_14day_symptom_screener_schema",
             "../activities/scheduled/scheduled_schema",
             "../activities/longitudinal_tracking_daic_only/longitudinal_tracking_daic_only_schema",
             "../activities/special_instrument_participation/special_instrument_participation_schema",
@@ -124,7 +125,6 @@
             "../activities/developmental_history_questionnaire_devhxparent/developmental_history_questionnaire_devhxparent_schema",
             "../activities/p_demographicsdem_parent_l/p_demographicsdem_parent_l_schema",
             "../activities/medical_history_questionnaire_mhqparent/medical_history_questionnaire_mhqparent_schema",
-            "../activities/covid19_14day_symptom_screener/covid19_14day_symptom_screener_schema",
             "../activities/breast_feeding_questionaire/breast_feeding_questionaire_schema",
             "../activities/tbi_screenmodified_ohio_state_screen_tbiparent/tbi_screenmodified_ohio_state_screen_tbiparent_schema",
             "../activities/p_tbi_screenmodified_ohio_state_screen_tbiparent_l/p_tbi_screenmodified_ohio_state_screen_tbiparent_l_schema",
@@ -345,6 +345,14 @@
                     "en": "Screener 2"
                 },
                 "variableName": "screener_2_schema"
+            },
+            {
+                "isAbout": "../activities/covid19_14day_symptom_screener/covid19_14day_symptom_screener_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Covid19 14Day Symptom Screener"
+                },
+                "variableName": "covid19_14day_symptom_screener_schema"
             },
             {
                 "isAbout": "../activities/scheduled/scheduled_schema",
@@ -1233,14 +1241,6 @@
                     "en": "Medical History Questionnaire Mhqparent"
                 },
                 "variableName": "medical_history_questionnaire_mhqparent_schema"
-            },
-            {
-                "isAbout": "../activities/covid19_14day_symptom_screener/covid19_14day_symptom_screener_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Covid19 14Day Symptom Screener"
-                },
-                "variableName": "covid19_14day_symptom_screener_schema"
             },
             {
                 "isAbout": "../activities/breast_feeding_questionaire/breast_feeding_questionaire_schema",
@@ -2805,6 +2805,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2563",
+    "version": "revid2566",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
