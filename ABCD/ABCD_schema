@@ -144,6 +144,7 @@
             "../activities/p_youth_diet_form_l/p_youth_diet_form_l_schema",
             "../activities/sports_activities_read_music_parent/sports_activities_read_music_parent_schema",
             "../activities/sports_activities_involvement_saiqparent_l/sports_activities_involvement_saiqparent_l_schema",
+            "../activities/p_gish/p_gish_schema",
             "../activities/p_gender_identity/p_gender_identity_schema",
             "../activities/sports_activities_involvement_saiqparent/sports_activities_involvement_saiqparent_schema",
             "../activities/adult_self_report_aseba_asrparent/adult_self_report_aseba_asrparent_schema",
@@ -331,8 +332,7 @@
             "../activities/p_abcd_covid19_questionnaire_part_1/p_abcd_covid19_questionnaire_part_1_schema",
             "../activities/p_abcd_covid19_questionnaire_part_2/p_abcd_covid19_questionnaire_part_2_schema",
             "../activities/acs_post_stratification_weights_daic_use_only/acs_post_stratification_weights_daic_use_only_schema",
-            "../activities/little_man_task_daic_use_only/little_man_task_daic_use_only_schema",
-            "../activities/p_gish/p_gish_schema"
+            "../activities/little_man_task_daic_use_only/little_man_task_daic_use_only_schema"
         ],
         "addProperties": [
             {
@@ -1406,6 +1406,14 @@
                     "en": "Sports Activities Involvement Saiqparent L"
                 },
                 "variableName": "sports_activities_involvement_saiqparent_l_schema"
+            },
+            {
+                "isAbout": "../activities/p_gish/p_gish_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "P Gish"
+                },
+                "variableName": "p_gish_schema"
             },
             {
                 "isAbout": "../activities/p_gender_identity/p_gender_identity_schema",
@@ -2910,18 +2918,10 @@
                     "en": "Little Man Task Daic Use Only"
                 },
                 "variableName": "little_man_task_daic_use_only_schema"
-            },
-            {
-                "isAbout": "../activities/p_gish/p_gish_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "P Gish"
-                },
-                "variableName": "p_gish_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2627",
+    "version": "revid2628",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
