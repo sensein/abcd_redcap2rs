@@ -36,31 +36,31 @@
             },
             {
                 "isAbout": "items/su_crpf_avail_1",
-                "isVis": "tlfb_alc_l == '1' ||(tlfb_alc_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_alc_c_l == '1' && event - name =='2_year_follow_up_y_arm_1')||(event - name == '3_year_follow_up_y_arm_1')",
+                "isVis": "tlfb_alc_l == '1' ||(tlfb_alc_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_alc_c_l == '1' && event - name =='2_year_follow_up_y_arm_1')||(event - name == '3_year_follow_up_y_arm_1')||(event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "su_crpf_avail_1"
             },
             {
                 "isAbout": "items/su_crpf_avail_2",
-                "isVis": "tlfb_tob_l == '1' ||(tlfb_tob_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_tob_c_l == '1' && event - name =='2_year_follow_up_y_arm_1')||(event - name == '3_year_follow_up_y_arm_1')",
+                "isVis": "tlfb_tob_l == '1' ||(tlfb_tob_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_tob_c_l == '1' && event - name =='2_year_follow_up_y_arm_1')||(event - name == '3_year_follow_up_y_arm_1')||(event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "su_crpf_avail_2"
             },
             {
                 "isAbout": "items/su_crpf_avail_3",
-                "isVis": "tlfb_tob_l == '1' ||(tlfb_tob_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_tob_c_l == '1' && event - name =='2_year_follow_up_y_arm_1')||(event - name == '3_year_follow_up_y_arm_1')",
+                "isVis": "tlfb_tob_l == '1' ||(tlfb_tob_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_tob_c_l == '1' && event - name =='2_year_follow_up_y_arm_1')||(event - name == '3_year_follow_up_y_arm_1')||(event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "su_crpf_avail_3"
             },
             {
                 "isAbout": "items/su_crpf_avail_4",
-                "isVis": "(tlfb_mj_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_synth_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_synth_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_synth_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_synth_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
+                "isVis": "(tlfb_mj_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_synth_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_synth_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_synth_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_synth_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1' ||(event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "su_crpf_avail_4"
             },
             {
                 "isAbout": "items/su_crpf_avail_6",
-                "isVis": "(tlfb_mj_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_synth_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_synth_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_synth_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_synth_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1'",
+                "isVis": "(tlfb_mj_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_synth_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_synth_l == '1' && event - name == '2_year_follow_up_y_arm_1')||(tlfb_mj_synth_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_mj_synth_c_l == '1' && event - name == '2_year_follow_up_y_arm_1')|| event - name == '3_year_follow_up_y_arm_1' ||(event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "su_crpf_avail_6"
             },
@@ -84,31 +84,31 @@
             },
             {
                 "isAbout": "items/su_crpf_avail_5",
-                "isVis": "tlfb_list_yes_no_l == '1' ||(tlfb_list_yes_no_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_list_yes_no_c_l == '1' && event - name =='2_year_follow_up_y_arm_1')||(event - name == '3_year_follow_up_y_arm_1')",
+                "isVis": "tlfb_list_yes_no_l == '1' ||(tlfb_list_yes_no_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_list_yes_no_c_l == '1' && event - name =='2_year_follow_up_y_arm_1')||(event - name == '3_year_follow_up_y_arm_1')||(event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "su_crpf_avail_5"
             },
             {
                 "isAbout": "items/su_crpf_avail_10",
-                "isVis": "tlfb_inhalant_l == '1' ||(tlfb_inhalant_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_inhalant_c_l == '1' && event - name =='2_year_follow_up_y_arm_1')||(event - name == '3_year_follow_up_y_arm_1')",
+                "isVis": "tlfb_inhalant_l == '1' ||(tlfb_inhalant_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_inhalant_c_l == '1' && event - name =='2_year_follow_up_y_arm_1')||(event - name == '3_year_follow_up_y_arm_1')||(event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "su_crpf_avail_10"
             },
             {
                 "isAbout": "items/su_crpf_avail_11",
-                "isVis": "tlfb_rx_misuse_l == '1' ||(tlfb_rx_misuse_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_rx_misuse_c_l == '1' && event - name =='2_year_follow_up_y_arm_1')||(event - name == '3_year_follow_up_y_arm_1')",
+                "isVis": "tlfb_rx_misuse_l == '1' ||(tlfb_rx_misuse_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_rx_misuse_c_l == '1' && event - name =='2_year_follow_up_y_arm_1')||(event - name == '3_year_follow_up_y_arm_1')||(event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "su_crpf_avail_11"
             },
             {
                 "isAbout": "items/su_crpf_avail_12",
-                "isVis": "tlfb_rx_misuse_l == '1' ||(tlfb_rx_misuse_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_rx_misuse_c_l == '1' && event - name =='2_year_follow_up_y_arm_1')||(event - name == '3_year_follow_up_y_arm_1')",
+                "isVis": "tlfb_rx_misuse_l == '1' ||(tlfb_rx_misuse_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_rx_misuse_c_l == '1' && event - name =='2_year_follow_up_y_arm_1')||(event - name == '3_year_follow_up_y_arm_1')||(event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "su_crpf_avail_12"
             },
             {
                 "isAbout": "items/su_crpf_avail_13",
-                "isVis": "tlfb_rx_misuse_l == '1' ||(tlfb_rx_misuse_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_rx_misuse_c_l == '1' && event - name =='2_year_follow_up_y_arm_1')||(event - name == '3_year_follow_up_y_arm_1')",
+                "isVis": "tlfb_rx_misuse_l == '1' ||(tlfb_rx_misuse_c_l == '1' && event - name == '1_year_follow_up_y_arm_1')||(tlfb_rx_misuse_c_l == '1' && event - name =='2_year_follow_up_y_arm_1')||(event - name == '3_year_follow_up_y_arm_1')||(event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "su_crpf_avail_13"
             },
@@ -145,6 +145,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2624",
+    "version": "revid2625",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

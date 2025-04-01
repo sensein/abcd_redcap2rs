@@ -16,6 +16,8 @@
             "items/cybb_phenx_harm2_12mo",
             "items/cybb_phenx_harm2_often",
             "items/cybb_phenx_power2",
+            "items/cybb_phenx_photos",
+            "items/cybb_phenx_message",
             "items/cybb_admin",
             "items/cybb_remote",
             "items/cybb_device",
@@ -77,6 +79,18 @@
                 "variableName": "cybb_phenx_power2"
             },
             {
+                "isAbout": "items/cybb_phenx_photos",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "cybb_phenx_photos"
+            },
+            {
+                "isAbout": "items/cybb_phenx_message",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "cybb_phenx_message"
+            },
+            {
                 "isAbout": "items/cybb_admin",
                 "isVis": "event_name_number > '21'",
                 "valueRequired": true,
@@ -103,6 +117,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2624",
+    "version": "revid2625",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

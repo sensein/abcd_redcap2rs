@@ -1,44 +1,50 @@
 {
-    "id": "mobile_asnt_p",
+    "id": "kbi_gender_identity",
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
             "column": "Field Annotation",
             "source": "redcap",
-            "value": "HIDEFROMCOMPLETION20200824"
+            "value": "HIDEFROMCOMPLETION20200825"
         }
     ],
     "prefLabel": {
-        "en": "mobile_asnt_p"
+        "en": "kbi_gender_identity"
     },
     "question": {
-        "en": "Mobile Tech Consent:"
+        "en": "What is your current gender identity:"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Yes"
+                    "en": "Girl"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "No, my child has an iPhone 7 or older iPhone"
+                    "en": "Boy"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "No, my child does not have a mobile device"
+                    "en": "Another gender (e.g. nonbinary)"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "No, my child does not have their own mobile device/they share one"
+                    "en": "I don't understand the question"
                 },
                 "value": 4
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
             }
         ],
         "valueType": [

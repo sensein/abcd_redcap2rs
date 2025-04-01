@@ -1,38 +1,40 @@
 {
-    "id": "neurocog_2_remote",
+    "id": "cybb_phenx_photos",
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
             "column": "Field Annotation",
             "source": "redcap",
-            "value": "HIDEFROMCOMPLETION20200603"
+            "value": "HIDEFROMCOMPLETION20200726"
         }
     ],
-    "preamble": {
-        "en": "For RA Use Only:"
-    },
     "prefLabel": {
-        "en": "neurocog_2_remote"
+        "en": "cybb_phenx_photos"
     },
     "question": {
-        "en": "Remote method ofNeurocognitive tasks pt 2administration [Check all that apply]:"
+        "en": "Has anyone on ever pressured you to send a sexual photo/video of yourself electronically? For example, did they keep asking after you said no, or tell you that you had to do it because they sent you a sexual photo of them first?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Audio"
+                    "en": "Yes"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Video/Webcam"
+                    "en": "No"
                 },
                 "value": 2
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
             }
         ],
-        "multipleChoice": true,
         "valueType": [
             "xsd:integer"
         ]

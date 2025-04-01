@@ -91,7 +91,7 @@
             },
             {
                 "isAbout": "items/neurocog_2_bird",
-                "isVis": "sched_delay == '9' && sched_hybrid == '1'",
+                "isVis": "(sched_delay == '9' && sched_hybrid == '1')&& event - name == '4_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "neurocog_2_bird"
             },
@@ -110,6 +110,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2624",
+    "version": "revid2625",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
