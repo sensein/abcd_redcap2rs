@@ -42,6 +42,8 @@
             "items/permission_teacher_contact",
             "items/zygosity_permission",
             "items/video_permission",
+            "items/verbal_consent_cv",
+            "items/date_verbal_consent_cv",
             "items/video_use_permission",
             "items/video_details_permission",
             "items/video_adult",
@@ -261,6 +263,18 @@
                 "variableName": "video_permission"
             },
             {
+                "isAbout": "items/verbal_consent_cv",
+                "isVis": "video_permission == '1'",
+                "valueRequired": true,
+                "variableName": "verbal_consent_cv"
+            },
+            {
+                "isAbout": "items/date_verbal_consent_cv",
+                "isVis": "verbal_consent_cv == '1'",
+                "valueRequired": true,
+                "variableName": "date_verbal_consent_cv"
+            },
+            {
                 "isAbout": "items/video_use_permission",
                 "isVis": "video_permission == '1'",
                 "valueRequired": true,
@@ -299,6 +313,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2594",
+    "version": "revid2595",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

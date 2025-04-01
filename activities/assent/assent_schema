@@ -19,6 +19,8 @@
             "items/asnt_timestamp",
             "items/zygosity_assent",
             "items/video_assent",
+            "items/y_verbal_consent_cv",
+            "items/y_date_verbal_consent_cv",
             "items/video_use_assent",
             "items/video_details_assent",
             "items/asnt_remote_comfort",
@@ -97,9 +99,21 @@
             },
             {
                 "isAbout": "items/video_assent",
-                "isVis": "sched_delay == '7'",
+                "isVis": true,
                 "valueRequired": true,
                 "variableName": "video_assent"
+            },
+            {
+                "isAbout": "items/y_verbal_consent_cv",
+                "isVis": "video_assent == '1'",
+                "valueRequired": true,
+                "variableName": "y_verbal_consent_cv"
+            },
+            {
+                "isAbout": "items/y_date_verbal_consent_cv",
+                "isVis": "y_verbal_consent_cv == '1'",
+                "valueRequired": true,
+                "variableName": "y_date_verbal_consent_cv"
             },
             {
                 "isAbout": "items/video_use_assent",
@@ -152,6 +166,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2594",
+    "version": "revid2595",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

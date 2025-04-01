@@ -283,6 +283,9 @@
             "items/reshist_addr1_traffic_count",
             "items/reshist_addr2_traffic_count",
             "items/reshist_addr3_traffic_count",
+            "items/reshist_addr1_id_match",
+            "items/reshist_addr2_id_match",
+            "items/reshist_addr3_id_match",
             "items/residential_history_derived_scores_daic_use_only_complete"
         ],
         "addProperties": [
@@ -1943,6 +1946,24 @@
                 "variableName": "reshist_addr3_traffic_count"
             },
             {
+                "isAbout": "items/reshist_addr1_id_match",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_id_match"
+            },
+            {
+                "isAbout": "items/reshist_addr2_id_match",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_id_match"
+            },
+            {
+                "isAbout": "items/reshist_addr3_id_match",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_id_match"
+            },
+            {
                 "isAbout": "items/residential_history_derived_scores_daic_use_only_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -1951,6 +1972,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2594",
+    "version": "revid2595",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
