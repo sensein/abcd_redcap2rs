@@ -1,33 +1,36 @@
 {
-    "id": "peerinfluence_q9b",
+    "id": "fitpo_when_sport",
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
             "column": "Field Annotation",
             "source": "redcap",
-            "value": "HIDEFROMCOMPLETION20200825"
+            "value": "HIDEFROMCOMPLETION20201021"
         }
     ],
-    "preamble": {
-        "en": "For each quality question, decide which sort of person you are most like. Then decide if that is \"sort of true\" or \"really true\" for you, and select that choice. For each line mark only ONE choice."
-    },
     "prefLabel": {
-        "en": "peerinfluence_q9b"
+        "en": "fitpo_when_sport"
     },
     "question": {
-        "en": "Other people would not say things they didn't really believe just to get their friends to respect them more."
+        "en": "When did you take the Fitbit off during sports?:"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Really true for me"
+                    "en": "Weekends only"
                 },
-                "value": 4
+                "value": 1
             },
             {
                 "name": {
-                    "en": "Sort of true for me"
+                    "en": "Weekdays only"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Both weekends and weekdays"
                 },
                 "value": 3
             }
