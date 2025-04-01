@@ -8,6 +8,14 @@
     "ui": {
         "order": [
             "items/cv_p_select_language",
+            "items/test_question_cv",
+            "items/solution_1_cv",
+            "items/solution_2_cv",
+            "items/solution_3_cv",
+            "items/test_question_2_cv",
+            "items/test_question_3_cv",
+            "items/test_question_4_cv",
+            "items/test_question_5_cv",
             "items/p_cv_intro",
             "items/p_worry_cv",
             "items/p_life_changed_cv",
@@ -64,6 +72,54 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "cv_p_select_language"
+            },
+            {
+                "isAbout": "items/test_question_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "test_question_cv"
+            },
+            {
+                "isAbout": "items/solution_1_cv",
+                "isVis": "test_question_cv == '0'",
+                "valueRequired": false,
+                "variableName": "solution_1_cv"
+            },
+            {
+                "isAbout": "items/solution_2_cv",
+                "isVis": "test_question_cv == '0'",
+                "valueRequired": false,
+                "variableName": "solution_2_cv"
+            },
+            {
+                "isAbout": "items/solution_3_cv",
+                "isVis": "test_question_cv == '0'",
+                "valueRequired": false,
+                "variableName": "solution_3_cv"
+            },
+            {
+                "isAbout": "items/test_question_2_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "test_question_2_cv"
+            },
+            {
+                "isAbout": "items/test_question_3_cv",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "test_question_3_cv"
+            },
+            {
+                "isAbout": "items/test_question_4_cv",
+                "isVis": "test_question_3_cv == '1'",
+                "valueRequired": true,
+                "variableName": "test_question_4_cv"
+            },
+            {
+                "isAbout": "items/test_question_5_cv",
+                "isVis": "test_question_3_cv == '1'",
+                "valueRequired": true,
+                "variableName": "test_question_5_cv"
             },
             {
                 "isAbout": "items/p_cv_intro",
@@ -362,6 +418,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2656",
+    "version": "revid2657",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

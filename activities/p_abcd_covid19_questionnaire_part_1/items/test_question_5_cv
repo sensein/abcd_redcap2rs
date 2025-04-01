@@ -1,0 +1,47 @@
+{
+    "id": "test_question_5_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20201106"
+        }
+    ],
+    "preamble": {
+        "en": "Thanks for participating in this survey! \u00c2\u00a0Before we get started, let's check your browser settings. Please read the test question below and indicate whether or not you see the correct answer options.",
+        "es": "\u00c2\u00a1Gracias por participar en esta encuesta! Antes de comenzar hay que verificar la configuraci\u00c3\u00b3n de su navegador. Por favor lea la pregunta de prueba abajo e indique si ve o no las opciones de respuesta adecuadas."
+    },
+    "prefLabel": {
+        "en": "test_question_5_cv"
+    },
+    "question": {
+        "en": "Were you able to fix this with the instructions provided above?",
+        "es": "\u00c2\u00bfPudo corregirlo con las indicaciones proporcionadas arriba?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

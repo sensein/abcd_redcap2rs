@@ -1,0 +1,54 @@
+{
+    "id": "test_question_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20201106"
+        }
+    ],
+    "preamble": {
+        "en": "Thanks for participating in this survey! \u00c2\u00a0Before we get started, let's check your browser settings. Please read the test question below and indicate whether or not you see the correct answer options.",
+        "es": "\u00c2\u00a1Gracias por participar en esta encuesta! Antes de comenzar hay que verificar la configuraci\u00c3\u00b3n de su navegador. Por favor lea la pregunta de prueba abajo e indique si ve o no las opciones de respuesta adecuadas."
+    },
+    "prefLabel": {
+        "en": "test_question_cv"
+    },
+    "question": {
+        "en": "Test question:Select \"Yes\" if this test question is appearing with answer options \"No, Yes, Refused to answer\"? \u00e2\u0080\u00a8Select the first option if you see something other than \"No, Yes, Refused to answer\"",
+        "es": "Pregunta de prueba: Seleccione \"S\u00c3\u00ad\" si esta pregunta tiene las opciones \"No, S\u00c3\u00ad, Niego Contestar\". Seleccione la primera opci\u00c3\u00b3n si ve algo aparte de \"No, S\u00c3\u00ad, Niego contestar\"."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer",
+                    "es": "Niego contestar"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
