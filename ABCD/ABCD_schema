@@ -178,12 +178,15 @@
             "../activities/baby_teeth_parent/baby_teeth_parent_schema",
             "../activities/feedbackparent/feedbackparent_schema",
             "../activities/consentfitbit/consentfitbit_schema",
+            "../activities/ears_intro_setup/ears_intro_setup_schema",
+            "../activities/p_ears_post_questionnaire/p_ears_post_questionnaire_schema",
             "../activities/fitbit_preassessment_parent/fitbit_preassessment_parent_schema",
             "../activities/p_parent_ra_notes_2/p_parent_ra_notes_2_schema",
             "../activities/parent_ra_notes_3yr/parent_ra_notes_3yr_schema",
             "../activities/p_parent_ra_notes_one_year_followup/p_parent_ra_notes_one_year_followup_schema",
             "../activities/twin_zygosity_rating/twin_zygosity_rating_schema",
             "../activities/fitbit_postassessment_youth/fitbit_postassessment_youth_schema",
+            "../activities/y_ears_post_questionnaire/y_ears_post_questionnaire_schema",
             "../activities/fitbit_postassessment_parent/fitbit_postassessment_parent_schema",
             "../activities/ecb_questionnaire/ecb_questionnaire_schema",
             "../activities/ecb_tracking/ecb_tracking_schema",
@@ -328,9 +331,6 @@
             "../activities/p_abcd_covid19_questionnaire_part_1/p_abcd_covid19_questionnaire_part_1_schema",
             "../activities/p_abcd_covid19_questionnaire_part_2/p_abcd_covid19_questionnaire_part_2_schema",
             "../activities/acs_post_stratification_weights_daic_use_only/acs_post_stratification_weights_daic_use_only_schema",
-            "../activities/p_ears_post_questionnaire/p_ears_post_questionnaire_schema",
-            "../activities/y_ears_post_questionnaire/y_ears_post_questionnaire_schema",
-            "../activities/ears_intro_setup/ears_intro_setup_schema",
             "../activities/little_man_task_daic_use_only/little_man_task_daic_use_only_schema",
             "../activities/p_gish/p_gish_schema"
         ],
@@ -1680,6 +1680,22 @@
                 "variableName": "consentfitbit_schema"
             },
             {
+                "isAbout": "../activities/ears_intro_setup/ears_intro_setup_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Ears Intro Setup"
+                },
+                "variableName": "ears_intro_setup_schema"
+            },
+            {
+                "isAbout": "../activities/p_ears_post_questionnaire/p_ears_post_questionnaire_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "P Ears Post Questionnaire"
+                },
+                "variableName": "p_ears_post_questionnaire_schema"
+            },
+            {
                 "isAbout": "../activities/fitbit_preassessment_parent/fitbit_preassessment_parent_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -1726,6 +1742,14 @@
                     "en": "Fitbit Postassessment Youth"
                 },
                 "variableName": "fitbit_postassessment_youth_schema"
+            },
+            {
+                "isAbout": "../activities/y_ears_post_questionnaire/y_ears_post_questionnaire_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Ears Post Questionnaire"
+                },
+                "variableName": "y_ears_post_questionnaire_schema"
             },
             {
                 "isAbout": "../activities/fitbit_postassessment_parent/fitbit_postassessment_parent_schema",
@@ -2880,30 +2904,6 @@
                 "variableName": "acs_post_stratification_weights_daic_use_only_schema"
             },
             {
-                "isAbout": "../activities/p_ears_post_questionnaire/p_ears_post_questionnaire_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "P Ears Post Questionnaire"
-                },
-                "variableName": "p_ears_post_questionnaire_schema"
-            },
-            {
-                "isAbout": "../activities/y_ears_post_questionnaire/y_ears_post_questionnaire_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Y Ears Post Questionnaire"
-                },
-                "variableName": "y_ears_post_questionnaire_schema"
-            },
-            {
-                "isAbout": "../activities/ears_intro_setup/ears_intro_setup_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Ears Intro Setup"
-                },
-                "variableName": "ears_intro_setup_schema"
-            },
-            {
                 "isAbout": "../activities/little_man_task_daic_use_only/little_man_task_daic_use_only_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -2922,6 +2922,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2619",
+    "version": "revid2620",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
