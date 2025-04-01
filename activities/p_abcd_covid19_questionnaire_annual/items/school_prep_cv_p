@@ -1,0 +1,68 @@
+{
+    "id": "school_prep_cv_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "school_prep_group_cv_p"
+        }
+    ],
+    "preamble": {
+        "en": "For these next questions about your child's school-at-home, please think about thepast week:",
+        "es": "Para las siguientes preguntas sobre estudios escolares en casa de su hijo/a, piense en lasemana pasada:"
+    },
+    "prefLabel": {
+        "en": "school_prep_cv_p"
+    },
+    "question": {
+        "en": "How prepared do you think your child will be for next school year?",
+        "es": "Que tan preparado/a piensa que estar\u00c3\u00a1 su hijo/a para el pr\u00c3\u00b3ximo ano escolar?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all",
+                    "es": "Para nada"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Slightly",
+                    "es": "Ligeramente o un poco"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Moderately",
+                    "es": "Moderadamente"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Very",
+                    "es": "Altamente o Mucho"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Extremely",
+                    "es": "Extremadamente"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

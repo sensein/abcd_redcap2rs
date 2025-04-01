@@ -1,0 +1,30 @@
+{
+    "id": "online_activities_cv_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "Hours"
+        }
+    ],
+    "preamble": {
+        "en": "School Schedule"
+    },
+    "prefLabel": {
+        "en": "online_activities_cv_y"
+    },
+    "question": {
+        "en": "In the past week on an average weekday, how many hours per day did you spend doing school or school-like activities, including online or in-person school?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,79 @@
+{
+    "id": "fam_member_relation_cv_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Has someone close to your child been diagnosed with coronavirus?"
+    },
+    "prefLabel": {
+        "en": "fam_member_relation_cv_p"
+    },
+    "question": {
+        "en": "Who was this person in relation to your child?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Child's Biological Mother",
+                    "es": "Madre biol\u00c3\u00b3gica del ni\u00c3\u00b1o/a"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Child's Biological Father",
+                    "es": "Padre biol\u00c3\u00b3gico del ni\u00c3\u00b1o/a"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Adoptive Parent",
+                    "es": "Padre adoptivo/a"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Child's Custodial Parent",
+                    "es": "Padre con custodia del ni\u00c3\u00b1o/a"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Child's Biological Sibling",
+                    "es": "Hermano/Hermana biol\u00c3\u00b3gica del ni\u00c3\u00b1o/a"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "A grandparent"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "A close friend"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Other",
+                    "es": "Otro/Otra"
+                },
+                "value": 8
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,46 @@
+{
+    "id": "bio_dad_hos_cv_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Has someone close to your child been diagnosed with coronavirus?"
+    },
+    "prefLabel": {
+        "en": "bio_dad_hos_cv_p"
+    },
+    "question": {
+        "en": "Did the biological father require hospitalization?",
+        "es": "\u00c2\u00bfEl padre biol\u00c3\u00b3gico requiri\u00c3\u00b3 hospitalizaci\u00c3\u00b3n?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Don't know",
+                    "es": "No se"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

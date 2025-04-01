@@ -1,0 +1,47 @@
+{
+    "id": "iep_provide_cv_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "For these next questions about your child's school-at-home, please think about thepast week:",
+        "es": "Para las siguientes preguntas sobre estudios escolares en casa de su hijo/a, piense en lasemana pasada:"
+    },
+    "prefLabel": {
+        "en": "iep_provide_cv_p"
+    },
+    "question": {
+        "en": "Did the school continue to provide services?",
+        "es": "\u00c2\u00bfLa escuela contin\u00c3\u00bao proporcionando servicios?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Don't know",
+                    "es": "No se"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

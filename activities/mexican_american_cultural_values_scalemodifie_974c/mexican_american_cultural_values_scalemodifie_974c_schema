@@ -54,7 +54,7 @@
             },
             {
                 "isAbout": "items/mex_american1_p",
-                "isVis": "(event - name <= '3_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "mex_american1_p"
             },
@@ -78,13 +78,13 @@
             },
             {
                 "isAbout": "items/mex_american5_p",
-                "isVis": "(event - name <= '3_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "mex_american5_p"
             },
             {
                 "isAbout": "items/mex_american6_p",
-                "isVis": "(event - name <= '3_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "mex_american6_p"
             },
@@ -108,13 +108,13 @@
             },
             {
                 "isAbout": "items/mex_american10_p",
-                "isVis": "(event - name <= '3_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "mex_american10_p"
             },
             {
                 "isAbout": "items/mex_american11_p",
-                "isVis": "(event - name <= '3_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "mex_american11_p"
             },
@@ -132,13 +132,13 @@
             },
             {
                 "isAbout": "items/mex_american14_p",
-                "isVis": "(event - name <= '3_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "mex_american14_p"
             },
             {
                 "isAbout": "items/mex_american15_p",
-                "isVis": "(event - name <= '3_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "mex_american15_p"
             },
@@ -162,13 +162,13 @@
             },
             {
                 "isAbout": "items/mex_american19_p",
-                "isVis": "(event - name <= '3_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "mex_american19_p"
             },
             {
                 "isAbout": "items/mex_american20_p",
-                "isVis": "(event - name <= '3_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "mex_american20_p"
             },
@@ -192,13 +192,13 @@
             },
             {
                 "isAbout": "items/mex_american24_p",
-                "isVis": "(event - name <= '3_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "mex_american24_p"
             },
             {
                 "isAbout": "items/mex_american25_p",
-                "isVis": "(event - name <= '3_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "mex_american25_p"
             },
@@ -216,7 +216,7 @@
             },
             {
                 "isAbout": "items/mex_american28_p",
-                "isVis": "(event - name <= '3_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "mex_american28_p"
             },
@@ -229,6 +229,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2612",
+    "version": "revid2613",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,0 +1,47 @@
+{
+    "id": "school_nutrition_cv_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "For these next questions about your child's school-at-home, please think about thepast week:",
+        "es": "Para las siguientes preguntas sobre estudios escolares en casa de su hijo/a, piense en lasemana pasada:"
+    },
+    "prefLabel": {
+        "en": "school_nutrition_cv_p"
+    },
+    "question": {
+        "en": "Did your child get breakfast and/or lunch from your school?",
+        "es": "Su hijo/a recibi\u00c3\u00b3 desayuno o lonche por parte de la escuela?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Don't know",
+                    "es": "No se"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

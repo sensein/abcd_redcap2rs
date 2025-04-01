@@ -1,0 +1,55 @@
+{
+    "id": "demo_stayed_away_cv_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "demo_last_week_cv_y"
+        }
+    ],
+    "preamble": {
+        "en": "Please rate how often you have done the things below in thelast week:"
+    },
+    "prefLabel": {
+        "en": "demo_stayed_away_cv_y"
+    },
+    "question": {
+        "en": "I stay away from people (other than those who live in my house)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "I havenotdone this in the last week"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "I did thissomeof the time last week"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "I did thismostof the time last week"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "I did thisallthe time last week"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

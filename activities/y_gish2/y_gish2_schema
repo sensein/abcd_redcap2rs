@@ -61,73 +61,73 @@
             },
             {
                 "isAbout": "items/gish2_girls",
-                "isVis": "event - name > '3_year_follow_up_y_arm_1'",
+                "isVis": "(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "gish2_girls"
             },
             {
                 "isAbout": "items/gish2_boys",
-                "isVis": "event - name > '3_year_follow_up_y_arm_1'",
+                "isVis": "(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "gish2_boys"
             },
             {
                 "isAbout": "items/gish2_nonbinary_1",
-                "isVis": "event - name > '3_year_follow_up_y_arm_1'",
+                "isVis": "(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "gish2_nonbinary_1"
             },
             {
                 "isAbout": "items/gish2_currently_have",
-                "isVis": "event - name >= '3_year_follow_up_y_arm_1'",
+                "isVis": "(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "gish2_currently_have"
             },
             {
                 "isAbout": "items/gish2_how_old",
-                "isVis": "gish2_currently_have == '1' && event - name >= '3_year_follow_up_y_arm_1'",
+                "isVis": "gish2_currently_have == '1' &&(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "gish2_how_old"
             },
             {
                 "isAbout": "items/gish2_spend_time",
-                "isVis": "gish2_currently_have == '1' && event - name >= '3_year_follow_up_y_arm_1'",
+                "isVis": "gish2_currently_have == '1' &&(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "gish2_spend_time"
             },
             {
                 "isAbout": "items/gish2_use_alc",
-                "isVis": "gish2_currently_have == '1' && event - name >= '3_year_follow_up_y_arm_1'",
+                "isVis": "gish2_currently_have == '1' &&(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "gish2_use_alc"
             },
             {
                 "isAbout": "items/gish2_use_tob",
-                "isVis": "gish2_currently_have == '1' && event - name >= '3_year_follow_up_y_arm_1'",
+                "isVis": "gish2_currently_have == '1' &&(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "gish2_use_tob"
             },
             {
                 "isAbout": "items/gish2_use_mj",
-                "isVis": "gish2_currently_have == '1' && event - name >= '3_year_follow_up_y_arm_1'",
+                "isVis": "gish2_currently_have == '1' &&(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "gish2_use_mj"
             },
             {
                 "isAbout": "items/gish2_use_other",
-                "isVis": "gish2_currently_have == '1' && event - name >= '3_year_follow_up_y_arm_1'",
+                "isVis": "gish2_currently_have == '1' &&(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "gish2_use_other"
             },
             {
                 "isAbout": "items/gish2_had_bf_gf",
-                "isVis": "gish2_currently_have == '0' && event - name >= '3_year_follow_up_y_arm_1'",
+                "isVis": "gish2_currently_have == '0' &&(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "gish2_had_bf_gf"
             },
             {
                 "isAbout": "items/gish2_ever_type",
-                "isVis": "gish2_had_bf_gf == '1' && event - name >= '3_year_follow_up_y_arm_1'",
+                "isVis": "gish2_had_bf_gf == '1' &&(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "gish2_ever_type"
             },
@@ -139,7 +139,7 @@
             },
             {
                 "isAbout": "items/gish2_want_type",
-                "isVis": "gish2_want_bf_gf == '1' && event - name >= '3_year_follow_up_y_arm_1'",
+                "isVis": "gish2_want_bf_gf == '1' &&(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": false,
                 "variableName": "gish2_want_type"
             },
@@ -151,7 +151,7 @@
             },
             {
                 "isAbout": "items/gish2_nr_kiss_type",
-                "isVis": "gish2_nr_kiss == '1' && event - name >= '3_year_follow_up_y_arm_1'",
+                "isVis": "gish2_nr_kiss == '1' &&(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": false,
                 "variableName": "gish2_nr_kiss_type"
             },
@@ -278,6 +278,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2612",
+    "version": "revid2613",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

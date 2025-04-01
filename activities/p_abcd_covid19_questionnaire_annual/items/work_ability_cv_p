@@ -1,0 +1,54 @@
+{
+    "id": "work_ability_cv_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Youth's School",
+        "es": "La escuela de su hijo/a"
+    },
+    "prefLabel": {
+        "en": "work_ability_cv_p"
+    },
+    "question": {
+        "en": "Is your role caring for your child conflicting with your work responsibilities?",
+        "es": "\u00c2\u00bfSu rol de cuidar a su hijo/a esta en conflicto con sus responsabilidades laborales?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "None",
+                    "es": "No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Some",
+                    "es": "Un poco"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A great deal",
+                    "es": "Mucho"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Don't know",
+                    "es": "No se"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

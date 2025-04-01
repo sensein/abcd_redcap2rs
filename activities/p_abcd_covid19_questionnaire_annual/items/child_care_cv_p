@@ -1,0 +1,47 @@
+{
+    "id": "child_care_cv_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Youth's School",
+        "es": "La escuela de su hijo/a"
+    },
+    "prefLabel": {
+        "en": "child_care_cv_p"
+    },
+    "question": {
+        "en": "During this period of school closure, are you the primary (or co-primary) person responsible for your child's care during the day?",
+        "es": "\u00c2\u00bfDurante este periodo de clausura escolar, usted es la persona primaria (o co-primaria) responsable por el cuidado de su hijo/a durante el d\u00c3\u00ada?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer",
+                    "es": "Niego contestar"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

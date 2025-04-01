@@ -1,0 +1,66 @@
+{
+    "id": "school_cv_y",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "School Schedule"
+    },
+    "prefLabel": {
+        "en": "school_cv_y"
+    },
+    "question": {
+        "en": "In thepast week, is your schooling like it was in January 2020?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No - Iwasgoing to school in person andnowit's online /school-at-home"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No - Iwasgoing to school in person andnowI'm not doing any in-person or school-at-home activity"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "No - Iwasgoing to school in person all school days;nowmy school is in-person onlysome daysorpartof the usual school day"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "No - school is out forsummer, or I'm doing a summer school program"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Yes - I go to my school all school days, in person"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Yes - I am doing my same homeschool/online school program"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 7
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

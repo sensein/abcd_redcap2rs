@@ -1,0 +1,171 @@
+{
+    "id": "y_abcd_covid19_questionnaire_annual_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "y_abcd_covid19_questionnaire_annual"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/school_cv_y",
+            "items/online_activities_cv_y",
+            "items/online_arts_cv_y",
+            "items/online_science_cv_y",
+            "items/online_other_cv_y",
+            "items/school_like_activities_cv_y",
+            "items/assist_sched_cv_y",
+            "items/check_hw_cv_y",
+            "items/teach_concept_cv_y",
+            "items/create_asgn_act_cv_y",
+            "items/school_work_cv_y",
+            "items/missing_school_cv_y",
+            "items/enjoyed_school_wk_y_cv_y",
+            "items/demo_online_cv_y",
+            "items/demo_friends_cv_y",
+            "items/demo_parents_cv_y",
+            "items/demo_siblings_cv_y",
+            "items/demo_stayed_away_cv_y",
+            "items/demo_avoid_news_y",
+            "items/demo_wash_hands_cv_y",
+            "items/demo_mask_coverage_cv_y",
+            "items/y_abcd_covid19_questionnaire_annual_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/school_cv_y",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "school_cv_y"
+            },
+            {
+                "isAbout": "items/online_activities_cv_y",
+                "isVis": "school_cv_y == '1' || school_cv_y == '3'",
+                "valueRequired": false,
+                "variableName": "online_activities_cv_y"
+            },
+            {
+                "isAbout": "items/online_arts_cv_y",
+                "isVis": "school_cv_y == '1' || school_cv_y == '3'",
+                "valueRequired": true,
+                "variableName": "online_arts_cv_y"
+            },
+            {
+                "isAbout": "items/online_science_cv_y",
+                "isVis": "school_cv_y == '1' || school_cv_y == '3'",
+                "valueRequired": true,
+                "variableName": "online_science_cv_y"
+            },
+            {
+                "isAbout": "items/online_other_cv_y",
+                "isVis": "school_cv_y == '1' || school_cv_y == '3'",
+                "valueRequired": true,
+                "variableName": "online_other_cv_y"
+            },
+            {
+                "isAbout": "items/school_like_activities_cv_y",
+                "isVis": "school_cv_y == '1' || school_cv_y == '3'",
+                "valueRequired": true,
+                "variableName": "school_like_activities_cv_y"
+            },
+            {
+                "isAbout": "items/assist_sched_cv_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "assist_sched_cv_y"
+            },
+            {
+                "isAbout": "items/check_hw_cv_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "check_hw_cv_y"
+            },
+            {
+                "isAbout": "items/teach_concept_cv_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "teach_concept_cv_y"
+            },
+            {
+                "isAbout": "items/create_asgn_act_cv_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "create_asgn_act_cv_y"
+            },
+            {
+                "isAbout": "items/school_work_cv_y",
+                "isVis": "school_cv_y == '1' || school_cv_y == '3'",
+                "valueRequired": true,
+                "variableName": "school_work_cv_y"
+            },
+            {
+                "isAbout": "items/missing_school_cv_y",
+                "isVis": "school_cv_y == '1' || school_cv_y == '3'",
+                "valueRequired": true,
+                "variableName": "missing_school_cv_y"
+            },
+            {
+                "isAbout": "items/enjoyed_school_wk_y_cv_y",
+                "isVis": "school_cv_y == '1' || school_cv_y == '3'",
+                "valueRequired": true,
+                "variableName": "enjoyed_school_wk_y_cv_y"
+            },
+            {
+                "isAbout": "items/demo_online_cv_y",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "demo_online_cv_y"
+            },
+            {
+                "isAbout": "items/demo_friends_cv_y",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "demo_friends_cv_y"
+            },
+            {
+                "isAbout": "items/demo_parents_cv_y",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "demo_parents_cv_y"
+            },
+            {
+                "isAbout": "items/demo_siblings_cv_y",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "demo_siblings_cv_y"
+            },
+            {
+                "isAbout": "items/demo_stayed_away_cv_y",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "demo_stayed_away_cv_y"
+            },
+            {
+                "isAbout": "items/demo_avoid_news_y",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "demo_avoid_news_y"
+            },
+            {
+                "isAbout": "items/demo_wash_hands_cv_y",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "demo_wash_hands_cv_y"
+            },
+            {
+                "isAbout": "items/demo_mask_coverage_cv_y",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "demo_mask_coverage_cv_y"
+            },
+            {
+                "isAbout": "items/y_abcd_covid19_questionnaire_annual_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "y_abcd_covid19_questionnaire_annual_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2613",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,54 @@
+{
+    "id": "material_access_cv_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "For these next questions about your child's school-at-home, please think about thepast week:",
+        "es": "Para las siguientes preguntas sobre estudios escolares en casa de su hijo/a, piense en lasemana pasada:"
+    },
+    "prefLabel": {
+        "en": "material_access_cv_p"
+    },
+    "question": {
+        "en": "Were you or your child able to access school provided materials (e.g. online, through pick up, some other way)",
+        "es": "\u00c2\u00bfUsted o su hijo/a pudieron acceder materiales proporcionados por la escuela? (Por internet, recogiendo paquetes de la escuela, o de alguna otra manera)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Don't know",
+                    "es": "No se"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Not applicable",
+                    "es": "No aplica"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

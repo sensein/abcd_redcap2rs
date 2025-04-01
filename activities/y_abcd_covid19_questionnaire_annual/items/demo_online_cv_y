@@ -1,0 +1,67 @@
+{
+    "id": "demo_online_cv_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "demo_home_due_to_cv_y"
+        }
+    ],
+    "preamble": {
+        "en": "Comparedbeforeyou had to stay at home due to the coronavirus:"
+    },
+    "prefLabel": {
+        "en": "demo_online_cv_y"
+    },
+    "question": {
+        "en": "How has the frequency of youron-linecommunication changed?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Noticeably Decreased"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Somewhat Decreased"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Has Not Changed"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Somewhat Increased"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Noticeably Increased"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Not applicable"
+                },
+                "value": 6
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

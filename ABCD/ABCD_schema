@@ -329,7 +329,9 @@
             "../activities/p_home_short_form/p_home_short_form_schema",
             "../activities/p_parental_monitoring_scales/p_parental_monitoring_scales_schema",
             "../activities/p_neighborhood_safety_crime/p_neighborhood_safety_crime_schema",
-            "../activities/ears_intro_setup/ears_intro_setup_schema"
+            "../activities/ears_intro_setup/ears_intro_setup_schema",
+            "../activities/y_abcd_covid19_questionnaire_annual/y_abcd_covid19_questionnaire_annual_schema",
+            "../activities/p_abcd_covid19_questionnaire_annual/p_abcd_covid19_questionnaire_annual_schema"
         ],
         "addProperties": [
             {
@@ -2891,10 +2893,26 @@
                     "en": "Ears Intro Setup"
                 },
                 "variableName": "ears_intro_setup_schema"
+            },
+            {
+                "isAbout": "../activities/y_abcd_covid19_questionnaire_annual/y_abcd_covid19_questionnaire_annual_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Abcd Covid19 Questionnaire Annual"
+                },
+                "variableName": "y_abcd_covid19_questionnaire_annual_schema"
+            },
+            {
+                "isAbout": "../activities/p_abcd_covid19_questionnaire_annual/p_abcd_covid19_questionnaire_annual_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "P Abcd Covid19 Questionnaire Annual"
+                },
+                "variableName": "p_abcd_covid19_questionnaire_annual_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2612",
+    "version": "revid2613",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

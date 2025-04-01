@@ -1,0 +1,68 @@
+{
+    "id": "worry_about_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "feel_cv_p"
+        }
+    ],
+    "preamble": {
+        "en": "Please indicate how much you agree or disagree with these statements:",
+        "es": "Indique cu\u00c3\u00a1nto est\u00c3\u00a1 de acuerdo o en desacuerdo con estas declaraciones:"
+    },
+    "prefLabel": {
+        "en": "worry_about_p"
+    },
+    "question": {
+        "en": "I think all of this worry about coronavirus is blown out of proportion",
+        "es": "Creo que toda esta preocupaci\u00c3\u00b3n por el coronavirus es desproporcionada"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Strongly Disagree",
+                    "es": "Muy en Desacuerdo"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Disagree",
+                    "es": "Desacuerdo"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Neither Disagree or Agree",
+                    "es": "Ni en desacuerdo ni de acuerdo"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Agree",
+                    "es": "Acuerdo"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Strongly Agree",
+                    "es": "Muy de acuerdo"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

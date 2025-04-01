@@ -1,0 +1,75 @@
+{
+    "id": "school_difficulty_p",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "For these next questions about your child's school-at-home, please think about thepast week:",
+        "es": "Para las siguientes preguntas sobre estudios escolares en casa de su hijo/a, piense en lasemana pasada:"
+    },
+    "prefLabel": {
+        "en": "school_difficulty_p"
+    },
+    "question": {
+        "en": "How easy or difficult was it for your child to complete school work remotely?",
+        "es": "Que tan f\u00c3\u00a1cil o dif\u00c3\u00adcil fue para su hijo/a completar su trabajo escolar desde casa"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No problem",
+                    "es": "Sin problemas"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Just some minor problems",
+                    "es": "Unos peque\u00c3\u00b1os problemas"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Each day was different",
+                    "es": "Cada d\u00c3\u00ada era diferente"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Hard",
+                    "es": "Dif\u00c3\u00adcil"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Very hard",
+                    "es": "Demasiado dif\u00c3\u00adcil"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Don't know",
+                    "es": "No se"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Not applicable",
+                    "es": "No Aplica"
+                },
+                "value": 6
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
