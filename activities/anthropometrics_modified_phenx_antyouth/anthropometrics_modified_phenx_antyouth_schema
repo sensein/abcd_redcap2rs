@@ -18,6 +18,7 @@
     "ui": {
         "order": [
             "items/anthro_start_time",
+            "items/anthro_warn_msg",
             "items/y_anthro_warn",
             "items/anthro_i",
             "items/height_1_intro",
@@ -51,6 +52,12 @@
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "anthro_start_time"
+            },
+            {
+                "isAbout": "items/anthro_warn_msg",
+                "isVis": "sched_hybrid == '0'",
+                "valueRequired": false,
+                "variableName": "anthro_warn_msg"
             },
             {
                 "isAbout": "items/y_anthro_warn",
@@ -223,6 +230,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2651",
+    "version": "revid2652",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
