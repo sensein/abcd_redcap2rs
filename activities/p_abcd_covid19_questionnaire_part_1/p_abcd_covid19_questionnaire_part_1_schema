@@ -42,8 +42,8 @@
             "items/su_p_mj_use_cv",
             "items/su_p_mj_vape_use_cv",
             "items/su_p_mj_vape_loc_cv",
-            "items/su_p_mj_smoke_cv",
             "items/future_scan_1_cv",
+            "items/su_p_mj_smoke_cv",
             "items/su_p_mj_smoke_loc_cv",
             "items/su_p_rx_od_cv",
             "items/p_abcd_covid19_questionnaire_part_1_complete",
@@ -270,16 +270,16 @@
                 "variableName": "su_p_mj_vape_loc_cv"
             },
             {
-                "isAbout": "items/su_p_mj_smoke_cv",
-                "isVis": "su_p_mj_use_cv>0 &&(event - name == 'covid19_cv2_arm_2' || event - name == 'covid19_cv4_arm_2')",
-                "valueRequired": true,
-                "variableName": "su_p_mj_smoke_cv"
-            },
-            {
                 "isAbout": "items/future_scan_1_cv",
                 "isVis": "event - name == 'covid19_cv2_arm_2'",
                 "valueRequired": true,
                 "variableName": "future_scan_1_cv"
+            },
+            {
+                "isAbout": "items/su_p_mj_smoke_cv",
+                "isVis": "su_p_mj_use_cv>0 &&(event - name == 'covid19_cv2_arm_2' || event - name == 'covid19_cv4_arm_2')",
+                "valueRequired": true,
+                "variableName": "su_p_mj_smoke_cv"
             },
             {
                 "isAbout": "items/su_p_mj_smoke_loc_cv",
@@ -362,6 +362,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2599",
+    "version": "revid2600",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -164,8 +164,8 @@
             "items/iqc_t2_all_brain_mean",
             "items/iqc_t2_ok_brain_mean",
             "items/iqc_t2_all_brain_std",
-            "items/iqc_t2_ok_brain_std",
             "items/iqc_dmri_1_suid",
+            "items/iqc_t2_ok_brain_std",
             "items/iqc_dmri_1_seuid",
             "items/iqc_dmri_1_studydate",
             "items/iqc_dmri_1_seriestime",
@@ -3168,16 +3168,16 @@
                 "variableName": "iqc_t2_all_brain_std"
             },
             {
-                "isAbout": "items/iqc_t2_ok_brain_std",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "iqc_t2_ok_brain_std"
-            },
-            {
                 "isAbout": "items/iqc_dmri_1_suid",
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "iqc_dmri_1_suid"
+            },
+            {
+                "isAbout": "items/iqc_t2_ok_brain_std",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "iqc_t2_ok_brain_std"
             },
             {
                 "isAbout": "items/iqc_dmri_1_seuid",
@@ -15524,6 +15524,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2599",
+    "version": "revid2600",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -12,8 +12,8 @@
             "items/pnotes_teeth_num_total",
             "items/more_teeth",
             "items/pnotes_teeth_script",
-            "items/pnotes_teeth_txt",
             "items/cbcl_18_alert_l",
+            "items/pnotes_teeth_txt",
             "items/cbcl_91_alert_l",
             "items/asr_18_alert_l",
             "items/asr_91_alert_l",
@@ -308,16 +308,16 @@
                 "variableName": "pnotes_teeth_script"
             },
             {
-                "isAbout": "items/pnotes_teeth_txt",
-                "isVis": "pnotes_teeth_script___1 == '1'",
-                "valueRequired": false,
-                "variableName": "pnotes_teeth_txt"
-            },
-            {
                 "isAbout": "items/cbcl_18_alert_l",
                 "isVis": "cbcl_q18_p == '1' || cbcl_q18_p == '2'",
                 "valueRequired": false,
                 "variableName": "cbcl_18_alert_l"
+            },
+            {
+                "isAbout": "items/pnotes_teeth_txt",
+                "isVis": "pnotes_teeth_script___1 == '1'",
+                "valueRequired": false,
+                "variableName": "pnotes_teeth_txt"
             },
             {
                 "isAbout": "items/cbcl_91_alert_l",
@@ -1888,6 +1888,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2599",
+    "version": "revid2600",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

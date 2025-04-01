@@ -8,6 +8,12 @@
     "ui": {
         "order": [
             "items/sit_scr_script_lastupdate",
+            "items/sit_scr_computer_os",
+            "items/sit_scr_computer_osmajorversion",
+            "items/sit_scr_computer_osminorversion",
+            "items/sit_scr_screenwidth_inmm",
+            "items/sit_scr_screenheight_inmm",
+            "items/sit_scr_test_setting",
             "items/sit_scr_version",
             "items/sit_scr_values_startdate",
             "items/sit_scr_script_starttime",
@@ -41,6 +47,42 @@
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "sit_scr_script_lastupdate"
+            },
+            {
+                "isAbout": "items/sit_scr_computer_os",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sit_scr_computer_os"
+            },
+            {
+                "isAbout": "items/sit_scr_computer_osmajorversion",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sit_scr_computer_osmajorversion"
+            },
+            {
+                "isAbout": "items/sit_scr_computer_osminorversion",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sit_scr_computer_osminorversion"
+            },
+            {
+                "isAbout": "items/sit_scr_screenwidth_inmm",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sit_scr_screenwidth_inmm"
+            },
+            {
+                "isAbout": "items/sit_scr_screenheight_inmm",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sit_scr_screenheight_inmm"
+            },
+            {
+                "isAbout": "items/sit_scr_test_setting",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sit_scr_test_setting"
             },
             {
                 "isAbout": "items/sit_scr_version",
@@ -201,6 +243,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2599",
+    "version": "revid2600",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

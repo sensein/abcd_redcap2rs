@@ -7,7 +7,16 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/gdt_scr_script_lastupdate",
+            "items/gdt_scr_computer_platform",
+            "items/gdt_scr_computer_os",
+            "items/gdt_scr_computer_osmajorversion",
+            "items/gdt_scr_computer_osminorversion",
+            "items/gdt_scr_screenwidth_inmm",
+            "items/gdt_scr_screenheight_inmm",
+            "items/gdt_scr_test_setting",
             "items/gdt_scr_script_subjectid",
+            "items/gdt_scr_script_groupid",
             "items/gdt_scr_event",
             "items/gdt_scr_session",
             "items/gdt_scr_script_startdate",
@@ -29,10 +38,64 @@
         ],
         "addProperties": [
             {
+                "isAbout": "items/gdt_scr_script_lastupdate",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "gdt_scr_script_lastupdate"
+            },
+            {
+                "isAbout": "items/gdt_scr_computer_platform",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "gdt_scr_computer_platform"
+            },
+            {
+                "isAbout": "items/gdt_scr_computer_os",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "gdt_scr_computer_os"
+            },
+            {
+                "isAbout": "items/gdt_scr_computer_osmajorversion",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "gdt_scr_computer_osmajorversion"
+            },
+            {
+                "isAbout": "items/gdt_scr_computer_osminorversion",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "gdt_scr_computer_osminorversion"
+            },
+            {
+                "isAbout": "items/gdt_scr_screenwidth_inmm",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "gdt_scr_screenwidth_inmm"
+            },
+            {
+                "isAbout": "items/gdt_scr_screenheight_inmm",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "gdt_scr_screenheight_inmm"
+            },
+            {
+                "isAbout": "items/gdt_scr_test_setting",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "gdt_scr_test_setting"
+            },
+            {
                 "isAbout": "items/gdt_scr_script_subjectid",
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "gdt_scr_script_subjectid"
+            },
+            {
+                "isAbout": "items/gdt_scr_script_groupid",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "gdt_scr_script_groupid"
             },
             {
                 "isAbout": "items/gdt_scr_event",
@@ -145,6 +208,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2599",
+    "version": "revid2600",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

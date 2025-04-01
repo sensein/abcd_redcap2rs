@@ -7,6 +7,16 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/lmt_scr_script_lastupdate",
+            "items/lmt_scr_script_subjectid",
+            "items/lmt_scr_script_groupid",
+            "items/lmt_scr_sessionid",
+            "items/lmt_scr_computer_os",
+            "items/lmt_scr_computer_osmajorversion",
+            "items/lmt_scr_computer_osminorversion",
+            "items/lmt_scr_screeenwidth_inmm",
+            "items/lmt_scr_screeenheight_inmm",
+            "items/lmt_scr_test_setting",
             "items/lmt_scr_script_startdate",
             "items/lmt_scr_script_starttime",
             "items/lmt_scr_script_elapsedtime",
@@ -66,6 +76,66 @@
             "items/little_man_task_score_complete"
         ],
         "addProperties": [
+            {
+                "isAbout": "items/lmt_scr_script_lastupdate",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "lmt_scr_script_lastupdate"
+            },
+            {
+                "isAbout": "items/lmt_scr_script_subjectid",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "lmt_scr_script_subjectid"
+            },
+            {
+                "isAbout": "items/lmt_scr_script_groupid",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "lmt_scr_script_groupid"
+            },
+            {
+                "isAbout": "items/lmt_scr_sessionid",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "lmt_scr_sessionid"
+            },
+            {
+                "isAbout": "items/lmt_scr_computer_os",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "lmt_scr_computer_os"
+            },
+            {
+                "isAbout": "items/lmt_scr_computer_osmajorversion",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "lmt_scr_computer_osmajorversion"
+            },
+            {
+                "isAbout": "items/lmt_scr_computer_osminorversion",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "lmt_scr_computer_osminorversion"
+            },
+            {
+                "isAbout": "items/lmt_scr_screeenwidth_inmm",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "lmt_scr_screeenwidth_inmm"
+            },
+            {
+                "isAbout": "items/lmt_scr_screeenheight_inmm",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "lmt_scr_screeenheight_inmm"
+            },
+            {
+                "isAbout": "items/lmt_scr_test_setting",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "lmt_scr_test_setting"
+            },
             {
                 "isAbout": "items/lmt_scr_script_startdate",
                 "isVis": false,
@@ -411,6 +481,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2599",
+    "version": "revid2600",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

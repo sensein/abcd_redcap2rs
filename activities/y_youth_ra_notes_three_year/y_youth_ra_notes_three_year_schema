@@ -472,8 +472,8 @@
             "items/ynotes_3yr_issues_data_manager_pds_ms",
             "items/ynotes_3yr_issues_data_manager_pds_ms_resolved",
             "items/ynotes_3yr_issues_data_manager_pds_ms_resolved_timestamp",
-            "items/ynotes_3yr_issues_data_manager_pds_ms_resolved_initial",
             "items/ynotes_3yr_issues_data_manager_gish2",
+            "items/ynotes_3yr_issues_data_manager_pds_ms_resolved_initial",
             "items/ynotes_3yr_issues_data_manager_gish2_resolved",
             "items/ynotes_3yr_issues_data_manager_gish2_resolved_timestamp",
             "items/ynotes_3yr_issues_data_manager_gish2_resolved_initial",
@@ -3403,16 +3403,16 @@
                 "variableName": "ynotes_3yr_issues_data_manager_pds_ms_resolved_timestamp"
             },
             {
-                "isAbout": "items/ynotes_3yr_issues_data_manager_pds_ms_resolved_initial",
-                "isVis": "ynotes_3yr_issues_data_manager_pds_ms_resolved___1=='1'",
-                "valueRequired": false,
-                "variableName": "ynotes_3yr_issues_data_manager_pds_ms_resolved_initial"
-            },
-            {
                 "isAbout": "items/ynotes_3yr_issues_data_manager_gish2",
                 "isVis": "ynotes_3yr_issues_data_manager___26=='1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_issues_data_manager_gish2"
+            },
+            {
+                "isAbout": "items/ynotes_3yr_issues_data_manager_pds_ms_resolved_initial",
+                "isVis": "ynotes_3yr_issues_data_manager_pds_ms_resolved___1=='1'",
+                "valueRequired": false,
+                "variableName": "ynotes_3yr_issues_data_manager_pds_ms_resolved_initial"
             },
             {
                 "isAbout": "items/ynotes_3yr_issues_data_manager_gish2_resolved",
@@ -4233,6 +4233,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2599",
+    "version": "revid2600",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
