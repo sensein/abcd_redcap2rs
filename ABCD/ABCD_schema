@@ -159,6 +159,7 @@
             "../activities/p_school_attendance_and_grades/p_school_attendance_and_grades_schema",
             "../activities/acculturationmodified_phenx_actparent/acculturationmodified_phenx_actparent_schema",
             "../activities/phenx_community_cohesion_p/phenx_community_cohesion_p_schema",
+            "../activities/autopopulated_from_baseline_suheard_of/autopopulated_from_baseline_suheard_of_schema",
             "../activities/mexican_american_cultural_values_scalemodifie_974c/mexican_american_cultural_values_scalemodifie_974c_schema",
             "../activities/neighborhood_safetycrimephenx_nscparent/neighborhood_safetycrimephenx_nscparent_schema",
             "../activities/ending_9_take_home_surveys/ending_9_take_home_surveys_schema",
@@ -229,7 +230,6 @@
             "../activities/sum_scores_medhx/sum_scores_medhx_schema",
             "../activities/sum_scores_medhx_l/sum_scores_medhx_l_schema",
             "../activities/sum_scores_sports_activity/sum_scores_sports_activity_schema",
-            "../activities/autopopulated_from_baseline_suheard_of/autopopulated_from_baseline_suheard_of_schema",
             "../activities/sum_score_sports_activity_l/sum_score_sports_activity_l_schema",
             "../activities/bpm_scoring_t/bpm_scoring_t_schema",
             "../activities/bpm_scoring_y/bpm_scoring_y_schema",
@@ -1515,6 +1515,14 @@
                 "variableName": "phenx_community_cohesion_p_schema"
             },
             {
+                "isAbout": "../activities/autopopulated_from_baseline_suheard_of/autopopulated_from_baseline_suheard_of_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Autopopulated From Baseline Suheard Of"
+                },
+                "variableName": "autopopulated_from_baseline_suheard_of_schema"
+            },
+            {
                 "isAbout": "../activities/mexican_american_cultural_values_scalemodifie_974c/mexican_american_cultural_values_scalemodifie_974c_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -2073,14 +2081,6 @@
                     "en": "Sum Scores Sports Activity"
                 },
                 "variableName": "sum_scores_sports_activity_schema"
-            },
-            {
-                "isAbout": "../activities/autopopulated_from_baseline_suheard_of/autopopulated_from_baseline_suheard_of_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Autopopulated From Baseline Suheard Of"
-                },
-                "variableName": "autopopulated_from_baseline_suheard_of_schema"
             },
             {
                 "isAbout": "../activities/sum_score_sports_activity_l/sum_score_sports_activity_l_schema",
@@ -2805,6 +2805,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2580",
+    "version": "revid2581",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
