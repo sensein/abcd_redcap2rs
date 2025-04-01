@@ -1,13 +1,6 @@
 {
     "id": "child_tested_cv_p",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Field Annotation",
-            "source": "redcap",
-            "value": "@HIDDEN"
-        }
-    ],
     "preamble": {
         "en": "Please answer the questions below about your child:",
         "es": "Por favor responda las siguientes preguntas sobre su hijo(a):"
@@ -37,15 +30,15 @@
             },
             {
                 "name": {
-                    "en": "Yes, and test showed that my childdoes nothave it (\"negative\" test)",
-                    "es": "S\u00c3\u00ad, y la prueba mostr\u00c3\u00b3 que mi hijo(a)nolo tiene (prueba \"negativa\")"
+                    "en": "Yes, and test showed that my child did not have it (\"negative\" test)",
+                    "es": "S\u00c3\u00ad, y la prueba mostr\u00c3\u00b3 que mi hijo(a) no lo tuvo (prueba \"negativa\")"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Yes, and test showed that my childdoeshave it (\"positive\" test)",
-                    "es": "S\u00c3\u00ad, y la prueba mostr\u00c3\u00b3 que mi hijo(a)s\u00c3\u00adlo tiene (prueba \"positiva\")"
+                    "en": "Yes, and test showed that my child did have it (\"positive\" test)",
+                    "es": "S\u00c3\u00ad, y la prueba mostr\u00c3\u00b3 que mi hijo(a) s\u00c3\u00ad lo tuvo (prueba \"positiva\")"
                 },
                 "value": 4
             },
@@ -62,8 +55,7 @@
         ]
     },
     "ui": {
-        "inputType": "radio",
-        "readonlyValue": true
+        "inputType": "radio"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
