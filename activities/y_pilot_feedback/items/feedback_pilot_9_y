@@ -1,0 +1,49 @@
+{
+    "id": "feedback_pilot_9_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "feedback_pilot_interview"
+        }
+    ],
+    "preamble": {
+        "en": "Interview and Questionnaires:"
+    },
+    "prefLabel": {
+        "en": "feedback_pilot_9_y"
+    },
+    "question": {
+        "en": "I felt I had enough privacy to answer the questions."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't Know"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

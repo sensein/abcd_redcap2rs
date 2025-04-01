@@ -1,0 +1,248 @@
+{
+    "id": "y_pilot_feedback_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "y_pilot_feedback"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/feedback_pilot_intro_y",
+            "items/feedback_start_time_y",
+            "items/feedback_pilot_1_y",
+            "items/feedback_pilot_2_y",
+            "items/feedback_pilot_3_y",
+            "items/feedback_pilot_4_y",
+            "items/feedback_pilot_5_y",
+            "items/feedback_pilot_6_y",
+            "items/feedback_pilot_7_y",
+            "items/feedback_pilot_8_y",
+            "items/feedback_pilot_9_y",
+            "items/feedback_pilot_10_y",
+            "items/feedback_pilot_q_y",
+            "items/feedback_pilot_11_y",
+            "items/feedback_pilot_12_y",
+            "items/feedback_pilot_13_y",
+            "items/feedback_pilot_14_y",
+            "items/feedback_pilot_15_y",
+            "items/feedback_pilot_16_y",
+            "items/feedback_pilot_17_y",
+            "items/feedback_pilot_18_y",
+            "items/feedback_pilot_19_y",
+            "items/feedback_pilot_20_y",
+            "items/feedback_pilot_21_y",
+            "items/feedback_pilot_22_y",
+            "items/feedback_pilot_23_y",
+            "items/feedback_pilot_24_y",
+            "items/feedback_pilot_25_y",
+            "items/feedback_pilot_26_y",
+            "items/feedback_pilot_27_y",
+            "items/feedback_pilot_28_y",
+            "items/feedback_timestamp_y",
+            "items/y_pilot_feedback_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/feedback_pilot_intro_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "feedback_pilot_intro_y"
+            },
+            {
+                "isAbout": "items/feedback_start_time_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "feedback_start_time_y"
+            },
+            {
+                "isAbout": "items/feedback_pilot_1_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "feedback_pilot_1_y"
+            },
+            {
+                "isAbout": "items/feedback_pilot_2_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "feedback_pilot_2_y"
+            },
+            {
+                "isAbout": "items/feedback_pilot_3_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "feedback_pilot_3_y"
+            },
+            {
+                "isAbout": "items/feedback_pilot_4_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "feedback_pilot_4_y"
+            },
+            {
+                "isAbout": "items/feedback_pilot_5_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "feedback_pilot_5_y"
+            },
+            {
+                "isAbout": "items/feedback_pilot_6_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "feedback_pilot_6_y"
+            },
+            {
+                "isAbout": "items/feedback_pilot_7_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "feedback_pilot_7_y"
+            },
+            {
+                "isAbout": "items/feedback_pilot_8_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "feedback_pilot_8_y"
+            },
+            {
+                "isAbout": "items/feedback_pilot_9_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "feedback_pilot_9_y"
+            },
+            {
+                "isAbout": "items/feedback_pilot_10_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "feedback_pilot_10_y"
+            },
+            {
+                "isAbout": "items/feedback_pilot_q_y",
+                "isVis": "feedback_pilot_6_y == '1'",
+                "valueRequired": true,
+                "variableName": "feedback_pilot_q_y"
+            },
+            {
+                "isAbout": "items/feedback_pilot_11_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "feedback_pilot_11_y"
+            },
+            {
+                "isAbout": "items/feedback_pilot_12_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "feedback_pilot_12_y"
+            },
+            {
+                "isAbout": "items/feedback_pilot_13_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "feedback_pilot_13_y"
+            },
+            {
+                "isAbout": "items/feedback_pilot_14_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "feedback_pilot_14_y"
+            },
+            {
+                "isAbout": "items/feedback_pilot_15_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "feedback_pilot_15_y"
+            },
+            {
+                "isAbout": "items/feedback_pilot_16_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "feedback_pilot_16_y"
+            },
+            {
+                "isAbout": "items/feedback_pilot_17_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "feedback_pilot_17_y"
+            },
+            {
+                "isAbout": "items/feedback_pilot_18_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "feedback_pilot_18_y"
+            },
+            {
+                "isAbout": "items/feedback_pilot_19_y",
+                "isVis": "(sched_delay == '9' && sched_hybrid == '1')",
+                "valueRequired": false,
+                "variableName": "feedback_pilot_19_y"
+            },
+            {
+                "isAbout": "items/feedback_pilot_20_y",
+                "isVis": "(sched_delay == '9' && sched_hybrid == '1')",
+                "valueRequired": false,
+                "variableName": "feedback_pilot_20_y"
+            },
+            {
+                "isAbout": "items/feedback_pilot_21_y",
+                "isVis": "(sched_delay == '9' && sched_hybrid == '1')",
+                "valueRequired": false,
+                "variableName": "feedback_pilot_21_y"
+            },
+            {
+                "isAbout": "items/feedback_pilot_22_y",
+                "isVis": "(sched_delay == '9' && sched_hybrid == '1')",
+                "valueRequired": false,
+                "variableName": "feedback_pilot_22_y"
+            },
+            {
+                "isAbout": "items/feedback_pilot_23_y",
+                "isVis": "(sched_delay == '9' && sched_hybrid == '1')",
+                "valueRequired": false,
+                "variableName": "feedback_pilot_23_y"
+            },
+            {
+                "isAbout": "items/feedback_pilot_24_y",
+                "isVis": "(sched_delay == '9' && sched_hybrid == '1')",
+                "valueRequired": false,
+                "variableName": "feedback_pilot_24_y"
+            },
+            {
+                "isAbout": "items/feedback_pilot_25_y",
+                "isVis": "(sched_delay == '9' && sched_hybrid == '1')",
+                "valueRequired": false,
+                "variableName": "feedback_pilot_25_y"
+            },
+            {
+                "isAbout": "items/feedback_pilot_26_y",
+                "isVis": "(sched_delay == '9' && sched_hybrid == '1')",
+                "valueRequired": false,
+                "variableName": "feedback_pilot_26_y"
+            },
+            {
+                "isAbout": "items/feedback_pilot_27_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "feedback_pilot_27_y"
+            },
+            {
+                "isAbout": "items/feedback_pilot_28_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "feedback_pilot_28_y"
+            },
+            {
+                "isAbout": "items/feedback_timestamp_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "feedback_timestamp_y"
+            },
+            {
+                "isAbout": "items/y_pilot_feedback_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "y_pilot_feedback_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2638",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

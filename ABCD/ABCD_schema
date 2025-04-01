@@ -334,7 +334,9 @@
             "../activities/p_abcd_covid19_questionnaire_part_1/p_abcd_covid19_questionnaire_part_1_schema",
             "../activities/p_abcd_covid19_questionnaire_part_2/p_abcd_covid19_questionnaire_part_2_schema",
             "../activities/acs_post_stratification_weights_daic_use_only/acs_post_stratification_weights_daic_use_only_schema",
-            "../activities/little_man_task_daic_use_only/little_man_task_daic_use_only_schema"
+            "../activities/little_man_task_daic_use_only/little_man_task_daic_use_only_schema",
+            "../activities/p_pilot_feedback/p_pilot_feedback_schema",
+            "../activities/y_pilot_feedback/y_pilot_feedback_schema"
         ],
         "addProperties": [
             {
@@ -2936,10 +2938,26 @@
                     "en": "Little Man Task Daic Use Only"
                 },
                 "variableName": "little_man_task_daic_use_only_schema"
+            },
+            {
+                "isAbout": "../activities/p_pilot_feedback/p_pilot_feedback_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "P Pilot Feedback"
+                },
+                "variableName": "p_pilot_feedback_schema"
+            },
+            {
+                "isAbout": "../activities/y_pilot_feedback/y_pilot_feedback_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Pilot Feedback"
+                },
+                "variableName": "y_pilot_feedback_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2637",
+    "version": "revid2638",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

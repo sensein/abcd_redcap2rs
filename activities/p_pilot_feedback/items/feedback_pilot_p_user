@@ -1,0 +1,27 @@
+{
+    "id": "feedback_pilot_p_user",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@USERNAME @READONLY @HIDDEN-SURVEY"
+        }
+    ],
+    "prefLabel": {
+        "en": "feedback_pilot_p_user"
+    },
+    "question": {
+        "en": "data-entry user:"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

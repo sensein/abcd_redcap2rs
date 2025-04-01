@@ -1,0 +1,27 @@
+{
+    "id": "sib_twin_p_feedback_inst_2",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN-SURVEY"
+        }
+    ],
+    "prefLabel": {
+        "en": "sib_twin_p_feedback_inst_2"
+    },
+    "question": {
+        "en": "1. DO NOT complete this Feedback Form. \n\n2. Please skip the rest of the items, ENTER TIME, change form status to complete, copy Parent measures from Child #1 to Child #2 and complete Parent measures for Child #2."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

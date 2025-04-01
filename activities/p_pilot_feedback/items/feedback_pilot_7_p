@@ -1,0 +1,64 @@
+{
+    "id": "feedback_pilot_7_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "feedback_pilot_1"
+        }
+    ],
+    "prefLabel": {
+        "en": "feedback_pilot_7_p"
+    },
+    "question": {
+        "en": "I felt comfortable with the interviewer.",
+        "es": "Me sent\u00c3\u00ad c\u00c3\u00b3modo con el/la entrevistador(a)."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "StronglyAgree",
+                    "es": "Totalmente de acuerdo"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Agree",
+                    "es": "De acuerdo"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Neutral(neither agree nor disagree)",
+                    "es": "Neutral (ni de acuerdo ni en desacuerdo)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Disagree",
+                    "es": "En desacuerdo"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Strongly Disagree",
+                    "es": "Totalmente en desacuerdo"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
