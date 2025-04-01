@@ -11,6 +11,7 @@
             "items/neurocog_intro_ipad_y",
             "items/intro_neurocog_ipad_oth_y",
             "items/neurocog_intro_y",
+            "items/neurocog_intro_remote_y",
             "items/neurocog_remote",
             "items/neurocog_device",
             "items/introduction_to_neurocognitionyouth_complete"
@@ -36,9 +37,15 @@
             },
             {
                 "isAbout": "items/neurocog_intro_y",
-                "isVis": true,
+                "isVis": "sched_delay == '7'",
                 "valueRequired": false,
                 "variableName": "neurocog_intro_y"
+            },
+            {
+                "isAbout": "items/neurocog_intro_remote_y",
+                "isVis": "sched_delay == '9'",
+                "valueRequired": false,
+                "variableName": "neurocog_intro_remote_y"
             },
             {
                 "isAbout": "items/neurocog_remote",
@@ -61,6 +68,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2533",
+    "version": "revid2534",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
