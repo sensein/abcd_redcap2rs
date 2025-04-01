@@ -10,7 +10,7 @@
         {
             "column": "Field Annotation",
             "source": "redcap",
-            "value": "HIDEFROMCOMPLETION20200812"
+            "value": "@HIDDEN HIDEFROMCOMPLETION20200812"
         }
     ],
     "preamble": {
@@ -20,7 +20,7 @@
         "en": "parental_monitor_q11_p"
     },
     "question": {
-        "en": "If your child has been out very late one night, do you demand that the child gives a detailed account of what he/she has done and what friends he/she has been with?"
+        "en": "If your child has been out very late one night, do you ask that the child gives a detailed account of what he/she has done and what friends he/she has been with?"
     },
     "responseOptions": {
         "choices": [
@@ -66,7 +66,8 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "radio",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

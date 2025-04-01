@@ -17,18 +17,25 @@
             "items/fitc_script",
             "items/fitc_user_name_pipe",
             "items/fitc_user_access_code_pipe",
-            "items/fitc_device_dte",
             "items/fitc_device_dte_new",
             "items/fitc_device_num",
             "items/fitc_track_number",
             "items/fitc_dev_trackid",
             "items/fitc_items_sent",
+            "items/ears_app_install_intro",
+            "items/ears_app_installation",
+            "items/ears_installation_code",
+            "items/ears_qr_code",
+            "items/fitc_device_dte",
+            "items/fitc_withdrawal",
+            "items/device_return_issues",
+            "items/ears_withdrawal",
+            "items/device_return_issues_2",
+            "items/fitc_extension",
             "items/device_return_confirm_dte",
             "items/fitc_items_received",
             "items/fitc_payment_date",
-            "items/device_return_issues",
-            "items/fitc_withdrawal",
-            "items/fitc_extension",
+            "items/ears_payment_date",
             "items/fitc_cv",
             "items/fitc_start_date_cv",
             "items/fitc_end_date_cv",
@@ -116,12 +123,6 @@
                 "variableName": "fitc_user_access_code_pipe"
             },
             {
-                "isAbout": "items/fitc_device_dte",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "fitc_device_dte"
-            },
-            {
                 "isAbout": "items/fitc_device_dte_new",
                 "isVis": true,
                 "valueRequired": true,
@@ -152,6 +153,66 @@
                 "variableName": "fitc_items_sent"
             },
             {
+                "isAbout": "items/ears_app_install_intro",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": false,
+                "variableName": "ears_app_install_intro"
+            },
+            {
+                "isAbout": "items/ears_app_installation",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": false,
+                "variableName": "ears_app_installation"
+            },
+            {
+                "isAbout": "items/ears_installation_code",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": false,
+                "variableName": "ears_installation_code"
+            },
+            {
+                "isAbout": "items/ears_qr_code",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": false,
+                "variableName": "ears_qr_code"
+            },
+            {
+                "isAbout": "items/fitc_device_dte",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "fitc_device_dte"
+            },
+            {
+                "isAbout": "items/fitc_withdrawal",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "fitc_withdrawal"
+            },
+            {
+                "isAbout": "items/device_return_issues",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "device_return_issues"
+            },
+            {
+                "isAbout": "items/ears_withdrawal",
+                "isVis": "ears_app_installation___1 == '0'",
+                "valueRequired": false,
+                "variableName": "ears_withdrawal"
+            },
+            {
+                "isAbout": "items/device_return_issues_2",
+                "isVis": "ears_app_installation___1 == '0'",
+                "valueRequired": false,
+                "variableName": "device_return_issues_2"
+            },
+            {
+                "isAbout": "items/fitc_extension",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "fitc_extension"
+            },
+            {
                 "isAbout": "items/device_return_confirm_dte",
                 "isVis": true,
                 "valueRequired": false,
@@ -170,22 +231,10 @@
                 "variableName": "fitc_payment_date"
             },
             {
-                "isAbout": "items/device_return_issues",
-                "isVis": true,
+                "isAbout": "items/ears_payment_date",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
                 "valueRequired": false,
-                "variableName": "device_return_issues"
-            },
-            {
-                "isAbout": "items/fitc_withdrawal",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "fitc_withdrawal"
-            },
-            {
-                "isAbout": "items/fitc_extension",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "fitc_extension"
+                "variableName": "ears_payment_date"
             },
             {
                 "isAbout": "items/fitc_cv",
@@ -334,6 +383,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2658",
+    "version": "revid2659",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

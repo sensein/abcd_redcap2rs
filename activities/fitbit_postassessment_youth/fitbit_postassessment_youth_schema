@@ -43,6 +43,7 @@
             "items/fitpo_sick_y",
             "items/fitpo_routine_y",
             "items/fitpo_how_phys_act_y",
+            "items/fitpo_not_participating",
             "items/fitbit_postassessment_youth_complete"
         ],
         "addProperties": [
@@ -126,141 +127,147 @@
             },
             {
                 "isAbout": "items/fitpo_wear_y",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND(fitbit_permission == '0' AND fitbit_assent == '1')",
                 "valueRequired": true,
                 "variableName": "fitpo_wear_y"
             },
             {
                 "isAbout": "items/fitpo_taken_off_y",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND(fitbit_permission == '0' AND fitbit_assent == '1')",
                 "valueRequired": true,
                 "variableName": "fitpo_taken_off_y"
             },
             {
                 "isAbout": "items/fitpo_issues_y",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND(fitbit_permission == '0' AND fitbit_assent == '1')",
                 "valueRequired": true,
                 "variableName": "fitpo_issues_y"
             },
             {
                 "isAbout": "items/fitpo_check_radar_y",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND(fitbit_permission == '0' AND fitbit_assent == '1')",
                 "valueRequired": true,
                 "variableName": "fitpo_check_radar_y"
             },
             {
                 "isAbout": "items/fitpo_use_apps_y",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND(fitbit_permission == '0' AND fitbit_assent == '1')",
                 "valueRequired": true,
                 "variableName": "fitpo_use_apps_y"
             },
             {
                 "isAbout": "items/fitpo_overnight_wear_y",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND(fitbit_permission == '0' AND fitbit_assent == '1')",
                 "valueRequired": true,
                 "variableName": "fitpo_overnight_wear_y"
             },
             {
                 "isAbout": "items/fitpo_sports_y",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND(fitbit_permission == '0' AND fitbit_assent == '1')",
                 "valueRequired": true,
                 "variableName": "fitpo_sports_y"
             },
             {
                 "isAbout": "items/fitpo_which_sports_y",
-                "isVis": "(event - name == '4_year_follow_up_y_arm_1')AND(fitpo_sports_y > '1')",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1')AND(fitpo_sports_y > '1')AND(fitbit_permission == '0' AND fitbit_assent == '1')",
                 "valueRequired": true,
                 "variableName": "fitpo_which_sports_y"
             },
             {
                 "isAbout": "items/fitpo_when_sport",
-                "isVis": "fitpo_sports_y == '2' || fitpo_sports_y == '3' || fitpo_sports_y == '4'",
+                "isVis": "(fitpo_sports_y == '2' || fitpo_sports_y == '3' || fitpo_sports_y == '4')AND(fitbit_permission == '0' AND fitbit_assent == '1')",
                 "valueRequired": true,
                 "variableName": "fitpo_when_sport"
             },
             {
                 "isAbout": "items/fitpo_experience_y",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND(fitbit_permission == '0' AND fitbit_assent == '1')",
                 "valueRequired": true,
                 "variableName": "fitpo_experience_y"
             },
             {
                 "isAbout": "items/fitpo_activity_1_y",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND(fitbit_permission == '0' AND fitbit_assent == '1')",
                 "valueRequired": true,
                 "variableName": "fitpo_activity_1_y"
             },
             {
                 "isAbout": "items/fitpo_activity_2_y",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND(fitbit_permission == '0' AND fitbit_assent == '1')",
                 "valueRequired": true,
                 "variableName": "fitpo_activity_2_y"
             },
             {
                 "isAbout": "items/fitpo_activity_3_y",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND(fitbit_permission == '0' AND fitbit_assent == '1')",
                 "valueRequired": true,
                 "variableName": "fitpo_activity_3_y"
             },
             {
                 "isAbout": "items/fitpo_longer_wear_y",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND(fitbit_permission == '0' AND fitbit_assent == '1')",
                 "valueRequired": true,
                 "variableName": "fitpo_longer_wear_y"
             },
             {
                 "isAbout": "items/fitpo_own_tracker_y",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND(fitbit_permission == '0' AND fitbit_assent == '1')",
                 "valueRequired": true,
                 "variableName": "fitpo_own_tracker_y"
             },
             {
                 "isAbout": "items/fitpo_in_school_y",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND(fitbit_permission == '0' AND fitbit_assent == '1')",
                 "valueRequired": true,
                 "variableName": "fitpo_in_school_y"
             },
             {
                 "isAbout": "items/fitpo_at_home_y",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND(fitbit_permission == '0' AND fitbit_assent == '1')",
                 "valueRequired": true,
                 "variableName": "fitpo_at_home_y"
             },
             {
                 "isAbout": "items/fitpo_at_camp_y",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND(fitbit_permission == '0' AND fitbit_assent == '1')",
                 "valueRequired": true,
                 "variableName": "fitpo_at_camp_y"
             },
             {
                 "isAbout": "items/fitpo_on_vacation_y",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND(fitbit_permission == '0' AND fitbit_assent == '1')",
                 "valueRequired": true,
                 "variableName": "fitpo_on_vacation_y"
             },
             {
                 "isAbout": "items/fitpo_diff_place_y",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND(fitbit_permission == '0' AND fitbit_assent == '1')",
                 "valueRequired": true,
                 "variableName": "fitpo_diff_place_y"
             },
             {
                 "isAbout": "items/fitpo_sick_y",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND(fitbit_permission == '0' AND fitbit_assent == '1')",
                 "valueRequired": true,
                 "variableName": "fitpo_sick_y"
             },
             {
                 "isAbout": "items/fitpo_routine_y",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND(fitbit_permission == '0' AND fitbit_assent == '1')",
                 "valueRequired": true,
                 "variableName": "fitpo_routine_y"
             },
             {
                 "isAbout": "items/fitpo_how_phys_act_y",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND(fitbit_permission == '0' AND fitbit_assent == '1')",
                 "valueRequired": true,
                 "variableName": "fitpo_how_phys_act_y"
+            },
+            {
+                "isAbout": "items/fitpo_not_participating",
+                "isVis": "fitbit_permission == '0' OR fitbit_assent == '0' OR fitc_withdrawal___1 == '1'",
+                "valueRequired": false,
+                "variableName": "fitpo_not_participating"
             },
             {
                 "isAbout": "items/fitbit_postassessment_youth_complete",
@@ -271,6 +278,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2658",
+    "version": "revid2659",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

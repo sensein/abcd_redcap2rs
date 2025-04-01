@@ -57,9 +57,9 @@
             "items/nihtbx_pattern_agecorrected",
             "items/nihtbx_pattern_fullycorrected",
             "items/nihtbx_pattern_v",
-            "items/nihtbx_picture_rawscore",
             "items/nihtbx_picture_theta",
             "items/nihtbx_picture_itmcnt",
+            "items/nihtbx_picture_rawscore",
             "items/nihtbx_picture_date",
             "items/nihtbx_picture_language",
             "items/nihtbx_picture_computedscore",
@@ -431,12 +431,6 @@
                 "variableName": "nihtbx_pattern_v"
             },
             {
-                "isAbout": "items/nihtbx_picture_rawscore",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "nihtbx_picture_rawscore"
-            },
-            {
                 "isAbout": "items/nihtbx_picture_theta",
                 "isVis": false,
                 "valueRequired": false,
@@ -447,6 +441,12 @@
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "nihtbx_picture_itmcnt"
+            },
+            {
+                "isAbout": "items/nihtbx_picture_rawscore",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_picture_rawscore"
             },
             {
                 "isAbout": "items/nihtbx_picture_date",
@@ -859,6 +859,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2658",
+    "version": "revid2659",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

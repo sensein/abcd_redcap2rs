@@ -1,0 +1,31 @@
+{
+    "id": "ears_withdrawal",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Deployment Information and Special Circumstances"
+    },
+    "prefLabel": {
+        "en": "ears_withdrawal"
+    },
+    "question": {
+        "en": "Participant has withdrawn from participating inEARSstudy:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

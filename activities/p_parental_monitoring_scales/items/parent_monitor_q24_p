@@ -5,7 +5,7 @@
         {
             "column": "Field Annotation",
             "source": "redcap",
-            "value": "HIDEFROMCOMPLETION20200812"
+            "value": "@HIDDEN HIDEFROMCOMPLETION20200812"
         }
     ],
     "preamble": {
@@ -15,7 +15,7 @@
         "en": "parent_monitor_q24_p"
     },
     "question": {
-        "en": "When your child has been out one night, does he/she want to tell you what he/she has experienced?"
+        "en": "When your child has been out over night, does he/she want to tell you what he/she has experienced?"
     },
     "responseOptions": {
         "choices": [
@@ -55,7 +55,8 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "radio",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

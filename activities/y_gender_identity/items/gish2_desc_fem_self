@@ -1,0 +1,78 @@
+{
+    "id": "gish2_desc_fem_self",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "gish2_grp4"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20200902"
+        }
+    ],
+    "preamble": {
+        "en": "A person's appearance (style, dress, the way they walk or talk) may affect how people describe them."
+    },
+    "prefLabel": {
+        "en": "gish2_desc_fem_self"
+    },
+    "question": {
+        "en": "How would you describe yourself?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Very feminine"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Mostly feminine"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Somewhat feminine"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Equally feminine and masculine"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Somewhat masculine"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Mostly masculine"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Very masculine"
+                },
+                "value": 7
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

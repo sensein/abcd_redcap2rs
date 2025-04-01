@@ -1,0 +1,26 @@
+{
+    "id": "ears_app_installation",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ears_app_installation"
+    },
+    "question": null,
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Unable to install EARS on participant's mobile device"
+                },
+                "value": 1
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
