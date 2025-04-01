@@ -90,6 +90,7 @@
             "../activities/youth_resiliency_scale_yrsyouth/youth_resiliency_scale_yrsyouth_schema",
             "../activities/y_h_mh_demography_part_2_comments/y_h_mh_demography_part_2_comments_schema",
             "../activities/mexican_american_cultural_values_scale_youth/mexican_american_cultural_values_scale_youth_schema",
+            "../activities/covid19_24hour_symptom_screener/covid19_24hour_symptom_screener_schema",
             "../activities/prosocial_tendencies_pstyouth/prosocial_tendencies_pstyouth_schema",
             "../activities/acculturationmodified_phenx_actyouth/acculturationmodified_phenx_actyouth_schema",
             "../activities/multigroup_ethnic_identity_meim/multigroup_ethnic_identity_meim_schema",
@@ -244,7 +245,6 @@
             "../activities/contact_events/contact_events_schema",
             "../activities/example_of_body_map/example_of_body_map_schema",
             "../activities/informant/informant_schema",
-            "../activities/covid19_24hour_symptom_screener/covid19_24hour_symptom_screener_schema",
             "../activities/locator/locator_schema",
             "../activities/testeventname_daiconly/testeventname_daiconly_schema",
             "../activities/fitbit_scores/fitbit_scores_schema",
@@ -961,6 +961,14 @@
                     "en": "Mexican American Cultural Values Scale Youth"
                 },
                 "variableName": "mexican_american_cultural_values_scale_youth_schema"
+            },
+            {
+                "isAbout": "../activities/covid19_24hour_symptom_screener/covid19_24hour_symptom_screener_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Covid19 24Hour Symptom Screener"
+                },
+                "variableName": "covid19_24hour_symptom_screener_schema"
             },
             {
                 "isAbout": "../activities/prosocial_tendencies_pstyouth/prosocial_tendencies_pstyouth_schema",
@@ -2195,14 +2203,6 @@
                 "variableName": "informant_schema"
             },
             {
-                "isAbout": "../activities/covid19_24hour_symptom_screener/covid19_24hour_symptom_screener_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Covid19 24Hour Symptom Screener"
-                },
-                "variableName": "covid19_24hour_symptom_screener_schema"
-            },
-            {
                 "isAbout": "../activities/locator/locator_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -2805,6 +2805,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2556",
+    "version": "revid2557",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
