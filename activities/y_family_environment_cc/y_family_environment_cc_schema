@@ -146,7 +146,7 @@
             },
             {
                 "isAbout": "items/fes_admin",
-                "isVis": "event_name_number > '21'",
+                "isVis": "event_name_number > '21' AND sched_delay == '7'",
                 "valueRequired": true,
                 "variableName": "fes_admin"
             },
@@ -159,6 +159,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2687",
+    "version": "revid2688",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
