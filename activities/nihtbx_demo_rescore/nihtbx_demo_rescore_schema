@@ -7,7 +7,6 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
-            "items/nihtbx_demo_rescore_fail",
             "items/nihtbx_demo_rescore_pin",
             "items/nihtbx_demo_rescore_deviceid",
             "items/nihtbx_demo_rescore_name",
@@ -26,6 +25,7 @@
             "items/nihtbx_demo_rescore_dccsaccuracy",
             "items/nihtbx_demo_rescore_dccsreactiontime",
             "items/nihtbx_demo_rescore_computeddccs",
+            "items/nihtbx_demo_rescore_fail",
             "items/nihtbx_demo_rescore_uncorrdccs",
             "items/nihtbx_demo_rescore_agecorrdccs",
             "items/nihtbx_demo_rescore_fulltdccs",
@@ -76,12 +76,6 @@
             "items/nihtbx_demo_rescore_complete"
         ],
         "addProperties": [
-            {
-                "isAbout": "items/nihtbx_demo_rescore_fail",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "nihtbx_demo_rescore_fail"
-            },
             {
                 "isAbout": "items/nihtbx_demo_rescore_pin",
                 "isVis": false,
@@ -189,6 +183,12 @@
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "nihtbx_demo_rescore_computeddccs"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_fail",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_fail"
             },
             {
                 "isAbout": "items/nihtbx_demo_rescore_uncorrdccs",
@@ -481,6 +481,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2700",
+    "version": "revid2701",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

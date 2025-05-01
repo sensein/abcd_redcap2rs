@@ -437,6 +437,7 @@
             "items/yr2fb_gdt_cmplnc_notes",
             "items/yr2fb_gdt_tech_note",
             "items/yr2fb_gdt_techstaff",
+            "items/yr2fb_gdt_sus_cheating",
             "items/yr2fb_gdt_other",
             "items/yr2fb_sit",
             "items/yr2fb_sit_pguid",
@@ -446,6 +447,7 @@
             "items/yr2fb_sit_cmplnc_notes",
             "items/yr2fb_sit_tech_note",
             "items/yr2fb_sit_techstaff",
+            "items/yr2fb_sit_sus_cheating",
             "items/yr2fb_sit_other",
             "items/yr2fb_ravlt_y",
             "items/yr2fb_ravlt_pguid",
@@ -455,12 +457,14 @@
             "items/yr2fb_ravlt_cmplnc_notes_y",
             "items/yr2fb_ravlt_tech_note_y",
             "items/yr2fb_ravlt_techstaff_y",
+            "items/yr2fb_ravlt_sus_cheating",
             "items/yr2fb_ravlt_other_y",
             "items/yr2fb_lmt_y",
             "items/yr2fb_lmt_cmphnsn_notes_y",
             "items/yr2fb_lmt_cmplnc_notes_y",
             "items/yr2fb_lmt_tech_note_y",
             "items/yr2fb_lmt_techstaff_y",
+            "items/yr2fb_lmt_sus_cheating",
             "items/yr2fb_lmt_other_y",
             "items/yr2fb_pvt_y",
             "items/yr2fb_pvt_pguid",
@@ -470,30 +474,35 @@
             "items/yr2fb_pvt_cmplnc_notes_y",
             "items/yr2fb_pvt_tech_note_y",
             "items/yr2fb_pvt_techstaff_y",
+            "items/yr2fb_pvt_sus_cheating",
             "items/yr2fb_pvt_other_y",
             "items/yr2fb_fic_y",
             "items/yr2fb_fic_cmphnsn_notes_y",
             "items/yr2fb_fic_cmplnc_notes_y",
             "items/yr2fb_fic_tech_note_y",
             "items/yr2fb_fic_techstaff_y",
+            "items/yr2fb_fic_sus_cheating",
             "items/yr2fb_fic_other_y",
             "items/yr2fb_pcp_y",
             "items/yr2fb_pcp_cmphnsn_notes_y",
             "items/yr2fb_pcp_cmplnc_notes_y",
             "items/yr2fb_pcp_tech_note_y",
             "items/yr2fb_pcp_techstaff_y",
+            "items/yr2fb_pcp_sus_cheating",
             "items/yr2fb_pcp_other_y",
             "items/yr2fb_psm_y",
             "items/yr2fb_psm_cmphnsn_notes_y",
             "items/yr2fb_psm_cmplnc_notes_y",
             "items/yr2fb_psm_tech_note_y",
             "items/yr2fb_psm_techstaff_y",
+            "items/yr2fb_psm_sus_cheating",
             "items/yr2fb_psm_other_y",
             "items/yr2fb_orr_y",
             "items/yr2fb_orr_cmphnsn_notes_y",
             "items/yr2fb_orr_cmplnc_notes_y",
             "items/yr2fb_orr_tech_note_y",
             "items/yr2fb_orr_techstaff_y",
+            "items/yr2fb_orr_sus_cheating",
             "items/yr2fb_orr_other_y",
             "items/yr2fb_other",
             "items/y_youth_ra_notes_one_year_followup_complete"
@@ -945,13 +954,13 @@
             },
             {
                 "isAbout": "items/yr1fb_cl_y",
-                "isVis": "youth_notes_yn == '1' && event_name_number == '11'",
+                "isVis": "youth_notes_yn == '1' && event - name == '1_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "yr1fb_cl_y"
             },
             {
                 "isAbout": "items/yr2fb_cl_l",
-                "isVis": "youth_notes_yn == '1' && event_name_number == '21'",
+                "isVis": "youth_notes_yn == '1' && event - name == '2_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "yr2fb_cl_l"
             },
@@ -3080,6 +3089,12 @@
                 "variableName": "yr2fb_gdt_techstaff"
             },
             {
+                "isAbout": "items/yr2fb_gdt_sus_cheating",
+                "isVis": "yr2fb_gdt___8 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_gdt_sus_cheating"
+            },
+            {
                 "isAbout": "items/yr2fb_gdt_other",
                 "isVis": "yr2fb_gdt___7 == '1'",
                 "valueRequired": true,
@@ -3132,6 +3147,12 @@
                 "isVis": "yr2fb_sit___4 == '1'",
                 "valueRequired": true,
                 "variableName": "yr2fb_sit_techstaff"
+            },
+            {
+                "isAbout": "items/yr2fb_sit_sus_cheating",
+                "isVis": "yr2fb_sit___8 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_sit_sus_cheating"
             },
             {
                 "isAbout": "items/yr2fb_sit_other",
@@ -3188,6 +3209,12 @@
                 "variableName": "yr2fb_ravlt_techstaff_y"
             },
             {
+                "isAbout": "items/yr2fb_ravlt_sus_cheating",
+                "isVis": "yr2fb_ravlt_y___8 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_ravlt_sus_cheating"
+            },
+            {
                 "isAbout": "items/yr2fb_ravlt_other_y",
                 "isVis": "yr2fb_ravlt_y___7=='1'",
                 "valueRequired": true,
@@ -3222,6 +3249,12 @@
                 "isVis": "yr2fb_lmt_y___4 == '1'",
                 "valueRequired": true,
                 "variableName": "yr2fb_lmt_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr2fb_lmt_sus_cheating",
+                "isVis": "yr2fb_lmt_y___7 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_lmt_sus_cheating"
             },
             {
                 "isAbout": "items/yr2fb_lmt_other_y",
@@ -3278,6 +3311,12 @@
                 "variableName": "yr2fb_pvt_techstaff_y"
             },
             {
+                "isAbout": "items/yr2fb_pvt_sus_cheating",
+                "isVis": "yr2fb_pvt_y___8 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_pvt_sus_cheating"
+            },
+            {
                 "isAbout": "items/yr2fb_pvt_other_y",
                 "isVis": "yr2fb_pvt_y___7=='1'",
                 "valueRequired": true,
@@ -3312,6 +3351,12 @@
                 "isVis": "yr2fb_fic_y___4 == '1'",
                 "valueRequired": true,
                 "variableName": "yr2fb_fic_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr2fb_fic_sus_cheating",
+                "isVis": "yr2fb_fic_y___7 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_fic_sus_cheating"
             },
             {
                 "isAbout": "items/yr2fb_fic_other_y",
@@ -3350,6 +3395,12 @@
                 "variableName": "yr2fb_pcp_techstaff_y"
             },
             {
+                "isAbout": "items/yr2fb_pcp_sus_cheating",
+                "isVis": "yr2fb_pcp_y___7 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_pcp_sus_cheating"
+            },
+            {
                 "isAbout": "items/yr2fb_pcp_other_y",
                 "isVis": "yr2fb_pcp_y___6=='1'",
                 "valueRequired": true,
@@ -3384,6 +3435,12 @@
                 "isVis": "yr2fb_psm_y___4 == '1'",
                 "valueRequired": true,
                 "variableName": "yr2fb_psm_techstaff_y"
+            },
+            {
+                "isAbout": "items/yr2fb_psm_sus_cheating",
+                "isVis": "yr2fb_psm_y___7 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_psm_sus_cheating"
             },
             {
                 "isAbout": "items/yr2fb_psm_other_y",
@@ -3422,6 +3479,12 @@
                 "variableName": "yr2fb_orr_techstaff_y"
             },
             {
+                "isAbout": "items/yr2fb_orr_sus_cheating",
+                "isVis": "yr2fb_orr_y___7 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_orr_sus_cheating"
+            },
+            {
                 "isAbout": "items/yr2fb_orr_other_y",
                 "isVis": "yr2fb_orr_y___6=='1'",
                 "valueRequired": true,
@@ -3442,6 +3505,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2700",
+    "version": "revid2701",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
