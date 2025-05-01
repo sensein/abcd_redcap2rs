@@ -14,31 +14,35 @@
         }
     ],
     "preamble": {
-        "en": "The next questions ask about the experiences of close family members or friends with the police in the community"
+        "en": "The next questions ask about the experiences of close family members or friends with the police in the community",
+        "es": "Las siguientes preguntas tratan de las experiencias de sus familiares o amigos cercanos con la polic\u00c3\u00ada en la comunidad."
     },
     "prefLabel": {
         "en": "neighb_po_stopped_2_p"
     },
     "question": {
-        "en": "Hasa close friend or family memberever been stopped by a police officer for no clear reason?"
+        "en": "Hasa close friend or family memberever been stopped by a police officer for no clear reason?",
+        "es": "\u00c2\u00bfAlguna vez unamigo o familiar cercanoha sido detenido por un agente de polic\u00c3\u00ada sin ninguna raz\u00c3\u00b3n clara?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Yes"
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "No"
+                    "en": "No",
+                    "es": "No"
                 },
                 "value": 0
             }
         ],
         "valueType": [
-            "xsd:boolean"
+            "xsd:integer"
         ]
     },
     "ui": {

@@ -14,31 +14,35 @@
         }
     ],
     "preamble": {
-        "en": "These questions ask about your personal experiences with the police in the community."
+        "en": "These questions ask about your personal experiences with the police in the community.",
+        "es": "Estas preguntas tratan de su experiencia personal con la polic\u00c3\u00ada en la comunidad."
     },
     "prefLabel": {
         "en": "neighborhood_po_exp_p"
     },
     "question": {
-        "en": "Haveyouever had a negative or bad experience with police?"
+        "en": "Haveyouever had a negative or bad experience with police?",
+        "es": "\u00c2\u00bfAlguna vez ha tenidousteduna experiencia mala o negativa con la polic\u00c3\u00ada?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Yes"
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "No"
+                    "en": "No",
+                    "es": "No"
                 },
                 "value": 0
             }
         ],
         "valueType": [
-            "xsd:boolean"
+            "xsd:integer"
         ]
     },
     "ui": {

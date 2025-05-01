@@ -14,31 +14,35 @@
         }
     ],
     "preamble": {
-        "en": "These questions ask about your personal experiences with the police in the community."
+        "en": "These questions ask about your personal experiences with the police in the community.",
+        "es": "Estas preguntas tratan de su experiencia personal con la polic\u00c3\u00ada en la comunidad."
     },
     "prefLabel": {
         "en": "neighborhood_po_phy_p"
     },
     "question": {
-        "en": "Has a police officer ever been physically aggressive towardsyou, including grabbing or pushing you aggressively?"
+        "en": "Has a police officer ever been physically aggressive towardsyou, including grabbing or pushing you aggressively?",
+        "es": "\u00c2\u00bfAlguna vez un agente de polic\u00c3\u00ada se ha mostrado f\u00c3\u00adsicamente agresivo conusted(por ejemplo, sujet\u00c3\u00a1ndolo o empuj\u00c3\u00a1ndolo de manera agresiva)?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Yes"
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "No"
+                    "en": "No",
+                    "es": "No"
                 },
                 "value": 0
             }
         ],
         "valueType": [
-            "xsd:boolean"
+            "xsd:integer"
         ]
     },
     "ui": {

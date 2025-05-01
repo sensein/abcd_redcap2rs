@@ -14,31 +14,35 @@
         }
     ],
     "preamble": {
-        "en": "The next questions ask about the experiences of close family members or friends with the police in the community"
+        "en": "The next questions ask about the experiences of close family members or friends with the police in the community",
+        "es": "Las siguientes preguntas tratan de las experiencias de sus familiares o amigos cercanos con la polic\u00c3\u00ada en la comunidad."
     },
     "prefLabel": {
         "en": "neighb_po_exp_slur_p"
     },
     "question": {
-        "en": "Has a police officer ever been aggressive towardsa close friend or family memberin a non-physical way or used racial or ethnic or other slurs towards them?"
+        "en": "Has a police officer ever been aggressive towardsa close friend or family memberin a non-physical way or used racial or ethnic or other slurs towards them?",
+        "es": "\u00c2\u00bfAlguna vez un agente de polic\u00c3\u00ada ha sido agresivo de una manera no f\u00c3\u00adsica con unamigo o familiar cercano, o ha hecho comentarios racistas o de otro tipo en su contra?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Yes"
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "No"
+                    "en": "No",
+                    "es": "No"
                 },
                 "value": 0
             }
         ],
         "valueType": [
-            "xsd:boolean"
+            "xsd:integer"
         ]
     },
     "ui": {

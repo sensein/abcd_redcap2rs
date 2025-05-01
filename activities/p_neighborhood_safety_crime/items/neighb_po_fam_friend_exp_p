@@ -14,31 +14,35 @@
         }
     ],
     "preamble": {
-        "en": "The next questions ask about the experiences of close family members or friends with the police in the community"
+        "en": "The next questions ask about the experiences of close family members or friends with the police in the community",
+        "es": "Las siguientes preguntas tratan de las experiencias de sus familiares o amigos cercanos con la polic\u00c3\u00ada en la comunidad."
     },
     "prefLabel": {
         "en": "neighb_po_fam_friend_exp_p"
     },
     "question": {
-        "en": "Hasa close friend or family memberever had a negative or bad experience with police?"
+        "en": "Hasa close friend or family memberever had a negative or bad experience with police?",
+        "es": "\u00c2\u00bfUnamigo o familiar cercanoha tenido alguna vez una experiencia mala o negativa con la polic\u00c3\u00ada?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Yes"
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "No"
+                    "en": "No",
+                    "es": "No"
                 },
                 "value": 0
             }
         ],
         "valueType": [
-            "xsd:boolean"
+            "xsd:integer"
         ]
     },
     "ui": {

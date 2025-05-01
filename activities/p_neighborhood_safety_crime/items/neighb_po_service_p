@@ -14,31 +14,35 @@
         }
     ],
     "preamble": {
-        "en": "The next questions ask about the experiences of close family members or friends with the police in the community"
+        "en": "The next questions ask about the experiences of close family members or friends with the police in the community",
+        "es": "Las siguientes preguntas tratan de las experiencias de sus familiares o amigos cercanos con la polic\u00c3\u00ada en la comunidad."
     },
     "prefLabel": {
         "en": "neighb_po_service_p"
     },
     "question": {
-        "en": "Has a police officer ever provided assistance, protection, or any other service toa close friend or family member?"
+        "en": "Has a police officer ever provided assistance, protection, or any other service toa close friend or family member?",
+        "es": "\u00c2\u00bfAlguna vez un agente de polic\u00c3\u00ada le ha brindado ayuda, protecci\u00c3\u00b3n o alg\u00c3\u00ban otro servicio aun amigo o familiar cercano?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Yes"
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "No"
+                    "en": "No",
+                    "es": "No"
                 },
                 "value": 0
             }
         ],
         "valueType": [
-            "xsd:boolean"
+            "xsd:integer"
         ]
     },
     "ui": {

@@ -14,31 +14,35 @@
         }
     ],
     "preamble": {
-        "en": "These questions ask about your personal experiences with the police in the community."
+        "en": "These questions ask about your personal experiences with the police in the community.",
+        "es": "Estas preguntas tratan de su experiencia personal con la polic\u00c3\u00ada en la comunidad."
     },
     "prefLabel": {
         "en": "neighb_po_stopped_p"
     },
     "question": {
-        "en": "Haveyouever been stopped by a police officer for no clear reason?"
+        "en": "Haveyouever been stopped by a police officer for no clear reason?",
+        "es": "\u00c2\u00bfAlguna vezha sidodetenido por un agente de polic\u00c3\u00ada sin ninguna raz\u00c3\u00b3n clara?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Yes"
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "No"
+                    "en": "No",
+                    "es": "No"
                 },
                 "value": 0
             }
         ],
         "valueType": [
-            "xsd:boolean"
+            "xsd:integer"
         ]
     },
     "ui": {
