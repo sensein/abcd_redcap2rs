@@ -1,0 +1,52 @@
+{
+    "id": "sai_p_crafts_fam_friends_l",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20201124"
+        }
+    ],
+    "preamble": {
+        "en": "Crafts like Knitting, Building Model Cars or Airplanes",
+        "es": "Manualidades, como tejer o armar modelos de autos o aviones"
+    },
+    "prefLabel": {
+        "en": "sai_p_crafts_fam_friends_l"
+    },
+    "question": {
+        "en": "Crafts like Knitting, Building Model Cars or Airplanes",
+        "es": "Manualidades, como tejer o armar modelos de autos o aviones"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

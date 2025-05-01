@@ -7,7 +7,6 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
-            "items/sai_p_yr_4",
             "items/sai_start_time_p_l",
             "items/sai_l_p_select_language",
             "items/sai_p_activities_l",
@@ -219,6 +218,7 @@
             "items/sai_p_drama_tspent_l",
             "items/sai_p_crafts_school_l",
             "items/sai_p_crafts_outside_l",
+            "items/sai_p_crafts_fam_friends_l",
             "items/sai_p_crafts_private_l",
             "items/sai_p_crafts_self_l",
             "items/sai_p_crafts_nmonth_l",
@@ -420,12 +420,6 @@
             "items/sports_activities_involvement_saiqparent_l_complete"
         ],
         "addProperties": [
-            {
-                "isAbout": "items/sai_p_yr_4",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
-                "valueRequired": false,
-                "variableName": "sai_p_yr_4"
-            },
             {
                 "isAbout": "items/sai_start_time_p_l",
                 "isVis": false,
@@ -1693,6 +1687,12 @@
                 "variableName": "sai_p_crafts_outside_l"
             },
             {
+                "isAbout": "items/sai_p_crafts_fam_friends_l",
+                "isVis": "sai_p_activities_l___26 == '1' AND event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": false,
+                "variableName": "sai_p_crafts_fam_friends_l"
+            },
+            {
                 "isAbout": "items/sai_p_crafts_private_l",
                 "isVis": "sai_p_activities_l___26 == '1' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": false,
@@ -2889,6 +2889,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2675",
+    "version": "revid2677",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -185,12 +185,12 @@
             "../activities/p_ra_feedback_4yr_pilot/p_ra_feedback_4yr_pilot_schema",
             "../activities/consentfitbit/consentfitbit_schema",
             "../activities/p_ears_post_questionnaire/p_ears_post_questionnaire_schema",
+            "../activities/p_parent_ra_notes_three_four_year/p_parent_ra_notes_three_four_year_schema",
             "../activities/fitbit_postassessment_youth/fitbit_postassessment_youth_schema",
             "../activities/y_ears_post_questionnaire/y_ears_post_questionnaire_schema",
             "../activities/fitbit_preassessment_parent/fitbit_preassessment_parent_schema",
             "../activities/p_parent_ra_notes_2/p_parent_ra_notes_2_schema",
             "../activities/p_parent_ra_notes_one_year_followup/p_parent_ra_notes_one_year_followup_schema",
-            "../activities/p_parent_ra_notes_three_four_year/p_parent_ra_notes_three_four_year_schema",
             "../activities/ears_intro_setup/ears_intro_setup_schema",
             "../activities/twin_zygosity_rating/twin_zygosity_rating_schema",
             "../activities/fitbit_postassessment_parent/fitbit_postassessment_parent_schema",
@@ -1742,6 +1742,14 @@
                 "variableName": "p_ears_post_questionnaire_schema"
             },
             {
+                "isAbout": "../activities/p_parent_ra_notes_three_four_year/p_parent_ra_notes_three_four_year_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "P Parent Ra Notes Three Four Year"
+                },
+                "variableName": "p_parent_ra_notes_three_four_year_schema"
+            },
+            {
                 "isAbout": "../activities/fitbit_postassessment_youth/fitbit_postassessment_youth_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -1780,14 +1788,6 @@
                     "en": "P Parent Ra Notes One Year Followup"
                 },
                 "variableName": "p_parent_ra_notes_one_year_followup_schema"
-            },
-            {
-                "isAbout": "../activities/p_parent_ra_notes_three_four_year/p_parent_ra_notes_three_four_year_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "P Parent Ra Notes Three Four Year"
-                },
-                "variableName": "p_parent_ra_notes_three_four_year_schema"
             },
             {
                 "isAbout": "../activities/ears_intro_setup/ears_intro_setup_schema",
@@ -2976,6 +2976,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2675",
+    "version": "revid2677",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
