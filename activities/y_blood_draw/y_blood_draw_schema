@@ -10,6 +10,7 @@
             "items/biospec_blood_today",
             "items/biospec_blood_collect",
             "items/biospec_blood_consent",
+            "items/blood_tube1_na",
             "items/biospec_reminder",
             "items/biospec_blood_tube1_collect",
             "items/biospec_blood_tube1_ncollect",
@@ -47,6 +48,12 @@
                 "variableName": "biospec_blood_consent"
             },
             {
+                "isAbout": "items/blood_tube1_na",
+                "isVis": "biospec_blood_consent == '2'",
+                "valueRequired": true,
+                "variableName": "blood_tube1_na"
+            },
+            {
                 "isAbout": "items/biospec_reminder",
                 "isVis": "biospec_blood_consent == '0' && dna_recollect_1yr_fu == '1' &&(biospec_blood_tube1_collect == '0' || biospec_blood_tube1_collect == '777' || biospec_blood_tube1_collect == '2' || biospec_blood_tube2_collect == '777' || biospec_blood_tube2_collect == '0' || biospec_blood_tube2_collect == '2')",
                 "valueRequired": false,
@@ -72,7 +79,7 @@
             },
             {
                 "isAbout": "items/biospec_blood_tube1_barcode",
-                "isVis": true,
+                "isVis": "biospec_blood_consent == '1' OR biospec_blood_consent == ''",
                 "valueRequired": true,
                 "variableName": "biospec_blood_tube1_barcode"
             },
@@ -96,7 +103,7 @@
             },
             {
                 "isAbout": "items/biospec_blood_tube2_barcode",
-                "isVis": true,
+                "isVis": "biospec_blood_consent == '1' OR biospec_blood_consent == ''",
                 "valueRequired": true,
                 "variableName": "biospec_blood_tube2_barcode"
             },
@@ -145,6 +152,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2708",
+    "version": "revid2709",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

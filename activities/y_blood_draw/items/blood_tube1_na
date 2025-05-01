@@ -1,50 +1,42 @@
 {
-    "id": "angry_anti_mask_4_cv",
+    "id": "blood_tube1_na",
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Matrix Group Name",
-            "source": "redcap",
-            "value": "in_person_anti_mask_cv"
-        },
-        {
             "column": "Field Annotation",
             "source": "redcap",
-            "value": "HIDEFROMCOMPLETION20200806"
+            "value": "HIDEFROMCOMPLETION20210223"
         }
     ],
-    "preamble": {
-        "en": "Your progress:88%.How did you feel when you attended the in-person demonstrationsagainst wearing masks?"
-    },
     "prefLabel": {
-        "en": "angry_anti_mask_4_cv"
+        "en": "blood_tube1_na"
     },
     "question": {
-        "en": "Angry when at Demonstrations Anti-Mask"
+        "en": "Reason for NA:"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Not at all"
+                    "en": "Institution not authorized to collect samples due to COVID"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "A little"
+                    "en": "Staff discomfort due to COVID"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Somewhat"
+                    "en": "Exceed 15min of < 6ft distance from youth (COVID)"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Very much"
+                    "en": "Not approved by ABCD for collection"
                 },
                 "value": 4
             }
