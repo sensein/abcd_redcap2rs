@@ -246,8 +246,8 @@
             "items/first_nicotine_1_l",
             "items/first_nicotine_1b",
             "items/su_first_nicotine_1b_calc",
-            "items/first_nicotine_2_l",
             "items/first_nicotine_desc_l",
+            "items/first_nicotine_2_l",
             "items/first_nicotine_5_l",
             "items/first_nicotine_6_l",
             "items/first_nicotine_7_l",
@@ -948,16 +948,16 @@
                 "variableName": "su_first_nicotine_1b_calc"
             },
             {
-                "isAbout": "items/first_nicotine_2_l",
-                "isVis": "first_nicotine_1_l== '1' && tlfb_tob_puff_c_l == '0'",
-                "valueRequired": true,
-                "variableName": "first_nicotine_2_l"
-            },
-            {
                 "isAbout": "items/first_nicotine_desc_l",
                 "isVis": "first_nicotine_1_l == '1' && tlfb_chew_use_c_l == '0'",
                 "valueRequired": false,
                 "variableName": "first_nicotine_desc_l"
+            },
+            {
+                "isAbout": "items/first_nicotine_2_l",
+                "isVis": "first_nicotine_1_l== '1' && tlfb_tob_puff_c_l == '0'",
+                "valueRequired": true,
+                "variableName": "first_nicotine_2_l"
             },
             {
                 "isAbout": "items/first_nicotine_5_l",
@@ -2270,6 +2270,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2683",
+    "version": "revid2684",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
