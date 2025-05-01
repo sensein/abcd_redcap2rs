@@ -521,8 +521,8 @@
             "items/iqc_rsfmri_2_qc_notes",
             "items/iqc_rsfmri_2_pc_score",
             "items/iqc_rsfmri_2_pc_notes",
-            "items/iqc_rsfmri_2_complete",
             "items/iqc_rsfmri_2_voxvol",
+            "items/iqc_rsfmri_2_complete",
             "items/iqc_rsfmri_2_brainvol",
             "items/iqc_rsfmri_2_brain_mean",
             "items/iqc_rsfmri_2_brain_std",
@@ -5202,16 +5202,16 @@
                 "variableName": "iqc_rsfmri_2_pc_notes"
             },
             {
-                "isAbout": "items/iqc_rsfmri_2_complete",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "iqc_rsfmri_2_complete"
-            },
-            {
                 "isAbout": "items/iqc_rsfmri_2_voxvol",
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "iqc_rsfmri_2_voxvol"
+            },
+            {
+                "isAbout": "items/iqc_rsfmri_2_complete",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "iqc_rsfmri_2_complete"
             },
             {
                 "isAbout": "items/iqc_rsfmri_2_brainvol",
@@ -14768,6 +14768,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2713",
+    "version": "revid2714",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -89,8 +89,8 @@
             "items/bkfs_wheatbrdfreq",
             "items/bkfs_wheatbrdquan",
             "items/bkfs_coldcerealtype",
-            "items/bkfs_milktype",
             "items/bkfs_fruit_ce",
+            "items/bkfs_milktype",
             "items/bkfs_vegnopot_ce",
             "items/bkfs_potato_ce",
             "items/bkfs_whlgrain_oze",
@@ -711,16 +711,16 @@
                 "variableName": "bkfs_coldcerealtype"
             },
             {
-                "isAbout": "items/bkfs_milktype",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "bkfs_milktype"
-            },
-            {
                 "isAbout": "items/bkfs_fruit_ce",
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "bkfs_fruit_ce"
+            },
+            {
+                "isAbout": "items/bkfs_milktype",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bkfs_milktype"
             },
             {
                 "isAbout": "items/bkfs_vegnopot_ce",
@@ -1475,6 +1475,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2713",
+    "version": "revid2714",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

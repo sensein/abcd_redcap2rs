@@ -26,9 +26,6 @@
             "items/school_close_date_dk_cv",
             "items/school_reopen_date_dk_cv",
             "items/school_reopen_date_cv",
-            "items/child_care_cv",
-            "items/work_ability_cv",
-            "items/household_ability_cv",
             "items/hours_homework_time_cv",
             "items/hours_online_self_cv",
             "items/hours_textbook_self_cv",
@@ -46,6 +43,9 @@
             "items/school_nutrition_cv",
             "items/iep_cv",
             "items/iep_provide_cv",
+            "items/child_care_cv",
+            "items/work_ability_cv",
+            "items/household_ability_cv",
             "items/school_prep_cv",
             "items/school_prep_new_cv",
             "items/child_phys_activity_days_cv",
@@ -261,24 +261,6 @@
                 "variableName": "school_reopen_date_cv"
             },
             {
-                "isAbout": "items/child_care_cv",
-                "isVis": "school_close_cv == '2' OR school_at_home_cv == '1' OR event - name == 'covid19_cv6_arm_2'",
-                "valueRequired": true,
-                "variableName": "child_care_cv"
-            },
-            {
-                "isAbout": "items/work_ability_cv",
-                "isVis": "child_care_cv=='2'",
-                "valueRequired": true,
-                "variableName": "work_ability_cv"
-            },
-            {
-                "isAbout": "items/household_ability_cv",
-                "isVis": "child_care_cv=='2'",
-                "valueRequired": true,
-                "variableName": "household_ability_cv"
-            },
-            {
                 "isAbout": "items/hours_homework_time_cv",
                 "isVis": "school_at_home_cv == '1' AND(event - name == 'covid19_cv1_arm_2' OR event - name == 'covid19_cv2_arm_2' OR event - name == 'covid19_cv3_arm_2' OR event - name == 'covid19_cv4_arm_2' OR event - name == 'covid19_cv6_arm_2')",
                 "valueRequired": true,
@@ -381,6 +363,24 @@
                 "variableName": "iep_provide_cv"
             },
             {
+                "isAbout": "items/child_care_cv",
+                "isVis": "school_close_cv == '2' OR school_at_home_cv == '1' OR event - name == 'covid19_cv6_arm_2'",
+                "valueRequired": true,
+                "variableName": "child_care_cv"
+            },
+            {
+                "isAbout": "items/work_ability_cv",
+                "isVis": "child_care_cv=='2'",
+                "valueRequired": true,
+                "variableName": "work_ability_cv"
+            },
+            {
+                "isAbout": "items/household_ability_cv",
+                "isVis": "child_care_cv=='2'",
+                "valueRequired": true,
+                "variableName": "household_ability_cv"
+            },
+            {
                 "isAbout": "items/school_prep_cv",
                 "isVis": "event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv2_arm_2' || event - name == 'covid19_cv3_arm_2'",
                 "valueRequired": true,
@@ -406,7 +406,7 @@
             },
             {
                 "isAbout": "items/child_phys_activity_min_cv",
-                "isVis": "child_phys_activity_days_cv <> '8' AND(event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv2_arm_2' OR event - name !== 'covid19_cv5_arm_2')",
+                "isVis": "child_phys_activity_days_cv <> '8' AND(event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv2_arm_2' OR event - name !== 'covid19_cv5_arm_2' OR event - name !== 'covid19_cv6_arm_2')",
                 "valueRequired": true,
                 "variableName": "child_phys_activity_min_cv"
             },
@@ -472,7 +472,7 @@
             },
             {
                 "isAbout": "items/child_avg_elec_min_cv",
-                "isVis": "(event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv2_arm_2' OR event - name !== 'covid19_cv5_arm_2')",
+                "isVis": "(event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv2_arm_2' OR event - name !== 'covid19_cv5_arm_2' OR event - name !== 'covid19_cv6_arm_2')",
                 "valueRequired": true,
                 "variableName": "child_avg_elec_min_cv"
             },
@@ -496,7 +496,7 @@
             },
             {
                 "isAbout": "items/child_texting_min_cv",
-                "isVis": "(event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv2_arm_2' OR event - name !== 'covid19_cv5_arm_2')",
+                "isVis": "(event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv2_arm_2' OR event - name !== 'covid19_cv5_arm_2' OR event - name !== 'covid19_cv6_arm_2')",
                 "valueRequired": true,
                 "variableName": "child_texting_min_cv"
             },
@@ -514,7 +514,7 @@
             },
             {
                 "isAbout": "items/child_video_chat_min_cv",
-                "isVis": "(event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv2_arm_2' OR event - name !== 'covid19_cv5_arm_2')",
+                "isVis": "(event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv2_arm_2' OR event - name !== 'covid19_cv5_arm_2' OR event - name !== 'covid19_cv6_arm_2')",
                 "valueRequired": true,
                 "variableName": "child_video_chat_min_cv"
             },
@@ -532,7 +532,7 @@
             },
             {
                 "isAbout": "items/child_social_media_min_cv",
-                "isVis": "(event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv2_arm_2' OR event - name !== 'covid19_cv5_arm_2')",
+                "isVis": "(event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv2_arm_2' OR event - name !== 'covid19_cv5_arm_2' OR event - name !== 'covid19_cv6_arm_2')",
                 "valueRequired": true,
                 "variableName": "child_social_media_min_cv"
             },
@@ -550,7 +550,7 @@
             },
             {
                 "isAbout": "items/child_gaming_min_cv",
-                "isVis": "(event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv2_arm_2' OR event - name !== 'covid19_cv5_arm_2')",
+                "isVis": "(event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv2_arm_2' OR event - name !== 'covid19_cv5_arm_2' OR event - name !== 'covid19_cv6_arm_2')",
                 "valueRequired": true,
                 "variableName": "child_gaming_min_cv"
             },
@@ -971,6 +971,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2713",
+    "version": "revid2714",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
