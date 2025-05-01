@@ -1,0 +1,49 @@
+{
+    "id": "resp_admin",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210303"
+        }
+    ],
+    "preamble": {
+        "en": "For RA Use Only:"
+    },
+    "prefLabel": {
+        "en": "resp_admin"
+    },
+    "question": {
+        "en": "Please indicate how instrument was administered:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "RA-Administered"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Youth Self-Administered"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Combination"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

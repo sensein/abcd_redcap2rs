@@ -68,25 +68,25 @@
             },
             {
                 "isAbout": "items/icup_adulterated",
-                "isVis": "(event - name == '2_year_follow_up_y_arm_1' OR event - name == '4_year_follow_up_y_arm_1')AND biospec_urine_collect == '1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND biospec_urine_collect == '1'",
                 "valueRequired": true,
                 "variableName": "icup_adulterated"
             },
             {
                 "isAbout": "items/icup_creatinine",
-                "isVis": "icup_adulterated == '1' AND(event - name == '2_year_follow_up_y_arm_1' OR event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "icup_adulterated == '1' AND(event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "icup_creatinine"
             },
             {
                 "isAbout": "items/icup_ph",
-                "isVis": "icup_adulterated == '1' AND(event - name == '2_year_follow_up_y_arm_1' OR event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "icup_adulterated == '1' AND(event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "icup_ph"
             },
             {
                 "isAbout": "items/icup_oxidants",
-                "isVis": "icup_adulterated == '1' AND(event - name == '2_year_follow_up_y_arm_1' OR event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "icup_adulterated == '1' AND(event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "icup_oxidants"
             },
@@ -98,79 +98,79 @@
             },
             {
                 "isAbout": "items/biospec_urine_result_date",
-                "isVis": "(event - name == '2_year_follow_up_y_arm_1' OR event - name == '4_year_follow_up_y_arm_1')AND biospec_urine_collect == '1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND biospec_urine_collect == '1'",
                 "valueRequired": true,
                 "variableName": "biospec_urine_result_date"
             },
             {
                 "isAbout": "items/icup_methamphetamine",
-                "isVis": "(event - name == '2_year_follow_up_y_arm_1' OR event - name == '4_year_follow_up_y_arm_1')AND biospec_urine_collect == '1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND biospec_urine_collect == '1'",
                 "valueRequired": true,
                 "variableName": "icup_methamphetamine"
             },
             {
                 "isAbout": "items/icup_opiate",
-                "isVis": "(event - name == '2_year_follow_up_y_arm_1' OR event - name == '4_year_follow_up_y_arm_1')AND biospec_urine_collect == '1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND biospec_urine_collect == '1'",
                 "valueRequired": true,
                 "variableName": "icup_opiate"
             },
             {
                 "isAbout": "items/icup_pcp",
-                "isVis": "(event - name == '2_year_follow_up_y_arm_1' OR event - name == '4_year_follow_up_y_arm_1')AND biospec_urine_collect == '1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND biospec_urine_collect == '1'",
                 "valueRequired": true,
                 "variableName": "icup_pcp"
             },
             {
                 "isAbout": "items/icup_benzodiazepine",
-                "isVis": "(event - name == '2_year_follow_up_y_arm_1' OR event - name == '4_year_follow_up_y_arm_1')AND biospec_urine_collect == '1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND biospec_urine_collect == '1'",
                 "valueRequired": true,
                 "variableName": "icup_benzodiazepine"
             },
             {
                 "isAbout": "items/icup_tricyclics",
-                "isVis": "(event - name == '2_year_follow_up_y_arm_1' OR event - name == '4_year_follow_up_y_arm_1')AND biospec_urine_collect == '1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND biospec_urine_collect == '1'",
                 "valueRequired": true,
                 "variableName": "icup_tricyclics"
             },
             {
                 "isAbout": "items/icup_barbiturate",
-                "isVis": "(event - name == '2_year_follow_up_y_arm_1' OR event - name == '4_year_follow_up_y_arm_1')AND biospec_urine_collect == '1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND biospec_urine_collect == '1'",
                 "valueRequired": true,
                 "variableName": "icup_barbiturate"
             },
             {
                 "isAbout": "items/icup_oxycodone",
-                "isVis": "(event - name == '2_year_follow_up_y_arm_1' OR event - name == '4_year_follow_up_y_arm_1')AND biospec_urine_collect == '1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND biospec_urine_collect == '1'",
                 "valueRequired": true,
                 "variableName": "icup_oxycodone"
             },
             {
                 "isAbout": "items/icup_propoxyohene",
-                "isVis": "(event - name == '2_year_follow_up_y_arm_1' OR event - name == '4_year_follow_up_y_arm_1')AND biospec_urine_collect == '1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND biospec_urine_collect == '1'",
                 "valueRequired": true,
                 "variableName": "icup_propoxyohene"
             },
             {
                 "isAbout": "items/icup_methadone",
-                "isVis": "(event - name == '2_year_follow_up_y_arm_1' OR event - name == '4_year_follow_up_y_arm_1')AND biospec_urine_collect == '1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND biospec_urine_collect == '1'",
                 "valueRequired": true,
                 "variableName": "icup_methadone"
             },
             {
                 "isAbout": "items/icup_amphetamine",
-                "isVis": "(event - name == '2_year_follow_up_y_arm_1' OR event - name == '4_year_follow_up_y_arm_1')AND biospec_urine_collect == '1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND biospec_urine_collect == '1'",
                 "valueRequired": true,
                 "variableName": "icup_amphetamine"
             },
             {
                 "isAbout": "items/icup_cocaine",
-                "isVis": "(event - name == '2_year_follow_up_y_arm_1' OR event - name == '4_year_follow_up_y_arm_1')AND biospec_urine_collect == '1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND biospec_urine_collect == '1'",
                 "valueRequired": true,
                 "variableName": "icup_cocaine"
             },
             {
                 "isAbout": "items/icup_thc",
-                "isVis": "(event - name == '2_year_follow_up_y_arm_1' OR event - name == '4_year_follow_up_y_arm_1')AND biospec_urine_collect == '1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND biospec_urine_collect == '1'",
                 "valueRequired": true,
                 "variableName": "icup_thc"
             },
@@ -201,6 +201,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2717",
+    "version": "revid2718",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

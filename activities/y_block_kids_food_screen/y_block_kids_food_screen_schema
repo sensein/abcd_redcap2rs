@@ -90,6 +90,7 @@
             "items/bkfs_bread_y",
             "items/bkfs_bread_1_day_y",
             "items/ra_confirm_y",
+            "items/bkfs_admin",
             "items/y_block_kids_food_screen_complete"
         ],
         "addProperties": [
@@ -592,6 +593,12 @@
                 "variableName": "ra_confirm_y"
             },
             {
+                "isAbout": "items/bkfs_admin",
+                "isVis": "event - name > '2_year_follow_up_y_arm_1' AND sched_delay == '7'",
+                "valueRequired": true,
+                "variableName": "bkfs_admin"
+            },
+            {
                 "isAbout": "items/y_block_kids_food_screen_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -600,6 +607,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2717",
+    "version": "revid2718",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
