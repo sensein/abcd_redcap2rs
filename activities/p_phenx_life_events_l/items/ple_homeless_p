@@ -21,25 +21,28 @@
         "en": "ple_homeless_p"
     },
     "question": {
-        "en": "Your family was homeless?"
+        "en": "Your family was homeless?",
+        "es": "\u00c2\u00bfEstuvo su familia sin vivienda/hogar?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Yes"
+                    "en": "Yes",
+                    "es": "Si"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "No"
+                    "en": "No",
+                    "es": "No"
                 },
                 "value": 0
             }
         ],
         "valueType": [
-            "xsd:boolean"
+            "xsd:integer"
         ]
     },
     "ui": {
