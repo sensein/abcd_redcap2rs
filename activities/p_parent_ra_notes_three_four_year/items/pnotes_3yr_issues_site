@@ -1,0 +1,62 @@
+{
+    "id": "pnotes_3yr_issues_site",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDECHOICE = '1'"
+        }
+    ],
+    "preamble": {
+        "en": "Site-Related Issues"
+    },
+    "prefLabel": {
+        "en": "pnotes_3yr_issues_site"
+    },
+    "question": {
+        "en": "Select site-related issues"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Suicide/Homicide endorsed"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Suicide endorsed"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Homicide endorsed"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Abuse and Neglect (e.g., CPS report)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Other (e.g., elder abuse)"
+                },
+                "value": 5
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,42 @@
+{
+    "id": "pnotes_4yr_where_complete",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "COMPLETION METHODTake Home Surveys / Remote Completion"
+    },
+    "prefLabel": {
+        "en": "pnotes_4yr_where_complete"
+    },
+    "question": {
+        "en": "Where did the Parent complete therest of the parent protocol?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Research Site"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Remote"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Combination"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

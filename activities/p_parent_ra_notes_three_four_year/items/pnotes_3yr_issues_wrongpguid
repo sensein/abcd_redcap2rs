@@ -1,0 +1,31 @@
+{
+    "id": "pnotes_3yr_issues_wrongpguid",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Wrong KSADS pGUID Issue"
+    },
+    "prefLabel": {
+        "en": "pnotes_3yr_issues_wrongpguid"
+    },
+    "question": {
+        "en": "What Wrong PGUID related issues do you have (check all the apply)?:\n\nREDCap pGUID errors should be entered in the Data Manager Section"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "KSADS"
+                },
+                "value": 2
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

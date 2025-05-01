@@ -1,0 +1,38 @@
+{
+    "id": "pnotes_3yr_issues_wtimept_ders_resolved",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20201116"
+        }
+    ],
+    "preamble": {
+        "en": "Incorrect Time Point Issues"
+    },
+    "prefLabel": {
+        "en": "pnotes_3yr_issues_wtimept_ders_resolved"
+    },
+    "question": {
+        "en": "Difficulty in Emotional Regulation"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Resolved?"
+                },
+                "value": 1
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

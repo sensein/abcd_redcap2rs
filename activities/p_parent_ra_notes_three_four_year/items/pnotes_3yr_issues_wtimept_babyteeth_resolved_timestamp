@@ -1,0 +1,29 @@
+{
+    "id": "pnotes_3yr_issues_wtimept_babyteeth_resolved_timestamp",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "datetime_mdy"
+        }
+    ],
+    "preamble": {
+        "en": "Incorrect Time Point Issues"
+    },
+    "prefLabel": {
+        "en": "pnotes_3yr_issues_wtimept_babyteeth_resolved_timestamp"
+    },
+    "question": {
+        "en": "Current Date and Time?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:dateTime"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

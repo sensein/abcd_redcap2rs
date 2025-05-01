@@ -1,0 +1,66 @@
+{
+    "id": "pnotes_3yr_issues_wtimept_incorrect",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Incorrect Time Point Issues"
+    },
+    "prefLabel": {
+        "en": "pnotes_3yr_issues_wtimept_incorrect"
+    },
+    "question": {
+        "en": "Choose incorrect time point"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "1 year follow up"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "18 month followup"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "2 year followup"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "30 month followup"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "3 year followup"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "42 month followup"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "4 year followup"
+                },
+                "value": 7
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,49 @@
+{
+    "id": "pnotes_3yr_home_scrn_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "pnotes_3yr_home"
+        }
+    ],
+    "preamble": {
+        "en": "Please check how parent completed each of theTake Home Surveys."
+    },
+    "prefLabel": {
+        "en": "pnotes_3yr_home_scrn_p"
+    },
+    "question": {
+        "en": "Screen Time of Parent"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "By Phone"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "By Link"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Off-site, In-person"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,49 @@
+{
+    "id": "pnotes_4yr_ra_survey_self_complete_18",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "pnotes_4yr_ra_survey_self_complete"
+        }
+    ],
+    "preamble": {
+        "en": "Please check how parent completed each of theParent Self Completed Surveys"
+    },
+    "prefLabel": {
+        "en": "pnotes_4yr_ra_survey_self_complete_18"
+    },
+    "question": {
+        "en": "Substance Use Density, Exposure, Storage"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "At a Research Site"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "By Phone"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Off-Site, In-Person"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

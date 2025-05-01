@@ -7,6 +7,7 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/sai_p_yr_4",
             "items/sai_start_time_p_l",
             "items/sai_l_p_select_language",
             "items/sai_p_activities_l",
@@ -238,6 +239,7 @@
             "items/sai_p_collect_nmonth_l",
             "items/sai_p_collect_perwk_l",
             "items/sai_p_collect_tspent_l",
+            "items/sai_p_yr_3",
             "items/sai_p_yr_3_activities",
             "items/sai_p_bowling_school",
             "items/sai_p_bowling_outside",
@@ -418,6 +420,12 @@
             "items/sports_activities_involvement_saiqparent_l_complete"
         ],
         "addProperties": [
+            {
+                "isAbout": "items/sai_p_yr_4",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": false,
+                "variableName": "sai_p_yr_4"
+            },
             {
                 "isAbout": "items/sai_start_time_p_l",
                 "isVis": false,
@@ -1560,7 +1568,7 @@
             },
             {
                 "isAbout": "items/sai_p_music_self_l",
-                "isVis": "sai_p_activities_l___23 == '1'",
+                "isVis": "sai_p_activities_l___23 == '1' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "sai_p_music_self_l"
             },
@@ -1650,7 +1658,7 @@
             },
             {
                 "isAbout": "items/sai_p_drama_self_l",
-                "isVis": "sai_p_activities_l___25 == '1'",
+                "isVis": "sai_p_activities_l___25 == '1' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "sai_p_drama_self_l"
             },
@@ -1805,8 +1813,14 @@
                 "variableName": "sai_p_collect_tspent_l"
             },
             {
-                "isAbout": "items/sai_p_yr_3_activities",
+                "isAbout": "items/sai_p_yr_3",
                 "isVis": "event - name == '3_year_follow_up_y_arm_1'",
+                "valueRequired": false,
+                "variableName": "sai_p_yr_3"
+            },
+            {
+                "isAbout": "items/sai_p_yr_3_activities",
+                "isVis": "event - name == '3_year_follow_up_y_arm_1' OR event - name == '4_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "sai_p_yr_3_activities"
             },
@@ -2820,7 +2834,7 @@
             },
             {
                 "isAbout": "items/sai_p_lmusic_l",
-                "isVis": "event - name <> '3_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "sai_p_lmusic_l"
             },
@@ -2844,7 +2858,7 @@
             },
             {
                 "isAbout": "items/sai_p_read_l",
-                "isVis": "event - name <> '3_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '3_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "sai_p_read_l"
             },
@@ -2875,6 +2889,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2673",
+    "version": "revid2674",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

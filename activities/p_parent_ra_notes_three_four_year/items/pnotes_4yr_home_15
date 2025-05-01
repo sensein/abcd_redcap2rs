@@ -1,0 +1,122 @@
+{
+    "id": "pnotes_4yr_home_15",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDEFROMCOMPLETION20201114"
+        }
+    ],
+    "preamble": {
+        "en": "COMPLETION METHODTake Home Surveys / Remote Completion"
+    },
+    "prefLabel": {
+        "en": "pnotes_4yr_home_15"
+    },
+    "question": {
+        "en": "Please Check Each Assessment that was Completed at Home"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Pubertal Development Scale/Menstrual History"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Sleep Disturbance Scale for Children"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Screen Time"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Screen Time of Parent"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Prosocial Behavior"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Difficulty in Emotion Regulation"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Parental Monitoring"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Parent Rules"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "SU Community Risk and Protective Factors"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "School Attendance and Grades"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Acculturation"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Community Cohesion"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Mexican American Cultural Values Scale"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Neighborhood Safety and Crime"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "COVID 19 Annual Questionnaire"
+                },
+                "value": 15
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -124,6 +124,7 @@
             "../activities/y_feedback_odd_l/y_feedback_odd_l_schema",
             "../activities/baseline_visits/baseline_visits_schema",
             "../activities/y_youth_ra_notes_one_year_followup/y_youth_ra_notes_one_year_followup_schema",
+            "../activities/y_youth_ra_notes_three_four_year/y_youth_ra_notes_three_four_year_schema",
             "../activities/y_ra_feedback_4_yr_pilot/y_ra_feedback_4_yr_pilot_schema",
             "../activities/visit_summary/visit_summary_schema",
             "../activities/medication_inventoryphenx_medsparent/medication_inventoryphenx_medsparent_schema",
@@ -186,7 +187,6 @@
             "../activities/p_ears_post_questionnaire/p_ears_post_questionnaire_schema",
             "../activities/fitbit_postassessment_youth/fitbit_postassessment_youth_schema",
             "../activities/y_ears_post_questionnaire/y_ears_post_questionnaire_schema",
-            "../activities/parent_ra_notes_3yr/parent_ra_notes_3yr_schema",
             "../activities/fitbit_preassessment_parent/fitbit_preassessment_parent_schema",
             "../activities/p_parent_ra_notes_2/p_parent_ra_notes_2_schema",
             "../activities/p_parent_ra_notes_one_year_followup/p_parent_ra_notes_one_year_followup_schema",
@@ -338,7 +338,7 @@
             "../activities/acs_post_stratification_weights_daic_use_only/acs_post_stratification_weights_daic_use_only_schema",
             "../activities/little_man_task_daic_use_only/little_man_task_daic_use_only_schema",
             "../activities/y_millisecond_bird_sum_scores/y_millisecond_bird_sum_scores_schema",
-            "../activities/y_youth_ra_notes_three_four_year/y_youth_ra_notes_three_four_year_schema"
+            "../activities/p_parent_ra_notes_three_four_year/p_parent_ra_notes_three_four_year_schema"
         ],
         "addProperties": [
             {
@@ -1254,6 +1254,14 @@
                 "variableName": "y_youth_ra_notes_one_year_followup_schema"
             },
             {
+                "isAbout": "../activities/y_youth_ra_notes_three_four_year/y_youth_ra_notes_three_four_year_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Youth Ra Notes Three Four Year"
+                },
+                "variableName": "y_youth_ra_notes_three_four_year_schema"
+            },
+            {
                 "isAbout": "../activities/y_ra_feedback_4_yr_pilot/y_ra_feedback_4_yr_pilot_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -1748,14 +1756,6 @@
                     "en": "Y Ears Post Questionnaire"
                 },
                 "variableName": "y_ears_post_questionnaire_schema"
-            },
-            {
-                "isAbout": "../activities/parent_ra_notes_3yr/parent_ra_notes_3yr_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Parent Ra Notes 3Yr"
-                },
-                "variableName": "parent_ra_notes_3yr_schema"
             },
             {
                 "isAbout": "../activities/fitbit_preassessment_parent/fitbit_preassessment_parent_schema",
@@ -2966,16 +2966,16 @@
                 "variableName": "y_millisecond_bird_sum_scores_schema"
             },
             {
-                "isAbout": "../activities/y_youth_ra_notes_three_four_year/y_youth_ra_notes_three_four_year_schema",
+                "isAbout": "../activities/p_parent_ra_notes_three_four_year/p_parent_ra_notes_three_four_year_schema",
                 "isVis": true,
                 "prefLabel": {
-                    "en": "Y Youth Ra Notes Three Four Year"
+                    "en": "P Parent Ra Notes Three Four Year"
                 },
-                "variableName": "y_youth_ra_notes_three_four_year_schema"
+                "variableName": "p_parent_ra_notes_three_four_year_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2673",
+    "version": "revid2674",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

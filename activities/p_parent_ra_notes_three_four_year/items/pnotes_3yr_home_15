@@ -1,0 +1,122 @@
+{
+    "id": "pnotes_3yr_home_15",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDEFROMCOMPLETION20201118"
+        }
+    ],
+    "preamble": {
+        "en": "COMPLETION METHODTake Home Surveys / Remote Completion"
+    },
+    "prefLabel": {
+        "en": "pnotes_3yr_home_15"
+    },
+    "question": {
+        "en": "Please Check Each Assessment that was Completed at Home"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "SU Density, Storage, & Exposure"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Pubertal Development Scale"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Sleep Disturbance for Children"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Screen Time"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Screen Time of Parent"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Prosocial Behavior"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Difficulty in Emotion Regulation"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Berkeley Deficits in Executive Functioning"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Parent Rules"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Perceived Stress Scale"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "International Physical Activity Questionnaire"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "SU Community Risk and Protective Factors"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "School Attendance and Grades"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Acculturation"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "Mexican American Cultural Values"
+                },
+                "value": 15
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

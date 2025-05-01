@@ -1,0 +1,49 @@
+{
+    "id": "pnotes_4yr_ra_survey_loc_dev_hist",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "pnotes_4yr_ra_survey_loc"
+        }
+    ],
+    "preamble": {
+        "en": "Please check how parent completed each of theRA Administered Surveys."
+    },
+    "prefLabel": {
+        "en": "pnotes_4yr_ra_survey_loc_dev_hist"
+    },
+    "question": {
+        "en": "Developmental History"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "At Research Site"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "By Phone"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Off-site, In-person"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
