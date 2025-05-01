@@ -1,11 +1,11 @@
 {
-    "id": "child_symptoms_cv",
+    "id": "p_vaccination_2_cv",
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
             "column": "Field Annotation",
             "source": "redcap",
-            "value": "@NONEOFTHEABOVE = '4'"
+            "value": "HIDEFROMCOMPLETION20201211"
         }
     ],
     "preamble": {
@@ -13,44 +13,43 @@
         "es": "Por favor responda las siguientes preguntas sobre su hijo(a):"
     },
     "prefLabel": {
-        "en": "child_symptoms_cv"
+        "en": "p_vaccination_2_cv"
     },
     "question": {
-        "en": "Which of the following symptoms has your child had at any point in time since March 2020? (check all that apply)",
-        "es": "\u00c2\u00bfCu\u00c3\u00a1l de los siguientes s\u00c3\u00adntomas ha tenido su hijo en alg\u00c3\u00ban momento desde marzo de 2020? (marque todo lo que corresponda)"
+        "en": "If a vaccine to prevent coronavirus/COVID-19 with FDA approval for children was available right now at no cost, would you have your child vaccinated?",
+        "es": "Si una vacuna contra el COVID-19 aprobada por la Administraci\u00c3\u00b3n de Alimentos y Medicamentos (FDA) estuviera disponible ahora mismo sin costo, \u00c2\u00bfestar\u00c3\u00ada usted de acuerdo en ser vacunada?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Fever or chills",
-                    "es": "Fiebre o escalofr\u00c3\u00ados"
+                    "en": "No",
+                    "es": "No"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Cough",
-                    "es": "Tos"
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Shortness of breath",
-                    "es": "Dificultad para respirar"
+                    "en": "Don't know",
+                    "es": "No se"
                 },
-                "value": 3
+                "value": 999
             },
             {
                 "name": {
-                    "en": "None of the above",
-                    "es": "Ninguno de los anteriores"
+                    "en": "Refuse to answer",
+                    "es": "Niego a contestar"
                 },
-                "value": 4
+                "value": 777
             }
         ],
-        "multipleChoice": true,
         "valueType": [
             "xsd:integer"
         ]

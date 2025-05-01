@@ -64,6 +64,7 @@
             "items/fam_discord_cv",
             "items/ext_fam_diag_cv",
             "items/ext_fam_severity_cv",
+            "items/p_vaccination_cv",
             "items/future_scan_cv"
         ],
         "addProperties": [
@@ -225,43 +226,43 @@
             },
             {
                 "isAbout": "items/fam_exp_racism_cv",
-                "isVis": "event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv3_arm_2'",
+                "isVis": "event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv3_arm_2' OR event - name == 'covid19_cv5_arm_2'",
                 "valueRequired": true,
                 "variableName": "fam_exp_racism_cv"
             },
             {
                 "isAbout": "items/increased_conflict_cv",
-                "isVis": "event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv3_arm_2'",
+                "isVis": "event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv3_arm_2' OR event - name == 'covid19_cv5_arm_2'",
                 "valueRequired": true,
                 "variableName": "increased_conflict_cv"
             },
             {
                 "isAbout": "items/worry_about_cv",
-                "isVis": "event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv3_arm_2'",
+                "isVis": "event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv3_arm_2' OR event - name == 'covid19_cv5_arm_2'",
                 "valueRequired": true,
                 "variableName": "worry_about_cv"
             },
             {
                 "isAbout": "items/get_coronavirus_cv",
-                "isVis": "event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv3_arm_2'",
+                "isVis": "event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv3_arm_2' OR event - name == 'covid19_cv5_arm_2'",
                 "valueRequired": true,
                 "variableName": "get_coronavirus_cv"
             },
             {
                 "isAbout": "items/think_will_hospitalized_cv",
-                "isVis": "event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv3_arm_2'",
+                "isVis": "event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv3_arm_2' OR event - name == 'covid19_cv5_arm_2'",
                 "valueRequired": true,
                 "variableName": "think_will_hospitalized_cv"
             },
             {
                 "isAbout": "items/think_will_get_cv",
-                "isVis": "event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv3_arm_2'",
+                "isVis": "event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv3_arm_2' OR event - name == 'covid19_cv5_arm_2'",
                 "valueRequired": true,
                 "variableName": "think_will_get_cv"
             },
             {
                 "isAbout": "items/think_someone_close_get_cv",
-                "isVis": "event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv3_arm_2'",
+                "isVis": "event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv3_arm_2' OR event - name == 'covid19_cv5_arm_2'",
                 "valueRequired": true,
                 "variableName": "think_someone_close_get_cv"
             },
@@ -410,14 +411,20 @@
                 "variableName": "ext_fam_severity_cv"
             },
             {
+                "isAbout": "items/p_vaccination_cv",
+                "isVis": "event - name == 'covid19_cv5_arm_2'",
+                "valueRequired": true,
+                "variableName": "p_vaccination_cv"
+            },
+            {
                 "isAbout": "items/future_scan_cv",
-                "isVis": "event - name == 'covid19_cv2_arm_2'",
+                "isVis": "event - name == 'covid19_cv2_arm_2' OR event - name == 'covid19_cv5_arm_2'",
                 "valueRequired": true,
                 "variableName": "future_scan_cv"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2684",
+    "version": "revid2685",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

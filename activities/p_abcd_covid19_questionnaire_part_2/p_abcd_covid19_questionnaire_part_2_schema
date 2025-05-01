@@ -96,6 +96,7 @@
             "items/child_test_1_cv",
             "items/child_test_2_cv",
             "items/child_test_3_cv",
+            "items/p_vaccination_2_cv",
             "items/child_care_impact_cv",
             "items/child_fear_cv",
             "items/child_enjoy_cv",
@@ -336,7 +337,7 @@
             },
             {
                 "isAbout": "items/school_nutrition_cv",
-                "isVis": "school_close_cv == '2'",
+                "isVis": "school_close_cv == '2' OR(school_at_home_cv == '1' AND event - name == 'covid19_cv5_arm_2')",
                 "valueRequired": true,
                 "variableName": "school_nutrition_cv"
             },
@@ -360,7 +361,7 @@
             },
             {
                 "isAbout": "items/school_prep_new_cv",
-                "isVis": "event - name == 'covid19_cv4_arm_2'",
+                "isVis": "event - name == 'covid19_cv4_arm_2' OR event - name == 'covid19_cv5_arm_2'",
                 "valueRequired": true,
                 "variableName": "school_prep_new_cv"
             },
@@ -384,7 +385,7 @@
             },
             {
                 "isAbout": "items/child_phys_activity_time_2_cv",
-                "isVis": "child_phys_activity_days_cv <> '8' AND child_phys_activity_days_cv <> '' AND(event - name == 'covid19_cv3_arm_2' OR event - name == 'covid19_cv4_arm_2')",
+                "isVis": "child_phys_activity_days_cv <> '8' AND child_phys_activity_days_cv <> '' AND(event - name == 'covid19_cv3_arm_2' OR event - name == 'covid19_cv4_arm_2' OR event - name == 'covid19_cv5_arm_2')",
                 "valueRequired": true,
                 "variableName": "child_phys_activity_time_2_cv"
             },
@@ -408,31 +409,31 @@
             },
             {
                 "isAbout": "items/child_reluc_cv",
-                "isVis": "event - name == 'covid19_cv2_arm_2' || event - name == 'covid19_cv4_arm_2'",
+                "isVis": "event - name == 'covid19_cv2_arm_2' || event - name == 'covid19_cv4_arm_2' OR event - name == 'covid19_cv5_arm_2'",
                 "valueRequired": true,
                 "variableName": "child_reluc_cv"
             },
             {
                 "isAbout": "items/child_sleep_difficult_cv",
-                "isVis": "event - name == 'covid19_cv2_arm_2' || event - name == 'covid19_cv4_arm_2'",
+                "isVis": "event - name == 'covid19_cv2_arm_2' || event - name == 'covid19_cv4_arm_2' OR event - name == 'covid19_cv5_arm_2'",
                 "valueRequired": true,
                 "variableName": "child_sleep_difficult_cv"
             },
             {
                 "isAbout": "items/child_sleep_anxiety_cv",
-                "isVis": "event - name == 'covid19_cv2_arm_2' || event - name == 'covid19_cv4_arm_2'",
+                "isVis": "event - name == 'covid19_cv2_arm_2' || event - name == 'covid19_cv4_arm_2' OR event - name == 'covid19_cv5_arm_2'",
                 "valueRequired": true,
                 "variableName": "child_sleep_anxiety_cv"
             },
             {
                 "isAbout": "items/child_wake_up",
-                "isVis": "event - name == 'covid19_cv2_arm_2' || event - name == 'covid19_cv4_arm_2'",
+                "isVis": "event - name == 'covid19_cv2_arm_2' || event - name == 'covid19_cv4_arm_2' OR event - name == 'covid19_cv5_arm_2'",
                 "valueRequired": true,
                 "variableName": "child_wake_up"
             },
             {
                 "isAbout": "items/child_sleep_again",
-                "isVis": "event - name == 'covid19_cv2_arm_2' || event - name == 'covid19_cv4_arm_2'",
+                "isVis": "event - name == 'covid19_cv2_arm_2' || event - name == 'covid19_cv4_arm_2' OR event - name == 'covid19_cv5_arm_2'",
                 "valueRequired": true,
                 "variableName": "child_sleep_again"
             },
@@ -450,13 +451,13 @@
             },
             {
                 "isAbout": "items/child_avg_elec_time_2_cv",
-                "isVis": "(event - name == 'covid19_cv3_arm_2' || event - name == 'covid19_cv4_arm_2')",
+                "isVis": "(event - name == 'covid19_cv3_arm_2' || event - name == 'covid19_cv4_arm_2' OR event - name == 'covid19_cv5_arm_2')",
                 "valueRequired": true,
                 "variableName": "child_avg_elec_time_2_cv"
             },
             {
                 "isAbout": "items/child_screen_instruc_cv",
-                "isVis": true,
+                "isVis": "child_avg_elec_time_2_cv > '0'",
                 "valueRequired": false,
                 "variableName": "child_screen_instruc_cv"
             },
@@ -474,7 +475,7 @@
             },
             {
                 "isAbout": "items/child_texting_time_2_cv",
-                "isVis": "(event - name == 'covid19_cv3_arm_2' || event - name == 'covid19_cv4_arm_2')",
+                "isVis": "(event - name == 'covid19_cv3_arm_2' || event - name == 'covid19_cv4_arm_2' OR event - name == 'covid19_cv5_arm_2')AND child_avg_elec_time_2_cv > '0'",
                 "valueRequired": true,
                 "variableName": "child_texting_time_2_cv"
             },
@@ -492,7 +493,7 @@
             },
             {
                 "isAbout": "items/child_video_chat_time_2_cv",
-                "isVis": "(event - name == 'covid19_cv3_arm_2' || event - name == 'covid19_cv4_arm_2')",
+                "isVis": "(event - name == 'covid19_cv3_arm_2' || event - name == 'covid19_cv4_arm_2' OR event - name == 'covid19_cv5_arm_2')AND child_avg_elec_time_2_cv > '0'",
                 "valueRequired": true,
                 "variableName": "child_video_chat_time_2_cv"
             },
@@ -510,7 +511,7 @@
             },
             {
                 "isAbout": "items/child_social_media_time_2_cv",
-                "isVis": "(event - name == 'covid19_cv3_arm_2' || event - name == 'covid19_cv4_arm_2')",
+                "isVis": "(event - name == 'covid19_cv3_arm_2' || event - name == 'covid19_cv4_arm_2' OR event - name == 'covid19_cv5_arm_2')AND child_avg_elec_time_2_cv > '0'",
                 "valueRequired": true,
                 "variableName": "child_social_media_time_2_cv"
             },
@@ -528,7 +529,7 @@
             },
             {
                 "isAbout": "items/child_gaming_time_2_cv",
-                "isVis": "(event - name == 'covid19_cv3_arm_2' || event - name == 'covid19_cv4_arm_2')",
+                "isVis": "(event - name == 'covid19_cv3_arm_2' || event - name == 'covid19_cv4_arm_2' OR event - name == 'covid19_cv5_arm_2')AND child_avg_elec_time_2_cv > '0'",
                 "valueRequired": true,
                 "variableName": "child_gaming_time_2_cv"
             },
@@ -665,6 +666,12 @@
                 "variableName": "child_test_3_cv"
             },
             {
+                "isAbout": "items/p_vaccination_2_cv",
+                "isVis": "event - name == 'covid19_cv5_arm_2'",
+                "valueRequired": false,
+                "variableName": "p_vaccination_2_cv"
+            },
+            {
                 "isAbout": "items/child_care_impact_cv",
                 "isVis": true,
                 "valueRequired": true,
@@ -732,7 +739,7 @@
             },
             {
                 "isAbout": "items/talk_mask_cv",
-                "isVis": "(event - name == 'covid19_cv3_arm_2' || event - name == 'covid19_cv4_arm_2')",
+                "isVis": "(event - name == 'covid19_cv3_arm_2' || event - name == 'covid19_cv4_arm_2' OR event - name == 'covid19_cv5_arm_2')",
                 "valueRequired": true,
                 "variableName": "talk_mask_cv"
             },
@@ -859,6 +866,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2684",
+    "version": "revid2685",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

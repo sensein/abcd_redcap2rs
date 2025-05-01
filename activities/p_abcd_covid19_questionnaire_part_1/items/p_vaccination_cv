@@ -1,0 +1,60 @@
+{
+    "id": "p_vaccination_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20201210"
+        }
+    ],
+    "preamble": {
+        "en": "Vaccinations"
+    },
+    "prefLabel": {
+        "en": "p_vaccination_cv"
+    },
+    "question": {
+        "en": "If an FDA-approved vaccine to prevent coronavirus/COVID-19 was available right now at no cost, would you agree to be vaccinated?",
+        "es": "Si una vacuna contra el COVID-19 aprobada para ni\u00c3\u00b1a/os por la Administraci\u00c3\u00b3n de Alimentos y Medicamentos (FDA) estuviera disponible ahora mismo sin costo, \u00c2\u00bfvacunar\u00c3\u00ada a su hija/o?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Don't know",
+                    "es": "No se"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer",
+                    "es": "Niego a contestar"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

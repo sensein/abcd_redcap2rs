@@ -5,7 +5,7 @@
         {
             "column": "Field Annotation",
             "source": "redcap",
-            "value": "HIDEFROMCOMPLETION20200726"
+            "value": "HIDEFROMCOMPLETION20200726 @HIDECHOICE = '14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28'"
         }
     ],
     "preamble": {
@@ -26,6 +26,12 @@
                     "en": "0"
                 },
                 "value": 0
+            },
+            {
+                "name": {
+                    "en": "##en##15 Minutes##/en####es##15 Minutos##/es##>"
+                },
+                "value": 29
             },
             {
                 "name": {
@@ -101,7 +107,7 @@
             },
             {
                 "name": {
-                    "en": "##en##9 Hour##/en####es##9 Horas##/es##>"
+                    "en": "##en##9 Hour or more##/en####es##9 Horas##/es##>"
                 },
                 "value": 13
             },
