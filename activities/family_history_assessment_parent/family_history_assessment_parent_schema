@@ -143,15 +143,15 @@
             "items/q5m_full_sib_same2_drugs",
             "items/fam_history_drugs_describe",
             "items/fam_history_6_yes_no",
-            "items/fam_hx_dep_rel",
-            "items/fam_history_q6a_depression",
-            "items/fam_history_q6b_depression",
-            "items/fam_history_q6c_depression",
             "items/fam_history_q6d_depression",
+            "items/fam_hx_dep_rel",
             "items/fam_history_q6e_depression",
+            "items/fam_history_q6a_depression",
             "items/fam_history_q6f_depression",
             "items/q6g_pat_uncle1_depression",
+            "items/fam_history_q6b_depression",
             "items/q6g_pat_uncle2_depression",
+            "items/fam_history_q6c_depression",
             "items/q6g_pat_uncle3_depression",
             "items/q6g_pat_uncle4_depression",
             "items/q6g_pat_uncle5_depression",
@@ -1370,40 +1370,28 @@
                 "variableName": "fam_history_6_yes_no"
             },
             {
-                "isAbout": "items/fam_hx_dep_rel",
-                "isVis": "famhx_1 == '1' && fam_history_6_yes_no == '1'",
-                "valueRequired": false,
-                "variableName": "fam_hx_dep_rel"
-            },
-            {
-                "isAbout": "items/fam_history_q6a_depression",
-                "isVis": "famhx_1 == '1' && fam_history_6_yes_no == '1'",
-                "valueRequired": true,
-                "variableName": "fam_history_q6a_depression"
-            },
-            {
-                "isAbout": "items/fam_history_q6b_depression",
-                "isVis": "famhx_1 == '1' && fam_history_6_yes_no == '1'",
-                "valueRequired": true,
-                "variableName": "fam_history_q6b_depression"
-            },
-            {
-                "isAbout": "items/fam_history_q6c_depression",
-                "isVis": "famhx_1 == '1' && fam_history_6_yes_no == '1'",
-                "valueRequired": true,
-                "variableName": "fam_history_q6c_depression"
-            },
-            {
                 "isAbout": "items/fam_history_q6d_depression",
                 "isVis": "famhx_1 == '1' && fam_history_6_yes_no == '1'",
                 "valueRequired": true,
                 "variableName": "fam_history_q6d_depression"
             },
             {
+                "isAbout": "items/fam_hx_dep_rel",
+                "isVis": "famhx_1 == '1' && fam_history_6_yes_no == '1'",
+                "valueRequired": false,
+                "variableName": "fam_hx_dep_rel"
+            },
+            {
                 "isAbout": "items/fam_history_q6e_depression",
                 "isVis": "famhx_1 == '1' && fam_history_6_yes_no == '1'",
                 "valueRequired": true,
                 "variableName": "fam_history_q6e_depression"
+            },
+            {
+                "isAbout": "items/fam_history_q6a_depression",
+                "isVis": "famhx_1 == '1' && fam_history_6_yes_no == '1'",
+                "valueRequired": true,
+                "variableName": "fam_history_q6a_depression"
             },
             {
                 "isAbout": "items/fam_history_q6f_depression",
@@ -1418,10 +1406,22 @@
                 "variableName": "q6g_pat_uncle1_depression"
             },
             {
+                "isAbout": "items/fam_history_q6b_depression",
+                "isVis": "famhx_1 == '1' && fam_history_6_yes_no == '1'",
+                "valueRequired": true,
+                "variableName": "fam_history_q6b_depression"
+            },
+            {
                 "isAbout": "items/q6g_pat_uncle2_depression",
                 "isVis": "famhx_1 == '1' && fam_history_6_yes_no == '1' && famhx_2a_p > 1 && famhx_2a_p <> 999",
                 "valueRequired": true,
                 "variableName": "q6g_pat_uncle2_depression"
+            },
+            {
+                "isAbout": "items/fam_history_q6c_depression",
+                "isVis": "famhx_1 == '1' && fam_history_6_yes_no == '1'",
+                "valueRequired": true,
+                "variableName": "fam_history_q6c_depression"
             },
             {
                 "isAbout": "items/q6g_pat_uncle3_depression",
@@ -3820,6 +3820,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2690",
+    "version": "revid2691",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

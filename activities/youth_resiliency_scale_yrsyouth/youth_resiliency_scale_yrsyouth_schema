@@ -12,10 +12,12 @@
             "items/resiliency_directions_2",
             "items/resiliency5a_y",
             "items/resiliency6a_y",
+            "items/resiliency7a_y",
             "items/resiliency_directions3",
             "items/resiliency_directions_4",
             "items/resiliency5b_y",
             "items/resiliency6b_y",
+            "items/resiliency7b_y",
             "items/resiliency_admin",
             "items/resiliency_remote",
             "items/resiliency_device",
@@ -53,6 +55,12 @@
                 "variableName": "resiliency6a_y"
             },
             {
+                "isAbout": "items/resiliency7a_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "resiliency7a_y"
+            },
+            {
                 "isAbout": "items/resiliency_directions3",
                 "isVis": "event_name_number < 31",
                 "valueRequired": false,
@@ -75,6 +83,12 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "resiliency6b_y"
+            },
+            {
+                "isAbout": "items/resiliency7b_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "resiliency7b_y"
             },
             {
                 "isAbout": "items/resiliency_admin",
@@ -103,6 +117,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2690",
+    "version": "revid2691",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

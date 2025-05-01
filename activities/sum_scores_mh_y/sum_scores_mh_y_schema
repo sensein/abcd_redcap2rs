@@ -134,13 +134,13 @@
             "items/stq_y_ss_weekend",
             "items/stq_y_ss_weekend_nm",
             "items/stq_y_ss_weekend_nt",
-            "items/bis_y_ss_bis_sum",
-            "items/bis_y_ss_bis_sum_nm",
-            "items/bis_y_ss_bis_sum_nt",
             "items/bis_y_ss_bas_rr",
             "items/bis_y_ss_bas_rr_nm",
+            "items/bis_y_ss_bis_sum",
             "items/bis_y_ss_bas_rr_nt",
             "items/bis_y_ss_bas_drive",
+            "items/bis_y_ss_bis_sum_nm",
+            "items/bis_y_ss_bis_sum_nt",
             "items/bis_y_ss_bas_drive_nm",
             "items/bis_y_ss_bas_drive_nt",
             "items/bis_y_ss_bas_fs",
@@ -606,24 +606,6 @@
                 "variableName": "stq_y_ss_weekend_nt"
             },
             {
-                "isAbout": "items/bis_y_ss_bis_sum",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "bis_y_ss_bis_sum"
-            },
-            {
-                "isAbout": "items/bis_y_ss_bis_sum_nm",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "bis_y_ss_bis_sum_nm"
-            },
-            {
-                "isAbout": "items/bis_y_ss_bis_sum_nt",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "bis_y_ss_bis_sum_nt"
-            },
-            {
                 "isAbout": "items/bis_y_ss_bas_rr",
                 "isVis": false,
                 "valueRequired": false,
@@ -636,6 +618,12 @@
                 "variableName": "bis_y_ss_bas_rr_nm"
             },
             {
+                "isAbout": "items/bis_y_ss_bis_sum",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bis_y_ss_bis_sum"
+            },
+            {
                 "isAbout": "items/bis_y_ss_bas_rr_nt",
                 "isVis": false,
                 "valueRequired": false,
@@ -646,6 +634,18 @@
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "bis_y_ss_bas_drive"
+            },
+            {
+                "isAbout": "items/bis_y_ss_bis_sum_nm",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bis_y_ss_bis_sum_nm"
+            },
+            {
+                "isAbout": "items/bis_y_ss_bis_sum_nt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bis_y_ss_bis_sum_nt"
             },
             {
                 "isAbout": "items/bis_y_ss_bas_drive_nm",
@@ -986,6 +986,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2690",
+    "version": "revid2691",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

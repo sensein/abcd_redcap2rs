@@ -358,15 +358,15 @@
             "items/socialdev_cvict_p7_fup",
             "items/socialdev_cvict_p7_a",
             "items/socialdev_cvict_p7_b_y",
+            "items/socialdev_cvict_p7_f_01",
             "items/socialdev_cvict_p7_last_text",
             "items/socialdev_cvict_p7_c",
-            "items/socialdev_cvict_p7_d_y",
-            "items/socialdev_cvict_p7_e",
-            "items/socialdev_cvict_p7_f",
-            "items/socialdev_cvict_p7_f_01",
             "items/socialdev_cvict_p7_f_02",
+            "items/socialdev_cvict_p7_d_y",
             "items/socialdev_cvict_p7_f_03",
+            "items/socialdev_cvict_p7_e",
             "items/socialdev_cvict_p7_f_04",
+            "items/socialdev_cvict_p7_f",
             "items/socialdev_cvict_p7_f_05",
             "items/socialdev_cvict_p7_f_06",
             "items/socialdev_cvict_p7_f_07",
@@ -2983,6 +2983,12 @@
                 "variableName": "socialdev_cvict_p7_b_y"
             },
             {
+                "isAbout": "items/socialdev_cvict_p7_f_01",
+                "isVis": "socialdev_cvict_p7_e== '1' AND socialdev_cvict_c1== '1'",
+                "valueRequired": false,
+                "variableName": "socialdev_cvict_p7_f_01"
+            },
+            {
                 "isAbout": "items/socialdev_cvict_p7_last_text",
                 "isVis": "socialdev_cvict_p7== '1' AND socialdev_cvict_p7_a>1",
                 "valueRequired": false,
@@ -2995,34 +3001,16 @@
                 "variableName": "socialdev_cvict_p7_c"
             },
             {
-                "isAbout": "items/socialdev_cvict_p7_d_y",
-                "isVis": "socialdev_cvict_p7== '1'",
-                "valueRequired": false,
-                "variableName": "socialdev_cvict_p7_d_y"
-            },
-            {
-                "isAbout": "items/socialdev_cvict_p7_e",
-                "isVis": "socialdev_cvict_p7== '1' AND(socialdev_cvict_c1== '1' OR socialdev_cvict_c2== '1' OR socialdev_cvict_c3== '1' OR socialdev_cvict_c4== '1' OR socialdev_cvict_c5== '1' OR socialdev_cvict_c6== '1' OR socialdev_cvict_c7== '1' OR socialdev_cvict_c8== '1' OR socialdev_cvict_c9== '1' OR socialdev_cvict_p1== '1' OR socialdev_cvict_p2== '1' OR socialdev_cvict_p3== '1' OR socialdev_cvict_p4== '1' OR socialdev_cvict_p5== '1' OR socialdev_cvict_p6== '1')",
-                "valueRequired": false,
-                "variableName": "socialdev_cvict_p7_e"
-            },
-            {
-                "isAbout": "items/socialdev_cvict_p7_f",
-                "isVis": "socialdev_cvict_p7_e== '1'",
-                "valueRequired": false,
-                "variableName": "socialdev_cvict_p7_f"
-            },
-            {
-                "isAbout": "items/socialdev_cvict_p7_f_01",
-                "isVis": "socialdev_cvict_p7_e== '1' AND socialdev_cvict_c1== '1'",
-                "valueRequired": false,
-                "variableName": "socialdev_cvict_p7_f_01"
-            },
-            {
                 "isAbout": "items/socialdev_cvict_p7_f_02",
                 "isVis": "socialdev_cvict_p7_e== '1' AND socialdev_cvict_c2== '1'",
                 "valueRequired": false,
                 "variableName": "socialdev_cvict_p7_f_02"
+            },
+            {
+                "isAbout": "items/socialdev_cvict_p7_d_y",
+                "isVis": "socialdev_cvict_p7== '1'",
+                "valueRequired": false,
+                "variableName": "socialdev_cvict_p7_d_y"
             },
             {
                 "isAbout": "items/socialdev_cvict_p7_f_03",
@@ -3031,10 +3019,22 @@
                 "variableName": "socialdev_cvict_p7_f_03"
             },
             {
+                "isAbout": "items/socialdev_cvict_p7_e",
+                "isVis": "socialdev_cvict_p7== '1' AND(socialdev_cvict_c1== '1' OR socialdev_cvict_c2== '1' OR socialdev_cvict_c3== '1' OR socialdev_cvict_c4== '1' OR socialdev_cvict_c5== '1' OR socialdev_cvict_c6== '1' OR socialdev_cvict_c7== '1' OR socialdev_cvict_c8== '1' OR socialdev_cvict_c9== '1' OR socialdev_cvict_p1== '1' OR socialdev_cvict_p2== '1' OR socialdev_cvict_p3== '1' OR socialdev_cvict_p4== '1' OR socialdev_cvict_p5== '1' OR socialdev_cvict_p6== '1')",
+                "valueRequired": false,
+                "variableName": "socialdev_cvict_p7_e"
+            },
+            {
                 "isAbout": "items/socialdev_cvict_p7_f_04",
                 "isVis": "socialdev_cvict_p7_e== '1' AND socialdev_cvict_c4== '1'",
                 "valueRequired": false,
                 "variableName": "socialdev_cvict_p7_f_04"
+            },
+            {
+                "isAbout": "items/socialdev_cvict_p7_f",
+                "isVis": "socialdev_cvict_p7_e== '1'",
+                "valueRequired": false,
+                "variableName": "socialdev_cvict_p7_f"
             },
             {
                 "isAbout": "items/socialdev_cvict_p7_f_05",
@@ -6081,6 +6081,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2690",
+    "version": "revid2691",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

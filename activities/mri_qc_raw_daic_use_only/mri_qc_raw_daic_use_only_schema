@@ -387,14 +387,14 @@
             "items/iqc_dmri_6_dterr_mean",
             "items/iqc_dmri_6_dterr_median",
             "items/iqc_dmri_6_dterr_std",
+            "items/iqc_dmri_ok_ser",
             "items/iqc_dmri_total_ser",
+            "items/iqc_dmri_bad_ser",
             "items/iqc_dmri_total_passpc",
             "items/iqc_dmri_total_passqc",
-            "items/iqc_dmri_good_ser",
-            "items/iqc_dmri_ok_ser",
-            "items/iqc_dmri_bad_ser",
             "items/iqc_dmri_ser_pc_issues",
             "items/iqc_dmri_ser_qcs",
+            "items/iqc_dmri_good_ser",
             "items/iqc_dmri_ser_incomp",
             "items/iqc_dmri_fm_missing",
             "items/iqc_dmri_fm_wronglocus",
@@ -1402,15 +1402,15 @@
             "items/iqc_sst_4_studydate",
             "items/iqc_sst_4_seriestime",
             "items/iqc_sst_4_fm_missing",
-            "items/iqc_sst_4_fm_wronglocus",
-            "items/iqc_sst_4_fm_invalid",
-            "items/iqc_sst_4_fm_qc_score",
-            "items/iqc_sst_4_fm_qc_notes",
             "items/iqc_sst_4_fm_pc_score",
             "items/iqc_sst_4_fm_pc_notes",
+            "items/iqc_sst_4_fm_wronglocus",
+            "items/iqc_sst_4_fm_invalid",
             "items/iqc_sst_4_fm_complete",
             "items/iqc_sst_4_qc_score",
+            "items/iqc_sst_4_fm_qc_score",
             "items/iqc_sst_4_qc_notes",
+            "items/iqc_sst_4_fm_qc_notes",
             "items/iqc_sst_4_pc_score",
             "items/iqc_sst_4_pc_notes",
             "items/iqc_sst_4_complete",
@@ -1891,14 +1891,14 @@
             "items/iqc_t1_unpacked",
             "items/iqc_t1_unpack_err",
             "items/iqc_t1_imported",
-            "items/iqc_t2_received",
-            "items/iqc_t2_unpacked",
-            "items/iqc_t2_unpack_err",
-            "items/iqc_t2_imported",
             "items/iqc_dmri_received",
+            "items/iqc_t2_received",
             "items/iqc_dmri_unpacked",
+            "items/iqc_t2_unpacked",
             "items/iqc_dmri_unpack_err",
+            "items/iqc_t2_unpack_err",
             "items/iqc_dmri_recon_req",
+            "items/iqc_t2_imported",
             "items/iqc_dmri_missing_ks",
             "items/iqc_dmri_reconned",
             "items/iqc_dmri_recon_err",
@@ -4398,10 +4398,22 @@
                 "variableName": "iqc_dmri_6_dterr_std"
             },
             {
+                "isAbout": "items/iqc_dmri_ok_ser",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "iqc_dmri_ok_ser"
+            },
+            {
                 "isAbout": "items/iqc_dmri_total_ser",
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "iqc_dmri_total_ser"
+            },
+            {
+                "isAbout": "items/iqc_dmri_bad_ser",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "iqc_dmri_bad_ser"
             },
             {
                 "isAbout": "items/iqc_dmri_total_passpc",
@@ -4416,24 +4428,6 @@
                 "variableName": "iqc_dmri_total_passqc"
             },
             {
-                "isAbout": "items/iqc_dmri_good_ser",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "iqc_dmri_good_ser"
-            },
-            {
-                "isAbout": "items/iqc_dmri_ok_ser",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "iqc_dmri_ok_ser"
-            },
-            {
-                "isAbout": "items/iqc_dmri_bad_ser",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "iqc_dmri_bad_ser"
-            },
-            {
                 "isAbout": "items/iqc_dmri_ser_pc_issues",
                 "isVis": false,
                 "valueRequired": false,
@@ -4444,6 +4438,12 @@
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "iqc_dmri_ser_qcs"
+            },
+            {
+                "isAbout": "items/iqc_dmri_good_ser",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "iqc_dmri_good_ser"
             },
             {
                 "isAbout": "items/iqc_dmri_ser_incomp",
@@ -10488,30 +10488,6 @@
                 "variableName": "iqc_sst_4_fm_missing"
             },
             {
-                "isAbout": "items/iqc_sst_4_fm_wronglocus",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "iqc_sst_4_fm_wronglocus"
-            },
-            {
-                "isAbout": "items/iqc_sst_4_fm_invalid",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "iqc_sst_4_fm_invalid"
-            },
-            {
-                "isAbout": "items/iqc_sst_4_fm_qc_score",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "iqc_sst_4_fm_qc_score"
-            },
-            {
-                "isAbout": "items/iqc_sst_4_fm_qc_notes",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "iqc_sst_4_fm_qc_notes"
-            },
-            {
                 "isAbout": "items/iqc_sst_4_fm_pc_score",
                 "isVis": false,
                 "valueRequired": false,
@@ -10522,6 +10498,18 @@
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "iqc_sst_4_fm_pc_notes"
+            },
+            {
+                "isAbout": "items/iqc_sst_4_fm_wronglocus",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "iqc_sst_4_fm_wronglocus"
+            },
+            {
+                "isAbout": "items/iqc_sst_4_fm_invalid",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "iqc_sst_4_fm_invalid"
             },
             {
                 "isAbout": "items/iqc_sst_4_fm_complete",
@@ -10536,10 +10524,22 @@
                 "variableName": "iqc_sst_4_qc_score"
             },
             {
+                "isAbout": "items/iqc_sst_4_fm_qc_score",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "iqc_sst_4_fm_qc_score"
+            },
+            {
                 "isAbout": "items/iqc_sst_4_qc_notes",
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "iqc_sst_4_qc_notes"
+            },
+            {
+                "isAbout": "items/iqc_sst_4_fm_qc_notes",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "iqc_sst_4_fm_qc_notes"
             },
             {
                 "isAbout": "items/iqc_sst_4_pc_score",
@@ -13422,34 +13422,16 @@
                 "variableName": "iqc_t1_imported"
             },
             {
-                "isAbout": "items/iqc_t2_received",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "iqc_t2_received"
-            },
-            {
-                "isAbout": "items/iqc_t2_unpacked",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "iqc_t2_unpacked"
-            },
-            {
-                "isAbout": "items/iqc_t2_unpack_err",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "iqc_t2_unpack_err"
-            },
-            {
-                "isAbout": "items/iqc_t2_imported",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "iqc_t2_imported"
-            },
-            {
                 "isAbout": "items/iqc_dmri_received",
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "iqc_dmri_received"
+            },
+            {
+                "isAbout": "items/iqc_t2_received",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "iqc_t2_received"
             },
             {
                 "isAbout": "items/iqc_dmri_unpacked",
@@ -13458,16 +13440,34 @@
                 "variableName": "iqc_dmri_unpacked"
             },
             {
+                "isAbout": "items/iqc_t2_unpacked",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "iqc_t2_unpacked"
+            },
+            {
                 "isAbout": "items/iqc_dmri_unpack_err",
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "iqc_dmri_unpack_err"
             },
             {
+                "isAbout": "items/iqc_t2_unpack_err",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "iqc_t2_unpack_err"
+            },
+            {
                 "isAbout": "items/iqc_dmri_recon_req",
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "iqc_dmri_recon_req"
+            },
+            {
+                "isAbout": "items/iqc_t2_imported",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "iqc_t2_imported"
             },
             {
                 "isAbout": "items/iqc_dmri_missing_ks",
@@ -14768,6 +14768,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2690",
+    "version": "revid2691",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

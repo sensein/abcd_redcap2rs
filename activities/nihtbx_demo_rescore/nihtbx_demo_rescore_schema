@@ -51,19 +51,19 @@
             "items/nihtbx_demo_rescore_uncorrlistsort",
             "items/nihtbx_demo_rescore_agecorrlistsort",
             "items/nihtbx_demo_rescore_fulltlistsort",
-            "items/nihtbx_demo_rescore_thetaengread",
-            "items/nihtbx_demo_rescore_computedengread",
-            "items/nihtbx_demo_rescore_uncorrengread",
-            "items/nihtbx_demo_rescore_agecorrengread",
-            "items/nihtbx_demo_rescore_fulltengread",
-            "items/nihtbx_demo_rescore_thetaengvocab",
             "items/nihtbx_demo_rescore_computedengvocab",
+            "items/nihtbx_demo_rescore_thetaengread",
             "items/nihtbx_demo_rescore_uncorrengvocab",
             "items/nihtbx_demo_rescore_agecorrengvocab",
+            "items/nihtbx_demo_rescore_computedengread",
             "items/nihtbx_demo_rescore_fulltengvocab",
+            "items/nihtbx_demo_rescore_uncorrengread",
             "items/nihtbx_demo_rescore_uncorrfluid",
+            "items/nihtbx_demo_rescore_agecorrengread",
             "items/nihtbx_demo_rescore_agecorrfluid",
+            "items/nihtbx_demo_rescore_fulltengread",
             "items/nihtbx_demo_rescore_fulltfluid",
+            "items/nihtbx_demo_rescore_thetaengvocab",
             "items/nihtbx_demo_rescore_uncorrcrystal",
             "items/nihtbx_demo_rescore_agecorrcrystal",
             "items/nihtbx_demo_rescore_fulltcrystal",
@@ -341,46 +341,16 @@
                 "variableName": "nihtbx_demo_rescore_fulltlistsort"
             },
             {
-                "isAbout": "items/nihtbx_demo_rescore_thetaengread",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "nihtbx_demo_rescore_thetaengread"
-            },
-            {
-                "isAbout": "items/nihtbx_demo_rescore_computedengread",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "nihtbx_demo_rescore_computedengread"
-            },
-            {
-                "isAbout": "items/nihtbx_demo_rescore_uncorrengread",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "nihtbx_demo_rescore_uncorrengread"
-            },
-            {
-                "isAbout": "items/nihtbx_demo_rescore_agecorrengread",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "nihtbx_demo_rescore_agecorrengread"
-            },
-            {
-                "isAbout": "items/nihtbx_demo_rescore_fulltengread",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "nihtbx_demo_rescore_fulltengread"
-            },
-            {
-                "isAbout": "items/nihtbx_demo_rescore_thetaengvocab",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "nihtbx_demo_rescore_thetaengvocab"
-            },
-            {
                 "isAbout": "items/nihtbx_demo_rescore_computedengvocab",
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "nihtbx_demo_rescore_computedengvocab"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_thetaengread",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_thetaengread"
             },
             {
                 "isAbout": "items/nihtbx_demo_rescore_uncorrengvocab",
@@ -395,10 +365,22 @@
                 "variableName": "nihtbx_demo_rescore_agecorrengvocab"
             },
             {
+                "isAbout": "items/nihtbx_demo_rescore_computedengread",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_computedengread"
+            },
+            {
                 "isAbout": "items/nihtbx_demo_rescore_fulltengvocab",
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "nihtbx_demo_rescore_fulltengvocab"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_uncorrengread",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_uncorrengread"
             },
             {
                 "isAbout": "items/nihtbx_demo_rescore_uncorrfluid",
@@ -407,16 +389,34 @@
                 "variableName": "nihtbx_demo_rescore_uncorrfluid"
             },
             {
+                "isAbout": "items/nihtbx_demo_rescore_agecorrengread",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_agecorrengread"
+            },
+            {
                 "isAbout": "items/nihtbx_demo_rescore_agecorrfluid",
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "nihtbx_demo_rescore_agecorrfluid"
             },
             {
+                "isAbout": "items/nihtbx_demo_rescore_fulltengread",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_fulltengread"
+            },
+            {
                 "isAbout": "items/nihtbx_demo_rescore_fulltfluid",
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "nihtbx_demo_rescore_fulltfluid"
+            },
+            {
+                "isAbout": "items/nihtbx_demo_rescore_thetaengvocab",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "nihtbx_demo_rescore_thetaengvocab"
             },
             {
                 "isAbout": "items/nihtbx_demo_rescore_uncorrcrystal",
@@ -481,6 +481,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2690",
+    "version": "revid2691",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
