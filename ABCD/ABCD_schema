@@ -81,8 +81,8 @@
             "../activities/game_of_dice_sum_scores/game_of_dice_sum_scores_schema",
             "../activities/y_flanker_sum_scores/y_flanker_sum_scores_schema",
             "../activities/social_influence_sum_scores/social_influence_sum_scores_schema",
-            "../activities/y_intro_to_neurocog_1_yr_followup/y_intro_to_neurocog_1_yr_followup_schema",
             "../activities/y_millisecond_bird_sum_scores/y_millisecond_bird_sum_scores_schema",
+            "../activities/y_intro_to_neurocog_1_yr_followup/y_intro_to_neurocog_1_yr_followup_schema",
             "../activities/stroop_emotional_taskyouthscoresdaic_use_only/stroop_emotional_taskyouthscoresdaic_use_only_schema",
             "../activities/delay_discounting_sum_scores/delay_discounting_sum_scores_schema",
             "../activities/pain_questionnaire/pain_questionnaire_schema",
@@ -910,20 +910,20 @@
                 "variableName": "social_influence_sum_scores_schema"
             },
             {
-                "isAbout": "../activities/y_intro_to_neurocog_1_yr_followup/y_intro_to_neurocog_1_yr_followup_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Y Intro To Neurocog 1 Yr Followup"
-                },
-                "variableName": "y_intro_to_neurocog_1_yr_followup_schema"
-            },
-            {
                 "isAbout": "../activities/y_millisecond_bird_sum_scores/y_millisecond_bird_sum_scores_schema",
                 "isVis": true,
                 "prefLabel": {
                     "en": "Y Millisecond Bird Sum Scores"
                 },
                 "variableName": "y_millisecond_bird_sum_scores_schema"
+            },
+            {
+                "isAbout": "../activities/y_intro_to_neurocog_1_yr_followup/y_intro_to_neurocog_1_yr_followup_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Intro To Neurocog 1 Yr Followup"
+                },
+                "variableName": "y_intro_to_neurocog_1_yr_followup_schema"
             },
             {
                 "isAbout": "../activities/stroop_emotional_taskyouthscoresdaic_use_only/stroop_emotional_taskyouthscoresdaic_use_only_schema",
@@ -2976,6 +2976,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2682",
+    "version": "revid2683",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
