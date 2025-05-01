@@ -372,7 +372,7 @@
             },
             {
                 "isAbout": "items/fam_member_relation_cv_p",
-                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "fam_diag_cv_p > '0'",
                 "valueRequired": true,
                 "variableName": "fam_member_relation_cv_p"
             },
@@ -397,6 +397,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2679",
+    "version": "revid2681",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

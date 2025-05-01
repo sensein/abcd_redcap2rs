@@ -1581,19 +1581,19 @@
             },
             {
                 "isAbout": "items/devhx_10c3_a_p",
-                "isVis": "devhx_10c3_p == '1'",
+                "isVis": "devhx_10c3_p == '1' AND event - name == '4_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "devhx_10c3_a_p"
             },
             {
                 "isAbout": "items/devhx_10c3_b_p",
-                "isVis": "devhx_10c3_p == '1'",
+                "isVis": "devhx_10c3_p == '1' AND event - name == '4_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "devhx_10c3_b_p"
             },
             {
                 "isAbout": "items/devhx_10c3_c_p",
-                "isVis": "devhx_10c3_p == '1'",
+                "isVis": "devhx_10c3_p == '1' AND event - name == '4_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "devhx_10c3_c_p"
             },
@@ -1804,6 +1804,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2679",
+    "version": "revid2681",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
