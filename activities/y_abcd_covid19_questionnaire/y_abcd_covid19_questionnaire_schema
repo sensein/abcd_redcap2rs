@@ -197,9 +197,9 @@
             "items/pro_po_3_cv",
             "items/anti_mask_3_cv",
             "items/reopen_bus_3_cv",
+            "items/blm_parents_cv",
             "items/blm_sib_cv",
             "items/blm_friends_cv",
-            "items/blm_parents_cv",
             "items/blm_neigh_cv",
             "items/feel_afraid_blm_cv",
             "items/feel_proud_blm_cv",
@@ -1432,6 +1432,12 @@
                 "variableName": "reopen_bus_3_cv"
             },
             {
+                "isAbout": "items/blm_parents_cv",
+                "isVis": "blm_3_cv == '1'",
+                "valueRequired": true,
+                "variableName": "blm_parents_cv"
+            },
+            {
                 "isAbout": "items/blm_sib_cv",
                 "isVis": "blm_3_cv == '1'",
                 "valueRequired": true,
@@ -1442,12 +1448,6 @@
                 "isVis": "blm_3_cv == '1'",
                 "valueRequired": true,
                 "variableName": "blm_friends_cv"
-            },
-            {
-                "isAbout": "items/blm_parents_cv",
-                "isVis": "blm_3_cv == '1'",
-                "valueRequired": true,
-                "variableName": "blm_parents_cv"
             },
             {
                 "isAbout": "items/blm_neigh_cv",
@@ -1986,6 +1986,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2688",
+    "version": "revid2689",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
