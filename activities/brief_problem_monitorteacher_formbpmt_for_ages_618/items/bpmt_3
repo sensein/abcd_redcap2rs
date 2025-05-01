@@ -1,0 +1,58 @@
+{
+    "id": "bpmt_3",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210113"
+        }
+    ],
+    "prefLabel": {
+        "en": "bpmt_3"
+    },
+    "question": {
+        "en": "How do you know this student:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "In my class and we only meet in person"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "In my class and we meet some of the time in person / some of the time remotely"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "In my class and we meet remotely"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "No longer in my class but I have taught the student in the past 60 days"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "I do not know this student"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

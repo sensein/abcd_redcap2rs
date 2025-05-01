@@ -7,12 +7,12 @@
             "variableName": "mctq_sow_calc"
         },
         {
-            "jsExpression": "mctq_fd_time_aget_up_calc + mctq_fd_min_to_sleep_calc",
-            "variableName": "mctq_sof_calc"
-        },
-        {
             "jsExpression": "mctq_sd_wake_up_time_calc + mctq_sd_min_to_get_up_calc",
             "variableName": "mctq_guw_calc"
+        },
+        {
+            "jsExpression": "mctq_fd_time_aget_up_calc + mctq_fd_min_to_sleep_calc",
+            "variableName": "mctq_sof_calc"
         },
         {
             "jsExpression": "mctq_fd_wake_up_time_calc + mctq_fd_min_to_get_up_calc",
@@ -86,16 +86,16 @@
                 "variableName": "mctq_sow_calc"
             },
             {
-                "isAbout": "items/mctq_sof_calc",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "mctq_sof_calc"
-            },
-            {
                 "isAbout": "items/mctq_guw_calc",
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "mctq_guw_calc"
+            },
+            {
+                "isAbout": "items/mctq_sof_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mctq_sof_calc"
             },
             {
                 "isAbout": "items/mctq_guf_calc",
@@ -184,6 +184,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2698",
+    "version": "revid2699",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
