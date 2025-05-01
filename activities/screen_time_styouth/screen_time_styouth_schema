@@ -56,8 +56,8 @@
             "items/screen_5_wkdy_error_y",
             "items/screentime_11_wknd_hr",
             "items/screentime_11_wknd_min",
-            "items/screen_11_wknd_min_y",
             "items/screen_11_wknd_hr_y",
+            "items/screen_11_wknd_min_y",
             "items/screen_11_wknd_error_y",
             "items/screentime_6_wkdy_hr",
             "items/screentime_6_wkdy_min",
@@ -491,16 +491,16 @@
                 "variableName": "screentime_11_wknd_min"
             },
             {
-                "isAbout": "items/screen_11_wknd_min_y",
-                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND screentime_phone_yn == '1')AND(screentime_11_wknd_hr > '0' OR screentime_11_wknd_min > '0')",
-                "valueRequired": true,
-                "variableName": "screen_11_wknd_min_y"
-            },
-            {
                 "isAbout": "items/screen_11_wknd_hr_y",
                 "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND screentime_phone_yn == '1')AND(screentime_11_wknd_hr > '0' OR screentime_11_wknd_min > '0')",
                 "valueRequired": true,
                 "variableName": "screen_11_wknd_hr_y"
+            },
+            {
+                "isAbout": "items/screen_11_wknd_min_y",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' AND screentime_phone_yn == '1')AND(screentime_11_wknd_hr > '0' OR screentime_11_wknd_min > '0')",
+                "valueRequired": true,
+                "variableName": "screen_11_wknd_min_y"
             },
             {
                 "isAbout": "items/screen_11_wknd_error_y",
@@ -1321,6 +1321,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2669",
+    "version": "revid2670",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
