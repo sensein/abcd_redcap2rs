@@ -507,19 +507,19 @@
             },
             {
                 "isAbout": "items/devhx_8_tobacco",
-                "isVis": true,
+                "isVis": "(event - name == 'baseline_follow_up_y_arm_1')OR((devhx_1_p == '1' OR devhx_1_p == '0')AND event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_8_tobacco"
             },
             {
                 "isAbout": "items/devhx_8_cigs_per_day",
-                "isVis": "devhx_8_tobacco == '1' && devhx_8_cigs_per_day_dk == ''",
+                "isVis": "devhx_8_tobacco == '1' && devhx_8_cigs_per_day_dk == '' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "devhx_8_cigs_per_day"
             },
             {
                 "isAbout": "items/devhx_8_cigs_per_day_dk",
-                "isVis": "devhx_8_tobacco == '1' && devhx_8_cigs_per_day == ''",
+                "isVis": "devhx_8_tobacco == '1' && devhx_8_cigs_per_day == '' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "devhx_8_cigs_per_day_dk"
             },
@@ -639,7 +639,7 @@
             },
             {
                 "isAbout": "items/devhx_8_other_drugs",
-                "isVis": true,
+                "isVis": "event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "devhx_8_other_drugs"
             },
@@ -1203,7 +1203,7 @@
             },
             {
                 "isAbout": "items/devhx_9_her_morph",
-                "isVis": true,
+                "isVis": "event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "devhx_9_her_morph"
             },
@@ -1605,7 +1605,7 @@
             },
             {
                 "isAbout": "items/devhx_11_p_dk",
-                "isVis": "devhx_11_p == ''",
+                "isVis": "devhx_11_p == '' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "devhx_11_p_dk"
             },
@@ -1689,7 +1689,7 @@
             },
             {
                 "isAbout": "items/devhx_16_p",
-                "isVis": "devhx_16_p_dk == ''",
+                "isVis": "devhx_16_p_dk == '' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "devhx_16_p"
             },
@@ -1761,13 +1761,13 @@
             },
             {
                 "isAbout": "items/devhx_19d_p",
-                "isVis": "devhx_19d_p_dk == ''",
+                "isVis": "devhx_19d_p_dk == '' OR(devhx_19d_p_dk == '' AND event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_19d_p"
             },
             {
                 "isAbout": "items/devhx_19d_p_dk",
-                "isVis": "devhx_19d_p == ''",
+                "isVis": "devhx_19d_p == '' OR(devhx_19d_p == '' AND event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": false,
                 "variableName": "devhx_19d_p_dk"
             },
@@ -1804,6 +1804,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2677",
+    "version": "revid2678",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
