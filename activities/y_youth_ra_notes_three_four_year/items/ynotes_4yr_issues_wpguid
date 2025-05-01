@@ -1,0 +1,74 @@
+{
+    "id": "ynotes_4yr_issues_wpguid",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDEFROMCOMPLETION20201117"
+        }
+    ],
+    "preamble": {
+        "en": "Incorrect pGUID Issues"
+    },
+    "prefLabel": {
+        "en": "ynotes_4yr_issues_wpguid"
+    },
+    "question": {
+        "en": "Type of wrong PGUID Issue (If in REDCap, please check Data Manager)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "KSADS Module"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "NIH Toolbox"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Little Man Task"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Game of Dice"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Flanker (Millisecond Version)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Social Influence Task"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "BIRD Task"
+                },
+                "value": 7
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -226,6 +226,9 @@
             "items/devhx_10k3_p",
             "items/devhx_10l3_p",
             "items/devhx_10m3_p",
+            "items/devhx_10c3_a_p",
+            "items/devhx_10c3_b_p",
+            "items/devhx_10c3_c_p",
             "items/devhx_11_p",
             "items/devhx_11_p_dk",
             "items/devhx_12a_p",
@@ -276,73 +279,73 @@
             },
             {
                 "isAbout": "items/devhx_2_p",
-                "isVis": "devhx_2_p_dk == ''",
+                "isVis": "devhx_2_p_dk == '' OR(devhx_2_p_dk == '' AND event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_2_p"
             },
             {
                 "isAbout": "items/devhx_2_p_dk",
-                "isVis": "devhx_2_p == ''",
+                "isVis": "devhx_2_p == '' OR(devhx_2_p == '' AND event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": false,
                 "variableName": "devhx_2_p_dk"
             },
             {
                 "isAbout": "items/devhx_2b_p",
-                "isVis": "devhx_2b_p_dk == ''",
+                "isVis": "devhx_2b_p_dk == '' OR(devhx_2b_p_dk == '' AND event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_2b_p"
             },
             {
                 "isAbout": "items/devhx_2b_p_dk",
-                "isVis": "devhx_2b_p == ''",
+                "isVis": "devhx_2b_p == '' OR(devhx_2b_p == '' AND event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": false,
                 "variableName": "devhx_2b_p_dk"
             },
             {
                 "isAbout": "items/devhx_3_p",
-                "isVis": "devhx_3_p_dk == ''",
+                "isVis": "devhx_3_p_dk == '' OR(devhx_3_p_dk == '' AND event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_3_p"
             },
             {
                 "isAbout": "items/devhx_3_p_dk",
-                "isVis": "devhx_3_p == ''",
+                "isVis": "devhx_3_p == '' OR(devhx_3_p == '' AND event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": false,
                 "variableName": "devhx_3_p_dk"
             },
             {
                 "isAbout": "items/devhx_4_p",
-                "isVis": "devhx_4_p_dk == ''",
+                "isVis": "devhx_4_p_dk == '' OR(devhx_4_p_dk == '' AND event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_4_p"
             },
             {
                 "isAbout": "items/devhx_4_p_dk",
-                "isVis": "devhx_4_p == ''",
+                "isVis": "devhx_4_p == '' OR(devhx_4_p == '' AND event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": false,
                 "variableName": "devhx_4_p_dk"
             },
             {
                 "isAbout": "items/devhx_5_p",
-                "isVis": true,
+                "isVis": "event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "devhx_5_p"
             },
             {
                 "isAbout": "items/devhx_6_p",
-                "isVis": true,
+                "isVis": "event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "devhx_6_p"
             },
             {
                 "isAbout": "items/devhx_7_p",
-                "isVis": "devhx_7_p_dk == ''",
+                "isVis": "devhx_7_p_dk == '' OR(devhx_7_p_dk == '' AND event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_7_p"
             },
             {
                 "isAbout": "items/devhx_7_p_dk",
-                "isVis": "devhx_7_p == ''",
+                "isVis": "devhx_7_p == '' OR(devhx_7_p == '' AND event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": false,
                 "variableName": "devhx_7_p_dk"
             },
@@ -360,7 +363,7 @@
             },
             {
                 "isAbout": "items/devhx_8_prescript_med",
-                "isVis": true,
+                "isVis": "(event - name !== '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_8_prescript_med"
             },
@@ -522,67 +525,67 @@
             },
             {
                 "isAbout": "items/devhx_8_alcohol",
-                "isVis": true,
+                "isVis": "(event - name == 'baseline_follow_up_y_arm_1')OR((devhx_1_p == '1' OR devhx_1_p == '0')AND event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_8_alcohol"
             },
             {
                 "isAbout": "items/devhx_8_alchohol_max",
-                "isVis": "devhx_8_alcohol =='1' && devhx_8_alchohol_max_dk == ''",
+                "isVis": "devhx_8_alcohol =='1' && devhx_8_alchohol_max_dk == '' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "devhx_8_alchohol_max"
             },
             {
                 "isAbout": "items/devhx_8_alchohol_max_dk",
-                "isVis": "devhx_8_alcohol =='1' && devhx_8_alchohol_max == ''",
+                "isVis": "devhx_8_alcohol =='1' && devhx_8_alchohol_max == '' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "devhx_8_alchohol_max_dk"
             },
             {
                 "isAbout": "items/devhx_8_alchohol_avg",
-                "isVis": "devhx_8_alcohol =='1' && devhx_8_alchohol_avg_dk == ''",
+                "isVis": "devhx_8_alcohol =='1' && devhx_8_alchohol_avg_dk == '' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "devhx_8_alchohol_avg"
             },
             {
                 "isAbout": "items/devhx_8_alchohol_avg_dk",
-                "isVis": "devhx_8_alcohol =='1' && devhx_8_alchohol_avg == ''",
+                "isVis": "devhx_8_alcohol =='1' && devhx_8_alchohol_avg == '' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "devhx_8_alchohol_avg_dk"
             },
             {
                 "isAbout": "items/devhx_8_alcohol_effects",
-                "isVis": "devhx_8_alcohol =='1' && devhx_8_alcohol_effects_dk == ''",
+                "isVis": "devhx_8_alcohol =='1' && devhx_8_alcohol_effects_dk == '' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "devhx_8_alcohol_effects"
             },
             {
                 "isAbout": "items/devhx_8_alcohol_effects_dk",
-                "isVis": "devhx_8_alcohol =='1' && devhx_8_alcohol_effects == ''",
+                "isVis": "devhx_8_alcohol =='1' && devhx_8_alcohol_effects == '' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "devhx_8_alcohol_effects_dk"
             },
             {
                 "isAbout": "items/devhx_8_marijuana",
-                "isVis": true,
+                "isVis": "(event - name == 'baseline_follow_up_y_arm_1')OR((devhx_1_p == '1' OR devhx_1_p == '0')AND event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_8_marijuana"
             },
             {
                 "isAbout": "items/devhx_8_marijuana_amt",
-                "isVis": "devhx_8_marijuana == '1' && devhx_8_marijuana_amt_dk == ''",
+                "isVis": "devhx_8_marijuana == '1' && devhx_8_marijuana_amt_dk == '' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "devhx_8_marijuana_amt"
             },
             {
                 "isAbout": "items/devhx_8_marijuana_amt_dk",
-                "isVis": "devhx_8_marijuana == '1' && devhx_8_marijuana_amt == ''",
+                "isVis": "devhx_8_marijuana == '1' && devhx_8_marijuana_amt == '' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "devhx_8_marijuana_amt_dk"
             },
             {
                 "isAbout": "items/devhx_8_coc_crack",
-                "isVis": true,
+                "isVis": "(event - name !== '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_8_coc_crack"
             },
@@ -600,7 +603,7 @@
             },
             {
                 "isAbout": "items/devhx_8_her_morph",
-                "isVis": true,
+                "isVis": "(event - name !== '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_8_her_morph"
             },
@@ -618,7 +621,7 @@
             },
             {
                 "isAbout": "items/devhx_8_oxycont",
-                "isVis": true,
+                "isVis": "(event - name !== '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_8_oxycont"
             },
@@ -852,19 +855,19 @@
             },
             {
                 "isAbout": "items/devhx_9_prescript_yes",
-                "isVis": "devhx_1_p == '1'",
+                "isVis": "devhx_1_p == '1' OR(devhx_1_p == '1' AND event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": false,
                 "variableName": "devhx_9_prescript_yes"
             },
             {
                 "isAbout": "items/devhxhx_9_prescript_no",
-                "isVis": "devhx_1_p == '0'",
+                "isVis": "devhx_1_p == '0' OR(devhx_1_p == '0' AND event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": false,
                 "variableName": "devhxhx_9_prescript_no"
             },
             {
                 "isAbout": "items/devhx_9_prescript_med",
-                "isVis": true,
+                "isVis": "(event - name !== '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_9_prescript_med"
             },
@@ -1104,85 +1107,85 @@
             },
             {
                 "isAbout": "items/devhx_9_tobacco",
-                "isVis": true,
+                "isVis": "(event - name == 'baseline_follow_up_y_arm_1')OR((devhx_1_p == '1' OR devhx_1_p == '0')AND event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_9_tobacco"
             },
             {
                 "isAbout": "items/devhx_9_cigs_per_day",
-                "isVis": "devhx_9_tobacco == '1' && devhx_9_cigs_per_day_dk == ''",
+                "isVis": "devhx_9_tobacco == '1' && devhx_9_cigs_per_day_dk == '' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "devhx_9_cigs_per_day"
             },
             {
                 "isAbout": "items/devhx_9_cigs_per_day_dk",
-                "isVis": "devhx_9_tobacco == '1' && devhx_9_cigs_per_day == ''",
+                "isVis": "devhx_9_tobacco == '1' && devhx_9_cigs_per_day == '' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "devhx_9_cigs_per_day_dk"
             },
             {
                 "isAbout": "items/devhx_9_alcohol",
-                "isVis": true,
+                "isVis": "(event - name == 'baseline_follow_up_y_arm_1')OR((devhx_1_p == '1' OR devhx_1_p == '0')AND event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_9_alcohol"
             },
             {
                 "isAbout": "items/devhx_9_alchohol_max",
-                "isVis": "devhx_9_alcohol =='1' && devhx_9_alchohol_max_dk == ''",
+                "isVis": "devhx_9_alcohol =='1' && devhx_9_alchohol_max_dk == '' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "devhx_9_alchohol_max"
             },
             {
                 "isAbout": "items/devhx_9_alchohol_max_dk",
-                "isVis": "devhx_9_alcohol =='1' && devhx_9_alchohol_max == ''",
+                "isVis": "devhx_9_alcohol =='1' && devhx_9_alchohol_max == '' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "devhx_9_alchohol_max_dk"
             },
             {
                 "isAbout": "items/devhx_9_alchohol_avg",
-                "isVis": "devhx_9_alcohol =='1' && devhx_9_alchohol_avg_dk == ''",
+                "isVis": "devhx_9_alcohol =='1' && devhx_9_alchohol_avg_dk == '' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "devhx_9_alchohol_avg"
             },
             {
                 "isAbout": "items/devhx_9_alchohol_avg_dk",
-                "isVis": "devhx_9_alcohol =='1' && devhx_9_alchohol_avg == ''",
+                "isVis": "devhx_9_alcohol =='1' && devhx_9_alchohol_avg == '' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "devhx_9_alchohol_avg_dk"
             },
             {
                 "isAbout": "items/devhx_9_alcohol_effects",
-                "isVis": "devhx_9_alcohol =='1' && devhx_9_alcohol_effects_dk == ''",
+                "isVis": "devhx_9_alcohol =='1' && devhx_9_alcohol_effects_dk == '' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "devhx_9_alcohol_effects"
             },
             {
                 "isAbout": "items/devhx_9_alcohol_effects_dk",
-                "isVis": "devhx_9_alcohol =='1' && devhx_9_alcohol_effects == ''",
+                "isVis": "devhx_9_alcohol =='1' && devhx_9_alcohol_effects == '' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "devhx_9_alcohol_effects_dk"
             },
             {
                 "isAbout": "items/devhx_9_marijuana",
-                "isVis": true,
+                "isVis": "(event - name == 'baseline_follow_up_y_arm_1')OR((devhx_1_p == '1' OR devhx_1_p == '0')AND event - name == '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_9_marijuana"
             },
             {
                 "isAbout": "items/devhx_9_marijuana_amt",
-                "isVis": "devhx_9_marijuana == '1' && devhx_9_marijuana_amt_dk == ''",
+                "isVis": "devhx_9_marijuana == '1' && devhx_9_marijuana_amt_dk == '' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "devhx_9_marijuana_amt"
             },
             {
                 "isAbout": "items/devhx_9_marijuana_amt_dk",
-                "isVis": "devhx_9_marijuana == '1' && devhx_9_marijuana_amt == ''",
+                "isVis": "devhx_9_marijuana == '1' && devhx_9_marijuana_amt == '' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "devhx_9_marijuana_amt_dk"
             },
             {
                 "isAbout": "items/devhx_9_coc_crack",
-                "isVis": true,
+                "isVis": "(event - name !== '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_9_coc_crack"
             },
@@ -1218,7 +1221,7 @@
             },
             {
                 "isAbout": "items/devhx_9_oxycont",
-                "isVis": true,
+                "isVis": "(event - name !== '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_9_oxycont"
             },
@@ -1236,7 +1239,7 @@
             },
             {
                 "isAbout": "items/devhx_9_other_drugs",
-                "isVis": true,
+                "isVis": "(event - name !== '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_9_other_drugs"
             },
@@ -1452,13 +1455,13 @@
             },
             {
                 "isAbout": "items/devhx_10",
-                "isVis": true,
+                "isVis": "(event - name !== '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_10"
             },
             {
                 "isAbout": "items/devhx_caffeine_11",
-                "isVis": true,
+                "isVis": "(event - name !== '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_caffeine_11"
             },
@@ -1500,13 +1503,13 @@
             },
             {
                 "isAbout": "items/devhx_10a3_p",
-                "isVis": true,
+                "isVis": "(event - name !== '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_10a3_p"
             },
             {
                 "isAbout": "items/devhx_10b3_p",
-                "isVis": true,
+                "isVis": "(event - name !== '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_10b3_p"
             },
@@ -1518,67 +1521,85 @@
             },
             {
                 "isAbout": "items/devhx_10d3_p",
-                "isVis": true,
+                "isVis": "(event - name !== '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_10d3_p"
             },
             {
                 "isAbout": "items/devhx_10e3_p",
-                "isVis": true,
+                "isVis": "(event - name !== '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_10e3_p"
             },
             {
                 "isAbout": "items/devhx_10f3_p",
-                "isVis": true,
+                "isVis": "(event - name !== '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_10f3_p"
             },
             {
                 "isAbout": "items/devhx_10g3_p",
-                "isVis": true,
+                "isVis": "(event - name !== '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_10g3_p"
             },
             {
                 "isAbout": "items/devhx_10h3_p",
-                "isVis": true,
+                "isVis": "(event - name !== '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_10h3_p"
             },
             {
                 "isAbout": "items/devhx_10i3_p",
-                "isVis": true,
+                "isVis": "(event - name !== '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_10i3_p"
             },
             {
                 "isAbout": "items/devhx_10j3_p",
-                "isVis": true,
+                "isVis": "(event - name !== '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_10j3_p"
             },
             {
                 "isAbout": "items/devhx_10k3_p",
-                "isVis": true,
+                "isVis": "(event - name !== '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_10k3_p"
             },
             {
                 "isAbout": "items/devhx_10l3_p",
-                "isVis": true,
+                "isVis": "(event - name !== '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_10l3_p"
             },
             {
                 "isAbout": "items/devhx_10m3_p",
-                "isVis": true,
+                "isVis": "(event - name !== '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_10m3_p"
             },
             {
+                "isAbout": "items/devhx_10c3_a_p",
+                "isVis": "devhx_10c3_p == '1'",
+                "valueRequired": false,
+                "variableName": "devhx_10c3_a_p"
+            },
+            {
+                "isAbout": "items/devhx_10c3_b_p",
+                "isVis": "devhx_10c3_p == '1'",
+                "valueRequired": false,
+                "variableName": "devhx_10c3_b_p"
+            },
+            {
+                "isAbout": "items/devhx_10c3_c_p",
+                "isVis": "devhx_10c3_p == '1'",
+                "valueRequired": false,
+                "variableName": "devhx_10c3_c_p"
+            },
+            {
                 "isAbout": "items/devhx_11_p",
-                "isVis": "devhx_11_p_dk == ''",
+                "isVis": "devhx_11_p_dk == '' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "devhx_11_p"
             },
@@ -1590,7 +1611,7 @@
             },
             {
                 "isAbout": "items/devhx_12a_p",
-                "isVis": true,
+                "isVis": "(event - name !== '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_12a_p"
             },
@@ -1602,67 +1623,67 @@
             },
             {
                 "isAbout": "items/devhx_13_3_p",
-                "isVis": true,
+                "isVis": "(event - name !== '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_13_3_p"
             },
             {
                 "isAbout": "items/devhx_14a3_p",
-                "isVis": true,
+                "isVis": "(event - name !== '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_14a3_p"
             },
             {
                 "isAbout": "items/devhx_14b3_p",
-                "isVis": true,
+                "isVis": "(event - name !== '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_14b3_p"
             },
             {
                 "isAbout": "items/devhx_14c3_p",
-                "isVis": true,
+                "isVis": "(event - name !== '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_14c3_p"
             },
             {
                 "isAbout": "items/devhx_14d3_p",
-                "isVis": true,
+                "isVis": "(event - name !== '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_14d3_p"
             },
             {
                 "isAbout": "items/devhx_14e3_p",
-                "isVis": true,
+                "isVis": "(event - name !== '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_14e3_p"
             },
             {
                 "isAbout": "items/devhx_14f3_p",
-                "isVis": true,
+                "isVis": "(event - name !== '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_14f3_p"
             },
             {
                 "isAbout": "items/devhx_14g3_p",
-                "isVis": true,
+                "isVis": "(event - name !== '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_14g3_p"
             },
             {
                 "isAbout": "items/devhx_14h3_p",
-                "isVis": true,
+                "isVis": "(event - name !== '4_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "devhx_14h3_p"
             },
             {
                 "isAbout": "items/devhx_15",
-                "isVis": "devhx_15_dk == ''",
+                "isVis": "devhx_15_dk == '' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "devhx_15"
             },
             {
                 "isAbout": "items/devhx_15_dk",
-                "isVis": "devhx_15 == ''",
+                "isVis": "devhx_15 == '' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "devhx_15_dk"
             },
@@ -1674,67 +1695,67 @@
             },
             {
                 "isAbout": "items/devhx_16_p_dk",
-                "isVis": "devhx_16_p == ''",
+                "isVis": "devhx_16_p == '' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "devhx_16_p_dk"
             },
             {
                 "isAbout": "items/devhx_17_p",
-                "isVis": "devhx_17_p_dk == ''",
+                "isVis": "devhx_17_p_dk == '' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "devhx_17_p"
             },
             {
                 "isAbout": "items/devhx_17_p_dk",
-                "isVis": "devhx_17_p == ''",
+                "isVis": "devhx_17_p == '' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "devhx_17_p_dk"
             },
             {
                 "isAbout": "items/devhx_18_p",
-                "isVis": "devhx_18_p_dk == ''",
+                "isVis": "devhx_18_p_dk == '' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "devhx_18_p"
             },
             {
                 "isAbout": "items/devhx_18_p_dk",
-                "isVis": "devhx_18_p == ''",
+                "isVis": "devhx_18_p == '' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "devhx_18_p_dk"
             },
             {
                 "isAbout": "items/devhx_19a_p",
-                "isVis": "devhx_19a_p_dk == ''",
+                "isVis": "devhx_19a_p_dk == '' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "devhx_19a_p"
             },
             {
                 "isAbout": "items/devhx_19a_p_dk",
-                "isVis": "devhx_19a_p == ''",
+                "isVis": "devhx_19a_p == '' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "devhx_19a_p_dk"
             },
             {
                 "isAbout": "items/devhx_19b_p",
-                "isVis": "devhx_19b_p_dk == ''",
+                "isVis": "devhx_19b_p_dk == '' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "devhx_19b_p"
             },
             {
                 "isAbout": "items/devhx_19b_p_dk",
-                "isVis": "devhx_19b_p == ''",
+                "isVis": "devhx_19b_p == '' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "devhx_19b_p_dk"
             },
             {
                 "isAbout": "items/devhx_19c_p",
-                "isVis": "devhx_19c_p_dk == ''",
+                "isVis": "devhx_19c_p_dk == '' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "devhx_19c_p"
             },
             {
                 "isAbout": "items/devhx_19c_p_dk",
-                "isVis": "devhx_19c_p == ''",
+                "isVis": "devhx_19c_p == '' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": false,
                 "variableName": "devhx_19c_p_dk"
             },
@@ -1752,19 +1773,19 @@
             },
             {
                 "isAbout": "items/devhx_20_p",
-                "isVis": true,
+                "isVis": "event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "devhx_20_p"
             },
             {
                 "isAbout": "items/devhx_21_p",
-                "isVis": true,
+                "isVis": "event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "devhx_21_p"
             },
             {
                 "isAbout": "items/devhx_22_3_p",
-                "isVis": true,
+                "isVis": "event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "devhx_22_3_p"
             },
@@ -1783,6 +1804,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2672",
+    "version": "revid2673",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

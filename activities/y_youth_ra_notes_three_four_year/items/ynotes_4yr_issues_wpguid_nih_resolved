@@ -1,0 +1,38 @@
+{
+    "id": "ynotes_4yr_issues_wpguid_nih_resolved",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDEFROMCOMPLETION20201117"
+        }
+    ],
+    "preamble": {
+        "en": "Incorrect pGUID Issues"
+    },
+    "prefLabel": {
+        "en": "ynotes_4yr_issues_wpguid_nih_resolved"
+    },
+    "question": {
+        "en": "NIH Toolbox"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Resolved"
+                },
+                "value": 1
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,80 @@
+{
+    "id": "ynotes_4yr_issues_workgroup_neuro_pt2",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20201105"
+        }
+    ],
+    "preamble": {
+        "en": "Workgroup Issues - Please check all relevant instruments"
+    },
+    "prefLabel": {
+        "en": "ynotes_4yr_issues_workgroup_neuro_pt2"
+    },
+    "question": {
+        "en": "What issues did you have with the Intro to Neurocognition Part 2 instrument?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Participant Comprehension"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Participant Compliance"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Staff factors"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Technical problem"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Not administered"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Not administered at site"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Privacy concern"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Other (e.g., behaviorial or physical condition)"
+                },
+                "value": 7
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
