@@ -732,7 +732,7 @@
             },
             {
                 "isAbout": "items/mypi_ecstasy_first",
-                "isVis": "mypi_ecstasy_used == '1' && event - name == '42_month_follow_up_arm_1' OR event - name == '54_month_follow_up_arm_1'",
+                "isVis": "mypi_ecstasy_used == '1' &&(event - name == '42_month_follow_up_arm_1' OR event - name == '54_month_follow_up_arm_1')",
                 "valueRequired": true,
                 "variableName": "mypi_ecstasy_first"
             },
@@ -744,7 +744,7 @@
             },
             {
                 "isAbout": "items/mypi_ketamine_first",
-                "isVis": "mypi_ketamine_used == '1' && event - name == '42_month_follow_up_arm_1' OR event - name == '54_month_follow_up_arm_1'",
+                "isVis": "mypi_ketamine_used == '1' &&(event - name == '42_month_follow_up_arm_1' OR event - name == '54_month_follow_up_arm_1')",
                 "valueRequired": true,
                 "variableName": "mypi_ketamine_first"
             },
@@ -756,7 +756,7 @@
             },
             {
                 "isAbout": "items/mypi_ghb_first",
-                "isVis": "mypi_ghb_used == '1' && event - name == '42_month_follow_up_arm_1' OR event - name == '54_month_follow_up_arm_1'",
+                "isVis": "mypi_ghb_used == '1' &&(event - name == '42_month_follow_up_arm_1' OR event - name == '54_month_follow_up_arm_1')",
                 "valueRequired": true,
                 "variableName": "mypi_ghb_first"
             },
@@ -780,7 +780,7 @@
             },
             {
                 "isAbout": "items/mypi_hallucinogen_first",
-                "isVis": "mypi_hallucinogen_used == '1' && event - name == '42_month_follow_up_arm_1' OR event - name == '54_month_follow_up_arm_1'",
+                "isVis": "mypi_hallucinogen_used == '1' &&(event - name == '42_month_follow_up_arm_1' OR event - name == '54_month_follow_up_arm_1')",
                 "valueRequired": true,
                 "variableName": "mypi_hallucinogen_first"
             },
@@ -792,7 +792,7 @@
             },
             {
                 "isAbout": "items/mypi_mushroom_first",
-                "isVis": "mypi_mushroom_used == '1' && event - name == '42_month_follow_up_arm_1' OR event - name == '54_month_follow_up_arm_1'",
+                "isVis": "mypi_mushroom_used == '1' &&(event - name == '42_month_follow_up_arm_1' OR event - name == '54_month_follow_up_arm_1')",
                 "valueRequired": true,
                 "variableName": "mypi_mushroom_first"
             },
@@ -804,7 +804,7 @@
             },
             {
                 "isAbout": "items/mypi_salvia_first",
-                "isVis": "mypi_salvia_used == '1' && event - name == '42_month_follow_up_arm_1' OR event - name == '54_month_follow_up_arm_1'",
+                "isVis": "mypi_salvia_used == '1' &&(event - name == '42_month_follow_up_arm_1' OR event - name == '54_month_follow_up_arm_1')",
                 "valueRequired": true,
                 "variableName": "mypi_salvia_first"
             },
@@ -816,7 +816,7 @@
             },
             {
                 "isAbout": "items/mypi_steroids_first",
-                "isVis": "mypi_steroids_used == '1' && event - name == '42_month_follow_up_arm_1' OR event - name == '54_month_follow_up_arm_1'",
+                "isVis": "mypi_steroids_used == '1' &&(event - name == '42_month_follow_up_arm_1' OR event - name == '54_month_follow_up_arm_1')",
                 "valueRequired": true,
                 "variableName": "mypi_steroids_first"
             },
@@ -901,6 +901,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2705",
+    "version": "revid2706",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
