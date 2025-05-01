@@ -232,6 +232,7 @@
             "items/sai_p_chess_perwk_l",
             "items/sai_p_chess_tspent_l",
             "items/sai_p_chess_comp_l",
+            "items/sai_p_hobbies_intro",
             "items/sai_p_collect_school_l",
             "items/sai_p_collect_outside_l",
             "items/sai_p_collect_private_l",
@@ -239,6 +240,7 @@
             "items/sai_p_collect_nmonth_l",
             "items/sai_p_collect_perwk_l",
             "items/sai_p_collect_tspent_l",
+            "items/sai_p_yr_4_intro",
             "items/sai_p_yr_3",
             "items/sai_p_yr_3_activities",
             "items/sai_p_bowling_school",
@@ -1771,6 +1773,12 @@
                 "variableName": "sai_p_chess_comp_l"
             },
             {
+                "isAbout": "items/sai_p_hobbies_intro",
+                "isVis": "sai_p_activities_l___28 == '1' AND event - name !== '4_year_follow_up_y_arm_1'",
+                "valueRequired": false,
+                "variableName": "sai_p_hobbies_intro"
+            },
+            {
                 "isAbout": "items/sai_p_collect_school_l",
                 "isVis": "sai_p_activities_l___28 == '1' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": false,
@@ -1811,6 +1819,12 @@
                 "isVis": "sai_p_activities_l___28 == '1'",
                 "valueRequired": false,
                 "variableName": "sai_p_collect_tspent_l"
+            },
+            {
+                "isAbout": "items/sai_p_yr_4_intro",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "valueRequired": false,
+                "variableName": "sai_p_yr_4_intro"
             },
             {
                 "isAbout": "items/sai_p_yr_3",
@@ -2889,6 +2903,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2678",
+    "version": "revid2679",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
