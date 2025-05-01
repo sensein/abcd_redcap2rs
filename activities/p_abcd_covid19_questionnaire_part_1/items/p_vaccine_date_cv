@@ -1,0 +1,36 @@
+{
+    "id": "p_vaccine_date_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "date_mdy"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210301"
+        }
+    ],
+    "preamble": {
+        "en": "Vaccinations",
+        "es": "Vacuna"
+    },
+    "prefLabel": {
+        "en": "p_vaccine_date_cv"
+    },
+    "question": {
+        "en": "When were you first vaccinated?",
+        "es": "\u00c2\u00bfCu\u00c3\u00a1ndo se vacun\u00c3\u00b3 por primera vez?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "date"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

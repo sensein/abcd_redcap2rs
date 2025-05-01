@@ -1,0 +1,61 @@
+{
+    "id": "screens_escape_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210301"
+        }
+    ],
+    "preamble": {
+        "en": "Your progress:98%.Screen TimePlease doNOTinclude time spent on school related work, butDOinclude watching TV, shows or videos, texting or chatting, playing games, or visiting social networking sites (Facebook, Twitter, Instagram). On an average day in thepast week, how much time do you:"
+    },
+    "prefLabel": {
+        "en": "screens_escape_cv"
+    },
+    "question": {
+        "en": "Do you use screens to escape worries about coronavirus-related issues?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Occasionally"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Often"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Always"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

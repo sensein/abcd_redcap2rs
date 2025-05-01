@@ -1,0 +1,54 @@
+{
+    "id": "mchild_asthma_medi_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210301"
+        }
+    ],
+    "preamble": {
+        "en": "Youth Physical HealthThese questions are about your child's health. For these questions,healthcare providermeans a doctor, nurse practicioner, physician assistant or anyone you go to for medical care.",
+        "es": "Salud F\u00c3\u00adsica de los J\u00c3\u00b3venes\n\nEstas preguntas son sobre la salud de su hijo(a). Para estas preguntas,proveedor de la saludsignifica un m\u00c3\u00a9dico, enfermero(a), asistente m\u00c3\u00a9dico o cualquier otra persona con la que usted va para recibir atenci\u00c3\u00b3n m\u00c3\u00a9dica."
+    },
+    "prefLabel": {
+        "en": "mchild_asthma_medi_cv"
+    },
+    "question": {
+        "en": "In the past month, has your child's asthma medications changed or has she/he stopped taking some asthma medications?",
+        "es": "En el \u00c3\u00baltimo mes, \u00c2\u00bfhan cambiado los medicamentos para el asma de su hijo(a) o ha dejado de usar alg\u00c3\u00ban medicamento para el asma?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "I don't know",
+                    "es": "No lo s\u00c3\u00a9"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

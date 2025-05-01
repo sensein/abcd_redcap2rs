@@ -19,7 +19,6 @@
         "order": [
             "items/anthro_start_time",
             "items/anthro_warn_msg",
-            "items/anthro_virtual_warn_msg",
             "items/y_anthro_warn",
             "items/anthro_i",
             "items/height_1_intro",
@@ -59,15 +58,9 @@
             },
             {
                 "isAbout": "items/anthro_warn_msg",
-                "isVis": "(sched_delay !== '9' AND sched_hybrid !== '0')",
-                "valueRequired": false,
-                "variableName": "anthro_warn_msg"
-            },
-            {
-                "isAbout": "items/anthro_virtual_warn_msg",
                 "isVis": "(sched_delay == '9' AND sched_hybrid == '0')",
                 "valueRequired": false,
-                "variableName": "anthro_virtual_warn_msg"
+                "variableName": "anthro_warn_msg"
             },
             {
                 "isAbout": "items/y_anthro_warn",
@@ -149,7 +142,7 @@
             },
             {
                 "isAbout": "items/anthro_weight_cast",
-                "isVis": "(sched_delay !== '9' AND sched_hybrid !== '0')",
+                "isVis": "(sched_delay !== '9' AND sched_hybrid !== '0')OR(sched_delay == '9' AND sched_hybrid == '1')",
                 "valueRequired": false,
                 "variableName": "anthro_weight_cast"
             },
@@ -258,6 +251,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2712",
+    "version": "revid2713",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

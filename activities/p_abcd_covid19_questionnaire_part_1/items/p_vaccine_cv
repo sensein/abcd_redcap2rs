@@ -1,0 +1,61 @@
+{
+    "id": "p_vaccine_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210301"
+        }
+    ],
+    "preamble": {
+        "en": "Vaccinations",
+        "es": "Vacuna"
+    },
+    "prefLabel": {
+        "en": "p_vaccine_cv"
+    },
+    "question": {
+        "en": "Are you fully vaccinated to prevent covid-19 illness?",
+        "es": "\u00c2\u00bfEst\u00c3\u00a1 completamente vacunado/a para prevenir la enfermedad del covid-19?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Partially (I have received one of 2 doses)",
+                    "es": "Parcialmente (He recibido una de 2 dosis)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer",
+                    "es": "Niego a contestar"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,49 @@
+{
+    "id": "screen_time_affects_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210301"
+        }
+    ],
+    "preamble": {
+        "en": "Your progress:98%.Screen TimePlease doNOTinclude time spent on school related work, butDOinclude watching TV, shows or videos, texting or chatting, playing games, or visiting social networking sites (Facebook, Twitter, Instagram). On an average day in thepast week, how much time do you:"
+    },
+    "prefLabel": {
+        "en": "screen_time_affects_cv"
+    },
+    "question": {
+        "en": "How have your relationships with parents/guardians been affected by your screen time?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Positively affected"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Not affected"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Negatively affected"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

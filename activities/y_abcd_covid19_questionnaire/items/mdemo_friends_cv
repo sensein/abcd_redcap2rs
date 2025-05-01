@@ -1,0 +1,72 @@
+{
+    "id": "mdemo_friends_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "mdemo_home_due_to_cv"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210301"
+        }
+    ],
+    "preamble": {
+        "en": "Your progress:29%.In the past month:"
+    },
+    "prefLabel": {
+        "en": "mdemo_friends_cv"
+    },
+    "question": {
+        "en": "How has the frequency of your communication changed during this time withfriends?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Noticeably Decreased"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Somewhat Decreased"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Has Not Changed"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Somewhat Increased"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Noticeably Increased"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Not applicable"
+                },
+                "value": 6
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

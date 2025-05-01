@@ -1,0 +1,51 @@
+{
+    "id": "mcaregiver_help_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210301"
+        }
+    ],
+    "preamble": {
+        "en": "FamilyHere are some questions about your child, you, and your family, in thepast week:",
+        "es": "Familia\nAqu\u00c3\u00ad hay algunas preguntas sobre su hijo/a, usted y su familia, en lasemana pasada:"
+    },
+    "prefLabel": {
+        "en": "mcaregiver_help_cv"
+    },
+    "question": {
+        "en": "In the past month, has the coronavirus situation interfered with the extent to which this person is helping?",
+        "es": "En el \u00c3\u00baltimo mes, \u00c2\u00bfla situaci\u00c3\u00b3n del coronavirus ha interferido en la medida en que esta persona est\u00c3\u00a1 ayudando?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "##en##No##/en####es##No##/es##>"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "##en##Yes##/en####es##S\u00c3\u00ad##/es##>"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "##en##Refuse to answer##/en####es##Niego contestar##/es##>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

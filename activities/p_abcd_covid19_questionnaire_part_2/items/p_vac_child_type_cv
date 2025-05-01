@@ -1,0 +1,61 @@
+{
+    "id": "p_vac_child_type_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210301"
+        }
+    ],
+    "preamble": {
+        "en": "Please answer the questions below about your child:",
+        "es": "Por favor responda las siguientes preguntas sobre su hijo(a):"
+    },
+    "prefLabel": {
+        "en": "p_vac_child_type_cv"
+    },
+    "question": {
+        "en": "Which type:",
+        "es": "Qu\u00c3\u00a9 tipo:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Pfizer",
+                    "es": "Pfizer"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Moderna",
+                    "es": "Moderna"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Johnson&Johnson",
+                    "es": "Johnson&Johnson"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Other",
+                    "es": "Otra"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
