@@ -277,8 +277,8 @@
             "items/screentime_14_wknd_hr_cv",
             "items/screentime_15_wknd_hr_cv",
             "items/screentime_wknd_hr_cv",
-            "items/screentime_cv",
             "items/screentime_wknd_typical_hr_cv",
+            "items/screentime_cv",
             "items/screentime_music_cv",
             "items/app_track_cv",
             "items/monitor_screen_cv",
@@ -1922,16 +1922,16 @@
                 "variableName": "screentime_wknd_hr_cv"
             },
             {
-                "isAbout": "items/screentime_cv",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "screentime_cv"
-            },
-            {
                 "isAbout": "items/screentime_wknd_typical_hr_cv",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "screentime_wknd_typical_hr_cv"
+            },
+            {
+                "isAbout": "items/screentime_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "screentime_cv"
             },
             {
                 "isAbout": "items/screentime_music_cv",
@@ -2056,6 +2056,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2714",
+    "version": "revid2715",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
