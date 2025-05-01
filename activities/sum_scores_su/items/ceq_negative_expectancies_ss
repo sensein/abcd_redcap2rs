@@ -1,0 +1,27 @@
+{
+    "id": "ceq_negative_expectancies_ss",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "ceq_negative_expectancies_ss"
+    },
+    "question": {
+        "en": "Sum of [su_ceq_05, su_ceq_06, su_ceq_07, su_ceq_08]"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

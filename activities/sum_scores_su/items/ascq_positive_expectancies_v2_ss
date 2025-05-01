@@ -1,0 +1,27 @@
+{
+    "id": "ascq_positive_expectancies_v2_ss",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "ascq_positive_expectancies_v2_ss"
+    },
+    "question": {
+        "en": "Sum of [ascq_section_q01_R2, ascq_section_q02_R2, ascq_section_q03_R2, ascq_section_q04_R2]"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
