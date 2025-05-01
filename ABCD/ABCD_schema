@@ -82,6 +82,7 @@
             "../activities/y_flanker_sum_scores/y_flanker_sum_scores_schema",
             "../activities/social_influence_sum_scores/social_influence_sum_scores_schema",
             "../activities/y_intro_to_neurocog_1_yr_followup/y_intro_to_neurocog_1_yr_followup_schema",
+            "../activities/y_millisecond_bird_sum_scores/y_millisecond_bird_sum_scores_schema",
             "../activities/stroop_emotional_taskyouthscoresdaic_use_only/stroop_emotional_taskyouthscoresdaic_use_only_schema",
             "../activities/delay_discounting_sum_scores/delay_discounting_sum_scores_schema",
             "../activities/pain_questionnaire/pain_questionnaire_schema",
@@ -337,8 +338,7 @@
             "../activities/p_abcd_covid19_questionnaire_part_1/p_abcd_covid19_questionnaire_part_1_schema",
             "../activities/p_abcd_covid19_questionnaire_part_2/p_abcd_covid19_questionnaire_part_2_schema",
             "../activities/acs_post_stratification_weights_daic_use_only/acs_post_stratification_weights_daic_use_only_schema",
-            "../activities/little_man_task_daic_use_only/little_man_task_daic_use_only_schema",
-            "../activities/y_millisecond_bird_sum_scores/y_millisecond_bird_sum_scores_schema"
+            "../activities/little_man_task_daic_use_only/little_man_task_daic_use_only_schema"
         ],
         "addProperties": [
             {
@@ -916,6 +916,14 @@
                     "en": "Y Intro To Neurocog 1 Yr Followup"
                 },
                 "variableName": "y_intro_to_neurocog_1_yr_followup_schema"
+            },
+            {
+                "isAbout": "../activities/y_millisecond_bird_sum_scores/y_millisecond_bird_sum_scores_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Millisecond Bird Sum Scores"
+                },
+                "variableName": "y_millisecond_bird_sum_scores_schema"
             },
             {
                 "isAbout": "../activities/stroop_emotional_taskyouthscoresdaic_use_only/stroop_emotional_taskyouthscoresdaic_use_only_schema",
@@ -2964,18 +2972,10 @@
                     "en": "Little Man Task Daic Use Only"
                 },
                 "variableName": "little_man_task_daic_use_only_schema"
-            },
-            {
-                "isAbout": "../activities/y_millisecond_bird_sum_scores/y_millisecond_bird_sum_scores_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Y Millisecond Bird Sum Scores"
-                },
-                "variableName": "y_millisecond_bird_sum_scores_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2681",
+    "version": "revid2682",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

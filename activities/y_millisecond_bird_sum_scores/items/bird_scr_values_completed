@@ -5,14 +5,14 @@
         {
             "column": "Field Annotation",
             "source": "redcap",
-            "value": "HIDEFROMCOMPLETION20201104"
+            "value": "@READONLY HIDEFROMCOMPLETION20201104"
         }
     ],
     "prefLabel": {
         "en": "bird_scr_values_completed"
     },
     "question": {
-        "en": "0 = script was not completed (prematurely aborted)\n1 = script was completed (all conditions run)"
+        "en": "0 = script was not completed (prematurely aborted)\r\n1 = script was completed (all conditions run)"
     },
     "responseOptions": {
         "valueType": [
@@ -20,7 +20,8 @@
         ]
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "text",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
