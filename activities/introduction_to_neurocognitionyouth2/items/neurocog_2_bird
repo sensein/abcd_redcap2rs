@@ -5,7 +5,7 @@
         {
             "column": "Field Annotation",
             "source": "redcap",
-            "value": "HIDEFROMCOMPLETION20200831"
+            "value": "HIDEFROMCOMPLETION20200831 @NONEOFTHEABOVE = '4'"
         }
     ],
     "preamble": {
@@ -36,6 +36,12 @@
                     "en": "In person (ONLY if issues arise and hybrid)"
                 },
                 "value": 3
+            },
+            {
+                "name": {
+                    "en": "Unmonitored"
+                },
+                "value": 4
             }
         ],
         "multipleChoice": true,

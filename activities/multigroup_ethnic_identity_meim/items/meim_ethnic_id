@@ -1,6 +1,13 @@
 {
     "id": "meim_ethnic_id",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDECHOICE = '14'"
+        }
+    ],
     "prefLabel": {
         "en": "meim_ethnic_id"
     },
@@ -83,7 +90,7 @@
             },
             {
                 "name": {
-                    "en": "Mixed Ethnicity"
+                    "en": "Multiracial/Multiethnic"
                 },
                 "value": 13
             },

@@ -1,0 +1,101 @@
+{
+    "id": "meim_race_id",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210225"
+        }
+    ],
+    "prefLabel": {
+        "en": "meim_race_id"
+    },
+    "question": {
+        "en": "Select all that apply:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "White/Caucasian"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Western European"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Eastern European"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Hispanic/Latino"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Black/African American"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Afro-Carribean/Indo-Carribbean/West Indian (i.e. Jamaica, Haiti, Trinidad, Guyana)"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "East Asian (i.e. China, Japan, Korea, Taiwan)"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "South Asian (i.e. India, Pakistan, Bangladesh)"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Southeast Asian (i.e. Phillipines, Vietnam, Thailand)"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "American Indian/Alaska Native"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Middle Eastern/North African"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Native Hawaiian or Pacific Islander"
+                },
+                "value": 12
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

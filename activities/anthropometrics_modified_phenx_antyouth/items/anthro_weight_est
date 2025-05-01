@@ -1,0 +1,38 @@
+{
+    "id": "anthro_weight_est",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210226"
+        }
+    ],
+    "preamble": {
+        "en": "Weight Measurement"
+    },
+    "prefLabel": {
+        "en": "anthro_weight_est"
+    },
+    "question": {
+        "en": "Parent's estimate"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

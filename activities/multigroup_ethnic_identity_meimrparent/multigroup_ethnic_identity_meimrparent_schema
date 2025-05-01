@@ -12,6 +12,7 @@
             "items/meim_r_intro",
             "items/meim_id_p",
             "items/meim_ethnic_id_p",
+            "items/meim_race_p",
             "items/meim_1_p",
             "items/meim_2_p",
             "items/meim_3_p",
@@ -56,6 +57,12 @@
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "meim_ethnic_id_p"
+            },
+            {
+                "isAbout": "items/meim_race_p",
+                "isVis": "meim_ethnic_id_p == '13'",
+                "valueRequired": true,
+                "variableName": "meim_race_p"
             },
             {
                 "isAbout": "items/meim_1_p",
@@ -138,6 +145,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2709",
+    "version": "revid2710",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

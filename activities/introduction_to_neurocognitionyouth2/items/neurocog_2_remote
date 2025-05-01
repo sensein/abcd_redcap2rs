@@ -5,7 +5,7 @@
         {
             "column": "Field Annotation",
             "source": "redcap",
-            "value": "HIDEFROMCOMPLETION20200603"
+            "value": "HIDEFROMCOMPLETION20200603 @NONEOFTHEABOVE = '3'"
         }
     ],
     "preamble": {
@@ -30,6 +30,12 @@
                     "en": "Video/Webcam"
                 },
                 "value": 2
+            },
+            {
+                "name": {
+                    "en": "Unmonitored"
+                },
+                "value": 3
             }
         ],
         "multipleChoice": true,

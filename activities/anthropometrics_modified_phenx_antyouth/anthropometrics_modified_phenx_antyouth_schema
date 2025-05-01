@@ -19,11 +19,13 @@
         "order": [
             "items/anthro_start_time",
             "items/anthro_warn_msg",
+            "items/anthro_virtual_warn_msg",
             "items/y_anthro_warn",
             "items/anthro_i",
             "items/height_1_intro",
             "items/height_hybrid_1_intro",
             "items/anthro_1_height_in",
+            "items/height_estimate",
             "items/height_2_intro",
             "items/height_hybrid_2_intro",
             "items/anthro_2_height_in",
@@ -32,9 +34,11 @@
             "items/anthro_3_height_in",
             "items/anthro_weight_cast",
             "items/anthro_weight_a_location",
+            "items/anthro_weight_intro",
             "items/anthro_weight1_lb",
             "items/anthro_weight1_hybrid_lb",
             "items/anthro_weight2_lb",
+            "items/anthro_weight_est",
             "items/anthro_weight2_hybrid_lb",
             "items/anthro_weight3_lb",
             "items/anthro_weight3_hybrid_lb",
@@ -55,9 +59,15 @@
             },
             {
                 "isAbout": "items/anthro_warn_msg",
-                "isVis": "sched_hybrid == '0'",
+                "isVis": "(sched_delay !== '9' AND sched_hybrid !== '0')",
                 "valueRequired": false,
                 "variableName": "anthro_warn_msg"
+            },
+            {
+                "isAbout": "items/anthro_virtual_warn_msg",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "anthro_virtual_warn_msg"
             },
             {
                 "isAbout": "items/y_anthro_warn",
@@ -67,7 +77,7 @@
             },
             {
                 "isAbout": "items/anthro_i",
-                "isVis": true,
+                "isVis": "(sched_delay !== '9' AND sched_hybrid !== '0')",
                 "valueRequired": false,
                 "variableName": "anthro_i"
             },
@@ -90,6 +100,12 @@
                 "variableName": "anthro_1_height_in"
             },
             {
+                "isAbout": "items/height_estimate",
+                "isVis": "(sched_delay == '9' AND sched_hybrid == '0')",
+                "valueRequired": true,
+                "variableName": "height_estimate"
+            },
+            {
                 "isAbout": "items/height_2_intro",
                 "isVis": "sched_delay == '7'",
                 "valueRequired": false,
@@ -103,7 +119,7 @@
             },
             {
                 "isAbout": "items/anthro_2_height_in",
-                "isVis": true,
+                "isVis": "(sched_delay == '9' AND sched_hybrid == '1')OR sched_delay == '7'",
                 "valueRequired": true,
                 "variableName": "anthro_2_height_in"
             },
@@ -133,7 +149,7 @@
             },
             {
                 "isAbout": "items/anthro_weight_cast",
-                "isVis": true,
+                "isVis": "(sched_delay !== '9' AND sched_hybrid !== '0')",
                 "valueRequired": false,
                 "variableName": "anthro_weight_cast"
             },
@@ -144,8 +160,14 @@
                 "variableName": "anthro_weight_a_location"
             },
             {
-                "isAbout": "items/anthro_weight1_lb",
+                "isAbout": "items/anthro_weight_intro",
                 "isVis": "sched_delay == '7'",
+                "valueRequired": false,
+                "variableName": "anthro_weight_intro"
+            },
+            {
+                "isAbout": "items/anthro_weight1_lb",
+                "isVis": "sched_delay == '7' OR(sched_delay == '9' AND sched_hybrid == '0')",
                 "valueRequired": true,
                 "variableName": "anthro_weight1_lb"
             },
@@ -160,6 +182,12 @@
                 "isVis": "sched_delay == '7'",
                 "valueRequired": true,
                 "variableName": "anthro_weight2_lb"
+            },
+            {
+                "isAbout": "items/anthro_weight_est",
+                "isVis": "(sched_delay == '9' AND sched_hybrid == '0')",
+                "valueRequired": true,
+                "variableName": "anthro_weight_est"
             },
             {
                 "isAbout": "items/anthro_weight2_hybrid_lb",
@@ -181,7 +209,7 @@
             },
             {
                 "isAbout": "items/weight_intro",
-                "isVis": true,
+                "isVis": "(sched_delay !== '9' AND sched_hybrid !== '0')",
                 "valueRequired": false,
                 "variableName": "weight_intro"
             },
@@ -205,7 +233,7 @@
             },
             {
                 "isAbout": "items/anthro_i15",
-                "isVis": true,
+                "isVis": "(sched_delay !== '9' AND sched_hybrid !== '0')",
                 "valueRequired": false,
                 "variableName": "anthro_i15"
             },
@@ -217,7 +245,7 @@
             },
             {
                 "isAbout": "items/anthro_notes",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "anthro_notes"
             },
@@ -230,6 +258,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2709",
+    "version": "revid2710",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

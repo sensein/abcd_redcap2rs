@@ -3,11 +3,6 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Field Note",
-            "source": "redcap",
-            "value": "<font color = \"blue\">WEIGHT #1 (measured to the nearest 0.1 pounds)</font>"
-        },
-        {
             "column": "Text Validation Type OR Show Slider Number",
             "source": "redcap",
             "value": "number"
@@ -21,11 +16,6 @@
             "column": "Text Validation Max",
             "source": "redcap",
             "value": "400.0"
-        },
-        {
-            "column": "Custom Alignment",
-            "source": "redcap",
-            "value": "LH"
         }
     ],
     "preamble": {
@@ -35,7 +25,7 @@
         "en": "anthro_weight1_lb"
     },
     "question": {
-        "en": "Make sure shoes and unnecessary layers of clothes (jackets or hats) have been removed before taking weight measurement.)1.Okay, make sure you empty your pockets for this next measurement. Please stand completely still in the center of the scale with your feet close together, your hands at your side, and your head looking straight ahead. Please stay as still as possible while I measure your weight.(OBTAIN & RECORD WEIGHT #1 (in lbs))"
+        "en": "WEIGHT #1 (measured to the nearest 0.1 pounds)"
     },
     "responseOptions": {
         "maxValue": 400,

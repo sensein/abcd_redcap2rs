@@ -1,0 +1,114 @@
+{
+    "id": "meim_race_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210225"
+        }
+    ],
+    "prefLabel": {
+        "en": "meim_race_p"
+    },
+    "question": {
+        "en": "Select all that apply:",
+        "es": "Seleccione todo lo que corresponda:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "White/Caucasian",
+                    "es": "Blanco / Cauc\u00c3\u00a1sico"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Western European",
+                    "es": "Europeo occidental (del oeste)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Eastern European",
+                    "es": "Europeo oriental (del este)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Hispanic/Latino",
+                    "es": "Hispano / Latino"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Black/African American",
+                    "es": "Negro / Afroamericano"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Afro-Carribean/Indo-Carribbean/West Indian (i.e. Jamaica, Haiti, Trinidad, Guyana)",
+                    "es": "Afro-Caribe\u00c3\u00b1o / Indo-Caribe\u00c3\u00b1o / Indio-Occidental (es decir, Jamaica, Hait\u00c3\u00ad, Trinidad, Guyana)"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "East Asian (i.e. China, Japan, Korea, Taiwan)",
+                    "es": "Asi\u00c3\u00a1tico Oriental (es decir, China, Jap\u00c3\u00b3n, Corea, Taiw\u00c3\u00a1n)"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "South Asian (i.e. India, Pakistan, Bangladesh)",
+                    "es": "Sudasi\u00c3\u00a1tico (es decir, India, Pakist\u00c3\u00a1n, Bangladesh)"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Southeast Asian (i.e. Phillipines, Vietnam, Thailand)",
+                    "es": "Asi\u00c3\u00a1tico de Sudeste (es decir, Filipinas, Vietnam, Tailandia)"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "American Indian/Alaska Native",
+                    "es": "Indio Americano / Nativo de Alaska"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Middle Eastern/North African",
+                    "es": "De Medio Oriente / Norteafricano"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Native Hawaiian or Pacific Islander",
+                    "es": "Nativo de Hawaii o Islas del Pac\u00c3\u00adfico"
+                },
+                "value": 12
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
