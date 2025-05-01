@@ -35,49 +35,49 @@
             {
                 "isAbout": "items/sai_yr_3_read_p",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "sai_yr_3_read_p"
             },
             {
                 "isAbout": "items/sai_yr_3_read_yrs_p",
                 "isVis": "sai_yr_3_read_p == '1'",
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "sai_yr_3_read_yrs_p"
             },
             {
                 "isAbout": "items/sai_yr_3_read_hrs_wk_p",
                 "isVis": "sai_yr_3_read_p == '1'",
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "sai_yr_3_read_hrs_wk_p"
             },
             {
                 "isAbout": "items/sai_yr_3_read_past_yr_p",
                 "isVis": "sai_yr_3_read_p == '1'",
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "sai_yr_3_read_past_yr_p"
             },
             {
                 "isAbout": "items/sai_yr_3_music_p",
                 "isVis": true,
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "sai_yr_3_music_p"
             },
             {
                 "isAbout": "items/sai_yr_3_music_yrs_p",
                 "isVis": "sai_yr_3_music_p == '1'",
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "sai_yr_3_music_yrs_p"
             },
             {
                 "isAbout": "items/sai_yr_3_music_hrs_wk_p",
                 "isVis": "sai_yr_3_music_p == '1'",
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "sai_yr_3_music_hrs_wk_p"
             },
             {
                 "isAbout": "items/sai_yr_3_music_past_week_p",
                 "isVis": "sai_yr_3_music_p == '1'",
-                "valueRequired": false,
+                "valueRequired": true,
                 "variableName": "sai_yr_3_music_past_week_p"
             },
             {
@@ -89,6 +89,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2699",
+    "version": "revid2700",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
