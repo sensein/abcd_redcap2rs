@@ -746,19 +746,19 @@
             "items/ynotes_3yr_issues_data_manager_brief_problem_monitor_resolved_initial",
             "items/ynotes_3yr_issues_data_manager_7up_mania",
             "items/ynotes_3yr_issues_data_manager_7up_mania_resolved",
+            "items/ynotes_3yr_issues_data_manager_tb_resolved",
             "items/ynotes_3yr_issues_data_manager_7up_mania_resolved_timestamp",
+            "items/ynotes_3yr_issues_data_manager_tb_resolved_timestamp",
             "items/ynotes_3yr_issues_data_manager_7up_mania_resolved_initial",
             "items/ynotes_3yr_issues_data_manager_delq",
-            "items/ynotes_3yr_issues_data_manager_delq_resolved",
-            "items/ynotes_3yr_issues_data_manager_delq_resolved_timestamp",
-            "items/ynotes_3yr_issues_data_manager_delq_resolved_initial",
-            "items/ynotes_3yr_issues_data_manager_tb",
-            "items/ynotes_3yr_issues_data_manager_tb_resolved",
-            "items/ynotes_3yr_issues_data_manager_tb_resolved_timestamp",
             "items/ynotes_3yr_issues_data_manager_tb_resolved_initial",
             "items/ynotes_3yr_issues_data_manager_phenx",
+            "items/ynotes_3yr_issues_data_manager_delq_resolved",
             "items/ynotes_3yr_issues_data_manager_phenx_resolved",
+            "items/ynotes_3yr_issues_data_manager_delq_resolved_timestamp",
+            "items/ynotes_3yr_issues_data_manager_delq_resolved_initial",
             "items/ynotes_3yr_issues_data_manager_phenx_resolved_timestamp",
+            "items/ynotes_3yr_issues_data_manager_tb",
             "items/ynotes_3yr_issues_data_manager_phenx_resolved_initial",
             "items/ynotes_3yr_issues_data_manager_peer",
             "items/ynotes_3yr_issues_data_manager_peer_resolved",
@@ -5314,10 +5314,22 @@
                 "variableName": "ynotes_3yr_issues_data_manager_7up_mania_resolved"
             },
             {
+                "isAbout": "items/ynotes_3yr_issues_data_manager_tb_resolved",
+                "isVis": "ynotes_3yr_issues_data_manager___37=='1'",
+                "valueRequired": false,
+                "variableName": "ynotes_3yr_issues_data_manager_tb_resolved"
+            },
+            {
                 "isAbout": "items/ynotes_3yr_issues_data_manager_7up_mania_resolved_timestamp",
                 "isVis": "ynotes_3yr_issues_data_manager_7up_mania_resolved___1=='1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_issues_data_manager_7up_mania_resolved_timestamp"
+            },
+            {
+                "isAbout": "items/ynotes_3yr_issues_data_manager_tb_resolved_timestamp",
+                "isVis": "ynotes_3yr_issues_data_manager_tb_resolved___1=='1'",
+                "valueRequired": false,
+                "variableName": "ynotes_3yr_issues_data_manager_tb_resolved_timestamp"
             },
             {
                 "isAbout": "items/ynotes_3yr_issues_data_manager_7up_mania_resolved_initial",
@@ -5332,10 +5344,28 @@
                 "variableName": "ynotes_3yr_issues_data_manager_delq"
             },
             {
+                "isAbout": "items/ynotes_3yr_issues_data_manager_tb_resolved_initial",
+                "isVis": "ynotes_3yr_issues_data_manager_tb_resolved___1=='1'",
+                "valueRequired": false,
+                "variableName": "ynotes_3yr_issues_data_manager_tb_resolved_initial"
+            },
+            {
+                "isAbout": "items/ynotes_3yr_issues_data_manager_phenx",
+                "isVis": "ynotes_3yr_issues_data_manager___38=='1' OR ynotes_4yr_issues_data_manager___38=='1'",
+                "valueRequired": false,
+                "variableName": "ynotes_3yr_issues_data_manager_phenx"
+            },
+            {
                 "isAbout": "items/ynotes_3yr_issues_data_manager_delq_resolved",
                 "isVis": "ynotes_3yr_issues_data_manager___36=='1' OR ynotes_4yr_issues_data_manager___36=='1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_issues_data_manager_delq_resolved"
+            },
+            {
+                "isAbout": "items/ynotes_3yr_issues_data_manager_phenx_resolved",
+                "isVis": "ynotes_3yr_issues_data_manager___38=='1' OR ynotes_4yr_issues_data_manager___38=='1'",
+                "valueRequired": false,
+                "variableName": "ynotes_3yr_issues_data_manager_phenx_resolved"
             },
             {
                 "isAbout": "items/ynotes_3yr_issues_data_manager_delq_resolved_timestamp",
@@ -5350,46 +5380,16 @@
                 "variableName": "ynotes_3yr_issues_data_manager_delq_resolved_initial"
             },
             {
-                "isAbout": "items/ynotes_3yr_issues_data_manager_tb",
-                "isVis": "ynotes_3yr_issues_data_manager___37=='1'",
-                "valueRequired": false,
-                "variableName": "ynotes_3yr_issues_data_manager_tb"
-            },
-            {
-                "isAbout": "items/ynotes_3yr_issues_data_manager_tb_resolved",
-                "isVis": "ynotes_3yr_issues_data_manager___37=='1'",
-                "valueRequired": false,
-                "variableName": "ynotes_3yr_issues_data_manager_tb_resolved"
-            },
-            {
-                "isAbout": "items/ynotes_3yr_issues_data_manager_tb_resolved_timestamp",
-                "isVis": "ynotes_3yr_issues_data_manager_tb_resolved___1=='1'",
-                "valueRequired": false,
-                "variableName": "ynotes_3yr_issues_data_manager_tb_resolved_timestamp"
-            },
-            {
-                "isAbout": "items/ynotes_3yr_issues_data_manager_tb_resolved_initial",
-                "isVis": "ynotes_3yr_issues_data_manager_tb_resolved___1=='1'",
-                "valueRequired": false,
-                "variableName": "ynotes_3yr_issues_data_manager_tb_resolved_initial"
-            },
-            {
-                "isAbout": "items/ynotes_3yr_issues_data_manager_phenx",
-                "isVis": "ynotes_3yr_issues_data_manager___38=='1' OR ynotes_4yr_issues_data_manager___38=='1'",
-                "valueRequired": false,
-                "variableName": "ynotes_3yr_issues_data_manager_phenx"
-            },
-            {
-                "isAbout": "items/ynotes_3yr_issues_data_manager_phenx_resolved",
-                "isVis": "ynotes_3yr_issues_data_manager___38=='1' OR ynotes_4yr_issues_data_manager___38=='1'",
-                "valueRequired": false,
-                "variableName": "ynotes_3yr_issues_data_manager_phenx_resolved"
-            },
-            {
                 "isAbout": "items/ynotes_3yr_issues_data_manager_phenx_resolved_timestamp",
                 "isVis": "ynotes_3yr_issues_data_manager_phenx_resolved___1=='1'",
                 "valueRequired": false,
                 "variableName": "ynotes_3yr_issues_data_manager_phenx_resolved_timestamp"
+            },
+            {
+                "isAbout": "items/ynotes_3yr_issues_data_manager_tb",
+                "isVis": "ynotes_3yr_issues_data_manager___37=='1'",
+                "valueRequired": false,
+                "variableName": "ynotes_3yr_issues_data_manager_tb"
             },
             {
                 "isAbout": "items/ynotes_3yr_issues_data_manager_phenx_resolved_initial",
@@ -6102,6 +6102,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2701",
+    "version": "revid2702",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

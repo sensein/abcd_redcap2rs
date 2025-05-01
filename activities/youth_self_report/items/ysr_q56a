@@ -10,7 +10,7 @@
         {
             "column": "Matrix Group Name",
             "source": "redcap",
-            "value": "ysr_q56a_q56d"
+            "value": "ysr_q47_q53"
         },
         {
             "column": "Question Number (surveys only)",
@@ -19,7 +19,7 @@
         }
     ],
     "preamble": {
-        "en": "Physical problems without known medical cause"
+        "en": "Please rate each item that describes younow or within the past 6 months"
     },
     "prefLabel": {
         "en": "ysr_q56a"
@@ -46,6 +46,12 @@
                     "en": "Very True or Often True"
                 },
                 "value": 2
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
             }
         ],
         "valueType": [

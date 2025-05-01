@@ -15,7 +15,7 @@
         {
             "column": "Field Annotation",
             "source": "redcap",
-            "value": "@HIDDEN-FORM"
+            "value": "@HIDDEN-FORM @HIDECHOICE = '1, 2'"
         }
     ],
     "preamble": {
@@ -82,6 +82,24 @@
                     "en": "9TH Grade"
                 },
                 "value": 9
+            },
+            {
+                "name": {
+                    "en": "10TH Grade"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "11TH Grade"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "12TH Grade"
+                },
+                "value": 12
             },
             {
                 "name": {

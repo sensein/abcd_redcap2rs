@@ -56,13 +56,13 @@
             },
             {
                 "isAbout": "items/mypi_form_completed",
-                "isVis": "mypi_30_how_completed == '2' && event - name == '42_month_follow_up_arm_1'",
+                "isVis": "mypi_30_how_completed == '2' && event - name == '42_month_follow_up_arm_1' OR event - name == '54_month_follow_up_arm_1'",
                 "valueRequired": true,
                 "variableName": "mypi_form_completed"
             },
             {
                 "isAbout": "items/mypi_notes",
-                "isVis": "event - name == '6_month_follow_up_arm_1' || event - name == '18_month_follow_up_arm_1'",
+                "isVis": "event - name == '6_month_follow_up_arm_1' || event - name == '18_month_follow_up_arm_1' OR event - name !== '54_month_follow_up_arm_1'",
                 "valueRequired": false,
                 "variableName": "mypi_notes"
             },
@@ -75,6 +75,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2701",
+    "version": "revid2702",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

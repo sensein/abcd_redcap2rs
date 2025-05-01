@@ -10,7 +10,7 @@
         {
             "column": "Matrix Group Name",
             "source": "redcap",
-            "value": "ysr_q80_q83"
+            "value": "ysr_q78_q79"
         },
         {
             "column": "Question Number (surveys only)",
@@ -18,6 +18,9 @@
             "value": "83"
         }
     ],
+    "preamble": {
+        "en": "Please rate each item that describes younow or within the past 6 months"
+    },
     "prefLabel": {
         "en": "ysr_q83"
     },
@@ -43,6 +46,12 @@
                     "en": "Very True or Often True"
                 },
                 "value": 2
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
             }
         ],
         "valueType": [

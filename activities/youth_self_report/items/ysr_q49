@@ -10,7 +10,7 @@
         {
             "column": "Matrix Group Name",
             "source": "redcap",
-            "value": "ysr_q47_q53"
+            "value": "ysr_q41_q46"
         },
         {
             "column": "Question Number (surveys only)",
@@ -19,7 +19,7 @@
         }
     ],
     "preamble": {
-        "en": "Below is a list of items that describe kids. For each item that describes younow or within the past 6 months, please choose whether the item isVery True or Often True, Somewhat or Sometimes TrueorNot Trueof you."
+        "en": "Please rate each item that describes younow or within the past 6 months"
     },
     "prefLabel": {
         "en": "ysr_q49"
@@ -46,6 +46,12 @@
                     "en": "Very True or Often True"
                 },
                 "value": 2
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
             }
         ],
         "valueType": [
