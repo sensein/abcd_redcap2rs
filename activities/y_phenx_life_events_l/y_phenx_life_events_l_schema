@@ -753,7 +753,7 @@
             },
             {
                 "isAbout": "items/ple_deported_y",
-                "isVis": "event - name == '3_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '3_year_follow_up_y_arm_1' OR event - name == '4_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "ple_deported_y"
             },
@@ -777,7 +777,7 @@
             },
             {
                 "isAbout": "items/ple_hospitalized_y",
-                "isVis": "event - name == '3_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '3_year_follow_up_y_arm_1' OR event - name == '4_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "ple_hospitalized_y"
             },
@@ -801,7 +801,7 @@
             },
             {
                 "isAbout": "items/ple_foster_care_y",
-                "isVis": "event - name == '3_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '3_year_follow_up_y_arm_1' OR event - name == '4_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "ple_foster_care_y"
             },
@@ -825,7 +825,7 @@
             },
             {
                 "isAbout": "items/ple_hit_y",
-                "isVis": "event - name == '3_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '3_year_follow_up_y_arm_1' OR event - name == '4_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "ple_hit_y"
             },
@@ -849,7 +849,7 @@
             },
             {
                 "isAbout": "items/ple_shot_y",
-                "isVis": "event - name == '3_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '3_year_follow_up_y_arm_1' OR event - name == '4_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "ple_shot_y"
             },
@@ -873,7 +873,7 @@
             },
             {
                 "isAbout": "items/ple_lockdown_y",
-                "isVis": "event - name == '3_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '3_year_follow_up_y_arm_1' OR event - name == '4_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "ple_lockdown_y"
             },
@@ -951,7 +951,7 @@
             },
             {
                 "isAbout": "items/ple_admin",
-                "isVis": "event_name_number > '21'",
+                "isVis": "sched_delay == '7'",
                 "valueRequired": true,
                 "variableName": "ple_admin"
             },
@@ -964,6 +964,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2697",
+    "version": "revid2698",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
