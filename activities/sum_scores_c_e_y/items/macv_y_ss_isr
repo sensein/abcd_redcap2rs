@@ -1,0 +1,30 @@
+{
+    "id": "macv_y_ss_isr",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Peer Network Health: Protective Scale**"
+    },
+    "prefLabel": {
+        "en": "macv_y_ss_isr"
+    },
+    "question": {
+        "en": "Independence/Self Reliance: mean:indep/self reliance = 5, 10, 14, 19, 24"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

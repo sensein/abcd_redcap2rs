@@ -1,0 +1,30 @@
+{
+    "id": "mnbs_ss_mean_all",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Peer Network Health: Protective Scale**"
+    },
+    "prefLabel": {
+        "en": "mnbs_ss_mean_all"
+    },
+    "question": {
+        "en": "all: mean 1-10"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

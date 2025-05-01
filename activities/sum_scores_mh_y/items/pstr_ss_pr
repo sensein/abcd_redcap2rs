@@ -1,0 +1,30 @@
+{
+    "id": "pstr_ss_pr",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Phenx Life Events 3 yr"
+    },
+    "prefLabel": {
+        "en": "pstr_ss_pr"
+    },
+    "question": {
+        "en": "prorate the  sum of the 10 questions"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -188,6 +188,9 @@
             "items/ple_y_ss_total_number2",
             "items/ple_y_ss_total_number2_nm",
             "items/ple_y_ss_total_number2_nt",
+            "items/pstr_ss_pr",
+            "items/erq_ss_suppress_pr",
+            "items/erq_ss_reappraisal_pr",
             "items/sum_scores_mh_y_complete"
         ],
         "addProperties": [
@@ -978,6 +981,24 @@
                 "variableName": "ple_y_ss_affected_bad_mean2"
             },
             {
+                "isAbout": "items/pstr_ss_pr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "pstr_ss_pr"
+            },
+            {
+                "isAbout": "items/erq_ss_suppress_pr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "erq_ss_suppress_pr"
+            },
+            {
+                "isAbout": "items/erq_ss_reappraisal_pr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "erq_ss_reappraisal_pr"
+            },
+            {
                 "isAbout": "items/sum_scores_mh_y_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -986,6 +1007,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2703",
+    "version": "revid2704",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

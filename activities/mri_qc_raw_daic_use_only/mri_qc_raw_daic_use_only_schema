@@ -537,8 +537,8 @@
             "items/iqc_rsfmri_2_fwhm_z",
             "items/iqc_rsfmri_2_brain_tsnr_mean",
             "items/iqc_rsfmri_2_brain_tsnr_median",
-            "items/iqc_rsfmri_2_brain_tsnr_std",
             "items/iqc_rsfmri_2_sub_02_nody",
+            "items/iqc_rsfmri_2_brain_tsnr_std",
             "items/iqc_rsfmri_2_sub_02_filt_nody",
             "items/iqc_rsfmri_2_sub_02_filt",
             "items/iqc_rsfmri_2_sub_02",
@@ -5298,16 +5298,16 @@
                 "variableName": "iqc_rsfmri_2_brain_tsnr_median"
             },
             {
-                "isAbout": "items/iqc_rsfmri_2_brain_tsnr_std",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "iqc_rsfmri_2_brain_tsnr_std"
-            },
-            {
                 "isAbout": "items/iqc_rsfmri_2_sub_02_nody",
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "iqc_rsfmri_2_sub_02_nody"
+            },
+            {
+                "isAbout": "items/iqc_rsfmri_2_brain_tsnr_std",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "iqc_rsfmri_2_brain_tsnr_std"
             },
             {
                 "isAbout": "items/iqc_rsfmri_2_sub_02_filt_nody",
@@ -14768,6 +14768,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2703",
+    "version": "revid2704",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

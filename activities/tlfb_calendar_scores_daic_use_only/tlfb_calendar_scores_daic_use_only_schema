@@ -259,6 +259,18 @@
             "items/tlfb_cal_scr_cbd_wu",
             "items/tlfb_cal_scr_cbd_wt",
             "items/tlfb_cal_scr_cbd_lud",
+            "items/tlfb_cal_scr_vmjf_wt",
+            "items/tlfb_cal_scr_vmjf_avg",
+            "items/tlfb_cal_scr_vmjf_td",
+            "items/tlfb_cal_scr_vmjf_max",
+            "items/tlfb_cal_scr_vmjf_wu",
+            "items/tlfb_cal_scr_vmjf_lud",
+            "items/tlfb_cal_scr_vmjo_avg",
+            "items/tlfb_cal_scr_vmjo_td",
+            "items/tlfb_cal_scr_vmjo_max",
+            "items/tlfb_cal_scr_vmjo_wu",
+            "items/tlfb_cal_scr_vmjo_wt",
+            "items/tlfb_cal_scr_vmjo_lud",
             "items/tlfb_calendar_scores_daic_use_only_complete"
         ],
         "addProperties": [
@@ -1775,6 +1787,78 @@
                 "variableName": "tlfb_cal_scr_cbd_lud"
             },
             {
+                "isAbout": "items/tlfb_cal_scr_vmjf_wt",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "tlfb_cal_scr_vmjf_wt"
+            },
+            {
+                "isAbout": "items/tlfb_cal_scr_vmjf_avg",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "tlfb_cal_scr_vmjf_avg"
+            },
+            {
+                "isAbout": "items/tlfb_cal_scr_vmjf_td",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "tlfb_cal_scr_vmjf_td"
+            },
+            {
+                "isAbout": "items/tlfb_cal_scr_vmjf_max",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "tlfb_cal_scr_vmjf_max"
+            },
+            {
+                "isAbout": "items/tlfb_cal_scr_vmjf_wu",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "tlfb_cal_scr_vmjf_wu"
+            },
+            {
+                "isAbout": "items/tlfb_cal_scr_vmjf_lud",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "tlfb_cal_scr_vmjf_lud"
+            },
+            {
+                "isAbout": "items/tlfb_cal_scr_vmjo_avg",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "tlfb_cal_scr_vmjo_avg"
+            },
+            {
+                "isAbout": "items/tlfb_cal_scr_vmjo_td",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "tlfb_cal_scr_vmjo_td"
+            },
+            {
+                "isAbout": "items/tlfb_cal_scr_vmjo_max",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "tlfb_cal_scr_vmjo_max"
+            },
+            {
+                "isAbout": "items/tlfb_cal_scr_vmjo_wu",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "tlfb_cal_scr_vmjo_wu"
+            },
+            {
+                "isAbout": "items/tlfb_cal_scr_vmjo_wt",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "tlfb_cal_scr_vmjo_wt"
+            },
+            {
+                "isAbout": "items/tlfb_cal_scr_vmjo_lud",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "tlfb_cal_scr_vmjo_lud"
+            },
+            {
                 "isAbout": "items/tlfb_calendar_scores_daic_use_only_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -1783,6 +1867,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2703",
+    "version": "revid2704",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

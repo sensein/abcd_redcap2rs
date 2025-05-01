@@ -10,6 +10,8 @@
             "items/neurocog_ss_general_ability",
             "items/neurocog_ss_executive_function",
             "items/neurocog_ss_learning_memory",
+            "items/bdes_ss_sum",
+            "items/bdes_ss_symptom_cnt",
             "items/neurocog_sum_score_complete"
         ],
         "addProperties": [
@@ -32,6 +34,18 @@
                 "variableName": "neurocog_ss_learning_memory"
             },
             {
+                "isAbout": "items/bdes_ss_sum",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bdes_ss_sum"
+            },
+            {
+                "isAbout": "items/bdes_ss_symptom_cnt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "bdes_ss_symptom_cnt"
+            },
+            {
                 "isAbout": "items/neurocog_sum_score_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -40,6 +54,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2703",
+    "version": "revid2704",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
