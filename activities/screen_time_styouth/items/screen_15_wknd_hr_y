@@ -10,11 +10,11 @@
         {
             "column": "Field Annotation",
             "source": "redcap",
-            "value": "HIDEFROMCOMPLETION20200810"
+            "value": "HIDEFROMCOMPLETION20200810 @HIDDEN"
         }
     ],
     "preamble": {
-        "en": "On a typical WEEKEND day (or non-school day, like during summer or holiday breaks), how much TIME per day do you: \n\nPlease do NOT include time spent on school related work, but do include watching TV, shows or videos, texting or chatting, playing games, or visiting social networking sites (Facebook, Twitter, Instagram)."
+        "en": "Searching or browsing the internet (e.g., using Google) that is NOT for school"
     },
     "prefLabel": {
         "en": "screen_15_wknd_hr_y"
@@ -174,7 +174,8 @@
         ]
     },
     "ui": {
-        "inputType": "select"
+        "inputType": "select",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
