@@ -1,11 +1,11 @@
 {
-    "id": "reshist_addr2_scanweekvpd_t6",
+    "id": "sports_activity_ss_read_yr_p",
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
-            "column": "Text Validation Type OR Show Slider Number",
+            "column": "Field Note",
             "source": "redcap",
-            "value": "number"
+            "value": "0,1,2,3,4,5,6,7,8,9,10,11,998,np.inf"
         },
         {
             "column": "Field Annotation",
@@ -13,19 +13,22 @@
             "value": "@READONLY"
         }
     ],
+    "preamble": {
+        "en": "Reading"
+    },
     "prefLabel": {
-        "en": "reshist_addr2_scanweekvpd_t6"
+        "en": "sports_activity_ss_read_yr_p"
     },
     "question": {
-        "en": "Residential history derived - maximum vapor pressure deficit in hPa at participant's secondary (addr2) residence 6 days prior (t-6) to date of study visit"
+        "en": "For how many years has your child read for pleasure by bin number?"
     },
     "responseOptions": {
         "valueType": [
-            "xsd:decimal"
+            "xsd:string"
         ]
     },
     "ui": {
-        "inputType": "float",
+        "inputType": "text",
         "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"

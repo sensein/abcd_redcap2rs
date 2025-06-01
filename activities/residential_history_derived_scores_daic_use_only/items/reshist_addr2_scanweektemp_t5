@@ -3,6 +3,11 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
             "column": "Field Annotation",
             "source": "redcap",
             "value": "@READONLY"
@@ -15,20 +20,12 @@
         "en": "Residential history derived - maximum temperature in degrees C at participant's secondary (addr2) residence 5 days prior (t-5) to date of study visit"
     },
     "responseOptions": {
-        "choices": [
-            {
-                "name": {
-                    "en": "number"
-                },
-                "value": "number"
-            }
-        ],
         "valueType": [
-            "xsd:string"
+            "xsd:decimal"
         ]
     },
     "ui": {
-        "inputType": "text",
+        "inputType": "float",
         "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
