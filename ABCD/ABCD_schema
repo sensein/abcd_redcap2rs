@@ -363,6 +363,7 @@
             "../activities/p_raw_ksads_td/p_raw_ksads_td_schema",
             "../activities/p_raw_ksads_suicidal/p_raw_ksads_suicidal_schema",
             "../activities/p_raw_ksads_sleepprob/p_raw_ksads_sleepprob_schema",
+            "../activities/health_part_2_module_feedback/health_part_2_module_feedback_schema",
             "../activities/p_raw_ksads_sad/p_raw_ksads_sad_schema",
             "../activities/p_raw_ksads_sa/p_raw_ksads_sa_schema",
             "../activities/p_raw_ksads_psychosis/p_raw_ksads_psychosis_schema",
@@ -381,8 +382,7 @@
             "../activities/p_raw_ksads_adhd/p_raw_ksads_adhd_schema",
             "../activities/p_raw_ksads_aud/p_raw_ksads_aud_schema",
             "../activities/p_raw_ksads_dud/p_raw_ksads_dud_schema",
-            "../activities/substance_use_module_feedback/substance_use_module_feedback_schema",
-            "../activities/health_part_2_module_feedback/health_part_2_module_feedback_schema"
+            "../activities/substance_use_module_feedback/substance_use_module_feedback_schema"
         ],
         "addProperties": [
             {
@@ -3210,6 +3210,14 @@
                 "variableName": "p_raw_ksads_sleepprob_schema"
             },
             {
+                "isAbout": "../activities/health_part_2_module_feedback/health_part_2_module_feedback_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Health Part 2 Module Feedback"
+                },
+                "variableName": "health_part_2_module_feedback_schema"
+            },
+            {
                 "isAbout": "../activities/p_raw_ksads_sad/p_raw_ksads_sad_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -3360,18 +3368,10 @@
                     "en": "Substance Use Module Feedback"
                 },
                 "variableName": "substance_use_module_feedback_schema"
-            },
-            {
-                "isAbout": "../activities/health_part_2_module_feedback/health_part_2_module_feedback_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Health Part 2 Module Feedback"
-                },
-                "variableName": "health_part_2_module_feedback_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2739",
+    "version": "revid2741",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
