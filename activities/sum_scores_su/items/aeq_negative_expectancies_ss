@@ -8,19 +8,19 @@
             "value": "@READONLY"
         }
     ],
+    "description": {
+        "en": "Strength of negative expectancies for alcohol. Score prorated if some item responses were missing."
+    },
     "prefLabel": {
         "en": "aeq_negative_expectancies_ss"
     },
-    "question": {
-        "en": "Sum of [aeq_section_q03, aeq_section_q05, aeq_section_q07]"
-    },
     "responseOptions": {
         "valueType": [
-            "xsd:string"
+            "xsd:integer"
         ]
     },
     "ui": {
-        "inputType": "text",
+        "inputType": "number",
         "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"

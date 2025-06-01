@@ -1,6 +1,24 @@
 {
     "id": "sum_scores_su_schema",
     "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "sum(aeq_section_q01,aeq_section_q02,aeq_section_q06)",
+            "variableName": "aeq_positive_expectancies_ss"
+        },
+        {
+            "jsExpression": "sum(aeq_section_q03,aeq_section_q05,aeq_section_q07)",
+            "variableName": "aeq_negative_expectancies_ss"
+        },
+        {
+            "jsExpression": "sum(meeq_section_q02,meeq_section_q03,meeq_section_q04)",
+            "variableName": "meeq_positive_expectancies_ss"
+        },
+        {
+            "jsExpression": "sum(meeq_section_q01,meeq_section_q05,meeq_section_q06)",
+            "variableName": "meeq_negative_expectancies_ss"
+        }
+    ],
     "prefLabel": {
         "en": "sum_scores_su"
     },
@@ -41,10 +59,8 @@
             "items/subj_resp_alc_total_first_i",
             "items/subj_resp_alc_total_6mo_i",
             "items/subj_resp_alc_total_heavy_i",
-            "items/aeq_positive_expectancies_ss",
             "items/aeq_positive_expectancies_nm",
             "items/aeq_positive_expectancies_nt",
-            "items/aeq_negative_expectancies_ss",
             "items/aeq_negative_expectancies_nm",
             "items/aeq_negative_expectancies_nt",
             "items/ascq_positive_expectancies_v1_ss",
@@ -59,10 +75,8 @@
             "items/ascq_negative_expectancies_v2_ss",
             "items/ascq_negative_expectancies_v2_nm",
             "items/ascq_negative_expectancies_v2_nt",
-            "items/meeq_positive_expectancies_ss",
             "items/meeq_positive_expectancies_nm",
             "items/meeq_positive_expectancies_nt",
-            "items/meeq_negative_expectancies_ss",
             "items/meeq_negative_expectancies_nm",
             "items/meeq_negative_expectancies_nt",
             "items/ceq_positive_expectancies_ss",
@@ -467,6 +481,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2721",
+    "version": "revid2722",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

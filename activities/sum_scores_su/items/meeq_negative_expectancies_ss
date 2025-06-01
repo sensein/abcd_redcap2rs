@@ -8,19 +8,19 @@
             "value": "@READONLY"
         }
     ],
+    "description": {
+        "en": "Strength of negative expectancies for marijuana. Score prorated if some item responses were missing."
+    },
     "prefLabel": {
         "en": "meeq_negative_expectancies_ss"
     },
-    "question": {
-        "en": "Sum of [meeq_section_q01, meeq_section_q05, meeq_section_q06]"
-    },
     "responseOptions": {
         "valueType": [
-            "xsd:string"
+            "xsd:integer"
         ]
     },
     "ui": {
-        "inputType": "text",
+        "inputType": "number",
         "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
