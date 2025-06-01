@@ -1,6 +1,13 @@
 {
     "id": "icup_drager",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION"
+        }
+    ],
     "prefLabel": {
         "en": "icup_drager"
     },
@@ -13,8 +20,7 @@
         ]
     },
     "ui": {
-        "inputType": "static",
-        "readonlyValue": true
+        "inputType": "static"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
