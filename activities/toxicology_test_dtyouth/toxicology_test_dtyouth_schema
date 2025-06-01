@@ -293,7 +293,7 @@
             },
             {
                 "isAbout": "items/tox2_des_2",
-                "isVis": "event - name >= '4_year_follow_up_y_arm_1'",
+                "isVis": "event - name >= '4_year_follow_up_y_arm_1' AND baseline_visits_num > '1'",
                 "valueRequired": false,
                 "variableName": "tox2_des_2"
             },
@@ -474,6 +474,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2767",
+    "version": "revid2768",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
