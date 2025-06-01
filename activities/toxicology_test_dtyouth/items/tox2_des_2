@@ -1,0 +1,26 @@
+{
+    "id": "tox2_des_2",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210514"
+        }
+    ],
+    "prefLabel": {
+        "en": "tox2_des_2"
+    },
+    "question": {
+        "en": "Toxicology Test Day 2 should be completed if the participant was positive in UDS AND if NCog and MRI occur on 2 different days, if prompted by the protocol, or if intoxication is suspected."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

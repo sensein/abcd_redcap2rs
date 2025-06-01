@@ -26,6 +26,8 @@
             "items/hours_science_cv",
             "items/hours_other_cv",
             "items/school_like_activities_reduced_cv",
+            "items/in_person_school_days_cv",
+            "items/online_school_days_cv",
             "items/parent_involve_school_cv",
             "items/assist_sched_cv",
             "items/check_hw_cv",
@@ -414,9 +416,21 @@
             },
             {
                 "isAbout": "items/school_like_activities_reduced_cv",
-                "isVis": "(hours_reading_cv > '0' OR hours_language_cv > '0' OR hours_social_cv > '0' OR hours_math_cv > '0' OR hours_science_cv > '0' OR hours_other_cv > '0')",
+                "isVis": "(hours_reading_cv > '0' OR hours_language_cv > '0' OR hours_social_cv > '0' OR hours_math_cv > '0' OR hours_science_cv > '0' OR hours_other_cv > '0')OR(schooling_cv == '1' OR schooling_cv == '3')",
                 "valueRequired": false,
                 "variableName": "school_like_activities_reduced_cv"
+            },
+            {
+                "isAbout": "items/in_person_school_days_cv",
+                "isVis": "schooling_cv == '3'",
+                "valueRequired": true,
+                "variableName": "in_person_school_days_cv"
+            },
+            {
+                "isAbout": "items/online_school_days_cv",
+                "isVis": "schooling_cv == '3'",
+                "valueRequired": true,
+                "variableName": "online_school_days_cv"
             },
             {
                 "isAbout": "items/parent_involve_school_cv",
@@ -2077,6 +2091,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2766",
+    "version": "revid2767",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

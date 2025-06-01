@@ -1,0 +1,30 @@
+{
+    "id": "su_tlfb_anynic_use_l_calc",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN @SHARED @READONLY"
+        }
+    ],
+    "preamble": {
+        "en": "Do NOT repeat these questions to the participant, instead please fill this out based on the 12-month TLFB calendar."
+    },
+    "prefLabel": {
+        "en": "su_tlfb_anynic_use_l_calc"
+    },
+    "question": {
+        "en": "1= use of any nicotine product (cigarettes, ENDS, smokeless tobacco, cigar, hookah, pipe, or nicotine replacement) was endorsed; 0= no nicotine product use was endorsed."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

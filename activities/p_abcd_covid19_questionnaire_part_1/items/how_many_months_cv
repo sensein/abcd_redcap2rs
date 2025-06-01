@@ -1,0 +1,57 @@
+{
+    "id": "how_many_months_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFRONCOMPLETION20210513"
+        }
+    ],
+    "prefLabel": {
+        "en": "how_many_months_cv"
+    },
+    "question": {
+        "en": "For about how many months?",
+        "es": "Aproximadamente, \u00c2\u00bfpor cuantos meses?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Less than 2 month",
+                    "es": "Menos de 2 meses"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2-3 months",
+                    "es": "2-3 meses"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "4-5 months",
+                    "es": "4-5 meses"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "More than 6 months",
+                    "es": "M\u00c3\u00a1s de 6 meses"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

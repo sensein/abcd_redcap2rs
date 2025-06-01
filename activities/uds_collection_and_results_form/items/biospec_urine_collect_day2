@@ -20,7 +20,7 @@
         "en": "biospec_urine_collect_day2"
     },
     "question": {
-        "en": "Is Urine Drug Screen Day 2 needed for this participant?"
+        "en": "Was urine collected for Urine Drug Screen on Day 2?"
     },
     "responseOptions": {
         "choices": [
@@ -35,10 +35,16 @@
                     "en": "No"
                 },
                 "value": 0
+            },
+            {
+                "name": {
+                    "en": "Not applicable"
+                },
+                "value": 3
             }
         ],
         "valueType": [
-            "xsd:boolean"
+            "xsd:integer"
         ]
     },
     "ui": {
