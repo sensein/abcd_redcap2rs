@@ -9,6 +9,7 @@
         "order": [
             "items/screener_p_select_language",
             "items/screened_cv",
+            "items/timestamp_cv",
             "items/screener_phone_cv",
             "items/any_symptoms_cv",
             "items/fever_cv",
@@ -40,6 +41,12 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "screened_cv"
+            },
+            {
+                "isAbout": "items/timestamp_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "timestamp_cv"
             },
             {
                 "isAbout": "items/screener_phone_cv",
@@ -152,6 +159,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2757",
+    "version": "revid2758",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

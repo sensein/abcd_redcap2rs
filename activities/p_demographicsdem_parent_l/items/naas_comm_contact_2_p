@@ -1,0 +1,75 @@
+{
+    "id": "naas_comm_contact_2_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210415"
+        }
+    ],
+    "preamble": {
+        "en": "The following questions are about thechild.",
+        "es": "Las siguientes preguntas son acerca desuni\u00c3\u00b1o(a)."
+    },
+    "prefLabel": {
+        "en": "naas_comm_contact_2_p"
+    },
+    "question": {
+        "en": "What contact did your child's Native American parent have with Native American communities?",
+        "es": "\u00c2\u00bfQu\u00c3\u00a9 contacto ha tenido el padre / la madre Americano(a) Nativo(a) del ni\u00c3\u00b1o / la ni\u00c3\u00b1a con las comunidades nativas americanas?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Raised for 1 year or more on the reservation or other Native American community",
+                    "es": "Criado(a) por m\u00c3\u00a1s de un a\u00c3\u00b1o en la reserva u otra comunidad de Americanos Nativos"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Raised for 1 year or less on the reservation or other Native American community",
+                    "es": "Criado(a) por un a\u00c3\u00b1o o menos de un a\u00c3\u00b1o en una reserva u otra comunidad de Americanos Nativos"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Occasional visits to the reservation or other Native American community",
+                    "es": "Visitas ocasionales a la reserva o alguna otra comunidad de Americanos Nativos"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Occasional communications with people on reservation or other Native American community",
+                    "es": "Comunicaciones ocasionales con personas en la reserva u otra comunidad Americana Nativa"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "No exposure or communications with people on reservation or other Native American community",
+                    "es": "No he sido expuesto(a) o he tenido comunicaci\u00c3\u00b3n con personas de una reserva o comunidad de Americanos Nativos."
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Don't Know",
+                    "es": "No lo s\u00c3\u00a9"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -99,7 +99,7 @@
             },
             {
                 "isAbout": "items/blood_permission_l_p",
-                "isVis": "(sched_delay == '7')OR(sched_delay == '9' AND sched_hybrid == '1')",
+                "isVis": "(sched_delay == '7')OR(sched_delay == '9' AND sched_hybrid == '1')AND event - name !== '5_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "blood_permission_l_p"
             },
@@ -123,7 +123,7 @@
             },
             {
                 "isAbout": "items/mobile_permission_p",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "mobile_permission_p"
             },
@@ -346,6 +346,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2757",
+    "version": "revid2758",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,0 +1,75 @@
+{
+    "id": "naas_id_2_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210415"
+        }
+    ],
+    "preamble": {
+        "en": "The following questions are about thechild.",
+        "es": "Las siguientes preguntas son acerca desuni\u00c3\u00b1o(a)."
+    },
+    "prefLabel": {
+        "en": "naas_id_2_p"
+    },
+    "question": {
+        "en": "How does your child's Native American parent identify?",
+        "es": "\u00c2\u00bfC\u00c3\u00b3mo se identifica el padre / la madre Americano(a) Nativo(a) del ni\u00c3\u00b1o / la ni\u00c3\u00b1a?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Native American",
+                    "es": "American(a) Nativo(a)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Native American and some non-Native American (e.g., White, African American, Latino, and Asian American)",
+                    "es": "Americano(a) Nativo(a) y algo no Americano Nativo (ej. Blanco, Afroamericano, Latino, y Americano Asi\u00c3\u00a1tico)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Native American and non-Native American (bicultural)",
+                    "es": "Americano Nativo y no Americano Nativo (bicultural)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Non-Native American and some Native American",
+                    "es": "No Americano Nativo y algo Americano Nativo"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Non-Native American (e.g., White, African American, Latino, and Asian American)",
+                    "es": "No Americano Nativo (ej. Blanco, Afroamericano, Latino, y Americano Asi\u00c3\u00a1tico)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Don't Know",
+                    "es": "No lo s\u00c3\u00a9"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -374,7 +374,7 @@
             },
             {
                 "isAbout": "items/mctq_fd_awakening_min",
-                "isVis": true,
+                "isVis": "mctq_fd_num_wake_up <> ''",
                 "valueRequired": true,
                 "variableName": "mctq_fd_awakening_min"
             },
@@ -446,7 +446,7 @@
             },
             {
                 "isAbout": "items/mctq_fd_other_reason",
-                "isVis": "mctq_fd_reason2___5 == '1'",
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "mctq_fd_other_reason"
             },
@@ -525,6 +525,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2757",
+    "version": "revid2758",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

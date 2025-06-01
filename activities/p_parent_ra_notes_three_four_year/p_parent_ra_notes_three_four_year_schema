@@ -285,8 +285,8 @@
             "items/pnotes_3yr_issues_workgroup_ipaq_other",
             "items/pnotes_3yr_issues_workgroup_sucrpf",
             "items/pnotes_3yr_issues_workgroup_sucrpf_comprehension",
-            "items/pnotes_3yr_issues_workgroup_sucrpf_compliance",
             "items/pnotes_3yr_issues_workgroup_sucrpf_staff",
+            "items/pnotes_3yr_issues_workgroup_sucrpf_compliance",
             "items/pnotes_3yr_issues_workgroup_sucrpf_tech",
             "items/pnotes_3yr_issues_workgroup_sucrpf_other",
             "items/pnotes_3yr_issues_workgroup_schoolattendancegrades",
@@ -2307,16 +2307,16 @@
                 "variableName": "pnotes_3yr_issues_workgroup_sucrpf_comprehension"
             },
             {
-                "isAbout": "items/pnotes_3yr_issues_workgroup_sucrpf_compliance",
-                "isVis": "pnotes_3yr_issues_workgroup_sucrpf___2=='1'",
-                "valueRequired": false,
-                "variableName": "pnotes_3yr_issues_workgroup_sucrpf_compliance"
-            },
-            {
                 "isAbout": "items/pnotes_3yr_issues_workgroup_sucrpf_staff",
                 "isVis": "pnotes_3yr_issues_workgroup_sucrpf___3=='1'",
                 "valueRequired": false,
                 "variableName": "pnotes_3yr_issues_workgroup_sucrpf_staff"
+            },
+            {
+                "isAbout": "items/pnotes_3yr_issues_workgroup_sucrpf_compliance",
+                "isVis": "pnotes_3yr_issues_workgroup_sucrpf___2=='1'",
+                "valueRequired": false,
+                "variableName": "pnotes_3yr_issues_workgroup_sucrpf_compliance"
             },
             {
                 "isAbout": "items/pnotes_3yr_issues_workgroup_sucrpf_tech",
@@ -4415,6 +4415,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2757",
+    "version": "revid2758",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

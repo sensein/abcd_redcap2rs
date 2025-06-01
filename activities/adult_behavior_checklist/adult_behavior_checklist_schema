@@ -19,8 +19,8 @@
             "items/abcl_num_friends_p",
             "items/abcl_contact_p",
             "items/abcl_get_along_p",
-            "items/abcl_visited_p",
             "items/abcl_q01_p",
+            "items/abcl_visited_p",
             "items/abcl_q02_p",
             "items/abcl_q03_p",
             "items/abcl_q04_p",
@@ -243,16 +243,16 @@
                 "variableName": "abcl_get_along_p"
             },
             {
-                "isAbout": "items/abcl_visited_p",
-                "isVis": "abcl_about_p !== '0' && abcl_about_p !== ''",
-                "valueRequired": true,
-                "variableName": "abcl_visited_p"
-            },
-            {
                 "isAbout": "items/abcl_q01_p",
                 "isVis": "abcl_about_p !== '0' && abcl_about_p !== ''",
                 "valueRequired": true,
                 "variableName": "abcl_q01_p"
+            },
+            {
+                "isAbout": "items/abcl_visited_p",
+                "isVis": "abcl_about_p !== '0' && abcl_about_p !== ''",
+                "valueRequired": true,
+                "variableName": "abcl_visited_p"
             },
             {
                 "isAbout": "items/abcl_q02_p",
@@ -1139,6 +1139,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2757",
+    "version": "revid2758",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,0 +1,75 @@
+{
+    "id": "naas_raised_2_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210415"
+        }
+    ],
+    "preamble": {
+        "en": "The following questions are about thechild.",
+        "es": "Las siguientes preguntas son acerca desuni\u00c3\u00b1o(a)."
+    },
+    "prefLabel": {
+        "en": "naas_raised_2_p"
+    },
+    "question": {
+        "en": "Where were your child's Native American parents raised?",
+        "es": "\u00c2\u00bfD\u00c3\u00b3nde se cri\u00c3\u00b3 el padre / la madre Americano(a) Nativo(a) del ni\u00c3\u00b1o / la ni\u00c3\u00b1a?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Reservation, Native American community",
+                    "es": "Reserva o comunidad de Americanos Nativos"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Rural area, Native American community",
+                    "es": "Comunidad rural de Americanos Nativos"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Urban area, Native American community",
+                    "es": "Comunidad urbana de Americanos Nativos"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Urban or Rural area, near Native American community",
+                    "es": "Zona rural o urbana cerca de una comunidad de Americanos Nativos"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Urban or Rural area, away from Native American community",
+                    "es": "Zona rural o urbana lejos de una comunidad de Americanos Nativos"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Don't Know",
+                    "es": "No lo s\u00c3\u00a9"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

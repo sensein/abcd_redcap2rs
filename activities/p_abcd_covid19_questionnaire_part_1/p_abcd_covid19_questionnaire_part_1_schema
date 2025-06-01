@@ -34,8 +34,8 @@
             "items/fam_exp6_cv",
             "items/fam_exp7_v2_cv",
             "items/fam_exp_racism_cv",
-            "items/increased_conflict_cv",
             "items/worry_about_cv",
+            "items/increased_conflict_cv",
             "items/get_coronavirus_cv",
             "items/think_will_hospitalized_cv",
             "items/think_will_get_cv",
@@ -234,16 +234,16 @@
                 "variableName": "fam_exp_racism_cv"
             },
             {
-                "isAbout": "items/increased_conflict_cv",
-                "isVis": "event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv3_arm_2' OR event - name == 'covid19_cv5_arm_2'",
-                "valueRequired": true,
-                "variableName": "increased_conflict_cv"
-            },
-            {
                 "isAbout": "items/worry_about_cv",
                 "isVis": "event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv3_arm_2' OR event - name == 'covid19_cv5_arm_2'",
                 "valueRequired": true,
                 "variableName": "worry_about_cv"
+            },
+            {
+                "isAbout": "items/increased_conflict_cv",
+                "isVis": "event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv3_arm_2' OR event - name == 'covid19_cv5_arm_2'",
+                "valueRequired": true,
+                "variableName": "increased_conflict_cv"
             },
             {
                 "isAbout": "items/get_coronavirus_cv",
@@ -446,6 +446,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2757",
+    "version": "revid2758",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

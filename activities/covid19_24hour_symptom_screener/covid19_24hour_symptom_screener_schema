@@ -26,6 +26,7 @@
             "items/close_contact_2_cv",
             "items/sched_visit_2_cv",
             "items/dont_sched_visit_2_cv",
+            "items/timestamp_2_cv",
             "items/covid19_24hour_symptom_screener_complete"
         ],
         "addProperties": [
@@ -144,6 +145,12 @@
                 "variableName": "dont_sched_visit_2_cv"
             },
             {
+                "isAbout": "items/timestamp_2_cv",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "timestamp_2_cv"
+            },
+            {
                 "isAbout": "items/covid19_24hour_symptom_screener_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -152,6 +159,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2757",
+    "version": "revid2758",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

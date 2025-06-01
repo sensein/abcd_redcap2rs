@@ -956,8 +956,8 @@
             "items/iqc_rsfmri_ok_tr",
             "items/iqc_rsfmri_all_mean_motion",
             "items/iqc_rsfmri_ok_mean_motion",
-            "items/iqc_rsfmri_all_mean_motion_nody",
             "items/iqc_rsfmri_ok_mean_motion_nody",
+            "items/iqc_rsfmri_all_mean_motion_nody",
             "items/iqc_rsfmri_all_mean_motion_filt",
             "items/iqc_rsfmri_ok_mean_motion_filt",
             "items/iqc_rsfmri_all_mean_motion_filt_nody",
@@ -7812,16 +7812,16 @@
                 "variableName": "iqc_rsfmri_ok_mean_motion"
             },
             {
-                "isAbout": "items/iqc_rsfmri_all_mean_motion_nody",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "iqc_rsfmri_all_mean_motion_nody"
-            },
-            {
                 "isAbout": "items/iqc_rsfmri_ok_mean_motion_nody",
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "iqc_rsfmri_ok_mean_motion_nody"
+            },
+            {
+                "isAbout": "items/iqc_rsfmri_all_mean_motion_nody",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "iqc_rsfmri_all_mean_motion_nody"
             },
             {
                 "isAbout": "items/iqc_rsfmri_all_mean_motion_filt",
@@ -14768,6 +14768,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2757",
+    "version": "revid2758",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

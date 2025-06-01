@@ -44,61 +44,61 @@
             },
             {
                 "isAbout": "items/parental_monitor_q1_p",
-                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "parental_monitor_q1_p"
             },
             {
                 "isAbout": "items/parental_monitor_q2_p",
-                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "parental_monitor_q2_p"
             },
             {
                 "isAbout": "items/parental_monitor_q3_p",
-                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "parental_monitor_q3_p"
             },
             {
                 "isAbout": "items/parental_monitor_q4_p",
-                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "parental_monitor_q4_p"
             },
             {
                 "isAbout": "items/parental_monitor_q5_p",
-                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "parental_monitor_q5_p"
             },
             {
                 "isAbout": "items/parental_monitor_q6_p",
-                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "parental_monitor_q6_p"
             },
             {
                 "isAbout": "items/parental_monitor_q7_p",
-                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "parental_monitor_q7_p"
             },
             {
                 "isAbout": "items/parental_monitor_q8_p",
-                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "parental_monitor_q8_p"
             },
             {
                 "isAbout": "items/parental_monitor_q9_p",
-                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "parental_monitor_q9_p"
             },
             {
                 "isAbout": "items/parental_monitor_q10_p",
-                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "parental_monitor_q10_p"
             },
@@ -201,6 +201,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2757",
+    "version": "revid2758",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
