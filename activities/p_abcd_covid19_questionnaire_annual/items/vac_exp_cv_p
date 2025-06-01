@@ -1,0 +1,139 @@
+{
+    "id": "vac_exp_cv_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210330"
+        }
+    ],
+    "preamble": {
+        "en": "Has someone close to your child been diagnosed with coronavirus?",
+        "es": "\u00c2\u00bfAlguien cercano a su ni\u00c3\u00b1o(a) ha sido diagnosticado(a) con coronavirus?"
+    },
+    "prefLabel": {
+        "en": "vac_exp_cv_p"
+    },
+    "question": {
+        "en": "Did your child have any of the following experiences after receiving the coronavirus vaccine (check all that apply):",
+        "es": "\u00c2\u00bfTuvo su hijo alguna de las siguientes experiencias despu\u00c3\u00a9s de recibir la vacuna contra el coronavirus? (marque todas las que correspondan):"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Pain at the injection site",
+                    "es": "Dolor en el lugar de la inyecci\u00c3\u00b3n"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Redness at the injection site",
+                    "es": "Enrojecimiento en el lugar de la inyecci\u00c3\u00b3n"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Swelling at the injection site",
+                    "es": "Hinchazon en el lugar de la inyecci\u00c3\u00b3n"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Itching at the injection site",
+                    "es": "Picaz\u00c3\u00b3n en el lugar de la inyecci\u00c3\u00b3n"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Chill",
+                    "es": "Escalofr\u00c3\u00ados"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Headache",
+                    "es": "Dolor de cabeza"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Joint pain",
+                    "es": "Dolor en las articulaciones"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Muscle or body aches",
+                    "es": "Dolores musculares o corporales"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Fatigue or Tiredness",
+                    "es": "Fatiga o cansancio"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Nausea",
+                    "es": "N\u00c3\u00a1usea"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Vomiting",
+                    "es": "V\u00c3\u00b3mito"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Diarrhea",
+                    "es": "Diarrea"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Abdominal pain",
+                    "es": "Dolor abdominal"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Rash not including the immediate area around the injection site",
+                    "es": "Sarpullido no incluyendo el \u00c3\u00a1rea inmediata alrededor del lugar de la inyecci\u00c3\u00b3n"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "None",
+                    "es": "Ninguno"
+                },
+                "value": 15
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

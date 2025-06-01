@@ -1,13 +1,6 @@
 {
     "id": "test_3_results_cv_p",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Field Annotation",
-            "source": "redcap",
-            "value": "@HIDDEN"
-        }
-    ],
     "preamble": {
         "en": "Please answer the questions below about your child:",
         "es": "Por favor responda las siguientes preguntas sobre su hijo(a):"
@@ -44,8 +37,7 @@
         ]
     },
     "ui": {
-        "inputType": "radio",
-        "readonlyValue": true
+        "inputType": "radio"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

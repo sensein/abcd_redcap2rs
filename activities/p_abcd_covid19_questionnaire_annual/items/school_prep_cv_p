@@ -6,6 +6,11 @@
             "column": "Matrix Group Name",
             "source": "redcap",
             "value": "school_prep_group_cv_p"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
         }
     ],
     "preamble": {
@@ -17,7 +22,7 @@
     },
     "question": {
         "en": "How prepared do you think your child will be for next school year?",
-        "es": "\u00c2\u00bfQu\u00c3\u00a9 tan preparado/a piensa que estar\u00c3\u00a1 su hijo/a para el pr\u00c3\u00b3ximo a\u00c3\u00b1o escolar?"
+        "es": "Que tan preparado/a piensa que estar\u00c3\u00a1 su hijo/a para el pr\u00c3\u00b3ximo ano escolar?"
     },
     "responseOptions": {
         "choices": [
@@ -62,7 +67,8 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "radio",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,6 +1,16 @@
 {
     "id": "enjoyed_school_wk_y_cv_y",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDEFROMCOMPLETION20210320 @HIDDEN"
+        }
+    ],
+    "preamble": {
+        "en": "School Schedule"
+    },
     "prefLabel": {
         "en": "enjoyed_school_wk_y_cv_y"
     },
@@ -45,7 +55,8 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "radio",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,0 +1,47 @@
+{
+    "id": "vac_child_2_cv_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210330"
+        }
+    ],
+    "preamble": {
+        "en": "Has someone close to your child been diagnosed with coronavirus?",
+        "es": "\u00c2\u00bfAlguien cercano a su ni\u00c3\u00b1o(a) ha sido diagnosticado(a) con coronavirus?"
+    },
+    "prefLabel": {
+        "en": "vac_child_2_cv_p"
+    },
+    "question": {
+        "en": "Has your child received their second vaccination?",
+        "es": "\u00c2\u00bfSu hijo/a ha recibido su segunda vacuna?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

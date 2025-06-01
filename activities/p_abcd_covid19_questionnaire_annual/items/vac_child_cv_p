@@ -1,0 +1,62 @@
+{
+    "id": "vac_child_cv_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210320 @HIDDEN"
+        }
+    ],
+    "preamble": {
+        "en": "Has someone close to your child been diagnosed with coronavirus?",
+        "es": "\u00c2\u00bfAlguien cercano a su ni\u00c3\u00b1o(a) ha sido diagnosticado(a) con coronavirus?"
+    },
+    "prefLabel": {
+        "en": "vac_child_cv_p"
+    },
+    "question": {
+        "en": "Has your child had a vaccine to prevent coronavirus/COVID-19?",
+        "es": "\u00c2\u00bfSu hijo/a ha recibido una vacuna para prevenir el coronavirus / COVID-19?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No",
+                    "es": "No"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Don't know",
+                    "es": "No se"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer",
+                    "es": "Niego a contestar"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

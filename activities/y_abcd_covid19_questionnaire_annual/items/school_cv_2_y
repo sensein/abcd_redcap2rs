@@ -1,0 +1,61 @@
+{
+    "id": "school_cv_2_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210311"
+        }
+    ],
+    "preamble": {
+        "en": "School Schedule"
+    },
+    "prefLabel": {
+        "en": "school_cv_2_y"
+    },
+    "question": {
+        "en": "In thepast week, was your schooling taking place:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Online/school-at-home"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "In person"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "In person some days and online some other days"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "School is out for summer/break, or I'm doing a summer school program"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

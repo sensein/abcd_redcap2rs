@@ -1,13 +1,6 @@
 {
     "id": "graded_cv_p",
     "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Field Annotation",
-            "source": "redcap",
-            "value": "@HIDDEN"
-        }
-    ],
     "preamble": {
         "en": "For these next questions about your child's school-at-home, please think about thepast week:",
         "es": "Para las siguientes preguntas sobre estudios escolares en casa de su hijo/a, piense en lasemana pasada:"
@@ -55,8 +48,7 @@
         ]
     },
     "ui": {
-        "inputType": "radio",
-        "readonlyValue": true
+        "inputType": "radio"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

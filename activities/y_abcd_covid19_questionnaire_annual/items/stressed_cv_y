@@ -1,0 +1,58 @@
+{
+    "id": "stressed_cv_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210311"
+        }
+    ],
+    "prefLabel": {
+        "en": "stressed_cv_y"
+    },
+    "question": {
+        "en": "COVID-19 presents a lot of uncertainty about the future. In the past 7 days, including today, how stressful have you found this uncertainty to be?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Very slightly or not at all"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Slightly"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Moderately"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Quite a bit"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Extremely"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

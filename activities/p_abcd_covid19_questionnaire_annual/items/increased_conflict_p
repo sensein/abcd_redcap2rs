@@ -6,11 +6,6 @@
             "column": "Matrix Group Name",
             "source": "redcap",
             "value": "feel_cv_p"
-        },
-        {
-            "column": "Field Annotation",
-            "source": "redcap",
-            "value": "@HIDDEN"
         }
     ],
     "preamble": {
@@ -67,8 +62,7 @@
         ]
     },
     "ui": {
-        "inputType": "radio",
-        "readonlyValue": true
+        "inputType": "radio"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

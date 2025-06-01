@@ -3,14 +3,14 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "Leave blank if N/A"
+        },
+        {
             "column": "Text Validation Type OR Show Slider Number",
             "source": "redcap",
             "value": "date_mdy"
-        },
-        {
-            "column": "Field Annotation",
-            "source": "redcap",
-            "value": "@HIDDEN"
         }
     ],
     "preamble": {
@@ -21,8 +21,7 @@
         "en": "child_test_2_cv_p"
     },
     "question": {
-        "en": "Test 2:",
-        "es": "Prueba 2:"
+        "en": "Date of second test:"
     },
     "responseOptions": {
         "valueType": [
@@ -30,8 +29,7 @@
         ]
     },
     "ui": {
-        "inputType": "date",
-        "readonlyValue": true
+        "inputType": "date"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
