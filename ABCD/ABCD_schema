@@ -195,6 +195,7 @@
             "../activities/p_pilot_feedback/p_pilot_feedback_schema",
             "../activities/p_pilot_feedback_990621/p_pilot_feedback_990621_schema",
             "../activities/p_ra_feedback_4yr_pilot/p_ra_feedback_4yr_pilot_schema",
+            "../activities/p_ra_pilot_data_5yr/p_ra_pilot_data_5yr_schema",
             "../activities/consentfitbit/consentfitbit_schema",
             "../activities/p_parent_ra_notes_three_four_year/p_parent_ra_notes_three_four_year_schema",
             "../activities/fitbit_postassessment_youth/fitbit_postassessment_youth_schema",
@@ -383,8 +384,7 @@
             "../activities/p_raw_ksads_adhd/p_raw_ksads_adhd_schema",
             "../activities/p_raw_ksads_aud/p_raw_ksads_aud_schema",
             "../activities/p_raw_ksads_dud/p_raw_ksads_dud_schema",
-            "../activities/substance_use_module_feedback/substance_use_module_feedback_schema",
-            "../activities/p_ra_pilot_data_5yr/p_ra_pilot_data_5yr_schema"
+            "../activities/substance_use_module_feedback/substance_use_module_feedback_schema"
         ],
         "addProperties": [
             {
@@ -1866,6 +1866,14 @@
                     "en": "P Ra Feedback 4Yr Pilot"
                 },
                 "variableName": "p_ra_feedback_4yr_pilot_schema"
+            },
+            {
+                "isAbout": "../activities/p_ra_pilot_data_5yr/p_ra_pilot_data_5yr_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "P Ra Pilot Data 5Yr"
+                },
+                "variableName": "p_ra_pilot_data_5yr_schema"
             },
             {
                 "isAbout": "../activities/consentfitbit/consentfitbit_schema",
@@ -3378,18 +3386,10 @@
                     "en": "Substance Use Module Feedback"
                 },
                 "variableName": "substance_use_module_feedback_schema"
-            },
-            {
-                "isAbout": "../activities/p_ra_pilot_data_5yr/p_ra_pilot_data_5yr_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "P Ra Pilot Data 5Yr"
-                },
-                "variableName": "p_ra_pilot_data_5yr_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2745",
+    "version": "revid2750",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
