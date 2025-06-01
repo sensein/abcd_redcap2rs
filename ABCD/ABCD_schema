@@ -59,6 +59,7 @@
             "../activities/y_crpf/y_crpf_schema",
             "../activities/substance_use_module_comments/substance_use_module_comments_schema",
             "../activities/opportunity_to_use/opportunity_to_use_schema",
+            "../activities/substance_use_module_feedback/substance_use_module_feedback_schema",
             "../activities/prodromal_psychosis_scale_pps_youth/prodromal_psychosis_scale_pps_youth_schema",
             "../activities/mypi_intro/mypi_intro_schema",
             "../activities/youth_self_report/youth_self_report_schema",
@@ -383,8 +384,7 @@
             "../activities/p_raw_ksads_agorap/p_raw_ksads_agorap_schema",
             "../activities/p_raw_ksads_adhd/p_raw_ksads_adhd_schema",
             "../activities/p_raw_ksads_aud/p_raw_ksads_aud_schema",
-            "../activities/p_raw_ksads_dud/p_raw_ksads_dud_schema",
-            "../activities/substance_use_module_feedback/substance_use_module_feedback_schema"
+            "../activities/p_raw_ksads_dud/p_raw_ksads_dud_schema"
         ],
         "addProperties": [
             {
@@ -778,6 +778,14 @@
                     "en": "Opportunity To Use"
                 },
                 "variableName": "opportunity_to_use_schema"
+            },
+            {
+                "isAbout": "../activities/substance_use_module_feedback/substance_use_module_feedback_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Substance Use Module Feedback"
+                },
+                "variableName": "substance_use_module_feedback_schema"
             },
             {
                 "isAbout": "../activities/prodromal_psychosis_scale_pps_youth/prodromal_psychosis_scale_pps_youth_schema",
@@ -3378,18 +3386,10 @@
                     "en": "P Raw Ksads Dud"
                 },
                 "variableName": "p_raw_ksads_dud_schema"
-            },
-            {
-                "isAbout": "../activities/substance_use_module_feedback/substance_use_module_feedback_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Substance Use Module Feedback"
-                },
-                "variableName": "substance_use_module_feedback_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2750",
+    "version": "revid2757",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
