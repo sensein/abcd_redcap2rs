@@ -1,0 +1,32 @@
+{
+    "id": "reshist_addr1_coi_zed_math",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "reshist_addr1_coi_zed_math"
+    },
+    "question": {
+        "en": "Educational Domain Third grade reading proficiency: Percentage third graders scoring proficient on standardized math tests, converted to NAEP scale score points, transformed to z-scores."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

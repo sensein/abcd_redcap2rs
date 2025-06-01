@@ -1,0 +1,32 @@
+{
+    "id": "reshist_addr1_opat_kfrpp_p50",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "reshist_addr1_opat_kfrpp_p50"
+    },
+    "question": {
+        "en": "Residential history derived - Opportunity Atlas Mean household income rank for children whose parents were at the 50th percentile of the national income distribution. Incomes for children were measured as mean earnings in 2014-2015 when they were between the ages 31-37 at census tract level."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

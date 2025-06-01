@@ -1,0 +1,32 @@
+{
+    "id": "reshist_addr2_coi_r_ed_stt",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "reshist_addr2_coi_r_ed_stt"
+    },
+    "question": {
+        "en": "Child Opportunity Scores, education domain, state-normed: State-normed Child Opportunity Scores (from 1 to 100) for the education domain."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

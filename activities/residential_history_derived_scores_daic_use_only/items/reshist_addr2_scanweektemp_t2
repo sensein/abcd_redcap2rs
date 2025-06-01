@@ -1,0 +1,35 @@
+{
+    "id": "reshist_addr2_scanweektemp_t2",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "reshist_addr2_scanweektemp_t2"
+    },
+    "question": {
+        "en": "Residential history derived - maximum temperature in degrees C at participant's secondary (addr2) residence 2 days prior (t-2) to date of study visit"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "number"
+                },
+                "value": "number"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,27 @@
+{
+    "id": "reshist_addr2_svi_hous_20142018",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "reshist_addr2_svi_hous_20142018"
+    },
+    "question": {
+        "en": "Residential history derived - Census tract CDC SVI (percentile % housing structures with 10 or more units subcomponent) at secondary residential address (ACS 2014-2018 5 yr avg)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

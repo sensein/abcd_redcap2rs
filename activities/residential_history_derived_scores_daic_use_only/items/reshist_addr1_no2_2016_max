@@ -1,0 +1,27 @@
+{
+    "id": "reshist_addr1_no2_2016_max",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "reshist_addr1_no2_2016_max"
+    },
+    "question": {
+        "en": "Residential history derived - maximum of NO2 in 2016 at primary residential address at 1x1km2"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

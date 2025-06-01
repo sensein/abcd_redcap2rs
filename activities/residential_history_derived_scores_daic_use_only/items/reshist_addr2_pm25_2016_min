@@ -1,0 +1,27 @@
+{
+    "id": "reshist_addr2_pm25_2016_min",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "reshist_addr2_pm25_2016_min"
+    },
+    "question": {
+        "en": "Residential history derived - minimum of PM2.5 in 2016 at secondary residential address at 1x1km2"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

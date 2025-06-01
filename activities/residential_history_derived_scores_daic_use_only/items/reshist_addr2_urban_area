@@ -3,6 +3,11 @@
     "category": "reproschema:Item",
     "additionalNotesObj": [
         {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
             "column": "Field Annotation",
             "source": "redcap",
             "value": "@READONLY"
@@ -15,32 +20,12 @@
         "en": "Census Tract Urban Classification at current address #2"
     },
     "responseOptions": {
-        "choices": [
-            {
-                "name": {
-                    "en": "Rural"
-                },
-                "value": 1
-            },
-            {
-                "name": {
-                    "en": "Urban Clusters"
-                },
-                "value": 2
-            },
-            {
-                "name": {
-                    "en": "Urbanized Area"
-                },
-                "value": 3
-            }
-        ],
         "valueType": [
-            "xsd:integer"
+            "xsd:decimal"
         ]
     },
     "ui": {
-        "inputType": "select",
+        "inputType": "float",
         "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"

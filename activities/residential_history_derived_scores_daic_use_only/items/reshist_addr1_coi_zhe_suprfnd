@@ -1,0 +1,32 @@
+{
+    "id": "reshist_addr1_coi_zhe_suprfnd",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "reshist_addr1_coi_zhe_suprfnd"
+    },
+    "question": {
+        "en": "Health and Environment Domain Industrial pollutants in air, water or soil: Average number of Superfund sites within a 2-mile radius, converted to natural log units, transformed to z-scores and multiplied by -1."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

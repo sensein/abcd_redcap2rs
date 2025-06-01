@@ -76,8 +76,8 @@
             "items/reshist_addr2_adi_sp",
             "items/reshist_addr2_adi_ncar",
             "items/reshist_addr2_adi_ntel",
-            "items/reshist_addr2_adi_nplumb",
             "items/reshist_addr2_adi_wsum",
+            "items/reshist_addr2_adi_nplumb",
             "items/reshist_addr2_adi_perc",
             "items/reshist_addr2_popdensity",
             "items/reshist_addr2_no2",
@@ -283,9 +283,429 @@
             "items/reshist_addr1_traffic_count",
             "items/reshist_addr2_traffic_count",
             "items/reshist_addr3_traffic_count",
-            "items/reshist_addr1_id_match",
-            "items/reshist_addr2_id_match",
-            "items/reshist_addr3_id_match",
+            "items/reshist_addr1_o3_2016_min",
+            "items/reshist_addr2_o3_2016_min",
+            "items/reshist_addr3_o3_2016_min",
+            "items/reshist_addr1_pm25_2016_min",
+            "items/reshist_addr2_pm25_2016_min",
+            "items/reshist_addr3_pm25_2016_min",
+            "items/reshist_addr1_no2_2016_min",
+            "items/reshist_addr2_no2_2016_min",
+            "items/reshist_addr3_no2_2016_min",
+            "items/reshist_addr1_o3_2016_max",
+            "items/reshist_addr2_o3_2016_max",
+            "items/reshist_addr3_o3_2016_max",
+            "items/reshist_addr1_pm25_2016_max",
+            "items/reshist_addr2_pm25_2016_max",
+            "items/reshist_addr3_pm25_2016_max",
+            "items/reshist_addr1_no2_2016_max",
+            "items/reshist_addr2_no2_2016_max",
+            "items/reshist_addr3_no2_2016_max",
+            "items/reshist_addr1_pm25_2016_daysepa",
+            "items/reshist_addr2_pm25_2016_daysepa",
+            "items/reshist_addr3_pm25_2016_daysepa",
+            "items/reshist_addr1_svi_tot_20142018",
+            "items/reshist_addr2_svi_tot_20142018",
+            "items/reshist_addr3_svi_tot_20142018",
+            "items/reshist_addr1_svi_pov_20142018",
+            "items/reshist_addr1_svi_emp_20142018",
+            "items/reshist_addr1_svi_cap_20142018",
+            "items/reshist_addr1_svi_hs_20142018",
+            "items/reshist_addr1_svi_65_20142018",
+            "items/reshist_addr1_svi_17_20142018",
+            "items/reshist_addr1_svi_dis_20142018",
+            "items/reshist_addr1_svi_sin_20142018",
+            "items/reshist_addr1_svi_min_20142018",
+            "items/reshist_addr1_svi_eng_20142018",
+            "items/reshist_addr1_svi_hous_20142018",
+            "items/reshist_addr1_svi_mob_20142018",
+            "items/reshist_addr1_svi_crwd_20142018",
+            "items/reshist_addr1_svi_veh_20142018",
+            "items/reshist_addr1_svi_grp_20142018",
+            "items/reshist_addr1_svi_th1_20142018",
+            "items/reshist_addr1_svi_th2_20142018",
+            "items/reshist_addr1_svi_th3_20142018",
+            "items/reshist_addr1_svi_th4_20142018",
+            "items/reshist_addr2_svi_pov_20142018",
+            "items/reshist_addr2_svi_emp_20142018",
+            "items/reshist_addr2_svi_cap_20142018",
+            "items/reshist_addr2_svi_hs_20142018",
+            "items/reshist_addr2_svi_65_20142018",
+            "items/reshist_addr2_svi_17_20142018",
+            "items/reshist_addr2_svi_dis_20142018",
+            "items/reshist_addr2_svi_sin_20142018",
+            "items/reshist_addr2_svi_min_20142018",
+            "items/reshist_addr2_svi_eng_20142018",
+            "items/reshist_addr2_svi_hous_20142018",
+            "items/reshist_addr2_svi_mob_20142018",
+            "items/reshist_addr2_svi_crwd_20142018",
+            "items/reshist_addr2_svi_veh_20142018",
+            "items/reshist_addr2_svi_grp_20142018",
+            "items/reshist_addr2_svi_th1_20142018",
+            "items/reshist_addr2_svi_th2_20142018",
+            "items/reshist_addr2_svi_th3_20142018",
+            "items/reshist_addr2_svi_th4_20142018",
+            "items/reshist_addr3_svi_pov_20142018",
+            "items/reshist_addr3_svi_emp_20142018",
+            "items/reshist_addr3_svi_cap_20142018",
+            "items/reshist_addr3_svi_hs_20142018",
+            "items/reshist_addr3_svi_65_20142018",
+            "items/reshist_addr3_svi_17_20142018",
+            "items/reshist_addr3_svi_dis_20142018",
+            "items/reshist_addr3_svi_sin_20142018",
+            "items/reshist_addr3_svi_min_20142018",
+            "items/reshist_addr3_svi_eng_20142018",
+            "items/reshist_addr3_svi_hous_20142018",
+            "items/reshist_addr3_svi_mob_20142018",
+            "items/reshist_addr3_svi_crwd_20142018",
+            "items/reshist_addr3_svi_veh_20142018",
+            "items/reshist_addr3_svi_grp_20142018",
+            "items/reshist_addr3_svi_th1_20142018",
+            "items/reshist_addr3_svi_th2_20142018",
+            "items/reshist_addr3_svi_th3_20142018",
+            "items/reshist_addr3_svi_th4_20142018",
+            "items/reshist_addr1_opat_kfrpp_p1",
+            "items/reshist_addr1_opat_kfrpp_p25",
+            "items/reshist_addr1_opat_kfrpp_p50",
+            "items/reshist_addr1_opat_kfrpp_p75",
+            "items/reshist_addr1_opat_kfrpp_p100",
+            "items/reshist_addr1_opat_kfrpp_avg",
+            "items/reshist_addr1_opat_kfrpp_n",
+            "items/reshist_addr1_opat_kfrpp_p1se",
+            "items/reshist_addr1_opat_kfrpp_p25se",
+            "items/reshist_addr1_opat_kfrpp_p50se",
+            "items/reshist_addr1_opat_kfrpp_p75se",
+            "items/reshist_addr1_opat_kfrpp_p100se",
+            "items/reshist_addr1_opat_kfrpp_avg_se",
+            "items/reshist_addr1_coi_z_ed_nat",
+            "items/reshist_addr1_coi_z_he_nat",
+            "items/reshist_addr1_coi_z_se_nat",
+            "items/reshist_addr1_coi_z_coi_nat",
+            "items/reshist_addr1_coi_c5_ed_nat",
+            "items/reshist_addr1_coi_c5_he_nat",
+            "items/reshist_addr1_coi_c5_se_nat",
+            "items/reshist_addr1_coi_c5_coi_nat",
+            "items/reshist_addr1_coi_r_ed_nat",
+            "items/reshist_addr1_coi_r_he_nat",
+            "items/reshist_addr1_coi_r_se_nat",
+            "items/reshist_addr1_coi_r_coi_nat",
+            "items/reshist_addr1_coi_c5_ed_stt",
+            "items/reshist_addr1_coi_c5_he_stt",
+            "items/reshist_addr1_coi_c5_se_stt",
+            "items/reshist_addr1_coi_c5_coi_stt",
+            "items/reshist_addr1_coi_r_ed_stt",
+            "items/reshist_addr1_coi_r_he_stt",
+            "items/reshist_addr1_coi_r_se_stt",
+            "items/reshist_addr1_coi_r_coi_stt",
+            "items/reshist_addr1_coi_c5_ed_met",
+            "items/reshist_addr1_coi_c5_he_met",
+            "items/reshist_addr1_coi_c5_se_met",
+            "items/reshist_addr1_coi_c5_coi_met",
+            "items/reshist_addr1_coi_r_ed_met",
+            "items/reshist_addr1_coi_r_he_met",
+            "items/reshist_addr1_coi_r_se_met",
+            "items/reshist_addr1_coi_r_coi_met",
+            "items/reshist_addr1_coi_ed_apenr",
+            "items/reshist_addr1_coi_ed_attain",
+            "items/reshist_addr1_coi_ed_college",
+            "items/reshist_addr1_coi_ed_ecenrol",
+            "items/reshist_addr1_coi_ed_hsgrad",
+            "items/reshist_addr1_coi_ed_math",
+            "items/reshist_addr1_coi_ed_reading",
+            "items/reshist_addr1_coi_ed_schpov",
+            "items/reshist_addr1_coi_ed_teachxp",
+            "items/reshist_addr1_coi_ed_prxece",
+            "items/reshist_addr1_coi_ed_prxhqece",
+            "items/reshist_addr1_coi_he_food",
+            "items/reshist_addr1_coi_he_green",
+            "items/reshist_addr1_coi_he_heat",
+            "items/reshist_addr1_coi_he_hlthins",
+            "items/reshist_addr1_coi_he_ozone",
+            "items/reshist_addr1_coi_he_pm25",
+            "items/reshist_addr1_coi_he_vacancy",
+            "items/reshist_addr1_coi_he_walk",
+            "items/reshist_addr1_coi_he_suprfnd",
+            "items/reshist_addr1_coi_he_rsei",
+            "items/reshist_addr1_coi_se_povrate",
+            "items/reshist_addr1_coi_se_public",
+            "items/reshist_addr1_coi_se_home",
+            "items/reshist_addr1_coi_se_occ",
+            "items/reshist_addr1_coi_se_mhe",
+            "items/reshist_addr1_coi_se_emprat",
+            "items/reshist_addr1_coi_se_jobprox",
+            "items/reshist_addr1_coi_se_single",
+            "items/reshist_addr1_coi_zed_apenr",
+            "items/reshist_addr1_coi_zed_attain",
+            "items/reshist_addr1_coi_zed_college",
+            "items/reshist_addr1_coi_zed_ecenrol",
+            "items/reshist_addr1_coi_zed_hsgrad",
+            "items/reshist_addr1_coi_zed_math",
+            "items/reshist_addr1_coi_zed_reading",
+            "items/reshist_addr1_coi_zed_schpov",
+            "items/reshist_addr1_coi_zed_teachxp",
+            "items/reshist_addr1_coi_zed_prxece",
+            "items/reshist_addr1_coi_zed_prxhqece",
+            "items/reshist_addr1_coi_zhe_food",
+            "items/reshist_addr1_coi_zhe_green",
+            "items/reshist_addr1_coi_zhe_heat",
+            "items/reshist_addr1_coi_zhe_hlthins",
+            "items/reshist_addr1_coi_zhe_ozone",
+            "items/reshist_addr1_coi_zhe_pm25",
+            "items/reshist_addr1_coi_zhe_vacancy",
+            "items/reshist_addr1_coi_zhe_walk",
+            "items/reshist_addr1_coi_zhe_suprfnd",
+            "items/reshist_addr1_coi_zhe_rsei",
+            "items/reshist_addr1_coi_zse_povrate",
+            "items/reshist_addr1_coi_zse_public",
+            "items/reshist_addr1_coi_zse_home",
+            "items/reshist_addr1_coi_zse_occ",
+            "items/reshist_addr1_coi_zse_mhe",
+            "items/reshist_addr1_coi_zse_emprat",
+            "items/reshist_addr1_coi_zse_jobprox",
+            "items/reshist_addr1_coi_zse_single",
+            "items/reshist_addr1_coi_zse_ecres",
+            "items/reshist_addr2_opat_kfrpp_p1",
+            "items/reshist_addr2_opat_kfrpp_p25",
+            "items/reshist_addr2_opat_kfrpp_p50",
+            "items/reshist_addr2_opat_kfrpp_p75",
+            "items/reshist_addr2_opat_kfrpp_p100",
+            "items/reshist_addr2_opat_kfrpp_avg",
+            "items/reshist_addr2_opat_kfrpp_n",
+            "items/reshist_addr2_opat_kfrpp_p1se",
+            "items/reshist_addr2_opat_kfrpp_p25se",
+            "items/reshist_addr2_opat_kfrpp_p50se",
+            "items/reshist_addr2_opat_kfrpp_p75se",
+            "items/reshist_addr2_opat_kfrpp_p100se",
+            "items/reshist_addr2_opat_kfrpp_avg_se",
+            "items/reshist_addr2_coi_z_ed_nat",
+            "items/reshist_addr2_coi_z_he_nat",
+            "items/reshist_addr2_coi_z_se_nat",
+            "items/reshist_addr2_coi_z_coi_nat",
+            "items/reshist_addr2_coi_c5_ed_nat",
+            "items/reshist_addr2_coi_c5_he_nat",
+            "items/reshist_addr2_coi_c5_se_nat",
+            "items/reshist_addr2_coi_c5_coi_nat",
+            "items/reshist_addr2_coi_r_ed_nat",
+            "items/reshist_addr2_coi_r_he_nat",
+            "items/reshist_addr2_coi_r_se_nat",
+            "items/reshist_addr2_coi_r_coi_nat",
+            "items/reshist_addr2_coi_c5_ed_stt",
+            "items/reshist_addr2_coi_c5_he_stt",
+            "items/reshist_addr2_coi_c5_se_stt",
+            "items/reshist_addr2_coi_c5_coi_stt",
+            "items/reshist_addr2_coi_r_ed_stt",
+            "items/reshist_addr2_coi_r_he_stt",
+            "items/reshist_addr2_coi_r_se_stt",
+            "items/reshist_addr2_coi_r_coi_stt",
+            "items/reshist_addr2_coi_c5_ed_met",
+            "items/reshist_addr2_coi_c5_he_met",
+            "items/reshist_addr2_coi_c5_se_met",
+            "items/reshist_addr2_coi_c5_coi_met",
+            "items/reshist_addr2_coi_r_ed_met",
+            "items/reshist_addr2_coi_r_he_met",
+            "items/reshist_addr2_coi_r_se_met",
+            "items/reshist_addr2_coi_r_coi_met",
+            "items/reshist_addr2_coi_ed_apenr",
+            "items/reshist_addr2_coi_ed_attain",
+            "items/reshist_addr2_coi_ed_college",
+            "items/reshist_addr2_coi_ed_ecenrol",
+            "items/reshist_addr2_coi_ed_hsgrad",
+            "items/reshist_addr2_coi_ed_math",
+            "items/reshist_addr2_coi_ed_reading",
+            "items/reshist_addr2_coi_ed_schpov",
+            "items/reshist_addr2_coi_ed_teachxp",
+            "items/reshist_addr2_coi_ed_prxece",
+            "items/reshist_addr2_coi_ed_prxhqece",
+            "items/reshist_addr2_coi_he_food",
+            "items/reshist_addr2_coi_he_green",
+            "items/reshist_addr2_coi_he_heat",
+            "items/reshist_addr2_coi_he_hlthins",
+            "items/reshist_addr2_coi_he_ozone",
+            "items/reshist_addr2_coi_he_pm25",
+            "items/reshist_addr2_coi_he_vacancy",
+            "items/reshist_addr2_coi_he_walk",
+            "items/reshist_addr2_coi_he_suprfnd",
+            "items/reshist_addr2_coi_he_rsei",
+            "items/reshist_addr2_coi_se_povrate",
+            "items/reshist_addr2_coi_se_public",
+            "items/reshist_addr2_coi_se_home",
+            "items/reshist_addr2_coi_se_occ",
+            "items/reshist_addr2_coi_se_mhe",
+            "items/reshist_addr2_coi_se_emprat",
+            "items/reshist_addr2_coi_se_jobprox",
+            "items/reshist_addr2_coi_se_single",
+            "items/reshist_addr2_coi_zed_apenr",
+            "items/reshist_addr2_coi_zed_attain",
+            "items/reshist_addr2_coi_zed_college",
+            "items/reshist_addr2_coi_zed_ecenrol",
+            "items/reshist_addr2_coi_zed_hsgrad",
+            "items/reshist_addr2_coi_zed_math",
+            "items/reshist_addr2_coi_zed_reading",
+            "items/reshist_addr2_coi_zed_schpov",
+            "items/reshist_addr2_coi_zed_teachxp",
+            "items/reshist_addr2_coi_zed_prxece",
+            "items/reshist_addr2_coi_zed_prxhqece",
+            "items/reshist_addr2_coi_zhe_food",
+            "items/reshist_addr2_coi_zhe_green",
+            "items/reshist_addr2_coi_zhe_heat",
+            "items/reshist_addr2_coi_zhe_hlthins",
+            "items/reshist_addr2_coi_zhe_ozone",
+            "items/reshist_addr2_coi_zhe_pm25",
+            "items/reshist_addr2_coi_zhe_vacancy",
+            "items/reshist_addr2_coi_zhe_walk",
+            "items/reshist_addr2_coi_zhe_suprfnd",
+            "items/reshist_addr2_coi_zhe_rsei",
+            "items/reshist_addr2_coi_zse_povrate",
+            "items/reshist_addr2_coi_zse_public",
+            "items/reshist_addr2_coi_zse_home",
+            "items/reshist_addr2_coi_zse_occ",
+            "items/reshist_addr2_coi_zse_mhe",
+            "items/reshist_addr2_coi_zse_emprat",
+            "items/reshist_addr2_coi_zse_jobprox",
+            "items/reshist_addr2_coi_zse_single",
+            "items/reshist_addr2_coi_zse_ecres",
+            "items/reshist_addr3_opat_kfrpp_p1",
+            "items/reshist_addr3_opat_kfrpp_p25",
+            "items/reshist_addr3_opat_kfrpp_p50",
+            "items/reshist_addr3_opat_kfrpp_p75",
+            "items/reshist_addr3_opat_kfrpp_p100",
+            "items/reshist_addr3_opat_kfrpp_avg",
+            "items/reshist_addr3_opat_kfrpp_n",
+            "items/reshist_addr3_opat_kfrpp_p1se",
+            "items/reshist_addr3_opat_kfrpp_p25se",
+            "items/reshist_addr3_opat_kfrpp_p50se",
+            "items/reshist_addr3_opat_kfrpp_p75se",
+            "items/reshist_addr3_opat_kfrpp_p100se",
+            "items/reshist_addr3_opat_kfrpp_avg_se",
+            "items/reshist_addr3_coi_z_ed_nat",
+            "items/reshist_addr3_coi_z_he_nat",
+            "items/reshist_addr3_coi_z_se_nat",
+            "items/reshist_addr3_coi_z_coi_nat",
+            "items/reshist_addr3_coi_c5_ed_nat",
+            "items/reshist_addr3_coi_c5_he_nat",
+            "items/reshist_addr3_coi_c5_se_nat",
+            "items/reshist_addr3_coi_c5_coi_nat",
+            "items/reshist_addr3_coi_r_ed_nat",
+            "items/reshist_addr3_coi_r_he_nat",
+            "items/reshist_addr3_coi_r_se_nat",
+            "items/reshist_addr3_coi_r_coi_nat",
+            "items/reshist_addr3_coi_c5_ed_stt",
+            "items/reshist_addr3_coi_c5_he_stt",
+            "items/reshist_addr3_coi_c5_se_stt",
+            "items/reshist_addr3_coi_c5_coi_stt",
+            "items/reshist_addr3_coi_r_ed_stt",
+            "items/reshist_addr3_coi_r_he_stt",
+            "items/reshist_addr3_coi_r_se_stt",
+            "items/reshist_addr3_coi_r_coi_stt",
+            "items/reshist_addr3_coi_c5_ed_met",
+            "items/reshist_addr3_coi_c5_he_met",
+            "items/reshist_addr3_coi_c5_se_met",
+            "items/reshist_addr3_coi_c5_coi_met",
+            "items/reshist_addr3_coi_r_ed_met",
+            "items/reshist_addr3_coi_r_he_met",
+            "items/reshist_addr3_coi_r_se_met",
+            "items/reshist_addr3_coi_r_coi_met",
+            "items/reshist_addr3_coi_ed_apenr",
+            "items/reshist_addr3_coi_ed_attain",
+            "items/reshist_addr3_coi_ed_college",
+            "items/reshist_addr3_coi_ed_ecenrol",
+            "items/reshist_addr3_coi_ed_hsgrad",
+            "items/reshist_addr3_coi_ed_math",
+            "items/reshist_addr3_coi_ed_reading",
+            "items/reshist_addr3_coi_ed_schpov",
+            "items/reshist_addr3_coi_ed_teachxp",
+            "items/reshist_addr3_coi_ed_prxece",
+            "items/reshist_addr3_coi_ed_prxhqece",
+            "items/reshist_addr3_coi_he_food",
+            "items/reshist_addr3_coi_he_green",
+            "items/reshist_addr3_coi_he_heat",
+            "items/reshist_addr3_coi_he_hlthins",
+            "items/reshist_addr3_coi_he_ozone",
+            "items/reshist_addr3_coi_he_pm25",
+            "items/reshist_addr3_coi_he_vacancy",
+            "items/reshist_addr3_coi_he_walk",
+            "items/reshist_addr3_coi_he_suprfnd",
+            "items/reshist_addr3_coi_he_rsei",
+            "items/reshist_addr3_coi_se_povrate",
+            "items/reshist_addr3_coi_se_public",
+            "items/reshist_addr3_coi_se_home",
+            "items/reshist_addr3_coi_se_occ",
+            "items/reshist_addr3_coi_se_mhe",
+            "items/reshist_addr3_coi_se_emprat",
+            "items/reshist_addr3_coi_se_jobprox",
+            "items/reshist_addr3_coi_se_single",
+            "items/reshist_addr3_coi_zed_apenr",
+            "items/reshist_addr3_coi_zed_attain",
+            "items/reshist_addr3_coi_zed_college",
+            "items/reshist_addr3_coi_zed_ecenrol",
+            "items/reshist_addr3_coi_zed_hsgrad",
+            "items/reshist_addr3_coi_zed_math",
+            "items/reshist_addr3_coi_zed_reading",
+            "items/reshist_addr3_coi_zed_schpov",
+            "items/reshist_addr3_coi_zed_teachxp",
+            "items/reshist_addr3_coi_zed_prxece",
+            "items/reshist_addr3_coi_zed_prxhqece",
+            "items/reshist_addr3_coi_zhe_food",
+            "items/reshist_addr3_coi_zhe_green",
+            "items/reshist_addr3_coi_zhe_heat",
+            "items/reshist_addr3_coi_zhe_hlthins",
+            "items/reshist_addr3_coi_zhe_ozone",
+            "items/reshist_addr3_coi_zhe_pm25",
+            "items/reshist_addr3_coi_zhe_vacancy",
+            "items/reshist_addr3_coi_zhe_walk",
+            "items/reshist_addr3_coi_zhe_suprfnd",
+            "items/reshist_addr3_coi_zhe_rsei",
+            "items/reshist_addr3_coi_zse_povrate",
+            "items/reshist_addr3_coi_zse_public",
+            "items/reshist_addr3_coi_zse_home",
+            "items/reshist_addr3_coi_zse_occ",
+            "items/reshist_addr3_coi_zse_mhe",
+            "items/reshist_addr3_coi_zse_emprat",
+            "items/reshist_addr3_coi_zse_jobprox",
+            "items/reshist_addr3_coi_zse_single",
+            "items/reshist_addr3_coi_zse_ecres",
+            "items/reshist_addr1_scanweektemp_t6",
+            "items/reshist_addr1_scanweektemp_t5",
+            "items/reshist_addr1_scanweektemp_t4",
+            "items/reshist_addr1_scanweektemp_t3",
+            "items/reshist_addr1_scanweektemp_t2",
+            "items/reshist_addr1_scanweektemp_t1",
+            "items/reshist_addr1_scanweektemp_t0",
+            "items/reshist_addr1_scanweekvpd_t6",
+            "items/reshist_addr1_scanweekvpd_t5",
+            "items/reshist_addr1_scanweekvpd_t4",
+            "items/reshist_addr1_scanweekvpd_t3",
+            "items/reshist_addr1_scanweekvpd_t2",
+            "items/reshist_addr1_scanweekvpd_t1",
+            "items/reshist_addr1_scanweekvpd_t0",
+            "items/reshist_addr2_scanweektemp_t6",
+            "items/reshist_addr2_scanweektemp_t5",
+            "items/reshist_addr2_scanweektemp_t4",
+            "items/reshist_addr2_scanweektemp_t3",
+            "items/reshist_addr2_scanweektemp_t2",
+            "items/reshist_addr2_scanweektemp_t1",
+            "items/reshist_addr2_scanweektemp_t0",
+            "items/reshist_addr2_scanweekvpd_t6",
+            "items/reshist_addr2_scanweekvpd_t5",
+            "items/reshist_addr2_scanweekvpd_t4",
+            "items/reshist_addr2_scanweekvpd_t3",
+            "items/reshist_addr2_scanweekvpd_t2",
+            "items/reshist_addr2_scanweekvpd_t1",
+            "items/reshist_addr2_scanweekvpd_t0",
+            "items/reshist_addr3_scanweektemp_t6",
+            "items/reshist_addr3_scanweektemp_t5",
+            "items/reshist_addr3_scanweektemp_t4",
+            "items/reshist_addr3_scanweektemp_t3",
+            "items/reshist_addr3_scanweektemp_t2",
+            "items/reshist_addr3_scanweektemp_t1",
+            "items/reshist_addr3_scanweektemp_t0",
+            "items/reshist_addr3_scanweekvpd_t6",
+            "items/reshist_addr3_scanweekvpd_t5",
+            "items/reshist_addr3_scanweekvpd_t4",
+            "items/reshist_addr3_scanweekvpd_t3",
+            "items/reshist_addr3_scanweekvpd_t2",
+            "items/reshist_addr3_scanweekvpd_t1",
+            "items/reshist_addr3_scanweekvpd_t0",
             "items/residential_history_derived_scores_daic_use_only_complete"
         ],
         "addProperties": [
@@ -704,16 +1124,16 @@
                 "variableName": "reshist_addr2_adi_ntel"
             },
             {
-                "isAbout": "items/reshist_addr2_adi_nplumb",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "reshist_addr2_adi_nplumb"
-            },
-            {
                 "isAbout": "items/reshist_addr2_adi_wsum",
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "reshist_addr2_adi_wsum"
+            },
+            {
+                "isAbout": "items/reshist_addr2_adi_nplumb",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_adi_nplumb"
             },
             {
                 "isAbout": "items/reshist_addr2_adi_perc",
@@ -1946,22 +2366,2542 @@
                 "variableName": "reshist_addr3_traffic_count"
             },
             {
-                "isAbout": "items/reshist_addr1_id_match",
+                "isAbout": "items/reshist_addr1_o3_2016_min",
                 "isVis": false,
                 "valueRequired": false,
-                "variableName": "reshist_addr1_id_match"
+                "variableName": "reshist_addr1_o3_2016_min"
             },
             {
-                "isAbout": "items/reshist_addr2_id_match",
+                "isAbout": "items/reshist_addr2_o3_2016_min",
                 "isVis": false,
                 "valueRequired": false,
-                "variableName": "reshist_addr2_id_match"
+                "variableName": "reshist_addr2_o3_2016_min"
             },
             {
-                "isAbout": "items/reshist_addr3_id_match",
+                "isAbout": "items/reshist_addr3_o3_2016_min",
                 "isVis": false,
                 "valueRequired": false,
-                "variableName": "reshist_addr3_id_match"
+                "variableName": "reshist_addr3_o3_2016_min"
+            },
+            {
+                "isAbout": "items/reshist_addr1_pm25_2016_min",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_pm25_2016_min"
+            },
+            {
+                "isAbout": "items/reshist_addr2_pm25_2016_min",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_pm25_2016_min"
+            },
+            {
+                "isAbout": "items/reshist_addr3_pm25_2016_min",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_pm25_2016_min"
+            },
+            {
+                "isAbout": "items/reshist_addr1_no2_2016_min",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_no2_2016_min"
+            },
+            {
+                "isAbout": "items/reshist_addr2_no2_2016_min",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_no2_2016_min"
+            },
+            {
+                "isAbout": "items/reshist_addr3_no2_2016_min",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_no2_2016_min"
+            },
+            {
+                "isAbout": "items/reshist_addr1_o3_2016_max",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_o3_2016_max"
+            },
+            {
+                "isAbout": "items/reshist_addr2_o3_2016_max",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_o3_2016_max"
+            },
+            {
+                "isAbout": "items/reshist_addr3_o3_2016_max",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_o3_2016_max"
+            },
+            {
+                "isAbout": "items/reshist_addr1_pm25_2016_max",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_pm25_2016_max"
+            },
+            {
+                "isAbout": "items/reshist_addr2_pm25_2016_max",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_pm25_2016_max"
+            },
+            {
+                "isAbout": "items/reshist_addr3_pm25_2016_max",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_pm25_2016_max"
+            },
+            {
+                "isAbout": "items/reshist_addr1_no2_2016_max",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_no2_2016_max"
+            },
+            {
+                "isAbout": "items/reshist_addr2_no2_2016_max",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_no2_2016_max"
+            },
+            {
+                "isAbout": "items/reshist_addr3_no2_2016_max",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_no2_2016_max"
+            },
+            {
+                "isAbout": "items/reshist_addr1_pm25_2016_daysepa",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_pm25_2016_daysepa"
+            },
+            {
+                "isAbout": "items/reshist_addr2_pm25_2016_daysepa",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_pm25_2016_daysepa"
+            },
+            {
+                "isAbout": "items/reshist_addr3_pm25_2016_daysepa",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_pm25_2016_daysepa"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_tot_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_svi_tot_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_tot_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_svi_tot_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_tot_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_svi_tot_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_pov_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_svi_pov_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_emp_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_svi_emp_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_cap_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_svi_cap_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_hs_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_svi_hs_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_65_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_svi_65_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_17_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_svi_17_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_dis_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_svi_dis_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_sin_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_svi_sin_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_min_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_svi_min_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_eng_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_svi_eng_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_hous_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_svi_hous_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_mob_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_svi_mob_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_crwd_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_svi_crwd_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_veh_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_svi_veh_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_grp_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_svi_grp_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_th1_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_svi_th1_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_th2_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_svi_th2_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_th3_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_svi_th3_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr1_svi_th4_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_svi_th4_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_pov_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_svi_pov_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_emp_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_svi_emp_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_cap_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_svi_cap_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_hs_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_svi_hs_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_65_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_svi_65_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_17_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_svi_17_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_dis_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_svi_dis_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_sin_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_svi_sin_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_min_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_svi_min_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_eng_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_svi_eng_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_hous_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_svi_hous_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_mob_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_svi_mob_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_crwd_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_svi_crwd_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_veh_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_svi_veh_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_grp_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_svi_grp_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_th1_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_svi_th1_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_th2_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_svi_th2_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_th3_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_svi_th3_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr2_svi_th4_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_svi_th4_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_pov_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_svi_pov_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_emp_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_svi_emp_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_cap_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_svi_cap_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_hs_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_svi_hs_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_65_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_svi_65_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_17_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_svi_17_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_dis_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_svi_dis_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_sin_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_svi_sin_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_min_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_svi_min_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_eng_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_svi_eng_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_hous_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_svi_hous_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_mob_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_svi_mob_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_crwd_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_svi_crwd_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_veh_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_svi_veh_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_grp_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_svi_grp_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_th1_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_svi_th1_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_th2_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_svi_th2_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_th3_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_svi_th3_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr3_svi_th4_20142018",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_svi_th4_20142018"
+            },
+            {
+                "isAbout": "items/reshist_addr1_opat_kfrpp_p1",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_opat_kfrpp_p1"
+            },
+            {
+                "isAbout": "items/reshist_addr1_opat_kfrpp_p25",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_opat_kfrpp_p25"
+            },
+            {
+                "isAbout": "items/reshist_addr1_opat_kfrpp_p50",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_opat_kfrpp_p50"
+            },
+            {
+                "isAbout": "items/reshist_addr1_opat_kfrpp_p75",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_opat_kfrpp_p75"
+            },
+            {
+                "isAbout": "items/reshist_addr1_opat_kfrpp_p100",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_opat_kfrpp_p100"
+            },
+            {
+                "isAbout": "items/reshist_addr1_opat_kfrpp_avg",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_opat_kfrpp_avg"
+            },
+            {
+                "isAbout": "items/reshist_addr1_opat_kfrpp_n",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_opat_kfrpp_n"
+            },
+            {
+                "isAbout": "items/reshist_addr1_opat_kfrpp_p1se",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_opat_kfrpp_p1se"
+            },
+            {
+                "isAbout": "items/reshist_addr1_opat_kfrpp_p25se",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_opat_kfrpp_p25se"
+            },
+            {
+                "isAbout": "items/reshist_addr1_opat_kfrpp_p50se",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_opat_kfrpp_p50se"
+            },
+            {
+                "isAbout": "items/reshist_addr1_opat_kfrpp_p75se",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_opat_kfrpp_p75se"
+            },
+            {
+                "isAbout": "items/reshist_addr1_opat_kfrpp_p100se",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_opat_kfrpp_p100se"
+            },
+            {
+                "isAbout": "items/reshist_addr1_opat_kfrpp_avg_se",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_opat_kfrpp_avg_se"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_z_ed_nat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_z_ed_nat"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_z_he_nat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_z_he_nat"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_z_se_nat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_z_se_nat"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_z_coi_nat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_z_coi_nat"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_c5_ed_nat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_c5_ed_nat"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_c5_he_nat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_c5_he_nat"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_c5_se_nat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_c5_se_nat"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_c5_coi_nat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_c5_coi_nat"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_r_ed_nat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_r_ed_nat"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_r_he_nat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_r_he_nat"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_r_se_nat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_r_se_nat"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_r_coi_nat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_r_coi_nat"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_c5_ed_stt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_c5_ed_stt"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_c5_he_stt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_c5_he_stt"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_c5_se_stt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_c5_se_stt"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_c5_coi_stt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_c5_coi_stt"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_r_ed_stt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_r_ed_stt"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_r_he_stt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_r_he_stt"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_r_se_stt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_r_se_stt"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_r_coi_stt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_r_coi_stt"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_c5_ed_met",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_c5_ed_met"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_c5_he_met",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_c5_he_met"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_c5_se_met",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_c5_se_met"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_c5_coi_met",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_c5_coi_met"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_r_ed_met",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_r_ed_met"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_r_he_met",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_r_he_met"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_r_se_met",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_r_se_met"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_r_coi_met",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_r_coi_met"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_ed_apenr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_ed_apenr"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_ed_attain",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_ed_attain"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_ed_college",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_ed_college"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_ed_ecenrol",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_ed_ecenrol"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_ed_hsgrad",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_ed_hsgrad"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_ed_math",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_ed_math"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_ed_reading",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_ed_reading"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_ed_schpov",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_ed_schpov"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_ed_teachxp",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_ed_teachxp"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_ed_prxece",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_ed_prxece"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_ed_prxhqece",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_ed_prxhqece"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_he_food",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_he_food"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_he_green",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_he_green"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_he_heat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_he_heat"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_he_hlthins",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_he_hlthins"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_he_ozone",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_he_ozone"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_he_pm25",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_he_pm25"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_he_vacancy",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_he_vacancy"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_he_walk",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_he_walk"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_he_suprfnd",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_he_suprfnd"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_he_rsei",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_he_rsei"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_se_povrate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_se_povrate"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_se_public",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_se_public"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_se_home",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_se_home"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_se_occ",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_se_occ"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_se_mhe",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_se_mhe"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_se_emprat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_se_emprat"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_se_jobprox",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_se_jobprox"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_se_single",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_se_single"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_zed_apenr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_zed_apenr"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_zed_attain",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_zed_attain"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_zed_college",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_zed_college"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_zed_ecenrol",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_zed_ecenrol"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_zed_hsgrad",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_zed_hsgrad"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_zed_math",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_zed_math"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_zed_reading",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_zed_reading"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_zed_schpov",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_zed_schpov"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_zed_teachxp",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_zed_teachxp"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_zed_prxece",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_zed_prxece"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_zed_prxhqece",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_zed_prxhqece"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_zhe_food",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_zhe_food"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_zhe_green",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_zhe_green"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_zhe_heat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_zhe_heat"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_zhe_hlthins",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_zhe_hlthins"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_zhe_ozone",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_zhe_ozone"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_zhe_pm25",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_zhe_pm25"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_zhe_vacancy",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_zhe_vacancy"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_zhe_walk",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_zhe_walk"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_zhe_suprfnd",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_zhe_suprfnd"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_zhe_rsei",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_zhe_rsei"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_zse_povrate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_zse_povrate"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_zse_public",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_zse_public"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_zse_home",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_zse_home"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_zse_occ",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_zse_occ"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_zse_mhe",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_zse_mhe"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_zse_emprat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_zse_emprat"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_zse_jobprox",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_zse_jobprox"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_zse_single",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_zse_single"
+            },
+            {
+                "isAbout": "items/reshist_addr1_coi_zse_ecres",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_coi_zse_ecres"
+            },
+            {
+                "isAbout": "items/reshist_addr2_opat_kfrpp_p1",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_opat_kfrpp_p1"
+            },
+            {
+                "isAbout": "items/reshist_addr2_opat_kfrpp_p25",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_opat_kfrpp_p25"
+            },
+            {
+                "isAbout": "items/reshist_addr2_opat_kfrpp_p50",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_opat_kfrpp_p50"
+            },
+            {
+                "isAbout": "items/reshist_addr2_opat_kfrpp_p75",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_opat_kfrpp_p75"
+            },
+            {
+                "isAbout": "items/reshist_addr2_opat_kfrpp_p100",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_opat_kfrpp_p100"
+            },
+            {
+                "isAbout": "items/reshist_addr2_opat_kfrpp_avg",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_opat_kfrpp_avg"
+            },
+            {
+                "isAbout": "items/reshist_addr2_opat_kfrpp_n",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_opat_kfrpp_n"
+            },
+            {
+                "isAbout": "items/reshist_addr2_opat_kfrpp_p1se",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_opat_kfrpp_p1se"
+            },
+            {
+                "isAbout": "items/reshist_addr2_opat_kfrpp_p25se",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_opat_kfrpp_p25se"
+            },
+            {
+                "isAbout": "items/reshist_addr2_opat_kfrpp_p50se",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_opat_kfrpp_p50se"
+            },
+            {
+                "isAbout": "items/reshist_addr2_opat_kfrpp_p75se",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_opat_kfrpp_p75se"
+            },
+            {
+                "isAbout": "items/reshist_addr2_opat_kfrpp_p100se",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_opat_kfrpp_p100se"
+            },
+            {
+                "isAbout": "items/reshist_addr2_opat_kfrpp_avg_se",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_opat_kfrpp_avg_se"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_z_ed_nat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_z_ed_nat"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_z_he_nat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_z_he_nat"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_z_se_nat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_z_se_nat"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_z_coi_nat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_z_coi_nat"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_c5_ed_nat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_c5_ed_nat"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_c5_he_nat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_c5_he_nat"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_c5_se_nat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_c5_se_nat"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_c5_coi_nat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_c5_coi_nat"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_r_ed_nat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_r_ed_nat"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_r_he_nat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_r_he_nat"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_r_se_nat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_r_se_nat"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_r_coi_nat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_r_coi_nat"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_c5_ed_stt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_c5_ed_stt"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_c5_he_stt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_c5_he_stt"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_c5_se_stt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_c5_se_stt"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_c5_coi_stt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_c5_coi_stt"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_r_ed_stt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_r_ed_stt"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_r_he_stt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_r_he_stt"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_r_se_stt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_r_se_stt"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_r_coi_stt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_r_coi_stt"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_c5_ed_met",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_c5_ed_met"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_c5_he_met",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_c5_he_met"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_c5_se_met",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_c5_se_met"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_c5_coi_met",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_c5_coi_met"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_r_ed_met",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_r_ed_met"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_r_he_met",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_r_he_met"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_r_se_met",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_r_se_met"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_r_coi_met",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_r_coi_met"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_ed_apenr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_ed_apenr"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_ed_attain",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_ed_attain"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_ed_college",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_ed_college"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_ed_ecenrol",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_ed_ecenrol"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_ed_hsgrad",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_ed_hsgrad"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_ed_math",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_ed_math"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_ed_reading",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_ed_reading"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_ed_schpov",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_ed_schpov"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_ed_teachxp",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_ed_teachxp"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_ed_prxece",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_ed_prxece"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_ed_prxhqece",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_ed_prxhqece"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_he_food",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_he_food"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_he_green",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_he_green"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_he_heat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_he_heat"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_he_hlthins",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_he_hlthins"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_he_ozone",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_he_ozone"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_he_pm25",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_he_pm25"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_he_vacancy",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_he_vacancy"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_he_walk",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_he_walk"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_he_suprfnd",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_he_suprfnd"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_he_rsei",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_he_rsei"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_se_povrate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_se_povrate"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_se_public",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_se_public"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_se_home",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_se_home"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_se_occ",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_se_occ"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_se_mhe",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_se_mhe"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_se_emprat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_se_emprat"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_se_jobprox",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_se_jobprox"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_se_single",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_se_single"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_zed_apenr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_zed_apenr"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_zed_attain",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_zed_attain"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_zed_college",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_zed_college"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_zed_ecenrol",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_zed_ecenrol"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_zed_hsgrad",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_zed_hsgrad"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_zed_math",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_zed_math"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_zed_reading",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_zed_reading"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_zed_schpov",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_zed_schpov"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_zed_teachxp",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_zed_teachxp"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_zed_prxece",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_zed_prxece"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_zed_prxhqece",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_zed_prxhqece"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_zhe_food",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_zhe_food"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_zhe_green",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_zhe_green"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_zhe_heat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_zhe_heat"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_zhe_hlthins",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_zhe_hlthins"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_zhe_ozone",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_zhe_ozone"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_zhe_pm25",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_zhe_pm25"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_zhe_vacancy",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_zhe_vacancy"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_zhe_walk",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_zhe_walk"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_zhe_suprfnd",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_zhe_suprfnd"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_zhe_rsei",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_zhe_rsei"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_zse_povrate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_zse_povrate"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_zse_public",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_zse_public"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_zse_home",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_zse_home"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_zse_occ",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_zse_occ"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_zse_mhe",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_zse_mhe"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_zse_emprat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_zse_emprat"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_zse_jobprox",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_zse_jobprox"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_zse_single",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_zse_single"
+            },
+            {
+                "isAbout": "items/reshist_addr2_coi_zse_ecres",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_coi_zse_ecres"
+            },
+            {
+                "isAbout": "items/reshist_addr3_opat_kfrpp_p1",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_opat_kfrpp_p1"
+            },
+            {
+                "isAbout": "items/reshist_addr3_opat_kfrpp_p25",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_opat_kfrpp_p25"
+            },
+            {
+                "isAbout": "items/reshist_addr3_opat_kfrpp_p50",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_opat_kfrpp_p50"
+            },
+            {
+                "isAbout": "items/reshist_addr3_opat_kfrpp_p75",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_opat_kfrpp_p75"
+            },
+            {
+                "isAbout": "items/reshist_addr3_opat_kfrpp_p100",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_opat_kfrpp_p100"
+            },
+            {
+                "isAbout": "items/reshist_addr3_opat_kfrpp_avg",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_opat_kfrpp_avg"
+            },
+            {
+                "isAbout": "items/reshist_addr3_opat_kfrpp_n",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_opat_kfrpp_n"
+            },
+            {
+                "isAbout": "items/reshist_addr3_opat_kfrpp_p1se",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_opat_kfrpp_p1se"
+            },
+            {
+                "isAbout": "items/reshist_addr3_opat_kfrpp_p25se",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_opat_kfrpp_p25se"
+            },
+            {
+                "isAbout": "items/reshist_addr3_opat_kfrpp_p50se",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_opat_kfrpp_p50se"
+            },
+            {
+                "isAbout": "items/reshist_addr3_opat_kfrpp_p75se",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_opat_kfrpp_p75se"
+            },
+            {
+                "isAbout": "items/reshist_addr3_opat_kfrpp_p100se",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_opat_kfrpp_p100se"
+            },
+            {
+                "isAbout": "items/reshist_addr3_opat_kfrpp_avg_se",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_opat_kfrpp_avg_se"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_z_ed_nat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_z_ed_nat"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_z_he_nat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_z_he_nat"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_z_se_nat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_z_se_nat"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_z_coi_nat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_z_coi_nat"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_c5_ed_nat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_c5_ed_nat"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_c5_he_nat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_c5_he_nat"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_c5_se_nat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_c5_se_nat"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_c5_coi_nat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_c5_coi_nat"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_r_ed_nat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_r_ed_nat"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_r_he_nat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_r_he_nat"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_r_se_nat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_r_se_nat"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_r_coi_nat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_r_coi_nat"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_c5_ed_stt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_c5_ed_stt"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_c5_he_stt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_c5_he_stt"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_c5_se_stt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_c5_se_stt"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_c5_coi_stt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_c5_coi_stt"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_r_ed_stt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_r_ed_stt"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_r_he_stt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_r_he_stt"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_r_se_stt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_r_se_stt"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_r_coi_stt",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_r_coi_stt"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_c5_ed_met",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_c5_ed_met"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_c5_he_met",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_c5_he_met"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_c5_se_met",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_c5_se_met"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_c5_coi_met",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_c5_coi_met"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_r_ed_met",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_r_ed_met"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_r_he_met",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_r_he_met"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_r_se_met",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_r_se_met"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_r_coi_met",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_r_coi_met"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_ed_apenr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_ed_apenr"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_ed_attain",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_ed_attain"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_ed_college",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_ed_college"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_ed_ecenrol",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_ed_ecenrol"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_ed_hsgrad",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_ed_hsgrad"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_ed_math",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_ed_math"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_ed_reading",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_ed_reading"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_ed_schpov",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_ed_schpov"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_ed_teachxp",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_ed_teachxp"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_ed_prxece",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_ed_prxece"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_ed_prxhqece",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_ed_prxhqece"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_he_food",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_he_food"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_he_green",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_he_green"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_he_heat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_he_heat"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_he_hlthins",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_he_hlthins"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_he_ozone",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_he_ozone"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_he_pm25",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_he_pm25"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_he_vacancy",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_he_vacancy"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_he_walk",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_he_walk"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_he_suprfnd",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_he_suprfnd"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_he_rsei",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_he_rsei"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_se_povrate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_se_povrate"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_se_public",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_se_public"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_se_home",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_se_home"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_se_occ",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_se_occ"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_se_mhe",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_se_mhe"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_se_emprat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_se_emprat"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_se_jobprox",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_se_jobprox"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_se_single",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_se_single"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_zed_apenr",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_zed_apenr"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_zed_attain",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_zed_attain"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_zed_college",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_zed_college"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_zed_ecenrol",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_zed_ecenrol"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_zed_hsgrad",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_zed_hsgrad"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_zed_math",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_zed_math"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_zed_reading",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_zed_reading"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_zed_schpov",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_zed_schpov"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_zed_teachxp",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_zed_teachxp"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_zed_prxece",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_zed_prxece"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_zed_prxhqece",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_zed_prxhqece"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_zhe_food",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_zhe_food"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_zhe_green",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_zhe_green"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_zhe_heat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_zhe_heat"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_zhe_hlthins",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_zhe_hlthins"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_zhe_ozone",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_zhe_ozone"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_zhe_pm25",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_zhe_pm25"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_zhe_vacancy",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_zhe_vacancy"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_zhe_walk",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_zhe_walk"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_zhe_suprfnd",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_zhe_suprfnd"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_zhe_rsei",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_zhe_rsei"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_zse_povrate",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_zse_povrate"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_zse_public",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_zse_public"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_zse_home",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_zse_home"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_zse_occ",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_zse_occ"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_zse_mhe",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_zse_mhe"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_zse_emprat",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_zse_emprat"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_zse_jobprox",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_zse_jobprox"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_zse_single",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_zse_single"
+            },
+            {
+                "isAbout": "items/reshist_addr3_coi_zse_ecres",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_coi_zse_ecres"
+            },
+            {
+                "isAbout": "items/reshist_addr1_scanweektemp_t6",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_scanweektemp_t6"
+            },
+            {
+                "isAbout": "items/reshist_addr1_scanweektemp_t5",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_scanweektemp_t5"
+            },
+            {
+                "isAbout": "items/reshist_addr1_scanweektemp_t4",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_scanweektemp_t4"
+            },
+            {
+                "isAbout": "items/reshist_addr1_scanweektemp_t3",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_scanweektemp_t3"
+            },
+            {
+                "isAbout": "items/reshist_addr1_scanweektemp_t2",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_scanweektemp_t2"
+            },
+            {
+                "isAbout": "items/reshist_addr1_scanweektemp_t1",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_scanweektemp_t1"
+            },
+            {
+                "isAbout": "items/reshist_addr1_scanweektemp_t0",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_scanweektemp_t0"
+            },
+            {
+                "isAbout": "items/reshist_addr1_scanweekvpd_t6",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_scanweekvpd_t6"
+            },
+            {
+                "isAbout": "items/reshist_addr1_scanweekvpd_t5",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_scanweekvpd_t5"
+            },
+            {
+                "isAbout": "items/reshist_addr1_scanweekvpd_t4",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_scanweekvpd_t4"
+            },
+            {
+                "isAbout": "items/reshist_addr1_scanweekvpd_t3",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_scanweekvpd_t3"
+            },
+            {
+                "isAbout": "items/reshist_addr1_scanweekvpd_t2",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_scanweekvpd_t2"
+            },
+            {
+                "isAbout": "items/reshist_addr1_scanweekvpd_t1",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_scanweekvpd_t1"
+            },
+            {
+                "isAbout": "items/reshist_addr1_scanweekvpd_t0",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr1_scanweekvpd_t0"
+            },
+            {
+                "isAbout": "items/reshist_addr2_scanweektemp_t6",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_scanweektemp_t6"
+            },
+            {
+                "isAbout": "items/reshist_addr2_scanweektemp_t5",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_scanweektemp_t5"
+            },
+            {
+                "isAbout": "items/reshist_addr2_scanweektemp_t4",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_scanweektemp_t4"
+            },
+            {
+                "isAbout": "items/reshist_addr2_scanweektemp_t3",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_scanweektemp_t3"
+            },
+            {
+                "isAbout": "items/reshist_addr2_scanweektemp_t2",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_scanweektemp_t2"
+            },
+            {
+                "isAbout": "items/reshist_addr2_scanweektemp_t1",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_scanweektemp_t1"
+            },
+            {
+                "isAbout": "items/reshist_addr2_scanweektemp_t0",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_scanweektemp_t0"
+            },
+            {
+                "isAbout": "items/reshist_addr2_scanweekvpd_t6",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_scanweekvpd_t6"
+            },
+            {
+                "isAbout": "items/reshist_addr2_scanweekvpd_t5",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_scanweekvpd_t5"
+            },
+            {
+                "isAbout": "items/reshist_addr2_scanweekvpd_t4",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_scanweekvpd_t4"
+            },
+            {
+                "isAbout": "items/reshist_addr2_scanweekvpd_t3",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_scanweekvpd_t3"
+            },
+            {
+                "isAbout": "items/reshist_addr2_scanweekvpd_t2",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_scanweekvpd_t2"
+            },
+            {
+                "isAbout": "items/reshist_addr2_scanweekvpd_t1",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_scanweekvpd_t1"
+            },
+            {
+                "isAbout": "items/reshist_addr2_scanweekvpd_t0",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr2_scanweekvpd_t0"
+            },
+            {
+                "isAbout": "items/reshist_addr3_scanweektemp_t6",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_scanweektemp_t6"
+            },
+            {
+                "isAbout": "items/reshist_addr3_scanweektemp_t5",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_scanweektemp_t5"
+            },
+            {
+                "isAbout": "items/reshist_addr3_scanweektemp_t4",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_scanweektemp_t4"
+            },
+            {
+                "isAbout": "items/reshist_addr3_scanweektemp_t3",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_scanweektemp_t3"
+            },
+            {
+                "isAbout": "items/reshist_addr3_scanweektemp_t2",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_scanweektemp_t2"
+            },
+            {
+                "isAbout": "items/reshist_addr3_scanweektemp_t1",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_scanweektemp_t1"
+            },
+            {
+                "isAbout": "items/reshist_addr3_scanweektemp_t0",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_scanweektemp_t0"
+            },
+            {
+                "isAbout": "items/reshist_addr3_scanweekvpd_t6",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_scanweekvpd_t6"
+            },
+            {
+                "isAbout": "items/reshist_addr3_scanweekvpd_t5",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_scanweekvpd_t5"
+            },
+            {
+                "isAbout": "items/reshist_addr3_scanweekvpd_t4",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_scanweekvpd_t4"
+            },
+            {
+                "isAbout": "items/reshist_addr3_scanweekvpd_t3",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_scanweekvpd_t3"
+            },
+            {
+                "isAbout": "items/reshist_addr3_scanweekvpd_t2",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_scanweekvpd_t2"
+            },
+            {
+                "isAbout": "items/reshist_addr3_scanweekvpd_t1",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_scanweekvpd_t1"
+            },
+            {
+                "isAbout": "items/reshist_addr3_scanweekvpd_t0",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "reshist_addr3_scanweekvpd_t0"
             },
             {
                 "isAbout": "items/residential_history_derived_scores_daic_use_only_complete",
@@ -1972,6 +4912,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2764",
+    "version": "revid2765",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
