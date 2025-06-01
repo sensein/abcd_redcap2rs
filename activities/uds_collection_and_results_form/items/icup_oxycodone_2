@@ -1,0 +1,48 @@
+{
+    "id": "icup_oxycodone_2",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "urine_grp1_day2"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210316"
+        }
+    ],
+    "preamble": {
+        "en": "iCUP Results:"
+    },
+    "prefLabel": {
+        "en": "icup_oxycodone_2"
+    },
+    "question": {
+        "en": "OXYCODONE (OXY100)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Negative"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Preliminary Positive"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

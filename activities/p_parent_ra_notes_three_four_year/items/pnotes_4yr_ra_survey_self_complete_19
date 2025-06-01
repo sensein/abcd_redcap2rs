@@ -6,6 +6,11 @@
             "column": "Matrix Group Name",
             "source": "redcap",
             "value": "pnotes_4yr_ra_survey_self_complete"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
         }
     ],
     "preamble": {
@@ -27,7 +32,7 @@
             },
             {
                 "name": {
-                    "en": "By Phone"
+                    "en": "Remote"
                 },
                 "value": 2
             },
@@ -43,7 +48,8 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "radio",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

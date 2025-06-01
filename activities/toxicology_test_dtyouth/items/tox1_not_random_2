@@ -1,0 +1,58 @@
+{
+    "id": "tox1_not_random_2",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210316"
+        }
+    ],
+    "prefLabel": {
+        "en": "tox1_not_random_2"
+    },
+    "question": {
+        "en": "Reason for collection (or attempted collection):"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Two or more days of substance use endorsement as indicated in substance use interview"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Intoxication Suspected"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Site Visit"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Reported CBD-only use"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Positive urine drug screen"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

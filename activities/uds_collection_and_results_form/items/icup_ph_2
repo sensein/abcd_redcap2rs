@@ -1,0 +1,48 @@
+{
+    "id": "icup_ph_2",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "urine_grp2_day2"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210316"
+        }
+    ],
+    "preamble": {
+        "en": "Day 2"
+    },
+    "prefLabel": {
+        "en": "icup_ph_2"
+    },
+    "question": {
+        "en": "pH"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Normal"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Abnormal"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

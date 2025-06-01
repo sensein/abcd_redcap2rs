@@ -6,6 +6,11 @@
             "column": "Matrix Group Name",
             "source": "redcap",
             "value": "parent_instruments_ra_admin"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDECHOICE = '3'"
         }
     ],
     "preamble": {
@@ -27,7 +32,7 @@
             },
             {
                 "name": {
-                    "en": "By Phone"
+                    "en": "Remote"
                 },
                 "value": 2
             },

@@ -18,6 +18,7 @@
             "items/tox1_notcoll_reas",
             "items/tox1_not_collect_other",
             "items/tox1_not_random",
+            "items/tox1_not_random_2",
             "items/tox1_dot_y",
             "items/tox1_results_yn_y",
             "items/instruct_redo_tox",
@@ -135,9 +136,15 @@
             },
             {
                 "isAbout": "items/tox1_not_random",
-                "isVis": "(tox1_results_y == '1' || tox1_results_y == '2' || tox1_results_y == '4' || tox1_results_y == '5' || tox1_results_y == '6')&&(bio_20perc_draeger == '0' || bio_15perc_draeger == '0' || bio_10perc_draeger == '0')",
+                "isVis": "(tox1_results_y == '1' || tox1_results_y == '2' || tox1_results_y == '4' || tox1_results_y == '5' || tox1_results_y == '6')&&(bio_20perc_draeger == '0' || bio_15perc_draeger == '0' || bio_10perc_draeger == '0')AND(event - name == 'baseline_year_1_arm_1' OR event - name == '1_year_follow_up_y_arm_1' OR event - name == '2_year_follow_up_y_arm_1' OR event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "tox1_not_random"
+            },
+            {
+                "isAbout": "items/tox1_not_random_2",
+                "isVis": "(tox1_results_y == '1' || tox1_results_y == '2' || tox1_results_y == '4' || tox1_results_y == '5' || tox1_results_y == '6' || tox1_results_y == '7' || tox1_results_y == '8' || tox1_results_y == '9' || tox1_results_y == '10')AND(event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
+                "valueRequired": true,
+                "variableName": "tox1_not_random_2"
             },
             {
                 "isAbout": "items/tox1_dot_y",
@@ -460,6 +467,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2722",
+    "version": "revid2723",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

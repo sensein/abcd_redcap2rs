@@ -5,9 +5,17 @@
         {
             "column": "Matrix Group Name",
             "source": "redcap",
-            "value": "parent_instruments"
+            "value": "parent_instruments_self"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@HIDDEN"
         }
     ],
+    "preamble": {
+        "en": "Please check how parent completed each of theParent Self Completed Surveys."
+    },
     "prefLabel": {
         "en": "pnotes_blf_p"
     },
@@ -24,7 +32,7 @@
             },
             {
                 "name": {
-                    "en": "By Phone"
+                    "en": "Remote"
                 },
                 "value": 2
             },
@@ -46,7 +54,8 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "radio",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

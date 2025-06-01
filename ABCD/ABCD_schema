@@ -189,7 +189,6 @@
             "../activities/p_parent_ra_notes_three_four_year/p_parent_ra_notes_three_four_year_schema",
             "../activities/fitbit_postassessment_youth/fitbit_postassessment_youth_schema",
             "../activities/y_ears_post_questionnaire/y_ears_post_questionnaire_schema",
-            "../activities/p_parent_ra_notes_one_year_followup/p_parent_ra_notes_one_year_followup_schema",
             "../activities/fitbit_preassessment_parent/fitbit_preassessment_parent_schema",
             "../activities/p_parent_ra_notes_2/p_parent_ra_notes_2_schema",
             "../activities/ears_intro_setup/ears_intro_setup_schema",
@@ -339,7 +338,8 @@
             "../activities/p_abcd_covid19_questionnaire_part_1/p_abcd_covid19_questionnaire_part_1_schema",
             "../activities/p_abcd_covid19_questionnaire_part_2/p_abcd_covid19_questionnaire_part_2_schema",
             "../activities/acs_post_stratification_weights_daic_use_only/acs_post_stratification_weights_daic_use_only_schema",
-            "../activities/little_man_task_daic_use_only/little_man_task_daic_use_only_schema"
+            "../activities/little_man_task_daic_use_only/little_man_task_daic_use_only_schema",
+            "../activities/p_parent_ra_notes_one_year_followup/p_parent_ra_notes_one_year_followup_schema"
         ],
         "addProperties": [
             {
@@ -1775,14 +1775,6 @@
                 "variableName": "y_ears_post_questionnaire_schema"
             },
             {
-                "isAbout": "../activities/p_parent_ra_notes_one_year_followup/p_parent_ra_notes_one_year_followup_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "P Parent Ra Notes One Year Followup"
-                },
-                "variableName": "p_parent_ra_notes_one_year_followup_schema"
-            },
-            {
                 "isAbout": "../activities/fitbit_preassessment_parent/fitbit_preassessment_parent_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -2981,10 +2973,18 @@
                     "en": "Little Man Task Daic Use Only"
                 },
                 "variableName": "little_man_task_daic_use_only_schema"
+            },
+            {
+                "isAbout": "../activities/p_parent_ra_notes_one_year_followup/p_parent_ra_notes_one_year_followup_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "P Parent Ra Notes One Year Followup"
+                },
+                "variableName": "p_parent_ra_notes_one_year_followup_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2722",
+    "version": "revid2723",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

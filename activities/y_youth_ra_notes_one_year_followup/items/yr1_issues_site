@@ -15,7 +15,7 @@
         "en": "yr1_issues_site"
     },
     "question": {
-        "en": "Select site-related issues"
+        "en": "Clinical Alerts"
     },
     "responseOptions": {
         "choices": [
@@ -39,9 +39,15 @@
             },
             {
                 "name": {
-                    "en": "Other (e.g., elder abuse)"
+                    "en": "Other clinical alert follow-up (e.g., elder abuse)"
                 },
                 "value": 5
+            },
+            {
+                "name": {
+                    "en": "Site issue unrelated to clinical alert"
+                },
+                "value": 6
             }
         ],
         "multipleChoice": true,

@@ -31,6 +31,7 @@
             "items/device_return_issues",
             "items/ears_withdrawal",
             "items/device_return_issues_2",
+            "items/fitbit_ears_not_consent",
             "items/fitc_extension",
             "items/device_return_confirm_dte",
             "items/fitc_items_received",
@@ -106,37 +107,37 @@
             },
             {
                 "isAbout": "items/fitc_script",
-                "isVis": true,
+                "isVis": "fitbit_permission == '1' AND fitbit_assent == '1'",
                 "valueRequired": false,
                 "variableName": "fitc_script"
             },
             {
                 "isAbout": "items/fitc_user_name_pipe",
-                "isVis": true,
+                "isVis": "fitbit_permission == '1' AND fitbit_assent == '1'",
                 "valueRequired": false,
                 "variableName": "fitc_user_name_pipe"
             },
             {
                 "isAbout": "items/fitc_user_access_code_pipe",
-                "isVis": true,
+                "isVis": "fitbit_permission == '1' AND fitbit_assent == '1'",
                 "valueRequired": false,
                 "variableName": "fitc_user_access_code_pipe"
             },
             {
                 "isAbout": "items/fitc_device_dte_new",
-                "isVis": true,
+                "isVis": "fitbit_permission == '1' AND fitbit_assent == '1'",
                 "valueRequired": true,
                 "variableName": "fitc_device_dte_new"
             },
             {
                 "isAbout": "items/fitc_device_num",
-                "isVis": true,
+                "isVis": "fitbit_permission == '1' AND fitbit_assent == '1'",
                 "valueRequired": true,
                 "variableName": "fitc_device_num"
             },
             {
                 "isAbout": "items/fitc_track_number",
-                "isVis": true,
+                "isVis": "fitbit_permission == '1' AND fitbit_assent == '1'",
                 "valueRequired": false,
                 "variableName": "fitc_track_number"
             },
@@ -148,91 +149,97 @@
             },
             {
                 "isAbout": "items/fitc_items_sent",
-                "isVis": true,
+                "isVis": "fitbit_permission == '1' AND fitbit_assent == '1'",
                 "valueRequired": true,
                 "variableName": "fitc_items_sent"
             },
             {
                 "isAbout": "items/ears_app_install_intro",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND mobile_asnt_p == '1' AND mobile_tech_asnt == '1'",
                 "valueRequired": false,
                 "variableName": "ears_app_install_intro"
             },
             {
                 "isAbout": "items/ears_app_installation",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND mobile_asnt_p == '1' AND mobile_tech_asnt == '1'",
                 "valueRequired": false,
                 "variableName": "ears_app_installation"
             },
             {
                 "isAbout": "items/ears_installation_code",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND mobile_asnt_p == '1' AND mobile_tech_asnt == '1'",
                 "valueRequired": false,
                 "variableName": "ears_installation_code"
             },
             {
                 "isAbout": "items/ears_qr_code",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND mobile_asnt_p == '1' AND mobile_tech_asnt == '1'",
                 "valueRequired": false,
                 "variableName": "ears_qr_code"
             },
             {
                 "isAbout": "items/fitc_device_dte",
-                "isVis": true,
+                "isVis": "fitbit_permission == '1' AND fitbit_assent == '1' AND event - name == '4_year_follow_up_y_arm_1' AND mobile_asnt_p == '1' AND mobile_tech_asnt == '1'",
                 "valueRequired": true,
                 "variableName": "fitc_device_dte"
             },
             {
                 "isAbout": "items/fitc_withdrawal",
-                "isVis": true,
+                "isVis": "fitbit_permission == '1' AND fitbit_assent == '1'",
                 "valueRequired": false,
                 "variableName": "fitc_withdrawal"
             },
             {
                 "isAbout": "items/device_return_issues",
-                "isVis": true,
+                "isVis": "fitbit_permission == '1' AND fitbit_assent == '1'",
                 "valueRequired": false,
                 "variableName": "device_return_issues"
             },
             {
                 "isAbout": "items/ears_withdrawal",
-                "isVis": "ears_app_installation___1 == '0' &&(event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "ears_app_installation___1 == '0' AND mobile_asnt_p == '1' AND mobile_tech_asnt == '1'",
                 "valueRequired": false,
                 "variableName": "ears_withdrawal"
             },
             {
                 "isAbout": "items/device_return_issues_2",
-                "isVis": "ears_app_installation___1 == '0' &&(event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "ears_app_installation___1 == '0' AND mobile_asnt_p == '1' AND mobile_tech_asnt == '1'",
                 "valueRequired": false,
                 "variableName": "device_return_issues_2"
             },
             {
+                "isAbout": "items/fitbit_ears_not_consent",
+                "isVis": "fitbit_permission == '0' AND fitbit_assent == '0' AND event - name == '4_year_follow_up_y_arm_1' AND mobile_asnt_p == '0' AND mobile_tech_asnt == '0'",
+                "valueRequired": false,
+                "variableName": "fitbit_ears_not_consent"
+            },
+            {
                 "isAbout": "items/fitc_extension",
-                "isVis": true,
+                "isVis": "fitbit_permission == '0' AND fitbit_assent == '0' AND event - name == '4_year_follow_up_y_arm_1' AND mobile_asnt_p == '0' AND mobile_tech_asnt == '0'",
                 "valueRequired": false,
                 "variableName": "fitc_extension"
             },
             {
                 "isAbout": "items/device_return_confirm_dte",
-                "isVis": true,
+                "isVis": "fitbit_permission == '1' AND fitbit_assent == '1'",
                 "valueRequired": false,
                 "variableName": "device_return_confirm_dte"
             },
             {
                 "isAbout": "items/fitc_items_received",
-                "isVis": true,
+                "isVis": "fitbit_permission == '1' AND fitbit_assent == '1'",
                 "valueRequired": false,
                 "variableName": "fitc_items_received"
             },
             {
                 "isAbout": "items/fitc_payment_date",
-                "isVis": true,
+                "isVis": "fitbit_permission == '1' AND fitbit_assent == '1'",
                 "valueRequired": false,
                 "variableName": "fitc_payment_date"
             },
             {
                 "isAbout": "items/ears_payment_date",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND mobile_asnt_p == '1' AND mobile_tech_asnt == '1'",
                 "valueRequired": false,
                 "variableName": "ears_payment_date"
             },
@@ -383,6 +390,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2722",
+    "version": "revid2723",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
