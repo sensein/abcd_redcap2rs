@@ -78,8 +78,6 @@
             "../activities/y_h_mh_demography_part_1_comments/y_h_mh_demography_part_1_comments_schema",
             "../activities/plus_day_1youth/plus_day_1youth_schema",
             "../activities/introduction_to_neurocognitionyouth2/introduction_to_neurocognitionyouth2_schema",
-            "../activities/smarte_sum_scores/smarte_sum_scores_schema",
-            "../activities/cash_choice_task/cash_choice_task_schema",
             "../activities/genetic_saliva_rucdryouth/genetic_saliva_rucdryouth_schema",
             "../activities/y_neurocog_part_2_comments/y_neurocog_part_2_comments_schema",
             "../activities/little_man_task_score/little_man_task_score_schema",
@@ -90,6 +88,8 @@
             "../activities/y_intro_to_neurocog_1_yr_followup/y_intro_to_neurocog_1_yr_followup_schema",
             "../activities/stroop_emotional_taskyouthscoresdaic_use_only/stroop_emotional_taskyouthscoresdaic_use_only_schema",
             "../activities/delay_discounting_sum_scores/delay_discounting_sum_scores_schema",
+            "../activities/smarte_sum_scores/smarte_sum_scores_schema",
+            "../activities/cash_choice_task/cash_choice_task_schema",
             "../activities/pain_questionnaire/pain_questionnaire_schema",
             "../activities/y_respiratory_questionnaire/y_respiratory_questionnaire_schema",
             "../activities/munich_chronotype_questionnaire_mctq_for_children/munich_chronotype_questionnaire_mctq_for_children_schema",
@@ -199,15 +199,15 @@
             "../activities/p_ra_pilot_data_5yr/p_ra_pilot_data_5yr_schema",
             "../activities/consentfitbit/consentfitbit_schema",
             "../activities/p_parent_ra_notes_three_four_year/p_parent_ra_notes_three_four_year_schema",
-            "../activities/fitbit_postassessment_youth/fitbit_postassessment_youth_schema",
-            "../activities/y_ears_post_questionnaire/y_ears_post_questionnaire_schema",
-            "../activities/fitbit_preassessment_parent/fitbit_preassessment_parent_schema",
-            "../activities/p_ears_post_questionnaire/p_ears_post_questionnaire_schema",
             "../activities/p_parent_ra_notes_one_year_followup/p_parent_ra_notes_one_year_followup_schema",
             "../activities/p_parent_ra_notes_2/p_parent_ra_notes_2_schema",
-            "../activities/ears_intro_setup/ears_intro_setup_schema",
             "../activities/twin_zygosity_rating/twin_zygosity_rating_schema",
+            "../activities/fitbit_postassessment_youth/fitbit_postassessment_youth_schema",
+            "../activities/y_ears_post_questionnaire/y_ears_post_questionnaire_schema",
             "../activities/fitbit_postassessment_parent/fitbit_postassessment_parent_schema",
+            "../activities/p_ears_post_questionnaire/p_ears_post_questionnaire_schema",
+            "../activities/fitbit_preassessment_parent/fitbit_preassessment_parent_schema",
+            "../activities/ears_intro_setup/ears_intro_setup_schema",
             "../activities/ecb_questionnaire/ecb_questionnaire_schema",
             "../activities/ecb_tracking/ecb_tracking_schema",
             "../activities/y_rescan_mid_post_scan_questionnaire/y_rescan_mid_post_scan_questionnaire_schema",
@@ -932,22 +932,6 @@
                 "variableName": "introduction_to_neurocognitionyouth2_schema"
             },
             {
-                "isAbout": "../activities/smarte_sum_scores/smarte_sum_scores_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Smarte Sum Scores"
-                },
-                "variableName": "smarte_sum_scores_schema"
-            },
-            {
-                "isAbout": "../activities/cash_choice_task/cash_choice_task_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Cash Choice Task"
-                },
-                "variableName": "cash_choice_task_schema"
-            },
-            {
                 "isAbout": "../activities/genetic_saliva_rucdryouth/genetic_saliva_rucdryouth_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -1026,6 +1010,22 @@
                     "en": "Delay Discounting Sum Scores"
                 },
                 "variableName": "delay_discounting_sum_scores_schema"
+            },
+            {
+                "isAbout": "../activities/smarte_sum_scores/smarte_sum_scores_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Smarte Sum Scores"
+                },
+                "variableName": "smarte_sum_scores_schema"
+            },
+            {
+                "isAbout": "../activities/cash_choice_task/cash_choice_task_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Cash Choice Task"
+                },
+                "variableName": "cash_choice_task_schema"
             },
             {
                 "isAbout": "../activities/pain_questionnaire/pain_questionnaire_schema",
@@ -1900,38 +1900,6 @@
                 "variableName": "p_parent_ra_notes_three_four_year_schema"
             },
             {
-                "isAbout": "../activities/fitbit_postassessment_youth/fitbit_postassessment_youth_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Fitbit Postassessment Youth"
-                },
-                "variableName": "fitbit_postassessment_youth_schema"
-            },
-            {
-                "isAbout": "../activities/y_ears_post_questionnaire/y_ears_post_questionnaire_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Y Ears Post Questionnaire"
-                },
-                "variableName": "y_ears_post_questionnaire_schema"
-            },
-            {
-                "isAbout": "../activities/fitbit_preassessment_parent/fitbit_preassessment_parent_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Fitbit Preassessment Parent"
-                },
-                "variableName": "fitbit_preassessment_parent_schema"
-            },
-            {
-                "isAbout": "../activities/p_ears_post_questionnaire/p_ears_post_questionnaire_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "P Ears Post Questionnaire"
-                },
-                "variableName": "p_ears_post_questionnaire_schema"
-            },
-            {
                 "isAbout": "../activities/p_parent_ra_notes_one_year_followup/p_parent_ra_notes_one_year_followup_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -1948,14 +1916,6 @@
                 "variableName": "p_parent_ra_notes_2_schema"
             },
             {
-                "isAbout": "../activities/ears_intro_setup/ears_intro_setup_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Ears Intro Setup"
-                },
-                "variableName": "ears_intro_setup_schema"
-            },
-            {
                 "isAbout": "../activities/twin_zygosity_rating/twin_zygosity_rating_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -1964,12 +1924,52 @@
                 "variableName": "twin_zygosity_rating_schema"
             },
             {
+                "isAbout": "../activities/fitbit_postassessment_youth/fitbit_postassessment_youth_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Fitbit Postassessment Youth"
+                },
+                "variableName": "fitbit_postassessment_youth_schema"
+            },
+            {
+                "isAbout": "../activities/y_ears_post_questionnaire/y_ears_post_questionnaire_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Ears Post Questionnaire"
+                },
+                "variableName": "y_ears_post_questionnaire_schema"
+            },
+            {
                 "isAbout": "../activities/fitbit_postassessment_parent/fitbit_postassessment_parent_schema",
                 "isVis": true,
                 "prefLabel": {
                     "en": "Fitbit Postassessment Parent"
                 },
                 "variableName": "fitbit_postassessment_parent_schema"
+            },
+            {
+                "isAbout": "../activities/p_ears_post_questionnaire/p_ears_post_questionnaire_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "P Ears Post Questionnaire"
+                },
+                "variableName": "p_ears_post_questionnaire_schema"
+            },
+            {
+                "isAbout": "../activities/fitbit_preassessment_parent/fitbit_preassessment_parent_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Fitbit Preassessment Parent"
+                },
+                "variableName": "fitbit_preassessment_parent_schema"
+            },
+            {
+                "isAbout": "../activities/ears_intro_setup/ears_intro_setup_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Ears Intro Setup"
+                },
+                "variableName": "ears_intro_setup_schema"
             },
             {
                 "isAbout": "../activities/ecb_questionnaire/ecb_questionnaire_schema",
@@ -3390,6 +3390,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2759",
+    "version": "revid2761",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

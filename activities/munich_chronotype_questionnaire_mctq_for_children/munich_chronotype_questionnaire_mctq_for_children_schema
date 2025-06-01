@@ -230,7 +230,7 @@
             },
             {
                 "isAbout": "items/mctq_sd_awakening_min",
-                "isVis": true,
+                "isVis": "mctq_sd_num_wake_up <> '' AND mctq_sd_num_wake_up <> '0'",
                 "valueRequired": true,
                 "variableName": "mctq_sd_awakening_min"
             },
@@ -525,6 +525,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2759",
+    "version": "revid2761",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
