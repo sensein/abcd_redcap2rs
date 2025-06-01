@@ -1,0 +1,26 @@
+{
+    "id": "tlfb_cal_scr_tot_su_ud_cum",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Text Validation Type OR Show Slider Number",
+            "source": "redcap",
+            "value": "number"
+        }
+    ],
+    "prefLabel": {
+        "en": "tlfb_cal_scr_tot_su_ud_cum"
+    },
+    "question": {
+        "en": "Combined count of total use days across all substances combined since last session (detailed plus estimated TLFB period)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

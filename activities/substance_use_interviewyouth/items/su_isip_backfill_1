@@ -1,0 +1,27 @@
+{
+    "id": "su_isip_backfill_1",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210419 @HIDDEN @SHARED @READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "su_isip_backfill_1"
+    },
+    "question": {
+        "en": "DAIC ONLY: Followup questions not answered after endorsing isip_1b_yn\r\n\r\nAnswers backfilled from 1 or 2 year followup = yes"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

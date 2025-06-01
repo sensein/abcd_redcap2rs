@@ -1,0 +1,133 @@
+{
+    "id": "sai_ss_golf_years_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "When Golf was not endorsed, values for the follow-up questions are missing. Here, missing values for  the \u00c2\u00a0\"... how many...?\" follow-up questions have been replaced with \"0.\"\u00c2"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY HIDEFROMCOMPLETION20210506"
+        }
+    ],
+    "preamble": {
+        "en": "Golf"
+    },
+    "prefLabel": {
+        "en": "sai_ss_golf_years_p"
+    },
+    "question": {
+        "en": "GolfFor how many years did your child participate in this activity?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "5"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "6"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "7"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "8"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "9"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "10"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "11"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "12"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "13"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "14"
+                },
+                "value": 14
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

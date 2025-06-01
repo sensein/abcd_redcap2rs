@@ -1,6 +1,13 @@
 {
     "id": "p_intro_cv",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210419"
+        }
+    ],
     "prefLabel": {
         "en": "p_intro_cv"
     },
@@ -14,8 +21,7 @@
         ]
     },
     "ui": {
-        "inputType": "static",
-        "readonlyValue": true
+        "inputType": "static"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

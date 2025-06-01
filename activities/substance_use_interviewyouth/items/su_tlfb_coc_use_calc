@@ -1,0 +1,27 @@
+{
+    "id": "su_tlfb_coc_use_calc",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210510 @HIDDEN @SHARED @READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "su_tlfb_coc_use_calc"
+    },
+    "question": {
+        "en": "Stimulant drugs such as cocaine or crack cocaine; 0 replaces blank answers in tlfb_coc_use when tlfb_list__1=0"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -155,31 +155,31 @@
             },
             {
                 "isAbout": "items/ears_app_install_intro",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND mobile_asnt_p == '1' AND mobile_tech_asnt == '1'",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')AND mobile_asnt_p == '1' AND mobile_tech_asnt == '1'",
                 "valueRequired": false,
                 "variableName": "ears_app_install_intro"
             },
             {
                 "isAbout": "items/ears_app_installation",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND mobile_asnt_p == '1' AND mobile_tech_asnt == '1'",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')AND mobile_asnt_p == '1' AND mobile_tech_asnt == '1'",
                 "valueRequired": false,
                 "variableName": "ears_app_installation"
             },
             {
                 "isAbout": "items/ears_installation_code",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND mobile_asnt_p == '1' AND mobile_tech_asnt == '1'",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')AND mobile_asnt_p == '1' AND mobile_tech_asnt == '1'",
                 "valueRequired": false,
                 "variableName": "ears_installation_code"
             },
             {
                 "isAbout": "items/ears_qr_code",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND mobile_asnt_p == '1' AND mobile_tech_asnt == '1'",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')AND mobile_asnt_p == '1' AND mobile_tech_asnt == '1'",
                 "valueRequired": false,
                 "variableName": "ears_qr_code"
             },
             {
                 "isAbout": "items/fitc_device_dte",
-                "isVis": "(fitbit_permission == '1' AND fitbit_assent == '1')OR(event - name == '4_year_follow_up_y_arm_1' AND mobile_asnt_p == '1' AND mobile_tech_asnt == '1')",
+                "isVis": "(fitbit_permission == '1' AND fitbit_assent == '1')OR((event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')AND mobile_asnt_p == '1' AND mobile_tech_asnt == '1')",
                 "valueRequired": true,
                 "variableName": "fitc_device_dte"
             },
@@ -239,7 +239,7 @@
             },
             {
                 "isAbout": "items/ears_payment_date",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1' AND mobile_asnt_p == '1' AND mobile_tech_asnt == '1'",
+                "isVis": "(event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')AND mobile_asnt_p == '1' AND mobile_tech_asnt == '1'",
                 "valueRequired": false,
                 "variableName": "ears_payment_date"
             },
@@ -390,6 +390,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2763",
+    "version": "revid2764",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

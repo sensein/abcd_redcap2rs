@@ -502,9 +502,9 @@
             "items/tlfb_hookah_date1",
             "items/tlfb_hookah_reg",
             "items/tlfb_hookah_date2",
-            "items/tlfb_pipes_date1",
             "items/tlfb_pipes_reg",
             "items/tlfb_pipes_date2",
+            "items/tlfb_pipes_date1",
             "items/tlfb_nicotine_date1",
             "items/tlfb_nicotine_reg",
             "items/tlfb_nicotine_date2",
@@ -844,6 +844,45 @@
             "items/caff_max",
             "items/su_caff_max_calc",
             "items/caff_max_type",
+            "items/su_tlfb_hookah_use_calc",
+            "items/su_tlfb_pipes_use_calc",
+            "items/su_tlfb_nicotine_use_calc",
+            "items/su_tlfb_mj_puff_calc",
+            "items/su_tlfb_mj_use_calc",
+            "items/su_tlfb_blunt_use_calc",
+            "items/su_tlfb_edible_use_calc",
+            "items/su_tlfb_mj_conc_use_calc",
+            "items/su_tlfb_mj_drink_use_calc",
+            "items/su_tlfb_tincture_use_calc",
+            "items/su_tlfb_mj_synth_use_calc",
+            "items/su_tlfb_coc_use_calc",
+            "items/su_tlfb_bsalts_use_calc",
+            "items/su_tlfb_meth_use_calc",
+            "items/su_tlfb_mdma_use_calc",
+            "items/su_tlfb_ket_use_calc",
+            "items/su_tlfb_ghb_use_calc",
+            "items/su_tlfb_opi_use_calc",
+            "items/su_tlfb_hall_use_calc",
+            "items/su_tlfb_shrooms_use_calc",
+            "items/su_tlfb_alc_sip_calc",
+            "items/su_tlfb_salvia_use_calc",
+            "items/su_tlfb_steroids_use_calc",
+            "items/su_tlfb_bitta_use_calc",
+            "items/su_tlfb_inhalant_use_calc",
+            "items/su_tlfb_amp_use_calc",
+            "items/su_tlfb_tranq_use_calc",
+            "items/su_tlfb_vicodin_use_calc",
+            "items/su_tlfb_cough_use_calc",
+            "items/su_tlfb_other_use_calc",
+            "items/su_tlfb_alc_use_calc",
+            "items/su_tlfb_tob_puff_calc",
+            "items/su_tlfb_cig_use_calc",
+            "items/su_tlfb_ecig_use_calc",
+            "items/su_tlfb_chew_use_calc",
+            "items/su_tlfb_cigar_use_calc",
+            "items/su_tlfb_anynic_use_calc",
+            "items/su_tlfb_anymj_use_calc",
+            "items/su_isip_backfill_1",
             "items/peer_deviance_1_4bbe5d",
             "items/peer_deviance_2_dd1457",
             "items/peer_deviance_3_e1ec2e",
@@ -1661,12 +1700,6 @@
                 "variableName": "tlfb_hookah_calc_reg"
             },
             {
-                "isAbout": "items/tlfb_pipes_date1",
-                "isVis": "tlfb_pipes_use== '1'",
-                "valueRequired": true,
-                "variableName": "tlfb_pipes_date1"
-            },
-            {
                 "isAbout": "items/tlfb_pipes_calc",
                 "isVis": false,
                 "valueRequired": false,
@@ -1683,6 +1716,12 @@
                 "isVis": "tlfb_pipes_reg== '1'",
                 "valueRequired": true,
                 "variableName": "tlfb_pipes_date2"
+            },
+            {
+                "isAbout": "items/tlfb_pipes_date1",
+                "isVis": "tlfb_pipes_use== '1'",
+                "valueRequired": true,
+                "variableName": "tlfb_pipes_date1"
             },
             {
                 "isAbout": "items/tlfb_pipes_calc_reg",
@@ -4223,6 +4262,240 @@
                 "variableName": "caff_max_type"
             },
             {
+                "isAbout": "items/su_tlfb_hookah_use_calc",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_tlfb_hookah_use_calc"
+            },
+            {
+                "isAbout": "items/su_tlfb_pipes_use_calc",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_tlfb_pipes_use_calc"
+            },
+            {
+                "isAbout": "items/su_tlfb_nicotine_use_calc",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_tlfb_nicotine_use_calc"
+            },
+            {
+                "isAbout": "items/su_tlfb_mj_puff_calc",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_tlfb_mj_puff_calc"
+            },
+            {
+                "isAbout": "items/su_tlfb_mj_use_calc",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_tlfb_mj_use_calc"
+            },
+            {
+                "isAbout": "items/su_tlfb_blunt_use_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "su_tlfb_blunt_use_calc"
+            },
+            {
+                "isAbout": "items/su_tlfb_edible_use_calc",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_tlfb_edible_use_calc"
+            },
+            {
+                "isAbout": "items/su_tlfb_mj_conc_use_calc",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_tlfb_mj_conc_use_calc"
+            },
+            {
+                "isAbout": "items/su_tlfb_mj_drink_use_calc",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_tlfb_mj_drink_use_calc"
+            },
+            {
+                "isAbout": "items/su_tlfb_tincture_use_calc",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "su_tlfb_tincture_use_calc"
+            },
+            {
+                "isAbout": "items/su_tlfb_mj_synth_use_calc",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_tlfb_mj_synth_use_calc"
+            },
+            {
+                "isAbout": "items/su_tlfb_coc_use_calc",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_tlfb_coc_use_calc"
+            },
+            {
+                "isAbout": "items/su_tlfb_bsalts_use_calc",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_tlfb_bsalts_use_calc"
+            },
+            {
+                "isAbout": "items/su_tlfb_meth_use_calc",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_tlfb_meth_use_calc"
+            },
+            {
+                "isAbout": "items/su_tlfb_mdma_use_calc",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_tlfb_mdma_use_calc"
+            },
+            {
+                "isAbout": "items/su_tlfb_ket_use_calc",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_tlfb_ket_use_calc"
+            },
+            {
+                "isAbout": "items/su_tlfb_ghb_use_calc",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_tlfb_ghb_use_calc"
+            },
+            {
+                "isAbout": "items/su_tlfb_opi_use_calc",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_tlfb_opi_use_calc"
+            },
+            {
+                "isAbout": "items/su_tlfb_hall_use_calc",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_tlfb_hall_use_calc"
+            },
+            {
+                "isAbout": "items/su_tlfb_shrooms_use_calc",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_tlfb_shrooms_use_calc"
+            },
+            {
+                "isAbout": "items/su_tlfb_alc_sip_calc",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_tlfb_alc_sip_calc"
+            },
+            {
+                "isAbout": "items/su_tlfb_salvia_use_calc",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_tlfb_salvia_use_calc"
+            },
+            {
+                "isAbout": "items/su_tlfb_steroids_use_calc",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_tlfb_steroids_use_calc"
+            },
+            {
+                "isAbout": "items/su_tlfb_bitta_use_calc",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_tlfb_bitta_use_calc"
+            },
+            {
+                "isAbout": "items/su_tlfb_inhalant_use_calc",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_tlfb_inhalant_use_calc"
+            },
+            {
+                "isAbout": "items/su_tlfb_amp_use_calc",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_tlfb_amp_use_calc"
+            },
+            {
+                "isAbout": "items/su_tlfb_tranq_use_calc",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_tlfb_tranq_use_calc"
+            },
+            {
+                "isAbout": "items/su_tlfb_vicodin_use_calc",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_tlfb_vicodin_use_calc"
+            },
+            {
+                "isAbout": "items/su_tlfb_cough_use_calc",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_tlfb_cough_use_calc"
+            },
+            {
+                "isAbout": "items/su_tlfb_other_use_calc",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_tlfb_other_use_calc"
+            },
+            {
+                "isAbout": "items/su_tlfb_alc_use_calc",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_tlfb_alc_use_calc"
+            },
+            {
+                "isAbout": "items/su_tlfb_tob_puff_calc",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_tlfb_tob_puff_calc"
+            },
+            {
+                "isAbout": "items/su_tlfb_cig_use_calc",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_tlfb_cig_use_calc"
+            },
+            {
+                "isAbout": "items/su_tlfb_ecig_use_calc",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_tlfb_ecig_use_calc"
+            },
+            {
+                "isAbout": "items/su_tlfb_chew_use_calc",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_tlfb_chew_use_calc"
+            },
+            {
+                "isAbout": "items/su_tlfb_cigar_use_calc",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_tlfb_cigar_use_calc"
+            },
+            {
+                "isAbout": "items/su_tlfb_anynic_use_calc",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_tlfb_anynic_use_calc"
+            },
+            {
+                "isAbout": "items/su_tlfb_anymj_use_calc",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_tlfb_anymj_use_calc"
+            },
+            {
+                "isAbout": "items/su_isip_backfill_1",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "su_isip_backfill_1"
+            },
+            {
                 "isAbout": "items/peer_deviance_1_4bbe5d",
                 "isVis": "tlfb_tob=='1'",
                 "valueRequired": true,
@@ -5005,6 +5278,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2763",
+    "version": "revid2764",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

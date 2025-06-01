@@ -1,0 +1,27 @@
+{
+    "id": "su_tlfb_cough_use_calc",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210510 @HIDDEN @SHARED @READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "su_tlfb_cough_use_calc"
+    },
+    "question": {
+        "en": "Over the counter cough or cold medicine or DXM used just to get high?; 0 replaces blank answers in tlfb_cough_use when tlfb_rx_misuse =0"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
