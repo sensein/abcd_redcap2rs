@@ -179,7 +179,7 @@
             },
             {
                 "isAbout": "items/fitc_device_dte",
-                "isVis": "fitbit_permission == '1' AND fitbit_assent == '1' AND event - name == '4_year_follow_up_y_arm_1' AND mobile_asnt_p == '1' AND mobile_tech_asnt == '1'",
+                "isVis": "(fitbit_permission == '1' AND fitbit_assent == '1')OR(event - name == '4_year_follow_up_y_arm_1' AND mobile_asnt_p == '1' AND mobile_tech_asnt == '1')",
                 "valueRequired": true,
                 "variableName": "fitc_device_dte"
             },
@@ -390,6 +390,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2724",
+    "version": "revid2725",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
