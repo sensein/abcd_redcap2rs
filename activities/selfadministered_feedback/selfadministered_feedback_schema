@@ -1,0 +1,38 @@
+{
+    "id": "selfadministered_feedback_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "selfadministered_feedback"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sa_5yr_feedback",
+            "items/sa_5yr_fu_feedback",
+            "items/selfadministered_feedback_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sa_5yr_feedback",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sa_5yr_feedback"
+            },
+            {
+                "isAbout": "items/sa_5yr_fu_feedback",
+                "isVis": "sa_5yr_feedback == '1'",
+                "valueRequired": true,
+                "variableName": "sa_5yr_fu_feedback"
+            },
+            {
+                "isAbout": "items/selfadministered_feedback_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "selfadministered_feedback_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2729",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

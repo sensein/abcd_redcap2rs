@@ -1,0 +1,94 @@
+{
+    "id": "opportunity_to_use_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "opportunity_to_use"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/su_start_time",
+            "items/su_alcohol",
+            "items/su_cigarettes",
+            "items/su_electronic_nicotine",
+            "items/su_marijuana",
+            "items/su_liquids",
+            "items/su_pain_relievers",
+            "items/su_anxiolytics",
+            "items/su_stimulants",
+            "items/su_other_drugs",
+            "items/opportunity_to_use_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/su_start_time",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "su_start_time"
+            },
+            {
+                "isAbout": "items/su_alcohol",
+                "isVis": "event - name == '5_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_alcohol"
+            },
+            {
+                "isAbout": "items/su_cigarettes",
+                "isVis": "event - name == '5_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_cigarettes"
+            },
+            {
+                "isAbout": "items/su_electronic_nicotine",
+                "isVis": "event - name == '5_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_electronic_nicotine"
+            },
+            {
+                "isAbout": "items/su_marijuana",
+                "isVis": "event - name == '5_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_marijuana"
+            },
+            {
+                "isAbout": "items/su_liquids",
+                "isVis": "event - name == '5_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_liquids"
+            },
+            {
+                "isAbout": "items/su_pain_relievers",
+                "isVis": "event - name == '5_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_pain_relievers"
+            },
+            {
+                "isAbout": "items/su_anxiolytics",
+                "isVis": "event - name == '5_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_anxiolytics"
+            },
+            {
+                "isAbout": "items/su_stimulants",
+                "isVis": "event - name == '5_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_stimulants"
+            },
+            {
+                "isAbout": "items/su_other_drugs",
+                "isVis": "event - name == '5_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "su_other_drugs"
+            },
+            {
+                "isAbout": "items/opportunity_to_use_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "opportunity_to_use_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2729",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

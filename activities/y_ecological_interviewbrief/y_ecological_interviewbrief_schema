@@ -9,14 +9,14 @@
         "order": [
             "items/ecological_start_time",
             "items/ecological_fav_table",
-            "items/ecological_fav_def",
             "items/ecological_fav_safety",
+            "items/ecological_covid_safe_pl",
             "items/ecological_other_table",
-            "items/ecological_other_def",
             "items/ecological_other_safety",
+            "items/ecological_covid_safe_pl_2",
             "items/ecological_other2_table",
-            "items/ecological_other2_def",
             "items/ecological_other2_safety",
+            "items/ecological_covid_safe_pl_3",
             "items/y_ecological_interviewbrief_complete"
         ],
         "addProperties": [
@@ -28,57 +28,57 @@
             },
             {
                 "isAbout": "items/ecological_fav_table",
-                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "ecological_fav_table"
             },
             {
-                "isAbout": "items/ecological_fav_def",
-                "isVis": "ecological_fav_table == 13",
-                "valueRequired": true,
-                "variableName": "ecological_fav_def"
-            },
-            {
                 "isAbout": "items/ecological_fav_safety",
-                "isVis": "(ecological_fav_table <> '777' AND event - name == '4_year_follow_up_y_arm_1')AND ecological_fav_table <> ''",
+                "isVis": "(ecological_fav_table == '1' OR ecological_fav_table == '2' OR ecological_fav_table == '3' OR ecological_fav_table == '4' OR ecological_fav_table == '5' OR ecological_fav_table == '6' OR ecological_fav_table == '7' OR ecological_fav_table == '8' OR ecological_fav_table == '9' OR ecological_fav_table == '10' OR ecological_fav_table == '11')",
                 "valueRequired": true,
                 "variableName": "ecological_fav_safety"
             },
             {
+                "isAbout": "items/ecological_covid_safe_pl",
+                "isVis": "(ecological_fav_table == '1' OR ecological_fav_table == '2' OR ecological_fav_table == '3' OR ecological_fav_table == '4' OR ecological_fav_table == '5' OR ecological_fav_table == '6' OR ecological_fav_table == '7' OR ecological_fav_table == '8' OR ecological_fav_table == '9' OR ecological_fav_table == '10' OR ecological_fav_table == '11')",
+                "valueRequired": true,
+                "variableName": "ecological_covid_safe_pl"
+            },
+            {
                 "isAbout": "items/ecological_other_table",
-                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "(ecological_fav_table == '1' OR ecological_fav_table == '2' OR ecological_fav_table == '3' OR ecological_fav_table == '4' OR ecological_fav_table == '5' OR ecological_fav_table == '6' OR ecological_fav_table == '7' OR ecological_fav_table == '8' OR ecological_fav_table == '9' OR ecological_fav_table == '10' OR ecological_fav_table == '11' OR ecological_fav_table == '12')AND event - name == '5_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "ecological_other_table"
             },
             {
-                "isAbout": "items/ecological_other_def",
-                "isVis": "ecological_other_table == 13",
-                "valueRequired": true,
-                "variableName": "ecological_other_def"
-            },
-            {
                 "isAbout": "items/ecological_other_safety",
-                "isVis": "(ecological_other_table <> '777' AND event - name == '4_year_follow_up_y_arm_1')AND ecological_other_table <> ''",
+                "isVis": "(ecological_other_table == '1' OR ecological_other_table == '2' OR ecological_other_table == '3' OR ecological_other_table == '4' OR ecological_other_table == '5' OR ecological_other_table == '6' OR ecological_other_table == '7' OR ecological_other_table == '8' OR ecological_other_table == '9' OR ecological_other_table == '10' OR ecological_other_table == '11')",
                 "valueRequired": true,
                 "variableName": "ecological_other_safety"
             },
             {
+                "isAbout": "items/ecological_covid_safe_pl_2",
+                "isVis": "(ecological_other_table == '1' OR ecological_other_table == '2' OR ecological_other_table == '3' OR ecological_other_table == '4' OR ecological_other_table == '5' OR ecological_other_table == '6' OR ecological_other_table == '7' OR ecological_other_table == '8' OR ecological_other_table == '9' OR ecological_other_table == '10' OR ecological_other_table == '11')",
+                "valueRequired": true,
+                "variableName": "ecological_covid_safe_pl_2"
+            },
+            {
                 "isAbout": "items/ecological_other2_table",
-                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "(ecological_other_table == '1' OR ecological_other_table == '2' OR ecological_other_table == '3' OR ecological_other_table == '4' OR ecological_other_table == '5' OR ecological_other_table == '6' OR ecological_other_table == '7' OR ecological_other_table == '8' OR ecological_other_table == '9' OR ecological_other_table == '10' OR ecological_other_table == '11' OR ecological_other_table == '12')AND event - name == '5_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "ecological_other2_table"
             },
             {
-                "isAbout": "items/ecological_other2_def",
-                "isVis": "ecological_other2_table == 13",
-                "valueRequired": true,
-                "variableName": "ecological_other2_def"
-            },
-            {
                 "isAbout": "items/ecological_other2_safety",
-                "isVis": "(ecological_other2_table <> '777' AND event - name == '4_year_follow_up_y_arm_1')AND ecological_other2_table <> ''",
+                "isVis": "(ecological_other2_table == '1' OR ecological_other2_table == '2' OR ecological_other2_table == '3' OR ecological_other2_table == '4' OR ecological_other2_table == '5' OR ecological_other2_table == '6' OR ecological_other2_table == '7' OR ecological_other2_table == '8' OR ecological_other2_table == '9' OR ecological_other2_table == '10' OR ecological_other2_table == '11')",
                 "valueRequired": true,
                 "variableName": "ecological_other2_safety"
+            },
+            {
+                "isAbout": "items/ecological_covid_safe_pl_3",
+                "isVis": "(ecological_other2_table == '1' OR ecological_other2_table == '2' OR ecological_other2_table == '3' OR ecological_other2_table == '4' OR ecological_other2_table == '5' OR ecological_other2_table == '6' OR ecological_other2_table == '7' OR ecological_other2_table == '8' OR ecological_other2_table == '9' OR ecological_other2_table == '10' OR ecological_other2_table == '11')",
+                "valueRequired": true,
+                "variableName": "ecological_covid_safe_pl_3"
             },
             {
                 "isAbout": "items/y_ecological_interviewbrief_complete",
@@ -89,6 +89,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2728",
+    "version": "revid2729",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

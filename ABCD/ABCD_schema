@@ -371,7 +371,18 @@
             "../activities/p_raw_ksads_agorap/p_raw_ksads_agorap_schema",
             "../activities/p_raw_ksads_adhd/p_raw_ksads_adhd_schema",
             "../activities/p_raw_ksads_aud/p_raw_ksads_aud_schema",
-            "../activities/p_raw_ksads_dud/p_raw_ksads_dud_schema"
+            "../activities/p_raw_ksads_dud/p_raw_ksads_dud_schema",
+            "../activities/opportunity_to_use/opportunity_to_use_schema",
+            "../activities/selfadministered_feedback/selfadministered_feedback_schema",
+            "../activities/ce_module_feedback/ce_module_feedback_schema",
+            "../activities/substance_use_module_feedback/substance_use_module_feedback_schema",
+            "../activities/mental_health_part_1_module_feedback/mental_health_part_1_module_feedback_schema",
+            "../activities/health_part_2_module_feedback/health_part_2_module_feedback_schema",
+            "../activities/parent_module_feedback_part_1/parent_module_feedback_part_1_schema",
+            "../activities/parent_module_feedback_part_2/parent_module_feedback_part_2_schema",
+            "../activities/parent_module_feedback_part_3/parent_module_feedback_part_3_schema",
+            "../activities/y_pilot_feedback_063422/y_pilot_feedback_063422_schema",
+            "../activities/p_pilot_feedback_990621/p_pilot_feedback_990621_schema"
         ],
         "addProperties": [
             {
@@ -3269,10 +3280,98 @@
                     "en": "P Raw Ksads Dud"
                 },
                 "variableName": "p_raw_ksads_dud_schema"
+            },
+            {
+                "isAbout": "../activities/opportunity_to_use/opportunity_to_use_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Opportunity To Use"
+                },
+                "variableName": "opportunity_to_use_schema"
+            },
+            {
+                "isAbout": "../activities/selfadministered_feedback/selfadministered_feedback_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Selfadministered Feedback"
+                },
+                "variableName": "selfadministered_feedback_schema"
+            },
+            {
+                "isAbout": "../activities/ce_module_feedback/ce_module_feedback_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Ce Module Feedback"
+                },
+                "variableName": "ce_module_feedback_schema"
+            },
+            {
+                "isAbout": "../activities/substance_use_module_feedback/substance_use_module_feedback_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Substance Use Module Feedback"
+                },
+                "variableName": "substance_use_module_feedback_schema"
+            },
+            {
+                "isAbout": "../activities/mental_health_part_1_module_feedback/mental_health_part_1_module_feedback_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mental Health Part 1 Module Feedback"
+                },
+                "variableName": "mental_health_part_1_module_feedback_schema"
+            },
+            {
+                "isAbout": "../activities/health_part_2_module_feedback/health_part_2_module_feedback_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Health Part 2 Module Feedback"
+                },
+                "variableName": "health_part_2_module_feedback_schema"
+            },
+            {
+                "isAbout": "../activities/parent_module_feedback_part_1/parent_module_feedback_part_1_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Parent Module Feedback Part 1"
+                },
+                "variableName": "parent_module_feedback_part_1_schema"
+            },
+            {
+                "isAbout": "../activities/parent_module_feedback_part_2/parent_module_feedback_part_2_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Parent Module Feedback Part 2"
+                },
+                "variableName": "parent_module_feedback_part_2_schema"
+            },
+            {
+                "isAbout": "../activities/parent_module_feedback_part_3/parent_module_feedback_part_3_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Parent Module Feedback Part 3"
+                },
+                "variableName": "parent_module_feedback_part_3_schema"
+            },
+            {
+                "isAbout": "../activities/y_pilot_feedback_063422/y_pilot_feedback_063422_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Pilot Feedback 063422"
+                },
+                "variableName": "y_pilot_feedback_063422_schema"
+            },
+            {
+                "isAbout": "../activities/p_pilot_feedback_990621/p_pilot_feedback_990621_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "P Pilot Feedback 990621"
+                },
+                "variableName": "p_pilot_feedback_990621_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2728",
+    "version": "revid2729",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -154,8 +154,8 @@
             "items/yr1fb_cbcl_tech_note_p",
             "items/yr1fb_cbcl_tech_staff_p",
             "items/yr1fb_stq_p",
-            "items/yr1fb_stq_cmphnsn_notes_p",
             "items/yr1fb_stq_cmplnc_notes_p",
+            "items/yr1fb_stq_cmphnsn_notes_p",
             "items/yr1fb_stq_tech_note_p",
             "items/yr1fb_stq_tech_staff_p",
             "items/yr1fb_cna_p",
@@ -1160,16 +1160,16 @@
                 "variableName": "yr1fb_stq_p"
             },
             {
-                "isAbout": "items/yr1fb_stq_cmphnsn_notes_p",
-                "isVis": "yr1fb_stq_p___1 == '1'",
-                "valueRequired": true,
-                "variableName": "yr1fb_stq_cmphnsn_notes_p"
-            },
-            {
                 "isAbout": "items/yr1fb_stq_cmplnc_notes_p",
                 "isVis": "yr1fb_stq_p___2 == '1'",
                 "valueRequired": true,
                 "variableName": "yr1fb_stq_cmplnc_notes_p"
+            },
+            {
+                "isAbout": "items/yr1fb_stq_cmphnsn_notes_p",
+                "isVis": "yr1fb_stq_p___1 == '1'",
+                "valueRequired": true,
+                "variableName": "yr1fb_stq_cmphnsn_notes_p"
             },
             {
                 "isAbout": "items/yr1fb_stq_tech_note_p",
@@ -1888,6 +1888,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2728",
+    "version": "revid2729",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

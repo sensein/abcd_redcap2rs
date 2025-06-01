@@ -407,8 +407,8 @@
             "items/yr2fb_sag_other",
             "items/yr2fb_fitpre",
             "items/yr2fb_fitpre_cmphnsn_notes",
-            "items/yr2fb_fitpre_cmplnc_notes",
             "items/yr2fb_fitpre_tech_note",
+            "items/yr2fb_fitpre_cmplnc_notes",
             "items/yr2fb_fitpre_techstaff",
             "items/yr2fb_fitpre_other",
             "items/yr2fb_fitpo",
@@ -2909,16 +2909,16 @@
                 "variableName": "yr2fb_fitpre_cmphnsn_notes"
             },
             {
-                "isAbout": "items/yr2fb_fitpre_cmplnc_notes",
-                "isVis": "yr2fb_fitpre___2 == '1'",
-                "valueRequired": true,
-                "variableName": "yr2fb_fitpre_cmplnc_notes"
-            },
-            {
                 "isAbout": "items/yr2fb_fitpre_tech_note",
                 "isVis": "yr2fb_fitpre___3 == '1'",
                 "valueRequired": true,
                 "variableName": "yr2fb_fitpre_tech_note"
+            },
+            {
+                "isAbout": "items/yr2fb_fitpre_cmplnc_notes",
+                "isVis": "yr2fb_fitpre___2 == '1'",
+                "valueRequired": true,
+                "variableName": "yr2fb_fitpre_cmplnc_notes"
             },
             {
                 "isAbout": "items/yr2fb_fitpre_techstaff",
@@ -3505,6 +3505,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2728",
+    "version": "revid2729",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

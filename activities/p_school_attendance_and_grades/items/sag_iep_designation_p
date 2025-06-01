@@ -1,0 +1,123 @@
+{
+    "id": "sag_iep_designation_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210330 @NONEOFTHEABOVE = '888'"
+        }
+    ],
+    "preamble": {
+        "en": "Now we'd like you to pick the best answer about your child's grades.",
+        "es": "Ahora queremos que elija la mejor respuesta sobre las calificaciones o notas de su hijo/a."
+    },
+    "prefLabel": {
+        "en": "sag_iep_designation_p"
+    },
+    "question": {
+        "en": "Under which category is your child eligible for their IEP? (Select all that apply for primary and secondary designations)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Specific learning disability (such as dyslexia)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Other health impairment (including ADHD and other conditions that limit a child's strength, energy, or alertness)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Autism spectrum disorder"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Emotional disturbance"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Speech or language impairment"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Visual impairment (including partial sight and blindness)"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Deafness (can't hear most of all sounds, even with a hearing aid)"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Hearing impairment"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Deaf-blindness (both severe hearing and vision loss)"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Orthopedic impairment"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Intellectual disability (such as Down syndrome)"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Traumatic brain injury"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Multiple disabilities (that is, multiple issues involving educational needs)"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Not applicable"
+                },
+                "value": 888
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

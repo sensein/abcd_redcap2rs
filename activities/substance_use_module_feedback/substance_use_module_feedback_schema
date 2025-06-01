@@ -1,0 +1,38 @@
+{
+    "id": "substance_use_module_feedback_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "substance_use_module_feedback"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/su_5yr_feedback",
+            "items/su_5yr_fu_feedback",
+            "items/substance_use_module_feedback_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/su_5yr_feedback",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "su_5yr_feedback"
+            },
+            {
+                "isAbout": "items/su_5yr_fu_feedback",
+                "isVis": "su_5yr_feedback == '1'",
+                "valueRequired": true,
+                "variableName": "su_5yr_fu_feedback"
+            },
+            {
+                "isAbout": "items/substance_use_module_feedback_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "substance_use_module_feedback_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2729",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

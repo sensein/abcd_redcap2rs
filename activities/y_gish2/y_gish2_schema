@@ -27,6 +27,25 @@
             "items/gish2_nr_kiss_type",
             "items/gish2_nr_hands",
             "items/gish2_nr_self_hands",
+            "items/gish2_touch_y",
+            "items/gish2_performed_oral_y",
+            "items/gish2_perform_on_others_y",
+            "items/gish2_oral_sex_on_you_y",
+            "items/gish2_performed_oral_2_y",
+            "items/gish2_vag_intercourse_y",
+            "items/gish2_vag_performed_on_y",
+            "items/gish2_safe_sex_y",
+            "items/gish2_safe_methods_y",
+            "items/gish2_freq_method_used_y",
+            "items/gish2_other_methods_y",
+            "items/gish2_recent_intercourse_y",
+            "items/gish2_anal_intercourse_y",
+            "items/gish2_anal_performed_on_y",
+            "items/gish2_safe_sex_2_y",
+            "items/gish2_safe_methods_2_y",
+            "items/gish2_other_methods_2_y",
+            "items/gish2_freq_method_used_2_y",
+            "items/gish2_recent_intercourse_2_y",
             "items/gish2_cf_have_bf_gf",
             "items/gish2_cf_kiss",
             "items/gish2_cf_hands",
@@ -57,19 +76,19 @@
             },
             {
                 "isAbout": "items/gish2_girls",
-                "isVis": "(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "gish2_girls"
             },
             {
                 "isAbout": "items/gish2_boys",
-                "isVis": "(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "gish2_boys"
             },
             {
                 "isAbout": "items/gish2_nonbinary_1",
-                "isVis": "(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "gish2_nonbinary_1"
             },
@@ -81,49 +100,49 @@
             },
             {
                 "isAbout": "items/gish2_ever_type",
-                "isVis": "gish2_had_bf_gf == '1' &&(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "gish2_had_bf_gf == '1' &&(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "gish2_ever_type"
             },
             {
                 "isAbout": "items/gish2_currently_have",
-                "isVis": "gish2_had_bf_gf == '1' &&(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "gish2_had_bf_gf == '1' &&(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "gish2_currently_have"
             },
             {
                 "isAbout": "items/gish2_how_old",
-                "isVis": "gish2_currently_have == '1' &&(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "gish2_currently_have == '1' &&(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "gish2_how_old"
             },
             {
                 "isAbout": "items/gish2_spend_time",
-                "isVis": "gish2_currently_have == '1' &&(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "gish2_currently_have == '1' &&(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "gish2_spend_time"
             },
             {
                 "isAbout": "items/gish2_use_alc",
-                "isVis": "gish2_currently_have == '1' &&(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "gish2_currently_have == '1' &&(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "gish2_use_alc"
             },
             {
                 "isAbout": "items/gish2_use_tob",
-                "isVis": "gish2_currently_have == '1' &&(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "gish2_currently_have == '1' &&(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "gish2_use_tob"
             },
             {
                 "isAbout": "items/gish2_use_mj",
-                "isVis": "gish2_currently_have == '1' &&(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "gish2_currently_have == '1' &&(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "gish2_use_mj"
             },
             {
                 "isAbout": "items/gish2_use_other",
-                "isVis": "gish2_currently_have == '1' &&(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "gish2_currently_have == '1' &&(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "gish2_use_other"
             },
@@ -135,7 +154,7 @@
             },
             {
                 "isAbout": "items/gish2_want_type",
-                "isVis": "gish2_want_bf_gf == '1' &&(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "gish2_want_bf_gf == '1' &&(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": false,
                 "variableName": "gish2_want_type"
             },
@@ -147,7 +166,7 @@
             },
             {
                 "isAbout": "items/gish2_nr_kiss_type",
-                "isVis": "gish2_nr_kiss == '1' &&(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "gish2_nr_kiss == '1' &&(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": false,
                 "variableName": "gish2_nr_kiss_type"
             },
@@ -164,68 +183,182 @@
                 "variableName": "gish2_nr_self_hands"
             },
             {
+                "isAbout": "items/gish2_touch_y",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "gish2_touch_y"
+            },
+            {
+                "isAbout": "items/gish2_performed_oral_y",
+                "isVis": "gish2_touch_y == '1'",
+                "valueRequired": true,
+                "variableName": "gish2_performed_oral_y"
+            },
+            {
+                "isAbout": "items/gish2_perform_on_others_y",
+                "isVis": "gish2_performed_oral_y == '1'",
+                "valueRequired": true,
+                "variableName": "gish2_perform_on_others_y"
+            },
+            {
+                "isAbout": "items/gish2_oral_sex_on_you_y",
+                "isVis": "gish2_touch_y == '1'",
+                "valueRequired": true,
+                "variableName": "gish2_oral_sex_on_you_y"
+            },
+            {
+                "isAbout": "items/gish2_performed_oral_2_y",
+                "isVis": "gish2_oral_sex_on_you_y == '1'",
+                "valueRequired": true,
+                "variableName": "gish2_performed_oral_2_y"
+            },
+            {
+                "isAbout": "items/gish2_vag_intercourse_y",
+                "isVis": "gish2_touch_y == '1'",
+                "valueRequired": true,
+                "variableName": "gish2_vag_intercourse_y"
+            },
+            {
+                "isAbout": "items/gish2_vag_performed_on_y",
+                "isVis": "gish2_vag_intercourse_y == '1'",
+                "valueRequired": true,
+                "variableName": "gish2_vag_performed_on_y"
+            },
+            {
+                "isAbout": "items/gish2_safe_sex_y",
+                "isVis": "gish2_vag_intercourse_y == '1'",
+                "valueRequired": true,
+                "variableName": "gish2_safe_sex_y"
+            },
+            {
+                "isAbout": "items/gish2_safe_methods_y",
+                "isVis": "gish2_safe_sex_y == '1'",
+                "valueRequired": true,
+                "variableName": "gish2_safe_methods_y"
+            },
+            {
+                "isAbout": "items/gish2_freq_method_used_y",
+                "isVis": "gish2_recent_intercourse_y == '1' AND gish2_safe_sex_y == '1'",
+                "valueRequired": true,
+                "variableName": "gish2_freq_method_used_y"
+            },
+            {
+                "isAbout": "items/gish2_other_methods_y",
+                "isVis": "gish2_safe_methods_y___12 == '1'",
+                "valueRequired": true,
+                "variableName": "gish2_other_methods_y"
+            },
+            {
+                "isAbout": "items/gish2_recent_intercourse_y",
+                "isVis": "gish2_vag_intercourse_y == '1'",
+                "valueRequired": true,
+                "variableName": "gish2_recent_intercourse_y"
+            },
+            {
+                "isAbout": "items/gish2_anal_intercourse_y",
+                "isVis": "gish2_touch_y == '1'",
+                "valueRequired": true,
+                "variableName": "gish2_anal_intercourse_y"
+            },
+            {
+                "isAbout": "items/gish2_anal_performed_on_y",
+                "isVis": "gish2_anal_intercourse_y == '1'",
+                "valueRequired": true,
+                "variableName": "gish2_anal_performed_on_y"
+            },
+            {
+                "isAbout": "items/gish2_safe_sex_2_y",
+                "isVis": "gish2_recent_intercourse_2_y == '1'",
+                "valueRequired": true,
+                "variableName": "gish2_safe_sex_2_y"
+            },
+            {
+                "isAbout": "items/gish2_safe_methods_2_y",
+                "isVis": "gish2_safe_sex_2_y == '1'",
+                "valueRequired": true,
+                "variableName": "gish2_safe_methods_2_y"
+            },
+            {
+                "isAbout": "items/gish2_other_methods_2_y",
+                "isVis": "gish2_safe_methods_2_y___2 == '1'",
+                "valueRequired": true,
+                "variableName": "gish2_other_methods_2_y"
+            },
+            {
+                "isAbout": "items/gish2_freq_method_used_2_y",
+                "isVis": "gish2_recent_intercourse_2_y == '1' AND gish2_safe_sex_2_y == '1'",
+                "valueRequired": false,
+                "variableName": "gish2_freq_method_used_2_y"
+            },
+            {
+                "isAbout": "items/gish2_recent_intercourse_2_y",
+                "isVis": "gish2_anal_intercourse_y == '1'",
+                "valueRequired": true,
+                "variableName": "gish2_recent_intercourse_2_y"
+            },
+            {
                 "isAbout": "items/gish2_cf_have_bf_gf",
-                "isVis": "(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "gish2_cf_have_bf_gf"
             },
             {
                 "isAbout": "items/gish2_cf_kiss",
-                "isVis": "(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "gish2_cf_kiss"
             },
             {
                 "isAbout": "items/gish2_cf_hands",
-                "isVis": "(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "gish2_cf_hands"
             },
             {
                 "isAbout": "items/gish2_cf_self_hands",
-                "isVis": "(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "gish2_cf_self_hands"
             },
             {
                 "isAbout": "items/gish2_f_had_bf_gf",
-                "isVis": "(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "gish2_f_had_bf_gf"
             },
             {
                 "isAbout": "items/gish2_f_kiss",
-                "isVis": "(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "gish2_f_kiss"
             },
             {
                 "isAbout": "items/gish2_f_self_hands",
-                "isVis": "(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "gish2_f_self_hands"
             },
             {
                 "isAbout": "items/gish2_f_hands",
-                "isVis": "(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '3_year_follow_up_y_arm_1' || event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "gish2_f_hands"
             },
             {
                 "isAbout": "items/gish2_abstinences",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "gish2_abstinences"
             },
             {
                 "isAbout": "items/gish2_safe_practices",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "gish2_safe_practices"
             },
             {
                 "isAbout": "items/gish2_convo",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "gish2_convo"
             },
@@ -250,6 +383,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2728",
+    "version": "revid2729",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

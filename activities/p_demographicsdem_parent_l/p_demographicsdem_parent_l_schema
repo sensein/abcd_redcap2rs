@@ -168,13 +168,13 @@
             },
             {
                 "isAbout": "items/demo_ethnic_youth_acs_p",
-                "isVis": "(event - name == '2_year_follow_up_y_arm_1' && baseline_year_1_arm_1race_ethnicity == '')||(event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '2_year_follow_up_y_arm_1' && baseline_year_1_arm_1race_ethnicity == '')||(event - name == '4_year_follow_up_y_arm_1')||(event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": false,
                 "variableName": "demo_ethnic_youth_acs_p"
             },
             {
                 "isAbout": "items/demo_race_youth_acs_p",
-                "isVis": "(event - name == '2_year_follow_up_y_arm_1' && baseline_year_1_arm_1race_ethnicity == '')||(event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '2_year_follow_up_y_arm_1' && baseline_year_1_arm_1race_ethnicity == '')||(event - name == '4_year_follow_up_y_arm_1')||(event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "demo_race_youth_acs_p"
             },
@@ -775,6 +775,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2728",
+    "version": "revid2729",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

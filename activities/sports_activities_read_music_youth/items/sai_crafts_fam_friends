@@ -1,0 +1,48 @@
+{
+    "id": "sai_crafts_fam_friends",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210329"
+        }
+    ],
+    "preamble": {
+        "en": "Crafts like Knitting, Building Model Cars or Airplanes"
+    },
+    "prefLabel": {
+        "en": "sai_crafts_fam_friends"
+    },
+    "question": {
+        "en": "Crafts like Knitting, Building Model Cars or Airplanes\r\n\r\nWas this activity done with family or friends?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

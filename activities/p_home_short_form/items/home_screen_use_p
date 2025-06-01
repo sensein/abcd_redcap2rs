@@ -1,0 +1,127 @@
+{
+    "id": "home_screen_use_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210413"
+        }
+    ],
+    "preamble": {
+        "en": "For the next set of questions, think back to when your child was young, a toddler and preschooler. Answer these questions about this period before your child turned age 5. For most children, this is before starting formal Kindergarten."
+    },
+    "prefLabel": {
+        "en": "home_screen_use_p"
+    },
+    "question": {
+        "en": "Before age 5, on an average weekday, about how many hours did your child usually spend in front of a TV watching TV programs, videos, or playing video games?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "5"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "6"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "7"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "8"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "9"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "10"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "11"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "12"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "12+"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

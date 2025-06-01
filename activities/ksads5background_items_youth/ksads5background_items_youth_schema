@@ -49,13 +49,13 @@
             },
             {
                 "isAbout": "items/kbi_repeat_grade_pst_yr",
-                "isVis": "kbi_y_grade_repeat == '1' && event - name == '3_year_follow_up_y_arm_1'",
+                "isVis": "kbi_y_grade_repeat == '1' &&(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "kbi_repeat_grade_pst_yr"
             },
             {
                 "isAbout": "items/kbi_repeat_grade_before_pst_yr",
-                "isVis": "kbi_y_grade_repeat == '1' && event - name == '3_year_follow_up_y_arm_1'",
+                "isVis": "kbi_y_grade_repeat == '1' &&(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "kbi_repeat_grade_before_pst_yr"
             },
@@ -67,7 +67,7 @@
             },
             {
                 "isAbout": "items/kbi_grades_repeated",
-                "isVis": "kbi_y_grade_repeat == '1' && event - name == '3_year_follow_up_y_arm_1'",
+                "isVis": "kbi_y_grade_repeat == '1' &&(event - name == '3_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "kbi_grades_repeated"
             },
@@ -85,7 +85,7 @@
             },
             {
                 "isAbout": "items/kbi_y_det_reason",
-                "isVis": "kbi_y_det_susp == '1' && event_name_number < '31'",
+                "isVis": "kbi_y_det_susp == '1' &&(event_name_number < '31')",
                 "valueRequired": true,
                 "variableName": "kbi_y_det_reason"
             },
@@ -127,19 +127,19 @@
             },
             {
                 "isAbout": "items/kbi_desc_self",
-                "isVis": "(kbi_y_sex_orient == '3' AND event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "kbi_y_sex_orient == '3' AND(event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "kbi_desc_self"
             },
             {
                 "isAbout": "items/kbi_desc_self_2",
-                "isVis": "(kbi_y_sex_orient == '1' AND event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "kbi_y_sex_orient == '1' AND(event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "kbi_desc_self_2"
             },
             {
                 "isAbout": "items/kbi_desc_self_3",
-                "isVis": "(kbi_y_sex_orient == '2' AND event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "kbi_y_sex_orient == '2' AND(event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "kbi_desc_self_3"
             },
@@ -194,6 +194,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2728",
+    "version": "revid2729",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

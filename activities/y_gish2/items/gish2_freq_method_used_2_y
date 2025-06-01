@@ -1,0 +1,67 @@
+{
+    "id": "gish2_freq_method_used_2_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210324"
+        }
+    ],
+    "preamble": {
+        "en": "The next questions are only about\u00c2\u00a0people\u00c2\u00a0who are not related to you, but are not just about\u00c2\u00a0people you have been in romantic relationships with. Some of these questions are very personal. Remember, your answers are private and will not be shown to anyone else"
+    },
+    "prefLabel": {
+        "en": "gish2_freq_method_used_2_y"
+    },
+    "question": {
+        "en": "How often do you use these methods to prevent pregnancy or sexually transmitted diseases when you have anal intercourse?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Always"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Usually"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Often"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Rarely"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

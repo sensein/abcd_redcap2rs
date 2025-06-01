@@ -15,6 +15,7 @@
             "items/sag_unexcuse_absence_p",
             "items/sag_grade_type",
             "items/sag_iep_current_p",
+            "items/sag_iep_designation_p",
             "items/sag_iep_ever_p",
             "items/p_school_attendance_and_grades_complete"
         ],
@@ -68,6 +69,12 @@
                 "variableName": "sag_iep_current_p"
             },
             {
+                "isAbout": "items/sag_iep_designation_p",
+                "isVis": "sag_iep_current_p == '1' AND event - name == '5_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "sag_iep_designation_p"
+            },
+            {
                 "isAbout": "items/sag_iep_ever_p",
                 "isVis": "sag_iep_current_p == '0' || sag_iep_current_p == '999'",
                 "valueRequired": true,
@@ -82,6 +89,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2728",
+    "version": "revid2729",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

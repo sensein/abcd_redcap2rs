@@ -1,0 +1,210 @@
+{
+    "id": "sai_activities",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210325 @NONEOFTHEABOVE = '30'"
+        }
+    ],
+    "preamble": {
+        "en": "Since the last time we saw you on [asnt_timestamp_c], please indicate whether you have participated in any of the following sports or activities regularly (e.g. a season in sports, or multiple lessons on your own or as part of a group etc). We will then ask you some follow-up questions about each of the sports or activities in which you have participated"
+    },
+    "prefLabel": {
+        "en": "sai_activities"
+    },
+    "question": null,
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Ballet, Dance"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Baseball, Softball"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Basketball"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Climbing"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Field Hockey"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Football"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Gymnastics"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Ice Hockey"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Horseback Riding, Polo"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Ice or Inline Skating"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Martial Arts"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Lacrosse"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Rugby"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Skateboarding, Roller Skating"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "Skiing, Snowboarding"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "Soccer"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "Surfing"
+                },
+                "value": 17
+            },
+            {
+                "name": {
+                    "en": "Swimming, Water Polo"
+                },
+                "value": 18
+            },
+            {
+                "name": {
+                    "en": "Tennis, Squash, Racquetball"
+                },
+                "value": 19
+            },
+            {
+                "name": {
+                    "en": "Track, Running, Cross-country"
+                },
+                "value": 20
+            },
+            {
+                "name": {
+                    "en": "Wresting, Mixed Martial Arts"
+                },
+                "value": 21
+            },
+            {
+                "name": {
+                    "en": "Volleyball"
+                },
+                "value": 22
+            },
+            {
+                "name": {
+                    "en": "Yoga, Tai Chi"
+                },
+                "value": 23
+            },
+            {
+                "name": {
+                    "en": "Musical Instrument (Singing, Choir, Guitar, Piano, Drums, Violin, Flute, Band, Rock Band, Orchestra)"
+                },
+                "value": 24
+            },
+            {
+                "name": {
+                    "en": "Drawing, Painting, Graphic Art, Photography, Pottery, Sculpting"
+                },
+                "value": 25
+            },
+            {
+                "name": {
+                    "en": "Drama, Theater, Acting, Film"
+                },
+                "value": 26
+            },
+            {
+                "name": {
+                    "en": "Crafts like Knitting, Building Model Cars or Airplanes"
+                },
+                "value": 27
+            },
+            {
+                "name": {
+                    "en": "Competitive Games like Chess, Cards, or Darts"
+                },
+                "value": 28
+            },
+            {
+                "name": {
+                    "en": "Hobbies like collecting stamps or coins"
+                },
+                "value": 29
+            },
+            {
+                "name": {
+                    "en": "I have not participated in any of the above activities"
+                },
+                "value": 30
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

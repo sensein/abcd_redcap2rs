@@ -57,8 +57,8 @@
             "items/fu_6mo_tob_2a_rel",
             "items/fu_6mo_tob_3a",
             "items/fu_6mo_tob_4a",
-            "items/fu_6mo_tob_5a",
             "items/fu_6mo_tob_2b",
+            "items/fu_6mo_tob_5a",
             "items/fu_6mo_tob_2b_rel",
             "items/fu_6mo_tob_3b",
             "items/fu_6mo_tob_4b",
@@ -437,16 +437,16 @@
                 "variableName": "fu_6mo_tob_4a"
             },
             {
-                "isAbout": "items/fu_6mo_tob_5a",
-                "isVis": "fu_6mo_tob_4a == '1'",
-                "valueRequired": true,
-                "variableName": "fu_6mo_tob_5a"
-            },
-            {
                 "isAbout": "items/fu_6mo_tob_2b",
                 "isVis": "fu_6mo_tob_2a == '0'",
                 "valueRequired": true,
                 "variableName": "fu_6mo_tob_2b"
+            },
+            {
+                "isAbout": "items/fu_6mo_tob_5a",
+                "isVis": "fu_6mo_tob_4a == '1'",
+                "valueRequired": true,
+                "variableName": "fu_6mo_tob_5a"
             },
             {
                 "isAbout": "items/fu_6mo_tob_2b_rel",
@@ -901,6 +901,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2728",
+    "version": "revid2729",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

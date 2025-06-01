@@ -37,6 +37,7 @@
             "items/ple_sud_past_yr_p",
             "items/ple_sud_fu_p",
             "items/ple_sud_fu2_p",
+            "items/ple_sud_age_p",
             "items/ple_ill_p",
             "items/ple_ill_past_yr_p",
             "items/ple_ill_fu_p",
@@ -69,6 +70,7 @@
             "items/ple_mh_past_yr_p",
             "items/ple_mh_fu_p",
             "items/ple_mh_fu2_p",
+            "items/ple_mh_age_p",
             "items/ple_sib_p",
             "items/ple_sib_past_yr_p",
             "items/ple_sib_fu_p",
@@ -81,6 +83,7 @@
             "items/ple_separ_past_yr_p",
             "items/ple_separ_fu_p",
             "items/ple_separ_fu2_p",
+            "items/ple_separ_age_p",
             "items/ple_law_p",
             "items/ple_law_past_yr_p",
             "items/ple_law_fu_p",
@@ -97,6 +100,7 @@
             "items/ple_jail_past_yr_p",
             "items/ple_jail_fu_p",
             "items/ple_jail_fu2_p",
+            "items/ple_jail_age_p",
             "items/ple_step_p",
             "items/ple_step_past_yr_p",
             "items/ple_step_fu_p",
@@ -122,6 +126,7 @@
             "items/ple_foster_care_past_yr_p",
             "items/ple_foster_care_fu_p",
             "items/ple_foster_care_fu2_p",
+            "items/ple_foster_care_age_p",
             "items/ple_hit_p",
             "items/ple_hit_past_yr_p",
             "items/ple_hit_fu_p",
@@ -138,6 +143,7 @@
             "items/ple_homeless_past_yr_p",
             "items/ple_homeless_fu_p",
             "items/ple_homeless_fu2_p",
+            "items/ple_homeless_age_p",
             "items/p_phenx_life_events_l_complete"
         ],
         "addProperties": [
@@ -320,6 +326,12 @@
                 "isVis": "ple_sud_p == '1'",
                 "valueRequired": true,
                 "variableName": "ple_sud_fu2_p"
+            },
+            {
+                "isAbout": "items/ple_sud_age_p",
+                "isVis": "ple_sud_p == '1' AND event - name == '5_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "ple_sud_age_p"
             },
             {
                 "isAbout": "items/ple_ill_p",
@@ -514,6 +526,12 @@
                 "variableName": "ple_mh_fu2_p"
             },
             {
+                "isAbout": "items/ple_mh_age_p",
+                "isVis": "ple_mh_p == '1' AND event - name == '5_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "ple_mh_age_p"
+            },
+            {
                 "isAbout": "items/ple_sib_p",
                 "isVis": true,
                 "valueRequired": true,
@@ -584,6 +602,12 @@
                 "isVis": "ple_separ_p == '1'",
                 "valueRequired": true,
                 "variableName": "ple_separ_fu2_p"
+            },
+            {
+                "isAbout": "items/ple_separ_age_p",
+                "isVis": "ple_separ_p == '1' AND event - name == '5_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "ple_separ_age_p"
             },
             {
                 "isAbout": "items/ple_law_p",
@@ -682,6 +706,12 @@
                 "variableName": "ple_jail_fu2_p"
             },
             {
+                "isAbout": "items/ple_jail_age_p",
+                "isVis": "ple_jail_p == '1' AND event - name == '5_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "ple_jail_age_p"
+            },
+            {
                 "isAbout": "items/ple_step_p",
                 "isVis": true,
                 "valueRequired": true,
@@ -755,7 +785,7 @@
             },
             {
                 "isAbout": "items/ple_deported_p",
-                "isVis": "event - name == '3_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '3_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "ple_deported_p"
             },
@@ -779,7 +809,7 @@
             },
             {
                 "isAbout": "items/ple_hospitalized_p",
-                "isVis": "event - name == '3_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '3_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "ple_hospitalized_p"
             },
@@ -803,7 +833,7 @@
             },
             {
                 "isAbout": "items/ple_foster_care_p",
-                "isVis": "event - name == '3_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '3_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "ple_foster_care_p"
             },
@@ -832,8 +862,14 @@
                 "variableName": "ple_foster_care_fu2_p"
             },
             {
+                "isAbout": "items/ple_foster_care_age_p",
+                "isVis": "ple_foster_care_p == '1' AND event - name == '5_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "ple_foster_care_age_p"
+            },
+            {
                 "isAbout": "items/ple_hit_p",
-                "isVis": "event - name == '3_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '3_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "ple_hit_p"
             },
@@ -857,7 +893,7 @@
             },
             {
                 "isAbout": "items/ple_shot_p",
-                "isVis": "event - name == '3_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '3_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "ple_shot_p"
             },
@@ -881,7 +917,7 @@
             },
             {
                 "isAbout": "items/ple_lockdown_p",
-                "isVis": "event - name == '3_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '3_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "ple_lockdown_p"
             },
@@ -905,7 +941,7 @@
             },
             {
                 "isAbout": "items/ple_homeless_p",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "ple_homeless_p"
             },
@@ -928,6 +964,12 @@
                 "variableName": "ple_homeless_fu2_p"
             },
             {
+                "isAbout": "items/ple_homeless_age_p",
+                "isVis": "ple_homeless_p == '1' AND event - name == '5_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "ple_homeless_age_p"
+            },
+            {
                 "isAbout": "items/p_phenx_life_events_l_complete",
                 "isVis": true,
                 "valueRequired": false,
@@ -936,6 +978,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2728",
+    "version": "revid2729",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

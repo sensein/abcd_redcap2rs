@@ -10,8 +10,8 @@
             "items/fitpo_select_language",
             "items/fitpo_submit_p",
             "items/fitpo_physical_p",
-            "items/fitpo_physical_health_p",
             "items/fitpo_sedentary_p",
+            "items/fitpo_physical_health_p",
             "items/fitpo_sedentary_healthy_p",
             "items/fitpo_sleep_health_p",
             "items/fitpo_sleep_amt_p",
@@ -47,16 +47,16 @@
                 "variableName": "fitpo_physical_p"
             },
             {
-                "isAbout": "items/fitpo_physical_health_p",
-                "isVis": "fitbit_assent == '1' && fitbit_permission == '1'",
-                "valueRequired": true,
-                "variableName": "fitpo_physical_health_p"
-            },
-            {
                 "isAbout": "items/fitpo_sedentary_p",
                 "isVis": "fitbit_assent == '1' && fitbit_permission == '1'",
                 "valueRequired": true,
                 "variableName": "fitpo_sedentary_p"
+            },
+            {
+                "isAbout": "items/fitpo_physical_health_p",
+                "isVis": "fitbit_assent == '1' && fitbit_permission == '1'",
+                "valueRequired": true,
+                "variableName": "fitpo_physical_health_p"
             },
             {
                 "isAbout": "items/fitpo_sedentary_healthy_p",
@@ -145,6 +145,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2728",
+    "version": "revid2729",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

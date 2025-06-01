@@ -281,7 +281,7 @@
             },
             {
                 "isAbout": "items/tbi_8",
-                "isVis": "event - name == '4_year_follow_up_y_arm_1'",
+                "isVis": "event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "tbi_8"
             },
@@ -306,6 +306,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2728",
+    "version": "revid2729",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

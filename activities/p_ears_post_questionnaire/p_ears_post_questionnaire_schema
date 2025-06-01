@@ -8,6 +8,7 @@
     "ui": {
         "order": [
             "items/ears_start_time_p",
+            "items/ears_p_select_language",
             "items/ears_post_p",
             "items/ears_post_1_p",
             "items/ears_post_3wk_p",
@@ -39,6 +40,12 @@
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "ears_start_time_p"
+            },
+            {
+                "isAbout": "items/ears_p_select_language",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ears_p_select_language"
             },
             {
                 "isAbout": "items/ears_post_p",
@@ -187,6 +194,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2728",
+    "version": "revid2729",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

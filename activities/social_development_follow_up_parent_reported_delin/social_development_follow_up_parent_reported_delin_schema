@@ -53,8 +53,8 @@
             "items/socialdev_prd_37_l",
             "items/socialdev_prd_37_text_l",
             "items/socialdev_prd_37c_l",
-            "items/socialdev_prd_37e_l",
             "items/socialdev_prd_38_l",
+            "items/socialdev_prd_37e_l",
             "items/socialdev_prd_39_l",
             "items/socialdev_prd_40_l",
             "items/socialdev_prd_41_l",
@@ -345,16 +345,16 @@
                 "variableName": "socialdev_prd_37c_l"
             },
             {
-                "isAbout": "items/socialdev_prd_37e_l",
-                "isVis": "socialdev_prd_37_l == '1' OR socialdev_prd_37_l == '2'",
-                "valueRequired": false,
-                "variableName": "socialdev_prd_37e_l"
-            },
-            {
                 "isAbout": "items/socialdev_prd_38_l",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "socialdev_prd_38_l"
+            },
+            {
+                "isAbout": "items/socialdev_prd_37e_l",
+                "isVis": "socialdev_prd_37_l == '1' OR socialdev_prd_37_l == '2'",
+                "valueRequired": false,
+                "variableName": "socialdev_prd_37e_l"
             },
             {
                 "isAbout": "items/socialdev_prd_39_l",
@@ -425,6 +425,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2728",
+    "version": "revid2729",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

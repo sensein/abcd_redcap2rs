@@ -222,7 +222,7 @@
             },
             {
                 "isAbout": "items/medhx_2t_l",
-                "isVis": "(medhx_1a_l == '1' || medhx_1a_l == '6')&&(event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "(medhx_1a_l == '1' || medhx_1a_l == '6')&&(event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "medhx_2t_l"
             },
@@ -552,7 +552,7 @@
             },
             {
                 "isAbout": "items/medhx_13_l",
-                "isVis": "event_name_number == '31' OR event - name == '4_year_follow_up_y_arm_1'",
+                "isVis": "event_name_number == '31' OR event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "medhx_13_l"
             },
@@ -565,6 +565,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2728",
+    "version": "revid2729",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

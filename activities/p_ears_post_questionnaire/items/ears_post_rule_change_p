@@ -14,31 +14,35 @@
         }
     ],
     "preamble": {
-        "en": "Parent Rules of Screen Use\"Many parents implement rules for their children with regard to screen time. Please answer for rules in your family.\""
+        "en": "Parent Rules of Screen Use\"Many parents implement rules for their children with regard to screen time. Please answer for rules in your family.\"",
+        "es": "Reglas sobre el uso de pantallasMuchos padres de familia implementan reglas para sus ni\u00c3\u00b1os(as) en relaci\u00c3\u00b3n al uso de pantallas. Por favor conteste sobre las reglas en su familia."
     },
     "prefLabel": {
         "en": "ears_post_rule_change_p"
     },
     "question": {
-        "en": "Have these rules changed over the past 3 weeks?"
+        "en": "Have these rules changed over the past 3 weeks?",
+        "es": "Durante las \u00c3\u00baltimas 3 semanas, \u00c2\u00bfhan cambiando estas reglas?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Yes"
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "No"
+                    "en": "No",
+                    "es": "No"
                 },
                 "value": 0
             }
         ],
         "valueType": [
-            "xsd:boolean"
+            "xsd:integer"
         ]
     },
     "ui": {

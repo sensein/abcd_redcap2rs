@@ -197,8 +197,8 @@
             "items/tlfb_cal_scr_mjalc_avg",
             "items/tlfb_cal_scr_mjalc_ud",
             "items/tlfb_cal_scr_mjalc_td",
-            "items/tlfb_cal_scr_mjalc_max",
             "items/tlfb_cal_scr_mjalc_wu",
+            "items/tlfb_cal_scr_mjalc_max",
             "items/tlfb_cal_scr_mjalc_wt",
             "items/tlfb_cal_scr_mjalc_lud",
             "items/tlfb_cal_scr_mjt_avg",
@@ -1415,16 +1415,16 @@
                 "variableName": "tlfb_cal_scr_mjalc_td"
             },
             {
-                "isAbout": "items/tlfb_cal_scr_mjalc_max",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "tlfb_cal_scr_mjalc_max"
-            },
-            {
                 "isAbout": "items/tlfb_cal_scr_mjalc_wu",
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "tlfb_cal_scr_mjalc_wu"
+            },
+            {
+                "isAbout": "items/tlfb_cal_scr_mjalc_max",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "tlfb_cal_scr_mjalc_max"
             },
             {
                 "isAbout": "items/tlfb_cal_scr_mjalc_wt",
@@ -1867,6 +1867,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2728",
+    "version": "revid2729",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

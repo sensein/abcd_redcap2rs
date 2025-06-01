@@ -1,0 +1,38 @@
+{
+    "id": "mental_health_part_1_module_feedback_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "mental_health_part_1_module_feedback"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/mh_pt1_5yr_feedback",
+            "items/mh_pt1_5yr_fu_feedback",
+            "items/mental_health_part_1_module_feedback_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/mh_pt1_5yr_feedback",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_pt1_5yr_feedback"
+            },
+            {
+                "isAbout": "items/mh_pt1_5yr_fu_feedback",
+                "isVis": "mh_pt1_5yr_feedback == '1'",
+                "valueRequired": true,
+                "variableName": "mh_pt1_5yr_fu_feedback"
+            },
+            {
+                "isAbout": "items/mental_health_part_1_module_feedback_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mental_health_part_1_module_feedback_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2729",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

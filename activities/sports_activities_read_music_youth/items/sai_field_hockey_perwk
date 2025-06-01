@@ -1,0 +1,102 @@
+{
+    "id": "sai_field_hockey_perwk",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Note",
+            "source": "redcap",
+            "value": "Days"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210324"
+        }
+    ],
+    "preamble": {
+        "en": "Field Hockey"
+    },
+    "prefLabel": {
+        "en": "sai_field_hockey_perwk"
+    },
+    "question": {
+        "en": "Field Hockey\r\n\r\nAbout how many days per week?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "1"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "5"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "6"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "7"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Once every 2 weeks"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "One day every month"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Less than one day per month"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

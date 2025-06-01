@@ -1,0 +1,35 @@
+{
+    "id": "feedback_5yr_pilot_11_p",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "feedback_5yr_pilot_11_p"
+    },
+    "question": {
+        "en": "May we contact you if we need any more feedback or opinions on the session?",
+        "es": "\u00c2\u00bfPodemos comunicarnos con usted en caso de que necesitemos m\u00c3\u00a1s informaci\u00c3\u00b3n o opiniones sobre la sesi\u00c3\u00b3n?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

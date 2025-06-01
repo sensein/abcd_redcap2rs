@@ -14,6 +14,10 @@
             "items/home_reading_p",
             "items/home_trips_p",
             "items/home_museum_p",
+            "items/home_stories_or_sing_p",
+            "items/home_play_w_others_p",
+            "items/home_meals_p",
+            "items/home_screen_use_p",
             "items/p_home_short_form_complete"
         ],
         "addProperties": [
@@ -25,39 +29,63 @@
             },
             {
                 "isAbout": "items/home_puzzles_p",
-                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "home_puzzles_p"
             },
             {
                 "isAbout": "items/home_books_p",
-                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "home_books_p"
             },
             {
                 "isAbout": "items/home_games_p",
-                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "home_games_p"
             },
             {
                 "isAbout": "items/home_reading_p",
-                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "home_reading_p"
             },
             {
                 "isAbout": "items/home_trips_p",
-                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "home_trips_p"
             },
             {
                 "isAbout": "items/home_museum_p",
-                "isVis": "(event - name == '4_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "home_museum_p"
+            },
+            {
+                "isAbout": "items/home_stories_or_sing_p",
+                "isVis": "event - name == '5_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "home_stories_or_sing_p"
+            },
+            {
+                "isAbout": "items/home_play_w_others_p",
+                "isVis": "event - name == '5_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "home_play_w_others_p"
+            },
+            {
+                "isAbout": "items/home_meals_p",
+                "isVis": "event - name == '5_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "home_meals_p"
+            },
+            {
+                "isAbout": "items/home_screen_use_p",
+                "isVis": "event - name == '5_year_follow_up_y_arm_1'",
+                "valueRequired": true,
+                "variableName": "home_screen_use_p"
             },
             {
                 "isAbout": "items/p_home_short_form_complete",
@@ -68,6 +96,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2728",
+    "version": "revid2729",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

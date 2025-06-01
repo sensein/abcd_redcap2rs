@@ -46,7 +46,7 @@
         "addProperties": [
             {
                 "isAbout": "items/macv_instructions_read",
-                "isVis": "(event - name == '3_year_follow_up_y_arm_1' && sched_delay == '7')OR(event - name == '4_year_follow_up_y_arm_1' && sched_delay == '7')",
+                "isVis": "(event - name == '3_year_follow_up_y_arm_1' && sched_delay == '7')OR(event - name == '4_year_follow_up_y_arm_1' && sched_delay == '7')OR(event - name == '5_year_follow_up_y_arm_1' && sched_delay == '7')",
                 "valueRequired": false,
                 "variableName": "macv_instructions_read"
             },
@@ -64,7 +64,7 @@
             },
             {
                 "isAbout": "items/macv_q1",
-                "isVis": "(event - name == '3_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '3_year_follow_up_y_arm_1')OR(event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": false,
                 "variableName": "macv_q1"
             },
@@ -88,13 +88,13 @@
             },
             {
                 "isAbout": "items/macv_q5",
-                "isVis": "(event - name == '3_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '3_year_follow_up_y_arm_1')OR(event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "macv_q5"
             },
             {
                 "isAbout": "items/macv_q6",
-                "isVis": "(event - name == '3_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '3_year_follow_up_y_arm_1')OR(event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "macv_q6"
             },
@@ -118,13 +118,13 @@
             },
             {
                 "isAbout": "items/macv_q10",
-                "isVis": "(event - name == '3_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '3_year_follow_up_y_arm_1')OR(event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "macv_q10"
             },
             {
                 "isAbout": "items/macv_q11",
-                "isVis": "(event - name == '3_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '3_year_follow_up_y_arm_1')OR(event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "macv_q11"
             },
@@ -142,13 +142,13 @@
             },
             {
                 "isAbout": "items/macv_q14",
-                "isVis": "(event - name == '3_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '3_year_follow_up_y_arm_1')OR(event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "macv_q14"
             },
             {
                 "isAbout": "items/macv_q15",
-                "isVis": "(event - name == '3_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '3_year_follow_up_y_arm_1')OR(event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "macv_q15"
             },
@@ -172,13 +172,13 @@
             },
             {
                 "isAbout": "items/macv_q19",
-                "isVis": "(event - name == '3_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '3_year_follow_up_y_arm_1')OR(event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "macv_q19"
             },
             {
                 "isAbout": "items/macv_q20",
-                "isVis": "(event - name == '3_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '3_year_follow_up_y_arm_1')OR(event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "macv_q20"
             },
@@ -202,13 +202,13 @@
             },
             {
                 "isAbout": "items/macv_q24",
-                "isVis": "(event - name == '3_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '3_year_follow_up_y_arm_1')OR(event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "macv_q24"
             },
             {
                 "isAbout": "items/macv_q25",
-                "isVis": "(event - name == '3_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '3_year_follow_up_y_arm_1')OR(event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "macv_q25"
             },
@@ -226,7 +226,7 @@
             },
             {
                 "isAbout": "items/macv_q28",
-                "isVis": "(event - name == '3_year_follow_up_y_arm_1')",
+                "isVis": "(event - name == '3_year_follow_up_y_arm_1')OR(event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "macv_q28"
             },
@@ -257,6 +257,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2728",
+    "version": "revid2729",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

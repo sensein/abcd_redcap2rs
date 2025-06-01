@@ -1,0 +1,50 @@
+{
+    "id": "gish2_safe_methods_2_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210324"
+        }
+    ],
+    "preamble": {
+        "en": "The next questions are only about\u00c2\u00a0people\u00c2\u00a0who are not related to you, but are not just about\u00c2\u00a0people you have been in romantic relationships with. Some of these questions are very personal. Remember, your answers are private and will not be shown to anyone else"
+    },
+    "prefLabel": {
+        "en": "gish2_safe_methods_2_y"
+    },
+    "question": {
+        "en": "What method(s) have you or your partner ever used to prevent sexually transmitted diseases when you had anal intercourse? Please choose all that apply."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Condoms"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Foam, jelly, cream, suppositories, spermicide"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Some other method?"
+                },
+                "value": 2
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

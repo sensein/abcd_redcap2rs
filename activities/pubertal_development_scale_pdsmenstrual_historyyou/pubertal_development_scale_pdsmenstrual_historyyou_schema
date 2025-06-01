@@ -144,13 +144,13 @@
             },
             {
                 "isAbout": "items/menstrualcycle7_y",
-                "isVis": "pds_f5_y == '4' && event - name == '3_year_follow_up_y_arm_1'",
+                "isVis": "pds_f5_y == '4' &&(event - name == '3_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "menstrualcycle7_y"
             },
             {
                 "isAbout": "items/menstrualcycle8_y",
-                "isVis": "pds_f5_y == '4' && event - name == '3_year_follow_up_y_arm_1'",
+                "isVis": "pds_f5_y == '4' &&(event - name == '3_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "menstrualcycle8_y"
             },
@@ -162,13 +162,13 @@
             },
             {
                 "isAbout": "items/mentrualcycle11_y",
-                "isVis": "menstrualcycle4_y == '1' AND event - name == '4_year_follow_up_y_arm_1'",
+                "isVis": "menstrualcycle4_y == '1' AND(event - name == '4_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "mentrualcycle11_y"
             },
             {
                 "isAbout": "items/menstrualcycle4a_y",
-                "isVis": "pds_f5_y == '4' && menstrualcycle4_y == '1' && event - name == '3_year_follow_up_y_arm_1'",
+                "isVis": "pds_f5_y == '4' && menstrualcycle4_y == '1' &&(event - name == '3_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "menstrualcycle4a_y"
             },
@@ -186,19 +186,19 @@
             },
             {
                 "isAbout": "items/menstrualcycle9_y",
-                "isVis": "pds_f5_y == '4' && event - name == '3_year_follow_up_y_arm_1'",
+                "isVis": "pds_f5_y == '4' &&(event - name == '3_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "menstrualcycle9_y"
             },
             {
                 "isAbout": "items/menstrualcycle10_y",
-                "isVis": "pds_f5_y == '4' && event - name == '3_year_follow_up_y_arm_1'",
+                "isVis": "pds_f5_y == '4' &&(event - name == '3_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "menstrualcycle10_y"
             },
             {
                 "isAbout": "items/menstrualcycle11_y",
-                "isVis": "pds_f5_y == '4' && event - name == '3_year_follow_up_y_arm_1'",
+                "isVis": "pds_f5_y == '4' &&(event - name == '3_year_follow_up_y_arm_1' OR event - name == '5_year_follow_up_y_arm_1')",
                 "valueRequired": true,
                 "variableName": "menstrualcycle11_y"
             },
@@ -229,6 +229,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2728",
+    "version": "revid2729",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

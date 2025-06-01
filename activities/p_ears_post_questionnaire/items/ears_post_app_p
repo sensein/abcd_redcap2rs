@@ -14,31 +14,35 @@
         }
     ],
     "preamble": {
-        "en": "Questions About the Study Period"
+        "en": "Questions About the Study Period",
+        "es": "Preguntas sobre el periodo del estudio"
     },
     "prefLabel": {
         "en": "ears_post_app_p"
     },
     "question": {
-        "en": "Since your child installed the EARS app on their phone, have you noticed a change in their phone use?"
+        "en": "Since your child installed the EARS app on their phone, have you noticed a change in their phone use?",
+        "es": "Desde que su ni\u00c3\u00b1a(o) instal\u00c3\u00b3 la aplicaci\u00c3\u00b3n de EARS en su celular, \u00c2\u00bfha notado alg\u00c3\u00ban cambio en el uso de su celular?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Yes"
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "No"
+                    "en": "No",
+                    "es": "No"
                 },
                 "value": 0
             }
         ],
         "valueType": [
-            "xsd:boolean"
+            "xsd:integer"
         ]
     },
     "ui": {

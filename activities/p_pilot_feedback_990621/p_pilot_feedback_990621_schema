@@ -1,0 +1,185 @@
+{
+    "id": "p_pilot_feedback_990621_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "p_pilot_feedback_990621"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/feedback_5yr_start_time_p",
+            "items/sib_twin1_5yr_feedback_p",
+            "items/sib_twin_5yr_feedback_p",
+            "items/feedback_5yr_p_select_language",
+            "items/feedback_5yr_p_intro",
+            "items/feedback_5yr_pilot_1_p",
+            "items/feedback_5yr_pilot_2_p",
+            "items/feedback_5yr_fu_pilot_2_p",
+            "items/feedback_5yr_pilot_3_p",
+            "items/feedback_5yr_fu_pilot_3_p",
+            "items/feedback_5yr_pilot_4_p",
+            "items/feedback_5yr_fu_pilot_4_p",
+            "items/feedback_5yr_pilot_5_p",
+            "items/feedback_5yr_pilot_6_p",
+            "items/feedback_5yr_pilot_7_p",
+            "items/feedback_5yr_pilot_8_p",
+            "items/feedback_5yr_pilot_9_p",
+            "items/feedback_5yr_question_p",
+            "items/feedback_5yr_pilot_10_p",
+            "items/feedback_5yr_pilot_11_p",
+            "items/wrap_up_5yr_p",
+            "items/feedback_pilot_5yr_p_timestamp",
+            "items/feedback_5yr_pilot_user_p",
+            "items/p_pilot_feedback_990621_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/feedback_5yr_start_time_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "feedback_5yr_start_time_p"
+            },
+            {
+                "isAbout": "items/sib_twin1_5yr_feedback_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sib_twin1_5yr_feedback_p"
+            },
+            {
+                "isAbout": "items/sib_twin_5yr_feedback_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sib_twin_5yr_feedback_p"
+            },
+            {
+                "isAbout": "items/feedback_5yr_p_select_language",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "feedback_5yr_p_select_language"
+            },
+            {
+                "isAbout": "items/feedback_5yr_p_intro",
+                "isVis": "sib_twin1_p_feedback___1 <> '1'",
+                "valueRequired": false,
+                "variableName": "feedback_5yr_p_intro"
+            },
+            {
+                "isAbout": "items/feedback_5yr_pilot_1_p",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "feedback_5yr_pilot_1_p"
+            },
+            {
+                "isAbout": "items/feedback_5yr_pilot_2_p",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "feedback_5yr_pilot_2_p"
+            },
+            {
+                "isAbout": "items/feedback_5yr_fu_pilot_2_p",
+                "isVis": "feedback_5yr_pilot_2_p == '1' OR feedback_5yr_pilot_2_p == '2' OR feedback_5yr_pilot_2_p == '3'",
+                "valueRequired": false,
+                "variableName": "feedback_5yr_fu_pilot_2_p"
+            },
+            {
+                "isAbout": "items/feedback_5yr_pilot_3_p",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "feedback_5yr_pilot_3_p"
+            },
+            {
+                "isAbout": "items/feedback_5yr_fu_pilot_3_p",
+                "isVis": "feedback_5yr_pilot_3_p == '1' OR feedback_5yr_pilot_3_p == '2' OR feedback_5yr_pilot_3_p == '3'",
+                "valueRequired": false,
+                "variableName": "feedback_5yr_fu_pilot_3_p"
+            },
+            {
+                "isAbout": "items/feedback_5yr_pilot_4_p",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "feedback_5yr_pilot_4_p"
+            },
+            {
+                "isAbout": "items/feedback_5yr_fu_pilot_4_p",
+                "isVis": "feedback_5yr_pilot_4_p == '1' OR feedback_5yr_pilot_4_p == '2' OR feedback_5yr_pilot_4_p == '3'",
+                "valueRequired": false,
+                "variableName": "feedback_5yr_fu_pilot_4_p"
+            },
+            {
+                "isAbout": "items/feedback_5yr_pilot_5_p",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "feedback_5yr_pilot_5_p"
+            },
+            {
+                "isAbout": "items/feedback_5yr_pilot_6_p",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "feedback_5yr_pilot_6_p"
+            },
+            {
+                "isAbout": "items/feedback_5yr_pilot_7_p",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "feedback_5yr_pilot_7_p"
+            },
+            {
+                "isAbout": "items/feedback_5yr_pilot_8_p",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "feedback_5yr_pilot_8_p"
+            },
+            {
+                "isAbout": "items/feedback_5yr_pilot_9_p",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "feedback_5yr_pilot_9_p"
+            },
+            {
+                "isAbout": "items/feedback_5yr_question_p",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "feedback_5yr_question_p"
+            },
+            {
+                "isAbout": "items/feedback_5yr_pilot_10_p",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "feedback_5yr_pilot_10_p"
+            },
+            {
+                "isAbout": "items/feedback_5yr_pilot_11_p",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "feedback_5yr_pilot_11_p"
+            },
+            {
+                "isAbout": "items/wrap_up_5yr_p",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "wrap_up_5yr_p"
+            },
+            {
+                "isAbout": "items/feedback_pilot_5yr_p_timestamp",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "feedback_pilot_5yr_p_timestamp"
+            },
+            {
+                "isAbout": "items/feedback_5yr_pilot_user_p",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "feedback_5yr_pilot_user_p"
+            },
+            {
+                "isAbout": "items/p_pilot_feedback_990621_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "p_pilot_feedback_990621_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2729",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

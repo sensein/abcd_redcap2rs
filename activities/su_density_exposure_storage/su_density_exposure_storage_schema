@@ -201,8 +201,8 @@
             "items/su_des_h3_otob_inside_days_p",
             "items/su_des_h3_otob_inside_days_dk_p",
             "items/su_des_h3_otob_inside_hrs_p",
-            "items/su_des_h3_otob_inside_hrs_dk_p",
             "items/su_des_h3_mj_adult_p",
+            "items/su_des_h3_otob_inside_hrs_dk_p",
             "items/su_des_h3_mj_youth_p",
             "items/su_des_h3_edible_adult_p",
             "items/su_des_h3_edible_youth_p",
@@ -1424,16 +1424,16 @@
                 "variableName": "su_des_h3_otob_inside_hrs_p"
             },
             {
-                "isAbout": "items/su_des_h3_otob_inside_hrs_dk_p",
-                "isVis": "su_des_h3_p == '1' &&(su_des_h3_otob_inside_p == '1' && su_des_h3_otob_inside_hrs_p == '')",
-                "valueRequired": true,
-                "variableName": "su_des_h3_otob_inside_hrs_dk_p"
-            },
-            {
                 "isAbout": "items/su_des_h3_mj_adult_p",
                 "isVis": "su_des_h3_p == '1'",
                 "valueRequired": true,
                 "variableName": "su_des_h3_mj_adult_p"
+            },
+            {
+                "isAbout": "items/su_des_h3_otob_inside_hrs_dk_p",
+                "isVis": "su_des_h3_p == '1' &&(su_des_h3_otob_inside_p == '1' && su_des_h3_otob_inside_hrs_p == '')",
+                "valueRequired": true,
+                "variableName": "su_des_h3_otob_inside_hrs_dk_p"
             },
             {
                 "isAbout": "items/su_des_h3_mj_youth_p",
@@ -1762,6 +1762,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2728",
+    "version": "revid2729",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

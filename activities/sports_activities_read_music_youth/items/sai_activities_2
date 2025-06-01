@@ -1,0 +1,120 @@
+{
+    "id": "sai_activities_2",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210325"
+        }
+    ],
+    "preamble": {
+        "en": "Since the last time we saw you on [asnt_timestamp_c], please indicate whether you have participated in any of the following sports or activities regularly (e.g. a season in sports, or multiple lessons on your own or as part of a group etc). We will then ask you some follow-up questions about each of the sports or activities in which you have participated"
+    },
+    "prefLabel": {
+        "en": "sai_activities_2"
+    },
+    "question": null,
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Bowling"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Boxing"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Cheerleading"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Curling"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Cycling"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Field events (e.g. shot, discuss, high jump, javelin etc)"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Fishing, Hunting, Archery"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Golf"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Orienteering"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Paddleboarding, water skiing, wakeboarding"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Rowing, canoeing, kayaking"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Sailing, wind-surfing"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Table tennis, Shuffleboard"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Ultimate frisbee"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "I have not participated in any of the above activities"
+                },
+                "value": 15
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

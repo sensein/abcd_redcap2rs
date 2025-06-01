@@ -1,0 +1,48 @@
+{
+    "id": "su_liquids",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Matrix Group Name",
+            "source": "redcap",
+            "value": "su_group"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210319"
+        }
+    ],
+    "preamble": {
+        "en": "Now you will be asked if you have had an opportunity to use certain substances. \"Opportunity to use\" means someone offered it to you, or you were present when others were using and you could have used if you wanted to. \n\nIn the past year, have you had achance or opportunity to use..."
+    },
+    "prefLabel": {
+        "en": "su_liquids"
+    },
+    "question": {
+        "en": "Liquid, sprays, and gases that people sniff or inhale to get high (such as gasoline, glue, and nitrous oxide)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

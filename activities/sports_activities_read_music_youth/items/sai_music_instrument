@@ -1,0 +1,116 @@
+{
+    "id": "sai_music_instrument",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210329"
+        }
+    ],
+    "preamble": {
+        "en": "Musical Instrument (Singing, Choir, Guitar, Piano, Drums, Violin, Flute, Band, Rock Band, Orchestra)"
+    },
+    "prefLabel": {
+        "en": "sai_music_instrument"
+    },
+    "question": {
+        "en": "Musical Instrument/Singing\r\n\r\nPlease indicate below which instrument(s) you play"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Guitar, Bass Guitar, Jarana, Vihuela, Guitarr\u00c3\u00b3n, Ukelele"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Flute, Piccolo, Recorder"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Clarinet, Saxophone, Oboe, Basoon"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Violin, Viola"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Cello, Bass"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Piano"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Harp"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Hand drums, Drum kit, Rattles, Maracas, Guiro, Janggu, Tabla, Djembe, Percussion, Conga, Timbales"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Marimba, Xylophone, Glockenspiel, Vibraphone, Gamelan"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Trumpet, Trombone, Horns"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Vocal, Singing"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Accordion, Electric Keyboard, Organ"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "DJ, Electronic Dance Music"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 14
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

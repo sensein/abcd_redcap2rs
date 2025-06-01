@@ -14,31 +14,35 @@
         }
     ],
     "preamble": {
-        "en": "Questions About the Study Period"
+        "en": "Questions About the Study Period",
+        "es": "Preguntas sobre el periodo del estudio"
     },
     "prefLabel": {
         "en": "ears_post_over_3wk_p"
     },
     "question": {
-        "en": "Did you monitor your child's use of their smartphone more closely over the past 3 weeks?"
+        "en": "Did you monitor your child's use of their smartphone more closely over the past 3 weeks?",
+        "es": "\u00c2\u00bfSupervis\u00c3\u00b3 m\u00c3\u00a1s de cerca el uso del tel\u00c3\u00a9fono inteligente de su hijo(a) durante las \u00c3\u00baltimas 3 semanas?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Yes"
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "No"
+                    "en": "No",
+                    "es": "No"
                 },
                 "value": 0
             }
         ],
         "valueType": [
-            "xsd:boolean"
+            "xsd:integer"
         ]
     },
     "ui": {

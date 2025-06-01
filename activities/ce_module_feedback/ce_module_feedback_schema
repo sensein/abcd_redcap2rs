@@ -1,0 +1,38 @@
+{
+    "id": "ce_module_feedback_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "ce_module_feedback"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ce_5yr_feedback",
+            "items/ce_5yr_fu_feedback",
+            "items/ce_module_feedback_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ce_5yr_feedback",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ce_5yr_feedback"
+            },
+            {
+                "isAbout": "items/ce_5yr_fu_feedback",
+                "isVis": "ce_5yr_feedback == '1'",
+                "valueRequired": true,
+                "variableName": "ce_5yr_fu_feedback"
+            },
+            {
+                "isAbout": "items/ce_module_feedback_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ce_module_feedback_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2729",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -249,8 +249,8 @@
             "items/devhx_17_p",
             "items/devhx_17_p_dk",
             "items/devhx_18_p",
-            "items/devhx_18_p_dk",
             "items/devhx_19a_p",
+            "items/devhx_18_p_dk",
             "items/devhx_19a_p_dk",
             "items/devhx_19b_p",
             "items/devhx_19b_p_dk",
@@ -1718,16 +1718,16 @@
                 "variableName": "devhx_18_p"
             },
             {
-                "isAbout": "items/devhx_18_p_dk",
-                "isVis": "devhx_18_p == '' AND event - name !== '4_year_follow_up_y_arm_1'",
-                "valueRequired": false,
-                "variableName": "devhx_18_p_dk"
-            },
-            {
                 "isAbout": "items/devhx_19a_p",
                 "isVis": "devhx_19a_p_dk == '' AND event - name !== '4_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "devhx_19a_p"
+            },
+            {
+                "isAbout": "items/devhx_18_p_dk",
+                "isVis": "devhx_18_p == '' AND event - name !== '4_year_follow_up_y_arm_1'",
+                "valueRequired": false,
+                "variableName": "devhx_18_p_dk"
             },
             {
                 "isAbout": "items/devhx_19a_p_dk",
@@ -1804,6 +1804,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2728",
+    "version": "revid2729",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

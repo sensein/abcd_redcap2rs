@@ -81,8 +81,8 @@
             "items/ynotes_3yr_issues_workgroup_anthro_tech",
             "items/ynotes_3yr_issues_workgroup_anthro_other",
             "items/ynotes_4yr_issues_workgroup_edi",
-            "items/ynotes_4yr_issues_workgroup_edi_comphrehension",
             "items/ynotes_4yr_issues_workgroup_edi_compliance",
+            "items/ynotes_4yr_issues_workgroup_edi_comphrehension",
             "items/ynotes_4yr_issues_workgroup_edi_staff",
             "items/ynotes_4yr_issues_workgroup_edi_tech",
             "items/ynotes_4yr_issues_workgroup_edi_other",
@@ -1324,16 +1324,16 @@
                 "variableName": "ynotes_4yr_issues_workgroup_edi"
             },
             {
-                "isAbout": "items/ynotes_4yr_issues_workgroup_edi_comphrehension",
-                "isVis": "ynotes_4yr_issues_workgroup_edi___1 == '1'",
-                "valueRequired": false,
-                "variableName": "ynotes_4yr_issues_workgroup_edi_comphrehension"
-            },
-            {
                 "isAbout": "items/ynotes_4yr_issues_workgroup_edi_compliance",
                 "isVis": "ynotes_4yr_issues_workgroup_edi___2 == '1'",
                 "valueRequired": false,
                 "variableName": "ynotes_4yr_issues_workgroup_edi_compliance"
+            },
+            {
+                "isAbout": "items/ynotes_4yr_issues_workgroup_edi_comphrehension",
+                "isVis": "ynotes_4yr_issues_workgroup_edi___1 == '1'",
+                "valueRequired": false,
+                "variableName": "ynotes_4yr_issues_workgroup_edi_comphrehension"
             },
             {
                 "isAbout": "items/ynotes_4yr_issues_workgroup_edi_staff",
@@ -6102,6 +6102,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2728",
+    "version": "revid2729",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

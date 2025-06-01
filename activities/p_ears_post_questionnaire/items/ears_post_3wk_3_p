@@ -14,31 +14,35 @@
         }
     ],
     "preamble": {
-        "en": "Parent Rules of Screen Use\"Many parents implement rules for their children with regard to screen time. Please answer for rules in your family.\""
+        "en": "Parent Rules of Screen Use\"Many parents implement rules for their children with regard to screen time. Please answer for rules in your family.\"",
+        "es": "Reglas sobre el uso de pantallasMuchos padres de familia implementan reglas para sus ni\u00c3\u00b1os(as) en relaci\u00c3\u00b3n al uso de pantallas. Por favor conteste sobre las reglas en su familia."
     },
     "prefLabel": {
         "en": "ears_post_3wk_3_p"
     },
     "question": {
-        "en": "To the best of your knowledge, has your child attempted to get around this monitoring or limitation?"
+        "en": "To the best of your knowledge, has your child attempted to get around this monitoring or limitation?",
+        "es": "Seg\u00c3\u00ban su mejor conocimiento, \u00c2\u00bfsu ni\u00c3\u00b1o(a) ha intentado evadir este monitoreo o estas limitaciones?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Yes"
+                    "en": "Yes",
+                    "es": "S\u00c3\u00ad"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "No"
+                    "en": "No",
+                    "es": "No"
                 },
                 "value": 0
             }
         ],
         "valueType": [
-            "xsd:boolean"
+            "xsd:integer"
         ]
     },
     "ui": {

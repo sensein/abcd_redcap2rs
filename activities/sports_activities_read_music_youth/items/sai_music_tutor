@@ -1,0 +1,48 @@
+{
+    "id": "sai_music_tutor",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210329"
+        }
+    ],
+    "preamble": {
+        "en": "Musical Instrument (Singing, Choir, Guitar, Piano, Drums, Violin, Flute, Band, Rock Band, Orchestra)"
+    },
+    "prefLabel": {
+        "en": "sai_music_tutor"
+    },
+    "question": {
+        "en": "Musical Instrument (Singing, Choir, Guitar, Piano, Drums, Violin, Flute, Band, Rock Band, Orchestra)\r\n\r\nDid you receive individual private instruction?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

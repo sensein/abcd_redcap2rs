@@ -1,0 +1,54 @@
+{
+    "id": "gish2_vag_intercourse_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210324"
+        }
+    ],
+    "preamble": {
+        "en": "The next questions are only about\u00c2\u00a0people\u00c2\u00a0who are not related to you, but are not just about\u00c2\u00a0people you have been in romantic relationships with. Some of these questions are very personal. Remember, your answers are private and will not be shown to anyone else"
+    },
+    "prefLabel": {
+        "en": "gish2_vag_intercourse_y"
+    },
+    "question": {
+        "en": "Have you ever had vaginal intercourse? (By vaginal intercourse, we mean a penis inside a vagina.)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

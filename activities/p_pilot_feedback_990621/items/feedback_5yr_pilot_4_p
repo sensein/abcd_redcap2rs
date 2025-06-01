@@ -1,0 +1,63 @@
+{
+    "id": "feedback_5yr_pilot_4_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210414"
+        }
+    ],
+    "prefLabel": {
+        "en": "feedback_5yr_pilot_4_p"
+    },
+    "question": {
+        "en": "I feel like there were questions that werenotasked that are important for families like ours"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Strongly Agree",
+                    "es": "Totalmente de acuerdo"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Agree",
+                    "es": "De acuerdo"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Neutral(neither agree nor disagree)",
+                    "es": "Neutral (ni de acuerdo ni en desacuerdo)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Disagree",
+                    "es": "En desacuerdo"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Strongly Disagree",
+                    "es": "Totalmente en desacuerdo"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
