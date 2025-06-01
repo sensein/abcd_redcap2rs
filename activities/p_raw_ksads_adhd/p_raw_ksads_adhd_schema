@@ -1,0 +1,696 @@
+{
+    "id": "p_raw_ksads_adhd_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "p_raw_ksads_adhd"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ksads_adhd_raw_404_p",
+            "items/ksads_adhd_raw_405_p",
+            "items/ksads_adhd_raw_406_p",
+            "items/ksads_adhd_raw_407_p",
+            "items/ksads_adhd_raw_408_p",
+            "items/ksads_adhd_raw_409_p",
+            "items/ksads_adhd_raw_410_p",
+            "items/ksads_adhd_raw_411_p",
+            "items/ksads_adhd_raw_412_p",
+            "items/ksads_adhd_raw_413_p",
+            "items/ksads_adhd_raw_414_p",
+            "items/ksads_adhd_raw_415_p",
+            "items/ksads_adhd_raw_416_p",
+            "items/ksads_adhd_raw_417_p",
+            "items/ksads_adhd_raw_418_p",
+            "items/ksads_adhd_raw_419_p",
+            "items/ksads_adhd_raw_420_p",
+            "items/ksads_adhd_raw_421_p",
+            "items/ksads_adhd_raw_422_p",
+            "items/ksads_adhd_raw_423_p",
+            "items/ksads_adhd_raw_424_p",
+            "items/ksads_adhd_raw_425_p",
+            "items/ksads_adhd_raw_426_p",
+            "items/ksads_adhd_raw_427_p",
+            "items/ksads_adhd_raw_428_p",
+            "items/ksads_adhd_raw_429_p",
+            "items/ksads_adhd_raw_430_p",
+            "items/ksads_adhd_raw_431_p",
+            "items/ksads_adhd_raw_432_p",
+            "items/ksads_adhd_raw_433_p",
+            "items/ksads_adhd_raw_434_p",
+            "items/ksads_adhd_raw_435_p",
+            "items/ksads_adhd_raw_436_p",
+            "items/ksads_adhd_raw_437_p",
+            "items/ksads_adhd_raw_438_p",
+            "items/ksads_adhd_raw_439_p",
+            "items/ksads_adhd_raw_440_p",
+            "items/ksads_adhd_raw_441_p",
+            "items/ksads_adhd_raw_442_p",
+            "items/ksads_adhd_raw_443_p",
+            "items/ksads_adhd_raw_444_p",
+            "items/ksads_adhd_raw_445_p",
+            "items/ksads_adhd_raw_446_p",
+            "items/ksads_adhd_raw_447_p",
+            "items/ksads_adhd_raw_448_p",
+            "items/ksads_adhd_raw_449_p",
+            "items/ksads_adhd_raw_450_p",
+            "items/ksads_adhd_raw_451_p",
+            "items/ksads_adhd_raw_452_p",
+            "items/ksads_adhd_raw_453_p",
+            "items/ksads_adhd_raw_973_p",
+            "items/ksads_adhd_raw_974_p",
+            "items/ksads_adhd_raw_975_p",
+            "items/ksads_adhd_raw_976_p",
+            "items/ksads_adhd_raw_977_p",
+            "items/ksads_adhd_raw_978_p",
+            "items/ksads_adhd_raw_979_p",
+            "items/ksads_adhd_raw_980_p",
+            "items/ksads_adhd_raw_981_p",
+            "items/ksads_adhd_raw_982_p",
+            "items/ksads_adhd_raw_983_p",
+            "items/ksads_adhd_raw_984_p",
+            "items/ksads_adhd_raw_985_p",
+            "items/ksads_adhd_raw_986_p",
+            "items/ksads_adhd_raw_987_p",
+            "items/ksads_adhd_raw_988_p",
+            "items/ksads_adhd_raw_989_p",
+            "items/ksads_adhd_raw_990_p",
+            "items/ksads_adhd_raw_991_p",
+            "items/ksads_adhd_raw_992_p",
+            "items/ksads_adhd_raw_993_p",
+            "items/ksads_adhd_raw_994_p",
+            "items/ksads_adhd_raw_995_p",
+            "items/ksads_adhd_raw_996_p",
+            "items/ksads_adhd_raw_997_p",
+            "items/ksads_adhd_raw_998_p",
+            "items/ksads_adhd_raw_999_p",
+            "items/ksads_adhd_raw_1000_p",
+            "items/ksads_adhd_raw_1001_p",
+            "items/ksads_adhd_raw_1002_p",
+            "items/ksads_adhd_raw_1003_p",
+            "items/ksads_adhd_raw_1004_p",
+            "items/ksads_adhd_raw_1005_p",
+            "items/ksads_adhd_raw_1006_p",
+            "items/ksads_adhd_raw_1007_p",
+            "items/ksads_adhd_raw_1008_p",
+            "items/ksads_adhd_raw_1009_p",
+            "items/ksads_adhd_raw_1010_p",
+            "items/ksads_adhd_raw_1011_p",
+            "items/ksads_adhd_raw_1012_p",
+            "items/ksads_adhd_raw_1013_p",
+            "items/ksads_adhd_raw_1014_p",
+            "items/ksads_adhd_raw_1015_p",
+            "items/ksads_adhd_raw_1016_p",
+            "items/ksads_adhd_raw_1017_p",
+            "items/ksads_adhd_raw_1018_p",
+            "items/p_raw_ksads_adhd_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ksads_adhd_raw_404_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_404_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_405_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_405_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_406_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_406_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_407_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_407_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_408_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_408_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_409_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_409_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_410_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_410_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_411_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_411_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_412_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_412_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_413_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_413_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_414_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_414_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_415_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_415_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_416_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_416_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_417_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_417_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_418_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_418_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_419_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_419_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_420_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_420_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_421_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_421_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_422_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_422_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_423_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_423_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_424_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_424_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_425_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_425_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_426_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_426_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_427_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_427_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_428_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_428_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_429_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_429_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_430_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_430_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_431_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_431_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_432_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_432_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_433_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_433_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_434_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_434_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_435_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_435_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_436_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_436_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_437_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_437_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_438_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_438_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_439_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_439_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_440_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_440_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_441_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_441_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_442_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_442_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_443_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_443_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_444_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_444_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_445_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_445_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_446_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_446_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_447_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_447_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_448_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_448_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_449_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_449_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_450_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_450_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_451_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_451_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_452_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_452_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_453_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_453_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_973_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_973_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_974_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_974_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_975_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_975_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_976_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_976_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_977_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_977_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_978_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_978_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_979_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_979_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_980_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_980_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_981_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_981_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_982_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_982_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_983_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_983_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_984_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_984_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_985_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_985_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_986_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_986_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_987_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_987_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_988_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_988_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_989_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_989_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_990_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_990_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_991_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_991_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_992_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_992_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_993_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_993_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_994_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_994_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_995_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_995_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_996_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_996_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_997_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_997_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_998_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_998_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_999_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_999_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_1000_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_1000_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_1001_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_1001_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_1002_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_1002_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_1003_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_1003_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_1004_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_1004_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_1005_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_1005_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_1006_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_1006_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_1007_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_1007_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_1008_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_1008_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_1009_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_1009_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_1010_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_1010_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_1011_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_1011_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_1012_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_1012_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_1013_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_1013_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_1014_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_1014_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_1015_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_1015_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_1016_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_1016_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_1017_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_1017_p"
+            },
+            {
+                "isAbout": "items/ksads_adhd_raw_1018_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_adhd_raw_1018_p"
+            },
+            {
+                "isAbout": "items/p_raw_ksads_adhd_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "p_raw_ksads_adhd_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2728",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
