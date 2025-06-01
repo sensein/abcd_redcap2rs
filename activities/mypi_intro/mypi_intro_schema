@@ -7,6 +7,7 @@
     "schemaVersion": "1.0.0",
     "ui": {
         "order": [
+            "items/mypi_grade",
             "items/mypi_select_language",
             "items/mypi_parent_intro",
             "items/mypi_singleton_script1",
@@ -35,7 +36,6 @@
             "items/mypi_intro_concentrate",
             "items/mypi_lives_with",
             "items/mypi_lives_with_other",
-            "items/mypi_grade",
             "items/mypi_fav_class",
             "items/mypi_fav_class_dk",
             "items/mypi_fav_class2",
@@ -45,6 +45,12 @@
             "items/mypi_intro_complete"
         ],
         "addProperties": [
+            {
+                "isAbout": "items/mypi_grade",
+                "isVis": false,
+                "valueRequired": true,
+                "variableName": "mypi_grade"
+            },
             {
                 "isAbout": "items/mypi_select_language",
                 "isVis": false,
@@ -214,12 +220,6 @@
                 "variableName": "mypi_lives_with_other"
             },
             {
-                "isAbout": "items/mypi_grade",
-                "isVis": false,
-                "valueRequired": true,
-                "variableName": "mypi_grade"
-            },
-            {
                 "isAbout": "items/mypi_fav_class",
                 "isVis": false,
                 "valueRequired": true,
@@ -264,6 +264,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2761",
+    "version": "revid2763",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

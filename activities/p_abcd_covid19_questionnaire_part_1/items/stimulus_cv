@@ -1,0 +1,46 @@
+{
+    "id": "stimulus_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210420"
+        }
+    ],
+    "prefLabel": {
+        "en": "stimulus_cv"
+    },
+    "question": {
+        "en": "Since April 2020, have you or your household received one or more coronavirus related economic impact stimulus payments? For example, some received stimulus payments in April/May 2020, or December 2020/January 2021, or March/April 2021."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Refuse to answer"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

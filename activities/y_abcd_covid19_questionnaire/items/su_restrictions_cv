@@ -1,0 +1,52 @@
+{
+    "id": "su_restrictions_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210420"
+        }
+    ],
+    "prefLabel": {
+        "en": "su_restrictions_cv"
+    },
+    "question": {
+        "en": "After finding out, did your parents/guardians change how hard they tried to keep track of you (what you were doing, where you were, and who you were with)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Big change"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Little change"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "No change"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Don't know - not enough time has passed for me to tell"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

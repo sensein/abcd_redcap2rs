@@ -1,0 +1,56 @@
+{
+    "id": "child_pos_symptoms_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210421"
+        }
+    ],
+    "preamble": {
+        "en": "Please answer the questions below about your child:",
+        "es": "Por favor responda las siguientes preguntas sobre su hijo(a):"
+    },
+    "prefLabel": {
+        "en": "child_pos_symptoms_cv"
+    },
+    "question": {
+        "en": "When your child tested positive for COVID-19, how severe were the symptoms? Choose the best description:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No symptoms (\"asymptomatic\") - I didn't see any symptoms"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Mild symptoms - symptoms were noticeable but did not cause my child major distress"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Moderate symptoms - symptoms made it hard for my child to do things (e.g., online school, chores, eating, sleeping) because of fatigue, trouble breathing, or other symptoms"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Severe symptoms - child was hospitalized"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

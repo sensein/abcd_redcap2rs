@@ -300,7 +300,7 @@
             },
             {
                 "isAbout": "items/delq_admin",
-                "isVis": "(event - name =='3_year_follow_up_y_arm_1' || event - name =='4_year_follow_up_y_arm_1' || event - name =='5_year_follow_up_y_arm_1')&& sched_delay!=='9'",
+                "isVis": "event - name > '2_year_follow_up_y_arm_1'",
                 "valueRequired": true,
                 "variableName": "delq_admin"
             },
@@ -313,6 +313,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2761",
+    "version": "revid2763",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

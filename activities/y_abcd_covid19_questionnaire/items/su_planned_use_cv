@@ -1,0 +1,45 @@
+{
+    "id": "su_planned_use_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "RH"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210420"
+        }
+    ],
+    "prefLabel": {
+        "en": "su_planned_use_cv"
+    },
+    "question": {
+        "en": "Was there ever a time when you PLANNED TO or HAD A CHANCE TO drink, smoke, or use drugs -- but, in the end you DIDN'T do it because your parents/guardians got in the way or would have found out?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

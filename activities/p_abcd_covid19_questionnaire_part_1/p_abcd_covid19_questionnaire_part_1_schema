@@ -33,6 +33,8 @@
             "items/fam_exp5_cv",
             "items/fam_exp6_cv",
             "items/fam_exp7_v2_cv",
+            "items/stimulus_cv",
+            "items/fam_essential_cv",
             "items/fam_exp_racism_cv",
             "items/worry_about_cv",
             "items/increased_conflict_cv",
@@ -228,44 +230,56 @@
                 "variableName": "fam_exp7_v2_cv"
             },
             {
+                "isAbout": "items/stimulus_cv",
+                "isVis": "event - name == 'covid19_cv7_arm_2' AND record - dag - label <> 'libr_de' AND record - dag - label <> 'wustl_de'",
+                "valueRequired": true,
+                "variableName": "stimulus_cv"
+            },
+            {
+                "isAbout": "items/fam_essential_cv",
+                "isVis": "stimulus_cv == '1'",
+                "valueRequired": true,
+                "variableName": "fam_essential_cv"
+            },
+            {
                 "isAbout": "items/fam_exp_racism_cv",
-                "isVis": "event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv3_arm_2' OR event - name == 'covid19_cv5_arm_2'",
+                "isVis": "event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv3_arm_2' OR event - name == 'covid19_cv5_arm_2' OR event - name == 'covid19_cv7_arm_2'",
                 "valueRequired": true,
                 "variableName": "fam_exp_racism_cv"
             },
             {
                 "isAbout": "items/worry_about_cv",
-                "isVis": "event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv3_arm_2' OR event - name == 'covid19_cv5_arm_2'",
+                "isVis": "event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv3_arm_2' OR event - name == 'covid19_cv5_arm_2' OR event - name == 'covid19_cv7_arm_2'",
                 "valueRequired": true,
                 "variableName": "worry_about_cv"
             },
             {
                 "isAbout": "items/increased_conflict_cv",
-                "isVis": "event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv3_arm_2' OR event - name == 'covid19_cv5_arm_2'",
+                "isVis": "event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv3_arm_2' OR event - name == 'covid19_cv5_arm_2' OR event - name == 'covid19_cv7_arm_2'",
                 "valueRequired": true,
                 "variableName": "increased_conflict_cv"
             },
             {
                 "isAbout": "items/get_coronavirus_cv",
-                "isVis": "event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv3_arm_2' OR event - name == 'covid19_cv5_arm_2'",
+                "isVis": "event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv3_arm_2' OR event - name == 'covid19_cv5_arm_2' OR event - name == 'covid19_cv7_arm_2'",
                 "valueRequired": true,
                 "variableName": "get_coronavirus_cv"
             },
             {
                 "isAbout": "items/think_will_hospitalized_cv",
-                "isVis": "event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv3_arm_2' OR event - name == 'covid19_cv5_arm_2'",
+                "isVis": "event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv3_arm_2' OR event - name == 'covid19_cv5_arm_2' OR event - name == 'covid19_cv7_arm_2'",
                 "valueRequired": true,
                 "variableName": "think_will_hospitalized_cv"
             },
             {
                 "isAbout": "items/think_will_get_cv",
-                "isVis": "event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv3_arm_2' OR event - name == 'covid19_cv5_arm_2'",
+                "isVis": "event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv3_arm_2' OR event - name == 'covid19_cv5_arm_2' OR event - name == 'covid19_cv7_arm_2'",
                 "valueRequired": true,
                 "variableName": "think_will_get_cv"
             },
             {
                 "isAbout": "items/think_someone_close_get_cv",
-                "isVis": "event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv3_arm_2' OR event - name == 'covid19_cv5_arm_2'",
+                "isVis": "event - name == 'covid19_cv1_arm_2' || event - name == 'covid19_cv3_arm_2' OR event - name == 'covid19_cv5_arm_2' OR event - name == 'covid19_cv7_arm_2'",
                 "valueRequired": true,
                 "variableName": "think_someone_close_get_cv"
             },
@@ -403,13 +417,13 @@
             },
             {
                 "isAbout": "items/p_vaccination_cv",
-                "isVis": "event - name == 'covid19_cv5_arm_2' OR event - name == 'covid19_cv6_arm_2'",
+                "isVis": "(event - name == 'covid19_cv5_arm_2' OR event - name == 'covid19_cv6_arm_2' OR event - name == 'covid19_cv7_arm_2')AND record - dag - label <> 'libr_de' AND record - dag - label <> 'wustl_de'",
                 "valueRequired": true,
                 "variableName": "p_vaccination_cv"
             },
             {
                 "isAbout": "items/p_vaccine_cv",
-                "isVis": "event - name == 'covid19_cv6_arm_2'",
+                "isVis": "(event - name == 'covid19_cv6_arm_2' OR event - name == 'covid19_cv7_arm_2')AND record - dag - label <> 'libr_de' AND record - dag - label <> 'wustl_de'",
                 "valueRequired": true,
                 "variableName": "p_vaccine_cv"
             },
@@ -446,6 +460,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2761",
+    "version": "revid2763",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,0 +1,47 @@
+{
+    "id": "fam_essential_cv",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210420"
+        }
+    ],
+    "prefLabel": {
+        "en": "fam_essential_cv"
+    },
+    "question": {
+        "en": "Did the stimulus payments help your household pay for any of the following (check all that apply):"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Essential household expenses (food, rent/mortgage, utility bills, transportation)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Other household or recreational expenses (e.g., clothing, furniture, electronics, sports equipment, toys, or trips)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Savings, investments, charitable donations, or giving to family members"
+                },
+                "value": 3
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
