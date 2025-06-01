@@ -394,11 +394,11 @@
             "items/q10n_half_sib_old3_nerves",
             "items/q10n_half_sib_old4_nerves",
             "items/q10n_half_sib_old5_nerves",
-            "items/q10m_full_sib_same1_nerves",
-            "items/q10m_full_sib_same2_nerves",
             "items/fam_history_nerves_describe",
             "items/fam_history_11_yes_no",
+            "items/q10m_full_sib_same1_nerves",
             "items/fam_hx_11_rel",
+            "items/q10m_full_sib_same2_nerves",
             "items/fam_history_q11a_professional",
             "items/fam_history_q11b_professional",
             "items/fam_history_q11c_professional",
@@ -2876,18 +2876,6 @@
                 "variableName": "q10n_half_sib_old5_nerves"
             },
             {
-                "isAbout": "items/q10m_full_sib_same1_nerves",
-                "isVis": "famhx_1 == '1' && fam_history_10_yes_no == '1' && fhx_3c_sibs_same_birth > 0 && fhx_3c_sibs_same_birth <> 999",
-                "valueRequired": true,
-                "variableName": "q10m_full_sib_same1_nerves"
-            },
-            {
-                "isAbout": "items/q10m_full_sib_same2_nerves",
-                "isVis": "famhx_1 == '1' && fam_history_10_yes_no == '1' && fhx_3c_sibs_same_birth > 1 && fhx_3c_sibs_same_birth <> 999",
-                "valueRequired": true,
-                "variableName": "q10m_full_sib_same2_nerves"
-            },
-            {
                 "isAbout": "items/fam_history_nerves_describe",
                 "isVis": "famhx_1 == '1' && fam_history_10_yes_no == '1'",
                 "valueRequired": false,
@@ -2900,10 +2888,22 @@
                 "variableName": "fam_history_11_yes_no"
             },
             {
+                "isAbout": "items/q10m_full_sib_same1_nerves",
+                "isVis": "famhx_1 == '1' && fam_history_10_yes_no == '1' && fhx_3c_sibs_same_birth > 0 && fhx_3c_sibs_same_birth <> 999",
+                "valueRequired": true,
+                "variableName": "q10m_full_sib_same1_nerves"
+            },
+            {
                 "isAbout": "items/fam_hx_11_rel",
                 "isVis": "famhx_1 == '1' && fam_history_11_yes_no == '1'",
                 "valueRequired": false,
                 "variableName": "fam_hx_11_rel"
+            },
+            {
+                "isAbout": "items/q10m_full_sib_same2_nerves",
+                "isVis": "famhx_1 == '1' && fam_history_10_yes_no == '1' && fhx_3c_sibs_same_birth > 1 && fhx_3c_sibs_same_birth <> 999",
+                "valueRequired": true,
+                "variableName": "q10m_full_sib_same2_nerves"
             },
             {
                 "isAbout": "items/fam_history_q11a_professional",
@@ -3820,6 +3820,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid2720",
+    "version": "revid2721",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
