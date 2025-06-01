@@ -1,0 +1,115 @@
+{
+    "id": "ra_fb_5yr_ph_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "LV"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210407 @HIDECHOICE = '11, 9'"
+        }
+    ],
+    "preamble": {
+        "en": "Please use this form to document any feedback regarding the 5-year follow-up YOUTH protocol elements.\n\nInput information on REDCap related issues such as: typos, branching logic, redundancy or omissions, concerns about the wording or meaning of items, pilot's observations, checklists, SOP(s), etc."
+    },
+    "prefLabel": {
+        "en": "ra_fb_5yr_ph_y"
+    },
+    "question": {
+        "en": "Physical Health Module"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Anthropometrics"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Blood Pressure"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Blood Draw"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Pubertal Hormone Saliva"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Pubertal Development Scale"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Pain Questionnaire"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Respiratory Questions"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Munich Chronotype Questionnaire"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Youth Risk Behavior & Physical Activity"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Sports Activities Involvement"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "COVID-19 Annual Questionnaire"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Kids Block Food Screen"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Developmental History"
+                },
+                "value": 9
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

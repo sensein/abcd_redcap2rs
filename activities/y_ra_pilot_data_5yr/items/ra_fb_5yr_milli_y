@@ -1,0 +1,30 @@
+{
+    "id": "ra_fb_5yr_milli_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210504 @HIDDEN"
+        }
+    ],
+    "preamble": {
+        "en": "Please enter the time it took to complete each of the following instruments (in minutes). If you didnotadminister a component (e.g. youth refused, not allowed to do biospecimen collection),please leave that item blank."
+    },
+    "prefLabel": {
+        "en": "ra_fb_5yr_milli_y"
+    },
+    "question": {
+        "en": "Millisecond Flanker (Minutes):"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

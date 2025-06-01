@@ -1,0 +1,843 @@
+{
+    "id": "y_ra_pilot_data_5yr_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "y_ra_pilot_data_5yr"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ra_fb_5yr_y",
+            "items/ra_fb_5yr_yt_y",
+            "items/ra_fb_5yr_us_y",
+            "items/ra_fb_5yr_dg_y",
+            "items/ra_fb_5yr_hs_y",
+            "items/ra_fb_5yr_bp_y",
+            "items/ra_fb_5yr_lmt_y",
+            "items/ra_fb_5yr_ravlt_y",
+            "items/ra_fb_5yr_milli_y",
+            "items/ra_fb_5yr_god_y",
+            "items/ra_fb_5yr_sit_y",
+            "items/ra_fb_5yr_bird_y",
+            "items/ra_fb_5yr_nih_y",
+            "items/ra_fb_5yr_ksads_y",
+            "items/ra_fb_5yr_tlfb_y",
+            "items/ra_fb_5yr_ears_y",
+            "items/ra_fb_5yr_blk_food_y",
+            "items/ra_fb_5yr_stroop_y",
+            "items/ra_fb_5yr_dd_y",
+            "items/ra_fb_5yr_math_y",
+            "items/ra_fb_5yr_su_y",
+            "items/ra_fb_5yr_su_1_y",
+            "items/ra_fb_5yr_su_2_y",
+            "items/ra_fb_5yr_su_3_y",
+            "items/ra_fb_5yr_su_4_y",
+            "items/ra_fb_5yr_su_5_y",
+            "items/ra_fb_5yr_su_13_y",
+            "items/ra_fb_5yr_su_6_y",
+            "items/ra_fb_5yr_su_7_y",
+            "items/ra_fb_5yr_su_8_y",
+            "items/ra_fb_5yr_su_9_y",
+            "items/ra_fb_5yr_su_10_y",
+            "items/ra_fb_5yr_su_11_y",
+            "items/ra_fb_5yr_su_12_y",
+            "items/ra_fb_5yr_mh_y",
+            "items/ra_fb_5yr_mh_1_y",
+            "items/ra_fb_5yr_mh_14_y",
+            "items/ra_fb_5yr_mh_18_y",
+            "items/ra_fb_5yr_mh_19_y",
+            "items/ra_fb_5yr_mh_2_y",
+            "items/ra_fb_5yr_mh_13_y",
+            "items/ra_fb_5yr_mh_3_y",
+            "items/ra_fb_5yr_mh_4_y",
+            "items/ra_fb_5yr_mh_5_y",
+            "items/ra_fb_5yr_mh_6_y",
+            "items/ra_fb_5yr_mh_7_y",
+            "items/ra_fb_5yr_mh_16_y",
+            "items/ra_fb_5yr_mh_17_y",
+            "items/ra_fb_5yr_mh_15_y",
+            "items/ra_fb_5yr_mh_8_y",
+            "items/ra_fb_5yr_gi_y",
+            "items/ra_fb_5yr_mh_9_y",
+            "items/ra_fb_5yr_mh_10_y",
+            "items/ra_fb_5yr_mh_11_y",
+            "items/ra_fb_5yr_mh_12_y",
+            "items/ra_fb_5yr_ce_y",
+            "items/ra_fb_5yr_ce_10_y",
+            "items/ra_fb_5yr_ce_1_y",
+            "items/ra_fb_5yr_ce_14_y",
+            "items/ra_fb_5yr_ce_2_y",
+            "items/ra_fb_5yr_ce_16_y",
+            "items/ra_fb_5yr_ce_3_y",
+            "items/ra_fb_5yr_ce_4_y",
+            "items/ra_fb_5yr_ce_5_y",
+            "items/ra_fb_5yr_ce_6_y",
+            "items/ra_fb_5yr_ce_19_y",
+            "items/ra_fb_5yr_ce_11_y",
+            "items/ra_fb_5yr_ce_12_y",
+            "items/ra_fb_5yr_ce_18_y",
+            "items/ra_fb_5yr_ce_17_y",
+            "items/ra_fb_5yr_ce_8_y",
+            "items/ra_fb_5yr_ce_7_y",
+            "items/ra_fb_5yr_ce_13_y",
+            "items/ra_fb_5yr_ce_9_y",
+            "items/ra_fb_5yr_ph_y",
+            "items/ra_fb_5yr_ph_1_y",
+            "items/ra_fb_5yr_ph_10_y",
+            "items/ra_fb_5yr_ph_11_y",
+            "items/ra_fb_5yr_ph_2_y",
+            "items/ra_fb_5yr_ph_3_y",
+            "items/ra_fb_5yr_ph_6_y",
+            "items/ra_fb_5yr_ph_8_y",
+            "items/ra_fb_5yr_ph_4_y",
+            "items/ra_fb_5yr_ph_12_y",
+            "items/ra_fb_5yr_ph_7_y",
+            "items/ra_fb_5yr_ph_13_y",
+            "items/ra_fb_5yr_ph_5_y",
+            "items/ra_fb_5yr_ph_9_y",
+            "items/ra_fb_5yr_mt_y",
+            "items/ra_fb_5yr_mt_1_y",
+            "items/ra_fb_5yr_mt_2_y",
+            "items/ra_fb_5yr_mt_3_y",
+            "items/ra_fb_5yr_mt_4_y",
+            "items/ra_fb_5yr_mt_5_y",
+            "items/ra_fb_5yr_mt_6_y",
+            "items/ra_fb_5yr_ncg_y",
+            "items/ra_fb_5yr_ncg_1_y",
+            "items/ra_fb_5yr_ncg_2_y",
+            "items/ra_fb_5yr_ncg_3_y",
+            "items/ra_fb_5yr_ncg_5_y",
+            "items/ra_fb_5yr_ncg_6_y",
+            "items/ra_fb_5yr_ncg_7_y",
+            "items/ra_fb_5yr_ncg_8_y",
+            "items/ra_fb_5yr_ncg_9_y",
+            "items/ra_fb_5yr_ncg_10_y",
+            "items/ra_fb_5yr_ncg_11_y",
+            "items/ra_fb_5yr_ncg_12_y",
+            "items/ra_fb_5yr_ncg_4_y",
+            "items/ra_fb_5yr_intro_y",
+            "items/ra_fb_5yr_assent_y",
+            "items/ra_fb_5yr_clos_1_y",
+            "items/ra_fb_5yr_clos_3_y",
+            "items/ra_fb_5yr_clos_5_y",
+            "items/ra_fb_5yr_clos_6_y",
+            "items/ra_fb_5yr_clos_7_y",
+            "items/ra_fb_5yr_other_2",
+            "items/ra_fb_5yr_time_y",
+            "items/y_ra_pilot_data_5yr_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ra_fb_5yr_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ra_fb_5yr_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_yt_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_yt_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_us_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_us_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_dg_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_dg_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_hs_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_hs_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_bp_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_bp_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_lmt_y",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_lmt_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ravlt_y",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ravlt_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_milli_y",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_milli_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_god_y",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_god_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_sit_y",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_sit_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_bird_y",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_bird_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_nih_y",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_nih_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ksads_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ksads_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_tlfb_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_tlfb_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ears_y",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ears_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_blk_food_y",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_blk_food_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_stroop_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_stroop_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_dd_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_dd_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_math_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_math_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_su_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_su_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_su_1_y",
+                "isVis": "ra_fb_5yr_su_y___1 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_su_1_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_su_2_y",
+                "isVis": "ra_fb_5yr_su_y___2 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_su_2_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_su_3_y",
+                "isVis": "ra_fb_5yr_su_y___3 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_su_3_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_su_4_y",
+                "isVis": "ra_fb_5yr_su_y___4 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_su_4_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_su_5_y",
+                "isVis": "ra_fb_5yr_su_y___5 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_su_5_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_su_13_y",
+                "isVis": "ra_fb_5yr_su_y___13 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_su_13_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_su_6_y",
+                "isVis": "ra_fb_5yr_su_y___6 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_su_6_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_su_7_y",
+                "isVis": "ra_fb_5yr_su_y___7 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_su_7_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_su_8_y",
+                "isVis": "ra_fb_5yr_su_y___8 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_su_8_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_su_9_y",
+                "isVis": "ra_fb_5yr_su_y___9 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_su_9_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_su_10_y",
+                "isVis": "ra_fb_5yr_su_y___10 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_su_10_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_su_11_y",
+                "isVis": "ra_fb_5yr_su_y___11 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_su_11_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_su_12_y",
+                "isVis": "ra_fb_5yr_su_y___12 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_su_12_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_mh_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_mh_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_mh_1_y",
+                "isVis": "ra_fb_5yr_mh_y___1 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_mh_1_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_mh_14_y",
+                "isVis": "ra_fb_5yr_mh_y___14 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_mh_14_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_mh_18_y",
+                "isVis": "ra_fb_5yr_mh_y___18 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_mh_18_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_mh_19_y",
+                "isVis": "ra_fb_5yr_mh_y___19 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_mh_19_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_mh_2_y",
+                "isVis": "ra_fb_5yr_mh_y___2 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_mh_2_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_mh_13_y",
+                "isVis": "ra_fb_5yr_mh_y___13 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_mh_13_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_mh_3_y",
+                "isVis": "ra_fb_5yr_mh_y___3 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_mh_3_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_mh_4_y",
+                "isVis": "ra_fb_5yr_mh_y___4 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_mh_4_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_mh_5_y",
+                "isVis": "ra_fb_5yr_mh_y___5 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_mh_5_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_mh_6_y",
+                "isVis": "ra_fb_5yr_mh_y___6 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_mh_6_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_mh_7_y",
+                "isVis": "ra_fb_5yr_mh_y___7 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_mh_7_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_mh_16_y",
+                "isVis": "ra_fb_5yr_mh_y___16 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_mh_16_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_mh_17_y",
+                "isVis": "ra_fb_5yr_mh_y___17 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_mh_17_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_mh_15_y",
+                "isVis": "ra_fb_5yr_mh_y___15 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_mh_15_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_mh_8_y",
+                "isVis": "ra_fb_5yr_mh_y___8 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_mh_8_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_gi_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_gi_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_mh_9_y",
+                "isVis": "ra_fb_5yr_gi_y___1 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_mh_9_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_mh_10_y",
+                "isVis": "ra_fb_5yr_gi_y___2 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_mh_10_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_mh_11_y",
+                "isVis": "ra_fb_5yr_gi_y___3 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_mh_11_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_mh_12_y",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_mh_12_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ce_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ce_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ce_10_y",
+                "isVis": "ra_fb_5yr_ce_y___10 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ce_10_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ce_1_y",
+                "isVis": "ra_fb_5yr_ce_y___1 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ce_1_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ce_14_y",
+                "isVis": "ra_fb_5yr_ce_y___14 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ce_14_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ce_2_y",
+                "isVis": "ra_fb_5yr_ce_y___2 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ce_2_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ce_16_y",
+                "isVis": "ra_fb_5yr_ce_y___16 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ce_16_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ce_3_y",
+                "isVis": "ra_fb_5yr_ce_y___3 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ce_3_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ce_4_y",
+                "isVis": "ra_fb_5yr_ce_y___4 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ce_4_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ce_5_y",
+                "isVis": "ra_fb_5yr_ce_y___5 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ce_5_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ce_6_y",
+                "isVis": "ra_fb_5yr_ce_y___6 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ce_6_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ce_19_y",
+                "isVis": "ra_fb_5yr_ce_y___19 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ce_19_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ce_11_y",
+                "isVis": "ra_fb_5yr_ce_y___11 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ce_11_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ce_12_y",
+                "isVis": "ra_fb_5yr_ce_y___12 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ce_12_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ce_18_y",
+                "isVis": "ra_fb_5yr_ce_y___18 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ce_18_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ce_17_y",
+                "isVis": "ra_fb_5yr_ce_y___17 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ce_17_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ce_8_y",
+                "isVis": "ra_fb_5yr_ce_y___8 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ce_8_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ce_7_y",
+                "isVis": "ra_fb_5yr_ce_y___7 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ce_7_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ce_13_y",
+                "isVis": "ra_fb_5yr_ce_y___13 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ce_13_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ce_9_y",
+                "isVis": "ra_fb_5yr_ce_y___9 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ce_9_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ph_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ph_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ph_1_y",
+                "isVis": "ra_fb_5yr_ph_y___1 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ph_1_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ph_10_y",
+                "isVis": "ra_fb_5yr_ph_y___10 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ph_10_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ph_11_y",
+                "isVis": "ra_fb_5yr_ph_y___11 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ph_11_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ph_2_y",
+                "isVis": "ra_fb_5yr_ph_y___2 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ph_2_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ph_3_y",
+                "isVis": "ra_fb_5yr_ph_y___3 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ph_3_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ph_6_y",
+                "isVis": "ra_fb_5yr_ph_y___6 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ph_6_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ph_8_y",
+                "isVis": "ra_fb_5yr_ph_y___8 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ph_8_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ph_4_y",
+                "isVis": "ra_fb_5yr_ph_y___4 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ph_4_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ph_12_y",
+                "isVis": "ra_fb_5yr_ph_y___12 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ph_12_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ph_7_y",
+                "isVis": "ra_fb_5yr_ph_y___7 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ph_7_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ph_13_y",
+                "isVis": "ra_fb_5yr_ph_y___13 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ph_13_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ph_5_y",
+                "isVis": "ra_fb_5yr_ph_y___5 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ph_5_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ph_9_y",
+                "isVis": "ra_fb_5yr_ph_y___9 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ph_9_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_mt_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_mt_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_mt_1_y",
+                "isVis": "ra_fb_5yr_mt_y___1 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_mt_1_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_mt_2_y",
+                "isVis": "ra_fb_5yr_mt_y___2 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_mt_2_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_mt_3_y",
+                "isVis": "ra_fb_5yr_mt_y___3 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_mt_3_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_mt_4_y",
+                "isVis": "ra_fb_5yr_mt_y___4 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_mt_4_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_mt_5_y",
+                "isVis": "ra_fb_5yr_mt_y___5 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_mt_5_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_mt_6_y",
+                "isVis": "ra_fb_5yr_mt_y___6 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_mt_6_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ncg_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ncg_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ncg_1_y",
+                "isVis": "ra_fb_5yr_ncg_y___1 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ncg_1_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ncg_2_y",
+                "isVis": "ra_fb_5yr_ncg_y___2 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ncg_2_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ncg_3_y",
+                "isVis": "ra_fb_5yr_ncg_y___3 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ncg_3_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ncg_5_y",
+                "isVis": "ra_fb_5yr_ncg_y___5 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ncg_5_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ncg_6_y",
+                "isVis": "ra_fb_5yr_ncg_y___6 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ncg_6_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ncg_7_y",
+                "isVis": "ra_fb_5yr_ncg_y___7 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ncg_7_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ncg_8_y",
+                "isVis": "ra_fb_5yr_ncg_y___8 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ncg_8_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ncg_9_y",
+                "isVis": "ra_fb_5yr_ncg_y___9 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ncg_9_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ncg_10_y",
+                "isVis": "ra_fb_5yr_ncg_y___10 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ncg_10_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ncg_11_y",
+                "isVis": "ra_fb_5yr_ncg_y___11 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ncg_11_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ncg_12_y",
+                "isVis": "ra_fb_5yr_ncg_y___12 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ncg_12_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_ncg_4_y",
+                "isVis": "ra_fb_5yr_ncg_y___4 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_ncg_4_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_intro_y",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_intro_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_assent_y",
+                "isVis": "ra_fb_5yr_intro_y___1 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_assent_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_clos_1_y",
+                "isVis": "ra_fb_5yr_intro_y___2 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_clos_1_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_clos_3_y",
+                "isVis": "ra_fb_5yr_intro_y___3 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_clos_3_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_clos_5_y",
+                "isVis": "ra_fb_5yr_intro_y___5 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_clos_5_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_clos_6_y",
+                "isVis": "ra_fb_5yr_intro_y___6 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_clos_6_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_clos_7_y",
+                "isVis": "ra_fb_5yr_intro_y___7 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_clos_7_y"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_other_2",
+                "isVis": "ra_fb_5yr_intro_y___4 == '1'",
+                "valueRequired": false,
+                "variableName": "ra_fb_5yr_other_2"
+            },
+            {
+                "isAbout": "items/ra_fb_5yr_time_y",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ra_fb_5yr_time_y"
+            },
+            {
+                "isAbout": "items/y_ra_pilot_data_5yr_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "y_ra_pilot_data_5yr_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2744",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

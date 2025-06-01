@@ -1,0 +1,73 @@
+{
+    "id": "ra_fb_5yr_mt_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "LV"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210407 @HIDECHOICE = '1, 2, 4, 5, 6'"
+        }
+    ],
+    "preamble": {
+        "en": "Please use this form to document any feedback regarding the 5-year follow-up YOUTH protocol elements.\n\nInput information on REDCap related issues such as: typos, branching logic, redundancy or omissions, concerns about the wording or meaning of items, pilot's observations, checklists, SOP(s), etc."
+    },
+    "prefLabel": {
+        "en": "ra_fb_5yr_mt_y"
+    },
+    "question": {
+        "en": "Mobile Tech Module"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Fitbit Pre"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Fitbit Post"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Screen Time"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Fitbit Setup"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "EARS Pre-Assessment"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "EARS Setup"
+                },
+                "value": 6
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

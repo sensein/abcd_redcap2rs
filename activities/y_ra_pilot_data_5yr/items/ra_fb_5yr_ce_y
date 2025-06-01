@@ -1,0 +1,145 @@
+{
+    "id": "ra_fb_5yr_ce_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "LV"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210504 @HIDECHOICE = '10, 6, 7, 13'"
+        }
+    ],
+    "preamble": {
+        "en": "Please use this form to document any feedback regarding the 5-year follow-up YOUTH protocol elements.\n\nInput information on REDCap related issues such as: typos, branching logic, redundancy or omissions, concerns about the wording or meaning of items, pilot's observations, checklists, SOP(s), etc."
+    },
+    "prefLabel": {
+        "en": "ra_fb_5yr_ce_y"
+    },
+    "question": {
+        "en": "Culture and Environment Module"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Mexican Cultural Values Scale"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Prosocial Tendencies"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Multi-Group Ethnic Identity (MEIM-R)"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "Vancouver Index of Acculturation"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Neglectful Behavior Scale"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "Parental Monitoring"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "CRPBI Acceptance Subscale"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Family Environment - Scale"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Activity Space"
+                },
+                "value": 19
+            },
+            {
+                "name": {
+                    "en": "Neighborhood Safety & Crime"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Peer Behavior Profile"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Peer Network Health"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Resistance to Peer Influence"
+                },
+                "value": 18
+            },
+            {
+                "name": {
+                    "en": "Pet Ownership"
+                },
+                "value": 17
+            },
+            {
+                "name": {
+                    "en": "Wills Problem Solving"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Discrimination Measure"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "School Attendance and Grades"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "School Risk & Protective Factors"
+                },
+                "value": 9
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

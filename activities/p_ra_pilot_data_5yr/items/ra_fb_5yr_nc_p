@@ -1,0 +1,39 @@
+{
+    "id": "ra_fb_5yr_nc_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210406 @HIDDEN"
+        }
+    ],
+    "preamble": {
+        "en": "Please use this form to document any feedback regarding the 5-year follow-up PARENT protocol elements.\n\nInput information on REDCap related issues such as: typos, branching logic, redundancy or omissions, concerns about the wording or meaning of items, pilot's observations, checklists, SOP(s), etc."
+    },
+    "prefLabel": {
+        "en": "ra_fb_5yr_nc_p"
+    },
+    "question": {
+        "en": "Please check any instrument where you have issues to report in Neurocognition"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "P_Barkeley Deficits in Executive Functioning"
+                },
+                "value": 1
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

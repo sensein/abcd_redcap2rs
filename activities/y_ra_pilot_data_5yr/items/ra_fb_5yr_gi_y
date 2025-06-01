@@ -1,0 +1,55 @@
+{
+    "id": "ra_fb_5yr_gi_y",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Custom Alignment",
+            "source": "redcap",
+            "value": "LV"
+        },
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "HIDEFROMCOMPLETION20210504 @HIDECHOICE = '3'"
+        }
+    ],
+    "preamble": {
+        "en": "Please use this form to document any feedback regarding the 5-year follow-up YOUTH protocol elements.\n\nInput information on REDCap related issues such as: typos, branching logic, redundancy or omissions, concerns about the wording or meaning of items, pilot's observations, checklists, SOP(s), etc."
+    },
+    "prefLabel": {
+        "en": "ra_fb_5yr_gi_y"
+    },
+    "question": {
+        "en": "Gender Identity Module"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Gender Identity Measure"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "GISH_2"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "GISH_3"
+                },
+                "value": 3
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
