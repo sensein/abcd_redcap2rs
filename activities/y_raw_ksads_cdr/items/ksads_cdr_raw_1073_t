@@ -1,0 +1,27 @@
+{
+    "id": "ksads_cdr_raw_1073_t",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "ksads_cdr_raw_1073_t"
+    },
+    "question": {
+        "en": "In the past two weeks, how often have you hurt or tried to hurt an animal on purpose?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

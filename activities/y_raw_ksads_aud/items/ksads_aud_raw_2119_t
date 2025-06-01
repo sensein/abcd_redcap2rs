@@ -1,0 +1,27 @@
+{
+    "id": "ksads_aud_raw_2119_t",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "ksads_aud_raw_2119_t"
+    },
+    "question": {
+        "en": "What is the longest period of time you have gone without drinking? Please enter weeks, months, or years."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

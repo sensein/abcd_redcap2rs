@@ -1,0 +1,27 @@
+{
+    "id": "ksads_cdr_raw_1059_t",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "ksads_cdr_raw_1059_t"
+    },
+    "question": {
+        "en": "In the past two weeks, have you stayed out all night without permission or run away?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,27 @@
+{
+    "id": "ksads_eatingdis_raw_365_t",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "ksads_eatingdis_raw_365_t"
+    },
+    "question": {
+        "en": "In the past two weeks, how many days have you made yourself throw up to try to control your weight or because you were upset that you ate too much?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

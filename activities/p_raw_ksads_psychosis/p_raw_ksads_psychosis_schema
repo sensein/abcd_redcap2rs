@@ -1,0 +1,675 @@
+{
+    "id": "p_raw_ksads_psychosis_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "p_raw_ksads_psychosis"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ksads_psychosis_raw_163_p",
+            "items/ksads_psychosis_raw_164_p",
+            "items/ksads_psychosis_raw_165_p",
+            "items/ksads_psychosis_raw_166_p",
+            "items/ksads_psychosis_raw_167_p",
+            "items/ksads_psychosis_raw_168_p",
+            "items/ksads_psychosis_raw_169_p",
+            "items/ksads_psychosis_raw_170_p",
+            "items/ksads_psychosis_raw_171_p",
+            "items/ksads_psychosis_raw_172_p",
+            "items/ksads_psychosis_raw_173_p",
+            "items/ksads_psychosis_raw_174_p",
+            "items/ksads_psychosis_raw_175_p",
+            "items/ksads_psychosis_raw_1662_p",
+            "items/ksads_psychosis_raw_1663_p",
+            "items/ksads_psychosis_raw_1664_p",
+            "items/ksads_psychosis_raw_1665_p",
+            "items/ksads_psychosis_raw_1666_p",
+            "items/ksads_psychosis_raw_1667_p",
+            "items/ksads_psychosis_raw_1668_p",
+            "items/ksads_psychosis_raw_1669_p",
+            "items/ksads_psychosis_raw_1670_p",
+            "items/ksads_psychosis_raw_1671_p",
+            "items/ksads_psychosis_raw_1672_p",
+            "items/ksads_psychosis_raw_1673_p",
+            "items/ksads_psychosis_raw_1674_p",
+            "items/ksads_psychosis_raw_1675_p",
+            "items/ksads_psychosis_raw_1676_p",
+            "items/ksads_psychosis_raw_1677_p",
+            "items/ksads_psychosis_raw_1678_p",
+            "items/ksads_psychosis_raw_1679_p",
+            "items/ksads_psychosis_raw_1680_p",
+            "items/ksads_psychosis_raw_1681_p",
+            "items/ksads_psychosis_raw_1682_p",
+            "items/ksads_psychosis_raw_1683_p",
+            "items/ksads_psychosis_raw_1684_p",
+            "items/ksads_psychosis_raw_1685_p",
+            "items/ksads_psychosis_raw_1686_p",
+            "items/ksads_psychosis_raw_1687_p",
+            "items/ksads_psychosis_raw_1688_p",
+            "items/ksads_psychosis_raw_1689_p",
+            "items/ksads_psychosis_raw_1690_p",
+            "items/ksads_psychosis_raw_1691_p",
+            "items/ksads_psychosis_raw_1692_p",
+            "items/ksads_psychosis_raw_1693_p",
+            "items/ksads_psychosis_raw_1694_p",
+            "items/ksads_psychosis_raw_1695_p",
+            "items/ksads_psychosis_raw_1696_p",
+            "items/ksads_psychosis_raw_1697_p",
+            "items/ksads_psychosis_raw_1698_p",
+            "items/ksads_psychosis_raw_1699_p",
+            "items/ksads_psychosis_raw_1700_p",
+            "items/ksads_psychosis_raw_1701_p",
+            "items/ksads_psychosis_raw_1702_p",
+            "items/ksads_psychosis_raw_1703_p",
+            "items/ksads_psychosis_raw_1704_p",
+            "items/ksads_psychosis_raw_1705_p",
+            "items/ksads_psychosis_raw_1706_p",
+            "items/ksads_psychosis_raw_1707_p",
+            "items/ksads_psychosis_raw_1708_p",
+            "items/ksads_psychosis_raw_1709_p",
+            "items/ksads_psychosis_raw_1710_p",
+            "items/ksads_psychosis_raw_1711_p",
+            "items/ksads_psychosis_raw_1712_p",
+            "items/ksads_psychosis_raw_1713_p",
+            "items/ksads_psychosis_raw_1714_p",
+            "items/ksads_psychosis_raw_1715_p",
+            "items/ksads_psychosis_raw_1716_p",
+            "items/ksads_psychosis_raw_1717_p",
+            "items/ksads_psychosis_raw_1718_p",
+            "items/ksads_psychosis_raw_1719_p",
+            "items/ksads_psychosis_raw_1720_p",
+            "items/ksads_psychosis_raw_1721_p",
+            "items/ksads_psychosis_raw_1722_p",
+            "items/ksads_psychosis_raw_1723_p",
+            "items/ksads_psychosis_raw_1724_p",
+            "items/ksads_psychosis_raw_1725_p",
+            "items/ksads_psychosis_raw_1726_p",
+            "items/ksads_psychosis_raw_1727_p",
+            "items/ksads_psychosis_raw_1728_p",
+            "items/ksads_psychosis_raw_1729_p",
+            "items/ksads_psychosis_raw_1730_p",
+            "items/ksads_psychosis_raw_1731_p",
+            "items/ksads_psychosis_raw_1732_p",
+            "items/ksads_psychosis_raw_1733_p",
+            "items/ksads_psychosis_raw_1734_p",
+            "items/ksads_psychosis_raw_1735_p",
+            "items/ksads_psychosis_raw_1736_p",
+            "items/ksads_psychosis_raw_1737_p",
+            "items/ksads_psychosis_raw_1738_p",
+            "items/ksads_psychosis_raw_1739_p",
+            "items/ksads_psychosis_raw_1740_p",
+            "items/ksads_psychosis_raw_1741_p",
+            "items/p_raw_ksads_psychosis_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ksads_psychosis_raw_163_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_163_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_164_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_164_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_165_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_165_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_166_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_166_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_167_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_167_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_168_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_168_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_169_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_169_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_170_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_170_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_171_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_171_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_172_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_172_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_173_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_173_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_174_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_174_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_175_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_175_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1662_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1662_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1663_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1663_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1664_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1664_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1665_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1665_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1666_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1666_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1667_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1667_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1668_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1668_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1669_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1669_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1670_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1670_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1671_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1671_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1672_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1672_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1673_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1673_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1674_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1674_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1675_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1675_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1676_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1676_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1677_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1677_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1678_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1678_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1679_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1679_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1680_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1680_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1681_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1681_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1682_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1682_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1683_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1683_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1684_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1684_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1685_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1685_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1686_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1686_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1687_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1687_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1688_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1688_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1689_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1689_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1690_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1690_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1691_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1691_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1692_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1692_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1693_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1693_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1694_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1694_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1695_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1695_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1696_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1696_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1697_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1697_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1698_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1698_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1699_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1699_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1700_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1700_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1701_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1701_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1702_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1702_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1703_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1703_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1704_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1704_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1705_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1705_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1706_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1706_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1707_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1707_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1708_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1708_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1709_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1709_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1710_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1710_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1711_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1711_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1712_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1712_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1713_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1713_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1714_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1714_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1715_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1715_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1716_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1716_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1717_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1717_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1718_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1718_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1719_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1719_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1720_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1720_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1721_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1721_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1722_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1722_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1723_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1723_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1724_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1724_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1725_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1725_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1726_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1726_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1727_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1727_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1728_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1728_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1729_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1729_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1730_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1730_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1731_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1731_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1732_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1732_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1733_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1733_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1734_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1734_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1735_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1735_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1736_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1736_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1737_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1737_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1738_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1738_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1739_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1739_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1740_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1740_p"
+            },
+            {
+                "isAbout": "items/ksads_psychosis_raw_1741_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_psychosis_raw_1741_p"
+            },
+            {
+                "isAbout": "items/p_raw_ksads_psychosis_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "p_raw_ksads_psychosis_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2726",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

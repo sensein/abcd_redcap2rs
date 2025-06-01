@@ -1,0 +1,27 @@
+{
+    "id": "ksads_cdr_raw_500_t",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "ksads_cdr_raw_500_t"
+    },
+    "question": {
+        "en": "You said that in the past two weeks you often told lies; cut school without the permission of your parents; and often made fun of or picked on other kids. When did this begin?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

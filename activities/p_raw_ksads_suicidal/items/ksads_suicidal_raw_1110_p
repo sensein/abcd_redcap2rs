@@ -1,0 +1,27 @@
+{
+    "id": "ksads_suicidal_raw_1110_p",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Field Annotation",
+            "source": "redcap",
+            "value": "@READONLY"
+        }
+    ],
+    "prefLabel": {
+        "en": "ksads_suicidal_raw_1110_p"
+    },
+    "question": {
+        "en": "You mentioned earlier that in the past two weeks you had thoughts that you wished that you were dead. Have you made any preparations for killing yourself?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

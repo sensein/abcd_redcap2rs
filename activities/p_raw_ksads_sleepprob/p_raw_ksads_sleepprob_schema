@@ -1,0 +1,59 @@
+{
+    "id": "p_raw_ksads_sleepprob_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "p_raw_ksads_sleepprob"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ksads_sleepprob_raw_814_p",
+            "items/ksads_sleepprob_raw_815_p",
+            "items/ksads_sleepprob_raw_816_p",
+            "items/ksads_sleepprob_raw_817_p",
+            "items/ksads_sleepprob_raw_818_p",
+            "items/p_raw_ksads_sleepprob_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ksads_sleepprob_raw_814_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_sleepprob_raw_814_p"
+            },
+            {
+                "isAbout": "items/ksads_sleepprob_raw_815_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_sleepprob_raw_815_p"
+            },
+            {
+                "isAbout": "items/ksads_sleepprob_raw_816_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_sleepprob_raw_816_p"
+            },
+            {
+                "isAbout": "items/ksads_sleepprob_raw_817_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_sleepprob_raw_817_p"
+            },
+            {
+                "isAbout": "items/ksads_sleepprob_raw_818_p",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ksads_sleepprob_raw_818_p"
+            },
+            {
+                "isAbout": "items/p_raw_ksads_sleepprob_complete",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "p_raw_ksads_sleepprob_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid2726",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

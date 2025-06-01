@@ -339,7 +339,28 @@
             "../activities/p_abcd_covid19_questionnaire_part_1/p_abcd_covid19_questionnaire_part_1_schema",
             "../activities/p_abcd_covid19_questionnaire_part_2/p_abcd_covid19_questionnaire_part_2_schema",
             "../activities/acs_post_stratification_weights_daic_use_only/acs_post_stratification_weights_daic_use_only_schema",
-            "../activities/little_man_task_daic_use_only/little_man_task_daic_use_only_schema"
+            "../activities/little_man_task_daic_use_only/little_man_task_daic_use_only_schema",
+            "../activities/y_raw_ksads_suicidal/y_raw_ksads_suicidal_schema",
+            "../activities/y_raw_ksads_sleepprob/y_raw_ksads_sleepprob_schema",
+            "../activities/y_raw_ksads_sad/y_raw_ksads_sad_schema",
+            "../activities/y_raw_ksads_gad/y_raw_ksads_gad_schema",
+            "../activities/y_raw_ksads_eatingdis/y_raw_ksads_eatingdis_schema",
+            "../activities/y_raw_ksads_dud/y_raw_ksads_dud_schema",
+            "../activities/y_raw_ksads_dp/y_raw_ksads_dp_schema",
+            "../activities/y_raw_ksads_dmdd/y_raw_ksads_dmdd_schema",
+            "../activities/y_raw_ksads_cdr/y_raw_ksads_cdr_schema",
+            "../activities/y_raw_ksads_bd/y_raw_ksads_bd_schema",
+            "../activities/y_raw_ksads_aud/y_raw_ksads_aud_schema",
+            "../activities/p_raw_ksads_td/p_raw_ksads_td_schema",
+            "../activities/p_raw_ksads_suicidal/p_raw_ksads_suicidal_schema",
+            "../activities/p_raw_ksads_sleepprob/p_raw_ksads_sleepprob_schema",
+            "../activities/p_raw_ksads_sad/p_raw_ksads_sad_schema",
+            "../activities/p_raw_ksads_sa/p_raw_ksads_sa_schema",
+            "../activities/p_raw_ksads_psychosis/p_raw_ksads_psychosis_schema",
+            "../activities/p_raw_ksads_phobia/p_raw_ksads_phobia_schema",
+            "../activities/p_raw_ksads_pd/p_raw_ksads_pd_schema",
+            "../activities/p_raw_odd_dp/p_raw_odd_dp_schema",
+            "../activities/p_raw_ksads_ocd/p_raw_ksads_ocd_schema"
         ],
         "addProperties": [
             {
@@ -2981,10 +3002,178 @@
                     "en": "Little Man Task Daic Use Only"
                 },
                 "variableName": "little_man_task_daic_use_only_schema"
+            },
+            {
+                "isAbout": "../activities/y_raw_ksads_suicidal/y_raw_ksads_suicidal_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Raw Ksads Suicidal"
+                },
+                "variableName": "y_raw_ksads_suicidal_schema"
+            },
+            {
+                "isAbout": "../activities/y_raw_ksads_sleepprob/y_raw_ksads_sleepprob_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Raw Ksads Sleepprob"
+                },
+                "variableName": "y_raw_ksads_sleepprob_schema"
+            },
+            {
+                "isAbout": "../activities/y_raw_ksads_sad/y_raw_ksads_sad_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Raw Ksads Sad"
+                },
+                "variableName": "y_raw_ksads_sad_schema"
+            },
+            {
+                "isAbout": "../activities/y_raw_ksads_gad/y_raw_ksads_gad_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Raw Ksads Gad"
+                },
+                "variableName": "y_raw_ksads_gad_schema"
+            },
+            {
+                "isAbout": "../activities/y_raw_ksads_eatingdis/y_raw_ksads_eatingdis_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Raw Ksads Eatingdis"
+                },
+                "variableName": "y_raw_ksads_eatingdis_schema"
+            },
+            {
+                "isAbout": "../activities/y_raw_ksads_dud/y_raw_ksads_dud_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Raw Ksads Dud"
+                },
+                "variableName": "y_raw_ksads_dud_schema"
+            },
+            {
+                "isAbout": "../activities/y_raw_ksads_dp/y_raw_ksads_dp_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Raw Ksads Dp"
+                },
+                "variableName": "y_raw_ksads_dp_schema"
+            },
+            {
+                "isAbout": "../activities/y_raw_ksads_dmdd/y_raw_ksads_dmdd_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Raw Ksads Dmdd"
+                },
+                "variableName": "y_raw_ksads_dmdd_schema"
+            },
+            {
+                "isAbout": "../activities/y_raw_ksads_cdr/y_raw_ksads_cdr_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Raw Ksads Cdr"
+                },
+                "variableName": "y_raw_ksads_cdr_schema"
+            },
+            {
+                "isAbout": "../activities/y_raw_ksads_bd/y_raw_ksads_bd_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Raw Ksads Bd"
+                },
+                "variableName": "y_raw_ksads_bd_schema"
+            },
+            {
+                "isAbout": "../activities/y_raw_ksads_aud/y_raw_ksads_aud_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Y Raw Ksads Aud"
+                },
+                "variableName": "y_raw_ksads_aud_schema"
+            },
+            {
+                "isAbout": "../activities/p_raw_ksads_td/p_raw_ksads_td_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "P Raw Ksads Td"
+                },
+                "variableName": "p_raw_ksads_td_schema"
+            },
+            {
+                "isAbout": "../activities/p_raw_ksads_suicidal/p_raw_ksads_suicidal_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "P Raw Ksads Suicidal"
+                },
+                "variableName": "p_raw_ksads_suicidal_schema"
+            },
+            {
+                "isAbout": "../activities/p_raw_ksads_sleepprob/p_raw_ksads_sleepprob_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "P Raw Ksads Sleepprob"
+                },
+                "variableName": "p_raw_ksads_sleepprob_schema"
+            },
+            {
+                "isAbout": "../activities/p_raw_ksads_sad/p_raw_ksads_sad_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "P Raw Ksads Sad"
+                },
+                "variableName": "p_raw_ksads_sad_schema"
+            },
+            {
+                "isAbout": "../activities/p_raw_ksads_sa/p_raw_ksads_sa_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "P Raw Ksads Sa"
+                },
+                "variableName": "p_raw_ksads_sa_schema"
+            },
+            {
+                "isAbout": "../activities/p_raw_ksads_psychosis/p_raw_ksads_psychosis_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "P Raw Ksads Psychosis"
+                },
+                "variableName": "p_raw_ksads_psychosis_schema"
+            },
+            {
+                "isAbout": "../activities/p_raw_ksads_phobia/p_raw_ksads_phobia_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "P Raw Ksads Phobia"
+                },
+                "variableName": "p_raw_ksads_phobia_schema"
+            },
+            {
+                "isAbout": "../activities/p_raw_ksads_pd/p_raw_ksads_pd_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "P Raw Ksads Pd"
+                },
+                "variableName": "p_raw_ksads_pd_schema"
+            },
+            {
+                "isAbout": "../activities/p_raw_odd_dp/p_raw_odd_dp_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "P Raw Odd Dp"
+                },
+                "variableName": "p_raw_odd_dp_schema"
+            },
+            {
+                "isAbout": "../activities/p_raw_ksads_ocd/p_raw_ksads_ocd_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "P Raw Ksads Ocd"
+                },
+                "variableName": "p_raw_ksads_ocd_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid2725",
+    "version": "revid2726",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
